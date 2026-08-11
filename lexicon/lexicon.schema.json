@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bereia.org/schemas/lexicon/1",
+  "title": "Léxico terminológico — Bereia Version",
+  "version": "1.0.0",
+  "description": "Contrato do lexicon/lexicon.json. Invariantes (validadas por internal/lexicon em go test): I-1 lemma+dominio único; I-2 glosa_bv não-vazia; I-3 justificativa obrigatória; I-4 status ∈ {PROPOSED, APPROVED, SUPERSEDED}; I-5 SUPERSEDED exige superseded_por apontando para entrada existente do mesmo lemma; I-6 politica_ref/diretriz_ref quando dominio = nome divino; I-7 primeiras_ocorrencias em formato OSIS; I-8 owner obrigatório; I-9 mudança de glosa APPROVED exige nova entrada + supersede (nunca edição in-place); I-10 versao do léxico bump a cada mudança.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "versao", "owner", "politicas", "entradas"],
+  "properties": {
+    "schema_version": { "type": "string", "pattern": "^1\\.[0-9]+\\.[0-9]+$" },
+    "versao": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "owner": { "type": "string", "minLength": 1 },
+    "politicas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "regra", "justificativa", "diretriz_ref"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "regra": { "type": "string", "minLength": 1 },
+          "justificativa": { "type": "string", "minLength": 1 },
+          "diretriz_ref": { "type": "string", "pattern": "^ER-[0-9]{4}$" },
+          "arquivo": { "type": "string" },
+          "versao_politica": { "type": "string" }
+        }
+      }
+    },
+    "entradas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["lemma", "original", "translit", "glosa_bv", "dominio", "justificativa", "status", "owner", "primeiras_ocorrencias"],
+        "properties": {
+          "lemma": { "type": "string", "pattern": "^[HG][0-9]+[ab]?$" },
+          "original": { "type": "string", "minLength": 1 },
+          "translit": { "type": "string", "minLength": 1 },
+          "glosa_bv": { "type": "string", "minLength": 1 },
+          "dominio": { "type": "string", "minLength": 1 },
+          "justificativa": { "type": "string", "minLength": 1 },
+          "status": { "enum": ["PROPOSED", "APPROVED", "SUPERSEDED"] },
+          "owner": { "type": "string", "minLength": 1 },
+          "primeiras_ocorrencias": {
+            "type": "array", "minItems": 1,
+            "items": { "type": "string", "pattern": "^[1-4]?[A-Z][a-z]+\\.[0-9]+\\.[0-9]+$" }
+          },
+          "politica_ref": { "type": "string" },
+          "diretriz_ref": { "type": "string", "pattern": "^ER-[0-9]{4}$" },
+          "superseded_por": { "type": "string" },
+          "observacao": { "type": "string" }
+        }
+      }
+    }
+  }
+}

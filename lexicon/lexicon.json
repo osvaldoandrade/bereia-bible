@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "versao": "0.2.0",
+  "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
+  "politicas": [
+    {
+      "id": "nomes-divinos",
+      "regra": "YHWH (H3068) -> SENHOR; Elohim (H430, ref. ao Deus de Israel) -> Deus; Adonai (H136) -> Senhor; Adonai YHWH -> Senhor DEUS",
+      "justificativa": "Convencao consolidada no portugues biblico; evita transliteracao do Tetragrama; distincao auditavel entre os nomes via lemma no registro por versiculo.",
+      "diretriz_ref": "ER-0002",
+      "arquivo": "pipeline/rules/NOMES-DIVINOS.md",
+      "versao_politica": "1.0.0"
+    }
+  ],
+  "entradas": [
+    {
+      "lemma": "H3068",
+      "original": "יהוה",
+      "translit": "YHWH",
+      "glosa_bv": "SENHOR",
+      "dominio": "nome divino",
+      "justificativa": "Politica nomes-divinos v1.0.0 (ER-0002).",
+      "status": "APPROVED",
+      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
+      "primeiras_ocorrencias": ["Gen.2.4"],
+      "politica_ref": "nomes-divinos",
+      "diretriz_ref": "ER-0002"
+    },
+    {
+      "lemma": "H430",
+      "original": "אֱלֹהִים",
+      "translit": "elohim",
+      "glosa_bv": "Deus",
+      "dominio": "nome divino",
+      "justificativa": "Plural morfologico com concordancia verbal singular quando o referente e o Deus de Israel; 'deuses' apenas com referente plural indicado por contexto e concordancia.",
+      "status": "APPROVED",
+      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
+      "primeiras_ocorrencias": ["Gen.1.1"],
+      "politica_ref": "nomes-divinos",
+      "diretriz_ref": "ER-0002"
+    }
+  ]
+}
