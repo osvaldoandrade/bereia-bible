@@ -22,15 +22,23 @@ verify: lint build test
 	./bin/bvcheck -records translation/01-gn/001 -lexicon lexicon/lexicon.json
 	cd sources && shasum -a 256 -c manifest.sha256
 
+# Pericope parameters (defaults reproduce the pilot packet byte-for-byte)
+CHAPTER ?= 1
+FROM ?= 1
+TO ?= 5
+PERICOPE ?= Gen.$(CHAPTER).$(FROM)-$(TO)
+PACKET_OUT ?= pipeline/packets/gen-001-00$(FROM)-00$(TO).json
+BLIND_OUT ?= pipeline/packets/gen-001-00$(FROM)-00$(TO).blind.json
+
 packets: build
-	./bin/bvsrc -oshb sources/oshb/Gen.xml -osis Gen -chapter 1 -from 1 -to 5 \
-	  -pericope Gen.1.1-5 \
+	./bin/bvsrc -oshb sources/oshb/Gen.xml -osis Gen -chapter $(CHAPTER) -from $(FROM) -to $(TO) \
+	  -pericope $(PERICOPE) \
 	  -web sources/web/web.getbible.json -kjv sources/kjv/kjv.getbible.json \
-	  -livre sources/pt-pd/livre.getbible.json -out pipeline/packets/gen-001-001-005.json
+	  -livre sources/pt-pd/livre.getbible.json -out $(PACKET_OUT)
 
 packets-blind: build
-	./bin/bvsrc -oshb sources/oshb/Gen.xml -osis Gen -chapter 1 -from 1 -to 5 \
-	  -pericope Gen.1.1-5 -out pipeline/packets/gen-001-001-005.blind.json
+	./bin/bvsrc -oshb sources/oshb/Gen.xml -osis Gen -chapter $(CHAPTER) -from $(FROM) -to $(TO) \
+	  -pericope $(PERICOPE) -out $(BLIND_OUT)
 
 clean:
 	rm -rf bin

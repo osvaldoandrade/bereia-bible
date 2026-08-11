@@ -162,3 +162,10 @@ remoção do diretório. Nenhum dado de produção, nenhum serviço, nenhuma pub
   dashboards, load test, branch remota (repo local sem serviço em runtime)
 - status final: ENCERRADO em 2026-08-11 — pendências transferidas para follow-ups F-0001..F-0013
   e ratificação humana (REVIEW → APPROVED) em decisions/DECISOES.md
+
+## Ciclos de perícope (pós-bootstrap)
+
+| Perícope | Tier | Data | Status |
+|---|---|---|---|
+| Gen.1.1-5 (dia um) | T3 (bootstrap) | 2026-08-11 | APPROVED (ER-0014) |
+| Gen.1.6-8 (dia dois) | T2 | 2026-08-11 | em execução — registro editorial ER-0011..0013 vinculante desde o ciclo 1 |
