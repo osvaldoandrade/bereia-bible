@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "generated": "2026-08-11",
+  "entries": [
+    {
+      "id": "oshb",
+      "role": "AT: autoridade textual (WLC com morfologia — Open Scriptures Hebrew Bible)",
+      "file": "sources/oshb/Gen.xml",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml",
+      "mirrors": [
+        "https://github.com/openscriptures/morphhb"
+      ],
+      "git_commit": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "license_spdx": "CC-BY-4.0",
+      "license_name": "Creative Commons Attribution 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Open Scriptures Hebrew Bible (OSHB), Westminster Leningrad Codex com morfologia, CC BY 4.0",
+      "usage_scope": "textual-authority",
+      "retirement_condition": "Upstream alterar licenciamento ou texto do WLC divergir de edicao critica adotada",
+      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
+      "retrieved": "2026-08-11",
+      "notes": "Somente Genesis nesta fase; demais livros serao baixados sob o MESMO commit pinado.",
+      "sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "size_bytes": 1859928
+    },
+    {
+      "id": "opengnt",
+      "role": "NT: apoio analitico EM QUARENTENA (OpenGNT base text v3.3)",
+      "file": "sources/opengnt/OpenGNT_BASE_TEXT.zip",
+      "url": "https://raw.githubusercontent.com/eliranwong/OpenGNT/0029589cccd50bd48b1941aa041a956de6c29ac4/OpenGNT_BASE_TEXT.zip",
+      "mirrors": [
+        "https://github.com/eliranwong/OpenGNT"
+      ],
+      "git_commit": "0029589cccd50bd48b1941aa041a956de6c29ac4",
+      "license_spdx": "CC-BY-NC-SA-4.0",
+      "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "attribution": "OpenGNT (Eliran Wong), CC BY-NC-SA 4.0",
+      "usage_scope": "analysis-only-quarantined",
+      "retirement_condition": "ADR da fase NT resolve o licenciamento; autoridade textual NT ira para edicao PD (Nestle 1904) salvo decisao contraria (ER/ADR)",
+      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
+      "retrieved": "2026-08-11",
+      "notes": "QUARENTENA (ADR-0001): nenhum campo de registro BV pode derivar de anotacao exclusiva do OpenGNT enquanto a quarentena vigorar. Ver sources/opengnt/README-QUARENTENA.md.",
+      "sha256": "7d8377bad8d8c836272ca67a646024a303e524434345c61ee288b82d13f8e712",
+      "size_bytes": 8351123
+    },
+    {
+      "id": "web",
+      "role": "Controle independente (ingles)",
+      "file": "sources/web/web.getbible.json",
+      "url": "https://api.getbible.net/v2/web.json",
+      "mirrors": [
+        "https://ebible.org/web/"
+      ],
+      "git_commit": null,
+      "license_spdx": "LicenseRef-PublicDomain",
+      "license_name": "Dominio publico",
+      "license_url": "https://worldenglish.bible/",
+      "attribution": "World English Bible (WEB), dominio publico",
+      "usage_scope": "qa-control-only",
+      "retirement_condition": "Substituicao por snapshot USFX da ebible.org com data de edicao explicita",
+      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
+      "retrieved": "2026-08-11",
+      "notes": "Transporte: getBible v2.",
+      "sha256": "731ddc05b7570ac0c525a74e4a49d6da4f922aec18e7e982514a4f88432ad1ac",
+      "size_bytes": 8839233
+    },
+    {
+      "id": "kjv",
+      "role": "Controle historico (ingles)",
+      "file": "sources/kjv/kjv.getbible.json",
+      "url": "https://api.getbible.net/v2/kjv.json",
+      "mirrors": [
+        "https://ebible.org/eng-kjv/"
+      ],
+      "git_commit": null,
+      "license_spdx": "LicenseRef-PublicDomain-outside-UK",
+      "license_name": "Dominio publico fora do Reino Unido (Crown patent no UK)",
+      "license_url": "https://www.cambridge.org/bibles/about/rights-and-permissions",
+      "attribution": "King James Version (1769), dominio publico fora do Reino Unido",
+      "usage_scope": "qa-control-only",
+      "retirement_condition": "Nao aplicavel (controle historico estavel)",
+      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
+      "retrieved": "2026-08-11",
+      "notes": "Rotulo 'GPL' do transporte getBible refere-se ao empacotamento, nao ao texto.",
+      "sha256": "c85b09b4828a45f15a60d25732c2f4279aaefba1f5f6c41c2e1b4d51c8d4170e",
+      "size_bytes": 8862703
+    },
+    {
+      "id": "livre",
+      "role": "Controle historico pt-BR (linhagem Almeida 1819 / Textus Receptus)",
+      "file": "sources/pt-pd/livre.getbible.json",
+      "url": "https://api.getbible.net/v2/livre.json",
+      "mirrors": [
+        "https://ebible.org/find/details.php?id=porbr2018"
+      ],
+      "git_commit": null,
+      "license_spdx": "CC-BY-3.0",
+      "license_name": "Creative Commons Attribution 3.0 Brazil (declarado pelo transporte; verificacao pendente F-0006)",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/br/",
+      "attribution": "Biblia Livre (BLIVRE), CC BY 3.0 BR",
+      "usage_scope": "qa-control-only",
+      "retirement_condition": "Chegada de Almeida 1911 / Traducao Brasileira 1917 digitalizada (F-0001) pode rebaixa-la a controle secundario",
+      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
+      "retrieved": "2026-08-11",
+      "notes": "SUBSTITUICAO da Almeida 1911 (ER-0005). Verificar licenca exata na pagina da eBible (F-0006).",
+      "sha256": "a9bd8d62c4633d84d5df2ea3636791533d79e786dcae8d0a6632899de398d02e",
+      "size_bytes": 9069674
+    }
+  ]
+}
