@@ -1,6 +1,7 @@
 # Regras editoriais — Bereia Version
 
-Versão: **1.0.0** · Status: ATIVA · Mudanças exigem bump SemVer + registro em `decisions/DECISOES.md`.
+Versão: **1.1.0** · Status: ATIVA · Mudanças exigem bump SemVer + registro em `decisions/DECISOES.md`.
+(1.1.0: §6.2 substituído pela doutrina do calque ER-0013; ordem S-V uniforme ER-0011; nomeação minúscula ER-0012.)
 
 Estas regras governam a *forma* do português da BV. Elas nunca autorizam alterar o
 *sentido* do original. Conflito entre regra editorial e fidelidade semântica →
@@ -43,9 +44,12 @@ Adonai YHWH → Senhor DEUS. Desvio exige adjudicação registrada.
 
 1. Pontuação segue a sintaxe do português, não os acentos massoréticos; o atnach
    informa, mas não obriga vírgula.
-2. Parataxe hebraica (waw consecutivo) pode ser preservada ("E disse Deus…") quando
-   o estilo do trecho for narrativo-litúrgico e o português suportar; a escolha é
-   feita por perícope e registrada uma vez.
+2. Doutrina do calque (ER-0013): a `traducao_literal` preserva todos os calques
+   estruturais (waw paratático integral, repetição formular de sujeito, quiasmos);
+   o texto publicado os normaliza quando soarem artificiais, com adjudicação por
+   versículo. Waw disjuntivo circunstancial não é vertido; wayyiqtol inicial vira
+   "E" só quando a sequência discursiva pedir. Ordem S-V uniforme (ER-0011);
+   nomeação em minúscula (ER-0012).
 3. Poesia recebe quebras de linha (layout futuro); narrativa é prosa corrida.
 
 ## 7. Números e medidas

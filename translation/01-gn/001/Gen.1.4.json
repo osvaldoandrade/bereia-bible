@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Gen.1.1-5"
   },
-  "texto_bv": "E Deus viu que a luz era boa, e Deus separou a luz da escuridão.",
+  "texto_bv": "Deus viu que a luz era boa e separou a luz da escuridão.",
   "traducao_literal": "E viu Deus a luz, que ela era boa; e separou Deus entre a luz e entre a escuridão.",
   "termos_originais": [
     {
@@ -15,8 +15,8 @@
       "translit": "vayyar",
       "lemma": "c/7200",
       "morfologia": "HC/Vqw3ms",
-      "glosa": "e viu",
-      "observacao": "Waw consecutivo + qal wayyiqtol 3ms de ראה; percepção avaliativa ('ver que é bom'), sem amplificação para 'aprovou'."
+      "glosa": "viu",
+      "observacao": "Waw consecutivo + qal wayyiqtol 3ms de ראה; percepção avaliativa ('ver que é bom'), sem amplificação para 'aprovou'. Glosa lexical plena: 'e viu' — o waw inicial não é vertido no texto publicado (ER-0013.1, ratificação do mantenedor) e permanece na traducao_literal ('E viu Deus'); léxico H7200 'ver' (lexicon.json v0.4.0, PROPOSED)."
     },
     {
       "palavra": "אֱלֹהִ֛ים",
@@ -64,7 +64,7 @@
       "lemma": "c/914",
       "morfologia": "HC/Vhw3ms",
       "glosa": "e separou",
-      "observacao": "Waw consecutivo + hifil wayyiqtol 3ms de בדל, causativo lexicalizado de separação/distinção; uso estruturante em Gn 1 (vv. 4, 6, 7, 14, 18). Sem entrada no léxico para H914; entrada futura recomendada (EDITORIAL §11)."
+      "observacao": "Waw consecutivo + hifil wayyiqtol 3ms de בדל, causativo lexicalizado de separação/distinção; uso estruturante em Gn 1 (vv. 4, 6, 7, 14, 18). Glosa alinhada à entrada H914 do lexicon/lexicon.json v0.4.0 ('separar', PROPOSED), criada conforme a recomendação registrada no ciclo 1 (EDITORIAL §11). O 'e' desta ocorrência permanece no publicado: é a coordenação interna dos dois atos, não o waw inicial do versículo (ER-0013.1)."
     },
     {
       "palavra": "אֱלֹהִ֔ים",
@@ -72,7 +72,7 @@
       "lemma": "430",
       "morfologia": "HNcmpa",
       "glosa": "Deus",
-      "observacao": "Segunda ocorrência; repetição deliberada do sujeito (traço estilístico-formular de Gn 1), preservada na tradução. Mesma política de nomes divinos da primeira ocorrência."
+      "observacao": "Segunda ocorrência; repetição deliberada do sujeito (traço estilístico-formular de Gn 1), preservada na traducao_literal ('e separou Deus') e condensada no texto publicado — segundo 'Deus' omitido (ER-0013.2, ratificação do mantenedor). Glosa lexical mantida: 'Deus' (H430 APPROVED, política de nomes divinos ER-0002), aplicada onde a ocorrência é vertida. Mesma política da primeira ocorrência."
     },
     {
       "palavra": "בֵּ֥ין",
@@ -104,7 +104,7 @@
       "lemma": "d/2822",
       "morfologia": "HTd/Ncmsa",
       "glosa": "a escuridão",
-      "observacao": "Artigo + substantivo singular (HTd/Ncmsa); 'a escuridão' preserva o singular do hebraico. Glosa alinhada no ciclo 2 à fixada para H2822 em Gen.1.2 e Gen.1.5 (consistência intra-perícope, EDITORIAL §11; ER-0001) e à entrada H2822 do lexicon/lexicon.json v0.3.0 (PROPOSED). Alternativa 'as trevas' documentada e rejeitada na decisão própria (adjudicação do ciclo 2)."
+      "observacao": "Artigo + substantivo singular (HTd/Ncmsa); 'a escuridão' preserva o singular do hebraico. Glosa alinhada no ciclo 2 à fixada para H2822 em Gen.1.2 e Gen.1.5 (consistência intra-perícope, EDITORIAL §11; ER-0001) e à entrada H2822 do lexicon/lexicon.json v0.4.0 (PROPOSED). Alternativa 'as trevas' documentada e rejeitada na decisão própria (adjudicação do ciclo 2)."
     }
   ],
   "variantes_textuais": [
@@ -168,50 +168,68 @@
     },
     {
       "questao": "Ordem das orações em português",
-      "escolha": "SV: 'E Deus viu…, e Deus separou…'",
-      "justificativa": "A ordem verbo-primeiro do wayyiqtol é obrigatória no hebraico (o waw consecutivo é prefixado ao verbo: HC/Vqw3ms, HC/Vhw3ms) e por isso não-marcada; o equivalente não-marcado do pt-BR contemporâneo é SV (EDITORIAL §1.2, registro formal-neutro, não arcaizante). A ordem VS do original fica preservada na tradução literal.",
+      "escolha": "SV: 'Deus viu… e separou…' (sem inversão verbo-sujeito)",
+      "justificativa": "A ordem verbo-primeiro do wayyiqtol é obrigatória no hebraico (o waw consecutivo é prefixado ao verbo: HC/Vqw3ms, HC/Vhw3ms) e por isso não-marcada; o equivalente não-marcado do pt-BR contemporâneo é SV (EDITORIAL §1.2, registro formal-neutro, não arcaizante). A ordem VS do original fica preservada na tradução literal. Ratificado como diretriz transversal: ER-0011 — ordem S-V uniforme em todos os wayyiqtol do texto publicado (supersede ER-0008); citação do texto atualizada no ciclo 3 para a forma condensada (ER-0013.2).",
       "alternativas_rejeitadas": [
         {
           "opcao": "'E viu Deus…, e separou Deus…'",
           "motivo": "inversão arcaizante no registro contemporâneo; converteria ordem obrigatória do original em ordem marcada do português; coincidiria ainda com a redação do controle 'livre'"
         }
-      ]
+      ],
+      "diretriz_ref": "ER-0011"
     },
     {
-      "questao": "Parataxe do waw consecutivo",
-      "escolha": "Preservar: 'E' inicial e coordenação por 'e'",
-      "justificativa": "EDITORIAL §6.2 autoriza preservar a parataxe em trecho narrativo-litúrgico, com decisão por perícope; para Gen.1.1-5 a cadeia de wayyiqtol é o esqueleto narrativo (vv. 3-5) e a decisão de perícope mantém o 'E' — os quatro agentes convergem.",
+      "questao": "Waw inicial do versículo (וַ de וַיַּ֧רְא) no texto publicado",
+      "escolha": "Não vertido: o versículo abre 'Deus viu…'; a coordenação interna '…e separou' (וַ de וַיַּבְדֵּ֣ל) permanece",
+      "justificativa": "ER-0013.1 (doutrina do calque, ratificação do mantenedor, 2026-08-11): wayyiqtol inicial de versículo é vertido 'E' apenas quando a sequência discursiva o pedir; aqui a linha narrativa já está estabelecida desde o v. 3 e o encadeamento dos atos é dado pela própria sequência, sem necessidade do conector em português. Nenhuma perda de auditoria: o calque paratático integral, 'E' inicial inclusive, permanece na traducao_literal ('E viu Deus…'), camada que preserva os calques (ER-0013), e o waw segue documentado em termos_originais (וַיַּ֧רְא, HC/Vqw3ms, glosa lexical 'e viu'). Substitui a decisão de parataxe dos ciclos 1–2, tomada sob EDITORIAL v1.0.0 §6.2, seção substituída pela doutrina do calque na v1.1.0.",
       "alternativas_rejeitadas": [
         {
-          "opcao": "omitir o conector inicial ('Deus viu…', como no controle web)",
-          "motivo": "apagaria o elo formal da cadeia narrativa com os vv. 1-3 (waw consecutivo)"
+          "opcao": "'E Deus viu…' ('E' inicial, escolha dos ciclos 1–2)",
+          "motivo": "sob a doutrina do calque ratificada, o waw inicial só vira 'E' quando a sequência discursiva o pedir — não é o caso; o elo formal da cadeia wayyiqtol fica auditável na traducao_literal, não no publicado"
         },
         {
           "opcao": "subordinação ('Quando Deus viu…')",
           "motivo": "hipotaxe ausente do original; reestruturaria a sequência de atos"
         }
       ],
-      "diretriz_ref": "ER-0001"
+      "diretriz_ref": "ER-0013"
     },
     {
-      "questao": "Repetição do sujeito אֱלֹהִים na segunda oração",
-      "escolha": "Manter 'Deus' explícito nas duas orações",
-      "justificativa": "O hebraico repete o sujeito embora a referência fosse recuperável — traço estilístico-formular de Gn 1 (o nome recorre em quase toda oração do capítulo); a repetição é deliberada e foi preservada pelos quatro agentes.",
+      "questao": "Repetição formular do sujeito (אֱלֹהִים 2×) no texto publicado",
+      "escolha": "Condensar: segundo 'Deus' omitido — 'Deus viu que a luz era boa e separou a luz da escuridão'",
+      "justificativa": "ER-0013.2 (ratificação do mantenedor, 2026-08-11): repetição formular de sujeito é condensável quando redundante em português. Nas duas coordenadas o sujeito é o mesmo e não há referente concorrente: a elipse é a forma não-marcada do português e não cria ambiguidade de referência em leitura em voz alta/TTS (EDITORIAL §1.3). O traço estilístico-formular do hebraico (o nome repetido embora recuperável) permanece integralmente na traducao_literal ('e separou Deus') e documentado na segunda entrada de אֱלֹהִים em termos_originais. Substitui a decisão dos ciclos 1–2 ('Deus' explícito nas duas orações).",
       "alternativas_rejeitadas": [
         {
-          "opcao": "elipse ('…e separou a luz da escuridão')",
-          "motivo": "apagaria repetição deliberada do original"
+          "opcao": "'…e Deus separou…' (sujeito repetido, escolha dos ciclos 1–2)",
+          "motivo": "redundante em português: atribuiria à segunda oração uma ênfase que a língua de chegada não usa nessa posição; o valor formular está garantido pela camada literal (ER-0013)"
         },
         {
           "opcao": "pronominalização ('…e ele separou…')",
-          "motivo": "idem; e introduziria dependência pronominal desnecessária para leitura em voz alta/TTS (EDITORIAL §1.3)"
+          "motivo": "pronome desnecessário onde a elipse já é inequívoca; dependência pronominal evitável (EDITORIAL §1.3)"
         }
-      ]
+      ],
+      "diretriz_ref": "ER-0013"
+    },
+    {
+      "questao": "Vírgula antes de 'e separou' (ponto do atnach em ט֑וֹב) após a condensação do sujeito",
+      "escolha": "Sem vírgula: '…era boa e separou…'",
+      "justificativa": "Consequência sintática direta de ER-0013.2: com o segundo 'Deus' omitido, as duas orações coordenadas passam a ter sujeito comum, e o português não pontua 'e' entre coordenadas de sujeito comum — a vírgula dos ciclos 1–2 era motivada exatamente pelo sujeito reiterado (ver divergência de pontuação do ciclo 1). EDITORIAL §6.1: a pontuação segue a sintaxe do português; o atnach informa, não obriga — a pausa maior do verso permanece marcada na traducao_literal pelo ponto e vírgula. Ratificação do mantenedor, 2026-08-11.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "vírgula antes de 'e separou' (escolha dos ciclos 1–2)",
+          "motivo": "era a pontuação padrão com sujeito reiterado; com a elipse do sujeito passaria a separar indevidamente coordenadas de sujeito comum"
+        },
+        {
+          "opcao": "ponto e vírgula no ponto do atnach",
+          "motivo": "já rejeitado no ciclo 1; com período curto e sujeito comum a pausa forte é ainda menos motivada (EDITORIAL §6.1)"
+        }
+      ],
+      "diretriz_ref": "ER-0013"
     },
     {
       "questao": "Glosa de וַיַּבְדֵּל (hifil de בדל, H914)",
       "escolha": "'separou'",
-      "justificativa": "Hifil causativo lexicalizado de separação/distinção; 'separar' verte o valor causativo com verbo pleno único e sustenta a consistência com o uso estruturante do lexema em Gn 1 (vv. 4, 6, 7, 14, 18) e com o vocabulário de distinção do corpus (Lv 10:10; 11:47). Sem entrada no léxico para H914; recomenda-se entrada futura (EDITORIAL §11) — encaminhar na verificação de perícope.",
+      "justificativa": "Hifil causativo lexicalizado de separação/distinção; 'separar' verte o valor causativo com verbo pleno único e sustenta a consistência com o uso estruturante do lexema em Gn 1 (vv. 4, 6, 7, 14, 18) e com o vocabulário de distinção do corpus (Lv 10:10; 11:47). A entrada H914 do lexicon/lexicon.json v0.4.0 fixa 'separar' (PROPOSED), consolidando a recomendação de entrada feita no ciclo 1 (EDITORIAL §11).",
       "alternativas_rejeitadas": [
         {
           "opcao": "'dividiu'",
@@ -225,7 +243,8 @@
           "opcao": "'apartou'/'baniu'/'rejeitou'",
           "motivo": "carga de juízo ausente do original — o verso não declara a escuridão má (TEOLOGIA §3.3)"
         }
-      ]
+      ],
+      "lexico_ref": "H914"
     },
     {
       "questao": "Regência dupla בֵּין…וּבֵין",
@@ -245,7 +264,7 @@
     {
       "questao": "Glosa de הַחֹשֶׁךְ (H2822)",
       "escolha": "'a escuridão'",
-      "justificativa": "Adjudicação do ciclo 2 (consistência da perícope), que substitui a escolha 'as trevas' do ciclo 1 deste versículo. Base: CONSISTÊNCIA LEXICAL COM EVIDÊNCIA — mesmo lexema (H2822) e mesmo referente físico nas três ocorrências da perícope (a escuridão sobre o abismo em Gen.1.2 é a que aqui é separada da luz e que em Gen.1.5 é nomeada 'Noite'), e EDITORIAL §11 exige a mesma glosa para lexema recorrente, salvo adjudicação registrada. Evidência verificada nos registros-irmãos: Gen.1.2 adotou 'escuridão' com alcance declarado de perícope e Gen.1.5 fixou 'escuridão' para todas as ocorrências de H2822 em Gen.1.1-5 (ER-0001) — a premissa do ciclo 1 de que 'as trevas' manteria o mesmo par lexema-glosa de Gen.1.2/1.5 era factualmente falsa (objeção P1 do verificador de perícope, BLOQUEANTE, PROCEDENTE). A glosa coincide com a entrada H2822 do lexicon/lexicon.json v0.3.0 (PROPOSED), que fixa 'escuridão' e reserva 'trevas' a contextos poético-morais mediante adjudicação. Ganhos concomitantes, não determinantes: preserva o singular morfológico (Ncmsa) e o registro formal-neutro contemporâneo (EDITORIAL §1.2), sem decidir a valência moral que o texto deixa em aberto — só a luz é avaliada no verso (TEOLOGIA §2). Nenhum desempate teológico; a mudança não foi feita para reduzir similaridade com traduções existentes (critério proibido) — eventual redução é efeito colateral legítimo da rederivação pelo léxico próprio.",
+      "justificativa": "Adjudicação do ciclo 2 (consistência da perícope), que substitui a escolha 'as trevas' do ciclo 1 deste versículo. Base: CONSISTÊNCIA LEXICAL COM EVIDÊNCIA — mesmo lexema (H2822) e mesmo referente físico nas três ocorrências da perícope (a escuridão sobre o abismo em Gen.1.2 é a que aqui é separada da luz e que em Gen.1.5 é nomeada 'Noite'), e EDITORIAL §11 exige a mesma glosa para lexema recorrente, salvo adjudicação registrada. Evidência verificada nos registros-irmãos: Gen.1.2 adotou 'escuridão' com alcance declarado de perícope e Gen.1.5 fixou 'escuridão' para todas as ocorrências de H2822 em Gen.1.1-5 (ER-0001) — a premissa do ciclo 1 de que 'as trevas' manteria o mesmo par lexema-glosa de Gen.1.2/1.5 era factualmente falsa (objeção P1 do verificador de perícope, BLOQUEANTE, PROCEDENTE). A glosa coincide com a entrada H2822 do lexicon/lexicon.json v0.4.0 (PROPOSED), que fixa 'escuridão' e reserva 'trevas' a contextos poético-morais mediante adjudicação. Ganhos concomitantes, não determinantes: preserva o singular morfológico (Ncmsa) e o registro formal-neutro contemporâneo (EDITORIAL §1.2), sem decidir a valência moral que o texto deixa em aberto — só a luz é avaliada no verso (TEOLOGIA §2). Nenhum desempate teológico; a mudança não foi feita para reduzir similaridade com traduções existentes (critério proibido) — eventual redução é efeito colateral legítimo da rederivação pelo léxico próprio.",
       "alternativas_rejeitadas": [
         {
           "opcao": "'as trevas' (escolha do ciclo 1)",
@@ -274,7 +293,7 @@
     {
       "questao": "Nome divino אֱלֹהִים (H430, duas ocorrências)",
       "escolha": "'Deus', com verbos no singular",
-      "justificativa": "Léxico H430 (APPROVED) e política NOMES-DIVINOS v1.0.0 (ER-0002): plural morfológico (HNcmpa) com concordância verbal singular (Vqw3ms, Vhw3ms) indica o Deus de Israel; o plural fica anotado no registro, não vertido.",
+      "justificativa": "Léxico H430 (APPROVED) e política NOMES-DIVINOS v1.0.0 (ER-0002): plural morfológico (HNcmpa) com concordância verbal singular (Vqw3ms, Vhw3ms) indica o Deus de Israel; o plural fica anotado no registro, não vertido. No texto publicado, a segunda ocorrência é condensada por ER-0013.2 (decisão própria deste ciclo); na traducao_literal ambas permanecem vertidas 'Deus'.",
       "alternativas_rejeitadas": [
         {
           "opcao": "'deuses'",
@@ -309,10 +328,10 @@
     "חֹשֶׁךְ é singular no hebraico (Ncmsa) e 'a escuridão' preserva o número morfológico; a alternativa 'as trevas' (pluralia tantum consolidado do português bíblico, plural formal de referente único) permanece documentada na decisão de H2822, rejeitada na adjudicação de consistência do ciclo 2 (EDITORIAL §11).",
     "O verso avalia apenas a luz ('boa') e não afirma que a escuridão seja má, nem que tenha sido criada ou eliminada aqui — é apenas separada/delimitada (nomeada 'Noite' no v. 5); a tradução preserva esse silêncio, sem verbo de juízo sobre a escuridão."
   ],
-  "justificativa": "Texto nascido palavra a palavra do hebraico pinado (WLC/OSHB): dois wayyiqtol coordenados formam dois atos — percepção avaliativa e separação. A construção proléptica ראה את־X כי (GKC §117h; paralelos Gn 6:2; Êx 2:2) é vertida pela completiva padrão do português, 'viu que a luz era boa', mantendo o objeto explícito que distingue o v. 4 do refrão curto de 1.10-25; הבדיל com regência bipolar בין…ובין é vertido por 'separou a luz da escuridão', com os dois polos definidos visíveis. Parataxe e repetição do sujeito preservadas (traço formular de Gn 1); 'Deus' para H430 conforme léxico e política de nomes divinos; única palavra suprida: a cópula 'era'. Nenhum desempate teológico: todas as escolhas decorrem de léxico, morfologia e sintaxe; testemunho textual unânime (TM = LXX = Pentateuco Samaritano = 4QGen-b/g). Ciclo de refutação adjudicado por evidência contra a fonte: citação do refrão corrigida (Gn 1:31 usa והנה, não כי) e camada literal desambiguada com retomada pronominal, sem alteração do texto da BV. Ciclo 2 (adjudicação de consistência da perícope, objeção P1 BLOQUEANTE procedente): glosa de H2822 alinhada por evidência aos registros-irmãos — 'a escuridão' no lugar de 'as trevas' em texto_bv, tradução literal e glosa, conforme a glosa fixada para o lexema em Gen.1.2 e Gen.1.5 (EDITORIAL §11; ER-0001) e a entrada H2822 do léxico próprio; única alteração de texto deste ciclo.",
+  "justificativa": "Texto nascido palavra a palavra do hebraico pinado (WLC/OSHB): dois wayyiqtol coordenados formam dois atos — percepção avaliativa e separação. A construção proléptica ראה את־X כי (GKC §117h; paralelos Gn 6:2; Êx 2:2) é vertida pela completiva padrão do português, 'viu que a luz era boa', mantendo o objeto explícito que distingue o v. 4 do refrão curto de 1.10-25; הבדיל com regência bipolar בין…ובין é vertido por 'separou a luz da escuridão', com os dois polos definidos visíveis. Parataxe integral e repetição formular do sujeito preservadas na traducao_literal, camada dos calques (ER-0013), e normalizadas no texto publicado — waw inicial não vertido (ER-0013.1) e segundo 'Deus' condensado (ER-0013.2); 'Deus' para H430 conforme léxico e política de nomes divinos; única palavra suprida: a cópula 'era'. Nenhum desempate teológico: todas as escolhas decorrem de léxico, morfologia e sintaxe; testemunho textual unânime (TM = LXX = Pentateuco Samaritano = 4QGen-b/g). Ciclo de refutação adjudicado por evidência contra a fonte: citação do refrão corrigida (Gn 1:31 usa והנה, não כי) e camada literal desambiguada com retomada pronominal, sem alteração do texto da BV. Ciclo 2 (adjudicação de consistência da perícope, objeção P1 BLOQUEANTE procedente): glosa de H2822 alinhada por evidência aos registros-irmãos — 'a escuridão' no lugar de 'as trevas' em texto_bv, tradução literal e glosa, conforme a glosa fixada para o lexema em Gen.1.2 e Gen.1.5 (EDITORIAL §11; ER-0001) e a entrada H2822 do léxico próprio; única alteração de texto deste ciclo. Ciclo 3 (ratificação do mantenedor, 2026-08-11): texto ratificado 'Deus viu que a luz era boa e separou a luz da escuridão.' — waw inicial não vertido (ER-0013.1), repetição formular de אֱלֹהִים condensada no publicado (ER-0013.2) e vírgula removida entre coordenadas de sujeito comum (EDITORIAL §6.1); a completiva 'viu que a luz era boa' e a regência 'separou a luz da escuridão' foram explicitamente aprovadas pelo mantenedor e não mudam; traducao_literal inalterada como camada de auditoria dos calques; fontes re-pinadas para EDITORIAL v1.1.0 e léxico v0.4.0 (ER-0010).",
   "confianca": 0.9,
-  "status": "REVIEW",
-  "ciclos_consenso": 2,
+  "status": "APPROVED",
+  "ciclos_consenso": 3,
   "divergencias": [
     {
       "questao": "Como verter a construção proléptica וַיַּרְא … אֶת־הָאוֹר כִּי־טוֹב: completiva ('viu que a luz era boa') ou objeto + relativa explicativa ('viu a luz, que era boa')?",
@@ -358,6 +377,30 @@
         "Registros-irmãos: Gen.1.2 adjudicou 'escuridão' com alcance declarado de perícope ('a glosa vale para toda a perícope', EDITORIAL §11) e Gen.1.5 fixou 'escuridão' para todas as ocorrências de H2822 em Gen.1.1-5 (ER-0001)"
       ],
       "resolucao": "PROCEDENTE — objeção verificada contra os registros-irmãos e o léxico: Gen.1.2 ('e havia escuridão sobre a face do abismo') e Gen.1.5 ('e a escuridão ele chamou de Noite') adotam 'escuridão' com decisão de alcance de perícope, e a entrada H2822 do lexicon/lexicon.json v0.3.0 (PROPOSED) fixa 'escuridão', reservando 'trevas' a contextos poético-morais mediante adjudicação; a premissa de consistência que sustentava 'as trevas' no ciclo 1 era factualmente falsa. Base da mudança: consistência lexical com evidência — mesmo lexema, mesmo referente físico nas três ocorrências da perícope (a escuridão de 1.2 é a separada da luz em 1.4 e a nomeada 'Noite' em 1.5) —, nunca 'reduzir similaridade' com traduções existentes (critério proibido; eventual redução é efeito colateral legítimo da rederivação pelo léxico próprio). Aplicação: 'a escuridão' em texto_bv, traducao_literal e na glosa de הַחֹשֶׁךְ; decisão de H2822 substituída pela adjudicação do ciclo 2 (com 'as trevas' e o motivo em alternativas_rejeitadas, lexico_ref H2822, diretriz ER-0001); edições consequentes mínimas para o registro não ficar autocontraditório — citações do texto adotado atualizadas na decisão de regência ('separar X de Y'), na opção 'elipse' da decisão do sujeito repetido, no motivo de 'apartou' (decisão de H914) e na observação de וּבֵין; notas de número e de valência em ambiguidades_preservadas reescritas para o estado atual; síntese (justificativa) atualizada. Nenhuma outra mudança de texto; referencia, variantes_textuais, palavras_supridas, objecoes_nao_resolvidas e fontes preservados; confiança recalculada pela régua do finalizador (0,95 − 0,05 pela divergência MATERIAL adjudicada com evidência dividida entre equivalentes lexicalmente plenos = 0,90); status REVIEW; ciclos_consenso 2."
+    },
+    {
+      "questao": "Ciclo 3 — ratificação do mantenedor (2026-08-11): verter o waw inicial de וַיַּ֧רְא como 'E' no texto publicado?",
+      "posicoes": [
+        "Registro dos ciclos 1–2: 'E Deus viu…' — parataxe integral preservada por decisão de perícope sob EDITORIAL v1.0.0 §6.2, com convergência dos quatro agentes",
+        "Mantenedor (revisão que originou ER-0013.1): waw inicial de versículo não é vertido por padrão; wayyiqtol inicial vira 'E' apenas quando a sequência discursiva o pedir — não é o caso aqui, com a linha narrativa já estabelecida desde o v. 3"
+      ],
+      "resolucao": "Ratificação do mantenedor aplicada: o texto publicado abre 'Deus viu…', sem conector inicial — texto ratificado integral: 'Deus viu que a luz era boa e separou a luz da escuridão.'. Não é adjudicação por evidência dividida entre agentes, é ato de autoridade editorial registrado como diretriz transversal (ER-0013.1; EDITORIAL v1.1.0 §6.2). Nenhuma perda de auditoria: o calque paratático integral permanece na traducao_literal ('E viu Deus…'), inalterada neste ciclo, e o waw segue documentado em termos_originais (וַיַּ֧רְא, HC/Vqw3ms)."
+    },
+    {
+      "questao": "Ciclo 3 — ratificação do mantenedor (2026-08-11): repetir 'Deus' na segunda oração do texto publicado (אֱלֹהִים 2×)?",
+      "posicoes": [
+        "Registro dos ciclos 1–2: '…e Deus separou…' — repetição formular preservada como traço estilístico deliberado de Gn 1; elipse e pronominalização rejeitadas àquela altura",
+        "Mantenedor (ER-0013.2): repetição formular de sujeito é condensável quando redundante em português — segundo 'Deus' omitido no publicado; a repetição permanece na camada literal"
+      ],
+      "resolucao": "Ratificação do mantenedor aplicada: '…e separou a luz da escuridão', com sujeito comum elíptico — forma não-marcada do português para coordenadas de mesmo sujeito, sem ambiguidade de referência em voz alta/TTS (EDITORIAL §1.3). A repetição deliberada do hebraico permanece integralmente na traducao_literal ('e separou Deus') e na segunda entrada de אֱלֹהִים em termos_originais; a decisão dos ciclos 1–2 é substituída pela adjudicação deste ciclo (ER-0013.2), com a escolha antiga documentada em alternativas_rejeitadas."
+    },
+    {
+      "questao": "Ciclo 3 — ratificação do mantenedor (2026-08-11): vírgula antes de 'e separou'?",
+      "posicoes": [
+        "Registro dos ciclos 1–2: vírgula ('…era boa, e Deus separou…') — pontuação padrão diante de 'e' com sujeito reiterado, adjudicada no ciclo 1 contra o ponto e vírgula",
+        "Mantenedor: sem vírgula — com a condensação do sujeito (ER-0013.2) as orações coordenadas passam a compartilhar o sujeito, e o português não pontua 'e' entre coordenadas de sujeito comum"
+      ],
+      "resolucao": "Ratificação do mantenedor aplicada: '…era boa e separou…'. A motivação da vírgula caiu junto com o sujeito reiterado — mesma lógica da adjudicação do ciclo 1, agora em sentido inverso; EDITORIAL §6.1 (o atnach informa, não obriga) e a pausa maior do verso permanece marcada na traducao_literal pelo ponto e vírgula. O mantenedor aprovou explicitamente a completiva 'viu que a luz era boa' e a regência 'separou a luz da escuridão', inalteradas neste ciclo. Bookkeeping do ciclo de ratificação: fontes re-pinadas (ER-0010) para regras_versao 1.1.0 (EDITORIAL com ER-0011/ER-0012/ER-0013) e lexico_versao 0.4.0; edições consequentes mínimas para o registro não ficar autocontraditório — decisão de ordem S-V com citação atualizada e diretriz_ref ER-0011, decisões de parataxe e de repetição do sujeito substituídas pelas adjudicações deste ciclo, nova decisão de pontuação, decisão de H914 re-apontada ao léxico v0.4.0 (entrada 'separar' criada; lexico_ref adicionado), citação do léxico na decisão de H2822 re-apontada a v0.4.0, nota de condensação na decisão de H430, observações de וַיַּ֧רְא, וַיַּבְדֵּ֣ל, אֱלֹהִ֔ים (2ª) e הַחֹֽשֶׁךְ atualizadas, glosa de וַיַּ֧רְא ajustada a 'viu' com a glosa lexical plena ('e viu') anotada, síntese atualizada. ciclos_consenso 3; status REVIEW — a promoção a APPROVED é ato de governança posterior, a registrar em decisions/DECISOES.md; confiança mantida em 0,90 pela régua do finalizador: nenhuma dedução nova (ratificação por autoridade editorial, sem evidência dividida, sem variante textual relevante, sem objeção não resolvida), permanecendo a dedução de 0,05 da divergência MATERIAL do ciclo 2."
     }
   ],
   "objecoes_nao_resolvidas": [],
@@ -365,8 +408,8 @@
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
     "prompts_versao": "1.0.0",
-    "regras_versao": "1.0.0",
-    "lexico_versao": "0.3.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.4.0",
     "modelo": "claude-fable-5"
   }
 }

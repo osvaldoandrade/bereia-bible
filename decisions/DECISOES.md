@@ -62,7 +62,7 @@ Ver `docs/domain/governanca/glossary.md`.
 
 ## ER-0008 — Ordem verbo-sujeito nos wayyiqtol narrativos
 
-- Data: 2026-08-11 · Escopo: editorial global (origem: verificação da perícope Gen.1.1-5, P2) · Status: ATIVA
+- Data: 2026-08-11 · Escopo: editorial global (origem: verificação da perícope Gen.1.1-5, P2) · Status: **SUPERSEDIDA por ER-0011**
 - Decisão: a inversão verbo-sujeito do hebraico é preservada apenas na fórmula de
   introdução de discurso direto ("E disse Deus:"); nos demais wayyiqtol narrativos,
   o português segue a ordem sujeito-verbo ("E Deus viu", "E Deus separou").
@@ -73,7 +73,7 @@ Ver `docs/domain/governanca/glossary.md`.
 
 ## ER-0009 — Nomeação divina de entidades: maiúscula, sem aspas
 
-- Data: 2026-08-11 · Escopo: editorial global (origem: verificação da perícope Gen.1.1-5, P5) · Status: ATIVA
+- Data: 2026-08-11 · Escopo: editorial global (origem: verificação da perícope Gen.1.1-5, P5) · Status: **SUPERSEDIDA por ER-0012**
 - Decisão: em fórmulas de nomeação (קרא ל), o nome recebe maiúscula e não recebe
   aspas: "chamou a luz de Dia". Reusar em Gn 1:8, 1:10 e paralelos.
 - Alternativas rejeitadas: aspas ("chamou a luz de 'Dia'") — ruído tipográfico;
@@ -89,6 +89,66 @@ Ver `docs/domain/governanca/glossary.md`.
   corrigido com registro em qa/reports/gen-001-001-005.consistencia-resolucao.json).
 - Também em 1.0.1: comandos de reprodução do PIPELINE corrigidos (`-pericope`,
   `-records`) e alvo `make packets-blind` documentado (bloqueadores 1–2).
+
+## ER-0011 — Ordem S-V uniforme (supersede ER-0008)
+
+- Data: 2026-08-11 · Escopo: editorial global · Origem: **revisão do mantenedor** · Status: ATIVA
+- Decisão: ordem sujeito-verbo em todos os wayyiqtol do texto publicado, inclusive na
+  fórmula de fala ("E Deus disse:"). A ordem V-S do hebraico permanece integralmente
+  na `traducao_literal` de cada registro.
+- Alternativas rejeitadas: exceção V-S na fórmula de fala (ER-0008) — o mantenedor
+  avaliou que soa traduzido; a marca formular sobrevive na literal.
+
+## ER-0012 — Nomeação em minúsculas (supersede ER-0009)
+
+- Data: 2026-08-11 · Escopo: editorial global · Origem: **revisão do mantenedor** · Status: ATIVA
+- Decisão: em fórmulas de nomeação (קרא ל), o nome vai em minúscula e sem aspas:
+  "chamou a luz de dia". Maiúscula reservada a nomes próprios plenos
+  (antropônimos, topônimos).
+- Alternativas rejeitadas: maiúscula tipográfica (ER-0009) — atribui estatuto de
+  nome próprio que o hebraico (sem recurso gráfico) não codifica.
+
+## ER-0013 — Doutrina do calque: literal preserva, publicado normaliza
+
+- Data: 2026-08-11 · Escopo: editorial global · Origem: **revisão do mantenedor**
+  ("a tradução literal pode mantê-los; a BV publicada não precisa manter todos") · Status: ATIVA
+- Decisão: calques estruturais do hebraico são SEMPRE preservados na
+  `traducao_literal`; no texto publicado, são normalizados quando soarem artificiais,
+  com adjudicação registrada por versículo. Cobertura inicial:
+  1. **Waw inicial de versículo**: waw disjuntivo circunstancial (ex.: Gn 1:2
+     וְהָאָרֶץ) não é vertido; wayyiqtol inicial é vertido "E" apenas quando a
+     sequência discursiva o pedir (ex.: Gn 1:3 retomando a linha narrativa).
+  2. **Repetição formular de sujeito** (ex.: אֱלֹהִים 2× em Gn 1:4): condensável
+     quando redundante em português.
+  3. **Quiasmo de ordem** (ex.: Gn 1:5 וְלַחֹשֶׁךְ fronteado): normalizável para
+     paralelismo direto no publicado.
+- Justificativa: prioridade 8 do goal (português compreensível) sem perda de
+  auditoria — a camada literal carrega o calque; o registro documenta cada normalização.
+
+## ER-0014 — RATIFICAÇÃO: Gênesis 1:1–5 → APPROVED
+
+- Data: 2026-08-11 · Ratificador: **Osvaldo Andrade (mantenedor Bereia.org)** · Status: EXECUTADA
+- Ato: os cinco registros da perícope `Gen.1.1-5` passam de REVIEW a **APPROVED**, com o
+  texto revisado pelo mantenedor e processado pelo ciclo de ratificação
+  (4 aplicadores + 4 refutadores de fidelidade, todos APROVA com 0 objeções +
+  verificação de consistência da perícope aprovada em disco).
+- Texto ratificado: "No princípio, Deus criou os céus e a terra. A terra era desolada
+  e vazia, e havia escuridão sobre a face do abismo, e o Espírito de Deus pairava sobre
+  a face das águas. E Deus disse: “Haja luz”; e houve luz. Deus viu que a luz era boa
+  e separou a luz da escuridão. Deus chamou a luz de dia e chamou a escuridão de noite.
+  E houve tarde e houve manhã: dia um."
+- Decisões discutidas e fechadas pelo mantenedor: (a) תֹהוּ וָבֹהוּ → "desolada e vazia"
+  (adjetival no publicado; substantivos na literal e no léxico); (b) יוֹם אֶחָד → "dia um"
+  (cardinal preservado; assimetria com os ordinais dos dias 2–6).
+- Diretrizes aplicadas: ER-0011 (S-V), ER-0012 (minúsculas), ER-0013 (doutrina do calque);
+  "Espírito" maiúsculo em 1:2 por decisão exegética documentada no registro (EDITORIAL §10),
+  com alternativas preservadas.
+- Notas de provenance: Gen.1.1 mantém pins originais (regras 1.0.0/léxico 0.2.0) por não
+  ter passado por ciclo novo (texto inalterado); os demais pinam regras 1.1.0/léxico 0.4.0;
+  o léxico recebeu patch de alinhamento 0.4.1 posterior ao ciclo (H559/H7121/H3915/H7307) —
+  pins honestos conforme ER-0010.
+- Reabertura futura de qualquer destes versículos: somente via diff + justificativa +
+  novo ciclo multiagente completo (FSM, PIPELINE.md).
 
 ---
 

@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Gen.1.1-5"
   },
-  "texto_bv": "E disse Deus: “Haja luz”; e houve luz.",
+  "texto_bv": "E Deus disse: “Haja luz”; e houve luz.",
   "traducao_literal": "E disse Deus: “Haja luz”; e houve luz.",
   "termos_originais": [
     {
@@ -16,7 +16,7 @@
       "lemma": "c/559",
       "morfologia": "HC/Vqw3ms",
       "glosa": "e disse",
-      "observacao": "Waw consecutivo + qal wayyiqtol 3ms de אמר; retoma a cadeia narrativa principal iniciada em 1.1 após o fundo circunstancial do v.2."
+      "observacao": "Waw consecutivo + qal wayyiqtol 3ms de אמר; retoma a cadeia narrativa principal iniciada em 1.1 após o fundo circunstancial do v.2. Glosa lexical: H559 \"dizer\" (lexicon.json v0.4.0). No texto publicado a ordem S-V uniforme (ER-0011, ratificação do mantenedor) realiza a glosa descontinuamente — וַ=\"E\" inicial + יֹּאמֶר=\"disse\" após o sujeito (\"E Deus disse\") —, com cobertura morfêmica intacta; a traducao_literal preserva a realização contígua V-S \"E disse Deus\" (ER-0013)."
     },
     {
       "palavra": "אֱלֹהִ֖ים",
@@ -191,16 +191,44 @@
           "motivo": "Troca a parataxe por conector consecutivo-temporal marcado, acrescentando ênfase sequencial que o waw não obriga; contraria a decisão de perícope já registrada."
         }
       ]
+    },
+    {
+      "questao": "Ciclo de ratificação: ordem dos constituintes da fórmula de fala no texto publicado — manter \"E disse Deus:\" (V-S, adjudicação do ciclo 1 sob ER-0008, acima) ou adotar \"E Deus disse:\" (S-V)?",
+      "escolha": "\"E Deus disse:\" — ordem sujeito-verbo uniforme no texto publicado (ER-0011, supersede a adjudicação V-S do ciclo 1); a ordem V-S do hebraico (וַיֹּאמֶר אֱלֹהִים) permanece integralmente na traducao_literal (\"E disse Deus\")",
+      "justificativa": "Ratificação do mantenedor (revisão de 2026-08-11): ER-0011 estende a ordem S-V a todos os wayyiqtol do texto publicado, inclusive à fórmula de fala, supersedendo ER-0008 — o mantenedor avaliou que a exceção V-S soa traduzida em pt-BR contemporâneo. Nenhum morfema é afetado: a realização torna-se descontínua (וַ=\"E\" inicial + יֹּאמֶר=\"disse\" após o sujeito), com cobertura um-a-um intacta, documentada na observacao de וַיֹּאמֶר. A marca formular V-S sobrevive na camada literal, que pela doutrina do calque (ER-0013; EDITORIAL v1.1.0 §6.2) preserva todos os calques estruturais para auditoria. Aspas duplas curvas, dois-pontos e ponto e vírgula do ciclo 1 permanecem inalterados (ER-0004; EDITORIAL §5 e §6.1).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter \"E disse Deus:\" (V-S) no texto publicado",
+          "motivo": "Apoiava-se em ER-0008, supersedida por ER-0011; a marca formular não se perde, porque sobrevive na traducao_literal (ER-0013)."
+        },
+        {
+          "opcao": "Aplicar S-V também na traducao_literal",
+          "motivo": "Viola a doutrina do calque (ER-0013): a literal preserva sempre os calques estruturais — aqui, a ordem V-S do wayyiqtol — como camada de auditoria."
+        }
+      ],
+      "diretriz_ref": "ER-0011"
+    },
+    {
+      "questao": "Ciclo de ratificação: manter os pins de `fontes` do ciclo 1 (regras 1.0.0, léxico 0.2.0) ou re-pinar para as versões efetivamente lidas neste ciclo?",
+      "escolha": "Re-pinar todos os campos de `fontes`: regras_versao 1.0.0 → 1.1.0 (EDITORIAL com ER-0011/ER-0012/ER-0013) e lexico_versao 0.2.0 → 0.4.0; texto_fonte oshb@3d15126f, manifest_sha256, prompts_versao 1.0.0 e modelo claude-fable-5 confirmados inalterados",
+      "justificativa": "ER-0010: todo ciclo de reparo/consistência re-pina todos os campos de `fontes` para as versões efetivamente lidas no ciclo; preservar pin antigo é defeito de dados. Este ciclo leu EDITORIAL.md v1.1.0 e lexicon.json v0.4.0; as glosas do registro foram conferidas contra o léxico 0.4.0 e permanecem válidas (H430 \"Deus\" APPROVED, H216 \"luz\", H1961 \"haver/ser\" — 'haja'/'houve' —, H559 \"dizer\").",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Preservar os pins do ciclo 1 (regras 1.0.0, léxico 0.2.0)",
+          "motivo": "Defeito de dados nos termos de ER-0010: o registro citaria diretrizes (ER-0011, ER-0013) inexistentes na versão de regras pinada."
+        }
+      ],
+      "diretriz_ref": "ER-0010"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "יְהִי (H1961, jussivo) admite matiz existencial (\"haja/exista luz\") ou ingressivo (\"venha a existir/surja luz\"); \"haja\" em português cobre os dois valores sem decidir entre eles — nuance aspectual preservada, sem peso doutrinário. Fora isso, o versículo não contém ambiguidade lexical, sintática ou textual relevante; nenhuma escolha dependeu de doutrina (teste de refutação de TEOLOGIA §3 aplicado sem NO-GO)."
   ],
-  "justificativa": "Tradução derivada palavra a palavra do hebraico do packet (WLC pinado, oshb@3d15126f), com cobertura morfema a morfema em correspondência um-a-um (וַ=E, יֹּאמֶר=disse, אֱלֹהִים=Deus, יְהִי=haja, אוֹר=luz, וַ=e, יְהִי=houve, אוֹר=luz). A ordem V–S do wayyiqtol é espelhada em \"E disse Deus\" (EDITORIAL §6.2); o jussivo apocopado יְהִי (HVqj3ms) é vertido pelo subjuntivo optativo \"haja\" sem partícula suprida; o cumprimento וַיְהִי (HC/Vqw3ms, mesmo lexema H1961) é vertido \"houve\", preservando a repetição literal ordem→cumprimento exclusiva deste ato criador em Gênesis 1; אוֹר anartro é vertido \"luz\" sem artigo nas duas ocorrências, preservando a progressão indeterminado (v.3) → determinado (vv.4-5) da perícope; pontuação conforme EDITORIAL §5 e §6.1 (dois-pontos + aspas duplas curvas na fala; ponto e vírgula fora das aspas espelhando a bipartição do atnach num único período de oito palavras). Nenhuma palavra suprida; nenhuma variante textual concorrente; nenhuma escolha dependeu de doutrina.",
+  "justificativa": "Tradução derivada palavra a palavra do hebraico do packet (WLC pinado, oshb@3d15126f), com cobertura morfema a morfema em correspondência um-a-um (וַ=E, יֹּאמֶר=disse, אֱלֹהִים=Deus, יְהִי=haja, אוֹר=luz, וַ=e, יְהִי=houve, אוֹר=luz). No texto publicado, a fórmula de fala segue a ordem S-V uniforme \"E Deus disse\" (ER-0011, ratificação do mantenedor, supersede ER-0008), com realização descontínua de waw e verbo e cobertura morfêmica intacta; a ordem V-S do wayyiqtol permanece espelhada na traducao_literal \"E disse Deus\", camada que preserva os calques estruturais (ER-0013; EDITORIAL v1.1.0 §6.2). O jussivo apocopado יְהִי (HVqj3ms) é vertido pelo subjuntivo optativo \"haja\" sem partícula suprida; o cumprimento וַיְהִי (HC/Vqw3ms, mesmo lexema H1961) é vertido \"houve\", preservando a repetição literal ordem→cumprimento exclusiva deste ato criador em Gênesis 1; אוֹר anartro é vertido \"luz\" sem artigo nas duas ocorrências, preservando a progressão indeterminado (v.3) → determinado (vv.4-5) da perícope; pontuação conforme EDITORIAL §5 e §6.1 (dois-pontos + aspas duplas curvas na fala; ponto e vírgula fora das aspas espelhando a bipartição do atnach num único período de oito palavras). Nenhuma palavra suprida; nenhuma variante textual concorrente; nenhuma escolha dependeu de doutrina.",
   "confianca": 0.95,
-  "status": "REVIEW",
-  "ciclos_consenso": 1,
+  "status": "APPROVED",
+  "ciclos_consenso": 2,
   "divergencias": [
     {
       "questao": "Ordem dos constituintes na oração de fala: וַיֹּאמֶר אֱלֹהִים (verbo–sujeito no hebraico) — \"E disse Deus\" ou \"E Deus disse\"?",
@@ -218,6 +246,22 @@
         "Agente 2: \"…“Haja luz.” E houve luz.\" — ponto final dentro das aspas, cumprimento em frase própria."
       ],
       "resolucao": "\"…“Haja luz”; e houve luz.\" — um único período; ponto e vírgula fora das aspas; sem pontuação final dentro da citação. Evidência: EDITORIAL §6.1 — a pontuação segue a sintaxe do português; o atnach em א֑וֹר informa (sem obrigar) a bipartição fala ‖ cumprimento. O período completo tem oito palavras — muito abaixo do limite de 40 de EDITORIAL §1.3 —, logo não há motivo sintático para dividir. O waw consecutivo de וַיְהִי (HC/Vqw3ms), ligado por maqqef a אוֹר, encadeia o cumprimento à fala como o evento seguinte da linha narrativa (sequência direta) dentro do mesmo movimento; o ponto e vírgula espelha essa unidade ordem→cumprimento sem apagar a pausa, enquanto o ponto final a fragmentaria em dois períodos sem ganho. Consequência ortográfica: como o período continua após as aspas, nenhuma pontuação final pertence à citação (norma pt-BR), o que descarta a grafia “Haja luz.” do Agente 2. Exclamação foi corretamente evitada pelos quatro: o jussivo não codifica ênfase exclamativa."
+    },
+    {
+      "questao": "Ciclo de ratificação do mantenedor: ordem da fórmula de fala no texto publicado — \"E disse Deus:\" (registro do ciclo 1) vs. \"E Deus disse:\" (texto ratificado).",
+      "posicoes": [
+        "Registro do ciclo 1: \"E disse Deus:\" (V-S), adjudicado sob ER-0008 (então vigente), que reservava a inversão V-S à fórmula de introdução de discurso direto.",
+        "Revisão do mantenedor (2026-08-11): \"E Deus disse:\" (S-V) — ER-0011 impõe ordem S-V uniforme em todos os wayyiqtol do texto publicado; a exceção V-S soa traduzida; a marca formular permanece na traducao_literal."
+      ],
+      "resolucao": "Ratificação do mantenedor (este ciclo, 2026-08-11): texto_bv passa a \"E Deus disse: “Haja luz”; e houve luz.\" conforme ER-0011, que supersede ER-0008; aspas curvas e ponto e vírgula preservados. A traducao_literal permanece inalterada (\"E disse Deus: “Haja luz”; e houve luz.\"), preservando o calque V-S conforme ER-0013. Não é adjudicação por evidência dividida entre agentes, e sim ato de governança do mantenedor registrado em decisions/DECISOES.md; a adjudicação V-S do ciclo 1 (divergência acima) fica superada para o texto publicado e válida para a literal."
+    },
+    {
+      "questao": "Ciclo de ratificação do mantenedor: pins de `fontes` do ciclo 1 (regras 1.0.0, léxico 0.2.0) desatualizados frente às versões lidas neste ciclo.",
+      "posicoes": [
+        "Registro do ciclo 1: regras_versao 1.0.0 e lexico_versao 0.2.0 — versões vigentes na emissão original.",
+        "Este ciclo: EDITORIAL.md v1.1.0 (incorpora ER-0011/ER-0012/ER-0013) e lexicon.json v0.4.0 efetivamente lidos."
+      ],
+      "resolucao": "Ratificação do mantenedor (este ciclo, 2026-08-11): re-pin integral de `fontes` conforme ER-0010 — regras_versao 1.1.0, lexico_versao 0.4.0; texto_fonte oshb@3d15126f, manifest_sha256 e prompts_versao 1.0.0 confirmados. Preservar o pin antigo seria defeito de dados (precedente: Gen.1.4 no relatório de consistência citado em ER-0010)."
     }
   ],
   "objecoes_nao_resolvidas": [],
@@ -225,8 +269,8 @@
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
     "prompts_versao": "1.0.0",
-    "regras_versao": "1.0.0",
-    "lexico_versao": "0.2.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.4.0",
     "modelo": "claude-fable-5"
   }
 }
