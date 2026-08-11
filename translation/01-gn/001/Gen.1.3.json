@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0.0",
+  "referencia": {
+    "osis": "Gen.1.3",
+    "livro": "Gênesis",
+    "capitulo": 1,
+    "versiculo": 3,
+    "pericope": "Gen.1.1-5"
+  },
+  "texto_bv": "E disse Deus: “Haja luz”; e houve luz.",
+  "traducao_literal": "E disse Deus: “Haja luz”; e houve luz.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "translit": "vayomer",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms",
+      "glosa": "e disse",
+      "observacao": "Waw consecutivo + qal wayyiqtol 3ms de אמר; retoma a cadeia narrativa principal iniciada em 1.1 após o fundo circunstancial do v.2."
+    },
+    {
+      "palavra": "אֱלֹהִ֖ים",
+      "translit": "elohim",
+      "lemma": "430",
+      "morfologia": "HNcmpa",
+      "glosa": "Deus",
+      "observacao": "Plural morfológico (mpa) com concordância verbal singular (וַיֹּאמֶר, 3ms): referente singular, o Deus de Israel. Glosa fixada em lexicon.json H430 (APPROVED), política nomes-divinos v1.0.0 (ER-0002)."
+    },
+    {
+      "palavra": "יְהִ֣י",
+      "translit": "yehi",
+      "lemma": "1961",
+      "morfologia": "HVqj3ms",
+      "glosa": "haja",
+      "observacao": "Jussivo (forma curta/apocopada, ≠ imperfeito יִהְיֶה): volitivo de 3ª pessoa, vertido pelo subjuntivo optativo em oração principal, sem partícula suprida."
+    },
+    {
+      "palavra": "א֑וֹר",
+      "translit": "or",
+      "lemma": "216",
+      "morfologia": "HNcbsa",
+      "glosa": "luz",
+      "observacao": "Anartro (sem artigo). O atnach marca a pausa maior do verso entre fala e cumprimento; informa a pontuação sem obrigá-la (EDITORIAL §6.1)."
+    },
+    {
+      "palavra": "וַֽיְהִי",
+      "translit": "vayhi",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms",
+      "glosa": "e houve",
+      "observacao": "Wayyiqtol: a base יְהִי é homógrafa do jussivo do v.3a, mas a vocalização do waw (patach, mesmo padrão de וַיֹּאמֶר; waw simples + jussivo teria hiriq — וִיהִי, cf. Gen.1.6 na mesma fonte) e a anotação HC/Vqw3ms fixam a leitura narrativa. Mesmo lexema H1961 da ordem, preservado com o mesmo verbo português (haja/houve)."
+    },
+    {
+      "palavra": "אֽוֹר",
+      "translit": "or",
+      "lemma": "216",
+      "morfologia": "HNcbsa",
+      "glosa": "luz",
+      "observacao": "Anartro, como na primeira ocorrência; ligado a וַיְהִי por maqqef."
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Gn 1.3 é textualmente estável em todas as testemunhas relevantes; não há ketiv/qere nem variante hebraica real. A LXX corresponde ao TM palavra por palavra.",
+      "leituras": [
+        {
+          "leitura": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר",
+          "testemunhas": "TM/WLC (fonte pinada do packet, oshb commit 3d15126fb1ef74867fc1434be1942e837932691f); Pentateuco Samaritano (idêntico); Qumran: 4QGen-b (4Q2) e 4QGen-g (4Q7), que preservam Gn 1.1ss e concordam com o TM"
+        },
+        {
+          "leitura": "καὶ εἶπεν ὁ θεός· Γενηθήτω φῶς. καὶ ἐγένετο φῶς",
+          "testemunhas": "LXX — tradução, não variante: o imperativo aoristo γενηθήτω é a equivalência grega padrão do jussivo hebraico"
+        }
+      ],
+      "avaliacao": "Unanimidade das testemunhas hebraicas; a LXX reflete exatamente o mesmo texto consonantal. A BV segue o TM/WLC pinado; nenhuma decisão de crítica textual foi necessária.",
+      "impacto_na_traducao": "Nenhum: traduz-se o texto do packet sem alternativa concorrente."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ordem dos constituintes em וַיֹּאמֶר אֱלֹהִים",
+      "escolha": "\"E disse Deus\" — ordem verbo–sujeito espelhando o hebraico",
+      "justificativa": "O wayyiqtol impõe V–S no hebraico como ordem narrativa não marcada; em pt-BR a inversão com verbo dicendi é viva e de registro formal-neutro (EDITORIAL §1.2 não a proíbe), e EDITORIAL §6.2 modela a parataxe preservada com o próprio exemplo \"E disse Deus…\". Mantém ainda a fórmula recorrente verbo+Deus da perícope (vv.3, 4, 5).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"E Deus disse\" (SV)",
+          "motivo": "Neutraliza sem necessidade a iconicidade da cadeia wayyiqtol e o ritmo formular da perícope; o argumento de evitar coincidência com o controle livre não é evidência textual — a redação foi derivada do hebraico, e convergência gramaticalmente forçada não é cópia."
+        }
+      ]
+    },
+    {
+      "questao": "Verter o jussivo יְהִי (H1961, HVqj3ms — forma apocopada, volitivo de 3ª pessoa)",
+      "escolha": "\"haja\" — presente do subjuntivo em uso optativo direto, sem \"que\"",
+      "justificativa": "A forma curta יְהִי (≠ imperfeito יִהְיֶה) marca morfologicamente o jussivo: decreto volitivo de 3ª pessoa. O subjuntivo optativo em oração principal verte essa função com valor existencial (\"haver\"), mantendo a correspondência de dois itens (יְהִי אוֹר → \"haja luz\") sem palavra suprida. Nenhum desempate teológico foi necessário: a escolha é integralmente morfológica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"que haja luz\"",
+          "motivo": "Acrescenta partícula sem correspondente formal no hebraico; palavra suprida evitável (EDITORIAL §4)."
+        },
+        {
+          "opcao": "\"faça-se a luz\"",
+          "motivo": "Eco do fiat lux da Vulgata: importa o verbo \"fazer\" (עשׂה), inexistente no verso — o lexema é היה \"haver/vir a existir\" — e insere artigo sem correspondente (TEOLOGIA §2, sem suporte lexical)."
+        },
+        {
+          "opcao": "\"seja a luz\" / \"seja feita a luz\"",
+          "motivo": "Cópula sem predicativo (não há) ou passiva sem base morfológica; registro arcaizante contra EDITORIAL §1.2; artigo indevido."
+        },
+        {
+          "opcao": "\"exista luz\" / \"surja luz\"",
+          "motivo": "Decide o matiz aspectual (existencial vs. ingressivo) que o hebraico deixa aberto e quebra o eco lexical com o cumprimento וַיְהִי (\"houve\"), ambos de H1961."
+        }
+      ]
+    },
+    {
+      "questao": "Verter o cumprimento וַיְהִי־אוֹר (H1961 no wayyiqtol, mesmo lexema da ordem)",
+      "escolha": "\"e houve luz\" — mesmo verbo \"haver\" nas duas pontas (haja/houve), pretérito perfeito para o wayyiqtol",
+      "justificativa": "Gn 1.3 é o único ato criador do capítulo em que o cumprimento repete literalmente a ordem — nos demais, וַיְהִי־כֵן \"e assim foi\": 1.7, 1.9, 1.11, 1.15, 1.24, 1.30, verificável em sources/oshb/Gen.xml (commit 3d15126fb1ef74867fc1434be1942e837932691f, o mesmo do packet); a identidade lexical יְהִי/וַיְהִי é traço retórico codificado e deve ser preservada com o mesmo verbo português. A base יְהִי é homógrafa do jussivo do v.3a; a vocalização do waw (patach, mesmo padrão de וַיֹּאמֶר — waw simples + jussivo teria hiriq: וִיהִי, cf. Gen.1.6 na mesma fonte) e a anotação HC/Vqw3ms fixam a leitura narrativa (wayyiqtol), vertida pelo pretérito perfeito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"e a luz surgiu/apareceu/fez-se\"",
+          "motivo": "Troca o lexema e quebra a correspondência exata ordem→cumprimento; perda retórica sem ganho semântico."
+        },
+        {
+          "opcao": "\"e imediatamente houve luz\" / \"e assim se fez como ordenou\"",
+          "motivo": "Intensificação doutrinária sem base textual (TEOLOGIA §2): a repetição literal do hebraico já comunica a eficácia por si; \"imediatamente\" não tem correspondente."
+        }
+      ]
+    },
+    {
+      "questao": "Determinação de אוֹר (HNcbsa, anartro nas duas ocorrências)",
+      "escolha": "\"luz\" sem artigo nas duas ocorrências, minúscula",
+      "justificativa": "אוֹר não traz artigo no v.3; a determinação aparece nos vv.4-5 — הָאוֹר (d/216, HTd/Ncbsa) duas vezes no v.4 e לָאוֹר (l/216, HRd/Ncbsa, artigo fundido à preposição) no v.5. Manter a indeterminação preserva a progressão introdução (indeterminado) → retomada (determinado) codificada no hebraico da perícope.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"a luz\" / \"houve a luz\"",
+          "motivo": "Artigo sem correspondente formal; apaga a progressão anartro (v.3) → definido (vv.4-5)."
+        },
+        {
+          "opcao": "\"Luz\" com maiúscula",
+          "motivo": "Retroprojeção cristológica (Jo 1; Jo 8.12) que Gn 1.3 não codifica (TEOLOGIA §2); alusões canônicas ficam em nota, não no texto."
+        }
+      ]
+    },
+    {
+      "questao": "Verter אֱלֹהִים (H430, HNcmpa — plural morfológico) com verbo no singular",
+      "escolha": "\"Deus\"",
+      "justificativa": "Concordância verbal singular (וַיֹּאמֶר, 3ms) indica referente singular, o Deus de Israel: glosa fixada em lexicon.json H430 (status APPROVED) e política NOMES-DIVINOS v1.0.0 (ER-0002); o plural morfológico fica anotado no registro, não vertido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"deuses\"",
+          "motivo": "Contraria a concordância 3ms do versículo e a política versionada; 'deuses' exige referente plural indicado por contexto e concordância."
+        },
+        {
+          "opcao": "\"Elohim\" transliterado",
+          "motivo": "Contra a convenção da política nomes-divinos v1.0.0 (ER-0002); a auditabilidade do lemma se dá pelo registro, não por transliteração no texto."
+        }
+      ],
+      "lexico_ref": "H430",
+      "diretriz_ref": "ER-0002"
+    },
+    {
+      "questao": "Pontuação do discurso direto e segmentação do verso",
+      "escolha": "Dois-pontos + aspas duplas curvas na fala (“Haja luz”); ponto e vírgula fora das aspas ligando o cumprimento no mesmo período; sem exclamação",
+      "justificativa": "EDITORIAL §5 exige dois-pontos e aspas duplas curvas. EDITORIAL §6.1: pontuação pela sintaxe do português, com o atnach em א֑וֹר informando a bipartição fala ‖ cumprimento — o ponto e vírgula a espelha mantendo a unidade ordem→cumprimento num período de oito palavras (bem abaixo do limite de 40 de §1.3); o waw consecutivo de וַיְהִי encadeia o cumprimento como o evento seguinte da linha narrativa (sequência direta), não como novo episódio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ponto final e nova frase: \"…“Haja luz”. E houve luz.\"",
+          "motivo": "Gramatical, mas fragmenta em dois períodos o par ordem-cumprimento que o hebraico encadeia por wayyiqtol imediato na sequência narrativa; sem necessidade sintática em período curto."
+        },
+        {
+          "opcao": "Ponto final dentro das aspas: \"…“Haja luz.” E houve luz.\"",
+          "motivo": "Com o período continuando após a citação (estrutura adotada), nenhuma pontuação final pertence à fala; a grafia pressupunha frase encerrada nas aspas."
+        },
+        {
+          "opcao": "\"Haja luz!\"",
+          "motivo": "O jussivo hebraico não codifica ênfase exclamativa; a exclamação acrescentaria retórica sem correspondente."
+        }
+      ]
+    },
+    {
+      "questao": "Parataxe: manter o waw consecutivo inicial (\"E\")?",
+      "escolha": "Sim: \"E disse Deus…\" — decisão de estilo por perícope (Gen.1.1-5, narrativo-litúrgico), registrada uma vez conforme EDITORIAL §6.2",
+      "justificativa": "O hebraico tem וַ־ em וַיֹּאמֶר (HC/Vqw3ms), retomando a cadeia narrativa principal iniciada em 1.1 após o fundo circunstancial do v.2; o português suporta a parataxe sem estranheza no estilo do trecho. As quatro propostas concordam; a decisão fica registrada para a perícope.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Omitir o conector (como o controle WEB: \"God said…\")",
+          "motivo": "O waw está no hebraico do packet; a omissão criaria lacuna na cobertura morfema-a-morfema e quebraria a parataxe decidida para a perícope."
+        },
+        {
+          "opcao": "\"Então disse Deus…\"",
+          "motivo": "Troca a parataxe por conector consecutivo-temporal marcado, acrescentando ênfase sequencial que o waw não obriga; contraria a decisão de perícope já registrada."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "יְהִי (H1961, jussivo) admite matiz existencial (\"haja/exista luz\") ou ingressivo (\"venha a existir/surja luz\"); \"haja\" em português cobre os dois valores sem decidir entre eles — nuance aspectual preservada, sem peso doutrinário. Fora isso, o versículo não contém ambiguidade lexical, sintática ou textual relevante; nenhuma escolha dependeu de doutrina (teste de refutação de TEOLOGIA §3 aplicado sem NO-GO)."
+  ],
+  "justificativa": "Tradução derivada palavra a palavra do hebraico do packet (WLC pinado, oshb@3d15126f), com cobertura morfema a morfema em correspondência um-a-um (וַ=E, יֹּאמֶר=disse, אֱלֹהִים=Deus, יְהִי=haja, אוֹר=luz, וַ=e, יְהִי=houve, אוֹר=luz). A ordem V–S do wayyiqtol é espelhada em \"E disse Deus\" (EDITORIAL §6.2); o jussivo apocopado יְהִי (HVqj3ms) é vertido pelo subjuntivo optativo \"haja\" sem partícula suprida; o cumprimento וַיְהִי (HC/Vqw3ms, mesmo lexema H1961) é vertido \"houve\", preservando a repetição literal ordem→cumprimento exclusiva deste ato criador em Gênesis 1; אוֹר anartro é vertido \"luz\" sem artigo nas duas ocorrências, preservando a progressão indeterminado (v.3) → determinado (vv.4-5) da perícope; pontuação conforme EDITORIAL §5 e §6.1 (dois-pontos + aspas duplas curvas na fala; ponto e vírgula fora das aspas espelhando a bipartição do atnach num único período de oito palavras). Nenhuma palavra suprida; nenhuma variante textual concorrente; nenhuma escolha dependeu de doutrina.",
+  "confianca": 0.95,
+  "status": "REVIEW",
+  "ciclos_consenso": 1,
+  "divergencias": [
+    {
+      "questao": "Ordem dos constituintes na oração de fala: וַיֹּאמֶר אֱלֹהִים (verbo–sujeito no hebraico) — \"E disse Deus\" ou \"E Deus disse\"?",
+      "posicoes": [
+        "\"E disse Deus\" (VS): Agente 1 (tradução literal), Agente 2 e Agente 4 — espelha a ordem wayyiqtol+sujeito do hebraico; o português narrativo admite VS com verbo dicendi sem estranheza; coerente com o estilo narrativo-litúrgico decidido para a perícope (EDITORIAL §6.2).",
+        "\"E Deus disse\" (SV): Agente 1 (tradução proposta) e Agente 3 — SV é a ordem neutra do pt-BR contemporâneo; o Agente 3 alega que a inversão é marcada/classicizante e coincidiria com a redação do controle livre."
+      ],
+      "resolucao": "\"E disse Deus\" (ordem verbo–sujeito) no texto consolidado e na literal. Evidência: o hebraico é V–S (וַיֹּאמֶר, HC/Vqw3ms + אֱלֹהִים, HNcmpa), ordem não marcada da narrativa wayyiqtol. Em pt-BR, a inversão VS com verbo dicendi em narrativa é construção viva de registro formal-neutro — não é arcaísmo funcionalmente morto, logo não fere EDITORIAL §1.2 — e EDITORIAL §6.2 exemplifica a parataxe preservada exatamente com a forma \"E disse Deus…\". A perícope Gen.1.1-5 segue o padrão formular verbo+אֱלֹהִים (1.3 וַיֹּאמֶר, 1.4 וַיַּרְא, 1.5 וַיִּקְרָא); manter VS preserva essa fórmula recorrente. A objeção do Agente 3 (coincidência com o controle livre) não é evidência lexical/morfológica/sintática: a forma deriva do hebraico do packet, e em um verso de seis palavras a convergência com traduções existentes é gramaticalmente forçada — controles servem só para detectar omissão, nunca para orientar (nem vetar) redação."
+    },
+    {
+      "questao": "Segmentação e pontuação entre a ordem e o cumprimento (após “Haja luz”): ponto e vírgula em um único período, ou ponto final abrindo novo período? E, no segundo caso, ponto dentro ou fora das aspas?",
+      "posicoes": [
+        "Agente 1 (literal) e Agente 3: \"…“Haja luz”; e houve luz.\" — ponto e vírgula fora das aspas, um só período, ecoando a bipartição do atnach em א֑וֹר.",
+        "Agente 1 (proposta) e Agente 4: \"…“Haja luz”. E houve luz.\" — ponto final fora das aspas, cumprimento em frase própria.",
+        "Agente 2: \"…“Haja luz.” E houve luz.\" — ponto final dentro das aspas, cumprimento em frase própria."
+      ],
+      "resolucao": "\"…“Haja luz”; e houve luz.\" — um único período; ponto e vírgula fora das aspas; sem pontuação final dentro da citação. Evidência: EDITORIAL §6.1 — a pontuação segue a sintaxe do português; o atnach em א֑וֹר informa (sem obrigar) a bipartição fala ‖ cumprimento. O período completo tem oito palavras — muito abaixo do limite de 40 de EDITORIAL §1.3 —, logo não há motivo sintático para dividir. O waw consecutivo de וַיְהִי (HC/Vqw3ms), ligado por maqqef a אוֹר, encadeia o cumprimento à fala como o evento seguinte da linha narrativa (sequência direta) dentro do mesmo movimento; o ponto e vírgula espelha essa unidade ordem→cumprimento sem apagar a pausa, enquanto o ponto final a fragmentaria em dois períodos sem ganho. Consequência ortográfica: como o período continua após as aspas, nenhuma pontuação final pertence à citação (norma pt-BR), o que descarta a grafia “Haja luz.” do Agente 2. Exclamação foi corretamente evitada pelos quatro: o jussivo não codifica ênfase exclamativa."
+    }
+  ],
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.0.0",
+    "lexico_versao": "0.2.0",
+    "modelo": "claude-fable-5"
+  }
+}

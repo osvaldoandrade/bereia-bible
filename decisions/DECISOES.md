@@ -60,6 +60,25 @@ Ver `docs/domain/governanca/glossary.md`.
   (campos JSON em pt-BR ASCII-only).
 - Justificativa: artefatos editoriais são o produto auditado por revisores lusófonos.
 
+## ER-0008 — Ordem verbo-sujeito nos wayyiqtol narrativos
+
+- Data: 2026-08-11 · Escopo: editorial global (origem: verificação da perícope Gen.1.1-5, P2) · Status: ATIVA
+- Decisão: a inversão verbo-sujeito do hebraico é preservada apenas na fórmula de
+  introdução de discurso direto ("E disse Deus:"); nos demais wayyiqtol narrativos,
+  o português segue a ordem sujeito-verbo ("E Deus viu", "E Deus separou").
+- Alternativas rejeitadas: V-S uniforme (arcaizante fora da fórmula de fala);
+  S-V uniforme (apaga a fórmula introdutória, marca estilística do texto).
+- Justificativa: naturalidade pt-BR com preservação da marca formular; a tradução
+  literal de cada registro conserva a ordem original para auditoria.
+
+## ER-0009 — Nomeação divina de entidades: maiúscula, sem aspas
+
+- Data: 2026-08-11 · Escopo: editorial global (origem: verificação da perícope Gen.1.1-5, P5) · Status: ATIVA
+- Decisão: em fórmulas de nomeação (קרא ל), o nome recebe maiúscula e não recebe
+  aspas: "chamou a luz de Dia". Reusar em Gn 1:8, 1:10 e paralelos.
+- Alternativas rejeitadas: aspas ("chamou a luz de 'Dia'") — ruído tipográfico;
+  minúscula — perde o ato de nomeação.
+
 ---
 
 ## Follow-ups abertos

@@ -1,60 +1,24 @@
 {
-  "schema_version": "1.0.0",
-  "versao": "0.3.0",
-  "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
-  "politicas": [
-    {
-      "id": "nomes-divinos",
-      "regra": "YHWH (H3068) -> SENHOR; Elohim (H430, ref. ao Deus de Israel) -> Deus; Adonai (H136) -> Senhor; Adonai YHWH -> Senhor DEUS",
-      "justificativa": "Convencao consolidada no portugues biblico; evita transliteracao do Tetragrama; distincao auditavel entre os nomes via lemma no registro por versiculo.",
-      "diretriz_ref": "ER-0002",
-      "arquivo": "pipeline/rules/NOMES-DIVINOS.md",
-      "versao_politica": "1.0.0"
-    }
+  "aprovado": false,
+  "problemas": [
+    "[BLOQUEANTE] H2822 (choshekh) com duas glosas na perícope: 'escuridão' em Gen.1.2 e Gen.1.5, mas 'trevas' em Gen.1.4 (no texto_bv e na traducao_literal), sem adjudicação registrada em lexicon.json ou decisions/DECISOES.md — viola EDITORIAL.md §11 (mesmo lexema recorrente → mesma glosa) e falha o teste de refutação TEOLOGIA.md §3.2 (a escolha deve sobreviver ao uso do lexema no restante do livro). Correção proposta: Gen.1.4 → 'e Deus separou a luz da escuridão' (e literal 'entre a luz e entre a escuridão'), ou registrar adjudicação por versículo com lexico_ref.",
+    "[MENOR] Inversão verbo-sujeito não uniforme nos wayyiqtol: Gen.1.3 preserva a ordem hebraica ('E disse Deus'), mas Gen.1.1, Gen.1.4 e Gen.1.5 antepõem o sujeito ('Deus criou', 'E Deus viu', 'E Deus chamou') contra as respectivas traduções literais. EDITORIAL.md §6.2 exige que a escolha estilística seja feita por perícope e registrada uma vez; registrar a regra 'inversão V-S mantida apenas na fórmula de introdução de discurso direto (E disse Deus:)' ou uniformizar.",
+    "[REGISTRO] Gen.1.2: 'havia' é palavra suprida (oração nominal no hebraico, sem verbo em 'e escuridão sobre a face do abismo') e deve constar no campo palavras_supridas do registro do versículo (ER-0006; EDITORIAL.md §4).",
+    "[REGISTRO] Gen.1.2: 'espírito' com minúscula segue o padrão de EDITORIAL.md §10, mas TEOLOGIA.md §4 (caso paradigmático ruach elohim) exige que o registro do versículo documente a decisão exegética e a leitura alternativa 'vento de Deus'.",
+    "[OBSERVAÇÃO] Gen.1.5: convenção de nomeação com maiúscula e sem aspas ('Dia', 'Noite') é internamente consistente entre as duas cláusulas; registrar a convenção uma vez para reuso em Gen.1.8 e Gen.1.10. Demais pontos verificados sem problema: parataxe uniforme (E inicial em 1.2-5; 1.1 sem waw), discurso direto conforme ER-0004 (dois-pontos + aspas curvas em 1.3), H430 → 'Deus' nas 6 ocorrências, H216 → 'luz' nas 5 ocorrências, padrão de H1961 coerente (era/haja/houve), 'dia um' cardinal fiel a yom echad e numeral por extenso (EDITORIAL.md §7)."
   ],
-  "entradas": [
+  "entradas_lexico_propostas": [
     {
-      "lemma": "H3068",
-      "original": "יהוה",
-      "translit": "YHWH",
-      "glosa_bv": "SENHOR",
-      "dominio": "nome divino",
-      "justificativa": "Politica nomes-divinos v1.0.0 (ER-0002).",
-      "status": "APPROVED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
-      "primeiras_ocorrencias": [
-        "Gen.2.4"
-      ],
-      "politica_ref": "nomes-divinos",
-      "diretriz_ref": "ER-0002"
-    },
-    {
-      "lemma": "H430",
-      "original": "אֱלֹהִים",
-      "translit": "elohim",
-      "glosa_bv": "Deus",
-      "dominio": "nome divino",
-      "justificativa": "Plural morfologico com concordancia verbal singular quando o referente e o Deus de Israel; 'deuses' apenas com referente plural indicado por contexto e concordancia.",
-      "status": "APPROVED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
-      "primeiras_ocorrencias": [
-        "Gen.1.1"
-      ],
-      "politica_ref": "nomes-divinos",
-      "diretriz_ref": "ER-0002"
-    },
-    {
-      "lemma": "H1254a",
+      "lemma": "H1254",
       "original": "בָּרָא",
       "translit": "bara",
       "glosa_bv": "criar",
       "dominio": "teologia da criacao",
       "justificativa": "Verbo de acao criadora com Deus como sujeito no AT; BV fixa 'criar' (Gen.1.1), reservando 'fazer' para H6213 asah — distincao lexical mantida ao longo de Gen.1 (cf. Gen.1.21, Gen.1.27, Gen.2.3). OSHB lema '1254 a'.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.1"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H216",
@@ -63,13 +27,12 @@
       "glosa_bv": "luz",
       "dominio": "cosmologia",
       "justificativa": "Glosa unica 'luz' nas 5 ocorrencias da pericope (Gen.1.3 2x, Gen.1.4 2x, Gen.1.5); termo estruturante do primeiro dia e do par luz/escuridao.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.3",
         "Gen.1.4",
         "Gen.1.5"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H2822",
@@ -78,13 +41,12 @@
       "glosa_bv": "escuridão",
       "dominio": "cosmologia",
       "justificativa": "Glosa adotada 'escuridao' — registro contemporaneo (EDITORIAL 1.2), usada em Gen.1.2 e na formula de nomeacao de Gen.1.5; exige alinhar Gen.1.4 (hoje 'trevas') ou adjudicacao por versiculo com lexico_ref (EDITORIAL 11). 'Trevas' fica reservado a contextos poetico-morais mediante adjudicacao.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.2",
         "Gen.1.4",
         "Gen.1.5"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H3117",
@@ -93,11 +55,10 @@
       "glosa_bv": "dia",
       "dominio": "tempo",
       "justificativa": "'Dia' com maiuscula apenas na formula de nomeacao (Gen.1.5); minuscula no uso comum, inclusive na contagem cardinal 'dia um' (yom echad). Ancora da sequencia dos dias da criacao.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.5"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H8064",
@@ -106,11 +67,10 @@
       "glosa_bv": "céus",
       "dominio": "cosmologia",
       "justificativa": "Plural hebraico vertido no plural 'ceus' ('os ceus e a terra', Gen.1.1), alinhado a WEB e distinto do singular da tradicao KJV; par fixo com H776.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.1"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H776",
@@ -119,12 +79,11 @@
       "glosa_bv": "terra",
       "dominio": "cosmologia",
       "justificativa": "'Terra' em Gen.1.1 e Gen.1.2; segundo membro do merismo 'os ceus e a terra'. Sentidos 'terra seca'/'pais' em contextos posteriores exigem adjudicacao.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.1",
         "Gen.1.2"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H7307",
@@ -133,11 +92,10 @@
       "glosa_bv": "espírito",
       "dominio": "pneumatologia",
       "justificativa": "Polissemico (espirito/vento/sopro). Em Gen.1.2 adotado 'espirito' com minuscula por padrao (EDITORIAL 10); TEOLOGIA 4 exige que o registro do versiculo documente a decisao e a leitura alternativa 'vento de Deus'. Outros sentidos exigem adjudicacao contextual com lexico_ref.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.2"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H1961",
@@ -146,13 +104,12 @@
       "glosa_bv": "haver/ser",
       "dominio": "verbo estrutural",
       "justificativa": "Convencao fixada na pericope: wayyiqtol existencial -> 'houve' (Gen.1.3, Gen.1.5 2x); jussivo -> 'haja' (Gen.1.3); qatal com predicativo -> 'era' (Gen.1.2). Sustenta o refrao 'E houve tarde e houve manha' que recorre nos seis dias.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.2",
         "Gen.1.3",
         "Gen.1.5"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H8414",
@@ -161,11 +118,10 @@
       "glosa_bv": "desolação",
       "dominio": "cosmologia",
       "justificativa": "Par fixo 'tohu vabohu' -> 'desolacao e vazio' (Gen.1.2), substantivos como no hebraico, evitando a parafrase adjetival 'sem forma'. Recorre em Isa.34.11 e Jer.4.23 (eco intencional do par).",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.2"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H922",
@@ -174,11 +130,10 @@
       "glosa_bv": "vazio",
       "dominio": "cosmologia",
       "justificativa": "Segundo membro do par fixo com H8414 ('desolacao e vazio', Gen.1.2); ocorre no AT sempre junto de tohu (Gen.1.2, Isa.34.11, Jer.4.23).",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.2"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H8415",
@@ -187,11 +142,10 @@
       "glosa_bv": "abismo",
       "dominio": "cosmologia",
       "justificativa": "'Abismo' na locucao 'sobre a face do abismo' (Gen.1.2); recorre em Gen.7.11 e Gen.8.2 (aguas primordiais/diluvio) — glosa unica evita variacao 'profundezas'.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.2"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H6440",
@@ -200,11 +154,10 @@
       "glosa_bv": "face",
       "dominio": "locucao gramatical",
       "justificativa": "No construto da locucao 'al-penei' -> 'sobre a face de', fixada 2x em Gen.1.2 ('do abismo', 'das aguas'); rendering uniforme da locucao para reuso. Usos idiomaticos posteriores (presenca, diante de) exigem adjudicacao.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.2"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H4325",
@@ -213,11 +166,10 @@
       "glosa_bv": "águas",
       "dominio": "cosmologia",
       "justificativa": "Plural hebraico -> 'aguas' no plural (Gen.1.2); recorre imediatamente em Gen.1.6-10 (separacao das aguas), exigindo glosa estavel desde a primeira ocorrencia.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.2"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H559",
@@ -226,11 +178,10 @@
       "glosa_bv": "dizer",
       "dominio": "formula narrativa",
       "justificativa": "Formula introdutoria de discurso direto fixada: 'E disse Deus:' + aspas duplas curvas (ER-0004); inversao V-S mantida apenas nesta formula (adjudicacao de pericope proposta no relatorio de consistencia). Refrao de Gen.1 (dez ocorrencias).",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.3"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H7200",
@@ -239,11 +190,10 @@
       "glosa_bv": "ver",
       "dominio": "formula narrativa",
       "justificativa": "'Ver' na formula de aprovacao divina 'E Deus viu que ... era boa' (Gen.1.4); formula recorrente em Gen.1 (1.10, 1.12, 1.18, 1.21, 1.25, 1.31) — estrutura sintatica fixada aqui.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.4"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H2896",
@@ -252,11 +202,10 @@
       "glosa_bv": "bom",
       "dominio": "avaliacao divina",
       "justificativa": "'Bom' (flexionado 'boa' em Gen.1.4) na formula de aprovacao divina; refrao que recorre 7x em Gen.1 culminando em 'muito bom' (Gen.1.31). OSHB lema '2896 a'.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.4"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H914",
@@ -265,11 +214,10 @@
       "glosa_bv": "separar",
       "dominio": "teologia da criacao",
       "justificativa": "Hifil -> 'separar' (Gen.1.4); glosa unica para a serie de separacoes estruturantes de Gen.1 (1.6, 1.7, 1.14, 1.18) e para o uso cultico posterior (Lev.10.10).",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.4"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H7121",
@@ -278,11 +226,10 @@
       "glosa_bv": "chamar",
       "dominio": "formula de nomeacao",
       "justificativa": "'Chamar' na formula de nomeacao 'chamou X de Y' (2x em Gen.1.5); nomes atribuidos recebem maiuscula sem aspas (Dia, Noite). Recorre em Gen.1.8 e Gen.1.10; sentido 'clamar/invocar' posterior exige adjudicacao.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.5"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H3915",
@@ -291,11 +238,10 @@
       "glosa_bv": "noite",
       "dominio": "tempo",
       "justificativa": "'Noite' com maiuscula na formula de nomeacao (Gen.1.5); minuscula no uso comum. Par com H3117 dia; recorre em Gen.1.14-18.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.5"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H6153",
@@ -304,11 +250,10 @@
       "glosa_bv": "tarde",
       "dominio": "tempo",
       "justificativa": "'Tarde' no refrao diario 'E houve tarde e houve manha' (Gen.1.5); par fixo com H1242, repetido nos seis dias da criacao — glosa e ordem fixadas aqui.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.5"
-      ]
+      ],
+      "status": "PROPOSED"
     },
     {
       "lemma": "H1242",
@@ -317,11 +262,10 @@
       "glosa_bv": "manhã",
       "dominio": "tempo",
       "justificativa": "'Manha' no refrao diario 'E houve tarde e houve manha' (Gen.1.5); segundo membro do par fixo com H6153, repetido nos seis dias da criacao.",
-      "status": "PROPOSED",
-      "owner": "Osvaldo Andrade (mantenedor Bereia.org)",
       "primeiras_ocorrencias": [
         "Gen.1.5"
-      ]
+      ],
+      "status": "PROPOSED"
     }
   ]
 }
