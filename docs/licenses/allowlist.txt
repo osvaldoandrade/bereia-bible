@@ -1,0 +1,21 @@
+# Allowlist de licenças de FONTES DE DADOS por escopo de uso (quartermaster)
+# Formato: SPDX-id <TAB> escopos permitidos
+# Escopos: textual-authority | qa-control-only | analysis-only-quarantined
+#
+# textual-authority: a BV pode derivar seu texto desta fonte.
+# qa-control-only: usada só para detecção de divergência/similaridade; nunca fonte de redação.
+# analysis-only-quarantined: consulta analítica; NENHUM campo de registro BV pode derivar
+#   exclusivamente dela; requer ADR para promoção de escopo.
+
+LicenseRef-PublicDomain	textual-authority qa-control-only
+LicenseRef-PublicDomain-outside-UK	qa-control-only
+CC0-1.0	textual-authority qa-control-only
+CC-BY-3.0	qa-control-only
+CC-BY-4.0	textual-authority qa-control-only
+
+# Famílias EXCLUÍDAS de textual-authority (viral/NC): exigem ADR para qualquer uso
+# além de analysis-only-quarantined.
+CC-BY-NC-SA-4.0	analysis-only-quarantined
+# *GPL-*: nenhuma fonte de dados sob GPL é aceita como autoridade textual.
+
+# Ferramentas Go: política ZERO dependências de terceiros (ver docs/dependencies.md).
