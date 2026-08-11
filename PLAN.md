@@ -149,5 +149,16 @@ remoção do diretório. Nenhum dado de produção, nenhum serviço, nenhuma pub
 - consult 6: forge — **GO**: thresholds no .golangci.yml, schema do packet fixado antes das struct tags,
   fuzz em ParseVerse e Normalize (guard-rail #10).
 - gate ADR: ADR-0001 em docs/adr/ (bootstrap: fontes, quarentena OpenGNT, agregado perícope,
-  hexagonal-não-aplicado, política de schema, resolução terminológica, zero-dep)
-- DoD progress: em execução; validação final na seção de verificação da resposta
+  hexagonal-não-aplicado, política de schema, resolução terminológica, zero-dep) — MERGED
+- consult 7: sentinel — floors aplicados: cobertura internal/ 90,5–100%, fuzz em parser e
+  normalizador (guard-rail #10); mutation testing: EXCEÇÃO registrada (F-0005, tooling indisponível)
+- consult 8: inquisitor — NO-GO (3 bloqueadores) → correções em 13abf97 → re-verificação → **GO**
+- consult 9: scribe — aplicado inline (ADR, ER-*, mensagens de commit, relatório final)
+- steward/cartographer: aplicados inline (FSM + diagramas em PIPELINE.md / context-map.md)
+- gate QA: bvcheck 5/5 registros + léxico OK; bvqa 2 alertas adjudicados como coincidência
+  inevitável (cruzados com QA qualitativo); contaminação qualitativa sem alerta
+- piloto: 52 agentes (0 erros) + ciclo de reparo 5 agentes (0 erros); 5 registros REVIEW
+- DoD progress: COMPLETO nos itens aplicáveis (T3); N/A registrados: CI remoto, canary,
+  dashboards, load test, branch remota (repo local sem serviço em runtime)
+- status final: ENCERRADO em 2026-08-11 — pendências transferidas para follow-ups F-0001..F-0013
+  e ratificação humana (REVIEW → APPROVED) em decisions/DECISOES.md
