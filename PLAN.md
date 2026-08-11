@@ -94,11 +94,13 @@ bereia-bible/
 
 ## Verification commands
 
+(Seção atualizada pós-implementação; forma canônica: Makefile + PIPELINE.md §Reprodução.)
+
 ```
-gofmt -l . && go build ./... && go vet ./... && go test ./... -cover
-(cd sources && shasum -a 256 -c manifest.sha256)
-./bin/bvsrc -book Gen -from 1:1 -to 1:5 | diff - pipeline/packets/gen-001-001-005.json
-./bin/bvqa -bv translation/01-gn/001.md -controls sources/pt-pd/
+make verify          # gofmt(estrito)+vet+build+test+zero-dep+bvcheck+checksums
+make packets && make packets-blind
+./bin/bvqa -records translation/01-gn/001 -livre sources/pt-pd/livre.getbible.json \
+  -booknr 1 -chapter 1
 ```
 
 ## Rollback

@@ -3,7 +3,7 @@
   "$id": "https://bereia.org/schemas/lexicon/1",
   "title": "Léxico terminológico — Bereia Version",
   "version": "1.0.0",
-  "description": "Contrato do lexicon/lexicon.json. Invariantes (validadas por internal/lexicon em go test): I-1 lemma+dominio único; I-2 glosa_bv não-vazia; I-3 justificativa obrigatória; I-4 status ∈ {PROPOSED, APPROVED, SUPERSEDED}; I-5 SUPERSEDED exige superseded_por apontando para entrada existente do mesmo lemma; I-6 politica_ref/diretriz_ref quando dominio = nome divino; I-7 primeiras_ocorrencias em formato OSIS; I-8 owner obrigatório; I-9 mudança de glosa APPROVED exige nova entrada + supersede (nunca edição in-place); I-10 versao do léxico bump a cada mudança.",
+  "description": "Contrato do lexicon/lexicon.json. Invariantes I-1..I-10 e onde cada uma é verificada: I-1 lemma+dominio único (internal/lexicon); I-2 glosa_bv não-vazia (este schema, minLength); I-3 justificativa obrigatória (este schema); I-4 status ∈ {PROPOSED, APPROVED, SUPERSEDED} (este schema, enum); I-5 SUPERSEDED exige superseded_por apontando para entrada existente do mesmo domínio (internal/lexicon); I-6 politica_ref/diretriz_ref quando dominio = nome divino, e politica_ref declarada (internal/lexicon); I-7 primeiras_ocorrencias em formato OSIS (internal/lexicon); I-8 owner obrigatório (este schema). I-9 (mudança de glosa APPROVED via nova entrada + supersede, nunca edição in-place) e I-10 (bump de versao a cada mudança) são REGRAS DE PROCESSO auditadas por git diff e ratificação humana — nenhum código as valida hoje.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "versao", "owner", "politicas", "entradas"],

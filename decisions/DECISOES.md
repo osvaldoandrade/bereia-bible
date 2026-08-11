@@ -79,6 +79,17 @@ Ver `docs/domain/governanca/glossary.md`.
 - Alternativas rejeitadas: aspas ("chamou a luz de 'Dia'") — ruído tipográfico;
   minúscula — perde o ato de nomeação.
 
+## ER-0010 — Re-pinagem de `fontes` em ciclo de reparo
+
+- Data: 2026-08-11 · Escopo: pipeline (PIPELINE.md v1.0.1) · Status: ATIVA
+- Decisão: todo ciclo de reparo/consistência re-pina todos os campos de `fontes`
+  do registro para as versões efetivamente lidas no ciclo; preservar pin antigo é
+  defeito de dados. Origem: bloqueador 3 da revisão inquisitor (Gen.1.4 pinava
+  léxico 0.2.0 enquanto sua adjudicação citava a entrada H2822 do v0.3.0;
+  corrigido com registro em qa/reports/gen-001-001-005.consistencia-resolucao.json).
+- Também em 1.0.1: comandos de reprodução do PIPELINE corrigidos (`-pericope`,
+  `-records`) e alvo `make packets-blind` documentado (bloqueadores 1–2).
+
 ---
 
 ## Follow-ups abertos
@@ -91,3 +102,17 @@ Ver `docs/domain/governanca/glossary.md`.
 - F-0006: verificar licença exata da Bíblia Livre na página eBible/da própria BLIVRE. Dono: mantenedor.
 - F-0007: auditoria trimestral do manifest de fontes (docs/dependencies.md). Dono: mantenedor.
 - F-0008: instalar hook local de secret-scan (gitleaks/git-secrets). Dono: mantenedor.
+- F-0009: `internal/schemavalidate` — rejeitar keyword desconhecida no schema (guarda
+  contra subvalidação silenciosa se um schema evoluir para oneOf/$ref/maxLength);
+  tornar a lista "NOT supported" exaustiva por construção. Dono: mantenedor.
+- F-0010: `bvqa` — flag `-fail-on-alert` (exit ≠ 0) e sinalização explícita de
+  controle ausente (`controle_ausente`) em vez de comparar contra vazio. Dono: mantenedor.
+- F-0011: `bvcheck` — checagem cruzada `objecoes_nao_resolvidas` não-vazio ⇒ status
+  nunca APPROVED (guarda mecânica da FSM antes da primeira ratificação); flags de
+  caminho de schema para remover acoplamento ao CWD. Dono: mantenedor.
+- F-0012: pinar golangci-lint compatível com go 1.26.4 (hoje: instalado porém falha
+  por mismatch de toolchain; exceção ativa com WARNING explícito no `make lint`;
+  depguard/cyclop/funlen ainda não executaram — gates duros são gofmt+vet+test). Dono: mantenedor.
+- F-0013: higiene de código apontada pela revisão: `sort.Strings` em vez de insertion
+  sort manual (oshb.go), unificar idioma das chaves JSON do wire-struct de oshb,
+  remover `Capitulo` não usado em qa. Dono: mantenedor.

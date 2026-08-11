@@ -1,6 +1,7 @@
 # PIPELINE — Bereia Version
 
-Versão do processo: **1.0.0** · Mudanças exigem bump SemVer + entrada em `decisions/DECISOES.md`.
+Versão do processo: **1.0.1** · Mudanças exigem bump SemVer + entrada em `decisions/DECISOES.md`.
+(1.0.1: comandos de reprodução corrigidos; regra de re-pinagem de `fontes` em ciclo de reparo — ER-0010.)
 
 ## Visão
 
@@ -107,13 +108,21 @@ revisão. O campo `fontes` de cada registro grava modelo e versões usadas.
    artificialmente só para reduzir similaridade. Coincidência inevitável
    (tradução natural do original) é mantida e anotada.
 
+## Ciclos de reparo e re-pinagem de fontes (ER-0010)
+
+Todo ciclo de reparo/consistência re-pina **todos** os campos de `fontes` do
+registro para as versões efetivamente lidas naquele ciclo (léxico, regras,
+prompts, modelo) — nunca preserva pins do ciclo anterior. Pin desatualizado em
+registro é defeito de dados.
+
 ## Reprodução
 
 ```
-go build -o bin/ ./...
-./bin/bvsrc -oshb sources/oshb/Gen.xml -osis Gen -chapter 1 -from 1 -to 5 \
-  -web sources/web/web.getbible.json -kjv sources/kjv/kjv.getbible.json \
-  -livre sources/pt-pd/livre.getbible.json > pipeline/packets/gen-001-001-005.json
-# orquestração multiagente conforme este documento (prompts em pipeline/prompts/)
-./bin/bvqa -record-dir translation/01-gn/001 -livre sources/pt-pd/livre.getbible.json
+make packets         # packet completo (com controles WEB/KJV/Livre)
+make packets-blind   # packet cego do Agente 2 (sem controles)
+# orquestração multiagente conforme este documento (prompts versionados em
+# pipeline/prompts/; scripts executados arquivados em pipeline/orchestration/)
+make verify          # gofmt+vet+build+test+zero-dep+bvcheck(registros+léxico)+checksums
+./bin/bvqa -records translation/01-gn/001 -livre sources/pt-pd/livre.getbible.json \
+  -booknr 1 -chapter 1 -out qa/reports/gen-001-001-005.similarity.json
 ```
