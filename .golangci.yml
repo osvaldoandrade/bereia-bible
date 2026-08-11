@@ -1,0 +1,36 @@
+# Enforcement for ADR-0001: zero third-party deps, context isolation, forge thresholds.
+version: "2"
+linters:
+  enable:
+    - depguard
+    - cyclop
+    - gocognit
+    - funlen
+    - dupl
+    - revive
+  settings:
+    depguard:
+      rules:
+        stdlib-only:
+          files: ["$all"]
+          allow: ["$gostd", "bereia.org/bible"]
+        no-cross-context:
+          files: ["**/internal/oshb/**"]
+          deny:
+            - pkg: bereia.org/bible/internal/similarity
+              desc: "extraction and QA contexts must not import each other (ADR-0001)"
+    cyclop:
+      max-complexity: 10
+    gocognit:
+      min-complexity: 15
+    funlen:
+      lines: 60
+      statements: 40
+    dupl:
+      threshold: 50
+    revive:
+      rules:
+        - name: argument-limit
+          arguments: [4]
+        - name: function-result-limit
+          arguments: [3]
