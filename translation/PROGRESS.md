@@ -2,10 +2,10 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 1253/1533 versículos.**
+**Total AT sourced: 1291/1533 versículos.**
 
 
-## Gênesis — 1253/1533 versículos (81.7%), 50 capítulos
+## Gênesis — 1291/1533 versículos (84.2%), 50 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -50,7 +50,7 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 39 | 23 | ● 23/23 [DRAFT] |
 | 40 | 23 | ● 23/23 [DRAFT] |
 | 41 | 57 | ● 57/57 [DRAFT] |
-| 42 | 38 | · pendente |
+| 42 | 38 | ● 38/38 [DRAFT] |
 | 43 | 34 | · pendente |
 | 44 | 34 | · pendente |
 | 45 | 28 | · pendente |
