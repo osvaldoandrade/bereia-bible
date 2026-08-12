@@ -73,6 +73,15 @@ def build_record(osis, vj, pericope, words):
     conf = min(conf if isinstance(conf, (int, float)) else 0.75, 0.80)
     if not isinstance(just, str) or not just:
         just = "Tradução DRAFT do capítulo (ADR-0002)."
+    # palavras_supridas must be an array of strings (schema); tolerate a richer
+    # {palavra, motivo} object form by flattening it to "palavra — motivo".
+    supridas = []
+    for s in vj.get("palavras_supridas", []):
+        if isinstance(s, dict):
+            pal, mot = s.get("palavra", ""), s.get("motivo", "")
+            supridas.append((pal + " — " + mot) if mot else pal)
+        else:
+            supridas.append(str(s))
     return {
         "schema_version": "1.1.0",
         "referencia": {
@@ -84,7 +93,7 @@ def build_record(osis, vj, pericope, words):
         "termos_originais": termos,
         "variantes_textuais": vj.get("variantes_textuais", []),
         "decisoes": vj.get("decisoes", []),
-        "palavras_supridas": vj.get("palavras_supridas", []),
+        "palavras_supridas": supridas,
         "ambiguidades_preservadas": vj.get("ambiguidades_preservadas", []),
         "justificativa": just,
         "confianca": round(conf, 2),
