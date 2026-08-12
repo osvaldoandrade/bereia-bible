@@ -19,7 +19,7 @@ let A = args || {}
 if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = {} } }
 const FONTES = A.fontes || {
   texto_fonte: 'oshb@3d15126f',
-  manifest_sha256: '2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e',
+  manifest_sha256: '14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b',
   prompts_versao: '1.0.0', regras_versao: '1.1.0', lexico_versao: '0.6.1', modelo: 'claude-fable-5',
 }
 const CHAPTERS = (A.chapters || []).slice(0, 5)
@@ -50,7 +50,7 @@ const preamble = 'Você é o tradutor da Bereia Version (BV), tradução bíblic
 async function draftChapter(ch) {
   const osisBook = ch.book
   const out = await agent(preamble +
-    'FONTE: leia o packet do capítulo ' + ch.packet + ' (traz cada versículo com hebraico + morfologia por palavra) e traduza TODOS os versículos de ' + osisBook + '.' + ch.chapter + ' (v.' + ch.from + ' a ' + ch.to + '). As perícopes já traduzidas estão em ' + REPO + '/translation/01-gn/, ' + REPO + '/translation/02-ex/ e ' + REPO + '/translation/03-lv/ (mantenha consistência terminológica com elas — nomes próprios, topônimos, termos rituais — e com o léxico).\n' +
+    'FONTE: leia o packet do capítulo ' + ch.packet + ' (traz cada versículo com hebraico + morfologia por palavra) e traduza TODOS os versículos de ' + osisBook + '.' + ch.chapter + ' (v.' + ch.from + ' a ' + ch.to + '). As perícopes já traduzidas estão em ' + REPO + '/translation/01-gn/, ' + REPO + '/translation/02-ex/, ' + REPO + '/translation/03-lv/ e ' + REPO + '/translation/04-nm/ (mantenha consistência terminológica com elas — nomes próprios, topônimos, termos rituais — e com o léxico).\n' +
     'Retorne { book:"' + osisBook + '", chapter:' + ch.chapter + ', versos:[ ... um objeto por versículo, na ordem, com osis "' + osisBook + '.' + ch.chapter + '.N" e versiculo N ... ] }. Cubra TODOS os versículos de ' + ch.from + ' a ' + ch.to + '. JSON apenas.',
     { label: 'cap:' + osisBook + '.' + ch.chapter, phase: 'Traduzir', schema: CHAPTER_OUT, model: 'fable' })
   return out || { book: osisBook, chapter: ch.chapter, versos: [] }

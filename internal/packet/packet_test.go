@@ -202,3 +202,45 @@ func TestOSHBChapterTextMapsNumbersVersification(t *testing.T) {
 		t.Fatalf("wrong Numbers 30 mapping: 1=%q 2=%q 17=%q", got[1], got[2], got[17])
 	}
 }
+
+func TestOSHBChapterTextMapsDeuteronomyVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":5,"chapters":[%s,%s,%s,%s,%s,%s]}]}`,
+		chapter(12, 1, 32), chapter(13, 1, 18),
+		chapter(22, 1, 30), chapter(23, 1, 25),
+		chapter(28, 1, 68), chapter(29, 1, 29))
+	path := write(t, dir, "deuteronomy.json", control)
+
+	tests := []struct {
+		chapter int
+		want    map[int]string
+	}{
+		{12, map[int]string{1: "chapter-12-verse-1", 31: "chapter-12-verse-31"}},
+		{13, map[int]string{1: "chapter-12-verse-32", 2: "chapter-13-verse-1", 19: "chapter-13-verse-18"}},
+		{22, map[int]string{1: "chapter-22-verse-1", 29: "chapter-22-verse-29"}},
+		{23, map[int]string{1: "chapter-22-verse-30", 2: "chapter-23-verse-1", 26: "chapter-23-verse-25"}},
+		{28, map[int]string{1: "chapter-28-verse-1", 68: "chapter-28-verse-68", 69: "chapter-29-verse-1"}},
+		{29, map[int]string{1: "chapter-29-verse-2", 28: "chapter-29-verse-29"}},
+	}
+	for _, tt := range tests {
+		got, err := OSHBChapterText(path, 5, tt.chapter)
+		if err != nil {
+			t.Fatalf("chapter %d: %v", tt.chapter, err)
+		}
+		for verse, want := range tt.want {
+			if got[verse] != want {
+				t.Errorf("chapter %d verse %d: got %q, want %q", tt.chapter, verse, got[verse], want)
+			}
+		}
+	}
+}

@@ -16,6 +16,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("02-ex", "Exod", "Êxodo"),
     ("03-lv", "Lev", "Levítico"),
     ("04-nm", "Num", "Números"),
+    ("05-dt", "Deut", "Deuteronômio"),
 ]
 
 
