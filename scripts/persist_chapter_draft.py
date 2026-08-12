@@ -22,7 +22,8 @@ FONTES = {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
     "prompts_versao": "1.0.0", "regras_versao": "1.1.0",
-    "lexico_versao": "0.6.1", "modelo": "claude-fable-5",
+    "lexico_versao": "0.6.1",
+    "modelo": os.environ.get("BV_MODEL", "claude-fable-5"),
 }
 
 
