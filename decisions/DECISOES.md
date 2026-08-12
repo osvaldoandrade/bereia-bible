@@ -173,6 +173,19 @@ Ver `docs/domain/governanca/glossary.md`.
   E houve tarde e houve manhã: segundo dia."
 - Reabertura futura: somente via diff + justificativa + novo ciclo multiagente completo (FSM).
 
+## ER-0016 — Programa da Bíblia completa: 5 threads por capítulo, tier DRAFT
+
+- Data: 2026-08-11 · Escopo: programa · Origem: meta do mantenedor · Status: ATIVA
+- Decisão: traduzir o AT (OSHB pinado) processando 5 capítulos em paralelo; bulk em
+  tier **DRAFT** (pipeline enxuto: tradutor + refutador de fidelidade + finalizador,
+  confianca ≤ 0,80), com REVIEW (consenso pleno) e APPROVED (ratificação humana)
+  reservados para promoção dirigida pelo mantenedor. Detalhes: ADR-0002.
+- NT permanece bloqueado (F-0003, quarentena OpenGNT) — nenhum versículo do NT é produzido.
+- Progresso rastreado em `translation/PROGRESS.md` (`python3 scripts/progress.py`);
+  commit por capítulo; retomável entre sessões.
+- Gn 1:1-8 permanece APPROVED (ER-0014/0015); Gn 1:9-13 segue o piloto (REVIEW→ratificação);
+  de Gn 1:14 em diante, tier DRAFT salvo pedido de promoção.
+
 ---
 
 ## Follow-ups abertos
