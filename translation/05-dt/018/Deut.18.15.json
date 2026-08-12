@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Deut.18.15",
+    "livro": "Deuteronômio",
+    "capitulo": 18,
+    "versiculo": 15,
+    "pericope": "Deut.18.1-22"
+  },
+  "texto_bv": "O SENHOR, seu Deus, levantará para você, do seu meio, dentre seus irmãos, um profeta semelhante a mim. A ele vocês deverão ouvir.",
+  "traducao_literal": "Um profeta do seu meio, dos seus irmãos, como eu, levantará para você YHWH, seu Deus; a ele vocês ouvirão.",
+  "termos_originais": [
+    {
+      "palavra": "נָבִ֨יא",
+      "lemma": "5030",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מִקִּרְבְּךָ֤",
+      "lemma": "m/7130",
+      "morfologia": "HR/Ncmsc/Sp2ms"
+    },
+    {
+      "palavra": "מֵאַחֶ֨יךָ֙",
+      "lemma": "m/251",
+      "morfologia": "HR/Ncmpc/Sp2ms"
+    },
+    {
+      "palavra": "כָּמֹ֔נִי",
+      "lemma": "3644",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "יָקִ֥ים",
+      "lemma": "6965 b",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "לְךָ֖",
+      "lemma": "l",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהֶ֑יךָ",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp2ms"
+    },
+    {
+      "palavra": "אֵלָ֖יו",
+      "lemma": "413",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "תִּשְׁמָעֽוּן",
+      "lemma": "8085",
+      "morfologia": "HVqi2mp/Sn"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como preservar a mudança de singular para plural?",
+      "escolha": "“para você” seguido de “vocês deverão ouvir”",
+      "justificativa": "לְךָ é singular; תִּשְׁמָעוּן é plural. A mudança pactual é explícita.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uniformizar tudo no singular",
+          "motivo": "Apaga o verbo plural final."
+        },
+        {
+          "opcao": "uniformizar tudo no plural",
+          "motivo": "Apaga o destinatário singular da elevação do profeta."
+        }
+      ]
+    },
+    {
+      "questao": "Como verter נָבִיא ... כָּמֹנִי?",
+      "escolha": "“um profeta semelhante a mim”",
+      "justificativa": "O substantivo singular e a comparação com Moisés são preservados; o verso não resolve sozinho se a referência é individual, culminante ou representativa de uma sucessão.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“uma instituição profética sem profeta individual”",
+          "motivo": "Apaga o singular e a comparação pessoal."
+        },
+        {
+          "opcao": "inserir um nome de cumprimento",
+          "motivo": "Importa identificação não codificada no hebraico do verso."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "O singular “um profeta” pode ser lido como indivíduo prometido ou representante da linha profética; a BV não decide no texto."
+  ],
+  "justificativa": "A procedência, a semelhança com Moisés e a obrigação plural de ouvir são mantidas sem identificar no texto um cumprimento posterior específico.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
