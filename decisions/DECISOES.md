@@ -198,6 +198,16 @@ Ver `docs/domain/governanca/glossary.md`.
 - F-0006: verificar licença exata da Bíblia Livre na página eBible/da própria BLIVRE. Dono: mantenedor.
 - F-0007: auditoria trimestral do manifest de fontes (docs/dependencies.md). Dono: mantenedor.
 - F-0008: instalar hook local de secret-scan (gitleaks/git-secrets). Dono: mantenedor.
+- F-0014: workflows longos travam na agregação final (dia três: agente de consistência
+  preso em retry; DRAFT driver: hang no return). Mitigação em uso: recuperar registros do
+  journal.jsonl + TaskStop. Padrão do programa: sempre recuperar do journal, não esperar output.
+- F-0015: surface hebraico dos `termos_originais` DEVE ser re-injetado do packet pinado
+  (nunca redigitado pelo agente) — elimina corrupção de glifo. Aplicado manualmente em
+  Gn 1:14-31; tornar passo padrão do pipeline de persistência (script reutilizável).
+- F-0016: um verso DRAFT de Gn 1:14-31 teve REPROVA material do refutador (surface corrompido,
+  já sanado por F-0015); a revisão automática não rodou (hang). DRAFT não é publicável;
+  consenso pleno + revisão ocorrem na promoção.
+- F-0017: driver de workflow recebe `args` como string JSON — o script faz JSON.parse defensivo.
 - F-0009: `internal/schemavalidate` — rejeitar keyword desconhecida no schema (guarda
   contra subvalidação silenciosa se um schema evoluir para oneOf/$ref/maxLength);
   tornar a lista "NOT supported" exaustiva por construção. Dono: mantenedor.
