@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Num.30.1",
+    "livro": "Números",
+    "capitulo": 30,
+    "versiculo": 1,
+    "pericope": "Num.30.1-17"
+  },
+  "texto_bv": "Moisés comunicou aos israelitas tudo o que o SENHOR lhe havia ordenado.",
+  "traducao_literal": "E disse Moisés aos filhos de Israel conforme tudo o que ordenou YHWH a Moisés.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "מֹשֶׁ֖ה",
+      "lemma": "4872",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בְּנֵ֣י",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֑ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כְּכֹ֛ל",
+      "lemma": "k/3605",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "צִוָּ֥ה",
+      "lemma": "6680",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "מֹשֶֽׁה",
+      "lemma": "4872",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como tratar o mapeamento divergente dos controles?",
+      "escolha": "Manter OSIS Num.30.1 e traduzir somente o hebraico do packet",
+      "justificativa": "Este verso corresponde ao controle 29:40, mas o packet normativo o numera Num.30.1. A BV não renumera nem importa conteúdo do controle seguinte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Renumerar como Num.29.40",
+          "motivo": "Viola o OSIS e a versificação hebraica solicitados."
+        },
+        {
+          "opcao": "Começar com os líderes das tribos",
+          "motivo": "Importa o hebraico de Num.30.2 para este verso."
+        }
+      ]
+    },
+    {
+      "questao": "Como tratar a repetição de Moisés?",
+      "escolha": "Naturalizar com “lhe” no texto BV e preservar a repetição na literal",
+      "justificativa": "O hebraico nomeia Moisés como falante e como destinatário da ordem. O pronome evita repetição pesada sem mudar o referente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“o SENHOR ordenou aos israelitas diretamente”",
+          "motivo": "Apaga a mediação de Moisés."
+        },
+        {
+          "opcao": "Omitir a ordem do SENHOR",
+          "motivo": "Perde a norma que conclui a unidade anterior."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "israelitas",
+    "lhe",
+    "havia"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Falante, destinatários, abrangência e origem divina da comunicação são preservados, com o OSIS hebraico mantido.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
