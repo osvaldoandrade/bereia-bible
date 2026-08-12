@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.8.16",
+    "livro": "Josué",
+    "capitulo": 8,
+    "versiculo": 16,
+    "pericope": "Josh.8.1-35"
+  },
+  "texto_bv": "Todo o povo que estava na cidade foi convocado para persegui-los. Eles perseguiram Josué e foram afastados da cidade.",
+  "traducao_literal": "E foi convocado todo o povo que na cidade para perseguir atrás deles; e perseguiram atrás de Josué, e foram arrancados da cidade.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּזָּעֲק֗וּ",
+      "lemma": "c/2199",
+      "morfologia": "HC/VNw3mp"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הָעָם֙",
+      "lemma": "d/5971 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בעיר",
+      "lemma": "b/5892 b",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "לִרְדֹּ֖ף",
+      "lemma": "l/7291",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "אַחֲרֵיהֶ֑ם",
+      "lemma": "310 a",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "וַֽיִּרְדְּפוּ֙",
+      "lemma": "c/7291",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "אַחֲרֵ֣י",
+      "lemma": "310 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְהוֹשֻׁ֔עַ",
+      "lemma": "3091",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַיִּנָּתְק֖וּ",
+      "lemma": "c/5423",
+      "morfologia": "HC/VNw3mp"
+    },
+    {
+      "palavra": "מִן",
+      "lemma": "4480 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הָעִֽיר",
+      "lemma": "d/5892 b",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "O local do qual o povo é convocado apresenta ketiv e qere.",
+      "leituras": [
+        {
+          "leitura": "בעיר — “na cidade”",
+          "testemunhas": "Ketiv do Texto Massorético preservado no packet OSHB"
+        },
+        {
+          "leitura": "בָּעַי — “em Ai”",
+          "testemunhas": "Qere massorético registrado em sources/oshb/Josh.xml"
+        }
+      ],
+      "avaliacao": "A BV segue o ketiv normativo do packet, “na cidade”, e registra o qere, que explicita o topônimo Ai.",
+      "impacto_na_traducao": "O referente contextual é a mesma cidade; o qere apenas a nomeia diretamente, sem mudar a ação ou os grupos."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como preservar o passivo וַיִּזָּעֲקוּ?",
+      "escolha": "“foi convocado”",
+      "justificativa": "O nifal apresenta o povo como grupo mobilizado, sem nomear o convocador. A passiva evita inserir o rei como agente explícito, embora ele seja contextual.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“o rei convocou”",
+          "motivo": "É plausível, mas o agente não aparece na forma verbal."
+        },
+        {
+          "opcao": "“o povo convocou Josué”",
+          "motivo": "Inverte o grupo convocado e o perseguido."
+        }
+      ]
+    },
+    {
+      "questao": "Valor de וַיִּנָּתְקוּ מִן־הָעִיר",
+      "escolha": "“foram afastados da cidade”",
+      "justificativa": "O nifal de נתק descreve serem desligados ou arrancados de sua posição. A tradução retoma o efeito previsto no verso 6 sem transformá-los em retirantes voluntários.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“permaneceram protegendo a cidade”",
+          "motivo": "Contradiz o afastamento expresso."
+        },
+        {
+          "opcao": "“destruíram a cidade”",
+          "motivo": "Muda o objeto e a voz verbal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "A mobilização passiva, o objeto da perseguição e o afastamento resultante da cidade são preservados.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
