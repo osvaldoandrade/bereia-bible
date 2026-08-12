@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.6.1",
+    "livro": "Josué",
+    "capitulo": 6,
+    "versiculo": 1,
+    "pericope": "Josh.6.1-27"
+  },
+  "texto_bv": "Por causa dos filhos de Israel, Jericó mantinha-se fechada e permanecia bloqueada: não havia quem saísse, nem quem entrasse.",
+  "traducao_literal": "E Jericó estava fechando e estava fechada diante dos filhos de Israel; não havia quem saísse e não havia quem entrasse.",
+  "termos_originais": [
+    {
+      "palavra": "וִֽירִיחוֹ֙",
+      "lemma": "c/3405",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "סֹגֶ֣רֶת",
+      "lemma": "5462",
+      "morfologia": "HVqrfsa"
+    },
+    {
+      "palavra": "וּמְסֻגֶּ֔רֶת",
+      "lemma": "c/5462",
+      "morfologia": "HC/VPsfsa"
+    },
+    {
+      "palavra": "מִפְּנֵ֖י",
+      "lemma": "m/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "בְּנֵ֣י",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֑ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֵ֥ין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יוֹצֵ֖א",
+      "lemma": "3318",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "וְאֵ֥ין",
+      "lemma": "c/369",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "בָּֽא",
+      "lemma": "935",
+      "morfologia": "HVqrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como reconstruir סֹגֶרֶת וּמְסֻגֶּרֶת sem apagar a duplicação?",
+      "escolha": "“mantinha-se fechada e permanecia bloqueada”",
+      "justificativa": "O primeiro particípio apresenta a cidade em ação/estado contínuo de fechamento, e o segundo a descreve como efetivamente fechada. Duas predicações coordenadas preservam a insistência do hebraico sem reproduzir redação auxiliar.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Jericó estava aberta, mas vigiada”",
+          "motivo": "Contradiz as duas formas de סגר e as negações de saída e entrada."
+        },
+        {
+          "opcao": "reduzir a frase a “Jericó tinha muralhas”",
+          "motivo": "Troca o fechamento funcional por uma característica arquitetônica não declarada."
+        }
+      ]
+    },
+    {
+      "questao": "Como preservar אֵין יוֹצֵא וְאֵין בָּא?",
+      "escolha": "“não havia quem saísse, nem quem entrasse”",
+      "justificativa": "As duas construções existenciais negativas permanecem distintas e conservam a ordem sair–entrar do hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“todos entravam e saíam livremente”",
+          "motivo": "Inverte ambas as negações."
+        },
+        {
+          "opcao": "mencionar apenas a impossibilidade de entrar",
+          "motivo": "Apaga a primeira negação e o movimento de saída."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "mantinha-se",
+    "permanecia"
+  ],
+  "ambiguidades_preservadas": [
+    "מִפְּנֵי pode expressar causa (“por causa de”) ou posição diante dos filhos de Israel; a BV adota a relação causal do bloqueio, e a literal conserva “diante”.",
+    "A relação precisa entre o particípio ativo e o passivo de סגר pode ser intensiva ou aspectual; as duas predicações permanecem visíveis."
+  ],
+  "justificativa": "A nova sintaxe antepõe a causa, mantém duas descrições do fechamento de Jericó e conserva separadamente a ausência de quem saísse e de quem entrasse.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
