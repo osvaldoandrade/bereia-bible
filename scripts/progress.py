@@ -11,7 +11,10 @@ import re
 import glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BOOKS = [("01-gn", "Gen", "Gênesis")]  # AT expands here as books are sourced
+BOOKS = [  # AT expands here as books are sourced
+    ("01-gn", "Gen", "Gênesis"),
+    ("02-ex", "Exod", "Êxodo"),
+]
 
 
 def oshb_verse_counts(osis_book):

@@ -16,8 +16,8 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BOOK_DIR = {"Gen": "01-gn"}
-BOOK_NAME = {"Gen": "Gênesis"}
+BOOK_DIR = {"Gen": "01-gn", "Exod": "02-ex"}
+BOOK_NAME = {"Gen": "Gênesis", "Exod": "Êxodo"}
 FONTES = {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
