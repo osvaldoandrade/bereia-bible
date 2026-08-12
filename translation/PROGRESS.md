@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 5568/5853 versículos.**
+**Total AT sourced: 5730/5853 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -178,7 +178,7 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 35 | 34 | ● 34/34 [DRAFT] |
 | 36 | 13 | ● 13/13 [DRAFT] |
 
-## Deuteronômio — 674/959 versículos (70.3%), 34 capítulos
+## Deuteronômio — 836/959 versículos (87.2%), 34 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -207,11 +207,11 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 23 | 26 | ● 26/26 [DRAFT] |
 | 24 | 22 | ● 22/22 [DRAFT] |
 | 25 | 19 | ● 19/19 [DRAFT] |
-| 26 | 19 | · pendente |
-| 27 | 26 | · pendente |
-| 28 | 69 | · pendente |
-| 29 | 28 | · pendente |
-| 30 | 20 | · pendente |
+| 26 | 19 | ● 19/19 [DRAFT] |
+| 27 | 26 | ● 26/26 [DRAFT] |
+| 28 | 69 | ● 69/69 [DRAFT] |
+| 29 | 28 | ● 28/28 [DRAFT] |
+| 30 | 20 | ● 20/20 [DRAFT] |
 | 31 | 30 | · pendente |
 | 32 | 52 | · pendente |
 | 33 | 29 | · pendente |
