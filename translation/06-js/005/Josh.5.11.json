@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.5.11",
+    "livro": "Josué",
+    "capitulo": 5,
+    "versiculo": 11,
+    "pericope": "Josh.5.1-15"
+  },
+  "texto_bv": "No dia seguinte à Páscoa, eles comeram do produto da terra: pães sem fermento e grãos tostados, naquele mesmo dia.",
+  "traducao_literal": "E comeram do produto da terra desde o dia seguinte à Páscoa, pães sem fermento e grão tostado, neste mesmo dia.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֨אכְל֜וּ",
+      "lemma": "c/398",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "מֵעֲב֥וּר",
+      "lemma": "m/5669",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "הָאָ֛רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "מִמָּֽחֳרַ֥ת",
+      "lemma": "m/4283",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "הַפֶּ֖סַח",
+      "lemma": "d/6453",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "מַצּ֣וֹת",
+      "lemma": "4682",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "וְקָל֑וּי",
+      "lemma": "c/7033",
+      "morfologia": "HC/Vqsmsa"
+    },
+    {
+      "palavra": "בְּעֶ֖צֶם",
+      "lemma": "b/6106",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "הַיּ֥וֹם",
+      "lemma": "d/3117",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הַזֶּֽה",
+      "lemma": "d/2088",
+      "morfologia": "HTd/Pdxms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter מֵעֲבוּר הָאָרֶץ?",
+      "escolha": "“do produto da terra”",
+      "justificativa": "עָבוּר é termo raro para produto, provisão ou grão da terra. A formulação não define se era colheita recente ou alimento armazenado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "somente maná",
+          "motivo": "Contradiz o alimento terrestre enumerado."
+        },
+        {
+          "opcao": "carne de animais",
+          "motivo": "Não corresponde aos pães e grãos mencionados."
+        }
+      ]
+    },
+    {
+      "questao": "Como preservar alimentos e cronologia?",
+      "escolha": "“pães sem fermento e grãos tostados, naquele mesmo dia”",
+      "justificativa": "מַצּוֹת e קָלוּי são mantidos como alimentos distintos; מִמָּחֳרַת הַפֶּסַח e בְּעֶצֶם הַיּוֹם הַזֶּה fixam o dia seguinte à Páscoa como o mesmo dia do consumo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "antes da Páscoa",
+          "motivo": "Inverte מִמָּחֳרַת."
+        },
+        {
+          "opcao": "muitos meses depois",
+          "motivo": "Apaga a marca “naquele mesmo dia”."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "eles",
+    "pães",
+    "grãos"
+  ],
+  "ambiguidades_preservadas": [
+    "עָבוּר pode designar genericamente o produto da terra ou, mais especificamente, provisão/grão disponível; a BV não fixa a origem agrícola.",
+    "“Dia seguinte à Páscoa” pode ser contado a partir da observância ou da refeição pascal; o verso não desenvolve o sistema calendárico."
+  ],
+  "justificativa": "A sequência após a Páscoa, a origem terrestre do alimento, os dois tipos de comida e a coincidência no mesmo dia foram preservados.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
