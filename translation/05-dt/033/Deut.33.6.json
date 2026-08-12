@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Deut.33.6",
+    "livro": "Deuteronômio",
+    "capitulo": 33,
+    "versiculo": 6,
+    "pericope": "Deut.33.1-29"
+  },
+  "texto_bv": "Que Rúben viva e não morra;\nque seus homens sejam contáveis.”",
+  "traducao_literal": "Viva Rúben, e não morra;\ne sejam os homens dele número.",
+  "termos_originais": [
+    {
+      "palavra": "יְחִ֥י",
+      "lemma": "2421",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "רְאוּבֵ֖ן",
+      "lemma": "7205",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאַל",
+      "lemma": "c/408",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יָמֹ֑ת",
+      "lemma": "4191",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "וִיהִ֥י",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqj3ms"
+    },
+    {
+      "palavra": "מְתָ֖יו",
+      "lemma": "4962",
+      "morfologia": "HNcmpc/Sp3ms"
+    },
+    {
+      "palavra": "מִסְפָּֽר",
+      "lemma": "4557",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter וִיהִי מְתָיו מִסְפָּר sem inserir negação?",
+      "escolha": "“que seus homens sejam contáveis”",
+      "justificativa": "O texto massorético pinado não contém אַל no segundo membro. “Contáveis” preserva מִסְפָּר como predicado e deixa aberta a possibilidade de número limitado ou simplesmente registrado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“que seus homens não sejam poucos”",
+          "motivo": "Importa uma negação ausente do packet."
+        },
+        {
+          "opcao": "“que nenhum homem reste”",
+          "motivo": "Transforma “número” em extinção total."
+        }
+      ]
+    },
+    {
+      "questao": "Como relacionar vida e número?",
+      "escolha": "manter dois pedidos paralelos sem explicar a tensão",
+      "justificativa": "O primeiro pede vida para Rúben; o segundo fala do número de seus homens. A BV não força o segundo a ser expansão positiva do primeiro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fundir em “Rúben será muito numeroso”",
+          "motivo": "Apaga “não morra” e a forma difícil do segundo membro."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Que",
+    "sejam contáveis"
+  ],
+  "ambiguidades_preservadas": [
+    "מְתָיו מִסְפָּר pode significar homens contáveis, poucos, numerados ou em número preservado; a ausência de negação torna o membro obscuro."
+  ],
+  "justificativa": "A bênção de Rúben conserva vida, não morte e a difícil referência ao número de seus homens.",
+  "confianca": 0.52,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
