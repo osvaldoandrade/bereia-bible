@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.2.13",
+    "livro": "Josué",
+    "capitulo": 2,
+    "versiculo": 13,
+    "pericope": "Josh.2.1-24"
+  },
+  "texto_bv": "Preservem a vida de meu pai, de minha mãe, de meus irmãos, de minha irmã e de todos os que lhes pertencem; livrem nossas vidas da morte.”",
+  "traducao_literal": "E vocês farão viver meu pai, e minha mãe, e meus irmãos, e minha irmã, e tudo o que pertence a eles; e livrarão nossas vidas da morte.",
+  "termos_originais": [
+    {
+      "palavra": "וְהַחֲיִתֶ֞ם",
+      "lemma": "c/2421",
+      "morfologia": "HC/Vhq2mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "אָבִ֣י",
+      "lemma": "1",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "אִמִּ֗י",
+      "lemma": "517",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "אַחַי֙",
+      "lemma": "251",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "אחותי",
+      "lemma": "269",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "וְאֵ֖ת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "לָהֶ֑ם",
+      "lemma": "l",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "וְהִצַּלְתֶּ֥ם",
+      "lemma": "c/5337",
+      "morfologia": "HC/Vhq2mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "נַפְשֹׁתֵ֖ינוּ",
+      "lemma": "5315",
+      "morfologia": "HNcbpc/Sp1cp"
+    },
+    {
+      "palavra": "מִמָּֽוֶת",
+      "lemma": "m/4194",
+      "morfologia": "HR/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como preservar os números familiares?",
+      "escolha": "“meus irmãos” e “minha irmã”",
+      "justificativa": "אַחַי está no plural, enquanto אחותי é analisado no packet como feminino singular. A BV não converte a irmã em plural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“meu único irmão e várias irmãs”",
+          "motivo": "Inverte os números."
+        },
+        {
+          "opcao": "omitir a irmã",
+          "motivo": "Apaga um membro explicitamente pedido."
+        }
+      ]
+    },
+    {
+      "questao": "Como verter וְהַחֲיִתֶם?",
+      "escolha": "“Preservem a vida”",
+      "justificativa": "O hifil exige fazer viver ou manter vivos os familiares. A BV mantém a obrigação de sobrevivência diante da ameaça de morte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“matem minha família”",
+          "motivo": "Inverte o verbo."
+        },
+        {
+          "opcao": "“apenas deem alimento sem garantir vida”",
+          "motivo": "Reduz o pedido."
+        }
+      ]
+    },
+    {
+      "questao": "Como preservar נַפְשֹׁתֵינוּ?",
+      "escolha": "“nossas vidas”",
+      "justificativa": "נֶפֶשׁ está no plural com sufixo de primeira pessoa plural, abrangendo Raabe e os familiares cuja sobrevivência ela pede.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“somente a vida de Raabe”",
+          "motivo": "Apaga o plural e a família enumerada."
+        },
+        {
+          "opcao": "“nossos bens”",
+          "motivo": "Troca vidas ameaçadas por posses."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "de",
+    "os que",
+    "pertencem"
+  ],
+  "ambiguidades_preservadas": [
+    "“Tudo o que lhes pertence” pode incluir pessoas e bens; o pedido seguinte concentra-se na preservação das vidas."
+  ],
+  "justificativa": "Pai, mãe, irmãos, irmã, pertencentes, vidas plurais e livramento da morte são preservados.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
