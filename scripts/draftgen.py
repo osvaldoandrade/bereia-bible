@@ -44,6 +44,16 @@ def decision(questao, escolha, justificativa, alternativas):
             "alternativas_rejeitadas": ar}
 
 
+def variant(descricao, leituras, avaliacao, impacto):
+    """Build a schema-valid variantes_textuais entry.
+
+    leituras: list of (leitura, testemunhas) 2-tuples.
+    """
+    ls = [{"leitura": a, "testemunhas": b} for (a, b) in leituras]
+    return {"descricao": descricao, "leituras": ls,
+            "avaliacao": avaliacao, "impacto_na_traducao": impacto}
+
+
 def verse(book, n, bv, lit, just="", conf=0.75, dec=None, sup=None, amb=None, var=None):
     if isinstance(just, (int, float)):  # tolerate verse(...,bv,lit,conf)
         just, conf = "", just
