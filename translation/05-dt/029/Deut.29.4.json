@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Deut.29.4",
+    "livro": "Deuteronômio",
+    "capitulo": 29,
+    "versiculo": 4,
+    "pericope": "Deut.29.1-28"
+  },
+  "texto_bv": "Eu conduzi vocês durante quarenta anos pelo deserto. As roupas de vocês não se desgastaram, nem a sandália em seu pé se gastou.",
+  "traducao_literal": "E conduzi vocês quarenta anos no deserto; não envelheceram as roupas de vocês sobre vocês, e sua sandália não envelheceu de sobre seu pé.",
+  "termos_originais": [
+    {
+      "palavra": "וָאוֹלֵ֥ךְ",
+      "lemma": "c/3212",
+      "morfologia": "HC/Vhw1cs"
+    },
+    {
+      "palavra": "אֶתְכֶ֛ם",
+      "lemma": "853",
+      "morfologia": "HTo/Sp2mp"
+    },
+    {
+      "palavra": "אַרְבָּעִ֥ים",
+      "lemma": "705",
+      "morfologia": "HAcbpa"
+    },
+    {
+      "palavra": "שָׁנָ֖ה",
+      "lemma": "8141",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בַּמִּדְבָּ֑ר",
+      "lemma": "b/4057 b",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "לֹֽא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "בָל֤וּ",
+      "lemma": "1086",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "שַׂלְמֹֽתֵיכֶם֙",
+      "lemma": "8008",
+      "morfologia": "HNcfpc/Sp2mp"
+    },
+    {
+      "palavra": "מֵעֲלֵיכֶ֔ם",
+      "lemma": "m/5921 a",
+      "morfologia": "HR/R/Sp2mp"
+    },
+    {
+      "palavra": "וְנַֽעַלְךָ֥",
+      "lemma": "c/5275",
+      "morfologia": "HC/Ncfsc/Sp2ms"
+    },
+    {
+      "palavra": "לֹֽא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "בָלְתָ֖ה",
+      "lemma": "1086",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "מֵעַ֥ל",
+      "lemma": "m/5921 a",
+      "morfologia": "HR/R"
+    },
+    {
+      "palavra": "רַגְלֶֽךָ",
+      "lemma": "7272",
+      "morfologia": "HNcfsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como tratar a primeira pessoa singular após a fala de Moisés?",
+      "escolha": "manter “Eu conduzi vocês” sem inserir novo introdutor",
+      "justificativa": "A forma וָאוֹלֵךְ é primeira pessoa singular, e 29.5 identifica esse “eu” como o SENHOR. O texto faz uma mudança abrupta de voz dentro do discurso; a BV a preserva e não acrescenta “Deus disse”.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Moisés conduziu por poder próprio”",
+          "motivo": "Ignora a autoidentificação divina no verso seguinte."
+        },
+        {
+          "opcao": "“O SENHOR disse: Eu conduzi”",
+          "motivo": "Explicita uma transição que o hebraico não marca."
+        }
+      ]
+    },
+    {
+      "questao": "Como preservar a mudança de plural para singular na roupa e sandália?",
+      "escolha": "“as roupas de vocês ... sua sandália ... no pé”",
+      "justificativa": "As roupas levam sufixo plural; sandália e pé levam sufixo singular coletivo. A BV mantém a alternância em vez de pluralizar todos os itens.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“as sandálias nos pés de vocês”",
+          "motivo": "Apaga os sufixos singulares."
+        },
+        {
+          "opcao": "uma única roupa para todo o povo",
+          "motivo": "Ignora o plural de שַׂלְמֹתֵיכֶם."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A primeira pessoa singular é identificada pelo verso seguinte com o SENHOR, embora a moldura do discurso tenha Moisés como locutor."
+  ],
+  "justificativa": "Duração, deserto, preservação das roupas e alternância pronominal da sandália foram mantidos.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
