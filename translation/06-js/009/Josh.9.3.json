@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.9.3",
+    "livro": "Josué",
+    "capitulo": 9,
+    "versiculo": 3,
+    "pericope": "Josh.9.1-27"
+  },
+  "texto_bv": "Em Gibeão, os moradores ficaram sabendo das ações de Josué contra Jericó e Ai.",
+  "traducao_literal": "E os habitantes de Gibeão ouviram aquilo que fez Josué a Jericó e a Ai.",
+  "termos_originais": [
+    {
+      "palavra": "וְיֹשְׁבֵ֨י",
+      "lemma": "c/3427",
+      "morfologia": "HC/Vqrmpc"
+    },
+    {
+      "palavra": "גִבְע֜וֹן",
+      "lemma": "1391",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שָׁמְע֗וּ",
+      "lemma": "8085",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "אֵת֩",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "אֲשֶׁ֨ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "עָשָׂ֧ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוֹשֻׁ֛עַ",
+      "lemma": "3091",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לִֽירִיח֖וֹ",
+      "lemma": "l/3405",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וְלָעָֽי",
+      "lemma": "c/l/5857",
+      "morfologia": "HC/Rd/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como reconstruir וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה sem calcar a oração relativa?",
+      "escolha": "“Em Gibeão, os moradores ficaram sabendo das ações de Josué”",
+      "justificativa": "יֹשְׁבֵי גִבְעוֹן continua sendo o agente humano que recebe a notícia. A oração אֲשֶׁר עָשָׂה é nominalizada como “ações de Josué”, preservando o conteúdo ouvido sem reproduzir a ordem de traduções auxiliares.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Josué soube o que Gibeão fizera",
+          "motivo": "Inverte agente e conteúdo da percepção."
+        },
+        {
+          "opcao": "Os reis de Gibeão ouviram",
+          "motivo": "Substitui os habitantes por reis, categoria ausente no verso."
+        }
+      ]
+    },
+    {
+      "questao": "Como representar os complementos לִירִיחוֹ וְלָעָי?",
+      "escolha": "“contra Jericó e Ai”",
+      "justificativa": "O lamed marca as cidades atingidas pelas ações de Josué; “contra” expressa a direção hostil no contexto sem alterar os dois topônimos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "em favor de Jericó e Ai",
+          "motivo": "Inverte o efeito narrativo das ações conhecidas pelos gibeonitas."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Em",
+    "ações"
+  ],
+  "ambiguidades_preservadas": [
+    "O lamed diante dos topônimos pode ser vertido genericamente “a” ou, pelo contexto bélico, “contra”; a BV explicita a direção hostil sem detalhar as ações."
+  ],
+  "justificativa": "A nova sintaxe parte da localização em Gibeão, mantém os moradores como agentes da percepção, Josué como agente das ações e Jericó e Ai como alvos.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
