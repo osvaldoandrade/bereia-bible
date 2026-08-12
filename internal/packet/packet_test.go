@@ -139,3 +139,66 @@ func TestOSHBChapterTextMapsHebrewVersification(t *testing.T) {
 		t.Fatalf("wrong mapping: 19=%q 20=%q 26=%q", got[19], got[20], got[26])
 	}
 }
+
+func TestOSHBChapterTextMapsNumbersVersification(t *testing.T) {
+	dir := t.TempDir()
+	var c16, c17, c25, c30 strings.Builder
+	for i := 36; i <= 50; i++ {
+		if i > 36 {
+			c16.WriteByte(',')
+		}
+		fmt.Fprintf(&c16, `{"verse":%d,"text":"sixteen-%d"}`, i, i)
+	}
+	for i := 1; i <= 13; i++ {
+		if i > 1 {
+			c17.WriteByte(',')
+		}
+		fmt.Fprintf(&c17, `{"verse":%d,"text":"seventeen-%d"}`, i, i)
+	}
+	for i := 1; i <= 18; i++ {
+		if i > 1 {
+			c25.WriteByte(',')
+		}
+		fmt.Fprintf(&c25, `{"verse":%d,"text":"twenty-five-%d"}`, i, i)
+	}
+	for i := 1; i <= 16; i++ {
+		if i > 1 {
+			c30.WriteByte(',')
+		}
+		fmt.Fprintf(&c30, `{"verse":%d,"text":"thirty-%d"}`, i, i)
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":4,"chapters":[
+{"chapter":16,"verses":[%s]},
+{"chapter":17,"verses":[%s]},
+{"chapter":25,"verses":[%s]},
+{"chapter":26,"verses":[{"verse":1,"text":"twenty-six-1"}]},
+{"chapter":29,"verses":[{"verse":40,"text":"twenty-nine-40"}]},
+{"chapter":30,"verses":[%s]}]}]}`, c16.String(), c17.String(), c25.String(), c30.String())
+	path := write(t, dir, "numbers.json", control)
+
+	got, err := OSHBChapterText(path, 4, 17)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got[1] != "sixteen-36" || got[15] != "sixteen-50" ||
+		got[16] != "seventeen-1" || got[28] != "seventeen-13" {
+		t.Fatalf("wrong Numbers 17 mapping: 1=%q 15=%q 16=%q 28=%q",
+			got[1], got[15], got[16], got[28])
+	}
+
+	got, err = OSHBChapterText(path, 4, 25)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got[18] != "twenty-five-18" || got[19] != "twenty-six-1" {
+		t.Fatalf("wrong Numbers 25 mapping: 18=%q 19=%q", got[18], got[19])
+	}
+
+	got, err = OSHBChapterText(path, 4, 30)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got[1] != "twenty-nine-40" || got[2] != "thirty-1" || got[17] != "thirty-16" {
+		t.Fatalf("wrong Numbers 30 mapping: 1=%q 2=%q 17=%q", got[1], got[2], got[17])
+	}
+}
