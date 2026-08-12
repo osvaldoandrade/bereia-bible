@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Num.21.30",
+    "livro": "Números",
+    "capitulo": 21,
+    "versiculo": 30,
+    "pericope": "Num.21.1-35"
+  },
+  "texto_bv": "Atiramos contra eles;\nHesbom foi destruída até Dibom.\nDevastamos até Nofá,\nque se estende até Medeba.”",
+  "traducao_literal": "E atiramos contra eles; pereceu Hesbom até Dibom, e devastamos até Nofá, que até Medeba.",
+  "termos_originais": [
+    {
+      "palavra": "וַנִּירָ֛ם",
+      "lemma": "c/3384 b",
+      "morfologia": "HC/Vqw1cp/Sp3mp"
+    },
+    {
+      "palavra": "אָבַ֥ד",
+      "lemma": "6",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "חֶשְׁבּ֖וֹן",
+      "lemma": "2809",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "דִּיב֑וֹן",
+      "lemma": "1769",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַנַּשִּׁ֣ים",
+      "lemma": "c/8074",
+      "morfologia": "HC/Vhw1cp"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "נֹ֔פַח",
+      "lemma": "5302",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֲשֶׁ֖רׄ",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מֵֽידְבָֽא",
+      "lemma": "4311",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Puncta extraordinaria sobre אֲשֶׁר na conclusão do cântico.",
+      "leituras": [
+        {
+          "leitura": "אֲשֶׁרׄ — pronome relativo preservado com ponto extraordinário massorético",
+          "testemunhas": "WLC/OSHB, tradição massorética com puncta extraordinaria"
+        }
+      ],
+      "avaliacao": "Os pontos extraordinários sinalizam reserva textual tradicional, mas o OSHB conserva a palavra no texto. Não há neste packet uma leitura alternativa que autorize sua remoção.",
+      "impacto_na_traducao": "A BV mantém “que se estende até Medeba” e registra a incerteza na ligação relativa."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como verter וַנִּירָם?",
+      "escolha": "“Atiramos contra eles”",
+      "justificativa": "A forma é analisada no OSHB a partir de ירה, “atirar”, com sufixo de terceira pessoa plural. A BV mantém a primeira pessoa plural dos vencedores.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“governamos sobre eles”",
+          "motivo": "Segue outra associação lexical possível, mas não a análise do packet."
+        },
+        {
+          "opcao": "“eles nos atingiram”",
+          "motivo": "Inverte pessoa e objeto."
+        }
+      ]
+    },
+    {
+      "questao": "Como verter וַנַּשִּׁים?",
+      "escolha": "“Devastamos”",
+      "justificativa": "O hifil de שמם descreve tornar desolado ou devastar; a intensidade da conquista poética é preservada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“visitamos”",
+          "motivo": "Confunde a raiz e suaviza a destruição."
+        },
+        {
+          "opcao": "“colonizamos”",
+          "motivo": "Moderniza e muda devastação para assentamento."
+        }
+      ]
+    },
+    {
+      "questao": "Como tratar אֲשֶׁרׄ עַד־מֵידְבָא?",
+      "escolha": "“que se estende até Medeba”",
+      "justificativa": "O relativo recebe puncta extraordinaria, sinal tradicional de dificuldade. A BV conserva-o e supre “se estende” pela relação geográfica, sem apagar a marca da auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“e Medeba”",
+          "motivo": "Remove o relativo e nivela a dificuldade."
+        },
+        {
+          "opcao": "“que pertence a Medeba”",
+          "motivo": "Especifica relação de posse não expressa."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "foi",
+    "se estende"
+  ],
+  "ambiguidades_preservadas": [
+    "O verbo וַנִּירָם é lexicalmente difícil e também foi entendido como “devastamos/derrubamos”; o OSHB o relaciona a “atirar”.",
+    "A extensão de “até” e a ligação de Nofá a Medeba são textualmente difíceis, assinaladas pelos puncta sobre אֲשֶׁר."
+  ],
+  "justificativa": "A BV mantém primeira pessoa, destruição e todos os topônimos, sem corrigir o cântico por listas geográficas externas.",
+  "confianca": 0.46,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
