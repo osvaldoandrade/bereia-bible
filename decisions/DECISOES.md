@@ -186,6 +186,20 @@ Ver `docs/domain/governanca/glossary.md`.
 - Gn 1:1-8 permanece APPROVED (ER-0014/0015); Gn 1:9-13 segue o piloto (REVIEW→ratificação);
   de Gn 1:14 em diante, tier DRAFT salvo pedido de promoção.
 
+## ER-0017 — DRAFT por capítulo (revisão do custo do programa)
+
+- Data: 2026-08-12 · Escopo: programa · Origem: **mantenedor** ("por que tão pesado?") · Status: ATIVA
+- Problema: o tier DRAFT por-versículo (~2 agentes/verso) tornava o AT ~46.000 agentes;
+  um único lote de 5 capítulos (Gn 2-6, 129 vv) esgotou o limite de gasto.
+- Decisão: DRAFT passa a **1 agente por capítulo** (`draft-chapter-driver.workflow.js`);
+  o agente produz só o julgamento por versículo; morfologia palavra-a-palavra é montada
+  mecanicamente do packet pinado (`scripts/persist_chapter_draft.py`, F-0015). Redução ~50×
+  (Gn 2-6: ~5 agentes; AT: ~929). Consenso pleno (4 agentes/verso) fica **só sob demanda**,
+  em passagens priorizadas pelo mantenedor. Schema v1.1.0: `translit`/`glosa` opcionais
+  em `termos_originais` (preenchidos na promoção). ADR-0002 revisado.
+- Validado a seco (sem agentes) com journal-mock + packet real de Gn 2: registros montados
+  passam bvcheck; surface/lemma/morfologia vêm do OSHB, não redigitados.
+
 ---
 
 ## Follow-ups abertos

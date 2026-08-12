@@ -18,21 +18,26 @@ invocações de agente. Além disso, a conta já atingiu limite de gasto uma vez
    de domínio público (candidata: Nestle 1904). Livros do AT além de Gênesis são
    baixados do MESMO commit OSHB pinado e adicionados ao manifest quando processados.
 
-2. **Três tiers editoriais de registro** (campo `status` do schema):
-   - **DRAFT** — pipeline enxuto de escala: 1 tradutor (informado pelo registro
-     editorial ratificado + léxico) + 1 refutador de fidelidade/consistência
-     (1 revisão se REPROVA) + finalizador. ~2–3 agentes/versículo. É o tier de
-     cobertura em massa.
-   - **REVIEW** — consenso pleno de 4 agentes + refutação adversarial + QA
-     (o padrão do piloto). Aplicado sob demanda ou em versículos que o DRAFT sinalizar.
-   - **APPROVED** — ratificação humana registrada (ER). Nunca automático.
-   O bulk do programa produz **DRAFT**; promoção a REVIEW/APPROVED é dirigida pelo
-   mantenedor (amostragem, trechos disputados, versículos sinalizados).
+2. **Dois tiers editoriais de registro** (campo `status` do schema)
+   — REVISADO 2026-08-12 pelo mantenedor (ver ER-0017):
+   - **DRAFT** — cobertura em massa: **1 agente por capítulo** que traduz o
+     capítulo inteiro de uma vez (aplica o registro editorial, produz por
+     versículo apenas o julgamento: texto_bv, traducao_literal, decisoes,
+     justificativa, confianca ≤ 0,80). A morfologia palavra-a-palavra NÃO é
+     reemitida pelo agente — é montada mecanicamente do packet pinado
+     (`scripts/persist_chapter_draft.py`; palavra/lemma/morfologia do OSHB,
+     F-0015). ~1 agente/capítulo (era ~2–3/versículo — redução de ~50×).
+   - **REVIEW/APPROVED** — consenso pleno de 4 agentes + refutação adversarial
+     por versículo + QA + ratificação humana. Aplicado **somente sob demanda**,
+     em passagens que o mantenedor prioriza (não em todo versículo).
+   O bulk produz **DRAFT**; promoção é dirigida pelo mantenedor.
+   O tier intermediário "DRAFT por-versículo" (translator+refutador/verso) foi
+   DESCARTADO — custo alto demais para o cânon; `draft-driver.workflow.js` removido.
 
-3. **Paralelismo de 5 threads por capítulo.** Um driver processa lotes de 5
-   capítulos concorrentes; cada thread traduz seu capítulo versículo a versículo no
-   tier DRAFT. A concorrência real é limitada pelo runtime (~10–14 agentes
-   simultâneos); os 5 capítulos se auto-repartem nesse teto.
+3. **Paralelismo de 5 threads por capítulo.** `draft-chapter-driver.workflow.js`
+   processa lotes de até 5 capítulos concorrentes, **1 agente por capítulo**
+   (5 threads = 5 agentes/lote). Custo do AT: ~929 agentes (vs. ~46.000 no
+   design por-versículo). A morfologia autoritativa nunca depende do agente.
 
 4. **Resumibilidade entre sessões.** Cada capítulo concluído é commitado
    individualmente e marcado em `translation/PROGRESS.md`. Interrupção por limite de
