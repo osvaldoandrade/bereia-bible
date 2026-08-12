@@ -150,6 +150,29 @@ Ver `docs/domain/governanca/glossary.md`.
 - Reabertura futura de qualquer destes versículos: somente via diff + justificativa +
   novo ciclo multiagente completo (FSM, PIPELINE.md).
 
+## ER-0015 — RATIFICAÇÃO: Gênesis 1:6–8 → APPROVED (e glosa de רָקִיעַ)
+
+- Data: 2026-08-11 · Ratificador: **Osvaldo Andrade (mantenedor Bereia.org)** · Status: EXECUTADA
+- Decisão consciente (categoria "dia um"): **רָקִיעַ (H7549) → "firmamento"**, fixado no
+  léxico como APPROVED. Alternativas discutidas e rejeitadas: "expansão" (nome de processo
+  em pt-BR vivo, colapsa como entidade em Sl 19:2/Ez 1:22); "abóbada" (importa forma
+  arquitetônica que o lexema não codifica). A materialidade (superfície sólida da
+  cosmologia antiga — Jó 37:18; Ez 1:22 — vs. vão estendido) permanece PRESERVADA como
+  ambiguidade nos registros, nunca afirmada no texto publicado (TEOLOGIA §1.5).
+- Ato: os três registros da perícope `Gen.1.6-8` passam de REVIEW a **APPROVED** após o
+  ciclo de ratificação (aplicação das decisões + correções mecânicas + refutação de
+  fidelidade + verificação de consistência interna e contra Gen.1.1-5 APPROVED).
+- Correção mecânica aplicada (não-decisão do mantenedor): 1:6 uniformiza os dois volitivos
+  — "Haja um firmamento… e separe águas de águas" (queda do "que" assimétrico), preservando
+  a perífrase durativa היה+particípio na traducao_literal (ER-0013).
+- Confirmação de decisão anterior: "segundo dia" (ordinal שֵׁנִי, H8145) apoia-se a "dia um"
+  (cardinal, 1:5) — a assimetria cardinal/ordinal do hebraico agora é visível na própria BV.
+- Texto ratificado: "E Deus disse: “Haja um firmamento no meio das águas, e separe águas de
+  águas.” Deus fez o firmamento e separou as águas que estavam debaixo do firmamento das
+  águas que estavam acima do firmamento; e assim foi. Deus chamou o firmamento de céus.
+  E houve tarde e houve manhã: segundo dia."
+- Reabertura futura: somente via diff + justificativa + novo ciclo multiagente completo (FSM).
+
 ---
 
 ## Follow-ups abertos

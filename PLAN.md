@@ -168,4 +168,11 @@ remoção do diretório. Nenhum dado de produção, nenhum serviço, nenhuma pub
 | Perícope | Tier | Data | Status |
 |---|---|---|---|
 | Gen.1.1-5 (dia um) | T3 (bootstrap) | 2026-08-11 | APPROVED (ER-0014) |
-| Gen.1.6-8 (dia dois) | T2 | 2026-08-11 | em execução — registro editorial ER-0011..0013 vinculante desde o ciclo 1 |
+| Gen.1.6-8 (dia dois) | T2 | 2026-08-11 | APPROVED (ER-0015) — raqia→firmamento ratificado; léxico v0.5.1 |
+
+Notas do dia dois: pipeline interrompido por limite de gasto da conta a meio caminho
+(26/32 agentes), retomado do cache (0 reprocessamento dos 26; 6 ao vivo). Ratificação de
+1:7/1:8 exigiu segundo ciclo — o verificador de consistência pegou que flip de status não
+basta: metadados provisórios de raqia e objeção aberta em 1:8 precisaram do finalizador
+(guarda F-0011). Lição incorporada: ratificação de perícope processa TODOS os versículos
+pelo finalizador, não só os que mudam texto.
