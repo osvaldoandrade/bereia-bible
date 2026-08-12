@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Deut.6.4",
+    "livro": "Deuteronômio",
+    "capitulo": 6,
+    "versiculo": 4,
+    "pericope": "Deut.6.1-25"
+  },
+  "texto_bv": "Ouça, Israel: o SENHOR é nosso Deus; o SENHOR é um só.",
+  "traducao_literal": "Ouve, Israel: SENHOR nosso Deus, SENHOR um.",
+  "termos_originais": [
+    {
+      "palavra": "שְׁמַ֖",
+      "lemma": "8085",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֑ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהֵ֖ינוּ",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶחָֽ",
+      "lemma": "259",
+      "morfologia": "HAcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Construção nominal do Shemá",
+      "escolha": "o SENHOR é nosso Deus; o SENHOR é um só",
+      "justificativa": "A pontuação trata as duas ocorrências de YHWH como duas afirmações coordenadas. “Um só” evita que “é um” sugira um membro entre vários e preserva unidade e exclusividade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o SENHOR, nosso Deus, é o único SENHOR",
+          "motivo": "Explicita exclusividade, mas comprime as duas ocorrências numa única oração e resolve além do necessário a sintaxe sem cópula."
+        },
+        {
+          "opcao": "o SENHOR nosso Deus, o SENHOR é um",
+          "motivo": "É formalmente próxima, porém pouco natural e ainda ambígua de modo não controlado em português."
+        },
+        {
+          "opcao": "o SENHOR é nosso Deus, somente o SENHOR",
+          "motivo": "É leitura possível de אֶחָד como “somente”, mas elimina a leitura de unidade."
+        }
+      ]
+    },
+    {
+      "questao": "Superfícies truncadas no packet",
+      "escolha": "preservar as superfícies exatamente na análise e traduzir conforme os lemas e códigos pinados",
+      "justificativa": "O packet registra שְׁמַ֖ sem ע e אֶחָֽ sem ד, embora os lemas H8085 e H259 e as morfologias identifiquem inequivocamente o imperativo “ouça” e o cardinal “um”. A auditoria não corrige silenciosamente os glifos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "recompor as consoantes nos campos morfológicos",
+          "motivo": "Violaria a exigência de não redigitar nem alterar o surface pinado."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é"
+  ],
+  "ambiguidades_preservadas": [
+    "A sintaxe nominal admite as leituras “o SENHOR é nosso Deus; o SENHOR é um”, “o SENHOR nosso Deus é um só SENHOR” e “o SENHOR é nosso Deus, somente o SENHOR”; “um só” preserva unidade e exclusividade sem declarar uma análise única."
+  ],
+  "justificativa": "A tradução segue a sintaxe e os valores lexicais do hebraico pinado em Deut.6.4, com normalização apenas onde exigida pelo português brasileiro natural.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
