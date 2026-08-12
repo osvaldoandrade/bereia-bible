@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Deut.22.28",
+    "livro": "Deuteronômio",
+    "capitulo": 22,
+    "versiculo": 28,
+    "pericope": "Deut.22.1-29"
+  },
+  "texto_bv": "Se um homem encontrar uma jovem virgem que não esteja prometida em casamento, agarrá-la, deitar-se com ela e os dois forem descobertos,",
+  "traducao_literal": "Quando encontrar homem jovem virgem que não foi prometida, e a agarrar, e se deitar com ela, e forem encontrados,",
+  "termos_originais": [
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יִמְצָ֣א",
+      "lemma": "4672",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "אִ֗ישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "נער",
+      "lemma": "5291",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בְתוּלָה֙",
+      "lemma": "1330",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אֹרָ֔שָׂה",
+      "lemma": "781",
+      "morfologia": "HVPp3fs"
+    },
+    {
+      "palavra": "וּתְפָשָׂ֖הּ",
+      "lemma": "c/8610",
+      "morfologia": "HC/Vqq3ms/Sp3fs"
+    },
+    {
+      "palavra": "וְשָׁכַ֣ב",
+      "lemma": "c/7901",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "עִמָּ֑הּ",
+      "lemma": "5973 a",
+      "morfologia": "HR/Sp3fs"
+    },
+    {
+      "palavra": "וְנִמְצָֽאוּ",
+      "lemma": "c/4672",
+      "morfologia": "HC/VNq3cp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Ketiv/qere em uma ocorrência do substantivo que designa a jovem neste verso.",
+      "leituras": [
+        {
+          "leitura": "נער — forma consonantal sem ה final",
+          "testemunhas": "TM ketiv; superfície do packet OSHB"
+        },
+        {
+          "leitura": "נערה — forma feminina “jovem”",
+          "testemunhas": "TM qere registrado no OSHB"
+        }
+      ],
+      "avaliacao": "A BV segue o qere feminino, coerente com o referente feminino e com a leitura massorética tradicional.",
+      "impacto_na_traducao": "A BV verte “jovem”; a variante não altera os agentes, o estado jurídico nem as consequências do caso."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como verter וּתְפָשָׂהּ?",
+      "escolha": "“agarrá-la”",
+      "justificativa": "תפש descreve tomar ou segurar. A BV preserva a ação física sem equipará-la automaticamente ao חזק intensivo do verso 25.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“ela o agarrou”",
+          "motivo": "Troca agente e objeto."
+        },
+        {
+          "opcao": "omitir a tomada física",
+          "motivo": "Apaga o verbo."
+        }
+      ]
+    },
+    {
+      "questao": "O verso define consentimento?",
+      "escolha": "não acrescentar “consensual” nem “estupro” ao texto BV",
+      "justificativa": "Diferentemente do verso 25, não ocorre חזק nem a sequência grito/ausência de socorro; ainda assim תפש e ענה no verso seguinte descrevem ação e dano. A fonte não lexicaliza de modo inequívoco o consentimento.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“relação claramente consensual”",
+          "motivo": "Excede a informação expressa."
+        },
+        {
+          "opcao": "“coerção idêntica ao verso 25”",
+          "motivo": "Apaga a diferença lexical entre תפש e חזק."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "os dois"
+  ],
+  "ambiguidades_preservadas": [
+    "תפש pode variar entre agarrar, tomar e apoderar-se; o texto não explicita por si só o grau de força nem o consentimento.",
+    "O plural “forem descobertos” inclui ambos como encontrados na situação, mas não resolve sozinho consentimento ou culpa simétrica."
+  ],
+  "justificativa": "Estado não noivado, ação do homem, relação sexual e descoberta de ambos são preservados sem fechar a ambiguidade.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
