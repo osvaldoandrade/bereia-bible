@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 3525/3605 versículos.**
+**Total AT sourced: 3559/3605 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -105,7 +105,7 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 39 | 43 | ● 43/43 [DRAFT] |
 | 40 | 38 | ● 38/38 [DRAFT] |
 
-## Levítico — 779/859 versículos (90.7%), 27 capítulos
+## Levítico — 813/859 versículos (94.6%), 27 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -135,5 +135,5 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 24 | 23 | ● 23/23 [DRAFT] |
 | 25 | 55 | ● 55/55 [DRAFT] |
 | 26 | 46 | · pendente |
-| 27 | 34 | · pendente |
+| 27 | 34 | ● 34/34 [DRAFT] |
 
