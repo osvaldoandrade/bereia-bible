@@ -11,16 +11,18 @@ Usage:
 
 Records recovered from the workflow journal (F-0014). Zero third-party deps.
 """
+import hashlib
 import json
 import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BOOK_DIR = {"Gen": "01-gn", "Exod": "02-ex"}
-BOOK_NAME = {"Gen": "Gênesis", "Exod": "Êxodo"}
+BOOK_DIR = {"Gen": "01-gn", "Exod": "02-ex", "Lev": "03-lv"}
+BOOK_NAME = {"Gen": "Gênesis", "Exod": "Êxodo", "Lev": "Levítico"}
+MANIFEST_PATH = os.path.join(ROOT, "sources", "manifest.json")
 FONTES = {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
+    "manifest_sha256": hashlib.sha256(open(MANIFEST_PATH, "rb").read()).hexdigest(),
     "prompts_versao": "1.0.0", "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
     "modelo": os.environ.get("BV_MODEL", "claude-fable-5"),

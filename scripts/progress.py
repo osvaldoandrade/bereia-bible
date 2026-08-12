@@ -14,6 +14,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOKS = [  # AT expands here as books are sourced
     ("01-gn", "Gen", "Gênesis"),
     ("02-ex", "Exod", "Êxodo"),
+    ("03-lv", "Lev", "Levítico"),
 ]
 
 

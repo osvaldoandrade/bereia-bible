@@ -19,7 +19,7 @@ let A = args || {}
 if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = {} } }
 const FONTES = A.fontes || {
   texto_fonte: 'oshb@3d15126f',
-  manifest_sha256: 'a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d',
+  manifest_sha256: '6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790',
   prompts_versao: '1.0.0', regras_versao: '1.1.0', lexico_versao: '0.6.1', modelo: 'claude-fable-5',
 }
 const CHAPTERS = (A.chapters || []).slice(0, 5)
