@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Num.25.19",
+    "livro": "Números",
+    "capitulo": 25,
+    "versiculo": 19,
+    "pericope": "Num.25.1-19"
+  },
+  "texto_bv": "Passada a praga, aconteceu o seguinte:",
+  "traducao_literal": "E aconteceu depois da praga,",
+  "termos_originais": [
+    {
+      "palavra": "וַיְהִ֖י",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אַחֲרֵ֣י",
+      "lemma": "310 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַמַּגֵּפָ֑ה",
+      "lemma": "d/4046",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como tratar a versificação hebraica divergente?",
+      "escolha": "Manter apenas “E aconteceu, depois da praga,” em Num.25.19",
+      "justificativa": "O packet normativo contém somente וַיְהִי אַחֲרֵי הַמַּגֵּפָה. A continuação que os controles incorporam em 26:1 não pertence a este OSIS no packet e não é importada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“O SENHOR falou a Moisés e Eleazar”",
+          "motivo": "Copia a continuação do controle que não está no hebraico de Num.25.19."
+        },
+        {
+          "opcao": "Renumerar como Num.26.1",
+          "motivo": "Viola a versificação hebraica e o OSIS solicitado."
+        }
+      ]
+    },
+    {
+      "questao": "Por que o verso termina com vírgula?",
+      "escolha": "Para preservar a fórmula de transição sintaticamente aberta",
+      "justificativa": "וַיְהִי אַחֲרֵי funciona como introdução temporal cuja continuação vem depois da divisão do packet. A pontuação mantém essa dependência sem fabricar conteúdo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Encerrar com ponto e completar uma ideia autônoma",
+          "motivo": "Oculta o caráter transitivo da fórmula."
+        },
+        {
+          "opcao": "Usar reticências e acrescentar explicação editorial",
+          "motivo": "Mistura texto bíblico e nota."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Passada",
+    "o seguinte"
+  ],
+  "ambiguidades_preservadas": [
+    "A fórmula é sintaticamente dependente da continuação posterior, mas o artefato termina exatamente no conteúdo hebraico fornecido para Num.25.19."
+  ],
+  "justificativa": "O verso preserva o waw, a fórmula de acontecimento e a localização temporal pós-praga, sem renumerar ou importar palavras dos controles.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
