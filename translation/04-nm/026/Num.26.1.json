@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Num.26.1",
+    "livro": "Números",
+    "capitulo": 26,
+    "versiculo": 1,
+    "pericope": "Num.26.1-65"
+  },
+  "texto_bv": "Então o SENHOR deu esta ordem a Moisés e a Eleazar, cujo pai era o sacerdote Arão:",
+  "traducao_literal": "E falou YHWH a Moisés e a Eleazar, filho de Arão, o sacerdote, dizendo:",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֤אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "יְהוָה֙",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מֹשֶׁ֔ה",
+      "lemma": "4872",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאֶ֧ל",
+      "lemma": "c/413",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "אֶלְעָזָ֛ר",
+      "lemma": "499",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אַהֲרֹ֥ן",
+      "lemma": "175",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַכֹּהֵ֖ן",
+      "lemma": "d/3548",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "לֵאמֹֽר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como tratar a transição combinada pelo controle de Num.26.1?",
+      "escolha": "traduzir somente a fala iniciada por “Então o SENHOR deu esta ordem...”",
+      "justificativa": "O hebraico do packet começa em וַיֹּאמֶר e não contém “depois da praga”, que pertence a Num.25.19 na versificação OSHB do projeto. A BV não duplica a transição do capítulo anterior.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Depois da praga, o SENHOR falou”",
+          "motivo": "Importa conteúdo ausente do verso normativo e já registrado em Num.25.19."
+        }
+      ]
+    },
+    {
+      "questao": "A quem הַכֹּהֵן qualifica?",
+      "escolha": "“filho do sacerdote Arão”",
+      "justificativa": "A aposição segue imediatamente Arão e o identifica como sacerdote; Eleazar volta a ser chamado explicitamente “o sacerdote” no v.3.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Eleazar, filho de Arão, era o único sacerdote”",
+          "motivo": "Acrescenta exclusividade não expressa."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Então",
+    "esta ordem",
+    "cujo pai era"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "A fórmula preserva os dois destinatários e exclui conscientemente a frase adicional do controle.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
