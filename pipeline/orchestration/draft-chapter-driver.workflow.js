@@ -50,9 +50,9 @@ const preamble = 'Você é o tradutor da Bereia Version (BV), tradução bíblic
 async function draftChapter(ch) {
   const osisBook = ch.book
   const out = await agent(preamble +
-    'FONTE: leia o packet do capítulo ' + ch.packet + ' (traz cada versículo com hebraico + morfologia por palavra) e traduza TODOS os versículos de ' + osisBook + '.' + ch.chapter + ' (v.' + ch.from + ' a ' + ch.to + '). As perícopes já traduzidas estão em ' + REPO + '/translation/01-gn/ (mantenha consistência terminológica com elas e com o léxico).\n' +
+    'FONTE: leia o packet do capítulo ' + ch.packet + ' (traz cada versículo com hebraico + morfologia por palavra) e traduza TODOS os versículos de ' + osisBook + '.' + ch.chapter + ' (v.' + ch.from + ' a ' + ch.to + '). As perícopes já traduzidas estão em ' + REPO + '/translation/01-gn/ e ' + REPO + '/translation/02-ex/ (mantenha consistência terminológica com elas — nomes próprios, topônimos, termos rituais — e com o léxico).\n' +
     'Retorne { book:"' + osisBook + '", chapter:' + ch.chapter + ', versos:[ ... um objeto por versículo, na ordem, com osis "' + osisBook + '.' + ch.chapter + '.N" e versiculo N ... ] }. Cubra TODOS os versículos de ' + ch.from + ' a ' + ch.to + '. JSON apenas.',
-    { label: 'cap:' + osisBook + '.' + ch.chapter, phase: 'Traduzir', schema: CHAPTER_OUT })
+    { label: 'cap:' + osisBook + '.' + ch.chapter, phase: 'Traduzir', schema: CHAPTER_OUT, model: 'fable' })
   return out || { book: osisBook, chapter: ch.chapter, versos: [] }
 }
 
