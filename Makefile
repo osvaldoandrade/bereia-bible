@@ -27,8 +27,11 @@ CHAPTER ?= 1
 FROM ?= 1
 TO ?= 5
 PERICOPE ?= Gen.$(CHAPTER).$(FROM)-$(TO)
-PACKET_OUT ?= pipeline/packets/gen-001-00$(FROM)-00$(TO).json
-BLIND_OUT ?= pipeline/packets/gen-001-00$(FROM)-00$(TO).blind.json
+CH_PAD := $(shell printf '%03d' $(CHAPTER))
+FROM_PAD := $(shell printf '%03d' $(FROM))
+TO_PAD := $(shell printf '%03d' $(TO))
+PACKET_OUT ?= pipeline/packets/gen-$(CH_PAD)-$(FROM_PAD)-$(TO_PAD).json
+BLIND_OUT ?= pipeline/packets/gen-$(CH_PAD)-$(FROM_PAD)-$(TO_PAD).blind.json
 
 packets: build
 	./bin/bvsrc -oshb sources/oshb/Gen.xml -osis Gen -chapter $(CHAPTER) -from $(FROM) -to $(TO) \
