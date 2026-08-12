@@ -65,7 +65,14 @@ def build_record(osis, vj, pericope, words):
     book, chap, num = osis.split(".")
     termos = [{"palavra": s, "lemma": lem, "morfologia": mor} for (s, lem, mor) in words]
     conf = vj.get("confianca", 0.75)
+    just = vj.get("justificativa", "")
+    # Guard against a driver/helper slip that puts the confidence number into
+    # justificativa (must be a string per schema); recover it as confidence.
+    if isinstance(just, (int, float)) and not isinstance(conf, (int, float)):
+        conf, just = just, ""
     conf = min(conf if isinstance(conf, (int, float)) else 0.75, 0.80)
+    if not isinstance(just, str) or not just:
+        just = "Tradução DRAFT do capítulo (ADR-0002)."
     return {
         "schema_version": "1.1.0",
         "referencia": {
@@ -79,7 +86,7 @@ def build_record(osis, vj, pericope, words):
         "decisoes": vj.get("decisoes", []),
         "palavras_supridas": vj.get("palavras_supridas", []),
         "ambiguidades_preservadas": vj.get("ambiguidades_preservadas", []),
-        "justificativa": vj.get("justificativa", ""),
+        "justificativa": just,
         "confianca": round(conf, 2),
         "status": "DRAFT",
         "ciclos_consenso": 1,
