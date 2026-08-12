@@ -1,0 +1,36 @@
+{
+  "alerta": false,
+  "avaliacao_geral": "Auditoria qualitativa de Gen.1.9-13 (dia tres) vs ARA/NVI/NAA/NTLH, de memoria, sem armazenar as versoes protegidas; nenhum versiculo protegido reproduzido (fragmentos <=5 palavras). VEREDITO: nenhuma coincidencia extensa evitavel -> alerta=false; recomendar MANTER e ratificar (REVIEW->APPROVED). Evidencia objetiva: as sobreposicoes extensas do texto BV sao verificaveis contra o controle PD armazenado (Biblia Livre, sources/pt-pd/livre.getbible.json) e/ou forcadas pelo hebraico -- 'arvore de fruto'...'segundo a sua especie' e 'cuja semente esta nele' seguem a Livre quase literalmente; 'que era bom' e 'e assim foi' sao refroes inevitaveis (cf. glossario QA 'coincidencia inevitavel'). As UNICAS coincidencias especificas das versoes protegidas sao lexemas curtos, naturais e sub-limiar (<=3 palavras), ausentes do controle PD Livre: 'relva' (deshe; ARA/NAA; v11-v12; Livre traz 'erva verde') e 'ajuntamento das aguas' (miqveh; ARA/NAA; v10; Livre traz 'reuniao') -- ambos heranca Almeida-PD e rendicoes naturais do original, portanto sobreposicao por ancestralidade compartilhada, nao copia. A BV sustenta divergencias principiadas e recorrentes que atestam trabalho independente: ordem S-V uniforme (ER-0011: 'E Deus disse', 'Deus viu', 'A terra produziu' -- vs o V-S 'E disse Deus'/'viu Deus' das versoes e do controle), nomeacao minuscula 'chamou X de Y' (ER-0012), repeticao formular preservada (ER-0013: 'houve'...'houve' no v13, mais literal que ARA/NAA/Livre) e lexemas proprios ('Brote' por tadsha, 'o seco' por hayabbashah, 'faz fruto' por asah, presente indicativo vs subjuntivo/imperfeito, 'esta nele' masc.). Follow-up NAO-bloqueante: criar entradas de lexico ancorando deshe->'relva' e miqveh->'ajuntamento' na fonte (como bara/asah/raqia ja foram), convertendo as coincidencias ARA/NAA em decisoes documentadas e fechando a trilha de auditoria. Vedado (PIPELINE §QA) reescrever artificialmente so para reduzir similaridade: 'relva'/'ajuntamento' sao naturais/heranca e devem ser mantidos e anotados.",
+  "por_versiculo": [
+    {
+      "osis": "Gen.1.9",
+      "coincidencias": "Sobreposicoes extensas apenas com o controle PD (Biblia Livre) e/ou forcadas pelo original: 'as aguas debaixo dos ceus' e o fecho 'e assim foi' (Livre: 'e foi assim'). Contra versoes protegidas: 'Ajuntem-se as aguas' coincide com ARA, porem e heranca Almeida-PD e verte o nifal de קוה naturalmente (o controle Livre traz 'Juntem-se'). BV diverge de todas: abertura S-V 'E Deus disse' (ER-0011, vs 'E disse Deus'/'Disse tambem Deus'), 'num so lugar' (reflete echad), 'apareca o seco' (literal de hayabbashah, vs 'porcao seca' de ARA/NAA/Livre e 'parte seca' da NVI) e 'e assim foi' (vs 'e assim se fez' da ARA).",
+      "exigida_pelo_original": true,
+      "recomendacao": "manter -- nenhuma coincidencia extensa evitavel; as sobreposicoes sao PD/originais e a BV mantem divergencias principiadas (ER-0011, 'o seco', 'num so lugar')."
+    },
+    {
+      "osis": "Gen.1.10",
+      "coincidencias": "'ajuntamento das aguas' coincide com ARA/NAA (o controle Livre usa 'reuniao das aguas') -- item de MAIOR atencao qualitativa; porem 3 palavras, sub-limiar, e heranca Almeida-PD que rende miqveh (raiz קוה) naturalmente. 'que era bom' e o refrao inevitavel. 'parte seca' ecoa a NVI, mas e rendicao natural de hayabbashah (2 palavras). BV diverge por regra propria: ordem S-V 'Deus viu' (ER-0011, vs 'viu Deus' de ARA/Livre) e nomeacao minuscula 'chamou ... de terra'/'de mares' (ER-0012, construcao generica do portugues, nao emprestada).",
+      "exigida_pelo_original": true,
+      "recomendacao": "manter e anotar; recomendavel criar entrada de lexico miqveh->'ajuntamento' ancorada na fonte (como bara/asah). Nao reescrever para 'reuniao' so por similaridade -- 'ajuntamento' e natural/heranca (PIPELINE §QA)."
+    },
+    {
+      "osis": "Gen.1.11",
+      "coincidencias": "A sobreposicao longa e com o controle PD/original: 'arvore de fruto' + 'segundo a sua especie' seguem a Biblia Livre quase literalmente e vertem etz peri...leminо -- heranca/original (ARA usa 'arvores frutiferas'; BV nao). Contra protegidas, apenas lexico curto: 'relva' coincide com ARA/NAA (Livre traz 'erva verde'; 1 palavra) e 'cuja semente' com ARA (Livre: 'que sua semente'; 2 palavras). BV diverge fortemente: 'Brote' (literal de tadsha, exclusivo; vs 'Produza'), presente 'da' (vs subjuntivo 'de/deem') e 'esta nele' masc. (vs 'esteja nela').",
+      "exigida_pelo_original": true,
+      "recomendacao": "manter; documentar deshe->'relva' em entrada de lexico com justificativa da fonte (converte a coincidencia ARA/NAA em decisao source-driven). Sem alerta: coincidencia protegida e de 1-2 palavras, sub-limiar."
+    },
+    {
+      "osis": "Gen.1.12",
+      "coincidencias": "Sobreposicoes extensas com o controle PD/original: 'cuja semente esta nele' identico a Biblia Livre e 'segundo a sua especie' (2x) padrao de min. 'A terra produziu relva' aproxima-se da ARA, mas decompoe-se em ordem S-V propria (ER-0011) + verbo forcado por wattotze + o lexema 'relva' (unico item ARA/NAA-especifico; Livre: 'erva verde'). BV diverge: 'faz fruto' (asah->fazer, consistencia de lexico; vs 'da'/'davam fruto'), presente vs imperfeito, e 'Deus viu' S-V (vs 'viu Deus').",
+      "exigida_pelo_original": true,
+      "recomendacao": "manter; mesma nota do v11 sobre 'relva' (entrada de lexico). A coincidencia com ARA reduz-se a 1 lexema -- sub-limiar, sem alerta."
+    },
+    {
+      "osis": "Gen.1.13",
+      "coincidencias": "Coincidencia minima. BV 'houve tarde e houve manha' DUPLICA o verbo (ER-0013, literal de wayhi...wayhi) e nao corresponde a nenhuma versao: ARA/NAA usam 'houve' unico e o controle Livre usa 'foi' (tambem unico, sem duplicacao). 'terceiro dia' sem artigo (serie anartra dos dias) diverge do 'o terceiro dia' da ARA. BV e mais literal que as protegidas.",
+      "exigida_pelo_original": true,
+      "recomendacao": "manter -- sem sobreposicao extensa; redacao mais literal e independente que as versoes protegidas."
+    }
+  ]
+}
