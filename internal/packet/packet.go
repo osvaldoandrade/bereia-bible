@@ -107,16 +107,70 @@ func (c controlSet) forVerse(n int) *Controls {
 func loadControls(req Request) (controlSet, error) {
 	var cs controlSet
 	var err error
-	if cs.web, err = ChapterText(req.WebPath, req.BookNr, req.Chapter); err != nil {
+	if cs.web, err = OSHBChapterText(req.WebPath, req.BookNr, req.Chapter); err != nil {
 		return cs, err
 	}
-	if cs.kjv, err = ChapterText(req.KJVPath, req.BookNr, req.Chapter); err != nil {
+	if cs.kjv, err = OSHBChapterText(req.KJVPath, req.BookNr, req.Chapter); err != nil {
 		return cs, err
 	}
-	if cs.livre, err = ChapterText(req.LivrePath, req.BookNr, req.Chapter); err != nil {
+	if cs.livre, err = OSHBChapterText(req.LivrePath, req.BookNr, req.Chapter); err != nil {
 		return cs, err
 	}
 	return cs, nil
+}
+
+type verseSpan struct {
+	sourceFrom, sourceTo        int
+	controlChapter, controlFrom int
+}
+
+// OSHB uses the Hebrew versification, while the stored controls use the
+// KJV/NRSV chapter boundaries. Each exceptional source chapter is mapped in
+// full so a control can never be attached to the wrong Hebrew verse.
+var controlSpans = map[[2]int][]verseSpan{
+	{1, 32}: {{1, 1, 31, 55}, {2, 33, 32, 1}},
+	{2, 7}:  {{1, 25, 7, 1}, {26, 29, 8, 1}},
+	{2, 8}:  {{1, 28, 8, 5}},
+	{2, 21}: {{1, 36, 21, 1}, {37, 37, 22, 1}},
+	{2, 22}: {{1, 30, 22, 2}},
+	{3, 5}:  {{1, 19, 5, 1}, {20, 26, 6, 1}},
+	{3, 6}:  {{1, 23, 6, 8}},
+}
+
+// OSHBChapterText returns control text keyed by the OSHB verse number.
+func OSHBChapterText(path string, bookNr, chapter int) (map[int]string, error) {
+	if path == "" {
+		return nil, nil
+	}
+	spans, exceptional := controlSpans[[2]int{bookNr, chapter}]
+	if !exceptional {
+		return ChapterText(path, bookNr, chapter)
+	}
+	out := make(map[int]string)
+	chapters := make(map[int]map[int]string)
+	for _, span := range spans {
+		control, ok := chapters[span.controlChapter]
+		if !ok {
+			var err error
+			control, err = ChapterText(path, bookNr, span.controlChapter)
+			if err != nil {
+				return nil, err
+			}
+			chapters[span.controlChapter] = control
+		}
+		for sourceVerse := span.sourceFrom; sourceVerse <= span.sourceTo; sourceVerse++ {
+			controlVerse := span.controlFrom + sourceVerse - span.sourceFrom
+			text, ok := control[controlVerse]
+			if !ok {
+				return nil, fmt.Errorf(
+					"control %s: mapped book %d %d:%d not found for OSHB %d:%d",
+					path, bookNr, span.controlChapter, controlVerse, chapter, sourceVerse,
+				)
+			}
+			out[sourceVerse] = text
+		}
+	}
+	return out, nil
 }
 
 // getBible v2 whole-Bible JSON shape (books[].nr, chapters[].chapter,

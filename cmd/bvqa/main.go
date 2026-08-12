@@ -25,7 +25,7 @@ func main() {
 		flag.Usage()
 		os.Exit(2)
 	}
-	control, err := packet.ChapterText(livre, bookNr, chapter)
+	control, err := packet.OSHBChapterText(livre, bookNr, chapter)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "bvqa:", err)
 		os.Exit(1)

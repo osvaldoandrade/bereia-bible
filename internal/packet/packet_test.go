@@ -1,6 +1,7 @@
 package packet
 
 import (
+	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
@@ -97,5 +98,44 @@ func TestChapterTextEmptyPath(t *testing.T) {
 	m, err := ChapterText("", 1, 1)
 	if err != nil || m != nil {
 		t.Errorf("empty path must be a no-op, got %v %v", m, err)
+	}
+}
+
+func TestOSHBChapterTextMapsHebrewVersification(t *testing.T) {
+	dir := t.TempDir()
+	control := `{"books":[{"nr":3,"chapters":[
+{"chapter":5,"verses":[{"verse":19,"text":"Levítico cinco dezenove"}]},
+{"chapter":6,"verses":[
+{"verse":1,"text":"Levítico seis um"},{"verse":2,"text":"Levítico seis dois"},
+{"verse":3,"text":"Levítico seis três"},{"verse":4,"text":"Levítico seis quatro"},
+{"verse":5,"text":"Levítico seis cinco"},{"verse":6,"text":"Levítico seis seis"},
+{"verse":7,"text":"Levítico seis sete"}]}]}]}`
+	path := write(t, dir, "lev.json", control)
+
+	got, err := OSHBChapterText(path, 3, 5)
+	if err == nil {
+		t.Fatal("want error when a mapped control verse is missing")
+	}
+
+	var verses strings.Builder
+	for i := 1; i <= 19; i++ {
+		if i > 1 {
+			verses.WriteByte(',')
+		}
+		fmt.Fprintf(&verses, `{"verse":%d,"text":"five-%d"}`, i, i)
+	}
+	control = fmt.Sprintf(`{"books":[{"nr":3,"chapters":[
+{"chapter":5,"verses":[%s]},
+{"chapter":6,"verses":[
+{"verse":1,"text":"six-1"},{"verse":2,"text":"six-2"},{"verse":3,"text":"six-3"},
+{"verse":4,"text":"six-4"},{"verse":5,"text":"six-5"},{"verse":6,"text":"six-6"},
+{"verse":7,"text":"six-7"}]}]}]}`, verses.String())
+	path = write(t, dir, "complete.json", control)
+	got, err = OSHBChapterText(path, 3, 5)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got[19] != "five-19" || got[20] != "six-1" || got[26] != "six-7" {
+		t.Fatalf("wrong mapping: 19=%q 20=%q 26=%q", got[19], got[20], got[26])
 	}
 }
