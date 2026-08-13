@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Judg.19.21",
+    "livro": "Juízes",
+    "capitulo": 19,
+    "versiculo": 21,
+    "pericope": "Judg.19.1-30"
+  },
+  "texto_bv": "O idoso levou o levita para sua casa e deu forragem aos jumentos. Depois eles lavaram os pés, comeram e beberam.",
+  "traducao_literal": "E fez entrar ele para sua casa, e misturou para os jumentos; e lavaram os pés deles, e comeram, e beberam.",
+  "termos_originais": [
+    {
+      "palavra": "וַיְבִיאֵ֣הוּ",
+      "lemma": "c/935",
+      "morfologia": "HC/Vhw3ms/Sp3ms"
+    },
+    {
+      "palavra": "לְבֵית֔וֹ",
+      "lemma": "l/1004 b",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "וַיָּ֖בָול",
+      "lemma": "c/1101 b",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "לַחֲמוֹרִ֑ים",
+      "lemma": "l/2543",
+      "morfologia": "HRd/Ncbpa"
+    },
+    {
+      "palavra": "וַֽיִּרְחֲצוּ֙",
+      "lemma": "c/7364",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "רַגְלֵיהֶ֔ם",
+      "lemma": "7272",
+      "morfologia": "HNcfdc/Sp3mp"
+    },
+    {
+      "palavra": "וַיֹּאכְל֖וּ",
+      "lemma": "c/398",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "וַיִּשְׁתּֽוּ",
+      "lemma": "c/8354",
+      "morfologia": "HC/Vqw3mp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Notas editoriais OSHB Q/n/q em וַיָּבָול.",
+      "leituras": [
+        {
+          "leitura": "וַיָּבָול — forma anômala ligada ao preparo/mistura para os jumentos",
+          "testemunhas": "Códice L conforme OSHB; notas Q/n/q"
+        }
+      ],
+      "avaliacao": "O OSHB marca forma anômala e tratamento editorial de qere em relação à BHS, sem exibir outra forma no XML. A BV segue o sentido contextual de alimentar os animais.",
+      "impacto_na_traducao": "Afeta a precisão do modo de preparo da forragem, não o beneficiário nem a sequência."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como verter a forma rara וַיָּבָול?",
+      "escolha": "“deu forragem aos jumentos”",
+      "justificativa": "O verbo anômalo é entendido no contexto como preparar ou misturar alimento para os animais; o dativo aos jumentos e as provisões do v.19 sustentam a ação.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "abandonou os jumentos sem alimento",
+          "motivo": "Contradiz a hospitalidade e o contexto lexical."
+        },
+        {
+          "opcao": "deu vinho aos jumentos",
+          "motivo": "Troca a provisão."
+        }
+      ]
+    },
+    {
+      "questao": "Como preservar a mudança para o plural?",
+      "escolha": "o idoso hospeda/alimenta; o grupo lava os pés, come e bebe",
+      "justificativa": "Os dois primeiros verbos são singulares; os três finais são plurais e incluem os hóspedes.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "somente o idoso lavou os pés de todos",
+          "motivo": "Troca o sujeito gramatical."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "O idoso",
+    "o levita",
+    "forragem",
+    "Depois"
+  ],
+  "ambiguidades_preservadas": [
+    "A forma וַיָּבָול é rara/anômala e pode enfatizar misturar a ração, não apenas entregá-la."
+  ],
+  "justificativa": "Entrada na casa, cuidado dos animais e ações plurais de hospitalidade foram preservados.",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "448ce31dc22d0af840bbe830aa95cc30ad7ec314593818fa8db7542d8acf68fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
