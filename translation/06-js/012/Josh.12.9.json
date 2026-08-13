@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.12.9",
+    "livro": "Josué",
+    "capitulo": 12,
+    "versiculo": 9,
+    "pericope": "Josh.12.1-24"
+  },
+  "texto_bv": "Jericó — um rei; Ai, situada junto de Betel — um rei.",
+  "traducao_literal": "Rei de Jericó, um; rei de Ai, a que está ao lado de Betel, um.",
+  "termos_originais": [
+    {
+      "palavra": "מֶ֥לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְרִיח֖וֹ",
+      "lemma": "3405",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶחָ֑ד",
+      "lemma": "259",
+      "morfologia": "HAcmsa"
+    },
+    {
+      "palavra": "מֶ֧לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הָעַ֛י",
+      "lemma": "d/5857",
+      "morfologia": "HTd/Np"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "מִצַּ֥ד",
+      "lemma": "m/6654",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "בֵּֽית",
+      "lemma": "1008+",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֵ֖ל",
+      "lemma": "1008",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶחָֽד",
+      "lemma": "259",
+      "morfologia": "HAcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como preservar duas entradas régias numa sintaxe independente?",
+      "escolha": "“Jericó — um rei; Ai ... — um rei”",
+      "justificativa": "A disposição nominal funciona como lista em português e verte as duas ocorrências de מֶלֶךְ por “rei”, além de expressar os dois אֶחָד. Cada localidade permanece ligada à sua própria contagem.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“um rei de Jericó e Ai”",
+          "motivo": "Funde as duas entradas e reduz a contagem."
+        },
+        {
+          "opcao": "“dois reis de Jericó”",
+          "motivo": "Transfere a segunda entrada para a cidade errada."
+        }
+      ]
+    },
+    {
+      "questao": "Como relacionar Ai e Betel?",
+      "escolha": "“Ai, situada junto de Betel”",
+      "justificativa": "אֲשֶׁר־מִצַּד בֵּית־אֵל é uma oração relativa que localiza Ai. Betel funciona como referência geográfica e não recebe um terceiro rei neste verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Ai, também chamada Betel”",
+          "motivo": "Funde dois topônimos."
+        },
+        {
+          "opcao": "“um rei adicional de Betel”",
+          "motivo": "Acrescenta uma entrada ausente."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "situada"
+  ],
+  "ambiguidades_preservadas": [
+    "מִצַּד pode indicar ao lado, nas proximidades ou na direção de Betel; “junto de” mantém a relação sem fixar distância."
+  ],
+  "justificativa": "A lista registra separadamente um rei para Jericó e um para Ai, mantém Ai junto de Betel e não cria uma entrada régia para Betel.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

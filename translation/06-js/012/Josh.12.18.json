@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.12.18",
+    "livro": "Josué",
+    "capitulo": 12,
+    "versiculo": 18,
+    "pericope": "Josh.12.1-24"
+  },
+  "texto_bv": "O rei de Afeque, um; o rei da região de Sarom, um.",
+  "traducao_literal": "Rei de Afeque, um; rei para o Sarom, um.",
+  "termos_originais": [
+    {
+      "palavra": "מֶ֤לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֲפֵק֙",
+      "lemma": "663",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶחָ֔ד",
+      "lemma": "259",
+      "morfologia": "HAcmsa"
+    },
+    {
+      "palavra": "מֶ֥לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לַשָּׁר֖וֹן",
+      "lemma": "l/8289",
+      "morfologia": "HRd/Np"
+    },
+    {
+      "palavra": "אֶחָֽד",
+      "lemma": "259",
+      "morfologia": "HAcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter לַשָּׁרוֹן?",
+      "escolha": "“da região de Sarom”",
+      "justificativa": "O OSHB segmenta a preposição e o artigo diante de Sarom. A BV expressa a relação territorial sem transformar necessariamente toda a sequência em um único topônimo “Lasarom”.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Lasarom” como única análise possível",
+          "motivo": "Elimina a possibilidade sintática de referência à região de Sarom."
+        }
+      ]
+    },
+    {
+      "questao": "Quantas entradas há?",
+      "escolha": "um rei de Afeque e um rei ligado a Sarom",
+      "justificativa": "אֶחָד aparece depois de cada entrada e mantém dois reis.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“o mesmo rei de Afeque-Sarom”",
+          "motivo": "Funde as localidades e reduz a contagem."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "região de"
+  ],
+  "ambiguidades_preservadas": [
+    "לַשָּׁרוֹן pode ser entendido como “para/no Sarom” ou preservado tradicionalmente como o topônimo “Lasarom”; a BV mantém a relação com Sarom."
+  ],
+  "justificativa": "Afeque e Sarom permanecem entradas distintas e contribuem com dois reis à soma.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

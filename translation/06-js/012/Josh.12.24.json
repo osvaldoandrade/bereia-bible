@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.12.24",
+    "livro": "Josué",
+    "capitulo": 12,
+    "versiculo": 24,
+    "pericope": "Josh.12.1-24"
+  },
+  "texto_bv": "O rei de Tirza, um. Ao todo, trinta e um reis.",
+  "traducao_literal": "Rei de Tirza, um; todos os reis, trinta e um.",
+  "termos_originais": [
+    {
+      "palavra": "מֶ֥לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "תִּרְצָ֖ה",
+      "lemma": "8656",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶחָ֑ד",
+      "lemma": "259",
+      "morfologia": "HAcmsa"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מְלָכִ֖ים",
+      "lemma": "4428",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "שְׁלֹשִׁ֥ים",
+      "lemma": "7970",
+      "morfologia": "HAcbpa"
+    },
+    {
+      "palavra": "וְאֶחָֽד",
+      "lemma": "c/259",
+      "morfologia": "HC/Acmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como fechar a lista sem perder a última entrada?",
+      "escolha": "“O rei de Tirza, um. Ao todo, trinta e um reis.”",
+      "justificativa": "Tirza recebe seu próprio אֶחָד antes da soma coletiva שְׁלֹשִׁים וְאֶחָד. A BV mantém entrada e total como informações distintas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“trinta reis, incluindo Tirza”",
+          "motivo": "Reduz a soma explícita."
+        },
+        {
+          "opcao": "“trinta e dois reis”",
+          "motivo": "Conta a soma como nova entrada."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Ao todo"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Tirza completa a trigésima primeira entrada, e o total explícito confirma a contagem de todos os reis.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
