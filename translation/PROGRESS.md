@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 6511/6511 versículos.**
+**Total AT sourced: 6511/7129 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -245,4 +245,30 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 22 | 34 | ● 34/34 [DRAFT] |
 | 23 | 16 | ● 16/16 [DRAFT] |
 | 24 | 33 | ● 33/33 [DRAFT] |
+
+## Juízes — 0/618 versículos (0.0%), 21 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 36 | · pendente |
+| 2 | 23 | · pendente |
+| 3 | 31 | · pendente |
+| 4 | 24 | · pendente |
+| 5 | 31 | · pendente |
+| 6 | 40 | · pendente |
+| 7 | 25 | · pendente |
+| 8 | 35 | · pendente |
+| 9 | 57 | · pendente |
+| 10 | 18 | · pendente |
+| 11 | 40 | · pendente |
+| 12 | 15 | · pendente |
+| 13 | 25 | · pendente |
+| 14 | 20 | · pendente |
+| 15 | 20 | · pendente |
+| 16 | 31 | · pendente |
+| 17 | 13 | · pendente |
+| 18 | 31 | · pendente |
+| 19 | 30 | · pendente |
+| 20 | 48 | · pendente |
+| 21 | 25 | · pendente |
 
