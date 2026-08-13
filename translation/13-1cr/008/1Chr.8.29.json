@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.8.29",
+    "livro": "1 Crônicas",
+    "capitulo": 8,
+    "versiculo": 29,
+    "pericope": "1Chr.8.1-40"
+  },
+  "texto_bv": "O pai de Gibeom morava em Gibeom; sua esposa se chamava Maaca.",
+  "traducao_literal": "E em Gibeom habitaram o pai de Gibeom; e o nome de sua mulher: Maaca.",
+  "termos_originais": [
+    {
+      "palavra": "וּבְגִבְע֥וֹן",
+      "lemma": "c/b/1391",
+      "morfologia": "HC/R/Np"
+    },
+    {
+      "palavra": "יָשְׁב֖וּ",
+      "lemma": "3427",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "אֲבִ֣י",
+      "lemma": "1",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "גִבְע֑וֹן",
+      "lemma": "1391",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְשֵׁ֥ם",
+      "lemma": "c/8034",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "אִשְׁתּ֖וֹ",
+      "lemma": "802",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "מַעֲכָֽה",
+      "lemma": "4601",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Plural יָשְׁבוּ diante de אֲבִי גִבְעוֹן singular",
+      "escolha": "Usar o singular idiomático ‘morava’ na BV e conservar ‘habitaram o pai’ na literal.",
+      "justificativa": "O packet marca o verbo como qal perfeito de terceira pessoa comum plural, enquanto o sujeito expresso antes do atnach é singular; a camada literal preserva a dificuldade sem transformar a esposa da oração seguinte em sujeito coordenado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "moravam o pai e Maaca",
+          "motivo": "Reanalisa como sujeito do primeiro verbo a esposa apresentada apenas na oração nominal seguinte."
+        },
+        {
+          "opcao": "habitou também na literal",
+          "motivo": "Apaga o número plural da forma verbal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "se chamava — verte idiomaticamente a oração nominal ‘e o nome de sua mulher: Maaca’"
+  ],
+  "ambiguidades_preservadas": [
+    "O plural verbal pode pressupor um grupo ligado ao pai de Gibeom, mas a fonte expressa apenas o título singular antes de iniciar a frase sobre a esposa."
+  ],
+  "justificativa": "Gibeom é repetida como local e como termo da identificação paterna, Maaca permanece esposa do homem não nomeado, e a discordância verbal fica visível na literal.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.8.25",
+    "livro": "1 Crônicas",
+    "capitulo": 8,
+    "versiculo": 25,
+    "pericope": "1Chr.8.1-40"
+  },
+  "texto_bv": "Ifdeias e Penuel, filhos de Sasaque.",
+  "traducao_literal": "e Ifdeias e Penuel, filhos de Sasaque.",
+  "termos_originais": [
+    {
+      "palavra": "וְיִפְדְיָ֥ה",
+      "lemma": "c/3301",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "ופניאל",
+      "lemma": "c/6439",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "בְּנֵ֥י",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "שָׁשָֽׁק",
+      "lemma": "8349",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "O aparato OSHB registra o ketiv consonantal ו/פניאל e o qere vocalizado וּ/פְנוּאֵל.",
+      "leituras": [
+        {
+          "leitura": "ו/פניאל — forma consonantal não vocalizada",
+          "testemunhas": "ketiv do TM/OSHB"
+        },
+        {
+          "leitura": "וּ/פְנוּאֵל — ‘e Penuel’",
+          "testemunhas": "qere do TM/OSHB"
+        }
+      ],
+      "avaliacao": "A BV e a tradução literal seguem o qere ‘Penuel’; o ketiv fica consonantal no aparato, sem versão portuguesa independente.",
+      "impacto_na_traducao": "O qere determina a grafia portuguesa Penuel; o ketiv não produz uma leitura alternativa no texto."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ketiv consonantal ו/פניאל e qere vocalizado וּ/פְנוּאֵל",
+      "escolha": "Seguir o qere em ambas as camadas pela grafia ‘Penuel’ e conservar o ketiv somente no aparato.",
+      "justificativa": "A regra ratificada não permite inferir pronúncia portuguesa independente de um ketiv sem vogais; o qere fornece a vocalização e mantém o mesmo lema próprio H6439.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Peniel a partir do ketiv",
+          "motivo": "Infere vogais e uma pronúncia distinta que o ketiv consonantal não fornece."
+        },
+        {
+          "opcao": "registrar apenas o qere",
+          "motivo": "Ocultaria a forma consonantal preservada no aparato do XML."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Os dois nomes fecham a lista de filhos de Sasaque; ambas as camadas seguem o qere vocalizado e o ketiv permanece apenas no aparato.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
