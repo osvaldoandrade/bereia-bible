@@ -181,6 +181,10 @@ var controlSpans = map[[2]int][]verseSpan{
 	{16, 7}:  {{1, 67, 7, 1}, {68, 72, 7, 69}},
 	{16, 9}:  {{1, 37, 9, 1}},
 	{16, 10}: {{1, 1, 9, 38}, {2, 40, 10, 1}},
+	// KJV, WEB, and Livre number OSHB Job 40:25-32 as 41:1-8 and
+	// OSHB 41:1-26 as 41:9-34.
+	{18, 40}: {{1, 24, 40, 1}, {25, 32, 41, 1}},
+	{18, 41}: {{1, 26, 41, 9}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.

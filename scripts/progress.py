@@ -29,6 +29,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("15-ed", "Ezra", "Esdras"),
     ("16-ne", "Neh", "Neemias"),
     ("17-et", "Esth", "Ester"),
+    ("18-jo", "Job", "Jó"),
 ]
 
 

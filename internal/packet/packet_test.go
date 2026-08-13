@@ -725,3 +725,75 @@ func TestOSHBChapterTextMapsNehemiahVersification(t *testing.T) {
 		t.Fatal("want error when mapped Nehemiah 10:39 control is missing")
 	}
 }
+
+func TestOSHBChapterTextMapsJobVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":18,"chapters":[%s,%s]}]}`,
+		chapter(40, 1, 24), chapter(41, 1, 34))
+	path := write(t, dir, "job.json", control)
+
+	chapter40, err := OSHBChapterText(path, 18, 40)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter40) != 32 {
+		t.Fatalf("wrong Job 40 control count: got %d, want 32", len(chapter40))
+	}
+	for sourceVerse := 1; sourceVerse <= 32; sourceVerse++ {
+		want := fmt.Sprintf("chapter-40-verse-%d", sourceVerse)
+		if sourceVerse >= 25 {
+			want = fmt.Sprintf("chapter-41-verse-%d", sourceVerse-24)
+		}
+		if chapter40[sourceVerse] != want {
+			t.Errorf("Job 40:%d: got %q, want %q", sourceVerse, chapter40[sourceVerse], want)
+		}
+	}
+
+	chapter41, err := OSHBChapterText(path, 18, 41)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter41) != 26 {
+		t.Fatalf("wrong Job 41 control count: got %d, want 26", len(chapter41))
+	}
+	for sourceVerse := 1; sourceVerse <= 26; sourceVerse++ {
+		want := fmt.Sprintf("chapter-41-verse-%d", sourceVerse+8)
+		if chapter41[sourceVerse] != want {
+			t.Errorf("Job 41:%d: got %q, want %q", sourceVerse, chapter41[sourceVerse], want)
+		}
+	}
+
+	controls, err := loadControls(Request{
+		BookNr: 18, Chapter: 40,
+		WebPath: path, KJVPath: path, LivrePath: path,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, verse := range []int{24, 25, 32} {
+		want := fmt.Sprintf("chapter-40-verse-%d", verse)
+		if verse >= 25 {
+			want = fmt.Sprintf("chapter-41-verse-%d", verse-24)
+		}
+		got := controls.forVerse(verse)
+		if got == nil || got.Web != want || got.KJV != want || got.Livre != want {
+			t.Errorf("Job 40:%d: got %+v, want all controls %q", verse, got, want)
+		}
+	}
+
+	missing := fmt.Sprintf(`{"books":[{"nr":18,"chapters":[%s]}]}`, chapter(41, 1, 33))
+	missingPath := write(t, dir, "job-missing.json", missing)
+	if _, err := OSHBChapterText(missingPath, 18, 41); err == nil {
+		t.Fatal("want error when mapped Job 41:34 control is missing")
+	}
+}
