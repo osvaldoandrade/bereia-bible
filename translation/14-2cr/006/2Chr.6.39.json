@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.6.39",
+    "livro": "2 Crônicas",
+    "capitulo": 6,
+    "versiculo": 39,
+    "pericope": "2Chr.6.1-42"
+  },
+  "texto_bv": "“ouve dos céus, do lugar de tua habitação, a oração e as súplicas deles, faze justiça por eles e perdoa teu povo, que pecou contra ti.”",
+  "traducao_literal": "“E ouvirás dos céus, do lugar de tua habitação, a oração deles e as súplicas deles, e farás o julgamento deles, e perdoarás teu povo que pecaram contra ti.”",
+  "termos_originais": [
+    {
+      "palavra": "וְשָׁמַעְתָּ֨",
+      "lemma": "c/8085",
+      "morfologia": "HC/Vqq2ms"
+    },
+    {
+      "palavra": "מִן",
+      "lemma": "4480 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַשָּׁמַ֜יִם",
+      "lemma": "d/8064",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "מִמְּכ֣וֹן",
+      "lemma": "m/4349",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "שִׁבְתְּךָ֗",
+      "lemma": "3427",
+      "morfologia": "HVqc/Sp2ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "תְּפִלָּתָם֙",
+      "lemma": "8605",
+      "morfologia": "HNcfsc/Sp3mp"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "תְּחִנֹּ֣תֵיהֶ֔ם",
+      "lemma": "8467",
+      "morfologia": "HNcfpc/Sp3mp"
+    },
+    {
+      "palavra": "וְעָשִׂ֖יתָ",
+      "lemma": "c/6213 a",
+      "morfologia": "HC/Vqq2ms"
+    },
+    {
+      "palavra": "מִשְׁפָּטָ֑ם",
+      "lemma": "4941",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "וְסָלַחְתָּ֥",
+      "lemma": "c/5545",
+      "morfologia": "HC/Vqq2ms"
+    },
+    {
+      "palavra": "לְעַמְּךָ֖",
+      "lemma": "l/5971 a",
+      "morfologia": "HR/Ncmsc/Sp2ms"
+    },
+    {
+      "palavra": "אֲשֶׁ֥ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "חָֽטְאוּ",
+      "lemma": "2398",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "לָֽךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota crítica OSHB n=c em וְשָׁמַעְתָּ: a leitura de um ou mais acentos no Códice de Leningrado difere da apresentada em BHS.",
+      "leituras": [
+        {
+          "leitura": "Acentuação do Códice de Leningrado conforme a leitura OSHB",
+          "testemunhas": "L/OSHB"
+        },
+        {
+          "leitura": "Acentuação impressa de modo diferente",
+          "testemunhas": "BHS, conforme nota OSHB"
+        }
+      ],
+      "avaliacao": "A nota afeta acentos, não consoantes, vocalização, lema ou morfologia; a BV segue o texto OSHB pinado.",
+      "impacto_na_traducao": "Nenhum impacto verbal na BV ou na tradução literal."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Coletivo singular com relativo plural",
+      "escolha": "Usar ‘teu povo, que pecou’ na BV e preservar ‘povo que pecaram’ na literal.",
+      "justificativa": "עַמְּךָ é singular coletivo, enquanto חָטְאוּ é 3cp; o português publicado exige concordância singular, mas a literal registra a mudança para os membros do coletivo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Teus povos, que pecaram",
+          "motivo": "Mudaria o substantivo singular para plural."
+        }
+      ],
+      "diretriz_ref": "ER-0013"
+    },
+    {
+      "questao": "לָךְ formalmente 2fs e nota de acentuação",
+      "escolha": "Manter Deus como referente masculino de ‘ti’, registrar Sp2fs e aparato n=c separadamente.",
+      "justificativa": "לָךְ é Sp2fs, mas שִׁבְתְּךָ e עַמְּךָ são 2ms; a nota n=c está ligada a וְשָׁמַעְתָּ e não cria variante lexical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Tratar a nota de acento como ketiv/qere",
+          "motivo": "O XML não contém leitura qere nem forma consonantal alternativa."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "por"
+  ],
+  "ambiguidades_preservadas": [
+    "מִשְׁפָּטָם pode indicar julgamento ou causa a ser sustentada; a BV usa ‘justiça por eles’ sem predeterminar sentença.",
+    "לָךְ está marcado 2fs apesar do referente divino masculino e dos sufixos 2ms.",
+    "A nota n=c registra apenas divergência de acentuação entre L e BHS."
+  ],
+  "justificativa": "Local celeste, oração e súplicas, justiça, perdão, coletivo, mudança de número, anomalia 2fs e nota de acento são preservados.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "61882d63ac01ff67c4a8b3cee8cc5eb85cec2c11457f1b6fb41a3b0169e7e189",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

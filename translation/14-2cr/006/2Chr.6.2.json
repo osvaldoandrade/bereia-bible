@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.6.2",
+    "livro": "2 Crônicas",
+    "capitulo": 6,
+    "versiculo": 2,
+    "pericope": "2Chr.6.1-42"
+  },
+  "texto_bv": "“Eu, porém, construí para ti uma casa de morada, um lugar para tua habitação para sempre.”",
+  "traducao_literal": "“E eu construí uma casa de morada para ti e um lugar para tua habitação por eras.”",
+  "termos_originais": [
+    {
+      "palavra": "וַֽאֲנִ֛י",
+      "lemma": "c/589",
+      "morfologia": "HC/Pp1cs"
+    },
+    {
+      "palavra": "בָּנִ֥יתִי",
+      "lemma": "1129",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "בֵית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "זְבֻ֖ל",
+      "lemma": "2073",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לָ֑ךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "וּמָכ֥וֹן",
+      "lemma": "c/4349",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "לְשִׁבְתְּךָ֖",
+      "lemma": "l/3427",
+      "morfologia": "HR/Vqc/Sp2ms"
+    },
+    {
+      "palavra": "עוֹלָמִֽים",
+      "lemma": "5769",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Relação entre בֵּית־זְבֻל e מָכוֹן לְשִׁבְתְּךָ",
+      "escolha": "Manter os dois membros como ‘casa de morada’ e ‘lugar para tua habitação’.",
+      "justificativa": "זְבֻל designa morada ou residência elevada, enquanto מָכוֹן é lugar estabelecido; a repetição de habitação não deve ser fundida em uma única expressão.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Um templo majestoso onde morarás",
+          "motivo": "Fundiria os dois sintagmas e acrescentaria ‘templo’ e modalidade futura ausentes."
+        }
+      ]
+    },
+    {
+      "questao": "לָךְ formalmente 2fs em oração dirigida a Deus",
+      "escolha": "Manter Deus como destinatário masculino com ‘ti’ e registrar a anomalia morfológica.",
+      "justificativa": "Packet/XML marcam לָךְ como Sp2fs, mas o mesmo verso traz לְשִׁבְתְּךָ com Sp2ms e o referente é o SENHOR do v. 1.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Mudar o destinatário para feminino",
+          "motivo": "Contradiria o referente divino e o sufixo 2ms na segunda metade do verso."
+        }
+      ],
+      "diretriz_ref": "ER-0003"
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "זְבֻל pode enfatizar morada ou elevação; ‘casa de morada’ preserva a função sem converter a imagem em adjetivo arquitetônico.",
+    "לָךְ está formalmente marcado 2fs, embora Deus seja o destinatário masculino e לְשִׁבְתְּךָ esteja marcado 2ms."
+  ],
+  "justificativa": "A primeira pessoa de Salomão, os dois sintagmas locativos, a segunda pessoa litúrgica e a duração plural são preservados e auditados.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "61882d63ac01ff67c4a8b3cee8cc5eb85cec2c11457f1b6fb41a3b0169e7e189",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

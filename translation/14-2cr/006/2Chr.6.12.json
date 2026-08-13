@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.6.12",
+    "livro": "2 Crônicas",
+    "capitulo": 6,
+    "versiculo": 12,
+    "pericope": "2Chr.6.1-42"
+  },
+  "texto_bv": "Salomão ficou em pé diante do altar do SENHOR, diante de toda a assembleia de Israel, e estendeu as mãos.",
+  "traducao_literal": "E ficou em pé diante do altar do SENHOR, em frente a toda a assembleia de Israel, e estendeu suas palmas.",
+  "termos_originais": [
+    {
+      "palavra": "וַֽיַּעֲמֹ֗ד",
+      "lemma": "c/5975",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "לִפְנֵי֙",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "מִזְבַּ֣ח",
+      "lemma": "4196",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "נֶ֖גֶד",
+      "lemma": "5048",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "קְהַ֣ל",
+      "lemma": "6951",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֑ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַיִּפְרֹ֖שׂ",
+      "lemma": "c/6566",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "כַּפָּֽיו",
+      "lemma": "3709",
+      "morfologia": "HNcfdc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito elíptico e duas relações dianteiras",
+      "escolha": "Suprir ‘Salomão’ a partir do contexto e manter altar e assembleia como referências locativas distintas.",
+      "justificativa": "Os verbos estão em 3ms sem sujeito novo; Salomão é o agente contínuo. לִפְנֵי rege o altar e נֶגֶד rege toda a assembleia.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "A assembleia ficou diante do altar",
+          "motivo": "Mudaria o sujeito e transformaria a assembleia, introduzida por נֶגֶד, em agente."
+        }
+      ]
+    },
+    {
+      "questao": "כַּפָּיו como objeto de estender",
+      "escolha": "Usar ‘as mãos’ na BV e ‘suas palmas’ na literal.",
+      "justificativa": "כַּפַּיִם é dual e designa palmas ou mãos abertas; a BV usa a expressão corporal natural sem reduzir o número.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ergueu uma mão",
+          "motivo": "Mudaria o dual para singular e o verbo ‘estender’."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Salomão"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Agente, postura, altar, assembleia integral e gesto bilateral são preservados sem fundir as relações espaciais.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "61882d63ac01ff67c4a8b3cee8cc5eb85cec2c11457f1b6fb41a3b0169e7e189",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
