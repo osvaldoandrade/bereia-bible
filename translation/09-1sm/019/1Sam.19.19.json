@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Sam.19.19",
+    "livro": "1 Samuel",
+    "capitulo": 19,
+    "versiculo": 19,
+    "pericope": "1Sam.19.1-24"
+  },
+  "texto_bv": "Saul foi informado: “Davi está em Naiote, em Ramá.”",
+  "traducao_literal": "E foi contado a Saul, dizendo: “Eis Davi em Naiote, em Ramá.”",
+  "termos_originais": [
+    {
+      "palavra": "וַיֻּגַּ֥ד",
+      "lemma": "c/5046",
+      "morfologia": "HC/VHw3ms"
+    },
+    {
+      "palavra": "לְשָׁא֖וּל",
+      "lemma": "l/7586",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "לֵאמֹ֑ר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "הִנֵּ֣ה",
+      "lemma": "2009",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "דָוִ֔ד",
+      "lemma": "1732",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בנוית",
+      "lemma": "b/5121",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "בָּרָמָֽה",
+      "lemma": "b/7414",
+      "morfologia": "HRd/Np"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "1Sam.19.19 apresenta ketiv/qere no topônimo Naiote com a preposição “em”.",
+      "leituras": [
+        {
+          "leitura": "Ketiv consonantal no XML: ב/נוית",
+          "testemunhas": "Códice de Leningrado conforme transcrição OSHB"
+        },
+        {
+          "leitura": "Qere no XML: בְּ/נָי֖וֹת",
+          "testemunhas": "Leitura massorética marginal registrada no OSHB"
+        }
+      ],
+      "avaliacao": "A BV segue a qere נָיוֹת e mantém a relação locativa com Ramá.",
+      "impacto_na_traducao": "A notícia localiza Davi “em Naiote, em Ramá”."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como preservar a passiva e a localização dupla?",
+      "escolha": "“Saul foi informado ... em Naiote, em Ramá”",
+      "justificativa": "ויגד é passivo e não nomeia o informante. As duas expressões locativas situam Davi em Naiote, dentro ou junto de Ramá.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Saul informou Davi”",
+          "motivo": "Inverte destinatário e agente."
+        },
+        {
+          "opcao": "“Davi estava em Belém”",
+          "motivo": "Troca os topônimos."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Informação recebida por Saul e localização de Davi foram mantidas segundo a qere.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
