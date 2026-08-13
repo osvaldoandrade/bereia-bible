@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.7.4",
+    "livro": "2 Crônicas",
+    "capitulo": 7,
+    "versiculo": 4,
+    "pericope": "2Chr.7.1-22"
+  },
+  "texto_bv": "O rei e todo o povo ofereciam sacrifícios diante do SENHOR.",
+  "traducao_literal": "E o rei e todo o povo estavam sacrificando um sacrifício diante do SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "וְהַמֶּ֖לֶךְ",
+      "lemma": "c/d/4428",
+      "morfologia": "HC/Td/Ncmsa"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "הָעָ֑ם",
+      "lemma": "d/5971 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "זֹבְחִ֥ים",
+      "lemma": "2076",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "זֶ֖בַח",
+      "lemma": "2077",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לִפְנֵ֥י",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Cognato זֹבְחִים זֶבַח e número coletivo",
+      "escolha": "Naturalizar como ‘ofereciam sacrifícios’ na BV e preservar ‘sacrificando um sacrifício’ na literal.",
+      "justificativa": "O particípio verbal e o substantivo compartilham a raiz זבח; o singular זֶבַח tem valor coletivo no contexto do rei e de todo o povo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "adoravam diante do SENHOR",
+          "motivo": "Apagaria a ação sacrificial expressa duas vezes pela raiz זבח."
+        }
+      ],
+      "diretriz_ref": "ER-0013"
+    }
+  ],
+  "palavras_supridas": [
+    "estavam — auxiliar português do particípio זֹבְחִים na tradução literal",
+    "um — artigo exigido em português para o singular זֶבַח na tradução literal"
+  ],
+  "ambiguidades_preservadas": [
+    "O singular זֶבַח pode focalizar o ato sacrificial coletivo sem indicar um único animal."
+  ],
+  "justificativa": "Rei, totalidade do povo, atividade sacrificial contínua e posição diante do SENHOR foram mantidos.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "61882d63ac01ff67c4a8b3cee8cc5eb85cec2c11457f1b6fb41a3b0169e7e189",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
