@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Sam.5.12",
+    "livro": "1 Samuel",
+    "capitulo": 5,
+    "versiculo": 12,
+    "pericope": "1Sam.5.1-12"
+  },
+  "texto_bv": "Os que não morreram foram feridos com tumores, e o clamor da cidade subiu aos céus.",
+  "traducao_literal": "E os homens que não morreram foram feridos com tumores, e subiu o clamor da cidade aos céus.",
+  "termos_originais": [
+    {
+      "palavra": "וְהָֽאֲנָשִׁים֙",
+      "lemma": "c/d/376",
+      "morfologia": "HC/Td/Ncmpa"
+    },
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "מֵ֔תוּ",
+      "lemma": "4191",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "הֻכּ֖וּ",
+      "lemma": "5221",
+      "morfologia": "HVHp3cp"
+    },
+    {
+      "palavra": "בעפלים",
+      "lemma": "b/6076 b",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "וַתַּ֛עַל",
+      "lemma": "c/5927",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "שַֽׁוְעַ֥ת",
+      "lemma": "7775",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "הָעִ֖יר",
+      "lemma": "d/5892 b",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "הַשָּׁמָֽיִם",
+      "lemma": "d/8064",
+      "morfologia": "HTd/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "1Sam.5.12 apresenta ketiv/qere no nome da afecção que atingiu os filisteus.",
+      "leituras": [
+        {
+          "leitura": "Ketiv: בעפלים — “com tumores/inchaços”",
+          "testemunhas": "Texto consonantal massorético exibido no OSHB"
+        },
+        {
+          "leitura": "Qere: בַּטְּחֹרִים — “com os tumores”",
+          "testemunhas": "Leitura marginal massorética registrada no OSHB"
+        }
+      ],
+      "avaliacao": "As duas leituras pertencem ao campo de tumores ou inchaços corporais; “tumores” comunica a afecção sem especificar anatomia não expressa no capítulo. A nota editorial “a” assinala adaptação própria da qere e não acrescenta outra leitura.",
+      "impacto_na_traducao": "A BV usa “tumores”; a diferença lexical não altera agentes, extensão nem gravidade do golpe."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como distinguir mortos e sobreviventes?",
+      "escolha": "“Os que não morreram foram feridos”",
+      "justificativa": "A oração relativa separa explicitamente os não mortos, que ainda assim recebem o golpe dos tumores.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "todos morreram",
+          "motivo": "Contradiz אֲשֶׁר לֹא־מֵתוּ."
+        },
+        {
+          "opcao": "os mortos foram curados",
+          "motivo": "Inverte ambos os predicados."
+        }
+      ]
+    },
+    {
+      "questao": "Como representar o destino do clamor?",
+      "escolha": "“subiu aos céus”",
+      "justificativa": "O verbo de subida e הַשָּׁמָיִם são preservados sem acrescentar destinatário explícito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "desceu ao templo de Dagom",
+          "motivo": "Inverte direção e destino."
+        },
+        {
+          "opcao": "ninguém clamou",
+          "motivo": "Omite a conclusão do capítulo."
+        }
+      ]
+    },
+    {
+      "questao": "Como verter בעפלים/בַּטְּחֹרִים?",
+      "escolha": "“com tumores”",
+      "justificativa": "O mesmo ketiv/qere de 5.6 reaparece e recebe tradução coerente; a nota “a” é editorial, não uma variante adicional.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "com ratos",
+          "motivo": "Não corresponde ao ketiv/qere do XML."
+        },
+        {
+          "opcao": "com lepra",
+          "motivo": "Especifica outra doença."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "“Aos céus” descreve a altura ou destino do clamor; o verso não nomeia explicitamente quem o ouviu.",
+    "A anatomia dos tumores permanece não especificada."
+  ],
+  "justificativa": "A distinção entre mortos e não mortos, os tumores e a subida do clamor foram preservados; ketiv/qere e nota editorial foram registrados.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
