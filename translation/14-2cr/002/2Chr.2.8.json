@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.2.8",
+    "livro": "2 Crônicas",
+    "capitulo": 2,
+    "versiculo": 8,
+    "pericope": "2Chr.2.1-17"
+  },
+  "texto_bv": "“Isso é para preparar para mim madeira em abundância, pois a casa que estou construindo será grande e extraordinária.”",
+  "traducao_literal": "“E para preparar para mim madeiras em abundância, pois a casa que eu estou construindo é grande e extraordinária.”",
+  "termos_originais": [
+    {
+      "palavra": "וּלְהָכִ֥ין",
+      "lemma": "c/l/3559 a",
+      "morfologia": "HC/R/Vhc"
+    },
+    {
+      "palavra": "לִ֛י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "עֵצִ֖ים",
+      "lemma": "6086",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לָרֹ֑ב",
+      "lemma": "l/7230",
+      "morfologia": "HR/Ncbsa"
+    },
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הַבַּ֛יִת",
+      "lemma": "d/1004 b",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "אֲנִ֥י",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "בוֹנֶ֖ה",
+      "lemma": "1129",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "גָּד֥וֹל",
+      "lemma": "1419 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְהַפְלֵֽא",
+      "lemma": "c/6381",
+      "morfologia": "HC/Vha"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação no XML OSHB: este verso corresponde a KJV 2Chr.2.9.",
+      "leituras": [
+        {
+          "leitura": "2Chr.2.8",
+          "testemunhas": "OSHB/WLC"
+        },
+        {
+          "leitura": "2Chr.2.9",
+          "testemunhas": "KJV (numeração indicada pelo OSHB)"
+        }
+      ],
+      "avaliacao": "A BV segue a numeração do texto-fonte OSHB e mantém a correspondência KJV somente no aparato.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência numérica em relação à KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Infinitivo de finalidade וּלְהָכִין em verso autônomo",
+      "escolha": "Suprir ‘Isso é’ para manter o infinitivo ‘para preparar’ sem convertê-lo em imperativo ou futuro.",
+      "justificativa": "A forma é infinitivo construto Hifil ligado ao pedido anterior; uma oração autônoma em português requer apoio, mas sua modalidade não autoriza ‘prepare’ nem ‘prepararão’.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Prepare para mim madeira",
+          "motivo": "Transformaria o infinitivo de finalidade em imperativo."
+        }
+      ],
+      "diretriz_ref": "ER-0013"
+    },
+    {
+      "questao": "Intensidade de גָּדוֹל וְהַפְלֵא",
+      "escolha": "Usar ‘grande e extraordinária’.",
+      "justificativa": "גָּדוֹל preserva ‘grande’, e o infinitivo absoluto Hifil de פלא acrescenta caráter extraordinário ou admirável, não simples tamanho.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Muito grande",
+          "motivo": "Reduziria פלא a mero intensificador quantitativo e apagaria seu valor de excepcionalidade."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Isso",
+    "é",
+    "será"
+  ],
+  "ambiguidades_preservadas": [
+    "וְהַפְלֵא pode intensificar a grandeza ou qualificá-la como maravilhosa; ‘extraordinária’ preserva ambos os vetores sem quantificar."
+  ],
+  "justificativa": "A finalidade, a abundância, a construção em curso e a intensidade excepcional da casa são preservadas sem alterar a modalidade infinitiva.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "ef45d0d7d0b20eac8fe8ff96f63b6e0fc0c0a6c17a947eccbc50422121a34fc3",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

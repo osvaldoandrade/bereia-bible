@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.2.4",
+    "livro": "2 Crônicas",
+    "capitulo": 2,
+    "versiculo": 4,
+    "pericope": "2Chr.2.1-17"
+  },
+  "texto_bv": "“A casa que estou construindo será grande, pois nosso Deus é grande acima de todos os deuses.”",
+  "traducao_literal": "“E a casa que eu estou construindo, grande; pois grande é nosso Deus acima de todos os deuses.”",
+  "termos_originais": [
+    {
+      "palavra": "וְהַבַּ֛יִת",
+      "lemma": "c/d/1004 b",
+      "morfologia": "HC/Td/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "אֲנִ֥י",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "בוֹנֶ֖ה",
+      "lemma": "1129",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "גָּד֑וֹל",
+      "lemma": "1419 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "גָד֥וֹל",
+      "lemma": "1419 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "אֱלֹהֵ֖ינוּ",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "מִכָּל",
+      "lemma": "m/3605",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "הָאֱלֹהִֽים",
+      "lemma": "d/430",
+      "morfologia": "HTd/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação no XML OSHB: este verso corresponde a KJV 2Chr.2.5.",
+      "leituras": [
+        {
+          "leitura": "2Chr.2.4",
+          "testemunhas": "OSHB/WLC"
+        },
+        {
+          "leitura": "2Chr.2.5",
+          "testemunhas": "KJV (numeração indicada pelo OSHB)"
+        }
+      ],
+      "avaliacao": "A BV segue a numeração do texto-fonte OSHB e mantém a correspondência KJV somente no aparato.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência numérica em relação à KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Repetição de גָּדוֹל",
+      "escolha": "Repetir ‘grande’ para a casa e para Deus.",
+      "justificativa": "O mesmo adjetivo ocorre nas duas orações e liga a grandeza da construção à grandeza de Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "A casa será magnífica porque Deus é maior",
+          "motivo": "Trocaria uma das ocorrências do lexema e apagaria a repetição."
+        }
+      ]
+    },
+    {
+      "questao": "Plural הָאֱלֹהִים",
+      "escolha": "Verter ‘todos os deuses’ em minúscula.",
+      "justificativa": "O artigo, o plural e a comparação com ‘nosso Deus’ indicam referentes plurais distintos do Deus de Israel; a dificuldade teológica não autoriza neutralizar o texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Todos os poderes",
+          "motivo": "Substituiria o substantivo plural explícito por uma interpretação."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "será",
+    "é"
+  ],
+  "ambiguidades_preservadas": [
+    "O verso afirma a superioridade de Deus sobre ‘todos os deuses’ sem definir a natureza desses deuses."
+  ],
+  "justificativa": "A BV conserva a dupla ocorrência de ‘grande’, distingue Deus dos deuses e acrescenta apenas as cópulas exigidas pelo português.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "ef45d0d7d0b20eac8fe8ff96f63b6e0fc0c0a6c17a947eccbc50422121a34fc3",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

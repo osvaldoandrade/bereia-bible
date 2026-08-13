@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.2.14",
+    "livro": "2 Crônicas",
+    "capitulo": 2,
+    "versiculo": 14,
+    "pericope": "2Chr.2.1-17"
+  },
+  "texto_bv": "“Agora, que meu senhor envie a seus servos o trigo, a cevada, o azeite e o vinho sobre os quais falou.”",
+  "traducao_literal": "“E agora, o trigo e as cevadas, o azeite e o vinho que disse meu senhor, que envie a seus servos.”",
+  "termos_originais": [
+    {
+      "palavra": "וְ֠עַתָּה",
+      "lemma": "c/6258",
+      "morfologia": "HC/D"
+    },
+    {
+      "palavra": "הַחִטִּ֨ים",
+      "lemma": "d/2406",
+      "morfologia": "HTd/Ncfpa"
+    },
+    {
+      "palavra": "וְהַשְּׂעֹרִ֜ים",
+      "lemma": "c/d/8184",
+      "morfologia": "HC/Td/Ncfpa"
+    },
+    {
+      "palavra": "הַשֶּׁ֤מֶן",
+      "lemma": "d/8081",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וְהַיַּ֨יִן֙",
+      "lemma": "c/d/3196",
+      "morfologia": "HC/Td/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "אָמַ֣ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֲדֹנִ֔י",
+      "lemma": "113",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "יִשְׁלַ֖ח",
+      "lemma": "7971",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "לַעֲבָדָֽיו",
+      "lemma": "l/5650",
+      "morfologia": "HR/Ncmpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação no XML OSHB: este verso corresponde a KJV 2Chr.2.15.",
+      "leituras": [
+        {
+          "leitura": "2Chr.2.14",
+          "testemunhas": "OSHB/WLC"
+        },
+        {
+          "leitura": "2Chr.2.15",
+          "testemunhas": "KJV (numeração indicada pelo OSHB)"
+        }
+      ],
+      "avaliacao": "A BV segue a numeração do texto-fonte OSHB e mantém a correspondência KJV somente no aparato.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência numérica em relação à KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Modalidade jussiva de יִשְׁלַח",
+      "escolha": "Usar ‘que meu senhor envie’, conservando a terceira pessoa honorífica.",
+      "justificativa": "O verbo é jussivo Qal 3ms e seu sujeito é אֲדֹנִי; a fala dirige uma solicitação a Salomão sem convertê-la em imperativo de segunda pessoa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Envie aos servos",
+          "motivo": "Mudaria a pessoa gramatical e apagaria o tratamento ‘meu senhor’."
+        }
+      ]
+    },
+    {
+      "questao": "Lista e antecedente de ‘seus servos’",
+      "escolha": "Manter trigo, cevada, azeite e vinho e preservar o possessivo de terceira pessoa.",
+      "justificativa": "Os quatro substantivos têm artigo e aparecem antes da relativa; לַעֲבָדָיו porta sufixo 3ms, formalmente ligado a ‘meu senhor’.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Envie a meus servos os mantimentos",
+          "motivo": "Mudaria o sufixo para primeira pessoa e resumiria os quatro itens."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sobre"
+  ],
+  "ambiguidades_preservadas": [
+    "A relação pragmática dos servos com a força de trabalho pode ser discutida, mas o sufixo 3ms foi mantido como ‘seus’, sem troca por ‘meus’."
+  ],
+  "justificativa": "A BV conserva a lista, a terceira pessoa honorífica, o jussivo e o sufixo dos servos sem transformar a solicitação em ordem direta.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "ef45d0d7d0b20eac8fe8ff96f63b6e0fc0c0a6c17a947eccbc50422121a34fc3",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.2.12",
+    "livro": "2 Crônicas",
+    "capitulo": 2,
+    "versiculo": 12,
+    "pericope": "2Chr.2.1-17"
+  },
+  "texto_bv": "“Agora enviei Hurão-Abi, um homem habilidoso e conhecedor de entendimento.”",
+  "traducao_literal": "“E agora enviei um homem sábio, conhecedor de entendimento: Hurão-Abi.”",
+  "termos_originais": [
+    {
+      "palavra": "וְעַתָּ֗ה",
+      "lemma": "c/6258",
+      "morfologia": "HC/D"
+    },
+    {
+      "palavra": "שָׁלַ֧חְתִּי",
+      "lemma": "7971",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "אִישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "חָכָ֛ם",
+      "lemma": "2450",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "יוֹדֵ֥עַ",
+      "lemma": "3045",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בִּינָ֖ה",
+      "lemma": "998",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְחוּרָ֥ם",
+      "lemma": "l/2361",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אָבִֽי",
+      "lemma": "1",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação no XML OSHB: este verso corresponde a KJV 2Chr.2.13.",
+      "leituras": [
+        {
+          "leitura": "2Chr.2.12",
+          "testemunhas": "OSHB/WLC"
+        },
+        {
+          "leitura": "2Chr.2.13",
+          "testemunhas": "KJV (numeração indicada pelo OSHB)"
+        }
+      ],
+      "avaliacao": "A BV segue a numeração do texto-fonte OSHB e mantém a correspondência KJV somente no aparato.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência numérica em relação à KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Forma לְחוּרָם אָבִי",
+      "escolha": "Usar o nome composto ‘Hurão-Abi’ para o artesão enviado.",
+      "justificativa": "Packet e XML marcam tanto חוּרָם quanto אָבִי como nomes próprios; o sintagma identifica o homem habilidoso apresentado aqui, não o rei falante como pai de si mesmo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Enviei um homem sábio para Hurão, meu pai",
+          "motivo": "Criaria um destinatário incoerente dentro da fala do próprio Hurão e contrariaria a marcação HNp de אָבִי."
+        }
+      ]
+    },
+    {
+      "questao": "Aspecto de שָׁלַחְתִּי",
+      "escolha": "Usar ‘enviei’.",
+      "justificativa": "A forma é perfeito Qal 1cs e apresenta o envio como realizado na declaração.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Estou enviando",
+          "motivo": "Imporia aspecto progressivo ausente na forma qatal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "um",
+    "e"
+  ],
+  "ambiguidades_preservadas": [
+    "אָבִי tem forma idêntica a ‘meu pai’, mas é marcado HNp no texto-fonte; a BV o conserva como elemento do nome Hurão-Abi."
+  ],
+  "justificativa": "A BV preserva o perfeito, a identidade do enviado e suas duas qualificações sem confundi-lo com Hurão, rei de Tiro.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "ef45d0d7d0b20eac8fe8ff96f63b6e0fc0c0a6c17a947eccbc50422121a34fc3",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
