@@ -24,6 +24,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("10-2sm", "2Sam", "2 Samuel"),
     ("11-1rs", "1Kgs", "1 Reis"),
     ("12-2rs", "2Kgs", "2 Reis"),
+    ("13-1cr", "1Chr", "1 Crônicas"),
 ]
 
 

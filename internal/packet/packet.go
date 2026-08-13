@@ -159,6 +159,12 @@ var controlSpans = map[[2]int][]verseSpan{
 	// cannot appear as a nonexistent OSHB 11:21.
 	{12, 11}: {{1, 20, 11, 1}},
 	{12, 12}: {{1, 1, 11, 21}, {2, 22, 12, 1}},
+	// KJV, WEB, and Livre number OSHB 1Chr 5:27-41 as 6:1-15 and
+	// OSHB 6:1-66 as 6:16-81. Their 12:4 combines OSHB 12:4-5, so both
+	// source verses are intentionally left without a mixed control.
+	{13, 5}:  {{1, 26, 5, 1}, {27, 41, 6, 1}},
+	{13, 6}:  {{1, 66, 6, 16}},
+	{13, 12}: {{1, 3, 12, 1}, {6, 41, 12, 5}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.
