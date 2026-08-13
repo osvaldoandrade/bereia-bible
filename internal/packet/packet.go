@@ -113,8 +113,19 @@ func loadControls(req Request) (controlSet, error) {
 	if cs.kjv, err = OSHBChapterText(req.KJVPath, req.BookNr, req.Chapter); err != nil {
 		return cs, err
 	}
-	if cs.livre, err = OSHBChapterText(req.LivrePath, req.BookNr, req.Chapter); err != nil {
+	allowedMissingLivreSourceVerse := 0
+	if req.BookNr == 19 && req.Chapter == 46 {
+		allowedMissingLivreSourceVerse = 4
+	}
+	if cs.livre, err = oshbChapterText(req.LivrePath, req.BookNr, req.Chapter, allowedMissingLivreSourceVerse); err != nil {
 		return cs, err
+	}
+	// Livre Ps 46:2 merges the material that WEB/KJV divide between verses
+	// 2-3 (OSHB 46:3-4). Do not attach that mixed control to either source
+	// verse; the other controls remain independently aligned.
+	if req.BookNr == 19 && req.Chapter == 46 {
+		delete(cs.livre, 3)
+		delete(cs.livre, 4)
 	}
 	return cs, nil
 }
@@ -185,6 +196,73 @@ var controlSpans = map[[2]int][]verseSpan{
 	// OSHB 41:1-26 as 41:9-34.
 	{18, 40}: {{1, 24, 40, 1}, {25, 32, 41, 1}},
 	{18, 41}: {{1, 26, 41, 9}},
+	// Most Hebrew Psalm titles are numbered as source verses but omitted from
+	// the controls. Psalms 51, 52, 54, and 60 have two numbered title verses.
+	// Psalm 13:6 combines material split between control verses 5-6, so that
+	// source verse is deliberately left without a mixed control.
+	{19, 3}:   {{2, 9, 3, 1}},
+	{19, 4}:   {{2, 9, 4, 1}},
+	{19, 5}:   {{2, 13, 5, 1}},
+	{19, 6}:   {{2, 11, 6, 1}},
+	{19, 7}:   {{2, 18, 7, 1}},
+	{19, 8}:   {{2, 10, 8, 1}},
+	{19, 9}:   {{2, 21, 9, 1}},
+	{19, 12}:  {{2, 9, 12, 1}},
+	{19, 13}:  {{2, 5, 13, 1}},
+	{19, 18}:  {{2, 51, 18, 1}},
+	{19, 19}:  {{2, 15, 19, 1}},
+	{19, 20}:  {{2, 10, 20, 1}},
+	{19, 21}:  {{2, 14, 21, 1}},
+	{19, 22}:  {{2, 32, 22, 1}},
+	{19, 30}:  {{2, 13, 30, 1}},
+	{19, 31}:  {{2, 25, 31, 1}},
+	{19, 34}:  {{2, 23, 34, 1}},
+	{19, 36}:  {{2, 13, 36, 1}},
+	{19, 38}:  {{2, 23, 38, 1}},
+	{19, 39}:  {{2, 14, 39, 1}},
+	{19, 40}:  {{2, 18, 40, 1}},
+	{19, 41}:  {{2, 14, 41, 1}},
+	{19, 42}:  {{2, 12, 42, 1}},
+	{19, 44}:  {{2, 27, 44, 1}},
+	{19, 45}:  {{2, 18, 45, 1}},
+	{19, 46}:  {{2, 12, 46, 1}},
+	{19, 47}:  {{2, 10, 47, 1}},
+	{19, 48}:  {{2, 15, 48, 1}},
+	{19, 49}:  {{2, 21, 49, 1}},
+	{19, 51}:  {{3, 21, 51, 1}},
+	{19, 52}:  {{3, 11, 52, 1}},
+	{19, 53}:  {{2, 7, 53, 1}},
+	{19, 54}:  {{3, 9, 54, 1}},
+	{19, 55}:  {{2, 24, 55, 1}},
+	{19, 56}:  {{2, 14, 56, 1}},
+	{19, 57}:  {{2, 12, 57, 1}},
+	{19, 58}:  {{2, 12, 58, 1}},
+	{19, 59}:  {{2, 18, 59, 1}},
+	{19, 60}:  {{3, 14, 60, 1}},
+	{19, 61}:  {{2, 9, 61, 1}},
+	{19, 62}:  {{2, 13, 62, 1}},
+	{19, 63}:  {{2, 12, 63, 1}},
+	{19, 64}:  {{2, 11, 64, 1}},
+	{19, 65}:  {{2, 14, 65, 1}},
+	{19, 67}:  {{2, 8, 67, 1}},
+	{19, 68}:  {{2, 36, 68, 1}},
+	{19, 69}:  {{2, 37, 69, 1}},
+	{19, 70}:  {{2, 6, 70, 1}},
+	{19, 75}:  {{2, 11, 75, 1}},
+	{19, 76}:  {{2, 13, 76, 1}},
+	{19, 77}:  {{2, 21, 77, 1}},
+	{19, 80}:  {{2, 20, 80, 1}},
+	{19, 81}:  {{2, 17, 81, 1}},
+	{19, 83}:  {{2, 19, 83, 1}},
+	{19, 84}:  {{2, 13, 84, 1}},
+	{19, 85}:  {{2, 14, 85, 1}},
+	{19, 88}:  {{2, 19, 88, 1}},
+	{19, 89}:  {{2, 53, 89, 1}},
+	{19, 92}:  {{2, 16, 92, 1}},
+	{19, 102}: {{2, 29, 102, 1}},
+	{19, 108}: {{2, 14, 108, 1}},
+	{19, 140}: {{2, 14, 140, 1}},
+	{19, 142}: {{2, 8, 142, 1}},
 	// KJV, WEB, and Livre number OSHB Eccl 4:17 as 5:1 and OSHB
 	// 5:1-19 as 5:2-20.
 	{21, 4}: {{1, 16, 4, 1}, {17, 17, 5, 1}},
@@ -249,6 +327,10 @@ var controlSpans = map[[2]int][]verseSpan{
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.
 func OSHBChapterText(path string, bookNr, chapter int) (map[int]string, error) {
+	return oshbChapterText(path, bookNr, chapter, 0)
+}
+
+func oshbChapterText(path string, bookNr, chapter, allowedMissingSourceVerse int) (map[int]string, error) {
 	if path == "" {
 		return nil, nil
 	}
@@ -272,6 +354,9 @@ func OSHBChapterText(path string, bookNr, chapter int) (map[int]string, error) {
 			controlVerse := span.controlFrom + sourceVerse - span.sourceFrom
 			text, ok := control[controlVerse]
 			if !ok {
+				if sourceVerse == allowedMissingSourceVerse {
+					continue
+				}
 				return nil, fmt.Errorf(
 					"control %s: mapped book %d %d:%d not found for OSHB %d:%d",
 					path, bookNr, span.controlChapter, controlVerse, chapter, sourceVerse,

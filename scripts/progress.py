@@ -30,6 +30,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("16-ne", "Neh", "Neemias"),
     ("17-et", "Esth", "Ester"),
     ("18-jo", "Job", "Jó"),
+    ("19-sl", "Ps", "Salmos"),
     ("20-pv", "Prov", "Provérbios"),
     ("21-ec", "Eccl", "Eclesiastes"),
     ("22-ct", "Song", "Cântico dos Cânticos"),

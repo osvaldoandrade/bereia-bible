@@ -798,6 +798,192 @@ func TestOSHBChapterTextMapsJobVersification(t *testing.T) {
 	}
 }
 
+func TestOSHBChapterTextMapsPsalmsVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, count int, missing map[int]bool) string {
+		var verses strings.Builder
+		first := true
+		for i := 1; i <= count; i++ {
+			if missing[i] {
+				continue
+			}
+			if !first {
+				verses.WriteByte(',')
+			}
+			first = false
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"psalm-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":19,"chapters":[%s,%s,%s,%s]}]}`,
+		chapter(3, 8, nil), chapter(13, 6, nil), chapter(46, 11, nil), chapter(51, 19, nil))
+	path := write(t, dir, "psalms.json", control)
+
+	cases := []struct {
+		chapter int
+		from    int
+		to      int
+		offset  int
+	}{
+		{chapter: 3, from: 2, to: 9, offset: 1},
+		{chapter: 51, from: 3, to: 21, offset: 2},
+	}
+	for _, tc := range cases {
+		got, err := OSHBChapterText(path, 19, tc.chapter)
+		if err != nil {
+			t.Fatal(err)
+		}
+		if len(got) != tc.to-tc.from+1 {
+			t.Fatalf("Psalm %d: got %d controls", tc.chapter, len(got))
+		}
+		for sourceVerse := tc.from; sourceVerse <= tc.to; sourceVerse++ {
+			controlVerse := sourceVerse - tc.offset
+			want := fmt.Sprintf("psalm-%d-verse-%d", tc.chapter, controlVerse)
+			if got[sourceVerse] != want {
+				t.Errorf("Psalm %d:%d: got %q, want %q", tc.chapter, sourceVerse, got[sourceVerse], want)
+			}
+		}
+		for sourceVerse := 1; sourceVerse < tc.from; sourceVerse++ {
+			if _, ok := got[sourceVerse]; ok {
+				t.Errorf("Psalm %d title verse %d unexpectedly has a control", tc.chapter, sourceVerse)
+			}
+		}
+	}
+
+	chapter13, err := OSHBChapterText(path, 19, 13)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter13) != 4 || chapter13[2] != "psalm-13-verse-1" || chapter13[5] != "psalm-13-verse-4" {
+		t.Fatalf("wrong Psalm 13 controls: %+v", chapter13)
+	}
+	if _, ok := chapter13[1]; ok {
+		t.Fatal("Psalm 13 title unexpectedly has a control")
+	}
+	if _, ok := chapter13[6]; ok {
+		t.Fatal("Psalm 13:6 must not receive either half of the split control")
+	}
+
+	livre := fmt.Sprintf(`{"books":[{"nr":19,"chapters":[%s]}]}`,
+		chapter(46, 11, map[int]bool{3: true}))
+	livrePath := write(t, dir, "livre.json", livre)
+	controls, err := loadControls(Request{
+		BookNr: 19, Chapter: 46,
+		WebPath: path, KJVPath: path, LivrePath: livrePath,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got := controls.forVerse(2); got == nil || got.Web == "" || got.KJV == "" || got.Livre == "" {
+		t.Fatalf("Psalm 46:2 should retain all three independent controls: %+v", got)
+	}
+	for _, sourceVerse := range []int{3, 4} {
+		got := controls.forVerse(sourceVerse)
+		if got == nil || got.Web == "" || got.KJV == "" || got.Livre != "" {
+			t.Errorf("Psalm 46:%d: mixed Livre control not isolated: %+v", sourceVerse, got)
+		}
+	}
+	if got := controls.forVerse(5); got == nil || got.Livre != "psalm-46-verse-4" {
+		t.Fatalf("Psalm 46:5 mapping after Livre gap is wrong: %+v", got)
+	}
+	for missingControl := 1; missingControl <= 11; missingControl++ {
+		if missingControl == 3 {
+			continue
+		}
+		badLivre := fmt.Sprintf(`{"books":[{"nr":19,"chapters":[%s]}]}`,
+			chapter(46, 11, map[int]bool{3: true, missingControl: true}))
+		badLivrePath := write(t, dir, fmt.Sprintf("livre-extra-gap-%d.json", missingControl), badLivre)
+		if _, err := loadControls(Request{
+			BookNr: 19, Chapter: 46,
+			WebPath: path, KJVPath: path, LivrePath: badLivrePath,
+		}); err == nil {
+			t.Errorf("want error for unapproved missing Livre Psalm 46:%d", missingControl)
+		}
+	}
+
+	// Exercise all 150 source chapters against the pinned OSHB verse counts,
+	// rather than testing only representative one- and two-title cases.
+	sourceCounts := []int{
+		6, 12, 9, 9, 13, 11, 18, 10, 21, 18, 7, 9, 6, 7, 5,
+		11, 15, 51, 15, 10, 14, 32, 6, 10, 22, 12, 14, 9, 11, 13,
+		25, 11, 22, 23, 28, 13, 40, 23, 14, 18, 14, 12, 5, 27, 18,
+		12, 10, 15, 21, 23, 21, 11, 7, 9, 24, 14, 12, 12, 18, 14,
+		9, 13, 12, 11, 14, 20, 8, 36, 37, 6, 24, 20, 28, 23, 11,
+		13, 21, 72, 13, 20, 17, 8, 19, 13, 14, 17, 7, 19, 53, 17,
+		16, 16, 5, 23, 11, 13, 12, 9, 9, 5, 8, 29, 22, 35, 45,
+		48, 43, 14, 31, 7, 10, 10, 9, 8, 18, 19, 2, 29, 176, 7,
+		8, 9, 4, 8, 5, 6, 5, 6, 8, 8, 3, 18, 3, 3, 21,
+		26, 9, 8, 24, 14, 10, 8, 12, 15, 21, 10, 20, 14, 9, 6,
+	}
+	titleVerses := map[int]int{
+		3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 12: 1,
+		18: 1, 19: 1, 20: 1, 21: 1, 22: 1, 30: 1, 31: 1, 34: 1,
+		36: 1, 38: 1, 39: 1, 40: 1, 41: 1, 42: 1, 44: 1, 45: 1,
+		46: 1, 47: 1, 48: 1, 49: 1, 51: 2, 52: 2, 53: 1, 54: 2,
+		55: 1, 56: 1, 57: 1, 58: 1, 59: 1, 60: 2, 61: 1, 62: 1,
+		63: 1, 64: 1, 65: 1, 67: 1, 68: 1, 69: 1, 70: 1, 75: 1,
+		76: 1, 77: 1, 80: 1, 81: 1, 83: 1, 84: 1, 85: 1, 88: 1,
+		89: 1, 92: 1, 102: 1, 108: 1, 140: 1, 142: 1,
+	}
+	var allChapters strings.Builder
+	controlTotal := 0
+	for i, sourceCount := range sourceCounts {
+		chapterNumber := i + 1
+		controlCount := sourceCount - titleVerses[chapterNumber]
+		if chapterNumber == 13 {
+			controlCount = 6 // controls 5-6 split the single source verse 13:6
+		}
+		if i > 0 {
+			allChapters.WriteByte(',')
+		}
+		allChapters.WriteString(chapter(chapterNumber, controlCount, nil))
+		controlTotal += controlCount
+	}
+	allControl := fmt.Sprintf(`{"books":[{"nr":19,"chapters":[%s]}]}`, allChapters.String())
+	allPath := write(t, dir, "all-psalms.json", allControl)
+	mappedTotal := 0
+	seenControls := make(map[string]bool)
+	for i, sourceCount := range sourceCounts {
+		chapterNumber := i + 1
+		got, err := OSHBChapterText(allPath, 19, chapterNumber)
+		if err != nil {
+			t.Fatalf("Psalm %d: %v", chapterNumber, err)
+		}
+		from, to := 1, sourceCount
+		offset := 0
+		if titleCount := titleVerses[chapterNumber]; titleCount > 0 {
+			from, offset = titleCount+1, titleCount
+		}
+		if chapterNumber == 13 {
+			from, to, offset = 2, 5, 1
+		}
+		if len(got) != to-from+1 {
+			t.Errorf("Psalm %d: got %d mappings, want %d", chapterNumber, len(got), to-from+1)
+		}
+		for sourceVerse := from; sourceVerse <= to; sourceVerse++ {
+			controlVerse := sourceVerse - offset
+			want := fmt.Sprintf("psalm-%d-verse-%d", chapterNumber, controlVerse)
+			if got[sourceVerse] != want {
+				t.Errorf("Psalm %d:%d: got %q, want %q", chapterNumber, sourceVerse, got[sourceVerse], want)
+			}
+			if seenControls[want] {
+				t.Errorf("control used more than once: %s", want)
+			}
+			seenControls[want] = true
+			mappedTotal++
+		}
+	}
+	if controlTotal != 2461 || mappedTotal != 2459 || len(seenControls) != 2459 {
+		t.Fatalf("Psalm totals: controls=%d mapped=%d unique=%d", controlTotal, mappedTotal, len(seenControls))
+	}
+
+	missing := fmt.Sprintf(`{"books":[{"nr":19,"chapters":[%s]}]}`, chapter(3, 7, nil))
+	missingPath := write(t, dir, "psalms-missing.json", missing)
+	if _, err := OSHBChapterText(missingPath, 19, 3); err == nil {
+		t.Fatal("want error when mapped Psalm 3:8 control is missing")
+	}
+}
+
 func TestOSHBChapterTextMapsEcclesiastesAndSongVersification(t *testing.T) {
 	dir := t.TempDir()
 	chapter := func(number, from, to int) string {
