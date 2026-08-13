@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Sam.11.4",
+    "livro": "2 Samuel",
+    "capitulo": 11,
+    "versiculo": 4,
+    "pericope": "2Sam.11.1-27"
+  },
+  "texto_bv": "Davi enviou mensageiros e a tomou; ela veio até ele, e ele se deitou com ela. Ela estava se purificando de sua impureza; depois voltou para casa.",
+  "traducao_literal": "E enviou Davi mensageiros, e tomou-a, e veio ela a ele, e deitou-se ele com ela; e ela purificando-se de sua impureza; e voltou à sua casa.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּשְׁלַח֩",
+      "lemma": "c/7971",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "דָּוִ֨ד",
+      "lemma": "1732",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מַלְאָכִ֜ים",
+      "lemma": "4397",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וַיִּקָּחֶ֗הָ",
+      "lemma": "c/3947",
+      "morfologia": "HC/Vqw3ms/Sp3fs"
+    },
+    {
+      "palavra": "וַתָּב֤וֹא",
+      "lemma": "c/935",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "אֵלָיו֙",
+      "lemma": "413",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "וַיִּשְׁכַּ֣ב",
+      "lemma": "c/7901",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "עִמָּ֔הּ",
+      "lemma": "5973 a",
+      "morfologia": "HR/Sp3fs"
+    },
+    {
+      "palavra": "וְהִ֥יא",
+      "lemma": "c/1931",
+      "morfologia": "HC/Pp3fs"
+    },
+    {
+      "palavra": "מִתְקַדֶּ֖שֶׁת",
+      "lemma": "6942",
+      "morfologia": "HVtrfsa"
+    },
+    {
+      "palavra": "מִטֻּמְאָתָ֑הּ",
+      "lemma": "m/2932",
+      "morfologia": "HR/Ncfsc/Sp3fs"
+    },
+    {
+      "palavra": "וַתָּ֖שָׁב",
+      "lemma": "c/7725",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בֵּיתָֽהּ",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota editorial OSHB c de acentuação associada ao token עִמָּהּ (“com ela”).",
+      "leituras": [
+        {
+          "leitura": "עִמָּהּ — “com ela”; a acentuação em L é lida pelo OSHB de modo diferente de BHS",
+          "testemunhas": "Códice de Leningrado; BHS; OSHB"
+        }
+      ],
+      "avaliacao": "A nota c aparece imediatamente após עִמָּהּ no XML e informa diferença de leitura de um ou mais acentos, possivelmente decorrente de erro tipográfico em BHS; não oferece leitura consonantal concorrente.",
+      "impacto_na_traducao": "Nenhum: permanece “com ela”."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como preservar ações, agentes, relação e purificação?",
+      "escolha": "Davi envia mensageiros e a toma; ela vem; ele se deita com ela; ela se purifica e retorna à casa",
+      "justificativa": "וַיִּשְׁלַח e וַיִּקָּחֶהָ mantêm Davi como agente de ações distintas; וַתָּבוֹא atribui a vinda à mulher e וַיִּשְׁכַּב a Davi. A redação não acrescenta rapto, consentimento ou iniciativa feminina.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“mandou buscá-la”",
+          "motivo": "Funde o envio e a tomada, enfraquecendo וַיִּקָּחֶהָ."
+        },
+        {
+          "opcao": "“ela convidou Davi”",
+          "motivo": "Acrescenta agência ausente."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "depois"
+  ],
+  "ambiguidades_preservadas": [
+    "לָקַח expressa que Davi a tomou, mas o verso não explicita coerção física nem consentimento; a BV não resolve essa questão além da agência gramatical.",
+    "A relação temporal exata entre purificação e encontro é compacta; מִטֻּמְאָתָהּ refere-se à impureza menstrual."
+  ],
+  "justificativa": "Envio dos mensageiros, tomada por Davi, vinda da mulher, relação sexual, purificação, retorno e associação da nota c a עִמָּהּ foram preservados sem ampliar coerção ou consentimento.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

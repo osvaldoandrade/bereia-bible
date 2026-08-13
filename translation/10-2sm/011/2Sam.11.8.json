@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Sam.11.8",
+    "livro": "2 Samuel",
+    "capitulo": 11,
+    "versiculo": 8,
+    "pericope": "2Sam.11.1-27"
+  },
+  "texto_bv": "Davi disse a Urias: “Desça para casa e lave os pés.” Urias saiu do palácio, e um presente do rei foi enviado atrás dele.",
+  "traducao_literal": "E disse Davi a Urias: “Desce à tua casa e lava teus pés.” E saiu Urias da casa do rei, e saiu atrás dele uma porção do rei.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֤אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "דָּוִד֙",
+      "lemma": "1732",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לְא֣וּרִיָּ֔ה",
+      "lemma": "l/223 a",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "רֵ֥ד",
+      "lemma": "3381",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "לְבֵיתְךָ֖",
+      "lemma": "l/1004 b",
+      "morfologia": "HR/Ncmsc/Sp2ms"
+    },
+    {
+      "palavra": "וּרְחַ֣ץ",
+      "lemma": "c/7364",
+      "morfologia": "HC/Vqv2ms"
+    },
+    {
+      "palavra": "רַגְלֶ֑יךָ",
+      "lemma": "7272",
+      "morfologia": "HNcfdc/Sp2ms"
+    },
+    {
+      "palavra": "וַיֵּצֵ֤א",
+      "lemma": "c/3318",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אֽוּרִיָּה֙",
+      "lemma": "223 a",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִבֵּ֣ית",
+      "lemma": "m/1004 b",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "הַמֶּ֔לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וַתֵּצֵ֥א",
+      "lemma": "c/3318",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "אַחֲרָ֖יו",
+      "lemma": "310 a",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "מַשְׂאַ֥ת",
+      "lemma": "4864",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "הַמֶּֽלֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota editorial OSHB c de acentuação associada ao token לְאוּרִיָּה (“a Urias”).",
+      "leituras": [
+        {
+          "leitura": "לְאוּרִיָּה — “a Urias”; a acentuação em L é lida pelo OSHB de modo diferente de BHS",
+          "testemunhas": "Códice de Leningrado; BHS; OSHB"
+        }
+      ],
+      "avaliacao": "A nota c aparece imediatamente após לְאוּרִיָּה no XML e registra diferença de leitura de acento, sem variante consonantal, lexical ou morfológica.",
+      "impacto_na_traducao": "Nenhum: Urias permanece o destinatário da ordem."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como preservar ordem, presente e associação da nota OSHB?",
+      "escolha": "Davi manda Urias ir para casa e lavar os pés; Urias sai e uma porção real segue atrás dele; a nota c liga-se a לְאוּרִיָּה",
+      "justificativa": "Os imperativos são dirigidos a Urias; מַשְׂאַת é presente ou porção. No XML, a nota c aparece imediatamente após לְאוּרִיָּה e antes de רֵד.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "lavar as mãos",
+          "motivo": "Troca a parte corporal."
+        },
+        {
+          "opcao": "associar a nota c ao presente do rei",
+          "motivo": "Contraria sua posição no XML."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "“Lavar os pés” pode ser literal e também funcionar como convite eufemístico à vida conjugal."
+  ],
+  "justificativa": "Davi, Urias, casa, pés, saída, presente real e associação correta da nota c a לְאוּרִיָּה foram preservados.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
