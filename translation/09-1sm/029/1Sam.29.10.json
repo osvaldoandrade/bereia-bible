@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Sam.29.10",
+    "livro": "1 Samuel",
+    "capitulo": 29,
+    "versiculo": 10,
+    "pericope": "1Sam.29.1-11"
+  },
+  "texto_bv": "“Agora, levante-se cedo pela manhã, você e os servos de seu senhor que vieram com você. Levantem-se de manhã e, assim que houver luz, partam.”",
+  "traducao_literal": "“E agora, madruga pela manhã, e os servos de teu senhor que vieram contigo; e madrugareis pela manhã, e, quando houver luz para vós, ide.”",
+  "termos_originais": [
+    {
+      "palavra": "וְעַתָּה֙",
+      "lemma": "c/6258",
+      "morfologia": "HC/D"
+    },
+    {
+      "palavra": "הַשְׁכֵּ֣ם",
+      "lemma": "7925",
+      "morfologia": "HVhv2ms"
+    },
+    {
+      "palavra": "בַּבֹּ֔קֶר",
+      "lemma": "b/1242",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "וְעַבְדֵ֥י",
+      "lemma": "c/5650",
+      "morfologia": "HC/Ncmpc"
+    },
+    {
+      "palavra": "אֲדֹנֶ֖יךָ",
+      "lemma": "113",
+      "morfologia": "HNcmpc/Sp2ms"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בָּ֣אוּ",
+      "lemma": "935",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "אִתָּ֑ךְ",
+      "lemma": "854",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "וְהִשְׁכַּמְתֶּ֣ם",
+      "lemma": "c/7925",
+      "morfologia": "HC/Vhq2mp"
+    },
+    {
+      "palavra": "בַּבֹּ֔קֶר",
+      "lemma": "b/1242",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "וְא֥וֹר",
+      "lemma": "c/215",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "לָכֶ֖ם",
+      "lemma": "l",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "וָלֵֽכוּ",
+      "lemma": "c/3212",
+      "morfologia": "HC/Vqv2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como preservar as mudanças de número nos comandos?",
+      "escolha": "ordem singular a Davi, inclusão dos servos e comandos plurais ao grupo",
+      "justificativa": "הַשְׁכֵּם é singular, enquanto וְהִשְׁכַּמְתֶּם e וָלֵכוּ são plurais; a BV muda de “levante-se” para “levantem-se/partam”.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "somente Davi deve partir",
+          "motivo": "Omite os servos e os plurais."
+        },
+        {
+          "opcao": "somente os servos recebem a ordem",
+          "motivo": "Omite o primeiro imperativo a Davi."
+        }
+      ]
+    },
+    {
+      "questao": "Quando devem partir?",
+      "escolha": "de manhã, quando houver luz para eles",
+      "justificativa": "A repetição de בַּבֹּקֶר mantém a saída matinal. וְאוֹר está analisado no OSHB como verbo qal de terceira pessoa masculina singular: a partida ocorre quando clarear ou houver luz para o grupo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "à meia-noite",
+          "motivo": "Contradiz manhã e luz."
+        },
+        {
+          "opcao": "depois da batalha",
+          "motivo": "Inverte a urgência."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "assim que"
+  ],
+  "ambiguidades_preservadas": [
+    "“Os servos de seu senhor” permanece sem identificação explícita do senhor; o verso não o nomeia.",
+    "אִתָּךְ está vocalizado e analisado no OSHB como segunda pessoa feminina singular, embora o discurso se dirija a Davi; “com você” não marca gênero em português, e o XML não registra qere/ketiv.",
+    "וְאוֹר é verbo no OSHB e pode ser expresso “quando clarear para vocês” ou “quando houver luz para vocês”."
+  ],
+  "justificativa": "Imperativo singular, inclusão dos servos, mudança ao plural, manhã, verbo de clarear e partida foram preservados.",
+  "confianca": 0.64,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
