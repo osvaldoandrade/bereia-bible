@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 8025/8720 versículos.**
+**Total AT sourced: 8230/8720 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -317,18 +317,18 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 30 | 31 | ● 31/31 [DRAFT] |
 | 31 | 13 | ● 13/13 [DRAFT] |
 
-## 2 Samuel — 0/695 versículos (0.0%), 24 capítulos
+## 2 Samuel — 205/695 versículos (29.5%), 24 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 27 | · pendente |
-| 2 | 32 | · pendente |
-| 3 | 39 | · pendente |
-| 4 | 12 | · pendente |
-| 5 | 25 | · pendente |
-| 6 | 23 | · pendente |
-| 7 | 29 | · pendente |
-| 8 | 18 | · pendente |
+| 1 | 27 | ● 27/27 [DRAFT] |
+| 2 | 32 | ● 32/32 [DRAFT] |
+| 3 | 39 | ● 39/39 [DRAFT] |
+| 4 | 12 | ● 12/12 [DRAFT] |
+| 5 | 25 | ● 25/25 [DRAFT] |
+| 6 | 23 | ● 23/23 [DRAFT] |
+| 7 | 29 | ● 29/29 [DRAFT] |
+| 8 | 18 | ● 18/18 [DRAFT] |
 | 9 | 13 | · pendente |
 | 10 | 19 | · pendente |
 | 11 | 27 | · pendente |

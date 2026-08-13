@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Sam.8.3",
+    "livro": "2 Samuel",
+    "capitulo": 8,
+    "versiculo": 3,
+    "pericope": "2Sam.8.1-18"
+  },
+  "texto_bv": "Davi derrotou Hadadezer, filho de Reobe, rei de Zobá, quando este foi restabelecer seu domínio junto ao rio Eufrates.",
+  "traducao_literal": "E feriu Davi Hadadezer, filho de Reobe, rei de Zobá, ao ir ele fazer voltar sua mão junto ao rio Eufrates.",
+  "termos_originais": [
+    {
+      "palavra": "וַיַּ֣ךְ",
+      "lemma": "c/5221",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "דָּוִ֔ד",
+      "lemma": "1732",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הֲדַדְעֶ֥זֶר",
+      "lemma": "1909",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "רְחֹ֖ב",
+      "lemma": "7340",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מֶ֣לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "צוֹבָ֑ה",
+      "lemma": "6678",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּלֶכְתּ֕וֹ",
+      "lemma": "b/3212",
+      "morfologia": "HR/Vqc/Sp3ms"
+    },
+    {
+      "palavra": "לְהָשִׁ֥יב",
+      "lemma": "l/7725",
+      "morfologia": "HR/Vhc"
+    },
+    {
+      "palavra": "יָד֖וֹ",
+      "lemma": "3027",
+      "morfologia": "HNcbsc/Sp3ms"
+    },
+    {
+      "palavra": "בִּֽנְהַר",
+      "lemma": "b/5104",
+      "morfologia": "HR/Ncmsc"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Qere que completa o nome do rio em 2Sam.8.3, acompanhado de nota editorial OSHB.",
+      "leituras": [
+        {
+          "leitura": "בִּנְהַר־ — “junto ao rio—”, forma consonantal interrompida antes do nome",
+          "testemunhas": "Texto principal do OSHB/Texto Massorético"
+        },
+        {
+          "leitura": "בִּנְהַר־פְּרָת — “junto ao rio Eufrates”",
+          "testemunhas": "Qere registrado no 2Sam.xml"
+        }
+      ],
+      "avaliacao": "A BV segue o qere e explicita “rio Eufrates”. A nota n=\"a\" informa adaptações editoriais ao qere que L e BHS, por seu desenho, não indicam.",
+      "impacto_na_traducao": "O qere fornece o topônimo Eufrates; sem ele, a expressão terminaria apenas em “o rio”."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Quem Davi derrota?",
+      "escolha": "“Hadadezer, filho de Reobe, rei de Zobá”",
+      "justificativa": "Nome, filiação e reino formam uma cadeia aposicional cujo alvo é Hadadezer.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Reobe derrotou Davi",
+          "motivo": "Inverte filiação e agentes."
+        }
+      ]
+    },
+    {
+      "questao": "O que Hadadezer pretendia fazer no rio?",
+      "escolha": "“restabelecer seu domínio junto ao rio Eufrates”",
+      "justificativa": "לְהָשִׁיב יָדוֹ é literalmente “fazer voltar sua mão” e pode indicar restaurar controle ou autoridade; o qere fornece Eufrates.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "entregar voluntariamente seu reino a Davi",
+          "motivo": "Inverte a ação de restauração."
+        },
+        {
+          "opcao": "omitir o rio",
+          "motivo": "Perde a localização e o qere."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "este",
+    "domínio",
+    "Eufrates"
+  ],
+  "ambiguidades_preservadas": [
+    "“Restabelecer sua mão” pode indicar recuperar domínio, reafirmar controle militar ou restaurar presença política na região do rio."
+  ],
+  "justificativa": "Davi, Hadadezer, Reobe, Zobá, tentativa de restaurar domínio e qere “Eufrates” foram mantidos.",
+  "confianca": 0.69,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

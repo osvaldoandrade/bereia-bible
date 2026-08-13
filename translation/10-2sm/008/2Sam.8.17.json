@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Sam.8.17",
+    "livro": "2 Samuel",
+    "capitulo": 8,
+    "versiculo": 17,
+    "pericope": "2Sam.8.1-18"
+  },
+  "texto_bv": "O sacerdócio era exercido por Zadoque, filho de Aitube, e por Aimeleque, filho de Abiatar; Seraías servia como escriba.",
+  "traducao_literal": "E Zadoque, filho de Aitube, e Aimeleque, filho de Abiatar: sacerdotes; e Seraías: escriba.",
+  "termos_originais": [
+    {
+      "palavra": "וְצָד֧וֹק",
+      "lemma": "c/6659",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֲחִיט֛וּב",
+      "lemma": "285",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַאֲחִימֶ֥לֶךְ",
+      "lemma": "c/288",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֶבְיָתָ֖ר",
+      "lemma": "54",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כֹּהֲנִ֑ים",
+      "lemma": "3548",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וּשְׂרָיָ֖ה",
+      "lemma": "c/8304",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "סוֹפֵֽר",
+      "lemma": "5608 b",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como reconstruir as frases nominais e preservar as duas filiações?",
+      "escolha": "“O sacerdócio era exercido por Zadoque, filho de Aitube, e por Aimeleque, filho de Abiatar”",
+      "justificativa": "כֹּהֲנִים é plural e predica conjuntamente de Zadoque e Aimeleque. Cada בֶּן liga o nome imediatamente anterior ao pai seguinte; a BV conserva Aimeleque como filho de Abiatar sem harmonização.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Abiatar, filho de Aimeleque",
+          "motivo": "Inverte a ordem genealógica transmitida neste verso."
+        },
+        {
+          "opcao": "somente Zadoque era sacerdote",
+          "motivo": "Contradiz o predicado plural."
+        }
+      ]
+    },
+    {
+      "questao": "Qual função pertence a Seraías?",
+      "escolha": "“Seraías servia como escriba”",
+      "justificativa": "סוֹפֵר forma uma segunda frase nominal e se aplica somente a Seraías, não aos dois sacerdotes.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Seraías era o terceiro sacerdote",
+          "motivo": "Troca o predicado explícito “escriba”."
+        },
+        {
+          "opcao": "Aimeleque era escriba",
+          "motivo": "Desloca o cargo para o nome anterior."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "O sacerdócio era exercido por",
+    "por",
+    "servia como"
+  ],
+  "ambiguidades_preservadas": [
+    "As duas orações hebraicas são nominais e não trazem cópula expressa; a BV as verbaliza sem mudar cargos ou participantes.",
+    "A filiação “Aimeleque, filho de Abiatar” permanece exatamente como no OSHB, sem harmonização genealógica."
+  ],
+  "justificativa": "A nova sintaxe mantém Zadoque–Aitube e Aimeleque–Abiatar sob o predicado plural “sacerdotes” e reserva exclusivamente a Seraías a função de escriba.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
