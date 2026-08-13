@@ -19,6 +19,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("05-dt", "Deut", "Deuteronômio"),
     ("06-js", "Josh", "Josué"),
     ("07-jz", "Judg", "Juízes"),
+    ("08-rt", "Ruth", "Rute"),
 ]
 
 

@@ -17,8 +17,8 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BOOK_DIR = {"Gen": "01-gn", "Exod": "02-ex", "Lev": "03-lv", "Num": "04-nm", "Deut": "05-dt", "Josh": "06-js", "Judg": "07-jz"}
-BOOK_NAME = {"Gen": "Gênesis", "Exod": "Êxodo", "Lev": "Levítico", "Num": "Números", "Deut": "Deuteronômio", "Josh": "Josué", "Judg": "Juízes"}
+BOOK_DIR = {"Gen": "01-gn", "Exod": "02-ex", "Lev": "03-lv", "Num": "04-nm", "Deut": "05-dt", "Josh": "06-js", "Judg": "07-jz", "Ruth": "08-rt"}
+BOOK_NAME = {"Gen": "Gênesis", "Exod": "Êxodo", "Lev": "Levítico", "Num": "Números", "Deut": "Deuteronômio", "Josh": "Josué", "Judg": "Juízes", "Ruth": "Rute"}
 MANIFEST_PATH = os.path.join(ROOT, "sources", "manifest.json")
 FONTES = {
     "texto_fonte": "oshb@3d15126f",
