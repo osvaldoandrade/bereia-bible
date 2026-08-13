@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 6383/6511 versículos.**
+**Total AT sourced: 6511/6511 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -217,7 +217,7 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 33 | 29 | ● 29/29 [DRAFT] |
 | 34 | 12 | ● 12/12 [DRAFT] |
 
-## Josué — 530/658 versículos (80.5%), 24 capítulos
+## Josué — 658/658 versículos (100.0%), 24 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -241,8 +241,8 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 18 | 28 | ● 28/28 [DRAFT] |
 | 19 | 51 | ● 51/51 [DRAFT] |
 | 20 | 9 | ● 9/9 [DRAFT] |
-| 21 | 45 | · pendente |
-| 22 | 34 | · pendente |
-| 23 | 16 | · pendente |
-| 24 | 33 | · pendente |
+| 21 | 45 | ● 45/45 [DRAFT] |
+| 22 | 34 | ● 34/34 [DRAFT] |
+| 23 | 16 | ● 16/16 [DRAFT] |
+| 24 | 33 | ● 33/33 [DRAFT] |
 

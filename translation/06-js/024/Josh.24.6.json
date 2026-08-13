@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.24.6",
+    "livro": "Josué",
+    "capitulo": 24,
+    "versiculo": 6,
+    "pericope": "Josh.24.1-33"
+  },
+  "texto_bv": "Quando tirei os antepassados de vocês do Egito, vocês chegaram ao mar. Os egípcios perseguiram os antepassados de vocês até o mar de Juncos, com carros e cavaleiros.",
+  "traducao_literal": "E fiz sair vossos pais do Egito, e viestes ao mar; e perseguiram os egípcios atrás de vossos pais com carro e com cavaleiros, ao mar de Juncos.",
+  "termos_originais": [
+    {
+      "palavra": "וָֽאוֹצִ֤יא",
+      "lemma": "c/3318",
+      "morfologia": "HC/Vhw1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "אֲבֽוֹתֵיכֶם֙",
+      "lemma": "1",
+      "morfologia": "HNcmpc/Sp2mp"
+    },
+    {
+      "palavra": "מִמִּצְרַ֔יִם",
+      "lemma": "m/4714",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וַתָּבֹ֖אוּ",
+      "lemma": "c/935",
+      "morfologia": "HC/Vqw2mp"
+    },
+    {
+      "palavra": "הַיָּ֑מָּה",
+      "lemma": "d/3220",
+      "morfologia": "HTd/Ncmsa/Sd"
+    },
+    {
+      "palavra": "וַיִּרְדְּפ֨וּ",
+      "lemma": "c/7291",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "מִצְרַ֜יִם",
+      "lemma": "4713",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אַחֲרֵ֧י",
+      "lemma": "310 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֲבוֹתֵיכֶ֛ם",
+      "lemma": "1",
+      "morfologia": "HNcmpc/Sp2mp"
+    },
+    {
+      "palavra": "בְּרֶ֥כֶב",
+      "lemma": "b/7393",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וּבְפָרָשִׁ֖ים",
+      "lemma": "c/b/6571 b",
+      "morfologia": "HC/R/Ncmpa"
+    },
+    {
+      "palavra": "יַם",
+      "lemma": "3220",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "סֽוּף",
+      "lemma": "5488",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como preservar a mudança de referente?",
+      "escolha": "“os antepassados de vocês ... vocês chegaram”",
+      "justificativa": "O objeto inicial é “vossos pais”, mas וַתָּבֹאוּ passa à segunda pessoa plural. A BV não uniformiza ambos como “eles”.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "eles chegaram ao mar",
+          "motivo": "Apaga a mudança de pessoa."
+        },
+        {
+          "opcao": "vocês saíram sem os antepassados",
+          "motivo": "Elimina o primeiro objeto."
+        }
+      ]
+    },
+    {
+      "questao": "Quem persegue quem e com quais meios?",
+      "escolha": "“Os egípcios perseguiram os antepassados ... com carros e cavaleiros”",
+      "justificativa": "O sujeito plural egípcio, o objeto ancestral e os dois meios militares permanecem distintos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "os antepassados perseguiram os egípcios",
+          "motivo": "Inverte sujeito e objeto."
+        },
+        {
+          "opcao": "sem carros nem cavaleiros",
+          "motivo": "Nega os instrumentos expressos."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Quando"
+  ],
+  "ambiguidades_preservadas": [
+    "“Mar de Juncos” traduz יַם־סוּף sem identificá-lo por um nome geográfico posterior."
+  ],
+  "justificativa": "A saída causativa, a mudança para “vocês”, perseguição, agentes, veículos e mar foram preservados.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
