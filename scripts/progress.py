@@ -20,6 +20,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("06-js", "Josh", "Josué"),
     ("07-jz", "Judg", "Juízes"),
     ("08-rt", "Ruth", "Rute"),
+    ("09-1sm", "1Sam", "1 Samuel"),
 ]
 
 
