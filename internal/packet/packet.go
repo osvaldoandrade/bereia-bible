@@ -185,6 +185,15 @@ var controlSpans = map[[2]int][]verseSpan{
 	// OSHB 41:1-26 as 41:9-34.
 	{18, 40}: {{1, 24, 40, 1}, {25, 32, 41, 1}},
 	{18, 41}: {{1, 26, 41, 9}},
+	// KJV, WEB, and Livre number OSHB Eccl 4:17 as 5:1 and OSHB
+	// 5:1-19 as 5:2-20.
+	{21, 4}: {{1, 16, 4, 1}, {17, 17, 5, 1}},
+	{21, 5}: {{1, 19, 5, 2}},
+	// KJV, WEB, and Livre place OSHB Song 7:1 at 6:13, then number
+	// OSHB 7:2-14 as 7:1-13. Truncate chapter 6 so its trailing control
+	// cannot appear as a nonexistent OSHB 6:13.
+	{22, 6}: {{1, 12, 6, 1}},
+	{22, 7}: {{1, 1, 6, 13}, {2, 14, 7, 1}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.

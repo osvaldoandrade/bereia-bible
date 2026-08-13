@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 11251/14858 versículos.**
+**Total AT sourced: 11251/15197 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -608,4 +608,34 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 29 | 27 | · pendente |
 | 30 | 33 | · pendente |
 | 31 | 31 | · pendente |
+
+## Eclesiastes — 0/222 versículos (0.0%), 12 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 18 | · pendente |
+| 2 | 26 | · pendente |
+| 3 | 22 | · pendente |
+| 4 | 17 | · pendente |
+| 5 | 19 | · pendente |
+| 6 | 12 | · pendente |
+| 7 | 29 | · pendente |
+| 8 | 17 | · pendente |
+| 9 | 18 | · pendente |
+| 10 | 20 | · pendente |
+| 11 | 10 | · pendente |
+| 12 | 14 | · pendente |
+
+## Cântico dos Cânticos — 0/117 versículos (0.0%), 8 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 17 | · pendente |
+| 2 | 17 | · pendente |
+| 3 | 11 | · pendente |
+| 4 | 16 | · pendente |
+| 5 | 16 | · pendente |
+| 6 | 12 | · pendente |
+| 7 | 14 | · pendente |
+| 8 | 14 | · pendente |
 

@@ -31,6 +31,8 @@ BOOKS = [  # AT expands here as books are sourced
     ("17-et", "Esth", "Ester"),
     ("18-jo", "Job", "Jó"),
     ("20-pv", "Prov", "Provérbios"),
+    ("21-ec", "Eccl", "Eclesiastes"),
+    ("22-ct", "Song", "Cântico dos Cânticos"),
 ]
 
 

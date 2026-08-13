@@ -797,3 +797,77 @@ func TestOSHBChapterTextMapsJobVersification(t *testing.T) {
 		t.Fatal("want error when mapped Job 41:34 control is missing")
 	}
 }
+
+func TestOSHBChapterTextMapsEcclesiastesAndSongVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+
+	eccl := fmt.Sprintf(`{"books":[{"nr":21,"chapters":[%s,%s]}]}`,
+		chapter(4, 1, 16), chapter(5, 1, 20))
+	ecclPath := write(t, dir, "ecclesiastes.json", eccl)
+	chapter4, err := OSHBChapterText(ecclPath, 21, 4)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter4) != 17 || chapter4[16] != "chapter-4-verse-16" || chapter4[17] != "chapter-5-verse-1" {
+		t.Fatalf("wrong Ecclesiastes 4 mapping: len=%d 16=%q 17=%q", len(chapter4), chapter4[16], chapter4[17])
+	}
+	chapter5, err := OSHBChapterText(ecclPath, 21, 5)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for sourceVerse := 1; sourceVerse <= 19; sourceVerse++ {
+		want := fmt.Sprintf("chapter-5-verse-%d", sourceVerse+1)
+		if chapter5[sourceVerse] != want {
+			t.Errorf("Ecclesiastes 5:%d: got %q, want %q", sourceVerse, chapter5[sourceVerse], want)
+		}
+	}
+
+	song := fmt.Sprintf(`{"books":[{"nr":22,"chapters":[%s,%s]}]}`,
+		chapter(6, 1, 13), chapter(7, 1, 13))
+	songPath := write(t, dir, "song.json", song)
+	chapter6, err := OSHBChapterText(songPath, 22, 6)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter6) != 12 {
+		t.Fatalf("wrong Song 6 control count: got %d, want 12", len(chapter6))
+	}
+	if _, ok := chapter6[13]; ok {
+		t.Fatal("Song 6:13 control belongs to OSHB 7:1")
+	}
+	chapter7, err := OSHBChapterText(songPath, 22, 7)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter7) != 14 || chapter7[1] != "chapter-6-verse-13" ||
+		chapter7[2] != "chapter-7-verse-1" || chapter7[14] != "chapter-7-verse-13" {
+		t.Fatalf("wrong Song 7 mapping: len=%d 1=%q 2=%q 14=%q",
+			len(chapter7), chapter7[1], chapter7[2], chapter7[14])
+	}
+
+	controls, err := loadControls(Request{
+		BookNr: 22, Chapter: 7,
+		WebPath: songPath, KJVPath: songPath, LivrePath: songPath,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	for verse, want := range map[int]string{
+		1: "chapter-6-verse-13", 2: "chapter-7-verse-1", 14: "chapter-7-verse-13",
+	} {
+		got := controls.forVerse(verse)
+		if got == nil || got.Web != want || got.KJV != want || got.Livre != want {
+			t.Errorf("Song 7:%d: got %+v, want all controls %q", verse, got, want)
+		}
+	}
+}
