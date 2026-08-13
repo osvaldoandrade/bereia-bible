@@ -244,3 +244,60 @@ func TestOSHBChapterTextMapsDeuteronomyVersification(t *testing.T) {
 		}
 	}
 }
+
+func TestOSHBChapterTextMapsSamuelVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	firstSamuel := fmt.Sprintf(`{"books":[{"nr":9,"chapters":[%s,%s,%s,%s]}]}`,
+		chapter(20, 1, 42), chapter(21, 1, 15),
+		chapter(23, 1, 29), chapter(24, 1, 22))
+	firstPath := write(t, dir, "first-samuel.json", firstSamuel)
+
+	firstTests := []struct {
+		chapter int
+		wantLen int
+		want    map[int]string
+	}{
+		{21, 16, map[int]string{1: "chapter-20-verse-42", 2: "chapter-21-verse-1", 16: "chapter-21-verse-15"}},
+		{24, 23, map[int]string{1: "chapter-23-verse-29", 2: "chapter-24-verse-1", 23: "chapter-24-verse-22"}},
+	}
+	for _, tt := range firstTests {
+		got, err := OSHBChapterText(firstPath, 9, tt.chapter)
+		if err != nil {
+			t.Fatalf("1 Samuel %d: %v", tt.chapter, err)
+		}
+		if len(got) != tt.wantLen {
+			t.Fatalf("wrong 1 Samuel %d control count: got %d, want %d", tt.chapter, len(got), tt.wantLen)
+		}
+		for verse, want := range tt.want {
+			if got[verse] != want {
+				t.Errorf("1 Samuel %d:%d: got %q, want %q", tt.chapter, verse, got[verse], want)
+			}
+		}
+	}
+
+	secondSamuel := fmt.Sprintf(`{"books":[{"nr":10,"chapters":[%s,%s]}]}`,
+		chapter(18, 1, 33), chapter(19, 1, 43))
+	secondPath := write(t, dir, "second-samuel.json", secondSamuel)
+
+	got, err := OSHBChapterText(secondPath, 10, 19)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(got) != 44 {
+		t.Fatalf("wrong 2 Samuel 19 control count: got %d, want 44", len(got))
+	}
+	if got[1] != "chapter-18-verse-33" || got[2] != "chapter-19-verse-1" ||
+		got[44] != "chapter-19-verse-43" {
+		t.Fatalf("wrong 2 Samuel 19 mapping: 1=%q 2=%q 44=%q", got[1], got[2], got[44])
+	}
+}
