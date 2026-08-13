@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Josh.15.52",
+    "livro": "Josué",
+    "capitulo": 15,
+    "versiculo": 52,
+    "pericope": "Josh.15.1-63"
+  },
+  "texto_bv": "Arabe, Ruma e Esã;",
+  "traducao_literal": "Arabe, e Ruma, e Esã;",
+  "termos_originais": [
+    {
+      "palavra": "אֲרַ֥ב",
+      "lemma": "694",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְרוּמָ֖ה",
+      "lemma": "c/1746",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וְאֶשְׁעָֽן",
+      "lemma": "c/824",
+      "morfologia": "HC/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como preservar a abertura do segundo agrupamento montanhoso?",
+      "escolha": "“Arabe, Ruma e Esã”",
+      "justificativa": "Os topônimos são mantidos na ordem hebraica. “Ruma” segue a superfície רוּמָה do OSHB; o lema associado aponta para Dumá, mas não há ketiv/qere que autorize substituir a forma textual.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "reordenar ou substituir os topônimos",
+          "motivo": "Alteraria a lista recebida e impediria sua auditoria."
+        },
+        {
+          "opcao": "“Dumá” com base apenas no lema",
+          "motivo": "Substitui silenciosamente a superfície רוּמָה, que deve reger a tradução source-first."
+        },
+        {
+          "opcao": "ajustar os nomes para fazê-los coincidir com o total",
+          "motivo": "Harmonizaria por conjectura uma tensão interna do texto."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A superfície רוּמָה aponta para Ruma, enquanto o lema OSHB associado remete a Dumá; a BV segue a forma textual."
+  ],
+  "justificativa": "Os três topônimos foram preservados segundo a superfície do OSHB, com a divergência de lema em Ruma registrada.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
