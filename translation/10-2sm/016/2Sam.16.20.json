@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Sam.16.20",
+    "livro": "2 Samuel",
+    "capitulo": 16,
+    "versiculo": 20,
+    "pericope": "2Sam.16.1-23"
+  },
+  "texto_bv": "Absalão disse a Aitofel: “Apresentem o conselho de vocês: o que devemos fazer?”",
+  "traducao_literal": "E Absalão disse a Aitofel: “Deem para vocês conselho; que faremos?”",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אַבְשָׁל֖וֹם",
+      "lemma": "53",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֲחִיתֹ֑פֶל",
+      "lemma": "302",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הָב֥וּ",
+      "lemma": "3051",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "לָכֶ֛ם",
+      "lemma": "l",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "עֵצָ֖ה",
+      "lemma": "6098",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "מַֽה",
+      "lemma": "4100",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "נַּעֲשֶֽׂה",
+      "lemma": "6213 a",
+      "morfologia": "HVqi1cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como conservar a discordância de número na ordem?",
+      "escolha": "nomear Aitofel como destinatário narrativo e manter o plural “apresentem o conselho de vocês”",
+      "justificativa": "A introdução usa אֶל־אֲחִיתֹפֶל no singular, mas הָבוּ לָכֶם é plural. A BV não transforma silenciosamente o imperativo em singular.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Dê seu conselho” sem nota",
+          "motivo": "Apaga a forma plural do hebraico."
+        },
+        {
+          "opcao": "Aitofel pergunta a Absalão",
+          "motivo": "Inverte falante e destinatário."
+        }
+      ]
+    },
+    {
+      "questao": "Quem está incluído na decisão?",
+      "escolha": "“o que devemos fazer?”, com primeira pessoa plural",
+      "justificativa": "מַה־נַּעֲשֶׂה inclui Absalão no grupo que executará a decisão.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“o que vocês farão sem mim?”",
+          "motivo": "Exclui o falante da primeira pessoa plural."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "devemos"
+  ],
+  "ambiguidades_preservadas": [
+    "O singular “a Aitofel” seguido do plural “deem... para vocês” pode refletir uma fala dirigida ao conselho por meio de Aitofel ou uma oscilação de número; a BV preserva ambos."
+  ],
+  "justificativa": "Absalão permanece falante, Aitofel destinatário nomeado, e os plurais da ordem e da deliberação foram mantidos.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
