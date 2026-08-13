@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.16.16",
+    "livro": "1 Crônicas",
+    "capitulo": 16,
+    "versiculo": 16,
+    "pericope": "1Chr.16.1-43"
+  },
+  "texto_bv": "a aliança que firmou com Abraão e seu juramento a Isaque.",
+  "traducao_literal": "que cortou com Abraão, e seu juramento a Isaque.",
+  "termos_originais": [
+    {
+      "palavra": "אֲשֶׁ֤ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "כָּרַת֙",
+      "lemma": "3772",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "854",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אַבְרָהָ֔ם",
+      "lemma": "85",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּשְׁבוּעָת֖וֹ",
+      "lemma": "c/7621",
+      "morfologia": "HC/Ncfsc/Sp3ms"
+    },
+    {
+      "palavra": "לְיִצְחָֽק",
+      "lemma": "l/3327",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Idioma de aliança e função de אֶת",
+      "escolha": "Usar ‘firmou com Abraão’ na BV e conservar ‘cortou com Abraão’ no literal.",
+      "justificativa": "כָּרַת é Qal perfeito singular no idioma de ‘cortar’ aliança; אֶת tem lema H854, preposição ‘com’, e não H853, marcador de objeto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Tratar Abraão como objeto direto de ‘cortou’",
+          "motivo": "Contradiria o lema preposicional H854 e produziria agente/objeto semanticamente incorretos."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a aliança"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "O antecedente vem do verso anterior, e Abraão e Isaque conservam relações distintas com aliança e juramento.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
