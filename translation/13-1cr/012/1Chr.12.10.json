@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.12.10",
+    "livro": "1 Crônicas",
+    "capitulo": 12,
+    "versiculo": 10,
+    "pericope": "1Chr.12.1-41"
+  },
+  "texto_bv": "Ézer, o primeiro; Obadias, o segundo; Eliabe, o terceiro.",
+  "traducao_literal": "Ézer, o chefe; Obadias, o segundo; Eliabe, o terceiro.",
+  "termos_originais": [
+    {
+      "palavra": "עֵ֖זֶר",
+      "lemma": "5829",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הָרֹ֑אשׁ",
+      "lemma": "d/7218 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "עֹבַדְיָה֙",
+      "lemma": "5662",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַשֵּׁנִ֔י",
+      "lemma": "d/8145",
+      "morfologia": "HTd/Aomsa"
+    },
+    {
+      "palavra": "אֱלִיאָ֖ב",
+      "lemma": "446",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַשְּׁלִשִֽׁי",
+      "lemma": "d/7992",
+      "morfologia": "HTd/Aomsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação do OSHB: este verso corresponde a KJV 1Chr.12.9.",
+      "leituras": [
+        {
+          "leitura": "1Chr.12.10",
+          "testemunhas": "versificação OSHB/WLC"
+        },
+        {
+          "leitura": "1Chr.12.9",
+          "testemunhas": "referência KJV registrada no XML OSHB"
+        }
+      ],
+      "avaliacao": "A diferença é apenas de numeração; o conteúdo hebraico deste registro permanece 1Chr.12.10 no corpus OSHB.",
+      "impacto_na_traducao": "Nenhuma mudança textual; a correspondência permite localizar o mesmo conteúdo em sistemas de versificação distintos."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Relação de הָרֹאשׁ com os ordinais seguintes",
+      "escolha": "Usar ‘o primeiro’ na BV e conservar ‘o chefe’ na literal.",
+      "justificativa": "רֹאשׁ pode funcionar como chefe ou primeiro; os versos 10–14 formam uma série ordinal contínua até o décimo primeiro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o chefe nas duas camadas",
+          "motivo": "Ocultaria na BV a função do termo dentro da sequência ordinal."
+        },
+        {
+          "opcao": "o primeiro nas duas camadas",
+          "motivo": "Apagaria o valor lexical concreto de רֹאשׁ na auditoria."
+        }
+      ],
+      "diretriz_ref": "ER-0013"
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "O primeiro título é literalmente ‘o chefe’, seguido pelos ordinais segundo e terceiro; a BV o alinha à contagem sem apagar o literal.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

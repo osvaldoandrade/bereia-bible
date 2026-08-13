@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.12.6",
+    "livro": "1 Crônicas",
+    "capitulo": 12,
+    "versiculo": 6,
+    "pericope": "1Chr.12.1-41"
+  },
+  "texto_bv": "Eluzai, Jerimote, Bealias, Semarias e Sefatias, o harufita.",
+  "traducao_literal": "Eluzai, e Jerimote, e Bealias, e Semarias, e Sefatias, o harufita.",
+  "termos_originais": [
+    {
+      "palavra": "אֶלְעוּזַ֤י",
+      "lemma": "498",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וִירִימוֹת֙",
+      "lemma": "c/3406",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וּבְעַלְיָ֣ה",
+      "lemma": "c/1183",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וּשְׁמַרְיָ֔הוּ",
+      "lemma": "c/8114",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וּשְׁפַטְיָ֖הוּ",
+      "lemma": "c/8203",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "החריפי",
+      "lemma": "d/2741",
+      "morfologia": "HTd/Ngmsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação do OSHB: este verso corresponde a KJV 1Chr.12.5.",
+      "leituras": [
+        {
+          "leitura": "1Chr.12.6",
+          "testemunhas": "versificação OSHB/WLC"
+        },
+        {
+          "leitura": "1Chr.12.5",
+          "testemunhas": "referência KJV registrada no XML OSHB"
+        }
+      ],
+      "avaliacao": "A diferença é apenas de numeração; o conteúdo hebraico deste registro permanece 1Chr.12.6 no corpus OSHB.",
+      "impacto_na_traducao": "Nenhuma mudança textual; a correspondência permite localizar o mesmo conteúdo em sistemas de versificação distintos."
+    },
+    {
+      "descricao": "O aparato OSHB registra ketiv/qere no gentílico de Sefatias.",
+      "leituras": [
+        {
+          "leitura": "ה/חריפי — forma consonantal não vocalizada",
+          "testemunhas": "ketiv do TM/OSHB"
+        },
+        {
+          "leitura": "הַ/חֲרוּפִי — ‘o harufita’",
+          "testemunhas": "qere do TM/OSHB"
+        }
+      ],
+      "avaliacao": "A tradução segue o qere vocalizado; o ketiv permanece consonantal e auditável.",
+      "impacto_na_traducao": "BV e literal trazem ‘o harufita’, sem segunda pronúncia inferida."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ketiv consonantal ה/חריפי e qere vocalizado הַ/חֲרוּפִי",
+      "escolha": "Usar ‘o harufita’ nas duas camadas; conservar o ketiv apenas no aparato.",
+      "justificativa": "O qere vocaliza o gentílico H2741; o ketiv sem vogais não sustenta uma pronúncia portuguesa alternativa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Criar uma forma portuguesa distinta do ketiv",
+          "motivo": "Exigiria inserir vogais que o ketiv não fornece."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Os cinco nomes seguem a lista da fonte, e o gentílico final segue a vocalização do qere.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
