@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.6.13",
+    "livro": "1 Crônicas",
+    "capitulo": 6,
+    "versiculo": 13,
+    "pericope": "1Chr.6.1-66"
+  },
+  "texto_bv": "Os filhos de Samuel: o primogênito, Vasni e Abias.",
+  "traducao_literal": "E os filhos de Samuel: o primogênito, e Vasni, e Abias.",
+  "termos_originais": [
+    {
+      "palavra": "וּבְנֵ֧י",
+      "lemma": "c/1121 a",
+      "morfologia": "HC/Ncmpc"
+    },
+    {
+      "palavra": "שְׁמוּאֵ֛ל",
+      "lemma": "8050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַבְּכֹ֥ר",
+      "lemma": "d/1060",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וַשְׁנִ֖י",
+      "lemma": "2059",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַאֲבִיָּֽה",
+      "lemma": "c/29",
+      "morfologia": "HC/Np"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação do OSHB: este verso corresponde a KJV 1Chr.6.28.",
+      "leituras": [
+        {
+          "leitura": "1Chr.6.13",
+          "testemunhas": "versificação OSHB/WLC"
+        },
+        {
+          "leitura": "1Chr.6.28",
+          "testemunhas": "referência KJV registrada no XML OSHB"
+        }
+      ],
+      "avaliacao": "A diferença é apenas de numeração; o conteúdo hebraico deste registro permanece 1Chr.6.13 no corpus OSHB.",
+      "impacto_na_traducao": "Nenhuma mudança textual; a correspondência permite localizar o mesmo conteúdo em sistemas de versificação distintos."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Sequência הַבְּכֹר וַשְׁנִי וַאֲבִיָּה",
+      "escolha": "Manter ‘o primogênito’ sem nome expresso, seguido dos nomes Vasni e Abias.",
+      "justificativa": "הַבְּכֹר é substantivo comum determinado, enquanto וַשְׁנִי está anotado como antropônimo próprio; fundi-los preencheria um nome que a fonte não fornece.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Vasni, o primogênito, e Abias",
+          "motivo": "Reconfigura a coordenação e transforma o título separado em aposição ao nome seguinte."
+        },
+        {
+          "opcao": "o primogênito e o segundo, Abias",
+          "motivo": "Ignora o lema próprio atribuído a Vasni no packet."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A identidade do ‘primogênito’ permanece não nomeada e a relação exata de Vasni com o título não é harmonizada."
+  ],
+  "justificativa": "O plural, o título e os dois nomes foram preservados na coordenação difícil da fonte.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

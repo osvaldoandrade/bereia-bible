@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.6.11",
+    "livro": "1 Crônicas",
+    "capitulo": 6,
+    "versiculo": 11,
+    "pericope": "1Chr.6.1-66"
+  },
+  "texto_bv": "Elcana. Os filhos de Elcana: Zofai, seu filho, e Naate, seu filho.",
+  "traducao_literal": "Elcana; filhos de Elcana: Zofai, seu filho, e Naate, seu filho.",
+  "termos_originais": [
+    {
+      "palavra": "אֶלְקָנָ֑ה",
+      "lemma": "511",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בנו",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "אֶלְקָנָ֔ה",
+      "lemma": "511",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צוֹפַ֥י",
+      "lemma": "6689",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּנ֖וֹ",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וְנַ֥חַת",
+      "lemma": "c/5184",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "בְּנֽוֹ",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação do OSHB: este verso corresponde a KJV 1Chr.6.26.",
+      "leituras": [
+        {
+          "leitura": "1Chr.6.11",
+          "testemunhas": "versificação OSHB/WLC"
+        },
+        {
+          "leitura": "1Chr.6.26",
+          "testemunhas": "referência KJV registrada no XML OSHB"
+        }
+      ],
+      "avaliacao": "A diferença é apenas de numeração; o conteúdo hebraico deste registro permanece 1Chr.6.11 no corpus OSHB.",
+      "impacto_na_traducao": "Nenhuma mudança textual; a correspondência permite localizar o mesmo conteúdo em sistemas de versificação distintos."
+    },
+    {
+      "descricao": "Ketiv בנ/ו e qere בְּנֵי֙ após o primeiro Elcana.",
+      "leituras": [
+        {
+          "leitura": "בנ/ו — forma consonantal segmentada como “seu filho”",
+          "testemunhas": "ketiv OSHB/WLC"
+        },
+        {
+          "leitura": "בְּנֵי֙ — filhos de",
+          "testemunhas": "qere OSHB/WLC"
+        }
+      ],
+      "avaliacao": "BV e literal seguem o qere vocalizado; o ketiv permanece como forma consonantal nos termos originais e neste aparato, sem pronúncia portuguesa inferida.",
+      "impacto_na_traducao": "O qere introduz Zofai e Naate por um cabeçalho plural; nenhuma leitura portuguesa distinta é criada para o ketiv sem vogais."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ketiv בנ/ו e qere בְּנֵי após o primeiro Elcana",
+      "escolha": "Seguir o qere ‘filhos de’ na BV e na literal; manter o ketiv apenas no aparato.",
+      "justificativa": "O ketiv é consonantal e segmentado com sufixo, sem vocalização; o qere vocalizado oferece o construto plural que introduz Zofai e Naate.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Inferir uma pronúncia portuguesa para o ketiv",
+          "motivo": "A forma escrita sem vogais não autoriza pronúncia distinta."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A repetição de Elcana é preservada, sem fundir os dois membros da fórmula."
+  ],
+  "justificativa": "A leitura qere, os dois descendentes e suas relações filiais foram mantidos; o ketiv ficará integralmente no aparato.",
+  "confianca": 0.61,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

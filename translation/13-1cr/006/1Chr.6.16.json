@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.6.16",
+    "livro": "1 Crônicas",
+    "capitulo": 6,
+    "versiculo": 16,
+    "pericope": "1Chr.6.1-66"
+  },
+  "texto_bv": "Estes são os que Davi encarregou do canto na casa do SENHOR, depois que a arca repousou.",
+  "traducao_literal": "E estes, os que Davi fez ficar sobre as mãos do canto da casa do SENHOR, desde o repouso da arca.",
+  "termos_originais": [
+    {
+      "palavra": "וְאֵ֗לֶּה",
+      "lemma": "c/428",
+      "morfologia": "HC/Pdxcp"
+    },
+    {
+      "palavra": "אֲשֶׁ֨ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "הֶעֱמִ֥יד",
+      "lemma": "5975",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "דָּוִ֛יד",
+      "lemma": "1732",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְדֵי",
+      "lemma": "3027",
+      "morfologia": "HNcbdc"
+    },
+    {
+      "palavra": "שִׁ֖יר",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "בֵּ֣ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִמְּנ֖וֹחַ",
+      "lemma": "m/4494",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "הָאָרֽוֹן",
+      "lemma": "d/727",
+      "morfologia": "HTd/Ncbsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação do OSHB: este verso corresponde a KJV 1Chr.6.31.",
+      "leituras": [
+        {
+          "leitura": "1Chr.6.16",
+          "testemunhas": "versificação OSHB/WLC"
+        },
+        {
+          "leitura": "1Chr.6.31",
+          "testemunhas": "referência KJV registrada no XML OSHB"
+        }
+      ],
+      "avaliacao": "A diferença é apenas de numeração; o conteúdo hebraico deste registro permanece 1Chr.6.16 no corpus OSHB.",
+      "impacto_na_traducao": "Nenhuma mudança textual; a correspondência permite localizar o mesmo conteúdo em sistemas de versificação distintos."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Expressão הֶעֱמִיד ... עַל־יְדֵי־שִׁיר",
+      "escolha": "‘Davi encarregou do canto’ na BV; conservar ‘fez ficar sobre as mãos do canto’ na literal.",
+      "justificativa": "O hifil de עמד atribui a Davi o ato de colocar pessoas numa função, e על־ידי־שיר indica responsabilidade pelo canto; o calque completo fica auditável na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Davi colocou instrumentos de canto",
+          "motivo": "Troca os agentes humanos retomados por ‘estes’ por objetos não mencionados."
+        }
+      ],
+      "diretriz_ref": "ER-0013"
+    },
+    {
+      "questao": "Valor temporal de מִמְּנוֹחַ הָאָרוֹן",
+      "escolha": "‘Depois que a arca repousou’ na BV e ‘desde o repouso da arca’ na literal.",
+      "justificativa": "A preposição מן parte do momento em que a arca alcançou repouso; a BV torna a relação temporal legível sem adicionar local ou episódio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "quando transportaram a arca",
+          "motivo": "Importa uma ação não codificada neste verso."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "são — cópula da frase nominal",
+    "depois que — explicita a relação temporal de מן com o repouso da arca"
+  ],
+  "ambiguidades_preservadas": [
+    "A fonte não identifica neste verso onde ou em que ocasião a arca repousou."
+  ],
+  "justificativa": "Davi permanece agente da designação, o canto e a casa do SENHOR são mantidos, e o repouso da arca conserva sua função temporal.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

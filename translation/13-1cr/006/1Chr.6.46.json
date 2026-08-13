@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.6.46",
+    "livro": "1 Crônicas",
+    "capitulo": 6,
+    "versiculo": 46,
+    "pericope": "1Chr.6.1-66"
+  },
+  "texto_bv": "Aos filhos de Coate que restaram, da família da tribo, da metade da tribo da meia tribo de Manassés, couberam por sorte dez cidades.",
+  "traducao_literal": "E aos filhos de Coate, os restantes, da família da tribo, da metade da tribo da meia Manassés, pela sorte: dez cidades.",
+  "termos_originais": [
+    {
+      "palavra": "וְלִבְנֵ֨י",
+      "lemma": "c/l/1121 a",
+      "morfologia": "HC/R/Ncmpc"
+    },
+    {
+      "palavra": "קְהָ֜ת",
+      "lemma": "6955",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַנּוֹתָרִ֗ים",
+      "lemma": "d/3498",
+      "morfologia": "HTd/VNrmpa"
+    },
+    {
+      "palavra": "מִמִּשְׁפַּ֣חַת",
+      "lemma": "m/4940",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "הַמַּטֶּ֡ה",
+      "lemma": "d/4294",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "מִֽ֠מַּחֲצִית",
+      "lemma": "m/4276",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "מַטֵּ֨ה",
+      "lemma": "4294",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "חֲצִ֧י",
+      "lemma": "2677",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מְנַשֶּׁ֛ה",
+      "lemma": "4519",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בַּגּוֹרָ֖ל",
+      "lemma": "b/1486",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "עָרִ֥ים",
+      "lemma": "5892 b",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "עָֽשֶׂר",
+      "lemma": "6235",
+      "morfologia": "HAcfsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação do OSHB: este verso corresponde a KJV 1Chr.6.61.",
+      "leituras": [
+        {
+          "leitura": "1Chr.6.46",
+          "testemunhas": "versificação OSHB/WLC"
+        },
+        {
+          "leitura": "1Chr.6.61",
+          "testemunhas": "referência KJV registrada no XML OSHB"
+        }
+      ],
+      "avaliacao": "A diferença é apenas de numeração; o conteúdo hebraico deste registro permanece 1Chr.6.46 no corpus OSHB.",
+      "impacto_na_traducao": "Nenhuma mudança textual; a correspondência permite localizar o mesmo conteúdo em sistemas de versificação distintos."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Sequência מִמִּשְׁפַּחַת הַמַּטֶּה מִמַּחֲצִית מַטֵּה חֲצִי מְנַשֶּׁה",
+      "escolha": "Preservar todas as expressões de família, tribo, metade e meia na BV, apesar da redundância.",
+      "justificativa": "A cadeia nominal contém dois termos de fracionamento e duas ocorrências de ‘tribo’; condensá-la apagaria uma dificuldade real da fonte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "da meia tribo de Manassés",
+          "motivo": "Remove ‘família da tribo’ e uma das expressões de metade."
+        }
+      ]
+    },
+    {
+      "questao": "Predicação elíptica בַּגּוֹרָל עָרִים עָשֶׂר",
+      "escolha": "Suprir ‘couberam’ na BV; manter a frase nominal na literal.",
+      "justificativa": "O contexto distributivo fornece a atribuição por sorte, mas o verso não traz verbo finito; a palavra fica auditada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "eles sortearam dez cidades",
+          "motivo": "Faz dos coatitas agentes do sorteio, não beneficiários."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "couberam — fornece a predicação de atribuição por sorte"
+  ],
+  "ambiguidades_preservadas": [
+    "A relação interna da cadeia redundante de tribo e metades permanece difícil, sem reconstrução genealógica externa."
+  ],
+  "justificativa": "Os coatitas restantes, cada termo distributivo, o mecanismo por sorte e o número dez foram mantidos.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

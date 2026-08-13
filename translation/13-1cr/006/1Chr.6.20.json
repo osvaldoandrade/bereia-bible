@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.6.20",
+    "livro": "1 Crônicas",
+    "capitulo": 6,
+    "versiculo": 20,
+    "pericope": "1Chr.6.1-66"
+  },
+  "texto_bv": "filho de Zufe, filho de Elcana, filho de Maate, filho de Amasai;",
+  "traducao_literal": "filho de Zufe, filho de Elcana, filho de Maate, filho de Amasai;",
+  "termos_originais": [
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "ציף",
+      "lemma": "6689",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֶלְקָנָ֔ה",
+      "lemma": "511",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מַ֖חַת",
+      "lemma": "4287",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "עֲמָשָֽׂי",
+      "lemma": "6022",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação do OSHB: este verso corresponde a KJV 1Chr.6.35.",
+      "leituras": [
+        {
+          "leitura": "1Chr.6.20",
+          "testemunhas": "versificação OSHB/WLC"
+        },
+        {
+          "leitura": "1Chr.6.35",
+          "testemunhas": "referência KJV registrada no XML OSHB"
+        }
+      ],
+      "avaliacao": "A diferença é apenas de numeração; o conteúdo hebraico deste registro permanece 1Chr.6.20 no corpus OSHB.",
+      "impacto_na_traducao": "Nenhuma mudança textual; a correspondência permite localizar o mesmo conteúdo em sistemas de versificação distintos."
+    },
+    {
+      "descricao": "Ketiv ציף e qere צוּף֙ no primeiro antropônimo da cadeia.",
+      "leituras": [
+        {
+          "leitura": "ציף — forma consonantal sem vocalização",
+          "testemunhas": "ketiv OSHB/WLC"
+        },
+        {
+          "leitura": "צוּף֙ — Zufe",
+          "testemunhas": "qere OSHB/WLC"
+        }
+      ],
+      "avaliacao": "BV e literal seguem o qere vocalizado Zufe; o ketiv permanece nos termos originais e no aparato, sem pronúncia portuguesa inferida.",
+      "impacto_na_traducao": "O texto traz Zufe nas duas camadas; a diferença consonantal continua auditável."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ketiv ציף e qere צוּף no primeiro nome",
+      "escolha": "Usar o qere vocalizado Zufe na BV e na literal; manter o ketiv apenas no aparato.",
+      "justificativa": "O ketiv é consonantal e não autoriza pronúncia portuguesa própria; o qere traz a vocalização completa do antropônimo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Criar uma forma portuguesa distinta para ציף",
+          "motivo": "Inferiria vogais ausentes da leitura escrita."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A diferença consonantal entre ketiv e qere fica no aparato sem ser convertida em duas pronúncias."
+  ],
+  "justificativa": "Os quatro elos foram mantidos, e o primeiro antropônimo segue a única leitura vocalizada fornecida pelo XML.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
