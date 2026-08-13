@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Judg.12.15",
+    "livro": "Juízes",
+    "capitulo": 12,
+    "versiculo": 15,
+    "pericope": "Judg.12.1-15"
+  },
+  "texto_bv": "Abdom, filho de Hilel, o piratonita, morreu. Em Piratom recebeu sepultura — na terra de Efraim, na montanha dos amalequitas.",
+  "traducao_literal": "E morreu Abdom, filho de Hilel, o piratonita, e foi sepultado em Piratom, na terra de Efraim, na montanha do amalequita.",
+  "termos_originais": [
+    {
+      "palavra": "וַיָּ֛מָת",
+      "lemma": "c/4191",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "עַבְדּ֥וֹן",
+      "lemma": "5658",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הִלֵּ֖ל",
+      "lemma": "1985",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַפִּרְעָתוֹנִ֑י",
+      "lemma": "d/6553",
+      "morfologia": "HTd/Ngmsa"
+    },
+    {
+      "palavra": "וַיִּקָּבֵ֤ר",
+      "lemma": "c/6912",
+      "morfologia": "HC/VNw3ms"
+    },
+    {
+      "palavra": "בְּפִרְעָתוֹן֙",
+      "lemma": "b/6552",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "בְּאֶ֣רֶץ",
+      "lemma": "b/776",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "אֶפְרַ֔יִם",
+      "lemma": "669",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּהַ֖ר",
+      "lemma": "b/2022",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "הָעֲמָלֵקִֽי",
+      "lemma": "d/6003",
+      "morfologia": "HTd/Ngmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como preservar a cadeia de identificações e lugares?",
+      "escolha": "“Abdom, filho de Hilel, o piratonita ... Em Piratom recebeu sepultura”",
+      "justificativa": "Abdom continua sujeito de וַיָּמָת e paciente de וַיִּקָּבֵר; Hilel é seu pai, הַפִּרְעָתוֹנִי é o gentílico e Piratom é o primeiro local do sepultamento. “Recebeu sepultura” não nomeia agentes ausentes.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Hilel foi sepultado”",
+          "motivo": "Troca o sujeito da morte e do sepultamento."
+        },
+        {
+          "opcao": "“Piratom, filho de Hilel”",
+          "motivo": "Transforma o topônimo em pessoa."
+        }
+      ]
+    },
+    {
+      "questao": "Como verter בְּהַר הָעֲמָלֵקִי?",
+      "escolha": "“na montanha dos amalequitas”",
+      "justificativa": "הַר designa montanha ou região montanhosa. O gentílico determinado singular הָעֲמָלֵקִי pode funcionar coletivamente; a BV explicita em português natural a associação da montanha aos amalequitas, enquanto a literal conserva o singular formal “do amalequita”.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“na montanha de Efraim”",
+          "motivo": "Move Efraim da expressão “terra de Efraim” e o liga a הַר sem apoio sintático."
+        },
+        {
+          "opcao": "“na terra de Amaleque”",
+          "motivo": "Troca הַר, “montanha”, por “terra” e elimina a localização expressa em Efraim."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הָעֲמָלֵקִי é formalmente gentílico singular (“o amalequita”), mas pode representar coletivamente os amalequitas; o texto_bv usa o coletivo natural e a literal mantém o singular.",
+    "הַר pode designar uma montanha específica ou uma região montanhosa; a BV mantém “montanha”."
+  ],
+  "justificativa": "A reconstrução separa morte e sepultamento, preserva Abdom, Hilel e o gentílico piratonita, e mantém em ordem Piratom, terra de Efraim e montanha associada aos amalequitas.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "448ce31dc22d0af840bbe830aa95cc30ad7ec314593818fa8db7542d8acf68fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
