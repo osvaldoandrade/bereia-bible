@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Sam.1.27",
+    "livro": "2 Samuel",
+    "capitulo": 1,
+    "versiculo": 27,
+    "pericope": "2Sam.1.1-27"
+  },
+  "texto_bv": "Que queda sofreram os valentes; os instrumentos bélicos se perderam!”",
+  "traducao_literal": "Como caíram os poderosos, e pereceram os instrumentos de guerra!”",
+  "termos_originais": [
+    {
+      "palavra": "אֵ֚יךְ",
+      "lemma": "349 a",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "נָפְל֣וּ",
+      "lemma": "5307",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "גִבּוֹרִ֔ים",
+      "lemma": "1368",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "וַיֹּאבְד֖וּ",
+      "lemma": "c/6",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "כְּלֵ֥י",
+      "lemma": "3627",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "מִלְחָמָֽה",
+      "lemma": "4421",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como reconstruir o encerramento sem repetir אֵיךְ?",
+      "escolha": "“Que queda sofreram os valentes; os instrumentos bélicos se perderam!”",
+      "justificativa": "אֵיךְ introduz somente גִּבּוֹרִים נָפְלוּ; a BV o reestrutura como exclamação nominal, “Que queda sofreram os valentes”. וַיֹּאבְדוּ coordena uma segunda afirmação, e כְּלֵי מִלְחָמָה é preservado como “instrumentos bélicos”.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Como caíram os poderosos! Como pereceram...”",
+          "motivo": "Repete אֵיךְ no segundo membro, embora o hebraico use apenas a coordenação וַ־."
+        },
+        {
+          "opcao": "omitir os instrumentos de guerra",
+          "motivo": "Apagaria כְּלֵי מִלְחָמָה e o segundo verbo do encerramento."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sofreram"
+  ],
+  "ambiguidades_preservadas": [
+    "כְּלֵי מִלְחָמָה pode designar instrumentos ou armas de guerra literalmente e, metaforicamente, os guerreiros que os portavam; “instrumentos bélicos” preserva o campo sem resolver a metáfora."
+  ],
+  "justificativa": "A redação mantém uma única exclamação correspondente a אֵיךְ para a queda dos valentes e coordena, sem novo interrogativo, o perecimento dos instrumentos bélicos.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
