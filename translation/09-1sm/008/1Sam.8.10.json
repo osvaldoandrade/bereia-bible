@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Sam.8.10",
+    "livro": "1 Samuel",
+    "capitulo": 8,
+    "versiculo": 10,
+    "pericope": "1Sam.8.1-22"
+  },
+  "texto_bv": "Samuel comunicou ao povo que lhe solicitava um rei tudo o que o SENHOR havia declarado.",
+  "traducao_literal": "E disse Samuel todas as palavras do SENHOR ao povo, os que pediam da parte dele um rei.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֣אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "שְׁמוּאֵ֔ל",
+      "lemma": "8050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֵ֖ת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "דִּבְרֵ֣י",
+      "lemma": "1697",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הָעָ֕ם",
+      "lemma": "d/5971 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הַשֹּׁאֲלִ֥ים",
+      "lemma": "d/7592",
+      "morfologia": "HTd/Vqrmpa"
+    },
+    {
+      "palavra": "מֵאִתּ֖וֹ",
+      "lemma": "m/854",
+      "morfologia": "HR/R/Sp3ms"
+    },
+    {
+      "palavra": "מֶֽלֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como reconstruir a ordem de וַיֹּאמֶר שְׁמוּאֵל אֵת כָּל־דִּבְרֵי יְהוָה?",
+      "escolha": "“Samuel comunicou... tudo o que o SENHOR havia declarado”",
+      "justificativa": "Samuel permanece sujeito de וַיֹּאמֶר, e אֵת כָּל־דִּבְרֵי יְהוָה é o conteúdo total transmitido. A BV converte o objeto nominal em oração portuguesa independente sem reduzir כָּל.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“o SENHOR comunicou palavras de Samuel”",
+          "motivo": "Inverte o porta-voz e a origem do conteúdo."
+        },
+        {
+          "opcao": "omitir “tudo”",
+          "motivo": "Apaga a totalidade marcada por כָּל."
+        }
+      ]
+    },
+    {
+      "questao": "Como identificar o destinatário e manter מֵאִתּוֹ?",
+      "escolha": "“ao povo que lhe solicitava um rei”",
+      "justificativa": "אֶל־הָעָם é o destinatário, e o particípio הַשֹּׁאֲלִים o caracteriza como o povo que pedia um rei da parte de Samuel; “lhe” retoma Samuel.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“ao rei que pedia um povo”",
+          "motivo": "Inverte pedido, solicitantes e objeto."
+        },
+        {
+          "opcao": "apresentar o rei como já constituído",
+          "motivo": "A narrativa ainda registra apenas a solicitação."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "comunicou",
+    "havia declarado"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "A frase mantém Samuel como transmissor, todas as palavras do SENHOR como conteúdo e o povo solicitante do rei como destinatário, com nova organização sintática portuguesa.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
