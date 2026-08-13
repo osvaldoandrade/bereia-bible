@@ -8,7 +8,7 @@ Owner: Osvaldo Andrade (mantenedor) · Última revisão: 2026-08-11
 | ADR | Decisão arquitetural do repositório, em `docs/adr/` | ADR-0001 | — |
 | Ratificação | Ato humano registrado que promove Registro REVIEW → APPROVED | "ER-0010 ratifica Gn 1:1-5" | "aprovação automática" |
 | Follow-up (F) | Pendência numerada com dono, em DECISOES.md | F-0002 licença da BV | "TODO" |
-| Quarentena | Escopo `analysis-only-quarantined` de fonte com licença incompatível | OpenGNT | — |
+| Quarentena | Escopo `analysis-only-quarantined` de fonte com licença incompatível | OpenGNT; não participa da cadeia produtiva do NT | — |
 
 Invariantes: DECISOES.md é apend-only; ER nunca é editada retroativamente
 (supersede com nova ER); toda ratificação nomeia o ratificador e a data; ADR

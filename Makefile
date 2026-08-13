@@ -1,12 +1,13 @@
 GO ?= go
 
-.PHONY: build test lint verify packets packets-blind clean
+.PHONY: build test lint verify packets packets-blind packets-nt clean
 
 build:
 	$(GO) build -o bin/ ./...
 
 test:
 	$(GO) test ./... -cover
+	python3 -m unittest discover -s scripts -p 'test_*.py'
 
 lint:
 	@test -z "$$(gofmt -l .)" || { gofmt -l .; echo "gofmt: files above are unformatted"; exit 1; }
@@ -50,6 +51,9 @@ packets: build
 packets-blind: build
 	./bin/bvsrc -oshb $(OSHB) -osis $(BOOK) -booknr $(BOOKNR) -chapter $(CHAPTER) -from $(FROM) -to $(TO) \
 	  -pericope $(PERICOPE) -out $(BLIND_OUT)
+
+packets-nt: build
+	python3 scripts/generate_nt_packets.py
 
 clean:
 	rm -rf bin

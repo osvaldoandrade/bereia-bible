@@ -10,10 +10,10 @@ Enquanto esta quarentena vigorar:
 
 1. Nenhum campo de registro BV (`translation/`) pode derivar **exclusivamente**
    de anotação do OpenGNT.
-2. O arquivo serve para análise comparativa e planejamento da fase NT.
-3. A autoridade textual do NT será uma edição de domínio público
-   (candidata: Nestle 1904), salvo ADR futuro que resolva o licenciamento
-   com o mantenedor do OpenGNT ou reavalie juridicamente o alcance da licença
-   sobre traduções do texto grego subjacente (que é antigo e não-copyrightável).
+2. O arquivo serve somente para análise comparativa; não participa dos packets,
+   julgamentos nem registros do NT.
+3. A autoridade textual do NT é o Nestle 1904 pinado, conforme ADR-0003. A
+   quarentena do OpenGNT permanece sem promover sua licença ou seus dados à
+   cadeia produtiva.
 
-Gatilho de reavaliação: início da fase NT (follow-up F-0003).
+Gatilho de reavaliação: relicenciamento upstream compatível ou novo ADR explícito.

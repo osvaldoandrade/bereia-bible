@@ -8,7 +8,8 @@
 | Fonte | SPDX | Escopo permitido | Implicação para a BV | Atribuição |
 |---|---|---|---|---|
 | OSHB (WLC + morfologia) | CC-BY-4.0 | **textual-authority** (AT) | BV deve atribuir (NOTICE.md); sem restrição de licença resultante | "Open Scriptures Hebrew Bible, CC BY 4.0" |
-| OpenGNT | CC-BY-NC-SA-4.0 | analysis-only-**quarantined** | NC+SA contaminariam o NT da BV se fosse autoridade textual → quarentena (ADR-0001); NT ancorará em edição PD | "OpenGNT (Eliran Wong), CC BY-NC-SA 4.0" |
+| Nestle 1904 Morphology | CC0-1.0; texto-base PD | **textual-authority** (NT) | Sem restrição de licença resultante; atribuição mantida por transparência | "Nestle 1904 Morphology, Biblical Humanities; texto-base PD, morfologia CC0" |
+| OpenGNT | CC-BY-NC-SA-4.0 | analysis-only-**quarantined** | NC+SA são incompatíveis com a cadeia produtiva; permanece fora do NT (ADR-0001/0003) | "OpenGNT (Eliran Wong), CC BY-NC-SA 4.0" |
 | WEB | Domínio público | qa-control-only | nenhuma | cortesia |
 | KJV 1769 | PD fora do UK | qa-control-only | nenhuma (não distribuímos no UK a partir do texto KJV) | cortesia |
 | Bíblia Livre | CC-BY-3.0 (BR)* | qa-control-only | atribuição em NOTICE.md por prudência | "Bíblia Livre (BLIVRE), CC BY 3.0 BR" |
@@ -25,8 +26,10 @@
 
 - Objetivo: licença aberta própria do Bereia.org. Candidatas: **CC BY-SA 4.0**
   (protege abertura derivada) ou **CC BY 4.0** (máxima adoção). Decisão: F-0002.
-- Toda a cadeia AT (OSHB CC-BY) é compatível com ambas.
-- A fase NT depende da resolução da quarentena OpenGNT (F-0003).
+- A cadeia AT (OSHB CC-BY) e a cadeia NT (Nestle 1904 PD/CC0) são compatíveis
+  com ambas.
+- F-0003 foi resolvido pelo ADR-0003. O OpenGNT continua em quarentena e não é
+  necessário para traduzir o NT.
 
 ## Risco residual de contaminação (bastion)
 

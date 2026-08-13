@@ -1,8 +1,8 @@
 # PROGRESS — Bereia Version (programa Bíblia completa)
 
-Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
-Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 11514/23213 versículos.**
+Rastreador por capítulo (ADR-0002/0003).
+Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
+**Total Bíblia sourced: 11558/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -437,7 +437,7 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 28 | 21 | ● 21/21 [DRAFT] |
 | 29 | 30 | ● 30/30 [DRAFT] |
 
-## 2 Crônicas — 315/822 versículos (38.3%), 36 capítulos
+## 2 Crônicas — 359/822 versículos (43.7%), 36 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -456,10 +456,10 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 13 | 23 | ● 23/23 [DRAFT] |
 | 14 | 14 | ● 14/14 [DRAFT] |
 | 15 | 19 | ● 19/19 [DRAFT] |
-| 16 | 14 | · pendente |
-| 17 | 19 | · pendente |
+| 16 | 14 | ● 14/14 [DRAFT] |
+| 17 | 19 | ● 19/19 [DRAFT] |
 | 18 | 34 | · pendente |
-| 19 | 11 | · pendente |
+| 19 | 11 | ● 11/11 [DRAFT] |
 | 20 | 37 | · pendente |
 | 21 | 20 | · pendente |
 | 22 | 12 | · pendente |
@@ -1128,4 +1128,399 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 1 | 14 | · pendente |
 | 2 | 17 | · pendente |
 | 3 | 24 | · pendente |
+
+## Mateus — 0/1068 versículos (0.0%), 28 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 25 | · pendente |
+| 2 | 23 | · pendente |
+| 3 | 17 | · pendente |
+| 4 | 25 | · pendente |
+| 5 | 48 | · pendente |
+| 6 | 34 | · pendente |
+| 7 | 29 | · pendente |
+| 8 | 34 | · pendente |
+| 9 | 38 | · pendente |
+| 10 | 42 | · pendente |
+| 11 | 30 | · pendente |
+| 12 | 50 | · pendente |
+| 13 | 58 | · pendente |
+| 14 | 36 | · pendente |
+| 15 | 39 | · pendente |
+| 16 | 28 | · pendente |
+| 17 | 26 | · pendente |
+| 18 | 34 | · pendente |
+| 19 | 30 | · pendente |
+| 20 | 34 | · pendente |
+| 21 | 46 | · pendente |
+| 22 | 46 | · pendente |
+| 23 | 38 | · pendente |
+| 24 | 51 | · pendente |
+| 25 | 46 | · pendente |
+| 26 | 75 | · pendente |
+| 27 | 66 | · pendente |
+| 28 | 20 | · pendente |
+
+## Marcos — 0/673 versículos (0.0%), 16 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 45 | · pendente |
+| 2 | 28 | · pendente |
+| 3 | 35 | · pendente |
+| 4 | 41 | · pendente |
+| 5 | 43 | · pendente |
+| 6 | 56 | · pendente |
+| 7 | 36 | · pendente |
+| 8 | 38 | · pendente |
+| 9 | 48 | · pendente |
+| 10 | 52 | · pendente |
+| 11 | 32 | · pendente |
+| 12 | 44 | · pendente |
+| 13 | 37 | · pendente |
+| 14 | 72 | · pendente |
+| 15 | 46 | · pendente |
+| 16 | 20 | · pendente |
+
+## Lucas — 0/1149 versículos (0.0%), 24 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 80 | · pendente |
+| 2 | 52 | · pendente |
+| 3 | 38 | · pendente |
+| 4 | 44 | · pendente |
+| 5 | 39 | · pendente |
+| 6 | 49 | · pendente |
+| 7 | 50 | · pendente |
+| 8 | 56 | · pendente |
+| 9 | 62 | · pendente |
+| 10 | 42 | · pendente |
+| 11 | 54 | · pendente |
+| 12 | 59 | · pendente |
+| 13 | 35 | · pendente |
+| 14 | 35 | · pendente |
+| 15 | 32 | · pendente |
+| 16 | 31 | · pendente |
+| 17 | 36 | · pendente |
+| 18 | 43 | · pendente |
+| 19 | 48 | · pendente |
+| 20 | 47 | · pendente |
+| 21 | 38 | · pendente |
+| 22 | 71 | · pendente |
+| 23 | 55 | · pendente |
+| 24 | 53 | · pendente |
+
+## João — 0/879 versículos (0.0%), 21 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 51 | · pendente |
+| 2 | 25 | · pendente |
+| 3 | 36 | · pendente |
+| 4 | 54 | · pendente |
+| 5 | 47 | · pendente |
+| 6 | 71 | · pendente |
+| 7 | 53 | · pendente |
+| 8 | 59 | · pendente |
+| 9 | 41 | · pendente |
+| 10 | 42 | · pendente |
+| 11 | 57 | · pendente |
+| 12 | 50 | · pendente |
+| 13 | 38 | · pendente |
+| 14 | 31 | · pendente |
+| 15 | 27 | · pendente |
+| 16 | 33 | · pendente |
+| 17 | 26 | · pendente |
+| 18 | 40 | · pendente |
+| 19 | 42 | · pendente |
+| 20 | 31 | · pendente |
+| 21 | 25 | · pendente |
+
+## Atos — 0/1002 versículos (0.0%), 28 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 26 | · pendente |
+| 2 | 47 | · pendente |
+| 3 | 26 | · pendente |
+| 4 | 37 | · pendente |
+| 5 | 42 | · pendente |
+| 6 | 15 | · pendente |
+| 7 | 60 | · pendente |
+| 8 | 39 | · pendente |
+| 9 | 43 | · pendente |
+| 10 | 48 | · pendente |
+| 11 | 30 | · pendente |
+| 12 | 25 | · pendente |
+| 13 | 52 | · pendente |
+| 14 | 28 | · pendente |
+| 15 | 40 | · pendente |
+| 16 | 40 | · pendente |
+| 17 | 34 | · pendente |
+| 18 | 28 | · pendente |
+| 19 | 40 | · pendente |
+| 20 | 38 | · pendente |
+| 21 | 40 | · pendente |
+| 22 | 30 | · pendente |
+| 23 | 35 | · pendente |
+| 24 | 26 | · pendente |
+| 25 | 27 | · pendente |
+| 26 | 32 | · pendente |
+| 27 | 44 | · pendente |
+| 28 | 30 | · pendente |
+
+## Romanos — 0/432 versículos (0.0%), 16 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 32 | · pendente |
+| 2 | 29 | · pendente |
+| 3 | 31 | · pendente |
+| 4 | 25 | · pendente |
+| 5 | 21 | · pendente |
+| 6 | 23 | · pendente |
+| 7 | 25 | · pendente |
+| 8 | 39 | · pendente |
+| 9 | 33 | · pendente |
+| 10 | 21 | · pendente |
+| 11 | 36 | · pendente |
+| 12 | 21 | · pendente |
+| 13 | 14 | · pendente |
+| 14 | 23 | · pendente |
+| 15 | 33 | · pendente |
+| 16 | 26 | · pendente |
+
+## 1 Coríntios — 0/437 versículos (0.0%), 16 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 31 | · pendente |
+| 2 | 16 | · pendente |
+| 3 | 23 | · pendente |
+| 4 | 21 | · pendente |
+| 5 | 13 | · pendente |
+| 6 | 20 | · pendente |
+| 7 | 40 | · pendente |
+| 8 | 13 | · pendente |
+| 9 | 27 | · pendente |
+| 10 | 33 | · pendente |
+| 11 | 34 | · pendente |
+| 12 | 31 | · pendente |
+| 13 | 13 | · pendente |
+| 14 | 40 | · pendente |
+| 15 | 58 | · pendente |
+| 16 | 24 | · pendente |
+
+## 2 Coríntios — 0/256 versículos (0.0%), 13 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 24 | · pendente |
+| 2 | 17 | · pendente |
+| 3 | 18 | · pendente |
+| 4 | 18 | · pendente |
+| 5 | 21 | · pendente |
+| 6 | 18 | · pendente |
+| 7 | 16 | · pendente |
+| 8 | 24 | · pendente |
+| 9 | 15 | · pendente |
+| 10 | 18 | · pendente |
+| 11 | 33 | · pendente |
+| 12 | 21 | · pendente |
+| 13 | 13 | · pendente |
+
+## Gálatas — 0/149 versículos (0.0%), 6 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 24 | · pendente |
+| 2 | 21 | · pendente |
+| 3 | 29 | · pendente |
+| 4 | 31 | · pendente |
+| 5 | 26 | · pendente |
+| 6 | 18 | · pendente |
+
+## Efésios — 0/155 versículos (0.0%), 6 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 23 | · pendente |
+| 2 | 22 | · pendente |
+| 3 | 21 | · pendente |
+| 4 | 32 | · pendente |
+| 5 | 33 | · pendente |
+| 6 | 24 | · pendente |
+
+## Filipenses — 0/104 versículos (0.0%), 4 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 30 | · pendente |
+| 2 | 30 | · pendente |
+| 3 | 21 | · pendente |
+| 4 | 23 | · pendente |
+
+## Colossenses — 0/95 versículos (0.0%), 4 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 29 | · pendente |
+| 2 | 23 | · pendente |
+| 3 | 25 | · pendente |
+| 4 | 18 | · pendente |
+
+## 1 Tessalonicenses — 0/89 versículos (0.0%), 5 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 10 | · pendente |
+| 2 | 20 | · pendente |
+| 3 | 13 | · pendente |
+| 4 | 18 | · pendente |
+| 5 | 28 | · pendente |
+
+## 2 Tessalonicenses — 0/47 versículos (0.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 12 | · pendente |
+| 2 | 17 | · pendente |
+| 3 | 18 | · pendente |
+
+## 1 Timóteo — 0/113 versículos (0.0%), 6 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 20 | · pendente |
+| 2 | 15 | · pendente |
+| 3 | 16 | · pendente |
+| 4 | 16 | · pendente |
+| 5 | 25 | · pendente |
+| 6 | 21 | · pendente |
+
+## 2 Timóteo — 0/83 versículos (0.0%), 4 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 18 | · pendente |
+| 2 | 26 | · pendente |
+| 3 | 17 | · pendente |
+| 4 | 22 | · pendente |
+
+## Tito — 0/46 versículos (0.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 16 | · pendente |
+| 2 | 15 | · pendente |
+| 3 | 15 | · pendente |
+
+## Filemom — 0/25 versículos (0.0%), 1 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 25 | · pendente |
+
+## Hebreus — 0/303 versículos (0.0%), 13 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 14 | · pendente |
+| 2 | 18 | · pendente |
+| 3 | 19 | · pendente |
+| 4 | 16 | · pendente |
+| 5 | 14 | · pendente |
+| 6 | 20 | · pendente |
+| 7 | 28 | · pendente |
+| 8 | 13 | · pendente |
+| 9 | 28 | · pendente |
+| 10 | 39 | · pendente |
+| 11 | 40 | · pendente |
+| 12 | 29 | · pendente |
+| 13 | 25 | · pendente |
+
+## Tiago — 0/108 versículos (0.0%), 5 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 27 | · pendente |
+| 2 | 26 | · pendente |
+| 3 | 18 | · pendente |
+| 4 | 17 | · pendente |
+| 5 | 20 | · pendente |
+
+## 1 Pedro — 0/105 versículos (0.0%), 5 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 25 | · pendente |
+| 2 | 25 | · pendente |
+| 3 | 22 | · pendente |
+| 4 | 19 | · pendente |
+| 5 | 14 | · pendente |
+
+## 2 Pedro — 0/61 versículos (0.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 21 | · pendente |
+| 2 | 22 | · pendente |
+| 3 | 18 | · pendente |
+
+## 1 João — 0/105 versículos (0.0%), 5 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 10 | · pendente |
+| 2 | 29 | · pendente |
+| 3 | 24 | · pendente |
+| 4 | 21 | · pendente |
+| 5 | 21 | · pendente |
+
+## 2 João — 0/13 versículos (0.0%), 1 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 13 | · pendente |
+
+## 3 João — 0/15 versículos (0.0%), 1 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 15 | · pendente |
+
+## Judas — 0/25 versículos (0.0%), 1 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 25 | · pendente |
+
+## Apocalipse — 0/405 versículos (0.0%), 22 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 20 | · pendente |
+| 2 | 29 | · pendente |
+| 3 | 22 | · pendente |
+| 4 | 11 | · pendente |
+| 5 | 14 | · pendente |
+| 6 | 17 | · pendente |
+| 7 | 17 | · pendente |
+| 8 | 13 | · pendente |
+| 9 | 21 | · pendente |
+| 10 | 11 | · pendente |
+| 11 | 19 | · pendente |
+| 12 | 18 | · pendente |
+| 13 | 18 | · pendente |
+| 14 | 20 | · pendente |
+| 15 | 8 | · pendente |
+| 16 | 21 | · pendente |
+| 17 | 18 | · pendente |
+| 18 | 24 | · pendente |
+| 19 | 21 | · pendente |
+| 20 | 15 | · pendente |
+| 21 | 27 | · pendente |
+| 22 | 21 | · pendente |
 

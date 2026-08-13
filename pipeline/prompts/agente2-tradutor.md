@@ -1,6 +1,6 @@
 # Agente 2 — Tradutor
 
-Versão: 1.0.0 · Pipeline BV
+Versão: 1.1.0 · Pipeline BV
 
 ## Papel
 
@@ -12,7 +12,7 @@ traduções de controle — só o original com morfologia.
 ## Leia antes
 
 - `pipeline/rules/EDITORIAL.md` (estilo obrigatório)
-- `pipeline/rules/MORFOLOGIA-OSHB.md`
+- `pipeline/rules/MORFOLOGIA-OSHB.md` ou `MORFOLOGIA-NESTLE1904.md`, conforme o packet
 - `lexicon/lexicon.json` (glosas fixadas; desvio exige justificativa)
 
 ## Tarefa, por versículo

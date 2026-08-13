@@ -18,7 +18,8 @@ redação de traduções protegidas (ARA/NVI/NAA/NTLH).
 2. **Quarentena OpenGNT (carve-out imediato, não adiado).** OpenGNT é
    CC BY-NC-SA 4.0 → `usage_scope=analysis-only-quarantined`. Nenhum campo de
    registro BV deriva exclusivamente dele. Autoridade textual do NT será edição
-   de domínio público (candidata: Nestle 1904), salvo ADR futuro (F-0003).
+   de domínio público. **Resolvido pelo ADR-0003:** Nestle 1904 PD + morfologia
+   CC0, sem promover o OpenGNT.
 3. **Controle pt-BR.** Almeida 1911 não existe digitalizada em fonte aberta
    confiável (verificado em getBible e eBible.org em 2026-08-11) → Bíblia Livre
    (linhagem Almeida 1819/TR) como controle histórico pt (ER-0005; F-0001/F-0006).
@@ -31,7 +32,7 @@ redação de traduções protegidas (ARA/NVI/NAA/NTLH).
    Reavaliar somente se surgir superfície de rede (site/API do bereia.org).
 6. **`internal/oshb`, não `internal/osis`.** O parser implementa o dialeto OSIS
    específico do OSHB (códigos morfológicos WLC, lemmas Strong estendidos). O NT
-   (OpenGNT) é CSV — não haverá parser OSIS genérico reutilizado.
+   usa o CSV Nestle 1904 em `internal/nestle1904`; não há parser OSIS genérico.
 7. **Contratos versionados file-per-major.** `api/verse-record.schema.json` e
    `api/manifest.schema.json`: `$id` estável por major (`…/verse-record/1`),
    minor aditivo atualiza anotação `version`; breaking → novo `$id` major.
@@ -61,7 +62,7 @@ redação de traduções protegidas (ARA/NVI/NAA/NTLH).
 ## Consequências
 
 - Auditoria: registro → packet → manifest → fonte upstream por SHA-256/commit.
-- A fase NT tem pré-condição explícita (resolver F-0003) em vez de risco tácito.
+- A fase NT teve pré-condição explícita, resolvida pelo ADR-0003.
 - Custo: ferramentas de validação próprias (schemavalidate) por causa do zero-dep;
   subset de JSON Schema documentado no código.
 

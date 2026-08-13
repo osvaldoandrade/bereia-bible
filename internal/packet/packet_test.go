@@ -17,6 +17,20 @@ const miniOSHB = `<?xml version="1.0" encoding="UTF-8"?>
 const miniGetBible = `{"books":[{"nr":1,"chapters":[{"chapter":1,"verses":[
 {"verse":1,"text":"No princípio... "},{"verse":2,"text":"E a terra... "}]}]}]}`
 
+const miniNestle = "\ufeffBCV\ttext\tfunc_morph\tform_morph\tstrongs\tlemma\tnormalized\n" +
+	"Matt 1:1\tΒίβλος,\tN-NSF\tN-NSF\t976\tβίβλος\tΒίβλος\n" +
+	"Matt 1:1\tγενέσεως.\tN-GSF\tN-GSF\t1078\tγένεσις\tγενέσεως\n" +
+	"Matt 1:3\tἸησοῦ.\tN-GSM\tN-GSM\t2424\tἸησοῦς\tἸησοῦ\n"
+
+const miniNTControl = `{"books":[{"nr":40,"chapters":[{"chapter":1,"verses":[
+{"verse":1,"text":"Book of genealogy"},{"verse":2,"text":"traditional extra"},
+{"verse":3,"text":"of Jesus"}]}]}]}`
+
+const miniNestleMark = "BCV\ttext\tfunc_morph\tform_morph\tstrongs\tlemma\tnormalized\n" +
+	"Mark 16:20\tσημείων.]]\tN-GPN\tN-GPN\t4592\tσημεῖον\tσημείων\n" +
+	"Mark 16:99\t[[Πάντα\tA-APN\tA-APN\t3956\tπᾶς\tΠάντα\n" +
+	"Mark 16:99\tσωτηρίας.]]\tN-GSF\tN-GSF\t4991\tσωτηρία\tσωτηρίας\n"
+
 func write(t *testing.T, dir, name, content string) string {
 	t.Helper()
 	p := filepath.Join(dir, name)
@@ -71,6 +85,102 @@ func TestBuildNoControls(t *testing.T) {
 	}
 	if p.Source.GitCommit != "" {
 		t.Errorf("commit should be empty without COMMIT file")
+	}
+}
+
+func TestBuildNestleAllowsSourceGapAndPreservesAnnotations(t *testing.T) {
+	dir := t.TempDir()
+	nestlePath := write(t, dir, "Nestle1904.csv", miniNestle)
+	write(t, dir, "COMMIT", "deadbeef\n")
+	control := write(t, dir, "web.json", miniNTControl)
+	p, err := BuildNestle(NestleRequest{
+		NestlePath: nestlePath, OSISBook: "Matt", BookNr: 40, Chapter: 1,
+		From: 1, To: 3, Pericope: "Matt.1.1-3", WebPath: control,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if p.Source.ID != "nestle1904" || p.Source.GitCommit != "deadbeef" {
+		t.Fatalf("source pin wrong: %+v", p.Source)
+	}
+	if len(p.Verses) != 2 || p.Verses[0].OSIS != "Matt.1.1" || p.Verses[1].OSIS != "Matt.1.3" {
+		t.Fatalf("source gap was not preserved: %+v", p.Verses)
+	}
+	if p.Verses[0].Hebrew != "" || p.Verses[0].Greek != "Βίβλος, γενέσεως." {
+		t.Fatalf("wrong original-language field: %+v", p.Verses[0])
+	}
+	word := p.Verses[0].Words[0]
+	if word.Surface != "Βίβλος" || word.Morph != "N-NSF" || word.FunctionalMorph != "N-NSF" || word.Strong != "976" {
+		t.Fatalf("Greek word annotations lost: %+v", word)
+	}
+	if p.Verses[0].Controls == nil || p.Verses[0].Controls.Web != "Book of genealogy" {
+		t.Fatalf("direct control missing: %+v", p.Verses[0].Controls)
+	}
+}
+
+func TestNestleControlsHandleCriticalVerseBoundaries(t *testing.T) {
+	acts := controlSet{
+		web:   map[int]string{40: "web-40", 41: "web-41"},
+		kjv:   map[int]string{40: "kjv-40", 41: "kjv-41"},
+		livre: map[int]string{40: "livre-40", 41: "livre-41"},
+	}
+	got := nestleControlsForVerse(acts, 44, 19, 40)
+	if got == nil || got.Web != "web-40 web-41" || got.KJV != "kjv-40 kjv-41" || got.Livre != "livre-40 livre-41" {
+		t.Fatalf("Acts 19:40 mapping: %+v", got)
+	}
+
+	cs := controlSet{
+		web:   map[int]string{12: "web-12", 13: "web-13", 14: "web-14"},
+		kjv:   map[int]string{12: "kjv-12", 13: "kjv-13", 14: "kjv-14"},
+		livre: map[int]string{12: "livre-12", 13: "livre-13", 14: "livre-14"},
+	}
+	got = nestleControlsForVerse(cs, 47, 13, 12)
+	if got == nil || got.Web != "web-12 web-13" || got.KJV != "kjv-12 kjv-13" || got.Livre != "livre-12 livre-13" {
+		t.Fatalf("2Cor 13:12 mapping: %+v", got)
+	}
+	got = nestleControlsForVerse(cs, 47, 13, 13)
+	if got == nil || got.Web != "web-14" || got.KJV != "kjv-14" || got.Livre != "livre-14" {
+		t.Fatalf("2Cor 13:13 mapping: %+v", got)
+	}
+
+	cs = controlSet{
+		web: map[int]string{14: "web mixed"}, kjv: map[int]string{14: "kjv mixed"}, livre: map[int]string{14: "livre mixed"},
+	}
+	if got := nestleControlsForVerse(cs, 64, 1, 14); got != nil {
+		t.Fatalf("3John 1:14 mixed control must be omitted: %+v", got)
+	}
+	if got := nestleControlsForVerse(cs, 64, 1, 15); got != nil {
+		t.Fatalf("3John 1:15 mixed control must be omitted: %+v", got)
+	}
+
+	cs = controlSet{
+		web: map[int]string{1: "web mixed"}, kjv: map[int]string{1: "kjv mixed"}, livre: map[int]string{1: "livre exact"},
+	}
+	got = nestleControlsForVerse(cs, 66, 13, 1)
+	if got == nil || got.Web != "" || got.KJV != "" || got.Livre != "livre exact" {
+		t.Fatalf("Rev 13:1 controls: %+v", got)
+	}
+}
+
+func TestBuildNestlePreservesMarkShortEndingAsSourceVariant(t *testing.T) {
+	dir := t.TempDir()
+	nestlePath := write(t, dir, "Nestle1904.csv", miniNestleMark)
+	p, err := BuildNestle(NestleRequest{
+		NestlePath: nestlePath, OSISBook: "Mark", BookNr: 41, Chapter: 16,
+		From: 20, To: 20, Pericope: "Mark.16.20",
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(p.Verses) != 1 || len(p.Verses[0].SourceVariants) != 1 {
+		t.Fatalf("short ending apparatus missing: %+v", p.Verses)
+	}
+	variant := p.Verses[0].SourceVariants[0]
+	if variant.Reference != "Mark.16.99" || variant.Greek != "[[Πάντα σωτηρίας.]]" {
+		t.Fatalf("short ending source changed: %+v", variant)
+	}
+	if len(variant.Words) != 4 || variant.Words[1].Surface != "Πάντα" || variant.Words[2].Lemma != "σωτηρία" {
+		t.Fatalf("short ending annotations lost: %+v", variant.Words)
 	}
 }
 

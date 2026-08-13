@@ -12,11 +12,10 @@ invocações de agente. Além disso, a conta já atingiu limite de gasto uma vez
 
 ## Decisões
 
-1. **Fronteira do escopo automatizável (agora): somente o Antigo Testamento**, a
-   partir do OSHB pinado. O Novo Testamento permanece **bloqueado** pela quarentena
-   de licença do OpenGNT (ADR-0001 §2; F-0003) até o mantenedor decidir a fonte grega
-   de domínio público (candidata: Nestle 1904). Livros do AT além de Gênesis são
-   baixados do MESMO commit OSHB pinado e adicionados ao manifest quando processados.
+1. **Fronteira de fontes.** O Antigo Testamento parte do OSHB pinado. O Novo
+   Testamento parte do Nestle 1904 pinado (texto-base PD, morfologia CC0), conforme
+   ADR-0003, que resolveu F-0003. O OpenGNT continua em quarentena e fora da cadeia
+   produtiva. Livros do AT são baixados do mesmo commit OSHB pinado.
 
 2. **Dois tiers editoriais de registro** (campo `status` do schema)
    — REVISADO 2026-08-12 pelo mantenedor (ver ER-0017):
@@ -55,7 +54,7 @@ invocações de agente. Além disso, a conta já atingiu limite de gasto uma vez
 
 - Cobertura do AT torna-se viável em múltiplas sessões, com rastreabilidade intacta.
 - Qualidade do DRAFT é inferior ao REVIEW; o texto publicável exige promoção.
-- O NT fica explicitamente fora até F-0003 — nenhuma tradução do NT é produzida.
+- O NT pode ser processado após o onboarding determinístico do ADR-0003.
 - Estrutura canônica (nº de capítulos/versículos por livro) vem do próprio OSHB.
 
 ## Alternativas rejeitadas

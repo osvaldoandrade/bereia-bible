@@ -4,12 +4,14 @@
 package packet
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
 
+	"bereia.org/bible/internal/nestle1904"
 	"bereia.org/bible/internal/oshb"
 )
 
@@ -25,12 +27,40 @@ type Controls struct {
 	Livre string `json:"livre,omitempty"`
 }
 
+// Word is the source-neutral packet representation of an annotated token.
+// The first six fields mirror OSHB exactly, preserving byte-stable AT packet
+// generation. Greek-only annotations are additive and omitted for Hebrew.
+type Word struct {
+	Surface           string   `json:"surface"`
+	Segments          []string `json:"segments,omitempty"`
+	Lemma             string   `json:"lemma,omitempty"`
+	Morph             string   `json:"morph,omitempty"`
+	Seg               string   `json:"seg,omitempty"`
+	Type              string   `json:"type"`
+	FunctionalMorph   string   `json:"func_morph,omitempty"`
+	Strong            string   `json:"strongs,omitempty"`
+	Normalized        string   `json:"normalized,omitempty"`
+	MorphAlternatives []string `json:"morph_alternatives,omitempty"`
+}
+
+// SourceVariant preserves a non-canonical reading supplied by the pinned
+// original-language source without promoting it to a canonical verse ID.
+// The word annotations remain available to the translator and reviewer.
+type SourceVariant struct {
+	Reference   string `json:"referencia_fonte"`
+	Description string `json:"descricao"`
+	Greek       string `json:"grego"`
+	Words       []Word `json:"palavras"`
+}
+
 type Verse struct {
-	OSIS     string      `json:"osis"`
-	Number   int         `json:"numero"`
-	Hebrew   string      `json:"hebraico"`
-	Words    []oshb.Word `json:"palavras"`
-	Controls *Controls   `json:"controles,omitempty"`
+	OSIS           string          `json:"osis"`
+	Number         int             `json:"numero"`
+	Hebrew         string          `json:"hebraico,omitempty"`
+	Greek          string          `json:"grego,omitempty"`
+	Words          []Word          `json:"palavras"`
+	Controls       *Controls       `json:"controles,omitempty"`
+	SourceVariants []SourceVariant `json:"variantes_fonte,omitempty"`
 }
 
 type Packet struct {
@@ -50,6 +80,20 @@ type Request struct {
 	WebPath   string
 	KJVPath   string
 	LivrePath string
+}
+
+// NestleRequest carries the inputs for the public-domain/CC0 Greek source.
+// The source intentionally has a handful of internal verse-number gaps.
+type NestleRequest struct {
+	NestlePath string
+	OSISBook   string
+	BookNr     int
+	Chapter    int
+	From, To   int
+	Pericope   string
+	WebPath    string
+	KJVPath    string
+	LivrePath  string
 }
 
 // Build extracts the verse range and attaches control renderings.
@@ -73,13 +117,81 @@ func Build(req Request) (*Packet, error) {
 	}
 	for i, v := range verses {
 		n := req.From + i
-		pv := Verse{OSIS: v.OSIS, Number: n, Hebrew: v.Text, Words: v.Words}
+		words := make([]Word, 0, len(v.Words))
+		for _, w := range v.Words {
+			words = append(words, Word{
+				Surface: w.Surface, Segments: w.Segments, Lemma: w.Lemma,
+				Morph: w.Morph, Seg: w.Seg, Type: w.Type,
+			})
+		}
+		pv := Verse{OSIS: v.OSIS, Number: n, Hebrew: v.Text, Words: words}
 		if c := controls.forVerse(n); c != nil {
 			pv.Controls = c
 		}
 		p.Verses = append(p.Verses, pv)
 	}
 	return p, nil
+}
+
+// BuildNestle extracts a Greek chapter range and attaches only controls that
+// align without mixing source verses. The Greek source's missing traditional
+// verse numbers remain absent from the packet.
+func BuildNestle(req NestleRequest) (*Packet, error) {
+	data, err := os.ReadFile(req.NestlePath)
+	if err != nil {
+		return nil, err
+	}
+	verses, err := nestle1904.ParseVerses(bytes.NewReader(data), req.OSISBook, req.Chapter, req.From, req.To)
+	if err != nil {
+		return nil, err
+	}
+	var markShortEnding *SourceVariant
+	if req.OSISBook == "Mark" && req.Chapter == 16 && req.From <= 20 && req.To >= 20 {
+		pseudo, parseErr := nestle1904.ParseVerses(bytes.NewReader(data), "Mark", 16, 99, 99)
+		if parseErr != nil {
+			return nil, fmt.Errorf("nestle1904: preserve Mark 16 short ending: %w", parseErr)
+		}
+		markShortEnding = &SourceVariant{
+			Reference:   pseudo[0].OSIS,
+			Description: "Final curto alternativo preservado pela fonte como pseudo-verso 16:99; o final longo canônico 16:9-20 aparece entre colchetes duplos.",
+			Greek:       pseudo[0].Text,
+			Words:       nestleWords(pseudo[0].Tokens),
+		}
+	}
+	p := &Packet{
+		Unit:   req.Pericope,
+		Source: Source{ID: "nestle1904", File: req.NestlePath, GitCommit: readCommit(req.NestlePath)},
+	}
+	controls, err := loadDirectControls(req.WebPath, req.KJVPath, req.LivrePath, req.BookNr, req.Chapter)
+	if err != nil {
+		return nil, err
+	}
+	for _, v := range verses {
+		pv := Verse{OSIS: v.OSIS, Number: v.Number, Greek: v.Text, Words: nestleWords(v.Tokens)}
+		pv.Controls = nestleControlsForVerse(controls, req.BookNr, req.Chapter, v.Number)
+		if v.Number == 20 && markShortEnding != nil {
+			pv.SourceVariants = []SourceVariant{*markShortEnding}
+		}
+		p.Verses = append(p.Verses, pv)
+	}
+	return p, nil
+}
+
+func nestleWords(tokens []nestle1904.Token) []Word {
+	words := make([]Word, 0, len(tokens))
+	for _, tok := range tokens {
+		if tok.Word == nil {
+			words = append(words, Word{Surface: tok.Punctuation, Seg: "x-punctuation", Type: "punctuation"})
+			continue
+		}
+		words = append(words, Word{
+			Surface: tok.Word.Surface, Lemma: tok.Word.Lemma, Morph: tok.Word.Morph,
+			Type: "word", FunctionalMorph: tok.Word.FunctionalMorph,
+			Strong: tok.Word.Strong, Normalized: tok.Word.Normalized,
+			MorphAlternatives: tok.Word.MorphAlternatives,
+		})
+	}
+	return words
 }
 
 // readCommit picks up the pinned upstream commit stored by the fetch step
@@ -98,6 +210,56 @@ type controlSet struct {
 
 func (c controlSet) forVerse(n int) *Controls {
 	out := Controls{Web: c.web[n], KJV: c.kjv[n], Livre: c.livre[n]}
+	if out == (Controls{}) {
+		return nil
+	}
+	return &out
+}
+
+func loadDirectControls(webPath, kjvPath, livrePath string, bookNr, chapter int) (controlSet, error) {
+	var cs controlSet
+	var err error
+	if cs.web, err = ChapterText(webPath, bookNr, chapter); err != nil {
+		return cs, err
+	}
+	if cs.kjv, err = ChapterText(kjvPath, bookNr, chapter); err != nil {
+		return cs, err
+	}
+	if cs.livre, err = ChapterText(livrePath, bookNr, chapter); err != nil {
+		return cs, err
+	}
+	return cs, nil
+}
+
+// nestleControlsForVerse handles the few critical-text verse boundaries that
+// do not align one-to-one with the stored controls. A mixed control is omitted
+// rather than attached to the wrong source verse.
+func nestleControlsForVerse(cs controlSet, bookNr, chapter, verse int) *Controls {
+	join := func(m map[int]string, verses ...int) string {
+		parts := make([]string, 0, len(verses))
+		for _, n := range verses {
+			if s := strings.TrimSpace(m[n]); s != "" {
+				parts = append(parts, s)
+			}
+		}
+		return strings.Join(parts, " ")
+	}
+
+	out := Controls{Web: cs.web[verse], KJV: cs.kjv[verse], Livre: cs.livre[verse]}
+	switch {
+	case bookNr == 44 && chapter == 19 && verse == 40: // Acts 19:40 = controls 19:40-41
+		out = Controls{Web: join(cs.web, 40, 41), KJV: join(cs.kjv, 40, 41), Livre: join(cs.livre, 40, 41)}
+	case bookNr == 47 && chapter == 13 && verse == 12: // 2Cor 13:12 = controls 13:12-13
+		out = Controls{Web: join(cs.web, 12, 13), KJV: join(cs.kjv, 12, 13), Livre: join(cs.livre, 12, 13)}
+	case bookNr == 47 && chapter == 13 && verse == 13: // 2Cor 13:13 = control 13:14
+		out = Controls{Web: cs.web[14], KJV: cs.kjv[14], Livre: cs.livre[14]}
+	case bookNr == 64 && chapter == 1 && (verse == 14 || verse == 15):
+		// Control 3John 1:14 combines both source verses and cannot be split safely.
+		out = Controls{}
+	case bookNr == 66 && chapter == 13 && verse == 1:
+		// WEB/KJV 13:1 combines source Rev 12:18 and 13:1; Livre keeps them separate.
+		out.Web, out.KJV = "", ""
+	}
 	if out == (Controls{}) {
 		return nil
 	}

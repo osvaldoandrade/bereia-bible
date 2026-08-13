@@ -38,7 +38,7 @@
           "palavra": { "type": "string", "description": "Forma no texto-fonte (hebraico/aramaico/grego) — SEMPRE do packet pinado (F-0015), nunca redigitada" },
           "translit": { "type": "string", "description": "Transliteração simplificada legível. Opcional: enriquecimento adicionado na promoção; ausente em registros DRAFT montados do packet (ADR-0002)" },
           "lemma": { "type": "string", "description": "Código de lema da fonte (OSHB: Strong estendido; NT: Strong/lexema)" },
-          "morfologia": { "type": "string", "description": "Código morfológico da fonte (ver pipeline/rules/MORFOLOGIA-OSHB.md)" },
+          "morfologia": { "type": "string", "description": "Código morfológico da fonte (ver MORFOLOGIA-OSHB.md ou MORFOLOGIA-NESTLE1904.md)" },
           "glosa": { "type": "string", "description": "Glosa pt-BR adotada neste versículo. Opcional: preenchida na promoção; ausente em registros DRAFT montados do packet (ADR-0002)" },
           "observacao": { "type": "string" }
         }
@@ -134,7 +134,7 @@
       "additionalProperties": false,
       "required": ["texto_fonte", "manifest_sha256", "prompts_versao", "regras_versao", "lexico_versao", "modelo"],
       "properties": {
-        "texto_fonte": { "type": "string", "description": "Ex.: oshb@3d15126f (id@commit curto do manifest)" },
+        "texto_fonte": { "type": "string", "description": "Ex.: oshb@3d15126f ou nestle1904@713f28a3 (id@commit curto do manifest)" },
         "manifest_sha256": { "type": "string", "description": "SHA-256 do sources/manifest.json usado" },
         "prompts_versao": { "type": "string" },
         "regras_versao": { "type": "string" },

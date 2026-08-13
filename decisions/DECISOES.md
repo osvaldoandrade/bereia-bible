@@ -200,13 +200,30 @@ Ver `docs/domain/governanca/glossary.md`.
 - Validado a seco (sem agentes) com journal-mock + packet real de Gn 2: registros montados
   passam bvcheck; surface/lemma/morfologia vêm do OSHB, não redigitados.
 
+## ER-0018 — Autoridade textual e cobertura do Novo Testamento
+
+- Data: 2026-08-13 · Escopo: programa · Origem: meta do mantenedor de concluir a
+  Bíblia inteira · Status: ATIVA · ADR: 0003
+- Decisão: adotar o CSV `Nestle1904.csv` do Biblical Humanities como autoridade
+  textual do NT: texto-base Nestle 1904 declarado em domínio público; morfologia,
+  lematização e Strong sob CC0 1.0; commit e SHA-256 pinados no manifest.
+- O OpenGNT permanece `analysis-only-quarantined` e não participa dos packets,
+  julgamentos ou registros do NT. Esta diretriz supersede somente a cláusula de
+  bloqueio do NT em ER-0016; o tier DRAFT por capítulo de ER-0017 continua ativo.
+- `internal/nestle1904` preserva texto, morfologia funcional/formal, lema, Strong,
+  normalização, lacunas da numeração crítica e a leitura curta de Marcos 16 como
+  aparato de 16:20. Controles com fronteira mista são omitidos ou mapeados por
+  regra explícita, nunca divididos por inferência.
+- O driver/persistidor torna-se fonte-neutro e registros do NT pinam
+  `nestle1904@713f28a3`. Versão agregada dos prompts: 1.1.0; processo: 1.1.0.
+
 ---
 
 ## Follow-ups abertos
 
 - F-0001: obter Almeida 1911 / Tradução Brasileira 1917 digitalizada e pinar no manifest. Dono: mantenedor.
 - F-0002: decidir licença da BV (CC BY-SA 4.0 × CC BY 4.0). Dono: mantenedor.
-- F-0003: fase NT — resolver quarentena OpenGNT (ADR-0001 §2); candidata PD: Nestle 1904. Dono: mantenedor.
+- F-0003: **RESOLVIDO em 2026-08-13** pelo ADR-0003/ER-0018: Nestle 1904 PD + morfologia CC0.
 - F-0004: pipeline programático (API Anthropic, temperatura 0) substituindo orquestração de sessão. Dono: mantenedor.
 - F-0005: mutation testing das ferramentas Go quando tooling disponível. Dono: mantenedor.
 - F-0006: verificar licença exata da Bíblia Livre na página eBible/da própria BLIVRE. Dono: mantenedor.

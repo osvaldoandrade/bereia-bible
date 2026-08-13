@@ -1,7 +1,7 @@
 # PIPELINE — Bereia Version
 
-Versão do processo: **1.0.1** · Mudanças exigem bump SemVer + entrada em `decisions/DECISOES.md`.
-(1.0.1: comandos de reprodução corrigidos; regra de re-pinagem de `fontes` em ciclo de reparo — ER-0010.)
+Versão do processo: **1.1.0** · Mudanças exigem bump SemVer + entrada em `decisions/DECISOES.md`.
+(1.1.0: autoridade NT Nestle 1904, packets gregos e driver fonte-neutro — ADR-0003/ER-0018.)
 
 ## Visão
 
@@ -66,7 +66,7 @@ flowchart TD
 ## Consenso (N ≤ 3 ciclos)
 
 1. Quatro propostas independentes.
-2. Consolidador compara palavra a palavra com WLC/OpenGNT; lista divergências;
+2. Consolidador compara palavra a palavra com OSHB/Nestle 1904; lista divergências;
    exige justificativa lexical/gramatical; produz proposta consolidada.
 3. Quatro refutações adversariais (uma por lente).
 4. Finalizador adjudica por evidência (votação é proibida), corrige, e:

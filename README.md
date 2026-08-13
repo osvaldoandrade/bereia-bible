@@ -1,7 +1,7 @@
 # Bereia Version (BV) — Bíblia em português brasileiro auditável
 
 Tradução bíblica pt-BR do [Bereia.org](https://bereia.org), derivada diretamente
-dos textos-fonte — **WLC/OSHB** (AT) e grego crítico (NT, fase futura) — com cada
+dos textos-fonte — **WLC/OSHB** (AT) e **Nestle 1904** (NT) — com cada
 decisão de tradução rastreável até a fonte pinada. Nenhuma redação deriva de
 traduções protegidas (ARA/NVI/NAA/NTLH).
 
@@ -23,7 +23,7 @@ traduções protegidas (ARA/NVI/NAA/NTLH).
 
 ```
 api/          contratos JSON Schema (verse-record, manifest) + exemplos executáveis
-sources/      fontes pinadas (manifest.json; OpenGNT em quarentena de licença)
+sources/      fontes pinadas (OSHB/Nestle 1904; OpenGNT em quarentena)
 pipeline/     processo multiagente: PIPELINE.md, prompts/, rules/, packets/
 lexicon/      terminologia vinculante (LexiconEntry)
 decisions/    diretrizes editoriais ER-* e ratificações (Governança)
@@ -50,5 +50,6 @@ make verify   # gofmt + go build + go vet + go test -cover + zero-dep guard + ch
 
 ## Status
 
-- Piloto: Gênesis 1:1–5 (perícope `Gen.1.1-5`), registros em `REVIEW`.
+- Programa Bíblia completa em andamento; cobertura atual em `translation/PROGRESS.md`.
+- Autoridades textuais pinadas: OSHB (AT) e Nestle 1904 PD/CC0 (NT).
 - Licença do produto: em decisão (F-0002); fontes: `docs/LICENSING.md` + `NOTICE.md`.

@@ -7,6 +7,10 @@ A BV é derivada de/auditada contra as seguintes obras:
 - **Open Scriptures Hebrew Bible (OSHB)** — Westminster Leningrad Codex com
   anotação morfológica. Licença: CC BY 4.0. https://github.com/openscriptures/morphhb
   (autoridade textual do Antigo Testamento; commit pinado em `sources/manifest.json`).
+- **Nestle 1904 Morphology (Biblical Humanities)** — texto-base Nestle 1904
+  declarado em domínio público; morfologia, lematização e números de Strong sob
+  CC0 1.0. https://github.com/biblicalhumanities/Nestle1904
+  (autoridade textual do Novo Testamento; commit pinado em `sources/manifest.json`).
 - **World English Bible (WEB)** — domínio público. https://worldenglish.bible/
   (controle de QA; nenhuma redação da BV deriva dela).
 - **King James Version (1769)** — domínio público fora do Reino Unido
@@ -14,7 +18,8 @@ A BV é derivada de/auditada contra as seguintes obras:
 - **Bíblia Livre (BLIVRE)** — CC BY 3.0 BR. https://ebible.org/find/details.php?id=porbr2018
   (controle histórico de QA em português; nenhuma redação da BV deriva dela).
 - **OpenGNT** — CC BY-NC-SA 4.0. https://github.com/eliranwong/OpenGNT
-  (EM QUARENTENA: apoio analítico apenas; não é autoridade textual da BV;
+  (EM QUARENTENA: apoio analítico apenas; não é autoridade textual da BV nem
+  participa da produção dos packets do NT;
   ver `sources/opengnt/README-QUARENTENA.md` e ADR-0001).
 
 Traduções protegidas (ARA, NVI, NAA, NTLH) NÃO são armazenadas neste repositório
