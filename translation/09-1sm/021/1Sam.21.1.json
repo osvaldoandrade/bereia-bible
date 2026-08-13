@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Sam.21.1",
+    "livro": "1 Samuel",
+    "capitulo": 21,
+    "versiculo": 1,
+    "pericope": "1Sam.21.1-16"
+  },
+  "texto_bv": "Davi se levantou e partiu, enquanto Jônatas voltou para a cidade.",
+  "traducao_literal": "E levantou-se e foi; e Jônatas veio à cidade.",
+  "termos_originais": [
+    {
+      "palavra": "וַיָּ֖קָם",
+      "lemma": "c/6965 b",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "וַיֵּלַ֑ךְ",
+      "lemma": "c/3212",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "וִיהוֹנָתָ֖ן",
+      "lemma": "c/3083",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "בָּ֥א",
+      "lemma": "935",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "הָעִֽיר",
+      "lemma": "d/5892 b",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota editorial de versificação registrada no OSHB.",
+      "leituras": [
+        {
+          "leitura": "1Sam.21.1",
+          "testemunhas": "OSIS hebraico do packet OSHB pinado"
+        },
+        {
+          "leitura": "KJV:1Sam.20.42",
+          "testemunhas": "Nota editorial no 1Sam.xml"
+        }
+      ],
+      "avaliacao": "A BV mantém o OSIS do packet; a referência KJV registra somente a correspondência de versificação.",
+      "impacto_na_traducao": "Nenhum impacto no texto hebraico ou na tradução; altera apenas a numeração comparativa."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Como identificar o sujeito inicial?",
+      "escolha": "“Davi se levantou e partiu”",
+      "justificativa": "Os verbos iniciais têm sujeito implícito retomado da cena anterior; Davi é suprido, enquanto Jônatas é nomeado na segunda oração.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Jônatas partiu e Davi voltou",
+          "motivo": "Inverte os sujeitos."
+        },
+        {
+          "opcao": "Saul partiu",
+          "motivo": "Introduz personagem não expresso no contexto imediato."
+        }
+      ]
+    },
+    {
+      "questao": "Como preservar a transição de cenas?",
+      "escolha": "partida de Davi; retorno de Jônatas à cidade",
+      "justificativa": "Os dois movimentos distintos encerram a cena anterior antes da chegada de Davi a Nobe.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ambos foram à cidade",
+          "motivo": "Funde destinos distintos."
+        },
+        {
+          "opcao": "ambos foram a Nobe",
+          "motivo": "Antecipa o verso seguinte."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Davi",
+    "enquanto",
+    "voltou para"
+  ],
+  "ambiguidades_preservadas": [
+    "“A cidade” não é nomeada neste verso."
+  ],
+  "justificativa": "A transição preserva os dois sujeitos e segue a delimitação OSIS hebraica do packet.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
