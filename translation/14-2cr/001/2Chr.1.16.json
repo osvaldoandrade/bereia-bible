@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.1.16",
+    "livro": "2 Crônicas",
+    "capitulo": 1,
+    "versiculo": 16,
+    "pericope": "2Chr.1.1-18"
+  },
+  "texto_bv": "A origem dos cavalos de Salomão era do Egito e de Cue; os mercadores do rei os adquiriam de Cue por um preço.",
+  "traducao_literal": "E a origem dos cavalos que eram de Salomão: do Egito e de Cue; e de Cue, os mercadores do rei, de Cue, tomavam por preço.",
+  "termos_originais": [
+    {
+      "palavra": "וּמוֹצָ֧א",
+      "lemma": "c/4161",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "הַסּוּסִ֛ים",
+      "lemma": "d/5483 b",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "אֲשֶׁ֥ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "לִשְׁלֹמֹ֖ה",
+      "lemma": "l/8010",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מִמִּצְרָ֑יִם",
+      "lemma": "m/4714",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וּמִקְוֵ֕א",
+      "lemma": "c/m/4723 a",
+      "morfologia": "HC/R/Np"
+    },
+    {
+      "palavra": "סֹחֲרֵ֣י",
+      "lemma": "5503",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "הַמֶּ֔לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "מִקְוֵ֥א",
+      "lemma": "m/4723 a",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יִקְח֖וּ",
+      "lemma": "3947",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "בִּמְחִֽיר",
+      "lemma": "b/4242",
+      "morfologia": "HR/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sentido de מוֹצָא e identificação das duas ocorrências de מִקְוֵא.",
+      "escolha": "Traduzir מוֹצָא por “origem”, tratar קְוֵא como o topônimo “Cue” e conservar sua repetição na literal.",
+      "justificativa": "מוֹצָא em construto introduz a procedência dos cavalos; o packet classifica קְוֵא como nome próprio nas duas ocorrências, impedindo tratá-lo como mercadoria comum.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "exportação",
+          "motivo": "Enfatizaria o fluxo comercial além do valor de procedência permitido por מוֹצָא."
+        },
+        {
+          "opcao": "linho",
+          "motivo": "Contraria a classificação morfológica de קְוֵא como nome próprio."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "era/eram — cópulas das relações nominais de origem e posse",
+    "os — objeto elíptico de יִקְחוּ, retomando os cavalos",
+    "um — artigo exigido em português em “por um preço”"
+  ],
+  "ambiguidades_preservadas": [
+    "מוֹצָא pode enfatizar origem, ponto de saída ou canal de fornecimento; a BV escolhe o termo mais abrangente “origem”."
+  ],
+  "justificativa": "Egito e Cue permanecem fontes distintas, os mercadores continuam agentes da aquisição e a repetição do topônimo fica visível na literal.",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "841da0dbc7c010b52998ce483ebc4b9ad0db87e6fa1e54fccda5148b023bcfca",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
