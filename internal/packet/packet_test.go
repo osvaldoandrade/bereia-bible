@@ -1179,3 +1179,142 @@ func TestOSHBChapterTextMapsDanielVersification(t *testing.T) {
 		t.Fatal("want error when mapped Daniel 6:28 control is missing")
 	}
 }
+
+func TestOSHBChapterTextMapsMinorProphetsVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, count int) string {
+		var verses strings.Builder
+		for i := 1; i <= count; i++ {
+			if i > 1 {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	type bookCase struct {
+		name          string
+		bookNr        int
+		controlCounts []int
+		spans         map[int][]verseSpan
+	}
+	cases := []bookCase{
+		{
+			name: "hosea", bookNr: 28,
+			controlCounts: []int{11, 23, 5, 19, 15, 11, 16, 14, 17, 15, 12, 14, 16, 9},
+			spans: map[int][]verseSpan{
+				1:  {{1, 9, 1, 1}},
+				2:  {{1, 2, 1, 10}, {3, 25, 2, 1}},
+				11: {{1, 11, 11, 1}},
+				12: {{1, 1, 11, 12}, {2, 15, 12, 1}},
+				13: {{1, 15, 13, 1}},
+				14: {{1, 1, 13, 16}, {2, 10, 14, 1}},
+			},
+		},
+		{
+			name: "joel", bookNr: 29,
+			controlCounts: []int{20, 32, 21},
+			spans: map[int][]verseSpan{
+				2: {{1, 27, 2, 1}},
+				3: {{1, 5, 2, 28}},
+				4: {{1, 21, 3, 1}},
+			},
+		},
+		{
+			name: "jonah", bookNr: 32,
+			controlCounts: []int{17, 10, 10, 11},
+			spans: map[int][]verseSpan{
+				1: {{1, 16, 1, 1}},
+				2: {{1, 1, 1, 17}, {2, 11, 2, 1}},
+			},
+		},
+		{
+			name: "micah", bookNr: 33,
+			controlCounts: []int{16, 13, 12, 13, 15, 16, 20},
+			spans: map[int][]verseSpan{
+				4: {{1, 13, 4, 1}, {14, 14, 5, 1}},
+				5: {{1, 14, 5, 2}},
+			},
+		},
+		{
+			name: "nahum", bookNr: 34,
+			controlCounts: []int{15, 13, 19},
+			spans: map[int][]verseSpan{
+				1: {{1, 14, 1, 1}},
+				2: {{1, 1, 1, 15}, {2, 14, 2, 1}},
+			},
+		},
+		{
+			name: "zechariah", bookNr: 38,
+			controlCounts: []int{21, 13, 10, 14, 11, 15, 14, 23, 17, 12, 17, 14, 9, 21},
+			spans: map[int][]verseSpan{
+				1: {{1, 17, 1, 1}},
+				2: {{1, 4, 1, 18}, {5, 17, 2, 1}},
+			},
+		},
+		{
+			name: "malachi", bookNr: 39,
+			controlCounts: []int{14, 17, 18, 6},
+			spans: map[int][]verseSpan{
+				3: {{1, 18, 3, 1}, {19, 24, 4, 1}},
+			},
+		},
+	}
+
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			var chapters strings.Builder
+			for i, count := range tc.controlCounts {
+				if i > 0 {
+					chapters.WriteByte(',')
+				}
+				chapters.WriteString(chapter(i+1, count))
+			}
+			control := fmt.Sprintf(`{"books":[{"nr":%d,"chapters":[%s]}]}`, tc.bookNr, chapters.String())
+			path := write(t, dir, tc.name+".json", control)
+
+			for sourceChapter, spans := range tc.spans {
+				got, err := OSHBChapterText(path, tc.bookNr, sourceChapter)
+				if err != nil {
+					t.Fatal(err)
+				}
+				expected := make(map[int]string)
+				for _, span := range spans {
+					for sourceVerse := span.sourceFrom; sourceVerse <= span.sourceTo; sourceVerse++ {
+						controlVerse := span.controlFrom + sourceVerse - span.sourceFrom
+						expected[sourceVerse] = fmt.Sprintf("chapter-%d-verse-%d", span.controlChapter, controlVerse)
+					}
+				}
+				if len(got) != len(expected) {
+					t.Fatalf("chapter %d: got %d controls, want %d", sourceChapter, len(got), len(expected))
+				}
+				for verse, want := range expected {
+					if got[verse] != want {
+						t.Errorf("chapter %d verse %d: got %q, want %q", sourceChapter, verse, got[verse], want)
+					}
+				}
+
+				controls, err := loadControls(Request{
+					BookNr: tc.bookNr, Chapter: sourceChapter,
+					WebPath: path, KJVPath: path, LivrePath: path,
+				})
+				if err != nil {
+					t.Fatal(err)
+				}
+				for verse, want := range expected {
+					entry := controls.forVerse(verse)
+					if entry == nil || entry.Web != want || entry.KJV != want || entry.Livre != want {
+						t.Errorf("chapter %d verse %d: got %+v, want all controls %q", sourceChapter, verse, entry, want)
+					}
+				}
+			}
+		})
+	}
+
+	missing := fmt.Sprintf(`{"books":[{"nr":39,"chapters":[%s,%s,%s,%s]}]}`,
+		chapter(1, 14), chapter(2, 17), chapter(3, 18), chapter(4, 5))
+	missingPath := write(t, dir, "malachi-missing.json", missing)
+	if _, err := OSHBChapterText(missingPath, 39, 3); err == nil {
+		t.Fatal("want error when mapped Malachi 4:6 control is missing")
+	}
+}

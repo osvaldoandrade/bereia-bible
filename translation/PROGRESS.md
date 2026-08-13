@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 11369/19636 versículos.**
+**Total AT sourced: 11369/20686 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -846,4 +846,131 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 10 | 21 | · pendente |
 | 11 | 45 | · pendente |
 | 12 | 13 | · pendente |
+
+## Oseias — 0/197 versículos (0.0%), 14 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 9 | · pendente |
+| 2 | 25 | · pendente |
+| 3 | 5 | · pendente |
+| 4 | 19 | · pendente |
+| 5 | 15 | · pendente |
+| 6 | 11 | · pendente |
+| 7 | 16 | · pendente |
+| 8 | 14 | · pendente |
+| 9 | 17 | · pendente |
+| 10 | 15 | · pendente |
+| 11 | 11 | · pendente |
+| 12 | 15 | · pendente |
+| 13 | 15 | · pendente |
+| 14 | 10 | · pendente |
+
+## Joel — 0/73 versículos (0.0%), 4 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 20 | · pendente |
+| 2 | 27 | · pendente |
+| 3 | 5 | · pendente |
+| 4 | 21 | · pendente |
+
+## Amós — 0/146 versículos (0.0%), 9 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 15 | · pendente |
+| 2 | 16 | · pendente |
+| 3 | 15 | · pendente |
+| 4 | 13 | · pendente |
+| 5 | 27 | · pendente |
+| 6 | 14 | · pendente |
+| 7 | 17 | · pendente |
+| 8 | 14 | · pendente |
+| 9 | 15 | · pendente |
+
+## Obadias — 0/21 versículos (0.0%), 1 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 21 | · pendente |
+
+## Jonas — 0/48 versículos (0.0%), 4 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 16 | · pendente |
+| 2 | 11 | · pendente |
+| 3 | 10 | · pendente |
+| 4 | 11 | · pendente |
+
+## Miqueias — 0/105 versículos (0.0%), 7 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 16 | · pendente |
+| 2 | 13 | · pendente |
+| 3 | 12 | · pendente |
+| 4 | 14 | · pendente |
+| 5 | 14 | · pendente |
+| 6 | 16 | · pendente |
+| 7 | 20 | · pendente |
+
+## Naum — 0/47 versículos (0.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 14 | · pendente |
+| 2 | 14 | · pendente |
+| 3 | 19 | · pendente |
+
+## Habacuque — 0/56 versículos (0.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 17 | · pendente |
+| 2 | 20 | · pendente |
+| 3 | 19 | · pendente |
+
+## Sofonias — 0/53 versículos (0.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 18 | · pendente |
+| 2 | 15 | · pendente |
+| 3 | 20 | · pendente |
+
+## Ageu — 0/38 versículos (0.0%), 2 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 15 | · pendente |
+| 2 | 23 | · pendente |
+
+## Zacarias — 0/211 versículos (0.0%), 14 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 17 | · pendente |
+| 2 | 17 | · pendente |
+| 3 | 10 | · pendente |
+| 4 | 14 | · pendente |
+| 5 | 11 | · pendente |
+| 6 | 15 | · pendente |
+| 7 | 14 | · pendente |
+| 8 | 23 | · pendente |
+| 9 | 17 | · pendente |
+| 10 | 12 | · pendente |
+| 11 | 17 | · pendente |
+| 12 | 14 | · pendente |
+| 13 | 9 | · pendente |
+| 14 | 21 | · pendente |
+
+## Malaquias — 0/55 versículos (0.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 14 | · pendente |
+| 2 | 17 | · pendente |
+| 3 | 24 | · pendente |
 

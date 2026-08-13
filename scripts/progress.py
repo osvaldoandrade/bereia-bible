@@ -38,6 +38,18 @@ BOOKS = [  # AT expands here as books are sourced
     ("25-lm", "Lam", "Lamentações"),
     ("26-ez", "Ezek", "Ezequiel"),
     ("27-dn", "Dan", "Daniel"),
+    ("28-os", "Hos", "Oseias"),
+    ("29-jl", "Joel", "Joel"),
+    ("30-am", "Amos", "Amós"),
+    ("31-ob", "Obad", "Obadias"),
+    ("32-jn", "Jonah", "Jonas"),
+    ("33-mq", "Mic", "Miqueias"),
+    ("34-na", "Nah", "Naum"),
+    ("35-hc", "Hab", "Habacuque"),
+    ("36-sf", "Zeph", "Sofonias"),
+    ("37-ag", "Hag", "Ageu"),
+    ("38-zc", "Zech", "Zacarias"),
+    ("39-ml", "Mal", "Malaquias"),
 ]
 
 

@@ -219,6 +219,32 @@ var controlSpans = map[[2]int][]verseSpan{
 	{27, 4}: {{1, 34, 4, 4}},
 	{27, 5}: {{1, 30, 5, 1}},
 	{27, 6}: {{1, 1, 5, 31}, {2, 29, 6, 1}},
+	// Hosea's Hebrew chapter boundaries differ at 1/2, 11/12, and 13/14.
+	{28, 1}:  {{1, 9, 1, 1}},
+	{28, 2}:  {{1, 2, 1, 10}, {3, 25, 2, 1}},
+	{28, 11}: {{1, 11, 11, 1}},
+	{28, 12}: {{1, 1, 11, 12}, {2, 15, 12, 1}},
+	{28, 13}: {{1, 15, 13, 1}},
+	{28, 14}: {{1, 1, 13, 16}, {2, 10, 14, 1}},
+	// KJV, WEB, and Livre append OSHB Joel 3:1-5 to control chapter 2
+	// and number OSHB chapter 4 as control chapter 3.
+	{29, 2}: {{1, 27, 2, 1}},
+	{29, 3}: {{1, 5, 2, 28}},
+	{29, 4}: {{1, 21, 3, 1}},
+	// OSHB Jonah 2:1 is the final verse of control chapter 1.
+	{32, 1}: {{1, 16, 1, 1}},
+	{32, 2}: {{1, 1, 1, 17}, {2, 11, 2, 1}},
+	// OSHB Mic 4:14 is control 5:1; the remaining chapter shifts by one.
+	{33, 4}: {{1, 13, 4, 1}, {14, 14, 5, 1}},
+	{33, 5}: {{1, 14, 5, 2}},
+	// OSHB Nah 2:1 is the final verse of control chapter 1.
+	{34, 1}: {{1, 14, 1, 1}},
+	{34, 2}: {{1, 1, 1, 15}, {2, 14, 2, 1}},
+	// OSHB Zech 2:1-4 are controls 1:18-21; 2:5-17 are controls 2:1-13.
+	{38, 1}: {{1, 17, 1, 1}},
+	{38, 2}: {{1, 4, 1, 18}, {5, 17, 2, 1}},
+	// KJV, WEB, and Livre number OSHB Mal 3:19-24 as chapter 4:1-6.
+	{39, 3}: {{1, 18, 3, 1}, {19, 24, 4, 1}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.
