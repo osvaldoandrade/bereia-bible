@@ -194,6 +194,15 @@ var controlSpans = map[[2]int][]verseSpan{
 	// cannot appear as a nonexistent OSHB 6:13.
 	{22, 6}: {{1, 12, 6, 1}},
 	{22, 7}: {{1, 1, 6, 13}, {2, 14, 7, 1}},
+	// KJV, WEB, and Livre number OSHB Isa 8:23 as 9:1 and OSHB
+	// 9:1-20 as 9:2-21.
+	{23, 8}: {{1, 22, 8, 1}, {23, 23, 9, 1}},
+	{23, 9}: {{1, 20, 9, 2}},
+	// Their Isa 63:19 and 64:1 split the single OSHB 63:19 at an
+	// intraverse boundary. Leave that source verse without a mixed control;
+	// OSHB 64:1-11 then map to controls 64:2-12.
+	{23, 63}: {{1, 18, 63, 1}},
+	{23, 64}: {{1, 11, 64, 2}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.

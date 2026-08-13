@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 11251/15197 versículos.**
+**Total AT sourced: 11287/16488 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -437,15 +437,15 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 28 | 21 | ● 21/21 [DRAFT] |
 | 29 | 30 | ● 30/30 [DRAFT] |
 
-## 2 Crônicas — 52/822 versículos (6.3%), 36 capítulos
+## 2 Crônicas — 88/822 versículos (10.7%), 36 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
 | 1 | 18 | ● 18/18 [DRAFT] |
 | 2 | 17 | ● 17/17 [DRAFT] |
 | 3 | 17 | ● 17/17 [DRAFT] |
-| 4 | 22 | · pendente |
-| 5 | 14 | · pendente |
+| 4 | 22 | ● 22/22 [DRAFT] |
+| 5 | 14 | ● 14/14 [DRAFT] |
 | 6 | 42 | · pendente |
 | 7 | 22 | · pendente |
 | 8 | 18 | · pendente |
@@ -638,4 +638,75 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 6 | 12 | · pendente |
 | 7 | 14 | · pendente |
 | 8 | 14 | · pendente |
+
+## Isaías — 0/1291 versículos (0.0%), 66 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 31 | · pendente |
+| 2 | 22 | · pendente |
+| 3 | 26 | · pendente |
+| 4 | 6 | · pendente |
+| 5 | 30 | · pendente |
+| 6 | 13 | · pendente |
+| 7 | 25 | · pendente |
+| 8 | 23 | · pendente |
+| 9 | 20 | · pendente |
+| 10 | 34 | · pendente |
+| 11 | 16 | · pendente |
+| 12 | 6 | · pendente |
+| 13 | 22 | · pendente |
+| 14 | 32 | · pendente |
+| 15 | 9 | · pendente |
+| 16 | 14 | · pendente |
+| 17 | 14 | · pendente |
+| 18 | 7 | · pendente |
+| 19 | 25 | · pendente |
+| 20 | 6 | · pendente |
+| 21 | 17 | · pendente |
+| 22 | 25 | · pendente |
+| 23 | 18 | · pendente |
+| 24 | 23 | · pendente |
+| 25 | 12 | · pendente |
+| 26 | 21 | · pendente |
+| 27 | 13 | · pendente |
+| 28 | 29 | · pendente |
+| 29 | 24 | · pendente |
+| 30 | 33 | · pendente |
+| 31 | 9 | · pendente |
+| 32 | 20 | · pendente |
+| 33 | 24 | · pendente |
+| 34 | 17 | · pendente |
+| 35 | 10 | · pendente |
+| 36 | 22 | · pendente |
+| 37 | 38 | · pendente |
+| 38 | 22 | · pendente |
+| 39 | 8 | · pendente |
+| 40 | 31 | · pendente |
+| 41 | 29 | · pendente |
+| 42 | 25 | · pendente |
+| 43 | 28 | · pendente |
+| 44 | 28 | · pendente |
+| 45 | 25 | · pendente |
+| 46 | 13 | · pendente |
+| 47 | 15 | · pendente |
+| 48 | 22 | · pendente |
+| 49 | 26 | · pendente |
+| 50 | 11 | · pendente |
+| 51 | 23 | · pendente |
+| 52 | 15 | · pendente |
+| 53 | 12 | · pendente |
+| 54 | 17 | · pendente |
+| 55 | 13 | · pendente |
+| 56 | 12 | · pendente |
+| 57 | 21 | · pendente |
+| 58 | 14 | · pendente |
+| 59 | 21 | · pendente |
+| 60 | 22 | · pendente |
+| 61 | 11 | · pendente |
+| 62 | 12 | · pendente |
+| 63 | 19 | · pendente |
+| 64 | 11 | · pendente |
+| 65 | 25 | · pendente |
+| 66 | 24 | · pendente |
 

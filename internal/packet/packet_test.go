@@ -871,3 +871,88 @@ func TestOSHBChapterTextMapsEcclesiastesAndSongVersification(t *testing.T) {
 		}
 	}
 }
+
+func TestOSHBChapterTextMapsIsaiahVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":23,"chapters":[%s,%s,%s,%s]}]}`,
+		chapter(8, 1, 22), chapter(9, 1, 21), chapter(63, 1, 19), chapter(64, 1, 12))
+	path := write(t, dir, "isaiah.json", control)
+
+	chapter8, err := OSHBChapterText(path, 23, 8)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter8) != 23 || chapter8[22] != "chapter-8-verse-22" || chapter8[23] != "chapter-9-verse-1" {
+		t.Fatalf("wrong Isaiah 8 mapping: len=%d 22=%q 23=%q", len(chapter8), chapter8[22], chapter8[23])
+	}
+
+	chapter9, err := OSHBChapterText(path, 23, 9)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter9) != 20 || chapter9[1] != "chapter-9-verse-2" || chapter9[20] != "chapter-9-verse-21" {
+		t.Fatalf("wrong Isaiah 9 mapping: len=%d 1=%q 20=%q", len(chapter9), chapter9[1], chapter9[20])
+	}
+
+	chapter63, err := OSHBChapterText(path, 23, 63)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter63) != 18 || chapter63[18] != "chapter-63-verse-18" {
+		t.Fatalf("wrong Isaiah 63 mapping: len=%d 18=%q", len(chapter63), chapter63[18])
+	}
+	if _, ok := chapter63[19]; ok {
+		t.Fatal("Isaiah 63:19 crosses a control-verse boundary and must have no mixed control")
+	}
+
+	chapter64, err := OSHBChapterText(path, 23, 64)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter64) != 11 || chapter64[1] != "chapter-64-verse-2" || chapter64[11] != "chapter-64-verse-12" {
+		t.Fatalf("wrong Isaiah 64 mapping: len=%d 1=%q 11=%q", len(chapter64), chapter64[1], chapter64[11])
+	}
+
+	controls, err := loadControls(Request{
+		BookNr: 23, Chapter: 64,
+		WebPath: path, KJVPath: path, LivrePath: path,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	for verse, want := range map[int]string{
+		1: "chapter-64-verse-2", 11: "chapter-64-verse-12",
+	} {
+		got := controls.forVerse(verse)
+		if got == nil || got.Web != want || got.KJV != want || got.Livre != want {
+			t.Errorf("Isaiah 64:%d: got %+v, want all controls %q", verse, got, want)
+		}
+	}
+
+	controls63, err := loadControls(Request{
+		BookNr: 23, Chapter: 63,
+		WebPath: path, KJVPath: path, LivrePath: path,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got := controls63.forVerse(19); got != nil {
+		t.Fatalf("unexpected mixed control for Isaiah 63:19: %+v", got)
+	}
+
+	missing := fmt.Sprintf(`{"books":[{"nr":23,"chapters":[%s]}]}`, chapter(64, 1, 11))
+	missingPath := write(t, dir, "isaiah-missing.json", missing)
+	if _, err := OSHBChapterText(missingPath, 23, 64); err == nil {
+		t.Fatal("want error when mapped Isaiah 64:12 control is missing")
+	}
+}
