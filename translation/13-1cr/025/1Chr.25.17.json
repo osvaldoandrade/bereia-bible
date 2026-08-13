@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.25.17",
+    "livro": "1 Crônicas",
+    "capitulo": 25,
+    "versiculo": 17,
+    "pericope": "1Chr.25.1-31"
+  },
+  "texto_bv": "A décima, para Simei; seus filhos e seus parentes eram doze.",
+  "traducao_literal": "A décima: Simei, seus filhos e seus irmãos, doze.",
+  "termos_originais": [
+    {
+      "palavra": "הָעֲשִׂירִ֣י",
+      "lemma": "d/6224",
+      "morfologia": "HTd/Aomsa"
+    },
+    {
+      "palavra": "שִׁמְעִ֔י",
+      "lemma": "8096",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בָּנָ֥יו",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc/Sp3ms"
+    },
+    {
+      "palavra": "וְאֶחָ֖יו",
+      "lemma": "c/251",
+      "morfologia": "HC/Ncmpc/Sp3ms"
+    },
+    {
+      "palavra": "שְׁנֵ֥ים",
+      "lemma": "8147",
+      "morfologia": "HAcmda"
+    },
+    {
+      "palavra": "עָשָֽׂר",
+      "lemma": "6240",
+      "morfologia": "HAcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Simei aparece no sorteio sem estar na lista visível do v3",
+      "escolha": "Manter Simei aqui sem inseri-lo retroativamente no v3.",
+      "justificativa": "O nome é expresso neste verso e ajuda a explicar a contagem, mas o método source-first não altera o texto anterior.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Apagar Simei por não aparecer no v3",
+          "motivo": "Omitiria um nome explícito deste turno."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "para — retoma a sorte",
+    "eram — fornece a cópula"
+  ],
+  "ambiguidades_preservadas": [
+    "Simei pode ser o sexto filho implicado pelo total de v3, mas a BV não o insere naquele verso."
+  ],
+  "justificativa": "Décima sorte, Simei, filhos, parentes e total doze foram preservados.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
