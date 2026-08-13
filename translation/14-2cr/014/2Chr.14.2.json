@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.14.2",
+    "livro": "2 Crônicas",
+    "capitulo": 14,
+    "versiculo": 2,
+    "pericope": "2Chr.14.1-14"
+  },
+  "texto_bv": "Ele removeu os altares estrangeiros e os lugares altos, quebrou as estelas e cortou os aserins.",
+  "traducao_literal": "E removeu os altares do estrangeiro e os lugares altos; e quebrou as estelas, e cortou os aserins.",
+  "termos_originais": [
+    {
+      "palavra": "וַיָּ֛סַר",
+      "lemma": "c/5493",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "מִזְבְּח֥וֹת",
+      "lemma": "4196",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "הַנֵּכָ֖ר",
+      "lemma": "d/5236",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וְהַבָּמ֑וֹת",
+      "lemma": "c/d/1116",
+      "morfologia": "HC/Td/Ncfpa"
+    },
+    {
+      "palavra": "וַיְשַׁבֵּר֙",
+      "lemma": "c/7665",
+      "morfologia": "HC/Vpw3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הַמַּצֵּב֔וֹת",
+      "lemma": "d/4676",
+      "morfologia": "HTd/Ncfpa"
+    },
+    {
+      "palavra": "וַיְגַדַּ֖ע",
+      "lemma": "c/1438",
+      "morfologia": "HC/Vpw3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הָאֲשֵׁרִֽים",
+      "lemma": "d/842",
+      "morfologia": "HTd/Np"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação no XML OSHB: este verso corresponde a KJV 2Chr.14.3.",
+      "leituras": [
+        {
+          "leitura": "2Chr.14.2",
+          "testemunhas": "OSHB/WLC"
+        },
+        {
+          "leitura": "2Chr.14.3",
+          "testemunhas": "KJV (numeração indicada pelo OSHB)"
+        }
+      ],
+      "avaliacao": "A BV segue a numeração do texto-fonte OSHB e mantém a correspondência KJV somente no aparato.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência numérica em relação a KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Construcao מִזְבְּחוֹת הַנֵּכָר",
+      "escolha": "Usar 'altares estrangeiros' na BV e 'altares do estrangeiro' na literal.",
+      "justificativa": "הַנֵּכָר é substantivo singular determinado em relação construta sem nomear deuses nem povos especificos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Altares de deuses estrangeiros",
+          "motivo": "Acrescentaria um referente divino não expresso."
+        }
+      ]
+    },
+    {
+      "questao": "Objetos cultuais הַמַּצֵּבוֹת e הָאֲשֵׁרִים",
+      "escolha": "Traduzir respectivamente 'estelas' e 'aserins'.",
+      "justificativa": "A primeira forma designa pedras ou colunas erigidas; a segunda é plural masculino do objeto cultual ligado a Aserá. A transliteração de 'aserins' evita impor forma ou material não declarados.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Postes-ídolos",
+          "motivo": "Fixaria o objeto como poste e acrescentaria uma classificacao interpretativa."
+        },
+        {
+          "opcao": "Bosques",
+          "motivo": "Nao representa adequadamente o objeto cultual plural neste contexto."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A forma material e a função exata dos aserins não são especificadas pelo versículo."
+  ],
+  "justificativa": "Mantem as quatro ações de Asa, distingue os três tipos de instalação cultual e preserva os verbos remover, quebrar e cortar.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "59834506b517a69ff9d8a33aad3652a3a94c1322a20cb9e2d2d65d72b860fe4a",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

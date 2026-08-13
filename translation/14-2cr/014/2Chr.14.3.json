@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.14.3",
+    "livro": "2 Crônicas",
+    "capitulo": 14,
+    "versiculo": 3,
+    "pericope": "2Chr.14.1-14"
+  },
+  "texto_bv": "Ele disse a Judá que buscasse o SENHOR, o Deus de seus pais, e cumprisse a lei e o mandamento.",
+  "traducao_literal": "E disse a Judá para buscar o SENHOR, Deus dos pais deles, e para fazer a lei e o mandamento.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֨אמֶר֙",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "לִֽיהוּדָ֔ה",
+      "lemma": "l/3063",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "לִדְר֕וֹשׁ",
+      "lemma": "l/1875",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהֵ֣י",
+      "lemma": "430",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "אֲבוֹתֵיהֶ֑ם",
+      "lemma": "1",
+      "morfologia": "HNcmpc/Sp3mp"
+    },
+    {
+      "palavra": "וְלַעֲשׂ֖וֹת",
+      "lemma": "c/l/6213 a",
+      "morfologia": "HC/R/Vqc"
+    },
+    {
+      "palavra": "הַתּוֹרָ֥ה",
+      "lemma": "d/8451",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "וְהַמִּצְוָֽה",
+      "lemma": "c/d/4687",
+      "morfologia": "HC/Td/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação no XML OSHB: este verso corresponde a KJV 2Chr.14.4.",
+      "leituras": [
+        {
+          "leitura": "2Chr.14.3",
+          "testemunhas": "OSHB/WLC"
+        },
+        {
+          "leitura": "2Chr.14.4",
+          "testemunhas": "KJV (numeração indicada pelo OSHB)"
+        }
+      ],
+      "avaliacao": "A BV segue a numeração do texto-fonte OSHB e mantém a correspondência KJV somente no aparato.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência numérica em relação a KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Forca diretiva de וַיֹּאמֶר com dois infinitivos",
+      "escolha": "Manter 'disse a Judá que buscasse ... e cumprisse' na BV.",
+      "justificativa": "וַיֹּאמֶר é seguido por לִדְרוֹשׁ e וְלַעֲשׂוֹת, que comunicam uma determinação; 'disse que' preserva o verbo fonte sem intensificá-lo para 'ordenou'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ordenou a Judá",
+          "motivo": "Tornaria explícita uma força lexical não codificada pelo verbo dizer."
+        }
+      ]
+    },
+    {
+      "questao": "Singulares הַתּוֹרָה וְהַמִּצְוָה",
+      "escolha": "Preservar 'a lei e o mandamento'.",
+      "justificativa": "Os dois substantivos aparecem determinados e no singular; pluralizá-los apagaria a forma marcada do texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "As leis e os mandamentos",
+          "motivo": "Alteraria o número de ambos os nomes."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A intensidade pragmática da instrução introduzida por 'disse' não é lexicalizada por um verbo específico de ordem."
+  ],
+  "justificativa": "Conserva o verbo de fala, os dois infinitivos coordenados, os pais plurais de Judá e os dois substantivos cultuais no singular.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "59834506b517a69ff9d8a33aad3652a3a94c1322a20cb9e2d2d65d72b860fe4a",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

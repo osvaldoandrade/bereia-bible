@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.14.1",
+    "livro": "2 Crônicas",
+    "capitulo": 14,
+    "versiculo": 1,
+    "pericope": "2Chr.14.1-14"
+  },
+  "texto_bv": "Asa fez o que era bom e reto aos olhos do SENHOR, seu Deus.",
+  "traducao_literal": "E fez Asa o bom e o reto aos olhos do SENHOR, seu Deus.",
+  "termos_originais": [
+    {
+      "palavra": "וַיַּ֤עַשׂ",
+      "lemma": "c/6213 a",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אָסָא֙",
+      "lemma": "609",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַטּ֣וֹב",
+      "lemma": "d/2896 a",
+      "morfologia": "HTd/Aamsa"
+    },
+    {
+      "palavra": "וְהַיָּשָׁ֔ר",
+      "lemma": "c/d/3477",
+      "morfologia": "HC/Td/Aamsa"
+    },
+    {
+      "palavra": "בְּעֵינֵ֖י",
+      "lemma": "b/5869 a",
+      "morfologia": "HR/Ncbdc"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהָֽיו",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação no XML OSHB: este verso corresponde a KJV 2Chr.14.2.",
+      "leituras": [
+        {
+          "leitura": "2Chr.14.1",
+          "testemunhas": "OSHB/WLC"
+        },
+        {
+          "leitura": "2Chr.14.2",
+          "testemunhas": "KJV (numeração indicada pelo OSHB)"
+        }
+      ],
+      "avaliacao": "A BV segue a numeração do texto-fonte OSHB e mantém a correspondência KJV somente no aparato.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência numérica em relação a KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Adjetivos substantivados הַטּוֹב וְהַיָּשָׁר",
+      "escolha": "Verter na BV como 'o que era bom e reto' e conservar 'o bom e o reto' na literal.",
+      "justificativa": "Os dois adjetivos determinados funcionam substantivamente como objetos de וַיַּעַשׂ; a BV explicita a construção relativa exigida pelo português, sem transformar a avaliação em duas ações.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Asa fez o bem e a justiça",
+          "motivo": "Substituiria o adjetivo reto por um substantivo abstrato diferente."
+        }
+      ]
+    },
+    {
+      "questao": "Nomes divinos יְהוָה אֱלֹהָיו",
+      "escolha": "Traduzir 'SENHOR, seu Deus'.",
+      "justificativa": "Aplica ER-0002 ao tetragrama e preserva o sufixo masculino singular de אֱלֹהָיו, que retoma Asa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Jave",
+          "motivo": "Contraria a política vinculante de nomes divinos."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o que era"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Preserva Asa como agente, os dois qualificativos coordenados e a fórmula concreta 'aos olhos do SENHOR'.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "59834506b517a69ff9d8a33aad3652a3a94c1322a20cb9e2d2d65d72b860fe4a",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

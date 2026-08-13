@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.14.14",
+    "livro": "2 Crônicas",
+    "capitulo": 14,
+    "versiculo": 14,
+    "pericope": "2Chr.14.1-14"
+  },
+  "texto_bv": "Eles também atacaram as tendas de gado; capturaram rebanhos em abundância e camelos, e voltaram a Jerusalém.",
+  "traducao_literal": "E também as tendas de gado feriram; e capturaram rebanho em abundância e camelos, e voltaram a Jerusalém.",
+  "termos_originais": [
+    {
+      "palavra": "וְגַם",
+      "lemma": "c/1571",
+      "morfologia": "HC/Ta"
+    },
+    {
+      "palavra": "אָהֳלֵ֥י",
+      "lemma": "168",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "מִקְנֶ֖ה",
+      "lemma": "4735",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הִכּ֑וּ",
+      "lemma": "5221",
+      "morfologia": "HVhp3cp"
+    },
+    {
+      "palavra": "וַיִּשְׁבּ֨וּ",
+      "lemma": "c/7617",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "צֹ֤אן",
+      "lemma": "6629",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "לָרֹב֙",
+      "lemma": "l/7230",
+      "morfologia": "HR/Ncbsa"
+    },
+    {
+      "palavra": "וּגְמַלִּ֔ים",
+      "lemma": "c/1581",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "וַיָּשֻׁ֖בוּ",
+      "lemma": "c/7725",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "יְרוּשָׁלִָֽם",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação no XML OSHB: este verso corresponde a KJV 2Chr.14.15.",
+      "leituras": [
+        {
+          "leitura": "2Chr.14.14",
+          "testemunhas": "OSHB/WLC"
+        },
+        {
+          "leitura": "2Chr.14.15",
+          "testemunhas": "KJV (numeração indicada pelo OSHB)"
+        }
+      ],
+      "avaliacao": "A BV segue a numeração do texto-fonte OSHB e mantém a correspondência KJV somente no aparato.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência numérica em relação à KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Relação construta אָהֳלֵי מִקְנֶה",
+      "escolha": "Traduzir literalmente 'tendas de gado' sem suprir pastores ou proprietários.",
+      "justificativa": "O texto liga as tendas ao gado ou aos bens pecuários, mas não nomeia quem as ocupa nem descreve sua organização como aldeias.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Tendas dos pastores",
+          "motivo": "Acrescentaria ocupantes humanos não expressos."
+        },
+        {
+          "opcao": "Aldeias de criadores de gado",
+          "motivo": "Mudaria tendas para assentamentos permanentes e supriria uma profissão."
+        }
+      ]
+    },
+    {
+      "questao": "Coletivo צֹאן e alcance de לָרֹב",
+      "escolha": "Usar 'rebanhos em abundância e camelos', preservando a posição da expressão de quantidade.",
+      "justificativa": "צֹאן é coletivo de pequenos animais sem discriminar ovelhas e cabras; לָרֹב segue imediatamente o coletivo antes da coordenação com camelos, deixando aberto se a abundância se estende aos dois grupos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Muitas ovelhas e muitos camelos",
+          "motivo": "Restringiria o coletivo a uma espécie e faria a quantidade reger explicitamente ambos os grupos."
+        }
+      ]
+    },
+    {
+      "questao": "Destino sem preposição em וַיָּשֻׁבוּ יְרוּשָׁלַ͏ִם",
+      "escolha": "Traduzir 'voltaram a Jerusalém'.",
+      "justificativa": "O verbo de retorno rege diretamente o topônimo como destino; o português exige a preposição, sem alterar o agente plural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Voltaram de Jerusalém",
+          "motivo": "Inverteria a direção do movimento."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "As 'tendas de gado' podem ser tendas associadas aos rebanhos ou aos que os mantêm, mas os ocupantes não são nomeados.",
+    "A posição de 'em abundância' permite associação imediata aos rebanhos e possível alcance também sobre os camelos."
+  ],
+  "justificativa": "Preserva tendas, gado, o coletivo de pequenos animais, camelos e o retorno plural a Jerusalém sem acrescentar moradores ou espécies.",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "59834506b517a69ff9d8a33aad3652a3a94c1322a20cb9e2d2d65d72b860fe4a",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
