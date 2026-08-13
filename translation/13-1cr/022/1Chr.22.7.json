@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.22.7",
+    "livro": "1 Crônicas",
+    "capitulo": 22,
+    "versiculo": 7,
+    "pericope": "1Chr.22.1-19"
+  },
+  "texto_bv": "Davi disse a Salomão: “Meu filho, eu tinha no coração construir um templo para o nome do SENHOR, meu Deus.",
+  "traducao_literal": "E disse Davi a Salomão: “Meu filho, eu, estava com meu coração construir casa para o nome do SENHOR, meu Deus.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "דָּוִ֖יד",
+      "lemma": "1732",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לִשְׁלֹמֹ֑ה",
+      "lemma": "l/8010",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "בנו",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "אֲנִי֙",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "הָיָ֣ה",
+      "lemma": "1961",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "עִם",
+      "lemma": "5973 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "לְבָבִ֔י",
+      "lemma": "3824",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "לִבְנ֣וֹת",
+      "lemma": "l/1129",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "בַּ֔יִת",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְשֵׁ֖ם",
+      "lemma": "l/8034",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהָֽי",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "O aparato OSHB registra ketiv/qere no vocativo de Davi a Salomão.",
+      "leituras": [
+        {
+          "leitura": "בנו — forma consonantal sem vocalização",
+          "testemunhas": "ketiv do TM/OSHB"
+        },
+        {
+          "leitura": "בְּנִי — meu filho",
+          "testemunhas": "qere do TM/OSHB"
+        }
+      ],
+      "avaliacao": "BV e literal seguem o qere vocalizado; o ketiv permanece somente no aparato, sem pronúncia inferida.",
+      "impacto_na_traducao": "A fala começa com o vocativo de primeira pessoa ‘Meu filho’."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ketiv/qere de בנו/בְּנִי",
+      "escolha": "Seguir o qere vocalizado בְּנִי, “meu filho”, em BV e literal.",
+      "justificativa": "O ketiv é consonantal e não sustenta pronúncia portuguesa distinta; o qere fornece a primeira pessoa adequada à fala direta de Davi a Salomão.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Vocalizar autonomamente בנו como uma fala sobre ‘seu filho’",
+          "motivo": "Inventa vogais para o ketiv e rompe o vocativo direto."
+        }
+      ]
+    },
+    {
+      "questao": "Expressão אֲנִי הָיָה עִם־לְבָבִי",
+      "escolha": "Normalizar como “eu tinha no coração” na BV e conservar a construção áspera na literal.",
+      "justificativa": "A intenção de construir estava com o coração de Davi; o perfeito 3ms concorda formalmente com o conteúdo ou propósito, não com אֲנִי como verbo pessoal 1cs.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Meu coração já havia construído o templo",
+          "motivo": "Converte intenção em obra concluída."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "tinha — torna idiomática a construção de intenção com o coração",
+    "um — fornece artigo indefinido ao templo pretendido"
+  ],
+  "ambiguidades_preservadas": [
+    "A construção com הָיָה em terceira pessoa é formalmente incomum; a literal preserva a assimetria."
+  ],
+  "justificativa": "Davi fala a Salomão; vocativo, intenção interior, construção, nome do SENHOR e relação ‘meu Deus’ foram preservados.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
