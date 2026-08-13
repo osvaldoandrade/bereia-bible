@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.9.35",
+    "livro": "1 Crônicas",
+    "capitulo": 9,
+    "versiculo": 35,
+    "pericope": "1Chr.9.1-44"
+  },
+  "texto_bv": "Em Gibeom morava Jeiel, pai de Gibeom; o nome de sua mulher era Maaca.",
+  "traducao_literal": "E em Gibeom moraram o pai de Gibeom, Jeiel; e o nome de sua mulher, Maaca.",
+  "termos_originais": [
+    {
+      "palavra": "וּבְגִבְע֛וֹן",
+      "lemma": "c/b/1391",
+      "morfologia": "HC/R/Np"
+    },
+    {
+      "palavra": "יָשְׁב֥וּ",
+      "lemma": "3427",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "אֲבִֽי",
+      "lemma": "1",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "גִבְע֖וֹן",
+      "lemma": "1391",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יעואל",
+      "lemma": "3273",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְשֵׁ֥ם",
+      "lemma": "c/8034",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "אִשְׁתּ֖וֹ",
+      "lemma": "802",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "מַעֲכָֽה",
+      "lemma": "4601",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "O aparato OSHB registra ketiv/qere no nome do pai de Gibeom.",
+      "leituras": [
+        {
+          "leitura": "יעואל — forma consonantal sem vocalização",
+          "testemunhas": "ketiv do TM/OSHB"
+        },
+        {
+          "leitura": "יְעִיאֵל — Jeiel",
+          "testemunhas": "qere do TM/OSHB"
+        }
+      ],
+      "avaliacao": "A BV segue o qere vocalizado; o ketiv não recebe pronúncia independente.",
+      "impacto_na_traducao": "BV e literal usam Jeiel; a forma ketiv fica documentada somente no aparato."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ketiv/qere do nome do pai de Gibeom",
+      "escolha": "Usar Jeiel, conforme o qere vocalizado יְעִיאֵל.",
+      "justificativa": "O ketiv יעואל é consonantal; não se infere dele pronúncia distinta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Vocalizar יעואל autonomamente",
+          "motivo": "Extrapolaria a fonte sem vogais."
+        }
+      ]
+    },
+    {
+      "questao": "Plural יָשְׁבוּ diante de sujeito singular",
+      "escolha": "Normalizar para “morava” na BV e conservar “moraram” na literal.",
+      "justificativa": "O sujeito nominal expresso é “Jeiel, pai de Gibeom”; a forma verbal plural permanece auditável.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Jeiel e Maaca moraram",
+          "motivo": "Faria da mulher sujeito antecipado do verbo, relação que a fonte não explicita."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "era — cópula da frase nominal"
+  ],
+  "ambiguidades_preservadas": [
+    "A discordância entre o verbo plural e o sujeito nominal singular permanece na literal e na decisão."
+  ],
+  "justificativa": "Local, título genealógico, nome e esposa foram mantidos sem regularizar silenciosamente o verbo.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
