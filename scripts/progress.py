@@ -30,6 +30,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("16-ne", "Neh", "Neemias"),
     ("17-et", "Esth", "Ester"),
     ("18-jo", "Job", "Jó"),
+    ("20-pv", "Prov", "Provérbios"),
 ]
 
 
