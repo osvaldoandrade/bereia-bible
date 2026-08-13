@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 11351/17852 versículos.**
+**Total AT sourced: 11369/19636 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -437,7 +437,7 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 28 | 21 | ● 21/21 [DRAFT] |
 | 29 | 30 | ● 30/30 [DRAFT] |
 
-## 2 Crônicas — 152/822 versículos (18.5%), 36 capítulos
+## 2 Crônicas — 170/822 versículos (20.7%), 36 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -448,7 +448,7 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 5 | 14 | ● 14/14 [DRAFT] |
 | 6 | 42 | ● 42/42 [DRAFT] |
 | 7 | 22 | ● 22/22 [DRAFT] |
-| 8 | 18 | · pendente |
+| 8 | 18 | ● 18/18 [DRAFT] |
 | 9 | 31 | · pendente |
 | 10 | 19 | · pendente |
 | 11 | 23 | · pendente |
@@ -766,4 +766,84 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 50 | 46 | · pendente |
 | 51 | 64 | · pendente |
 | 52 | 34 | · pendente |
+
+## Lamentações — 0/154 versículos (0.0%), 5 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 22 | · pendente |
+| 2 | 22 | · pendente |
+| 3 | 66 | · pendente |
+| 4 | 22 | · pendente |
+| 5 | 22 | · pendente |
+
+## Ezequiel — 0/1273 versículos (0.0%), 48 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 28 | · pendente |
+| 2 | 10 | · pendente |
+| 3 | 27 | · pendente |
+| 4 | 17 | · pendente |
+| 5 | 17 | · pendente |
+| 6 | 14 | · pendente |
+| 7 | 27 | · pendente |
+| 8 | 18 | · pendente |
+| 9 | 11 | · pendente |
+| 10 | 22 | · pendente |
+| 11 | 25 | · pendente |
+| 12 | 28 | · pendente |
+| 13 | 23 | · pendente |
+| 14 | 23 | · pendente |
+| 15 | 8 | · pendente |
+| 16 | 63 | · pendente |
+| 17 | 24 | · pendente |
+| 18 | 32 | · pendente |
+| 19 | 14 | · pendente |
+| 20 | 44 | · pendente |
+| 21 | 37 | · pendente |
+| 22 | 31 | · pendente |
+| 23 | 49 | · pendente |
+| 24 | 27 | · pendente |
+| 25 | 17 | · pendente |
+| 26 | 21 | · pendente |
+| 27 | 36 | · pendente |
+| 28 | 26 | · pendente |
+| 29 | 21 | · pendente |
+| 30 | 26 | · pendente |
+| 31 | 18 | · pendente |
+| 32 | 32 | · pendente |
+| 33 | 33 | · pendente |
+| 34 | 31 | · pendente |
+| 35 | 15 | · pendente |
+| 36 | 38 | · pendente |
+| 37 | 28 | · pendente |
+| 38 | 23 | · pendente |
+| 39 | 29 | · pendente |
+| 40 | 49 | · pendente |
+| 41 | 26 | · pendente |
+| 42 | 20 | · pendente |
+| 43 | 27 | · pendente |
+| 44 | 31 | · pendente |
+| 45 | 25 | · pendente |
+| 46 | 24 | · pendente |
+| 47 | 23 | · pendente |
+| 48 | 35 | · pendente |
+
+## Daniel — 0/357 versículos (0.0%), 12 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 21 | · pendente |
+| 2 | 49 | · pendente |
+| 3 | 33 | · pendente |
+| 4 | 34 | · pendente |
+| 5 | 30 | · pendente |
+| 6 | 29 | · pendente |
+| 7 | 28 | · pendente |
+| 8 | 27 | · pendente |
+| 9 | 27 | · pendente |
+| 10 | 21 | · pendente |
+| 11 | 45 | · pendente |
+| 12 | 13 | · pendente |
 

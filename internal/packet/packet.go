@@ -207,6 +207,18 @@ var controlSpans = map[[2]int][]verseSpan{
 	// 9:1-25 as 9:2-26.
 	{24, 8}: {{1, 22, 8, 1}, {23, 23, 9, 1}},
 	{24, 9}: {{1, 25, 9, 2}},
+	// KJV, WEB, and Livre number OSHB Ezek 21:1-5 as 20:45-49 and
+	// OSHB 21:6-37 as 21:1-32. Truncate chapter 20 so its trailing
+	// controls cannot be attached to nonexistent OSHB verses there.
+	{26, 20}: {{1, 44, 20, 1}},
+	{26, 21}: {{1, 5, 20, 45}, {6, 37, 21, 1}},
+	// KJV, WEB, and Livre number OSHB Dan 3:31-33 as 4:1-3 and
+	// OSHB 4:1-34 as 4:4-37. They place OSHB 6:1 at 5:31 and number
+	// OSHB 6:2-29 as 6:1-28, so chapter 5 is truncated at source v30.
+	{27, 3}: {{1, 30, 3, 1}, {31, 33, 4, 1}},
+	{27, 4}: {{1, 34, 4, 4}},
+	{27, 5}: {{1, 30, 5, 1}},
+	{27, 6}: {{1, 1, 5, 31}, {2, 29, 6, 1}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.

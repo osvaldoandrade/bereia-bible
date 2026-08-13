@@ -1011,3 +1011,171 @@ func TestOSHBChapterTextMapsJeremiahVersification(t *testing.T) {
 		t.Fatal("want error when mapped Jeremiah 9:26 control is missing")
 	}
 }
+
+func TestOSHBChapterTextMapsEzekielVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":26,"chapters":[%s,%s]}]}`,
+		chapter(20, 1, 49), chapter(21, 1, 32))
+	path := write(t, dir, "ezekiel.json", control)
+
+	chapter20, err := OSHBChapterText(path, 26, 20)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter20) != 44 {
+		t.Fatalf("wrong Ezekiel 20 control count: got %d, want 44", len(chapter20))
+	}
+	for sourceVerse := 1; sourceVerse <= 44; sourceVerse++ {
+		want := fmt.Sprintf("chapter-20-verse-%d", sourceVerse)
+		if chapter20[sourceVerse] != want {
+			t.Errorf("Ezekiel 20:%d: got %q, want %q", sourceVerse, chapter20[sourceVerse], want)
+		}
+	}
+	if _, ok := chapter20[45]; ok {
+		t.Fatal("Ezekiel 20:45 control belongs to OSHB 21:1")
+	}
+
+	chapter21, err := OSHBChapterText(path, 26, 21)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter21) != 37 {
+		t.Fatalf("wrong Ezekiel 21 control count: got %d, want 37", len(chapter21))
+	}
+	for sourceVerse := 1; sourceVerse <= 37; sourceVerse++ {
+		controlChapter, controlVerse := 21, sourceVerse-5
+		if sourceVerse <= 5 {
+			controlChapter, controlVerse = 20, sourceVerse+44
+		}
+		want := fmt.Sprintf("chapter-%d-verse-%d", controlChapter, controlVerse)
+		if chapter21[sourceVerse] != want {
+			t.Errorf("Ezekiel 21:%d: got %q, want %q", sourceVerse, chapter21[sourceVerse], want)
+		}
+	}
+
+	controls, err := loadControls(Request{
+		BookNr: 26, Chapter: 21,
+		WebPath: path, KJVPath: path, LivrePath: path,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	for verse, want := range map[int]string{
+		1: "chapter-20-verse-45", 5: "chapter-20-verse-49",
+		6: "chapter-21-verse-1", 37: "chapter-21-verse-32",
+	} {
+		got := controls.forVerse(verse)
+		if got == nil || got.Web != want || got.KJV != want || got.Livre != want {
+			t.Errorf("Ezekiel 21:%d: got %+v, want all controls %q", verse, got, want)
+		}
+	}
+
+	missing := fmt.Sprintf(`{"books":[{"nr":26,"chapters":[%s,%s]}]}`,
+		chapter(20, 1, 49), chapter(21, 1, 31))
+	missingPath := write(t, dir, "ezekiel-missing.json", missing)
+	if _, err := OSHBChapterText(missingPath, 26, 21); err == nil {
+		t.Fatal("want error when mapped Ezekiel 21:32 control is missing")
+	}
+}
+
+func TestOSHBChapterTextMapsDanielVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":27,"chapters":[%s,%s,%s,%s]}]}`,
+		chapter(3, 1, 30), chapter(4, 1, 37), chapter(5, 1, 31), chapter(6, 1, 28))
+	path := write(t, dir, "daniel.json", control)
+
+	chapter3, err := OSHBChapterText(path, 27, 3)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for sourceVerse := 1; sourceVerse <= 33; sourceVerse++ {
+		controlChapter, controlVerse := 3, sourceVerse
+		if sourceVerse >= 31 {
+			controlChapter, controlVerse = 4, sourceVerse-30
+		}
+		want := fmt.Sprintf("chapter-%d-verse-%d", controlChapter, controlVerse)
+		if chapter3[sourceVerse] != want {
+			t.Errorf("Daniel 3:%d: got %q, want %q", sourceVerse, chapter3[sourceVerse], want)
+		}
+	}
+
+	chapter4, err := OSHBChapterText(path, 27, 4)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for sourceVerse := 1; sourceVerse <= 34; sourceVerse++ {
+		want := fmt.Sprintf("chapter-4-verse-%d", sourceVerse+3)
+		if chapter4[sourceVerse] != want {
+			t.Errorf("Daniel 4:%d: got %q, want %q", sourceVerse, chapter4[sourceVerse], want)
+		}
+	}
+
+	chapter5, err := OSHBChapterText(path, 27, 5)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter5) != 30 || chapter5[30] != "chapter-5-verse-30" {
+		t.Fatalf("wrong Daniel 5 mapping: len=%d 30=%q", len(chapter5), chapter5[30])
+	}
+	if _, ok := chapter5[31]; ok {
+		t.Fatal("Daniel 5:31 control belongs to OSHB 6:1")
+	}
+
+	chapter6, err := OSHBChapterText(path, 27, 6)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for sourceVerse := 1; sourceVerse <= 29; sourceVerse++ {
+		controlChapter, controlVerse := 6, sourceVerse-1
+		if sourceVerse == 1 {
+			controlChapter, controlVerse = 5, 31
+		}
+		want := fmt.Sprintf("chapter-%d-verse-%d", controlChapter, controlVerse)
+		if chapter6[sourceVerse] != want {
+			t.Errorf("Daniel 6:%d: got %q, want %q", sourceVerse, chapter6[sourceVerse], want)
+		}
+	}
+
+	controls, err := loadControls(Request{
+		BookNr: 27, Chapter: 6,
+		WebPath: path, KJVPath: path, LivrePath: path,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	for verse, want := range map[int]string{
+		1: "chapter-5-verse-31", 2: "chapter-6-verse-1", 29: "chapter-6-verse-28",
+	} {
+		got := controls.forVerse(verse)
+		if got == nil || got.Web != want || got.KJV != want || got.Livre != want {
+			t.Errorf("Daniel 6:%d: got %+v, want all controls %q", verse, got, want)
+		}
+	}
+
+	missing := fmt.Sprintf(`{"books":[{"nr":27,"chapters":[%s,%s]}]}`,
+		chapter(5, 1, 31), chapter(6, 1, 27))
+	missingPath := write(t, dir, "daniel-missing.json", missing)
+	if _, err := OSHBChapterText(missingPath, 27, 6); err == nil {
+		t.Fatal("want error when mapped Daniel 6:28 control is missing")
+	}
+}
