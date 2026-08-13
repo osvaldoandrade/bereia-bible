@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.2.52",
+    "livro": "1 Crônicas",
+    "capitulo": 2,
+    "versiculo": 52,
+    "pericope": "1Chr.2.1-55"
+  },
+  "texto_bv": "Sobal, pai de Quiriate-Jearim, teve filhos: Haroé, metade dos Menuote.",
+  "traducao_literal": "E houve filhos para Sobal, pai de Quiriate-Jearim: Haroé, metade dos Menuote.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּהְי֤וּ",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "בָנִים֙",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לְשׁוֹבָ֔ל",
+      "lemma": "l/7732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אֲבִ֖י",
+      "lemma": "1",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "קִרְיַ֣ת",
+      "lemma": "7157+",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יְעָרִ֑ים",
+      "lemma": "7157",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הָרֹאֶ֖ה",
+      "lemma": "7204",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "חֲצִ֥י",
+      "lemma": "2679+",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַמְּנֻחֽוֹת",
+      "lemma": "d/2679",
+      "morfologia": "HTd/Np"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota exegética OSHB registra a divisão de palavra do WLC em הָ/רֹאֶה, enquanto o packet apresenta הָרֹאֶה como uma unidade com lema próprio H7204.",
+      "leituras": [
+        {
+          "leitura": "הָרֹאֶה como uma unidade nominal própria",
+          "testemunhas": "packet OSHB, lema H7204"
+        },
+        {
+          "leitura": "הָ/רֹאֶה com divisão de artigo e forma verbal/participial",
+          "testemunhas": "nota de divisão de palavra do WLC no OSHB XML"
+        }
+      ],
+      "avaliacao": "A BV conserva “Haroé”, seguindo a unidade e a lematização próprias do packet; a divisão alternativa é preservada no aparato, não adotada como emenda.",
+      "impacto_na_traducao": "A leitura principal produz o nome “Haroé”; a divisão alternativa permitiria entender “o vidente”."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Leitura nominal de הָרֹאֶה e do grupo הַמְּנֻחוֹת",
+      "escolha": "Transliterar como os nomes “Haroé” e “Menuote”, sem converter o primeiro em título.",
+      "justificativa": "O packet atribui a הָרֹאֶה lema próprio H7204 e a הַמְּנֻחוֹת lema próprio; a nota de divisão não oferece testemunho para substituir a análise nominal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o vidente",
+          "motivo": "Trata a divisão gráfica como mudança lexical contra a lematização própria do packet."
+        },
+        {
+          "opcao": "manatitas",
+          "motivo": "Converte sem marca morfológica explícita o nome plural em gentílico."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A forma הָרֹאֶה pode ser segmentada graficamente como artigo mais particípio “o vidente”; a tradução segue a lematização própria sem ocultar essa possibilidade.",
+    "A ausência de conjunção entre Haroé e “metade dos Menuote” permite relação apositiva ou enumeração; a vírgula não força uma das duas."
+  ],
+  "justificativa": "A fórmula nominal difícil é conservada com os nomes próprios fornecidos pela análise OSHB, e a divisão alternativa de Haroé fica integralmente auditada.",
+  "confianca": 0.48,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

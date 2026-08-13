@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.2.3",
+    "livro": "1 Crônicas",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "1Chr.2.1-55"
+  },
+  "texto_bv": "Os filhos de Judá foram Er, Onã e Selá. Esses três lhe nasceram da filha de Sua, a cananeia. Er, primogênito de Judá, era mau aos olhos do SENHOR, e o SENHOR o matou.",
+  "traducao_literal": "Filhos de Judá: Er, e Onã, e Selá; três nasceu para ele da filha de Sua, a cananeia. E era Er, primogênito de Judá, mau aos olhos do SENHOR, e ele o fez morrer.",
+  "termos_originais": [
+    {
+      "palavra": "בְּנֵ֣י",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יְהוּדָ֗ה",
+      "lemma": "3063",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עֵ֤ר",
+      "lemma": "6147",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאוֹנָן֙",
+      "lemma": "c/209",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וְשֵׁלָ֔ה",
+      "lemma": "c/7956",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "שְׁלוֹשָׁה֙",
+      "lemma": "7969",
+      "morfologia": "HAcmsa"
+    },
+    {
+      "palavra": "נ֣וֹלַד",
+      "lemma": "3205",
+      "morfologia": "HVNp3ms"
+    },
+    {
+      "palavra": "ל֔וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "מִבַּת",
+      "lemma": "m/1323",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "שׁ֖וּעַ",
+      "lemma": "7774",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַֽכְּנַעֲנִ֑ית",
+      "lemma": "d/3669 a",
+      "morfologia": "HTd/Ngfsa"
+    },
+    {
+      "palavra": "וַיְהִ֞י",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "עֵ֣ר",
+      "lemma": "6147",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּכ֣וֹר",
+      "lemma": "1060",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוּדָ֗ה",
+      "lemma": "3063",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "רַ֛ע",
+      "lemma": "7451 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "בְּעֵינֵ֥י",
+      "lemma": "b/5869 a",
+      "morfologia": "HR/Ncbdc"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַיְמִיתֵֽהוּ",
+      "lemma": "c/4191",
+      "morfologia": "HC/Vhw3ms/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Agente de וַיְמִיתֵהוּ",
+      "escolha": "Explicitar “o SENHOR” na BV e conservar “ele o fez morrer” no literal.",
+      "justificativa": "O pronome sujeito do hifil retoma inequivocamente o SENHOR da oração anterior; a explicitação evita uma referência opaca em português sem mudar o agente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ele o matou",
+          "motivo": "A referência pronominal fica menos clara na BV depois da oração relativa."
+        },
+        {
+          "opcao": "ele morreu",
+          "motivo": "Apaga o agente e a causatividade do hifil."
+        }
+      ],
+      "diretriz_ref": "ER-0003"
+    },
+    {
+      "questao": "Número de נוֹלַד após “três”",
+      "escolha": "Usar o plural idiomático “nasceram” na BV e manter o singular morfológico “nasceu” no literal.",
+      "justificativa": "O packet marca נוֹלַד como terceira pessoa masculina singular, embora o numeral e os três nomes tenham referência plural; a camada literal torna a forma auditável.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "nasceu na BV",
+          "motivo": "A discordância comprometeria a legibilidade da camada publicada."
+        },
+        {
+          "opcao": "nasceram também no literal",
+          "motivo": "Apagaria o número morfológico da forma verbal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "foram — fornece a cópula à lista nominal",
+    "Esses — retoma os três nomes como sujeito da oração seguinte",
+    "o SENHOR — explicita na BV o sujeito pronominal retomado pelo hifil"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "A tradução conserva os três filhos, a origem materna, o juízo moral aos olhos do SENHOR e a ação causativa cujo agente é o SENHOR.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

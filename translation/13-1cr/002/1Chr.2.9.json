@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.2.9",
+    "livro": "1 Crônicas",
+    "capitulo": 2,
+    "versiculo": 9,
+    "pericope": "1Chr.2.1-55"
+  },
+  "texto_bv": "Os filhos que nasceram a Hezrom foram Jerameel, Rão e Quelubai.",
+  "traducao_literal": "E filhos de Hezrom, que nasceu para ele: Jerameel, e Rão, e Quelubai.",
+  "termos_originais": [
+    {
+      "palavra": "וּבְנֵ֥י",
+      "lemma": "c/1121 a",
+      "morfologia": "HC/Ncmpc"
+    },
+    {
+      "palavra": "חֶצְר֖וֹן",
+      "lemma": "2696",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "נוֹלַד",
+      "lemma": "3205",
+      "morfologia": "HVNp3ms"
+    },
+    {
+      "palavra": "ל֑וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְרַחְמְאֵ֥ל",
+      "lemma": "3396",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "רָ֖ם",
+      "lemma": "7410",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "כְּלוּבָֽי",
+      "lemma": "3621",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Discordância entre o antecedente plural e נוֹלַד no singular",
+      "escolha": "Concordância plural idiomática na BV e singular morfológico preservado no literal.",
+      "justificativa": "O particípio/passivo perfeito está marcado como masculino singular no packet, embora a lista contenha três filhos; a camada literal torna a tensão auditável.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "corrigir silenciosamente também o literal para “nasceram”",
+          "motivo": "Apagaria uma assimetria morfológica da fonte."
+        },
+        {
+          "opcao": "usar o singular agramatical na BV",
+          "motivo": "Comprometeria a legibilidade editorial da camada publicada."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "foram — fornece a cópula que introduz os três nomes na BV"
+  ],
+  "ambiguidades_preservadas": [
+    "A forma verbal singular junto da fórmula plural é visível no literal e não foi emendada."
+  ],
+  "justificativa": "Os três descendentes e a relação com Hezrom são mantidos; a discordância de número fica documentada e preservada na camada literal.",
+  "confianca": 0.58,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

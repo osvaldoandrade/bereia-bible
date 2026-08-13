@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.2.18",
+    "livro": "1 Crônicas",
+    "capitulo": 2,
+    "versiculo": 18,
+    "pericope": "1Chr.2.1-55"
+  },
+  "texto_bv": "Calebe, filho de Hezrom, teve filhos com Azuba, uma esposa, e com Jeriote. Os filhos dela foram Jeser, Sobabe e Ardom.",
+  "traducao_literal": "E Calebe, filho de Hezrom, gerou Azuba, mulher, e com Jeriote; e estes, seus filhos: Jeser, e Sobabe, e Ardom.",
+  "termos_originais": [
+    {
+      "palavra": "וְכָלֵ֣ב",
+      "lemma": "c/3612",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "חֶצְר֗וֹן",
+      "lemma": "2696",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הוֹלִ֛יד",
+      "lemma": "3205",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "עֲזוּבָ֥ה",
+      "lemma": "5806",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אִשָּׁ֖ה",
+      "lemma": "802",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/854",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "יְרִיע֑וֹת",
+      "lemma": "3408",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאֵ֣לֶּה",
+      "lemma": "c/428",
+      "morfologia": "HC/Pdxcp"
+    },
+    {
+      "palavra": "בָנֶ֔יהָ",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc/Sp3fs"
+    },
+    {
+      "palavra": "יֵ֥שֶׁר",
+      "lemma": "3475",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְשׁוֹבָ֖ב",
+      "lemma": "c/7727",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וְאַרְדּֽוֹן",
+      "lemma": "c/715",
+      "morfologia": "HC/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Construção de הוֹלִיד אֶת־עֲזוּבָה אִשָּׁה וְאֶת־יְרִיעוֹת",
+      "escolha": "Na BV, expressar Azuba e Jeriote como mulheres com quem Calebe teve filhos; no literal, manter Azuba como objeto de “gerou” e Jeriote regida por “com”.",
+      "justificativa": "O OSHB analisa o primeiro אֶת como marcador de objeto H853 e o segundo como preposição H854, “com”. O contexto genealógico e “estes, seus filhos” favorecem uma elipse relacional na BV, mas a camada literal conserva a assimetria sintática da superfície.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Calebe gerou Azuba e Jeriote como filhas",
+          "motivo": "Não acomoda naturalmente “mulher/esposa” nem a sequência “estes, seus filhos”."
+        },
+        {
+          "opcao": "apagar Jeriote da relação",
+          "motivo": "Jeriote é objeto coordenado explícito na fonte."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "teve filhos com — explicita na BV a relação elíptica expressa pelo hifil genealógico",
+    "uma — fornece a determinação indefinida exigida por “esposa” em português",
+    "foram — fornece a cópula da lista nominal"
+  ],
+  "ambiguidades_preservadas": [
+    "A função sintática de Azuba e Jeriote diante do hifil “gerou” permanece discutível; o literal conserva o objeto direto seguido da expressão preposicionada.",
+    "O sufixo feminino singular de “seus filhos” pode retomar Azuba ou Jeriote; a BV não identifica além de “dela”."
+  ],
+  "justificativa": "A BV oferece uma leitura genealógica inteligível sem ocultar que a construção hebraica admite outra análise, preservada no literal e no ledger.",
+  "confianca": 0.48,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
