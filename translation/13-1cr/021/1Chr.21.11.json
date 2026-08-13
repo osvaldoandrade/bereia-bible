@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.21.11",
+    "livro": "1 Crônicas",
+    "capitulo": 21,
+    "versiculo": 11,
+    "pericope": "1Chr.21.1-30"
+  },
+  "texto_bv": "Gade foi até Davi e lhe disse: “Assim diz o SENHOR: ‘Aceite para você:’”",
+  "traducao_literal": "E veio Gade a Davi, e disse a ele: “Assim disse o SENHOR: ‘Receba para você:’”",
+  "termos_originais": [
+    {
+      "palavra": "וַיָּ֥בֹא",
+      "lemma": "c/935",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "גָ֖ד",
+      "lemma": "1410",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "דָּוִ֑יד",
+      "lemma": "1732",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "ל֛וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "כֹּֽה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אָמַ֥ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "קַבֶּל",
+      "lemma": "6901",
+      "morfologia": "HVpv2ms"
+    },
+    {
+      "palavra": "לָֽךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Imperativo קַבֶּל־לָךְ e encadeamento da citação",
+      "escolha": "Verter como ‘Aceite para você’ e sinalizar que a lista vem no verso seguinte.",
+      "justificativa": "קַבֶּל é imperativo Piel de segunda pessoa masculina singular, seguido por לָךְ; a fórmula ‘Assim diz o SENHOR’ introduz a mensagem divina transmitida por Gade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Escolha para você",
+          "motivo": "Anteciparia o verbo de escolha já expresso no v. 10 e apagaria o lexema distinto קבל."
+        }
+      ]
+    },
+    {
+      "questao": "לָךְ formalmente 2fs após imperativo masculino",
+      "escolha": "Manter Davi como destinatário masculino nas duas camadas e registrar a anomalia morfológica.",
+      "justificativa": "קַבֵּל é 2ms e Davi é o destinatário, mas packet/XML marcam לָךְ como Sp2fs.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Mudar o destinatário para feminino",
+          "motivo": "Contradiria Davi como destinatário e o imperativo masculino."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "O objeto do imperativo não é repetido; ele aponta para as três opções enumeradas a seguir.",
+    "לָךְ está formalmente marcado 2fs, embora o imperativo seja 2ms e o destinatário seja Davi."
+  ],
+  "justificativa": "Movimento de Gade, destinatário, fórmula divina e imperativo singular foram preservados.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
