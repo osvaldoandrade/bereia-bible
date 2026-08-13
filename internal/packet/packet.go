@@ -154,6 +154,11 @@ var controlSpans = map[[2]int][]verseSpan{
 	// between 22:43-44. Both OSHB verses are intentionally left without a
 	// control rather than attaching the same mixed control text to either one.
 	{11, 22}: {{1, 42, 22, 1}, {45, 54, 22, 44}},
+	// KJV, WEB, and Livre place OSHB 2Kgs 12:1 at 11:21, then number
+	// OSHB 12:2-22 as 12:1-21. Truncate chapter 11 so its trailing control
+	// cannot appear as a nonexistent OSHB 11:21.
+	{12, 11}: {{1, 20, 11, 1}},
+	{12, 12}: {{1, 1, 11, 21}, {2, 22, 12, 1}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.
