@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.4.7",
+    "livro": "1 Crônicas",
+    "capitulo": 4,
+    "versiculo": 7,
+    "pericope": "1Chr.4.1-43"
+  },
+  "texto_bv": "Os filhos de Helá: Zeret, Zoar e Etnã.",
+  "traducao_literal": "E os filhos de Helá: Zeret, Zoar e Etnã.",
+  "termos_originais": [
+    {
+      "palavra": "וּבְנֵ֖י",
+      "lemma": "c/1121 a",
+      "morfologia": "HC/Ncmpc"
+    },
+    {
+      "palavra": "חֶלְאָ֑ה",
+      "lemma": "2458",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צֶ֥רֶת",
+      "lemma": "6889",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יצחר",
+      "lemma": "3328",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאֶתְנָֽן",
+      "lemma": "c/869",
+      "morfologia": "HC/Np"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Ketiv יצחר e qere וְ/צֹ֖חַר no segundo nome da lista.",
+      "leituras": [
+        {
+          "leitura": "יצחר — forma consonantal sem vocalização",
+          "testemunhas": "ketiv OSHB/WLC"
+        },
+        {
+          "leitura": "וְ/צֹ֖חַר — e Zoar",
+          "testemunhas": "qere OSHB/WLC"
+        }
+      ],
+      "avaliacao": "A BV e a literal seguem o qere vocalizado; a forma consonantal do ketiv permanece em termos_originais e neste aparato.",
+      "impacto_na_traducao": "O texto traduzido traz Zoar e a conjunção do qere; o aparato preserva a grafia consonantal distinta do ketiv."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Leitura do segundo filho de Helá",
+      "escolha": "Zoar na BV e na literal, com o ketiv preservado no aparato.",
+      "justificativa": "O qere oferece vocalização completa e explicita a conjunção; o ketiv está sem vogais e não autoriza uma pronúncia portuguesa distinta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Uniformizar uma única grafia sem aparato",
+          "motivo": "Ocultaria uma variante formal da fonte pinada."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "O ketiv preserva uma sequência consonantal distinta, sem vocalização; nenhuma pronúncia portuguesa é inferida para ela."
+  ],
+  "justificativa": "Os três filhos foram mantidos e o único aparato deste verso foi registrado integralmente.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

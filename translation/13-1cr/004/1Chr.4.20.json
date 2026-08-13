@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.4.20",
+    "livro": "1 Crônicas",
+    "capitulo": 4,
+    "versiculo": 20,
+    "pericope": "1Chr.4.1-43"
+  },
+  "texto_bv": "Os filhos de Simom: Amnom, Rina, Ben-Hanã e Tilon. Os filhos de Isi: Zoete e Ben-Zoete.",
+  "traducao_literal": "E os filhos de Simom: Amnom e Rina, Ben-Hanã e Tilon; e os filhos de Isi: Zoete e Ben-Zoete.",
+  "termos_originais": [
+    {
+      "palavra": "וּבְנֵ֣י",
+      "lemma": "c/1121 a",
+      "morfologia": "HC/Ncmpc"
+    },
+    {
+      "palavra": "שִׁימ֔וֹן",
+      "lemma": "7889",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אַמְנ֣וֹן",
+      "lemma": "550",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְרִנָּ֔ה",
+      "lemma": "c/7441",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1135+",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "חָנָ֖ן",
+      "lemma": "1135",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "ותולון",
+      "lemma": "c/8436",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וּבְנֵ֣י",
+      "lemma": "c/1121 a",
+      "morfologia": "HC/Ncmpc"
+    },
+    {
+      "palavra": "יִשְׁעִ֔י",
+      "lemma": "3469",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "זוֹחֵ֖ת",
+      "lemma": "2105",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּבֶן",
+      "lemma": "c/1132+",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "זוֹחֵֽת",
+      "lemma": "1132",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Ketiv ו/תולון e qere וְ/תִיל֑וֹן no quarto filho de Simom.",
+      "leituras": [
+        {
+          "leitura": "ו/תולון — forma consonantal sem vocalização",
+          "testemunhas": "ketiv OSHB/WLC"
+        },
+        {
+          "leitura": "וְ/תִיל֑וֹן — e Tilon",
+          "testemunhas": "qere OSHB/WLC"
+        }
+      ],
+      "avaliacao": "A BV e a literal seguem o qere vocalizado; a forma consonantal do ketiv permanece em termos_originais e neste aparato.",
+      "impacto_na_traducao": "O texto traduzido traz Tilon; o aparato preserva a grafia consonantal distinta do ketiv."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Leitura do quarto filho de Simom",
+      "escolha": "Tilon na BV e na literal, com o ketiv preservado no aparato.",
+      "justificativa": "O qere oferece vocalização completa; o ketiv está sem vogais e não autoriza uma pronúncia portuguesa distinta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Uma única forma sem nota",
+          "motivo": "Perderia a distinção ketiv/qere."
+        }
+      ]
+    },
+    {
+      "questao": "Unidades nominais בֶּן־חָנָן e וּבֶן־זוֹחֵת",
+      "escolha": "Ben-Hanã e Ben-Zoete como nomes compostos.",
+      "justificativa": "Os lemas 1135+/1135 e 1132+/1132 marcam cada par como unidade própria, não como relação sintática pai–filho.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "filho de Hanã / filho de Zoete",
+          "motivo": "Desfaz nomes próprios explicitamente marcados no packet."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "O ketiv preserva uma sequência consonantal distinta, sem vocalização; nenhuma pronúncia portuguesa é inferida para ela."
+  ],
+  "justificativa": "Os dois grupos, os compostos e o qere do quarto nome foram mantidos com auditabilidade completa.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
