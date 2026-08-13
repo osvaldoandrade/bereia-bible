@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.3.14",
+    "livro": "2 Crônicas",
+    "capitulo": 3,
+    "versiculo": 14,
+    "pericope": "2Chr.3.1-17"
+  },
+  "texto_bv": "Ele fez o véu de tecido azul, púrpura, carmesim e linho fino, e aplicou querubins sobre ele.",
+  "traducao_literal": "E fez o véu: azul, e púrpura, e carmesim, e linho fino; e fez subir sobre ele querubins.",
+  "termos_originais": [
+    {
+      "palavra": "וַיַּ֨עַשׂ֙",
+      "lemma": "c/6213 a",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הַפָּרֹ֔כֶת",
+      "lemma": "d/6532",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "תְּכֵ֥לֶת",
+      "lemma": "8504",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְאַרְגָּמָ֖ן",
+      "lemma": "c/713",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "וְכַרְמִ֣יל",
+      "lemma": "c/3758",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "וּב֑וּץ",
+      "lemma": "c/948",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "וַיַּ֥עַל",
+      "lemma": "c/5927",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "עָלָ֖יו",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "כְּרוּבִֽים",
+      "lemma": "3742",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Rendição ornamental de וַיַּעַל עָלָיו כְּרוּבִים",
+      "escolha": "Usar ‘aplicou querubins sobre ele’ na BV e conservar ‘fez subir’ na literal.",
+      "justificativa": "O hifil de עלה descreve a colocação dos querubins sobre o véu, mas não especifica se foram bordados, tecidos ou presos por outra técnica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Bordou querubins",
+          "motivo": "Nomearia uma técnica que o verbo não codifica."
+        },
+        {
+          "opcao": "Pintou querubins",
+          "motivo": "Também acrescentaria um método ausente."
+        }
+      ]
+    },
+    {
+      "questao": "Sufixo masculino עָלָיו com הַפָּרֹכֶת feminina",
+      "escolha": "Conservar ‘sobre ele’ porque ‘véu’ é masculino em português e registrar a assimetria da fonte.",
+      "justificativa": "הַפָּרֹכֶת é Ncfsa, mas עָלָיו porta Sp3ms; a BV não troca o referente nem inventa outro antecedente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Sobre ela",
+          "motivo": "Quebraria a concordância portuguesa com ‘véu’ sem resolver a assimetria morfológica da fonte."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "tecido"
+  ],
+  "ambiguidades_preservadas": [
+    "A técnica pela qual os querubins foram postos sobre o véu não é especificada.",
+    "עָלָיו traz sufixo masculino apesar de הַפָּרֹכֶת ser feminino; a BV conserva o referente como ‘véu’, masculino em português."
+  ],
+  "justificativa": "Os quatro materiais ou cores e os querubins aplicados foram preservados sem inferir técnica artesanal.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "841da0dbc7c010b52998ce483ebc4b9ad0db87e6fa1e54fccda5148b023bcfca",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

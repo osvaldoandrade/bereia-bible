@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.3.13",
+    "livro": "2 Crônicas",
+    "capitulo": 3,
+    "versiculo": 13,
+    "pericope": "2Chr.3.1-17"
+  },
+  "texto_bv": "As asas desses querubins estendiam-se por vinte côvados. Eles estavam de pé sobre seus pés, com os rostos voltados para a casa.",
+  "traducao_literal": "As asas destes querubins estendidas, vinte côvados; e eles estavam de pé sobre seus pés, e seus rostos, para a casa.",
+  "termos_originais": [
+    {
+      "palavra": "כַּנְפֵי֙",
+      "lemma": "3671",
+      "morfologia": "HNcfdc"
+    },
+    {
+      "palavra": "הַכְּרוּבִ֣ים",
+      "lemma": "d/3742",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "הָאֵ֔לֶּה",
+      "lemma": "d/428",
+      "morfologia": "HTd/Pdxcp"
+    },
+    {
+      "palavra": "פֹּֽרְשִׂ֖ים",
+      "lemma": "6566",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "אַמּ֣וֹת",
+      "lemma": "520 a",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "עֶשְׂרִ֑ים",
+      "lemma": "6242",
+      "morfologia": "HAcbpa"
+    },
+    {
+      "palavra": "וְהֵ֛ם",
+      "lemma": "c/1992",
+      "morfologia": "HC/Pp3mp"
+    },
+    {
+      "palavra": "עֹמְדִ֥ים",
+      "lemma": "5975",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "רַגְלֵיהֶ֖ם",
+      "lemma": "7272",
+      "morfologia": "HNcfdc/Sp3mp"
+    },
+    {
+      "palavra": "וּפְנֵיהֶ֥ם",
+      "lemma": "c/6440",
+      "morfologia": "HC/Ncbpc/Sp3mp"
+    },
+    {
+      "palavra": "לַבָּֽיִת",
+      "lemma": "l/1004 b",
+      "morfologia": "HRd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Número de פְנֵיהֶם e direção לַבָּיִת",
+      "escolha": "Manter ‘rostos’ no plural e explicitar apenas a relação predicativa ‘voltados para’ na BV.",
+      "justificativa": "פְנֵיהֶם é plural com sufixo 3mp; a frase nominal fornece a direção para a casa sem verbo expresso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Com o rosto voltado",
+          "motivo": "Normalizaria para singular uma forma nominal explicitamente plural."
+        }
+      ]
+    },
+    {
+      "questao": "Gênero de פֹרְשִׂים após כַּנְפֵי",
+      "escolha": "Manter ‘as asas ... estendiam-se’ e registrar o particípio masculino plural.",
+      "justificativa": "כַּנְפֵי é feminino dual construto, enquanto פֹרְשִׂים está marcado HVqrmpa e pode refletir concordância semântica com os querubins masculinos; o pronome הֵם seguinte retoma claramente os querubins.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Os querubins estendiam-se",
+          "motivo": "Tiraria ‘asas’ da posição de sujeito na primeira oração."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "voltados"
+  ],
+  "ambiguidades_preservadas": [
+    "פֹרְשִׂים é masculino plural após כַּנְפֵי, feminino dual construto; pode haver concordância semântica com os querubins, sem que a BV retire as asas da posição frontal."
+  ],
+  "justificativa": "Foram preservados o vão de vinte côvados, a postura sobre os próprios pés e a orientação plural dos rostos.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "841da0dbc7c010b52998ce483ebc4b9ad0db87e6fa1e54fccda5148b023bcfca",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
