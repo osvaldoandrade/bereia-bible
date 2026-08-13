@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Sam.13.1",
+    "livro": "1 Samuel",
+    "capitulo": 13,
+    "versiculo": 1,
+    "pericope": "1Sam.13.1-23"
+  },
+  "texto_bv": "Saul tinha ... anos quando começou a reinar, e reinou dois anos sobre Israel.",
+  "traducao_literal": "Filho de um ano era Saul ao reinar, e dois anos reinou sobre Israel.",
+  "termos_originais": [
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "שָׁנָ֖ה",
+      "lemma": "8141",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "שָׁא֣וּל",
+      "lemma": "7586",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּמָלְכ֑וֹ",
+      "lemma": "b/4427 a",
+      "morfologia": "HR/Vqc/Sp3ms"
+    },
+    {
+      "palavra": "וּשְׁתֵּ֣י",
+      "lemma": "c/8147",
+      "morfologia": "HC/Acfdc"
+    },
+    {
+      "palavra": "שָׁנִ֔ים",
+      "lemma": "8141",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "מָלַ֖ךְ",
+      "lemma": "4427 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יִשְׂרָאֵֽל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como representar a fórmula regnal textualmente defeituosa?",
+      "escolha": "“Saul tinha ... anos quando começou a reinar”",
+      "justificativa": "בֶּן־שָׁנָה produz literalmente “filho de um ano”, idade historicamente impossível na fórmula. A BV marca a lacuna sem importar numeral externo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Saul tinha um ano",
+          "motivo": "Transforma a forma defeituosa em idade biologicamente afirmada."
+        },
+        {
+          "opcao": "Saul tinha quarenta anos",
+          "motivo": "Importa número ausente do packet."
+        }
+      ]
+    },
+    {
+      "questao": "Como tratar וּשְׁתֵּי שָׁנִים?",
+      "escolha": "“reinou dois anos sobre Israel”",
+      "justificativa": "O numeral dois está presente e é mantido; a auditoria registra que a duração da fórmula pode estar incompleta, sem completá-la.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "reinou quarenta e dois anos",
+          "motivo": "Acrescenta dezenas ausentes."
+        },
+        {
+          "opcao": "não reinou sobre Israel",
+          "motivo": "Inverte a afirmação."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "..."
+  ],
+  "ambiguidades_preservadas": [
+    "A idade de Saul não foi preservada de modo utilizável na fórmula massorética.",
+    "Embora “dois anos” esteja escrito, a duração completa do reinado pode não ter sido preservada; a BV não emenda nem harmoniza."
+  ],
+  "justificativa": "A extrema dificuldade textual é exposta: a idade fica lacunar, o dois existente é traduzido e nenhum número externo é inserido.",
+  "confianca": 0.36,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
