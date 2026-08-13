@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.10.9",
+    "livro": "1 Crônicas",
+    "capitulo": 10,
+    "versiculo": 9,
+    "pericope": "1Chr.10.1-14"
+  },
+  "texto_bv": "Eles despiram Saul, levaram sua cabeça e suas armas e mandaram anunciar por toda a terra dos filisteus a boa notícia aos seus ídolos e ao povo.",
+  "traducao_literal": "E o despiram, e levaram sua cabeça e suas armas; e enviaram pela terra dos filisteus ao redor, para anunciar boas-novas a seus ídolos e ao povo.",
+  "termos_originais": [
+    {
+      "palavra": "וַיַּ֨פְשִׁיטֻ֔הוּ",
+      "lemma": "c/6584",
+      "morfologia": "HC/Vhw3mp/Sp3ms"
+    },
+    {
+      "palavra": "וַיִּשְׂא֥וּ",
+      "lemma": "c/5375",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "רֹאשׁ֖וֹ",
+      "lemma": "7218 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "כֵּלָ֑יו",
+      "lemma": "3627",
+      "morfologia": "HNcmpc/Sp3ms"
+    },
+    {
+      "palavra": "וַיְשַׁלְּח֨וּ",
+      "lemma": "c/7971",
+      "morfologia": "HC/Vpw3mp"
+    },
+    {
+      "palavra": "בְאֶֽרֶץ",
+      "lemma": "b/776",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "פְלִשְׁתִּ֜ים",
+      "lemma": "6430",
+      "morfologia": "HNgmpa"
+    },
+    {
+      "palavra": "סָבִ֗יב",
+      "lemma": "5439",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "לְבַשֵּׂ֛ר",
+      "lemma": "l/1319",
+      "morfologia": "HR/Vpc"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "עֲצַבֵּיהֶ֖ם",
+      "lemma": "6091",
+      "morfologia": "HNcmpc/Sp3mp"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "הָעָֽם",
+      "lemma": "d/5971 a",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota editorial OSHB n=1 junto de פְלִשְׁתִּים: a BHS conserva a forma do Códice de Leningrado apesar de possível dúvida sobre sua validade.",
+      "leituras": [
+        {
+          "leitura": "פְלִשְׁתִּים, forma preservada no texto",
+          "testemunhas": "OSHB/WLC; BHS"
+        }
+      ],
+      "avaliacao": "A forma da fonte pinada é mantida; a nota não propõe qere nem leitura alternativa.",
+      "impacto_na_traducao": "Nenhum: a referência à terra dos filisteus permanece inalterada."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Objeto elíptico de וַיְשַׁלְּחוּ antes do infinitivo לְבַשֵּׂר",
+      "escolha": "A BV usa a construção impessoal ‘mandaram anunciar’, sem inserir mensageiros; a literal deixa ‘enviaram’ sem objeto expresso.",
+      "justificativa": "A forma verbal é plural, mas não há substantivo que nomeie aquilo ou aqueles que foram enviados; o infinitivo expressa a finalidade de anunciar boas-novas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "enviaram mensageiros",
+          "motivo": "Nomearia participantes que o hebraico deixa elípticos."
+        },
+        {
+          "opcao": "enviaram sua cabeça",
+          "motivo": "Transformaria o objeto da oração anterior em objeto não marcado de וַיְשַׁלְּחוּ."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Eles — explicita na BV o sujeito plural retomado dos filisteus do versículo anterior",
+    "Saul — explicita na BV o referente do sufixo masculino singular de וַיַּפְשִׁיטֻהוּ"
+  ],
+  "ambiguidades_preservadas": [
+    "A fonte não declara o objeto de ‘enviaram’; a literal conserva a elipse."
+  ],
+  "justificativa": "O plural agente retomado, Saul como objeto, cabeça e armas, a circulação pela terra e os destinatários ídolos e povo foram mantidos; a única nota XML do capítulo foi registrada.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
