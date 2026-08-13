@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.9.5",
+    "livro": "2 Crônicas",
+    "capitulo": 9,
+    "versiculo": 5,
+    "pericope": "2Chr.9.1-31"
+  },
+  "texto_bv": "Ela disse ao rei: “É verdadeiro o relato que ouvi em minha terra sobre suas palavras e sua sabedoria.",
+  "traducao_literal": "E disse ao rei: “Verdade, a palavra que ouvi em minha terra sobre suas palavras e sobre sua sabedoria.",
+  "termos_originais": [
+    {
+      "palavra": "וַתֹּ֨אמֶר֙",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַמֶּ֔לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֱמֶת֙",
+      "lemma": "571",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "הַדָּבָ֔ר",
+      "lemma": "d/1697",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֥ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "שָׁמַ֖עְתִּי",
+      "lemma": "8085",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "בְּאַרְצִ֑י",
+      "lemma": "b/776",
+      "morfologia": "HR/Ncbsc/Sp1cs"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "דְּבָרֶ֖יךָ",
+      "lemma": "1697",
+      "morfologia": "HNcmpc/Sp2ms"
+    },
+    {
+      "palavra": "וְעַל",
+      "lemma": "c/5921 a",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "חָכְמָתֶֽךָ",
+      "lemma": "2451",
+      "morfologia": "HNcfsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Oração nominal אֱמֶת הַדָּבָר e discurso a Salomão",
+      "escolha": "Usar ‘É verdadeiro o relato’ e segunda pessoa comum ‘suas’.",
+      "justificativa": "אֱמֶת predica veracidade de הַדָּבָר sem cópula; דְּבָרֶיךָ e חָכְמָתֶךָ trazem sufixo 2ms dirigido ao rei, portanto ER-0003 requer você/seu.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Verdadeiras são tuas notícias",
+          "motivo": "Usaria registro de segunda pessoa reservado a oração e mudaria o singular ‘relato’."
+        }
+      ],
+      "diretriz_ref": "ER-0003"
+    }
+  ],
+  "palavras_supridas": [
+    "É"
+  ],
+  "ambiguidades_preservadas": [
+    "דְּבָרֶיךָ pode abranger palavras, feitos ou assuntos de Salomão; a BV conserva ‘palavras’ sem escolher uma categoria de realizações."
+  ],
+  "justificativa": "Falante, destinatário, terra, veracidade, relato, palavras e sabedoria são preservados no início da fala direta.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "2684b500479b9a7c731402edec8866cd33e1d25de2b90e4730b2c6f1e97df12b",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
