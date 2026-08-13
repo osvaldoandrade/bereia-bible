@@ -11,7 +11,7 @@
   "traducao_literal": "Ouve, Israel: SENHOR nosso Deus, SENHOR um.",
   "termos_originais": [
     {
-      "palavra": "שְׁמַ֖",
+      "palavra": "שְׁמַ֖ע",
       "lemma": "8085",
       "morfologia": "HVqv2ms"
     },
@@ -36,7 +36,7 @@
       "morfologia": "HNp"
     },
     {
-      "palavra": "אֶחָֽ",
+      "palavra": "אֶחָֽד",
       "lemma": "259",
       "morfologia": "HAcmsa"
     }
@@ -63,13 +63,13 @@
       ]
     },
     {
-      "questao": "Superfícies truncadas no packet",
-      "escolha": "preservar as superfícies exatamente na análise e traduzir conforme os lemas e códigos pinados",
-      "justificativa": "O packet registra שְׁמַ֖ sem ע e אֶחָֽ sem ד, embora os lemas H8085 e H259 e as morfologias identifiquem inequivocamente o imperativo “ouça” e o cardinal “um”. A auditoria não corrige silenciosamente os glifos.",
+      "questao": "Letras grandes ע em שְׁמַע e ד em אֶחָד",
+      "escolha": "preservar as duas palavras completas nos termos e manter o tamanho gráfico como dado editorial do XML",
+      "justificativa": "O XML contém ע e ד dentro de segmentos x-large; são letras canônicas das palavras שְׁמַע e אֶחָד, não texto a omitir. O packet preserva agora as superfícies integrais, enquanto o tamanho especial permanece documentado na fonte.",
       "alternativas_rejeitadas": [
         {
-          "opcao": "recompor as consoantes nos campos morfológicos",
-          "motivo": "Violaria a exigência de não redigitar nem alterar o surface pinado."
+          "opcao": "omitir ע e ד por estarem em marcação aninhada",
+          "motivo": "Confundiria apresentação gráfica com ausência textual e truncaria as duas palavras."
         }
       ]
     }

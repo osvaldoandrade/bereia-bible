@@ -11,6 +11,7 @@ const fixture = `<?xml version="1.0" encoding="UTF-8"?>
 <verse osisID="Gen.1.1"><w lemma="b/7225" morph="HR/Ncfsa">בְּ/רֵאשִׁ֖ית</w><w lemma="1254 a" morph="HVqp3ms">בָּרָ֣א</w><note n="a">editorial note must be ignored</note><seg type="x-sof-pasuq">׃</seg></verse>
 <verse osisID="Gen.1.2"><w lemma="5921 a" morph="HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="6440" morph="HNcbpc">פְּנֵי</w><seg type="x-sof-pasuq">׃</seg></verse>
 <verse osisID="Gen.1.3"><note n="b">only a note</note></verse>
+<verse osisID="Gen.1.4"><w lemma="766" morph="HNcmsa">אֹ֖רֶ<seg type="x-small">ן</seg></w><seg type="x-sof-pasuq">׃</seg></verse>
 </chapter></div></osisText></osis>`
 
 func TestParseVerses(t *testing.T) {
@@ -55,14 +56,23 @@ func TestParseVerses(t *testing.T) {
 			},
 		},
 		{
+			name: "nested letter markup remains in the word surface",
+			xml:  fixture, book: "Gen", chapter: 1, from: 4, to: 4,
+			check: func(t *testing.T, vs []Verse) {
+				if vs[0].Words[0].Surface != "אֹ֖רֶן" || vs[0].Text != "אֹ֖רֶן׃" {
+					t.Errorf("nested letter lost: %+v", vs[0])
+				}
+			},
+		},
+		{
 			name: "verse with no words fails",
 			xml:  fixture, book: "Gen", chapter: 1, from: 3, to: 3,
 			wantErr: "no words",
 		},
 		{
 			name: "missing verse reported",
-			xml:  fixture, book: "Gen", chapter: 1, from: 4, to: 5,
-			wantErr: "not found: Gen.1.4, Gen.1.5",
+			xml:  fixture, book: "Gen", chapter: 1, from: 5, to: 6,
+			wantErr: "not found: Gen.1.5, Gen.1.6",
 		},
 		{
 			name: "invalid range rejected",

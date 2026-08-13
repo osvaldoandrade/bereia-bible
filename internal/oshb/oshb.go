@@ -139,8 +139,9 @@ func parseChild(dec *xml.Decoder, se xml.StartElement) (*Word, error) {
 	}
 }
 
-// innerText accumulates character data until the matching end element,
-// skipping any nested markup.
+// innerText accumulates all character data until the matching end element.
+// OSHB uses nested <seg> markup for large, small, and suspended letters inside
+// <w>; the markup is ignored, but its textual letter must remain canonical.
 func innerText(dec *xml.Decoder, name string) (string, error) {
 	var b strings.Builder
 	depth := 1
@@ -151,9 +152,7 @@ func innerText(dec *xml.Decoder, name string) (string, error) {
 		}
 		switch t := tok.(type) {
 		case xml.CharData:
-			if depth == 1 {
-				b.Write(t)
-			}
+			b.Write(t)
 		case xml.StartElement:
 			depth++
 		case xml.EndElement:
