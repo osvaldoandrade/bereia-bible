@@ -27,6 +27,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("13-1cr", "1Chr", "1 Crônicas"),
     ("14-2cr", "2Chr", "2 Crônicas"),
     ("15-ed", "Ezra", "Esdras"),
+    ("16-ne", "Neh", "Neemias"),
 ]
 
 

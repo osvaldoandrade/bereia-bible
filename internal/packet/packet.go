@@ -172,6 +172,15 @@ var controlSpans = map[[2]int][]verseSpan{
 	{14, 2}:  {{1, 17, 2, 2}},
 	{14, 13}: {{1, 22, 13, 1}, {23, 23, 14, 1}},
 	{14, 14}: {{1, 14, 14, 2}},
+	// KJV, WEB, and Livre move OSHB Neh 3:33-38 to 4:1-6 and number
+	// OSHB 4:1-17 as 4:7-23. Their 7:68 (horses and mules) has no OSHB
+	// source verse, so it is deliberately not attached. They also place OSHB
+	// 10:1 at 9:38 and number OSHB 10:2-40 as 10:1-39.
+	{16, 3}:  {{1, 32, 3, 1}, {33, 38, 4, 1}},
+	{16, 4}:  {{1, 17, 4, 7}},
+	{16, 7}:  {{1, 67, 7, 1}, {68, 72, 7, 69}},
+	{16, 9}:  {{1, 37, 9, 1}},
+	{16, 10}: {{1, 1, 9, 38}, {2, 40, 10, 1}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.

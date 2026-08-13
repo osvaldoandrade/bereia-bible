@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 11199/12301 versículos.**
+**Total AT sourced: 11199/12706 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -492,4 +492,22 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 8 | 36 | · pendente |
 | 9 | 15 | · pendente |
 | 10 | 44 | · pendente |
+
+## Neemias — 0/405 versículos (0.0%), 13 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 11 | · pendente |
+| 2 | 20 | · pendente |
+| 3 | 38 | · pendente |
+| 4 | 17 | · pendente |
+| 5 | 19 | · pendente |
+| 6 | 19 | · pendente |
+| 7 | 72 | · pendente |
+| 8 | 18 | · pendente |
+| 9 | 37 | · pendente |
+| 10 | 40 | · pendente |
+| 11 | 36 | · pendente |
+| 12 | 47 | · pendente |
+| 13 | 31 | · pendente |
 
