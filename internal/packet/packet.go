@@ -165,6 +165,13 @@ var controlSpans = map[[2]int][]verseSpan{
 	{13, 5}:  {{1, 26, 5, 1}, {27, 41, 6, 1}},
 	{13, 6}:  {{1, 66, 6, 16}},
 	{13, 12}: {{1, 3, 12, 1}, {6, 41, 12, 5}},
+	// KJV, WEB, and Livre number OSHB 2Chr 1:18 as 2:1 and OSHB
+	// 2:1-17 as 2:2-18. The same boundary shift occurs at 13:23/14:1:
+	// OSHB 13:23 is control 14:1 and OSHB 14:1-14 are controls 14:2-15.
+	{14, 1}:  {{1, 17, 1, 1}, {18, 18, 2, 1}},
+	{14, 2}:  {{1, 17, 2, 2}},
+	{14, 13}: {{1, 22, 13, 1}, {23, 23, 14, 1}},
+	{14, 14}: {{1, 14, 14, 2}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.

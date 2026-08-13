@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002). NT bloqueado por F-0003 (quarentena OpenGNT).
 Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
-**Total AT sourced: 10256/11199 versículos.**
+**Total AT sourced: 11199/12021 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -403,37 +403,78 @@ Regenerar: `python3 scripts/progress.py`. Fonte de contagem: OSHB pinado.
 | 24 | 20 | ● 20/20 [DRAFT] |
 | 25 | 30 | ● 30/30 [DRAFT] |
 
-## 1 Crônicas — 0/943 versículos (0.0%), 29 capítulos
+## 1 Crônicas — 943/943 versículos (100.0%), 29 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 54 | · pendente |
-| 2 | 55 | · pendente |
-| 3 | 24 | · pendente |
-| 4 | 43 | · pendente |
-| 5 | 41 | · pendente |
-| 6 | 66 | · pendente |
-| 7 | 40 | · pendente |
-| 8 | 40 | · pendente |
-| 9 | 44 | · pendente |
-| 10 | 14 | · pendente |
-| 11 | 47 | · pendente |
-| 12 | 41 | · pendente |
-| 13 | 14 | · pendente |
-| 14 | 17 | · pendente |
-| 15 | 29 | · pendente |
-| 16 | 43 | · pendente |
-| 17 | 27 | · pendente |
-| 18 | 17 | · pendente |
-| 19 | 19 | · pendente |
-| 20 | 8 | · pendente |
-| 21 | 30 | · pendente |
-| 22 | 19 | · pendente |
-| 23 | 32 | · pendente |
-| 24 | 31 | · pendente |
-| 25 | 31 | · pendente |
-| 26 | 32 | · pendente |
-| 27 | 34 | · pendente |
-| 28 | 21 | · pendente |
-| 29 | 30 | · pendente |
+| 1 | 54 | ● 54/54 [DRAFT] |
+| 2 | 55 | ● 55/55 [DRAFT] |
+| 3 | 24 | ● 24/24 [DRAFT] |
+| 4 | 43 | ● 43/43 [DRAFT] |
+| 5 | 41 | ● 41/41 [DRAFT] |
+| 6 | 66 | ● 66/66 [DRAFT] |
+| 7 | 40 | ● 40/40 [DRAFT] |
+| 8 | 40 | ● 40/40 [DRAFT] |
+| 9 | 44 | ● 44/44 [DRAFT] |
+| 10 | 14 | ● 14/14 [DRAFT] |
+| 11 | 47 | ● 47/47 [DRAFT] |
+| 12 | 41 | ● 41/41 [DRAFT] |
+| 13 | 14 | ● 14/14 [DRAFT] |
+| 14 | 17 | ● 17/17 [DRAFT] |
+| 15 | 29 | ● 29/29 [DRAFT] |
+| 16 | 43 | ● 43/43 [DRAFT] |
+| 17 | 27 | ● 27/27 [DRAFT] |
+| 18 | 17 | ● 17/17 [DRAFT] |
+| 19 | 19 | ● 19/19 [DRAFT] |
+| 20 | 8 | ● 8/8 [DRAFT] |
+| 21 | 30 | ● 30/30 [DRAFT] |
+| 22 | 19 | ● 19/19 [DRAFT] |
+| 23 | 32 | ● 32/32 [DRAFT] |
+| 24 | 31 | ● 31/31 [DRAFT] |
+| 25 | 31 | ● 31/31 [DRAFT] |
+| 26 | 32 | ● 32/32 [DRAFT] |
+| 27 | 34 | ● 34/34 [DRAFT] |
+| 28 | 21 | ● 21/21 [DRAFT] |
+| 29 | 30 | ● 30/30 [DRAFT] |
+
+## 2 Crônicas — 0/822 versículos (0.0%), 36 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 18 | · pendente |
+| 2 | 17 | · pendente |
+| 3 | 17 | · pendente |
+| 4 | 22 | · pendente |
+| 5 | 14 | · pendente |
+| 6 | 42 | · pendente |
+| 7 | 22 | · pendente |
+| 8 | 18 | · pendente |
+| 9 | 31 | · pendente |
+| 10 | 19 | · pendente |
+| 11 | 23 | · pendente |
+| 12 | 16 | · pendente |
+| 13 | 23 | · pendente |
+| 14 | 14 | · pendente |
+| 15 | 19 | · pendente |
+| 16 | 14 | · pendente |
+| 17 | 19 | · pendente |
+| 18 | 34 | · pendente |
+| 19 | 11 | · pendente |
+| 20 | 37 | · pendente |
+| 21 | 20 | · pendente |
+| 22 | 12 | · pendente |
+| 23 | 21 | · pendente |
+| 24 | 27 | · pendente |
+| 25 | 28 | · pendente |
+| 26 | 23 | · pendente |
+| 27 | 9 | · pendente |
+| 28 | 27 | · pendente |
+| 29 | 36 | · pendente |
+| 30 | 27 | · pendente |
+| 31 | 21 | · pendente |
+| 32 | 33 | · pendente |
+| 33 | 25 | · pendente |
+| 34 | 33 | · pendente |
+| 35 | 27 | · pendente |
+| 36 | 23 | · pendente |
 

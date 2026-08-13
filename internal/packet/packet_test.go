@@ -556,3 +556,82 @@ func TestOSHBChapterTextMapsFirstChroniclesVersification(t *testing.T) {
 		t.Fatal("want error when mapped 1 Chronicles 6:81 control is missing")
 	}
 }
+
+func TestOSHBChapterTextMapsSecondChroniclesVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":14,"chapters":[%s,%s,%s,%s]}]}`,
+		chapter(1, 1, 17), chapter(2, 1, 18), chapter(13, 1, 22), chapter(14, 1, 15))
+	path := write(t, dir, "second-chronicles.json", control)
+
+	tests := []struct {
+		chapter int
+		wantLen int
+		want    func(int) string
+	}{
+		{1, 18, func(sourceVerse int) string {
+			if sourceVerse <= 17 {
+				return fmt.Sprintf("chapter-1-verse-%d", sourceVerse)
+			}
+			return "chapter-2-verse-1"
+		}},
+		{2, 17, func(sourceVerse int) string {
+			return fmt.Sprintf("chapter-2-verse-%d", sourceVerse+1)
+		}},
+		{13, 23, func(sourceVerse int) string {
+			if sourceVerse <= 22 {
+				return fmt.Sprintf("chapter-13-verse-%d", sourceVerse)
+			}
+			return "chapter-14-verse-1"
+		}},
+		{14, 14, func(sourceVerse int) string {
+			return fmt.Sprintf("chapter-14-verse-%d", sourceVerse+1)
+		}},
+	}
+	lastVerse := map[int]int{1: 18, 2: 17, 13: 23, 14: 14}
+	for _, tt := range tests {
+		got, err := OSHBChapterText(path, 14, tt.chapter)
+		if err != nil {
+			t.Fatalf("2 Chronicles %d: %v", tt.chapter, err)
+		}
+		if len(got) != tt.wantLen {
+			t.Fatalf("wrong 2 Chronicles %d control count: got %d, want %d", tt.chapter, len(got), tt.wantLen)
+		}
+		for sourceVerse := 1; sourceVerse <= lastVerse[tt.chapter]; sourceVerse++ {
+			want := tt.want(sourceVerse)
+			if got[sourceVerse] != want {
+				t.Errorf("2 Chronicles %d:%d: got %q, want %q", tt.chapter, sourceVerse, got[sourceVerse], want)
+			}
+		}
+
+		controls, err := loadControls(Request{
+			BookNr: 14, Chapter: tt.chapter,
+			WebPath: path, KJVPath: path, LivrePath: path,
+		})
+		if err != nil {
+			t.Fatal(err)
+		}
+		for sourceVerse := 1; sourceVerse <= lastVerse[tt.chapter]; sourceVerse++ {
+			want := tt.want(sourceVerse)
+			got := controls.forVerse(sourceVerse)
+			if got == nil || got.Web != want || got.KJV != want || got.Livre != want {
+				t.Errorf("2 Chronicles %d:%d: got %+v, want all controls %q", tt.chapter, sourceVerse, got, want)
+			}
+		}
+	}
+
+	missing := fmt.Sprintf(`{"books":[{"nr":14,"chapters":[%s]}]}`, chapter(14, 1, 14))
+	missingPath := write(t, dir, "second-chronicles-missing.json", missing)
+	if _, err := OSHBChapterText(missingPath, 14, 14); err == nil {
+		t.Fatal("want error when mapped 2 Chronicles 14:15 control is missing")
+	}
+}

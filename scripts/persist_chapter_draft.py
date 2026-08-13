@@ -17,8 +17,8 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BOOK_DIR = {"Gen": "01-gn", "Exod": "02-ex", "Lev": "03-lv", "Num": "04-nm", "Deut": "05-dt", "Josh": "06-js", "Judg": "07-jz", "Ruth": "08-rt", "1Sam": "09-1sm", "2Sam": "10-2sm", "1Kgs": "11-1rs", "2Kgs": "12-2rs", "1Chr": "13-1cr"}
-BOOK_NAME = {"Gen": "Gênesis", "Exod": "Êxodo", "Lev": "Levítico", "Num": "Números", "Deut": "Deuteronômio", "Josh": "Josué", "Judg": "Juízes", "Ruth": "Rute", "1Sam": "1 Samuel", "2Sam": "2 Samuel", "1Kgs": "1 Reis", "2Kgs": "2 Reis", "1Chr": "1 Crônicas"}
+BOOK_DIR = {"Gen": "01-gn", "Exod": "02-ex", "Lev": "03-lv", "Num": "04-nm", "Deut": "05-dt", "Josh": "06-js", "Judg": "07-jz", "Ruth": "08-rt", "1Sam": "09-1sm", "2Sam": "10-2sm", "1Kgs": "11-1rs", "2Kgs": "12-2rs", "1Chr": "13-1cr", "2Chr": "14-2cr"}
+BOOK_NAME = {"Gen": "Gênesis", "Exod": "Êxodo", "Lev": "Levítico", "Num": "Números", "Deut": "Deuteronômio", "Josh": "Josué", "Judg": "Juízes", "Ruth": "Rute", "1Sam": "1 Samuel", "2Sam": "2 Samuel", "1Kgs": "1 Reis", "2Kgs": "2 Reis", "1Chr": "1 Crônicas", "2Chr": "2 Crônicas"}
 MANIFEST_PATH = os.path.join(ROOT, "sources", "manifest.json")
 FONTES = {
     "texto_fonte": "oshb@3d15126f",
