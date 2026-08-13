@@ -301,3 +301,93 @@ func TestOSHBChapterTextMapsSamuelVersification(t *testing.T) {
 		t.Fatalf("wrong 2 Samuel 19 mapping: 1=%q 2=%q 44=%q", got[1], got[2], got[44])
 	}
 }
+
+func TestOSHBChapterTextMapsKingsVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":11,"chapters":[%s,%s,%s]}]}`,
+		chapter(4, 1, 34), chapter(5, 1, 18), chapter(22, 1, 53))
+	path := write(t, dir, "first-kings.json", control)
+
+	chapter5, err := OSHBChapterText(path, 11, 5)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter5) != 32 {
+		t.Fatalf("wrong 1 Kings 5 control count: got %d, want 32", len(chapter5))
+	}
+	for sourceVerse := 1; sourceVerse <= 32; sourceVerse++ {
+		controlChapter := 4
+		controlVerse := sourceVerse + 20
+		if sourceVerse >= 15 {
+			controlChapter = 5
+			controlVerse = sourceVerse - 14
+		}
+		want := fmt.Sprintf("chapter-%d-verse-%d", controlChapter, controlVerse)
+		if got := chapter5[sourceVerse]; got != want {
+			t.Errorf("1 Kings 5:%d: got %q, want %q", sourceVerse, got, want)
+		}
+	}
+	for _, verse := range []int{0, 33} {
+		if _, ok := chapter5[verse]; ok {
+			t.Errorf("unexpected 1 Kings 5:%d control", verse)
+		}
+	}
+
+	chapter22, err := OSHBChapterText(path, 11, 22)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter22) != 52 {
+		t.Fatalf("wrong 1 Kings 22 control count: got %d, want 52", len(chapter22))
+	}
+	for sourceVerse := 1; sourceVerse <= 54; sourceVerse++ {
+		if sourceVerse == 43 || sourceVerse == 44 {
+			if _, ok := chapter22[sourceVerse]; ok {
+				t.Errorf("1 Kings 22:%d must not have a mixed 22:43 control", sourceVerse)
+			}
+			continue
+		}
+		controlVerse := sourceVerse
+		if sourceVerse >= 45 {
+			controlVerse--
+		}
+		want := fmt.Sprintf("chapter-22-verse-%d", controlVerse)
+		if got := chapter22[sourceVerse]; got != want {
+			t.Errorf("1 Kings 22:%d: got %q, want %q", sourceVerse, got, want)
+		}
+	}
+	for _, verse := range []int{0, 55} {
+		if _, ok := chapter22[verse]; ok {
+			t.Errorf("unexpected 1 Kings 22:%d control", verse)
+		}
+	}
+
+	controls, err := loadControls(Request{
+		BookNr: 11, Chapter: 22,
+		WebPath: path, KJVPath: path, LivrePath: path,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, verse := range []int{43, 44} {
+		if got := controls.forVerse(verse); got != nil {
+			t.Errorf("1 Kings 22:%d controls must be omitted, got %+v", verse, got)
+		}
+	}
+	for _, verse := range []int{42, 45} {
+		got := controls.forVerse(verse)
+		if got == nil || got.Web == "" || got.KJV == "" || got.Livre == "" {
+			t.Errorf("1 Kings 22:%d must retain all controls, got %+v", verse, got)
+		}
+	}
+}

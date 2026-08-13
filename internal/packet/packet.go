@@ -125,8 +125,10 @@ type verseSpan struct {
 }
 
 // OSHB uses the Hebrew versification, while the stored controls use the
-// KJV/NRSV chapter boundaries. Each exceptional source chapter is mapped in
-// full so a control can never be attached to the wrong Hebrew verse.
+// KJV/NRSV chapter boundaries. Each exceptional source chapter is mapped
+// explicitly so a control can never be attached to the wrong Hebrew verse.
+// A source verse may be intentionally absent when one control verse cannot be
+// aligned without mixing text from multiple OSHB verses.
 var controlSpans = map[[2]int][]verseSpan{
 	{1, 32}:  {{1, 1, 31, 55}, {2, 33, 32, 1}},
 	{2, 7}:   {{1, 25, 7, 1}, {26, 29, 8, 1}},
@@ -147,6 +149,11 @@ var controlSpans = map[[2]int][]verseSpan{
 	{9, 21}:  {{1, 1, 20, 42}, {2, 16, 21, 1}},
 	{9, 24}:  {{1, 1, 23, 29}, {2, 23, 24, 1}},
 	{10, 19}: {{1, 1, 18, 33}, {2, 44, 19, 1}},
+	{11, 5}:  {{1, 14, 4, 21}, {15, 32, 5, 1}},
+	// KJV, WEB, and Livre 1Kgs 22:43 combine the material that OSHB divides
+	// between 22:43-44. Both OSHB verses are intentionally left without a
+	// control rather than attaching the same mixed control text to either one.
+	{11, 22}: {{1, 42, 22, 1}, {45, 54, 22, 44}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.

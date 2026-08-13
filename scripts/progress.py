@@ -22,6 +22,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("08-rt", "Ruth", "Rute"),
     ("09-1sm", "1Sam", "1 Samuel"),
     ("10-2sm", "2Sam", "2 Samuel"),
+    ("11-1rs", "1Kgs", "1 Reis"),
 ]
 
 
