@@ -203,6 +203,10 @@ var controlSpans = map[[2]int][]verseSpan{
 	// OSHB 64:1-11 then map to controls 64:2-12.
 	{23, 63}: {{1, 18, 63, 1}},
 	{23, 64}: {{1, 11, 64, 2}},
+	// KJV, WEB, and Livre number OSHB Jer 8:23 as 9:1 and OSHB
+	// 9:1-25 as 9:2-26.
+	{24, 8}: {{1, 22, 8, 1}, {23, 23, 9, 1}},
+	{24, 9}: {{1, 25, 9, 2}},
 }
 
 // OSHBChapterText returns control text keyed by the OSHB verse number.

@@ -956,3 +956,58 @@ func TestOSHBChapterTextMapsIsaiahVersification(t *testing.T) {
 		t.Fatal("want error when mapped Isaiah 64:12 control is missing")
 	}
 }
+
+func TestOSHBChapterTextMapsJeremiahVersification(t *testing.T) {
+	dir := t.TempDir()
+	chapter := func(number, from, to int) string {
+		var verses strings.Builder
+		for i := from; i <= to; i++ {
+			if i > from {
+				verses.WriteByte(',')
+			}
+			fmt.Fprintf(&verses, `{"verse":%d,"text":"chapter-%d-verse-%d"}`, i, number, i)
+		}
+		return fmt.Sprintf(`{"chapter":%d,"verses":[%s]}`, number, verses.String())
+	}
+	control := fmt.Sprintf(`{"books":[{"nr":24,"chapters":[%s,%s]}]}`,
+		chapter(8, 1, 22), chapter(9, 1, 26))
+	path := write(t, dir, "jeremiah.json", control)
+
+	chapter8, err := OSHBChapterText(path, 24, 8)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter8) != 23 || chapter8[22] != "chapter-8-verse-22" || chapter8[23] != "chapter-9-verse-1" {
+		t.Fatalf("wrong Jeremiah 8 mapping: len=%d 22=%q 23=%q", len(chapter8), chapter8[22], chapter8[23])
+	}
+
+	chapter9, err := OSHBChapterText(path, 24, 9)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(chapter9) != 25 || chapter9[1] != "chapter-9-verse-2" || chapter9[25] != "chapter-9-verse-26" {
+		t.Fatalf("wrong Jeremiah 9 mapping: len=%d 1=%q 25=%q", len(chapter9), chapter9[1], chapter9[25])
+	}
+
+	controls, err := loadControls(Request{
+		BookNr: 24, Chapter: 8,
+		WebPath: path, KJVPath: path, LivrePath: path,
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	for verse, want := range map[int]string{
+		22: "chapter-8-verse-22", 23: "chapter-9-verse-1",
+	} {
+		got := controls.forVerse(verse)
+		if got == nil || got.Web != want || got.KJV != want || got.Livre != want {
+			t.Errorf("Jeremiah 8:%d: got %+v, want all controls %q", verse, got, want)
+		}
+	}
+
+	missing := fmt.Sprintf(`{"books":[{"nr":24,"chapters":[%s]}]}`, chapter(9, 1, 25))
+	missingPath := write(t, dir, "jeremiah-missing.json", missing)
+	if _, err := OSHBChapterText(missingPath, 24, 9); err == nil {
+		t.Fatal("want error when mapped Jeremiah 9:26 control is missing")
+	}
+}

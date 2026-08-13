@@ -34,6 +34,7 @@ BOOKS = [  # AT expands here as books are sourced
     ("21-ec", "Eccl", "Eclesiastes"),
     ("22-ct", "Song", "Cântico dos Cânticos"),
     ("23-is", "Isa", "Isaías"),
+    ("24-jr", "Jer", "Jeremias"),
 ]
 
 
