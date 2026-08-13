@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.15.13",
+    "livro": "1 Crônicas",
+    "capitulo": 15,
+    "versiculo": 13,
+    "pericope": "1Chr.15.1-29"
+  },
+  "texto_bv": "“Pois, como vocês não estavam presentes na primeira vez, o SENHOR, nosso Deus, irrompeu contra nós, porque não o buscamos conforme o devido procedimento.”",
+  "traducao_literal": "“Pois por quê, na primeira vez, não vocês? Irrompeu o SENHOR, nosso Deus, contra nós, porque não o buscamos conforme a norma.”",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֛י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לְמַ",
+      "lemma": "l/4100",
+      "morfologia": "HR/Ti"
+    },
+    {
+      "palavra": "בָּרִ֥אשׁוֹנָ֖ה",
+      "lemma": "b/7223",
+      "morfologia": "HRd/Aafsa"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אַתֶּ֑ם",
+      "lemma": "859 d",
+      "morfologia": "HPp2mp"
+    },
+    {
+      "palavra": "פָּרַ֨ץ",
+      "lemma": "6555",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהֵ֨ינוּ֙",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "בָּ֔נוּ",
+      "lemma": "b",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לֹ֥א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "דְרַשְׁנֻ֖הוּ",
+      "lemma": "1875",
+      "morfologia": "HVqp1cp/Sp3ms"
+    },
+    {
+      "palavra": "כַּמִּשְׁפָּֽט",
+      "lemma": "k/4941",
+      "morfologia": "HRd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota exegética OSHB informa que uma única palavra do texto foi dividida para fins de exegese no início do versículo.",
+      "leituras": [
+        {
+          "leitura": "לְמַ בָּרִאשׁוֹנָה — segmentos apresentados no packet como preposição mais interrogativo, seguidos de “na primeira vez”",
+          "testemunhas": "packet e nota exegética OSHB"
+        }
+      ],
+      "avaliacao": "Não há leitura lexical substituta; a BV conserva a dificuldade na decisão, e a literal segue a segmentação fornecida.",
+      "impacto_na_traducao": "A BV torna explícita a ausência dos levitas na primeira ocasião; a literal preserva a forma interrogativa áspera."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Construção difícil לְמַ בָּרִאשׁוֹנָה לֹא אַתֶּם",
+      "escolha": "A BV expressa a causa como ausência dos levitas na primeira ocasião; a literal conserva a segmentação interrogativa áspera.",
+      "justificativa": "O contexto contrasta o transporte anterior com a exigência de que os chefes levíticos o realizem agora; o XML declara que uma palavra foi dividida para exegese, e o packet analisa לְמַ como preposição mais interrogativo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Vocês foram os culpados na primeira vez",
+          "motivo": "Transforma ausência em culpa ativa não explicitada."
+        }
+      ]
+    },
+    {
+      "questao": "Repetição causal de כִּי",
+      "escolha": "Manter a explicação final “porque não o buscamos”.",
+      "justificativa": "A segunda conjunção introduz a causa textual do irrompimento divino e não deve ser fundida com a primeira.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "estavam presentes — torna gramatical a oração nominal negativa e conserva a ideia de ausência",
+    "devido — torna idiomática a conformidade a מִשְׁפָּט"
+  ],
+  "ambiguidades_preservadas": [
+    "A segmentação e a sintaxe do início são difíceis; a literal mantém a leitura interrogativa formal, enquanto a BV explicita a relação contextual sem atribuir uma ação ausente aos levitas."
+  ],
+  "justificativa": "Destinatários plurais, agente divino, objeto plural “nós”, busca pronominal e conformidade à norma foram mantidos.",
+  "confianca": 0.57,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
