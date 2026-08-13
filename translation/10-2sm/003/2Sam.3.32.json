@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Sam.3.32",
+    "livro": "2 Samuel",
+    "capitulo": 3,
+    "versiculo": 32,
+    "pericope": "2Sam.3.1-39"
+  },
+  "texto_bv": "Sepultaram Abner em Hebrom. O rei levantou a voz e chorou junto ao túmulo de Abner, e todo o povo também chorou.",
+  "traducao_literal": "E sepultaram Abner em Hebrom; e levantou o rei sua voz, e chorou junto ao túmulo de Abner; e chorou todo o povo.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּקְבְּר֥וּ",
+      "lemma": "c/6912",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "אַבְנֵ֖ר",
+      "lemma": "74",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּחֶבְר֑וֹן",
+      "lemma": "b/2275 a",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וַיִשָּׂ֧א",
+      "lemma": "c/5375",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "הַמֶּ֣לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "קוֹל֗וֹ",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וַיֵּבְךְּ֙",
+      "lemma": "c/1058",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "קֶ֣בֶר",
+      "lemma": "6913",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אַבְנֵ֔ר",
+      "lemma": "74",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַיִּבְכּ֖וּ",
+      "lemma": "c/1058",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הָעָֽם",
+      "lemma": "d/5971 a",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota editorial OSHB n=1 associada à forma וַיִּשָּׂא (“levantou”).",
+      "leituras": [
+        {
+          "leitura": "וַיִּשָּׂא — “levantou” conforme a forma preservada por BHS a partir do Códice de Leningrado",
+          "testemunhas": "Códice L; BHS; OSHB"
+        }
+      ],
+      "avaliacao": "A nota informa que BHS foi fiel ao Códice de Leningrado apesar de possível questionamento sobre a validade da forma; não propõe leitura concorrente. Sua posição no XML é imediatamente após וַיִּשָּׂא.",
+      "impacto_na_traducao": "Nenhum: a BV mantém “levantou a voz”."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Quem chora, onde, e a que forma se liga a nota OSHB?",
+      "escolha": "o rei levanta a voz e chora junto ao túmulo; todo o povo chora; a nota n=1 está associada a וַיִּשָּׂא (“levantou”)",
+      "justificativa": "O singular do rei e o plural coletivo permanecem distintos. No XML, a nota n=1 vem imediatamente após וַיִּשָּׂא e antes de הַמֶּלֶךְ, não após וַיֵּבְךְ.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "associar a nota a וַיֵּבְךְ (“chorou”)",
+          "motivo": "Contraria a posição da nota no XML OSHB."
+        },
+        {
+          "opcao": "somente Joabe chora",
+          "motivo": "Troca os participantes."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "também"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Sepultamento em Hebrom, voz levantada, choro do rei junto ao túmulo, choro de todo o povo e associação correta da nota n=1 a וַיִּשָּׂא foram preservados.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
