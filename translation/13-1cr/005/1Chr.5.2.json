@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.5.2",
+    "livro": "1 Crônicas",
+    "capitulo": 5,
+    "versiculo": 2,
+    "pericope": "1Chr.5.1-41"
+  },
+  "texto_bv": "Pois Judá prevaleceu sobre seus irmãos, e dele veio um governante; porém a primogenitura pertenceu a José.",
+  "traducao_literal": "Pois Judá prevaleceu entre seus irmãos, e para governante, de nós; e a primogenitura, para José.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יְהוּדָה֙",
+      "lemma": "3063",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "גָּבַ֣ר",
+      "lemma": "1396",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בְּאֶחָ֔יו",
+      "lemma": "b/251",
+      "morfologia": "HR/Ncmpc/Sp3ms"
+    },
+    {
+      "palavra": "וּלְנָגִ֖יד",
+      "lemma": "c/l/5057",
+      "morfologia": "HC/R/Ncmsa"
+    },
+    {
+      "palavra": "מִמֶּ֑נּוּ",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "וְהַבְּכֹרָ֖ה",
+      "lemma": "c/d/1062",
+      "morfologia": "HC/Td/Ncbsa"
+    },
+    {
+      "palavra": "לְיוֹסֵֽף",
+      "lemma": "l/3130",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pessoa do sufixo homógrafo em מִמֶּנּוּ",
+      "escolha": "Usar “dele” na BV pelo antecedente Judá e “de nós” no literal conforme a análise OSHB Sp1cp.",
+      "justificativa": "A forma vocalizada pode servir à primeira pessoa comum plural e à terceira masculina singular; o packet marca Sp1cp, mas a sequência “Judá... governante” favorece contextualmente a retomada singular na camada publicada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "de nós nas duas camadas",
+          "motivo": "Rompe o encadeamento contextual entre Judá e o governante na BV."
+        },
+        {
+          "opcao": "dele nas duas camadas sem nota",
+          "motivo": "Oculta a pessoa atribuída pela morfologia OSHB."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "veio — fornece o verbo elíptico da frase nominal sobre o governante",
+    "pertenceu — fornece a cópula possessiva da frase nominal sobre a primogenitura"
+  ],
+  "ambiguidades_preservadas": [
+    "מִמֶּנּוּ é formalmente compatível com “de nós” e “dele”; as duas camadas conservam a tensão entre morfologia anotada e contexto."
+  ],
+  "justificativa": "A superioridade de Judá, a origem do governante e a atribuição da primogenitura a José permanecem distintas, sem apagar a ambiguidade pronominal.",
+  "confianca": 0.58,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

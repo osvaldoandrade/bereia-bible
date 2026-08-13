@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.5.41",
+    "livro": "1 Crônicas",
+    "capitulo": 5,
+    "versiculo": 41,
+    "pericope": "1Chr.5.1-41"
+  },
+  "texto_bv": "Jeozadaque foi para o exílio quando o SENHOR exilou Judá e Jerusalém pela mão de Nabucodonosor.",
+  "traducao_literal": "E Jeozadaque foi, no exilar do SENHOR Judá e Jerusalém, pela mão de Nabucodonosor.",
+  "termos_originais": [
+    {
+      "palavra": "וִיהוֹצָדָ֣ק",
+      "lemma": "c/3087",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "הָלַ֔ךְ",
+      "lemma": "1980",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בְּהַגְל֣וֹת",
+      "lemma": "b/1540",
+      "morfologia": "HR/Vhc"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְהוּדָ֖ה",
+      "lemma": "3063",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וִירוּשָׁלִָ֑ם",
+      "lemma": "c/3389",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "בְּיַ֖ד",
+      "lemma": "b/3027",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "נְבֻכַדְנֶאצַּֽר",
+      "lemma": "5019",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota de versificação OSHB: este versículo corresponde a 1Crônicas 6:15 na numeração KJV.",
+      "leituras": [
+        {
+          "leitura": "1Chr.5.41",
+          "testemunhas": "numeração OSHB/BV"
+        },
+        {
+          "leitura": "1Chr.6.15",
+          "testemunhas": "numeração KJV registrada no XML OSHB"
+        }
+      ],
+      "avaliacao": "A BV mantém o OSIS 1Chr.5.41; a nota serve somente ao mapeamento de versificação.",
+      "impacto_na_traducao": "Nenhum impacto textual; muda apenas a referência correspondente na KJV."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Complemento contextual de הָלַךְ e causatividade de בְּהַגְלוֹת",
+      "escolha": "Suprir “para o exílio” na BV, mantendo o SENHOR como agente do hifil e Nabucodonosor como instrumento; no literal, conservar apenas “foi”.",
+      "justificativa": "O qal הָלַךְ não traz destino expresso, mas a oração temporal de exílio fornece o destino contextual; o hifil nomeia o SENHOR como causador e a expressão “pela mão de” marca a agência instrumental de Nabucodonosor.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Nabucodonosor exilou sem menção do SENHOR",
+          "motivo": "Apaga o sujeito explícito do hifil."
+        },
+        {
+          "opcao": "Jeozadaque foi voluntariamente",
+          "motivo": "Ignora a circunstância de exílio causativo."
+        }
+      ],
+      "diretriz_ref": "ER-0003"
+    }
+  ],
+  "palavras_supridas": [
+    "para o exílio — explicita na BV o destino contextual ausente após הָלַךְ"
+  ],
+  "ambiguidades_preservadas": [
+    "O verbo principal diz apenas que Jeozadaque “foi”; o destino exílico é contextual e permanece sem complemento no literal."
+  ],
+  "justificativa": "Jeozadaque, o SENHOR como causador, Judá e Jerusalém como objetos e Nabucodonosor como instrumento foram preservados, com versificação mapeada.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

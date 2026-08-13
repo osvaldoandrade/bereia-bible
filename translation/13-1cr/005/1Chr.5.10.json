@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.5.10",
+    "livro": "1 Crônicas",
+    "capitulo": 5,
+    "versiculo": 10,
+    "pericope": "1Chr.5.1-41"
+  },
+  "texto_bv": "Nos dias de Saul, os rubenitas fizeram guerra contra os hagarenos. Os hagarenos caíram nas mãos deles, e os rubenitas passaram a habitar nas tendas dos vencidos por toda a região a leste de Gileade.",
+  "traducao_literal": "E nos dias de Saul fizeram guerra com os hagarenos, e eles caíram em sua mão, e habitaram em suas tendas sobre toda a face do leste de Gileade.",
+  "termos_originais": [
+    {
+      "palavra": "וּבִימֵ֣י",
+      "lemma": "c/b/3117",
+      "morfologia": "HC/R/Ncmpc"
+    },
+    {
+      "palavra": "שָׁא֗וּל",
+      "lemma": "7586",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עָשׂ֤וּ",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "מִלְחָמָה֙",
+      "lemma": "4421",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "עִם",
+      "lemma": "5973 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַֽהַגְרִאִ֔ים",
+      "lemma": "d/1905",
+      "morfologia": "HTd/Ngmpa"
+    },
+    {
+      "palavra": "וַֽיִּפְּל֖וּ",
+      "lemma": "c/5307",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "בְּיָדָ֑ם",
+      "lemma": "b/3027",
+      "morfologia": "HR/Ncbsc/Sp3mp"
+    },
+    {
+      "palavra": "וַיֵּשְׁבוּ֙",
+      "lemma": "c/3427",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "בְּאָ֣הֳלֵיהֶ֔ם",
+      "lemma": "b/168",
+      "morfologia": "HR/Ncmpc/Sp3mp"
+    },
+    {
+      "palavra": "עַֽל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "פְּנֵ֖י",
+      "lemma": "6440",
+      "morfologia": "HNcbpc"
+    },
+    {
+      "palavra": "מִזְרָ֥ח",
+      "lemma": "4217",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לַגִּלְעָֽד",
+      "lemma": "l/1568",
+      "morfologia": "HRd/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Troca dos referentes pronominais após a batalha",
+      "escolha": "Explicitar rubenitas, hagarenos e “vencidos” na BV; conservar os pronomes formalmente ambíguos no literal.",
+      "justificativa": "O primeiro sujeito plural vem do contexto rubenita; “caíram” refere-se aos hagarenos, e os ocupantes das tendas voltam a ser os vencedores. O hebraico alterna sujeito e possuidor sem repetir nomes.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "atribuir todas as ações aos hagarenos",
+          "motivo": "Inverte vencedor e vencido na sequência “caíram em sua mão”."
+        },
+        {
+          "opcao": "manter somente “eles/suas” na BV",
+          "motivo": "Deixaria os agentes opacos na camada publicada."
+        }
+      ],
+      "diretriz_ref": "ER-0003"
+    }
+  ],
+  "palavras_supridas": [
+    "os rubenitas — explicita o sujeito recuperado do contexto",
+    "Os hagarenos — explicita o sujeito de “caíram”",
+    "os rubenitas — explicita a retomada dos vencedores como habitantes",
+    "dos vencidos — explicita o possuidor inimigo das tendas"
+  ],
+  "ambiguidades_preservadas": [
+    "A literal mantém as formas pronominais sem resolver nelas a alternância de referentes."
+  ],
+  "justificativa": "Os agentes da guerra, derrota e ocupação foram resolvidos somente onde o português publicado exige clareza; a cadeia pronominal original permanece auditável.",
+  "confianca": 0.67,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}

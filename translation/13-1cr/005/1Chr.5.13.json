@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Chr.5.13",
+    "livro": "1 Crônicas",
+    "capitulo": 5,
+    "versiculo": 13,
+    "pericope": "1Chr.5.1-41"
+  },
+  "texto_bv": "Seus irmãos, segundo as casas de seus pais, foram Micael, Mesulão, Seba, Jorai, Jacã, Zia e Héber: sete.",
+  "traducao_literal": "E seus irmãos, pela casa de seus pais: Micael, e Mesulão, e sete, e Jorai, e Jacã, e Zia, e Héber: sete.",
+  "termos_originais": [
+    {
+      "palavra": "וַאֲחֵיהֶ֞ם",
+      "lemma": "c/251",
+      "morfologia": "HC/Ncmpc/Sp3mp"
+    },
+    {
+      "palavra": "לְבֵ֣ית",
+      "lemma": "l/1004 b",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אֲבוֹתֵיהֶ֗ם",
+      "lemma": "1",
+      "morfologia": "HNcmpc/Sp3mp"
+    },
+    {
+      "palavra": "מִֽיכָאֵ֡ל",
+      "lemma": "4317",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּמְשֻׁלָּ֡ם",
+      "lemma": "c/4918",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וְ֠שֶׁבַע",
+      "lemma": "c/7652 a",
+      "morfologia": "HC/Acfsa"
+    },
+    {
+      "palavra": "וְיוֹרַ֧י",
+      "lemma": "c/3140",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וְיַעְכָּ֛ן",
+      "lemma": "c/3275",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וְזִ֥יעַ",
+      "lemma": "c/2127",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וָעֵ֖בֶר",
+      "lemma": "c/5677",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "שִׁבְעָֽה",
+      "lemma": "7651",
+      "morfologia": "HAcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Função de שֶׁבַע no terceiro lugar da lista",
+      "escolha": "Ler “Seba” como antropônimo na BV e conservar “sete” no literal conforme a morfologia HAcfsa do packet.",
+      "justificativa": "A forma ocupa uma posição entre nomes próprios e o total final declara sete membros; tratá-la como nome produz sete pessoas, enquanto a anotação OSHB a classifica formalmente como cardinal feminino singular.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sete nas duas camadas",
+          "motivo": "Deixa apenas seis nomes diante do total final sete e torna o numeral medial sintaticamente solto."
+        },
+        {
+          "opcao": "Seba nas duas camadas sem nota",
+          "motivo": "Oculta a classe morfológica cardinal fornecida pelo packet."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "foram — fornece a cópula da lista nominal na BV"
+  ],
+  "ambiguidades_preservadas": [
+    "שֶׁבַע pode ser analisado como numeral ou nome próprio; BV e literal preservam as duas possibilidades."
+  ],
+  "justificativa": "A BV mantém uma lista coerente de sete irmãos sem apagar a análise cardinal explícita da camada morfológica e literal.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "texto_fonte": "oshb@3d15126f",
+    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
+    "prompts_versao": "1.0.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol"
+  }
+}
