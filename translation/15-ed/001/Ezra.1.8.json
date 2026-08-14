@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezra.1.8",
+    "livro": "Esdras",
+    "capitulo": 1,
+    "versiculo": 8,
+    "pericope": "Ezra.1.1-11"
+  },
+  "texto_bv": "Ciro, rei da Pérsia, mandou retirá-los pelas mãos do tesoureiro Mitridate, que os contou para Sesbazar, príncipe de Judá.",
+  "traducao_literal": "E os fez sair Ciro, rei da Pérsia, pela mão de Mitridate, o tesoureiro, e os contou para Sesbazar, o príncipe de Judá.",
+  "termos_originais": [
+    {
+      "palavra": "וַיּֽוֹצִיאֵ֗ם",
+      "lemma": "c/3318",
+      "morfologia": "HC/Vhw3ms/Sp3mp"
+    },
+    {
+      "palavra": "כּ֚וֹרֶשׁ",
+      "lemma": "3566",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מֶ֣לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "פָּרַ֔ס",
+      "lemma": "6539",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יַ֖ד",
+      "lemma": "3027",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "מִתְרְדָ֣ת",
+      "lemma": "4990",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַגִּזְבָּ֑ר",
+      "lemma": "d/1489",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וַֽיִּסְפְּרֵם֙",
+      "lemma": "c/5608 a",
+      "morfologia": "HC/Vqw3ms/Sp3mp"
+    },
+    {
+      "palavra": "לְשֵׁשְׁבַּצַּ֔ר",
+      "lemma": "l/8339",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "הַנָּשִׂ֖יא",
+      "lemma": "d/5387 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "לִיהוּדָֽה",
+      "lemma": "l/3063",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Nota editorial OSHB C anexada a וַיּוֹצִיאֵם sobre leitura dos acentos de L em comparação com a BHQ.",
+      "leituras": [
+        {
+          "leitura": "Acentuação de L lida conforme o OSHB",
+          "testemunhas": "L/OSHB"
+        },
+        {
+          "leitura": "Acentuação lida de modo diferente",
+          "testemunhas": "BHQ"
+        }
+      ],
+      "avaliacao": "A nota registra divergência de acentuação, sem leitura consonantal, vocálica ou lexical alternativa no XML.",
+      "impacto_na_traducao": "Sem impacto textual: ambas as camadas preservam Ciro como agente e os utensílios como objeto."
+    },
+    {
+      "descricao": "Nota editorial OSHB v anexada a וַיּוֹצִיאֵם sobre leitura das vogais de L em comparação com a BHS.",
+      "leituras": [
+        {
+          "leitura": "Vocalização de L lida conforme o OSHB",
+          "testemunhas": "L/OSHB"
+        },
+        {
+          "leitura": "Vocalização lida de modo diferente",
+          "testemunhas": "BHS"
+        }
+      ],
+      "avaliacao": "O XML não fornece uma forma vocálica concorrente; o lema, a morfologia Hifil e o sufixo plural permanecem pinados.",
+      "impacto_na_traducao": "Sem alternativa traduzível no aparato: BV e literal mantêm a retirada causativa dos utensílios."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Agência causativa de וַיּוֹצִיאֵם",
+      "escolha": "Usar ‘mandou retirá-los’ na BV e preservar ‘os fez sair’ na literal.",
+      "justificativa": "O Hifil 3ms tem Ciro como sujeito e sufixo plural dos utensílios; Mitridate aparece como intermediário ‘pela mão de’. ",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Mitridate retirou Ciro",
+          "motivo": "Inverteria sujeito, objeto pronominal e o intermediário preposicional."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "עַל־יַד pode indicar execução, mediação ou custódia de Mitridate; ‘pelas mãos’ preserva a agência delegada.",
+    "O sujeito elíptico de וַיִּסְפְּרֵם pode continuar sendo Ciro ou retomar Mitridate, o intermediário imediato; a BV explicita Mitridate como agente da contagem."
+  ],
+  "justificativa": "Mantém Ciro como agente, Mitridate como intermediário e tesoureiro, a contagem e Sesbazar como destinatário e príncipe de Judá.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}
