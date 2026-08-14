@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezra.2.62",
+    "livro": "Esdras",
+    "capitulo": 2,
+    "versiculo": 62,
+    "pericope": "Ezra.2.1-70"
+  },
+  "texto_bv": "Eles procuraram seu registro genealógico, mas não foram encontrados; por isso, foram considerados impuros e excluídos do sacerdócio.",
+  "traducao_literal": "Estes buscaram seu escrito entre os que se registravam genealogicamente, e não foram encontrados; e foram profanados para fora do sacerdócio.",
+  "termos_originais": [
+    {
+      "palavra": "אֵ֗לֶּה",
+      "lemma": "428",
+      "morfologia": "HPdxcp"
+    },
+    {
+      "palavra": "בִּקְשׁ֧וּ",
+      "lemma": "1245",
+      "morfologia": "HVpp3cp"
+    },
+    {
+      "palavra": "כְתָבָ֛ם",
+      "lemma": "3791",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "הַמִּתְיַחְשִׂ֖ים",
+      "lemma": "d/3187",
+      "morfologia": "HTd/Vtrmpa"
+    },
+    {
+      "palavra": "וְלֹ֣א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "נִמְצָ֑אוּ",
+      "lemma": "4672",
+      "morfologia": "HVNp3cp"
+    },
+    {
+      "palavra": "וַֽיְגֹאֲל֖וּ",
+      "lemma": "c/1351",
+      "morfologia": "HC/VPw3mp"
+    },
+    {
+      "palavra": "מִן",
+      "lemma": "4480 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַכְּהֻנָּֽה",
+      "lemma": "d/3550",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pual וַיְגֹאֲלוּ מִן־הַכְּהֻנָּה",
+      "escolha": "Traduzir ‘foram considerados impuros e excluídos do sacerdócio’ na BV, preservando ‘foram profanados’ na literal.",
+      "justificativa": "O Pual de H1351 descreve sua desqualificação como impuros em relação ao sacerdócio; a preposição marca afastamento da função.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "foram redimidos para exercer o sacerdócio",
+          "motivo": "Confundiria o lema H1351 com o homógrafo de resgatar e inverteria o resultado da ausência documental."
+        }
+      ]
+    },
+    {
+      "questao": "Número de כְתָבָם e sujeito de נִמְצָאוּ",
+      "escolha": "Manter o registro genealógico no singular e fazer das pessoas o sujeito plural de ‘não foram encontrados’.",
+      "justificativa": "כְתָבָם é substantivo singular com possuidor 3mp, enquanto נִמְצָאוּ é Nifal 3cp e retoma o grupo que procurava comprovação genealógica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "seus registros não foram encontrados",
+          "motivo": "Pluralizaria o documento e faria dele o sujeito do verbo plural, contrariando a morfologia e a retomada pessoal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Eles",
+    "por isso",
+    "considerados",
+    "excluídos"
+  ],
+  "ambiguidades_preservadas": [
+    "כְתָבָם é um registro singular com possuidor plural; נִמְצָאוּ retoma as pessoas, não o documento."
+  ],
+  "justificativa": "Mantém o grupo como sujeito, o registro genealógico singular, o fato de as pessoas não terem sido encontradas na genealogia e a consequente desqualificação sacerdotal.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}
