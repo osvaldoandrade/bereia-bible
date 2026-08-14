@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Chr.35.4",
+    "livro": "2 Crônicas",
+    "capitulo": 35,
+    "versiculo": 4,
+    "pericope": "2Chr.35.1-27"
+  },
+  "texto_bv": "Organizem-se por suas casas paternas, segundo suas divisões, conforme o escrito de Davi, rei de Israel, e o documento de Salomão, filho dele.",
+  "traducao_literal": "E preparem-se segundo a casa de seus pais, conforme suas divisões, no escrito de Davi, rei de Israel, e no escrito de Salomão, filho dele.",
+  "termos_originais": [
+    {
+      "palavra": "וְהָכִ֥ונוּ",
+      "lemma": "c/3559 a",
+      "morfologia": "HC/Vhv2mp"
+    },
+    {
+      "palavra": "לְבֵית",
+      "lemma": "l/1004 b",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אֲבוֹתֵיכֶ֖ם",
+      "lemma": "1",
+      "morfologia": "HNcmpc/Sp2mp"
+    },
+    {
+      "palavra": "כְּמַחְלְקוֹתֵיכֶ֑ם",
+      "lemma": "k/4256",
+      "morfologia": "HR/Ncfpc/Sp2mp"
+    },
+    {
+      "palavra": "בִּכְתָ֗ב",
+      "lemma": "b/3791",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "דָּוִיד֙",
+      "lemma": "1732",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מֶ֣לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֔ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּבְמִכְתַּ֖ב",
+      "lemma": "c/b/4385",
+      "morfologia": "HC/R/Ncmsc"
+    },
+    {
+      "palavra": "שְׁלֹמֹ֥ה",
+      "lemma": "8010",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְנֽוֹ",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "A metanota n do OSHB, colocada após וְ/הָכִ֥ונוּ, marca a forma como anômala.",
+      "leituras": [
+        {
+          "leitura": "וְ/הָכִ֥ונוּ — forma preservada no texto",
+          "testemunhas": "WLC/OSHB"
+        }
+      ],
+      "avaliacao": "A nota não fornece outra forma consonantal ou vocalizada; a adjudicação segue a forma e a morfologia Hifil 2mp do texto pinado.",
+      "impacto_na_traducao": "Nenhum impacto além do registro da anomalia editorial."
+    },
+    {
+      "descricao": "A metanota q do OSHB informa que seu tratamento de ketiv/qere difere da BHS e concorda com o Códice de Leningrado.",
+      "leituras": [
+        {
+          "leitura": "tratamento do ketiv/qere adotado pelo OSHB",
+          "testemunhas": "Códice de Leningrado conforme o OSHB"
+        },
+        {
+          "leitura": "tratamento divergente de ketiv/qere",
+          "testemunhas": "BHS conforme a metanota q do OSHB"
+        }
+      ],
+      "avaliacao": "A metanota não oferece uma leitura lexical concorrente no XML; a BV segue o texto pinado sem reconstruir uma forma ausente.",
+      "impacto_na_traducao": "Nenhum impacto textual determinável; a divergência editorial fica auditada."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Valor de וְ/הָכִ֥ונוּ sem objeto expresso",
+      "escolha": "Usar ‘organizem-se’ na BV e ‘preparem-se’ na literal, relacionando o imperativo às casas paternas e divisões.",
+      "justificativa": "O Hifil imperativo plural abre a organização cultual e é seguido por dois padrões distributivos; não há objeto lexical que autorize introduzir utensílios ou ofertas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preparem as ofertas",
+          "motivo": "Criaria um objeto que só aparece no contexto posterior."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "se"
+  ],
+  "ambiguidades_preservadas": [
+    "בִּכְתָב e וּבְמִכְתַּב podem designar escritos, prescrições ou documentos; o texto não identifica sua extensão."
+  ],
+  "justificativa": "Imperativo plural, casas paternas, divisões e os dois escritos atribuídos a Davi e Salomão permanecem distintos.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "gpt-5.6-sol",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}
