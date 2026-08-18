@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.53.9",
+    "livro": "Isaías",
+    "capitulo": 53,
+    "versiculo": 9,
+    "pericope": "Isa.53.1-12"
+  },
+  "texto_bv": "Deram-lhe sepultura com os ímpios, e com um rico em sua morte, embora não tivesse cometido violência, nem houvesse engano em sua boca.",
+  "traducao_literal": "E deu[-se], com ímpios, sua sepultura, e com rico, em suas mortes; ainda que nenhuma violência tivesse feito, e nenhum engano em sua boca.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּתֵּ֤ן",
+      "lemma": "c/5414",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "854",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "רְשָׁעִים֙",
+      "lemma": "7563",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "קִבְר֔וֹ",
+      "lemma": "6913",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/854",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "עָשִׁ֖יר",
+      "lemma": "6223",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "בְּמֹתָ֑יו",
+      "lemma": "b/4194",
+      "morfologia": "HR/Ncmpc/Sp3ms"
+    },
+    {
+      "palavra": "עַ֚ל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "חָמָ֣ס",
+      "lemma": "2555",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "עָשָׂ֔ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "וְלֹ֥א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "מִרְמָ֖ה",
+      "lemma": "4820",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בְּפִֽיו",
+      "lemma": "b/6310",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito elíptico de וַיִּתֵּן (3ms, sem antecedente explícito no verso)",
+      "escolha": "voz impessoal no publicado: 'Deram-lhe sepultura...'",
+      "justificativa": "O hebraico não expressa sujeito separado (verbo 3ms com referente indeterminado, uso comum para sujeito impessoal em narrativa hebraica); a passiva/impessoal portuguesa é o equivalente funcional natural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e ele deu sua sepultura com os ímpios' (servo como sujeito ativo, dispondo da própria sepultura)",
+          "motivo": "gramaticalmente possível mas menos natural no contexto — o servo é objeto de ação alheia ao longo de todo o poema, não agente"
+        }
+      ]
+    },
+    {
+      "questao": "אֶת como preposição comitativa (H854 'com'), não marcador de objeto direto (H853), em ambas as ocorrências do verso",
+      "escolha": "seguir a morfologia pinada: 'com os ímpios' / 'com um rico', não 'os ímpios' / 'um rico' como objeto direto",
+      "justificativa": "Fidelidade à marcação morfológica do packet (lemma 854, preposição), distinta do marcador acusativo 853 usado em outros versos deste mesmo capítulo (v.6, v.8, v.12).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "בְּמֹתָיו (plural 'em suas mortes', referindo-se a uma única morte)",
+      "escolha": "normalizar para singular 'em sua morte' no publicado; preservar o plural na literal",
+      "justificativa": "Plural intensivo/enfático hebraico aplicado a um evento único; plural literal soa agramatical em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter plural no publicado ('em suas mortes')",
+          "motivo": "sugere múltiplas mortes, contradizendo o sentido do hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso sobre o destino post-mortem do servo; mantidas as marcações morfológicas específicas do packet (אֶת comitativo) mesmo onde a tradição de tradução costuma tratá-las como objeto direto.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

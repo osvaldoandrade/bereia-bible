@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.8.4",
+    "livro": "Isaías",
+    "capitulo": 8,
+    "versiculo": 4,
+    "pericope": "Isa.8.1-23"
+  },
+  "texto_bv": "pois, antes que o menino saiba dizer 'meu pai' e 'minha mãe', a riqueza de Damasco e o despojo de Samaria serão levados diante do rei da Assíria.\"",
+  "traducao_literal": "Porque, antes que saiba o menino chamar meu pai e minha mãe, carregará a riqueza de Damasco e o despojo de Samaria diante do rei da Assíria.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֗י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "בְּטֶ֨רֶם֙",
+      "lemma": "b/2962",
+      "morfologia": "HR/D"
+    },
+    {
+      "palavra": "יֵדַ֣ע",
+      "lemma": "3045",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "הַנַּ֔עַר",
+      "lemma": "d/5288",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "קְרֹ֖א",
+      "lemma": "7121",
+      "morfologia": "HVqc"
+    },
+    {
+      "palavra": "אָבִ֣י",
+      "lemma": "1",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְאִמִּ֑י",
+      "lemma": "c/517",
+      "morfologia": "HC/Ncfsc/Sp1cs"
+    },
+    {
+      "palavra": "יִשָּׂ֣א",
+      "lemma": "5375",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "חֵ֣יל",
+      "lemma": "2428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "דַּמֶּ֗שֶׂק",
+      "lemma": "1834",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאֵת֙",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "שְׁלַ֣ל",
+      "lemma": "7998",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "שֹׁמְר֔וֹן",
+      "lemma": "8111",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לִפְנֵ֖י",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "מֶ֥לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אַשּֽׁוּר",
+      "lemma": "804",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Voz de יִשָּׂא (qal 3ms sem sujeito expresso)",
+      "escolha": "Verter como passiva (\"serão levados\") no texto publicado",
+      "justificativa": "O qal ativo sem sujeito distinto do objeto funciona idiomaticamente como impessoal/passivo em hebraico; o português exige sujeito ou voz passiva para naturalidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Inserir sujeito \"o rei da Assíria carregará\"",
+          "motivo": "Antecipa o \"rei da Assíria\", que no original é o destinatário (\"diante de\"), não o agente explícito do verbo."
+        }
+      ]
+    },
+    {
+      "questao": "Sentido de חֵיל דַּמֶּשֶׂק",
+      "escolha": "\"riqueza de Damasco\", em paralelo com \"despojo de Samaria\"",
+      "justificativa": "חַיִל cobre \"força/exército\" e \"riqueza/bens\"; o paralelismo com שָׁלָל (despojo) favorece o sentido de bens tomados como espólio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"força militar de Damasco\"",
+          "motivo": "Quebraria o paralelismo semântico com \"despojo\" no segundo membro do verso."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "חֵיל pode significar \"riqueza/bens\" ou \"força/exército\"; a BV opta pelo paralelismo com \"despojo\", mas a leitura militar permanece lexicalmente possível."
+  ],
+  "justificativa": "Mantido o marco temporal (antes que o menino fale as primeiras palavras) e os dois alvos da conquista assíria, Damasco e Samaria.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

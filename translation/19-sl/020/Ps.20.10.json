@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.20.10",
+    "livro": "Salmos",
+    "capitulo": 20,
+    "versiculo": 10,
+    "pericope": "Ps.20.1-10"
+  },
+  "texto_bv": "SENHOR, salva! Que o rei nos responda no dia em que clamarmos.",
+  "traducao_literal": "SENHOR, salva! O-rei responda-nos no-dia-de-nosso-clamar.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הוֹשִׁ֑יעָה",
+      "lemma": "3467",
+      "morfologia": "HVhv2ms/Sh"
+    },
+    {
+      "palavra": "הַ֝מֶּ֗לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "יַעֲנֵ֥נוּ",
+      "lemma": "6030 b",
+      "morfologia": "HVqi3ms/Sp1cp"
+    },
+    {
+      "palavra": "בְיוֹם",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "קָרְאֵֽנוּ",
+      "lemma": "7121",
+      "morfologia": "HVqc/Sp1cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Crux sintático-acentual: הַמֶּלֶךְ como sujeito de יַעֲנֵנוּ (pontuação massorética, atnach fecha a cláusula após הוֹשִׁיעָה) vs. como objeto de הוֹשִׁיעָה (leitura refletida na LXX/Vulgata: 'salva o rei')",
+      "escolha": "seguir a pontuação massorética da fonte pinada (OSHB): 'הַמֶּלֶךְ' é sujeito de 'יַעֲנֵנוּ', não objeto de 'הוֹשִׁיעָה'",
+      "justificativa": "TEOLOGIA §1.1: o texto hebraico pinado, incluindo seus acentos massoréticos, decide; o atnach sob הוֹשִׁיעָה fecha a primeira cláusula antes de הַמֶּלֶךְ, que abre a segunda cláusula como sujeito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'SENHOR, salva o rei! Responde-nos no dia em que clamarmos' (הַמֶּלֶךְ como objeto de הוֹשִׁיעָה, seguindo LXX/Vulgata/Peshitta e parte da tradição de tradução moderna)",
+          "motivo": "diverge da acentuação da fonte pinada (OSHB/MT); o packet não registra variante_fonte que autorize desviar do texto massorético pinado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Referente de הַמֶּלֶךְ ('o rei'): pode ser título aplicado ao próprio SENHOR (paralelismo com o vocativo anterior, leitura seguida aqui pela pontuação massorética) ou, numa leitura sintática alternativa não seguida nesta adjudicação, objeto do imperativo 'salva', referindo-se ao rei davídico humano — ambas as leituras permanecem plausíveis na tradição interpretativa."
+  ],
+  "justificativa": "Encerramento imperativo do salmo, com súplica direta ('salva!') seguida de nova petição; 'o rei' provavelmente funciona como epíteto do próprio SENHOR (cf. Sl 5:3; 145:1, 'meu Rei e meu Deus'), em paralelo com as invocações do nome divino nos versos anteriores.",
+  "confianca": 0.5,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

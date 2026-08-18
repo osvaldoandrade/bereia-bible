@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.26.1",
+    "livro": "Salmos",
+    "capitulo": 26,
+    "versiculo": 1,
+    "pericope": "Ps.26.1-12"
+  },
+  "texto_bv": "De Davi. Julga-me, SENHOR, pois tenho andado em integridade; tenho confiado no SENHOR e não vacilarei.",
+  "traducao_literal": "De Davi. Julga-me, SENHOR, porque eu, em minha integridade, andei; e no SENHOR confiei, não vacilarei.",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֨ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "שָׁפְטֵ֤נִי",
+      "lemma": "8199",
+      "morfologia": "HVqv2ms/Sp1cs"
+    },
+    {
+      "palavra": "יְהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֲ֭נִי",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "בְּתֻמִּ֣י",
+      "lemma": "b/8537",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "הָלַ֑כְתִּי",
+      "lemma": "1980",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "וּבַיהוָ֥ה",
+      "lemma": "c/b/3068",
+      "morfologia": "HC/R/Np"
+    },
+    {
+      "palavra": "בָּ֝טַ֗חְתִּי",
+      "lemma": "982",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אֶמְעָֽד",
+      "lemma": "4571",
+      "morfologia": "HVqi1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter o cabeçalho לְדָוִד, que a numeração do packet inclui dentro do v.1 (não como v.0 separado)?",
+      "escolha": "\"De Davi.\" como frase nominal autônoma, sem adicionar palavra não presente no original.",
+      "justificativa": "לְ + דָוִד é rótulo de autoria/dedicação; qualquer substantivo adicionado (\"Salmo\") seria suprido sem necessidade gramatical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Salmo de Davi.\"",
+          "motivo": "acrescenta \"salmo\", ausente do hebraico, sem exigência gramatical do português"
+        },
+        {
+          "opcao": "\"Davídico.\"",
+          "motivo": "arcaizante/erudito, foge do registro formal-neutro (EDITORIAL §1)"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa para תֹּם (H8537), base para o adjetivo/substantivo 'integridade' recorrente no salmo (v.1, v.11).",
+      "escolha": "integridade",
+      "justificativa": "Cobre completude moral e retidão sem o exagero de 'perfeição' nem o encolhimento de 'sinceridade' a mera franqueza de discurso; termo ainda ausente do léxico, fixado aqui para consistência com v.11.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sinceridade",
+          "motivo": "restringe a franqueza de fala, perde a noção de totalidade/retidão de vida"
+        },
+        {
+          "opcao": "perfeição",
+          "motivo": "implica ausência total de falha, mais forte que o campo semântico de תֹּם pede"
+        }
+      ]
+    },
+    {
+      "questao": "Tratamento aspectual dos qatal הָלַכְתִּי/בָּטַחְתִּי e do pronome enfático אֲנִי antes deles.",
+      "escolha": "Perfeitos vertidos como pretérito perfeito composto ('tenho andado/tenho confiado'), pronome אֲנִי não repetido no publicado (já expresso na flexão verbal em português).",
+      "justificativa": "O qatal em salmos de inocência descreve um padrão de vida estabelecido, relevante ao apelo por juízo; a ênfase pronominal hebraica é redundante em português, onde a pessoa já está marcada no verbo — condensação análoga à doutrina do calque (ER-0013) para repetição redundante.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"eu andei... eu confiei\" (repetindo o pronome)",
+          "motivo": "soa artificial em português, onde o sujeito já está na flexão verbal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo de inocência: apelo a juízo divino fundamentado em um padrão de vida íntegro (qatal) e em confiança estabelecida no SENHOR, com resolução final expressa no imperfeito ('não vacilarei'), que prepara o inclusio com v.11.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

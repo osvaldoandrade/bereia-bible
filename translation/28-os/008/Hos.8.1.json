@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.8.1",
+    "livro": "Oseias",
+    "capitulo": 8,
+    "versiculo": 1,
+    "pericope": "Hos.8.1-14"
+  },
+  "texto_bv": "Toque a trombeta! Vem como a águia sobre a casa do SENHOR, porque transgrediram minha aliança e se rebelaram contra minha lei.",
+  "traducao_literal": "Para tua boca, a trombeta! Como a águia sobre a casa do SENHOR; porque transgrediram minha aliança e contra minha lei se rebelaram.",
+  "termos_originais": [
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "חִכְּךָ֣",
+      "lemma": "2441",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "שֹׁפָ֔ר",
+      "lemma": "7782",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כַּנֶּ֖שֶׁר",
+      "lemma": "k/5404",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בֵּ֣ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יַ֚עַן",
+      "lemma": "3282",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "עָבְר֣וּ",
+      "lemma": "5674 a",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "בְרִיתִ֔י",
+      "lemma": "1285",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "וְעַל",
+      "lemma": "c/5921 a",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "תּוֹרָתִ֖י",
+      "lemma": "8451",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "פָּשָֽׁעוּ",
+      "lemma": "6586",
+      "morfologia": "HVqp3cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Cláusula nominal elíptica אֶל־חִכְּךָ שֹׁפָר sem verbo expresso",
+      "escolha": "suprir imperativo \"Toque\" (a trombeta)",
+      "justificativa": "hebraico é exclamação nominal sem verbo; o português exige verbo finito para ser gramatical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Põe a trombeta à boca\"",
+          "motivo": "sinônimo válido, porém menos idiomático em pt-BR para som de alarme"
+        }
+      ]
+    },
+    {
+      "questao": "Agente elíptico de כַּנֶּשֶׁר עַל־בֵּית יְהוָה",
+      "escolha": "manter sujeito impessoal/elíptico (\"vem\"), sem nomear o agente",
+      "justificativa": "o hebraico não expressa quem/o que vem como águia; TEOLOGIA §1.5 manda preservar ambiguidade do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"o inimigo vem como a águia\"",
+          "motivo": "acrescenta um agente (\"inimigo\") ausente no texto-fonte"
+        },
+        {
+          "opcao": "ligar \"como a águia\" ao som da trombeta, não a um agente que vem",
+          "motivo": "menos apoiado sintaticamente: עַל־בֵּית יְהוָה liga-se mais naturalmente a algo que vem \"sobre\" a casa"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Toque (imperativo elíptico)",
+    "Vem (verbo elíptico da cláusula comparativa)"
+  ],
+  "ambiguidades_preservadas": [
+    "Sujeito elíptico de \"vem como a águia\" — o agente da ameaça não é nomeado no hebraico",
+    "\"Casa do SENHOR\" pode referir-se ao templo ou a Israel como povo/aliança de Deus"
+  ],
+  "justificativa": "Oráculo de alarme elíptico; verbo do imperativo e da cláusula comparativa supridos minimamente, preservando a ambiguidade do agente que vem \"como águia\".",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

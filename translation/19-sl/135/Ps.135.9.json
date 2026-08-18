@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.135.9",
+    "livro": "Salmos",
+    "capitulo": 135,
+    "versiculo": 9,
+    "pericope": "Ps.135.1-21"
+  },
+  "texto_bv": "Enviou sinais e prodígios no meio de você, Egito, contra o Faraó e todos os seus servos.",
+  "traducao_literal": "Enviou sinais e-prodígios em-meio-de-ti, Egito, contra-Faraó e-contra-todo servos-dele.",
+  "termos_originais": [
+    {
+      "palavra": "שָׁלַ֤ח",
+      "lemma": "7971",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֹת֣וֹת",
+      "lemma": "226",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "וּ֭מֹפְתִים",
+      "lemma": "c/4159",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "בְּתוֹכֵ֣כִי",
+      "lemma": "b/8432",
+      "morfologia": "HR/Ncmsc/Sp2fs"
+    },
+    {
+      "palavra": "מִצְרָ֑יִם",
+      "lemma": "4714",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּ֝פַרְעֹ֗ה",
+      "lemma": "b/6547",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וּבְכָל",
+      "lemma": "c/b/3605",
+      "morfologia": "HC/R/Ncmsc"
+    },
+    {
+      "palavra": "עֲבָדָֽיו",
+      "lemma": "5650",
+      "morfologia": "HNcmpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בְּתוֹכֵכִי traz sufixo pronominal de 2ª pessoa feminina singular, endereçando o Egito diretamente ('no teu/seu meio, ó Egito') — apóstrofe poética. Qual tratamento de 2ª pessoa aplicar (EDITORIAL §3)?",
+      "escolha": "'Você' — a regra distingue 'tu' apenas para oração/salmo dirigido a Deus; aqui o endereçado é uma nação personificada, não Deus, então segue a forma padrão 'você/vocês'.",
+      "justificativa": "Aplicação literal da distinção do EDITORIAL §3: o critério é o destinatário do discurso, não o gênero poético do texto como um todo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Tu' (por estar em contexto de salmo)",
+          "motivo": "o critério da regra é o destinatário do discurso direto, não o gênero do livro; aqui o discurso não é dirigido a Deus"
+        }
+      ]
+    },
+    {
+      "questao": "Faraó: manter maiúscula (nome-título) ou minúscula (título comum)?",
+      "escolha": "Maiúscula, seguindo a marcação morfológica do packet (HR/Np, nome próprio) e a maioria de uso já fixada no corpus.",
+      "justificativa": "OSHB tagueia פַּרְעֹה como Np (substantivo próprio) nesta ocorrência; convenção majoritária do corpus (Dt, 1Sm) capitaliza.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continua a seção do Êxodo; בְּ antes de פַּרְעֹה e עֲבָדָיו tem valor hostil ('contra'), coerente com o relato das pragas.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

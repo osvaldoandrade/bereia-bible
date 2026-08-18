@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.120.7",
+    "livro": "Salmos",
+    "capitulo": 120,
+    "versiculo": 7,
+    "pericope": "Ps.120.1-7"
+  },
+  "texto_bv": "Eu sou pela paz; mas, quando falo, eles estão para a guerra.",
+  "traducao_literal": "Eu, paz; e quando falo, eles, para a guerra.",
+  "termos_originais": [
+    {
+      "palavra": "אֲֽנִי",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "שָׁ֭לוֹם",
+      "lemma": "7965",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְכִ֣י",
+      "lemma": "c/3588 a",
+      "morfologia": "HC/C"
+    },
+    {
+      "palavra": "אֲדַבֵּ֑ר",
+      "lemma": "1696",
+      "morfologia": "HVpi1cs"
+    },
+    {
+      "palavra": "הֵ֝֗מָּה",
+      "lemma": "1992",
+      "morfologia": "HPp3mp"
+    },
+    {
+      "palavra": "לַמִּלְחָמָֽה",
+      "lemma": "l/4421",
+      "morfologia": "HRd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "predicação nominal dupla sem verbo (אֲֽנִי־שָׁ֭לוֹם / הֵ֝֗מָּה לַמִּלְחָמָֽה)",
+      "escolha": "cópulas supridas no publicado ('sou'/'estão'); omitidas na literal",
+      "justificativa": "EDITORIAL §4/ER-0006: elipse suprida apenas quando o português for agramatical sem isso; aqui a frase nominal exige cópula em português.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "assimetria sintática entre as duas predicações (שָׁלוֹם sem preposição × לַמִּלְחָמָה com ל)",
+      "escolha": "preservar a assimetria: 'sou pela paz' (predicação direta) × 'estão para a guerra' (predicação com marca direcional, sugerindo inclinação/prontidão)",
+      "justificativa": "o hebraico marca 'eles' com a preposição direcional ל, sugerindo inclinação/prontidão para a guerra, distinta da predicação direta de 'eu, paz'; a tradução tenta refletir essa diferença sutil sem soar artificial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "simetria total ('eu sou paz, eles são guerra')",
+          "motivo": "apaga a marca preposicional distinta do hebraico ל presente apenas na segunda metade"
+        }
+      ]
+    },
+    {
+      "questao": "וְכִ֣י — conjunção adversativa + temporal",
+      "escolha": "'mas, quando'",
+      "justificativa": "כִּי introduz aqui uma oração temporal em contraste com a autoidentificação pacífica do salmista; o waw acrescenta o contraste adversativo exigido pelo contexto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e quando' (apenas temporal)",
+          "motivo": "perde o contraste adversativo que o contexto exige — a reação deles contradiz a postura do salmista"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sou (cópula elíptica de אֲנִי־שָׁלוֹם, publicado apenas)",
+    "estão (cópula elíptica de הֵמָּה לַמִּלְחָמָה, publicado apenas)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso final de contraste pessoal: o salmista se identifica com a paz, mas seus interlocutores respondem com hostilidade bélica mesmo à sua fala pacífica; estrutura nominal dupla sem verbo, resolvida com cópulas supridas registradas.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

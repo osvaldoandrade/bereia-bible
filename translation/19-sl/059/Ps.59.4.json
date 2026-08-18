@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.59.4",
+    "livro": "Salmos",
+    "capitulo": 59,
+    "versiculo": 4,
+    "pericope": "Ps.59.1-18"
+  },
+  "texto_bv": "Pois eis que armam emboscada contra a minha vida; homens poderosos me atacam. Não há transgressão minha, nem pecado meu, SENHOR.",
+  "traducao_literal": "Pois eis que armaram emboscada à minha vida; atacam contra mim poderosos: não [há] transgressão minha e não pecado meu, SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הִנֵּ֪ה",
+      "lemma": "2009",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "אָֽרְב֡וּ",
+      "lemma": "693",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "לְנַפְשִׁ֗י",
+      "lemma": "l/5315",
+      "morfologia": "HR/Ncbsc/Sp1cs"
+    },
+    {
+      "palavra": "יָג֣וּרוּ",
+      "lemma": "1481 b",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "עָלַ֣י",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "עַזִ֑ים",
+      "lemma": "5794",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "פִשְׁעִ֖י",
+      "lemma": "6588",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְלֹא",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "חַטָּאתִ֣י",
+      "lemma": "2403 b",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Elipse verbal em לֹא־פִשְׁעִי וְלֹא־חַטָּאתִי",
+      "escolha": "suprir 'há'",
+      "justificativa": "Cláusula nominal negada sem verbo copulativo explícito; suprido por exigência de gramaticalidade (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter sem verbo ('não transgressão minha')",
+          "motivo": "agramatical em português"
+        }
+      ]
+    },
+    {
+      "questao": "יָגוּרוּ — raiz גור II ('atacar/hostilizar') vs גור I ('peregrinar/hospedar-se')",
+      "escolha": "atacam",
+      "justificativa": "Lemma anotado '1481 b' no packet, homógrafo distinto de גור I; sentido hostil coerente com o contexto de emboscada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "se hospedam/peregrinam contra mim",
+          "motivo": "sentido da raiz I, incompatível com o contexto bélico do versículo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "há"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Queixa de perseguição imerecida, encerrada em vocativo a יְהוָה (SENHOR); ordem V-S do hebraico normalizada para S-V no publicado, preservada na literal.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mic.4.9",
+    "livro": "Miqueias",
+    "capitulo": 4,
+    "versiculo": 9,
+    "pericope": "Mic.4.1-14"
+  },
+  "texto_bv": "Agora, por que você grita tanto? É por não haver rei em você, ou por ter perecido o seu conselheiro, que a dor a tomou como a de quem está em trabalho de parto?",
+  "traducao_literal": "Agora, por que gritas um grito? Não há rei em ti? Se o teu conselheiro pereceu, por isso te tomou dor, como a que dá à luz.",
+  "termos_originais": [
+    {
+      "palavra": "עַתָּ֕ה",
+      "lemma": "6258",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "לָ֥מָּה",
+      "lemma": "l/4100",
+      "morfologia": "HR/Ti"
+    },
+    {
+      "palavra": "תָרִ֖יעִי",
+      "lemma": "7321",
+      "morfologia": "HVhi2fs"
+    },
+    {
+      "palavra": "רֵ֑עַ",
+      "lemma": "7452",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הֲמֶ֣לֶךְ",
+      "lemma": "i/4428",
+      "morfologia": "HTi/Ncmsa"
+    },
+    {
+      "palavra": "אֵֽין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "בָּ֗ךְ",
+      "lemma": "b",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "אִֽם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יוֹעֲצֵךְ֙",
+      "lemma": "3289",
+      "morfologia": "HVqrmsc/Sp2fs"
+    },
+    {
+      "palavra": "אָבָ֔ד",
+      "lemma": "6",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הֶחֱזִיקֵ֥ךְ",
+      "lemma": "2388",
+      "morfologia": "HVhp3ms/Sp2fs"
+    },
+    {
+      "palavra": "חִ֖יל",
+      "lemma": "2427 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כַּיּוֹלֵדָֽה",
+      "lemma": "k/3205",
+      "morfologia": "HRd/Vqrfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "רֵעַ — acusativo cognato de תָרִיעִי ('gritar um grito')",
+      "escolha": "'grita tanto' no publicado (intensificador em vez de objeto cognato); 'gritas um grito' preservado na literal.",
+      "justificativa": "ER-0013 — o acusativo cognato hebraico é redundante em português; a intensidade é vertida por advérbio.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "אִם como partícula interrogativa disjuntiva ('ou')",
+      "escolha": "'ou' no publicado, ligando as duas perguntas retóricas.",
+      "justificativa": "Uso padrão de אִם em pergunta dupla/alternativa.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "כִּי como conectivo causal-resultativo retroativo ('é por... que...')",
+      "escolha": "Reestruturar sintaticamente no publicado para deixar explícita a relação de causa entre a ausência de rei/conselheiro e a dor; preservar ordem mais próxima do original na literal.",
+      "justificativa": "Português exige marcação sintática explícita da relação lógica que o כִּי hebraico sinaliza de forma mais compacta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'que a dor a tomou' sem reestruturação",
+          "motivo": "em português soaria como oração solta, obscurecendo a relação causal do כִּי"
+        }
+      ]
+    },
+    {
+      "questao": "Segunda pessoa dirigida a Sião (תָרִיעִי, בָּךְ) — mesma decisão do v.8",
+      "escolha": "'você' no publicado; 'tu' na literal (ER-0003).",
+      "justificativa": "Continuidade da decisão registrada em Mic.4.8.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הֲמֶלֶךְ אֵין־בָּךְ pode ser lido literalmente (ausência de um rei humano/davídico) ou como referência à realeza do SENHOR — preservado sem decisão no texto"
+  ],
+  "justificativa": "Sequência de perguntas retóricas sobre a angústia de Sião; o acusativo cognato (רֵעַ) é resolvido por advérbio de intensidade no publicado; a relação causal do כִּי é explicitada sintaticamente para clareza em português.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

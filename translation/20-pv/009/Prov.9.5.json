@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.9.5",
+    "livro": "Provérbios",
+    "capitulo": 9,
+    "versiculo": 5,
+    "pericope": "Prov.9.1-18"
+  },
+  "texto_bv": "\"Venham comer do meu pão, e beber do vinho que preparei.",
+  "traducao_literal": "Ide, comei em meu pão; e bebei em vinho que misturei.",
+  "termos_originais": [
+    {
+      "palavra": "לְ֭כוּ",
+      "lemma": "3212",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "לַחֲמ֣וּ",
+      "lemma": "3898 b",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "בְֽלַחֲמִ֑י",
+      "lemma": "b/3899",
+      "morfologia": "HR/Ncbsc/Sp1cs"
+    },
+    {
+      "palavra": "וּ֝שְׁת֗וּ",
+      "lemma": "c/8354",
+      "morfologia": "HC/Vqv2mp"
+    },
+    {
+      "palavra": "בְּיַ֣יִן",
+      "lemma": "b/3196",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "מָסָֽכְתִּי",
+      "lemma": "4537",
+      "morfologia": "HVqp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לְכוּ לַחֲמוּ — cadeia assindética de dois volitivos (\"ide, comei\"), padrão hebraico de imperativo duplo.",
+      "escolha": "condensar em \"venham comer\" no publicado, preservando os dois imperativos na literal",
+      "justificativa": "doutrina do calque (ER-0013): a cadeia volitiva dupla é normal em hebraico mas redundante em português; o publicado funde os dois verbos em uma construção natural, a literal preserva ambos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"vão, comam\" no publicado",
+          "motivo": "soa como dois atos distintos e desnecessariamente segmentados em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "מָסָכְתִּי (\"misturei\", referindo-se ao vinho temperado/misturado com especiarias, prática comum na época) — verbo técnico de preparo de vinho.",
+      "escolha": "\"que preparei\"",
+      "justificativa": "generaliza o termo técnico \"misturar vinho\" (mistura com água/especiarias) para \"preparar\", mais transparente ao leitor contemporâneo sem alterar o sentido de hospitalidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"que misturei\" (literal)",
+          "motivo": "em português corrente soa como diluição/adulteração do vinho, sentido não pretendido pelo hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do discurso direto da sabedoria (ER-0004): convite hospitaleiro em cadeia volitiva dupla, condensada no publicado por ER-0013.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

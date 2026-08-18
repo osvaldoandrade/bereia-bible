@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Joel.3.4",
+    "livro": "Joel",
+    "capitulo": 3,
+    "versiculo": 4,
+    "pericope": "Joel.3.1-5"
+  },
+  "texto_bv": "O sol se tornará em trevas, e a lua, em sangue, antes que venha o grande e temível dia do SENHOR.",
+  "traducao_literal": "O sol se converterá em trevas, e a lua, em sangue, antes da vinda do dia do SENHOR, o grande e o temível.",
+  "termos_originais": [
+    {
+      "palavra": "הַשֶּׁ֨מֶשׁ֙",
+      "lemma": "d/8121",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "יֵהָפֵ֣ךְ",
+      "lemma": "2015",
+      "morfologia": "HVNi3ms"
+    },
+    {
+      "palavra": "לְחֹ֔שֶׁךְ",
+      "lemma": "l/2822",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְהַיָּרֵ֖חַ",
+      "lemma": "c/d/3394",
+      "morfologia": "HC/Td/Ncmsa"
+    },
+    {
+      "palavra": "לְדָ֑ם",
+      "lemma": "l/1818",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "לִפְנֵ֗י",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "בּ֚וֹא",
+      "lemma": "935",
+      "morfologia": "HVqc"
+    },
+    {
+      "palavra": "י֣וֹם",
+      "lemma": "3117",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַגָּד֖וֹל",
+      "lemma": "d/1419 a",
+      "morfologia": "HTd/Aamsa"
+    },
+    {
+      "palavra": "וְהַנּוֹרָֽא",
+      "lemma": "c/d/3372",
+      "morfologia": "HC/Td/VNrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "נוֹרָא — 'temível' vs 'terrível'",
+      "escolha": "temível",
+      "justificativa": "נוֹרָא (Niphal de ירא) denota o que inspira reverência/temor solene, não horror; 'temível' preserva esse registro sem a carga mais negativa de 'terrível'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "terrível",
+          "motivo": "tradução tradicional (linhagem Almeida), mas desloca o sentido para horror; carga semântica mais forte que נוֹרָא comporta"
+        }
+      ]
+    },
+    {
+      "questao": "Elipse verbal em וְהַיָּרֵחַ לְדָם (verbo retomado do primeiro membro)",
+      "escolha": "suprir 'se tornará' no segundo membro",
+      "justificativa": "O português exige verbo explícito para a coordenação ser gramatical (EDITORIAL §4); o hebraico permite elipse que o pt-BR não permite sem soar truncado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter elipse total ('e a lua, em sangue')",
+          "motivo": "agramatical/truncado em prosa pt-BR"
+        }
+      ]
+    },
+    {
+      "questao": "Artigo duplo הַגָּדוֹל וְהַנּוֹרָא ('o grande e o temível')",
+      "escolha": "artigo único no publicado ('o grande e temível dia'); duplo artigo preservado na literal",
+      "justificativa": "ER-0013: o duplo artigo é natural em hebraico (cada adjetivo concorda com o substantivo definido), mas redundante em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'o grande e o temível' no publicado",
+          "motivo": "soa redundante/estranho em pt-BR"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "se tornará (segundo membro, retomando יֵהָפֵךְ elidido antes de לְדָם)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula escatológica clássica ('dia do SENHOR, grande e temível'); decisões concentram-se em נוֹרָא, na elipse verbal do segundo membro e na normalização do artigo duplo hebraico, todas com literal auditável.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

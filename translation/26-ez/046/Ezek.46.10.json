@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.46.10",
+    "livro": "Ezequiel",
+    "capitulo": 46,
+    "versiculo": 10,
+    "pericope": "Ezek.46.1-24"
+  },
+  "texto_bv": "O príncipe estará no meio deles: quando eles entrarem, ele entrará; e, quando saírem, sairão.",
+  "traducao_literal": "E o príncipe, no meio deles: no entrarem eles, entrará; e no sairem eles, sairão.",
+  "termos_originais": [
+    {
+      "palavra": "וְֽהַנָּשִׂ֑יא",
+      "lemma": "c/d/5387 a",
+      "morfologia": "HC/Td/Ncmsa"
+    },
+    {
+      "palavra": "בְּתוֹכָ֤ם",
+      "lemma": "b/8432",
+      "morfologia": "HR/Ncmsc/Sp3mp"
+    },
+    {
+      "palavra": "בְּבוֹאָם֙",
+      "lemma": "b/935",
+      "morfologia": "HR/Vqc/Sp3mp"
+    },
+    {
+      "palavra": "יָב֔וֹא",
+      "lemma": "935",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "וּבְצֵאתָ֖ם",
+      "lemma": "c/b/3318",
+      "morfologia": "HC/R/Vqc/Sp3mp"
+    },
+    {
+      "palavra": "יֵצֵֽאוּ",
+      "lemma": "3318",
+      "morfologia": "HVqi3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "sujeito de יֵצֵאוּ (3mp, morfologia do packet) na cláusula final, após יָבוֹא (3ms) referido ao príncipe",
+      "escolha": "preservar a ambiguidade: 'sairão', sujeito plural não explicitado",
+      "justificativa": "o hebraico muda de יָבוֹא (3ms, concordando com 'o príncipe', sujeito da oração) para יֵצֵאוּ (3mp, confirmado na morfologia do packet); a BV preserva a mesma ambiguidade sintática do original em vez de decidir se inclui o príncipe.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele entrará... e sairá' (uniformizando em singular)",
+          "motivo": "apaga a mudança morfológica 3ms→3mp presente na fonte"
+        },
+        {
+          "opcao": "'ele entrará com eles... e sairão juntos' (explicitando o coletivo)",
+          "motivo": "acrescenta interpretação ('juntos') não codificada no hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "sujeito de 'sairão' (יֵצֵאוּ, 3mp) — se inclui o príncipe junto ao povo, ou refere-se apenas ao povo"
+  ],
+  "justificativa": "Construção temporal espelhando v.8-9; ambiguidade de sujeito registrada e não resolvida por decisão editorial.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

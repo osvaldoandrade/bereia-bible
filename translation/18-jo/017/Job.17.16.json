@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.17.16",
+    "livro": "Jó",
+    "capitulo": 17,
+    "versiculo": 16,
+    "pericope": "Job.17.1-16"
+  },
+  "texto_bv": "Descerá ela até as trancas do Seol? Desceremos juntos ao pó, para descansar?",
+  "traducao_literal": "Aos ferrolhos do Seol descerão; se juntos, sobre o pó, [houver] descanso.",
+  "termos_originais": [
+    {
+      "palavra": "בַּדֵּ֣י",
+      "lemma": "905",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "שְׁאֹ֣ל",
+      "lemma": "7585",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "תֵּרַ֑דְנָה",
+      "lemma": "3381",
+      "morfologia": "HVqi3fp"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יַ֖חַד",
+      "lemma": "3162 a",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עָפָ֣ר",
+      "lemma": "6083",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "נָֽחַת",
+      "lemma": "5183 a",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "תֵּרַ֑דְנָה (3fp) — concordância com sujeito ambíguo (תִּקְוָתִי, fs, do v.15?) e função sintática de todo o versículo.",
+      "escolha": "Ler como continuação retórica de v.15, com 'minha esperança' como sujeito implícito ('ela'), apesar do descompasso formal de número/gênero, e todo o versículo como pergunta retórica dupla.",
+      "justificativa": "A maioria das leituras trata תֵּרַדְנָה como concordância ad sensum com sujeito coletivo/abstrato; sem variante disponível no packet pinado, opta-se pela leitura que mantém coesão temática com o versículo anterior.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Tratar בַּדֵּי שְׁאֹל como sujeito próprio ('as trancas do Seol descerão')",
+          "motivo": "בַּדֵּי é masculino, incompatível com o verbo feminino plural; leitura possível mas não menos problemática que a adotada"
+        },
+        {
+          "opcao": "Emendar o texto para resolver a concordância",
+          "motivo": "fora do escopo — a fonte pinada (OSHB) não traz variante aqui; emenda conjectural não é adjudicação textual legítima"
+        }
+      ]
+    },
+    {
+      "questao": "נַ֫חַת — 'descanso/repouso' vs. nominalização de 'descida'.",
+      "escolha": "'descanso', lendo o substantivo נַחַת (repouso) conforme o lemma H5183a atribuído pelo packet.",
+      "justificativa": "Produz o sentido de 'descermos juntos ao pó, em descanso', complementando תֵּרַדְנָה sem redundância.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'descida' (nominalização do verbo descer)",
+          "motivo": "redundante com תֵּרַדְנָה, que já expressa a ideia de descer"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ela",
+    "para"
+  ],
+  "ambiguidades_preservadas": [
+    "Concordância de número/gênero entre תֵּרַדְנָה (3fp) e possíveis sujeitos (תִּקְוָתִי fs, בַּדֵּי שְׁאֹל mp) permanece sem solução consensual; leitura adotada é uma entre várias possíveis, preservada com baixa confiança"
+  ],
+  "justificativa": "Verso mais obscuro do capítulo; mantém-se leitura conservadora que preserva o tom retórico-desolado do final do lamento, sem resolver por emenda a dificuldade gramatical genuína do TM.",
+  "confianca": 0.5,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

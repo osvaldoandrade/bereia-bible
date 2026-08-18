@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Joel.1.7",
+    "livro": "Joel",
+    "capitulo": 1,
+    "versiculo": 7,
+    "pericope": "Joel.1.1-20"
+  },
+  "texto_bv": "Ela devastou a minha vinha e reduziu a lascas a minha figueira; descascou-a por completo e a derrubou; seus ramos ficaram brancos.",
+  "traducao_literal": "Pôs a minha vinha em desolação e a minha figueira em destroços; descascando, descascou-a, e lançou-a fora; embranqueceram os seus ramos.",
+  "termos_originais": [
+    {
+      "palavra": "שָׂ֤ם",
+      "lemma": "7760 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "גַּפְנִי֙",
+      "lemma": "1612",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "לְשַׁמָּ֔ה",
+      "lemma": "l/8047",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "וּתְאֵנָתִ֖י",
+      "lemma": "c/8384",
+      "morfologia": "HC/Ncfsc/Sp1cs"
+    },
+    {
+      "palavra": "לִקְצָפָ֑ה",
+      "lemma": "l/7111",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "חָשֹׂ֤ף",
+      "lemma": "2834",
+      "morfologia": "HVqa"
+    },
+    {
+      "palavra": "חֲשָׂפָהּ֙",
+      "lemma": "2834",
+      "morfologia": "HVqp3ms/Sp3fs"
+    },
+    {
+      "palavra": "וְהִשְׁלִ֔יךְ",
+      "lemma": "c/7993",
+      "morfologia": "HC/Vhp3ms"
+    },
+    {
+      "palavra": "הִלְבִּ֖ינוּ",
+      "lemma": "3835 a",
+      "morfologia": "HVhp3cp"
+    },
+    {
+      "palavra": "שָׂרִיגֶֽיהָ",
+      "lemma": "8299",
+      "morfologia": "HNcmpc/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Infinitivo absoluto חָשֹׂף חֲשָׂפָהּ (intensificação)",
+      "escolha": "normalizar no publicado com advérbio ('descascou-a por completo'), preservando a duplicação verbal na literal",
+      "justificativa": "ER-0013: o infinitivo absoluto intensificador é um calque hebraico sem equivalente sintático direto em português; a literal mantém a duplicação ('descascando, descascou'), o publicado normaliza para advérbio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'descascou e descascou-a' no publicado",
+          "motivo": "Soa como repetição desajeitada em português, sem o efeito de ênfase que tem no hebraico."
+        }
+      ]
+    },
+    {
+      "questao": "Sujeito não explícito (retomada de גוֹי, 'nação', v.6)",
+      "escolha": "suprir 'Ela', referindo-se a 'uma nação' (substantivo feminino em português)",
+      "justificativa": "O hebraico mantém o sujeito implícito no verbo 3ms; o português exige pronome explícito, e 'nação' é gramaticalmente feminina em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele' (referindo a גוֹי, masculino em hebraico)",
+          "motivo": "Quebraria a concordância de gênero em português, onde 'nação' é substantivo feminino."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Ela (sujeito retomado de 'uma nação', v.6)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continua a metáfora do v.6: a 'nação' devasta vinha e figueira, símbolos agrícolas centrais de Israel.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

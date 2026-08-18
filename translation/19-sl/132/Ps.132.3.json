@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.132.3",
+    "livro": "Salmos",
+    "capitulo": 132,
+    "versiculo": 3,
+    "pericope": "Ps.132.1-18"
+  },
+  "texto_bv": "“Não entrarei na tenda da minha casa, nem subirei ao leito da minha cama;",
+  "traducao_literal": "Se eu entrar na tenda da minha casa, se eu subir sobre o leito do meu leito.",
+  "termos_originais": [
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אָ֭בֹא",
+      "lemma": "935",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "בְּאֹ֣הֶל",
+      "lemma": "b/168",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "בֵּיתִ֑י",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֶ֝עֱלֶ֗ה",
+      "lemma": "5927",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עֶ֥רֶשׂ",
+      "lemma": "6210",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "יְצוּעָֽי",
+      "lemma": "3326 a",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אִם em fórmula de juramento – partícula condicional 'se' vs. negação enfática",
+      "escolha": "negação enfática ('não... nem...')",
+      "justificativa": "אִם introduzindo o conteúdo de um juramento (v.2) é idiotismo de autoimprecação elíptica ('se eu fizer X, [que me aconteça mal]'), que equivale na prática a negação enfática; manter 'se' isolado produz frase sintaticamente incompleta em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'se' literal no texto publicado",
+          "motivo": "o leitor de português não reconhece a apódose elíptica de autoimprecação; resultaria em frase truncada"
+        }
+      ]
+    },
+    {
+      "questao": "עֶרֶשׂ יְצוּעָי – par de quase-sinônimos em cadeia construta ('leito de meu leito/descanso')",
+      "escolha": "dois substantivos distintos em português ('leito'/'cama') para preservar a dobra sem repetição",
+      "justificativa": "עֶרֶשׂ e יָצוּעַ intensificam um único conceito ('minha cama de descanso'); usar substantivos distintos evita repetição estranha em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a cama do meu leito' repetindo a mesma ideia com termos redundantes",
+          "motivo": "soa artificial e menos natural em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira metade do voto de Davi: idiotismo hebraico de juramento (אִם) vertido como negação enfática para inteligibilidade em português; discurso direto aberto conforme decisão de v.2.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

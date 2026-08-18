@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.85.9",
+    "livro": "Salmos",
+    "capitulo": 85,
+    "versiculo": 9,
+    "pericope": "Ps.85.1-14"
+  },
+  "texto_bv": "Eu ouvirei o que Deus, o SENHOR, falará, pois falará paz ao seu povo e aos seus fiéis — mas que não voltem à insensatez.",
+  "traducao_literal": "Ouvirei o que fala o Deus, o SENHOR; porque fala paz ao seu povo e aos seus fiéis, e não voltem à insensatez.",
+  "termos_originais": [
+    {
+      "palavra": "אֶשְׁמְעָ֗ה",
+      "lemma": "8085",
+      "morfologia": "HVqh1cs"
+    },
+    {
+      "palavra": "מַה",
+      "lemma": "4100",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יְדַבֵּר֮",
+      "lemma": "1696",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "הָאֵ֪ל",
+      "lemma": "d/410",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "יְה֫וָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יְדַבֵּ֬ר",
+      "lemma": "1696",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "שָׁל֗וֹם",
+      "lemma": "7965",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עַמּ֥וֹ",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וְאֶל",
+      "lemma": "c/413",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "חֲסִידָ֑יו",
+      "lemma": "2623",
+      "morfologia": "HAampc/Sp3ms"
+    },
+    {
+      "palavra": "וְֽאַל",
+      "lemma": "c/408",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יָשׁ֥וּבוּ",
+      "lemma": "7725",
+      "morfologia": "HVqj3mp"
+    },
+    {
+      "palavra": "לְכִסְלָֽה",
+      "lemma": "l/3690",
+      "morfologia": "HR/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הָאֵל יְהוָה — dupla nomeação divina em aposição (אֵל definido + Tetragrama), única ocorrência do tipo neste capítulo",
+      "escolha": "Deus, o SENHOR",
+      "justificativa": "Aplica a política ER-0002/NOMES-DIVINOS.md a cada nome separadamente (אֵל→Deus, יהוה→SENHOR), mantendo a aposição visível com vírgula em vez de fundir os dois em um só rótulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o Deus SENHOR (sem vírgula, como rótulo único)",
+          "motivo": "apaga a estrutura de dupla nomeação em aposição presente no TM"
+        }
+      ]
+    },
+    {
+      "questao": "Função de כִּי — causal ('pois/porque') ou asseverativa ('certamente')",
+      "escolha": "causal (pois)",
+      "justificativa": "Leitura mais direta: o motivo de o salmista querer ouvir é que sabe que a fala divina será de paz.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "certamente falará paz (asseverativo)",
+          "motivo": "gramaticalmente possível e preservada como leitura alternativa; não adotada por não alterar substancialmente o sentido e por 'pois' fluir melhor com אֶשְׁמְעָה"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Eu (sujeito explicitado para marcar o coortativo אֶשְׁמְעָה)"
+  ],
+  "ambiguidades_preservadas": [
+    "כִּי pode ser lido como causal ('pois') ou asseverativo ('certamente'); a BV opta pelo causal, registrando a alternativa."
+  ],
+  "justificativa": "Virada estrutural do salmo: da súplica em 2ª pessoa (vv.2-8) para a meditação em 1ª pessoa sobre a resposta divina em 3ª pessoa (vv.9-14), sem endereçamento direto a Deus daqui em diante.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

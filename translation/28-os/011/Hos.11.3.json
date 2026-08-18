@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.11.3",
+    "livro": "Oseias",
+    "capitulo": 11,
+    "versiculo": 3,
+    "pericope": "Hos.11.1-11"
+  },
+  "texto_bv": "Eu ensinei Efraim a andar, tomando-os pelos braços; mas eles não sabiam que eu os curava.",
+  "traducao_literal": "E eu ensinei-a-andar Efraim, tomou-os sobre os braços dele; e não souberam que curei-os.",
+  "termos_originais": [
+    {
+      "palavra": "וְאָנֹכִ֤י",
+      "lemma": "c/595",
+      "morfologia": "HC/Pp1cs"
+    },
+    {
+      "palavra": "תִרְגַּ֨לְתִּי֙",
+      "lemma": "8637",
+      "morfologia": "HVcp1cs"
+    },
+    {
+      "palavra": "לְאֶפְרַ֔יִם",
+      "lemma": "l/669",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "קָחָ֖ם",
+      "lemma": "3947",
+      "morfologia": "HVqp3ms/Sp3mp"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "זְרֽוֹעֹתָ֑יו",
+      "lemma": "2220",
+      "morfologia": "HNcbpc/Sp3ms"
+    },
+    {
+      "palavra": "וְלֹ֥א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יָדְע֖וּ",
+      "lemma": "3045",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "רְפָאתִֽים",
+      "lemma": "7495",
+      "morfologia": "HVqp1cs/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "קָחָם está marcado na morfologia como perfeito 3ms ('ele tomou'), mas o sujeito do verso é 1cs ('eu'); como verter?",
+      "escolha": "manter sujeito 1cs 'eu tomava/tomando-os', tratando a forma como continuidade adverbial da ação principal",
+      "justificativa": "Forma morfologicamente 3ms com sufixo 3mp é anomalia bem conhecida do texto massorético neste verso; tradução tradicional (e a única que produz sentido coerente com o contexto de 1ª pessoa) lê como continuação da ação de quem ensina a andar segurando os braços da criança. A anomalia gramatical é registrada, não corrigida silenciosamente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "verter literalmente 'ele os tomou' (3ms)",
+          "motivo": "quebra a coerência do sujeito 1cs mantido em todo o verso e no restante da estrofe; produziria um terceiro agente não identificado no texto"
+        }
+      ]
+    },
+    {
+      "questao": "עַל־זְרוֹעֹתָיו ('sobre os braços dele', 3ms) — braços de quem?",
+      "escolha": "os braços do próprio Efraim/povo (imagem de quem segura os braços da criança para ensiná-la a andar)",
+      "justificativa": "Coerente com a cena: quem ensina uma criança a andar segura os braços da própria criança, não os seus; 'Efraim' é substantivo gramaticalmente singular referindo-se ao povo, daí o sufixo 3ms.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "braços do próprio SENHOR (emendado para 'meus braços')",
+          "motivo": "não corresponde ao sufixo 3ms do TM; exigiria emenda textual não sustentada pelo packet"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Alternância gramatical entre 'Efraim' (singular) e sufixos plurais ('os', 'eles') reflete a oscilação hebraica entre o nome coletivo singular e a referência plural ao povo; preservada na tradução"
+  ],
+  "justificativa": "Imagem parental de ensinar a criança a andar; כִּי final é completivo ('que'), não causal, introduzindo o conteúdo do que não sabiam.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

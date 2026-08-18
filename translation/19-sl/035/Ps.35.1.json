@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.35.1",
+    "livro": "Salmos",
+    "capitulo": 35,
+    "versiculo": 1,
+    "pericope": "Ps.35.1-28"
+  },
+  "texto_bv": "De Davi. Contende, SENHOR, com os que contendem comigo; luta contra os que lutam contra mim.",
+  "traducao_literal": "De Davi. Contende, SENHOR, com os que contendem comigo; combate com os que combatem comigo.",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֨ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "רִיבָ֣ה",
+      "lemma": "7378",
+      "morfologia": "HVqv2ms/Sh"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְרִיבַ֑י",
+      "lemma": "3401",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "לְ֝חַ֗ם",
+      "lemma": "3898 a",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "לֹֽחֲמָֽי",
+      "lemma": "3898 a",
+      "morfologia": "HVqrmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "רִיבָה (H7378) — verbo de contenda jurídica",
+      "escolha": "Contende",
+      "justificativa": "רִיב é termo de disputa jurídica (mesma raiz de 'causa/ריב' retomada em v.23); 'contende' preserva o registro forense sem soar arcaico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Disputa",
+          "motivo": "perde o sentido jurídico específico de רִיב"
+        },
+        {
+          "opcao": "Defende a minha causa",
+          "motivo": "paráfrase que antecipa vocabulário só introduzido em v.23"
+        }
+      ]
+    },
+    {
+      "questao": "לְחַם (H3898a) ... לֹחֲמָי — figura etimológica (mesma raiz repetida)",
+      "escolha": "luta ... os que lutam contra mim",
+      "justificativa": "Preserva em português a repetição de raiz do hebraico (imperativo + particípio cognatos).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Combate ... meus adversários",
+          "motivo": "perde a repetição de raiz presente no original"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "com",
+    "contra"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Superscrição לְדָוִד integrada ao v.1 conforme o packet; par de imperativos ריב/לחם com objetos cognatos (יריבי/לחמי) tratado como par forense-militar; nomes divinos conforme ER-0002 (יְהוָה → SENHOR).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

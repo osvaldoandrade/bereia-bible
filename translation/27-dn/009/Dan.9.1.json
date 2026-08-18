@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Dan.9.1",
+    "livro": "Daniel",
+    "capitulo": 9,
+    "versiculo": 1,
+    "pericope": "Dan.9.1-27"
+  },
+  "texto_bv": "No primeiro ano de Dario, filho de Assuero, da linhagem dos medos, que foi feito rei sobre o reino dos caldeus.",
+  "traducao_literal": "No ano um de Dario, filho de Assuero, da semente de Media, que foi feito rei sobre o reino dos caldeus.",
+  "termos_originais": [
+    {
+      "palavra": "בִּשְׁנַ֣ת",
+      "lemma": "b/8141",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "אַחַ֗ת",
+      "lemma": "259",
+      "morfologia": "HAcfsa"
+    },
+    {
+      "palavra": "לְדָרְיָ֛וֶשׁ",
+      "lemma": "l/1867",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֲחַשְׁוֵר֖וֹשׁ",
+      "lemma": "325",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִזֶּ֣רַע",
+      "lemma": "m/2233",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "מָדָ֑י",
+      "lemma": "4074",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "הָמְלַ֔ךְ",
+      "lemma": "4427 a",
+      "morfologia": "HVHp3ms"
+    },
+    {
+      "palavra": "עַ֖ל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מַלְכ֥וּת",
+      "lemma": "4438",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "כַּשְׂדִּֽים",
+      "lemma": "3778",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בִּשְׁנַ֣ת אַחַ֗ת — cardinal 'ano um' vs. fórmula regnal idiomática",
+      "escolha": "normalizar para 'primeiro ano' no texto publicado, preservando 'ano um' na literal",
+      "justificativa": "Fórmula de datação regnal comum em Dn/Ed/Ne/Et usa cardinal após o construto ('shenat X'); ER-0013 permite normalização quando o calque soa artificial em prosa histórica rotineira, diferente do refrão cosmogônico estilizado de Gn 1:5 ('dia um', ER-0014), mantido no publicado por decisão deliberada do mantenedor.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'ano um' também no texto publicado, em paralelo a Gn 1:5",
+          "motivo": "Gn 1:5 é refrão teológico estilizado com decisão própria registrada; aqui é fórmula histórica de datação sem essa carga, e 'ano um' soaria artificial/traduzido em narrativa histórica."
+        }
+      ]
+    },
+    {
+      "questao": "מִזֶּ֣רַע (H2233, glosa padrão do léxico: 'semente', fixada em contexto vegetal de Gn 1)",
+      "escolha": "traduzir 'linhagem' no publicado, preservando 'semente' na literal",
+      "justificativa": "Sentido idiomático de descendência humana; a glosa padrão do léxico foi cunhada para o contexto vegetal de Gn 1 e soaria estranha em genealogia (registro formal-neutro, EDITORIAL §1).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'semente' (glosa padrão do léxico) também no publicado",
+          "motivo": "leitura naturalmente vegetal em português corrente, quebra o registro de prosa histórica."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Versículo de abertura com fórmula de datação regnal; sem disputa teológica, apenas ajuste de registro entre cardinal hebraico e ordinal português.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

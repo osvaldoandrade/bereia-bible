@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.19.2",
+    "livro": "Salmos",
+    "capitulo": 19,
+    "versiculo": 2,
+    "pericope": "Ps.19.1-15"
+  },
+  "texto_bv": "Os céus contam a glória de Deus, e o firmamento anuncia a obra das suas mãos.",
+  "traducao_literal": "Os céus contam a glória de Deus; e a obra das suas mãos anuncia o firmamento.",
+  "termos_originais": [
+    {
+      "palavra": "הַשָּׁמַ֗יִם",
+      "lemma": "d/8064",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "מְֽסַפְּרִ֥ים",
+      "lemma": "5608 a",
+      "morfologia": "HVprmpa"
+    },
+    {
+      "palavra": "כְּבֽוֹד",
+      "lemma": "3519",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "אֵ֑ל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּֽמַעֲשֵׂ֥ה",
+      "lemma": "c/4639",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "יָ֝דָ֗יו",
+      "lemma": "3027",
+      "morfologia": "HNcbdc/Sp3ms"
+    },
+    {
+      "palavra": "מַגִּ֥יד",
+      "lemma": "5046",
+      "morfologia": "HVhrmsa"
+    },
+    {
+      "palavra": "הָרָקִֽיעַ",
+      "lemma": "d/7549",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem objeto-verbo-sujeito da segunda oração (וּמַעֲשֵׂה יָדָיו מַגִּיד הָרָקִיעַ)",
+      "escolha": "Quiasmo preservado integralmente na traducao_literal (objeto fronteado antes de verbo e sujeito); no texto publicado, normalizado para sujeito-verbo-objeto paralelo à primeira oração ('o firmamento anuncia a obra das suas mãos').",
+      "justificativa": "Doutrina do calque ER-0013 (quiasmo de ordem, item 3): o hebraico constrói quiasmo com a linha 2a (os céus contam a glória — S-V-O); a linha 2b inverte para O-V-S. Normalização evita soar artificial em português sem perder o paralelismo semântico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'e a obra das suas mãos anuncia o firmamento' no publicado",
+          "motivo": "preserva a ambiguidade sintática de que 'o firmamento' seria objeto, quando é sujeito no hebraico — risco de leitura invertida do sentido"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de אֵל (H410) em כְּבוֹד־אֵל",
+      "escolha": "'Deus', conforme NOMES-DIVINOS v1.0.0",
+      "justificativa": "Política fixa אֵל → Deus (composições ganham entrada própria; aqui uso simples, não composto).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "רָקִיעַ já fixado 'firmamento' no léxico (H7549, ER-0015); reutilizado aqui por consistência terminológica (EDITORIAL §11).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

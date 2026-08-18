@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.12.5",
+    "livro": "Isaías",
+    "capitulo": 12,
+    "versiculo": 5,
+    "pericope": "Isa.12.1-6"
+  },
+  "texto_bv": "Cantem louvores ao SENHOR, pois ele fez coisas grandiosas; seja isso conhecido em toda a terra.",
+  "traducao_literal": "Cantai ao SENHOR, porque grandeza fez; conhecida [é] isto em toda a terra.",
+  "termos_originais": [
+    {
+      "palavra": "זַמְּר֣וּ",
+      "lemma": "2167",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "גֵא֖וּת",
+      "lemma": "1348",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "עָשָׂ֑ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "מידעת",
+      "lemma": "3045",
+      "morfologia": "HVPsfsa"
+    },
+    {
+      "palavra": "זֹ֖את",
+      "lemma": "2063",
+      "morfologia": "HPdxfs"
+    },
+    {
+      "palavra": "בְּכָל",
+      "lemma": "b/3605",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "הָאָֽרֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מידעת — grafia sem qualquer pontuação massorética no packet (todas as demais palavras do verso trazem niqqud/cantilação), lemma 3045 (ידע), morph HVPsfsa (particípio passivo fs)",
+      "escolha": "interpretar como a forma tradicionalmente lida 'מוּדַעַת' (particípio passivo, 'conhecida/anunciada'), concordando com זֹאת (fem. sg.), e vertê-la com força jussiva-declarativa ('seja isso conhecido') em continuidade com a cadeia de imperativos dos vv.4-5",
+      "justificativa": "o packet não trouxe campo de aparato (`variantes_fonte`) para este verso, mas a ausência total de pontuação nesta única palavra — quando todas as outras do capítulo estão pontuadas — é uma anomalia de forma preservada aqui para auditoria; a leitura funcional (particípio passivo de ידע) é a mesma independentemente da vocalização exata, e é a atestada nas traduções de referência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "declarativo simples e não-jussivo ('isto é conhecido em toda a terra')",
+          "motivo": "gramaticalmente igualmente válido a partir do particípio, mas quebra o paralelismo com a cadeia imperativa de louvor que domina os vv.4-5"
+        }
+      ]
+    },
+    {
+      "questao": "גֵאוּת עָשָׂה — ordem objeto-verbo ('grandeza fez') e גֵאוּת como substantivo abstrato singular",
+      "escolha": "normalizar no publicado para ordem verbo-objeto e locução idiomática plural ('fez coisas grandiosas'), preservando a ordem e o abstrato singular na traducao_literal",
+      "justificativa": "doutrina do calque (ER-0013): a inversão objeto-verbo é estilística no hebraico poético e soa artificial em português corrido (EDITORIAL §1.3); 'coisas grandiosas' é estratégia idiomática comum para verter o abstrato גֵאוּת ('grandeza/excelência/majestade').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele agiu com grandeza' (abstrato preservado)",
+          "motivo": "mais próximo do lexema, mas menos natural que a locução plural idiomática no publicado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "coisas (para verter o substantivo abstrato גֵאוּת como locução idiomática 'coisas grandiosas')",
+    "seja (força jussiva suprida ao particípio passivo מידעת/מוּדַעַת)"
+  ],
+  "ambiguidades_preservadas": [
+    "A grafia מידעת, única palavra do verso sem pontuação massorética no packet, é preservada como anomalia de forma; a leitura funcional adotada (particípio passivo de ידע, 'conhecida/anunciada') não muda o sentido geral, mas a BV não afirma certeza sobre a vocalização exata na ausência de aparato formal."
+  ],
+  "justificativa": "Segundo par de imperativos de louvor do cântico (cantem/seja conhecido), fechando com a extensão universal ('toda a terra'). A principal fonte de incerteza é a grafia anômala e não-pontuada de מידעת no packet, sem aparato formal disponível para adjudicar variantes.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

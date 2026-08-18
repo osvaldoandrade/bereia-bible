@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jonah.1.9",
+    "livro": "Jonas",
+    "capitulo": 1,
+    "versiculo": 9,
+    "pericope": "Jonah.1.1-16"
+  },
+  "texto_bv": "Ele lhes disse: \"Sou hebreu, e temo ao SENHOR, o Deus dos céus, que fez o mar e a terra seca.\"",
+  "traducao_literal": "E disse a eles: \"Hebreu eu; e ao SENHOR, Deus dos céus, eu temo, o que fez o mar e a terra seca.\"",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אֲלֵיהֶ֖ם",
+      "lemma": "413",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "עִבְרִ֣י",
+      "lemma": "5680",
+      "morfologia": "HNgmsa"
+    },
+    {
+      "palavra": "אָנֹ֑כִי",
+      "lemma": "595",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "יְהוָ֞ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהֵ֤י",
+      "lemma": "430",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "הַשָּׁמַ֨יִם֙",
+      "lemma": "d/8064",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "אֲנִ֣י",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "יָרֵ֔א",
+      "lemma": "3373",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "עָשָׂ֥ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הַיָּ֖ם",
+      "lemma": "d/3220",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "הַיַּבָּשָֽׁה",
+      "lemma": "d/3004",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וְאֶת־יְהוָ֞ה ... אֲנִ֣י יָרֵ֔א: objeto fronteado antes do sujeito+verbo (ordem marcada OVS).",
+      "escolha": "Publicar em ordem natural SVO (\"temo ao SENHOR...\"); preservar a ordem fronteada na traducao_literal (\"e ao SENHOR... eu temo\").",
+      "justificativa": "ER-0013 — calque de ordem marcada preservado na literal; a fronting hebraica enfatiza o objeto (o SENHOR, Deus dos céus) como resposta central à pergunta dos marinheiros, mas soaria artificial em português corrido no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Preservar a fronting também no publicado (\"É ao SENHOR que eu temo\")",
+          "motivo": "clivagem soaria retoricamente exagerada em português corrido; a ênfase é mantida pelo conteúdo da confissão, não pela sintaxe marcada."
+        }
+      ]
+    },
+    {
+      "questao": "הַיַּבָּשָׁה (\"a terra seca\") — reaproveita glosa do léxico (H3004, fixada em Gn 1:9-10).",
+      "escolha": "Manter \"terra seca\" (lexico_ref H3004), consistente com a entrada do léxico e com Jonah.1.13.",
+      "justificativa": "EDITORIAL §11 — consistência terminológica com entrada lexical existente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"terra firme\" (mais idiomático em contexto marítimo)",
+          "motivo": "desviaria da glosa fixada no léxico sem justificativa teológica ou lexical suficiente."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Clímax da primeira metade do capítulo: Jonas finalmente identifica seu Deus como o SENHOR, Deus dos céus, precisamente aquele que criou o mar que agora o ameaça — ironia central da cena.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

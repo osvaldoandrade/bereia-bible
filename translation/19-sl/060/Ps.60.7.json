@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.60.7",
+    "livro": "Salmos",
+    "capitulo": 60,
+    "versiculo": 7,
+    "pericope": "Ps.60.1-14"
+  },
+  "texto_bv": "Para que os teus amados sejam libertados, salva-nos com a tua mão direita e responde-nos.",
+  "traducao_literal": "Para que sejam libertados os teus amados, salva a tua destra e responde-nos.",
+  "termos_originais": [
+    {
+      "palavra": "לְ֭מַעַן",
+      "lemma": "4616",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יֵחָלְצ֣וּן",
+      "lemma": "2502 a",
+      "morfologia": "HVNi3mp/Sn"
+    },
+    {
+      "palavra": "יְדִידֶ֑יךָ",
+      "lemma": "3039 a",
+      "morfologia": "HAampc/Sp2ms"
+    },
+    {
+      "palavra": "הוֹשִׁ֖יעָה",
+      "lemma": "3467",
+      "morfologia": "HVhv2ms/Sh"
+    },
+    {
+      "palavra": "יְמִֽינְךָ֣",
+      "lemma": "3225",
+      "morfologia": "HNcfsc/Sp2ms"
+    },
+    {
+      "palavra": "ועננו",
+      "lemma": "c/6032",
+      "morfologia": "HC/Vqv2ms/Sp1cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הוֹשִׁיעָה יְמִינְךָ — imperativo sem sufixo de objeto explícito, seguido de יְמִינְךָ (\"tua mão direita\")",
+      "escolha": "tratar יְמִינְךָ como instrumento (\"salva-nos com a tua mão direita\"), suprindo o objeto \"-nos\"",
+      "justificativa": "O imperativo הוֹשִׁיעָה carece de objeto formal; o paralelismo com ועננו (\"e responde-nos\", com sufixo explícito) sustenta a leitura de que o pedido é em benefício do orante/povo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tomar יְמִינְךָ como sujeito de um verbo elíptico (\"que a tua destra salve\")",
+          "motivo": "construção possível em hebraico poético, mas menos direta que ler יְמִינְךָ como complemento instrumental do imperativo já presente"
+        }
+      ]
+    },
+    {
+      "questao": "ועננו (Ketiv sem marcação plena) — leitura morfológica",
+      "escolha": "ler como Qal imperativo 2ms + sufixo 1cp, \"e responde-nos\" (conforme morfologia da fonte)",
+      "justificativa": "A morfologia anexada ao packet (HC/Vqv2ms/Sp1cp) resolve a forma consonantal como imperativo com sufixo pronominal; segue-se a fonte pinada sem introduzir dúvida adicional.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "nos (objeto implícito de \"salva\", suprido pelo paralelo com \"responde-nos\")"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Súplica final da primeira parte do salmo, em paralelismo com o refrão que se repete em Sl 108.7 (mesma fórmula).",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

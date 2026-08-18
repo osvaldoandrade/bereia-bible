@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Obad.1.11",
+    "livro": "Obadias",
+    "capitulo": 1,
+    "versiculo": 11,
+    "pericope": "Obad.1.1-21"
+  },
+  "texto_bv": "No dia em que você ficou à distância, no dia em que estrangeiros levaram cativas as riquezas dele, e forasteiros entraram pelo seu portão e lançaram sortes sobre Jerusalém, você também foi como um deles.",
+  "traducao_literal": "No dia do teu estar à parte, no dia do cativeiro dos estranhos, a riqueza dele, e estrangeiros entraram no portão dele, e sobre Jerusalém lançaram sorte — também tu, como um deles.",
+  "termos_originais": [
+    {
+      "palavra": "בְּיוֹם֙",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "עֲמָֽדְךָ֣",
+      "lemma": "5975",
+      "morfologia": "HVqc/Sp2ms"
+    },
+    {
+      "palavra": "מִנֶּ֔גֶד",
+      "lemma": "m/5048",
+      "morfologia": "HR/R"
+    },
+    {
+      "palavra": "בְּי֛וֹם",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "שְׁב֥וֹת",
+      "lemma": "7617",
+      "morfologia": "HVqc"
+    },
+    {
+      "palavra": "זָרִ֖ים",
+      "lemma": "2114 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "חֵיל֑וֹ",
+      "lemma": "2428",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וְנָכְרִ֞ים",
+      "lemma": "c/5237",
+      "morfologia": "HC/Aampa"
+    },
+    {
+      "palavra": "בָּ֣אוּ",
+      "lemma": "935",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "שערו",
+      "lemma": "8179",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וְעַל",
+      "lemma": "c/5921 a",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "יְרוּשָׁלִַ֨ם֙",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יַדּ֣וּ",
+      "lemma": "3032",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "גוֹרָ֔ל",
+      "lemma": "1486",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "גַּם",
+      "lemma": "1571",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "אַתָּ֖ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "כְּאַחַ֥ד",
+      "lemma": "k/259",
+      "morfologia": "HR/Acmsc"
+    },
+    {
+      "palavra": "מֵהֶֽם",
+      "lemma": "m",
+      "morfologia": "HR/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שערו grafado sem sinais vocálicos/cantilação (todas as demais palavras do verso os têm)",
+      "escolha": "seguir a morfologia fornecida pelo packet (singular, sufixo 3ms): 'seu portão'",
+      "justificativa": "O packet não traz aparato formal (variantes_fonte) para este verso; a morfologia pinada (HNcmsc/Sp3ms) indica singular. A grafia sem pontos é registrada apenas como ambiguidade, não como variante adjudicada, por ausência de aparato na fonte pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'seus portões' (plural, tradição de Qere conhecida para este verso)",
+          "motivo": "não sustentada pela morfologia efetivamente pinada no packet cego; adotá-la seria inventar aparato ausente"
+        }
+      ]
+    },
+    {
+      "questao": "זָרִים vs. נָכְרִים, dois termos hebraicos distintos para 'estrangeiro' no mesmo verso",
+      "escolha": "'estrangeiros' para זָרִים e 'forasteiros' para נָכְרִים",
+      "justificativa": "Distinção lexical para preservar, na medida do possível, a variação vocabular do original sem duplicar a mesma palavra portuguesa duas vezes seguidas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "usar 'estrangeiros' para ambos",
+          "motivo": "apaga a variação lexical hebraica, ainda que os dois termos sejam quase sinônimos"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Grafia consonantal sem pontuação de שערו: 'seu portão' (singular, conforme morfologia pinada) vs. tradição de leitura plural conhecida em outras edições.",
+    "חֵילוֹ pode significar 'sua riqueza/bens' ou 'seu exército/força'; optou-se por 'riquezas', com a leitura militar preservada como possibilidade."
+  ],
+  "justificativa": "Infinitivos construtos עֲמָדְךָ e שְׁבוֹת descrevem as circunstâncias temporais ('no dia de teu ficar à parte', 'no dia do cativeiro'); יַדּוּ גוֹרָל, 'lançaram sortes', idiom para partilha de despojo/território.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

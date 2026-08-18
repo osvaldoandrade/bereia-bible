@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.3.1",
+    "livro": "Salmos",
+    "capitulo": 3,
+    "versiculo": 1,
+    "pericope": "Ps.3.1-9"
+  },
+  "texto_bv": "Salmo de Davi, quando fugia de Absalão, seu filho.",
+  "traducao_literal": "Salmo de Davi, no fugir dele de diante de Absalão, seu filho.",
+  "termos_originais": [
+    {
+      "palavra": "מִזְמ֥וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִ֑ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "בְּ֝בָרְח֗וֹ",
+      "lemma": "b/1272",
+      "morfologia": "HR/Vqc/Sp3ms"
+    },
+    {
+      "palavra": "מִפְּנֵ֤י",
+      "lemma": "m/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "אַבְשָׁל֬וֹם",
+      "lemma": "53",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּנֽוֹ",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בְּבָרְחוֹ é infinitivo construto (Vqc) com sufixo pronominal 3ms e prefixo temporal ב; como verter para o português?",
+      "escolha": "oração temporal finita 'quando fugia' no publicado",
+      "justificativa": "Construção padrão hebraica de infinitivo construto temporal com sufixo como sujeito lógico; o português não tem infinitivo flexionado equivalente natural, exigindo conversão para oração subordinada temporal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "no fugir dele (calque nominal)",
+          "motivo": "soa artificial e arcaizante no texto publicado; preservado apenas na traducao_literal (ER-0013)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "quando (conversão do infinitivo construto temporal)"
+  ],
+  "ambiguidades_preservadas": [
+    "לְדָוִד pode indicar autoria ('de/por Davi') ou dedicatória ('para Davi'); mantido 'de Davi' por convenção consolidada, sem fixar a relação"
+  ],
+  "justificativa": "Superscrição do salmo, situando-o historicamente na fuga de Davi de Absalão (2Sm 15-18); tradução direta sem controvérsia lexical relevante.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

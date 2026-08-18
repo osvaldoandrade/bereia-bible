@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.130.6",
+    "livro": "Salmos",
+    "capitulo": 130,
+    "versiculo": 6,
+    "pericope": "Ps.130.1-8"
+  },
+  "texto_bv": "A minha alma espera o Senhor mais do que os vigias esperam a manhã, mais do que os vigias esperam a manhã.",
+  "traducao_literal": "Minha alma para o Senhor, mais que vigias para a manhã, vigias para a manhã.",
+  "termos_originais": [
+    {
+      "palavra": "נַפְשִׁ֥י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "לַֽאדֹנָ֑י",
+      "lemma": "l/136",
+      "morfologia": "HR/Ncmpc/Sp1cs"
+    },
+    {
+      "palavra": "מִשֹּׁמְרִ֥ים",
+      "lemma": "m/8104",
+      "morfologia": "HR/Vqrmpa"
+    },
+    {
+      "palavra": "לַ֝בֹּ֗קֶר",
+      "lemma": "l/1242",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "שֹׁמְרִ֥ים",
+      "lemma": "8104",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "לַבֹּֽקֶר",
+      "lemma": "l/1242",
+      "morfologia": "HRd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Oração nominal נַפְשִׁי לַאדֹנָי (sem verbo) e sua repetição elíptica em שֹׁמְרִים לַבֹּקֶר",
+      "escolha": "suprir 'espera' nas duas ocorrências no publicado; a literal preserva a construção com preposição ל sem verbo",
+      "justificativa": "O verbo de espera é elidido, retomado do contexto (vv.5-6); o português exige o verbo explícito para a oração ser gramatical (ER-0006).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Repetição integral de שֹׁמְרִים לַבֹּקֶר (com comparativo מן na 1ª ocorrência, ausente na 2ª)",
+      "escolha": "preservar as duas ocorrências no publicado",
+      "justificativa": "A repetição total da frase é o clímax retórico do salmo (intensidade da espera); ER-0013 condensa repetição redundante, não repetição que constitui a figura poética central do versículo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "condensar em uma só oração comparativa",
+          "motivo": "eliminaria o efeito cumulativo/anafórico que é o ponto do versículo"
+        }
+      ]
+    },
+    {
+      "questao": "שֹׁמְרִים — glosa de 'guardas noturnos'",
+      "escolha": "vigias",
+      "justificativa": "Particípio de שמר, 'os que vigiam/guardam'; 'vigias' evita a marcação de gênero fixa de 'sentinela' (substantivo predominantemente feminino em português) e mantém registro neutro-formal, ligando-se diretamente à ação de aguardar a manhã.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sentinelas",
+          "motivo": "substantivo gramaticalmente feminino em português, gera atrito com 'os' referindo a guardas indefinidos quanto ao gênero"
+        },
+        {
+          "opcao": "guardas",
+          "motivo": "aceitável, mas menos ligado semanticamente à ação de esperar presente no verso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "espera (verbo elidido na oração nominal, duas ocorrências: נַפְשִׁי לַאדֹנָי e שֹׁמְרִים לַבֹּקֶר)"
+  ],
+  "ambiguidades_preservadas": [
+    "Identidade concreta dos 'vigias' (guarda noturna genérica, urbana ou cúltica/levítica) não é especificada pelo texto; preservada sem resolução."
+  ],
+  "justificativa": "Imagem dos guardas noturnos ansiando pelo fim do turno na alvorada, comparada à intensidade da espera do salmista por Deus.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

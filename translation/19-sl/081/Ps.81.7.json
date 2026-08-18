@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.81.7",
+    "livro": "Salmos",
+    "capitulo": 81,
+    "versiculo": 7,
+    "pericope": "Ps.81.1-17"
+  },
+  "texto_bv": "Eu tirei o fardo do ombro dele; as mãos dele ficaram livres do cesto.",
+  "traducao_literal": "Eu removi do fardo o ombro dele; as mãos dele do cesto passaram.",
+  "termos_originais": [
+    {
+      "palavra": "הֲסִיר֣וֹתִי",
+      "lemma": "5493",
+      "morfologia": "HVhp1cs"
+    },
+    {
+      "palavra": "מִסֵּ֣בֶל",
+      "lemma": "m/5447",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "שִׁכְמ֑וֹ",
+      "lemma": "7926",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "כַּ֝פָּ֗יו",
+      "lemma": "3709",
+      "morfologia": "HNcfdc/Sp3ms"
+    },
+    {
+      "palavra": "מִדּ֥וּד",
+      "lemma": "m/1731",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "תַּעֲבֹֽרְנָה",
+      "lemma": "5674 a",
+      "morfologia": "HVqi3fp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pessoa gramatical do sufixo em שִׁכְמוֹ/כַּפָּיו (3ms/3fp \"dele\", não \"teu\")",
+      "escolha": "manter 3ª pessoa (\"dele\") conforme morfologia da fonte pinada",
+      "justificativa": "TEOLOGIA §1.1 (\"o texto decide, sempre\"): o packet pinado marca sufixo 3ms (Sp3ms) e verbo 3fp (taavornah); não emendo para 2ª pessoa \"teu/tuas\", ainda que parte da literatura acadêmica leia essas formas como sufixos arcaicos de 2ms por fenômeno dialetal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir \"teu ombro\"/\"tuas mãos\" (2ms), acompanhando leituras como a de algumas versões inglesas",
+          "motivo": "emendaria a vocalização/morfologia pinada sem base no aparato do packet, que não registra variante para este verso"
+        }
+      ]
+    },
+    {
+      "questao": "דּוּד (\"cesto/panela\" de carregar, associado ao trabalho forçado no Egito)",
+      "escolha": "\"cesto\"",
+      "justificativa": "Termo associado ao transporte de barro/tijolos (cf. contexto de trabalho escravo no Egito); \"cesto\" comunica o objeto de carga sem tecnicismo arqueológico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"panela/caldeirão\"",
+          "motivo": "sentido igualmente possível do lexema, mas menos adequado ao contexto de carga sobre os ombros do verso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Discurso divino em 1ª pessoa (\"eu removi\") sobre um referente em 3ª pessoa (\"ele/dele\"), retomando o \"testemunho em José\" do v.6.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

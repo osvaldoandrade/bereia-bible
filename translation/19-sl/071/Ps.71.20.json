@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.71.20",
+    "livro": "Salmos",
+    "capitulo": 71,
+    "versiculo": 20,
+    "pericope": "Ps.71.1-24"
+  },
+  "texto_bv": "Tu, que nos fizeste ver angústias muitas e amargas, voltarás a vivificar-nos; e das profundezas da terra voltarás a fazer-me subir.",
+  "traducao_literal": "Tu que nos fizeste ver angústias muitas e más, voltarás, vivificar-nos-ás; e das profundezas da terra voltarás, farás subir-me.",
+  "termos_originais": [
+    {
+      "palavra": "אֲשֶׁ֤ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "הראיתנו",
+      "lemma": "7200",
+      "morfologia": "HVhp2ms/Sp1cp"
+    },
+    {
+      "palavra": "צָר֥וֹת",
+      "lemma": "6869 b",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "רַבּ֗וֹת",
+      "lemma": "7227 a",
+      "morfologia": "HAafpa"
+    },
+    {
+      "palavra": "וְרָ֫ע֥וֹת",
+      "lemma": "c/7451 a",
+      "morfologia": "HC/Aafpa"
+    },
+    {
+      "palavra": "תָּשׁ֥וּב",
+      "lemma": "7725",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "תחיינו",
+      "lemma": "2421",
+      "morfologia": "HVpi2ms/Sp1cp"
+    },
+    {
+      "palavra": "וּֽמִתְּהֹמ֥וֹת",
+      "lemma": "c/m/8415",
+      "morfologia": "HC/R/Ncbpc"
+    },
+    {
+      "palavra": "הָ֝אָ֗רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "תָּשׁ֥וּב",
+      "lemma": "7725",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "תַּעֲלֵֽנִי",
+      "lemma": "5927",
+      "morfologia": "HVhi2ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "O verso muda de número gramatical: הִרְאִיתָנוּ e תְּחַיֵּינוּ trazem sufixo de 1ª pessoa do plural (\"nos\"), mas תַּעֲלֵנִי traz sufixo de 1ª pessoa do singular (\"me\"), no mesmo período.",
+      "escolha": "preservar literalmente a alternância nos/me, sem uniformizar para \"nos\" nos três verbos.",
+      "justificativa": "A morfologia do packet pinado (Sp1cp nos dois primeiros verbos, Sp1cs no terceiro) é o dado auditável; harmonizar apagaria uma característica textual documentada, ainda que sua causa (voz coletiva que se resolve em voz individual, ou fenômeno de tradição textual) permaneça em aberto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uniformizar tudo para \"nos\" (\"farás subir a nós\")",
+          "motivo": "corrigiria silenciosamente a morfologia pinada, contra a doutrina de fidelidade ao dado auditável do packet."
+        }
+      ]
+    },
+    {
+      "questao": "תָּשׁוּב ... verbo (2×) usado adverbialmente (\"voltar a fazer\") antes de חיה e עלה.",
+      "escolha": "\"voltarás a vivificar-nos\" / \"voltarás a fazer-me subir\", construção perifrástica pt-BR para o uso adverbial hebraico de שׁוב.",
+      "justificativa": "Construção idiomática consolidada em português para verbo auxiliar + infinitivo indicando repetição de ação.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"tornarás e vivificar-nos-ás\" (calque literal do padrão bíblico \"tornar e fazer\")",
+          "motivo": "soa arcaizante e pouco natural fora da tradução literal de auditoria."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Alternância gramatical nos/me (1ª pl. → 1ª sg.) entre os três verbos do versículo, preservada tal como pontuada no texto-fonte, sem harmonização editorial."
+  ],
+  "justificativa": "Verso com alternância morfológica de número pessoal, dado relevante para auditoria; confiança reduzida por essa complexidade.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Nah.2.3",
+    "livro": "Naum",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "Nah.2.1-14"
+  },
+  "texto_bv": "Pois o SENHOR restaura a glória de Jacó, como a glória de Israel, porque saqueadores os saquearam e devastaram os seus ramos.",
+  "traducao_literal": "Porque o SENHOR restaura a glória de Jacó, como a glória de Israel; porque esvaziaram-nos esvaziadores, e os seus ramos destruíram.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "שָׁ֤ב",
+      "lemma": "7725",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָה֙",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "גְּא֣וֹן",
+      "lemma": "1347",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יַעֲקֹ֔ב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּגְא֖וֹן",
+      "lemma": "k/1347",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֑ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "בְקָקוּם֙",
+      "lemma": "1238 b",
+      "morfologia": "HVqp3cp/Sp3mp"
+    },
+    {
+      "palavra": "בֹּֽקְקִ֔ים",
+      "lemma": "1238 b",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "וּזְמֹרֵיהֶ֖ם",
+      "lemma": "c/2156",
+      "morfologia": "HC/Ncfpc/Sp3mp"
+    },
+    {
+      "palavra": "שִׁחֵֽתוּ",
+      "lemma": "7843",
+      "morfologia": "HVpp3cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "גְּאוֹן (H1347) — glosa em contexto de restauração positiva",
+      "escolha": "glória",
+      "justificativa": "גְּאוֹן cobre o campo semântico 'majestade / excelência / orgulho'; no contexto de restauração divina (שָׁב + objeto direto), o valor positivo 'glória/majestade' é exigido, não o sentido pejorativo de 'orgulho' que o termo pode ter alhures.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "orgulho",
+          "motivo": "carrega conotação negativa dominante em português contemporâneo, incompatível com um ato de restauração divina"
+        }
+      ]
+    },
+    {
+      "questao": "שָׁב יְהוָה אֶת־גְּאוֹן — Qal de שוב com objeto direto (uso transitivo incomum)",
+      "escolha": "o SENHOR restaura (sentido causativo: 'traz de volta')",
+      "justificativa": "שוב Qal normalmente é intransitivo ('voltar'); com אֶת־ marcando objeto direto, o verbo assume valor causativo-elíptico ('faz voltar' = 'restaura'), leitura padrão dos comentaristas para este verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o SENHOR voltou [à] glória de Jacó",
+          "motivo": "não explica gramaticalmente o objeto direto marcado com אֶת; leitura menos natural"
+        }
+      ]
+    },
+    {
+      "questao": "בְקָקוּם֙ בֹּֽקְקִ֔ים — figura etimológica (mesma raiz בקק repetida, verbo + particípio)",
+      "escolha": "saqueadores os saquearam (repetição lexical preservada no publicado)",
+      "justificativa": "ER-0013 permite condensar repetições redundantes, mas aqui a figura etimológica é reforço estilístico intencional (ênfase na violência sofrida), não mera redundância mecânica; optou-se por preservá-la também no texto publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "devastadores os devastaram",
+          "motivo": "afastaria demais do campo semântico de 'esvaziar/saquear' de בקק, que é distinto de שחת (usado na oração seguinte para 'destruir')"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso-gonzo do oráculo: o ataque a Nínive (vv.2,4ss) é justificado pela restauração que o SENHOR promove a Jacó/Israel, nação que fora anteriormente saqueada e devastada — provavelmente pela própria Assíria.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

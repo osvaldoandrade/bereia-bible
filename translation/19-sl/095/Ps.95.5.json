@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.95.5",
+    "livro": "Salmos",
+    "capitulo": 95,
+    "versiculo": 5,
+    "pericope": "Ps.95.1-11"
+  },
+  "texto_bv": "Dele é o mar, pois ele o fez; e a terra seca, suas mãos a formaram.",
+  "traducao_literal": "Que dele [é] o mar, e ele o fez; e a terra seca, suas mãos formaram[-a].",
+  "termos_originais": [
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "ל֣וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "הַ֭יָּם",
+      "lemma": "d/3220",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וְה֣וּא",
+      "lemma": "c/1931",
+      "morfologia": "HC/Pp3ms"
+    },
+    {
+      "palavra": "עָשָׂ֑הוּ",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3ms/Sp3ms"
+    },
+    {
+      "palavra": "וְ֝יַבֶּ֗שֶׁת",
+      "lemma": "c/3006",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "יָדָ֥יו",
+      "lemma": "3027",
+      "morfologia": "HNcbdc/Sp3ms"
+    },
+    {
+      "palavra": "יָצָֽרוּ",
+      "lemma": "3335",
+      "morfologia": "HVqp3cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָצַר (H3335) vs עָשָׂה (H6213) — distinção lexical formar/fazer",
+      "escolha": "'formar' para יָצַר, distinto de 'fazer' (glosa fixada no léxico para H6213)",
+      "justificativa": "יָצַר é o verbo do oleiro (moldar/formar, cf. Gn 2:7), semanticamente distinto de עשה ('fazer' geral); preservar a distinção evita nivelar dois verbos hebraicos num só verbo português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'fazer' para ambos",
+          "motivo": "colapsaria dois verbos hebraicos distintos na mesma glosa, perdendo nuance recuperável em português ('formar')."
+        }
+      ]
+    },
+    {
+      "questao": "Quiasmo de ordem no segundo cólon: וְיַבֶּשֶׁת יָדָיו יָצָרוּ (objeto-sujeito-verbo)",
+      "escolha": "Normalizar para ordem direta 'a terra seca, suas mãos a formaram' no publicado; preservar objeto fronteado na traducao_literal",
+      "justificativa": "Doutrina do calque ER-0013: quiasmo poético (objeto fronteado, espelhando 'e ele o fez' do primeiro cólon) preservado na literal, normalizado no publicado para naturalidade sem perda do paralelismo semântico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter objeto fronteado no publicado ('E a terra seca formaram suas mãos')",
+          "motivo": "soa artificial/arcaizante em português corrente (ER-0013)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "-a (objeto retomado elipticamente em 'formaram', v5b)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecha a primeira motivação (posse cósmica: mar e terra seca); distinção lexical fazer(עשה)/formar(יצר) mantida; quiasmo poético do segundo cólon preservado na literal e normalizado no publicado (ER-0013).",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

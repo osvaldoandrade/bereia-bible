@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.56.2",
+    "livro": "Salmos",
+    "capitulo": 56,
+    "versiculo": 2,
+    "pericope": "Ps.56.1-14"
+  },
+  "texto_bv": "Tem misericórdia de mim, Deus, pois o homem me persegue com avidez; o dia todo ele me oprime, combatendo.",
+  "traducao_literal": "Tem piedade de mim, Deus, porque me persegue com avidez o homem; todo o dia, combatendo, ele me oprime.",
+  "termos_originais": [
+    {
+      "palavra": "חָנֵּ֣נִי",
+      "lemma": "2603 a",
+      "morfologia": "HVqv2ms/Sp1cs"
+    },
+    {
+      "palavra": "אֱ֭לֹהִים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "שְׁאָפַ֣נִי",
+      "lemma": "7602 b",
+      "morfologia": "HVqp3ms/Sp1cs"
+    },
+    {
+      "palavra": "אֱנ֑וֹשׁ",
+      "lemma": "582",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַ֝יּ֗וֹם",
+      "lemma": "d/3117",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "לֹחֵ֥ם",
+      "lemma": "3898 a",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "יִלְחָצֵֽנִי",
+      "lemma": "3905",
+      "morfologia": "HVqi3ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem V-S de שְׁאָפַנִי אֱנוֹשׁ (verbo-sujeito, inversão poética)",
+      "escolha": "Preservar V-S na traducao_literal ('me persegue... o homem'); normalizar para S-V no publicado ('o homem me persegue').",
+      "justificativa": "Doutrina do calque (ER-0013): inversões poéticas hebraicas são preservadas na literal; o publicado segue a ordem natural do português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S também no publicado",
+          "motivo": "soa arcaizante em português contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "לֹחֵם (particípio substantivado, 'o que combate') retomando o sujeito de יִלְחָצֵנִי",
+      "escolha": "Traduzir com retomada pronominal: 'ele me oprime, combatendo' (uso adverbial do particípio).",
+      "justificativa": "לֹחֵם pertence ao mesmo campo semântico de שְׁאָפַנִי aplicado ao mesmo agente ('o homem'); optou-se por retomada pronominal para não introduzir um substantivo novo não exigido pelo hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'um atacante me oprime' (substantivo novo)",
+          "motivo": "introduziria referente lexical novo onde o hebraico continua descrevendo o mesmo 'homem' do primeiro hemistíquio"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do lamento com súplica direta a Deus (imperativo חנן) e descrição da perseguição hostil, retomada nos vv.3-4.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

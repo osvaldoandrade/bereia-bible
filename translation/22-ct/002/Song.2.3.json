@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.2.3",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "Song.2.1-17"
+  },
+  "texto_bv": "Como uma macieira entre as árvores do bosque, assim é meu amado entre os jovens; sentei-me com grande prazer à sua sombra, e o seu fruto era doce ao meu paladar.",
+  "traducao_literal": "Como macieira entre as árvores do bosque, assim meu amado entre os filhos; em sua sombra desejei, e sentei-me, e seu fruto doce ao meu paladar.",
+  "termos_originais": [
+    {
+      "palavra": "כְּתַפּ֨וּחַ֙",
+      "lemma": "k/8598",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "בַּעֲצֵ֣י",
+      "lemma": "b/6086",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "הַיַּ֔עַר",
+      "lemma": "d/3293 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "כֵּ֥ן",
+      "lemma": "3651 c",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "דּוֹדִ֖י",
+      "lemma": "1730",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "בֵּ֣ין",
+      "lemma": "996",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַבָּנִ֑ים",
+      "lemma": "d/1121 a",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "בְּצִלּוֹ֙",
+      "lemma": "b/6738",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "חִמַּ֣דְתִּי",
+      "lemma": "2530 a",
+      "morfologia": "HVpp1cs"
+    },
+    {
+      "palavra": "וְיָשַׁ֔בְתִּי",
+      "lemma": "c/3427",
+      "morfologia": "HC/Vqp1cs"
+    },
+    {
+      "palavra": "וּפִרְי֖וֹ",
+      "lemma": "c/6529",
+      "morfologia": "HC/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "מָת֥וֹק",
+      "lemma": "4966",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "לְחִכִּֽי",
+      "lemma": "l/2441",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Par verbal חִמַּדְתִּי וְיָשַׁבְתִּי (\"desejei... e sentei-me\"), possível hendíadis.",
+      "escolha": "Normalizar no publicado para \"sentei-me com grande prazer\", condensando os dois verbos coordenados; a literal preserva ambos separadamente.",
+      "justificativa": "Doutrina do calque (ER-0013): a coordenação de dois verbos finitos funcionando como um único evento é calque estrutural do hebraico; soa redundante em português corrido, por isso normalizado no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Desejei sentar-me à sua sombra, e sentei-me\" (preservar os dois verbos no publicado)",
+          "motivo": "redundância desnecessária em português; o par funciona como hendíadis de ênfase, não como dois eventos distintos."
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de תַּפּוּחַ (H8598), identificação botânica incerta.",
+      "escolha": "macieira/maçã (glosa tradicional).",
+      "justificativa": "Mesma incerteza de espécie (maçã, damasco, marmelo) de v.5; glosa consolidada mantida por consistência interna do capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "damasqueiro",
+          "motivo": "proposta lexicográfica alternativa, sem consenso, menos reconhecível ao leitor."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "era"
+  ],
+  "ambiguidades_preservadas": [
+    "Identificação botânica de תַּפּוּחַ (maçã, damasco ou marmelo) permanece indeterminada."
+  ],
+  "justificativa": "Continuação da resposta do amado; par verbal coordenado normalizado no publicado, preservado na literal; nominal final resolvida com cópula suprida.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

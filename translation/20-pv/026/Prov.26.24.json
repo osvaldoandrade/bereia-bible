@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.26.24",
+    "livro": "Provérbios",
+    "capitulo": 26,
+    "versiculo": 24,
+    "pericope": "Prov.26.1-28"
+  },
+  "texto_bv": "Com os lábios, aquele que odeia se disfarça, mas no íntimo prepara o engano.",
+  "traducao_literal": "Com o seu lábio se disfarça o que odeia, e no seu íntimo põe engano.",
+  "termos_originais": [
+    {
+      "palavra": "בשפתו",
+      "lemma": "b/8193",
+      "morfologia": "HR/Ncfsc/Sp3ms"
+    },
+    {
+      "palavra": "יִנָּכֵ֣ר",
+      "lemma": "5234 b",
+      "morfologia": "HVNi3ms"
+    },
+    {
+      "palavra": "שׂוֹנֵ֑א",
+      "lemma": "8130",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "וּ֝בְקִרְבּ֗וֹ",
+      "lemma": "c/b/7130",
+      "morfologia": "HC/R/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "יָשִׁ֥ית",
+      "lemma": "7896",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "מִרְמָֽה",
+      "lemma": "4820",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בשפתו — número gramatical singular ('seu lábio') vs. plural idiomático em português",
+      "escolha": "preservar singular na literal ('o seu lábio'); normalizar para plural natural ('os lábios') no texto publicado",
+      "justificativa": "A morfologia do packet pinado marca שפתו como substantivo feminino singular construto + sufixo 3ms (não dual), calque preservado na literal por ER-0013; o português usa correntemente o plural para o órgão da fala, sem alterar o sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter singular também no publicado ('com o seu lábio')",
+          "motivo": "soa estranho/arcaizante em português contemporâneo sem ganho de sentido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "יִנָּכֵר (nifal, 'faz-se irreconhecível/disfarça-se') e יָשִׁית (raiz שית, 'põe/coloca') descrevem a dissimulação do que odeia, tema retomado em v.25-26.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

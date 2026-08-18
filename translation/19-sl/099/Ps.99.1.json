@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.99.1",
+    "livro": "Salmos",
+    "capitulo": 99,
+    "versiculo": 1,
+    "pericope": "Ps.99.1-9"
+  },
+  "texto_bv": "O SENHOR reina; tremam os povos! Ele está entronizado sobre os querubins; estremeça a terra!",
+  "traducao_literal": "SENHOR reinou; tremam povos; o que se assenta sobre querubins, estremeça a terra.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מָ֭לָךְ",
+      "lemma": "4427 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יִרְגְּז֣וּ",
+      "lemma": "7264",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "עַמִּ֑ים",
+      "lemma": "5971 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יֹשֵׁ֥ב",
+      "lemma": "3427",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "כְּ֝רוּבִ֗ים",
+      "lemma": "3742",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "תָּנ֥וּט",
+      "lemma": "5120",
+      "morfologia": "HVqi3fs"
+    },
+    {
+      "palavra": "הָאָֽרֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Modo dos imperfeitos יִרְגְּזוּ e תָּנוּט (indicativo vs. jussivo/exortativo)",
+      "escolha": "jussivo/exortativo ('tremam os povos... estremeça a terra')",
+      "justificativa": "Imperfeito sem marcador jussivo distintivo para essas raízes; o padrão dos salmos de entronização (Sl 96:9; 97:1,4) usa o mesmo tipo de imperfeito com força exortativa em paralelo a imperativos, mantendo a coerência do gênero.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "indicativo ('os povos tremem... a terra estremece')",
+          "motivo": "gramaticalmente possível, mas quebra o padrão retórico-exortativo do gênero de entronização"
+        }
+      ]
+    },
+    {
+      "questao": "Preposição ausente em יֹשֵׁב כְּרוּבִים",
+      "escolha": "'sobre os querubins' (suprida)",
+      "justificativa": "Construção idiomática de particípio de posição + acusativo de lugar (cf. 1Sm 4:4; 2Sm 6:2; Sl 80:2), referindo-se ao trono/propiciatório entre os querubins da arca; 'sobre' capta o sentido de entronização.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'entre os querubins'",
+          "motivo": "enfraquece a imagem do trono/propiciatório presente no idiom hebraico"
+        }
+      ]
+    },
+    {
+      "questao": "Tempo verbal de מָלָךְ (qatal) no texto publicado",
+      "escolha": "presente 'reina' no publicado; qatal 'reinou' preservado na literal",
+      "justificativa": "Fórmula de aclamação régia (cf. Sl 93:1; 97:1) funciona como declaração de estado atual/permanente, convenção do gênero de entronização.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'reinou' também no publicado",
+          "motivo": "soa como evento pontual concluído, obscurecendo o sentido de reinado presente e contínuo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sobre (preposição de יֹשֵׁב כְּרוּבִים)",
+    "está entronizado (perífrase verbal para o particípio יֹשֵׁב)"
+  ],
+  "ambiguidades_preservadas": [
+    "Modo indicativo vs. jussivo dos imperfeitos יִרְגְּזוּ e תָּנוּט"
+  ],
+  "justificativa": "Abre o salmo de entronização com a aclamação régia de YHWH e a resposta cósmica (povos, terra) à sua realeza sobre o trono dos querubins.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

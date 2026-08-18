@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.139.6",
+    "livro": "Salmos",
+    "capitulo": 139,
+    "versiculo": 6,
+    "pericope": "Ps.139.1-24"
+  },
+  "texto_bv": "Tal conhecimento é maravilhoso demais para mim; é alto demais — não posso alcançá-lo.",
+  "traducao_literal": "Maravilhoso [é o] conhecimento, longe demais de mim; é alto, não posso a ele.",
+  "termos_originais": [
+    {
+      "palavra": "פלאיה",
+      "lemma": "6383",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "דַ֣עַת",
+      "lemma": "1847",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "מִמֶּ֑נִּי",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "נִ֝שְׂגְּבָ֗ה",
+      "lemma": "7682",
+      "morfologia": "HVNrfsa"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "א֥וּכַֽל",
+      "lemma": "3201",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "לָֽהּ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "פלאיה — grafia da fonte pinada, forma não-padrão do adjetivo פְּלִיאָה (H6383); lemma resolvido da fonte confirma H6383",
+      "escolha": "traduzir pelo valor do lemma resolvido: 'maravilhoso'",
+      "justificativa": "A superfície pinada diverge da grafia padrão do TM, mas o lemma anexado pela fonte (6383) resolve-a como o mesmo adjetivo; sem aparato de variantes no packet para este item, trata-se de anotar a peculiaridade ortográfica da fonte, não uma variante textual a adjudicar.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "דַּעַת sem determinante explícito — referente do 'conhecimento' (retomando vv.1-5)",
+      "escolha": "suprir demonstrativo: 'Tal conhecimento'",
+      "justificativa": "O substantivo hebraico é anártrico, mas o discurso exige um referente anafórico claro em português (o conhecimento de mim descrito nos vv.1-5).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "tal (demonstrativo anafórico, retomando o conhecimento descrito em vv.1-5; דַּעַת é anártrico no hebraico)"
+  ],
+  "ambiguidades_preservadas": [
+    "A grafia פלאיה da fonte pinada diverge da forma padrão פְּלִיאָה sem que o packet forneça aparato explícito; adotado o valor do lemma resolvido (H6383) sem emendar a fonte."
+  ],
+  "justificativa": "Dois cola paralelos (פלאיה.../נשגבה...) descrevendo a mesma realidade — o conhecimento de Deus sobre o salmista — como inatingível.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

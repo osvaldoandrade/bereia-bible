@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.5.29",
+    "livro": "Isaías",
+    "capitulo": 5,
+    "versiculo": 29,
+    "pericope": "Isa.5.1-30"
+  },
+  "texto_bv": "O seu rugido é como o de leão; ele ruge como os leõezinhos, sim, ele ruge, agarra a presa e a leva embora, e não há quem a livre.",
+  "traducao_literal": "Rugido tem, como leão; e rugiu como os leõezinhos, e ruge, e agarra a presa, e a põe a salvo, e não há quem livre.",
+  "termos_originais": [
+    {
+      "palavra": "שְׁאָגָ֥ה",
+      "lemma": "7581",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "ל֖וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "כַּלָּבִ֑יא",
+      "lemma": "k/3833 c",
+      "morfologia": "HRd/Ncbsa"
+    },
+    {
+      "palavra": "ושאג",
+      "lemma": "c/7580",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "כַּכְּפִירִ֤ים",
+      "lemma": "k/3715 a",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "וְיִנְהֹם֙",
+      "lemma": "c/5098",
+      "morfologia": "HC/Vqi3ms"
+    },
+    {
+      "palavra": "וְיֹאחֵ֣ז",
+      "lemma": "c/270",
+      "morfologia": "HC/Vqi3ms"
+    },
+    {
+      "palavra": "טֶ֔רֶף",
+      "lemma": "2964",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְיַפְלִ֖יט",
+      "lemma": "c/6403",
+      "morfologia": "HC/Vhi3ms"
+    },
+    {
+      "palavra": "וְאֵ֥ין",
+      "lemma": "c/369",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "מַצִּֽיל",
+      "lemma": "5337",
+      "morfologia": "HVhrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ושאג — grafia consonantal sem pontuação no texto-fonte pinado, paralela ao substantivo שְׁאָגָה no início do verso",
+      "escolha": "verter como 'ele ruge', Qal perfeito 3ms (c/7580), mantendo o paralelismo intensificador da poesia (rugido → ruge como leõezinhos → ruge → agarra)",
+      "justificativa": "a morfologia do packet (HC/Vqq3ms, lemma c/7580) resolve a forma como perfeito consecutivo de שָׁאַג, apesar da grafia sem sinais diacríticos; não há campo de variantes_fonte associado a este item no packet, então não é tratado como aparato formal, apenas registrado aqui por ser visualmente atípico",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tratar como forma corrompida e omitir da tradução",
+          "motivo": "a morfologia do packet pinado atesta a forma como palavra plena; omitir violaria a cobertura integral exigida"
+        }
+      ]
+    },
+    {
+      "questao": "וְיַפְלִיט — 'e a leva/põe a salvo (para si)'",
+      "escolha": "'a leva embora' no publicado",
+      "justificativa": "sentido de 'escapar com a presa em segurança para si mesmo'; 'leva embora' comunica isso de forma natural",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a põe a salvo' literal no publicado",
+          "motivo": "em português soa como salvar a presa, sentido oposto ao pretendido (o predador é que fica em segurança com sua presa)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Imagem do exército invasor como leão predador implacável; forma consonantal atípica do packet documentada por transparência.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

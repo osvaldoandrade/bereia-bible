@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.139.1",
+    "livro": "Salmos",
+    "capitulo": 139,
+    "versiculo": 1,
+    "pericope": "Ps.139.1-24"
+  },
+  "texto_bv": "Ao regente. De Davi. Salmo. SENHOR, tu me sondaste e me conheceste.",
+  "traducao_literal": "Ao dirigente; de Davi; salmo. SENHOR, sondaste-me, e soubeste.",
+  "termos_originais": [
+    {
+      "palavra": "לַ֭מְנַצֵּחַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "לְדָוִ֣ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מִזְמ֑וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "חֲ֝קַרְתַּ֗נִי",
+      "lemma": "2713",
+      "morfologia": "HVqp2ms/Sp1cs"
+    },
+    {
+      "palavra": "וַתֵּדָֽע",
+      "lemma": "c/3045",
+      "morfologia": "HC/Vqw2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לַמְנַצֵּחַ — rubrica técnica de direção musical (Piel particípio de נצח, H5329)",
+      "escolha": "Ao regente.",
+      "justificativa": "Mantém o precedente terminológico já fixado em Ps.46.1 (mesmo lemma l/5329): particípio Piel de נצח designa quem dirige a execução musical do culto; 'regente' é o termo contemporâneo neutro, sem arcaísmo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ao músico-mor",
+          "motivo": "arcaísmo herdado de Almeida, fora do registro contemporâneo (EDITORIAL §1)."
+        }
+      ]
+    },
+    {
+      "questao": "חֲקַרְתַּנִי וַתֵּדָע — perfeito seguido de wayyiqtol em discurso não-narrativo (abertura poética)",
+      "escolha": "Perfeito duplo em português ('sondaste... e conheceste'), marcando a declaração inaugural do salmo.",
+      "justificativa": "O wayyiqtol poético aqui não introduz sequência narrativa, mas continua o mesmo golpe declarativo do perfeito anterior; o pretérito perfeito em português preserva o efeito de ato consumado que abre o poema, distinto do presente gnômico das descrições que seguem (vv.2-6).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "presente ('sondas e conheces')",
+          "motivo": "apaga a marca de ato inaugural que o par perfeito+wayyiqtol sinaliza no v.1, antes da elaboração gnômica que começa no v.2."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "me (objeto do segundo verbo 'conheceste', elidido no hebraico por gapping do sufixo pronominal já presente no primeiro verbo, חֲקַרְתַּנִי)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Superscrição técnica (dedicatória a Davi, gênero 'salmo') seguida da declaração de abertura, endereçada a Deus na 2ª pessoa ('tu', ER-0003, oração dirigida a Deus). יְהוָה → SENHOR (NOMES-DIVINOS/ER-0002).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

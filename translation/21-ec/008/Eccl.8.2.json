@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.8.2",
+    "livro": "Eclesiastes",
+    "capitulo": 8,
+    "versiculo": 2,
+    "pericope": "Eccl.8.1-17"
+  },
+  "texto_bv": "Eu digo: guarde a ordem do rei, e isso por causa do juramento a Deus.",
+  "traducao_literal": "Eu: a boca do rei, guarda; e por causa da palavra do juramento de Deus.",
+  "termos_originais": [
+    {
+      "palavra": "אֲנִי֙",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "פִּי",
+      "lemma": "6310",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מֶ֣לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "שְׁמ֔וֹר",
+      "lemma": "8104",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "וְעַ֕ל",
+      "lemma": "c/5921 a",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "דִּבְרַ֖ת",
+      "lemma": "1700",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "שְׁבוּעַ֥ת",
+      "lemma": "7621",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "אֱלֹהִֽים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "פִּי־מֶלֶךְ (lit. 'a boca do rei') como objeto do imperativo שְׁמוֹר",
+      "escolha": "a ordem do rei",
+      "justificativa": "'Boca' como metonímia de 'palavra/mandado' emitido pela boca; 'guardar a boca do rei' é opaco em português, normalizado para 'guardar a ordem do rei', com a metonímia preservada na tradução literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "guarde a boca do rei",
+          "motivo": "ambíguo em português — sugeriria a boca física do rei, não seu mandado"
+        }
+      ]
+    },
+    {
+      "questao": "אֲנִי sem verbo declarativo explícito antes do imperativo em 2ª pessoa (elipse)",
+      "escolha": "suprir 'digo'",
+      "justificativa": "O pronome enfático 'eu' seguido de imperativo dirigido a outrem é agramatical em português sem verbo introdutório; suprido conforme EDITORIAL §4.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir e iniciar direto pelo imperativo",
+          "motivo": "apaga a marca de primeira pessoa do enunciador presente no hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "digo"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso elíptico e disputado (conselho sapiencial de lealdade política ancorado em juramento religioso de vassalagem); estrutura mantida ao máximo, com suprimento mínimo.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.25.2",
+    "livro": "Provérbios",
+    "capitulo": 25,
+    "versiculo": 2,
+    "pericope": "Prov.25.1-28"
+  },
+  "texto_bv": "A glória de Deus é encobrir um assunto; a glória dos reis é investigar um assunto.",
+  "traducao_literal": "Glória de Deus, encobrir palavra; e glória de reis, investigar palavra.",
+  "termos_originais": [
+    {
+      "palavra": "כְּבֹ֣ד",
+      "lemma": "3519",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "אֱ֭לֹהִים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "הַסְתֵּ֣ר",
+      "lemma": "5641",
+      "morfologia": "HVhv2ms"
+    },
+    {
+      "palavra": "דָּבָ֑ר",
+      "lemma": "1697",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּכְבֹ֥ד",
+      "lemma": "c/3519",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "מְ֝לָכִ֗ים",
+      "lemma": "4428",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "חֲקֹ֣ר",
+      "lemma": "2713",
+      "morfologia": "HVqc"
+    },
+    {
+      "palavra": "דָּבָֽר",
+      "lemma": "1697",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Forma de הַסְתֵּר (etiquetada HVhv2ms, imperativo hifil, mas homógrafa do infinitivo absoluto) e paralelismo com חֲקֹר (infinitivo construto)",
+      "escolha": "traduzir ambas como formas nominais/gerundivas ('encobrir'/'investigar'), não como imperativos",
+      "justificativa": "A sintaxe é oração nominal ('glória de X é [verbo-substantivo]'); ler como imperativo produziria oração agramatical e quebraria o paralelismo com o infinitivo construto חֲקֹר da segunda linha.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "imperativo literal conforme a etiqueta morfológica ('Esconde uma coisa!')",
+          "motivo": "agramatical em português nesta posição e destoante do paralelo infinitivo da segunda oração"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (2x)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Provérbio antitético sobre o valor do sigilo divino e da investigação régia; דָּבָר repetido preservado como 'assunto' nas duas linhas.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

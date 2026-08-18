@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.25.6",
+    "livro": "Provérbios",
+    "capitulo": 25,
+    "versiculo": 6,
+    "pericope": "Prov.25.1-28"
+  },
+  "texto_bv": "Não te engrandeças diante do rei, nem ocupes o lugar dos grandes,",
+  "traducao_literal": "Não te glorifiques diante de rei, e no lugar de grandes não te ponhas em pé.",
+  "termos_originais": [
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תִּתְהַדַּ֥ר",
+      "lemma": "1921",
+      "morfologia": "HVtj2ms"
+    },
+    {
+      "palavra": "לִפְנֵי",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "מֶ֑לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּבִמְק֥וֹם",
+      "lemma": "c/b/4725",
+      "morfologia": "HC/R/Ncmsc"
+    },
+    {
+      "palavra": "גְּ֝דֹלִ֗ים",
+      "lemma": "1419 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "אַֽל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תַּעֲמֹֽד",
+      "lemma": "5975",
+      "morfologia": "HVqj2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Fronteira entre 25:6-7 e 25:8: a cláusula אֲשֶׁר רָאוּ עֵינֶיךָ ao final de 25:7 é lida por várias versões modernas como abertura de 25:8 ('o que teus olhos viram, não leves apressadamente a juízo')",
+      "escolha": "manter a segmentação massorética do packet: cada verso fechado em seu próprio sof pasuq",
+      "justificativa": "O pipeline traduz por unidade de versículo pinada na fonte (OSHB); redistribuir cláusulas entre versos romperia a rastreabilidade palavra-a-versículo do registro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "unir 25:7b–8a como oração única (leitura de ESV/NVI)",
+          "motivo": "exigiria mover texto original entre dois osis diferentes, incompatível com a granularidade do packet"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abre a unidade de etiqueta cortesã 25:6-7 sobre modéstia diante do poder.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

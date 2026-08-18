@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.130.7",
+    "livro": "Salmos",
+    "capitulo": 130,
+    "versiculo": 7,
+    "pericope": "Ps.130.1-8"
+  },
+  "texto_bv": "Espera, Israel, no SENHOR, pois com o SENHOR há amor leal, e com ele há abundante redenção.",
+  "traducao_literal": "Espera, Israel, para o SENHOR; pois com o SENHOR o amor leal, e abundantemente com ele, redenção.",
+  "termos_originais": [
+    {
+      "palavra": "יַחֵ֥ל",
+      "lemma": "3176",
+      "morfologia": "HVpv2ms"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֗ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְה֫וָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "עִם",
+      "lemma": "5973 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַחֶ֑סֶד",
+      "lemma": "d/2617 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וְהַרְבֵּ֖ה",
+      "lemma": "c/7235 a",
+      "morfologia": "HC/Vha"
+    },
+    {
+      "palavra": "עִמּ֣וֹ",
+      "lemma": "5973 a",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "פְדֽוּת",
+      "lemma": "6304",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יַחֵל יִשְׂרָאֵל — imperativo 2ms com 'Israel' em aposição vocativa (não sujeito de 3ms)",
+      "escolha": "'Espera, Israel' — imperativo direto endereçando o povo como interlocutor coletivo",
+      "justificativa": "A morfologia do verbo (imperativo 2ms) mostra que יִשְׂרָאֵל é vocativo, não sujeito de 3ª pessoa; o salmista exorta a nação diretamente, retomando o padrão de endereçamento direto dos vv.1-6, agora voltado a Israel.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Que Israel espere' (3ª pessoa jussiva)",
+          "motivo": "não corresponde à morfologia 2ms do imperativo; perderia o efeito de exortação direta"
+        }
+      ]
+    },
+    {
+      "questao": "חֶסֶד — glosa do termo teológico central",
+      "escolha": "amor leal",
+      "justificativa": "חֶסֶד designa lealdade afetiva e ativa dentro de um vínculo (aliança), distinto de 'graça' (חֵן, favor imerecido) e de 'misericórdia/compaixão' (רַחֲמִים, resposta à aflição); 'amor leal' capta o componente de fidelidade sustentada sem colapsar com esses outros lexemas hebraicos. Primeira ocorrência no projeto — candidato a entrada formal no léxico, glosa a padronizar nas recorrências futuras.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "misericórdia",
+          "motivo": "colide lexicalmente com רַחֲמִים/חנן, obscurecendo distinções que o hebraico marca com lexemas diferentes"
+        },
+        {
+          "opcao": "bondade",
+          "motivo": "genérico demais, perde o vínculo aliançal/relacional constitutivo de חסד"
+        },
+        {
+          "opcao": "graça",
+          "motivo": "termo reservado para חֵן (favor gratuito, sem pressuposição de vínculo prévio)"
+        }
+      ]
+    },
+    {
+      "questao": "וְהַרְבֵּה עִמּוֹ פְדוּת — infinitivo absoluto adverbial + oração nominal, sem verbo",
+      "escolha": "suprir 'há' no publicado; a literal preserva a ordem advérbio-preposição-substantivo sem cópula",
+      "justificativa": "הַרְבֵּה (infinitivo absoluto de רבה usado adverbialmente, 'abundantemente') antecede a oração nominal 'com ele redenção'; o português exige verbo explícito.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "há (verbo de ligação ausente nas duas orações nominais)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Volta do eu individual (vv.1-6) para a exortação comunitária a Israel; חֶסֶד e פְדוּת (mesma raiz do verbo פדה do v.8) ancoram a esperança coletiva.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

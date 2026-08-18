@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.3.3",
+    "livro": "Salmos",
+    "capitulo": 3,
+    "versiculo": 3,
+    "pericope": "Ps.3.1-9"
+  },
+  "texto_bv": "Muitos dizem a respeito de mim: “Não há salvação para ele em Deus.” Selá.",
+  "traducao_literal": "Muitos dizem à minha alma: “Não há salvação para ele em Deus.” Selá.",
+  "termos_originais": [
+    {
+      "palavra": "רַבִּים֮",
+      "lemma": "7227 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "אֹמְרִ֪ים",
+      "lemma": "559",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "לְנַ֫פְשִׁ֥י",
+      "lemma": "l/5315",
+      "morfologia": "HR/Ncbsc/Sp1cs"
+    },
+    {
+      "palavra": "אֵ֤ין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יְֽשׁוּעָ֓תָה",
+      "lemma": "3444",
+      "morfologia": "HNcfsa/Sh"
+    },
+    {
+      "palavra": "לּ֬וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "בֵֽאלֹהִ֬ים",
+      "lemma": "b/430",
+      "morfologia": "HR/Ncmpa"
+    },
+    {
+      "palavra": "סֶֽלָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לְנַפְשִׁי ('à minha alma') é idiomatismo hebraico para 'a meu respeito/sobre mim', com נֶפֶשׁ funcionando quase como pronome enfático; como verter no publicado?",
+      "escolha": "'a respeito de mim'",
+      "justificativa": "Uso idiomático amplamente atestado de נֶפֶשׁ com sufixo como equivalente a pronome pessoal enfático em contextos de fala sobre alguém; tradução literal ('à minha alma') soaria arcaica e ambígua em pt-BR contemporâneo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "à minha alma (literal)",
+          "motivo": "preservado na traducao_literal; no publicado gera ambiguidade de referência (alma como entidade separada) que o hebraico não pretende."
+        }
+      ]
+    },
+    {
+      "questao": "לּוֹ ('para ele', 3ª pessoa) refere-se ao próprio salmista, que fala em 1ª pessoa na oração anterior (לְנַפְשִׁי); manter a mudança de pessoa ou normalizar para 'para mim'?",
+      "escolha": "manter 'para ele' (3ª pessoa), preservando a mudança de pessoa do original",
+      "justificativa": "A mudança de pessoa (1ª para 3ª) dentro da fala citada dos adversários é um traço estilístico do hebraico bíblico, não um erro de cópia; normalizar apagaria o distanciamento retórico do discurso citado sobre o salmista.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "para mim (normalização para 1ª pessoa)",
+          "motivo": "suaviza artificialmente uma dificuldade genuína do texto-fonte (TEOLOGIA §2, proibição de suavizar dificuldades)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "mudança de pessoa (1ª 'minha alma' → 3ª 'ele') dentro da fala citada dos adversários, preservada sem normalização"
+  ],
+  "justificativa": "Fala citada dos adversários de Davi, introduzida por discurso direto (ER-0004: dois-pontos + aspas curvas); סֶלָה mantido como marcador transliterado, fora da citação.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

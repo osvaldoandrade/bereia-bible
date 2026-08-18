@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.114.7",
+    "livro": "Salmos",
+    "capitulo": 114,
+    "versiculo": 7,
+    "pericope": "Ps.114.1-8"
+  },
+  "texto_bv": "Treme, ó terra, diante do Senhor, diante do Deus de Jacó.",
+  "traducao_literal": "De diante do Senhor, treme, terra, de diante do Deus de Jacó.",
+  "termos_originais": [
+    {
+      "palavra": "מִלִּפְנֵ֣י",
+      "lemma": "m/l/6440",
+      "morfologia": "HR/R/Ncbpc"
+    },
+    {
+      "palavra": "אָ֭דוֹן",
+      "lemma": "113",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "ח֣וּלִי",
+      "lemma": "2342 a",
+      "morfologia": "HVqv2fs"
+    },
+    {
+      "palavra": "אָ֑רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "מִ֝לִּפְנֵ֗י",
+      "lemma": "m/l/6440",
+      "morfologia": "HR/R/Ncbpc"
+    },
+    {
+      "palavra": "אֱל֣וֹהַּ",
+      "lemma": "433",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יַעֲקֹֽב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אָדוֹן (H113, substantivo comum 'senhor/amo'; não אֲדֹנָי H136, coberto por NOMES-DIVINOS.md)",
+      "escolha": "Senhor (maiúscula, epíteto divino em paralelo sinonímico com 'Deus de Jacó')",
+      "justificativa": "Embora H113 não conste na tabela de NOMES-DIVINOS.md (que cobre H136), o paralelismo sinonímico com אֱלוֹהַּ יַעֲקֹב no mesmo verso deixa claro que אָדוֹן funciona aqui como epíteto divino ('Senhor de toda a terra', cf. Js 3.11,13), não como substantivo comum humano. Estende-se por analogia semântica o tratamento de ER-0002, com o lema auditável (H113) registrado aqui, distinto de H136.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "senhor (minúscula, tratado como substantivo comum)",
+          "motivo": "obscurece o referente divino explicitado pelo paralelismo poético"
+        },
+        {
+          "opcao": "SENHOR (versalete, como se fosse YHWH)",
+          "motivo": "o lema é H113, não H3068; usar a forma reservada ao Tetragrama quebraria a auditabilidade por lema"
+        }
+      ]
+    },
+    {
+      "questao": "אֱלוֹהַּ (H433, Eloah — forma poética singular do campo semântico de 'Elohim', ausente da tabela NOMES-DIVINOS que cobre H430)",
+      "escolha": "Deus",
+      "justificativa": "Eloah é variante poética singular do mesmo campo semântico de Elohim, sem distinção teológica relevante; aplica-se o padrão de ER-0002 por extensão lexical direta. Primeira ocorrência no corpus traduzido até aqui — sinalizada para entrada própria no léxico na promoção (ER-0017).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Divindade/Deidade",
+          "motivo": "paráfrase desnecessária; não há distinção morfológica que justifique separar a glosa de 'Deus'"
+        }
+      ]
+    },
+    {
+      "questao": "Quiasmo מִלִּפְנֵי אָדוֹן ... חוּלִי אָרֶץ ... מִלִּפְנֵי אֱלוֹהַּ (imperativo-vocativo encaixado entre as duas locuções 'diante de')",
+      "escolha": "mover o imperativo 'treme' para o início da frase no publicado; ordem quiástica integral preservada na literal",
+      "justificativa": "ER-0013: quiasmo de ordem é normalizável no publicado para leitura fluente; a literal mantém a ordem original para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preservar a ordem quiástica no publicado",
+          "motivo": "soaria artificial/traduzido em português corrido, contrariando EDITORIAL §1.3"
+        }
+      ]
+    },
+    {
+      "questao": "Registro de 2ª pessoa para חוּלִי (imperativo 2fs, apóstrofe à terra personificada)",
+      "escolha": "tu (mesma extensão de registro justificada no v.5)",
+      "justificativa": "Continuidade da mesma unidade retórica (vv.5-7); mantém o tratamento já registrado no v.5.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecho da seção de apóstrofe: a terra é convocada a tremer diante do 'Senhor'/'Deus de Jacó', preparando a descrição do milagre do deserto no v.8.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

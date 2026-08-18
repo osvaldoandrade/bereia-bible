@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.67.8",
+    "livro": "Salmos",
+    "capitulo": 67,
+    "versiculo": 8,
+    "pericope": "Ps.67.1-8"
+  },
+  "texto_bv": "Deus nos abençoe, e todos os confins da terra o temam.",
+  "traducao_literal": "Abençoe-nos Deus, e temam a ele todos os confins da terra.",
+  "termos_originais": [
+    {
+      "palavra": "יְבָרְכֵ֥נוּ",
+      "lemma": "1288",
+      "morfologia": "HVpi3ms/Sp1cp"
+    },
+    {
+      "palavra": "אֱלֹהִ֑ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וְיִֽירְא֥וּ",
+      "lemma": "c/3372",
+      "morfologia": "HC/Vqi3mp"
+    },
+    {
+      "palavra": "אֹ֝ת֗וֹ",
+      "lemma": "853",
+      "morfologia": "HTo/Sp3ms"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אַפְסֵי",
+      "lemma": "657 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "אָֽרֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem verbo-sujeito do hebraico (יְבָרְכֵנוּ אֱלֹהִים) — mesma construção do v.7.",
+      "escolha": "normalizar para S-V no texto_bv, por simetria com a decisão do v.7",
+      "justificativa": "Mantém coerência de registro entre os dois versos finais, que repetem a mesma fórmula de bênção; traducao_literal preserva a ordem original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Abençoe-nos Deus (V-S) também no publicado",
+          "motivo": "quebraria a uniformidade estilística já adotada no v.7 para a mesma construção"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecho do salmo: bênção sobre 'nós' (Israel) seguida de universalização ('todos os confins da terra'), mantendo אֶפֶס no valor lexical de 'confim/extremidade', coerente com H776='terra' já fixado no léxico.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

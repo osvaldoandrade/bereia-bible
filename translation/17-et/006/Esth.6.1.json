@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.6.1",
+    "livro": "Ester",
+    "capitulo": 6,
+    "versiculo": 1,
+    "pericope": "Esth.6.1-14"
+  },
+  "texto_bv": "Naquela noite, o sono fugiu do rei, e ele mandou trazer o livro dos registros, as crônicas, e estas foram lidas diante do rei.",
+  "traducao_literal": "Naquela noite, fugiu o sono do rei; e disse, para trazerem o livro das memórias, as palavras dos dias; e foram sendo lidas diante do rei.",
+  "termos_originais": [
+    {
+      "palavra": "בַּלַּ֣יְלָה",
+      "lemma": "b/3915",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הַה֔וּא",
+      "lemma": "d/1931",
+      "morfologia": "HTd/Pp3ms"
+    },
+    {
+      "palavra": "נָדְדָ֖ה",
+      "lemma": "5074",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "שְׁנַ֣ת",
+      "lemma": "8142",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "הַמֶּ֑לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וַיֹּ֗אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "לְהָבִ֞יא",
+      "lemma": "l/935",
+      "morfologia": "HR/Vhc"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "סֵ֤פֶר",
+      "lemma": "5612 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַזִּכְרֹנוֹת֙",
+      "lemma": "d/2146",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "דִּבְרֵ֣י",
+      "lemma": "1697",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "הַיָּמִ֔ים",
+      "lemma": "d/3117",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "וַיִּהְי֥וּ",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "נִקְרָאִ֖ים",
+      "lemma": "7121",
+      "morfologia": "HVNsmpa"
+    },
+    {
+      "palavra": "לִפְנֵ֥י",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "הַמֶּֽלֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter סֵפֶר הַזִּכְרֹנוֹת דִּבְרֵי הַיָּמִים (cadeia de dois substantivos em aposição, nome técnico do registro oficial)?",
+      "escolha": "\"o livro dos registros, as crônicas\" — par apositivo idiomático.",
+      "justificativa": "É o nome técnico do anal da corte persa; tradução palavra-por-palavra da cadeia genitiva dupla soa artificial em português corrido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "livro das memórias das palavras dos dias (tradução literal integral)",
+          "motivo": "cadeia genitiva dupla é estranha/agramatical em português"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem de נָדְדָה שְׁנַת הַמֶּלֶךְ (V-S; não é wayyiqtol, mas construção de fundo narrativo)",
+      "escolha": "S-V no publicado (\"o sono fugiu do rei\") por uniformidade com o espírito de ER-0011.",
+      "justificativa": "Embora não seja wayyiqtol, a preferência editorial por S-V no publicado se estende à cena; a ordem V-S do hebraico é preservada na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"fugiu o sono do rei\" (V-S)",
+          "motivo": "soa mais arcaizante; S-V mantém uniformidade com o resto do capítulo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito elidido de וַיֹּאמֶר)",
+    "que trouxessem (conteúdo do mandato do rei)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Cena de abertura do capítulo: a insônia do rei desencadeia a leitura do registro oficial que revela o feito esquecido de Mardoqueu.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.9.10",
+    "livro": "Provérbios",
+    "capitulo": 9,
+    "versiculo": 10,
+    "pericope": "Prov.9.1-18"
+  },
+  "texto_bv": "O princípio da sabedoria é o temor do SENHOR, e o conhecimento do Santo é entendimento.",
+  "traducao_literal": "Princípio de sabedoria, temor de SENHOR; e conhecimento de santos, entendimento.",
+  "termos_originais": [
+    {
+      "palavra": "תְּחִלַּ֣ת",
+      "lemma": "8462",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "חָ֭כְמָה",
+      "lemma": "2451",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "יִרְאַ֣ת",
+      "lemma": "3374",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְדַ֖עַת",
+      "lemma": "c/1847",
+      "morfologia": "HC/Ncfsc"
+    },
+    {
+      "palavra": "קְדֹשִׁ֣ים",
+      "lemma": "6918",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "בִּינָֽה",
+      "lemma": "998",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְהוָה (YHWH) — nome divino.",
+      "escolha": "SENHOR (caixa alta)",
+      "justificativa": "política de nomes divinos ER-0002/NOMES-DIVINOS.md v1.0.0.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Javé\"/\"Yahweh\"",
+          "motivo": "rejeitado pela política vigente (disputa de vocalização, quebra de convenção litúrgica pt-BR)"
+        }
+      ]
+    },
+    {
+      "questao": "קְדֹשִׁים (H6918) — forma plural (\"santos\"), mas em paralelismo direto com יְהוָה no primeiro colo, sugerindo referência singular a Deus (plural de majestade/intensidade, como אֱלֹהִים).",
+      "escolha": "\"o Santo\" (singular, referência a Deus)",
+      "justificativa": "o paralelismo poético do verso (temor do SENHOR // conhecimento do Santo) exige o mesmo referente nos dois colos; leitura consolidada na tradição de tradução, análoga ao tratamento de plural morfológico para nome divino (NOMES-DIVINOS, caso אֱלֹהִים).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"dos santos\" (plural, referindo-se a seres celestiais/santos humanos)",
+          "motivo": "quebra o paralelismo direto com \"o SENHOR\" do primeiro colo, que é o padrão estrutural do verso; preservada como ambiguidade morfológica no registro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "קְדֹשִׁים é morfologicamente plural (\"santos\"); a tradução opta pela leitura singular de majestade (\"o Santo\", referência a Deus) por exigência do paralelismo, mas a forma plural em si permanece auditável via morph do registro"
+  ],
+  "justificativa": "Verso-chave da teologia sapiencial do livro (cf. Prov 1:7); nome divino tratado por ER-0002, e o plural קְדֹשִׁים lido como referência singular a Deus por exigência do paralelismo.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

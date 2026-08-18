@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.145.1",
+    "livro": "Salmos",
+    "capitulo": 145,
+    "versiculo": 1,
+    "pericope": "Ps.145.1-21"
+  },
+  "texto_bv": "Louvor de Davi. Eu te exaltarei, meu Deus, o Rei, e bendirei o teu nome para todo o sempre.",
+  "traducao_literal": "Louvor, de Davi. Exaltar-te-ei, meu Deus, o Rei, e abençoarei o teu nome para a eternidade e a perpetuidade.",
+  "termos_originais": [
+    {
+      "palavra": "תְּהִלָּ֗ה",
+      "lemma": "8416",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְדָ֫וִ֥ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אֲרוֹמִמְךָ֣",
+      "lemma": "7311 a",
+      "morfologia": "HVoh1cs/Sp2ms"
+    },
+    {
+      "palavra": "אֱלוֹהַ֣י",
+      "lemma": "433",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "הַמֶּ֑לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וַאֲבָרֲכָ֥ה",
+      "lemma": "c/1288",
+      "morfologia": "HC/Vph1cs"
+    },
+    {
+      "palavra": "שִׁ֝מְךָ֗",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "לְעוֹלָ֥ם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וָעֶֽד",
+      "lemma": "c/5703",
+      "morfologia": "HC/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "תְּהִלָּה como abertura do próprio v.1 (não epígrafe externa)",
+      "escolha": "manter como primeira palavra do versículo, sem destacá-la tipograficamente",
+      "justificativa": "o TM integra 'Louvor, de Davi' ao poema acróstico (letra א); o packet numera a palavra como parte do v.1",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tratar como superscrição separada fora da numeração de versículo",
+          "motivo": "o packet e o TM não isolam a palavra como cabeçalho externo"
+        }
+      ]
+    },
+    {
+      "questao": "אֱלוֹהַי (Eloah poético, H433) vs. אֱלֹהִים (H430)",
+      "escolha": "'meu Deus', seguindo a política de nomes divinos para o campo semântico do Deus de Israel",
+      "justificativa": "mesmo referente teológico da entrada H430 da política NOMES-DIVINOS.md; a forma poética rara não muda o sentido",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Eloah'",
+          "motivo": "quebra a convenção consolidada sem ganho de sentido, contra ER-0002"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo acróstico (letra א); segunda pessoa tratada como oração dirigida a Deus (tu, D-0003/ER-0003).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

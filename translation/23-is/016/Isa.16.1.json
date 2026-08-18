@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.16.1",
+    "livro": "Isaías",
+    "capitulo": 16,
+    "versiculo": 1,
+    "pericope": "Isa.16.1-14"
+  },
+  "texto_bv": "Enviem cordeiros ao governante da terra, desde Selá, rumo ao deserto, até o monte da filha de Sião.",
+  "traducao_literal": "Enviai cordeiro, governante da terra, desde a Rocha [Selá], para o deserto, para o monte, filha de Sião.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁלְחוּ",
+      "lemma": "7971",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "כַ֥ר",
+      "lemma": "3733 c",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מֹשֵֽׁל",
+      "lemma": "4910",
+      "morfologia": "HVqrmsc"
+    },
+    {
+      "palavra": "אֶ֖רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "מִסֶּ֣לַע",
+      "lemma": "m/5554",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מִדְבָּ֑רָה",
+      "lemma": "4057 b",
+      "morfologia": "HNcmsa/Sd"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַ֖ר",
+      "lemma": "2022",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "בַּת",
+      "lemma": "1323",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "צִיּֽוֹן",
+      "lemma": "6726",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "כַר מֹשֵׁל־אֶרֶץ — construção sem preposição explícita entre 'cordeiro' e 'governante da terra' (objeto direto + dativo implícito, ou cadeia construta 'cordeiro do governante')",
+      "escolha": "cordeiro(s) como objeto direto do envio; 'ao governante da terra' como destinatário implícito (dativo sem ל explícito)",
+      "justificativa": "A leitura majoritária toma כַר como objeto direto de שִׁלְחוּ e מֹשֵׁל אֶרֶץ como destinatário em aposição dativa, refletindo o costume de Moabe pagar tributo em cordeiros ao soberano de Judá (cf. 2Rs 3:4); a ausência de ל é comum em hebraico poético com verbos de movimento/envio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "cadeia construta 'cordeiro do governante da terra' (sujeito implícito enviando)",
+          "motivo": "deixaria o envio sem destinatário claro, quebrando o sentido de tributo dirigido a Sião que o restante do versículo desenha"
+        }
+      ]
+    },
+    {
+      "questao": "כַר (substantivo singular/coletivo) — número na tradução portuguesa",
+      "escolha": "cordeiros (plural, para fluência em português; singular sem artigo seria agramatical)",
+      "justificativa": "O substantivo hebraico é singular/coletivo, mas o tributo de Moabe historicamente envolvia múltiplos cordeiros (2Rs 3:4); o plural evita a construção agramatical 'enviem cordeiro' sem artigo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'enviem o cordeiro' (singular com artigo definido)",
+          "motivo": "acrescenta definitude que o hebraico anártrico não possui"
+        }
+      ]
+    },
+    {
+      "questao": "מִסֶּלַע — Selá como topônimo (capital edomita, atual Petra) vs. leitura comum 'da rocha'",
+      "escolha": "Selá (nome próprio, transliterado)",
+      "justificativa": "סֶלַע com prefixo מִן, seguido de מִדְבָּרָה ('rumo ao deserto') e depois הַר בַּת־צִיּוֹן, traça um itinerário geográfico real (Selá/Petra → deserto → Jerusalém), favorecendo a leitura toponímica sobre a tradução comum 'rocha'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'da rocha' (substantivo comum)",
+          "motivo": "perde o itinerário geográfico que o paralelismo com 'para o deserto... até o monte' sugere"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ao (destinatário implícito de 'governante da terra', sem preposição explícita no hebraico)"
+  ],
+  "ambiguidades_preservadas": [
+    "Relação sintática entre 'cordeiro' e 'governante da terra' (objeto+dativo vs. cadeia construta) permanece discutida na erudição; identidade de 'a terra' (Edom, de onde vem Selá, ou genérica) não é especificada no texto"
+  ],
+  "justificativa": "Abre o oráculo com uma instrução (ou lembrete irônico) para que Moabe envie tributo de submissão ao soberano davídico em Sião, traçando a rota via Selá (Edom) e o deserto.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

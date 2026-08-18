@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.148.10",
+    "livro": "Salmos",
+    "capitulo": 148,
+    "versiculo": 10,
+    "pericope": "Ps.148.1-14"
+  },
+  "texto_bv": "Os animais selvagens e todo o gado, os répteis e as aves aladas.",
+  "traducao_literal": "O animal selvagem e todo animal doméstico, réptil e ave de asa.",
+  "termos_originais": [
+    {
+      "palavra": "הַֽחַיָּ֥ה",
+      "lemma": "d/2416 c",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "בְּהֵמָ֑ה",
+      "lemma": "929",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "רֶ֝֗מֶשׂ",
+      "lemma": "7431",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְצִפּ֥וֹר",
+      "lemma": "c/6833",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "כָּנָֽף",
+      "lemma": "3671",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הַחַיָּה, כָל־בְּהֵמָה, רֶמֶשׂ e צִפּוֹר כָּנָף — todos singulares coletivos no hebraico; como tratar o número no publicado?",
+      "escolha": "Pluralizar todos no publicado ('animais selvagens', 'gado', 'répteis', 'aves aladas'), preservando os singulares coletivos na literal.",
+      "justificativa": "Uniformiza o número para leitura corrida em português, como já feito no v.9; o coletivo singular do hebraico é uma convenção gramatical, não uma marca semântica a preservar no texto publicado (ER-0013).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "צִפּוֹר כָּנָף ('pássaro de asa') — usar a mesma fórmula já fixada para עוֹף כָּנָף em Gn 1.21 ('ave alada')?",
+      "escolha": "'aves aladas', reaproveitando a fórmula de Gn 1.21 apesar do lexema-cabeça diferente (צִפּוֹר aqui, עוֹף lá).",
+      "justificativa": "Ambos os construtos significam 'ave provida de asa/que voa'; unificar a fórmula em português mantém consistência de leitura sem forçar equivalência lexical entre צִפּוֹר e עוֹף no léxico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'pássaros' simples, sem qualificar 'alado'",
+          "motivo": "perderia o construto explícito כָּנָף ('asa'), presente no hebraico."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecha o painel animal do hino: feras, gado, répteis e aves — a totalidade da fauna terrestre convocada ao louvor.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

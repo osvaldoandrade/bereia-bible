@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.6.7",
+    "livro": "Oseias",
+    "capitulo": 6,
+    "versiculo": 7,
+    "pericope": "Hos.6.1-11"
+  },
+  "texto_bv": "Mas eles, como Adão, transgrediram a aliança; ali me trairam.",
+  "traducao_literal": "E eles, como Adão, transgrediram aliança; ali trairam-me.",
+  "termos_originais": [
+    {
+      "palavra": "וְהֵ֕מָּה",
+      "lemma": "c/1992",
+      "morfologia": "HC/Pp3mp"
+    },
+    {
+      "palavra": "כְּאָדָ֖ם",
+      "lemma": "k/121",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "עָבְר֣וּ",
+      "lemma": "5674 a",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "בְרִ֑ית",
+      "lemma": "1285",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "שָׁ֖ם",
+      "lemma": "8033",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "בָּ֥גְדוּ",
+      "lemma": "898",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "בִֽי",
+      "lemma": "b",
+      "morfologia": "HR/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "כְּאָדָם — nome próprio 'Adão' (lema H121) vs. substantivo comum 'homem/humanidade' (H120)",
+      "escolha": "'como Adão' (nome próprio), conforme o lema marcado no packet",
+      "justificativa": "a morfologia pinada classifica a palavra como Np (nome próprio) com lema 121, não o substantivo comum 120; a fonte decide (TEOLOGIA §1.1; MORFOLOGIA-OSHB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "como um homem / como humanos em geral",
+          "motivo": "corresponderia ao lema H120 (substantivo comum), não ao H121 marcado no packet"
+        }
+      ]
+    },
+    {
+      "questao": "בְּרִית anártrico — artigo definido necessário em português",
+      "escolha": "'a aliança'",
+      "justificativa": "o hebraico frequentemente omite o artigo mesmo referindo-se à aliança específica com Deus; o contexto exige artigo definido em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uma aliança",
+          "motivo": "sugeriria aliança genérica ou não especificada, quando o contexto (transgressão 'como Adão') aponta para a aliança conhecida"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "a leitura 'como Adão' (nome próprio, ecoando a aliança edênica) é a fixada pela morfologia do packet; a leitura genérica 'como (qualquer) homem' permanece registrada como alternativa gramaticalmente possível fora da marcação fornecida, mas não adotada"
+  ],
+  "justificativa": "Verso de peso exegético (tipologia adâmica da aliança); a escolha segue estritamente a marcação morfológica da fonte pinada, sem decidir por preferência doutrinária.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

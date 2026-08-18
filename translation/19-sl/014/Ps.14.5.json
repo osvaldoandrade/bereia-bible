@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.14.5",
+    "livro": "Salmos",
+    "capitulo": 14,
+    "versiculo": 5,
+    "pericope": "Ps.14.1-7"
+  },
+  "texto_bv": "Ali tremeram de grande pavor, porque Deus está com a geração justa.",
+  "traducao_literal": "Ali temeram temor, porque Deus [está] na geração do justo.",
+  "termos_originais": [
+    {
+      "palavra": "שָׁ֤ם",
+      "lemma": "8033",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "פָּ֣חֲדוּ",
+      "lemma": "6342",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "פָ֑חַד",
+      "lemma": "6343",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֱ֝לֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "בְּד֣וֹר",
+      "lemma": "b/1755",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "צַדִּֽיק",
+      "lemma": "6662",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "פָּחֲדוּ פַחַד — acusativo cognato (verbo + substantivo da mesma raiz), intensificador",
+      "escolha": "tremeram de grande pavor",
+      "justificativa": "verte a intensificação hebraica (verbo+substantivo cognatos) por um advérbio de grau, recurso natural do português para a mesma função enfática.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "temeram temor",
+          "motivo": "calque soa artificial fora da traducao_literal; função é preservada pelo intensificador 'grande'"
+        }
+      ]
+    },
+    {
+      "questao": "כִּי — causal ('porque') ou adversativo ('mas/pois')?",
+      "escolha": "porque (causal)",
+      "justificativa": "leitura majoritária: o temor descrito é causado pela presença de Deus entre os justos, não um contraste com oração anterior.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "mas (adversativo)",
+          "motivo": "menos natural aqui — não há proposição anterior que peça contraste, diferente do v.6"
+        }
+      ]
+    },
+    {
+      "questao": "דּוֹר צַדִּיק — singular coletivo צַדִּיק ('o justo') vs. plural 'os justos'",
+      "escolha": "geração justa (adjetival, coletivo)",
+      "justificativa": "צַדִּיק aqui é adjetivo qualificando דּוֹר, não substantivo em cadeia construta; 'geração justa' preserva a leitura coletiva sem forçar plural ausente no hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "geração do justo",
+          "motivo": "sugere cadeia construta (genitivo), que não é a relação gramatical aqui"
+        },
+        {
+          "opcao": "com os justos",
+          "motivo": "perde a imagem de 'geração' (דּוֹר) presente no original"
+        }
+      ]
+    },
+    {
+      "questao": "Tempo de פָּחֲדוּ — evento passado específico ou cena futura/gnômica de julgamento?",
+      "escolha": "passado narrativo ('tremeram')",
+      "justificativa": "mantém a leitura mais direta do perfeito hebraico como relato; a alternativa profética é registrada como ambiguidade preservada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tremerão (futuro/profético)",
+          "motivo": "introduziria leitura escatológica não obrigatória pela gramática"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está (cópula ausente na oração nominal כִּי אֱלֹהִים בְּדוֹר צַדִּיק)"
+  ],
+  "ambiguidades_preservadas": [
+    "tempo de פָּחֲדוּ: relato passado vs. cena futura de julgamento — BV opta pelo passado, mantendo a leitura alternativa registrada"
+  ],
+  "justificativa": "Verso de virada: consequência da presença divina para os ímpios. שָׁם fronteado preservado como advérbio inicial em ambas as camadas.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

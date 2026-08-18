@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.103.4",
+    "livro": "Salmos",
+    "capitulo": 103,
+    "versiculo": 4,
+    "pericope": "Ps.103.1-22"
+  },
+  "texto_bv": "o que resgata tua vida da cova, o que te coroa de amor leal e compaixão,",
+  "traducao_literal": "o que resgata da cova a tua vida, o que te coroa [com] amor leal e misericórdias,",
+  "termos_originais": [
+    {
+      "palavra": "הַגּוֹאֵ֣ל",
+      "lemma": "d/1350 a",
+      "morfologia": "HTd/Vqrmsa"
+    },
+    {
+      "palavra": "מִשַּׁ֣חַת",
+      "lemma": "m/7845",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "חַיָּ֑יְכִי",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpc/Sp2fs"
+    },
+    {
+      "palavra": "הַֽ֝מְעַטְּרֵ֗כִי",
+      "lemma": "d/5849 b",
+      "morfologia": "HTd/Vprmsc/Sp2fs"
+    },
+    {
+      "palavra": "חֶ֣סֶד",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְרַחֲמִֽים",
+      "lemma": "c/7356 b",
+      "morfologia": "HC/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שַׁחַת (H7845) — 'cova/sepultura' (de שׁוח 'afundar') vs. 'corrupção/destruição' (se derivado de שחת 'destruir'); crux lexical clássico (cf. LXX φθορά).",
+      "escolha": "'cova' (sepultura/morte), lendo a raiz שׁוח.",
+      "justificativa": "Derivação morfologicamente mais direta a partir da forma שַׁחַת; a alternativa exige postular raiz שחת sem marca gráfica no packet.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'corrupção'",
+          "motivo": "pressupõe derivação de שחת, tradição também antiga (LXX) mas menos direta morfologicamente; preservada como ambiguidade"
+        }
+      ]
+    },
+    {
+      "questao": "חֶסֶד (H2617a) — termo recorrente no salmo (v.4, 8, 11, 17): fidelidade aliançal / bondade leal.",
+      "escolha": "'amor leal' fixado como glosa uniforme do capítulo, para preservar tanto o calor afetivo quanto o laço de aliança do termo.",
+      "justificativa": "Precisa distinguir-se lexicalmente de רַחֲמִים/רחם, presente nos mesmos versículos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'misericórdia'",
+          "motivo": "colide com רַחֲמִים/רחם, presente nos mesmos versículos (v.4,8,13), que recebe glosa própria 'compaixão/compadecer-se'"
+        },
+        {
+          "opcao": "'bondade'",
+          "motivo": "esvazia a nuance de fidelidade pactual do termo"
+        }
+      ]
+    },
+    {
+      "questao": "רַחֲמִים (H7356b, plural) — par de חֶסֶד neste versículo.",
+      "escolha": "'compaixão' (abstrato singular em português, plural hebraico não lexicalizado à parte).",
+      "justificativa": "O plural hebraico é intensivo, não numérico; 'compaixão' é mais natural em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'misericórdias' (plural)",
+          "motivo": "soa artificial em português; o plural hebraico é intensivo, não numérico"
+        }
+      ]
+    },
+    {
+      "questao": "Preposição instrumental ausente no hebraico antes de חֶסֶד וְרַחֲמִים (acusativo duplo do verbo מְעַטְּרֵכִי).",
+      "escolha": "Suprir 'de/com' no publicado para gramaticalidade.",
+      "justificativa": "O português não admite acusativo duplo com verbo 'coroar'; exige preposição.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "de (preposição instrumental exigida pelo português: 'coroa de amor leal')"
+  ],
+  "ambiguidades_preservadas": [
+    "שַׁחַת: 'cova' (morte/sepultura) ou 'corrupção/destruição', conforme a raiz que se reconheça (שׁוח vs שחת)"
+  ],
+  "justificativa": "Continua a cadeia de particípios: resgate da morte e coroação com amor leal, termo-chave que se repetirá no salmo.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

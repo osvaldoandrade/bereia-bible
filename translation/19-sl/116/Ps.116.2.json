@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.116.2",
+    "livro": "Salmos",
+    "capitulo": 116,
+    "versiculo": 2,
+    "pericope": "Ps.116.1-19"
+  },
+  "texto_bv": "Porque ele inclinou o seu ouvido para mim, eu o invocarei enquanto eu viver.",
+  "traducao_literal": "Porque inclinou o seu ouvido para mim; e nos meus dias invocarei.",
+  "termos_originais": [
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הִטָּ֣ה",
+      "lemma": "5186",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "אָזְנ֣וֹ",
+      "lemma": "241",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "לִ֑י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "וּבְיָמַ֥י",
+      "lemma": "c/b/3117",
+      "morfologia": "HC/R/Ncmpc/Sp1cs"
+    },
+    {
+      "palavra": "אֶקְרָֽא",
+      "lemma": "7121",
+      "morfologia": "HVqi1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בְיָמַי ('em meus dias') traduzido idiomaticamente",
+      "escolha": "'enquanto eu viver'",
+      "justificativa": "Idiomatismo hebraico consolidado para duração da vida; a tradução literal ('nos meus dias') soa calco não-natural em pt-BR corrido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'nos meus dias' (literal)",
+          "motivo": "Preservado na traducao_literal; no publicado é normalizado por soar artificial."
+        }
+      ]
+    },
+    {
+      "questao": "Objeto elíptico de אֶקְרָא ('invocarei')",
+      "escolha": "Suprir pronome 'o', retomando o SENHOR já nomeado no v.1",
+      "justificativa": "O verbo não repete o objeto explicitamente; a referência já foi estabelecida.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Verbo intransitivo sem objeto ('invocarei')",
+          "motivo": "Também aceitável, mas menos natural em português do que retomar o referente com pronome."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito retomado, 3ms implícito no verbo hebraico הִטָּה)",
+    "o (objeto de 'invocarei', retomando o SENHOR)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continuação da razão do amor/confiança: o SENHOR atendeu, por isso o orante o invocará por toda a vida.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

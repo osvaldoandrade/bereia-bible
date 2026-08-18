@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Dan.5.30",
+    "livro": "Daniel",
+    "capitulo": 5,
+    "versiculo": 30,
+    "pericope": "Dan.5.1-30"
+  },
+  "texto_bv": "Naquela mesma noite, Belsazar, o rei dos caldeus, foi morto.",
+  "traducao_literal": "Naquela noite foi morto Belsazar, o rei dos caldeus.",
+  "termos_originais": [
+    {
+      "palavra": "בֵּ֚הּ",
+      "lemma": "b",
+      "morfologia": "AR/Sp3ms"
+    },
+    {
+      "palavra": "בְּלֵ֣ילְיָ֔א",
+      "lemma": "b/3916",
+      "morfologia": "AR/Ncmsd/Td"
+    },
+    {
+      "palavra": "קְטִ֕יל",
+      "lemma": "6992",
+      "morfologia": "AVQp3ms"
+    },
+    {
+      "palavra": "בֵּלְאשַׁצַּ֖ר",
+      "lemma": "1113",
+      "morfologia": "ANp"
+    },
+    {
+      "palavra": "מַלְכָּ֥א",
+      "lemma": "4430",
+      "morfologia": "ANcmsd/Td"
+    },
+    {
+      "palavra": "כשדיא",
+      "lemma": "3779",
+      "morfologia": "ANgmpd/Td"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "grafia consonantal בֵּלְאשַׁצַּר (v.30) vs בֵּלְשַׁאצַּר (vv.1,2,9,22,29) — mesma pessoa",
+      "escolha": "Belsazar (grafia uniforme em português para ambas as formas)",
+      "justificativa": "trata-se de metátese consonantal do mesmo nome próprio no TM, sem indicar referente distinto; a uniformização em português não perde informação relevante para o leitor.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar duas formas diferentes em português",
+          "motivo": "criaria a falsa impressão de dois nomes distintos onde o TM indica a mesma pessoa"
+        }
+      ]
+    },
+    {
+      "questao": "ordem verbo-sujeito da oração final (קְטִיל בֵּלְאשַׁצַּר מַלְכָּא)",
+      "escolha": "ordem sujeito-verbo no publicado ('Belsazar... foi morto')",
+      "justificativa": "ER-0011 (espírito da regra): ordem sujeito-verbo uniforme no texto publicado; a ordem verbo-sujeito do aramaico é preservada integralmente na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado ('foi morto Belsazar...')",
+          "motivo": "soa arcaizante fora da camada literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso de clausura do capítulo, marcando o cumprimento imediato do julgamento anunciado em vv.26-28.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

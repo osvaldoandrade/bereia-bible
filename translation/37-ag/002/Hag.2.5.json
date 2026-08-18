@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hag.2.5",
+    "livro": "Ageu",
+    "capitulo": 2,
+    "versiculo": 5,
+    "pericope": "Hag.2.1-23"
+  },
+  "texto_bv": "Esta é a palavra que pactuei com vocês quando vocês saíram do Egito; e o meu Espírito permanece no meio de vocês: não tenham medo.",
+  "traducao_literal": "A palavra que cortei com vocês, ao sair vocês do Egito, e o meu espírito, de pé no meio de vocês: não temam.",
+  "termos_originais": [
+    {
+      "palavra": "אֶֽת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הַדָּבָ֞ר",
+      "lemma": "d/1697",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "כָּרַ֤תִּי",
+      "lemma": "3772",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "אִתְּכֶם֙",
+      "lemma": "854",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "בְּצֵאתְכֶ֣ם",
+      "lemma": "b/3318",
+      "morfologia": "HR/Vqc/Sp2mp"
+    },
+    {
+      "palavra": "מִמִּצְרַ֔יִם",
+      "lemma": "m/4714",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וְרוּחִ֖י",
+      "lemma": "c/7307",
+      "morfologia": "HC/Ncbsc/Sp1cs"
+    },
+    {
+      "palavra": "עֹמֶ֣דֶת",
+      "lemma": "5975",
+      "morfologia": "HVqrfsa"
+    },
+    {
+      "palavra": "בְּתוֹכְכֶ֑ם",
+      "lemma": "b/8432",
+      "morfologia": "HR/Ncmsc/Sp2mp"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תִּירָֽאוּ",
+      "lemma": "3372",
+      "morfologia": "HVqj2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Fragmento sem verbo principal ('אֶת־הַדָּבָר...') retomando o discurso de 2:4",
+      "escolha": "suprir cópula 'Esta é' no publicado para formar oração completa; a literal mantém o fragmento nominal calcado no hebraico.",
+      "justificativa": "o hebraico deixa o objeto suspenso, retomando implicitamente a promessa 'eu estou com vocês' de 2:4; o português exige verbo principal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "unir mecanicamente ao final de 2:4",
+          "motivo": "cada registro cobre um versículo (ER-0001); a solução é suprir cópula local, não fundir versículos"
+        }
+      ]
+    },
+    {
+      "questao": "כָּרַתִּי ('cortei') — idioma de aliança sem o substantivo בְּרִית explícito",
+      "escolha": "'pactuei' no publicado (glosa que carrega a conotação de aliança), 'cortei' na literal",
+      "justificativa": "o verbo כרת é o verbo-padrão de 'fazer aliança' mesmo quando o objeto é דָּבָר e não בְּרִית; a BV evita inserir a palavra 'aliança', ausente no hebraico deste versículo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "inserir 'a aliança que fiz'",
+          "motivo": "acrescentaria um substantivo (aliança) inexistente no hebraico deste versículo"
+        }
+      ]
+    },
+    {
+      "questao": "Maiúscula em 'Espírito' (רוּחִי, 'meu Espírito')",
+      "escolha": "maiúscula, por decisão exegética documentada",
+      "justificativa": "EDITORIAL §10: maiúscula exige decisão exegética registrada; aqui o possessivo divino ('meu') e o paralelo com Gn 1:2 (já ratificado com maiúscula, ER-0014) sustentam a leitura de referência ao Espírito de Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "minúscula 'espírito' (fôlego/vento/presença genérica)",
+          "motivo": "gramaticalmente possível, mas o possessivo pessoal divino torna a leitura pneumatológica mais natural no contexto de presença contínua entre o povo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Esta é"
+  ],
+  "ambiguidades_preservadas": [
+    "'Espírito'/'espírito' — presença divina pessoal vs. fôlego/força vital; a BV opta pela maiúscula mas registra a alternativa (ver TEOLOGIA §4, paralelo Gn 1:2)."
+  ],
+  "justificativa": "A promessa da aliança do êxodo, a presença contínua do Espírito e a exortação a não temer permanecem explícitas; suprida apenas a cópula inicial exigida pela sintaxe portuguesa.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

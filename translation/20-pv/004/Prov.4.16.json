@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.4.16",
+    "livro": "Provérbios",
+    "capitulo": 4,
+    "versiculo": 16,
+    "pericope": "Prov.4.1-27"
+  },
+  "texto_bv": "Pois eles não dormem se não tiverem feito o mal, e o sono deles é tirado se não tiverem feito alguém tropeçar.",
+  "traducao_literal": "Porque não dormem se não fizerem mal; e é tirado o sono deles se não fizerem tropeçar.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִֽ֭שְׁנוּ",
+      "lemma": "3462",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יָרֵ֑עוּ",
+      "lemma": "7489 a",
+      "morfologia": "HVhi3mp"
+    },
+    {
+      "palavra": "וְֽנִגְזְלָ֥ה",
+      "lemma": "c/1497",
+      "morfologia": "HC/VNq3fs"
+    },
+    {
+      "palavra": "שְׁ֝נָתָ֗ם",
+      "lemma": "8142",
+      "morfologia": "HNcfsc/Sp3mp"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לֹ֥א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יכשולו",
+      "lemma": "3782",
+      "morfologia": "HVqi3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יכשולו — grafia incomum (sem os sinais diacríticos esperados para o nifal יִכָּשְׁלוּ, marcada no packet como Vqi3mp/qal) na cláusula final, paralela a יָרֵעוּ (hifil, 'fazerem o mal')",
+      "escolha": "traduzir com sentido causativo — 'fazer alguém tropeçar' — por paralelismo com יָרֵעוּ (hifil)",
+      "justificativa": "O paralelismo do dístico ('não dormem se não fizerem o mal' / 'perdem o sono se não fizerem [alguém] tropeçar') pede leitura causativa para a segunda cláusula, análoga à primeira; a grafia anômala da fonte (sem pontuação plena, tag Qal) é reconhecida como crux textual, mas a decisão de tradução segue a força semântica do paralelismo, não a etiqueta morfológica isolada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sentido intransitivo qal — 'a menos que eles próprios tropecem'",
+          "motivo": "quebra o paralelismo com a primeira cláusula (fazer o mal / fazer tropeçar), que exige leitura causativa nas duas metades do versículo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A forma יכשולו, com grafia anômala na fonte pinada (tag Qal, sem os sinais do nifal esperado), admite leitura intransitiva ('eles tropeçam') ou causativa ('fazem [alguém] tropeçar'); a BV adota a causativa por paralelismo, mas a alternativa é preservada aqui para auditoria."
+  ],
+  "justificativa": "Verso de maior dificuldade textual do capítulo: forma final do dístico tem grafia incomum na fonte pinada (OSHB), reduzindo a confiança da adjudicação.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.120.6",
+    "livro": "Salmos",
+    "capitulo": 120,
+    "versiculo": 6,
+    "pericope": "Ps.120.1-7"
+  },
+  "texto_bv": "Há muito tempo a minha alma habita com quem odeia a paz.",
+  "traducao_literal": "Muito tempo habitou, para si, a minha alma, com quem odeia a paz.",
+  "termos_originais": [
+    {
+      "palavra": "רַ֭בַּת",
+      "lemma": "7227 a",
+      "morfologia": "HAafsc"
+    },
+    {
+      "palavra": "שָֽׁכְנָה",
+      "lemma": "7931",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "לָּ֣הּ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3fs"
+    },
+    {
+      "palavra": "נַפְשִׁ֑י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "עִ֝֗ם",
+      "lemma": "5973 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "שׂוֹנֵ֥א",
+      "lemma": "8130",
+      "morfologia": "HVqrmsc"
+    },
+    {
+      "palavra": "שָׁלֽוֹם",
+      "lemma": "7965",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "aspecto de שָֽׁכְנָה (perfeito 3fs) — mesmo padrão aspectual de v5",
+      "escolha": "presente no publicado ('habita'); pretérito na literal ('habitou')",
+      "justificativa": "consistência com a leitura experiencial aplicada a גַּרְתִּי/שָׁכַנְתִּי em v5 (lamento sobre condição presente).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "לָּ֣הּ — dativo reflexivo/ético referente a נַפְשִׁי ('para si mesma')",
+      "escolha": "omitido no publicado; preservado na literal ('para si')",
+      "justificativa": "o dativo ético hebraico (comum com נפש) intensifica sem acrescentar informação proposicional; não há equivalente natural não-redundante em português corrente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a minha alma habitou para si mesma'",
+          "motivo": "soa artificial e redundante em português; mantido apenas na literal para auditoria (ER-0013)"
+        }
+      ]
+    },
+    {
+      "questao": "שׂוֹנֵא שָׁלוֹם (particípio singular, 'o que odeia a paz') — singular genérico vs. coletivo",
+      "escolha": "singular preservado: 'quem odeia a paz'",
+      "justificativa": "o particípio é singular no original; não há marca de coletivo/plural que justifique 'os que odeiam'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os que odeiam a paz' (plural coletivo)",
+          "motivo": "não corresponde à morfologia singular do particípio; introduziria número ausente no texto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continuação do lamento sobre convivência hostil; decisões concentradas em aspecto verbal (consistência com v5) e no dativo ético לָּהּ, sem implicação doutrinária.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

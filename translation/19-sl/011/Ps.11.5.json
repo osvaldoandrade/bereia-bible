@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.11.5",
+    "livro": "Salmos",
+    "capitulo": 11,
+    "versiculo": 5,
+    "pericope": "Ps.11.1-7"
+  },
+  "texto_bv": "O SENHOR examina o justo, mas ao ímpio e ao que ama a violência a sua alma odeia.",
+  "traducao_literal": "O SENHOR o justo examina; e o ímpio e o que ama a violência, odeia a sua alma.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָה֮",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צַדִּ֪יק",
+      "lemma": "6662",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "יִ֫בְחָ֥ן",
+      "lemma": "974",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "וְ֭רָשָׁע",
+      "lemma": "c/7563",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "וְאֹהֵ֣ב",
+      "lemma": "c/157",
+      "morfologia": "HC/Vqrmsc"
+    },
+    {
+      "palavra": "חָמָ֑ס",
+      "lemma": "2555",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "שָֽׂנְאָ֥ה",
+      "lemma": "8130",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "נַפְשֽׁוֹ",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שָׂנְאָה נַפְשׁוֹ — antropomorfismo forte ('a alma dele odeia'), sujeito da segunda oração é 'sua alma' (referida a YHWH), objeto fronteado (casus pendens) é 'o ímpio e o que ama a violência'",
+      "escolha": "Preservar literalmente 'a sua alma odeia' (não parafrasear como 'o SENHOR odeia')",
+      "justificativa": "TEOLOGIA §2 proíbe suavizar antropomorfismos do original; 'nefesh' aplicada a YHWH é expressão hebraica intensificadora de aversão pessoal (paralelo Isa.1.14; Jer.5.9), mantida tal como está.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o SENHOR odeia o ímpio...'",
+          "motivo": "paráfrase que apaga o antropomorfismo 'alma', suavizando dificuldade que TEOLOGIA §2 exige preservar"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem sintática marcada: 1ª oração S-O-V (יְהוָה צַדִּיק יִבְחָן); 2ª oração O-V-S com objeto fronteado antes do verbo",
+      "escolha": "Reordenar minimamente no publicado para naturalidade ('mas ao ímpio... a sua alma odeia'), preservando a topicalização por meio de 'a' + fronteamento; a traducao_literal mantém a ordem hebraica quase palavra a palavra",
+      "justificativa": "Português tolera fronteamento de objeto com preposição 'a', reproduzindo o efeito enfático original sem soar artificial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ordem canônica SVO uniforme ('mas a sua alma odeia o ímpio e o que ama a violência')",
+          "motivo": "perde o realce sintático (topicalização) que o hebraico constrói deliberadamente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "'Sua alma' pode ser lida como perífrase enfática por 'ele mesmo' ou como expressão antropomórfica mais forte; a BV preserva a formulação literal sem dissolver a ambiguidade em paráfrase."
+  ],
+  "justificativa": "Contraste central do salmo (exame do justo × ódio ao ímpio); mantidas ordem marcada e antropomorfismo por exigência de TEOLOGIA §2.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

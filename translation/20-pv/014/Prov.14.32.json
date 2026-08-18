@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.14.32",
+    "livro": "Provérbios",
+    "capitulo": 14,
+    "versiculo": 32,
+    "pericope": "Prov.14.1-35"
+  },
+  "texto_bv": "Pela sua própria maldade o ímpio é derrubado, mas o justo tem refúgio, mesmo na sua morte.",
+  "traducao_literal": "Na sua maldade é derrubado o ímpio; e tem refúgio, na sua morte, o justo.",
+  "termos_originais": [
+    {
+      "palavra": "בְּֽ֭רָעָתוֹ",
+      "lemma": "b/7451 c",
+      "morfologia": "HR/Ncfsc/Sp3ms"
+    },
+    {
+      "palavra": "יִדָּחֶ֣ה",
+      "lemma": "1760 a",
+      "morfologia": "HVNi3ms"
+    },
+    {
+      "palavra": "רָשָׁ֑ע",
+      "lemma": "7563",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְחֹסֶ֖ה",
+      "lemma": "c/2620",
+      "morfologia": "HC/Vqrmsa"
+    },
+    {
+      "palavra": "בְמוֹת֣וֹ",
+      "lemma": "b/4194",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "צַדִּֽיק",
+      "lemma": "6662",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "O TM (fonte pinada, OSHB) lê בְּמוֹתוֹ ('na sua morte'). A Septuaginta traz ἐν τῇ ἑαυτοῦ ὁσιότητι ('na sua própria santidade/integridade'), sugerindo um Vorlage hebraico בְּתֻמּוֹ ('na sua integridade') — possível confusão gráfica מ/ת.",
+      "leituras": [
+        {
+          "leitura": "בְּמוֹתוֹ, 'na sua morte' (TM)",
+          "testemunhas": "Texto Massorético / OSHB pinado (referencia_fonte: pipeline/packets/pv-014-001-035.blind.json, Prov.14.32)"
+        },
+        {
+          "leitura": "בְּתֻמּוֹ, 'na sua integridade' (Vorlage reconstruído)",
+          "testemunhas": "Septuaginta (LXX)"
+        }
+      ],
+      "avaliacao": "TM adotado por ser a fonte textual pinada do projeto; a leitura da LXX é reconstrução indireta, não manuscrito hebraico direto — registrada apenas para transparência auditável.",
+      "impacto_na_traducao": "O TM produz a antítese morte-vs-derrubada (o ímpio cai por sua própria maldade; o justo tem refúgio até mesmo na morte); a leitura da LXX produziria antítese maldade-vs-integridade, mais simétrica com a primeira metade do verso."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "בְּמוֹתוֹ ('na sua morte') — TM claro, mas há proposta de leitura alternativa baseada na LXX",
+      "escolha": "Seguir o TM pinado (OSHB): בְּמוֹתוֹ, 'na sua morte'.",
+      "justificativa": "Fonte textual do projeto é o OSHB/TM pinado; a leitura alternativa é reconstrução indireta a partir da LXX, não testemunho hebraico direto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "בְּתֻמּוֹ, 'na sua integridade' (Vorlage reconstruído a partir da LXX)",
+          "motivo": "não é leitura hebraica atestada diretamente; adotá-la contrariaria a autoridade textual pinada do projeto (TEOLOGIA §1.1)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso com crux textual conhecida (TM vs. Vorlage da LXX); a BV segue rigorosamente a fonte pinada (OSHB), registrando a variante para auditoria.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.20.1",
+    "livro": "Provérbios",
+    "capitulo": 20,
+    "versiculo": 1,
+    "pericope": "Prov.20.1-30"
+  },
+  "texto_bv": "O vinho é zombador, a bebida forte é tumultuosa; todo que se deixa desviar por ela não é sábio.",
+  "traducao_literal": "Zombador, o vinho; tumultuosa, a bebida forte; e todo o que nela erra não será sábio.",
+  "termos_originais": [
+    {
+      "palavra": "לֵ֣ץ",
+      "lemma": "3887",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "הַ֭יַּין",
+      "lemma": "d/3196",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הֹמֶ֣ה",
+      "lemma": "1993",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "שֵׁכָ֑ר",
+      "lemma": "7941",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "שֹׁ֥גֶה",
+      "lemma": "7686",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בּ֝֗וֹ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יֶחְכָּֽם",
+      "lemma": "2449",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לֵץ e הֹמֶה são predicados nominais fronteados (ordem predicado-sujeito) — como tratar na traducao_literal vs texto_bv?",
+      "escolha": "traducao_literal preserva a ordem predicado-sujeito hebraica (calque, ER-0013); texto_bv normaliza para sujeito-predicado ('O vinho é zombador').",
+      "justificativa": "Doutrina do calque: estrutura poética fronteada é marca estilística preservada apenas na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter ordem fronteada também no texto_bv",
+          "motivo": "soa artificial em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula, 2x)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Máxima poética com dois predicados nominais fronteados (לֵץ, הֹמֶה) descrevendo vinho e bebida forte; שֹׁגֶה בּוֹ retrata quem se deixa arrastar por elas.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

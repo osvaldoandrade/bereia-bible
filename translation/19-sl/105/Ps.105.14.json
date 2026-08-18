@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.105.14",
+    "livro": "Salmos",
+    "capitulo": 105,
+    "versiculo": 14,
+    "pericope": "Ps.105.1-45"
+  },
+  "texto_bv": "Ele não permitiu que ninguém os oprimisse; e repreendeu reis por causa deles, dizendo:",
+  "traducao_literal": "Não permitiu homem para-oprimi-los; e-repreendeu por-causa-deles reis, dizendo.",
+  "termos_originais": [
+    {
+      "palavra": "לֹֽא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "הִנִּ֣יחַ",
+      "lemma": "3240",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "אָדָ֣ם",
+      "lemma": "120",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְעָשְׁקָ֑ם",
+      "lemma": "l/6231",
+      "morfologia": "HR/Vqc/Sp3mp"
+    },
+    {
+      "palavra": "וַיּ֖וֹכַח",
+      "lemma": "c/3198",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "עֲלֵיהֶ֣ם",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "מְלָכִֽים",
+      "lemma": "4428",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לֹא־הִנִּיחַ אָדָם: 'homem' genérico",
+      "escolha": "ninguém",
+      "justificativa": "אָדָם funciona aqui como pronome indefinido negativo ('nenhum homem'), não referência a um agressor específico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não permitiu ao homem oprimi-los",
+          "motivo": "sugere agressor humano específico e definido, quando o hebraico nega qualquer opressor"
+        }
+      ]
+    },
+    {
+      "questao": "'dizendo' não expresso por לֵאמֹר, mas exigido pela sintaxe do v.15 (jussivos 2mp dirigidos aos 'reis')",
+      "escolha": "suprir 'dizendo:' introduzindo discurso direto (ER-0004)",
+      "justificativa": "A mudança para 2ª pessoa plural jussiva em v.15 só é inteligível como conteúdo reportado da repreensão aos reis; elipse comum em poesia hebraica de introdução de fala.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não marcar como discurso direto",
+          "motivo": "deixaria os jussivos de v.15 sem referente de pessoa claro em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "dizendo"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Wayyiqtol em ordem S-V; ver decisões quanto a אָדָם genérico e à suplência de 'dizendo' introduzindo o discurso de v.15.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

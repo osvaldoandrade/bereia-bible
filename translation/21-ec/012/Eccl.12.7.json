@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.12.7",
+    "livro": "Eclesiastes",
+    "capitulo": 12,
+    "versiculo": 7,
+    "pericope": "Eccl.12.1-14"
+  },
+  "texto_bv": "o pó volte à terra, como era, e o espírito volte a Deus, que o deu.",
+  "traducao_literal": "E volte o pó à terra, como era, e o espírito volte a Deus, que o deu.",
+  "termos_originais": [
+    {
+      "palavra": "וְיָשֹׁ֧ב",
+      "lemma": "c/7725",
+      "morfologia": "HC/Vqi3ms"
+    },
+    {
+      "palavra": "הֶעָפָ֛ר",
+      "lemma": "d/6083",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הָאָ֖רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "כְּשֶׁהָיָ֑ה",
+      "lemma": "k/s/1961",
+      "morfologia": "HR/Tr/Vqp3ms"
+    },
+    {
+      "palavra": "וְהָר֣וּחַ",
+      "lemma": "c/d/7307",
+      "morfologia": "HC/Td/Ncbsa"
+    },
+    {
+      "palavra": "תָּשׁ֔וּב",
+      "lemma": "7725",
+      "morfologia": "HVqi3fs"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הָאֱלֹהִ֖ים",
+      "lemma": "d/430",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "אֲשֶׁ֥ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "נְתָנָֽהּ",
+      "lemma": "5414",
+      "morfologia": "HVqp3ms/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Quiasmo de ordem: וְיָשֹׁב הֶעָפָר (V-S) // וְהָרוּחַ תָּשׁוּב (S-V)",
+      "escolha": "Quiasmo preservado na traducao_literal; normalizado para S-V uniforme em ambas as orações no texto publicado",
+      "justificativa": "ER-0013 item 3 (calque de quiasmo preservado na literal, normalizável no publicado) e ER-0011 (ordem S-V uniforme no publicado).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Preservar o quiasmo também no publicado",
+          "motivo": "Soaria artificial em português contemporâneo (EDITORIAL §1.2); a marca retórica sobrevive integralmente na literal."
+        }
+      ]
+    },
+    {
+      "questao": "הָרוּחַ (H7307, mesmo lexema de Gen.1.2) — maiúscula 'Espírito' ou minúscula 'espírito'?",
+      "escolha": "minúscula 'espírito' — referente antropológico (o fôlego/espírito humano que retorna a Deus, cf. Gen.2.7), não o Espírito de Deus pairando",
+      "justificativa": "EDITORIAL §10: maiúscula somente com decisão exegética documentada; aqui o sujeito gramatical e o contexto (paralelo 'pó volta à terra') indicam claramente o espírito humano dado por Deus na criação, distinto do caso de Gen.1.2. Glosa lexical 'espírito' já fixada em lexicon.json H7307.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Espírito\" maiúsculo",
+          "motivo": "Não há evidência textual de referente divino-pessoal neste verso; seria retroprojeção sem base sintática (TEOLOGIA §2)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecha a sentença iniciada no v.1: apódose da longa cláusula 'antes que...'; descreve a morte como retorno do pó à terra e do espírito/fôlego a Deus.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

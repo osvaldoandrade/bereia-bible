@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.62.2",
+    "livro": "Isaías",
+    "capitulo": 62,
+    "versiculo": 2,
+    "pericope": "Isa.62.1-12"
+  },
+  "texto_bv": "As nações verão a sua justiça, e todos os reis, a sua glória; e você será chamada por um novo nome, que a boca do SENHOR designará.",
+  "traducao_literal": "E verão nações tua justiça, e todos reis tua glória; e chamar-se-á a ti nome novo, que boca do SENHOR o designará.",
+  "termos_originais": [
+    {
+      "palavra": "וְרָא֤וּ",
+      "lemma": "c/7200",
+      "morfologia": "HC/Vqq3cp"
+    },
+    {
+      "palavra": "גוֹיִם֙",
+      "lemma": "1471 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "צִדְקֵ֔ךְ",
+      "lemma": "6664",
+      "morfologia": "HNcmsc/Sp2fs"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "מְלָכִ֖ים",
+      "lemma": "4428",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "כְּבוֹדֵ֑ךְ",
+      "lemma": "3519",
+      "morfologia": "HNcbsc/Sp2fs"
+    },
+    {
+      "palavra": "וְקֹ֤רָא",
+      "lemma": "c/7121",
+      "morfologia": "HC/VPq3ms"
+    },
+    {
+      "palavra": "לָךְ֙",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "שֵׁ֣ם",
+      "lemma": "8034",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "חָדָ֔שׁ",
+      "lemma": "2319",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֛ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "פִּ֥י",
+      "lemma": "6310",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יִקֳּבֶֽנּוּ",
+      "lemma": "5344 a",
+      "morfologia": "HVqi3ms/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Verbo elidido na segunda oração (וְכָל־מְלָכִים כְּבוֹדֵךְ, sem verbo próprio)",
+      "escolha": "Suprir 'verão' por gapping a partir da primeira oração",
+      "justificativa": "Português exige verbo explícito; a elipse hebraica de coordenação (gapping) é agramatical sem suprimento (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir 'as nações' como sujeito da segunda oração",
+          "motivo": "o hebraico distingue claramente 'nações' de 'reis' como sujeitos paralelos, não deve ser colapsado"
+        }
+      ]
+    },
+    {
+      "questao": "Início do endereçamento direto a Sião (2fs) e escolha de pronome de tratamento",
+      "escolha": "você/vocês em todo o capítulo",
+      "justificativa": "EDITORIAL §3 (D-0003): discurso de Deus/profeta a entidade não-divina segue você/vocês; 'tu' fica reservado a oração dirigida a Deus, o que não é o caso aqui.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu",
+          "motivo": "reservado por D-0003 a discurso humano dirigido a Deus; Sião/Jerusalém não é o referente divino do diálogo"
+        }
+      ]
+    },
+    {
+      "questao": "קֹרָא impessoal (Qal 3ms sem sujeito expresso) + נָקַב (H5344, 'designar por nome')",
+      "escolha": "'você será chamada' (passiva) / 'designará' para יִקֳּבֶנּוּ",
+      "justificativa": "O hebraico usa 3ms impessoal ('chamar-se-á a ti'); o português verte naturalmente como passiva. נָקַב é mais específico que 'dizer/chamar' — carrega a ideia de apontar/fixar um nome.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pronunciará",
+          "motivo": "enfraquece o sentido de 'designar/fixar por nome' presente em נָקַב"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Promessa pública: nações e reis testemunham a justiça/glória de Sião; ela recebe um nome novo, fixado pela própria boca do SENHOR (autoridade divina do ato de nomear).",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Joel.4.1",
+    "livro": "Joel",
+    "capitulo": 4,
+    "versiculo": 1,
+    "pericope": "Joel.4.1-21"
+  },
+  "texto_bv": "Porque eis que, naqueles dias e naquele tempo, quando eu restaurar a sorte de Judá e de Jerusalém,",
+  "traducao_literal": "Porque eis que, nos dias aqueles e no tempo aquele, em que eu restaurar o cativeiro de Judá e de Jerusalém,",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֗י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הִנֵּ֛ה",
+      "lemma": "2009",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "בַּיָּמִ֥ים",
+      "lemma": "b/3117",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "הָהֵ֖מָּה",
+      "lemma": "d/1992",
+      "morfologia": "HTd/Pdxmp"
+    },
+    {
+      "palavra": "וּבָעֵ֣ת",
+      "lemma": "c/b/6256",
+      "morfologia": "HC/Rd/Ncbsa"
+    },
+    {
+      "palavra": "הַהִ֑יא",
+      "lemma": "d/1931",
+      "morfologia": "HTd/Pp3fs"
+    },
+    {
+      "palavra": "אֲשֶׁ֥ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "אשוב",
+      "lemma": "7725",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "שְׁב֥וּת",
+      "lemma": "7622",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "יְהוּדָ֖ה",
+      "lemma": "3063",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וִירוּשָׁלִָֽם",
+      "lemma": "c/3389",
+      "morfologia": "HC/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אָשׁוּב אֶת־שְׁבוּת — idioma שוב שבות ('restaurar a sorte/cativeiro')",
+      "escolha": "restaurar a sorte de Judá e de Jerusalém",
+      "justificativa": "שוב שבות é expressão idiomática consagrada (cf. Jr 29:14; Sl 126:1) que designa reversão geral da condição da nação, não apenas retorno físico de exilados; 'sorte' capta o sentido amplo sem excluir a leitura de retorno do cativeiro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "trazer de volta os cativos de Judá e de Jerusalém",
+          "motivo": "restringe a um retorno físico de exilados; שְׁבוּת é mais amplo que 'cativeiro', abrangendo reversão de fortuna mesmo sem deportação prévia"
+        }
+      ]
+    },
+    {
+      "questao": "אשוב (Ketiv sem pontuação) — forma qal (morfologia HVqi1cs) vs. leitura tradicional hifil ('farei voltar')",
+      "escolha": "seguir a morfologia qal fornecida pela fonte pinada: 'eu restaurar' (intransitivo formando idioma com שְׁבוּת)",
+      "justificativa": "O packet pinado marca HVqi1cs (qal); o idioma שוב שבות ocorre tanto com qal quanto com hifil no TM sem alteração de sentido, então a forma qal não muda a tradução do idioma fixo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "אָשִׁיב hifil ('farei retornar')",
+          "motivo": "não é a forma marcada na fonte pinada auditável deste packet"
+        }
+      ]
+    },
+    {
+      "questao": "יָמִים הָהֵמָּה / עֵת הַהִיא — demonstrativo pós-posto ao substantivo",
+      "escolha": "publicado normaliza para ordem pt-BR ('naqueles dias'/'naquele tempo'); literal preserva pós-posição hebraica",
+      "justificativa": "ER-0013 (doutrina do calque): a ordem substantivo+demonstrativo é natural em hebraico mas soa arcaizante em português corrente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'os dias aqueles' no publicado",
+          "motivo": "soa artificial/arcaizante em português contemporâneo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "שְׁבוּת pode denotar tanto retorno físico do cativeiro quanto reversão geral da sorte nacional; ambas leituras permanecem compatíveis com a tradução escolhida."
+  ],
+  "justificativa": "V.1 é oração subordinada temporal que introduz a sequência de juízo às nações, completada em v.2; mantém-se como oração dependente terminada em vírgula, seguindo a sintaxe do hebraico.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mal.1.3",
+    "livro": "Malaquias",
+    "capitulo": 1,
+    "versiculo": 3,
+    "pericope": "Mal.1.1-14"
+  },
+  "texto_bv": "Mas odiei Esaú: fiz de seus montes uma desolação e entreguei sua herança aos chacais do deserto.",
+  "traducao_literal": "E a Esaú odiei; e pus seus montes desolação, e sua herança para chacais do deserto.",
+  "termos_originais": [
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "עֵשָׂ֖ו",
+      "lemma": "6215",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שָׂנֵ֑אתִי",
+      "lemma": "8130",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "וָאָשִׂ֤ים",
+      "lemma": "c/7760 a",
+      "morfologia": "HC/Vqw1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הָרָיו֙",
+      "lemma": "2022",
+      "morfologia": "HNcmpc/Sp3ms"
+    },
+    {
+      "palavra": "שְׁמָמָ֔ה",
+      "lemma": "8077 a",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "נַחֲלָת֖וֹ",
+      "lemma": "5159",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "לְתַנּ֥וֹת",
+      "lemma": "l/8568",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "מִדְבָּֽר",
+      "lemma": "4057 b",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וְאֶת־עֵשָׂו שָׂנֵאתִי — objeto fronteado (paralelo quiástico com 1:2 'amei Jacó')",
+      "escolha": "normalizar para ordem verbo-objeto natural no publicado ('mas odiei Esaú'); a literal preserva o objeto fronteado",
+      "justificativa": "ER-0013 ponto 3 (quiasmo de ordem) autoriza normalização no texto publicado; a traducao_literal mantém 'e a Esaú odiei' para auditoria do fronteamento retórico hebraico, que faz par com 'Jacó amei' de 1:2.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter o objeto fronteado no publicado ('E a Esaú, odiei')",
+          "motivo": "soa artificial em português corrente; a marca fica preservada intacta na traducao_literal."
+        }
+      ]
+    },
+    {
+      "questao": "וְאֶת־נַחֲלָתוֹ לְתַנּוֹת מִדְבָּר — elipse do verbo regente (שִׂים) na segunda oração coordenada",
+      "escolha": "suprir 'entreguei' como verbo do segundo membro, reaproveitando o sentido de וָאָשִׂים do primeiro",
+      "justificativa": "O hebraico elide o verbo regente na segunda oração coordenada; o português exige verbo explícito para não ficar agramatical.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "entreguei (verbo regente elidido no segundo membro coordenado, suprido a partir de וָאָשִׂים do primeiro membro)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecha o contraste amar/odiar iniciado em 1:2 com a descrição da devastação de Edom (montanhas em desolação, herança entregue aos chacais).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

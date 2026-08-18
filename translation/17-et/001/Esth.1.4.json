@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.1.4",
+    "livro": "Ester",
+    "capitulo": 1,
+    "versiculo": 4,
+    "pericope": "Esth.1.1-22"
+  },
+  "texto_bv": "exibindo a riqueza e a glória do seu reino, e o esplendor e a magnificência da sua grandeza, por muitos dias — cento e oitenta dias.",
+  "traducao_literal": "ao mostrar ele a riqueza da glória do seu reino, e a preciosidade do esplendor da sua grandeza, dias muitos: oitenta e cem dia.",
+  "termos_originais": [
+    {
+      "palavra": "בְּהַרְאֹת֗וֹ",
+      "lemma": "b/7200",
+      "morfologia": "HR/Vhc/Sp3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "עֹ֨שֶׁר֙",
+      "lemma": "6239",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "כְּב֣וֹד",
+      "lemma": "3519",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "מַלְכוּת֔וֹ",
+      "lemma": "4438",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "וְאֶ֨ת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "יְקָ֔ר",
+      "lemma": "3366",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "תִּפְאֶ֖רֶת",
+      "lemma": "8597",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "גְּדוּלָּת֑וֹ",
+      "lemma": "1420",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "יָמִ֣ים",
+      "lemma": "3117",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "רַבִּ֔ים",
+      "lemma": "7227 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "שְׁמוֹנִ֥ים",
+      "lemma": "8084",
+      "morfologia": "HAcbpa"
+    },
+    {
+      "palavra": "וּמְאַ֖ת",
+      "lemma": "c/3967",
+      "morfologia": "HC/Acbsc"
+    },
+    {
+      "palavra": "יֽוֹם",
+      "lemma": "3117",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Cadeias construtas empilhadas (עֹשֶׁר כְּבוֹד מַלְכוּתוֹ; יְקָר תִּפְאֶרֶת גְּדוּלָּתוֹ)",
+      "escolha": "normalizar como pares coordenados ('a riqueza e a glória'; 'o esplendor e a magnificência')",
+      "justificativa": "ER-0013: genitivos triplos encadeados soam artificiais em português corrido; a literal preserva os construtos integrais.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "a riqueza da glória do seu reino",
+          "motivo": "ininteligível como prosa corrente"
+        }
+      ]
+    },
+    {
+      "questao": "Numeral שְׁמוֹנִים וּמְאַת (80+100)",
+      "escolha": "cento e oitenta",
+      "justificativa": "mesma lógica de reordenação numeral do v.1 (EDITORIAL §7 + ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "oitenta e cem",
+          "motivo": "ordem hebraica ininteligível em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Infinitivo construto בְּהַרְאֹתוֹ vertido como gerúndio ('exibindo'), dando continuidade fluida à cena do banquete de v.3.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

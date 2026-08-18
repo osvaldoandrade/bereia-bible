@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.22.12",
+    "livro": "Provérbios",
+    "capitulo": 22,
+    "versiculo": 12,
+    "pericope": "Prov.22.1-29"
+  },
+  "texto_bv": "Os olhos do SENHOR guardam o conhecimento, mas ele transtorna as palavras do infiel.",
+  "traducao_literal": "Olhos do SENHOR guardaram conhecimento; e transtornou palavras do que trai.",
+  "termos_originais": [
+    {
+      "palavra": "עֵינֵ֣י",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "נָ֣צְרוּ",
+      "lemma": "5341",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "דָ֑עַת",
+      "lemma": "1847",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וַ֝יְסַלֵּ֗ף",
+      "lemma": "c/5557",
+      "morfologia": "HC/Vpw3ms"
+    },
+    {
+      "palavra": "דִּבְרֵ֥י",
+      "lemma": "1697",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "בֹגֵֽד",
+      "lemma": "898",
+      "morfologia": "HVqrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וַיְסַלֵּף — forma wayyiqtol em contexto proverbial antitético, não narrativo (ER-0011 rege 'E' obrigatório em wayyiqtol narrativo)",
+      "escolha": "Não verter 'E' inicial no texto_bv (usar 'mas'); waw preservado como 'e' na literal",
+      "justificativa": "ER-0013: wayyiqtol inicial vira 'E' apenas quando a sequência discursiva o pedir; aqui o waw é adversativo/antitético (paralelismo de contraste), não sequência narrativa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E ele transtorna...' (aplicação mecânica de ER-0011)",
+          "motivo": "ER-0011 rege wayyiqtol narrativo; este é uso proverbial antitético — priorizada a leitura semântica do paralelismo (fidelidade vence, preâmbulo EDITORIAL)."
+        }
+      ]
+    },
+    {
+      "questao": "Aspecto gnômico de נָצְרוּ (perfeito)",
+      "escolha": "Presente no texto_bv, perfeito na literal",
+      "justificativa": "Consistência com convenção gnômica adotada no capítulo (v.3, v.9).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Antítese sobre vigilância divina do conhecimento versus subversão das palavras do pérfido; desvio pontual de ER-0011 justificado pelo caráter antitético não-narrativo do waw.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

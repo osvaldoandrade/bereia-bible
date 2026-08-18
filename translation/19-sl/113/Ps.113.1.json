@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.113.1",
+    "livro": "Salmos",
+    "capitulo": 113,
+    "versiculo": 1,
+    "pericope": "Ps.113.1-9"
+  },
+  "texto_bv": "Louvem o SENHOR! Louvem, servos do SENHOR, louvem o nome do SENHOR!",
+  "traducao_literal": "Louvai Yah. Louvai, servos de SENHOR; louvai o nome de SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "הַ֥לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֨הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַ֭לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "עַבְדֵ֣י",
+      "lemma": "5650",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַֽ֝לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "שֵׁ֥ם",
+      "lemma": "8034",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de יָהּ (H3050), forma abreviada do Tetragrama, que abre e fecha o salmo em inclusio (v.1/v.9)",
+      "escolha": "SENHOR (mesmo referente de יהוה, política NOMES-DIVINOS ER-0002), seguindo o precedente já registrado em Sl 111:1 e Sl 150:1/6",
+      "justificativa": "יָהּ é forma poética abreviada do mesmo nome divino; a convenção da política de nomes divinos preserva a consistência referencial e a auditabilidade via lemma H3050, evitando introduzir uma terceira forma não padronizada para o mesmo referente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Aleluia (interjeição transliterada, tratando הַלְלוּ יָהּ como unidade fixa)",
+          "motivo": "o packet segmenta הַלְלוּ e יָהּ como duas palavras com lemas distintos (verbo + nome); tratar como interjeição intraduzida apagaria a estrutura verbo-objeto e quebraria a política ER-0002 de traduzir, não transliterar, o nome divino"
+        },
+        {
+          "opcao": "Jah (transliteração não traduzida)",
+          "motivo": "não segue convenção registrada no repositório; reduz auditabilidade do nome divino — mesmo problema que ER-0002 já rejeitou para Javé/Yahweh"
+        }
+      ]
+    },
+    {
+      "questao": "Registro de segunda pessoa do imperativo הַלְלוּ: 'Louvai' (vós) ou 'Louvem' (vocês)?",
+      "escolha": "'Louvem' (vocês), por ser exortação entre humanos (o salmista convoca 'servos do SENHOR' a louvar), não oração dirigida a Deus",
+      "justificativa": "EDITORIAL §3: discurso entre humanos usa você/vocês; 'tu' é reservado a oração/salmo dirigido a Deus. Aqui o vocativo é 'servos do SENHOR', não Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Louvai' (vós), seguindo a forma usada em Sl 111:1",
+          "motivo": "Sl 111:1 é registro DRAFT independente; 'vós' fora de vocativo litúrgico direto a Deus não se justifica aqui pela regra de registro (EDITORIAL §3) — variação a uniformizar na promoção"
+        }
+      ]
+    },
+    {
+      "questao": "Tríplice repetição do imperativo הַלְלוּ (3×) no mesmo versículo",
+      "escolha": "Preservar as três ocorrências no texto publicado, sem condensar",
+      "justificativa": "ER-0013 permite condensar repetição formular de sujeito em narrativa; aqui a repetição é anáfora poética deliberada, marca de abertura do hino (inclusio com o הַלְלוּ־יָהּ final do v.9), não redundância narrativa — preservar é fidelidade à forma.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Condensar para um único 'Louvem' cobrindo as três cláusulas",
+          "motivo": "apagaria a anáfora retórica que estrutura o versículo de abertura do salmo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Versículo de abertura do Hallel (Sl 113-118), com inclusio הַלְלוּ־יָהּ retomado no v.9. עַבְדֵי יְהוָה funciona como vocativo (não objeto direto) do segundo הַלְלוּ.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.53.3",
+    "livro": "Isaías",
+    "capitulo": 53,
+    "versiculo": 3,
+    "pericope": "Isa.53.1-12"
+  },
+  "texto_bv": "Era desprezado e rejeitado pelos homens, homem de dores e conhecedor do sofrimento; era como alguém que escondia de nós o rosto — desprezado, e não lhe demos valor.",
+  "traducao_literal": "Desprezado e carente de homens, homem de dores e conhecedor de enfermidade; e como quem esconde o rosto de nós, desprezado, e não o estimamos.",
+  "termos_originais": [
+    {
+      "palavra": "נִבְזֶה֙",
+      "lemma": "959",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "וַחֲדַ֣ל",
+      "lemma": "c/2310",
+      "morfologia": "HC/Aamsc"
+    },
+    {
+      "palavra": "אִישִׁ֔ים",
+      "lemma": "376",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אִ֥ישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מַכְאֹב֖וֹת",
+      "lemma": "4341",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וִיד֣וּעַ",
+      "lemma": "c/3045",
+      "morfologia": "HC/Vqsmsc"
+    },
+    {
+      "palavra": "חֹ֑לִי",
+      "lemma": "2483",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּכְמַסְתֵּ֤ר",
+      "lemma": "c/k/4564",
+      "morfologia": "HC/R/Ncmsc"
+    },
+    {
+      "palavra": "פָּנִים֙",
+      "lemma": "6440",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "מִמֶּ֔נּוּ",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "נִבְזֶ֖ה",
+      "lemma": "959",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "וְלֹ֥א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "חֲשַׁבְנֻֽהוּ",
+      "lemma": "2803",
+      "morfologia": "HVqp1cp/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Referente do sufixo em מִמֶּנּוּ (forma consonantal idêntica para 1cp 'de nós' e 3ms 'dele')",
+      "escolha": "seguir a morfologia pinada do packet (Sp1cp, 'de nós'): 'escondia de nós o rosto' (ele escondia o próprio rosto de nós)",
+      "justificativa": "A forma מִמֶּנּוּ é idêntica para 1cp e 3ms; o packet pinado (OSHB) marca explicitamente Sp1cp — fidelidade à morfologia da fonte pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "3ms 'dele' — 'como alguém de quem escondemos o rosto' (nós escondendo nosso rosto dele)",
+          "motivo": "leitura tradicional refletida em Almeida/LXX, mas diverge da marcação morfológica 1cp do packet pinado; registrada como alternativa por ser majoritária na tradição de tradução"
+        }
+      ]
+    },
+    {
+      "questao": "חֲדַל אִישִׁים (H2310, 'cessante/carente de homens')",
+      "escolha": "rejeitado pelos homens",
+      "justificativa": "חָדֵל construto = 'que cessa/carece de'; em contexto social, 'rejeitado por' capta o sentido de exclusão sem sobretraduzir.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'homem de nenhuma reputação'",
+          "motivo": "paráfrase que ultrapassa o valor lexical direto de חדל"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Referente do sufixo em מִמֶּנּוּ ('de nós' vs. 'dele') — forma consonantal idêntica; ambas as leituras são gramaticalmente possíveis."
+  ],
+  "justificativa": "Retrato da rejeição social do servo; mantida a ambiguidade morfológica do sufixo pronominal conforme a fonte pinada, com alternativa tradicional registrada.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

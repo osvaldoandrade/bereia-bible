@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.150.1",
+    "livro": "Salmos",
+    "capitulo": 150,
+    "versiculo": 1,
+    "pericope": "Ps.150.1-6"
+  },
+  "texto_bv": "Louvem ao SENHOR! Louvem a Deus em seu santuário; louvem-no no firmamento do seu poder.",
+  "traducao_literal": "Louvem ao SENHOR! Louvem a Deus em sua santidade; louvem-no no firmamento do seu poder.",
+  "termos_originais": [
+    {
+      "palavra": "הַ֥לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֨הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַֽלְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "אֵ֥ל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בְּקָדְשׁ֑וֹ",
+      "lemma": "b/6944",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "הַֽ֝לְל֗וּהוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp/Sp3ms"
+    },
+    {
+      "palavra": "בִּרְקִ֥יעַ",
+      "lemma": "b/7549",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "עֻזּֽוֹ",
+      "lemma": "5797",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter יָהּ (H3050), forma abreviada do Tetragrama, ausente da tabela NOMES-DIVINOS v1.0.0 (que lista apenas H3068 יהוה)?",
+      "escolha": "Verter como 'SENHOR', estendendo a política ER-0002 ao lema H3050 por identidade referencial (mesmo Deus de Israel nomeado pela forma plena YHWH em todo o corpus). Auditoria garantida pelo lema H3050 anexado mecanicamente ao registro.",
+      "justificativa": "Introduzir um terceiro rótulo (transliteração) para o mesmo referente quebraria a continuidade que o leitor já reconhece em 'SENHOR' e não é exigido pela morfologia — o packet trata יָהּ como objeto direto de הַלְלוּ, não como interjeição fixa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Transliterar 'Yah'",
+          "motivo": "cria um terceiro nome divino em português além de SENHOR/Deus/Senhor, quebrando a convenção consolidada do corpus para o mesmo referente"
+        },
+        {
+          "opcao": "Colapsar em interjeição fixa 'Aleluia'",
+          "motivo": "o packet mantém הַלְלוּ e יָהּ como dois lexemas morfologicamente distintos (verbo + objeto); colapsá-los em interjeição apaga a granularidade auditável palavra a palavra"
+        }
+      ]
+    },
+    {
+      "questao": "בְּקָדְשׁוֹ (H6944 + sufixo 3ms): sentido locativo ('em seu santuário') ou qualitativo ('em sua santidade')?",
+      "escolha": "Publicado: 'em seu santuário' (leitura locativa/cósmica, em paralelo com 'firmamento do seu poder' na segunda linha do mesmo verso). Literal preserva o sentido radical 'em sua santidade'.",
+      "justificativa": "O paralelismo com בִּרְקִיעַ עֻזּוֹ (lugar cósmico) favorece a leitura espacial no texto publicado; a ambiguidade lexical genuína (קֹדֶשׁ cobre tanto 'santidade' quanto 'lugar santo') é preservada no registro conforme TEOLOGIA §1.5.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'em sua santidade' também no publicado",
+          "motivo": "soa abstrato demais em português corrido e obscurece o paralelismo cósmico com o firmamento"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "קָדְשׁוֹ: 'em seu santuário' (lugar sagrado, leitura adotada no publicado) vs. 'em sua santidade' (atributo abstrato, preservado na traducao_literal)"
+  ],
+  "justificativa": "Verso de abertura do refrão הַלְלוּ: três louvores paralelos (a Yah/SENHOR, a Deus/El em seu santuário, a ele no firmamento) sem conectivo waw entre as três cola — poesia justaposta, sem calque estrutural a normalizar além da decisão lexical de קָדְשׁוֹ. רָקִיעַ mantém a glosa fixada em ER-0015 ('firmamento').",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

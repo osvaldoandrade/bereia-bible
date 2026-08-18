@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.32.1",
+    "livro": "Ezequiel",
+    "capitulo": 32,
+    "versiculo": 1,
+    "pericope": "Ezek.32.1-32"
+  },
+  "texto_bv": "No ano décimo segundo, no mês décimo segundo, no primeiro dia do mês, veio a mim a palavra do SENHOR, dizendo:",
+  "traducao_literal": "E foi no dois-dez ano, no dois-dez mês, no um ao-mês, foi palavra-de-SENHOR a-mim, para-dizer:",
+  "termos_originais": [
+    {
+      "palavra": "וַֽיְהִי֙",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בִּשְׁתֵּ֣י",
+      "lemma": "b/8147",
+      "morfologia": "HR/Acfdc"
+    },
+    {
+      "palavra": "עֶשְׂרֵ֣ה",
+      "lemma": "6240",
+      "morfologia": "HAcfsa"
+    },
+    {
+      "palavra": "שָׁנָ֔ה",
+      "lemma": "8141",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בִּשְׁנֵי",
+      "lemma": "b/8147",
+      "morfologia": "HR/Acmdc"
+    },
+    {
+      "palavra": "עָשָׂ֥ר",
+      "lemma": "6240",
+      "morfologia": "HAcmsa"
+    },
+    {
+      "palavra": "חֹ֖דֶשׁ",
+      "lemma": "2320",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בְּאֶחָ֣ד",
+      "lemma": "b/259",
+      "morfologia": "HR/Acmsa"
+    },
+    {
+      "palavra": "לַחֹ֑דֶשׁ",
+      "lemma": "l/2320",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הָיָ֥ה",
+      "lemma": "1961",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "דְבַר",
+      "lemma": "1697",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֵלַ֥י",
+      "lemma": "413",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "לֵאמֹֽר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Formato do numeral hebraico para ano/mês (cardinal 'doze' expressando ordinal 'décimo segundo', idiotismo hebraico para números acima de dez) e dia do mês ('um' = 'primeiro')",
+      "escolha": "Verter para ordinais em português ('ano décimo segundo', 'mês décimo segundo') e 'primeiro dia' para בְּאֶחָד, seguindo o padrão já fixado no corpus (cf. Ezek.26.1, Ezek.29.1)",
+      "justificativa": "Consistência terminológica com fórmulas de data já traduzidas no livro; a forma cardinal hebraica é preservada na traducao_literal (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'no ano doze, no mês doze, no dia um'",
+          "motivo": "calque numérico soa artificial em português; o corpus já normalizou para ordinais nas fórmulas de data anteriores"
+        }
+      ]
+    },
+    {
+      "questao": "וַיְהִי inicial (wayyiqtol existencial) antes da fórmula de data",
+      "escolha": "Não verter separadamente no publicado; a fórmula de data absorve o 'aconteceu'",
+      "justificativa": "Doutrina do calque (ER-0013): o wayyiqtol formular de abertura de datação é normalizado no publicado; preservado como 'E foi' na traducao_literal. Mesmo padrão de Ezek.26.1.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"E aconteceu que, no ano décimo segundo...\"",
+          "motivo": "redundante em português; o corpus já assentou omitir este 'aconteceu' formular"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "dia (em 'primeiro dia do mês')",
+    "veio (verbaliza הָיָה na ordem S-V)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula de datação e recepção de oráculo padrão em Ezequiel; ordem S-V no publicado (ER-0011), nomes divinos por ER-0002 (יְהוָה → SENHOR).",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

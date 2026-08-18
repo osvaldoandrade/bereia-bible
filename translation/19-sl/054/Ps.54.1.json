@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.54.1",
+    "livro": "Salmos",
+    "capitulo": 54,
+    "versiculo": 1,
+    "pericope": "Ps.54.1-9"
+  },
+  "texto_bv": "Ao mestre de música. Com instrumentos de cordas. Masquil de Davi.",
+  "traducao_literal": "Para o que dirige; com músicas-de-cordas; poema-de-perícia; para Davi.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֥חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "בִּנְגִינֹ֗ת",
+      "lemma": "b/5058",
+      "morfologia": "HR/Ncfpa"
+    },
+    {
+      "palavra": "מַשְׂכִּ֥יל",
+      "lemma": "4905",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִֽד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter לַמְנַצֵּחַ (Piel ptc. de נצח, título musical recorrente nos salmos)?",
+      "escolha": "\"Ao mestre de música\" — glosa funcional do supervisor/líder da execução musical do templo.",
+      "justificativa": "Não é nome próprio (não se aplica a política de transliteração de §9); é rótulo técnico sem termo pt-BR consolidado único. \"Mestre de música\" é compreensível, formal-neutro e evita jargão orquestral moderno.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ao regente",
+          "motivo": "conota orquestra/coro moderno, anacronismo de registro"
+        },
+        {
+          "opcao": "Ao diretor do coro",
+          "motivo": "especifica coral, que o hebraico não codifica necessariamente"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter נְגִינֹת (pl. de נְגִינָה, execução em instrumento de cordas)?",
+      "escolha": "\"com instrumentos de cordas\" (expansão explicitadora; ver palavras_supridas).",
+      "justificativa": "O lexema abrange tanto a ação de tanger cordas quanto os instrumentos em si; \"instrumentos de cordas\" é a leitura mais transparente em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "com melodias",
+          "motivo": "perde a especificidade instrumental do termo"
+        },
+        {
+          "opcao": "com cordas",
+          "motivo": "ambíguo em português sem o núcleo \"instrumentos\""
+        }
+      ]
+    },
+    {
+      "questao": "Como verter מַשְׂכִּיל (rótulo de gênero literário-musical, raiz שכל 'ter perícia/dar entendimento')?",
+      "escolha": "Transliteração \"Masquil\" (maiúscula, como título de gênero).",
+      "justificativa": "TEOLOGIA §1.3: quando léxico não decide sozinho entre glosas interpretativas concorrentes (\"poema\", \"instrução\", \"hino contemplativo\"), preserva-se via transliteração auditável em vez de comprometer-se com uma leitura. Tradição Almeida (base de referência, EDITORIAL §8) também deixa o termo não-traduzido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Poema",
+          "motivo": "perde a nuance de perícia/entendimento da raiz שכל"
+        },
+        {
+          "opcao": "Instrução de Davi",
+          "motivo": "compromete-se com uma leitura interpretativa específica da raiz"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "instrumentos (explicita o referente de נְגִינֹת, lit. 'músicas/execuções de corda')"
+  ],
+  "ambiguidades_preservadas": [
+    "Sentido preciso de מַשְׂכִּיל (gênero musical vs. 'poema de instrução/perícia') preservado via transliteração, não resolvido no texto publicado."
+  ],
+  "justificativa": "Superscrição técnica sem verbos; nenhuma decisão teológica em jogo, apenas terminologia de gênero/performance musical, tratada com transliteração cautelosa onde o léxico não fecha o sentido.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

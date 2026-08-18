@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.74.6",
+    "livro": "Salmos",
+    "capitulo": 74,
+    "versiculo": 6,
+    "pericope": "Ps.74.1-23"
+  },
+  "texto_bv": "E agora despedaçam, de uma só vez, todas as suas obras entalhadas, com machados e martelos.",
+  "traducao_literal": "E agora as suas obras entalhadas, juntas, com machado e com martelos, eles despedaçam.",
+  "termos_originais": [
+    {
+      "palavra": "ועת",
+      "lemma": "c/6258",
+      "morfologia": "HC/D"
+    },
+    {
+      "palavra": "פִּתּוּחֶ֣יהָ",
+      "lemma": "6603",
+      "morfologia": "HNcmpc/Sp3fs"
+    },
+    {
+      "palavra": "יָּ֑חַד",
+      "lemma": "3162 a",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "בְּכַשִּׁ֥יל",
+      "lemma": "b/3781",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְ֝כֵֽילַפֹּ֗ת",
+      "lemma": "c/3597",
+      "morfologia": "HC/Ncfpa"
+    },
+    {
+      "palavra": "יַהֲלֹמֽוּן",
+      "lemma": "1986",
+      "morfologia": "HVqi3mp/Sn"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem objeto+advérbio+instrumento antepostos ao verbo (יַהֲלֹמוּן no final)",
+      "escolha": "Normalizar para ordem natural do português no publicado",
+      "justificativa": "ER-0013: o calque de ordem é preservado na literal; o publicado usa ordem natural sujeito-verbo-objeto-instrumento.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem hebraica (objeto+instrumento antepostos) no publicado",
+          "motivo": "soa artificial em português contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "Sujeito não expresso de יַהֲלֹמוּן (3mp)",
+      "escolha": "Suprir sujeito 'eles' (os adversários, retomando o v.4)",
+      "justificativa": "O hebraico deixa o sujeito implícito pela continuidade do relato; o português exige sujeito expresso ou marcado no verbo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir sujeito",
+          "motivo": "o verbo 3mp exige um agente recuperável; deixar implícito demais prejudica a clareza"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "eles"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continuação da cena de vandalismo: os invasores despedaçam com ferramentas as obras entalhadas do templo.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

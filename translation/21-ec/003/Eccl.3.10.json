@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.3.10",
+    "livro": "Eclesiastes",
+    "capitulo": 3,
+    "versiculo": 10,
+    "pericope": "Eccl.3.1-22"
+  },
+  "texto_bv": "Vi a tarefa que Deus deu aos filhos dos homens, para com ela se ocuparem.",
+  "traducao_literal": "Vi a tarefa que deu Deus aos filhos do homem, para se ocuparem nela.",
+  "termos_originais": [
+    {
+      "palavra": "רָאִ֣יתִי",
+      "lemma": "7200",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הָֽעִנְיָ֗ן",
+      "lemma": "d/6045",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֨ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "נָתַ֧ן",
+      "lemma": "5414",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֱלֹהִ֛ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לִבְנֵ֥י",
+      "lemma": "l/1121 a",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "הָאָדָ֖ם",
+      "lemma": "d/120",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "לַעֲנ֥וֹת",
+      "lemma": "l/6031 a",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "בּֽוֹ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem verbo-sujeito do hebraico (נָתַן אֱלֹהִים, 'deu Deus')",
+      "escolha": "normalizada para sujeito-verbo no publicado ('Deus deu'), preservada na literal",
+      "justificativa": "ER-0011/ER-0013: ordem S-V uniforme no texto publicado; a ordem original é auditável via traducao_literal.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "לַעֲנוֹת בּוֹ — עָנָה aqui é homógrafo distinto de ענה I ('responder'; lemma marcado '6031 a'), com sentido de 'ocupar-se/atarefar-se'",
+      "escolha": "'para com ela se ocuparem'",
+      "justificativa": "O contexto imediato ('a tarefa que Deus deu') pede o sentido ocupacional neutro do homógrafo, não o sentido de 'responder' (raiz distinta).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'responder'",
+          "motivo": "homógrafo errado (ענה I 'responder'), sem apoio no contexto"
+        },
+        {
+          "opcao": "'se afligirem'",
+          "motivo": "matiz aflitivo também atestado do mesmo homógrafo em registro poético, mas o contexto imediato é ocupacional, não aflitivo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "לענות בו pode também carregar o matiz aflitivo ('para com ela se afligirem'), preservado como leitura secundária"
+  ],
+  "justificativa": "Verso de transição do poema para a reflexão em prosa; homógrafo de ענה adjudicado pelo contexto.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

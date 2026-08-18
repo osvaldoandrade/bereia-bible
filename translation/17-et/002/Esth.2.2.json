@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.2.2",
+    "livro": "Ester",
+    "capitulo": 2,
+    "versiculo": 2,
+    "pericope": "Esth.2.1-23"
+  },
+  "texto_bv": "Os jovens do rei que o serviam disseram: \"Busquem-se para o rei moças virgens e bonitas,",
+  "traducao_literal": "E disseram os jovens do rei, seus servos: 'Busquem para o rei moças virgens, boas de aparência.'",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּאמְר֥וּ",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "נַעֲרֵֽי",
+      "lemma": "5288",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "הַמֶּ֖לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "מְשָׁרְתָ֑יו",
+      "lemma": "8334",
+      "morfologia": "HVprmpc/Sp3ms"
+    },
+    {
+      "palavra": "יְבַקְשׁ֥וּ",
+      "lemma": "1245",
+      "morfologia": "HVpj3mp"
+    },
+    {
+      "palavra": "לַמֶּ֛לֶךְ",
+      "lemma": "l/4428",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "נְעָר֥וֹת",
+      "lemma": "5291",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "בְּתוּל֖וֹת",
+      "lemma": "1330",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "טוֹב֥וֹת",
+      "lemma": "2896 a",
+      "morfologia": "HAafpc"
+    },
+    {
+      "palavra": "מַרְאֶֽה",
+      "lemma": "4758",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְבַקְשׁוּ (piel jussivo ativo 3mp, 'que busquem') — manter ativo impessoal ou normalizar para passiva reflexiva?",
+      "escolha": "Publicado normaliza para 'busquem-se' (passiva reflexiva, mais natural em português); literal preserva a voz ativa impessoal.",
+      "justificativa": "ER-0013: a camada literal preserva a estrutura sintática hebraica; o publicado normaliza para fluência sem alterar sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter ativo impessoal também no publicado ('que busquem para o rei')",
+          "motivo": "soa artificial em português contemporâneo sem sujeito claro"
+        }
+      ]
+    },
+    {
+      "questao": "O discurso direto dos cortesãos se estende por Esth.2.2–2.4a sem fórmula לֵאמֹר de abertura repetida — como marcar as aspas por versículo?",
+      "escolha": "Abrir aspas curvas no início da fala (v.2) e fechá-las apenas ao final da proposta, em v.4, quando a narração retoma; vv.2–3 e o início de v.4 formam uma única citação contínua.",
+      "justificativa": "EDITORIAL §5: discurso direto com aspas duplas curvas; quando a fala atravessa fronteira de versículo sem interrupção narrativa, a pontuação de abertura/fechamento acompanha o discurso, não a numeração.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Fechar e reabrir aspas a cada versículo",
+          "motivo": "fragmenta artificialmente uma única fala contínua e não reflete convenção editorial de discurso direto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "נַעֲרֵי־הַמֶּלֶךְ מְשָׁרְתָיו é aposto explicativo ('os moços do rei, os que o serviam' = cortesãos/pajens); טוֹבוֹת מַרְאֶה glosado 'bonitas' por naturalidade, preservando 'boas de aparência' na literal.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

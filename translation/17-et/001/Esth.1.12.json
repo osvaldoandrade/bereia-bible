@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.1.12",
+    "livro": "Ester",
+    "capitulo": 1,
+    "versiculo": 12,
+    "pericope": "Esth.1.1-22"
+  },
+  "texto_bv": "Mas a rainha Vasti recusou vir, conforme a ordem que o rei tinha enviado por meio dos eunucos. Então o rei ficou muito irado, e a sua ira ardeu nele.",
+  "traducao_literal": "E recusou a rainha Vasti vir por ordem do rei, que [veio] pela mão dos eunucos; e irou-se o rei muito, e a sua ira ardeu nele.",
+  "termos_originais": [
+    {
+      "palavra": "וַתְּמָאֵ֞ן",
+      "lemma": "c/3985",
+      "morfologia": "HC/Vpw3fs"
+    },
+    {
+      "palavra": "הַמַּלְכָּ֣ה",
+      "lemma": "d/4436",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "וַשְׁתִּ֗י",
+      "lemma": "2060",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לָבוֹא֙",
+      "lemma": "l/935",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "בִּדְבַ֣ר",
+      "lemma": "b/1697",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "הַמֶּ֔לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֖ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בְּיַ֣ד",
+      "lemma": "b/3027",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "הַסָּרִיסִ֑ים",
+      "lemma": "d/5631",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "וַיִּקְצֹ֤ף",
+      "lemma": "c/7107",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "הַמֶּ֨לֶךְ֙",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "מְאֹ֔ד",
+      "lemma": "3966",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "וַחֲמָת֖וֹ",
+      "lemma": "c/2534",
+      "morfologia": "HC/Ncfsc/Sp3ms"
+    },
+    {
+      "palavra": "בָּעֲרָ֥ה",
+      "lemma": "1197 a",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "בֽוֹ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem verbo-sujeito do wayyiqtol וַתְּמָאֵן",
+      "escolha": "ordem sujeito-verbo no publicado ('a rainha Vasti recusou')",
+      "justificativa": "ER-0011: ordem S-V uniforme no texto publicado; a literal preserva a ordem V-S original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "recusou a rainha Vasti",
+          "motivo": "V-S soa arcaizante fora da literal, contra ER-0011"
+        }
+      ]
+    },
+    {
+      "questao": "Relativa elíptica אֲשֶׁר בְּיַד הַסָּרִיסִים",
+      "escolha": "explicitar o verbo: 'que o rei tinha enviado por meio dos eunucos'",
+      "justificativa": "a relativa hebraica é nominal ('que [veio] pela mão dos eunucos'); o verbo é suprido para clareza sintática em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "que veio pela mão dos eunucos",
+          "motivo": "'veio' é vago sobre o agente real da ordem (o rei), preferido explicitar o verbo de envio"
+        }
+      ]
+    },
+    {
+      "questao": "Idiomatismo antropomórfico וַחֲמָתוֹ בָּעֲרָה בוֹ ('sua ira ardeu nele')",
+      "escolha": "manter literal e no publicado",
+      "justificativa": "TEOLOGIA §2 proíbe suavizar expressões vívidas do original; a imagem do fogo da ira é preservada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ficou muito irritado (suavizando a imagem do fogo)",
+          "motivo": "apagaria a metáfora vívida do original, contra TEOLOGIA §2"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "tinha enviado (verbo suprido na relativa elíptica)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "'Mas' abre o verso marcando a contraposição discursiva ao pedido do rei em v.11, opção de conector permitida por ER-0013.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

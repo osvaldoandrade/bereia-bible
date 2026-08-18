@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.129.3",
+    "livro": "Salmos",
+    "capitulo": 129,
+    "versiculo": 3,
+    "pericope": "Ps.129.1-8"
+  },
+  "texto_bv": "Sobre as minhas costas araram os lavradores; prolongaram os seus sulcos.",
+  "traducao_literal": "Sobre as minhas costas araram os que aram; alongaram os seus sulcos.",
+  "termos_originais": [
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "גַּ֭בִּי",
+      "lemma": "1354",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "חָרְשׁ֣וּ",
+      "lemma": "2790 a",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "חֹרְשִׁ֑ים",
+      "lemma": "2790 a",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "הֶ֝אֱרִ֗יכוּ",
+      "lemma": "748",
+      "morfologia": "HVhp3cp"
+    },
+    {
+      "palavra": "למענותם",
+      "lemma": "l/4618",
+      "morfologia": "HR/Ncfpc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חָרְשׁוּ חֹרְשִׁים — verbo + particípio cognato (figura etimológica)",
+      "escolha": "Normalizado para 'araram os lavradores' no texto publicado; figura preservada em traducao_literal ('araram os que aram')",
+      "justificativa": "Doutrina do calque ER-0013: a repetição de raiz soa artificial em português corrente e é normalizada no publicado, mas preservada integralmente na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'lavraram lavradores' no texto publicado",
+          "motivo": "Calque direto soa gramaticalmente estranho e prejudica a leitura em voz alta (EDITORIAL §1.3)."
+        }
+      ]
+    },
+    {
+      "questao": "למענותם — grafia consonantal sem pontuação plena no packet cego (H4618, מַעֲנָה 'sulco/rego', + sufixo 3mp)",
+      "escolha": "'os seus sulcos'",
+      "justificativa": "Lemma do packet resolve a forma como construto plural de מַעֲנָה + sufixo; tradução segue a leitura tradicional, sem acesso a aparato explícito no packet cego para adjudicar variante.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Grafia consonantal peculiar de למענותם no texto-fonte (sem pontuação plena registrada no packet) não constitui aparato explícito fornecido; leitura segue o lemma indicado (H4618) sem adjudicação de variante por ausência de campo variantes_fonte no packet."
+  ],
+  "justificativa": "Imagem agrícola de tortura: as costas do sujeito como campo arado; figura etimológica hebraica normalizada no texto publicado, preservada na literal.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

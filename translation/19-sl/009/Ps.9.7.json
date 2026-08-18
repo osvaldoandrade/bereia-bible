@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.9.7",
+    "livro": "Salmos",
+    "capitulo": 9,
+    "versiculo": 7,
+    "pericope": "Ps.9.1-21"
+  },
+  "texto_bv": "O inimigo chegou ao fim, em ruínas perpétuas; desarraigaste cidades; até a lembrança deles pereceu.",
+  "traducao_literal": "O inimigo, acabaram-se, ruínas para sempre; e cidades desarraigaste; pereceu a memória deles, eles mesmos.",
+  "termos_originais": [
+    {
+      "palavra": "הָֽאוֹיֵ֨ב",
+      "lemma": "d/341",
+      "morfologia": "HTd/Vqrmsa"
+    },
+    {
+      "palavra": "תַּ֥מּוּ",
+      "lemma": "8552",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "חֳרָב֗וֹת",
+      "lemma": "2723",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "לָ֫נֶ֥צַח",
+      "lemma": "l/5331",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְעָרִ֥ים",
+      "lemma": "c/5892 b",
+      "morfologia": "HC/Ncfpa"
+    },
+    {
+      "palavra": "נָתַ֑שְׁתָּ",
+      "lemma": "5428",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "אָבַ֖ד",
+      "lemma": "6",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "זִכְרָ֣ם",
+      "lemma": "2143",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "הֵֽמָּה",
+      "lemma": "1992",
+      "morfologia": "HPp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Estrutura sintática de הָאוֹיֵב תַּמּוּ חֳרָבוֹת לָנֶצַח (sujeito singular + verbo no plural + substantivo)",
+      "escolha": "Ler הָאוֹיֵב como coletivo (retomado pelo plural תַּמּוּ) e חֳרָבוֹת לָנֶצַח como predicado de estado: 'chegou ao fim, em ruínas perpétuas'",
+      "justificativa": "Verso reconhecidamente difícil sintaticamente; a leitura coletiva evita emendar o texto consonantal pinado e produz sentido coerente com a destruição definitiva do inimigo descrita no contexto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Emendar הָאוֹיֵב para plural",
+          "motivo": "sem apoio na fonte pinada (OSHB); o packet não traz variante para este trecho"
+        },
+        {
+          "opcao": "Harmonizar com tradições que leem 'as espadas do inimigo' (LXX/Targum)",
+          "motivo": "introduziria leitura de tradição textual não presente no packet pinado (OSHB)"
+        }
+      ]
+    },
+    {
+      "questao": "זִכְרָם הֵמָּה — pronome enfático pós-posto ('eles mesmos')",
+      "escolha": "Normalizar no publicado como intensificador: 'até a... deles'",
+      "justificativa": "ER-0013 (doutrina do calque): o pronome redobrado é preservado como calque estrutural na literal; no publicado é normalizado para naturalidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a memória deles, eles mesmos' no publicado",
+          "motivo": "soa artificial e redundante em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Estrutura sintática de 9:7a é debatida entre comentaristas (sujeito de תַּמּוּ); mantivemos leitura coletiva sem alterar o texto consonantal pinado."
+  ],
+  "justificativa": "Verso de maior dificuldade textual do capítulo; leitura conservadora sem emenda, sentido geral (fim definitivo do inimigo) preservado com confiança reduzida.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

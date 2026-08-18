@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.23.16",
+    "livro": "Jó",
+    "capitulo": 23,
+    "versiculo": 16,
+    "pericope": "Job.23.1-17"
+  },
+  "texto_bv": "Deus fez o meu coração desfalecer, e o Todo-Poderoso me apavorou.",
+  "traducao_literal": "E Deus amoleceu o meu coração, e Shaday me apavorou.",
+  "termos_originais": [
+    {
+      "palavra": "וְ֭אֵל",
+      "lemma": "c/410",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "הֵרַ֣ךְ",
+      "lemma": "7401",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "לִבִּ֑י",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְ֝שַׁדַּ֗י",
+      "lemma": "c/7706",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "הִבְהִילָֽנִי",
+      "lemma": "926",
+      "morfologia": "HVhp3ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שַׁדַּי isolado (sem אֵל prefixado): que forma usar na BV?",
+      "escolha": "'Todo-Poderoso'",
+      "justificativa": "NOMES-DIVINOS.md fixa 'Deus Todo-Poderoso' para o composto אֵל שַׁדַּי (H410+H7706); quando שַׁדַּי ocorre isolado, a BV usa a metade distintiva do composto já consolidada em português ('Todo-Poderoso'), preservando o paralelismo poético com 'Deus' (אֵל) na primeira metade do verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Shaday' transliterado",
+          "motivo": "quebra a convenção consolidada em português; EDITORIAL §9 reserva transliteração a nomes sem tradição consolidada, o que não é o caso"
+        },
+        {
+          "opcao": "'Deus' (nivelando com אֵל)",
+          "motivo": "apaga o paralelismo poético entre os dois nomes distintos do verso e perde informação lexical auditável"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Paralelismo poético entre 'Deus' (אֵל) e 'Todo-Poderoso' (שַׁדַּי); nome divino não coberto explicitamente como entrada isolada em NOMES-DIVINOS.md, resolvido por extensão da convenção do composto.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

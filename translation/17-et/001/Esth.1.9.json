@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.1.9",
+    "livro": "Ester",
+    "capitulo": 1,
+    "versiculo": 9,
+    "pericope": "Esth.1.1-22"
+  },
+  "texto_bv": "Também a rainha Vasti deu um banquete para as mulheres no palácio real do rei Assuero.",
+  "traducao_literal": "Também Vasti, a rainha, fez banquete de mulheres, na casa real que [pertencia] ao rei Assuero.",
+  "termos_originais": [
+    {
+      "palavra": "גַּ֚ם",
+      "lemma": "1571",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "וַשְׁתִּ֣י",
+      "lemma": "2060",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַמַּלְכָּ֔ה",
+      "lemma": "d/4436",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "עָשְׂתָ֖ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "מִשְׁתֵּ֣ה",
+      "lemma": "4960",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "נָשִׁ֑ים",
+      "lemma": "802",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "בֵּ֚ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַמַּלְכ֔וּת",
+      "lemma": "d/4438",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֖ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "לַמֶּ֥לֶךְ",
+      "lemma": "l/4428",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "אֲחַשְׁוֵרֽוֹשׁ",
+      "lemma": "325",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Aposição pós-nome 'Vasti, a rainha'",
+      "escolha": "normalizar ordem natural do português: 'a rainha Vasti'",
+      "justificativa": "ER-0013 permite normalizar a ordem de aposição quando soa artificial; a literal preserva a ordem hebraica nome+título.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Vasti, a rainha",
+          "motivo": "ordem hebraica soa artificial repetida a cada menção em português corrido"
+        }
+      ]
+    },
+    {
+      "questao": "Relativa אֲשֶׁר לַמֶּלֶךְ ('que pertencia ao rei')",
+      "escolha": "normalizar como genitivo 'do rei Assuero'",
+      "justificativa": "forma mais natural e compacta em português corrido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "que pertencia ao rei Assuero",
+          "motivo": "relativa explícita é redundante quando o genitivo simples já comunica a posse"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Marcador de seção ס (setumah) ao final do hebraico não é vertido no texto.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

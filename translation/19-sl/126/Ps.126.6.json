@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.126.6",
+    "livro": "Salmos",
+    "capitulo": 126,
+    "versiculo": 6,
+    "pericope": "Ps.126.1-6"
+  },
+  "texto_bv": "Aquele que sai chorando, levando a bolsa de semente, decerto voltará com júbilo, trazendo os seus feixes.",
+  "traducao_literal": "Indo, irá, e chorando, levando a bolsa da semente; vindo, virá, com júbilo, levando os seus feixes.",
+  "termos_originais": [
+    {
+      "palavra": "הָ֘ל֤וֹךְ",
+      "lemma": "1980",
+      "morfologia": "HVqa"
+    },
+    {
+      "palavra": "יֵלֵ֨ךְ",
+      "lemma": "3212",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "וּבָכֹה֮",
+      "lemma": "c/1058",
+      "morfologia": "HC/Vqa"
+    },
+    {
+      "palavra": "נֹשֵׂ֪א",
+      "lemma": "5375",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "מֶֽשֶׁךְ",
+      "lemma": "4901",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַ֫זָּ֥רַע",
+      "lemma": "d/2233",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "בֹּֽ֬א",
+      "lemma": "935",
+      "morfologia": "HVqa"
+    },
+    {
+      "palavra": "יָב֥וֹא",
+      "lemma": "935",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בְרִנָּ֑ה",
+      "lemma": "b/7440",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "נֹ֝שֵׂ֗א",
+      "lemma": "5375",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "אֲלֻמֹּתָֽיו",
+      "lemma": "485",
+      "morfologia": "HNcfpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Duplicação por infinitivo absoluto (הָלוֹךְ יֵלֵךְ; בֹּא יָבוֹא), marca de ênfase",
+      "escolha": "publicado normaliza com advérbio 'decerto' (só na segunda ocorrência, evitando redundância); literal preserva a duplicação integral em ambas ('indo, irá' / 'vindo, virá')",
+      "justificativa": "Doutrina do calque ER-0013: duplicação estrutural do infinitivo absoluto soa artificial em português corrido; o advérbio de ênfase carrega o valor semântico sem repetir o verbo duas vezes.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "duplicar literalmente também no publicado ('indo vai... vindo virá')",
+          "motivo": "soa artificial e arcaizante em português contemporâneo, contra EDITORIAL §1"
+        }
+      ]
+    },
+    {
+      "questao": "מֶשֶׁךְ־הַזָּרַע — מֶשֶׁךְ (H4901) é palavra rara, sentido incerto ('trilha/porção que se arrasta ou carrega')",
+      "escolha": "'a bolsa de semente' (valor lexical de algo carregado/arrastado)",
+      "justificativa": "HALOT/BDB relacionam מֶשֶׁךְ a משך ('puxar, arrastar'), sugerindo recipiente ou porção transportada; optou-se por não adicionar finalidade não lexicalizada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'semente preciosa'",
+          "motivo": "tradição de tradução antiga sem apoio lexical direto no lema hebraico"
+        },
+        {
+          "opcao": "'a semente para semear'",
+          "motivo": "acrescenta finalidade interpretativa ('para semear') não presente no texto-fonte; expansão interpretativa vedada por TEOLOGIA §2"
+        }
+      ]
+    },
+    {
+      "questao": "Número gramatical: 126:5 plural (הַזֹּרְעִים) vs. 126:6 singular genérico (נֹשֵׂא, יֵלֵךְ)",
+      "escolha": "preservar a variação (plural em 126:5, singular em 126:6), sem harmonizar",
+      "justificativa": "TEOLOGIA §2 veda harmonização artificial; a alternância plural/singular genérico é estilística e está no próprio hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uniformizar para plural em ambos os versos",
+          "motivo": "apagaria uma variação presente no texto-fonte sem justificativa textual"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "decerto"
+  ],
+  "ambiguidades_preservadas": [
+    "Sentido exato de מֶשֶׁךְ ('bolsa/trilha/porção de semente') permanece lexicalmente incerto; a glosa adotada é a mais conservadora sem apoio em tradição interpretativa não lexical."
+  ],
+  "justificativa": "Versículo mais complexo do capítulo: duplo infinitivo absoluto de ênfase e hapax/palavra rara מֶשֶׁךְ; normalização documentada, literal preserva estrutura integral.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

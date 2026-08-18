@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Amos.1.14",
+    "livro": "Amós",
+    "capitulo": 1,
+    "versiculo": 14,
+    "pericope": "Amos.1.1-15"
+  },
+  "texto_bv": "Acenderei fogo no muro de Rabá, e ele consumirá os seus palácios, com brado de guerra no dia da batalha, com tempestade no dia do turbilhão,",
+  "traducao_literal": "E acenderei fogo no muro de Rabá, e consumirá os seus palácios, com brado em dia de guerra, com tempestade em dia de turbilhão",
+  "termos_originais": [
+    {
+      "palavra": "וְהִצַּ֤תִּי",
+      "lemma": "c/3341",
+      "morfologia": "HC/Vhq1cs"
+    },
+    {
+      "palavra": "אֵשׁ֙",
+      "lemma": "784",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "בְּחוֹמַ֣ת",
+      "lemma": "b/2346",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "רַבָּ֔ה",
+      "lemma": "7237",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאָכְלָ֖ה",
+      "lemma": "c/398",
+      "morfologia": "HC/Vqq3fs"
+    },
+    {
+      "palavra": "אַרְמְנוֹתֶ֑יהָ",
+      "lemma": "759",
+      "morfologia": "HNcmpc/Sp3fs"
+    },
+    {
+      "palavra": "בִּתְרוּעָה֙",
+      "lemma": "b/8643",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "בְּי֣וֹם",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "מִלְחָמָ֔ה",
+      "lemma": "4421",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בְּסַ֖עַר",
+      "lemma": "b/5591 a",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "בְּי֥וֹם",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "סוּפָֽה",
+      "lemma": "5492 a",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הִצַּתִּי (יצת, hifil) vs שִׁלַּחְתִּי (שלח) das fórmulas anteriores — verbo diferente para 'atear fogo'",
+      "escolha": "acenderei (distinto de 'mandarei' usado em v.4,7,10,12)",
+      "justificativa": "Somente aqui o verbo é יצת ('acender, atear'), não שלח ('enviar'); a BV marca essa variação lexical do hebraico em vez de nivelar todas as ocorrências para 'mandarei fogo'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "mandarei fogo (uniformizando com os demais oráculos)",
+          "motivo": "apagaria a variação lexical intencional do hebraico neste último oráculo do capítulo"
+        }
+      ]
+    },
+    {
+      "questao": "בִּתְרוּעָה בְּיוֹם מִלְחָמָה בְּסַעַר בְּיוֹם סוּפָה — par poético intensificador",
+      "escolha": "com brado de guerra no dia da batalha, com tempestade no dia do turbilhão",
+      "justificativa": "תְּרוּעָה é grito/alarido de guerra; סוּפָה e סַעַר formam par sinonímico de tempestade violenta, intensificando a imagem do ataque final contra Amom.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Verso sem sof pasuq (׃) no packet fonte, continuando sintaticamente no v.15",
+      "escolha": "manter o texto_bv do v.14 sem ponto final (vírgula), concluindo a oração no v.15",
+      "justificativa": "O hebraico do packet não traz marca de final de versículo ao fim do v.14, e a oração só se completa com וְהָלַךְ מַלְכָּם no v.15; a BV preserva essa continuidade sintática entre os dois versículos, sem inventar um ponto final artificial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fechar o v.14 com ponto final independente",
+          "motivo": "quebraria artificialmente uma oração única que o texto-fonte apresenta como contínua até o v.15"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula do fogo com variação lexical (יצת) e imagem de batalha final, introduzindo o desfecho do oráculo que se completa no v.15.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

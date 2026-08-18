@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.15.11",
+    "livro": "Jeremias",
+    "capitulo": 15,
+    "versiculo": 11,
+    "pericope": "Jer.15.1-21"
+  },
+  "texto_bv": "O SENHOR disse: “Certamente eu o libertei para o bem; certamente fiz o inimigo suplicar a você em tempo de calamidade e em tempo de angústia.”",
+  "traducao_literal": "Disse SENHOR: Se não libertei você para o bem; se não fiz o inimigo suplicar a você em tempo de mal e em tempo de angústia.",
+  "termos_originais": [
+    {
+      "palavra": "אָמַ֣ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לֹ֥א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "שרותך",
+      "lemma": "8293",
+      "morfologia": "HVqp1cs/Sp2ms"
+    },
+    {
+      "palavra": "לְט֑וֹב",
+      "lemma": "l/2896 b",
+      "morfologia": "HR/Aamsa"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ל֣וֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "הִפְגַּ֣עְתִּֽי",
+      "lemma": "6293",
+      "morfologia": "HVhp1cs"
+    },
+    {
+      "palavra": "בְךָ֗",
+      "lemma": "b",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "בְּעֵ֥ת",
+      "lemma": "b/6256",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "רָעָ֛ה",
+      "lemma": "7451 a",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "וּבְעֵ֥ת",
+      "lemma": "c/b/6256",
+      "morfologia": "HC/R/Ncbsc"
+    },
+    {
+      "palavra": "צָרָ֖ה",
+      "lemma": "6869 b",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הָאֹיֵֽב",
+      "lemma": "d/341",
+      "morfologia": "HTd/Vqrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Grafia consonantal \"שרותך\" sem pontuação no TM",
+      "escolha": "Leitura pelo lema/morfologia do packet (H8293, raiz \"libertar/soltar\"; Qal perfeito 1cs + sufixo 2ms)",
+      "justificativa": "Morfologia do packet (HVqp1cs/Sp2ms) exige verbo \"eu ... a você\", compatível com a raiz de libertação, não com um substantivo como \"remanescente\".",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ligar a שְׁאֵרִית (\"remanescente\"), lido em algumas versões antigas",
+          "motivo": "incompatível com a morfologia verbal fornecida pelo packet (verbo, não substantivo)"
+        }
+      ]
+    },
+    {
+      "questao": "אִם לֹא ... אִם לוֹא — fórmula de juramento elíptico (negação retórica = afirmação enfática)",
+      "escolha": "\"certamente\" no publicado; \"se não\" preservado na literal",
+      "justificativa": "ER-0013: a fórmula de juramento é calque estrutural preservado na literal; o publicado normaliza para a força assertiva equivalente em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"se não\" também no publicado",
+          "motivo": "produz oração condicional truncada e incompreensível sem a apódose implícita do juramento hebraico"
+        }
+      ]
+    },
+    {
+      "questao": "הִפְגַּעְתִּי בְךָ֗ ... אֶת־הָאֹיֵב — papéis sintáticos de sujeito/objeto causados",
+      "escolha": "\"fiz o inimigo suplicar a você\" (o inimigo é o sujeito lógico do encontro causado pelo hifil)",
+      "justificativa": "אֶת marca \"o inimigo\" como objeto direto do hifil causativo; בְּךָ marca o alvo do encontro/súplica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"intercedi por você diante do inimigo\"",
+          "motivo": "inverte os papéis sintáticos marcados pelo אֶת e בְּ no texto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הפגעתי בך את האויב admite leitura alternativa em que Deus intercede junto ao inimigo em favor de Jeremias; o packet não resolve univocamente entre as duas leituras"
+  ],
+  "justificativa": "Resposta divina de reasseguramento a Jeremias após o lamento do v.10, com dupla afirmação jurada de proteção passada.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

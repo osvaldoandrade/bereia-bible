@@ -51,7 +51,7 @@ FONTES = {
     "manifest_sha256": file_sha256(MANIFEST_PATH),
     "prompts_versao": "1.1.0", "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": os.environ.get("BV_MODEL", "claude-fable-5"),
+    "modelo": os.environ.get("BV_MODEL", "claude-sonnet-5"),
 }
 
 

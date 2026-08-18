@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.54.6",
+    "livro": "Salmos",
+    "capitulo": 54,
+    "versiculo": 6,
+    "pericope": "Ps.54.1-9"
+  },
+  "texto_bv": "Eis que Deus é o meu ajudador; o Senhor é quem sustenta a minha vida.",
+  "traducao_literal": "Eis Deus ajudador para-mim; Senhor entre-sustentadores-de minha-vida.",
+  "termos_originais": [
+    {
+      "palavra": "הִנֵּ֣ה",
+      "lemma": "2009",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "אֱ֭לֹהִים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "עֹזֵ֣ר",
+      "lemma": "5826",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "לִ֑י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "אֲ֝דֹנָ֗י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "בְּֽסֹמְכֵ֥י",
+      "lemma": "b/5564",
+      "morfologia": "HR/Vqrmpc"
+    },
+    {
+      "palavra": "נַפְשִֽׁי",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter o particípio plural construto בְּסֹמְכֵי ('entre os que sustentam') referido a אֲדֹנָי (singular)?",
+      "escolha": "\"é quem sustenta a minha vida\" — plural tratado como plural intensivo/genérico do particípio, com referente único (o Senhor).",
+      "justificativa": "Plural de particípio substantivado com referente singular é padrão estilístico hebraico (cf. אֱלֹהִים); a leitura mais natural em português evita implicar um grupo de sustentadores ao lado do Senhor.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "está entre os que sustentam a minha vida",
+          "motivo": "leitura plural literal (grupo de sustentadores humanos/divinos), preservada apenas como ambiguidade, não como texto publicado"
+        }
+      ]
+    },
+    {
+      "questao": "אֲדֹנָי — como verter?",
+      "escolha": "\"o Senhor\" (H136), conforme NOMES-DIVINOS v1.0.0/ER-0002.",
+      "justificativa": "Política fixa de nomes divinos; sem desvio a registrar.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula elíptica, 1º hemistíquio)",
+    "é / quem (cópula e pronome relativo elípticos, 2º hemistíquio, tornando explícita a predicação de בְּסֹמְכֵי נַפְשִׁי)"
+  ],
+  "ambiguidades_preservadas": [
+    "Particípio plural סֹמְכֵי pode, em leitura estritamente literal, sugerir 'entre os que sustentam' (grupo), e não apenas 'o Senhor sustenta' (singular intensivo) — ver decisão registrada."
+  ],
+  "justificativa": "Duas orações nominais elípticas (sem cópula expressa no hebraico); 'é' suprido em ambas para gramaticalidade do português (ER-0006, sem itálico).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

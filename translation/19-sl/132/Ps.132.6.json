@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.132.6",
+    "livro": "Salmos",
+    "capitulo": 132,
+    "versiculo": 6,
+    "pericope": "Ps.132.1-18"
+  },
+  "texto_bv": "Eis que ouvimos falar dela em Efrata; encontramo-la nos campos de Jaar.",
+  "traducao_literal": "Eis, ouvimo-la em Efrata, achamo-la nos campos de Jaar.",
+  "termos_originais": [
+    {
+      "palavra": "הִנֵּֽה",
+      "lemma": "2009",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "שְׁמַֽעֲנ֥וּהָ",
+      "lemma": "8085",
+      "morfologia": "HVqp1cp/Sp3fs"
+    },
+    {
+      "palavra": "בְאֶפְרָ֑תָה",
+      "lemma": "b/672",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מְ֝צָאנ֗וּהָ",
+      "lemma": "4672",
+      "morfologia": "HVqp1cp/Sp3fs"
+    },
+    {
+      "palavra": "בִּשְׂדֵי",
+      "lemma": "b/7704 b",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "יָֽעַר",
+      "lemma": "3293 a",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "referente do sufixo feminino ־הָ ('ela/-a') em שְׁמַעֲנוּהָ/מְצָאנוּהָ, sem antecedente explícito no verso",
+      "escolha": "referência prolética à arca (nomeada apenas em v.8, אֲרוֹן)",
+      "justificativa": "Leitura tradicional entende o sufixo feminino como referência à arca, cujo achado em Quiriate-Jearim é narrado em 1Sm 7:1-2/1Cr 13:5-6; 'arca' em português é gramaticalmente feminina, permitindo manter o pronome embora אֲרוֹן no hebraico seja masculino.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir de forma neutra ('ouvimos falar disso/aquilo')",
+          "motivo": "perde a concordância de gênero do hebraico, que aponta para um antecedente feminino específico ainda não nomeado no poema"
+        }
+      ]
+    },
+    {
+      "questao": "יָעַר – nome próprio (Jaar, forma abreviada de Quiriate-Jearim) vs. substantivo comum 'floresta/bosque'",
+      "escolha": "Jaar (nome próprio, conforme morfologia HNp do packet)",
+      "justificativa": "O packet marca יָעַר com morph HNp; 'campos de Jaar' é forma poética abreviada de קִרְיַת יְעָרִים, local onde a arca ficou depositada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'campos do bosque' (tradução comum do lexema)",
+          "motivo": "contradiz a marcação morfológica de nome próprio no packet pinado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "falar (em 'ouvimos falar dela', completando שמע com o complemento agramatical em português sem esse verbo)"
+  ],
+  "ambiguidades_preservadas": [
+    "antecedente do sufixo feminino ־הָ em 6a-b: tradicionalmente a arca, mas não nomeado explicitamente até v.8"
+  ],
+  "justificativa": "Retomada em primeira pessoa do plural (coro/assembleia): relato da notícia/achado da arca em Efrata/Quiriate-Jearim, com pronome feminino cujo antecedente só se explicita em v.8.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

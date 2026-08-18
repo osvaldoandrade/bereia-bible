@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.4.17",
+    "livro": "Eclesiastes",
+    "capitulo": 4,
+    "versiculo": 17,
+    "pericope": "Eccl.4.1-17"
+  },
+  "texto_bv": "Guarda os teus pés quando fores à casa de Deus; achegar-te para ouvir vale mais do que os tolos oferecerem sacrifício, pois eles não sabem que fazem mal.",
+  "traducao_literal": "Guarda os teus pés quando andares à casa de Deus; e perto para ouvir mais do que dar dos tolos sacrifício; porque não sabem fazer mal.",
+  "termos_originais": [
+    {
+      "palavra": "שְׁמֹ֣ר",
+      "lemma": "8104",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "רגליך",
+      "lemma": "7272",
+      "morfologia": "HNcfdc/Sp2ms"
+    },
+    {
+      "palavra": "כַּאֲשֶׁ֤ר",
+      "lemma": "k/834 d",
+      "morfologia": "HR/Tr"
+    },
+    {
+      "palavra": "תֵּלֵךְ֙",
+      "lemma": "3212",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בֵּ֣ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הָאֱלֹהִ֔ים",
+      "lemma": "d/430",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "וְקָר֣וֹב",
+      "lemma": "c/7138",
+      "morfologia": "HC/Vqa"
+    },
+    {
+      "palavra": "לִשְׁמֹ֔עַ",
+      "lemma": "l/8085",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "מִתֵּ֥ת",
+      "lemma": "m/5414",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "הַכְּסִילִ֖ים",
+      "lemma": "d/3684",
+      "morfologia": "HTd/Aampa"
+    },
+    {
+      "palavra": "זָ֑בַח",
+      "lemma": "2077",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֵינָ֥ם",
+      "lemma": "369",
+      "morfologia": "HTn/Sp3mp"
+    },
+    {
+      "palavra": "יוֹדְעִ֖ים",
+      "lemma": "3045",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "לַעֲשׂ֥וֹת",
+      "lemma": "l/6213 a",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "רָֽע",
+      "lemma": "7451 a",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "רגליך aparece sem vocalização no texto-fonte (Ketiv), e a morfologia pinada do pacote (HNcfdc/Sp2ms) analisa a forma como dual/plural construto ('os teus pés'); a tradição masorética (Qere) lê singular רַגְלְךָ ('o teu pé').",
+      "escolha": "Seguir a leitura plural ('os teus pés'), conforme a análise morfológica fixada na fonte OSHB pinada para este pacote.",
+      "justificativa": "A BV é auditável ao texto-fonte pinado; a morfologia anexada ao pacote determina a leitura dual/plural, e o desvio para o Qere tradicional exigiria adjudicação separada não fornecida aqui.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o teu pé' (Qere tradicional, singular)",
+          "motivo": "leitura consolidada na tradição masorética, mas preterida por seguir estritamente a forma consonantal e a morfologia pinada da fonte OSHB para este pacote"
+        }
+      ]
+    },
+    {
+      "questao": "'וְקָרוֹב לִשְׁמֹעַ מִתֵּת הַכְּסִילִים זָבַח' é elíptica: falta o verbo comparativo ('é melhor') que a sintaxe sapiencial normalmente omite.",
+      "escolha": "Suprir 'vale mais' para tornar explícita a comparação implícita em מִן.",
+      "justificativa": "EDITORIAL §4: elipse suprida apenas porque o português fica agramatical sem o verbo comparativo.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "vale mais (verbo comparativo elíptico entre 'achegar-te para ouvir' e 'do que os tolos oferecerem sacrifício')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso de transição para o tema do culto (abre a reflexão sobre votos/palavras do capítulo seguinte); adjudicação Ketiv/plural documentada por seguir a morfologia pinada da fonte.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

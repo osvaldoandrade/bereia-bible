@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.19.11",
+    "livro": "Salmos",
+    "capitulo": 19,
+    "versiculo": 11,
+    "pericope": "Ps.19.1-15"
+  },
+  "texto_bv": "São mais desejáveis do que o ouro, do que muito ouro fino; mais doces do que o mel, e o que goteja dos favos.",
+  "traducao_literal": "Os mais desejados, mais que o ouro e mais que muito ouro puro; e mais doces que o mel e o licor dos favos.",
+  "termos_originais": [
+    {
+      "palavra": "הַֽנֶּחֱמָדִ֗ים",
+      "lemma": "d/2530 a",
+      "morfologia": "HTd/VNrmpa"
+    },
+    {
+      "palavra": "מִ֭זָּהָב",
+      "lemma": "m/2091",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וּמִפַּ֣ז",
+      "lemma": "c/m/6337",
+      "morfologia": "HC/R/Ncmsa"
+    },
+    {
+      "palavra": "רָ֑ב",
+      "lemma": "7227 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וּמְתוּקִ֥ים",
+      "lemma": "c/4966",
+      "morfologia": "HC/Aampa"
+    },
+    {
+      "palavra": "מִ֝דְּבַ֗שׁ",
+      "lemma": "m/1706",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְנֹ֣פֶת",
+      "lemma": "c/5317",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "צוּפִֽים",
+      "lemma": "6688",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "O verso é sintaticamente uma continuação do predicado de 19:10 (מִשְׁפְּטֵי־יְהוָה), sem sujeito próprio",
+      "escolha": "Suprida a cópula 'São' no início do publicado, para que o registro do versículo (unidade OSIS isolada) seja lido de forma independente sem perder a referência aos 'juízos do SENHOR' de 19:10.",
+      "justificativa": "A divisão em versículos do sistema OSIS separa o que no hebraico é uma única sentença contínua (19:10-11); EDITORIAL §4 permite suprir o mínimo exigido pela gramática — aqui, o verbo elidido é reconstituído para viabilizar a leitura por versículo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter fragmento nominal sem verbo ('Mais desejáveis que o ouro...')",
+          "motivo": "gramatical em português como apposição, mas dificulta a leitura autônoma do registro por versículo exigida pelo formato de dados"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "São (verbo retomando o sujeito מִשְׁפְּטֵי־יְהוָה de 19:10, elidido no hebraico por continuidade sintática entre os dois versículos)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "נֹפֶת צוּפִים ('o que goteja dos favos', mel puro/virgem) vertido descritivamente por não haver termo único equivalente em português corrente.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

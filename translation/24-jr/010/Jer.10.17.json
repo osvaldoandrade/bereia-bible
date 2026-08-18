@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.10.17",
+    "livro": "Jeremias",
+    "capitulo": 10,
+    "versiculo": 17,
+    "pericope": "Jer.10.1-25"
+  },
+  "texto_bv": "Recolhe da terra a tua bagagem, ó moradora sitiada.",
+  "traducao_literal": "Recolhe da terra a tua trouxa, moradora, no cerco.",
+  "termos_originais": [
+    {
+      "palavra": "אִסְפִּ֥י",
+      "lemma": "622",
+      "morfologia": "HVqv2fs"
+    },
+    {
+      "palavra": "מֵאֶ֖רֶץ",
+      "lemma": "m/776",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "כִּנְעָתֵ֑ךְ",
+      "lemma": "3666",
+      "morfologia": "HNcfsc/Sp2fs"
+    },
+    {
+      "palavra": "ישבתי",
+      "lemma": "3427",
+      "morfologia": "HVqrfsa"
+    },
+    {
+      "palavra": "בַּמָּצֽוֹר",
+      "lemma": "b/4692",
+      "morfologia": "HRd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ketiv ישבתי (grafado como 1cs 'eu habitei') vs. morfologia pinada como particípio feminino singular ('a que habita')",
+      "escolha": "Seguir a morfologia do packet pinado (particípio fs), traduzindo \"moradora\" (vocativo, referindo-se a Jerusalém/Sião personificada), não 1ª pessoa.",
+      "justificativa": "Regra de reprodutibilidade: a morfologia anexada mecanicamente do OSHB pinado é a base auditável; não há campo de variante no packet indicando leitura alternativa a adjudicar.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "1cs \"eu habitei\" (lendo a grafia consonantal ao pé da letra)",
+          "motivo": "contradiz a morfologia HVqrfsa fornecida pela fonte pinada, que o protocolo exige seguir sem redigitar"
+        }
+      ]
+    },
+    {
+      "questao": "מָצוֹר — 'cerco' ou 'fortaleza/lugar fortificado'",
+      "escolha": "\"sitiada\" (adjetivando a moradora), lendo מָצוֹר como 'cerco/assédio'.",
+      "justificativa": "Contexto imediato (ordem de recolher pertences às pressas) favorece o sentido de cidade sob ataque iminente, não de fortaleza segura.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"na fortaleza\"",
+          "motivo": "sentido oposto (segurança) contradiz o tom de urgência do verso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ó (marcador de vocativo ausente formalmente no hebraico)"
+  ],
+  "ambiguidades_preservadas": [
+    "identidade da 'moradora' (Jerusalém/Sião personificada) não é nomeada explicitamente no verso"
+  ],
+  "justificativa": "Ordem de evacuação urgente dirigida à cidade personificada, preparando o oráculo de julgamento em 10:18.",
+  "confianca": 0.64,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

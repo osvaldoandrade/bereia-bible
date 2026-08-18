@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.90.1",
+    "livro": "Salmos",
+    "capitulo": 90,
+    "versiculo": 1,
+    "pericope": "Ps.90.1-17"
+  },
+  "texto_bv": "Oração de Moisés, homem de Deus. Senhor, tu tens sido nossa morada de geração em geração.",
+  "traducao_literal": "Oração, de Moisés, homem de Deus. Senhor, morada tu tens sido para nós, geração e geração.",
+  "termos_originais": [
+    {
+      "palavra": "תְּפִלָּה֮",
+      "lemma": "8605",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְמֹשֶׁ֪ה",
+      "lemma": "l/4872",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אִֽישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הָאֱלֹ֫הִ֥ים",
+      "lemma": "d/430",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "אֲֽדֹנָ֗י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "מָע֣וֹן",
+      "lemma": "4583",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "אַ֭תָּה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "הָיִ֥יתָ",
+      "lemma": "1961",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "לָּ֗נוּ",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "בְּדֹ֣ר",
+      "lemma": "b/1755",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וָדֹֽר",
+      "lemma": "c/1755",
+      "morfologia": "HC/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de מָעוֹן (H4583)",
+      "escolha": "morada",
+      "justificativa": "Traduz o valor lexical básico de 'lugar de habitação/abrigo' sem importar a nuança específica de proteção contra perigo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "refúgio",
+          "motivo": "importa nuance de proteção/fuga mais afim a מַחְסֶה/מָנוֹס, que o lexema não codifica diretamente"
+        },
+        {
+          "opcao": "habitação",
+          "motivo": "sinônimo válido, mas menos natural no registro poético da BV"
+        }
+      ]
+    },
+    {
+      "questao": "Predicado nominal fronteado (מָעוֹן אַתָּה הָיִיתָ)",
+      "escolha": "normalizar para 'tu tens sido nossa morada' no texto publicado",
+      "justificativa": "ER-0013: a anteposição enfática é preservada na traducao_literal ('morada tu tens sido'); normalizada no publicado por soar artificial em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preservar anteposição no publicado",
+          "motivo": "soaria arcaizante em português contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "בְּדֹר וָדֹר idiomático",
+      "escolha": "'de geração em geração'",
+      "justificativa": "Idiomatiza a repetição substantivo+waw+substantivo mantendo o sentido de continuidade; a literal preserva 'geração e geração' (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'em geração e geração' (calque)",
+          "motivo": "soaria artificial no publicado; reservado à traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "תְּפִלָּה לְמֹשֶׁה pode ser lida como superscrição editorial (não enunciado do salmista); mantida como título, sem fusão sintática forçada."
+  ],
+  "justificativa": "Superscrição + invocação inicial em prosa poética; registro 'tu' por ser oração dirigida a Deus (EDITORIAL §3). מָעוֹן e a ordem fronteada do predicado são as principais decisões de forma.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.150.3",
+    "livro": "Salmos",
+    "capitulo": 150,
+    "versiculo": 3,
+    "pericope": "Ps.150.1-6"
+  },
+  "texto_bv": "Louvem-no ao som da trombeta; louvem-no com harpa e lira.",
+  "traducao_literal": "Louvem-no com o soar do shofar; louvem-no com harpa e lira.",
+  "termos_originais": [
+    {
+      "palavra": "הַֽ֭לְלוּהוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp/Sp3ms"
+    },
+    {
+      "palavra": "בְּתֵ֣קַע",
+      "lemma": "b/8629",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "שׁוֹפָ֑ר",
+      "lemma": "7782",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הַֽ֝לְל֗וּהוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp/Sp3ms"
+    },
+    {
+      "palavra": "בְּנֵ֣בֶל",
+      "lemma": "b/5035 b",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְכִנּֽוֹר",
+      "lemma": "c/3658",
+      "morfologia": "HC/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שׁוֹפָר (H7782) isolado (sem חֲצֹצְרָה no mesmo verso): manter 'trombeta' ou transliterar 'shofar'?",
+      "escolha": "'trombeta', seguindo o precedente de menção isolada de 2Sam 6:15 e Sl 47:6 (בְּקוֹל שׁוֹפָר → 'ao som de trombeta').",
+      "justificativa": "Em 1Cr 15:28, שׁוֹפָר foi transliterado 'shofar' apenas porque coocorre no mesmo verso com חֲצֹצְרָה ('trombetas'), exigindo dois rótulos distintos; aqui não há essa colisão lexical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Transliterar 'shofar'",
+          "motivo": "sem חֲצֹצְרָה concorrente neste capítulo, a transliteração introduziria inconsistência desnecessária com o precedente majoritário de menção isolada"
+        }
+      ]
+    },
+    {
+      "questao": "נֵבֶל (H5035b) e כִּנּוֹר (H3658) coocorrem no mesmo verso e exigem dois rótulos distintos em português; o corpus DRAFT já tem usos conflitantes ('harpa' para כִּנּוֹר quando sozinho em Gn 4:21/1Sm 16:16,23/Sl 49:5/Jó 21:12, vs. נֵבֶל='harpa'/כִּנּוֹר='lira' em 1Sm 10:5 e 1Cr 15:28, os dois únicos precedentes de coocorrência).",
+      "escolha": "נֵבֶל → 'harpa', כִּנּוֹר → 'lira', seguindo o precedente de coocorrência (1Sm 10:5; 1Cr 15:28), não o de menção isolada.",
+      "justificativa": "Quando os dois termos aparecem juntos, o corpus já resolveu a colisão duas vezes da mesma forma; manter כִּנּוֹר='harpa' aqui duplicaria o rótulo para dois instrumentos diferentes no mesmo verso. Nevel (maior, tipo harpa/alaúde) e kinnor (menor, tipo lira) também favorecem essa distribuição por tamanho/forma do instrumento.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "כִּנּוֹר='harpa' (maioria de menções isoladas) e נֵבֶל='instrumento de cordas' genérico",
+          "motivo": "genérico demais para um verso que já usa 'instrumentos de corda' (מִנִּים) no verso seguinte; duplicaria a glosa genérica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "תֵּקַע שׁוֹפָר = construto 'soar/toque do shofar', normalizado para 'som da trombeta'. Terminologia de instrumentos musicais deste capítulo é candidata a consolidação futura no léxico (ainda sem entrada fixa para נֵבֶל/כִּנּוֹר/שׁוֹפָר).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

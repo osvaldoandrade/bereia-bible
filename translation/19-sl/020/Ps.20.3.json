@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.20.3",
+    "livro": "Salmos",
+    "capitulo": 20,
+    "versiculo": 3,
+    "pericope": "Ps.20.1-10"
+  },
+  "texto_bv": "Que envie ajuda desde o santuário, e desde Sião te sustente.",
+  "traducao_literal": "Envie tua-ajuda desde-o-santuário, e-desde-Sião te-sustente.",
+  "termos_originais": [
+    {
+      "palavra": "יִשְׁלַֽח",
+      "lemma": "7971",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "עֶזְרְךָ֥",
+      "lemma": "5828",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "מִקֹּ֑דֶשׁ",
+      "lemma": "m/6944",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וּ֝מִצִּיּ֗וֹן",
+      "lemma": "c/m/6726",
+      "morfologia": "HC/R/Np"
+    },
+    {
+      "palavra": "יִסְעָדֶֽךָּ",
+      "lemma": "5582",
+      "morfologia": "HVqi3ms/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Quiasmo de ordem entre os dois hemistíquios (יִשְׁלַח־עֶזְרְךָ מִקֹּדֶשׁ // וּמִצִּיּוֹן יִסְעָדֶךָּ): verbo-objeto-fonte // fonte-verbo",
+      "escolha": "normalizar no publicado com leve fronting estilístico de 'desde Sião', preservando o efeito de variação sem replicar a inversão completa",
+      "justificativa": "ER-0013 (doutrina do calque): a inversão de ordem é preservada integralmente na traducao_literal; o publicado mantém apenas a variação estilística natural em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ordem idêntica ao hebraico nas duas linhas",
+          "motivo": "soaria artificial em português; o calque completo fica reservado à literal"
+        }
+      ]
+    },
+    {
+      "questao": "מִקֹּדֶשׁ (H6944) — 'santidade' abstrata vs. 'santuário' concreto",
+      "escolha": "santuário",
+      "justificativa": "O paralelo com 'Sião' no segundo hemistíquio indica referente espacial concreto (o templo/monte santo), não o atributo abstrato.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "santidade",
+          "motivo": "sem suporte do paralelismo espacial com Sião"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Que"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Súplica por auxílio vindo do local da presença de YHWH (santuário/Sião), continuando a cadeia optativa de v.2.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

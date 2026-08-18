@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.102.19",
+    "livro": "Salmos",
+    "capitulo": 102,
+    "versiculo": 19,
+    "pericope": "Ps.102.1-29"
+  },
+  "texto_bv": "Isto será escrito para a geração vindoura; e um povo que há de ser criado louvará o SENHOR.",
+  "traducao_literal": "Será escrito isto para a geração última; e um povo a ser criado louvará Yah.",
+  "termos_originais": [
+    {
+      "palavra": "תִּכָּ֣תֶב",
+      "lemma": "3789",
+      "morfologia": "HVNi3fs"
+    },
+    {
+      "palavra": "זֹ֭את",
+      "lemma": "2063",
+      "morfologia": "HPdxfs"
+    },
+    {
+      "palavra": "לְד֣וֹר",
+      "lemma": "l/1755",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "אַחֲר֑וֹן",
+      "lemma": "314",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְעַ֥ם",
+      "lemma": "c/5971 a",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "נִ֝בְרָ֗א",
+      "lemma": "1254 a",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "יְהַלֶּל",
+      "lemma": "1984 b",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "יָֽהּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָהּ (H3050) — forma abreviada do Tetragrama, distinta de יְהוָה pleno",
+      "escolha": "SENHOR (mesma política de יְהוָה, ER-0002)",
+      "justificativa": "יָהּ é forma contrata reconhecida do mesmo nome divino (cf. הַלְלוּ־יָהּ); a política NOMES-DIVINOS.md não lista a forma abreviada separadamente, mas o precedente do projeto (Sl 104:35, 106:1, 150:1) já verte ocorrências do lemma H3050 consistentemente para o campo semântico de 'SENHOR'; aqui, como objeto verbal ('louvará Yah'), 'SENHOR' mantém a identidade referencial sem introduzir a forma híbrida 'Yah' no meio de texto corrido",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Yah'",
+          "motivo": "introduz forma não vernacularizada em português corrente, fora da convenção consolidada da política de nomes divinos (EDITORIAL §2)"
+        }
+      ]
+    },
+    {
+      "questao": "עַם נִבְרָא — 'povo a ser criado' (particípio Niphal de ברא, H1254a)",
+      "escolha": "'um povo que há de ser criado'",
+      "justificativa": "preserva o verbo ברא (criar) distinto de עשה (fazer), conforme a distinção lexical fixada no projeto desde Gn 1 (criar/fazer)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'um povo futuro/vindouro'",
+          "motivo": "perde o verbo específico ברא, colapsando a distinção criar/fazer já estabelecida como diretriz do projeto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Motivo de registro escrito para a posteridade: gerações futuras, ainda por existir, louvarão o SENHOR pela restauração de Sião.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

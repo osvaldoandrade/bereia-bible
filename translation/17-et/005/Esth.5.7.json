@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.5.7",
+    "livro": "Ester",
+    "capitulo": 5,
+    "versiculo": 7,
+    "pericope": "Esth.5.1-14"
+  },
+  "texto_bv": "Ester respondeu: \"Meu pedido e minha súplica são estes:",
+  "traducao_literal": "E respondeu Ester e disse: \"O meu pedido e a minha súplica —\"",
+  "termos_originais": [
+    {
+      "palavra": "וַתַּ֥עַן",
+      "lemma": "c/6030 b",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "אֶסְתֵּ֖ר",
+      "lemma": "635",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַתֹּאמַ֑ר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "שְׁאֵלָתִ֖י",
+      "lemma": "7596",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "וּבַקָּשָׁתִֽי",
+      "lemma": "c/1246",
+      "morfologia": "HC/Ncfsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "construção elíptica/quebrada 'שְׁאֵלָתִי וּבַקָּשָׁתִי' sem predicado, resolvida somente em Esth.5.8",
+      "escolha": "suprir 'são estes' e manter dois-pontos, permitindo que o v.8 complete a oração",
+      "justificativa": "EDITORIAL §4 permite suprir elipse quando o português fica agramatical sem isso; a quebra sintática é preservada pela pontuação, refletindo o suspense retórico do original (a resposta de Ester é interrompida e só se completa em Esth.5.8).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fundir Esth.5.7-8 em uma única sentença",
+          "motivo": "romperia a unidade versicular exigida pelo packet"
+        },
+        {
+          "opcao": "'Meu pedido e minha súplica' sem suprir predicado",
+          "motivo": "ficaria agramatical como frase isolada em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "são estes (predicado elíptico, completado somente em Esth.5.8)"
+  ],
+  "ambiguidades_preservadas": [
+    "a quebra sintática entre o anúncio do pedido (v.7) e seu conteúdo (v.8) é preservada como recurso retórico, não fundida numa única sentença"
+  ],
+  "justificativa": "Verso elíptico, sintaticamente incompleto no original hebraico — a resposta de Ester só se completa em Esth.5.8; a fragmentação é preservada como estratégia narrativa de suspense.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

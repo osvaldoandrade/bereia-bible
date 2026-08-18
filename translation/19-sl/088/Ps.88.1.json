@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.88.1",
+    "livro": "Salmos",
+    "capitulo": 88,
+    "versiculo": 1,
+    "pericope": "Ps.88.1-19"
+  },
+  "texto_bv": "Cântico. Salmo. Dos filhos de Coré. Ao regente, sobre Maalate Leanote. Poema didático de Hemã, o ezraíta.",
+  "traducao_literal": "Cântico, salmo, dos filhos de Coré; ao regente, sobre Maalate, para responder; poema didático, de Hemã, o ezraíta.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁ֥יר",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "מִזְמ֗וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לִבְנֵ֫י",
+      "lemma": "l/1121 a",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "קֹ֥רַח",
+      "lemma": "7141",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לַמְנַצֵּ֣חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מָחֲלַ֣ת",
+      "lemma": "4257",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְעַנּ֑וֹת",
+      "lemma": "l/6031 b",
+      "morfologia": "HC/Vpa"
+    },
+    {
+      "palavra": "מַ֝שְׂכִּ֗יל",
+      "lemma": "4905",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְהֵימָ֥ן",
+      "lemma": "l/1968",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "הָאֶזְרָחִֽי",
+      "lemma": "d/250",
+      "morfologia": "HTd/Ngmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter עַל־מָחֲלַת לְעַנּוֹת, rubrica musical técnica de sentido obscuro?",
+      "escolha": "transliteração 'Maalate Leanote'",
+      "justificativa": "Provável nome de melodia ou instrução de execução sem correspondente em português; לְעַנּוֹת pode ecoar a raiz ענה que reaparece em עִנִּיתָ (v.8) e עֹנִי (v.10), mas por se tratar de rubrica técnica supralinear, opta-se por não lexicalizar o eco no título.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sobre a aflição, para cantar",
+          "motivo": "interpretativo demais para uma rubrica técnica de função incerta"
+        },
+        {
+          "opcao": "traduzir apenas 'Maalate' e omitir לְעַנּוֹת",
+          "motivo": "descarta uma palavra presente no texto-fonte sem justificativa textual"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter מַשְׂכִּיל, rubrica de gênero salmódico?",
+      "escolha": "poema didático",
+      "justificativa": "Segue o precedente terminológico de Sl 53.1, salmo com a mesma colocação עַל־מָחֲלַת.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "masquil (transliteração)",
+          "motivo": "usado em Sl 42.1; menos informativo ao leitor que 'poema didático'"
+        },
+        {
+          "opcao": "poema de discernimento",
+          "motivo": "usado em Sl 32.1 em contexto de sabedoria distinto do lamento coletivo daqui"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter לַמְנַצֵּחַ?",
+      "escolha": "Ao regente",
+      "justificativa": "Termo mais recorrente no corpus de Salmos já traduzido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ao mestre de música",
+          "motivo": "sinônimo também em uso no corpus; mantém-se 'regente' por maior frequência"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Superscrição técnica sem verbos finitos; ordem hebraica preservada na literal; termos musicais raros geram confiança reduzida.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

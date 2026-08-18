@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.3.8",
+    "livro": "Salmos",
+    "capitulo": 3,
+    "versiculo": 8,
+    "pericope": "Ps.3.1-9"
+  },
+  "texto_bv": "Levanta-te, SENHOR; salva-me, meu Deus! Pois feriste todos os meus inimigos na queixada; quebraste os dentes dos ímpios.",
+  "traducao_literal": "Levanta-te, SENHOR; salva-me, meu Deus, porque feriste todos os meus inimigos, queixada; os dentes dos ímpios quebraste.",
+  "termos_originais": [
+    {
+      "palavra": "ק֘וּמָ֤ה",
+      "lemma": "6965 b",
+      "morfologia": "HVqv2ms/Sh"
+    },
+    {
+      "palavra": "יְהוָ֨ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הוֹשִׁ֘יעֵ֤נִי",
+      "lemma": "3467",
+      "morfologia": "HVhv2ms/Sp1cs"
+    },
+    {
+      "palavra": "אֱלֹהַ֗י",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הִכִּ֣יתָ",
+      "lemma": "5221",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֹיְבַ֣י",
+      "lemma": "341",
+      "morfologia": "HVqrmpc/Sp1cs"
+    },
+    {
+      "palavra": "לֶ֑חִי",
+      "lemma": "3895",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "שִׁנֵּ֖י",
+      "lemma": "8127",
+      "morfologia": "HNcbdc"
+    },
+    {
+      "palavra": "רְשָׁעִ֣ים",
+      "lemma": "7563",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "שִׁבַּֽרְתָּ",
+      "lemma": "7665",
+      "morfologia": "HVpp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לֶחִי ('queixada/maxilar') aparece como acusativo adverbial de lugar, sem preposição no hebraico, junto ao objeto direto marcado אֶת־כָּל־אֹיְבַי; como verter a regência em português?",
+      "escolha": "suprir a preposição 'na' ('feriste... na queixada')",
+      "justificativa": "O português não sustenta acusativo de lugar sem preposição explícita; a preposição é suprida por exigência gramatical, listada em palavras_supridas (ER-0006).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "a queixada de todos os meus inimigos (lida como genitivo/construto)",
+          "motivo": "o hebraico não usa construto aqui — לֶחִי é acusativo de lugar solto, não 'a queixada de X'; essa leitura alteraria a sintaxe do original."
+        }
+      ]
+    },
+    {
+      "questao": "שִׁנֵּי רְשָׁעִים שִׁבַּרְתָּ tem o objeto ('os dentes dos ímpios') fronteado antes do verbo ('quebraste'), ordem enfática/quiástica; preservar no publicado?",
+      "escolha": "normalizar para ordem verbo-objeto no publicado ('quebraste os dentes dos ímpios')",
+      "justificativa": "Calque de quiasmo (ER-0013 item 3); preservado integralmente na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "os dentes dos ímpios quebraste (ordem preservada)",
+          "motivo": "mantida na literal; no publicado soa como inversão poética artificial em prosa corrida."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "na (regência locativa de 'queixada', acusativo de lugar sem preposição no hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Clamor imperativo por libertação (קוּמָה, הוֹשִׁיעֵנִי) seguido de motivação causal (כִּי) baseada em atos passados de juízo divino sobre os inimigos; imagem idiomática de humilhação (golpe na queixada, cf. Jó 16:10; Lm 3:30).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

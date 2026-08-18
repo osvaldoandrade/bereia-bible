@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.61.1",
+    "livro": "Salmos",
+    "capitulo": 61,
+    "versiculo": 1,
+    "pericope": "Ps.61.1-9"
+  },
+  "texto_bv": "Ao regente. Com instrumento de cordas. De Davi.",
+  "traducao_literal": "Ao dirigente, sobre música-de-cordas, de Davi.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֬חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "עַֽל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "נְגִינַ֬ת",
+      "lemma": "5058",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "לְדָוִֽד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לַמְנַצֵּחַ — título técnico de regência musical",
+      "escolha": "Ao regente",
+      "justificativa": "Piel particípio de נצח, título recorrente de superscrições de salmos; 'regente' é termo pt-BR contemporâneo equivalente a 'diretor musical/coral', evitando o arcaísmo 'músico-mor'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ao músico-mor",
+          "motivo": "arcaísmo da tradição Almeida; EDITORIAL §1.2 proíbe arcaísmos funcionalmente mortos"
+        },
+        {
+          "opcao": "Ao mestre de canto",
+          "motivo": "perífrase mais longa sem ganho de precisão sobre 'regente'"
+        }
+      ]
+    },
+    {
+      "questao": "עַל־נְגִינַת — sentido da preposição עַל na rubrica musical",
+      "escolha": "Com instrumento de cordas",
+      "justificativa": "Em superscrições de salmos עַל introduz o instrumento/melodia de execução, não sentido adversativo ou locativo; נְגִינָה (de נגן, 'tanger corda') denota música/instrumento de cordas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Sobre a música",
+          "motivo": "mantém ambiguidade de עַל sem esclarecer a função técnica da rubrica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "לְדָוִד pode indicar autoria ('de Davi', composto por ele) ou dedicação/atribuição litúrgica ('para/em nome de Davi'); a BV preserva a fórmula tradicional 'de Davi' sem decidir entre as duas."
+  ],
+  "justificativa": "Superscrição técnica de rubrica musical, sem verbo finito; tradução por equivalência de rubrica corrente em pt-BR.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

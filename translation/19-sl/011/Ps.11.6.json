@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.11.6",
+    "livro": "Salmos",
+    "capitulo": 11,
+    "versiculo": 6,
+    "pericope": "Ps.11.1-7"
+  },
+  "texto_bv": "Fará chover laços sobre os ímpios; fogo, enxofre e vento abrasador serão a porção do cálice deles.",
+  "traducao_literal": "Fará chover sobre os ímpios laços; fogo e enxofre e vento de abrasamentos, porção do copo deles.",
+  "termos_originais": [
+    {
+      "palavra": "יַמְטֵ֥ר",
+      "lemma": "4305",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "רְשָׁעִ֗ים",
+      "lemma": "7563",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "פַּ֫חִ֥ים",
+      "lemma": "6341 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אֵ֣שׁ",
+      "lemma": "784",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "וְ֭גָפְרִית",
+      "lemma": "c/1614",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "וְר֥וּחַ",
+      "lemma": "c/7307",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "זִלְעָפ֗וֹת",
+      "lemma": "2152",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "מְנָ֣ת",
+      "lemma": "4521",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "כּוֹסָֽם",
+      "lemma": "3563 a",
+      "morfologia": "HNcfsc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "פַּחִים (lema H6341, packet: 'lemma 6341 a') — sentido primário 'laços/armadilhas' vs. emenda comum em versões modernas (ESV/NASB/NIV) para 'brasas/carvões em fogo', associando à imagem seguinte de fogo",
+      "escolha": "laços (seguindo estritamente o lema H6341 fornecido pelo packet)",
+      "justificativa": "A regra do pipeline veda emendar o texto-fonte sem aparato explícito (o packet não trouxe variantes_fonte para esta palavra); H6341 é atestado como 'armadilha/laço' (raiz פח I), e a tradução segue o dado lexical pinado, não uma leitura alternativa não documentada na fonte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "brasas/carvões em fogo",
+          "motivo": "depende de repontuação ou associação com outra raiz (פחם 'carvão'), não suportada pelo lema H6341 dado; sem aparato de fonte que autorize a emenda"
+        }
+      ]
+    },
+    {
+      "questao": "מְנָת כּוֹסָם — registro do substantivo כּוֹס ('copo/cálice') no publicado vs. na literal",
+      "escolha": "publicado: 'cálice' (registro poético-bíblico consolidado); literal: 'copo' (valor lexical básico)",
+      "justificativa": "'Cálice' é o uso corrente em português bíblico para a metáfora do destino/julgamento (cf. tradição de 'cálice da ira'); a literal preserva o valor lexical simples do substantivo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'copo' também no publicado",
+          "motivo": "correto mas neutraliza o registro solene já consolidado na tradição bíblica em português para esta metáfora"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "פחים como 'laços' (opção lexical seguida) versus 'brasas' (emenda comum em traduções modernas, não adotada por falta de suporte no lema pinado) — registrado para eventual revisão em ciclo de consistência/promoção."
+  ],
+  "justificativa": "Imagem de juízo divino (fogo, enxofre, vento abrasador); adjudicação lexical de פחים segue estritamente o Strong dado no packet, sem importar emenda de versões modernas.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

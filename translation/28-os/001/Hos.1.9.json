@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.1.9",
+    "livro": "Oseias",
+    "capitulo": 1,
+    "versiculo": 9,
+    "pericope": "Hos.1.1-9"
+  },
+  "texto_bv": "Então o SENHOR disse: \"Chame-o de Lo-Ami, porque vocês não são meu povo, e eu não serei o Deus de vocês.\"",
+  "traducao_literal": "E disse: chama o nome dele Não Meu Povo (Lo-Ami), porque vocês não são meu povo, e eu não serei para vocês.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֕אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "קְרָ֥א",
+      "lemma": "7121",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "שְׁמ֖וֹ",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3818+",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "עַמִּ֑י",
+      "lemma": "3818",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אַתֶּם֙",
+      "lemma": "859 d",
+      "morfologia": "HPp2mp"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "עַמִּ֔י",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְאָנֹכִ֖י",
+      "lemma": "c/595",
+      "morfologia": "HC/Pp1cs"
+    },
+    {
+      "palavra": "לֹֽא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אֶהְיֶ֥ה",
+      "lemma": "1961",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "לָכֶֽם",
+      "lemma": "l",
+      "morfologia": "HR/Sp2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito implícito em וַיֹּאמֶר (sem 'SENHOR' explícito, mesmo padrão do v.6)",
+      "escolha": "suprir 'o SENHOR' no publicado.",
+      "justificativa": "o contexto discursivo (fala em 1ª pessoa 'eu não serei') identifica univocamente o falante como o SENHOR, retomando o padrão dos oráculos anteriores.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "לֹא עַמִּי — nome próprio composto (Lo-Ami) vs. 'não é meu povo' na oração causal seguinte, com lemas distintos no packet",
+      "escolha": "transliteração 'Lo-Ami' para o nome; tradução plena 'vocês não são meu povo' para a oração causal (lexema comum עַם + sufixo, distinto do nome composto).",
+      "justificativa": "o packet distingue os dois usos por lemas diferentes (nome composto vs. substantivo 'povo'+sufixo 1cs); a BV preserva a distinção morfológica na tradução.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "וְאָנֹכִי לֹא־אֶהְיֶה לָכֶם — predicado elíptico (falta 'Deus' explícito)",
+      "escolha": "suprir 'o Deus de' no publicado: 'eu não serei o Deus de vocês'.",
+      "justificativa": "a oração ecoa e inverte a fórmula de aliança 'serei o vosso Deus' (Êx 6:7; Lv 26:12; Ez 34:24), elidindo o predicado 'Deus' no hebraico; a BV completa a elipse para que o leitor reconheça a alusão, seguindo o consenso das versões críticas (ESV/NASB/NIV: 'I am not your God').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'eu não serei para vocês' (sem completar)",
+          "motivo": "gramatical, mas obscurece a alusão proposital à fórmula de aliança."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o SENHOR",
+    "o Deus de"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Nome do terceiro filho encerra a tríade simbólica com a ruptura mais radical: a própria fórmula da aliança ('serei vosso Deus, vós sereis meu povo') é negada.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

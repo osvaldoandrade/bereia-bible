@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.24.2",
+    "livro": "Isaías",
+    "capitulo": 24,
+    "versiculo": 2,
+    "pericope": "Isa.24.1-23"
+  },
+  "texto_bv": "Será como o povo, assim o sacerdote; como o servo, assim o seu senhor; como a serva, assim a sua senhora; como o comprador, assim o vendedor; como quem empresta, assim quem toma emprestado; como o credor, assim o seu devedor.",
+  "traducao_literal": "E será: como o povo, como o sacerdote; como o servo, como seu senhor; como a serva, como sua senhora; como o comprador, como o vendedor; como o que empresta, como o que toma emprestado; como o credor, como aquele que lhe deve.",
+  "termos_originais": [
+    {
+      "palavra": "וְהָיָ֤ה",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "כָעָם֙",
+      "lemma": "k/5971 a",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "כַּכֹּהֵ֔ן",
+      "lemma": "k/3548",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "כַּעֶ֨בֶד֙",
+      "lemma": "k/5650",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "כַּֽאדֹנָ֔יו",
+      "lemma": "k/113",
+      "morfologia": "HR/Ncmpc/Sp3ms"
+    },
+    {
+      "palavra": "כַּשִּׁפְחָ֖ה",
+      "lemma": "k/8198",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "כַּגְּבִרְתָּ֑הּ",
+      "lemma": "k/1404",
+      "morfologia": "HRd/Ncfsc/Sp3fs"
+    },
+    {
+      "palavra": "כַּקּוֹנֶה֙",
+      "lemma": "k/7069",
+      "morfologia": "HRd/Vqrmsa"
+    },
+    {
+      "palavra": "כַּמּוֹכֵ֔ר",
+      "lemma": "k/4376",
+      "morfologia": "HRd/Vqrmsa"
+    },
+    {
+      "palavra": "כַּמַּלְוֶה֙",
+      "lemma": "k/3867 b",
+      "morfologia": "HRd/Vhrmsa"
+    },
+    {
+      "palavra": "כַּלֹּוֶ֔ה",
+      "lemma": "k/3867 b",
+      "morfologia": "HRd/Vqrmsa"
+    },
+    {
+      "palavra": "כַּנֹּשֶׁ֕ה",
+      "lemma": "k/5383",
+      "morfologia": "HRd/Vqrmsa"
+    },
+    {
+      "palavra": "כַּאֲשֶׁ֖ר",
+      "lemma": "k/834 d",
+      "morfologia": "HR/Tr"
+    },
+    {
+      "palavra": "נֹשֶׁ֥א",
+      "lemma": "5378",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בֽוֹ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Waw inicial de וְהָיָה",
+      "escolha": "não verter 'E' no publicado, iniciando direto por 'Será'",
+      "justificativa": "ER-0013: o waw aqui é sequencial/continuativo de descrição geral, não narrativo; a leitura flui melhor sem a conjunção inicial em português",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E será:'",
+          "motivo": "soa artificialmente traduzido no início de uma nova unidade retórica"
+        }
+      ]
+    },
+    {
+      "questao": "כַּנֹּשֶׁה כַּאֲשֶׁר נֹשֶׁא בוֹ (credor/devedor)",
+      "escolha": "'como o credor, assim o seu devedor'",
+      "justificativa": "נֹשֶׁה é particípio de נשה, 'aquele que cobra/empresta a juros' (credor); נֹשֵׂא בוֹ é idiomático para 'aquele que tem dívida com ele' (devedor); tradução por função contextual, não por raiz isolada",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'como quem empresta a juros, assim aquele a quem ele empresta'",
+          "motivo": "redundante com o par anterior מַלְוֶה/לֹוֶה já traduzido (emprestar/tomar emprestado)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Será (elipse de וְהָיָה tratada como predicado geral introdutório, não repetido a cada par)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Lista de oito pares sociais/econômicos igualados pelo juízo iminente, preservados na ordem do original com estrutura 'como X, assim Y'.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

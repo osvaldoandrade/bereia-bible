@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Zeph.2.5",
+    "livro": "Sofonias",
+    "capitulo": 2,
+    "versiculo": 5,
+    "pericope": "Zeph.2.1-15"
+  },
+  "texto_bv": "Ai dos habitantes do litoral, nação dos cereteus! A palavra do SENHOR está contra vocês, Canaã, terra dos filisteus; eu vou destruir vocês, até que não reste morador.",
+  "traducao_literal": "Ai dos habitantes da corda/faixa do mar, nação de cereteus; a palavra do SENHOR sobre vocês, Canaã, terra dos filisteus; e destruirei-te, até não haver morador.",
+  "termos_originais": [
+    {
+      "palavra": "ה֗וֹי",
+      "lemma": "1945",
+      "morfologia": "HTj"
+    },
+    {
+      "palavra": "יֹֽשְׁבֵ֛י",
+      "lemma": "3427",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "חֶ֥בֶל",
+      "lemma": "2256 a",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "הַיָּ֖ם",
+      "lemma": "d/3220",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "גּ֣וֹי",
+      "lemma": "1471 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "כְּרֵתִ֑ים",
+      "lemma": "3774",
+      "morfologia": "HNgmpa"
+    },
+    {
+      "palavra": "דְּבַר",
+      "lemma": "1697",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עֲלֵיכֶ֗ם",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "כְּנַ֨עַן֙",
+      "lemma": "3667 a",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶ֣רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "פְּלִשְׁתִּ֔ים",
+      "lemma": "6430",
+      "morfologia": "HNgmpa"
+    },
+    {
+      "palavra": "וְהַאֲבַדְתִּ֖יךְ",
+      "lemma": "c/6",
+      "morfologia": "HC/Vhq1cs/Sp3fs"
+    },
+    {
+      "palavra": "מֵאֵ֥ין",
+      "lemma": "m/369",
+      "morfologia": "HR/Tn"
+    },
+    {
+      "palavra": "יוֹשֵֽׁב",
+      "lemma": "3427",
+      "morfologia": "HVqrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sufixo pronominal em וְהַאֲבַדְתִּיךְ — o morph do pacote marca 3fs, mas a forma consonantal ךְ (sem mappiq) e o consenso das versões apontam 2fs",
+      "escolha": "2ª pessoa feminina singular, 'vou destruir vocês' (vocativo Canaã, vertido no registro 'vocês' por D-0003)",
+      "justificativa": "a forma ךְ sem mappiq é a marca padrão do sufixo 2fs; as tradições de tradução (Almeida, KJV, ESV, NASB) leem 'destruirei-te', dirigindo-se a Canaã/terra dos filisteus, vocativo do próprio versículo. A etiqueta morfológica do pacote (3fs) é registrada como discrepância a auditar, não como base da escolha, que segue a evidência consonantal e o consenso interpretativo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "3fs 'destruirei-a' (referindo-se à terra/Canaã em 3ª pessoa)",
+          "motivo": "gramaticalmente sugerida pela etiqueta morfológica do pacote, mas rompe o fio do discurso direto vocativo que caracteriza o restante do versículo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está (verbo suprido em 'a palavra do SENHOR [está] contra vocês', oração nominal)",
+    "vou (perífrase de futuro para o hifil weqatal com valor de futuro certo)"
+  ],
+  "ambiguidades_preservadas": [
+    "o sufixo em וְהַאֲבַדְתִּיךְ é lido aqui como 2fs por consenso interpretativo, embora a etiqueta morfológica do pacote indique 3fs"
+  ],
+  "justificativa": "Oráculo de 'ai' (הוֹי) contra o litoral filisteu, identificado com Canaã; חֶבֶל הַיָּם traduzido consistentemente como 'litoral' (retomado em v.6-7).",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

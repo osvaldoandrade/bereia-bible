@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.97.7",
+    "livro": "Salmos",
+    "capitulo": 97,
+    "versiculo": 7,
+    "pericope": "Ps.97.1-12"
+  },
+  "texto_bv": "Envergonhem-se todos os que servem imagem esculpida, os que se vangloriam de ídolos; prostrem-se diante dele, todos os deuses!",
+  "traducao_literal": "Envergonhem-se todos servos-de imagem esculpida, os que se vangloriam nos ídolos; prostrem-se a ele todos deuses.",
+  "termos_originais": [
+    {
+      "palavra": "יֵבֹ֤שׁוּ",
+      "lemma": "954",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "עֹ֬בְדֵי",
+      "lemma": "5647",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "פֶ֗סֶל",
+      "lemma": "6459",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הַמִּֽתְהַלְלִ֥ים",
+      "lemma": "d/1984 b",
+      "morfologia": "HTd/Vtrmpa"
+    },
+    {
+      "palavra": "בָּאֱלִילִ֑ים",
+      "lemma": "b/457",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "הִשְׁתַּחֲווּ",
+      "lemma": "7812",
+      "morfologia": "HVvv2mp"
+    },
+    {
+      "palavra": "ל֝וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֱלֹהִֽים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱלֹהִים (H430) — referente não é o Deus de Israel, mas outros seres divinos/deuses, em paralelismo com 'os que servem imagem esculpida' e contraste implícito com YHWH",
+      "escolha": "traduzir 'deuses' (plural), não 'Deus'",
+      "justificativa": "NOMES-DIVINOS.md reserva 'Deus' ao referente = Deus de Israel; aqui o contexto de contraste com ídolos e o imperativo 2mp que se segue indicam referente plural, conforme a própria nota do léxico para H430 ('deuses apenas com referente plural indicado por contexto e concordância').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Deus' (maiúscula, referente único)",
+          "motivo": "contradiz o contexto de contraste com ídolos e a concordância plural da forma verbal imperativa que segue"
+        }
+      ]
+    },
+    {
+      "questao": "הִשְׁתַּחֲווּ (2mp) — forma verbal e tipo de discurso",
+      "escolha": "imperativo/jussivo de apóstrofe: 'prostrem-se... todos os deuses!' (vocativo endereçado aos elohim)",
+      "justificativa": "A morfologia 2mp marca exortação direta aos 'deuses', não narrativa em 3ª pessoa; construção retomada por Hb 1:6 via LXX ('adorem-no todos os anjos de Deus').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'todos os deuses se prostram diante dele' (declarativo em 3ª pessoa)",
+          "motivo": "não sustentado pela morfologia 2mp da forma verbal hebraica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "identidade de 'todos os deuses' — ídolos sem existência real (retomando 'os que servem imagem esculpida') ou seres celestiais/anjos subordinados a YHWH — não é resolvida pelo hebraico e permanece aberta, como no texto-fonte."
+  ],
+  "justificativa": "Verso de apóstrofe dupla: aos idólatras (envergonhem-se) e aos 'deuses' (prostrem-se). Registro de discurso a terceiros, não oração a Deus, portanto sem marcação tu/você aparente (imperativos de 2mp sem pronome explícito).",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

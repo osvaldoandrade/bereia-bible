@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.82.6",
+    "livro": "Salmos",
+    "capitulo": 82,
+    "versiculo": 6,
+    "pericope": "Ps.82.1-8"
+  },
+  "texto_bv": "Eu disse: “Vocês são deuses, e filhos do Altíssimo, todos vocês.",
+  "traducao_literal": "Eu disse: deuses vocês são, e filhos do Altíssimo, todos vocês.",
+  "termos_originais": [
+    {
+      "palavra": "אֲֽנִי",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "אָ֭מַרְתִּי",
+      "lemma": "559",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "אֱלֹהִ֣ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אַתֶּ֑ם",
+      "lemma": "859 d",
+      "morfologia": "HPp2mp"
+    },
+    {
+      "palavra": "וּבְנֵ֖י",
+      "lemma": "c/1121 a",
+      "morfologia": "HC/Ncmpc"
+    },
+    {
+      "palavra": "עֶלְי֣וֹן",
+      "lemma": "5945 b",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "כֻּלְּכֶֽם",
+      "lemma": "3605",
+      "morfologia": "HNcmsc/Sp2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱלֹהִים אַתֶּם — mesma decisão de referente de v1/v1c",
+      "escolha": "vocês são deuses (minúsculo)",
+      "justificativa": "Retoma a mesma leitura de 'elohim' plural referente aos juízes/'deuses' do conselho, mantendo consistência terminológica com v1.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "vocês são Deus (maiúsculo)",
+          "motivo": "sem sentido gramatical ou teológico no contexto — o referente é claramente plural e distinto do Deus que fala"
+        }
+      ]
+    },
+    {
+      "questao": "עֶלְיוֹן (epíteto divino 'Altíssimo')",
+      "escolha": "Altíssimo",
+      "justificativa": "Título divino consolidado na tradição pt-BR (H5945); não listado explicitamente em NOMES-DIVINOS.md — tratado aqui como extensão natural da política de nomes divinos, a formalizar em entrada própria do léxico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliteração 'Elyon'",
+          "motivo": "quebra a convenção consolidada de tradução de epítetos divinos ao português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "Registro de 2ª pessoa: vocês (não tu)",
+      "escolha": "vocês",
+      "justificativa": "Discurso de Deus dirigido aos 'deuses'/juízes, não oração dirigida a Deus; segue ER-0003 (discurso comum → você/vocês), preservando o plural do hebraico אַתֶּם.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Ordem sujeito-predicativo em cláusula nominal (אֱלֹהִים אַתֶּם, predicado-sujeito no hebraico)",
+      "escolha": "vocês são deuses (S-V/predicativo normalizado)",
+      "justificativa": "Aplicação analógica de ER-0011 (ordem uniforme no publicado) a cláusulas verbais; a ordem hebraica predicado-primeiro é preservada na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deuses são vocês (V-S/predicativo literal no publicado)",
+          "motivo": "soa artificial/arcaizante em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Mesma ambiguidade de v1 quanto à identidade dos 'deuses'/'filhos do Altíssimo' (seres celestiais do conselho divino ou governantes humanos) — preservada, não resolvida no texto publicado."
+  ],
+  "justificativa": "Abre a citação direta explícita do veredito de Deus (אָמַרְתִּי, 'eu disse'), marcada com dois-pontos e aspas per ER-0004; a citação continua no v7, onde a aspa é fechada.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

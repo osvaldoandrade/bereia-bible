@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.70.6",
+    "livro": "Salmos",
+    "capitulo": 70,
+    "versiculo": 6,
+    "pericope": "Ps.70.1-6"
+  },
+  "texto_bv": "Mas eu sou pobre e necessitado; Deus, apressa-te para mim! Tu és o meu socorro e o meu libertador; SENHOR, não tardes!",
+  "traducao_literal": "E eu, pobre e necessitado, Deus, apressa-te para mim; meu socorro e meu libertador és tu; SENHOR, não tardes.",
+  "termos_originais": [
+    {
+      "palavra": "וַאֲנִ֤י",
+      "lemma": "c/589",
+      "morfologia": "HC/Pp1cs"
+    },
+    {
+      "palavra": "עָנִ֣י",
+      "lemma": "6041",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְאֶבְיוֹן֮",
+      "lemma": "c/34",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "אֱלֹהִ֪ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "חֽוּשָׁ֫ה",
+      "lemma": "2363 a",
+      "morfologia": "HVqv2ms/Sh"
+    },
+    {
+      "palavra": "לִּ֥י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "עֶזְרִ֣י",
+      "lemma": "5828",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וּמְפַלְטִ֣י",
+      "lemma": "c/6403",
+      "morfologia": "HC/Vprmsc/Sp1cs"
+    },
+    {
+      "palavra": "אַ֑תָּה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "יְ֝הוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תְּאַחַֽר",
+      "lemma": "309",
+      "morfologia": "HVpj2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter o waw inicial de וַאֲנִי, que introduz contraste com os ímpios das estrofes anteriores?",
+      "escolha": "Mas eu (publicado); 'E eu' preservado na traducao_literal.",
+      "justificativa": "Waw com pronome independente antes de oração nominal marca contraste circunstancial clássico; 'mas' explicita a função adversativa que o leitor em português não captaria de um mero 'e' neste ponto (ER-0013, doutrina do calque).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "E eu (também no publicado)",
+          "motivo": "apaga o valor adversativo funcional do waw + pronome, ficando neutro demais"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter חוּשָׁה־לִּי sem antecipar o vocabulário de 'socorro' da oração seguinte (עֶזְרִי)?",
+      "escolha": "Apressa-te para mim.",
+      "justificativa": "Mantém חוש e עזר como itens lexicais distintos e rastreáveis, evitando fusão precoce dos dois campos semânticos (EDITORIAL §11).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Vem depressa a mim",
+          "motivo": "supre um verbo de movimento ('vem') ausente no hebraico, menos literal que 'apressa-te'"
+        },
+        {
+          "opcao": "Apressa-te em meu socorro",
+          "motivo": "importa 'socorro' (עזר) antes da hora, criando redundância com a oração seguinte"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter אַל־תְּאַחַר (piel jussivo negativo, 'não demores')?",
+      "escolha": "Não tardes.",
+      "justificativa": "Registro litúrgico-poético coerente com a forma 'tu' de oração dirigida a Deus (D-0003); 'tardar' é verbo vivo em português contemporâneo em contexto de súplica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Não te demores",
+          "motivo": "equivalente semântico, registro ligeiramente mais coloquial, preterido pela concisão poética de 'não tardes'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sou (cópula da oração nominal עָנִי וְאֶבְיוֹן, sem verbo expresso no hebraico)",
+    "és (cópula da oração nominal עֶזְרִי וּמְפַלְטִי אַתָּה)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Duas orações nominais hebraicas sem cópula (עָנִי וְאֶבְיוֹן [implícito 'eu']; עֶזְרִי וּמְפַלְטִי אַתָּה) recebem cópula suprida em português ('sou', 'és'), exigida pela gramática (EDITORIAL §4); a ordem predicado-sujeito da segunda oração nominal é preservada na traducao_literal. Paralelo quase idêntico a Sl 40:18.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

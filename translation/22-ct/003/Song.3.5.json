@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.3.5",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 3,
+    "versiculo": 5,
+    "pericope": "Song.3.1-11"
+  },
+  "texto_bv": "Eu as conjuro, filhas de Jerusalém, pelas gazelas ou pelas corças do campo: não despertem nem acordem o amor, até que ele mesmo queira.",
+  "traducao_literal": "Conjurei-vos, filhas de Jerusalém, pelas gazelas ou pelas corças do campo: se despertardes ou se acordardes o amor, até que queira.",
+  "termos_originais": [
+    {
+      "palavra": "הִשְׁבַּ֨עְתִּי",
+      "lemma": "7650",
+      "morfologia": "HVhp1cs"
+    },
+    {
+      "palavra": "אֶתְכֶ֜ם",
+      "lemma": "853",
+      "morfologia": "HTo/Sp2mp"
+    },
+    {
+      "palavra": "בְּנ֤וֹת",
+      "lemma": "1323",
+      "morfologia": "HNcfpc"
+    },
+    {
+      "palavra": "יְרוּשָׁלִַ֨ם֙",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בִּצְבָא֔וֹת",
+      "lemma": "b/6643 b",
+      "morfologia": "HR/Ncbpa"
+    },
+    {
+      "palavra": "א֖וֹ",
+      "lemma": "176 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "בְּאַיְל֣וֹת",
+      "lemma": "b/355",
+      "morfologia": "HR/Ncfpc"
+    },
+    {
+      "palavra": "הַשָּׂדֶ֑ה",
+      "lemma": "d/7704 b",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "תָּעִ֧ירוּ",
+      "lemma": "5782",
+      "morfologia": "HVhi2mp"
+    },
+    {
+      "palavra": "וְֽאִם",
+      "lemma": "c/518 a",
+      "morfologia": "HC/C"
+    },
+    {
+      "palavra": "תְּעֽוֹרְר֛וּ",
+      "lemma": "5782",
+      "morfologia": "HVoi2mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הָאַהֲבָ֖ה",
+      "lemma": "d/160",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "עַ֥ד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "שֶׁתֶּחְפָּֽץ",
+      "lemma": "s/2654 a",
+      "morfologia": "HTr/Vqi3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Fórmula de juramento com אִם (partícula de juramento negativo elíptico)",
+      "escolha": "verter אִם־תָּעִירוּ וְאִם־תְּעוֹרְרוּ como proibição direta: 'não despertem nem acordem'",
+      "justificativa": "אִם em fórmulas de juramento equivale a uma negativa implícita ('que tal não aconteça se...'); o português não tem construção equivalente natural, exigindo a proibição explícita. A estrutura condicional do juramento é preservada na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "reproduzir a condicional literal ('se despertardes...') no texto_bv",
+          "motivo": "soa agramatical/ambíguo em português, pois perde o sentido de proibição solene do juramento hebraico"
+        }
+      ]
+    },
+    {
+      "questao": "Segunda pessoa (תָּעִירוּ, תְּעוֹרְרוּ, 2mp) dirigida às 'filhas de Jerusalém' (fem.)",
+      "escolha": "'vocês' / imperativo 'despertem, acordem' (D-0003)",
+      "justificativa": "Discurso humano-humano; embora o hebraico use forma verbal masculina para referente feminino (fenômeno atestado no Cântico), a tradução não marca gênero no verbo em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'vós' (arcaico)",
+          "motivo": "reservado por D-0003 a discurso litúrgico dirigido a Deus"
+        }
+      ]
+    },
+    {
+      "questao": "Gênero gramatical de הָאַהֲבָה (fem.) retomado por 'ele' em português",
+      "escolha": "usar concordância conforme o gênero de 'amor' (masc.) em português, não o do hebraico",
+      "justificativa": "'Amor' é substantivo masculino em português; a concordância de gênero é regida pela língua-alvo, não pelo original (ajuste gramatical, não calque estrutural coberto por ER-0013).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "עַד שֶׁתֶּחְפָּץ ('até que queira') não especifica claramente o sujeito do querer — o próprio amor, ou implicitamente os amantes; a ambiguidade sintática é preservada."
+  ],
+  "justificativa": "Refrão de adjuração recorrente no Cântico (cf. 2:7; 8:4), fechando a primeira unidade poética do capítulo com um apelo solene à paciência do amor.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

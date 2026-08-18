@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.95.4",
+    "livro": "Salmos",
+    "capitulo": 95,
+    "versiculo": 4,
+    "pericope": "Ps.95.1-11"
+  },
+  "texto_bv": "Em sua mão estão as profundezas da terra, e a ele pertencem os cumes dos montes.",
+  "traducao_literal": "Que em sua mão [estão] as profundezas da terra, e os cumes dos montes a ele [pertencem].",
+  "termos_originais": [
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בְּ֭יָדוֹ",
+      "lemma": "b/3027",
+      "morfologia": "HR/Ncbsc/Sp3ms"
+    },
+    {
+      "palavra": "מֶחְקְרֵי",
+      "lemma": "4278",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "אָ֑רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "וְתוֹעֲפ֖וֹת",
+      "lemma": "c/8443",
+      "morfologia": "HC/Ncfpc"
+    },
+    {
+      "palavra": "הָרִ֣ים",
+      "lemma": "2022",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לֽוֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲשֶׁר inicial (relativo, continuação sintática da oração de v3)",
+      "escolha": "Não verter lexicalmente 'que'; iniciar v4 como oração independente no texto publicado",
+      "justificativa": "O hebraico estende a oração relativa de v3 ('Rei grande... que em sua mão'); a segmentação por versículo do português exige autonomia sintática mínima por verso (EDITORIAL §1.3). A traducao_literal preserva o 'que' relativo para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'que em sua mão estão...' mantendo a subordinação no publicado",
+          "motivo": "produziria um verso 4 sintaticamente pendurado do v3, contra a legibilidade exigida em voz alta/TTS (EDITORIAL §1.3)."
+        }
+      ]
+    },
+    {
+      "questao": "מֶחְקְרֵי (H4278, lexema raro de חקר, 'sondar/pesquisar')",
+      "escolha": "'profundezas'",
+      "justificativa": "Capta o sentido de lugares insondáveis/recônditos da terra sem recorrer a arcaísmo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'recônditos'",
+          "motivo": "mais literário, porém menos natural em leitura em voz alta (EDITORIAL §1.3)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "estão (v4a, existência implícita na locução בְּיָדוֹ)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continuação da motivação: poder cósmico do SENHOR sobre profundezas da terra e cumes dos montes; oração relativa hebraica segmentada em sentença independente para legibilidade por versículo, com o relativo preservado na traducao_literal.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

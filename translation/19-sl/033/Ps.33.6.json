@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.33.6",
+    "livro": "Salmos",
+    "capitulo": 33,
+    "versiculo": 6,
+    "pericope": "Ps.33.1-22"
+  },
+  "texto_bv": "Pela palavra do SENHOR foram feitos os céus; pelo sopro da sua boca, todo o exército deles.",
+  "traducao_literal": "Pela palavra de YHWH os céus foram feitos; e pelo sopro de sua boca, todo o exército deles.",
+  "termos_originais": [
+    {
+      "palavra": "בִּדְבַ֣ר",
+      "lemma": "b/1697",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שָׁמַ֣יִם",
+      "lemma": "8064",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "נַעֲשׂ֑וּ",
+      "lemma": "6213 a",
+      "morfologia": "HVNp3cp"
+    },
+    {
+      "palavra": "וּבְר֥וּחַ",
+      "lemma": "c/b/7307",
+      "morfologia": "HC/R/Ncbsc"
+    },
+    {
+      "palavra": "פִּ֝֗יו",
+      "lemma": "6310",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "צְבָאָֽם",
+      "lemma": "6635 a",
+      "morfologia": "HNcbsc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "נַעֲשׂוּ (nifal de עשה, H6213a) — distinção criar/fazer",
+      "escolha": "'foram feitos', não 'foram criados'",
+      "justificativa": "o verbo é עשה ('fazer'), não ברא ('criar', H1254a); a distinção lexical do original é preservada mesmo em contexto cosmogônico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "foram criados",
+          "motivo": "colapsaria a distinção criar/fazer que a BV mantém sistematicamente (ver diretriz do prompt/EDITORIAL)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "foram feitos (verbo elidido na segunda oração, retomado da primeira por paralelismo)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "צָבָא ('exército/hoste') referindo-se aos corpos celestes (sol, lua, estrelas) como 'exército dos céus'; mantido 'exército' por consistência com o sentido militar-cósmico do lexema.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

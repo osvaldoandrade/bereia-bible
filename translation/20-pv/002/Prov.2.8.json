@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.2.8",
+    "livro": "Provérbios",
+    "capitulo": 2,
+    "versiculo": 8,
+    "pericope": "Prov.2.1-22"
+  },
+  "texto_bv": "para guardar as veredas da justiça; e preserva o caminho do seu fiel,",
+  "traducao_literal": "para guardar as veredas do juízo; e o caminho do seu fiel, ele guarda,",
+  "termos_originais": [
+    {
+      "palavra": "לִ֭נְצֹר",
+      "lemma": "l/5341",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "אָרְח֣וֹת",
+      "lemma": "734",
+      "morfologia": "HNcbpc"
+    },
+    {
+      "palavra": "מִשְׁפָּ֑ט",
+      "lemma": "4941",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְדֶ֖רֶךְ",
+      "lemma": "c/1870",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "חסידו",
+      "lemma": "2623",
+      "morfologia": "HAamsc/Sp3ms"
+    },
+    {
+      "palavra": "יִשְׁמֹֽר",
+      "lemma": "8104",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "número gramatical de חסידו — grafia consonantal sem pontuação no packet, morfologia pinada HAamsc/Sp3ms (construto singular + sufixo 3ms, 'seu fiel')",
+      "escolha": "manter singular, seguindo estritamente o morph fornecido no packet pinado",
+      "justificativa": "O packet pinado é a fonte auditável desta tradução e não expõe aparato ketiv/qere; a análise morfológica anexada já commitou a leitura consonantal singular. Adjudicar pela tradição de leitura (Qere plural, amplamente refletida em outras versões) quebraria a rastreabilidade à fonte pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir no plural 'seus fiéis', seguindo o Qere tradicional (חֲסִידָיו)",
+          "motivo": "não é o que o morph pinado no packet declara; exigiria introduzir informação de aparato externo ao packet cego fornecido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "חסידו sem pontuação no packet; leitura singular seguida por vinculação estrita ao morph pinado, mas a tradição Qere largamente reproduzida em outras traduções lê plural ('seus fiéis') — divergência documentada, não resolvida por fonte externa ao packet."
+  ],
+  "justificativa": "מִשְׁפָּט aqui no sentido de 'justiça/direito' (paralelo a אָרְחוֹת); objeto fronteado 'ודרך חסידו' preservado como calque na literal.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

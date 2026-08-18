@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.33.8",
+    "livro": "Salmos",
+    "capitulo": 33,
+    "versiculo": 8,
+    "pericope": "Ps.33.1-22"
+  },
+  "texto_bv": "Toda a terra teme o SENHOR; diante dele tremem todos os habitantes do mundo.",
+  "traducao_literal": "Temerão o SENHOR toda a terra; diante dele tremerão todos os habitantes do orbe.",
+  "termos_originais": [
+    {
+      "palavra": "יִֽירְא֣וּ",
+      "lemma": "3372",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "מֵ֭יְהוָה",
+      "lemma": "m/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הָאָ֑רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "מִמֶּ֥נּוּ",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "יָ֝ג֗וּרוּ",
+      "lemma": "1481 c",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יֹשְׁבֵ֥י",
+      "lemma": "3427",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "תֵבֵֽל",
+      "lemma": "8398",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Referente de מִמֶּנּוּ — a tag morfológica do packet marca Sp1cp ('de nós'), mas o contexto pede 3ms ('dele')",
+      "escolha": "'dele' (3ms), referindo-se a יְהוָה",
+      "justificativa": "מִמֶּנּוּ é grafia que serve tanto para 3ms defectivo quanto para 1cp; o paralelismo com יִירְאוּ מֵיְהוָה ('temerão o SENHOR') e a tradição interpretativa unânime exigem 3ms ('temor dele'), não 'de nós', que quebraria a continuidade do sujeito 'toda a terra/todos os habitantes'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'de nós' (1cp, seguindo literalmente a tag morfológica)",
+          "motivo": "rompe o paralelismo do verso e não é sustentado por nenhuma leitura tradicional conhecida; tratada como singularidade de anotação morfológica, não como variante textual"
+        }
+      ]
+    },
+    {
+      "questao": "Modo dos yiqtol יִירְאוּ/יָגוּרוּ (indicativo vs. jussivo)",
+      "escolha": "indicativo descritivo ('teme'/'tremem'), não exortativo",
+      "justificativa": "o v.9 encadeia com כִּי ('pois'), dando razão para um fato já afirmado, não para uma ordem; leitura indicativa-gnômica se ajusta melhor à sequência lógica do poema.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "jussivo ('tema/temam')",
+          "motivo": "leitura tradicional alternativa (cf. versões que preservam o imperativo/jussivo dos vv.1-3); rejeitada por quebrar a transição para o כִּי explicativo do v.9, mas permanece defensável"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "תֵבֵל ('mundo habitado') traduzido 'mundo'; verso descreve o temor universal como resposta à soberania divina retomada em v.9.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

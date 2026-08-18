@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.46.1",
+    "livro": "Isaías",
+    "capitulo": 46,
+    "versiculo": 1,
+    "pericope": "Isa.46.1-13"
+  },
+  "texto_bv": "Bel se curva; Nebo se dobra. Os ídolos deles ficam sobre os animais e sobre o gado; as cargas que vocês costumavam carregar agora pesam, um fardo para o animal exausto.",
+  "traducao_literal": "Curvou-se Bel, dobrou-se Nebo; foram os ídolos deles para o animal e para o gado; as cargas de vocês, carregadas, [são] um fardo para a cansada.",
+  "termos_originais": [
+    {
+      "palavra": "כָּרַ֥ע",
+      "lemma": "3766",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בֵּל֙",
+      "lemma": "1078",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "קֹרֵ֣ס",
+      "lemma": "7164",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "נְב֔וֹ",
+      "lemma": "5015 b",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הָיוּ֙",
+      "lemma": "1961",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "עֲצַבֵּיהֶ֔ם",
+      "lemma": "6091",
+      "morfologia": "HNcmpc/Sp3mp"
+    },
+    {
+      "palavra": "לַחַיָּ֖ה",
+      "lemma": "l/2416 c",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "וְלַבְּהֵמָ֑ה",
+      "lemma": "c/l/929",
+      "morfologia": "HC/Rd/Ncfsa"
+    },
+    {
+      "palavra": "נְשֻׂאֹתֵיכֶ֣ם",
+      "lemma": "5385",
+      "morfologia": "HVqsfpc/Sp2mp"
+    },
+    {
+      "palavra": "עֲמוּס֔וֹת",
+      "lemma": "6006",
+      "morfologia": "HVqsfpa"
+    },
+    {
+      "palavra": "מַשָּׂ֖א",
+      "lemma": "4853 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לַעֲיֵפָֽה",
+      "lemma": "l/5889",
+      "morfologia": "HR/Aafsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem V-S do hebraico poético (perfeitos כָּרַע/קֹרֵס, não wayyiqtol narrativo)",
+      "escolha": "normalizar para S-V no texto publicado ('Bel se curva'), preservando V-S na literal",
+      "justificativa": "ER-0013 autoriza normalizar calques de ordem quando soam artificiais; embora ER-0011 trate especificamente do wayyiqtol narrativo, o mesmo princípio de naturalidade se aplica à abertura poética do oráculo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado ('Curva-se Bel')",
+          "motivo": "soa arcaizante/traduzido em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "הָיוּ עֲצַבֵּיהֶם לַחַיָּה וְלַבְּהֵמָה — sentido do idiotismo היה לְ",
+      "escolha": "'os ídolos deles ficam sobre os animais e sobre o gado' (idolos tornam-se carga transportada por animais)",
+      "justificativa": "היה לְ = 'tornar-se/ser destinado a'; cenário de queda de Babilônia: estátuas cultuais precisam ser evacuadas em animais de carga, tema que o resto do verso desenvolve (מַשָּׂא, עֲמוּסוֹת).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'pertencem ao animal e ao gado'",
+          "motivo": "perde a ideia de transporte/fardo que o restante do verso desenvolve"
+        }
+      ]
+    },
+    {
+      "questao": "לַעֲיֵפָֽה (adjetivo feminino sem substantivo expresso)",
+      "escolha": "suprir 'animal' como referente implícito, concordando com בְּהֵמָה (fem.)",
+      "justificativa": "adjetivo fica solto no hebraico; o português exige um núcleo nominal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'para a exausta' sem substantivo",
+          "motivo": "agramatical em português sem antecedente claro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "animal (em 'para o animal exausto', concordando com בְּהֵמָה)"
+  ],
+  "ambiguidades_preservadas": [
+    "קֹרֵס é hapax legomenon; o sentido preciso de 'vergar/dobrar-se' é inferido por paralelismo com כרע"
+  ],
+  "justificativa": "Abertura do oráculo antiidolátrico: os deuses babilônios Bel (Marduk) e Nebo, personificados por suas estátuas, colapsam e precisam ser evacuados sobre animais de carga já exaustos — contraste que o capítulo desenvolverá com o Deus que carrega o seu povo (v.3-4).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.32.1",
+    "livro": "Salmos",
+    "capitulo": 32,
+    "versiculo": 1,
+    "pericope": "Ps.32.1-11"
+  },
+  "texto_bv": "De Davi. Um poema de discernimento. Bem-aventurado aquele cuja transgressão é perdoada, cujo pecado é coberto.",
+  "traducao_literal": "De-Davi. Instrução. Bem-aventuranças de carregado-de-transgressão, coberto-de-pecado.",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֗ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מַ֫שְׂכִּ֥יל",
+      "lemma": "4905",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אַשְׁרֵ֥י",
+      "lemma": "835",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "נְֽשׂוּי",
+      "lemma": "5375",
+      "morfologia": "HVqsmsc"
+    },
+    {
+      "palavra": "פֶּ֗שַׁע",
+      "lemma": "6588",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כְּס֣וּי",
+      "lemma": "3680",
+      "morfologia": "HVqsmsc"
+    },
+    {
+      "palavra": "חֲטָאָֽה",
+      "lemma": "2401",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como traduzir מַשְׂכִּיל, rubrica de gênero do salmo?",
+      "escolha": "poema de discernimento",
+      "justificativa": "A raiz שׂכל ('ter discernimento, instruir') retorna em v.8 (אַשְׂכִּילְךָ, 'darei discernimento'); traduzir em vez de transliterar preserva o eco lexical estrutural entre o título e a promessa final.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Masquil'",
+          "motivo": "apaga o eco com v.8 e não tem tradição consolidada em português como 'Selá' tem"
+        },
+        {
+          "opcao": "'salmo contemplativo'",
+          "motivo": "paráfrase mais distante da raiz lexical do que 'poema de discernimento'"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter נְשׂוּי־פֶּשַׁע, particípio passivo qal construto ('carregado de transgressão')?",
+      "escolha": "cuja transgressão é perdoada",
+      "justificativa": "נשׂא no sentido de 'carregar/remover' a culpa é idioma hebraico padrão para perdão (cf. v.5 נָשָׂאתָ, 'tu perdoaste'); o literal 'carregado' inverteria o sentido em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'levantada'",
+          "motivo": "ambíguo, sugere exaltação e não remoção"
+        },
+        {
+          "opcao": "'carregada'",
+          "motivo": "soa como se o peso permanecesse, sentido oposto ao hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "aquele (referente do particípio substantivado)",
+    "é (cópula ausente na oração nominal hebraica)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Título superscrito (ledavid + maskil) integrado ao v.1 conforme numeração massorética; escolha de traduzir מַשְׂכִּיל (não transliterar) para preservar o eco com v.8; particípios passivos נְשׂוּי/כְּסוּי vertidos pelo sentido idiomático de perdão/cobertura de pecado, mantendo a raiz כסה para ecoar v.5.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

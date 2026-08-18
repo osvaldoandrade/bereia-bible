@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jonah.2.7",
+    "livro": "Jonas",
+    "capitulo": 2,
+    "versiculo": 7,
+    "pericope": "Jonah.2.1-11"
+  },
+  "texto_bv": "Desci até as raízes dos montes; a terra fechou as suas trancas atrás de mim para sempre; mas tu, SENHOR, meu Deus, fizeste subir a minha vida da cova.",
+  "traducao_literal": "Desci até as raízes dos montes; a terra, com as suas trancas, atrás de mim para sempre; mas tu fizeste subir a minha vida da cova, SENHOR, meu Deus.",
+  "termos_originais": [
+    {
+      "palavra": "לְקִצְבֵ֤י",
+      "lemma": "l/7095",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "הָרִים֙",
+      "lemma": "2022",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יָרַ֔דְתִּי",
+      "lemma": "3381",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "הָאָ֛רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "בְּרִחֶ֥יהָ",
+      "lemma": "1280",
+      "morfologia": "HNcmpc/Sp3fs"
+    },
+    {
+      "palavra": "בַעֲדִ֖י",
+      "lemma": "1157",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "לְעוֹלָ֑ם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וַתַּ֧עַל",
+      "lemma": "c/5927",
+      "morfologia": "HC/Vhw2ms"
+    },
+    {
+      "palavra": "מִשַּׁ֛חַת",
+      "lemma": "m/7845",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "חַיַּ֖י",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהָֽי",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הָאָרֶץ בְּרִיחֶיהָ בַעֲדִי לְעוֹלָם — oração nominal sem verbo expresso",
+      "escolha": "suprir 'fechou'",
+      "justificativa": "Português exige verbo finito para formar oração completa; o hebraico poético elide o verbo em construção nominal (as trancas 'estavam' atrás de mim).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter nominal ('a terra, suas trancas, atrás de mim para sempre')",
+          "motivo": "agramatical em português corrido; a estrutura nominal é preservada como tal na traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "מִשַּׁחַת — 'cova/sepultura' (raiz שוח) ou 'corrupção/destruição' (raiz שחת)",
+      "escolha": "'cova'",
+      "justificativa": "Sentido espacial mais direto no contexto de descida às raízes dos montes; ambiguidade lexical preservada no registro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'corrupção'",
+          "motivo": "leitura igualmente possível pela raiz שחת, mas menos natural no contexto espacial do versículo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "fechou",
+    "tu"
+  ],
+  "ambiguidades_preservadas": [
+    "מִשַּׁחַת admite 'cova/sepultura' ou 'corrupção/destruição' (duas raízes hebraicas homógrafas); a BV escolhe 'cova' sem excluir a segunda leitura."
+  ],
+  "justificativa": "Ponto mais baixo da descida (raízes dos montes, trancas da terra) seguido da virada de resgate ('mas tu fizeste subir'); oração nominal elíptica suprida com verbo.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

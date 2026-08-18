@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.111.8",
+    "livro": "Salmos",
+    "capitulo": 111,
+    "versiculo": 8,
+    "pericope": "Ps.111.1-10"
+  },
+  "texto_bv": "Firmados estão para todo o sempre, feitos com verdade e retidão.",
+  "traducao_literal": "Firmes para-sempre e-para-sempre, feitos em-verdade e-retidão.",
+  "termos_originais": [
+    {
+      "palavra": "סְמוּכִ֣ים",
+      "lemma": "5564",
+      "morfologia": "HVqsmpa"
+    },
+    {
+      "palavra": "לָעַ֣ד",
+      "lemma": "l/5703",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "לְעוֹלָ֑ם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "עֲ֝שׂוּיִ֗ם",
+      "lemma": "6213 a",
+      "morfologia": "HVqsmpa"
+    },
+    {
+      "palavra": "בֶּאֱמֶ֥ת",
+      "lemma": "b/571",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "וְיָשָֽׁר",
+      "lemma": "c/3477",
+      "morfologia": "HC/Aamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "sujeito elíptico do versículo, continuidade com 'todos os seus preceitos' de Ps.111.7",
+      "escolha": "manter sujeito implícito, sem repetir o substantivo (a concordância verbal em 3ª pessoa do plural já veicula a referência)",
+      "justificativa": "o hebraico também não repete o sujeito (elipse retomando פִּקּוּדָיו do versículo anterior); o português é pro-drop e a oração permanece gramatical sem pronome explícito (EDITORIAL §4: elipse só é suprida quando o português fica agramatical sem isso).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "suprir 'Eles' explícito ('Eles estão firmados...')",
+          "motivo": "desnecessário para a gramaticalidade; o verbo conjugado já veicula pessoa e número"
+        }
+      ]
+    },
+    {
+      "questao": "forma dobrada לָעַד לְעוֹלָם ('para sempre' + 'para sempre', dois sinônimos empilhados)",
+      "escolha": "condensar em 'para todo o sempre' no texto publicado, preservando os dois termos separadamente na traducao_literal",
+      "justificativa": "o hebraico empilha dois sinônimos de eternidade para ênfase; repetir 'para sempre e para sempre' soaria redundante/artificial em português corrido (ER-0013), enquanto 'para todo o sempre' é expressão idiomática equivalente que preserva a ênfase.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'para sempre e para sempre' (duplicação literal)",
+          "motivo": "redundância artificial em português, sem ganho de sentido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "o sujeito gramatical deste versículo (os preceitos de Ps.111.7) depende do contexto anterior e não é reafirmado dentro do próprio versículo, tal como no hebraico"
+  ],
+  "justificativa": "Continuação elíptica de Ps.111.7, descrevendo os preceitos divinos como firmes e feitos com verdade e retidão (retomando o vocabulário de יָשָׁר de Ps.111.1).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.7.8",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 7,
+    "versiculo": 8,
+    "pericope": "Song.7.1-14"
+  },
+  "texto_bv": "Esta tua estatura é semelhante à palmeira, e teus seios, a cachos.",
+  "traducao_literal": "Esta tua estatura assemelha-se à palmeira, e teus seios, a cachos.",
+  "termos_originais": [
+    {
+      "palavra": "זֹ֤את",
+      "lemma": "2063",
+      "morfologia": "HPdxfs"
+    },
+    {
+      "palavra": "קֽוֹמָתֵךְ֙",
+      "lemma": "6967",
+      "morfologia": "HNcfsc/Sp2fs"
+    },
+    {
+      "palavra": "דָּֽמְתָ֣ה",
+      "lemma": "1819",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "לְתָמָ֔ר",
+      "lemma": "l/8558",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְשָׁדַ֖יִךְ",
+      "lemma": "c/7699 a",
+      "morfologia": "HC/Ncmdc/Sp2fs"
+    },
+    {
+      "palavra": "לְאַשְׁכֹּלֽוֹת",
+      "lemma": "l/811",
+      "morfologia": "HR/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "elipse do verbo na segunda oração (וְשָׁדַיִךְ לְאַשְׁכֹּלוֹת, sem verbo próprio)",
+      "escolha": "preservar a elipse também no texto publicado, sem repetir o verbo",
+      "justificativa": "ER-0013 permite normalizar calques quando soarem artificiais; aqui a elipse funciona naturalmente também em português poético, então foi mantida.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir o verbo ('e teus seios são semelhantes a cachos')",
+          "motivo": "desnecessário; o paralelismo elíptico já é natural em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "אַשְׁכֹּלוֹת não especifica o fruto do cacho (uvas, tâmaras); mantido genérico 'cachos', esclarecido pelo contexto de v.9 (הַגֶּפֶן, 'a videira')"
+  ],
+  "justificativa": "Comparação corporal com elipse verbal preservada no publicado por soar natural em português.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

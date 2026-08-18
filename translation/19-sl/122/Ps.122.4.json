@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.122.4",
+    "livro": "Salmos",
+    "capitulo": 122,
+    "versiculo": 4,
+    "pericope": "Ps.122.1-9"
+  },
+  "texto_bv": "Para lá sobem as tribos, as tribos do SENHOR, como testemunho a Israel, para dar graças ao nome do SENHOR.",
+  "traducao_literal": "Que ali subiram tribos, tribos de YAH, testemunho para Israel, para louvar ao nome do SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "שֶׁשָּׁ֨ם",
+      "lemma": "s/8033",
+      "morfologia": "HTr/D"
+    },
+    {
+      "palavra": "עָל֪וּ",
+      "lemma": "5927",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "שְׁבָטִ֡ים",
+      "lemma": "7626",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "שִׁבְטֵי",
+      "lemma": "7626",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יָ֭הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עֵד֣וּת",
+      "lemma": "5715",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְיִשְׂרָאֵ֑ל",
+      "lemma": "l/3478",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "לְ֝הֹד֗וֹת",
+      "lemma": "l/3034",
+      "morfologia": "HR/Vhc"
+    },
+    {
+      "palavra": "לְשֵׁ֣ם",
+      "lemma": "l/8034",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שִׁבְטֵי־יָהּ — forma abreviada do Tetragrama (יָהּ, H3050) normalizada",
+      "escolha": "'as tribos do SENHOR' no texto publicado; 'tribos de YAH' preservado na traducao_literal",
+      "justificativa": "יָהּ é forma abreviada de יהוה; a política de nomes divinos (ER-0002) trata YHWH → SENHOR. Por analogia, e para não introduzir um terceiro nome divino fora da tabela vigente, a forma abreviada é normalizada no publicado, com a forma hebraica preservada na literal para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tribos de Jah' no texto publicado",
+          "motivo": "introduz nome não previsto pela política vigente (NOMES-DIVINOS.md), quebrando a convenção consolidada."
+        }
+      ]
+    },
+    {
+      "questao": "עֵדוּת לְיִשְׂרָאֵל — 'testemunho' vs. 'estatuto/preceito'",
+      "escolha": "'como testemunho a Israel'",
+      "justificativa": "עֵדוּת (H5715) tem valor lexical primário de testemunho/atestado; o sentido de preceito legal (subida às festas, cf. Dt 16:16) é implicação contextual, não o valor lexical direto (TEOLOGIA §2: tradução pelo valor lexical, sem concordismo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'como preceito/estatuto a Israel'",
+          "motivo": "interpretação já especializada do termo; preferida a glosa lexical básica."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "עֵדוּת pode ser lido como 'testemunho' (atestado da fidelidade de Israel) ou, contextualmente, como referência ao preceito de subir a Jerusalém nas festas (Dt 16:16); a BV mantém a glosa lexical 'testemunho'."
+  ],
+  "justificativa": "As tribos, o nome divino (na forma abreviada YAH, normalizada), Israel e a finalidade (dar graças) permanecem explícitos.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

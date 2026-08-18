@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.124.2",
+    "livro": "Salmos",
+    "capitulo": 124,
+    "versiculo": 2,
+    "pericope": "Ps.124.1-8"
+  },
+  "texto_bv": "Se não fosse o SENHOR, que esteve por nós, quando homens se levantaram contra nós,",
+  "traducao_literal": "Se não o SENHOR, que foi para nós, no levantar-se contra nós homem,",
+  "termos_originais": [
+    {
+      "palavra": "לוּלֵ֣י",
+      "lemma": "3884",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שֶׁהָ֣יָה",
+      "lemma": "s/1961",
+      "morfologia": "HTr/Vqp3ms"
+    },
+    {
+      "palavra": "לָ֑נוּ",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "בְּק֖וּם",
+      "lemma": "b/6965 b",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "עָלֵ֣ינוּ",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "אָדָֽם",
+      "lemma": "120",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בְּקוּם עָלֵינוּ אָדָם é infinitivo construto com ב temporal e sujeito nominal posposto ('אָדָם'); como verter?",
+      "escolha": "oração temporal finita 'quando homens se levantaram contra nós' no publicado",
+      "justificativa": "Padrão hebraico de infinitivo construto temporal com sujeito posposto, sem equivalente flexionado natural em português; convertido para subordinada temporal finita, como já praticado em Sl 3:1 (בְּבָרְחוֹ).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "no levantar-se contra nós homem (calque nominal com a ordem original)",
+          "motivo": "soa artificial no texto publicado; preservado na traducao_literal (ER-0013)."
+        }
+      ]
+    },
+    {
+      "questao": "אָדָם é morfologicamente singular coletivo ('homem/humanidade'); como verter o número no publicado?",
+      "escolha": "plural genérico 'homens' no publicado; singular coletivo 'homem' preservado na literal",
+      "justificativa": "אָדָם designa aqui agentes humanos hostis coletivamente; o singular coletivo hebraico soa naturalmente como plural em português contemporâneo sem artigo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "singular 'o homem' no publicado",
+          "motivo": "sugeriria um agressor individual específico, estreitando o sentido coletivo/genérico do original."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "fosse (cópula subjuntiva suprida, repetição da condicional irreal do v.1)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Repetição integral da prótase do v.1 (refrão deliberado), agora completada pela circunstância histórica (ataque humano) que o v.1 havia deixado em suspenso pelo parêntese 'diga Israel'.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

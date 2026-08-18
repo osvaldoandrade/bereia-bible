@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Lam.5.21",
+    "livro": "Lamentações",
+    "capitulo": 5,
+    "versiculo": 21,
+    "pericope": "Lam.5.1-22"
+  },
+  "texto_bv": "Faze-nos voltar a ti, SENHOR, e voltaremos; renova os nossos dias como outrora.",
+  "traducao_literal": "Faze-nos voltar, SENHOR, a ti, e voltaremos; renova nossos dias como antigamente.",
+  "termos_originais": [
+    {
+      "palavra": "הֲשִׁיבֵ֨נוּ",
+      "lemma": "7725",
+      "morfologia": "HVhv2ms/Sp1cp"
+    },
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֵלֶ֨יךָ֙",
+      "lemma": "413",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "ונשוב",
+      "lemma": "c/7725",
+      "morfologia": "HC/Vqi1cp"
+    },
+    {
+      "palavra": "חַדֵּ֥שׁ",
+      "lemma": "2318",
+      "morfologia": "HVpv2ms"
+    },
+    {
+      "palavra": "יָמֵ֖ינוּ",
+      "lemma": "3117",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "כְּקֶֽדֶם",
+      "lemma": "k/6924 a",
+      "morfologia": "HR/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ketiv ונשוב (sem he final) vs leitura cohortativa esperada (ונשובה)",
+      "escolha": "traduzir como futuro/resultado simples 'e voltaremos'",
+      "justificativa": "o packet lematiza como imperfeito 1cp (HC/Vqi1cp), não marcando coortativo; a forma consonantal ketiv já corresponde ao imperfeito simples",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'para que voltemos' (valor final/coortativo)",
+          "motivo": "leitura tradicional (qere ונשובה) plausível, mas não é a forma efetivamente lematizada no packet pinado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A oração הֲשִׁיבֵנוּ...וְנָשׁוּבָה pode ser lida como resultado ('faze-nos voltar, e [assim] voltaremos') ou como propósito ('faze-nos voltar, para que voltemos'); ambas leituras são gramaticalmente sustentáveis."
+  ],
+  "justificativa": "Súplica final de restauração retoma o vocabulário de 'dias' (יָמֵינוּ) do v.20, invertendo a queixa em pedido positivo.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

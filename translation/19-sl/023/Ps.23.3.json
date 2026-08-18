@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.23.3",
+    "livro": "Salmos",
+    "capitulo": 23,
+    "versiculo": 3,
+    "pericope": "Ps.23.1-6"
+  },
+  "texto_bv": "Ele restaura a minha alma; guia-me por veredas de justiça, por causa do seu nome.",
+  "traducao_literal": "Minha alma, ele restaura; ele me guia por veredas de justiça, por causa do seu nome.",
+  "termos_originais": [
+    {
+      "palavra": "נַפְשִׁ֥י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "יְשׁוֹבֵ֑ב",
+      "lemma": "7725",
+      "morfologia": "HVoi3ms"
+    },
+    {
+      "palavra": "יַֽנְחֵ֥נִי",
+      "lemma": "5148",
+      "morfologia": "HVhi3ms/Sp1cs"
+    },
+    {
+      "palavra": "בְמַעְגְּלֵי",
+      "lemma": "b/4570",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "צֶ֝֗דֶק",
+      "lemma": "6664",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְמַ֣עַן",
+      "lemma": "4616",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "שְׁמֽוֹ",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Objeto fronteado נַפְשִׁי antes do verbo יְשׁוֹבֵב (calque de ênfase)",
+      "escolha": "Normalizar para ordem SVO no publicado: 'Ele restaura a minha alma'",
+      "justificativa": "ER-0013: calques estruturais (aqui, fronteamento enfático do objeto) são preservados na traducao_literal e normalizados no publicado quando soariam artificiais em português corrente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Minha alma ele restaura' no publicado",
+          "motivo": "Preserva a ênfase hebraica, mas soa arcaizante em prosa poética contemporânea; mantido apenas na literal."
+        }
+      ]
+    },
+    {
+      "questao": "לְמַעַן שְׁמוֹ — tradução da locução",
+      "escolha": "'por causa do seu nome'",
+      "justificativa": "לְמַעַן indica causa/finalidade ('por causa de/para que'); a locução escolhida é clara e evita ambiguidade de registro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'por amor do seu nome' (tradição Almeida)",
+          "motivo": "Em português contemporâneo, 'amor' tende a soar romântico fora do registro litúrgico tradicional, comprometendo a clareza (EDITORIAL §1.3)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (2×, sujeito retomado nos dois verbos)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "בְמַעְגְּלֵי־צֶדֶק ('veredas de justiça/retidão') mantido em sentido concreto-moral padrão; nenhuma variante no aparato do packet.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

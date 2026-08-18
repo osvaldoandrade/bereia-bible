@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.82.4",
+    "livro": "Salmos",
+    "capitulo": 82,
+    "versiculo": 4,
+    "pericope": "Ps.82.1-8"
+  },
+  "texto_bv": "Livrem o fraco e o pobre; salvem-nos da mão dos ímpios.",
+  "traducao_literal": "Livrai o fraco e o pobre; da mão de ímpios salvai.",
+  "termos_originais": [
+    {
+      "palavra": "פַּלְּטוּ",
+      "lemma": "6403",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "דַ֥ל",
+      "lemma": "1800",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְאֶבְי֑וֹן",
+      "lemma": "c/34",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "מִיַּ֖ד",
+      "lemma": "m/3027",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "רְשָׁעִ֣ים",
+      "lemma": "7563",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "הַצִּֽילוּ",
+      "lemma": "5337",
+      "morfologia": "HVhv2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Distinção lexical entre רָשׁ (v3, glosado 'necessitado') e אֶבְיוֹן (v4)",
+      "escolha": "אֶבְיוֹן → pobre",
+      "justificativa": "Lemas hebraicos distintos no mesmo campo semântico de pobreza (דַל, יָתוֹם, עָנִי, רָשׁ, אֶבְיוֹן); glosas em português distintas evitam colapsar sinônimos hebraicos diferentes em uma única palavra, preservando rastreabilidade lexical por lema.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "necessitado para ambos (רָשׁ e אֶבְיוֹן)",
+          "motivo": "apaga a distinção lexical hebraica entre lemas diferentes"
+        }
+      ]
+    },
+    {
+      "questao": "Objeto elidido de הַצִּילוּ",
+      "escolha": "salvem-nos (objeto suprido)",
+      "justificativa": "Português exige objeto explícito para o verbo transitivo 'salvar'; o hebraico permite elisão por retomada do objeto da oração anterior (דַל וְאֶבְיוֹן).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "salvem (sem objeto)",
+          "motivo": "agramatical em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "-nos (objeto elidido de הַצִּילוּ, retomando 'o fraco e o pobre')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Segue a série de imperativos de vv.3-4, com quiasmo verbo-objeto/objeto-verbo preservado na traducao_literal (ER-0013).",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

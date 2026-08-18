@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.17.3",
+    "livro": "Salmos",
+    "capitulo": 17,
+    "versiculo": 3,
+    "pericope": "Ps.17.1-15"
+  },
+  "texto_bv": "Provaste o meu coração, visitaste-me de noite; refinaste-me e nada acharás; propus que a minha boca não transgredisse.",
+  "traducao_literal": "Provaste meu coração, visitaste noite; refinaste-me, não acharás; propus, não passa minha boca.",
+  "termos_originais": [
+    {
+      "palavra": "בָּ֘חַ֤נְתָּ",
+      "lemma": "974",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "לִבִּ֨י",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "פָּ֘קַ֤דְתָּ",
+      "lemma": "6485 a",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "לַּ֗יְלָה",
+      "lemma": "3915",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "צְרַפְתַּ֥נִי",
+      "lemma": "6884",
+      "morfologia": "HVqp2ms/Sp1cs"
+    },
+    {
+      "palavra": "בַל",
+      "lemma": "1077",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תִּמְצָ֑א",
+      "lemma": "4672",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "זַ֝מֹּתִ֗י",
+      "lemma": "2161",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "בַּל",
+      "lemma": "1077",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יַעֲבָר",
+      "lemma": "5674 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "פִּֽי",
+      "lemma": "6310",
+      "morfologia": "HNcmsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "זַמֹּתִי — leitura verbal (H2161, Qal perfeito 1cs 'propus/determinei') vs. leitura nominal tradicional ('meu propósito/plano')",
+      "escolha": "verbo, 'propus [que]'",
+      "justificativa": "a morfologia do packet marca explicitamente HVqp1cs (perfeito verbal), não substantivo; 'propus' introduz a oração completiva seguinte (בַּל יַעֲבָר פִּי, 'que minha boca não transgrida').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'meu propósito/plano' (leitura nominal tradicional em algumas versões)",
+          "motivo": "não sustentada pela morfologia verbal fornecida no packet pinado"
+        }
+      ]
+    },
+    {
+      "questao": "תִּמְצָא — imperfeito 2ms sem objeto explícito",
+      "escolha": "'nada acharás', suprindo 'nada' como objeto",
+      "justificativa": "o verbo transitivo צְרַפְתַּנִי...תִּמְצָא exige objeto em português; 'nada' torna explícito o resultado negativo do exame (Deus não encontra falha).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "nada (objeto de 'acharás')",
+    "que (introduzindo a completiva de 'propus')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Série de quatro verbos de exame divino (provar/visitar/refinar/não achar) seguida da afirmação de propósito do salmista; ordem hebraica preservada na literal.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

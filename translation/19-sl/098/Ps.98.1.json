@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.98.1",
+    "livro": "Salmos",
+    "capitulo": 98,
+    "versiculo": 1,
+    "pericope": "Ps.98.1-9"
+  },
+  "texto_bv": "Salmo. Cantem ao SENHOR um cântico novo, porque ele fez maravilhas; a sua mão direita e o seu braço santo lhe trouxeram salvação.",
+  "traducao_literal": "Salmo. Cantai ao SENHOR cântico novo, porque maravilhas fez; salvou-lhe sua destra e o braço de sua santidade.",
+  "termos_originais": [
+    {
+      "palavra": "מִזְמ֡וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "שִׁ֤ירוּ",
+      "lemma": "7891",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "לַֽיהוָ֨ה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "שִׁ֣יר",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "חָ֭דָשׁ",
+      "lemma": "2319",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "נִפְלָא֣וֹת",
+      "lemma": "6381",
+      "morfologia": "HVNrfpa"
+    },
+    {
+      "palavra": "עָשָׂ֑ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "הוֹשִֽׁיעָה",
+      "lemma": "3467",
+      "morfologia": "HVhp3fs"
+    },
+    {
+      "palavra": "לּ֥וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "יְ֝מִינ֗וֹ",
+      "lemma": "3225",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "וּזְר֥וֹעַ",
+      "lemma": "c/2220",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "קָדְשֽׁוֹ",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro do imperativo שִׁירוּ (2mp)",
+      "escolha": "cantem (registro você/vocês)",
+      "justificativa": "O salmo convoca a congregação humana a cantar; não é oração dirigida a Deus, então D-0003 aplica o registro 'vocês', reservando 'tu' apenas para discurso ao próprio Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "cantai",
+          "motivo": "arcaísmo fora do vocativo litúrgico, proibido por EDITORIAL §1.2"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem V-S de הוֹשִׁיעָה־לּוֹ יְמִינוֹ וּזְרוֹעַ קָדְשׁוֹ",
+      "escolha": "normalizar para S-V no publicado ('a sua mão direita... lhe trouxeram salvação')",
+      "justificativa": "Doutrina do calque ER-0013: o V-S poético hebraico é preservado apenas na traducao_literal; o publicado segue a sintaxe natural do português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado ('salvou-lhe a mão direita...')",
+          "motivo": "soa arcaizante/traduzido em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "Tratamento da superscrição מִזְמוֹר",
+      "escolha": "manter como frase inicial do próprio v.1 ('Salmo.')",
+      "justificativa": "O packet não isola a superscrição em OSIS próprio; ela integra o v.1 tal como veio na fonte pinada, e omiti-la apagaria léxico presente na fonte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir a palavra",
+          "motivo": "apagaria informação lexical presente no texto-fonte sem justificativa textual"
+        }
+      ]
+    },
+    {
+      "questao": "Construct chain זְרוֹעַ קָדְשׁוֹ",
+      "escolha": "'seu braço santo' (adjetivização) no publicado; 'o braço de sua santidade' na literal",
+      "justificativa": "Construções genitivas hebraicas de qualidade equivalem a adjetivos em português corrente; a literal preserva a forma nominal do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'braço da sua santidade' também no publicado",
+          "motivo": "soa helenizado/artificial em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito explicitado de 'fez', opcional pelo pro-drop, inserido por clareza)"
+  ],
+  "ambiguidades_preservadas": [
+    "הוֹשִׁיעָה pode ser lido como 'trouxe salvação' (sentido religioso amplo) ou 'obteve vitória' (sentido militar concreto); a glosa 'salvação' não exclui o sentido de vitória guerreira"
+  ],
+  "justificativa": "Salmo hínico de louvor com convocação imperativa (2mp) em registro 'vocês' (D-0003). O V-S poético é normalizado a S-V no publicado (ER-0013) e preservado na literal. חֶסֶד/יָשַׁע ainda não têm entrada fixada no lexicon.json.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

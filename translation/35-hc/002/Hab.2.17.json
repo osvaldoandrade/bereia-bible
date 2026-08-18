@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hab.2.17",
+    "livro": "Habacuque",
+    "capitulo": 2,
+    "versiculo": 17,
+    "pericope": "Hab.2.1-20"
+  },
+  "texto_bv": "Porque a violência feita ao Líbano cobrirá você, e a destruição dos animais os aterrorizará, por causa do sangue humano e da violência feita à terra, à cidade e a todos os que nela habitam.",
+  "traducao_literal": "Porque a violência do Líbano te cobrirá, e a destruição dos animais as aterrorizará, por causa dos sangues do homem e da violência da terra, cidade e todos os que habitam nela.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "חֲמַ֤ס",
+      "lemma": "2555",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "לְבָנוֹן֙",
+      "lemma": "3844",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יְכַסֶּ֔ךָּ",
+      "lemma": "3680",
+      "morfologia": "HVpi3ms/Sp2ms"
+    },
+    {
+      "palavra": "וְשֹׁ֥ד",
+      "lemma": "c/7701",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "בְּהֵמ֖וֹת",
+      "lemma": "929",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "יְחִיתַ֑ן",
+      "lemma": "2865",
+      "morfologia": "HVhi3ms/Sp3fp"
+    },
+    {
+      "palavra": "מִדְּמֵ֤י",
+      "lemma": "m/1818",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "אָדָם֙",
+      "lemma": "120",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וַחֲמַס",
+      "lemma": "c/2555",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "אֶ֔רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "קִרְיָ֖ה",
+      "lemma": "7151",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "יֹ֥שְׁבֵי",
+      "lemma": "3427",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "בָֽהּ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְחִיתַן (Hiphil 3ms + sufixo objeto 3fp, 'aterrorizará elas')",
+      "escolha": "manter o pronome de objeto plural sem forçar referente específico ('os aterrorizará')",
+      "justificativa": "O referente gramatical do sufixo feminino plural não é claro no cotexto imediato (crux reconhecida); a BV preserva a estrutura sem resolver artificialmente para 2ª pessoa ('te aterrorizará'), leitura adotada por algumas traduções modernas mas não exigida pela morfologia (HVhi3ms/Sp3fp conforme o packet).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a destruição dos animais vai aterrorizar você'",
+          "motivo": "ajustaria o sufixo 3fp para 2ms sem base morfológica no packet pinado"
+        }
+      ]
+    },
+    {
+      "questao": "Refrão idêntico ao v.8 (מִדְּמֵי אָדָם וַחֲמַס־אֶרֶץ...)",
+      "escolha": "tradução idêntica à do v.8",
+      "justificativa": "Consistência terminológica para o refrão intencional entre os dois versos (ER-0011/EDITORIAL §11).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "feita (mesma justificativa do v.8)"
+  ],
+  "ambiguidades_preservadas": [
+    "O referente de 'os' (3fp hebraico) em 'a destruição dos animais os aterrorizará' permanece indeterminado no TM — pode remeter a entidades femininas plurais não explícitas no cotexto imediato (cidades? nações?)."
+  ],
+  "justificativa": "Fecho do terceiro 'ai' (construir com sangue), retomando o refrão de retribuição do v.8.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

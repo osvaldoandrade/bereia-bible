@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.15.4",
+    "livro": "Salmos",
+    "capitulo": 15,
+    "versiculo": 4,
+    "pericope": "Ps.15.1-5"
+  },
+  "texto_bv": "O réprobo é desprezível a seus olhos, mas ele honra os que temem o SENHOR. Jura em seu próprio prejuízo e não muda de ideia.",
+  "traducao_literal": "Desprezado, a seus olhos, é o rejeitado; e aos que temem o SENHOR, honra. Jurou para o mal e não mudou.",
+  "termos_originais": [
+    {
+      "palavra": "נִבְזֶ֤ה",
+      "lemma": "959",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "בְּֽעֵ֘ינָ֤יו",
+      "lemma": "b/5869 a",
+      "morfologia": "HR/Ncbdc/Sp3ms"
+    },
+    {
+      "palavra": "נִמְאָ֗ס",
+      "lemma": "3988 a",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "יִרְאֵ֣י",
+      "lemma": "3373",
+      "morfologia": "HAampc"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יְכַבֵּ֑ד",
+      "lemma": "3513",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "נִשְׁבַּ֥ע",
+      "lemma": "7650",
+      "morfologia": "HVNp3ms"
+    },
+    {
+      "palavra": "לְ֝הָרַ֗ע",
+      "lemma": "l/7489 a",
+      "morfologia": "HR/Vhc"
+    },
+    {
+      "palavra": "וְלֹ֣א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יָמִֽר",
+      "lemma": "4171",
+      "morfologia": "HVhi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Doublet נִבְזֶה...נִמְאָס (dois particípios nifal sinônimos) com predicado antes do sujeito, e referente pronominal de בְּעֵינָיו ('a seus olhos')",
+      "escolha": "'O réprobo é desprezível a seus olhos' — referente de 'seus olhos' = o justo descrito no salmo (o sujeito implícito de todo o v.1-4)",
+      "justificativa": "O contraste antitético com a cláusula seguinte ('honra os que temem o SENHOR') indica que o sujeito é o mesmo justo: ele despreza o réprobo e honra os tementes a Deus; ordem hebraica predicado-sujeito normalizada no publicado (ER-0013)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a seus próprios olhos' (o réprobo se despreza a si mesmo)",
+          "motivo": "leitura minoritária, menos coerente com o paralelismo antitético do verso; preservada como ambiguidade no registro"
+        }
+      ]
+    },
+    {
+      "questao": "Fronteamento do objeto אֶת־יִרְאֵי יְהוָה antes do verbo יְכַבֵּד (ordem O-V)",
+      "escolha": "preservar O-V na tradução literal; normalizar para S-V-O no texto publicado",
+      "justificativa": "Mesma doutrina do calque aplicada nos demais fronteamentos do capítulo (ER-0013)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter o fronteamento no publicado ('e aos que temem o SENHOR honra')",
+          "motivo": "soa arcaico/traduzido em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "לְהָרַע ('para o mal/prejuízo'), infinitivo hifil sem referente reflexivo explícito",
+      "escolha": "'jura em seu próprio prejuízo' — suprir o sentido reflexivo",
+      "justificativa": "Crux clássico do verso: descreve o juramento cujo cumprimento prejudica o próprio jurador, que ainda assim o mantém; sem o reflexivo suprido, a frase soaria ambígua ou sugeriria intenção de prejudicar terceiros, invertendo o sentido moral pretendido",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'jura para causar mal' (sem reflexivo)",
+          "motivo": "sugere juramento com intenção de prejudicar outra pessoa, sentido oposto ao pretendido pelo texto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "próprio"
+  ],
+  "ambiguidades_preservadas": [
+    "Referente pronominal de בְּעֵינָיו pode ser lido como 'a seus próprios olhos' (o réprobo desprezado por si mesmo) em vez de 'aos olhos do justo' — leitura majoritária adotada no texto publicado, alternativa registrada"
+  ],
+  "justificativa": "Verso de contraste: o justo despreza o réprobo mas honra os tementes ao SENHOR, e cumpre o juramento mesmo quando lhe custa. Dois fronteamentos O-V normalizados no publicado; sentido reflexivo de לְהָרַע suprido para preservar o sentido consagrado do crux.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

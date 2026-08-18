@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Amos.3.11",
+    "livro": "Amós",
+    "capitulo": 3,
+    "versiculo": 11,
+    "pericope": "Amos.3.1-15"
+  },
+  "texto_bv": "Portanto, assim diz o Senhor DEUS: um inimigo cercará a terra; ele tirará de você a sua força, e os seus palácios serão saqueados.",
+  "traducao_literal": "Portanto assim disse Senhor DEUS adversário e-ao-redor a-terra e-fará-descer de-ti força-tua e-serão-saqueados palácios-teus.",
+  "termos_originais": [
+    {
+      "palavra": "לָכֵ֗ן",
+      "lemma": "l/3651 c",
+      "morfologia": "HR/D"
+    },
+    {
+      "palavra": "כֹּ֤ה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אָמַר֙",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֲדֹנָ֣י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְהוִ֔ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צַ֖ר",
+      "lemma": "6862 c",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּסְבִ֣יב",
+      "lemma": "c/5439",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "הָאָ֑רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "וְהוֹרִ֤ד",
+      "lemma": "c/3381",
+      "morfologia": "HC/Vhq3ms"
+    },
+    {
+      "palavra": "מִמֵּךְ֙",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "עֻזֵּ֔ךְ",
+      "lemma": "5797",
+      "morfologia": "HNcmsc/Sp2fs"
+    },
+    {
+      "palavra": "וְנָבֹ֖זּוּ",
+      "lemma": "c/962",
+      "morfologia": "HC/VNq3cp"
+    },
+    {
+      "palavra": "אַרְמְנוֹתָֽיִךְ",
+      "lemma": "759",
+      "morfologia": "HNcmpc/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "צַר וּסְבִיב הָאָרֶץ — cláusula nominal elíptica ('um adversário, e ao redor da terra'), crux textual",
+      "escolha": "suprir o verbo 'cercará', resolvendo a elipse pelo paralelismo com o verbo finito seguinte (וְהוֹרִיד)",
+      "justificativa": "Construção nominal difícil; a leitura majoritária trata צַר como sujeito de uma ação de cerco implícita, continuada gramaticalmente pelo וְהוֹרִיד que segue.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir sem verbo suprido ('um adversário e ao redor a terra')",
+          "motivo": "agramatical em português; o calque sem verbo é preservado apenas na traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "Pronomes de 2fs (מִמֵּךְ, עֻזֵּךְ, אַרְמְנוֹתָיִךְ) dirigidos à cidade personificada (Samaria), fora do par você/tu regulado por ER-0003 (humano-humano vs. oração a Deus)",
+      "escolha": "'você', por extensão da política vigente ao invés de introduzir um registro novo",
+      "justificativa": "ER-0003 não prevê explicitamente apóstrofe a cidade personificada; mantém-se a mesma convenção do resto do livro (SENHOR fala a Israel/Samaria) em vez de abrir exceção poética não registrada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tu' (apóstrofe poética arcaizante)",
+          "motivo": "EDITORIAL §1.2/ER-0003 restringe 'tu' à oração dirigida a Deus; estender ao poético criaria exceção sem base na regra vigente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "cercará (verbo suprido para a cláusula nominal elíptica צַר וּסְבִיב הָאָרֶץ)"
+  ],
+  "ambiguidades_preservadas": [
+    "צַר וּסְבִיב הָאָרֶץ é sintaticamente elíptico; a leitura de que um único inimigo cercará toda a terra (e não múltiplos adversários pontuais) é majoritária mas não certa."
+  ],
+  "justificativa": "Sentença formal introduzida por לָכֵן ('portanto'): a fortaleza acumulada (v.10) será revertida em cerco e saque; verso textualmente elíptico (crux), traduzido com verbo suprido.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

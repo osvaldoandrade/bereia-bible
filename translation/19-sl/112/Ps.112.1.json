@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.112.1",
+    "livro": "Salmos",
+    "capitulo": 112,
+    "versiculo": 1,
+    "pericope": "Ps.112.1-10"
+  },
+  "texto_bv": "Louvai o SENHOR! Feliz é o homem que teme o SENHOR, que muito se compraz nos seus mandamentos.",
+  "traducao_literal": "Louvai Yah. Felicidades de homem temente a SENHOR; em seus mandamentos compraz-se muito.",
+  "termos_originais": [
+    {
+      "palavra": "הַ֥לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֨הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אַשְׁרֵי",
+      "lemma": "835",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אִ֭ישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יָרֵ֣א",
+      "lemma": "3372",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּ֝מִצְוֺתָ֗יו",
+      "lemma": "b/4687",
+      "morfologia": "HR/Ncfpc/Sp3ms"
+    },
+    {
+      "palavra": "חָפֵ֥ץ",
+      "lemma": "2654 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "מְאֹֽד",
+      "lemma": "3966",
+      "morfologia": "HD"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָהּ, forma poética abreviada do Tetragrama, na fórmula הַלְלוּ יָהּ que abre o salmo",
+      "escolha": "SENHOR (mesmo referente de יהוה, política ER-0002), reaplicando a convenção de Ps.111.1",
+      "justificativa": "יָהּ é a mesma forma abreviada já tratada em Ps.111.1; manter a mesma convenção garante consistência referencial entre os dois salmos irmãos (111-112) e auditabilidade via lemma.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Aleluia (interjeição intraduzida)",
+          "motivo": "ER-0002 rejeita formas transliteradas/intraduzidas para o mesmo referente divino; romperia a convenção já fixada em Ps.111.1"
+        }
+      ]
+    },
+    {
+      "questao": "אַשְׁרֵי, abertura do versículo com o mesmo idiomatismo de Ps.1.1",
+      "escolha": "Feliz é",
+      "justificativa": "Reaplica a decisão lexical já fixada em Ps.1.1 (registro contemporâneo formal-neutro, EDITORIAL §1.2), mantendo consistência terminológica ao longo do Saltério.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Bem-aventurado",
+          "motivo": "registro litúrgico mais elevado, rejeitado em Ps.1.1 por ser menos neutro"
+        }
+      ]
+    },
+    {
+      "questao": "ordem fronteada בְּמִצְוֺתָיו חָפֵץ מְאֹד (objeto preposicionado antes do verbo)",
+      "escolha": "preservar a topicalização no texto publicado: 'que muito se compraz nos seus mandamentos'",
+      "justificativa": "a ordem fronteada soa natural em registro hínico português (mesmo princípio de Ps.111.3/111.7); ER-0013 só exige normalizar quando soar artificial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele muito deseja seus mandamentos' (ordem verbo-objeto)",
+          "motivo": "perderia a ênfase inicial do hebraico sem ganho de naturalidade"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula de 'Feliz é o homem')",
+    "que (2x, introduzindo as duas orações atributivas sem אֲשֶׁר explícito no hebraico, que usa aposição direta)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo, irmão acróstico de Ps 111 (mesma fórmula הַלְלוּ יָהּ); estrutura de aposição dupla (temente + comprazido) sem conjunção relativa explícita no hebraico.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

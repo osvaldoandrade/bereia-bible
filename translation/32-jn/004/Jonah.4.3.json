@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jonah.4.3",
+    "livro": "Jonas",
+    "capitulo": 4,
+    "versiculo": 3,
+    "pericope": "Jonah.4.1-11"
+  },
+  "texto_bv": "E agora, SENHOR, tira, eu te peço, a minha vida de mim, porque a minha morte é melhor do que a minha vida.",
+  "traducao_literal": "E agora, SENHOR, toma, peço, a minha alma de mim, porque boa é minha morte mais que minha vida.",
+  "termos_originais": [
+    {
+      "palavra": "וְעַתָּ֣ה",
+      "lemma": "c/6258",
+      "morfologia": "HC/D"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "קַח",
+      "lemma": "3947",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "נָ֥א",
+      "lemma": "4994",
+      "morfologia": "HTe"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "נַפְשִׁ֖י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "מִמֶּ֑נִּי",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "כִּ֛י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ט֥וֹב",
+      "lemma": "2896 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "מוֹתִ֖י",
+      "lemma": "4194",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "מֵחַיָּֽי",
+      "lemma": "m/2416 e",
+      "morfologia": "HR/Ncmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Rendição de נֶפֶשׁ (H5315) — 'minha nefesh' num pedido de morte.",
+      "escolha": "'a minha vida'",
+      "justificativa": "Em contexto de pedido de morte, נֶפֶשׁ funciona como 'vida/ser', não como 'alma' em sentido dualista; evita importar categoria teológica anacrônica (TEOLOGIA §2.4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'minha alma'",
+          "motivo": "tradicional, mas sugere dualismo alma/corpo estranho ao hebraico; mantida na traducao_literal por doutrina do calque"
+        }
+      ]
+    },
+    {
+      "questao": "Partícula נָא (súplica cortês) sem correspondente formal em português.",
+      "escolha": "'eu te peço' suprido",
+      "justificativa": "נָא marca súplica; português exige verbo/locução explícita — listado em palavras_supridas conforme EDITORIAL §4.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir a partícula",
+          "motivo": "perde o tom suplicante do imperativo, relevante ao clímax emocional da oração"
+        }
+      ]
+    },
+    {
+      "questao": "Comparativo טוֹב...מִן (predicado fronteado no hebraico: 'boa é minha morte mais que minha vida').",
+      "escolha": "Normalizar para ordem S-V no publicado ('a minha morte é melhor do que a minha vida'), preservando a ordem hebraica na literal.",
+      "justificativa": "Doutrina do calque (ER-0013): a ordem predicativa hebraica soa artificial em português corrido; o publicado normaliza.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "eu te peço"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Clímax da queixa de Jonas: pede a própria morte, ecoando o padrão de lamento profético (cf. Nm 11:15; 1Rs 19:4). A cláusula 'a minha morte é melhor do que a minha vida' recorre verbatim em 4:8, refrão mantido idêntico nas duas ocorrências.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

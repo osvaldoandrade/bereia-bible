@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.102.10",
+    "livro": "Salmos",
+    "capitulo": 102,
+    "versiculo": 10,
+    "pericope": "Ps.102.1-29"
+  },
+  "texto_bv": "Tenho comido cinza como se fosse pão, e misturo a minha bebida com lágrimas.",
+  "traducao_literal": "Porque cinza como pão comi, e a minha bebida com choro misturei.",
+  "termos_originais": [
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֵ֭פֶר",
+      "lemma": "665",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כַּלֶּ֣חֶם",
+      "lemma": "k/3899",
+      "morfologia": "HRd/Ncbsa"
+    },
+    {
+      "palavra": "אָכָ֑לְתִּי",
+      "lemma": "398",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "וְ֝שִׁקֻּוַ֗י",
+      "lemma": "c/8249",
+      "morfologia": "HC/Ncmpc/Sp1cs"
+    },
+    {
+      "palavra": "בִּבְכִ֥י",
+      "lemma": "b/1065",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "מָסָֽכְתִּי",
+      "lemma": "4537",
+      "morfologia": "HVqp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "כִּי־אֵפֶר כַּלֶּחֶם אָכָלְתִּי — ordem objeto + comparação antepostos ao verbo (calque hebraico)",
+      "escolha": "normalizar para ordem verbo-objeto-comparação no publicado: 'tenho comido cinza como se fosse pão'",
+      "justificativa": "ER-0013: a ordem hebraica é preservada na literal; o publicado reordena para sintaxe natural do português, evitando a sequência 'como...como' foneticamente ambígua que a ordem literal produziria em voz alta (EDITORIAL §1.3)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'como cinza como se fosse pão' (ordem literal)",
+          "motivo": "produz ambiguidade fonética entre 'como' verbo e 'como' conjunção, prejudicando leitura em voz alta/TTS"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Imagem de luto: cinza (símbolo de lamentação) misturada à comida, lágrimas misturadas à bebida.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.62.2",
+    "livro": "Salmos",
+    "capitulo": 62,
+    "versiculo": 2,
+    "pericope": "Ps.62.1-13"
+  },
+  "texto_bv": "Somente em Deus a minha alma se aquieta; dele vem a minha salvação.",
+  "traducao_literal": "Somente, para Deus, silêncio [é] a minha alma; dele, a minha salvação.",
+  "termos_originais": [
+    {
+      "palavra": "אַ֣ךְ",
+      "lemma": "389",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֱ֭לֹהִים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "דּֽוּמִיָּ֣ה",
+      "lemma": "1747",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "נַפְשִׁ֑י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "מִ֝מֶּ֗נּוּ",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "יְשׁוּעָתִֽי",
+      "lemma": "3444",
+      "morfologia": "HNcfsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Referente de מִמֶּנּוּ (etiquetado no packet como HR/Sp1cp, 'de nós')",
+      "escolha": "dele (referindo-se a Deus, 3ms)",
+      "justificativa": "מִמֶּנּוּ é homógrafo consonantal entre 'dele' (min+3ms) e 'de nós' (min+1cp); o contexto de 1ª pessoa do singular ('minha alma', 'minha salvação') e o paralelo do v.3 ('ele é minha rocha') exigem leitura 3ms. Gramática e contexto imediato decidem (TEOLOGIA §1.3).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "de nós (seguindo a etiqueta morfológica literal HR/Sp1cp)",
+          "motivo": "quebra a coesão de pessoa gramatical do salmo, que é 1ª pessoa do singular do início ao fim da estrofe"
+        }
+      ]
+    },
+    {
+      "questao": "Verbalização da oração nominal דּוּמִיָּה נַפְשִׁי",
+      "escolha": "a minha alma se aquieta (verbo suprido)",
+      "justificativa": "Português exige verbo finito; דּוּמִיָּה é substantivo predicativo ('silêncio/quietude'), sem verbo no hebraico (oração nominal).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "a minha alma [é] silêncio",
+          "motivo": "calque nominal agramatical em português corrido; preservado apenas na traducao_literal (ER-0013)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "se aquieta (verbo suprido para a oração nominal דּוּמִיָּה נַפְשִׁי)",
+    "vem (verbo suprido para a oração nominal מִמֶּנּוּ יְשׁוּעָתִי)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abre o refrão estrutural אַךְ ('somente/só'), que recorre 6x no salmo (vv.2,3,5,6,7,10) e é vertido de forma consistente em todas as ocorrências para preservar a arquitetura retórica do poema.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

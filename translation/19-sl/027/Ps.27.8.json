@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.27.8",
+    "livro": "Salmos",
+    "capitulo": 27,
+    "versiculo": 8,
+    "pericope": "Ps.27.1-14"
+  },
+  "texto_bv": "Por ti diz o meu coração: \"Busquem o meu rosto\"; o teu rosto, SENHOR, eu buscarei.",
+  "traducao_literal": "A ti disse meu coração: Buscai minha face; tua face, SENHOR, buscarei.",
+  "termos_originais": [
+    {
+      "palavra": "לְךָ֤",
+      "lemma": "l",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "אָמַ֣ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לִ֭בִּי",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "בַּקְּשׁ֣וּ",
+      "lemma": "1245",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "פָנָ֑י",
+      "lemma": "6440",
+      "morfologia": "HNcbpc/Sp1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "פָּנֶ֖יךָ",
+      "lemma": "6440",
+      "morfologia": "HNcbpc/Sp2ms"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֲבַקֵּֽשׁ",
+      "lemma": "1245",
+      "morfologia": "HVpi1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "estrutura de לְךָ אָמַר לִבִּי + citação embutida בַּקְּשׁוּ פָנָי (crux exegético clássico do TM)",
+      "escolha": "manter a leitura do TM sem emenda — לִבִּי (\"meu coração\") como sujeito de אָמַר, e פָנָי (\"meu rosto\", 1cs) sem alterar para 3ª pessoa",
+      "justificativa": "o packet não traz variante_fonte para este verso; a política da BV é não emendar o TM por conjectura na ausência de aparato documentado, mesmo diante de uma construção sintaticamente comprimida.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "emendar פָנָי para פָנָיו (\"o rosto dele\")",
+          "motivo": "emenda conjectural sem base em variante de aparato; a BV não emenda o TM sem documentação"
+        },
+        {
+          "opcao": "\"Tu disseste: 'Buscai a minha face'\" (Deus como sujeito de אמר)",
+          "motivo": "inverte o sujeito gramatical do TM — לִבִּי é claramente o sujeito de אָמַר — introduzindo leitura teológica não exigida pelo texto"
+        }
+      ]
+    },
+    {
+      "questao": "registro de 2ª pessoa do imperativo citado בַּקְּשׁוּ (2mp)",
+      "escolha": "\"vocês\"/\"busquem\" — discurso citado dirigido a humanos, não a Deus",
+      "justificativa": "embora o versículo inclua um \"a ti\" dirigido a Deus, o imperativo plural citado (\"buscai\") não é fala do salmista a Deus, mas um convite/eco dirigido a ouvintes humanos; ER-0003 rege apenas discurso humano↔Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"buscai\" (tu/vós arcaizante uniforme com o resto do salmo)",
+          "motivo": "o destinatário do imperativo citado não é Deus; usar tu/vós aqui confundiria os dois registros distintos no mesmo verso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "sujeito e referente exatos de \"meu coração disse\" e do imperativo citado \"buscai o meu rosto\" — construção sintaticamente comprimida do TM (לְךָ אָמַר לִבִּי בַּקְּשׁוּ פָנָי), sem resolução unívoca na tradição interpretativa; a BV preserva a leitura de superfície do TM"
+  ],
+  "justificativa": "Um dos versos mais discutidos do salmo: fala embutida sem marcadores claros de discurso direto no hebraico; a BV opta por não resolver a ambiguidade por conjectura, documentando-a.",
+  "confianca": 0.58,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

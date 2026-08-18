@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.8.5",
+    "livro": "Oseias",
+    "capitulo": 8,
+    "versiculo": 5,
+    "pericope": "Hos.8.1-14"
+  },
+  "texto_bv": "Rejeitado está o teu bezerro, Samaria! Minha ira se acendeu contra eles. Até quando serão incapazes de inocência?",
+  "traducao_literal": "Rejeitou o teu bezerro, Samaria; acendeu-se minha ira contra eles. Até quando não poderão inocência?",
+  "termos_originais": [
+    {
+      "palavra": "זָנַח֙",
+      "lemma": "2186 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "עֶגְלֵ֣ךְ",
+      "lemma": "5695",
+      "morfologia": "HNcmsc/Sp2fs"
+    },
+    {
+      "palavra": "שֹֽׁמְר֔וֹן",
+      "lemma": "8111",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "חָרָ֥ה",
+      "lemma": "2734",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אַפִּ֖י",
+      "lemma": "639",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "בָּ֑ם",
+      "lemma": "b",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מָתַ֕י",
+      "lemma": "4970",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "לֹ֥א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יוּכְל֖וּ",
+      "lemma": "3201",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "נִקָּיֹֽן",
+      "lemma": "5356 a",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito elíptico de זָנַח (Qal perfeito 3ms) — quem rejeita o bezerro de Samaria",
+      "escolha": "verter em voz passiva impessoal em português (\"rejeitado está\"), sem nomear o agente",
+      "justificativa": "a morfologia do packet marca 3ms sem sujeito explícito no cotexto imediato; a passiva impessoal em pt preserva essa indefinição sem forçar um agente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Eu rejeitei o teu bezerro\" (sujeito=SENHOR, 1cs)",
+          "motivo": "exigiria repontuação para 1cs, não licenciada pela morfologia 3ms do texto pinado"
+        },
+        {
+          "opcao": "\"Ele rejeitou\", explicitando \"Deus\" como sujeito",
+          "motivo": "acrescenta um agente gramaticalmente não expresso no hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Agente do verbo זָנַח (3ms) não é expresso: pode ser o SENHOR implícito ou leitura impessoal/genérica"
+  ],
+  "justificativa": "Verbo com sujeito elíptico tratado por voz passiva impessoal para não decidir teologicamente o agente; discurso muda para 1cs em \"minha ira\", confirmando que YHWH é o locutor do oráculo.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

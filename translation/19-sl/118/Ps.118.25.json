@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.118.25",
+    "livro": "Salmos",
+    "capitulo": 118,
+    "versiculo": 25,
+    "pericope": "Ps.118.1-29"
+  },
+  "texto_bv": "Ah, SENHOR, salva, agora! Ah, SENHOR, faze prosperar, agora!",
+  "traducao_literal": "Ah, SENHOR, salva agora; ah, SENHOR, faze-prosperar agora.",
+  "termos_originais": [
+    {
+      "palavra": "אָנָּ֣א",
+      "lemma": "577",
+      "morfologia": "HTe"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הוֹשִׁ֘יעָ֥ה",
+      "lemma": "3467",
+      "morfologia": "HVhv2ms/Sh"
+    },
+    {
+      "palavra": "נָּ֑א",
+      "lemma": "4994",
+      "morfologia": "HTj"
+    },
+    {
+      "palavra": "אָֽנָּ֥א",
+      "lemma": "577",
+      "morfologia": "HTe"
+    },
+    {
+      "palavra": "יְ֝הוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַצְלִ֘יחָ֥ה",
+      "lemma": "6743 b",
+      "morfologia": "HVhv2ms/Sh"
+    },
+    {
+      "palavra": "נָּֽא",
+      "lemma": "4994",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אָנָּא (H577), interjeição de súplica intensa, distinta da partícula mais branda נָא (H4994) que segue os dois imperativos no mesmo versículo.",
+      "escolha": "'Ah, SENHOR' para אָנָּא (seguindo o precedente de Ps.116.4,16), e 'agora' para cada נָא",
+      "justificativa": "Mantém a distinção entre as duas partículas de súplica presentes no mesmo versículo (אָנָּא mais forte, נָא mais brando), já resolvida no corpus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ora' em vez de 'agora' para נָא",
+          "motivo": "'ora' como partícula de súplica é registro mais arcaizante; 'agora', já usado no corpus para a mesma partícula (cf. Ps.7.10, Ps.119.108), mantém fluência contemporânea (EDITORIAL §1.2)"
+        }
+      ]
+    },
+    {
+      "questao": "הוֹשִׁיעָה ('salva') não traz sufixo pronominal de objeto explícito no hebraico.",
+      "escolha": "manter sem objeto explícito ('salva, agora!') em vez de suprir '-nos'",
+      "justificativa": "O imperativo absoluto é gramatical em português sem objeto ('salva!'); a ausência do sufixo no hebraico é preservada, evitando suprir informação que o texto-fonte não marca formalmente, embora o contexto litúrgico comunitário do salmo sugira implicitamente 'a nós'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'salva-nos, agora!' (objeto suprido)",
+          "motivo": "mais natural para o leitor, mas acrescenta um sufixo pronominal ausente no hebraico; preferiu-se a forma mais econômica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "objeto implícito de 'salva' (quem/o quê é salvo) não está morfologicamente marcado no hebraico; entendido pelo contexto litúrgico coletivo do salmo"
+  ],
+  "justificativa": "Súplica litúrgica central do salmo (הוֹשִׁיעָה נָּא, na recepção posterior transliterada 'Hosana' — nota apenas de contexto, TEOLOGIA §2, sem importar exegese para o texto do AT).",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

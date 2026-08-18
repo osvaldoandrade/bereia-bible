@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.32.18",
+    "livro": "Jeremias",
+    "capitulo": 32,
+    "versiculo": 18,
+    "pericope": "Jer.32.1-44"
+  },
+  "texto_bv": "Tu usas de bondade com milhares, e retribuis a iniquidade dos pais no colo dos filhos, depois deles; ó Deus grande e poderoso, SENHOR dos Exércitos é o teu nome —",
+  "traducao_literal": "Fazendo bondade a milhares, e retribuindo a iniquidade dos pais no colo dos filhos deles depois deles; o Deus grande, o poderoso, SENHOR dos Exércitos [é] o nome dele —",
+  "termos_originais": [
+    {
+      "palavra": "עֹ֤שֶׂה",
+      "lemma": "6213 a",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "חֶ֨סֶד֙",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לַֽאֲלָפִ֔ים",
+      "lemma": "l/505",
+      "morfologia": "HR/Acbpa"
+    },
+    {
+      "palavra": "וּמְשַׁלֵּם֙",
+      "lemma": "c/7999 a",
+      "morfologia": "HC/Vprmsa"
+    },
+    {
+      "palavra": "עֲוֺ֣ן",
+      "lemma": "5771",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "אָב֔וֹת",
+      "lemma": "1",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "חֵ֥יק",
+      "lemma": "2436",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "בְּנֵיהֶ֖ם",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc/Sp3mp"
+    },
+    {
+      "palavra": "אַחֲרֵיהֶ֑ם",
+      "lemma": "310 a",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "הָאֵ֤ל",
+      "lemma": "d/410",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הַגָּדוֹל֙",
+      "lemma": "d/1419 a",
+      "morfologia": "HTd/Aamsa"
+    },
+    {
+      "palavra": "הַגִּבּ֔וֹר",
+      "lemma": "d/1368",
+      "morfologia": "HTd/Aamsa"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָא֖וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "שְׁמֽוֹ",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חֶסֶד — ainda sem entrada fixa no lexicon.json",
+      "escolha": "'bondade' (glosa acessível, registro formal-neutro)",
+      "justificativa": "primeira ocorrência de חֶסֶד no corpus traduzido até este ponto do programa; recomenda-se entrada formal em lexicon.json na promoção do capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'fidelidade aliançal' / 'amor leal'",
+          "motivo": "mais precisos teologicamente, porém mais técnicos que o registro formal-neutro exigido por EDITORIAL §1; reservável para nota exegética futura"
+        }
+      ]
+    },
+    {
+      "questao": "שְׁמוֹ — mudança de pessoa (2ª→3ª) dentro do mesmo endereçamento a Deus",
+      "escolha": "normalizar para 'teu nome' no publicado; preservar 'o nome dele' (3ª pessoa) na literal",
+      "justificativa": "ER-0013 permite normalizar calques que soem artificiais; a alternância pessoal é traço estilístico hínico hebraico, não dado semântico a preservar no texto corrido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'é o nome dele' no publicado",
+          "motivo": "quebra o registro devocional de segunda pessoa mantido em todo o v.17-19"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Alternância de 2ª para 3ª pessoa em 'שְׁמוֹ' preservada apenas na traducao_literal."
+  ],
+  "justificativa": "Alusão a Êxodo 34:6-7 (fórmula de atributos divinos); particípios עֹשֶׂה/מְשַׁלֵּם traduzidos como presente contínuo.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

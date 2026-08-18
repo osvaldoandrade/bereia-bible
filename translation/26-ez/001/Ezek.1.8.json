@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.1.8",
+    "livro": "Ezequiel",
+    "capitulo": 1,
+    "versiculo": 8,
+    "pericope": "Ezek.1.1-28"
+  },
+  "texto_bv": "Havia mãos humanas debaixo das asas deles, em seus quatro lados; e todos os quatro tinham rosto e asas.",
+  "traducao_literal": "E mão(s) de homem debaixo de suas asas, sobre seus quatro lados; e seus rostos e suas asas, para os quatro deles.",
+  "termos_originais": [
+    {
+      "palavra": "וידו",
+      "lemma": "c/3027",
+      "morfologia": "HC/Ncbdc/Sp3ms"
+    },
+    {
+      "palavra": "אָדָ֗ם",
+      "lemma": "120",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מִתַּ֨חַת֙",
+      "lemma": "m/8478",
+      "morfologia": "HR/R"
+    },
+    {
+      "palavra": "כַּנְפֵיהֶ֔ם",
+      "lemma": "3671",
+      "morfologia": "HNcfdc/Sp3mp"
+    },
+    {
+      "palavra": "עַ֖ל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אַרְבַּ֣עַת",
+      "lemma": "702",
+      "morfologia": "HAcmsc"
+    },
+    {
+      "palavra": "רִבְעֵיהֶ֑ם",
+      "lemma": "7253",
+      "morfologia": "HNcmpc/Sp3mp"
+    },
+    {
+      "palavra": "וּפְנֵיהֶ֥ם",
+      "lemma": "c/6440",
+      "morfologia": "HC/Ncbpc/Sp3mp"
+    },
+    {
+      "palavra": "וְכַנְפֵיהֶ֖ם",
+      "lemma": "c/3671",
+      "morfologia": "HC/Ncfdc/Sp3mp"
+    },
+    {
+      "palavra": "לְאַרְבַּעְתָּֽם",
+      "lemma": "l/702",
+      "morfologia": "HR/Acmsc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ketiv/Qere em וידו — Ketiv grafa 'sua mão' (singular, sufixo 3ms), mas a morfologia do packet marca construto dual (Ncbdc) — leitura tradicional 'mãos de homem'",
+      "escolha": "adotar a leitura construta/dual refletida na morfologia pinada ('mãos humanas'), registrando o Ketiv singular como alternativa",
+      "justificativa": "A morfologia fornecida no packet (HC/Ncbdc/Sp3ms) sinaliza a leitura tradicional (Qere) de construto dual seguida de 'אדם', mais coerente sintaticamente com o restante do versículo (mãos sob as asas, nos quatro lados) do que a leitura Ketiv isolada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e sua mão de homem' (Ketiv singular, tradução mecânica)",
+          "motivo": "produz sintaxe estranha em português e não se harmoniza com a estrutura plural do resto da descrição (quatro lados, asas)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "havia (verbo supletado na oração nominal inicial)"
+  ],
+  "ambiguidades_preservadas": [
+    "Ketiv (sua mão, singular) vs. leitura construta refletida na morfologia (mãos, plural/dual) — preservada"
+  ],
+  "justificativa": "Crux textual do Ketiv/Qere adjudicada pela morfologia pinada; confiança reduzida por se tratar de anomalia textual reconhecida no TM.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

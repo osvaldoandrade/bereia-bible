@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.22.5",
+    "livro": "Isaías",
+    "capitulo": 22,
+    "versiculo": 5,
+    "pericope": "Isa.22.1-25"
+  },
+  "texto_bv": "Porque é dia de tumulto, de pisoteio e de confusão da parte do Senhor DEUS dos Exércitos, no vale da visão: um derrubar de muro e um clamor ao monte.",
+  "traducao_literal": "Porque dia de tumulto e de pisoteio e de confusão, para o Senhor DEUS dos Exércitos, no vale de visão; derrubando muro e clamando ao monte.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יוֹם֩",
+      "lemma": "3117",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מְהוּמָ֨ה",
+      "lemma": "4103",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וּמְבוּסָ֜ה",
+      "lemma": "c/4001",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "וּמְבוּכָ֗ה",
+      "lemma": "c/3998",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "לַֽאדֹנָ֧י",
+      "lemma": "l/136",
+      "morfologia": "HR/Ncmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְהוִ֛ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָא֖וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "בְּגֵ֣יא",
+      "lemma": "b/1516",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "חִזָּי֑וֹן",
+      "lemma": "2384",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מְקַרְקַ֥ר",
+      "lemma": "6979 c",
+      "morfologia": "HVlrmsc"
+    },
+    {
+      "palavra": "קִ֖ר",
+      "lemma": "7023",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְשׁ֥וֹעַ",
+      "lemma": "c/7771 b",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הָהָֽר",
+      "lemma": "d/2022",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Lemma H3069 (יְהוִה, pontuação especial após אֲדֹנָי) e H3068 no mesmo capítulo",
+      "escolha": "Ambos vertidos conforme NOMES-DIVINOS: אֲדֹנָי+יְהוִה → 'Senhor DEUS'; יְהוָה sozinho → 'SENHOR'",
+      "justificativa": "H3069 é a pontuação convencional de יהוה quando segue אֲדֹנָי (evita repetir 'Senhor Senhor'); função referencial idêntica a H3068. Política ER-0002/NOMES-DIVINOS aplicada por função, não por número de Strong.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Tratar H3069 como entrada lexical distinta de H3068",
+          "motivo": "É variante gráfica/pontual do mesmo tetragrama, não um nome diferente."
+        }
+      ]
+    },
+    {
+      "questao": "מְקַרְקַר קִר וְשׁוֹעַ אֶל־הָהָר — particípios descritivos do 'dia'",
+      "escolha": "nominalizar no publicado ('um derrubar de muro e um clamor ao monte')",
+      "justificativa": "Os particípios funcionam como aposto ao 'dia de...', não como oração independente; nominalizar preserva essa estrutura.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "oração finita ('o muro é derrubado e há um clamor ao monte')",
+          "motivo": "Adiciona finitude que o hebraico não tem; menos literal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula em oração nominal 'dia de tumulto')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula 'dia do SENHOR' aplicada ao cerco/queda de Jerusalém; retoma 'vale da visão' do título (v.1).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

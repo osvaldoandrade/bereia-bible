@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.110.5",
+    "livro": "Salmos",
+    "capitulo": 110,
+    "versiculo": 5,
+    "pericope": "Ps.110.1-7"
+  },
+  "texto_bv": "O Senhor está à tua direita; ele esmagará reis no dia da sua ira.",
+  "traducao_literal": "Senhor à tua direita; esmagou reis no dia da sua ira.",
+  "termos_originais": [
+    {
+      "palavra": "אֲדֹנָ֥י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְמִֽינְךָ֑",
+      "lemma": "3225",
+      "morfologia": "HNcfsc/Sp2ms"
+    },
+    {
+      "palavra": "מָחַ֖ץ",
+      "lemma": "4272",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בְּיוֹם",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אַפּ֣וֹ",
+      "lemma": "639",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "מְלָכִֽים",
+      "lemma": "4428",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲדֹנָי (H136) — nome divino, distinto do אָדוֹן (H113) do v.1",
+      "escolha": "'Senhor' maiúsculo",
+      "justificativa": "NOMES-DIVINOS.md: אֲדֹנָי (H136) → 'Senhor' maiúsculo, nome divino. O packet confirma lemma 136 aqui, diferente do lemma 113 de 110:1 ('meu senhor', minúsculo, referente humano). A BV segue a distinção lexical real do próprio hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "minúscula uniforme com o v.1, por simetria retórica",
+          "motivo": "Ignoraria a distinção lexical do TM entre H113 (110:1) e H136 (110:5); a BV segue o léxico, não a simetria poética."
+        }
+      ]
+    },
+    {
+      "questao": "מָחַץ — perfeito (qatal): tempo verbal a adotar",
+      "escolha": "traduzido como futuro ('esmagará'), lido como perfeito profético/de certeza",
+      "justificativa": "O contexto (vv.1-2, promessa futura de subjugação dos inimigos) e o paralelismo com יָדִין (imperfeito, v.6) favorecem a leitura de מָחַץ/מָלֵא como 'perfeito profético', uso comum em oráculos hebraicos para denotar certeza de evento futuro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pretérito simples ('esmagou')",
+          "motivo": "Gramaticalmente possível, mas quebra a coerência do oráculo como promessa que se desenrola ao longo dos vv.1-7."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está",
+    "ele"
+  ],
+  "ambiguidades_preservadas": [
+    "מָחַץ pode ser lido como pretérito ('esmagou', evento já ocorrido) ou perfeito profético ('esmagará', certeza futura); a BV opta pela leitura profética, coerente com o restante do oráculo."
+  ],
+  "justificativa": "Adonai (H136, nome divino) à direita do rei, invertendo a imagem de 110:1 (onde o SENHOR fala a 'meu senhor', H113); verbo מָחַץ no perfeito lido como perfeito profético, coerente com o oráculo de vitória futura.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

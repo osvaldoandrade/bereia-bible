@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.4.4",
+    "livro": "Provérbios",
+    "capitulo": 4,
+    "versiculo": 4,
+    "pericope": "Prov.4.1-27"
+  },
+  "texto_bv": "Ele me ensinou e me disse: “Que o seu coração retenha as minhas palavras; guarde os meus mandamentos, e viva.",
+  "traducao_literal": "E me ensinou e disse a mim: retenha minhas palavras teu coração; guarda meus mandamentos e vive.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּרֵ֗נִי",
+      "lemma": "c/3384 b",
+      "morfologia": "HC/Vhw3ms/Sp1cs"
+    },
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "לִ֗י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "יִֽתְמָךְ",
+      "lemma": "8551",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "דְּבָרַ֥י",
+      "lemma": "1697",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "לִבֶּ֑ךָ",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "שְׁמֹ֖ר",
+      "lemma": "8104",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "מִצְוֺתַ֣י",
+      "lemma": "4687",
+      "morfologia": "HNcfpc/Sp1cs"
+    },
+    {
+      "palavra": "וֶֽחְיֵֽה",
+      "lemma": "c/2421",
+      "morfologia": "HC/Vqv2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Estrutura do discurso: onde abre e fecha a citação direta do avô ao pai",
+      "escolha": "abrir aspas em 4:4 ('disse-me:') e mantê-las abertas até o fim de 4:9, sem reabrir marca de aspas em cada versículo intermediário (4:5–4:8)",
+      "justificativa": "vv.4b–9 formam um único bloco de discurso direto (o avô instruindo o pai quando menino); v.10 retoma a voz do falante primário com nova fórmula de vocativo ('Ouça, meu filho' — singular, ecoando 4:1 'Ouçam, filhos' — plural). Convenção tipográfica de citação estendida por vários versículos: marca de abertura uma vez, marca de fechamento ao final do bloco (EDITORIAL §5, ER-0004).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fechar e reabrir aspas a cada versículo",
+          "motivo": "ruído tipográfico desnecessário para um único ato de fala contínuo"
+        },
+        {
+          "opcao": "tratar 4:4 como citação isolada de uma frase só",
+          "motivo": "quebraria o fio do discurso paterno que continua sem novo verbo de fala até 4:10"
+        }
+      ]
+    },
+    {
+      "questao": "וְ֝חְיֵֽה imperativo qal 2ms ('vive') — registro de 2ª pessoa",
+      "escolha": "'viva' (imperativo você, D-0003)",
+      "justificativa": "Discurso humano-humano (avô→pai criança) usa você/vocês conforme D-0003; a literal preserva a forma verbal bruta 'vive'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'vive' (tu)",
+          "motivo": "D-0003 reserva 'tu' à oração dirigida a Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (partícula introdutória do desejo/jussivo em 'que o seu coração retenha')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Cadeia wayyiqtol (וַיֹּרֵנִי וַיֹּאמֶר) narra o ensino do pai; o jussivo יִתְמָךְ (V-O-S: 'retenha-palavras-coração') é normalizado para S-V-O no publicado (ER-0013), preservado literal.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

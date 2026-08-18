@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.16.7",
+    "livro": "Jó",
+    "capitulo": 16,
+    "versiculo": 7,
+    "pericope": "Job.16.1-22"
+  },
+  "texto_bv": "Mas agora ele me cansou; tu assolaste toda a minha família.",
+  "traducao_literal": "Mas agora, ele me cansou; tu assolaste toda a minha assembleia.",
+  "termos_originais": [
+    {
+      "palavra": "אַךְ",
+      "lemma": "389",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "עַתָּ֥ה",
+      "lemma": "6258",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "הֶלְאָ֑נִי",
+      "lemma": "3811",
+      "morfologia": "HVhp3ms/Sp1cs"
+    },
+    {
+      "palavra": "הֲ֝שִׁמּ֗וֹתָ",
+      "lemma": "8074",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "עֲדָתִֽי",
+      "lemma": "5712",
+      "morfologia": "HNcfsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Mudança abrupta de pessoa gramatical: הֶלְאָנִי (3ms, 'ele me cansou') seguido de הֲשִׁמּוֹתָ (2ms, 'tu assolaste'), sem sujeito nomeado.",
+      "escolha": "Preservar a alternância de pessoa tal como está no original, tanto na traducao_literal quanto no texto_bv, sem normalizar para um único sujeito.",
+      "justificativa": "TEOLOGIA §2 proíbe suavizar dificuldades do original; a súbita apóstrofe de 3ª para 2ª pessoa é um recurso poético reconhecido em Jó (o queixume desliza de descrever Deus para interpelá-lo diretamente) e se repete nos versos seguintes (v.8-9 voltam à 3ª pessoa). Normalizar apagaria esse movimento retórico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Uniformizar para 3ª pessoa ('Deus me cansou... ele assolou...')",
+          "motivo": "elimina a apóstrofe direta a Deus, marca estilística do lamento."
+        },
+        {
+          "opcao": "Uniformizar para 2ª pessoa com vocativo suprido ('Deus, tu me cansaste...')",
+          "motivo": "adiciona um vocativo ('Deus') inexistente no texto, além de apagar a alternância intencional."
+        }
+      ]
+    },
+    {
+      "questao": "Pronome de tratamento para o verbo 2ms (assolaste), entendido como dirigido a Deus.",
+      "escolha": "'tu', por analogia com D-0003 (discurso dirigido a Deus).",
+      "justificativa": "Embora não seja uma oração formal, é uma apóstrofe direta à divindade dentro do lamento; o espírito de D-0003 (reservar 'tu' à interlocução com Deus) se aplica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'você'",
+          "motivo": "quebraria a reserva estilística de 'tu' para endereçamento a Deus mantida em todo o programa."
+        }
+      ]
+    },
+    {
+      "questao": "עֵדָה ('assembleia/congregação/clã') no contexto da casa de Jó, já destruída (Jó 1).",
+      "escolha": "'família' no texto_bv (sentido contextual); 'assembleia' preservado na traducao_literal.",
+      "justificativa": "עֵדָה designa tecnicamente uma congregação/comunidade, mas no contexto autobiográfico de Jó (cuja casa e filhos morreram) o referente mais natural em português corrido é 'família'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'assembleia' no publicado",
+          "motivo": "soa institucional demais para o contexto doméstico da perda de Jó."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Referente não-nomeado de 'ele' (הֶלְאָנִי) — provavelmente Deus, mas não explicitado no hebraico até v.11 (אֵל)."
+  ],
+  "justificativa": "Sujeito do primeiro verbo (הֶלְאָנִי) permanece não-nomeado no original; a ambiguidade referencial (Deus, de forma implícita, ainda não nomeado explicitamente nesta fala até o v.11) é preservada.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

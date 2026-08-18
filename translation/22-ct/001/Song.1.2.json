@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.1.2",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 1,
+    "versiculo": 2,
+    "pericope": "Song.1.1-17"
+  },
+  "texto_bv": "Beije-me ele com os beijos da sua boca! Porque as tuas carícias são melhores que o vinho.",
+  "traducao_literal": "Que ele me beije com os beijos da sua boca; porque bons [são] os teus amores, mais que vinho.",
+  "termos_originais": [
+    {
+      "palavra": "יִשָּׁקֵ֨נִי֙",
+      "lemma": "5401 a",
+      "morfologia": "HVqi3ms/Sp1cs"
+    },
+    {
+      "palavra": "מִנְּשִׁיק֣וֹת",
+      "lemma": "m/5390",
+      "morfologia": "HR/Ncfpc"
+    },
+    {
+      "palavra": "פִּ֔יהוּ",
+      "lemma": "6310",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "טוֹבִ֥ים",
+      "lemma": "2896 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "דֹּדֶ֖יךָ",
+      "lemma": "1730",
+      "morfologia": "HNcmpc/Sp2ms"
+    },
+    {
+      "palavra": "מִיָּֽיִן",
+      "lemma": "m/3196",
+      "morfologia": "HR/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יִשָּׁקֵנִי — força volitiva da forma verbal",
+      "escolha": "traduzir como desejo/exortação ('beije-me ele'), não indicativo simples",
+      "justificativa": "imperfeito Qal 3ms em abertura de poema funciona com força volitiva/optativa ('que ele me beije'), padrão reconhecido da poesia amorosa hebraica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Ele me beija'",
+          "motivo": "indicativo apaga a força de desejo/invocação que abre o poema"
+        }
+      ]
+    },
+    {
+      "questao": "דֹּדֶיךָ — plural abstrato de דּוֹד",
+      "escolha": "'as tuas carícias' (não 'os teus amados/amores')",
+      "justificativa": "forma plural abstrata דֹּדִים distingue-se do singular דּוֹד ('o amado', usado em 1:13,14,16 para o homem); designa expressões de amor/carícias, não pessoas. Escolha mantida no capítulo (v.4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os teus amores'",
+          "motivo": "ambíguo entre 'atos de amor' e 'pessoas amadas'; colide com o singular דּוֹד ('amado') usado depois"
+        }
+      ]
+    },
+    {
+      "questao": "כִּי טוֹבִים דֹּדֶיךָ — ordem predicado-sujeito e comparativo com מִן",
+      "escolha": "normalizar no publicado para 'as tuas carícias são melhores que o vinho'; literal preserva 'bons [são] os teus amores, mais que vinho'",
+      "justificativa": "doutrina do calque (ER-0013): oração nominal com predicado fronteado e comparativo perifrástico (positivo + מִן) são normais em hebraico, mas artificiais em português; literal preserva a forma, publicado normaliza.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "mudança de 3ª para 2ª pessoa dentro do mesmo verso, preservada tal como no hebraico (traço poético do Cântico, não erro de tradução)"
+  ],
+  "justificativa": "Verso de abertura com troca de pessoa gramatical (3ª pessoa 'sua boca' → 2ª pessoa 'tuas carícias'), traço característico da poesia do Cântico, preservado tal como está no hebraico.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

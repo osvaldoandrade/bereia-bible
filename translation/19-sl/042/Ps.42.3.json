@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.42.3",
+    "livro": "Salmos",
+    "capitulo": 42,
+    "versiculo": 3,
+    "pericope": "Ps.42.1-12"
+  },
+  "texto_bv": "A minha alma tem sede de Deus, do Deus vivo. Quando irei e aparecerei perante a face de Deus?",
+  "traducao_literal": "Tem sede minha alma para Deus, para Deus vivo; quando virei e aparecerei perante face de Deus?",
+  "termos_originais": [
+    {
+      "palavra": "צָמְאָ֬ה",
+      "lemma": "6770",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "נַפְשִׁ֨י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "לֵאלֹהִים֮",
+      "lemma": "l/430",
+      "morfologia": "HR/Ncmpa"
+    },
+    {
+      "palavra": "לְאֵ֪ל",
+      "lemma": "l/410",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "חָ֥י",
+      "lemma": "2416 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "מָתַ֥י",
+      "lemma": "4970",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "אָב֑וֹא",
+      "lemma": "935",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "וְ֝אֵרָאֶ֗ה",
+      "lemma": "c/7200",
+      "morfologia": "HC/VNi1cs"
+    },
+    {
+      "palavra": "פְּנֵ֣י",
+      "lemma": "6440",
+      "morfologia": "HNcbpc"
+    },
+    {
+      "palavra": "אֱלֹהִֽים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Vocalização de וְאֵרָאֶה: nifal ('aparecer/ser visto') vs. leitura consonantal alternativa qal ('ver')",
+      "escolha": "aparecerei (seguindo a pontuação nifal do packet, morph HC/VNi1cs)",
+      "justificativa": "A morfologia pinada marca nifal; a BV segue a vocalização massorética da fonte pinada sem emendar (hierarquia textual, TEOLOGIA §1.1).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "verei a face de Deus (leitura qal)",
+          "motivo": "as consoantas admitiriam qal, mas a fonte pinada (OSHB) vocaliza nifal; adotar qal seria abandonar a vocalização da fonte sem variante registrada no packet"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem verbo-sujeito da abertura (צָמְאָה נַפְשִׁי)",
+      "escolha": "normalizada para 'a minha alma tem sede' no texto publicado",
+      "justificativa": "ER-0011/ER-0013: ordem sujeito-verbo no publicado; ordem verbo-sujeito preservada na traducao_literal.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "a tradição judaica clássica associa a vocalização nifal ao desconforto de 'ver a face de Deus' diretamente; a BV segue a vocalização da fonte pinada sem tomar posição sobre essa motivação"
+  ],
+  "justificativa": "Paralelismo sede/vinda ao santuário; אֵל חַי 'Deus vivo' conforme NOMES-DIVINOS (אֵל → Deus).",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

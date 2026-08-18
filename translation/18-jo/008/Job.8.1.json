@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.8.1",
+    "livro": "Jó",
+    "capitulo": 8,
+    "versiculo": 1,
+    "pericope": "Job.8.1-22"
+  },
+  "texto_bv": "Bildade, o suíta, respondeu:",
+  "traducao_literal": "E respondeu Bildade, o suíta, e disse:",
+  "termos_originais": [
+    {
+      "palavra": "וַ֭יַּעַן",
+      "lemma": "c/6030 b",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בִּלְדַּ֥ד",
+      "lemma": "1085",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַשּׁוּחִ֗י",
+      "lemma": "d/7747",
+      "morfologia": "HTd/Ngmsa"
+    },
+    {
+      "palavra": "וַיֹאמַֽר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter a fórmula dupla 'ענה...ויאמר' (respondeu...e disse) de abertura do discurso?",
+      "escolha": "Colapsar em 'respondeu:' no publicado; os dois verbos ficam preservados na traducao_literal.",
+      "justificativa": "Os dois-pontos já cumprem a função introdutória de discurso direto em português, tornando 'e disse' redundante no texto publicado (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'respondeu e disse' no publicado",
+          "motivo": "soa redundante e arcaizante em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "Prefixar 'E' ao wayyiqtol inicial do capítulo?",
+      "escolha": "Omitir 'E' no publicado: o capítulo abre um novo turno de fala, não retoma ação narrada em curso.",
+      "justificativa": "ER-0013: wayyiqtol inicial vira 'E' apenas quando a sequência discursiva o exigir; aqui inicia-se um novo discurso de personagem.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E Bildade, o suíta, respondeu:'",
+          "motivo": "o 'E' sugeriria falsa continuidade com a ação do capítulo anterior"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula narrativa padrão de introdução de discurso no ciclo de diálogos de Jó; ordem V-S do hebraico (ER-0011) preservada só na literal.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

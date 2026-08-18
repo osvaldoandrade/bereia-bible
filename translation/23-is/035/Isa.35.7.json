@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.35.7",
+    "livro": "Isaías",
+    "capitulo": 35,
+    "versiculo": 7,
+    "pericope": "Isa.35.1-10"
+  },
+  "texto_bv": "A terra ressecada se tornará lago, e o chão sedento, mananciais de água; no covil onde os chacais se deitavam, haverá relva, junco e papiro.",
+  "traducao_literal": "E será a terra ardente em lago, e terra sedenta em mananciais de água; no covil de chacais, o seu deitar, relva para cana e papiro.",
+  "termos_originais": [
+    {
+      "palavra": "וְהָיָ֤ה",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "הַשָּׁרָב֙",
+      "lemma": "d/8273",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "לַאֲגַ֔ם",
+      "lemma": "l/98",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְצִמָּא֖וֹן",
+      "lemma": "c/6774",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "לְמַבּ֣וּעֵי",
+      "lemma": "l/4002",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "מָ֑יִם",
+      "lemma": "4325",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "בִּנְוֵ֤ה",
+      "lemma": "b/5116 a",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "תַנִּים֙",
+      "lemma": "8577 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "רִבְצָ֔הּ",
+      "lemma": "7258",
+      "morfologia": "HNcmsc/Sp3fs"
+    },
+    {
+      "palavra": "חָצִ֖יר",
+      "lemma": "2682 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְקָנֶ֥ה",
+      "lemma": "l/7070",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וָגֹֽמֶא",
+      "lemma": "c/1573",
+      "morfologia": "HC/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הַשָּׁרָב — 'miragem'/'terra ardente' (fenômeno óptico de calor do deserto que simula água à distância).",
+      "escolha": "'terra ressecada' no publicado; 'terra ardente' na literal.",
+      "justificativa": "O termo técnico 'miragem' é preciso, mas soa anacrônico em prosa poética corrida; 'terra ressecada' preserva o contraste central (seco → lago) de forma natural ao leitor comum.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'miragem' no texto publicado",
+          "motivo": "Tecnicamente exato, porém estilisticamente destoante da prosa poética; preservado apenas como nota do fenômeno na justificativa."
+        }
+      ]
+    },
+    {
+      "questao": "תַנִּים — 'chacais' (H8577a) vs. leitura tradicional mais antiga 'dragões/serpentes' (confusão possível com o homógrafo תַּנִּין).",
+      "escolha": "'chacais'.",
+      "justificativa": "Consenso lexicográfico moderno (BDB/HALOT) distingue תַּן ('chacal', plural תַּנִּים) de תַּנִּין ('dragão/monstro marinho'); o habitat desértico do contexto favorece 'chacal'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'dragões'",
+          "motivo": "Tradição de tradução antiga (KJV) baseada em confusão de homógrafos, sem apoio lexicográfico consistente."
+        }
+      ]
+    },
+    {
+      "questao": "Sufixo 3fs em רִבְצָהּ ('seu deitar/covil dela') — referente não explícito.",
+      "escolha": "Verter sem antecedente fixado, como 'onde os chacais se deitavam' (formulação impessoal que absorve o sufixo).",
+      "justificativa": "Preserva a ambiguidade referencial do hebraico sem forçar um antecedente que o texto não define.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "haverá — verbo suprido no texto_bv para dar predicado à oração final, elíptica no hebraico (relva, cana e papiro, sem verbo explícito)."
+  ],
+  "ambiguidades_preservadas": [
+    "Referente do sufixo 3fs em 'רִבְצָהּ' não está explícito no hebraico."
+  ],
+  "justificativa": "Imagem de reversão ecológica completa: de miragem enganosa e covil de chacais a fonte de água real e vegetação de brejo — sinal de abundância messiânica que conclui a sequência de sinais iniciada no v.5.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.81.17",
+    "livro": "Salmos",
+    "capitulo": 81,
+    "versiculo": 17,
+    "pericope": "Ps.81.1-17"
+  },
+  "texto_bv": "Eu o alimentaria com o melhor do trigo, e da rocha eu o saciaria com mel.",
+  "traducao_literal": "E ele o alimentou com a gordura do trigo, e da rocha, mel, eu te saciaria.",
+  "termos_originais": [
+    {
+      "palavra": "וַֽ֭יַּאֲכִילֵהוּ",
+      "lemma": "c/398",
+      "morfologia": "HC/Vhw3ms/Sp3ms"
+    },
+    {
+      "palavra": "מֵחֵ֣לֶב",
+      "lemma": "m/2459",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "חִטָּ֑ה",
+      "lemma": "2406",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וּ֝מִצּ֗וּר",
+      "lemma": "c/m/6697",
+      "morfologia": "HC/R/Ncmsa"
+    },
+    {
+      "palavra": "דְּבַ֣שׁ",
+      "lemma": "1706",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אַשְׂבִּיעֶֽךָ",
+      "lemma": "7646",
+      "morfologia": "HVhi1cs/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Mudança de pessoa dentro do verso (וַיַּאֲכִילֵהוּ, 3ms \"ele o alimentou\" → אַשְׂבִּיעֶךָ, 1cs+2ms \"eu te saciaria\")",
+      "escolha": "normalizar para 1ª pessoa consistente no texto publicado (\"eu o alimentaria... eu o saciaria\"), mantendo o objeto em 3ª pessoa por coerência com o povo/Israel tratado na 3ª pessoa nos vv.12-13,15-16",
+      "justificativa": "ER-0013 (doutrina do calque): a mudança de pessoa gramatical (narração em 3ª pessoa seguida de fala em 1ª/2ª pessoa) é preservada integralmente na traducao_literal; no publicado, normalizada para manter a voz divina em 1ª pessoa constante, coerente com o restante do oráculo condicional (vv.14-16).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter \"ele...alimentou\" / \"eu...saciaria\" também no texto publicado",
+          "motivo": "produziria mudança de sujeito e de pessoa sem sinalização clara em português corrido, prejudicando a leitura em voz alta (EDITORIAL §1.3)"
+        },
+        {
+          "opcao": "emendar o sufixo de שִׁכְמוֹ-tipo para 2ª pessoa em todo o oráculo, unificando com אַשְׂבִּיעֶךָ",
+          "motivo": "extrapolaria a morfologia pinada do packet (que marca 3ms), não havendo variante registrada no aparato para justificar a emenda"
+        }
+      ]
+    },
+    {
+      "questao": "חֵלֶב חִטָּה (\"gordura/nata do trigo\", uso idiomático)",
+      "escolha": "\"o melhor do trigo\"",
+      "justificativa": "חֵלֶב (gordura) é usado idiomaticamente para \"a parte mais rica/seleta\" de um produto (cf. expressões análogas no AT); \"o melhor do trigo\" comunica esse sentido sem o literalismo estranho de \"gordura de trigo\" em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"a gordura do trigo\" (calque estrito)",
+          "motivo": "soa estranho/agramatical em português corrente para um grão; reservado à traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso final e clímax do oráculo condicional (o que Deus faria por Israel fiel), com a mudança de pessoa mais acentuada do salmo, resolvida por normalização documentada.",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

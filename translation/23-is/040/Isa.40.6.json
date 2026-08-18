@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.40.6",
+    "livro": "Isaías",
+    "capitulo": 40,
+    "versiculo": 6,
+    "pericope": "Isa.40.1-31"
+  },
+  "texto_bv": "Uma voz diz: “Clame!” E disse: “O que hei de clamar?” “Toda a carne é erva, e toda a sua lealdade é como a flor do campo.”",
+  "traducao_literal": "Voz diz: clama. E disse: que clamarei? Toda a carne, erva, e toda a sua benignidade, como a flor do campo.",
+  "termos_originais": [
+    {
+      "palavra": "ק֚וֹל",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֹמֵ֣ר",
+      "lemma": "559",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "קְרָ֔א",
+      "lemma": "7121",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "וְאָמַ֖ר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "מָ֣ה",
+      "lemma": "4100",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "אֶקְרָ֑א",
+      "lemma": "7121",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַבָּשָׂ֣ר",
+      "lemma": "d/1320",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "חָצִ֔יר",
+      "lemma": "2682 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "חַסְדּ֖וֹ",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "כְּצִ֥יץ",
+      "lemma": "k/6731 a",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "הַשָּׂדֶֽה",
+      "lemma": "d/7704 b",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito de וְאָמַר (3ms) — quem responde 'que hei de clamar?'",
+      "escolha": "Manter sujeito implícito/impessoal ('E disse'), sem inserir pronome, preservando a ambiguidade do hebraico sobre se é a mesma voz ou o profeta que responde.",
+      "justificativa": "O TM traz 3ms (וְאָמַר); o português permite sujeito nulo sem forçar identificação do falante, o que o hebraico também não resolve explicitamente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E eu disse' (1cs)",
+          "motivo": "Harmonizaria com 1QIsaa/LXX (וָאֹמַר/καὶ εἶπα), leitura não presente no packet-fonte pinado (TM/OSHB); a adjudicação preferiu o texto pinado sem emenda."
+        }
+      ]
+    },
+    {
+      "questao": "חַסְדּוֹ (H2617a) — 'lealdade/fidelidade' vs. 'beleza/formosura'",
+      "escolha": "'lealdade' — sentido lexical primário de חֶסֶד (fidelidade/constância), em paralelo com a fragilidade da erva.",
+      "justificativa": "חֶסֶד não significa primariamente 'beleza'; a leitura 'formosura' segue antes a LXX/Vulgata (δόξα/gloria) que uma leitura lexical direta do hebraico. TEOLOGIA §1.3: léxico decide.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'beleza/formosura'",
+          "motivo": "Importa sentido de versões derivadas, não do lexema hebraico חסד em si."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Identidade do falante de 'E disse: que hei de clamar?' (a mesma voz ou o profeta) permanece aberta, refletindo a elipse do TM."
+  ],
+  "justificativa": "Diálogo profético sobre a fragilidade humana em contraste com a permanência da palavra de Deus (preparação para 40:8).",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

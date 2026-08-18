@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.31.2",
+    "livro": "Jó",
+    "capitulo": 31,
+    "versiculo": 2,
+    "pericope": "Job.31.1-40"
+  },
+  "texto_bv": "Pois qual é a porção de Deus lá do alto, e a herança do Todo-Poderoso lá das alturas?",
+  "traducao_literal": "E que é a porção de Deus lá de cima, e a herança do Todo-Poderoso lá das alturas?",
+  "termos_originais": [
+    {
+      "palavra": "וּמֶ֤ה",
+      "lemma": "c/4100",
+      "morfologia": "HC/Ti"
+    },
+    {
+      "palavra": "חֵ֣לֶק",
+      "lemma": "2506 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֱל֣וֹהַּ",
+      "lemma": "433",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מִמָּ֑עַל",
+      "lemma": "m/4605",
+      "morfologia": "HR/D"
+    },
+    {
+      "palavra": "וְֽנַחֲלַ֥ת",
+      "lemma": "c/5159",
+      "morfologia": "HC/Ncfsc"
+    },
+    {
+      "palavra": "שַׁ֝דַּ֗י",
+      "lemma": "7706",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִמְּרֹמִֽים",
+      "lemma": "m/4791",
+      "morfologia": "HR/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱלוֹהַּ (Eloah, H433, singular poético de אֱלֹהִים) não consta na tabela de NOMES-DIVINOS.md, que só cobre H430 (אֱלֹהִים)",
+      "escolha": "traduzir por \"Deus\", por extensão do mesmo referente (o Deus único) coberto pela política ER-0002",
+      "justificativa": "Eloah é a forma singular arcaica/poética do mesmo lexema de Elohim, frequente em Jó; não há distinção referencial que justifique glosa diferente",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar \"Eloah\"",
+          "motivo": "quebra a convenção consolidada pt-BR sem ganho de precisão referencial"
+        }
+      ]
+    },
+    {
+      "questao": "שַׁדַּי (Shadday) ocorre aqui isolado, não na forma composta אֵל שַׁדַּי (que a política mapeia para \"Deus Todo-Poderoso\")",
+      "escolha": "traduzir Shadday isolado por \"Todo-Poderoso\" (sem \"Deus\"), reservando a glosa composta da política para quando אֵל e שַׁדַּי ocorrerem juntos",
+      "justificativa": "convenção consolidada da tradição bíblica em português (Almeida) para Shadday isolado; evita duplicar \"Deus\" quando o hebraico não o tem explícito",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Deus Todo-Poderoso\" também para שַׁדַּי isolado",
+          "motivo": "insere um \"Deus\" que o hebraico não tem nesta ocorrência específica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Pergunta retórica paralela: o que Deus reserva de cima para quem cede à cobiça (resposta implícita: calamidade, v.3).",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

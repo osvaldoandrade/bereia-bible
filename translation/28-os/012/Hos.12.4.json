@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.12.4",
+    "livro": "Oseias",
+    "capitulo": 12,
+    "versiculo": 4,
+    "pericope": "Hos.12.1-15"
+  },
+  "texto_bv": "No ventre, ele pegou seu irmão pelo calcanhar, e em sua força lutou com Deus.",
+  "traducao_literal": "No ventre, pegou pelo calcanhar seu irmão; e em seu vigor lutou com Deus.",
+  "termos_originais": [
+    {
+      "palavra": "בַּבֶּ֖טֶן",
+      "lemma": "b/990",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "עָקַ֣ב",
+      "lemma": "6117",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "אָחִ֑יו",
+      "lemma": "251",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וּבְאוֹנ֖וֹ",
+      "lemma": "c/b/202",
+      "morfologia": "HC/R/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "שָׂרָ֥ה",
+      "lemma": "8280",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "854",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֱלֹהִֽים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עָקַב (H6117, 'pegar pelo calcanhar/suplantar') — jogo de palavras com יַעֲקֹב (Jacó)",
+      "escolha": "traduzir pelo valor lexical ('pegou pelo calcanhar'), sem tentar recriar o trocadilho em português.",
+      "justificativa": "O trocadilho hebraico (עקב~יעקב) é intraduzível sem paráfrase; preservado apenas na justificativa para o auditor, não inserido no texto (TEOLOGIA §2 — proíbe expansão interpretativa no texto).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "אֶת (lemma 854, preposição 'com', não מ marcador de objeto 853) antes de אֱלֹהִים",
+      "escolha": "'lutou com Deus' (עם/את comitativo), não 'contra Deus'.",
+      "justificativa": "O packet marca explicitamente lemma 854 (preposição 'com'), distinto do 853 (marcador acusativo) usado alhures no capítulo; morfologia decide.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'lutou contra Deus'",
+          "motivo": "descartado pela marcação morfológica explícita do lemma como preposição comitativa, não marcador de objeto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito retomado de Jacó, v.3)"
+  ],
+  "ambiguidades_preservadas": [
+    "'lutou com Deus' ecoa Gênesis 32 sem citar explicitamente o episódio de Peniel; a identidade do 'homem/anjo' daquele relato permanece em aberto, como no hipotexto"
+  ],
+  "justificativa": "Alusão biográfica a Jacó (Gn 25:26 calcanhar; Gn 32:24-29 luta em Peniel), sem necessidade de nota expansiva — o leitor reconhece a alusão pelo enredo.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.137.5",
+    "livro": "Salmos",
+    "capitulo": 137,
+    "versiculo": 5,
+    "pericope": "Ps.137.1-9"
+  },
+  "texto_bv": "Se eu me esquecer de você, Jerusalém, que a minha mão direita se esqueça.",
+  "traducao_literal": "Se eu te esquecer, Jerusalém, esqueça-se a minha direita.",
+  "termos_originais": [
+    {
+      "palavra": "אִֽם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֶשְׁכָּחֵ֥ךְ",
+      "lemma": "7911",
+      "morfologia": "HVqi1cs/Sp2fs"
+    },
+    {
+      "palavra": "יְֽרוּשָׁלִָ֗ם",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "תִּשְׁכַּ֥ח",
+      "lemma": "7911",
+      "morfologia": "HVqi3fs"
+    },
+    {
+      "palavra": "יְמִינִֽי",
+      "lemma": "3225",
+      "morfologia": "HNcfsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de segunda pessoa ao apostrofar Jerusalém personificada (não é oração a Deus nem discurso comum entre humanos)",
+      "escolha": "você (registro humano-padrão)",
+      "justificativa": "D-0003/EDITORIAL §3 distingue apenas dois registros (oração a Deus = tu; demais discursos = você/vocês); a apóstrofe a uma cidade personificada segue o registro padrão, como já decidido para a autoapóstrofe de Sl 42:6.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu (convenção poética tradicional de apóstrofe solene)",
+          "motivo": "soaria mais natural ao ouvido litúrgico, mas contraria a letra binária de D-0003 e quebraria a consistência já fixada em Sl 42:6; a tradução literal usa 'te' como glosa natural, sem vincular-se à decisão editorial de registro"
+        }
+      ]
+    },
+    {
+      "questao": "תִּשְׁכַּח יְמִינִי — verbo transitivo sem objeto explícito (elipse do que a mão 'esquece')",
+      "escolha": "esqueça-se (reflexivo, sem completar o objeto elidido)",
+      "justificativa": "EDITORIAL §4: elipses só são supridas quando o português fica agramatical sem isso; 'esquecer-se' reflexivo é gramatical em português e preserva a elipse do hebraico, que não especifica do que a mão esquece (destreza, função de tocar).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "esqueça o seu ofício/sua destreza (objeto suprido explicitamente)",
+          "motivo": "introduziria conteúdo interpretativo que o hebraico deixa em aberto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "se (reflexivização de 'esquecer', exigida pela gramaticalidade do português sem objeto explícito — EDITORIAL §4)"
+  ],
+  "ambiguidades_preservadas": [
+    "o conteúdo elidido de 'que a minha mão direita se esqueça' (de que função? tocar harpa? agir?) permanece em aberto, como no hebraico"
+  ],
+  "justificativa": "Fórmula de autoimprecação/juramento (אִם + imperfeito): a prótase condicional e a apódose-maldição fundem-se, estrutura preservada sem completar a elipse.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

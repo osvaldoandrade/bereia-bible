@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.105.28",
+    "livro": "Salmos",
+    "capitulo": 105,
+    "versiculo": 28,
+    "pericope": "Ps.105.1-45"
+  },
+  "texto_bv": "Ele mandou trevas e escureceu; e eles não se rebelaram contra as palavras dele.",
+  "traducao_literal": "Enviou trevas e-escureceu; e-não se-rebelaram contra-suas-palavras (ketiv).",
+  "termos_originais": [
+    {
+      "palavra": "שָׁ֣לַֽח",
+      "lemma": "7971",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "חֹ֭שֶׁךְ",
+      "lemma": "2822",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וַיַּחְשִׁ֑ךְ",
+      "lemma": "c/2821",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "וְלֹֽא",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "מָ֝ר֗וּ",
+      "lemma": "4784",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "דברוו",
+      "lemma": "1697",
+      "morfologia": "HNcmpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "'דברוו' (v.28) apresenta grafia consonantal atípica (duplo vav) e sem pontuação vocálica, no mesmo padrão observado em 'רגליו' (v.18) — provável marca ketiv na fonte pinada, sem qere fornecido pelo packet cego (referencia_fonte: campo 'hebraico' de Ps.105.28 no packet sl-105-001-045.blind.json).",
+      "leituras": [
+        {
+          "leitura": "דברוו — morfologia anexada (HNcmpc/Sp3ms) indica plural construto + sufixo 3ms, 'as palavras dele' (não singular 'a palavra dele')",
+          "testemunhas": "OSHB (fonte pinada, packet)"
+        }
+      ],
+      "avaliacao": "Segue-se a morfologia plural fornecida pela fonte, sem reconstrução independente de qere.",
+      "impacto_na_traducao": "Tradução usa 'as palavras dele' (plural) em vez de 'a palavra dele' (singular)."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Referente de 'não se rebelaram': Moisés/Arão (obedientes) ou o Egito",
+      "escolha": "Moisés e Arão (sujeito retomado de vv.26-27)",
+      "justificativa": "O contexto imediato (vv.26-27) apresenta Moisés e Arão como agentes que executam os sinais; 'não se rebelaram contra as palavras dele' descreve a obediência deles ao mandato divino.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o Egito não se rebelou",
+          "motivo": "contradiz a narrativa do Êxodo e o restante da perícope, que descreve resistência egípcia até a décima praga"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso textualmente peculiar (ketiv não pontuado, ver variantes_textuais); referente de 'não se rebelaram' atribuído a Moisés/Arão.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

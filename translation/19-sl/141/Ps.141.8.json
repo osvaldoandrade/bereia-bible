@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.141.8",
+    "livro": "Salmos",
+    "capitulo": 141,
+    "versiculo": 8,
+    "pericope": "Ps.141.1-10"
+  },
+  "texto_bv": "Porque a ti, Senhor DEUS, estão os meus olhos; em ti me refugio; não deixes desamparada a minha vida.",
+  "traducao_literal": "Porque a ti, SENHOR, Senhor, [estão] meus olhos; em ti me refugiei; não desnudes a minha alma.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֵלֶ֨יךָ",
+      "lemma": "413",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "יְהֹוִ֣ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֲדֹנָ֣י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "עֵינָ֑י",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc/Sp1cs"
+    },
+    {
+      "palavra": "בְּכָ֥ה",
+      "lemma": "b",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "חָ֝סִ֗יתִי",
+      "lemma": "2620",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תְּעַ֥ר",
+      "lemma": "6168",
+      "morfologia": "HVpj2ms"
+    },
+    {
+      "palavra": "נַפְשִֽׁי",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְהֹוִה אֲדֹנָי — combinação de nomes divinos em ordem invertida (YHWH antes de Adonai, ao contrário do padrão אֲדֹנָי יהוה)",
+      "escolha": "'Senhor DEUS', seguindo a convenção combinatória de NOMES-DIVINOS.md (ER-0002) apesar da ordem de superfície invertida",
+      "justificativa": "A pontuação massorética de יְהֹוִה (vogais de Elohim sob as consoantes do Tetragrama) cumpre a mesma função evitativa de repetição que em אֲדֹנָי יְהוִה; o conteúdo semântico combinado — SENHOR + Senhor — é idêntico, apenas com os termos permutados na superfície hebraica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'SENHOR, Senhor' (tradução sequencial literal dos dois nomes)",
+          "motivo": "reproduz a redundância tipográfica que a própria política de nomes divinos existe para evitar"
+        }
+      ]
+    },
+    {
+      "questao": "אַל־תְּעַר נַפְשִׁי — idiotismo de עָרָה ('esvaziar/desnudar') aplicado a נֶפֶשׁ",
+      "escolha": "'não deixes desamparada a minha vida'",
+      "justificativa": "O idioma hebraico de 'despejar/expor' a vida equivale a deixá-la sem proteção; a traducao_literal preserva 'não desnudes a minha alma'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'não derrames a minha alma' (calque literal)",
+          "motivo": "obscuro em português corrente; o sentido idiomático de deixar exposto/indefeso se perde"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Confissão de confiança e refúgio em Deus, pedindo proteção da vida; nomes divinos combinados vertidos por 'Senhor DEUS' conforme política.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

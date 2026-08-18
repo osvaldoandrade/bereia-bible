@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.116.19",
+    "livro": "Salmos",
+    "capitulo": 116,
+    "versiculo": 19,
+    "pericope": "Ps.116.1-19"
+  },
+  "texto_bv": "Nos átrios da casa do SENHOR, no meio de ti, ó Jerusalém. Aleluia!",
+  "traducao_literal": "Nos átrios da casa do SENHOR, no teu meio, Jerusalém: Louvai a Yah!",
+  "termos_originais": [
+    {
+      "palavra": "בְּחַצְר֤וֹת",
+      "lemma": "b/2691 a",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "בֵּ֤ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּֽת֘וֹכֵ֤כִי",
+      "lemma": "b/8432",
+      "morfologia": "HR/Ncmsc/Sp2fs"
+    },
+    {
+      "palavra": "יְֽרוּשָׁלִָ֗ם",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַֽלְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָֽהּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הַלְלוּ־יָהּ traduzido 'Aleluia'",
+      "escolha": "Manter a transliteração consolidada 'Aleluia' no publicado",
+      "justificativa": "Fórmula litúrgica hebraica ('louvai a Yah') com tradição consolidada em português (ARA, ACF mantêm 'Aleluia' sem tradução, EDITORIAL §8); a traducao_literal decompõe 'Louvai a Yah' (imperativo + forma abreviada do Tetragrama, H3050) para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Louvai ao SENHOR!' (aplicação direta da política ER-0002/NOMES-DIVINOS ao Tetragrama abreviado)",
+          "motivo": "יָהּ (H3050) é lemma distinto de יהוה (H3068) e não consta explicitamente da tabela NOMES-DIVINOS.md; a transliteração 'Aleluia' é a prática consolidada em pt-BR e preserva o reconhecimento da fórmula litúrgica — adjudicação registrada aqui para eventual entrada futura no léxico."
+        }
+      ]
+    },
+    {
+      "questao": "Vocativo dirigido a Jerusalém marcado apenas pelo sufixo pronominal no hebraico (בְּתוֹכֵכִי)",
+      "escolha": "Suprir 'ó' para explicitar o endereçamento direto em português",
+      "justificativa": "O hebraico marca o vocativo só pelo sufixo 2fs; o português usa marcador vocativo explícito.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "ó (marcador vocativo antes de 'Jerusalém', sem correspondente formal no hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Conclusão do salmo: cumprimento público dos votos nos átrios do templo, em Jerusalém, encerrado com a exclamação litúrgica.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

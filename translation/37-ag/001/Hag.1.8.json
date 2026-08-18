@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hag.1.8",
+    "livro": "Ageu",
+    "capitulo": 1,
+    "versiculo": 8,
+    "pericope": "Hag.1.1-15"
+  },
+  "texto_bv": "Subam ao monte, tragam madeira e edifiquem a casa; nela terei prazer e serei glorificado, diz o SENHOR.",
+  "traducao_literal": "Subi o-monte e-trazei madeira e-edificai a-casa, e-terei-prazer nela e-serei-glorificado; disse YHWH.",
+  "termos_originais": [
+    {
+      "palavra": "עֲל֥וּ",
+      "lemma": "5927",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "הָהָ֛ר",
+      "lemma": "d/2022",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וַהֲבֵאתֶ֥ם",
+      "lemma": "c/935",
+      "morfologia": "HC/Vhq2mp"
+    },
+    {
+      "palavra": "עֵ֖ץ",
+      "lemma": "6086",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּבְנ֣וּ",
+      "lemma": "c/1129",
+      "morfologia": "HC/Vqv2mp"
+    },
+    {
+      "palavra": "הַבָּ֑יִת",
+      "lemma": "d/1004 b",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וְאֶרְצֶה",
+      "lemma": "c/7521",
+      "morfologia": "HC/Vqi1cs"
+    },
+    {
+      "palavra": "בּ֥וֹ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "ואכבד",
+      "lemma": "c/3513",
+      "morfologia": "HC/VNi1cs"
+    },
+    {
+      "palavra": "אָמַ֥ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עֵץ (H6086) traduzido em contexto de material de construção, não de árvore viva.",
+      "escolha": "'madeira', desviando da glosa padrão 'árvore' fixada para H6086 em contexto botânico (Gênesis 1).",
+      "justificativa": "Valor lexical determinado pelo contexto, sem concordismo entre ocorrências do mesmo lema (TEOLOGIA §2); aqui o referente é material para construção.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'árvore', ecoando a glosa de Gênesis",
+          "motivo": "sentido incorreto no contexto: ordena-se trazer material de construção, não plantas"
+        }
+      ]
+    },
+    {
+      "questao": "ואכבד grafado sem pontuação vocálica/cantilação no texto-fonte OSHB (peculiaridade do Códice de Leninegrado).",
+      "escolha": "Traduzir conforme a morfologia fornecida pelo packet (Nifal imperfeito 1cs, HC/VNi1cs) — 'serei glorificado' — sem criar entrada em variantes_textuais.",
+      "justificativa": "O packet não sinaliza este item como variantes_fonte; a instrução veda inventar aparato quando o packet não o traz.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Registrar como variante textual formal",
+          "motivo": "o packet não contém campo variantes_fonte para este verso; seria fabricação de aparato"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Grafia sem pontuação de ואכבד no texto-fonte, peculiaridade não anotada como aparato pelo packet."
+  ],
+  "justificativa": "Ordem direta de reconstrução do templo, com promessa de agrado e glorificação divina como resultado.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

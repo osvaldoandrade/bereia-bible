@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.123.4",
+    "livro": "Salmos",
+    "capitulo": 123,
+    "versiculo": 4,
+    "pericope": "Ps.123.1-4"
+  },
+  "texto_bv": "A nossa alma já está muito farta do escárnio dos tranquilos, do desprezo dos soberbos.",
+  "traducao_literal": "Muito fartou-se, para si, a nossa alma, do escárnio dos tranquilos, do desprezo dos soberbos.",
+  "termos_originais": [
+    {
+      "palavra": "רַבַּת֮",
+      "lemma": "7227 a",
+      "morfologia": "HAafsc"
+    },
+    {
+      "palavra": "שָֽׂבְעָה",
+      "lemma": "7646",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "לָּ֪הּ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3fs"
+    },
+    {
+      "palavra": "נַ֫פְשֵׁ֥נוּ",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cp"
+    },
+    {
+      "palavra": "הַלַּ֥עַג",
+      "lemma": "d/3933",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הַשַּׁאֲנַנִּ֑ים",
+      "lemma": "d/7600",
+      "morfologia": "HTd/Aampa"
+    },
+    {
+      "palavra": "הַ֝בּ֗וּז",
+      "lemma": "d/937",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "לִגְאֵ֥יוֹנִֽים",
+      "lemma": "l/1349",
+      "morfologia": "HR/Aampa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem V-S com adjetivo fronteado (רַבַּת שָׂבְעָה) e dativo ético/reflexivo לָּהּ ('para si mesma')",
+      "escolha": "publicado normaliza para S-V ('a nossa alma já está muito farta'), sem verter o dativo ético isoladamente; literal preserva a ordem verbo-sujeito e o dativo ('Muito fartou-se, para si, a nossa alma')",
+      "justificativa": "ER-0011 (ordem S-V uniforme no publicado) + ER-0013 (a literal preserva calques estruturais, incluindo o dativo ético לָּהּ, reforço poético sem correspondente formal separável em português corrente).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "V-S também no publicado",
+          "motivo": "contraria ER-0011"
+        },
+        {
+          "opcao": "omitir o dativo também na literal",
+          "motivo": "apagaria um traço morfológico auditável do calque, violando ER-0013"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de הַשַּׁאֲנַנִּים (Td/Aampa, adjetivo substantivado de שַׁאֲנָן, 'estar à vontade/seguro/despreocupado')",
+      "escolha": "'os tranquilos'",
+      "justificativa": "שַׁאֲנָן tem valor lexical de segurança/despreocupação (frequentemente com conotação negativa de complacência, cf. Am 6:1); 'tranquilos' é glosa transparente que não funde o termo com גֵּאֶה ('soberbo/orgulhoso') do mesmo verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os arrogantes'",
+          "motivo": "colide semanticamente com a glosa escolhida para לִגְאֵיוֹנִים no mesmo verso, apagando a distinção lexical entre as duas raízes hebraicas"
+        },
+        {
+          "opcao": "'os despreocupados'",
+          "motivo": "registro coloquial demais para o contexto salmódico"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de לִגְאֵיוֹנִים (R/Aampa, de גֵּאֶה, 'orgulhoso/soberbo/arrogante')",
+      "escolha": "'os soberbos'",
+      "justificativa": "termo consolidado no português bíblico para גֵּאֶה, distinto de 'os tranquilos' (שַׁאֲנָן) na mesma linha, preservando o paralelismo de dois grupos distintos de opressores.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os arrogantes'",
+          "motivo": "reservado como alternativa a שַׁאֲנָן; usar aqui também colidiria as duas raízes"
+        },
+        {
+          "opcao": "'os orgulhosos'",
+          "motivo": "registro neutro, menos consolidado na tradição bíblica em português que 'soberbos'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הַשַּׁאֲנַנִּים e לִגְאֵיוֹנִים podem se referir a opressores históricos específicos (identificados por alguns comentadores com grupos do período pós-exílico) ou funcionar como caracterização genérica da arrogância humana; a BV preserva a leitura genérica, sem fixar identificação histórica."
+  ],
+  "justificativa": "Fecho do salmo, retomando שָׂבַע ('fartar-se') e בּוּז ('desprezo') de 123:3 em paralelismo sinonímico com dois grupos de opressores (os tranquilos/complacentes; os soberbos); decisões cobrem a ordem V-S com dativo ético e a distinção lexical entre as duas glosas de arrogância.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

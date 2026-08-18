@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.149.2",
+    "livro": "Salmos",
+    "capitulo": 149,
+    "versiculo": 2,
+    "pericope": "Ps.149.1-9"
+  },
+  "texto_bv": "Alegre-se Israel naquele que o fez; exultem os filhos de Sião no seu rei.",
+  "traducao_literal": "Alegre-se Israel no que fez ele; os filhos de Sião exultem no rei deles.",
+  "termos_originais": [
+    {
+      "palavra": "יִשְׂמַ֣ח",
+      "lemma": "8055",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֣ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּעֹשָׂ֑יו",
+      "lemma": "b/6213 a",
+      "morfologia": "HR/Vqrmpc/Sp3ms"
+    },
+    {
+      "palavra": "בְּנֵֽי",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "צִ֝יּ֗וֹן",
+      "lemma": "6726",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יָגִ֥ילוּ",
+      "lemma": "1523",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "בְמַלְכָּֽם",
+      "lemma": "b/4428",
+      "morfologia": "HR/Ncmsc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עֹשָׂיו deriva de עשה (H6213, 'fazer'), não de ברא (H1254a, 'criar'); como preservar a distinção lexical fixada pela BV desde Gênesis 1?",
+      "escolha": "'naquele que o fez' (perífrase verbal com 'fazer')",
+      "justificativa": "A BV mantém criar(bara)/fazer(asah) como pares não sinônimos desde Gn 1; usar 'Criador' aqui colapsaria essa distinção terminológica, já que o lexema do verso é de fato עשה, não ברא.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'seu Criador'",
+          "motivo": "tradução idiomática corrente (ARA/NVI), mas atribui a עשה o campo lexical que o projeto reserva a ברא."
+        }
+      ]
+    },
+    {
+      "questao": "עֹשָׂיו é plural morfológico ('os que o fizeram') com referente singular (Deus) — plural de majestade análogo a אֱלֹהִים; como verter?",
+      "escolha": "Singular ('naquele que o fez'), com a pluralidade anotada como observação.",
+      "justificativa": "Mesmo tratamento dado a אֱלֹהִים em NOMES-DIVINOS (plural morfológico não vertido como plural real, para não sugerir múltiplos agentes).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'nos que o fizeram' (plural)",
+          "motivo": "sugeriria múltiplos criadores/fazedores, sentido não pretendido pelo hebraico."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Plural morfológico de עֹשָׂיו (plural de majestade) preservado apenas em observação, não refletido no texto publicado."
+  ],
+  "justificativa": "Paralelismo Israel/filhos de Sião, com foco no 'fazer' divino (não 'criar') e na realeza de Deus sobre o povo.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

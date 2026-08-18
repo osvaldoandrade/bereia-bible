@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.85.1",
+    "livro": "Salmos",
+    "capitulo": 85,
+    "versiculo": 1,
+    "pericope": "Ps.85.1-14"
+  },
+  "texto_bv": "Ao mestre de canto. Dos filhos de Coré. Salmo.",
+  "traducao_literal": "Para o dirigente, dos filhos de Coré, salmo.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֬חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "לִבְנֵי",
+      "lemma": "l/1121 a",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "קֹ֬רַח",
+      "lemma": "7141",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִזְמֽוֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de לַמְנַצֵּחַ (piel particípio de נצח, título de regência musical)",
+      "escolha": "Ao mestre de canto",
+      "justificativa": "Fórmula já consolidada no corpus da BV (Ps.42.1) para este título musical recorrente nos Salmos; mantém consistência terminológica entre superscrições coreítas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ao regente",
+          "motivo": "sinônimo válido, mas quebraria a consistência já fixada em Ps.42.1"
+        },
+        {
+          "opcao": "transliterar 'lamnatseach'",
+          "motivo": "perde a informação semântica recuperável do termo"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem dos três elementos da rubrica (dirigente / dedicação aos filhos de Coré / gênero 'salmo'), que no hebraico deste versículo difere da ordem de Ps.48.1",
+      "escolha": "Preservar a ordem hebraica exata em três frases nominais curtas separadas por ponto: 'Ao mestre de canto. Dos filhos de Coré. Salmo.'",
+      "justificativa": "Ao contrário de Ps.48.1 (onde o gênero precede a dedicação), aqui לִבְנֵי־קֹרַח precede מִזְמוֹר no TM; manter a ordem evita uma harmonização não sustentada pela sintaxe deste versículo específico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Salmo dos filhos de Coré' (seguindo o agrupamento de Ps.48.1)",
+          "motivo": "inverteria a ordem hebraica deste versículo especificamente para imitar outra rubrica com ordem diferente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "de canto (explicitação de מְנַצֵּחַ)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Rubrica de título sem verbo finito; três frases nominais justapostas conforme a ordem do TM.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

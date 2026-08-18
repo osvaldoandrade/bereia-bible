@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.88.3",
+    "livro": "Salmos",
+    "capitulo": 88,
+    "versiculo": 3,
+    "pericope": "Ps.88.1-19"
+  },
+  "texto_bv": "Chegue a minha oração à tua presença; inclina o teu ouvido ao meu clamor.",
+  "traducao_literal": "Venha diante de ti a minha oração; inclina o teu ouvido ao meu clamor.",
+  "termos_originais": [
+    {
+      "palavra": "תָּב֣וֹא",
+      "lemma": "935",
+      "morfologia": "HVqi3fs"
+    },
+    {
+      "palavra": "לְ֭פָנֶיךָ",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc/Sp2ms"
+    },
+    {
+      "palavra": "תְּפִלָּתִ֑י",
+      "lemma": "8605",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "הַטֵּֽה",
+      "lemma": "5186",
+      "morfologia": "HVhv2ms"
+    },
+    {
+      "palavra": "אָ֝זְנְךָ֗",
+      "lemma": "241",
+      "morfologia": "HNcfsc/Sp2ms"
+    },
+    {
+      "palavra": "לְרִנָּתִֽי",
+      "lemma": "l/7440",
+      "morfologia": "HR/Ncfsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem verbo-PP-sujeito de תָּבוֹא לְפָנֶיךָ תְּפִלָּתִי no publicado",
+      "escolha": "sujeito-verbo ('a minha oração chegue') no publicado, preservando verbo-PP-sujeito na literal",
+      "justificativa": "Por analogia com a diretriz de ordem uniforme (ER-0011), aplicada aqui a uma inversão poética equivalente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter verbo-PP-sujeito no publicado",
+          "motivo": "soaria arcaizante fora de fórmula de fala fixa"
+        }
+      ]
+    },
+    {
+      "questao": "רִנָּתִי, lexema tipicamente de grito de júbilo, usado aqui em lamento",
+      "escolha": "meu clamor",
+      "justificativa": "Campo semântico amplo (grito intenso); contexto de súplica pede tradução neutra quanto à valência emocional.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "meu júbilo / meu cântico",
+          "motivo": "importaria conotação de alegria ausente no contexto de lamento"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "רִנָּה pode conotar grito de júbilo mesmo em contexto de lamento; a tensão semântica não é resolvida no texto"
+  ],
+  "justificativa": "Verso volitivo/jussivo paralelo (oração // clamor; ouvido inclinado); segunda pessoa 'tua/teu' por oração dirigida a Deus.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

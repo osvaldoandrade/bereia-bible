@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.33.27",
+    "livro": "Jó",
+    "capitulo": 33,
+    "versiculo": 27,
+    "pericope": "Job.33.1-33"
+  },
+  "texto_bv": "Ele se dirige aos homens e diz: \"Pequei e perverti o que era reto, e isso não me trouxe proveito.",
+  "traducao_literal": "Ele-olha/volta-se diante-de homens, e-diz: 'Pequei, e-o-reto pervertido; e-não foi-retribuído a-mim.'",
+  "termos_originais": [
+    {
+      "palavra": "יָשֹׁ֤ר",
+      "lemma": "7789",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֲנָשִׁ֗ים",
+      "lemma": "376",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וַיֹּ֗אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "חָ֭טָאתִי",
+      "lemma": "2398",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "וְיָשָׁ֥ר",
+      "lemma": "c/3477",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "הֶעֱוֵ֗יתִי",
+      "lemma": "5753 a",
+      "morfologia": "HVhp1cs"
+    },
+    {
+      "palavra": "וְלֹא",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "שָׁ֥וָה",
+      "lemma": "7737 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לִֽי",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָשֹׁר — lema do packet aponta para שׁוּר ('olhar/voltar-se'), não para שִׁיר ('cantar')",
+      "escolha": "'ele se dirige aos homens', termo neutro compatível com o lema fornecido, evitando tanto 'canta' (tradição de algumas versões, raiz שיר) quanto 'contempla' isoladamente",
+      "justificativa": "o packet pinado atribui a este verbo a mesma raiz do v.14 (H7789, 'olhar/observar/voltar-se'); segue-se o lema da fonte pinada em vez da leitura tradicional alternativa (raiz שיר)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele canta diante dos homens'",
+          "motivo": "pressupõe raiz שִׁיר (H7891), não atestada pelo lema do packet pinado para este verso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A raiz de יָשֹׁר é lexicalmente ambígua entre שׁוּר ('olhar/voltar-se') e שִׁיר ('cantar'); a BV segue o lema fornecido pelo packet pinado (שׁוּר) e preserva a leitura alternativa como possibilidade."
+  ],
+  "justificativa": "Abre a citação do testemunho público do homem restaurado, que se estende ao v.28 (confirmado pela primeira pessoa mantida em ambos os versos).",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

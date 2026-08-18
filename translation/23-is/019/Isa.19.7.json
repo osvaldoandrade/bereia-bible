@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.19.7",
+    "livro": "Isaías",
+    "capitulo": 19,
+    "versiculo": 7,
+    "pericope": "Isa.19.1-25"
+  },
+  "texto_bv": "Os prados junto ao Nilo, junto à margem do Nilo, e toda plantação do Nilo secarão, serão levados pelo vento e deixarão de existir.",
+  "traducao_literal": "Prados junto ao rio, junto à boca do rio, e toda semeadura do rio secará, será dispersa, e não mais existirá.",
+  "termos_originais": [
+    {
+      "palavra": "עָר֥וֹת",
+      "lemma": "6169",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְא֖וֹר",
+      "lemma": "2975",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "פִּ֣י",
+      "lemma": "6310",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְא֑וֹר",
+      "lemma": "2975",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְכֹל֙",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "מִזְרַ֣ע",
+      "lemma": "4218",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְא֔וֹר",
+      "lemma": "2975",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יִיבַ֥שׁ",
+      "lemma": "3001",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "נִדַּ֖ף",
+      "lemma": "5086",
+      "morfologia": "HVNp3ms"
+    },
+    {
+      "palavra": "וְאֵינֶֽנּוּ",
+      "lemma": "c/369",
+      "morfologia": "HC/Tn/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְאוֹר — marcado como nome próprio (HNp) no packet",
+      "escolha": "\"Nilo\"",
+      "justificativa": "Morfologia pinada marca substantivo próprio (Np), distinto do comum \"mar\" de 19:5; \"Nilo\" é a tradução lexical direta do nome do rio egípcio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"o rio\" (genérico, mantendo ambiguidade como em 19:5)",
+          "motivo": "apagaria a distinção morfológica marcada no próprio packet entre nome comum (מַיִם/יָם) e nome próprio (יְאוֹר)"
+        }
+      ]
+    },
+    {
+      "questao": "concordância número singular/coletivo (יִיבַשׁ נִדַּף וְאֵינֶנּוּ, 3ms) com sujeito composto plural",
+      "escolha": "verbos no plural no publicado, tratando a lista coletivamente",
+      "justificativa": "Hebraico trata \"toda semeadura\" como singular coletivo regendo verbo singular; português naturaliza para concordância com a enumeração precedente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "singular estrito (\"secará\", \"será levada\")",
+          "motivo": "soaria como referindo-se só ao último item da lista, distorcendo o alcance"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Encerramento da imagem de seca: toda a margem cultivada do Nilo desaparece.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

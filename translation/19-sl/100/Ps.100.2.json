@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.100.2",
+    "livro": "Salmos",
+    "capitulo": 100,
+    "versiculo": 2,
+    "pericope": "Ps.100.1-5"
+  },
+  "texto_bv": "Sirvam ao SENHOR com alegria; venham à sua presença com júbilo!",
+  "traducao_literal": "Servi ao SENHOR com alegria; vinde à sua face com júbilo.",
+  "termos_originais": [
+    {
+      "palavra": "עִבְד֣וּ",
+      "lemma": "5647",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּשִׂמְחָ֑ה",
+      "lemma": "b/8057",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "בֹּ֥אוּ",
+      "lemma": "935",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "לְ֝פָנָ֗יו",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc/Sp3ms"
+    },
+    {
+      "palavra": "בִּרְנָנָֽה",
+      "lemma": "b/7445",
+      "morfologia": "HR/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לְפָנָיו (H6440, 'às suas faces', plural construto + sufixo) — idiomatização de 'face' como 'presença'",
+      "escolha": "à sua presença (publicado) / à sua face (literal)",
+      "justificativa": "פָּנִים plural construto é o idioma hebraico regular para 'presença'; a glosa lexicográfica 'face' (lexicon.json H6440) é preservada na traducao_literal como calque (ER-0013) e normalizada para 'presença' no texto publicado por naturalidade em pt-BR.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "diante dele",
+          "motivo": "perde todo vestígio lexical de panim mesmo no publicado; 'presença' mantém o traço semântico de rosto/face de modo natural"
+        }
+      ]
+    },
+    {
+      "questao": "בִּרְנָנָה (H7445, grito/canto jubiloso) — distinção de שִׂמְחָה ('alegria') no mesmo verso",
+      "escolha": "com júbilo",
+      "justificativa": "רְנָנָה denota a expressão sonora e ritual de alegria (grito/canto), distinta da disposição interior נשׂ שִׂמְחָה já vertida 'alegria'; 'júbilo' preserva a distinção lexical entre os dois termos paralelos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "com cântico alegre",
+          "motivo": "acrescenta a ideia específica de canto melódico, que o lexema não exige — é antes o clamor/aclamação"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Par de imperativos paralelos (servir / vir) com dois complementos adverbiais distintos — disposição interior (alegria) e expressão exterior (júbilo) — retomando o vocabulário de convocação ao culto do v.1.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

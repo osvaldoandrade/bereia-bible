@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Joel.4.11",
+    "livro": "Joel",
+    "capitulo": 4,
+    "versiculo": 11,
+    "pericope": "Joel.4.1-21"
+  },
+  "texto_bv": "Apressem-se e venham, todas as nações ao redor, e ajuntem-se ali. Faze descer, SENHOR, os teus guerreiros!",
+  "traducao_literal": "Apressem-se e venham, todas as nações ao redor, e sejam ajuntadas ali. Faze descer, SENHOR, os teus guerreiros.",
+  "termos_originais": [
+    {
+      "palavra": "ע֣וּשׁוּ",
+      "lemma": "5789",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "וָבֹ֧אוּ",
+      "lemma": "c/935",
+      "morfologia": "HC/Vqv2mp"
+    },
+    {
+      "palavra": "כָֽל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַגּוֹיִ֛ם",
+      "lemma": "d/1471 a",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "מִסָּבִ֖יב",
+      "lemma": "m/5439",
+      "morfologia": "HR/Ncbsa"
+    },
+    {
+      "palavra": "וְנִקְבָּ֑צוּ",
+      "lemma": "c/6908",
+      "morfologia": "HC/VNq3cp"
+    },
+    {
+      "palavra": "שָׁ֕מָּה",
+      "lemma": "8033",
+      "morfologia": "HD/Sd"
+    },
+    {
+      "palavra": "הַֽנְחַ֥ת",
+      "lemma": "5181",
+      "morfologia": "HVhv2ms"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "גִּבּוֹרֶֽיךָ",
+      "lemma": "1368",
+      "morfologia": "HAampc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עוּשׁוּ — hapax legomenon, sentido incerto (H5789)",
+      "escolha": "apressem-se",
+      "justificativa": "Léxicos tradicionais (BDB, HALOT) propõem 'apressar-se/vir rapidamente' com base em cognatos e contexto imediato (paralelo com בֹאוּ, 'venham'); é a glosa mais aceita apesar da raridade da forma.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ajuntem-se' (fundido com o verbo seguinte)",
+          "motivo": "duplica o sentido de וְנִקְבָּצוּ mais adiante no mesmo verso, sem base lexical clara"
+        }
+      ]
+    },
+    {
+      "questao": "הַנְחַת יְהוָה גִּבּוֹרֶיךָ — troca de interlocutor: imperativo dirigido a Deus dentro de um oráculo às nações",
+      "escolha": "Faze descer, SENHOR, os teus guerreiros! (registro de súplica, 'tu', conforme D-0003/EDITORIAL §3)",
+      "justificativa": "A cláusula final muda de destinatário — das nações (2ª pl., 'vocês') para súplica dirigida diretamente a Deus (2ª sg.), interjeição do profeta no meio do oráculo. Por ser fala dirigida a Deus, aplica-se o registro 'tu' (EDITORIAL §3), distinto do 'vocês' usado no restante do versículo para as nações.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'vocês' também nesta cláusula, tratando-a como continuação do discurso às nações",
+          "motivo": "o imperativo masculino singular הַנְחַת e o vocativo יְהוָה indicam mudança clara de interlocutor para Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A sintaxe de הַנְחַת יְהוָה גִּבּוֹרֶיךָ é uma crux clássica: lida aqui como imperativo do profeta a Deus ('faze descer, SENHOR'), mas alguns comentaristas propõem outras estruturas (ex.: 'ali o SENHOR fará descer os teus guerreiros')."
+  ],
+  "justificativa": "Convocação às nações para a batalha final, seguida de súplica do profeta pedindo a intervenção guerreira do próprio SENHOR — mudança de interlocutor marcada na morfologia (2mp → 2ms + vocativo divino), refletida no uso de 'tu' apenas nesta cláusula (D-0003).",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

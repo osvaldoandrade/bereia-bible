@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.105.18",
+    "livro": "Salmos",
+    "capitulo": 105,
+    "versiculo": 18,
+    "pericope": "Ps.105.1-45"
+  },
+  "texto_bv": "Afligiram-lhe os pés com grilhão; o pescoço dele entrou em ferro.",
+  "traducao_literal": "Afligiram com-grilhão seus-pés (ketiv); ferro entrou sua-garganta/alma.",
+  "termos_originais": [
+    {
+      "palavra": "עִנּ֣וּ",
+      "lemma": "6031 b",
+      "morfologia": "HVpp3cp"
+    },
+    {
+      "palavra": "בַכֶּ֣בֶל",
+      "lemma": "b/3525",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "רגליו",
+      "lemma": "7272",
+      "morfologia": "HNcfdc/Sp3ms"
+    },
+    {
+      "palavra": "בַּ֝רְזֶ֗ל",
+      "lemma": "1270",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בָּ֣אָה",
+      "lemma": "935",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "נַפְשֽׁוֹ",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "'רגליו' (v.18) aparece na fonte pinada (OSHB) sem pontuação vocálica, padrão que a fonte usa para marcar a forma consonantal ketiv quando distinta da leitura qere massorética; o packet não fornece qere nem aparato explícito (referencia_fonte: campo 'hebraico' de Ps.105.18 no packet sl-105-001-045.blind.json).",
+      "leituras": [
+        {
+          "leitura": "רגליו — forma consonantal fornecida pela fonte; morfologia anexada (HNcfdc/Sp3ms) indica dual construto + sufixo 3ms, 'os pés dele/seus dois pés'",
+          "testemunhas": "OSHB (fonte pinada, packet)"
+        }
+      ],
+      "avaliacao": "Sem qere alternativo disponível no packet cego, a BV segue estritamente a forma e a morfologia fornecidas pela fonte, sem reconstrução independente.",
+      "impacto_na_traducao": "Tradução usa 'os pés' (plural/dual) em vez de eventual leitura singular 'o pé'."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "נַפְשׁוֹ: 'alma/vida' vs. 'pescoço/garganta' (uso poético concreto)",
+      "escolha": "pescoço",
+      "justificativa": "נֶפֶשׁ pode designar 'garganta/pescoço' em contextos concretos e poéticos (cf. Jn 2:6); aqui, em paralelo a 'pés...grilhão' e 'ferro', descreve prisão física (gargalheira), não a alma abstrata.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "a alma dele entrou em ferro",
+          "motivo": "glosa padrão de נֶפֶשׁ é semanticamente mais abstrata neste colo, que descreve concretamente uma prisão física"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso textualmente peculiar (ketiv não pontuado, ver variantes_textuais); נֶפֶשׁ traduzido em sentido concreto 'pescoço'.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

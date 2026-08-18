@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.5.5",
+    "livro": "Provérbios",
+    "capitulo": 5,
+    "versiculo": 5,
+    "pericope": "Prov.5.1-23"
+  },
+  "texto_bv": "Os pés dela descem para a morte; os passos dela se prendem ao Seol.",
+  "traducao_literal": "Os pés dela descem à morte; ao Seol os passos dela se prendem.",
+  "termos_originais": [
+    {
+      "palavra": "רַ֭גְלֶיהָ",
+      "lemma": "7272",
+      "morfologia": "HNcfdc/Sp3fs"
+    },
+    {
+      "palavra": "יֹרְד֣וֹת",
+      "lemma": "3381",
+      "morfologia": "HVqrfpa"
+    },
+    {
+      "palavra": "מָ֑וֶת",
+      "lemma": "4194",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "שְׁ֝א֗וֹל",
+      "lemma": "7585",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְעָדֶ֥יהָ",
+      "lemma": "6806",
+      "morfologia": "HNcmpc/Sp3fs"
+    },
+    {
+      "palavra": "יִתְמֹֽכוּ",
+      "lemma": "8551",
+      "morfologia": "HVqi3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Quiasmo entre os dois hemistíquios (S-V-O // O-S-V: שְׁאוֹל צְעָדֶיהָ יִתְמֹכוּ)",
+      "escolha": "normalizar para S-V-O também no segundo hemistíquio do publicado",
+      "justificativa": "ER-0013: quiasmo de ordem preservado apenas na literal; publicado busca paralelismo direto e legível.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'ao Seol os passos dela se prendem' no publicado",
+          "motivo": "soa artificial em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "תָּמַךְ (H8551) — glosa, eco lexical com Pv 5:22",
+      "escolha": "prender(-se)",
+      "justificativa": "Mesma raiz reaparece em 5:22 (Nifal passivo, 'ele será preso'); glosa unificada marca o eco entre o destino da mulher estranha e o do ímpio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "apegar-se",
+          "motivo": "sinonímia aceitável, mas 'prender(-se)' rende melhor o eco com o Nifal passivo de 5:22 ('ser preso')"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "שְׁאוֹל mantido como topônimo transliterado ('Seol'), grafia consolidada em pt-BR, não traduzido por 'cova/sepultura'.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

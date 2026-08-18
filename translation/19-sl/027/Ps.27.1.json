@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.27.1",
+    "livro": "Salmos",
+    "capitulo": 27,
+    "versiculo": 1,
+    "pericope": "Ps.27.1-14"
+  },
+  "texto_bv": "De Davi. O SENHOR é minha luz e minha salvação; de quem terei medo? O SENHOR é a fortaleza da minha vida; de quem me apavorarei?",
+  "traducao_literal": "De Davi. SENHOR, minha luz e minha salvação: de quem temerei? SENHOR, fortaleza da minha vida: de quem me apavorarei?",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֨ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אוֹרִ֣י",
+      "lemma": "216",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "וְ֭יִשְׁעִי",
+      "lemma": "c/3468",
+      "morfologia": "HC/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "מִמִּ֣י",
+      "lemma": "m/4310",
+      "morfologia": "HR/Ti"
+    },
+    {
+      "palavra": "אִירָ֑א",
+      "lemma": "3372",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מָֽעוֹז",
+      "lemma": "4581",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "חַ֝יַּ֗י",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "מִמִּ֥י",
+      "lemma": "m/4310",
+      "morfologia": "HR/Ti"
+    },
+    {
+      "palavra": "אֶפְחָֽד",
+      "lemma": "6342",
+      "morfologia": "HVqi1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מָעוֹז חַיַּי — imagem de מָעוֹז (H4581)",
+      "escolha": "\"fortaleza da minha vida\", preservando a imagem militar/defensiva do lexema",
+      "justificativa": "מָעוֹז designa lugar fortificado/reduto, coerente com o vocabulário bélico dos v.2-3 (acampamento, guerra); precisa ser distinto de um genérico 'refúgio'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"refúgio da minha vida\"",
+          "motivo": "dilui a imagem de fortificação militar presente em מָעוֹז, mais própria de מַחְסֶה/H4268"
+        }
+      ]
+    },
+    {
+      "questao": "oração nominal sem cópula (יְהוָה אוֹרִי)",
+      "escolha": "suprir o verbo \"é\" (cópula), exigido pela sintaxe do português",
+      "justificativa": "o hebraico bíblico não tem verbo de ligação no presente; o português corrido exige o verbo explícito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir a cópula (\"SENHOR, minha luz\")",
+          "motivo": "soa telegráfico/artificial em prosa poética portuguesa, embora a traducao_literal a preserve"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (2x — cópula da oração nominal hebraica)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo em duas orações nominais paralelas (luz/salvação // fortaleza), cada uma seguida de pergunta retórica com מִמִּי; a BV supre a cópula ausente no hebraico e mantém a distinção lexical אירא (temer) / אפחד (apavorar-se).",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

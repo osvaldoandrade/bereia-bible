@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.138.2",
+    "livro": "Salmos",
+    "capitulo": 138,
+    "versiculo": 2,
+    "pericope": "Ps.138.1-8"
+  },
+  "texto_bv": "Eu me prostro voltado para o teu santo templo e louvo o teu nome, pela tua bondade e pela tua fidelidade; pois exaltaste a tua palavra acima de todo o teu nome.",
+  "traducao_literal": "Eu me prostrarei para o templo da tua santidade e louvarei o teu nome, por tua bondade e por tua fidelidade; porque exaltaste, acima de todo o teu nome, a tua palavra.",
+  "termos_originais": [
+    {
+      "palavra": "אֶשְׁתַּחֲוֶ֨ה",
+      "lemma": "7812",
+      "morfologia": "HVvi1cs"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הֵיכַ֪ל",
+      "lemma": "1964",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "קָדְשְׁךָ֡",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "וְא֘וֹדֶ֤ה",
+      "lemma": "c/3034",
+      "morfologia": "HC/Vhi1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "שְׁמֶ֗ךָ",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "חַסְדְּךָ֥",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "וְעַל",
+      "lemma": "c/5921 a",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "אֲמִתֶּ֑ךָ",
+      "lemma": "571",
+      "morfologia": "HNcfsc/Sp2ms"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הִגְדַּ֥לְתָּ",
+      "lemma": "1431",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "שִׁ֝מְךָ֗",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "אִמְרָתֶֽךָ",
+      "lemma": "565 a",
+      "morfologia": "HNcfsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חֶסֶד (H2617a) — glosa padrão em português",
+      "escolha": "bondade",
+      "justificativa": "Sem entrada ainda em lexicon.json para H2617a; 'bondade' foi escolhida como glosa acessível ao campo semântico de lealdade de aliança, evitando desvios de sentido. Recomenda-se abrir entrada no léxico para consistência em ocorrências futuras.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "misericórdia",
+          "motivo": "desloca o sentido para perdão de culpa, estranho ao campo de lealdade relacional/de aliança de חסד"
+        },
+        {
+          "opcao": "graça",
+          "motivo": "carrega conotação de favor imerecido, mais próxima de חן, não do compromisso relacional contínuo de חסד"
+        }
+      ]
+    },
+    {
+      "questao": "אֱמֶת (H571) — glosa padrão, em par formular com חֶסֶד",
+      "escolha": "fidelidade",
+      "justificativa": "Par fixo 'חסד ואמת' ('bondade e fidelidade') expressa a confiabilidade relacional constante de Deus, não apenas veracidade proposicional.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "verdade",
+          "motivo": "soa mais epistemológico/proposicional em português; 'fidelidade' capta melhor o sentido relacional do par חסד/אמת"
+        }
+      ]
+    },
+    {
+      "questao": "עַל־כָּל־שִׁמְךָ֗ אִמְרָתֶֽךָ — hipérbato hebraico (objeto ao final da oração) no texto publicado",
+      "escolha": "normalizar para ordem natural do português: verbo + objeto + adjunto ('exaltaste a tua palavra acima de todo o teu nome')",
+      "justificativa": "ER-0013 (doutrina do calque): calques estruturais preservados integralmente na traducao_literal; normalizados no publicado quando soarem artificiais.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem hebraica no publicado ('exaltaste acima de todo o teu nome a tua palavra')",
+          "motivo": "soa rebuscado/artificial em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "'a tua palavra' (אִמְרָתֶךָ) pode referir-se a uma promessa específica (ex.: 2Sm 7) ou à revelação/palavra de Deus em geral; o hebraico não especifica, ambiguidade preservada."
+  ],
+  "justificativa": "Verso de maior dificuldade lexical (חסד/אמת sem entrada prévia no léxico) e sintática (hipérbato final); decisões documentadas para consistência futura.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

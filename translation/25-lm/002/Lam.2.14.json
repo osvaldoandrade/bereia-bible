@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Lam.2.14",
+    "livro": "Lamentações",
+    "capitulo": 2,
+    "versiculo": 14,
+    "pericope": "Lam.2.1-22"
+  },
+  "texto_bv": "Teus profetas viram para ti visões vãs e insensatas; não expuseram a tua iniquidade, para reverter o teu cativeiro; mas viram para ti oráculos vãos e enganosos.",
+  "traducao_literal": "Teus-profetas viram para-ti vaidade e-insipidez; e-não revelaram sobre-tua-iniquidade, para-reverter teu-cativeiro; e-viram para-ti fardos-de vaidade e-enganos.",
+  "termos_originais": [
+    {
+      "palavra": "נְבִיאַ֗יִךְ",
+      "lemma": "5030",
+      "morfologia": "HNcmpc/Sp2fs"
+    },
+    {
+      "palavra": "חָ֤זוּ",
+      "lemma": "2372",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "לָךְ֙",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "שָׁ֣וְא",
+      "lemma": "7723",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְתָפֵ֔ל",
+      "lemma": "c/8602 a",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "וְלֹֽא",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "גִלּ֥וּ",
+      "lemma": "1540",
+      "morfologia": "HVpp3cp"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עֲוֺנֵ֖ךְ",
+      "lemma": "5771",
+      "morfologia": "HNcbsc/Sp2fs"
+    },
+    {
+      "palavra": "לְהָשִׁ֣יב",
+      "lemma": "l/7725",
+      "morfologia": "HR/Vhc"
+    },
+    {
+      "palavra": "שביתך",
+      "lemma": "7622",
+      "morfologia": "HNcfsc/Sp2fs"
+    },
+    {
+      "palavra": "וַיֶּ֣חֱזוּ",
+      "lemma": "c/2372",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "לָ֔ךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "מַשְׂא֥וֹת",
+      "lemma": "4864",
+      "morfologia": "HNcfpc"
+    },
+    {
+      "palavra": "שָׁ֖וְא",
+      "lemma": "7723",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּמַדּוּחִֽים",
+      "lemma": "c/4065",
+      "morfologia": "HC/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שביתך (grafia consonantal do packet, lema H7622 שְׁבִית \"cativeiro\") — Ketiv sem os pontos vocálicos plenos; a tradição masorética conhece Qere שְׁבוּתֵךְ (de שוב, \"restaurar a sorte\")",
+      "escolha": "traduzir por \"o teu cativeiro\", seguindo o lema pinado do packet (H7622)",
+      "justificativa": "O packet pina H7622 (שְׁבִית) para esta forma; ambas as leituras (שְׁבִית \"cativeiro\" / שְׁבוּת \"restauração da sorte\") convergem em sentido próximo — reversão da desgraça do povo — e não afetam materialmente o julgamento.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"para restaurar a tua sorte\"",
+          "motivo": "reflete a leitura Qere tradicional, mas o packet cego pina o lema do Ketiv; manter o lema pinado preserva a auditabilidade"
+        }
+      ]
+    },
+    {
+      "questao": "repetição do verbo חזה (\"viram... viram\") como moldura da estrofe",
+      "escolha": "conector \"mas\" antes da segunda ocorrência",
+      "justificativa": "O português precisa de um conector para marcar o contraste implícito entre \"não revelaram a iniquidade\" e \"viram oráculos vãos\"; o hebraico apenas justapõe as orações.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir conector",
+          "motivo": "produz leitura truncada em português, sem o contraste que a justaposição hebraica sugere ao ouvido do leitor original"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "mas (conector de contraste entre as duas orações)"
+  ],
+  "ambiguidades_preservadas": [
+    "Ketiv/Qere de שביתך (cativeiro × restauração da sorte) — sentidos próximos, não resolvidos aqui"
+  ],
+  "justificativa": "Nun do acróstico.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

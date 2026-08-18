@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.23.1",
+    "livro": "Jó",
+    "capitulo": 23,
+    "versiculo": 1,
+    "pericope": "Job.23.1-17"
+  },
+  "texto_bv": "Jó respondeu:",
+  "traducao_literal": "E respondeu Jó e disse:",
+  "termos_originais": [
+    {
+      "palavra": "וַיַּ֥עַן",
+      "lemma": "c/6030 b",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אִיּ֗וֹב",
+      "lemma": "347",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַיֹּאמַֽר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Fórmula 'וַיַּעַן...וַיֹּאמַר' (respondeu e disse): condensar ou manter os dois verbos no publicado?",
+      "escolha": "Condensar em 'respondeu' no texto publicado, preservando os dois verbos na traducao_literal.",
+      "justificativa": "ER-0013 permite normalizar repetição formular quando soa redundante em português; 'respondeu' já introduz a fala direta via dois-pontos (EDITORIAL §5). ER-0011 fixa ordem S-V no publicado; a ordem V-S do hebraico fica preservada apenas na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Então Jó respondeu e disse:'",
+          "motivo": "redundância de 'respondeu' e 'disse' soa artificial em português contemporâneo"
+        },
+        {
+          "opcao": "manter V-S no publicado ('Respondeu Jó:')",
+          "motivo": "ER-0011 fixa S-V uniforme no texto publicado; V-S é reservado à traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula introdutória padrão dos discursos de Jó (ocorre repetidas vezes no livro); verbos ענה (responder) e אמר (dizer) condensados no publicado conforme a doutrina do calque.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

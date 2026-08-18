@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.43.1",
+    "livro": "Salmos",
+    "capitulo": 43,
+    "versiculo": 1,
+    "pericope": "Ps.43.1-5"
+  },
+  "texto_bv": "Julga-me, ó Deus, e pleiteia a minha causa contra uma nação não piedosa; livra-me do homem de engano e de injustiça.",
+  "traducao_literal": "Julga-me, Deus, e pleiteia minha causa, de nação não-piedosa; de homem de engano e de injustiça, livra-me.",
+  "termos_originais": [
+    {
+      "palavra": "שָׁפְטֵ֤נִי",
+      "lemma": "8199",
+      "morfologia": "HVqv2ms/Sp1cs"
+    },
+    {
+      "palavra": "אֱלֹהִ֨ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וְרִ֘יבָ֤ה",
+      "lemma": "c/7378",
+      "morfologia": "HC/Vqv2ms/Sh"
+    },
+    {
+      "palavra": "רִיבִ֗י",
+      "lemma": "7379",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "מִגּ֥וֹי",
+      "lemma": "m/1471 a",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "חָסִ֑יד",
+      "lemma": "2623",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "מֵ֤אִישׁ",
+      "lemma": "m/376",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "מִרְמָ֖ה",
+      "lemma": "4820",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְעַוְלָ֣ה",
+      "lemma": "c/5766 b",
+      "morfologia": "HC/Ncbsa"
+    },
+    {
+      "palavra": "תְפַלְּטֵֽנִי",
+      "lemma": "6403",
+      "morfologia": "HVpi2ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pessoa/tratamento gramatical do discurso dirigido a Deus",
+      "escolha": "tu (implícito nos imperativos 2ms)",
+      "justificativa": "O salmo é oração dirigida a Deus; EDITORIAL §3 (D-0003) reserva 'tu' a esse registro, distinto do 'você' usado entre humanos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "você",
+          "motivo": "reservado a discurso entre humanos ou de Deus para humanos, não o inverso"
+        }
+      ]
+    },
+    {
+      "questao": "Tradução de אֱלֹהִים vocativo",
+      "escolha": "Deus",
+      "justificativa": "H430 referente ao Deus de Israel verte 'Deus' por NOMES-DIVINOS v1.0.0/ER-0002; não há tetragrama H3068 neste verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "SENHOR",
+          "motivo": "reservado a יהוה H3068, ausente neste verso"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de חָסִיד (H2623, 'nação não חָסִיד')",
+      "escolha": "não piedosa",
+      "justificativa": "חסיד designa o fiel/piedoso na aliança; 'não piedosa' capta a ausência dessa qualidade sem importar sentido de misericórdia social alheio ao contexto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não misericordiosa",
+          "motivo": "desloca o sentido para compaixão, quando o termo qualifica fidelidade/piedade para com Deus"
+        },
+        {
+          "opcao": "ímpia",
+          "motivo": "generaliza demais, perdendo o campo semântico específico de chesed"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem do quiasmo objeto-verbo (מֵאִישׁ...תְפַלְּטֵנִי) no texto publicado",
+      "escolha": "verbo antes do objeto ('livra-me do homem...') no texto_bv; ordem hebraica objeto-verbo preservada na traducao_literal",
+      "justificativa": "Doutrina do calque ER-0013: o quiasmo estrutural (verbo-objeto // objeto-verbo) é mantido apenas na traducao_literal; o publicado normaliza para a ordem natural verbo-objeto do português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter objeto-verbo também no texto_bv",
+          "motivo": "soaria artificial em português contemporâneo; ER-0013 reserva essa preservação à traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ó (marcador vocativo)",
+    "contra (rege מִגּוֹי, regido por 'pleiteia')"
+  ],
+  "ambiguidades_preservadas": [
+    "'nação não piedosa' pode designar um povo estrangeiro específico ou uma caracterização genérica dos adversários do orante; o original não desambigua"
+  ],
+  "justificativa": "Verso de abertura, súplica judicial (שָׁפְטֵנִי/רִיבָה) em paralelismo quiástico com pedido de libertação; mantido registro de 'tu' por ser oração, e nomes divinos conforme política vigente.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.18.16",
+    "livro": "Jeremias",
+    "capitulo": 18,
+    "versiculo": 16,
+    "pericope": "Jer.18.1-23"
+  },
+  "texto_bv": "Assim eles fazem da terra deles uma desolação, um assobio perpétuo; todo aquele que passar por ela ficará espantado e balançará a cabeça.",
+  "traducao_literal": "Para pôr a terra deles em desolação, assobio perpétuo; todo o que passa sobre ela se espantará e moverá a cabeça.",
+  "termos_originais": [
+    {
+      "palavra": "לָשׂ֥וּם",
+      "lemma": "l/7760 a",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "אַרְצָ֛ם",
+      "lemma": "776",
+      "morfologia": "HNcbsc/Sp3mp"
+    },
+    {
+      "palavra": "לְשַׁמָּ֖ה",
+      "lemma": "l/8047",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "שרוקת",
+      "lemma": "8292",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "עוֹלָ֑ם",
+      "lemma": "5769",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כֹּ֚ל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "עוֹבֵ֣ר",
+      "lemma": "5674 a",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "עָלֶ֔יהָ",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp3fs"
+    },
+    {
+      "palavra": "יִשֹּׁ֖ם",
+      "lemma": "8074",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "וְיָנִ֥יד",
+      "lemma": "c/5110",
+      "morfologia": "HC/Vhi3ms"
+    },
+    {
+      "palavra": "בְּרֹאשֽׁוֹ",
+      "lemma": "b/7218 a",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שרוקת — forma sem pontuação vocálica no packet (Ketiv)",
+      "escolha": "verter pelo lema atribuído (H8292, 'assobio/silvo') conforme a morfologia fornecida no packet (Ncfsc)",
+      "justificativa": "o packet não traz aparato de variantes para este item; a forma consonantal é vertida pelo valor lexical do lema pinado, sem emenda",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "לָשׂוּם (infinitivo construto) — sujeito elíptico continuando a oração de v.15",
+      "escolha": "suprir 'Assim eles' como sujeito do infinitivo de resultado/propósito",
+      "justificativa": "o infinitivo לָשׂוּם não tem sujeito gramatical próprio; continua a oração de v.15 como resultado da conduta do povo; o português exige um sujeito explícito para formar oração completa",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "unir v.15-16 numa só oração no publicado",
+          "motivo": "a divisão de versículos do packet é a unidade de registro (osis por versículo); cada registro precisa ser gramatical por si"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Assim eles (sujeito suprido para o infinitivo לָשׂוּם, que continua a oração de v.15 sem sujeito gramatical próprio)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "שַׁמָּה + שְׁרֻקָה עוֹלָם formam par sinonímico de desolação com efeito sonoro (assobio de espanto), tópos comum em oráculos de juízo; item lexical Ketiv sem aparato no packet, vertido pelo lema.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

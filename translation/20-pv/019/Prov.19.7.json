@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.19.7",
+    "livro": "Provérbios",
+    "capitulo": 19,
+    "versiculo": 7,
+    "pericope": "Prov.19.1-29"
+  },
+  "texto_bv": "Todos os irmãos do pobre o odeiam; quanto mais se afastam dele os seus amigos! Ele os persegue com palavras, mas eles já não estão.",
+  "traducao_literal": "Todos os irmãos do pobre o odeiam; quanto mais seus amigos se afastam dele! Perseguidor de palavras — não eles.",
+  "termos_originais": [
+    {
+      "palavra": "כָּ֥ל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֲחֵי",
+      "lemma": "251",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "רָ֨שׁ",
+      "lemma": "7326",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "שְֽׂנֵאֻ֗הוּ",
+      "lemma": "8130",
+      "morfologia": "HVqp3cp/Sp3ms"
+    },
+    {
+      "palavra": "אַ֤ף",
+      "lemma": "637",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "מְ֭רֵעֵהוּ",
+      "lemma": "4828",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "רָחֲק֣וּ",
+      "lemma": "7368",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "מִמֶּ֑נּוּ",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "מְרַדֵּ֖ף",
+      "lemma": "7291",
+      "morfologia": "HVprmsa"
+    },
+    {
+      "palavra": "אֲמָרִ֣ים",
+      "lemma": "561",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "הֵֽמָּה",
+      "lemma": "1992",
+      "morfologia": "HPp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מְרַדֵּף אֲמָרִים לא־הֵמָּה: cláusula final reconhecidamente corrompida/obscura no TM (crux interpretum clássico).",
+      "escolha": "Verter como 'ele os persegue com palavras [de súplica], mas eles [já] não estão [ali]' — leitura majoritária que mantém a ironia de apelos verbais that não recuperam os amigos perdidos.",
+      "justificativa": "Nenhuma emenda é aplicada (fonte pinada, sem aparato no packet); a tradução escolhida é a que menos acrescenta ao TM consonantal, mantendo o sentido geral do dístico (isolamento do pobre).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele persegue palavras, [mas] elas não são [dele]' (lo hemah referindo-se às palavras, não aos amigos)",
+          "motivo": "Gramaticalmente possível (הֵמָּה pode retomar אֲמָרִים), mas produz sentido mais obscuro ainda; a maioria das leituras trata הֵמָּה como retomando 'os amigos/irmãos'."
+        },
+        {
+          "opcao": "Emendar TM a partir de versões antigas (LXX/Peshitta divergem bastante aqui)",
+          "motivo": "Fora do escopo do tier DRAFT; fonte pinada é o TM/OSHB, sem autorização para emenda conjectural."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "já (para marcar o desfecho da busca)"
+  ],
+  "ambiguidades_preservadas": [
+    "Verso reconhecido como texto difícil/possivelmente corrompido no TM; referente de לא־הֵמָּה (os amigos, ou as palavras) preservado como ambíguo.",
+    "Concordância número מְרֵעֵהוּ (sg. com sufixo) vs. רָחֲקוּ (pl.) — tratado como coletivo, sem emenda."
+  ],
+  "justificativa": "Verso de baixa confiança textual e sintática; mantido próximo ao TM consonantal sem harmonização com versões antigas.",
+  "confianca": 0.5,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.10.1",
+    "livro": "Ester",
+    "capitulo": 10,
+    "versiculo": 1,
+    "pericope": "Esth.10.1-3"
+  },
+  "texto_bv": "E o rei Assuero impôs tributo sobre a terra e as ilhas do mar.",
+  "traducao_literal": "E pôs o rei Assuero tributo sobre a terra e as ilhas do mar.",
+  "termos_originais": [
+    {
+      "palavra": "וַיָּשֶׂם֩",
+      "lemma": "c/7760 a",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "הַמֶּ֨לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אחשרש",
+      "lemma": "325",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מַ֛ס",
+      "lemma": "4522",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הָאָ֖רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "וְאִיֵּ֥י",
+      "lemma": "c/339",
+      "morfologia": "HC/Ncmpc"
+    },
+    {
+      "palavra": "הַיָּֽם",
+      "lemma": "d/3220",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Grafia consonantal אחשרש (sem as letras plenas de אֲחַשְׁוֵרוֹשׁ) no TM de Est 10:1",
+      "escolha": "Tratar como forma defectiva do mesmo nome próprio Assuero (lema OSHB 325, idêntico ao usado no restante do livro), sem efeito na tradução.",
+      "justificativa": "O lema anexado (325) identifica o mesmo referente do restante do livro; a variação é ortográfica, não lexical ou referencial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Tratar como nome distinto ou sinalizar erro no texto",
+          "motivo": "Não há base morfológica/lexical para outro referente; o lema confirma identidade com Assuero."
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de מַס (H4522: tributo/trabalho forçado)",
+      "escolha": "tributo",
+      "justificativa": "No contexto de imposição sobre território ('sobre a terra e as ilhas'), o sentido fiscal-econômico é mais adequado que 'trabalho forçado', outro sentido do mesmo lema.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "trabalho forçado / corveia",
+          "motivo": "O objeto da imposição é territorial, não uma classe de trabalhadores; 'tributo' encaixa melhor no contexto."
+        }
+      ]
+    },
+    {
+      "questao": "Manutenção de 'E' inicial no texto publicado (wayyiqtol de abertura de capítulo)",
+      "escolha": "Manter 'E' por retomar a linha narrativa do livro após o fechamento do capítulo 9.",
+      "justificativa": "O wayyiqtol aqui não abre um relato isolado, mas continua a narrativa histórica do reinado; segue o padrão de retomada discursiva (ER-0013 item 1, cf. Gn 1:3).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Omitir 'E' por soar artificial em português",
+          "motivo": "A sequência discursiva pede a retomada, conforme doutrina do calque (ER-0013)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verbo, sujeito e objeto mantidos; ordem invertida no publicado conforme ER-0011 (S-V), preservada V-S-O na literal; a grafia consonantal peculiar do nome do rei não afeta a tradução, apenas registrada como curiosidade textual.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

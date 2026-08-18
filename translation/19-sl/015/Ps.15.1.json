@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.15.1",
+    "livro": "Salmos",
+    "capitulo": 15,
+    "versiculo": 1,
+    "pericope": "Ps.15.1-5"
+  },
+  "texto_bv": "Salmo de Davi. SENHOR, quem se hospedará em tua tenda? Quem habitará em teu monte santo?",
+  "traducao_literal": "Salmo de Davi. SENHOR, quem peregrinará em tua tenda? Quem residirá no monte de tua santidade?",
+  "termos_originais": [
+    {
+      "palavra": "מִזְמ֗וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָ֫וִ֥ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יְ֭הֹוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִי",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יָג֣וּר",
+      "lemma": "1481 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בְּאָהֳלֶ֑ךָ",
+      "lemma": "b/168",
+      "morfologia": "HR/Ncmsc/Sp2ms"
+    },
+    {
+      "palavra": "מִֽי",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יִ֝שְׁכֹּ֗ן",
+      "lemma": "7931",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בְּהַ֣ר",
+      "lemma": "b/2022",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "קָדְשֶֽׁךָ",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Distinção lexical entre גור (Vqi3ms, 'peregrinar/hospedar-se') e שכן (Vqi3ms, 'habitar/residir') no par paralelístico do verso",
+      "escolha": "גור → 'hospedar-se' (permanência transitória, como hóspede); שכן → 'habitar' (residência estável)",
+      "justificativa": "Preserva a progressão semântica do paralelismo hebraico (hóspede transitório → residente permanente) em vez de sinonimizar os dois verbos",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir ambos por 'habitar'",
+          "motivo": "apaga a distinção lexical entre hospedagem temporária e residência permanente presente no par verbal hebraico"
+        }
+      ]
+    },
+    {
+      "questao": "Pessoa gramatical do discurso dirigido diretamente a Deus",
+      "escolha": "'tu'/'teu' (registro litúrgico, EDITORIAL §3)",
+      "justificativa": "O salmo é oração dirigida a Deus; a regra editorial reserva 'tu' para esse registro, distinto do 'você' entre humanos",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'você'/'seu'",
+          "motivo": "reservado a discurso entre humanos ou de Deus para humanos (EDITORIAL §3), não a oração dirigida a Deus"
+        }
+      ]
+    },
+    {
+      "questao": "Genitivo construto הַר קָדְשֶׁךָ, literalmente 'monte de tua santidade'",
+      "escolha": "normalizar para 'teu monte santo' no texto publicado, preservando a forma construta na tradução literal",
+      "justificativa": "Doutrina do calque (ER-0013): o construto qualificativo hebraico soa artificial em português corrente e é convertido em adjetivo no texto publicado",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'monte de tua santidade' no texto publicado",
+          "motivo": "calque genitivo desnecessariamente literal para o registro contemporâneo exigido pelo EDITORIAL §1"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Superscrição + pergunta retórica paralelística que abre o salmo (quem pode se aproximar de Deus). Par גור/שכן tratado com distinção lexical; segunda pessoa em 'tu' por ser oração dirigida a Deus; construto de קדש normalizado no publicado (ER-0013).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

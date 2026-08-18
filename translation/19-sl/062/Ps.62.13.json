@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.62.13",
+    "livro": "Salmos",
+    "capitulo": 62,
+    "versiculo": 13,
+    "pericope": "Ps.62.1-13"
+  },
+  "texto_bv": "E tua é, Senhor, a fidelidade; pois tu retribuis a cada um conforme a sua obra.",
+  "traducao_literal": "E a ti — Senhor — [pertence] fidelidade; porque tu retribuis ao homem conforme obra dele.",
+  "termos_originais": [
+    {
+      "palavra": "וּלְךָֽ",
+      "lemma": "c/l",
+      "morfologia": "HC/R/Sp2ms"
+    },
+    {
+      "palavra": "אֲדֹנָ֥י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "חָ֑סֶד",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אַתָּ֨ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "תְשַׁלֵּ֖ם",
+      "lemma": "7999 a",
+      "morfologia": "HVpi2ms"
+    },
+    {
+      "palavra": "לְאִ֣ישׁ",
+      "lemma": "l/376",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "כְּֽמַעֲשֵֽׂהוּ",
+      "lemma": "k/4639",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de חֶסֶד (H2617a) — primeira ocorrência no corpus traduzido, sem entrada prévia em lexicon.json",
+      "escolha": "fidelidade",
+      "justificativa": "חֶסֶד designa a lealdade/bondade pactual de Deus; 'fidelidade' evita tanto o viés sentimental de 'misericórdia' (que sugere sobretudo perdão/compaixão) quanto a imprecisão de 'bondade' genérica, alinhando-se ao contexto de retribuição justa do próprio verso ('tu retribuis a cada um conforme a sua obra'). Termo candidato a entrada própria no lexicon.json (EDITORIAL §11), ainda a ser fixado em ciclo de consistência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "misericórdia",
+          "motivo": "tradição Almeida, mas enfatiza compaixão/perdão e obscurece o componente pactual-relacional de חֶסֶד"
+        },
+        {
+          "opcao": "amor leal/bondade",
+          "motivo": "viável, mas 'fidelidade' comunica melhor em português contemporâneo a ideia de compromisso mantido"
+        }
+      ]
+    },
+    {
+      "questao": "Registro de 2ª pessoa em תְשַׁלֵּם (discurso dirigido diretamente a Deus, vocativo אֲדֹנָי)",
+      "escolha": "tu (retribuis)",
+      "justificativa": "EDITORIAL §3/D-0003: oração/salmo dirigido a Deus usa 'tu'; este é o único endereçamento direto a Deus na 2ª pessoa em todo o salmo (contraste com o 'vocês' de v.9, dirigido ao povo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "você retribui",
+          "motivo": "quebraria a distinção D-0003 entre discurso humano-humano (você/vocês) e oração dirigida a Deus (tu)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecho do salmo com apelo direto a Deus (Adonai, vocativo), articulando fidelidade pactual e justiça retributiva como síntese teológica final.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.4.2",
+    "livro": "Provérbios",
+    "capitulo": 4,
+    "versiculo": 2,
+    "pericope": "Prov.4.1-27"
+  },
+  "texto_bv": "Pois eu dei a vocês uma boa lição; não abandonem o meu ensino.",
+  "traducao_literal": "Porque lição boa dei a vocês; minha instrução não abandoneis.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לֶ֣קַח",
+      "lemma": "3948",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "ט֭וֹב",
+      "lemma": "2896 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "נָתַ֣תִּי",
+      "lemma": "5414",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "לָכֶ֑ם",
+      "lemma": "l",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "תּֽ֝וֹרָתִ֗י",
+      "lemma": "8451",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "אַֽל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תַּעֲזֹֽבוּ",
+      "lemma": "5800 a",
+      "morfologia": "HVqj2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לֶקַח (H3948) e תּוֹרָה (H8451) — dois sinônimos poéticos para 'ensino'",
+      "escolha": "לֶקַח → 'lição'; תּוֹרָה (aqui, ensino paterno, não a Lei mosaica) → 'ensino'",
+      "justificativa": "O paralelismo hebraico usa dois termos distintos para o mesmo referente pedagógico; a BV preserva a variação com dois termos portugueses próximos mas não idênticos, evitando tanto a repetição de 'ensino' quanto a importação equivocada de 'Lei' (que sugeriria Torá mosaica, ausente do contexto — um pai instruindo o filho).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "תּוֹרָה → 'lei'",
+          "motivo": "a referência é a instrução paterna, não à Lei de Moisés; 'lei' introduziria uma leitura anacrônica"
+        },
+        {
+          "opcao": "לֶקַח → 'doutrina'",
+          "motivo": "registro pesado demais para um substantivo cotidiano de ensino/recebimento"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem O-V (objeto fronteado) em ambas as orações do hebraico",
+      "escolha": "normalizar para S-V-O natural no publicado; preservar o fronteamento na literal",
+      "justificativa": "Doutrina do calque (ER-0013): a topicalização do objeto ('lição boa dei…', 'minha instrução não abandoneis') é marca estilística preservada apenas na camada literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem fronteada no publicado",
+          "motivo": "soa artificial em português contemporâneo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "כִּי causal introduz a razão da exortação anterior; ambas orações têm objeto fronteado no hebraico (calque preservado na literal).",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

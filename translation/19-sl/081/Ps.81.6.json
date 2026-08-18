@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.81.6",
+    "livro": "Salmos",
+    "capitulo": 81,
+    "versiculo": 6,
+    "pericope": "Ps.81.1-17"
+  },
+  "texto_bv": "Ele estabeleceu isso como testemunho em José, quando saiu contra a terra do Egito. Ouço uma língua que eu não conhecia.",
+  "traducao_literal": "Testemunho em José ele o pôs, em seu sair sobre a terra do Egito; língua eu não conhecia, eu ouço.",
+  "termos_originais": [
+    {
+      "palavra": "עֵ֤דוּת",
+      "lemma": "5715",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בִּֽיה֘וֹסֵ֤ף",
+      "lemma": "b/3084",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "שָׂמ֗וֹ",
+      "lemma": "7760 a",
+      "morfologia": "HVqp3ms/Sp3ms"
+    },
+    {
+      "palavra": "בְּ֭צֵאתוֹ",
+      "lemma": "b/3318",
+      "morfologia": "HR/Vqc/Sp3ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֶ֣רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "מִצְרָ֑יִם",
+      "lemma": "4714",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שְׂפַ֖ת",
+      "lemma": "8193",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יָדַ֣עְתִּי",
+      "lemma": "3045",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "אֶשְׁמָֽע",
+      "lemma": "8085",
+      "morfologia": "HVqi1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito de שָׂמוֹ / בְּצֵאתוֹ (\"ele o pôs\" / \"em seu sair\") — quem é \"ele\"?",
+      "escolha": "manter ambiguidade; tradução com pronome \"ele\" sem desambiguar",
+      "justificativa": "TEOLOGIA §1.5 exige preservar ambiguidade quando o original não decide; o antecedente gramatical mais próximo é \"o Deus de Jacó\" (v.5), mas José, citado na mesma oração, também é candidato sintático a sujeito de \"seu sair sobre a terra do Egito\".",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "explicitar \"Deus\" como sujeito no texto publicado",
+          "motivo": "resolveria a ambiguidade que o hebraico mantém aberta, indo além da evidência sintática"
+        }
+      ]
+    },
+    {
+      "questao": "Início da fala em 1ª pessoa (\"eu não conhecia... eu ouço\") — quem fala e a partir de onde começa a citação?",
+      "escolha": "não pontuar como discurso direto formal (sem aspas), preservando a transição ambígua",
+      "justificativa": "EDITORIAL §5 exige dois-pontos + aspas apenas quando a fronteira do discurso direto está clara; aqui a identidade do \"eu\" (voz do salmista recordando o Egito, cf. Sl 114:1, ou já a voz divina que introduz o oráculo dos vv.7-17) é disputada na literatura exegética.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "abrir aspas em \"ouço uma língua...\" e estender a citação até o v.16/17",
+          "motivo": "decisão estrutural interpretativa forte demais para o tier DRAFT; melhor registrar como ambiguidade preservada"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sujeito de \"ele o pôs\"/\"em seu sair\": o Deus de Jacó (agindo contra o Egito) ou José (ao sair como governador sobre a terra do Egito)",
+    "Identidade do \"eu\" que ouve uma língua desconhecida: o salmista/Israel recordando a experiência no Egito (cf. Sl 114:1) ou já a voz divina que abre o oráculo citado a seguir"
+  ],
+  "justificativa": "Versículo de charneira estrutural do salmo (transição da convocação ao oráculo), com dupla ambiguidade de sujeito e de fronteira do discurso — a mais difícil da perícope.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

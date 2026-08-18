@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.28.16",
+    "livro": "Provérbios",
+    "capitulo": 28,
+    "versiculo": 16,
+    "pericope": "Prov.28.1-28"
+  },
+  "texto_bv": "O governante sem entendimento é também grande opressor, mas quem odeia o lucro injusto prolongará os seus dias.",
+  "traducao_literal": "Governante falto de entendimentos e grande em opressões; [ketiv: odiadores de / qere: odiador de] lucro injusto prolongará dias.",
+  "termos_originais": [
+    {
+      "palavra": "נָגִ֗יד",
+      "lemma": "5057",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "חֲסַ֣ר",
+      "lemma": "2638",
+      "morfologia": "HAamsc"
+    },
+    {
+      "palavra": "תְּ֭בוּנוֹת",
+      "lemma": "8394",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "וְרַ֥ב",
+      "lemma": "c/7227 a",
+      "morfologia": "HC/Aamsc"
+    },
+    {
+      "palavra": "מַעֲשַׁקּ֑וֹת",
+      "lemma": "4642",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "שנאי",
+      "lemma": "8130",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "בֶ֝֗צַע",
+      "lemma": "1215",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יַאֲרִ֥יךְ",
+      "lemma": "748",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "יָמִֽים",
+      "lemma": "3117",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Ketiv/qere em שנאי בֶצַע: o texto consonantal do packet pinado grafa 'שנאי' sem pontuação (grafia de ketiv, plural construto 'odiadores de'), enquanto a leitura massorética tradicional (qere) é 'שֹׂנֵא' (singular, 'aquele que odeia').",
+      "leituras": [
+        {
+          "leitura": "ketiv: שנאי בצע ('odiadores de lucro injusto', plural)",
+          "testemunhas": "texto consonantal do TM conforme grafado no packet pinado (OSHB)"
+        },
+        {
+          "leitura": "qere: שֹׂנֵא בצע ('aquele que odeia o lucro injusto', singular)",
+          "testemunhas": "tradição de leitura massorética padrão"
+        }
+      ],
+      "avaliacao": "Variante relevante para a concordância verbal; o qere singular é preferível por harmonizar com יַאֲרִיךְ (3ms) e com o paralelismo נָגִיד...שֹׂנֵא (ambos singulares).",
+      "impacto_na_traducao": "Determina se o sujeito de 'prolongará os dias' é um indivíduo genérico (qere, adotado) ou um grupo (ketiv, rejeitado); a tradução segue o qere."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ketiv שנאי (plural construto 'odiadores de') vs. qere שֹׂנֵא (particípio singular 'aquele que odeia'): qual leitura adotar como base do julgamento semântico?",
+      "escolha": "Adjudicar pelo qere (singular), que concorda com o verbo singular יַאֲרִיךְ e fecha a antítese com נָגִיד (singular) do início do versículo.",
+      "justificativa": "A concordância sintática (verbo 3ms) favorece fortemente o qere; é também a leitura tradicional de leitura corrida do TM.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "seguir o ketiv (plural 'odiadores de lucro injusto')",
+          "motivo": "gera descordância com o verbo singular יַאֲרִיךְ sem benefício semântico; provável erro de cópia/dittografia"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Antítese entre o governante ganancioso e sem discernimento e o indivíduo (governante ou não) que rejeita o lucro injusto.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

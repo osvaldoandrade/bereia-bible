@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Lam.1.1",
+    "livro": "Lamentações",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "Lam.1.1-22"
+  },
+  "texto_bv": "Como está solitária a cidade que era tão populosa! Ficou como viúva a que era grande entre as nações; a que era princesa entre as províncias ficou sujeita a trabalhos forçados.",
+  "traducao_literal": "Como! Sentou-se solitária a cidade, grande de povo; tornou-se como viúva. Grande entre as nações, princesa entre as províncias, tornou-se para tributo.",
+  "termos_originais": [
+    {
+      "palavra": "אֵיכָ֣ה",
+      "lemma": "349 b",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יָשְׁבָ֣ה",
+      "lemma": "3427",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "בָדָ֗ד",
+      "lemma": "910",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הָעִיר֙",
+      "lemma": "d/5892 b",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "רַבָּ֣תִי",
+      "lemma": "7227 a",
+      "morfologia": "HAafsc"
+    },
+    {
+      "palavra": "עָ֔ם",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הָיְתָ֖ה",
+      "lemma": "1961",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "כְּאַלְמָנָ֑ה",
+      "lemma": "k/490",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "רַּבָּ֣תִי",
+      "lemma": "7227 a",
+      "morfologia": "HAafsc"
+    },
+    {
+      "palavra": "בַגּוֹיִ֗ם",
+      "lemma": "b/1471 a",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "שָׂרָ֨תִי֙",
+      "lemma": "8282",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "בַּמְּדִינ֔וֹת",
+      "lemma": "b/4082",
+      "morfologia": "HRd/Ncfpa"
+    },
+    {
+      "palavra": "הָיְתָ֖ה",
+      "lemma": "1961",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "לָמַֽס",
+      "lemma": "l/4522",
+      "morfologia": "HR/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "רַבָּתִי עָם — adjetivo intensivo em estado construto (pin morfológico Aafsc) ou substantivo arcaico 'senhora/grande dama', paralelo a שָׂרָתִי (v.1b)?",
+      "escolha": "adjetivo 'grande/populosa em povo', conforme a classe morfológica pinada do packet (Aafsc = adjetivo feminino construto)",
+      "justificativa": "O morph OSHB pinado marca רַבָּתִי como adjetivo, não substantivo; seguir o pin evita importar uma reclassificação lexical não sustentada pela fonte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a grande dama/senhora dos povos' (leitura substantiva, paralela a שָׂרָתִי)",
+          "motivo": "exigiria reclassificar רַבָּתִי como substantivo arcaico; o pin morfológico (Aafsc) marca adjetivo"
+        }
+      ]
+    },
+    {
+      "questao": "הָיְתָה לָמַס — glosa de מַס (H4522, 'trabalho forçado/tributo/corveia')",
+      "escolha": "'ficou sujeita a trabalhos forçados'",
+      "justificativa": "מַס designa corveia/trabalho forçado imposto a povo subjugado; 'trabalhos forçados' preserva a conotação de servidão que 'tributária' (só financeira) obscureceria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tornou-se tributária'",
+          "motivo": "reduz o sentido a pagamento financeiro, perdendo a conotação de servidão/corveia do termo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que era (2x) — liga predicativa implícita entre as orações nominais do hebraico"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do lamento (אֵיכָה, marca de qinah). Personificação de Jerusalém como viúva e ex-princesa; ordem exclamativa do hebraico mantida no publicado por ser natural também em português.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

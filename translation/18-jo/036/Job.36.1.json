@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.36.1",
+    "livro": "Jó",
+    "capitulo": 36,
+    "versiculo": 1,
+    "pericope": "Job.36.1-33"
+  },
+  "texto_bv": "E Eliú continuou e disse:",
+  "traducao_literal": "E acrescentou Eliú, e disse:",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֥סֶף",
+      "lemma": "c/3254",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "אֱלִיה֗וּא",
+      "lemma": "453",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַיֹּאמַֽר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem verbo-sujeito do wayyiqtol no texto publicado",
+      "escolha": "S-V uniforme ('Eliú continuou')",
+      "justificativa": "ER-0011 uniformiza a ordem sujeito-verbo no texto publicado, inclusive na fórmula de fala; a ordem V-S do hebraico é preservada integralmente na tradução literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado (ER-0008)",
+          "motivo": "ER-0008 foi superseded por ER-0011; soaria arcaizante/traduzido"
+        }
+      ]
+    },
+    {
+      "questao": "יסף Hifil + verbo finito ('acrescentou e disse')",
+      "escolha": "'continuou e disse'",
+      "justificativa": "construção idiomática hebraica de retomada de discurso (Hifil de יסף seguido de segundo verbo finito) equivale a 'continuar a fazer X'; o calque literal 'acrescentou, e disse' fica preservado na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'acrescentou, dizendo'",
+          "motivo": "menos natural em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula narrativa de abertura de um novo discurso de Eliú, retomando a linha narrativa de Jó 35; waw inicial vertido 'E' por continuidade discursiva (ER-0013).",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

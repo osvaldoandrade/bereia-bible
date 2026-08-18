@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.15.14",
+    "livro": "Provérbios",
+    "capitulo": 15,
+    "versiculo": 14,
+    "pericope": "Prov.15.1-33"
+  },
+  "texto_bv": "O coração entendido busca conhecimento, mas o rosto dos tolos se alimenta de insensatez.",
+  "traducao_literal": "Coração entendido busca conhecimento; e rosto de tolos apascenta insensatez.",
+  "termos_originais": [
+    {
+      "palavra": "לֵ֣ב",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "נָ֭בוֹן",
+      "lemma": "995",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "יְבַקֶּשׁ",
+      "lemma": "1245",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "דָּ֑עַת",
+      "lemma": "1847",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "ופני",
+      "lemma": "c/6440",
+      "morfologia": "HC/Ncbpc"
+    },
+    {
+      "palavra": "כְ֝סִילִ֗ים",
+      "lemma": "3684",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "יִרְעֶ֥ה",
+      "lemma": "7462 b",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "אִוֶּֽלֶת",
+      "lemma": "200",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Prov.15.14b — packet fornece a palavra 'ופני' sem pontuação massorética, com lema H6440 ('פָּנִים', face/rosto); a tradição massorética conhecida registra ketiv ופני / qere ופי (H6310, 'boca'), este último paralelo direto a וּפִי כְסִילִים do v.2 do mesmo capítulo.",
+      "leituras": [
+        {
+          "leitura": "rosto dos tolos (ketiv, lema H6440 conforme dado pelo packet)",
+          "testemunhas": "packet pv-015-001-033.blind.json, palavra 6 do v.14 (surface 'ופני' não pontuada, lemma 'c/6440')"
+        },
+        {
+          "leitura": "boca dos tolos (qere tradicional, H6310)",
+          "testemunhas": "tradição massorética (qere), não representada como alternativa explícita no packet fornecido"
+        }
+      ],
+      "avaliacao": "Seguida a leitura do packet (rosto/face, H6440), por fidelidade estrita à fonte pinada; a leitura qere tradicional é preservada no registro para auditoria, não descartada como inválida.",
+      "impacto_na_traducao": "Determina se o sujeito da segunda oração é 'rosto' ou 'boca' dos tolos — ambas sustentam o mesmo sentido geral (exposição pública da insensatez), sem impacto doutrinário."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "ופני כסילים: forma não pontuada no packet, lema H6440 ('face/rosto'), plural construto — possível ketiv",
+      "escolha": "rosto dos tolos",
+      "justificativa": "O packet fornece explicitamente lema H6440 (פָּנִים, 'face') para esta palavra, com grafia sem pontuação (traço característico de ketiv na tradição massorética); a tradução segue a leitura efetivamente pinada pelo packet, sem substituir por leitura alternativa não fornecida pela fonte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "boca dos tolos",
+          "motivo": "corresponde à leitura tradicional qere וּפִי (H6310, 'boca'), paralela ao v.2 deste capítulo; não é a leitura que o packet disponibiliza (lema H6440), por isso rejeitada como escolha principal e registrada em variantes_textuais"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Leitura de ופני: packet dá lema H6440 ('rosto', ketiv não pontuado); tradição massorética registra qere ופי ('boca', paralelo ao v.2). Ambas as leituras são lexicalmente plenas; a BV segue a leitura fornecida pela fonte pinada (rosto), preservando a alternativa no registro."
+  ],
+  "justificativa": "יִרְעֶה ('pastar/apascentar-se de') aplicado a insensatez sugere consumo habitual, prazeroso; 'se alimenta de' preserva a metáfora pastoril de forma natural.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

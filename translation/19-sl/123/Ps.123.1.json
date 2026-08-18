@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.123.1",
+    "livro": "Salmos",
+    "capitulo": 123,
+    "versiculo": 1,
+    "pericope": "Ps.123.1-4"
+  },
+  "texto_bv": "Cântico das subidas. A ti levanto os meus olhos, tu que habitas nos céus.",
+  "traducao_literal": "Canção das subidas. A ti levantei os meus olhos, o que habita nos céus.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁ֗יר",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "הַֽמַּ֫עֲל֥וֹת",
+      "lemma": "d/4609 b",
+      "morfologia": "HTd/Ncfpa"
+    },
+    {
+      "palavra": "אֵ֭לֶיךָ",
+      "lemma": "413",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "נָשָׂ֣אתִי",
+      "lemma": "5375",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "עֵינַ֑י",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc/Sp1cs"
+    },
+    {
+      "palavra": "הַ֝יֹּשְׁבִ֗י",
+      "lemma": "d/3427",
+      "morfologia": "HTd/Vqrmsc"
+    },
+    {
+      "palavra": "בַּשָּׁמָֽיִם",
+      "lemma": "b/8064",
+      "morfologia": "HRd/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tempo verbal de נָשָׂאתִי (qatal/perfeito 1cs) — 'levantei' (passado) vs. sentido performativo presente",
+      "escolha": "'levanto' (presente) no publicado; 'levantei' (pretérito perfeito) preservado na literal",
+      "justificativa": "o perfeito hebraico em contexto de súplica funciona como perfeito performativo/de resolução — o ato de erguer os olhos se realiza no próprio enunciado da oração. Traduzir por passado no publicado quebraria o efeito performativo do gênero orante; a literal mantém o aspecto gramatical do qatal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'levantei' também no publicado",
+          "motivo": "soa como ação já concluída e encerrada, e não como o gesto presente da oração"
+        },
+        {
+          "opcao": "'tenho levantado' (perífrase durativa)",
+          "motivo": "acrescenta duração não indicada pelo qatal simples"
+        }
+      ]
+    },
+    {
+      "questao": "הַיֹּשְׁבִי בַּשָּׁמָיִם — particípio definido em aposição vocativa a אֵלֶיךָ (2ms)",
+      "escolha": "'tu que habitas nos céus' no publicado (explicitando o vocativo); 'o que habita nos céus' na literal (forma participial sem pronome acrescentado)",
+      "justificativa": "o hebraico usa o particípio com artigo definido em aposição ao sufixo pronominal de 2ms, função vocativa comum em salmos; o português exige um pronome explícito para preservar essa função de forma natural no publicado, enquanto a literal mantém a forma nominal/participial do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ó habitante dos céus'",
+          "motivo": "acrescenta interjeição vocativa (ó) ausente no hebraico, que não tem partícula vocativa aqui"
+        },
+        {
+          "opcao": "'que te assentas nos céus' (ênfase em entronização)",
+          "motivo": "יָשַׁב cobre tanto 'habitar' quanto 'assentar-se/entronizar-se'; a glosa mais neutra 'habitar' evita fixar a imagem do trono, preservada apenas como leitura possível"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "יֹּשְׁבִי pode conotar tanto 'habitar' quanto 'estar entronizado (sentado no trono celeste)'; a BV usa 'habitas', compatível com ambas as leituras sem fixar a imagem do trono."
+  ],
+  "justificativa": "Título de gênero (שִׁיר הַמַּעֲלוֹת, consistente com Sl 120-122) seguido de invocação a Deus com particípio vocativo definido; as únicas decisões não triviais dizem respeito a aspecto verbal e à forma do vocativo, sem impacto doutrinário.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

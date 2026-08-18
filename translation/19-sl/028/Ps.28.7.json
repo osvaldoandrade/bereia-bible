@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.28.7",
+    "livro": "Salmos",
+    "capitulo": 28,
+    "versiculo": 7,
+    "pericope": "Ps.28.1-9"
+  },
+  "texto_bv": "O SENHOR é minha força e o meu escudo; nele confiou o meu coração, e fui socorrido. O meu coração exultou, e com o meu cântico eu o louvarei.",
+  "traducao_literal": "SENHOR, força minha e escudo meu; nele confiou coração meu, e fui socorrido; e exultou coração meu; e com cântico meu eu o louvarei.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עֻזִּ֥י",
+      "lemma": "5797",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וּמָגִנִּי֮",
+      "lemma": "c/4043",
+      "morfologia": "HC/Ncbsc/Sp1cs"
+    },
+    {
+      "palavra": "בּ֤וֹ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "בָטַ֥ח",
+      "lemma": "982",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לִבִּ֗י",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְֽנֶ֫עֱזָ֥רְתִּי",
+      "lemma": "c/5826",
+      "morfologia": "HC/VNp1cs"
+    },
+    {
+      "palavra": "וַיַּעֲלֹ֥ז",
+      "lemma": "c/5937",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "לִבִּ֑י",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וּֽמִשִּׁירִ֥י",
+      "lemma": "c/m/7892 a",
+      "morfologia": "HC/R/Ncbsc/Sp1cs"
+    },
+    {
+      "palavra": "אֲהוֹדֶֽנּוּ",
+      "lemma": "3034",
+      "morfologia": "HVhi1cs/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְהוָה עֻזִּי וּמָגִנִּי — oração nominal sem cópula",
+      "escolha": "supridas cópulas: 'O SENHOR é minha força e o meu escudo'",
+      "justificativa": "Hebraico bíblico não tem verbo 'ser' no presente; a oração equativa exige cópula explícita em português (EDITORIAL §4).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "וַיַּעֲלֹז לִבִּי — wayyiqtol com ordem verbo-sujeito",
+      "escolha": "ordem sujeito-verbo no publicado: 'o meu coração exultou' (ER-0011)",
+      "justificativa": "ER-0011 fixa ordem S-V uniforme para todo wayyiqtol no texto publicado; a ordem V-S original é preservada integralmente na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado ('e exultou o meu coração')",
+          "motivo": "ER-0011 supersede a exceção antiga (ER-0008); S-V é a regra vigente mesmo em fórmulas marcadas"
+        }
+      ]
+    },
+    {
+      "questao": "בּוֹ בָטַח לִבִּי — ordem preposição-verbo-sujeito (qatal, não wayyiqtol)",
+      "escolha": "normalizar para 'nele confiou o meu coração' com S-V pós-preposição no publicado, mantendo a ordem hebraica exata na literal",
+      "justificativa": "Embora ER-0011 trate formalmente de wayyiqtol, aplicar o mesmo princípio de naturalidade (EDITORIAL §1.3) à inversão poética aqui evita leitura arcaizante, preservando auditabilidade via traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preservar V-S também no publicado",
+          "motivo": "soa arcaizante em prosa contemporânea; o fronteamento poético de בּוֹ já é conservado pela posição inicial da oração"
+        }
+      ]
+    },
+    {
+      "questao": "וּמִשִּׁירִי — מִן instrumental/causal, não partitivo",
+      "escolha": "com o meu cântico eu o louvarei",
+      "justificativa": "מִן aqui tem valor instrumental ('por meio de, com'), padrão em contextos de louvor.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'do meu cântico eu o louvarei' (מִן partitivo)",
+          "motivo": "sentido partitivo não se encaixa — não se louva 'uma parte' do cântico, mas por meio dele"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (2x, cópula das orações nominais 'SENHOR é minha força' / 'e o meu escudo')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Confissão de confiança e louvor antecipado, no registro característico da segunda metade dos salmos de lamento individual. Nenhuma variante no packet.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

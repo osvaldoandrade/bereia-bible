@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.52.2",
+    "livro": "Isaías",
+    "capitulo": 52,
+    "versiculo": 2,
+    "pericope": "Isa.52.1-15"
+  },
+  "texto_bv": "Sacode de ti o pó; levanta-te, assenta-te, Jerusalém! Solta-te dos grilhões do teu pescoço, cativa, filha de Sião.",
+  "traducao_literal": "Sacode-te do pó, levanta-te, assenta-te, Jerusalém; soltai-vos [Kethiv 2ª pl.; sentido contextual: solta-te] dos laços do teu pescoço, cativa, filha de Sião.",
+  "termos_originais": [
+    {
+      "palavra": "הִתְנַעֲרִ֧י",
+      "lemma": "5287",
+      "morfologia": "HVtv2fs"
+    },
+    {
+      "palavra": "מֵעָפָ֛ר",
+      "lemma": "m/6083",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "ק֥וּמִי",
+      "lemma": "6965 b",
+      "morfologia": "HVqv2fs"
+    },
+    {
+      "palavra": "שְּׁבִ֖י",
+      "lemma": "3427",
+      "morfologia": "HVqv2fs"
+    },
+    {
+      "palavra": "יְרֽוּשָׁלִָ֑ם",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "התפתחו",
+      "lemma": "6605 a",
+      "morfologia": "HVtv2mp"
+    },
+    {
+      "palavra": "מוֹסְרֵ֣י",
+      "lemma": "4147",
+      "morfologia": "HNcbpc"
+    },
+    {
+      "palavra": "צַוָּארֵ֔ךְ",
+      "lemma": "6677 a",
+      "morfologia": "HNcmsc/Sp2fs"
+    },
+    {
+      "palavra": "שְׁבִיָּ֖ה",
+      "lemma": "7628 b",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "בַּת",
+      "lemma": "1323",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "צִיּֽוֹן",
+      "lemma": "6726",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pessoa/número do imperativo התפתחו — forma escrita sem pontuação no packet, morph OSHB HVtv2mp (2ª pl.), destoante das formas 2fs vizinhas (קוּמִי, שְׁבִי) dirigidas a Jerusalém/Sião no singular",
+      "escolha": "solta-te (2fs, seguindo a concordância contextual e a tradição de leitura)",
+      "justificativa": "A traducao_literal preserva a forma 2mp exatamente como marcada pelo morph fornecido, sinalizando o Kethiv; o texto publicado normaliza para a concordância de número exigida pelo contexto imediato (endereçamento a Jerusalém/Sião, fem. sing.).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "soltai-vos (2mp literal ao morph)",
+          "motivo": "produziria incoerência de número frente aos imperativos 2fs vizinhos no mesmo verso e no v.1"
+        }
+      ]
+    },
+    {
+      "questao": "מוֹסְרֵי צַוָּארֵךְ — genitivo/acusativo sem preposição explícita de separação",
+      "escolha": "solta-te dos grilhões do teu pescoço",
+      "justificativa": "Sentido idiomático de libertação das amarras, confirmado pelo paralelo com שְׁבִיָּה ('cativa'); preposição 'dos' suprida no publicado.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "de ti (sacode de ti o pó)",
+    "dos (solta-te dos grilhões)"
+  ],
+  "ambiguidades_preservadas": [
+    "Pessoa/número do imperativo התפתחו: Kethiv 2ª pl. vs. leitura contextual 2fs — ambas registradas na traducao_literal e na decisão acima."
+  ],
+  "justificativa": "Sequência de imperativos de libertação; a palavra התפתחו aparece sem pontuação no packet, sinal de crux de Kethiv/Qere não sinalizado como variantes_fonte pelo packet, mas observável diretamente no morph fornecido.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.16.3",
+    "livro": "Isaías",
+    "capitulo": 16,
+    "versiculo": 3,
+    "pericope": "Isa.16.1-14"
+  },
+  "texto_bv": "Tragam conselho, façam juízo; faça sua sombra como a noite em pleno meio-dia; esconda os expulsos, não revele o fugitivo.",
+  "traducao_literal": "Trazei conselho, fazei juízo/decisão; põe como a noite tua sombra em meio de meio-dia; esconde os expulsos, o fugitivo não reveles.",
+  "termos_originais": [
+    {
+      "palavra": "הביאו",
+      "lemma": "935",
+      "morfologia": "HVhv2mp"
+    },
+    {
+      "palavra": "עֵצָה֙",
+      "lemma": "6098",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "עֲשׂ֣וּ",
+      "lemma": "6213 a",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "פְלִילָ֔ה",
+      "lemma": "6415",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "שִׁ֧יתִי",
+      "lemma": "7896",
+      "morfologia": "HVqv2fs"
+    },
+    {
+      "palavra": "כַלַּ֛יִל",
+      "lemma": "k/3915",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "צִלֵּ֖ךְ",
+      "lemma": "6738",
+      "morfologia": "HNcmsc/Sp2fs"
+    },
+    {
+      "palavra": "בְּת֣וֹךְ",
+      "lemma": "b/8432",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "צָהֳרָ֑יִם",
+      "lemma": "6672 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "סַתְּרִי֙",
+      "lemma": "5641",
+      "morfologia": "HVpv2fs"
+    },
+    {
+      "palavra": "נִדָּחִ֔ים",
+      "lemma": "5080",
+      "morfologia": "HVNrmpa"
+    },
+    {
+      "palavra": "נֹדֵ֖ד",
+      "lemma": "5074",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תְּגַלִּֽי",
+      "lemma": "1540",
+      "morfologia": "HVpj2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Mudança de pessoa/número: הביאו/עֲשׂוּ (2ª masc. plural) vs. שִׁיתִי/סַתְּרִי/תְּגַלִּי (2ª fem. singular) — dois destinatários distintos no mesmo versículo",
+      "escolha": "preservar a alternância: primeiro par de imperativos em 'vocês' (mensageiros/oficiais moabitas), segundo bloco em 'você' (entidade feminina singular, provavelmente Sião/Judá personificada)",
+      "justificativa": "A morfologia do packet confirma a mudança de número e pessoa (2mp depois 2fs); a maioria dos comentaristas identifica dois interlocutores: os enviados de Moabe (v.1) recebem a ordem de 'trazer conselho', e depois o discurso se volta para a cidade-refúgio (Sião), pedida a dar abrigo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uniformizar tudo em 2ª pessoa plural ('vocês')",
+          "motivo": "apagaria a distinção gramatical de número que o hebraico marca deliberadamente (ER-0003 exige preservar a distinção singular/plural)"
+        }
+      ]
+    },
+    {
+      "questao": "ER-0003 aplicado ao imperativo de 2fs (שִׁיתִי, סַתְּרִי) — forma verbal 'você' vs. 'tu'",
+      "escolha": "'você' (faça, esconda, revele) — discurso entre entidades humanas/nacionais, não oração a Deus",
+      "justificativa": "EDITORIAL §3 reserva 'tu' para oração dirigida a Deus; aqui o discurso é humano-nacional (Moabe/mensageiro dirigindo-se a Sião), logo 'você'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tu' arcaizante",
+          "motivo": "fora do escopo litúrgico que justifica 'tu' nesta política editorial"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Identidade da destinatária feminina singular (Sião/Judá personificada é a leitura majoritária, mas alguns comentaristas propõem a própria Moabe personificada) preservada sem decisão fechada"
+  ],
+  "justificativa": "Discurso de súplica: primeiro aos mensageiros que levam o pedido, depois à cidade-refúgio, pedindo proteção para os fugitivos moabitas em fuga da devastação.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

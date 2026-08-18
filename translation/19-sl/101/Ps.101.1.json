@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.101.1",
+    "livro": "Salmos",
+    "capitulo": 101,
+    "versiculo": 1,
+    "pericope": "Ps.101.1-8"
+  },
+  "texto_bv": "Salmo de Davi. Cantarei a bondade e a justiça; a ti, SENHOR, cantarei louvores.",
+  "traducao_literal": "De Davi, salmo. Bondade e justiça cantarei; a ti, SENHOR, cantarei louvores.",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֗ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מִ֫זְמ֥וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "חֶֽסֶד",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּמִשְׁפָּ֥ט",
+      "lemma": "c/4941",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "אָשִׁ֑ירָה",
+      "lemma": "7891",
+      "morfologia": "HVqh1cs"
+    },
+    {
+      "palavra": "לְךָ֖",
+      "lemma": "l",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֲזַמֵּֽרָה",
+      "lemma": "2167",
+      "morfologia": "HVph1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Cabeçalho invertido לְדָוִד מִזְמוֹר (não מִזְמוֹר לְדָוִד, forma padrão)",
+      "escolha": "normalizar no publicado para 'Salmo de Davi'; preservar a ordem original ('De Davi, salmo') na literal",
+      "justificativa": "doutrina do calque (ER-0013) aplicada ao cabeçalho: a inversão é marca estilística de um grupo de salmos do Livro V (Sl 101, 103, 108–110, 139–140), sem efeito semântico próprio; naturalidade no texto publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'De Davi. Salmo.' no publicado",
+          "motivo": "soa como tradução mecânica em português, sem correspondente de gênero textual (cabeçalhos de salmo convencionam 'Salmo de X')"
+        }
+      ]
+    },
+    {
+      "questao": "חֶסֶד (H2617a) — primeira ocorrência do lexema no projeto",
+      "escolha": "bondade",
+      "justificativa": "termo contemporâneo que cobre o espectro ético-relacional de חֶסֶד (lealdade, benevolência, fidelidade pactual) sem prejulgar leitura teológica específica; nenhuma entrada prévia no léxico do projeto (escopo atual limitado a Gênesis 1).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "misericórdia",
+          "motivo": "tradição Almeida, mas em uso corrente estreita o campo semântico para compaixão/perdão, perdendo a nuance de lealdade pactual"
+        },
+        {
+          "opcao": "amor leal / fidelidade",
+          "motivo": "mais precisa teologicamente, porém perifrástica; quebra o metro do paralelismo binário חֶסֶד־וּמִשְׁפָּט"
+        }
+      ]
+    },
+    {
+      "questao": "מִשְׁפָּט (H4941)",
+      "escolha": "justiça",
+      "justificativa": "registro formal-neutro contemporâneo (EDITORIAL §1.2); 'juízo' soa jurídico-arcaizante para uso corrente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "juízo",
+          "motivo": "vocabulário jurídico datado, menos natural em leitura em voz alta/TTS"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo: voto régio de cantar dois atributos (lealdade e justiça) endereçado a Deus em segunda pessoa de oração ('tu' implícito no vocativo 'a ti, SENHOR' — D-0003). Cabeçalho com ordem hebraica invertida normalizado no publicado (ER-0013).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

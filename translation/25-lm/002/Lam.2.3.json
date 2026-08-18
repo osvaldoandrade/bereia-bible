@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Lam.2.3",
+    "livro": "Lamentações",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "Lam.2.1-22"
+  },
+  "texto_bv": "No ardor da ira, cortou todo o poder de Israel; fez recuar sua mão direita diante do inimigo, e ardeu contra Jacó como labareda de fogo que tudo consome ao redor.",
+  "traducao_literal": "Cortou no-ardor-de nariz todo-chifre-de-Israel; fez-recuar-atrás sua-destra de-diante-do-inimigo; e-ardeu em-Jacó como-fogo-de-labareda, devorou ao-redor.",
+  "termos_originais": [
+    {
+      "palavra": "גָּדַ֣ע",
+      "lemma": "1438",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בָּֽחֳרִי",
+      "lemma": "b/2750",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אַ֗ף",
+      "lemma": "639",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "כֹּ֚ל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "קֶ֣רֶן",
+      "lemma": "7161 a",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֔ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הֵשִׁ֥יב",
+      "lemma": "7725",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "אָח֛וֹר",
+      "lemma": "268",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יְמִינ֖וֹ",
+      "lemma": "3225",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "מִפְּנֵ֣י",
+      "lemma": "m/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "אוֹיֵ֑ב",
+      "lemma": "341",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "וַיִּבְעַ֤ר",
+      "lemma": "c/1197 a",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בְּיַעֲקֹב֙",
+      "lemma": "b/3290",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "כְּאֵ֣שׁ",
+      "lemma": "k/784",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "לֶֽהָבָ֔ה",
+      "lemma": "3852",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אָכְלָ֖ה",
+      "lemma": "398",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "סָבִֽיב",
+      "lemma": "5439",
+      "morfologia": "HNcbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "קֶרֶן (\"chifre\") como símbolo de força/dignidade",
+      "escolha": "\"poder\"",
+      "justificativa": "Idiomatismo hebraico consolidado (cf. 1Sm 2:1; Sl 75:11) cuja tradução literal \"chifre\" seria opaca em português corrente; imagem concreta preservada na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter \"chifre\" no texto publicado",
+          "motivo": "produz estranhamento sem ganho de sentido para o leitor contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "בָּחֳרִי אַף — morfologia do packet marca אַף como advérbio (Ta), não como substantivo em genitivo com חֳרִי",
+      "escolha": "tratar como idioma consolidado \"חֳרִי אָף\" = ardor da ira/nariz",
+      "justificativa": "Leitura amplamente atestada (par idiomático recorrente para ira ardente); a tag advérbio no packet é provavelmente convenção de anotação do OSHB para אַף, não exige reparse sintático.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"cortou no ardor, também todo o chifre de Israel\" (אַף como \"também/até\")",
+          "motivo": "quebra o paralelismo consagrado e produz sentido menos natural"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Guimel do acróstico. וַיִּבְעַר (wayyiqtol) com ordem V-S normalizada para S-V no publicado (ER-0011), preservada na literal.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

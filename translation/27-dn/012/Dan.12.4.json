@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Dan.12.4",
+    "livro": "Daniel",
+    "capitulo": 12,
+    "versiculo": 4,
+    "pericope": "Dan.12.1-13"
+  },
+  "texto_bv": "E você, Daniel, feche estas palavras e sele o livro até o tempo do fim; muitos percorrerão de um lado para outro, e o conhecimento aumentará.",
+  "traducao_literal": "E tu, Daniel, fecha as palavras e sela o livro até o tempo do fim; percorrerão muitos, e aumentará o conhecimento.",
+  "termos_originais": [
+    {
+      "palavra": "וְאַתָּ֣ה",
+      "lemma": "c/859 a",
+      "morfologia": "HC/Pp2ms"
+    },
+    {
+      "palavra": "דָֽנִיֵּ֗אל",
+      "lemma": "1840",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "סְתֹ֧ם",
+      "lemma": "5640 a",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "הַדְּבָרִ֛ים",
+      "lemma": "d/1697",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "וַחֲתֹ֥ם",
+      "lemma": "c/2856",
+      "morfologia": "HC/Vqv2ms"
+    },
+    {
+      "palavra": "הַסֵּ֖פֶר",
+      "lemma": "d/5612 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עֵ֣ת",
+      "lemma": "6256",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "קֵ֑ץ",
+      "lemma": "7093",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יְשֹׁטְט֥וּ",
+      "lemma": "7751 a",
+      "morfologia": "HVoi3mp"
+    },
+    {
+      "palavra": "רַבִּ֖ים",
+      "lemma": "7227 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "וְתִרְבֶּ֥ה",
+      "lemma": "c/7235 a",
+      "morfologia": "HC/Vqi3fs"
+    },
+    {
+      "palavra": "הַדָּֽעַת",
+      "lemma": "d/1847",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de segunda pessoa (וְאַתָּה דָנִיֵּאל) — discurso angélico a Daniel",
+      "escolha": "'você' (imperativo 'feche'/'sele')",
+      "justificativa": "D-0003: discurso de ser celestial a humano usa você/vocês, não tu (reservado à oração dirigida a Deus). A traducao_literal preserva 'tu' apenas como marca morfológica do original, sem valor normativo para o publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tu' no publicado",
+          "motivo": "fora do escopo definido em EDITORIAL §3 para este tipo de discurso"
+        }
+      ]
+    },
+    {
+      "questao": "סְתֹם (shut up/close) vs. חָתֹם (seal) — dois verbos distintos no mesmo verso",
+      "escolha": "'feche' para סתם, 'sele' para חתם, mantidos distintos",
+      "justificativa": "Consistência terminológica: חתם já rendido 'selar/selado' em Isaías 29:11-12 (livro selado); סתם é ato relacionado mas distinto (fechar/reter), preservando o par sinonímico-intensificador do hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir ambos por 'selar'",
+          "motivo": "colapsaria dois verbos hebraicos distintos em um só, perdendo a duplicação retórica"
+        }
+      ]
+    },
+    {
+      "questao": "יְשֹׁטְטוּ רַבִּים (polel de שוט, 'ir e vir, percorrer')",
+      "escolha": "'muitos percorrerão de um lado para outro'",
+      "justificativa": "Sentido regular do polel de שוט (cf. Am 8:12; Zc 4:10): movimento de busca/agitação, não instrução; preferido a leituras alternativas de versões antigas (LXX/Vulgata variam), pois a fonte pinada é o TM/OSHB.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'muitos serão instruídos' (seguindo leitura diferente atestada em versões antigas)",
+          "motivo": "não corresponde ao TM pinado; fonte de adjudicação é o OSHB, sem variante_fonte registrada neste packet"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sentido de יְשֹׁטְטוּ (agitação/busca vs. viagem literal) — preservado como movimento genérico, sem resolver se é busca por conhecimento ou dispersão."
+  ],
+  "justificativa": "Comando de selar a revelação; par verbal סתם/חתם mantido distinto; registro de segunda pessoa fixado por D-0003.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.6.2",
+    "livro": "Ester",
+    "capitulo": 6,
+    "versiculo": 2,
+    "pericope": "Esth.6.1-14"
+  },
+  "texto_bv": "Encontrou-se ali escrito que Mardoqueu tinha denunciado Bigtã e Teres, dois dos eunucos do rei, guardas da porta, que haviam procurado atacar o rei Assuero.",
+  "traducao_literal": "E foi achado escrito que contou Mardoqueu sobre Bigtã e Teres, dois eunucos do rei, dos guardadores do umbral, que buscaram enviar mão contra o rei Assuero.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּמָּצֵ֣א",
+      "lemma": "c/4672",
+      "morfologia": "HC/VNw3ms"
+    },
+    {
+      "palavra": "כָת֗וּב",
+      "lemma": "3789",
+      "morfologia": "HVqsmsa"
+    },
+    {
+      "palavra": "אֲשֶׁר֩",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "הִגִּ֨יד",
+      "lemma": "5046",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "מָרְדֳּכַ֜י",
+      "lemma": "4782",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בִּגְתָ֣נָא",
+      "lemma": "904",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וָתֶ֗רֶשׁ",
+      "lemma": "c/8657",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "שְׁנֵי֙",
+      "lemma": "8147",
+      "morfologia": "HAcmdc"
+    },
+    {
+      "palavra": "סָרִיסֵ֣י",
+      "lemma": "5631",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "הַמֶּ֔לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "מִשֹּׁמְרֵ֖י",
+      "lemma": "m/8104",
+      "morfologia": "HR/Vqrmpc"
+    },
+    {
+      "palavra": "הַסַּ֑ף",
+      "lemma": "d/5592 b",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֤ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בִּקְשׁוּ֙",
+      "lemma": "1245",
+      "morfologia": "HVpp3cp"
+    },
+    {
+      "palavra": "לִשְׁלֹ֣חַ",
+      "lemma": "l/7971",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "יָ֔ד",
+      "lemma": "3027",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "בַּמֶּ֖לֶךְ",
+      "lemma": "b/4428",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "אֲחַשְׁוֵרֽוֹשׁ",
+      "lemma": "325",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter מִשֹּׁמְרֵי הַסַּף (\"dos guardadores do umbral/soleira\")?",
+      "escolha": "\"guardas da porta\".",
+      "justificativa": "\"Umbral/soleira\" é vocabulário pouco vivo em português contemporâneo; \"guarda da porta\" comunica a mesma função com clareza para leitura em voz alta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "guardas do umbral/da soleira",
+          "motivo": "arcaizante, prejudica fluência em leitura oral/TTS (EDITORIAL §1.3)"
+        }
+      ]
+    },
+    {
+      "questao": "Idiomatismo לִשְׁלֹחַ יָד (\"enviar/estender a mão\") contra o rei",
+      "escolha": "\"atacar\".",
+      "justificativa": "Idioma hebraico para agressão/assassinato; a tradução dinâmica evita ambiguidade que o calque geraria em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"lançar mão contra o rei\" (calque)",
+          "motivo": "em PT contemporâneo pode soar a furto, não a atentado contra a vida"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Retoma o relato do complô eunuco-conspirador (fora deste pacote, Est 2:21-23), peça-chave para o clímax do capítulo.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

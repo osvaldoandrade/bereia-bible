@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.64.2",
+    "livro": "Salmos",
+    "capitulo": 64,
+    "versiculo": 2,
+    "pericope": "Ps.64.1-11"
+  },
+  "texto_bv": "Ouve, Deus, a minha voz na minha queixa; protege a minha vida do pavor do inimigo.",
+  "traducao_literal": "Ouve, Deus, minha voz no meu queixume; do pavor do inimigo, guarda minha vida.",
+  "termos_originais": [
+    {
+      "palavra": "שְׁמַע",
+      "lemma": "8085",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "אֱלֹהִ֣ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "קוֹלִ֣י",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "בְשִׂיחִ֑י",
+      "lemma": "b/7879",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "מִפַּ֥חַד",
+      "lemma": "m/6343",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "א֝וֹיֵ֗ב",
+      "lemma": "341",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "תִּצֹּ֥ר",
+      "lemma": "5341",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "חַיָּֽי",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de שִׂיחַ (H7879, 'queixa/meditação/murmúrio') em בְשִׂיחִי.",
+      "escolha": "\"queixa\"",
+      "justificativa": "O contexto de súplica urgente (pedido de proteção contra o medo do inimigo) favorece o sentido petitório de שִׂיחַ sobre o sentido neutro de 'meditação'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"meditação\"",
+          "motivo": "sentido lexicalmente possível, mas neutro demais para o tom de súplica do versículo"
+        },
+        {
+          "opcao": "\"lamento\"",
+          "motivo": "sinônimo próximo, mas 'queixa' preserva melhor o matiz de reclamação dirigida a um ouvinte"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem sintática: מִפַּ֥חַד אוֹיֵ֗ב תִּצֹּ֥ר חַיָּֽי (objeto preposicional fronteado antes do verbo).",
+      "escolha": "Normalizar no publicado para ordem verbo-objeto ('protege a minha vida do pavor do inimigo'); ordem original preservada na literal.",
+      "justificativa": "Doutrina do calque (ER-0013): quiasmo/fronteamento normalizável no texto publicado quando soa artificial em português; a literal mantém a ordem hebraica integralmente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter o objeto fronteado no publicado ('Do pavor do inimigo, protege a minha vida')",
+          "motivo": "soa como calque de tradução em português corrente; reservado para a camada literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "אוֹיֵב é singular — pode ler-se como inimigo arquetípico único ou coletivo ('inimigos'); mantido singular por fidelidade à forma gramatical do original."
+  ],
+  "justificativa": "שְׁמַע é imperativo Qal 2ms com אֱלֹהִים em posição vocativa pós-verbal; a segunda oração inverte objeto-verbo (מִפַּחַד אוֹיֵב תִּצֹּר חַיָּי), normalizada no publicado por ER-0013.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

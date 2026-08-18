@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.135.4",
+    "livro": "Salmos",
+    "capitulo": 135,
+    "versiculo": 4,
+    "pericope": "Ps.135.1-21"
+  },
+  "texto_bv": "Porque o SENHOR escolheu Jacó para si; Israel, para sua propriedade exclusiva.",
+  "traducao_literal": "Porque a-Jacó escolheu-para-si Yah; a-Israel, para-propriedade-exclusiva-dele.",
+  "termos_originais": [
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יַעֲקֹ֗ב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בָּחַ֣ר",
+      "lemma": "977",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "ל֣וֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "יָ֑הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יִ֝שְׂרָאֵ֗ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לִסְגֻלָּתֽוֹ",
+      "lemma": "l/5459",
+      "morfologia": "HR/Ncfsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "A ordem hebraica frontea o objeto (יַעֲקֹב) antes do verbo e do sujeito (בָּחַר... יָהּ) — objeto-verbo-sujeito, quiasmo de ênfase. Preservar essa ordem no texto publicado?",
+      "escolha": "Normalizar para ordem natural do português (sujeito-verbo-objeto: 'o SENHOR escolheu Jacó') no publicado; a ordem original é preservada na traducao_literal.",
+      "justificativa": "Doutrina do calque (ER-0013): quiasmo de ordem é normalizável no publicado quando soaria artificial em português; a literal carrega o calque para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter a ordem frontal também no publicado ('Jacó, o SENHOR escolheu para si')",
+          "motivo": "soa artificial e didaticamente 'traduzido' em português corrido, sem ganho de sentido"
+        }
+      ]
+    },
+    {
+      "questao": "סְגֻלָּה (H5459): qual glosa fixar — 'propriedade exclusiva', 'propriedade peculiar' ou 'tesouro'?",
+      "escolha": "'Propriedade exclusiva', alinhando com a glosa mais recente e consistente do corpus (Dt 7:6; 14:2; 26:18).",
+      "justificativa": "Consistência terminológica (EDITORIAL §11) com as ocorrências já traduzidas do mesmo lema.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Propriedade peculiar' (Êx 19:5)",
+          "motivo": "glosa mais antiga do corpus, superada pelas ocorrências posteriores em Deuteronômio"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "יָהּ retomado como sujeito (mesma adjudicação →SENHOR); eleição de Jacó/Israel como תָ'segulá' de YHWH, tema de Êx 19:5 e Dt 7:6.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

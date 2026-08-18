@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.58.8",
+    "livro": "Salmos",
+    "capitulo": 58,
+    "versiculo": 8,
+    "pericope": "Ps.58.1-12"
+  },
+  "texto_bv": "Que se derretam como água e se escoem; quando ele arma o arco, que suas flechas fiquem embotadas.",
+  "traducao_literal": "Que se derretam como água, que se vão; que ele retese sua flecha, como que sejam cortadas.",
+  "termos_originais": [
+    {
+      "palavra": "יִמָּאֲס֣וּ",
+      "lemma": "3988 b",
+      "morfologia": "HVNi3mp"
+    },
+    {
+      "palavra": "כְמוֹ",
+      "lemma": "3644",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מַ֭יִם",
+      "lemma": "4325",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יִתְהַלְּכוּ",
+      "lemma": "1980",
+      "morfologia": "HVti3mp"
+    },
+    {
+      "palavra": "לָ֑מוֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "יִדְרֹ֥ךְ",
+      "lemma": "1869",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "חצו",
+      "lemma": "2671",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "כְּמ֣וֹ",
+      "lemma": "3644",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יִתְמֹלָֽלוּ",
+      "lemma": "4135 b",
+      "morfologia": "HVti3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יִמָּאֲסוּ — homógrafo de מאס: 'rejeitar' (H3988a) vs. 'derreter/escoar' (H3988b)",
+      "escolha": "'derretam/escoem', seguindo H3988b, conforme o lema anotado no pacote",
+      "justificativa": "O pacote pina explicitamente o homógrafo b (H3988 b), sentido raro de 'dissolver-se, escoar', distinto de H3988a ('rejeitar/desprezar'); mantém a imagem de água que se esvai, coerente com a comparação seguinte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'sejam rejeitados como água' (H3988a)",
+          "motivo": "não corresponde ao homógrafo fixado pela fonte pinada"
+        }
+      ]
+    },
+    {
+      "questao": "חצו — forma consonantal sem niqqud no pacote (morfologia anotada: construto singular + sufixo 3ms, 'sua flecha'), mas o verbo seguinte יִתְמֹלָלוּ é plural",
+      "escolha": "Vertido no plural, 'suas flechas', por concordância com o verbo plural do original",
+      "justificativa": "A morfologia do pacote lê singular, mas o verbo יִתְמֹלָלוּ concorda no plural; a leitura de uma grafia defectiva de חִצָּיו ('suas flechas') é amplamente aceita na crítica textual para resolver a discordância. Mantido singular na traducao_literal, fiel à morfologia anotada no pacote.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter singular também no publicado ('sua flecha')",
+          "motivo": "gera discordância de número com o verbo plural, o que soaria como erro gramatical em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "חצו: grafia consonantal sem niqqud no pacote; poderia refletir tanto 'sua flecha' (singular, conforme morfologia anotada) quanto 'suas flechas' (plural, por concordância verbal) — ambas as leituras preservadas"
+  ],
+  "justificativa": "Verso de maldição com imagens sucessivas de dissolução (água) e de armas inutilizadas (flechas embotadas); um dos versos textualmente mais disputados do salmo.",
+  "confianca": 0.5,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.6.10",
+    "livro": "Oseias",
+    "capitulo": 6,
+    "versiculo": 10,
+    "pericope": "Hos.6.1-11"
+  },
+  "texto_bv": "Na casa de Israel eu vi uma coisa horrenda: ali está a prostituição de Efraim, Israel se contaminou.",
+  "traducao_literal": "Na casa de Israel vi coisa horrenda; ali prostituição para Efraim, contaminou-se Israel.",
+  "termos_originais": [
+    {
+      "palavra": "בְּבֵית֙",
+      "lemma": "b/1004 b",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֔ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "רָאִ֖יתִי",
+      "lemma": "7200",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "שעריריה",
+      "lemma": "8186 b",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "שָׁ֚ם",
+      "lemma": "8033",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "זְנ֣וּת",
+      "lemma": "2184",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְאֶפְרַ֔יִם",
+      "lemma": "l/669",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "נִטְמָ֖א",
+      "lemma": "2930 a",
+      "morfologia": "HVNp3ms"
+    },
+    {
+      "palavra": "יִשְׂרָאֵֽל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שעריריה — forma sem marcação vocálica no packet pinado",
+      "escolha": "seguir o lema/morfologia fornecidos (adjetivo feminino singular absoluto) e traduzir 'coisa horrenda'",
+      "justificativa": "o packet não traz campo variantes_fonte para este verso; sem aparato explícito, não se introduz adjudicação de variante Ketiv/Qere não documentada na fonte pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "registrar variante Ketiv/Qere em variantes_textuais",
+          "motivo": "ausência de campo variantes_fonte no packet impede essa adjudicação formal"
+        }
+      ]
+    },
+    {
+      "questao": "לְאֶפְרַיִם — lamed de posse/atribuição",
+      "escolha": "'de Efraim'",
+      "justificativa": "comunica a relação de posse/atribuição do lamed de modo direto e natural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pertencente a Efraim / relativa a Efraim",
+          "motivo": "mais explícito, porém redundante frente a 'de Efraim'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Denúncia direta contra a casa de Israel; lexema שעריריה raro, tratado com confiança moderada.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

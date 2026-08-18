@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.77.1",
+    "livro": "Salmos",
+    "capitulo": 77,
+    "versiculo": 1,
+    "pericope": "Ps.77.1-21"
+  },
+  "texto_bv": "Ao mestre de música, conforme Jedutum. De Asafe. Salmo.",
+  "traducao_literal": "Para o que dirige, sobre Jedutum, de Asafe, salmo.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֥חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "עַֽל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "ידיתון",
+      "lemma": "3038",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לְאָסָ֥ף",
+      "lemma": "l/623",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מִזְמֽוֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Rendição de לַמְנַצֵּחַ (part. Piel de נצח H5329) na rubrica — primeira ocorrência em Salmos na BV, fixa precedente para todo o livro.",
+      "escolha": "\"Ao mestre de música\"",
+      "justificativa": "נצח no Piel denota dirigir/supervisionar; nas rubricas salmódicas e nas listas levíticas de Crônicas designa quem conduz o culto musical. \"Mestre de música\" é reconhecível como rubrica e soa natural em leitura em voz alta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ao regente",
+          "motivo": "mais literal ao sentido de supervisionar, porém menos identificável como rubrica de título salmódico"
+        },
+        {
+          "opcao": "Ao vencedor/triunfador",
+          "motivo": "glosa etimológica de נצח sem uso corrente em títulos de salmos em português"
+        }
+      ]
+    },
+    {
+      "questao": "עַל־ידיתון — preposição עַל associada a Jedutum e forma consonantal ידיתון sem pontuação vocálica no packet (todas as demais palavras do verso têm te'amim; esta não).",
+      "escolha": "\"Conforme Jedutum\", tratando עַל como indicação de melodia/execução, e o nome pelo valor do lema (H3038), não pela grafia crua.",
+      "justificativa": "Ausência isolada de vocalização sugere Ketiv sem aparato de Qere anexado (packet cego); o lema aponta inequivocamente para Jedutum, o levita regente citado em 1Cr 16 e 25 — grafia já fixada nesses registros da BV.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Transliterar a forma consonantal tal como grafada (\"Yeditun\")",
+          "motivo": "quebraria a consistência com \"Jedutum\" já fixada em 1Cr 16/25 sem ganho de fidelidade, pois o lema aponta o mesmo referente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Rubrica musical de abertura: destinatário/uso litúrgico (mestre de música, conforme Jedutum) e autoria atribuída a Asafe; gênero \"salmo\" (מִזְמוֹר).",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.5.8",
+    "livro": "Salmos",
+    "capitulo": 5,
+    "versiculo": 8,
+    "pericope": "Ps.5.1-13"
+  },
+  "texto_bv": "Mas eu, pela tua grande bondade, entrarei na tua casa; prostrar-me-ei voltado para o teu santo templo, em temor de ti.",
+  "traducao_literal": "E-eu, na-abundância da-tua-bondade, entrarei tua-casa; prostrar-me-ei para templo-da-tua-santidade, no-teu-temor.",
+  "termos_originais": [
+    {
+      "palavra": "וַאֲנִ֗י",
+      "lemma": "c/589",
+      "morfologia": "HC/Pp1cs"
+    },
+    {
+      "palavra": "בְּרֹ֣ב",
+      "lemma": "b/7230",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "חַ֭סְדְּךָ",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "אָב֣וֹא",
+      "lemma": "935",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "בֵיתֶ֑ךָ",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "אֶשְׁתַּחֲוֶ֥ה",
+      "lemma": "7812",
+      "morfologia": "HVvi1cs"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הֵֽיכַל",
+      "lemma": "1964",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "קָ֝דְשְׁךָ֗",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "בְּיִרְאָתֶֽךָ",
+      "lemma": "b/3374",
+      "morfologia": "HR/Ncfsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de חֶסֶד (H2617a) — primeira ocorrência no corpus traduzido até agora, sem entrada prévia no léxico.",
+      "escolha": "\"bondade\" (aqui, 'grande bondade' para בְּרֹב חַסְדְּךָ).",
+      "justificativa": "חֶסֶד cobre lealdade de aliança, benevolência e fidelidade; 'bondade' é o termo mais neutro e compreensível em português corrente que não pressupõe doutrina de aliança no próprio léxico, deixando a riqueza teológica para exegese/nota, não para o texto (TEOLOGIA §2 proíbe importar exegese para o texto). Recomenda-se entrada formal em lexicon.json para consistência em ocorrências futuras (Salmos é o livro com maior densidade do termo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "misericórdia",
+          "motivo": "conflita com o campo semântico de רַחֲמִים/compaixão; חֶסֶד tem eixo relacional-pactual mais amplo"
+        },
+        {
+          "opcao": "amor leal / fidelidade aliançal",
+          "motivo": "precisos teologicamente, mas soam eruditos/perifrásicos para uso corrente recorrente em texto corrido"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter a cadeia construta הֵיכַל־קָדְשְׁךָ ('templo de tua santidade')?",
+      "escolha": "\"o teu santo templo\" — adjetivação da cadeia construta.",
+      "justificativa": "Naturalização padrão de genitivo qualificativo hebraico em português (mesmo princípio do v.7); traducao_literal preserva a cadeia nominal integral.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'templo da tua santidade'",
+          "motivo": "soa perifrástico no publicado; mantido apenas na literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Contraste retórico com vv.5–7 (ímpios excluídos // salmista admitido pela graça); primeira pessoa marca a virada do salmo.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

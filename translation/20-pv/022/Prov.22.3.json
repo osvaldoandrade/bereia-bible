@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.22.3",
+    "livro": "Provérbios",
+    "capitulo": 22,
+    "versiculo": 3,
+    "pericope": "Prov.22.1-29"
+  },
+  "texto_bv": "O prudente vê o perigo e se esconde; mas os insensatos seguem adiante e sofrem a pena.",
+  "traducao_literal": "O astuto viu o mal e se escondeu; e os simples passaram e foram punidos.",
+  "termos_originais": [
+    {
+      "palavra": "עָר֤וּם",
+      "lemma": "6175",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "רָאָ֣ה",
+      "lemma": "7200",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "רָעָ֣ה",
+      "lemma": "7451 c",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "ויסתר",
+      "lemma": "c/5641",
+      "morfologia": "HC/VNi3ms"
+    },
+    {
+      "palavra": "וּ֝פְתָיִ֗ים",
+      "lemma": "c/6612 a",
+      "morfologia": "HC/Aampa"
+    },
+    {
+      "palavra": "עָבְר֥וּ",
+      "lemma": "5674 a",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "וְֽנֶעֱנָֽשׁוּ",
+      "lemma": "c/6064",
+      "morfologia": "HC/VNp3cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Aspecto verbal gnômico (perfeitos/imperfeito expressando verdade geral atemporal)",
+      "escolha": "Presente habitual no texto_bv; traducao_literal preserva o tempo formal do hebraico",
+      "justificativa": "Uso gnômico do perfeito em provérbios corresponde ao presente atemporal em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter passado no texto_bv",
+          "motivo": "Soa como relato de evento único, distorcendo o gênero literário sapiencial."
+        }
+      ]
+    },
+    {
+      "questao": "רָעָה (H7451c) — 'mal' moral ou 'perigo/dano'?",
+      "escolha": "'perigo' no texto_bv",
+      "justificativa": "Contexto sapiencial (paralelo a 27:12) indica dano previsível, não transgressão moral; valor lexical por contexto (TEOLOGIA §2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o mal'",
+          "motivo": "Em português estreita para categoria moral; preservado como glosa alternativa na literal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "mas"
+  ],
+  "ambiguidades_preservadas": [
+    "רָעָה pode ser lido como 'mal' moral em sentido mais amplo, preservado na traducao_literal."
+  ],
+  "justificativa": "Provérbio de contraste (prudente × simples), quase idêntico a 27:12; aspecto verbal gnômico tratado uniformemente no capítulo.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

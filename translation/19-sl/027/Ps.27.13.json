@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.27.13",
+    "livro": "Salmos",
+    "capitulo": 27,
+    "versiculo": 13,
+    "pericope": "Ps.27.1-14"
+  },
+  "texto_bv": "Se eu não cresse que veria a bondade do SENHOR na terra dos viventes…",
+  "traducao_literal": "Se não [eu] cresse para ver na bondade do SENHOR na terra dos viventes.",
+  "termos_originais": [
+    {
+      "palavra": "לׅׄוּלֵׅׄ֗אׅׄ",
+      "lemma": "3884",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הֶ֭אֱמַנְתִּי",
+      "lemma": "539",
+      "morfologia": "HVhp1cs"
+    },
+    {
+      "palavra": "לִרְא֥וֹת",
+      "lemma": "l/7200",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "בְּֽטוּב",
+      "lemma": "b/2898",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּאֶ֣רֶץ",
+      "lemma": "b/776",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "חַיִּֽים",
+      "lemma": "2416 a",
+      "morfologia": "HAampa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "pontuação massorética extraordinária sobre לוּלֵא (puncta extraordinaria)",
+      "escolha": "registrar o fenômeno apenas na justificativa/decisão, sem efeito na leitura consonantal-vocálica adotada",
+      "justificativa": "o packet apresenta לׅׄוּלֵׅׄ֗אׅׄ com pontos sobre as letras — um dos 15 casos clássicos de 'pontos extraordinários' massoréticos, marcando tradição de incerteza/ênfase sobre a palavra; não há variante_fonte estruturada no packet para este item, mas o fenômeno é relevante para auditoria textual.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não mencionar o fenômeno",
+          "motivo": "omitiria um traço textualmente relevante presente na própria grafia do packet, ainda que sem efeito direto na tradução"
+        }
+      ]
+    },
+    {
+      "questao": "aposiopese: לוּלֵא inicia prótase condicional sem apódose expressa no TM",
+      "escolha": "preservar a suspensão sintática com reticências, sem completar a apódose",
+      "justificativa": "o TM interrompe a frase deliberadamente (figura de aposiopese) após 'terra dos viventes'; a BV não resolve por conjectura o que o texto-fonte deixa em suspenso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "completar com \"Creio que verei...\" (tradição Almeida, convertendo em afirmação positiva)",
+          "motivo": "converte a prótase suspensa em afirmação por conjectura interpretativa, obscurecendo a peculiaridade sintática do TM"
+        },
+        {
+          "opcao": "suprir uma apódose negativa (ex.: \"eu pereceria\")",
+          "motivo": "acrescenta conteúdo ausente do TM; viola a instrução de não inventar preenchimento para lacunas de sentido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "apódose ausente (aposiopese) — o TM interrompe a frase após 'terra dos viventes'; a tradição interpretativa diverge quanto ao complemento implícito e a BV não o supre"
+  ],
+  "justificativa": "Verso de grande dificuldade sintática: prótase condicional com לוּלֵא sem apódose expressa, agravada pela notação massorética extraordinária sobre a própria partícula condicional no packet-fonte.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

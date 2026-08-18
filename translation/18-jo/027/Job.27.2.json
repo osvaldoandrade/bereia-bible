@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.27.2",
+    "livro": "Jó",
+    "capitulo": 27,
+    "versiculo": 2,
+    "pericope": "Job.27.1-23"
+  },
+  "texto_bv": "Vive Deus, que tirou o meu direito, e o Todo-Poderoso, que amargurou a minha alma:",
+  "traducao_literal": "Vive Deus, removeu o meu direito, e Shaddai amargurou a minha alma;",
+  "termos_originais": [
+    {
+      "palavra": "חַי",
+      "lemma": "2416 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "אֵ֭ל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הֵסִ֣יר",
+      "lemma": "5493",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "מִשְׁפָּטִ֑י",
+      "lemma": "4941",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְ֝שַׁדַּ֗י",
+      "lemma": "c/7706",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "הֵמַ֥ר",
+      "lemma": "4843",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "נַפְשִֽׁי",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חַי־אֵל é fórmula de juramento elíptica (\"[como] Deus vive\"); como verter?",
+      "escolha": "\"Vive Deus\", preservando a fórmula de juramento tradicional em português",
+      "justificativa": "construção fixa de juramento por invocação da vida de Deus, paralela a חַי־יְהוָה (\"vive o SENHOR\") em outros lugares do AT; \"Vive Deus\" é forma corrente na tradição bíblica pt-BR, não arcaísmo morto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Tão certo como Deus vive\"",
+          "motivo": "paráfrase explicativa desnecessária; \"Vive Deus\" já comunica o juramento no registro formal-neutro exigido"
+        }
+      ]
+    },
+    {
+      "questao": "שַׁדַּי ocorre sozinho (sem אֵל prefixado) neste capítulo; qual glosa usar quando a Política de Nomes Divinos só cobra a composição אֵל שַׁדַּי → \"Deus Todo-Poderoso\"?",
+      "escolha": "\"o Todo-Poderoso\" para שַׁדַּי isolado (sem acrescentar \"Deus\", ausente no hebraico aqui)",
+      "justificativa": "extensão consistente da política NOMES-DIVINOS.md (H7706): mantém o epíteto sem duplicar \"Deus\", que só está presente na composição El Shaddai. Uso será mantido em todas as ocorrências isoladas de שַׁדַּי no capítulo (vv. 2,10,11,13).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliteração \"Shaddai\"",
+          "motivo": "rejeitada pela mesma lógica de ER-0002 contra \"Javé\"/\"Yahweh\": quebra convenção consolidada pt-BR"
+        },
+        {
+          "opcao": "\"Deus Todo-Poderoso\" mesmo sem אֵל",
+          "motivo": "acrescentaria um termo (Deus) inexistente no hebraico deste versículo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (relativas explicitando as duas orações assindéticas do hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Paralelismo sinonímico: אֵל // שַׁדַּי, מִשְׁפָּטִי (meu direito/minha causa judicial) // נַפְשִׁי (minha alma). מִשְׁפָּט mantido \"direito\" por ser vocabulário jurídico central ao livro de Jó (a disputa judicial de Jó com Deus).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

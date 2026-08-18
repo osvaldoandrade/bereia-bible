@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.13.9",
+    "livro": "Oseias",
+    "capitulo": 13,
+    "versiculo": 9,
+    "pericope": "Hos.13.1-15"
+  },
+  "texto_bv": "Você se destruiu, Israel, pois está contra mim, contra o seu ajudador.",
+  "traducao_literal": "Destruiu-te, Israel; que contra mim, contra teu socorro.",
+  "termos_originais": [
+    {
+      "palavra": "שִֽׁחֶתְךָ֥",
+      "lemma": "7843",
+      "morfologia": "HVpp3ms/Sp2ms"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֖ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "בִ֥י",
+      "lemma": "b",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "בְעֶזְרֶֽךָ",
+      "lemma": "b/5828",
+      "morfologia": "HR/Ncmsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שִׁחֶתְךָ — sujeito não expresso do Piel 3ms + sufixo 2ms ('[algo/alguém] te destruiu')",
+      "escolha": "leitura reflexiva: 'você se destruiu'",
+      "justificativa": "Piel com sujeito não expresso e sentido reflexivo é atestado em hebraico bíblico (cf. Dt 32:5); a ausência de agente explícito favorece 'autodestruição' de Israel como clímax retórico do capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Ele te destruiu' (agente externo impessoal, possivelmente Deus)",
+          "motivo": "gramaticalmente possível, mas menos coerente com a ausência total de sujeito expresso e com o tom do capítulo, que culpa Israel por sua própria ruína"
+        }
+      ]
+    },
+    {
+      "questao": "כִּי־בִי בְעֶזְרֶךָ — oração nominal elíptica sem verbo",
+      "escolha": "'pois está contra mim, contra o seu ajudador' (suprindo o verbo 'estar')",
+      "justificativa": "בִ֥י aqui tem valor adversativo ('contra mim'), não locativo ('em mim'); בְעֶזְרֶךָ em aposição a 'mim' identifica Deus como o ajudador de Israel a quem ele se opõe.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'pois em mim está o seu socorro' (בִי locativo, não adversativo)",
+          "motivo": "quebra o paralelismo com a acusação de oposição que o contexto de juízo exige"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "'está' (cópula da oração nominal כִּי־בִי בְעֶזְרֶךָ)"
+  ],
+  "ambiguidades_preservadas": [
+    "שִׁחֶתְךָ sem sujeito expresso: 'você se destruiu' × 'ele/algo te destruiu'.",
+    "בִי: 'contra mim' (adversativo) × 'em mim' (locativo, sentido oposto ao adotado)."
+  ],
+  "justificativa": "Um dos versos mais elípticos e disputados do capítulo; DRAFT preserva as duas leituras concorrentes no campo de ambiguidade dado o peso interpretativo.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

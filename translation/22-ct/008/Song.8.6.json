@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.8.6",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 8,
+    "versiculo": 6,
+    "pericope": "Song.8.1-14"
+  },
+  "texto_bv": "Ponha-me como um selo sobre o seu coração, como um selo sobre o seu braço; porque o amor é forte como a morte, o ciúme é cruel como o Seol; suas labaredas são labaredas de fogo, uma chama poderosíssima.",
+  "traducao_literal": "Põe-me como selo sobre teu coração, como selo sobre teu braço; porque forte como a morte é o amor, duro como o Seol é o ciúme; suas labaredas, labaredas de fogo, chama de Yah.",
+  "termos_originais": [
+    {
+      "palavra": "שִׂימֵ֨נִי",
+      "lemma": "7760 a",
+      "morfologia": "HVqv2ms/Sp1cs"
+    },
+    {
+      "palavra": "כַֽחוֹתָ֜ם",
+      "lemma": "k/2368",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "לִבֶּ֗ךָ",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "כַּֽחוֹתָם֙",
+      "lemma": "k/2368",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "זְרוֹעֶ֔ךָ",
+      "lemma": "2220",
+      "morfologia": "HNcbsc/Sp2ms"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "עַזָּ֤ה",
+      "lemma": "5794",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "כַמָּ֨וֶת֙",
+      "lemma": "k/4194",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "אַהֲבָ֔ה",
+      "lemma": "160",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "קָשָׁ֥ה",
+      "lemma": "7186",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "כִשְׁא֖וֹל",
+      "lemma": "k/7585",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "קִנְאָ֑ה",
+      "lemma": "7068",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "רְשָׁפֶ֕יהָ",
+      "lemma": "7565",
+      "morfologia": "HNcmpc/Sp3fs"
+    },
+    {
+      "palavra": "רִשְׁפֵּ֕י",
+      "lemma": "7565",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "אֵ֖שׁ",
+      "lemma": "784",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "שַׁלְהֶ֥בֶתְ",
+      "lemma": "7957",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "יָֽה",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem predicado-sujeito עַזָּה כַמָּוֶת אַהֲבָה / קָשָׁה כִשְׁאוֹל קִנְאָה (adjetivo-comparação-sujeito)",
+      "escolha": "normalizar para ordem sujeito-verbo no texto publicado ('o amor é forte...'), preservar a ordem original na traducao_literal",
+      "justificativa": "ER-0011 padroniza ordem sujeito-verbo no texto publicado; ER-0013 exige que a traducao_literal preserve a inversão poética do hebraico (predicado enfático antes do sujeito).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a inversão também no texto publicado",
+          "motivo": "Soaria arcaizante em português contemporâneo; a doutrina do calque reserva essa preservação à traducao_literal."
+        }
+      ]
+    },
+    {
+      "questao": "Como verter שַׁלְהֶבֶתְיָה — elemento final יָה como nome divino abreviado ('chama do SENHOR') ou como sufixo intensificador superlativo ('labareda poderosíssima')?",
+      "escolha": "\"uma chama poderosíssima\" — leitura de יָה como intensificador superlativo no texto publicado",
+      "justificativa": "A tageação do packet-fonte separa שַׁלְהֶבֶתְ (Ncfsa) e יָה (Np, H3050) como dois tokens, mas essa segmentação morfológica não resolve por si só a função semântica do elemento; o uso de -יָה como sufixo intensificador superlativo é bem atestado em hebraico poético (cf. 'harerei-El' = montanhas grandiosas) e evita estender a convenção de NOMES-DIVINOS.md (que não lista H3050) sem adjudicação prévia de política. A leitura alternativa — 'chama do SENHOR', tratando יָה como forma hipocorística do Tetragrama — permanece registrada como leitura textualmente viável.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"uma chama do SENHOR\" (nome divino, extensão de ER-0002 a H3050)",
+          "motivo": "Gramaticalmente possível e sustentada pela tageação Np da fonte, mas insere referência direta ao Tetragrama em política (NOMES-DIVINOS.md) que não cobre explicitamente H3050; por cautela teológica (TEOLOGIA §1.5, preservar ambiguidade), fica registrada como leitura alternativa, não como texto publicado."
+        },
+        {
+          "opcao": "transliterar 'Yah' sem glosar no texto publicado",
+          "motivo": "Deixaria o leitor sem indicação do valor semântico (intensificador vs. nome divino) e conflitaria com a exigência de glosa consolidada de NOMES-DIVINOS.md caso se opte pela leitura de nome divino."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "שַׁלְהֶבֶתְיָה admite leitura como intensificador superlativo ('labareda poderosíssima', escolha do texto publicado) ou como nome divino abreviado ('chama do SENHOR'/Yah); a tageação Np da fonte sustenta a segunda leitura, mas NOMES-DIVINOS.md não cobre H3050 explicitamente, por isso a BV preserva ambas as leituras no registro."
+  ],
+  "justificativa": "Súplica por selo de posse exclusiva seguida da comparação clássica entre amor/ciúme e morte/Seol, culminando em crux textual sobre o elemento final יָה.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.116.6",
+    "livro": "Salmos",
+    "capitulo": 116,
+    "versiculo": 6,
+    "pericope": "Ps.116.1-19"
+  },
+  "texto_bv": "O SENHOR guarda os simples; eu estava abatido, e ele me salvou.",
+  "traducao_literal": "Guardião dos simples o SENHOR; fui abatido, e a mim salvou.",
+  "termos_originais": [
+    {
+      "palavra": "שֹׁמֵ֣ר",
+      "lemma": "8104",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "פְּתָאיִ֣ם",
+      "lemma": "6612 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יְהֹוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "דַּ֝לּוֹתִ֗י",
+      "lemma": "1809",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "וְלִ֣י",
+      "lemma": "c/l",
+      "morfologia": "HC/R/Sp1cs"
+    },
+    {
+      "palavra": "יְהוֹשִֽׁיעַ",
+      "lemma": "3467",
+      "morfologia": "HVhi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tempo de יְהוֹשִׁיעַ (imperfeito)",
+      "escolha": "Traduzir como passado ('salvou')",
+      "justificativa": "Acompanha o perfeito דַּלּוֹתִי ('eu estava abatido') na mesma oração e o padrão narrativo retrospectivo do salmo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'salva'/'salvará' (presente/futuro)",
+          "motivo": "Menos coerente com o par perfeito+imperfeito de valor passado nesta oração."
+        }
+      ]
+    },
+    {
+      "questao": "Oração nominal hebraica ('guardião dos simples [é] o SENHOR')",
+      "escolha": "Suprir cópula 'é'",
+      "justificativa": "Nominal sem verbo 'ser' no hebraico; exigido pelo português (ER-0006).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula ausente, sujeito nominal 'guardião dos simples')",
+    "eu (sujeito implícito no verbo דַּלּוֹתִי)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Máxima geral (o SENHOR guarda os simples) seguida de testemunho pessoal de aplicação (fui abatido e salvo).",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

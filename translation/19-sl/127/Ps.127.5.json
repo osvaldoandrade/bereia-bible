@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.127.5",
+    "livro": "Salmos",
+    "capitulo": 127,
+    "versiculo": 5,
+    "pericope": "Ps.127.1-5"
+  },
+  "texto_bv": "Feliz é o homem que enche a sua aljava com eles; não serão envergonhados quando falarem com os inimigos no portão.",
+  "traducao_literal": "Felicidades do varão que encheu a aljava dele deles; não serão envergonhados; porque falarão com inimigos no portão.",
+  "termos_originais": [
+    {
+      "palavra": "אַשְׁרֵ֤י",
+      "lemma": "835",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "הַגֶּ֗בֶר",
+      "lemma": "d/1397",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֤ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "מִלֵּ֥א",
+      "lemma": "4390",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "אַשְׁפָּת֗וֹ",
+      "lemma": "827",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "מֵ֫הֶ֥ם",
+      "lemma": "m",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "לֹֽא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יֵבֹ֑שׁוּ",
+      "lemma": "954",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יְדַבְּר֖וּ",
+      "lemma": "1696",
+      "morfologia": "HVpi3mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "854",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אוֹיְבִ֣ים",
+      "lemma": "341",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "בַּשָּֽׁעַר",
+      "lemma": "b/8179",
+      "morfologia": "HRd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "גֶּבֶר (H1397, 'homem em vigor/varão') vs אִישׁ (H376, usado em Sl 1:1) — a BV ainda não distingue os dois lexemas com glosas próprias",
+      "escolha": "homem (mesma glosa usada para אִישׁ em Sl 1:1, sem distinção lexical por ora)",
+      "justificativa": "Ausência de entrada própria no léxico para גֶּבֶר; evitou-se introduzir distinção terminológica ad hoc num único verso. Registra-se aqui, para eventual entrada futura em lexicon.json, que גֶּבֶר carrega conotação de vigor/força (eco de גִּבּוֹר no v.4) que 'homem' neutro não marca.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'varão'",
+          "motivo": "preservaria a distinção de registro, mas está no limiar do arcaísmo funcional restringido por EDITORIAL §1.2; evitado para não introduzir inconsistência terminológica não documentada"
+        }
+      ]
+    },
+    {
+      "questao": "Mudança de sujeito gramatical: מִלֵּא (3ms, 'ele encheu') para יֵבֹשׁוּ/יְדַבְּרוּ (3mp, 'eles não serão envergonhados'/'eles falarão') — o referente plural mais provável são os filhos/flechas de מֵהֶם, não o גֶּבֶר singular",
+      "escolha": "preservar a mudança de número no publicado: 'ele encheu... eles não serão envergonhados'",
+      "justificativa": "A morfologia do packet marca explicitamente יֵבֹשׁוּ e יְדַבְּרוּ como 3ª pessoa masculino plural; o referente mais natural é 'eles' = os filhos/flechas retomados de מֵהֶם (vv.3-4). Preservar a mudança de sujeito é mais fiel do que suavizar para 'ele' singular.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele não será envergonhado... quando ele falar' (singular, harmonizando com הַגֶּבֶר)",
+          "motivo": "suaviza uma marca gramatical real do original; o packet morfológico não autoriza apagar o plural em favor de fluência"
+        }
+      ]
+    },
+    {
+      "questao": "יְדַבְּרוּ אֶת־אוֹיְבִים בַּשָּׁעַר — 'falar com os inimigos no portão'; o portão era sede de litígios/juízo na cidade israelita antiga (cf. Rt 4; Dt 21:19), sugerindo contexto de disputa legal",
+      "escolha": "falarem com os inimigos no portão (verbo neutro, sem explicitar 'disputa/litígio')",
+      "justificativa": "Mantém o valor lexical neutro de דבר ('falar'); a conotação jurídica do portão é contextual e cabe na justificativa, não deve ser importada ao texto como paráfrase interpretativa (TEOLOGIA §2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'disputarem/litigarem com os inimigos no portão'",
+          "motivo": "interpretativamente defensável, mas acrescenta ao verbo neutro דבר uma especificação jurídica que o lexema por si não exige"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Referente de 'eles' (יֵבֹשׁוּ/יְדַבְּרוּ, 3mp): mais provavelmente os filhos/flechas (מֵהֶם), mas leitura tradicional/homilética por vezes entende como o próprio homem (concordância genérica ou estilo coletivo); a BV preserva o plural gramatical do texto-fonte sem forçar a leitura singular."
+  ],
+  "justificativa": "Fecho do salmo: muitos filhos garantem apoio no fórum público (o portão, sede de disputas e julgamentos na cidade antiga) — a aljava cheia de v.5a retoma as flechas de v.4. אֶת ocorre duas vezes no verso com lemas diferentes (853, marcador de objeto direto, antes de אַשְׁפָּתוֹ; 854, preposição 'com', antes de אוֹיְבִים) — distinção preservada na análise morfológica anexada, embora ambas apareçam como 'אֶת' na superfície.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

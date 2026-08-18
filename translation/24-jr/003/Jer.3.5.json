@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.3.5",
+    "livro": "Jeremias",
+    "capitulo": 3,
+    "versiculo": 5,
+    "pericope": "Jer.3.1-25"
+  },
+  "texto_bv": "“Ele guardará ira para sempre? Ele a manterá perpetuamente?” Eis que eu falei; mas você fez o mal, e teve êxito.",
+  "traducao_literal": "Guardará ira para sempre? Se a manterá perpetuamente? Eis que eu falei; e fizeste as maldades, e prevaleceste.",
+  "termos_originais": [
+    {
+      "palavra": "הֲיִנְטֹ֣ר",
+      "lemma": "i/5201",
+      "morfologia": "HTi/Vqi3ms"
+    },
+    {
+      "palavra": "לְעוֹלָ֔ם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יִשְׁמֹ֖ר",
+      "lemma": "8104",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "לָנֶ֑צַח",
+      "lemma": "l/5331",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "הִנֵּ֥ה",
+      "lemma": "2009",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "דברתי",
+      "lemma": "1696",
+      "morfologia": "HVpp1cs"
+    },
+    {
+      "palavra": "וַתַּעֲשִׂ֥י",
+      "lemma": "c/6213 a",
+      "morfologia": "HC/Vqw2fs"
+    },
+    {
+      "palavra": "הָרָע֖וֹת",
+      "lemma": "d/7451 a",
+      "morfologia": "HTd/Ncfpa"
+    },
+    {
+      "palavra": "וַתּוּכָֽל",
+      "lemma": "c/3201",
+      "morfologia": "HC/Vqw2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "דברתי (Kethiv 1cs 'eu falei' vs. leitura tradicional Qere 2fs 'tu falaste')",
+      "escolha": "Seguir a morfologia do packet (1cs): 'eu falei', lido como o SENHOR retomando a palavra após citar o raciocínio presunçoso de Israel",
+      "justificativa": "Sem aparato de variantes no packet, mantém-se a morfologia fornecida (HVpp1cs). A leitura resulta em: 'Eis que eu [o SENHOR] falei [minhas advertências]; mas você fez o mal e teve êxito [saiu impune]' — sentido coerente, embora alternativo ao Qere tradicional.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "2fs 'tu falaste' (Qere tradicional, fechando a citação presunçosa de Israel antes da repreensão)",
+          "motivo": "não está atestado como controle no packet cego; manteve-se o que a morfologia fornecida indica"
+        }
+      ]
+    },
+    {
+      "questao": "וַתּוּכָל marcado no packet como 2ms (HC/Vqw2ms), destoando do 2fs predominante no contexto",
+      "escolha": "Sem efeito visível na tradução pt-BR (pronome 'você' não flexiona por gênero)",
+      "justificativa": "Registrado para auditoria; a ambiguidade gramatical hebraica (prefixo תּ- comum a 2ms/3fs em verbos ע\"ו) não se manifesta na tradução.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "הֲיִנְטֹר/יִשְׁמֹר sem objeto explícito ('guardar [rancor/ira]')",
+      "escolha": "Suprir 'ira' como objeto implícito",
+      "justificativa": "Verbos denominais de retenção de rancor (נטר/שמר) exigem objeto em português; o hebraico o deixa implícito pelo contexto do capítulo anterior de Jeremias.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "ira"
+  ],
+  "ambiguidades_preservadas": [
+    "דברתי pode ser lido como 1cs (Kethiv, seguido aqui) ou 2fs (Qere tradicional); a divisão de falantes na segunda metade do verso muda conforme a leitura escolhida"
+  ],
+  "justificativa": "Encerra a citação da presunção de Israel (vv.4-5a) com a resposta do SENHOR: apesar da confiança presumida no perdão, Israel perseverou no mal.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

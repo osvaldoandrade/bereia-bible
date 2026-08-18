@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.25.1",
+    "livro": "Salmos",
+    "capitulo": 25,
+    "versiculo": 1,
+    "pericope": "Ps.25.1-22"
+  },
+  "texto_bv": "De Davi. A ti, SENHOR, levanto a minha alma.",
+  "traducao_literal": "De Davi: a ti, SENHOR, minha alma levanto.",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֡ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אֵלֶ֥יךָ",
+      "lemma": "413",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "יְ֝הוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "נַפְשִׁ֥י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "אֶשָּֽׂא",
+      "lemma": "5375",
+      "morfologia": "HVqi1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לְדָוִד — superscrição de autoria/dedicação",
+      "escolha": "'De Davi' (autoria/dedicatória davídica)",
+      "justificativa": "O lamed prefixado a nome próprio em superscrições de salmo é lido convencionalmente como autoria; não há marcador morfológico no packet que force outra leitura.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Para Davi' (dedicatória a um rei davídico posterior)",
+          "motivo": "gramaticalmente possível (lamed de referência), mas sem apoio contextual específico; ambiguidade preservada como nota, não decidida no texto."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "לְדָוִד pode indicar autoria ('de Davi'), dedicatória ('para Davi') ou pertença a uma coleção davídica; a BV segue a leitura de autoria sem excluir as demais."
+  ],
+  "justificativa": "Abertura do salmo com a superscrição davídica seguida do voto de confiança inicial 'levanto a minha alma a ti'; ordem objeto-verbo do hebraico preservada na traducao_literal, normalizada no publicado para fluência.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

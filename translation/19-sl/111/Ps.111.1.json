@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.111.1",
+    "livro": "Salmos",
+    "capitulo": 111,
+    "versiculo": 1,
+    "pericope": "Ps.111.1-10"
+  },
+  "texto_bv": "Louvai o SENHOR! Eu darei graças ao SENHOR de todo o coração, no conselho dos retos e na congregação.",
+  "traducao_literal": "Louvai Yah. Eu louvarei a SENHOR com todo o coração, no conselho dos retos e congregação.",
+  "termos_originais": [
+    {
+      "palavra": "הַ֥לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֨הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אוֹדֶ֣ה",
+      "lemma": "3034",
+      "morfologia": "HVhi1cs"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּכָל",
+      "lemma": "b/3605",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "לֵבָ֑ב",
+      "lemma": "3824",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בְּס֖וֹד",
+      "lemma": "b/5475",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְשָׁרִ֣ים",
+      "lemma": "3477",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "וְעֵדָֽה",
+      "lemma": "c/5712",
+      "morfologia": "HC/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de יָהּ, forma abreviada do Tetragrama",
+      "escolha": "SENHOR (mesmo referente de יהוה, política ER-0002)",
+      "justificativa": "יָהּ é forma poética abreviada do mesmo nome divino יהוה; aplicar a mesma convenção da política de nomes divinos preserva a consistência referencial e a auditabilidade via lemma, em vez de introduzir uma terceira forma não padronizada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Aleluia (transliteração/interjeição não traduzida)",
+          "motivo": "ER-0002 rejeita formas transliteradas (Javé/Yahweh) em favor da convenção traduzida; tratar יָהּ como interjeição intraduzida quebraria essa política para o mesmo referente divino"
+        },
+        {
+          "opcao": "Jah (nome próprio não traduzido)",
+          "motivo": "não segue nenhuma convenção registrada no repositório; reduziria a auditabilidade do nome divino"
+        }
+      ]
+    },
+    {
+      "questao": "אוֹדֶה (ydh, 'agradecer/louvar') vs הַלְלוּ (halal, 'louvar') no mesmo versículo",
+      "escolha": "'darei graças' para אוֹדֶה, distinto de 'louvar' usado para הַלְלוּ",
+      "justificativa": "o hebraico emprega dois verbos de louvor lexicalmente distintos no mesmo versículo; preservar glosas diferentes mantém essa variação visível ao leitor em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'louvarei' também para אוֹדֶה",
+          "motivo": "colapsaria a distinção lexical com הַלְלוּ, apagando a variação estilística do original"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "na (preposição não repetida no hebraico antes de 'congregação', suprida para clareza sintática em português)"
+  ],
+  "ambiguidades_preservadas": [
+    "Estrutura acróstica alfabética (א–ת) do salmo é perdida na tradução para o português; não há impacto semântico neste versículo isolado, apenas perda de forma poética."
+  ],
+  "justificativa": "Versículo de abertura do salmo acróstico; מזכר literal e publicado convergem, exceto pela glosa de יָהּ (equiparada a SENHOR por identidade referencial com יהוה) e pela distinção entre os dois verbos de louvor. Preposição implícita suprida antes de 'congregação'.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

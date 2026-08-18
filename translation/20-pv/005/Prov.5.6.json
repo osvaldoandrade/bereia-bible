@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.5.6",
+    "livro": "Provérbios",
+    "capitulo": 5,
+    "versiculo": 6,
+    "pericope": "Prov.5.1-23"
+  },
+  "texto_bv": "O caminho da vida, ela nem pesa; as veredas dela vagueiam, e você nem percebe.",
+  "traducao_literal": "O caminho da vida — ela não pesa; vagueiam as veredas dela, e você não sabe.",
+  "termos_originais": [
+    {
+      "palavra": "אֹ֣רַח",
+      "lemma": "734",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "חַ֭יִּים",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "פֶּן",
+      "lemma": "6435",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "תְּפַלֵּ֑ס",
+      "lemma": "6424",
+      "morfologia": "HVpi3fs"
+    },
+    {
+      "palavra": "נָע֥וּ",
+      "lemma": "5128",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "מַ֝עְגְּלֹתֶ֗יהָ",
+      "lemma": "4570",
+      "morfologia": "HNcmpc/Sp3fs"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תֵדָֽע",
+      "lemma": "3045",
+      "morfologia": "HVqi2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito de תְּפַלֵּס (OSHB tag: 3fs) — quem 'não pesa/pondera' o caminho da vida?",
+      "escolha": "sujeito feminino elíptico ('ela', referente à mulher estranha do contexto), com תֵדָע (2ms, endereçado ao filho) na sequência do mesmo versículo",
+      "justificativa": "OSHB pina תְּפַלֵּס como 3fs e תֵדָע como 2ms no mesmo verso — mudança de pessoa dentro do versículo, seguida aqui por fidelidade à morfologia da fonte pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "תְּפַלֵּס como 2ms ('para que você não pondere o caminho da vida')",
+          "motivo": "leitura de KJV/ESV/NASB; gramaticalmente possível porque a forma prefixada de 3fs e 2ms é idêntica em hebraico bíblico (ambiguidade morfológica estrutural do sistema verbal), mas rejeitada aqui por seguir a tag 3fs da fonte pinada, não por inferioridade gramatical"
+        }
+      ]
+    },
+    {
+      "questao": "פלס (H6424) — eco lexical com Pv 5:21 (מְפַלֵּס)",
+      "escolha": "pesar",
+      "justificativa": "Mesma raiz do verbo que descreve o SENHOR 'pesando' os caminhos do homem em 5:21; glosa unificada marca o contraste retórico entre quem não pesa (a mulher/o caminho) e quem pesa tudo (o SENHOR).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ponderar",
+          "motivo": "aceitável, mas 'pesar' rende melhor o eco concreto com o mesmo verbo em 5:21"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Mudança de sujeito (3fs → 2ms) entre as duas orações do versículo é sintaticamente disputada nas versões; a leitura alternativa 'para que você não pondere o caminho da vida' permanece atestada e não é excluída pela gramática, apenas pela morfologia pinada (OSHB)."
+  ],
+  "justificativa": "Verso reconhecidamente cruz interpretativo (Pv 5:6); ambiguidade documentada em vez de resolvida silenciosamente.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

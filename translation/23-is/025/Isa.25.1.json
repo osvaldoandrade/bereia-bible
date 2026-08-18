@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.25.1",
+    "livro": "Isaías",
+    "capitulo": 25,
+    "versiculo": 1,
+    "pericope": "Isa.25.1-12"
+  },
+  "texto_bv": "SENHOR, tu és meu Deus; eu te exaltarei e louvarei o teu nome, porque fizeste maravilhas — desígnios de há muito tempo, com toda fidelidade e verdade.",
+  "traducao_literal": "SENHOR, meu Deus, tu; exaltar-te-ei, louvarei o teu nome, porque fizeste maravilha: conselhos de longe, fidelidade, verdade.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהַי֙",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "אַתָּ֔ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "אֲרֽוֹמִמְךָ֙",
+      "lemma": "7311 a",
+      "morfologia": "HVoi1cs/Sp2ms"
+    },
+    {
+      "palavra": "אוֹדֶ֣ה",
+      "lemma": "3034",
+      "morfologia": "HVhi1cs"
+    },
+    {
+      "palavra": "שִׁמְךָ֔",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "עָשִׂ֖יתָ",
+      "lemma": "6213 a",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "פֶּ֑לֶא",
+      "lemma": "6382",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "עֵצ֥וֹת",
+      "lemma": "6098",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "מֵֽרָח֖וֹק",
+      "lemma": "m/7350",
+      "morfologia": "HR/Aamsa"
+    },
+    {
+      "palavra": "אֱמ֥וּנָה",
+      "lemma": "530",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אֹֽמֶן",
+      "lemma": "544",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱמוּנָה אֹמֶן — par nominal assindético intensificador, mesma raiz",
+      "escolha": "traduzir como dois substantivos justapostos por vírgula na literal ('fidelidade, verdade') e como par coordenado intensificador no publicado ('com toda fidelidade e verdade')",
+      "justificativa": "Os dois substantivos derivam da mesma raiz אמן e funcionam como dobra intensificadora de certeza/confiabilidade; não há waw entre eles no hebraico, o que a literal preserva pela ausência de conectivo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'fidelidade absoluta' (perífrase única)",
+          "motivo": "colapsaria os dois substantivos em um só, apagando a dupla atestação lexical auditável"
+        },
+        {
+          "opcao": "'verdadeira fidelidade' (um subordinado ao outro)",
+          "motivo": "hierarquiza os termos quando o hebraico os justapõe em par de mesmo nível sintático"
+        }
+      ]
+    },
+    {
+      "questao": "עֵצוֹת מֵרָחוֹק — oração nominal sem verbo expresso",
+      "escolha": "tratar como aposto exclamativo de פֶּלֶא, sem verbo suprido",
+      "justificativa": "Orações nominais sem cópula são comuns em hinos hebraicos; a suprida mínima ('és', para o nexo 'SENHOR, meu Deus, tu') preserva a economia sintática do original sem inventar um segundo verbo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "supridas 'que são', explicitando a aposição",
+          "motivo": "tornaria o texto mais prosaico que o hino original, que é propositalmente elíptico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "és",
+    "com"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura hínica em segunda pessoa dirigida a Deus (registro 'tu', EDITORIAL §3); a dobra אֱמוּנָה אֹמֶן é semanticamente rara e mantém alguma incerteza de nuance entre 'fidelidade' e 'verdade/constância'.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

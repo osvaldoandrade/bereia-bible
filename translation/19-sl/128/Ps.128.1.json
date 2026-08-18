@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.128.1",
+    "livro": "Salmos",
+    "capitulo": 128,
+    "versiculo": 1,
+    "pericope": "Ps.128.1-6"
+  },
+  "texto_bv": "Cântico das Subidas. Feliz é todo aquele que teme o SENHOR, que anda em seus caminhos.",
+  "traducao_literal": "Cântico das subidas. Felicidades de todo temente de SENHOR, o que anda em seus caminhos.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁ֗יר",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "הַֽמַּ֫עֲל֥וֹת",
+      "lemma": "d/4609 b",
+      "morfologia": "HTd/Ncfpa"
+    },
+    {
+      "palavra": "אַ֭שְׁרֵי",
+      "lemma": "835",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְרֵ֣א",
+      "lemma": "3373",
+      "morfologia": "HAamsc"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַ֝הֹלֵ֗ךְ",
+      "lemma": "d/1980",
+      "morfologia": "HTd/Vqrmsa"
+    },
+    {
+      "palavra": "בִּדְרָכָֽיו",
+      "lemma": "b/1870",
+      "morfologia": "HR/Ncbpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אַשְׁרֵי (ashrei), abertura interjetiva nominal do salmo",
+      "escolha": "Feliz é",
+      "justificativa": "Mantém o padrão já fixado no corpus para אַשְׁרֵי (Sl 1:1 'Feliz é o homem'; Sl 84:5 'Felizes os que'); registro formal-neutro (EDITORIAL §1.2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Bem-aventurado",
+          "motivo": "registro litúrgico mais elevado que o padrão já fixado no corpus (reservado a outros lemas/contextos, ex. Sl 144:15)"
+        },
+        {
+          "opcao": "Ditoso",
+          "motivo": "arcaísmo funcionalmente marginal em pt-BR contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "כָּל־יְרֵא יְהוָה — cadeia construta 'todo temente de SENHOR' (adjetivo em estado construto sem verbo finito)",
+      "escolha": "todo aquele que teme o SENHOR",
+      "justificativa": "O hebraico usa um adjetivo construto sem cópula nem verbo finito; o português supre 'aquele que' e o verbo 'teme' para formar oração relativa gramatical, sem acrescentar conteúdo ao original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'todo temente do SENHOR'",
+          "motivo": "calque nominal possível, mas soa artificial no publicado; a forma construta fica preservada na traducao_literal (ER-0013)"
+        }
+      ]
+    },
+    {
+      "questao": "referente do sufixo pronominal em בִּדְרָכָיו ('em seus caminhos') — caminhos de quem?",
+      "escolha": "manter o pronome 'seus' sem explicitar o antecedente",
+      "justificativa": "Idioma deuteronômico consagrado ('andar nos caminhos dele/de YHWH', cf. Dt 8:6; 10:12) sugere fortemente que são os caminhos do SENHOR; optou-se por não reexplicitar 'do SENHOR' porque o pronome em português produz o mesmo efeito relacional que o sufixo hebraico, remetendo naturalmente ao antecedente mais próximo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'que anda nos caminhos do SENHOR'",
+          "motivo": "explicitação interpretativa que resolve uma ambiguidade referencial que o próprio hebraico mantém apenas por sufixo pronominal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula em 'Feliz é')",
+    "aquele que (para formar oração relativa a partir do adjetivo construto יְרֵא)"
+  ],
+  "ambiguidades_preservadas": [
+    "Referente de 'seus caminhos' (בִּדְרָכָיו): idiomaticamente aponta para os caminhos do SENHOR (paralelo deuteronômico), mas gramaticalmente o pronome também poderia, em tese, remeter ao próprio sujeito ('temente')."
+  ],
+  "justificativa": "Título 'Cântico das Subidas' idêntico ao de Sl 127:1 (שִׁיר הַמַּעֲלוֹת), aqui sem atribuição de autoria. O corpo do verso é uma única frase com אַשְׁרֵי introduzindo uma cadeia construta (כָּל־יְרֵא יְהוָה) seguida de aposto participial (הַהֹלֵךְ בִּדְרָכָיו) que descreve a mesma pessoa em paralelismo sinonímico interno.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

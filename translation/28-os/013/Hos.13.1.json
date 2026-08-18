@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.13.1",
+    "livro": "Oseias",
+    "capitulo": 13,
+    "versiculo": 1,
+    "pericope": "Hos.13.1-15"
+  },
+  "texto_bv": "Quando Efraim falava, havia tremor; ele se exaltava em Israel. Mas se tornou culpado por causa de Baal, e morreu.",
+  "traducao_literal": "Como falar Efraim, tremor; levantou-se ele em Israel; e ele se tornou culpado no Baal, e morreu.",
+  "termos_originais": [
+    {
+      "palavra": "כְּדַבֵּ֤ר",
+      "lemma": "k/1696",
+      "morfologia": "HR/Vpc"
+    },
+    {
+      "palavra": "אֶפְרַ֨יִם֙",
+      "lemma": "669",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "רְתֵ֔ת",
+      "lemma": "7578",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "נָשָׂ֥א",
+      "lemma": "5375",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "ה֖וּא",
+      "lemma": "1931",
+      "morfologia": "HPp3ms"
+    },
+    {
+      "palavra": "בְּיִשְׂרָאֵ֑ל",
+      "lemma": "b/3478",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וַיֶּאְשַׁ֥ם",
+      "lemma": "c/816",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בַּבַּ֖עַל",
+      "lemma": "b/1168 a",
+      "morfologia": "HRd/Np"
+    },
+    {
+      "palavra": "וַיָּמֹֽת",
+      "lemma": "c/4191",
+      "morfologia": "HC/Vqw3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sentido de נָשָׂא (Qal 3ms, sem objeto explícito)",
+      "escolha": "'ele se exaltava em Israel' (uso absoluto de נשא, ganho de proeminência)",
+      "justificativa": "Sentido atestado de נשא usado absolutamente para 'elevar-se, ser exaltado'; mantém o verbo ativo do Qal sem forçar voz passiva inexistente na morfologia.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele carregava peso/autoridade em Israel'",
+          "motivo": "exigiria objeto direto não presente no TM; menos econômico"
+        }
+      ]
+    },
+    {
+      "questao": "בַּבַּעַל — 'no/pelo Baal'",
+      "escolha": "'por causa de Baal'",
+      "justificativa": "בְּ instrumental/causal com o nome do deus cananeu; aponta a causa da culpa (idolatria baalista), não localização física.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'no culto a Baal' (paráfrase)",
+          "motivo": "expande o texto além do que בַּבַּעַל codifica lexicalmente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "נָשָׂא הוּא בְּיִשְׂרָאֵל admite tanto 'ele se exaltava' quanto 'ele carregava [autoridade/peso] em Israel'; a literal preserva a forma verbal nua."
+  ],
+  "justificativa": "Verso de abertura do oráculo contra Efraim: proeminência → idolatria → morte. Ordem V-S do hebraico ('levantou-se ele') preservada apenas na traducao_literal (ER-0013); publicado normaliza para S-V.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

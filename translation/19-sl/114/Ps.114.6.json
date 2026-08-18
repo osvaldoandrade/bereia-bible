@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.114.6",
+    "livro": "Salmos",
+    "capitulo": 114,
+    "versiculo": 6,
+    "pericope": "Ps.114.1-8"
+  },
+  "texto_bv": "Montes, por que saltais como carneiros? Colinas, como cordeiros?",
+  "traducao_literal": "Os montes, saltais como carneiros? Colinas, como filhos de rebanho?",
+  "termos_originais": [
+    {
+      "palavra": "הֶֽ֭הָרִים",
+      "lemma": "d/2022",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "תִּרְקְד֣וּ",
+      "lemma": "7540",
+      "morfologia": "HVqi2mp"
+    },
+    {
+      "palavra": "כְאֵילִ֑ים",
+      "lemma": "k/352 a",
+      "morfologia": "HR/Ncmpa"
+    },
+    {
+      "palavra": "גְּ֝בָע֗וֹת",
+      "lemma": "1389",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "כִּבְנֵי",
+      "lemma": "k/1121 a",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "צֹֽאן",
+      "lemma": "6629",
+      "morfologia": "HNcbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Continuidade do registro 'tu/vós' estabelecido no v.5, agora para a 2ª pessoa plural (תִּרְקְדוּ, montes/colinas)",
+      "escolha": "vós (par plural de tu, preservando a distinção de número do hebraico 2ms×2mp)",
+      "justificativa": "Mantém a mesma decisão de registro do v.5, agora aplicada ao plural gramatical do hebraico, preservando a distinção de número exigida por EDITORIAL §3 mesmo fora do par você×vocês.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "vocês",
+          "motivo": "quebraria a consistência de registro iniciada no v.5 dentro da mesma unidade retórica (vv.5-7)"
+        }
+      ]
+    },
+    {
+      "questao": "Elipse do interrogativo (מַה, retomado implicitamente do v.5, não repetido no v.6)",
+      "escolha": "suprir 'por que' para manter a interrogação explícita em português",
+      "justificativa": "Português não sustenta a mesma elipse sem prejuízo de inteligibilidade; o hebraico reaproveita a partícula interrogativa do v.5.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sem partícula interrogativa explícita ('Montes, saltais como carneiros?')",
+          "motivo": "funcionaria apenas com pontuação/entonação, mas fica ambíguo fora do contexto imediato do v.5"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "por que (retomado do מַה do v.5, elidido no hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Repete quase literalmente o v.4, agora em 2ª pessoa (apóstrofe direta), continuando a interpelação retórica iniciada no v.5.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

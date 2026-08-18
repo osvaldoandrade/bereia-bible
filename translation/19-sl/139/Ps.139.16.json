@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.139.16",
+    "livro": "Salmos",
+    "capitulo": 139,
+    "versiculo": 16,
+    "pericope": "Ps.139.1-24"
+  },
+  "texto_bv": "Os teus olhos viram a minha substância informe; no teu livro foram escritos todos os meus dias, os dias formados para mim, quando nenhum deles existia.",
+  "traducao_literal": "O meu embrião viram os teus olhos; e sobre o teu livro, todos eles serão escritos: dias serão formados, e não um neles.",
+  "termos_originais": [
+    {
+      "palavra": "גָּלְמִ֤י",
+      "lemma": "1564",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "רָ֘א֤וּ",
+      "lemma": "7200",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "עֵינֶ֗יךָ",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc/Sp2ms"
+    },
+    {
+      "palavra": "וְעַֽל",
+      "lemma": "c/5921 a",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "סִפְרְךָ֮",
+      "lemma": "5612 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "כֻּלָּ֪ם",
+      "lemma": "3605",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "יִכָּ֫תֵ֥בוּ",
+      "lemma": "3789",
+      "morfologia": "HVNi3mp"
+    },
+    {
+      "palavra": "יָמִ֥ים",
+      "lemma": "3117",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יֻצָּ֑רוּ",
+      "lemma": "3335",
+      "morfologia": "HVPp3cp"
+    },
+    {
+      "palavra": "ולא",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "אֶחָ֣ד",
+      "lemma": "259",
+      "morfologia": "HAcmsa"
+    },
+    {
+      "palavra": "בָּהֶֽם",
+      "lemma": "b",
+      "morfologia": "HR/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ולא אֶחָד בָּהֶם — grafia da fonte pinada ('e não um deles'); crux textual conhecida do TM (par tradicional Ketiv/Qere ולא/ולו)",
+      "escolha": "traduzir a forma consonantal dada pela fonte pinada: 'e não [havia] um deles'",
+      "justificativa": "O packet não fornece aparato de variantes para este item (sem campo variantes_fonte); a fonte pinada apresenta a forma ולא, que se traduz diretamente como negação ('nenhum deles ainda existia'), sentido coerente com o contexto (os dias do salmista, escritos no livro de Deus, antes de existirem). Não se emenda a superfície pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "leitura tradicional alternativa ולו ('e para ele/um deles')",
+          "motivo": "não é a forma fornecida pela fonte pinada neste packet cego, que não traz aparato explícito para este item; sem base para adjudicar uma variante que o packet não apresenta."
+        }
+      ]
+    },
+    {
+      "questao": "יָמִים sem sufixo possessivo explícito — referente 'meus dias'",
+      "escolha": "suprir 'meus': 'todos os meus dias'",
+      "justificativa": "כֻּלָּם ('todos eles', catafórico) já ancora o referente nos 'dias' que seguem; o possessivo é exigido pela coesão em português, ausente formalmente no substantivo hebraico anártrico.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "meus (antes de 'dias'; יָמִים é substantivo absoluto sem sufixo possessivo no hebraico, mas o referente pessoal é estabelecido por כֻּלָּם, 'todos eles', que o antecede)"
+  ],
+  "ambiguidades_preservadas": [
+    "A forma ולא ('e não') da fonte pinada é uma conhecida crux textual do TM (tradição Ketiv/Qere ולא/ולו); traduzida aqui pela superfície fornecida pelo packet, sem aparato de variantes disponível para adjudicação formal.",
+    "גָּלְמִי (hapax legomenon, 'substância informe/embrião'): sentido preciso reconstruído por etimologia e versões antigas, não por uso paralelo no corpus hebraico."
+  ],
+  "justificativa": "Verso sintaticamente denso: 'todos eles' (כֻּלָּם) catafórico, retomado por 'dias' na oração seguinte; 'não afirmar doutrina de predestinação além do que o lexema יצר ('formar') sustenta — mantido 'formados', sem termo técnico doutrinário (TEOLOGIA §2).",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

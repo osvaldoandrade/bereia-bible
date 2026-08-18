@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.129.4",
+    "livro": "Salmos",
+    "capitulo": 129,
+    "versiculo": 4,
+    "pericope": "Ps.129.1-8"
+  },
+  "texto_bv": "O SENHOR é justo; cortou as cordas dos ímpios.",
+  "traducao_literal": "SENHOR justo; cortou cordas de ímpios.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צַדִּ֑יק",
+      "lemma": "6662",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "קִ֝צֵּ֗ץ",
+      "lemma": "7112",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "עֲב֣וֹת",
+      "lemma": "5688",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "רְשָׁעִֽים",
+      "lemma": "7563",
+      "morfologia": "HAampa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Cópula ausente na oração nominal יְהוָה צַדִּיק",
+      "escolha": "'é' suprido no texto publicado",
+      "justificativa": "Português exige cópula explícita para oração predicativa; hebraico dispensa verbo 'ser' no presente. Listado em palavras_supridas.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "עֲבוֹת ('cordas/laços') — imagem",
+      "escolha": "'cordas'",
+      "justificativa": "Referência às amarras/jugo com que os opressores prenderam Israel, retomando a imagem agrícola de v.3; termo ainda não fixado em lexicon.json (primeira ocorrência no corpus da BV).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'laços'",
+          "motivo": "Menos concreto para a imagem de sulcos/arreios já estabelecida nos versos anteriores."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Declaração central do salmo: a justiça do SENHOR responde à opressão descrita em v.1-3, cortando as amarras dos ímpios.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

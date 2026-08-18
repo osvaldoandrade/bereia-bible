@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.17.11",
+    "livro": "Salmos",
+    "capitulo": 17,
+    "versiculo": 11,
+    "pericope": "Ps.17.1-15"
+  },
+  "texto_bv": "Nossos passos — agora, eles me cercam; fixam os olhos para me lançarem à terra.",
+  "traducao_literal": "Nossos passos, agora, cercaram-me; olhos deles põem para inclinar na terra.",
+  "termos_originais": [
+    {
+      "palavra": "אַ֭שֻּׁרֵינוּ",
+      "lemma": "838 b",
+      "morfologia": "HNcfpc/Sp1cp"
+    },
+    {
+      "palavra": "עַתָּ֣ה",
+      "lemma": "6258",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "סבבוני",
+      "lemma": "5437",
+      "morfologia": "HVqp3cp/Sp1cs"
+    },
+    {
+      "palavra": "עֵינֵיהֶ֥ם",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc/Sp3mp"
+    },
+    {
+      "palavra": "יָ֝שִׁ֗יתוּ",
+      "lemma": "7896",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "לִנְט֥וֹת",
+      "lemma": "l/5186",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "בָּאָֽרֶץ",
+      "lemma": "b/776",
+      "morfologia": "HRd/Ncbsa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "סבבוני (forma consonantal sem pontuação plena no packet) analisada morfologicamente como Qal perfeito 3cp + sufixo 1cs ('cercaram-me'), em tensão com o sujeito plural precedente אַשֻּׁרֵינוּ ('nossos passos', 1cp) — configuração de crux tipo ketiv/qere na tradição massorética de Sl 17:11, cuja leitura tradicional de qere harmoniza com 1cp (סבבונו, 'cercam-nos').",
+      "leituras": [
+        {
+          "leitura": "cercaram-me (1cs, forma morfológica dada no packet)",
+          "testemunhas": "packet OSHB pinado (morph HVqp3cp/Sp1cs)"
+        },
+        {
+          "leitura": "cercam-nos (1cp, harmonização da tradição de leitura/qere)",
+          "testemunhas": "tradição massorética de leitura (qere), não presente no aparato deste packet cego"
+        }
+      ],
+      "avaliacao": "sem aparato explícito de variantes_fonte no packet, a BV segue a morfologia literal fornecida (1cs) e preserva a tensão como ambiguidade, não emendando pela leitura tradicional",
+      "impacto_na_traducao": "resulta em mudança de pessoa entre 'nossos passos' (1cp) e o verbo 'cercaram-me' (1cs) no texto português, preservando a aspereza sintática do original em vez de harmonizá-la"
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "descompasso de pessoa/número entre אַשֻּׁרֵינוּ (1cp, 'nossos passos') e o sufixo 1cs de סבבוני ('cercaram-me')",
+      "escolha": "seguir literalmente a morfologia do packet (סבבוני = Qal perfeito 3cp + sufixo 1cs), mantendo 'nossos passos' como tópico anteposto e 'cercaram-me' (singular) como predicado",
+      "justificativa": "trata-se de crux textual conhecida (tensão tipo ketiv/qere) no TM entre 'nossos passos' (plural) e o sufixo do verbo seguinte; sem aparato de variantes explícito neste packet cego, a BV segue estritamente a análise morfológica fornecida (sufixo 1cs) em vez de emendar para 1cp, registrando a tensão como preservada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "harmonizar para 'nossos passos... cercam-nos' (1cp, seguindo a leitura tradicional de qere סבבונו)",
+          "motivo": "não sustentado pela morfologia do packet pinado, que marca explicitamente sufixo 1cs; adjudicação sem aparato explícito não deve emendar o texto pinado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "descompasso pessoa/número entre 'nossos passos' (1cp) e 'cercaram-me' (1cs) preservado no texto; leitura alternativa da tradição de qere seria 'nossos passos, agora, eles nos cercam'"
+  ],
+  "justificativa": "Descrição do cerco dos inimigos, com crux textual de pessoa/número preservada por ausência de aparato de variantes no packet cego.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

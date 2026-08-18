@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.110.1",
+    "livro": "Salmos",
+    "capitulo": 110,
+    "versiculo": 1,
+    "pericope": "Ps.110.1-7"
+  },
+  "texto_bv": "Salmo de Davi. Oráculo do SENHOR a meu senhor: “Senta-te à minha direita, até que eu ponha os teus inimigos como estrado para os teus pés.”",
+  "traducao_literal": "De Davi, salmo. Oráculo de SENHOR a meu senhor: senta-te à minha direita, até eu por teus inimigos — estrado — para teus pés.",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֗ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מִ֫זְמ֥וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "נְאֻ֤ם",
+      "lemma": "5002",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֨ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לַֽאדֹנִ֗י",
+      "lemma": "l/113",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "שֵׁ֥ב",
+      "lemma": "3427",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "לִֽימִינִ֑י",
+      "lemma": "l/3225",
+      "morfologia": "HR/Ncfsc/Sp1cs"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אָשִׁ֥ית",
+      "lemma": "7896",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "אֹ֝יְבֶ֗יךָ",
+      "lemma": "341",
+      "morfologia": "HVqrmpc/Sp2ms"
+    },
+    {
+      "palavra": "הֲדֹ֣ם",
+      "lemma": "1916",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְרַגְלֶֽיךָ",
+      "lemma": "l/7272",
+      "morfologia": "HR/Ncfdc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לַאדֹנִי refere-se a quem, e com que grafia?",
+      "escolha": "H113 (adon, substantivo comum 'senhor/amo'), minúscula, referente humano/régio",
+      "justificativa": "O packet confirma lemma 113 (não 136, Adonai divino do v.5). Minúscula segue EDITORIAL §10 e o guardrail de não importar exegese messiânica/cristológica anacronicamente para dentro do texto-fonte (TEOLOGIA §2-3): um leitor competente chegaria a 'meu senhor' minúsculo só pela gramática hebraica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'meu Senhor' maiúsculo, antecipando leitura messiânica do NT",
+          "motivo": "Importa exegese cristológica sem base gramatical/lexical no hebraico; falha o teste de refutação de TEOLOGIA §3."
+        }
+      ]
+    },
+    {
+      "questao": "הֲדֹם לְרַגְלֶיךָ — acusativo duplo sem partícula comparativa",
+      "escolha": "suprir 'como' no texto publicado",
+      "justificativa": "Hebraico usa construção de duplo acusativo/predicativo ('ponha teus inimigos, estrado'); português exige conector comparativo explícito.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "נְאֻם יְהוָה — termo técnico de fórmula profética",
+      "escolha": "'Oráculo do SENHOR'",
+      "justificativa": "נְאֻם é lexema distinto e mais solene que אָמַר/דָּבָר; 'oráculo' preserva o registro de fórmula introdutória de discurso divino direto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Palavra do SENHOR'",
+          "motivo": "Confunde-se com דָּבָר, lexema diferente e mais genérico."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "como",
+    "que"
+  ],
+  "ambiguidades_preservadas": [
+    "A identidade de 'meu senhor' (o próprio Davi em terceira pessoa, um sucessor régio, ou figura messiânica) não é resolvida pela gramática hebraica; a BV preserva a referência genérica, sem fixar identificação."
+  ],
+  "justificativa": "Fórmula de oráculo régio: o SENHOR se dirige a 'meu senhor' (H113, referente humano/régio, distinto do Adonai divino de 110:5, H136). Estrutura de duplo acusativo do hebraico preservada na traducao_literal e normalizada no texto publicado (ER-0013).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

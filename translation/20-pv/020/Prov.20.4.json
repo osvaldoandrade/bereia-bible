@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.20.4",
+    "livro": "Provérbios",
+    "capitulo": 20,
+    "versiculo": 4,
+    "pericope": "Prov.20.1-30"
+  },
+  "texto_bv": "Por causa do frio, o preguiçoso não lavra; na colheita, ele busca e nada encontra.",
+  "traducao_literal": "Do frio, o preguiçoso não lavrará; ele buscará na colheita, e nada.",
+  "termos_originais": [
+    {
+      "palavra": "מֵ֭חֹרֶף",
+      "lemma": "m/2779",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "עָצֵ֣ל",
+      "lemma": "6102",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יַחֲרֹ֑שׁ",
+      "lemma": "2790 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "ישאל",
+      "lemma": "7592",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בַּקָּצִ֣יר",
+      "lemma": "b/7105 a",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "וָאָֽיִן",
+      "lemma": "c/369",
+      "morfologia": "HC/Tn"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חֹרֶף: 'outono' (época de arar) ou 'inverno/frio' (motivo genérico)?",
+      "escolha": "'frio' (sentido genérico da estação fria)",
+      "justificativa": "H2779 cobre a estação fria de modo amplo; optou-se por não comprometer-se com um mês agrícola específico que o hebraico não fixa com precisão.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'outono' (época de arar antes do plantio)",
+          "motivo": "precisão agrícola não garantida pelo lexema; risco de concordismo calendárico"
+        }
+      ]
+    },
+    {
+      "questao": "Forma ketiv ישאל (sem correspondência plena a יְשַׁאֵל esperado) — como tratar?",
+      "escolha": "Traduzir pelo lema/morfologia do packet (H7592, Qal impf. 3ms, 'buscar/pedir'), sem emendar.",
+      "justificativa": "Packet não traz variantes_fonte para este item; sigo a leitura fornecida sem inferir emenda além do pinado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Adotar leitura piel 'יְשַׁאֵל' de tradições impressas",
+          "motivo": "não documentada no packet cego; fora do escopo desta adjudicação"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "encontra (completando 'e nada', elipse do original)"
+  ],
+  "ambiguidades_preservadas": [
+    "estação exata de חֹרֶף (outono/inverno) preservada como ambiguidade lexical"
+  ],
+  "justificativa": "וָאָיִן ('e nada') é elipse típica de provérbio; suprida com 'encontra' para gramaticalidade em português.",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

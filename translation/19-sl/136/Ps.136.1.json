@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.136.1",
+    "livro": "Salmos",
+    "capitulo": 136,
+    "versiculo": 1,
+    "pericope": "Ps.136.1-26"
+  },
+  "texto_bv": "Louvem o SENHOR, porque ele é bom; porque o seu amor leal dura para sempre.",
+  "traducao_literal": "Louvem ao-SENHOR, porque bom; porque para-sempre o-seu-amor-leal.",
+  "termos_originais": [
+    {
+      "palavra": "הוֹד֣וּ",
+      "lemma": "3034",
+      "morfologia": "HVhv2mp"
+    },
+    {
+      "palavra": "לַיהוָ֣ה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ט֑וֹב",
+      "lemma": "2896 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "כִּ֖י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לְעוֹלָ֣ם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "חַסְדּֽוֹ",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de הוֹדוּ (hifil imperativo pl. de ידה), abre e fecha o salmo (v.1,26) e reaparece em v.2,3",
+      "escolha": "Louvem",
+      "justificativa": "Mantém a consistência já fixada no corpus de Salmos para este mesmo imperativo (cf. Ps.33.2 'Louvem o SENHOR'); expressa a exortação pública ao reconhecimento louvor.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Dai graças",
+          "motivo": "mais próximo etimologicamente da raiz ידה, mas quebra a consistência terminológica já fixada no corpus para este imperativo"
+        },
+        {
+          "opcao": "Confessem/Reconheçam",
+          "motivo": "sentido secundário da raiz; deslocaria o foco de exortação ao louvor público para confissão"
+        }
+      ]
+    },
+    {
+      "questao": "Tradução do refrão חַסְדּוֹ, repetido nos 26 versículos do capítulo — decisão-mestra do capítulo",
+      "escolha": "o seu amor leal",
+      "justificativa": "חֶסֶד é termo de lealdade pactual, não mera benevolência emocional; 'amor leal' preserva a nuance relacional/de aliança central ao arco histórico-salvífico do salmo (criação, êxodo, conquista, providência) e já é a opção mais usada no corpus recente de Salmos (ex.: Ps.33.5, Ps.36.6-11, Ps.77.9).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "bondade",
+          "motivo": "também usada no corpus (ex.: Ps.5.8), mas esvazia a nuance de lealdade pactual do lexema, central ao tema deste salmo"
+        },
+        {
+          "opcao": "misericórdia",
+          "motivo": "tradição Almeida; introduz noção de compaixão por indignidade ausente do lexema, que é relacional/pactual, não assistencial"
+        },
+        {
+          "opcao": "benignidade",
+          "motivo": "usada uma vez no corpus (Ps.25.10), soa arcaizante e prejudica a fluência em leitura em voz alta/TTS (EDITORIAL §1.3)"
+        }
+      ]
+    },
+    {
+      "questao": "Cópula ausente em כִּי־טוֹב (oração nominal)",
+      "escolha": "porque ele é bom",
+      "justificativa": "Suprida a cópula 'é' e o pronome 'ele' para gramaticalidade e clareza referencial em português (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "porque é bom (sem pronome)",
+          "motivo": "gramatical, mas menos claro quanto ao referente quando o versículo é lido isoladamente (refrão litúrgico)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele",
+    "é",
+    "dura"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo litânico: convite ao louvor fundamentado na bondade e no amor leal permanente do SENHOR; estabelece as duas decisões terminológicas (הודו, חסד) que regem todo o capítulo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

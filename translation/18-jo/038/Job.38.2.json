@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.38.2",
+    "livro": "Jó",
+    "capitulo": 38,
+    "versiculo": 2,
+    "pericope": "Job.38.1-41"
+  },
+  "texto_bv": "“Quem é este que obscurece o conselho com palavras sem conhecimento?",
+  "traducao_literal": "Quem [é] este, o escurecedor de conselho, com palavras, sem conhecimento?",
+  "termos_originais": [
+    {
+      "palavra": "מִ֤י",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "זֶ֨ה",
+      "lemma": "2088",
+      "morfologia": "HPdxms"
+    },
+    {
+      "palavra": "מַחְשִׁ֖יךְ",
+      "lemma": "2821",
+      "morfologia": "HVhrmsa"
+    },
+    {
+      "palavra": "עֵצָ֥ה",
+      "lemma": "6098",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בְמִלִּ֗ין",
+      "lemma": "b/4405",
+      "morfologia": "HR/Ncfpa"
+    },
+    {
+      "palavra": "בְּֽלִי",
+      "lemma": "1097",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "דָֽעַת",
+      "lemma": "1847",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Abertura de aspas para um discurso direto que ultrapassa o capítulo",
+      "escolha": "abrir aspas duplas no início da fala (v.2) e não fechá-las dentro de Jó 38, pois o discurso do SENHOR continua além deste packet",
+      "justificativa": "ER-0004 rege discurso direto; uma fala contínua maior que a unidade de tradução mantém a aspa aberta até seu fechamento real, fora do escopo deste capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir aspas de abertura e fechamento a cada versículo",
+          "motivo": "fragmentaria artificialmente uma única fala contínua do SENHOR"
+        }
+      ]
+    },
+    {
+      "questao": "עֵצָה — glosa",
+      "escolha": "conselho",
+      "justificativa": "sentido amplo de plano/desígnio sábio, coerente com o restante do livro de Jó.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "desígnio",
+          "motivo": "paráfrase interpretativa não exigida pelo léxico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula suprida na oração nominal מִי זֶה)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira pergunta retórica do SENHOR, repreendendo o discurso de Jó por ignorância (cf. Jó 42:3, que cita este verso quase literalmente).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

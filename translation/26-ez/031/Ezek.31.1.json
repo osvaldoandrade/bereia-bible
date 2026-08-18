@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.31.1",
+    "livro": "Ezequiel",
+    "capitulo": 31,
+    "versiculo": 1,
+    "pericope": "Ezek.31.1-18"
+  },
+  "texto_bv": "No décimo primeiro ano, no terceiro mês, no primeiro dia do mês, veio a mim a palavra do SENHOR, dizendo:",
+  "traducao_literal": "E aconteceu: no ano de onze, no terceiro, no dia um do mês, foi a palavra do SENHOR a mim, dizendo:",
+  "termos_originais": [
+    {
+      "palavra": "וַיְהִ֗י",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בְּאַחַ֤ת",
+      "lemma": "b/259",
+      "morfologia": "HR/Acfsa"
+    },
+    {
+      "palavra": "עֶשְׂרֵה֙",
+      "lemma": "6240",
+      "morfologia": "HAcfsa"
+    },
+    {
+      "palavra": "שָׁנָ֔ה",
+      "lemma": "8141",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בַּשְּׁלִישִׁ֖י",
+      "lemma": "b/7992",
+      "morfologia": "HRd/Aomsa"
+    },
+    {
+      "palavra": "בְּאֶחָ֣ד",
+      "lemma": "b/259",
+      "morfologia": "HR/Acmsa"
+    },
+    {
+      "palavra": "לַחֹ֑דֶשׁ",
+      "lemma": "l/2320",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הָיָ֥ה",
+      "lemma": "1961",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "דְבַר",
+      "lemma": "1697",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֵלַ֥י",
+      "lemma": "413",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "לֵאמֹֽר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Render וַיְהִי inicial (fórmula de datação que abre a unidade oracular)",
+      "escolha": "Omitir tradução explícita no texto publicado, preservando 'E aconteceu' apenas na traducao_literal",
+      "justificativa": "ER-0013 (doutrina do calque): wayyiqtol inicial vertido 'E' só quando a sequência discursiva o exige; aqui é fórmula fixa de datação abrindo nova unidade profética, sem elo narrativo direto no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'Sucedeu que' no publicado",
+          "motivo": "redundante com a oração temporal seguinte, soa artificial como abertura absoluta"
+        }
+      ]
+    },
+    {
+      "questao": "בְּאֶחָד לַחֹדֶשׁ — cardinal 'um' aplicado ao dia do mês",
+      "escolha": "'primeiro dia do mês' (valor idiomático ordinal) no publicado; 'dia um do mês' preservado na literal",
+      "justificativa": "Idioma calendárico padrão do AT (cardinal com sentido ordinal para dias do mês), distinto do caso proposital de Gn 1:5 'dia um' (ER-0014, assimetria exegética deliberada); aqui não há motivação teológica para preservar o cardinal no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'dia um do mês' também no publicado, por consistência com Gn 1:5",
+          "motivo": "generalizaria indevidamente uma decisão exegética pontual a uma fórmula calendárica rotineira"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "mês (elidido após 'terceiro', retomado de 'לַחֹדֶשׁ')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula de datação padrão de Ezequiel; SENHOR = YHWH (ER-0002/NOMES-DIVINOS). Nenhuma variante textual no packet.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

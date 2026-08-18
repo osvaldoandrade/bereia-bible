@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.53.1",
+    "livro": "Salmos",
+    "capitulo": 53,
+    "versiculo": 1,
+    "pericope": "Ps.53.1-7"
+  },
+  "texto_bv": "Ao regente. Sobre Maalate. Poema didático de Davi.",
+  "traducao_literal": "Ao regente, sobre Maalate; masquil de Davi.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֥חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "עַֽל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מָחֲלַ֗ת",
+      "lemma": "4257",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "מַשְׂכִּ֥יל",
+      "lemma": "4905",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִֽד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter לַמְנַצֵּחַ (rubrica musical)?",
+      "escolha": "Ao regente",
+      "justificativa": "Particípio Piel de נצח, título recorrente em cabeçalhos de salmos indicando o responsável pela execução musical; forma contemporânea, não arcaizante.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ao músico-mor",
+          "motivo": "arcaísmo herdado de Almeida, vedado por EDITORIAL §1.2"
+        },
+        {
+          "opcao": "Ao mestre de canto",
+          "motivo": "perifrástico, sem ganho de precisão sobre 'regente'"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter עַל־מָחֲלַת, termo técnico de sentido incerto?",
+      "escolha": "transliteração 'Maalate'",
+      "justificativa": "Sem tradução consolidada em português nem consenso lexicográfico (nome de melodia/instrumento, ou ligado a חלה 'adoecer'); EDITORIAL §9 autoriza transliteração simplificada para termos sem tradição fixa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sobre a aflição",
+          "motivo": "tradução especulativa da etimologia, sem base lexical firme"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter מַשְׂכִּיל, rubrica de gênero salmódico?",
+      "escolha": "poema didático",
+      "justificativa": "Substantivo da raiz שכל ('ter discernimento, instruir'); gloss traduzida em vez de transliterada para manter legibilidade ao leitor comum.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliteração 'masquil'",
+          "motivo": "preserva tecnicismo mas fica opaco sem nota de rodapé"
+        },
+        {
+          "opcao": "poema contemplativo",
+          "motivo": "restringe a leitura à meditação individual; a raiz שכל aponta antes para instrução/discernimento"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "מָחֲלַת: pode ser nome de melodia/instrumento ou termo ligado a 'enfermidade/aflição' (raiz חלה); sentido exato não recuperável com segurança.",
+    "מַשְׂכִּיל: gênero exato do rótulo (didático/instrutivo vs. contemplativo) permanece incerto entre os comentaristas."
+  ],
+  "justificativa": "Cabeçalho musical com dois termos técnicos (מָחֲלַת, מַשְׂכִּיל) sem consenso lexicográfico fechado; decisões documentadas, confiança rebaixada por serem rubricas, não texto narrativo/poético corrente.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

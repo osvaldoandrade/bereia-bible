@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Amos.6.8",
+    "livro": "Amós",
+    "capitulo": 6,
+    "versiculo": 8,
+    "pericope": "Amos.6.1-14"
+  },
+  "texto_bv": "O Senhor DEUS jurou por si mesmo — diz o SENHOR, Deus dos Exércitos: “Eu abomino a soberba de Jacó e odeio os seus palácios; entregarei a cidade e tudo o que nela há.”",
+  "traducao_literal": "Jurou o Senhor DEUS por sua alma/vida, oráculo do SENHOR Deus dos Exércitos: abomino eu a soberba de Jacó, e seus palácios odiei, e entregarei cidade e sua plenitude.",
+  "termos_originais": [
+    {
+      "palavra": "נִשְׁבַּע֩",
+      "lemma": "7650",
+      "morfologia": "HVNp3ms"
+    },
+    {
+      "palavra": "אֲדֹנָ֨י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְהוִ֜ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּנַפְשׁ֗וֹ",
+      "lemma": "b/5315",
+      "morfologia": "HR/Ncbsc/Sp3ms"
+    },
+    {
+      "palavra": "נְאֻם",
+      "lemma": "5002",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָה֙",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהֵ֣י",
+      "lemma": "430",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "צְבָא֔וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "מְתָאֵ֤ב",
+      "lemma": "8374",
+      "morfologia": "HVprmsa"
+    },
+    {
+      "palavra": "אָֽנֹכִי֙",
+      "lemma": "595",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "גְּא֣וֹן",
+      "lemma": "1347",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יַֽעֲקֹ֔ב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְאַרְמְנֹתָ֖יו",
+      "lemma": "c/759",
+      "morfologia": "HC/Ncmpc/Sp3ms"
+    },
+    {
+      "palavra": "שָׂנֵ֑אתִי",
+      "lemma": "8130",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "וְהִסְגַּרְתִּ֖י",
+      "lemma": "c/5462",
+      "morfologia": "HC/Vhq1cs"
+    },
+    {
+      "palavra": "עִ֥יר",
+      "lemma": "5892 b",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וּמְלֹאָֽהּ",
+      "lemma": "c/4393",
+      "morfologia": "HC/Ncmsc/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲדֹנָי יְהוִה (H136+H3069, pontuação especial evitando 'Senhor Senhor') — nome divino",
+      "escolha": "Senhor DEUS",
+      "justificativa": "Conforme pipeline/rules/NOMES-DIVINOS.md: Adonai + forma vocalizada de YHWH → 'Senhor DEUS'.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "בְּנַפְשׁוֹ — fórmula de juramento divino",
+      "escolha": "por si mesmo",
+      "justificativa": "נֶפֶשׁ com sufixo em juramento de Deus é fórmula idiomática de autorreferência (não há maior por quem jurar).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "por sua vida",
+          "motivo": "literal, porém menos natural em português para um juramento divino"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "tudo o que...há (explicitação de מְלֹאָהּ, 'sua plenitude/tudo o que a preenche')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Oráculo de juízo em primeira pessoa divina, introduzido por dupla fórmula de autenticação (juramento + נְאֻם).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

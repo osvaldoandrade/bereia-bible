@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 11558/31155 versículos.**
+**Total Bíblia sourced: 23213/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -437,7 +437,7 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 28 | 21 | ● 21/21 [DRAFT] |
 | 29 | 30 | ● 30/30 [DRAFT] |
 
-## 2 Crônicas — 359/822 versículos (43.7%), 36 capítulos
+## 2 Crônicas — 822/822 versículos (100.0%), 36 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -458,676 +458,676 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 15 | 19 | ● 19/19 [DRAFT] |
 | 16 | 14 | ● 14/14 [DRAFT] |
 | 17 | 19 | ● 19/19 [DRAFT] |
-| 18 | 34 | · pendente |
+| 18 | 34 | ● 34/34 [DRAFT] |
 | 19 | 11 | ● 11/11 [DRAFT] |
-| 20 | 37 | · pendente |
-| 21 | 20 | · pendente |
-| 22 | 12 | · pendente |
-| 23 | 21 | · pendente |
-| 24 | 27 | · pendente |
-| 25 | 28 | · pendente |
-| 26 | 23 | · pendente |
-| 27 | 9 | · pendente |
-| 28 | 27 | · pendente |
-| 29 | 36 | · pendente |
-| 30 | 27 | · pendente |
-| 31 | 21 | · pendente |
-| 32 | 33 | · pendente |
-| 33 | 25 | · pendente |
-| 34 | 33 | · pendente |
-| 35 | 27 | · pendente |
-| 36 | 23 | · pendente |
+| 20 | 37 | ● 37/37 [DRAFT] |
+| 21 | 20 | ● 20/20 [DRAFT] |
+| 22 | 12 | ● 12/12 [DRAFT] |
+| 23 | 21 | ● 21/21 [DRAFT] |
+| 24 | 27 | ● 27/27 [DRAFT] |
+| 25 | 28 | ● 28/28 [DRAFT] |
+| 26 | 23 | ● 23/23 [DRAFT] |
+| 27 | 9 | ● 9/9 [DRAFT] |
+| 28 | 27 | ● 27/27 [DRAFT] |
+| 29 | 36 | ● 36/36 [DRAFT] |
+| 30 | 27 | ● 27/27 [DRAFT] |
+| 31 | 21 | ● 21/21 [DRAFT] |
+| 32 | 33 | ● 33/33 [DRAFT] |
+| 33 | 25 | ● 25/25 [DRAFT] |
+| 34 | 33 | ● 33/33 [DRAFT] |
+| 35 | 27 | ● 27/27 [DRAFT] |
+| 36 | 23 | ● 23/23 [DRAFT] |
 
-## Esdras — 0/280 versículos (0.0%), 10 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 11 | · pendente |
-| 2 | 70 | · pendente |
-| 3 | 13 | · pendente |
-| 4 | 24 | · pendente |
-| 5 | 17 | · pendente |
-| 6 | 22 | · pendente |
-| 7 | 28 | · pendente |
-| 8 | 36 | · pendente |
-| 9 | 15 | · pendente |
-| 10 | 44 | · pendente |
-
-## Neemias — 0/405 versículos (0.0%), 13 capítulos
+## Esdras — 280/280 versículos (100.0%), 10 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 11 | · pendente |
-| 2 | 20 | · pendente |
-| 3 | 38 | · pendente |
-| 4 | 17 | · pendente |
-| 5 | 19 | · pendente |
-| 6 | 19 | · pendente |
-| 7 | 72 | · pendente |
-| 8 | 18 | · pendente |
-| 9 | 37 | · pendente |
-| 10 | 40 | · pendente |
-| 11 | 36 | · pendente |
-| 12 | 47 | · pendente |
-| 13 | 31 | · pendente |
+| 1 | 11 | ● 11/11 [DRAFT] |
+| 2 | 70 | ● 70/70 [DRAFT] |
+| 3 | 13 | ● 13/13 [DRAFT] |
+| 4 | 24 | ● 24/24 [DRAFT] |
+| 5 | 17 | ● 17/17 [DRAFT] |
+| 6 | 22 | ● 22/22 [DRAFT] |
+| 7 | 28 | ● 28/28 [DRAFT] |
+| 8 | 36 | ● 36/36 [DRAFT] |
+| 9 | 15 | ● 15/15 [DRAFT] |
+| 10 | 44 | ● 44/44 [DRAFT] |
 
-## Ester — 0/167 versículos (0.0%), 10 capítulos
+## Neemias — 405/405 versículos (100.0%), 13 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 22 | · pendente |
-| 2 | 23 | · pendente |
-| 3 | 15 | · pendente |
-| 4 | 17 | · pendente |
-| 5 | 14 | · pendente |
-| 6 | 14 | · pendente |
-| 7 | 10 | · pendente |
-| 8 | 17 | · pendente |
-| 9 | 32 | · pendente |
-| 10 | 3 | · pendente |
+| 1 | 11 | ● 11/11 [DRAFT] |
+| 2 | 20 | ● 20/20 [DRAFT] |
+| 3 | 38 | ● 38/38 [DRAFT] |
+| 4 | 17 | ● 17/17 [DRAFT] |
+| 5 | 19 | ● 19/19 [DRAFT] |
+| 6 | 19 | ● 19/19 [DRAFT] |
+| 7 | 72 | ● 72/72 [DRAFT] |
+| 8 | 18 | ● 18/18 [DRAFT] |
+| 9 | 37 | ● 37/37 [DRAFT] |
+| 10 | 40 | ● 40/40 [DRAFT] |
+| 11 | 36 | ● 36/36 [DRAFT] |
+| 12 | 47 | ● 47/47 [DRAFT] |
+| 13 | 31 | ● 31/31 [DRAFT] |
 
-## Jó — 0/1070 versículos (0.0%), 42 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 22 | · pendente |
-| 2 | 13 | · pendente |
-| 3 | 26 | · pendente |
-| 4 | 21 | · pendente |
-| 5 | 27 | · pendente |
-| 6 | 30 | · pendente |
-| 7 | 21 | · pendente |
-| 8 | 22 | · pendente |
-| 9 | 35 | · pendente |
-| 10 | 22 | · pendente |
-| 11 | 20 | · pendente |
-| 12 | 25 | · pendente |
-| 13 | 28 | · pendente |
-| 14 | 22 | · pendente |
-| 15 | 35 | · pendente |
-| 16 | 22 | · pendente |
-| 17 | 16 | · pendente |
-| 18 | 21 | · pendente |
-| 19 | 29 | · pendente |
-| 20 | 29 | · pendente |
-| 21 | 34 | · pendente |
-| 22 | 30 | · pendente |
-| 23 | 17 | · pendente |
-| 24 | 25 | · pendente |
-| 25 | 6 | · pendente |
-| 26 | 14 | · pendente |
-| 27 | 23 | · pendente |
-| 28 | 28 | · pendente |
-| 29 | 25 | · pendente |
-| 30 | 31 | · pendente |
-| 31 | 40 | · pendente |
-| 32 | 22 | · pendente |
-| 33 | 33 | · pendente |
-| 34 | 37 | · pendente |
-| 35 | 16 | · pendente |
-| 36 | 33 | · pendente |
-| 37 | 24 | · pendente |
-| 38 | 41 | · pendente |
-| 39 | 30 | · pendente |
-| 40 | 32 | · pendente |
-| 41 | 26 | · pendente |
-| 42 | 17 | · pendente |
-
-## Salmos — 0/2527 versículos (0.0%), 150 capítulos
+## Ester — 167/167 versículos (100.0%), 10 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 6 | · pendente |
-| 2 | 12 | · pendente |
-| 3 | 9 | · pendente |
-| 4 | 9 | · pendente |
-| 5 | 13 | · pendente |
-| 6 | 11 | · pendente |
-| 7 | 18 | · pendente |
-| 8 | 10 | · pendente |
-| 9 | 21 | · pendente |
-| 10 | 18 | · pendente |
-| 11 | 7 | · pendente |
-| 12 | 9 | · pendente |
-| 13 | 6 | · pendente |
-| 14 | 7 | · pendente |
-| 15 | 5 | · pendente |
-| 16 | 11 | · pendente |
-| 17 | 15 | · pendente |
-| 18 | 51 | · pendente |
-| 19 | 15 | · pendente |
-| 20 | 10 | · pendente |
-| 21 | 14 | · pendente |
-| 22 | 32 | · pendente |
-| 23 | 6 | · pendente |
-| 24 | 10 | · pendente |
-| 25 | 22 | · pendente |
-| 26 | 12 | · pendente |
-| 27 | 14 | · pendente |
-| 28 | 9 | · pendente |
-| 29 | 11 | · pendente |
-| 30 | 13 | · pendente |
-| 31 | 25 | · pendente |
-| 32 | 11 | · pendente |
-| 33 | 22 | · pendente |
-| 34 | 23 | · pendente |
-| 35 | 28 | · pendente |
-| 36 | 13 | · pendente |
-| 37 | 40 | · pendente |
-| 38 | 23 | · pendente |
-| 39 | 14 | · pendente |
-| 40 | 18 | · pendente |
-| 41 | 14 | · pendente |
-| 42 | 12 | · pendente |
-| 43 | 5 | · pendente |
-| 44 | 27 | · pendente |
-| 45 | 18 | · pendente |
-| 46 | 12 | · pendente |
-| 47 | 10 | · pendente |
-| 48 | 15 | · pendente |
-| 49 | 21 | · pendente |
-| 50 | 23 | · pendente |
-| 51 | 21 | · pendente |
-| 52 | 11 | · pendente |
-| 53 | 7 | · pendente |
-| 54 | 9 | · pendente |
-| 55 | 24 | · pendente |
-| 56 | 14 | · pendente |
-| 57 | 12 | · pendente |
-| 58 | 12 | · pendente |
-| 59 | 18 | · pendente |
-| 60 | 14 | · pendente |
-| 61 | 9 | · pendente |
-| 62 | 13 | · pendente |
-| 63 | 12 | · pendente |
-| 64 | 11 | · pendente |
-| 65 | 14 | · pendente |
-| 66 | 20 | · pendente |
-| 67 | 8 | · pendente |
-| 68 | 36 | · pendente |
-| 69 | 37 | · pendente |
-| 70 | 6 | · pendente |
-| 71 | 24 | · pendente |
-| 72 | 20 | · pendente |
-| 73 | 28 | · pendente |
-| 74 | 23 | · pendente |
-| 75 | 11 | · pendente |
-| 76 | 13 | · pendente |
-| 77 | 21 | · pendente |
-| 78 | 72 | · pendente |
-| 79 | 13 | · pendente |
-| 80 | 20 | · pendente |
-| 81 | 17 | · pendente |
-| 82 | 8 | · pendente |
-| 83 | 19 | · pendente |
-| 84 | 13 | · pendente |
-| 85 | 14 | · pendente |
-| 86 | 17 | · pendente |
-| 87 | 7 | · pendente |
-| 88 | 19 | · pendente |
-| 89 | 53 | · pendente |
-| 90 | 17 | · pendente |
-| 91 | 16 | · pendente |
-| 92 | 16 | · pendente |
-| 93 | 5 | · pendente |
-| 94 | 23 | · pendente |
-| 95 | 11 | · pendente |
-| 96 | 13 | · pendente |
-| 97 | 12 | · pendente |
-| 98 | 9 | · pendente |
-| 99 | 9 | · pendente |
-| 100 | 5 | · pendente |
-| 101 | 8 | · pendente |
-| 102 | 29 | · pendente |
-| 103 | 22 | · pendente |
-| 104 | 35 | · pendente |
-| 105 | 45 | · pendente |
-| 106 | 48 | · pendente |
-| 107 | 43 | · pendente |
-| 108 | 14 | · pendente |
-| 109 | 31 | · pendente |
-| 110 | 7 | · pendente |
-| 111 | 10 | · pendente |
-| 112 | 10 | · pendente |
-| 113 | 9 | · pendente |
-| 114 | 8 | · pendente |
-| 115 | 18 | · pendente |
-| 116 | 19 | · pendente |
-| 117 | 2 | · pendente |
-| 118 | 29 | · pendente |
-| 119 | 176 | · pendente |
-| 120 | 7 | · pendente |
-| 121 | 8 | · pendente |
-| 122 | 9 | · pendente |
-| 123 | 4 | · pendente |
-| 124 | 8 | · pendente |
-| 125 | 5 | · pendente |
-| 126 | 6 | · pendente |
-| 127 | 5 | · pendente |
-| 128 | 6 | · pendente |
-| 129 | 8 | · pendente |
-| 130 | 8 | · pendente |
-| 131 | 3 | · pendente |
-| 132 | 18 | · pendente |
-| 133 | 3 | · pendente |
-| 134 | 3 | · pendente |
-| 135 | 21 | · pendente |
-| 136 | 26 | · pendente |
-| 137 | 9 | · pendente |
-| 138 | 8 | · pendente |
-| 139 | 24 | · pendente |
-| 140 | 14 | · pendente |
-| 141 | 10 | · pendente |
-| 142 | 8 | · pendente |
-| 143 | 12 | · pendente |
-| 144 | 15 | · pendente |
-| 145 | 21 | · pendente |
-| 146 | 10 | · pendente |
-| 147 | 20 | · pendente |
-| 148 | 14 | · pendente |
-| 149 | 9 | · pendente |
-| 150 | 6 | · pendente |
+| 1 | 22 | ● 22/22 [DRAFT] |
+| 2 | 23 | ● 23/23 [DRAFT] |
+| 3 | 15 | ● 15/15 [DRAFT] |
+| 4 | 17 | ● 17/17 [DRAFT] |
+| 5 | 14 | ● 14/14 [DRAFT] |
+| 6 | 14 | ● 14/14 [DRAFT] |
+| 7 | 10 | ● 10/10 [DRAFT] |
+| 8 | 17 | ● 17/17 [DRAFT] |
+| 9 | 32 | ● 32/32 [DRAFT] |
+| 10 | 3 | ● 3/3 [DRAFT] |
 
-## Provérbios — 0/915 versículos (0.0%), 31 capítulos
+## Jó — 1070/1070 versículos (100.0%), 42 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 33 | · pendente |
-| 2 | 22 | · pendente |
-| 3 | 35 | · pendente |
-| 4 | 27 | · pendente |
-| 5 | 23 | · pendente |
-| 6 | 35 | · pendente |
-| 7 | 27 | · pendente |
-| 8 | 36 | · pendente |
-| 9 | 18 | · pendente |
-| 10 | 32 | · pendente |
-| 11 | 31 | · pendente |
-| 12 | 28 | · pendente |
-| 13 | 25 | · pendente |
-| 14 | 35 | · pendente |
-| 15 | 33 | · pendente |
-| 16 | 33 | · pendente |
-| 17 | 28 | · pendente |
-| 18 | 24 | · pendente |
-| 19 | 29 | · pendente |
-| 20 | 30 | · pendente |
-| 21 | 31 | · pendente |
-| 22 | 29 | · pendente |
-| 23 | 35 | · pendente |
-| 24 | 34 | · pendente |
-| 25 | 28 | · pendente |
-| 26 | 28 | · pendente |
-| 27 | 27 | · pendente |
-| 28 | 28 | · pendente |
-| 29 | 27 | · pendente |
-| 30 | 33 | · pendente |
-| 31 | 31 | · pendente |
+| 1 | 22 | ● 22/22 [DRAFT] |
+| 2 | 13 | ● 13/13 [DRAFT] |
+| 3 | 26 | ● 26/26 [DRAFT] |
+| 4 | 21 | ● 21/21 [DRAFT] |
+| 5 | 27 | ● 27/27 [DRAFT] |
+| 6 | 30 | ● 30/30 [DRAFT] |
+| 7 | 21 | ● 21/21 [DRAFT] |
+| 8 | 22 | ● 22/22 [DRAFT] |
+| 9 | 35 | ● 35/35 [DRAFT] |
+| 10 | 22 | ● 22/22 [DRAFT] |
+| 11 | 20 | ● 20/20 [DRAFT] |
+| 12 | 25 | ● 25/25 [DRAFT] |
+| 13 | 28 | ● 28/28 [DRAFT] |
+| 14 | 22 | ● 22/22 [DRAFT] |
+| 15 | 35 | ● 35/35 [DRAFT] |
+| 16 | 22 | ● 22/22 [DRAFT] |
+| 17 | 16 | ● 16/16 [DRAFT] |
+| 18 | 21 | ● 21/21 [DRAFT] |
+| 19 | 29 | ● 29/29 [DRAFT] |
+| 20 | 29 | ● 29/29 [DRAFT] |
+| 21 | 34 | ● 34/34 [DRAFT] |
+| 22 | 30 | ● 30/30 [DRAFT] |
+| 23 | 17 | ● 17/17 [DRAFT] |
+| 24 | 25 | ● 25/25 [DRAFT] |
+| 25 | 6 | ● 6/6 [DRAFT] |
+| 26 | 14 | ● 14/14 [DRAFT] |
+| 27 | 23 | ● 23/23 [DRAFT] |
+| 28 | 28 | ● 28/28 [DRAFT] |
+| 29 | 25 | ● 25/25 [DRAFT] |
+| 30 | 31 | ● 31/31 [DRAFT] |
+| 31 | 40 | ● 40/40 [DRAFT] |
+| 32 | 22 | ● 22/22 [DRAFT] |
+| 33 | 33 | ● 33/33 [DRAFT] |
+| 34 | 37 | ● 37/37 [DRAFT] |
+| 35 | 16 | ● 16/16 [DRAFT] |
+| 36 | 33 | ● 33/33 [DRAFT] |
+| 37 | 24 | ● 24/24 [DRAFT] |
+| 38 | 41 | ● 41/41 [DRAFT] |
+| 39 | 30 | ● 30/30 [DRAFT] |
+| 40 | 32 | ● 32/32 [DRAFT] |
+| 41 | 26 | ● 26/26 [DRAFT] |
+| 42 | 17 | ● 17/17 [DRAFT] |
 
-## Eclesiastes — 0/222 versículos (0.0%), 12 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 18 | · pendente |
-| 2 | 26 | · pendente |
-| 3 | 22 | · pendente |
-| 4 | 17 | · pendente |
-| 5 | 19 | · pendente |
-| 6 | 12 | · pendente |
-| 7 | 29 | · pendente |
-| 8 | 17 | · pendente |
-| 9 | 18 | · pendente |
-| 10 | 20 | · pendente |
-| 11 | 10 | · pendente |
-| 12 | 14 | · pendente |
-
-## Cântico dos Cânticos — 0/117 versículos (0.0%), 8 capítulos
+## Salmos — 2527/2527 versículos (100.0%), 150 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 17 | · pendente |
-| 2 | 17 | · pendente |
-| 3 | 11 | · pendente |
-| 4 | 16 | · pendente |
-| 5 | 16 | · pendente |
-| 6 | 12 | · pendente |
-| 7 | 14 | · pendente |
-| 8 | 14 | · pendente |
+| 1 | 6 | ● 6/6 [DRAFT] |
+| 2 | 12 | ● 12/12 [DRAFT] |
+| 3 | 9 | ● 9/9 [DRAFT] |
+| 4 | 9 | ● 9/9 [DRAFT] |
+| 5 | 13 | ● 13/13 [DRAFT] |
+| 6 | 11 | ● 11/11 [DRAFT] |
+| 7 | 18 | ● 18/18 [DRAFT] |
+| 8 | 10 | ● 10/10 [DRAFT] |
+| 9 | 21 | ● 21/21 [DRAFT] |
+| 10 | 18 | ● 18/18 [DRAFT] |
+| 11 | 7 | ● 7/7 [DRAFT] |
+| 12 | 9 | ● 9/9 [DRAFT] |
+| 13 | 6 | ● 6/6 [DRAFT] |
+| 14 | 7 | ● 7/7 [DRAFT] |
+| 15 | 5 | ● 5/5 [DRAFT] |
+| 16 | 11 | ● 11/11 [DRAFT] |
+| 17 | 15 | ● 15/15 [DRAFT] |
+| 18 | 51 | ● 51/51 [DRAFT] |
+| 19 | 15 | ● 15/15 [DRAFT] |
+| 20 | 10 | ● 10/10 [DRAFT] |
+| 21 | 14 | ● 14/14 [DRAFT] |
+| 22 | 32 | ● 32/32 [DRAFT] |
+| 23 | 6 | ● 6/6 [DRAFT] |
+| 24 | 10 | ● 10/10 [DRAFT] |
+| 25 | 22 | ● 22/22 [DRAFT] |
+| 26 | 12 | ● 12/12 [DRAFT] |
+| 27 | 14 | ● 14/14 [DRAFT] |
+| 28 | 9 | ● 9/9 [DRAFT] |
+| 29 | 11 | ● 11/11 [DRAFT] |
+| 30 | 13 | ● 13/13 [DRAFT] |
+| 31 | 25 | ● 25/25 [DRAFT] |
+| 32 | 11 | ● 11/11 [DRAFT] |
+| 33 | 22 | ● 22/22 [DRAFT] |
+| 34 | 23 | ● 23/23 [DRAFT] |
+| 35 | 28 | ● 28/28 [DRAFT] |
+| 36 | 13 | ● 13/13 [DRAFT] |
+| 37 | 40 | ● 40/40 [DRAFT] |
+| 38 | 23 | ● 23/23 [DRAFT] |
+| 39 | 14 | ● 14/14 [DRAFT] |
+| 40 | 18 | ● 18/18 [DRAFT] |
+| 41 | 14 | ● 14/14 [DRAFT] |
+| 42 | 12 | ● 12/12 [DRAFT] |
+| 43 | 5 | ● 5/5 [DRAFT] |
+| 44 | 27 | ● 27/27 [DRAFT] |
+| 45 | 18 | ● 18/18 [DRAFT] |
+| 46 | 12 | ● 12/12 [DRAFT] |
+| 47 | 10 | ● 10/10 [DRAFT] |
+| 48 | 15 | ● 15/15 [DRAFT] |
+| 49 | 21 | ● 21/21 [DRAFT] |
+| 50 | 23 | ● 23/23 [DRAFT] |
+| 51 | 21 | ● 21/21 [DRAFT] |
+| 52 | 11 | ● 11/11 [DRAFT] |
+| 53 | 7 | ● 7/7 [DRAFT] |
+| 54 | 9 | ● 9/9 [DRAFT] |
+| 55 | 24 | ● 24/24 [DRAFT] |
+| 56 | 14 | ● 14/14 [DRAFT] |
+| 57 | 12 | ● 12/12 [DRAFT] |
+| 58 | 12 | ● 12/12 [DRAFT] |
+| 59 | 18 | ● 18/18 [DRAFT] |
+| 60 | 14 | ● 14/14 [DRAFT] |
+| 61 | 9 | ● 9/9 [DRAFT] |
+| 62 | 13 | ● 13/13 [DRAFT] |
+| 63 | 12 | ● 12/12 [DRAFT] |
+| 64 | 11 | ● 11/11 [DRAFT] |
+| 65 | 14 | ● 14/14 [DRAFT] |
+| 66 | 20 | ● 20/20 [DRAFT] |
+| 67 | 8 | ● 8/8 [DRAFT] |
+| 68 | 36 | ● 36/36 [DRAFT] |
+| 69 | 37 | ● 37/37 [DRAFT] |
+| 70 | 6 | ● 6/6 [DRAFT] |
+| 71 | 24 | ● 24/24 [DRAFT] |
+| 72 | 20 | ● 20/20 [DRAFT] |
+| 73 | 28 | ● 28/28 [DRAFT] |
+| 74 | 23 | ● 23/23 [DRAFT] |
+| 75 | 11 | ● 11/11 [DRAFT] |
+| 76 | 13 | ● 13/13 [DRAFT] |
+| 77 | 21 | ● 21/21 [DRAFT] |
+| 78 | 72 | ● 72/72 [DRAFT] |
+| 79 | 13 | ● 13/13 [DRAFT] |
+| 80 | 20 | ● 20/20 [DRAFT] |
+| 81 | 17 | ● 17/17 [DRAFT] |
+| 82 | 8 | ● 8/8 [DRAFT] |
+| 83 | 19 | ● 19/19 [DRAFT] |
+| 84 | 13 | ● 13/13 [DRAFT] |
+| 85 | 14 | ● 14/14 [DRAFT] |
+| 86 | 17 | ● 17/17 [DRAFT] |
+| 87 | 7 | ● 7/7 [DRAFT] |
+| 88 | 19 | ● 19/19 [DRAFT] |
+| 89 | 53 | ● 53/53 [DRAFT] |
+| 90 | 17 | ● 17/17 [DRAFT] |
+| 91 | 16 | ● 16/16 [DRAFT] |
+| 92 | 16 | ● 16/16 [DRAFT] |
+| 93 | 5 | ● 5/5 [DRAFT] |
+| 94 | 23 | ● 23/23 [DRAFT] |
+| 95 | 11 | ● 11/11 [DRAFT] |
+| 96 | 13 | ● 13/13 [DRAFT] |
+| 97 | 12 | ● 12/12 [DRAFT] |
+| 98 | 9 | ● 9/9 [DRAFT] |
+| 99 | 9 | ● 9/9 [DRAFT] |
+| 100 | 5 | ● 5/5 [DRAFT] |
+| 101 | 8 | ● 8/8 [DRAFT] |
+| 102 | 29 | ● 29/29 [DRAFT] |
+| 103 | 22 | ● 22/22 [DRAFT] |
+| 104 | 35 | ● 35/35 [DRAFT] |
+| 105 | 45 | ● 45/45 [DRAFT] |
+| 106 | 48 | ● 48/48 [DRAFT] |
+| 107 | 43 | ● 43/43 [DRAFT] |
+| 108 | 14 | ● 14/14 [DRAFT] |
+| 109 | 31 | ● 31/31 [DRAFT] |
+| 110 | 7 | ● 7/7 [DRAFT] |
+| 111 | 10 | ● 10/10 [DRAFT] |
+| 112 | 10 | ● 10/10 [DRAFT] |
+| 113 | 9 | ● 9/9 [DRAFT] |
+| 114 | 8 | ● 8/8 [DRAFT] |
+| 115 | 18 | ● 18/18 [DRAFT] |
+| 116 | 19 | ● 19/19 [DRAFT] |
+| 117 | 2 | ● 2/2 [DRAFT] |
+| 118 | 29 | ● 29/29 [DRAFT] |
+| 119 | 176 | ● 176/176 [DRAFT] |
+| 120 | 7 | ● 7/7 [DRAFT] |
+| 121 | 8 | ● 8/8 [DRAFT] |
+| 122 | 9 | ● 9/9 [DRAFT] |
+| 123 | 4 | ● 4/4 [DRAFT] |
+| 124 | 8 | ● 8/8 [DRAFT] |
+| 125 | 5 | ● 5/5 [DRAFT] |
+| 126 | 6 | ● 6/6 [DRAFT] |
+| 127 | 5 | ● 5/5 [DRAFT] |
+| 128 | 6 | ● 6/6 [DRAFT] |
+| 129 | 8 | ● 8/8 [DRAFT] |
+| 130 | 8 | ● 8/8 [DRAFT] |
+| 131 | 3 | ● 3/3 [DRAFT] |
+| 132 | 18 | ● 18/18 [DRAFT] |
+| 133 | 3 | ● 3/3 [DRAFT] |
+| 134 | 3 | ● 3/3 [DRAFT] |
+| 135 | 21 | ● 21/21 [DRAFT] |
+| 136 | 26 | ● 26/26 [DRAFT] |
+| 137 | 9 | ● 9/9 [DRAFT] |
+| 138 | 8 | ● 8/8 [DRAFT] |
+| 139 | 24 | ● 24/24 [DRAFT] |
+| 140 | 14 | ● 14/14 [DRAFT] |
+| 141 | 10 | ● 10/10 [DRAFT] |
+| 142 | 8 | ● 8/8 [DRAFT] |
+| 143 | 12 | ● 12/12 [DRAFT] |
+| 144 | 15 | ● 15/15 [DRAFT] |
+| 145 | 21 | ● 21/21 [DRAFT] |
+| 146 | 10 | ● 10/10 [DRAFT] |
+| 147 | 20 | ● 20/20 [DRAFT] |
+| 148 | 14 | ● 14/14 [DRAFT] |
+| 149 | 9 | ● 9/9 [DRAFT] |
+| 150 | 6 | ● 6/6 [DRAFT] |
 
-## Isaías — 0/1291 versículos (0.0%), 66 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 31 | · pendente |
-| 2 | 22 | · pendente |
-| 3 | 26 | · pendente |
-| 4 | 6 | · pendente |
-| 5 | 30 | · pendente |
-| 6 | 13 | · pendente |
-| 7 | 25 | · pendente |
-| 8 | 23 | · pendente |
-| 9 | 20 | · pendente |
-| 10 | 34 | · pendente |
-| 11 | 16 | · pendente |
-| 12 | 6 | · pendente |
-| 13 | 22 | · pendente |
-| 14 | 32 | · pendente |
-| 15 | 9 | · pendente |
-| 16 | 14 | · pendente |
-| 17 | 14 | · pendente |
-| 18 | 7 | · pendente |
-| 19 | 25 | · pendente |
-| 20 | 6 | · pendente |
-| 21 | 17 | · pendente |
-| 22 | 25 | · pendente |
-| 23 | 18 | · pendente |
-| 24 | 23 | · pendente |
-| 25 | 12 | · pendente |
-| 26 | 21 | · pendente |
-| 27 | 13 | · pendente |
-| 28 | 29 | · pendente |
-| 29 | 24 | · pendente |
-| 30 | 33 | · pendente |
-| 31 | 9 | · pendente |
-| 32 | 20 | · pendente |
-| 33 | 24 | · pendente |
-| 34 | 17 | · pendente |
-| 35 | 10 | · pendente |
-| 36 | 22 | · pendente |
-| 37 | 38 | · pendente |
-| 38 | 22 | · pendente |
-| 39 | 8 | · pendente |
-| 40 | 31 | · pendente |
-| 41 | 29 | · pendente |
-| 42 | 25 | · pendente |
-| 43 | 28 | · pendente |
-| 44 | 28 | · pendente |
-| 45 | 25 | · pendente |
-| 46 | 13 | · pendente |
-| 47 | 15 | · pendente |
-| 48 | 22 | · pendente |
-| 49 | 26 | · pendente |
-| 50 | 11 | · pendente |
-| 51 | 23 | · pendente |
-| 52 | 15 | · pendente |
-| 53 | 12 | · pendente |
-| 54 | 17 | · pendente |
-| 55 | 13 | · pendente |
-| 56 | 12 | · pendente |
-| 57 | 21 | · pendente |
-| 58 | 14 | · pendente |
-| 59 | 21 | · pendente |
-| 60 | 22 | · pendente |
-| 61 | 11 | · pendente |
-| 62 | 12 | · pendente |
-| 63 | 19 | · pendente |
-| 64 | 11 | · pendente |
-| 65 | 25 | · pendente |
-| 66 | 24 | · pendente |
-
-## Jeremias — 0/1364 versículos (0.0%), 52 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 19 | · pendente |
-| 2 | 37 | · pendente |
-| 3 | 25 | · pendente |
-| 4 | 31 | · pendente |
-| 5 | 31 | · pendente |
-| 6 | 30 | · pendente |
-| 7 | 34 | · pendente |
-| 8 | 23 | · pendente |
-| 9 | 25 | · pendente |
-| 10 | 25 | · pendente |
-| 11 | 23 | · pendente |
-| 12 | 17 | · pendente |
-| 13 | 27 | · pendente |
-| 14 | 22 | · pendente |
-| 15 | 21 | · pendente |
-| 16 | 21 | · pendente |
-| 17 | 27 | · pendente |
-| 18 | 23 | · pendente |
-| 19 | 15 | · pendente |
-| 20 | 18 | · pendente |
-| 21 | 14 | · pendente |
-| 22 | 30 | · pendente |
-| 23 | 40 | · pendente |
-| 24 | 10 | · pendente |
-| 25 | 38 | · pendente |
-| 26 | 24 | · pendente |
-| 27 | 22 | · pendente |
-| 28 | 17 | · pendente |
-| 29 | 32 | · pendente |
-| 30 | 24 | · pendente |
-| 31 | 40 | · pendente |
-| 32 | 44 | · pendente |
-| 33 | 26 | · pendente |
-| 34 | 22 | · pendente |
-| 35 | 19 | · pendente |
-| 36 | 32 | · pendente |
-| 37 | 21 | · pendente |
-| 38 | 28 | · pendente |
-| 39 | 18 | · pendente |
-| 40 | 16 | · pendente |
-| 41 | 18 | · pendente |
-| 42 | 22 | · pendente |
-| 43 | 13 | · pendente |
-| 44 | 30 | · pendente |
-| 45 | 5 | · pendente |
-| 46 | 28 | · pendente |
-| 47 | 7 | · pendente |
-| 48 | 47 | · pendente |
-| 49 | 39 | · pendente |
-| 50 | 46 | · pendente |
-| 51 | 64 | · pendente |
-| 52 | 34 | · pendente |
-
-## Lamentações — 0/154 versículos (0.0%), 5 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 22 | · pendente |
-| 2 | 22 | · pendente |
-| 3 | 66 | · pendente |
-| 4 | 22 | · pendente |
-| 5 | 22 | · pendente |
-
-## Ezequiel — 0/1273 versículos (0.0%), 48 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 28 | · pendente |
-| 2 | 10 | · pendente |
-| 3 | 27 | · pendente |
-| 4 | 17 | · pendente |
-| 5 | 17 | · pendente |
-| 6 | 14 | · pendente |
-| 7 | 27 | · pendente |
-| 8 | 18 | · pendente |
-| 9 | 11 | · pendente |
-| 10 | 22 | · pendente |
-| 11 | 25 | · pendente |
-| 12 | 28 | · pendente |
-| 13 | 23 | · pendente |
-| 14 | 23 | · pendente |
-| 15 | 8 | · pendente |
-| 16 | 63 | · pendente |
-| 17 | 24 | · pendente |
-| 18 | 32 | · pendente |
-| 19 | 14 | · pendente |
-| 20 | 44 | · pendente |
-| 21 | 37 | · pendente |
-| 22 | 31 | · pendente |
-| 23 | 49 | · pendente |
-| 24 | 27 | · pendente |
-| 25 | 17 | · pendente |
-| 26 | 21 | · pendente |
-| 27 | 36 | · pendente |
-| 28 | 26 | · pendente |
-| 29 | 21 | · pendente |
-| 30 | 26 | · pendente |
-| 31 | 18 | · pendente |
-| 32 | 32 | · pendente |
-| 33 | 33 | · pendente |
-| 34 | 31 | · pendente |
-| 35 | 15 | · pendente |
-| 36 | 38 | · pendente |
-| 37 | 28 | · pendente |
-| 38 | 23 | · pendente |
-| 39 | 29 | · pendente |
-| 40 | 49 | · pendente |
-| 41 | 26 | · pendente |
-| 42 | 20 | · pendente |
-| 43 | 27 | · pendente |
-| 44 | 31 | · pendente |
-| 45 | 25 | · pendente |
-| 46 | 24 | · pendente |
-| 47 | 23 | · pendente |
-| 48 | 35 | · pendente |
-
-## Daniel — 0/357 versículos (0.0%), 12 capítulos
+## Provérbios — 915/915 versículos (100.0%), 31 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 21 | · pendente |
-| 2 | 49 | · pendente |
-| 3 | 33 | · pendente |
-| 4 | 34 | · pendente |
-| 5 | 30 | · pendente |
-| 6 | 29 | · pendente |
-| 7 | 28 | · pendente |
-| 8 | 27 | · pendente |
-| 9 | 27 | · pendente |
-| 10 | 21 | · pendente |
-| 11 | 45 | · pendente |
-| 12 | 13 | · pendente |
+| 1 | 33 | ● 33/33 [DRAFT] |
+| 2 | 22 | ● 22/22 [DRAFT] |
+| 3 | 35 | ● 35/35 [DRAFT] |
+| 4 | 27 | ● 27/27 [DRAFT] |
+| 5 | 23 | ● 23/23 [DRAFT] |
+| 6 | 35 | ● 35/35 [DRAFT] |
+| 7 | 27 | ● 27/27 [DRAFT] |
+| 8 | 36 | ● 36/36 [DRAFT] |
+| 9 | 18 | ● 18/18 [DRAFT] |
+| 10 | 32 | ● 32/32 [DRAFT] |
+| 11 | 31 | ● 31/31 [DRAFT] |
+| 12 | 28 | ● 28/28 [DRAFT] |
+| 13 | 25 | ● 25/25 [DRAFT] |
+| 14 | 35 | ● 35/35 [DRAFT] |
+| 15 | 33 | ● 33/33 [DRAFT] |
+| 16 | 33 | ● 33/33 [DRAFT] |
+| 17 | 28 | ● 28/28 [DRAFT] |
+| 18 | 24 | ● 24/24 [DRAFT] |
+| 19 | 29 | ● 29/29 [DRAFT] |
+| 20 | 30 | ● 30/30 [DRAFT] |
+| 21 | 31 | ● 31/31 [DRAFT] |
+| 22 | 29 | ● 29/29 [DRAFT] |
+| 23 | 35 | ● 35/35 [DRAFT] |
+| 24 | 34 | ● 34/34 [DRAFT] |
+| 25 | 28 | ● 28/28 [DRAFT] |
+| 26 | 28 | ● 28/28 [DRAFT] |
+| 27 | 27 | ● 27/27 [DRAFT] |
+| 28 | 28 | ● 28/28 [DRAFT] |
+| 29 | 27 | ● 27/27 [DRAFT] |
+| 30 | 33 | ● 33/33 [DRAFT] |
+| 31 | 31 | ● 31/31 [DRAFT] |
 
-## Oseias — 0/197 versículos (0.0%), 14 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 9 | · pendente |
-| 2 | 25 | · pendente |
-| 3 | 5 | · pendente |
-| 4 | 19 | · pendente |
-| 5 | 15 | · pendente |
-| 6 | 11 | · pendente |
-| 7 | 16 | · pendente |
-| 8 | 14 | · pendente |
-| 9 | 17 | · pendente |
-| 10 | 15 | · pendente |
-| 11 | 11 | · pendente |
-| 12 | 15 | · pendente |
-| 13 | 15 | · pendente |
-| 14 | 10 | · pendente |
-
-## Joel — 0/73 versículos (0.0%), 4 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 20 | · pendente |
-| 2 | 27 | · pendente |
-| 3 | 5 | · pendente |
-| 4 | 21 | · pendente |
-
-## Amós — 0/146 versículos (0.0%), 9 capítulos
+## Eclesiastes — 222/222 versículos (100.0%), 12 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 15 | · pendente |
-| 2 | 16 | · pendente |
-| 3 | 15 | · pendente |
-| 4 | 13 | · pendente |
-| 5 | 27 | · pendente |
-| 6 | 14 | · pendente |
-| 7 | 17 | · pendente |
-| 8 | 14 | · pendente |
-| 9 | 15 | · pendente |
+| 1 | 18 | ● 18/18 [DRAFT] |
+| 2 | 26 | ● 26/26 [DRAFT] |
+| 3 | 22 | ● 22/22 [DRAFT] |
+| 4 | 17 | ● 17/17 [DRAFT] |
+| 5 | 19 | ● 19/19 [DRAFT] |
+| 6 | 12 | ● 12/12 [DRAFT] |
+| 7 | 29 | ● 29/29 [DRAFT] |
+| 8 | 17 | ● 17/17 [DRAFT] |
+| 9 | 18 | ● 18/18 [DRAFT] |
+| 10 | 20 | ● 20/20 [DRAFT] |
+| 11 | 10 | ● 10/10 [DRAFT] |
+| 12 | 14 | ● 14/14 [DRAFT] |
 
-## Obadias — 0/21 versículos (0.0%), 1 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 21 | · pendente |
-
-## Jonas — 0/48 versículos (0.0%), 4 capítulos
+## Cântico dos Cânticos — 117/117 versículos (100.0%), 8 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 16 | · pendente |
-| 2 | 11 | · pendente |
-| 3 | 10 | · pendente |
-| 4 | 11 | · pendente |
+| 1 | 17 | ● 17/17 [DRAFT] |
+| 2 | 17 | ● 17/17 [DRAFT] |
+| 3 | 11 | ● 11/11 [DRAFT] |
+| 4 | 16 | ● 16/16 [DRAFT] |
+| 5 | 16 | ● 16/16 [DRAFT] |
+| 6 | 12 | ● 12/12 [DRAFT] |
+| 7 | 14 | ● 14/14 [DRAFT] |
+| 8 | 14 | ● 14/14 [DRAFT] |
 
-## Miqueias — 0/105 versículos (0.0%), 7 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 16 | · pendente |
-| 2 | 13 | · pendente |
-| 3 | 12 | · pendente |
-| 4 | 14 | · pendente |
-| 5 | 14 | · pendente |
-| 6 | 16 | · pendente |
-| 7 | 20 | · pendente |
-
-## Naum — 0/47 versículos (0.0%), 3 capítulos
+## Isaías — 1291/1291 versículos (100.0%), 66 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 14 | · pendente |
-| 2 | 14 | · pendente |
-| 3 | 19 | · pendente |
+| 1 | 31 | ● 31/31 [DRAFT] |
+| 2 | 22 | ● 22/22 [DRAFT] |
+| 3 | 26 | ● 26/26 [DRAFT] |
+| 4 | 6 | ● 6/6 [DRAFT] |
+| 5 | 30 | ● 30/30 [DRAFT] |
+| 6 | 13 | ● 13/13 [DRAFT] |
+| 7 | 25 | ● 25/25 [DRAFT] |
+| 8 | 23 | ● 23/23 [DRAFT] |
+| 9 | 20 | ● 20/20 [DRAFT] |
+| 10 | 34 | ● 34/34 [DRAFT] |
+| 11 | 16 | ● 16/16 [DRAFT] |
+| 12 | 6 | ● 6/6 [DRAFT] |
+| 13 | 22 | ● 22/22 [DRAFT] |
+| 14 | 32 | ● 32/32 [DRAFT] |
+| 15 | 9 | ● 9/9 [DRAFT] |
+| 16 | 14 | ● 14/14 [DRAFT] |
+| 17 | 14 | ● 14/14 [DRAFT] |
+| 18 | 7 | ● 7/7 [DRAFT] |
+| 19 | 25 | ● 25/25 [DRAFT] |
+| 20 | 6 | ● 6/6 [DRAFT] |
+| 21 | 17 | ● 17/17 [DRAFT] |
+| 22 | 25 | ● 25/25 [DRAFT] |
+| 23 | 18 | ● 18/18 [DRAFT] |
+| 24 | 23 | ● 23/23 [DRAFT] |
+| 25 | 12 | ● 12/12 [DRAFT] |
+| 26 | 21 | ● 21/21 [DRAFT] |
+| 27 | 13 | ● 13/13 [DRAFT] |
+| 28 | 29 | ● 29/29 [DRAFT] |
+| 29 | 24 | ● 24/24 [DRAFT] |
+| 30 | 33 | ● 33/33 [DRAFT] |
+| 31 | 9 | ● 9/9 [DRAFT] |
+| 32 | 20 | ● 20/20 [DRAFT] |
+| 33 | 24 | ● 24/24 [DRAFT] |
+| 34 | 17 | ● 17/17 [DRAFT] |
+| 35 | 10 | ● 10/10 [DRAFT] |
+| 36 | 22 | ● 22/22 [DRAFT] |
+| 37 | 38 | ● 38/38 [DRAFT] |
+| 38 | 22 | ● 22/22 [DRAFT] |
+| 39 | 8 | ● 8/8 [DRAFT] |
+| 40 | 31 | ● 31/31 [DRAFT] |
+| 41 | 29 | ● 29/29 [DRAFT] |
+| 42 | 25 | ● 25/25 [DRAFT] |
+| 43 | 28 | ● 28/28 [DRAFT] |
+| 44 | 28 | ● 28/28 [DRAFT] |
+| 45 | 25 | ● 25/25 [DRAFT] |
+| 46 | 13 | ● 13/13 [DRAFT] |
+| 47 | 15 | ● 15/15 [DRAFT] |
+| 48 | 22 | ● 22/22 [DRAFT] |
+| 49 | 26 | ● 26/26 [DRAFT] |
+| 50 | 11 | ● 11/11 [DRAFT] |
+| 51 | 23 | ● 23/23 [DRAFT] |
+| 52 | 15 | ● 15/15 [DRAFT] |
+| 53 | 12 | ● 12/12 [DRAFT] |
+| 54 | 17 | ● 17/17 [DRAFT] |
+| 55 | 13 | ● 13/13 [DRAFT] |
+| 56 | 12 | ● 12/12 [DRAFT] |
+| 57 | 21 | ● 21/21 [DRAFT] |
+| 58 | 14 | ● 14/14 [DRAFT] |
+| 59 | 21 | ● 21/21 [DRAFT] |
+| 60 | 22 | ● 22/22 [DRAFT] |
+| 61 | 11 | ● 11/11 [DRAFT] |
+| 62 | 12 | ● 12/12 [DRAFT] |
+| 63 | 19 | ● 19/19 [DRAFT] |
+| 64 | 11 | ● 11/11 [DRAFT] |
+| 65 | 25 | ● 25/25 [DRAFT] |
+| 66 | 24 | ● 24/24 [DRAFT] |
 
-## Habacuque — 0/56 versículos (0.0%), 3 capítulos
+## Jeremias — 1364/1364 versículos (100.0%), 52 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 17 | · pendente |
-| 2 | 20 | · pendente |
-| 3 | 19 | · pendente |
+| 1 | 19 | ● 19/19 [DRAFT] |
+| 2 | 37 | ● 37/37 [DRAFT] |
+| 3 | 25 | ● 25/25 [DRAFT] |
+| 4 | 31 | ● 31/31 [DRAFT] |
+| 5 | 31 | ● 31/31 [DRAFT] |
+| 6 | 30 | ● 30/30 [DRAFT] |
+| 7 | 34 | ● 34/34 [DRAFT] |
+| 8 | 23 | ● 23/23 [DRAFT] |
+| 9 | 25 | ● 25/25 [DRAFT] |
+| 10 | 25 | ● 25/25 [DRAFT] |
+| 11 | 23 | ● 23/23 [DRAFT] |
+| 12 | 17 | ● 17/17 [DRAFT] |
+| 13 | 27 | ● 27/27 [DRAFT] |
+| 14 | 22 | ● 22/22 [DRAFT] |
+| 15 | 21 | ● 21/21 [DRAFT] |
+| 16 | 21 | ● 21/21 [DRAFT] |
+| 17 | 27 | ● 27/27 [DRAFT] |
+| 18 | 23 | ● 23/23 [DRAFT] |
+| 19 | 15 | ● 15/15 [DRAFT] |
+| 20 | 18 | ● 18/18 [DRAFT] |
+| 21 | 14 | ● 14/14 [DRAFT] |
+| 22 | 30 | ● 30/30 [DRAFT] |
+| 23 | 40 | ● 40/40 [DRAFT] |
+| 24 | 10 | ● 10/10 [DRAFT] |
+| 25 | 38 | ● 38/38 [DRAFT] |
+| 26 | 24 | ● 24/24 [DRAFT] |
+| 27 | 22 | ● 22/22 [DRAFT] |
+| 28 | 17 | ● 17/17 [DRAFT] |
+| 29 | 32 | ● 32/32 [DRAFT] |
+| 30 | 24 | ● 24/24 [DRAFT] |
+| 31 | 40 | ● 40/40 [DRAFT] |
+| 32 | 44 | ● 44/44 [DRAFT] |
+| 33 | 26 | ● 26/26 [DRAFT] |
+| 34 | 22 | ● 22/22 [DRAFT] |
+| 35 | 19 | ● 19/19 [DRAFT] |
+| 36 | 32 | ● 32/32 [DRAFT] |
+| 37 | 21 | ● 21/21 [DRAFT] |
+| 38 | 28 | ● 28/28 [DRAFT] |
+| 39 | 18 | ● 18/18 [DRAFT] |
+| 40 | 16 | ● 16/16 [DRAFT] |
+| 41 | 18 | ● 18/18 [DRAFT] |
+| 42 | 22 | ● 22/22 [DRAFT] |
+| 43 | 13 | ● 13/13 [DRAFT] |
+| 44 | 30 | ● 30/30 [DRAFT] |
+| 45 | 5 | ● 5/5 [DRAFT] |
+| 46 | 28 | ● 28/28 [DRAFT] |
+| 47 | 7 | ● 7/7 [DRAFT] |
+| 48 | 47 | ● 47/47 [DRAFT] |
+| 49 | 39 | ● 39/39 [DRAFT] |
+| 50 | 46 | ● 46/46 [DRAFT] |
+| 51 | 64 | ● 64/64 [DRAFT] |
+| 52 | 34 | ● 34/34 [DRAFT] |
 
-## Sofonias — 0/53 versículos (0.0%), 3 capítulos
+## Lamentações — 154/154 versículos (100.0%), 5 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 18 | · pendente |
-| 2 | 15 | · pendente |
-| 3 | 20 | · pendente |
+| 1 | 22 | ● 22/22 [DRAFT] |
+| 2 | 22 | ● 22/22 [DRAFT] |
+| 3 | 66 | ● 66/66 [DRAFT] |
+| 4 | 22 | ● 22/22 [DRAFT] |
+| 5 | 22 | ● 22/22 [DRAFT] |
 
-## Ageu — 0/38 versículos (0.0%), 2 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 15 | · pendente |
-| 2 | 23 | · pendente |
-
-## Zacarias — 0/211 versículos (0.0%), 14 capítulos
+## Ezequiel — 1273/1273 versículos (100.0%), 48 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 17 | · pendente |
-| 2 | 17 | · pendente |
-| 3 | 10 | · pendente |
-| 4 | 14 | · pendente |
-| 5 | 11 | · pendente |
-| 6 | 15 | · pendente |
-| 7 | 14 | · pendente |
-| 8 | 23 | · pendente |
-| 9 | 17 | · pendente |
-| 10 | 12 | · pendente |
-| 11 | 17 | · pendente |
-| 12 | 14 | · pendente |
-| 13 | 9 | · pendente |
-| 14 | 21 | · pendente |
+| 1 | 28 | ● 28/28 [DRAFT] |
+| 2 | 10 | ● 10/10 [DRAFT] |
+| 3 | 27 | ● 27/27 [DRAFT] |
+| 4 | 17 | ● 17/17 [DRAFT] |
+| 5 | 17 | ● 17/17 [DRAFT] |
+| 6 | 14 | ● 14/14 [DRAFT] |
+| 7 | 27 | ● 27/27 [DRAFT] |
+| 8 | 18 | ● 18/18 [DRAFT] |
+| 9 | 11 | ● 11/11 [DRAFT] |
+| 10 | 22 | ● 22/22 [DRAFT] |
+| 11 | 25 | ● 25/25 [DRAFT] |
+| 12 | 28 | ● 28/28 [DRAFT] |
+| 13 | 23 | ● 23/23 [DRAFT] |
+| 14 | 23 | ● 23/23 [DRAFT] |
+| 15 | 8 | ● 8/8 [DRAFT] |
+| 16 | 63 | ● 63/63 [DRAFT] |
+| 17 | 24 | ● 24/24 [DRAFT] |
+| 18 | 32 | ● 32/32 [DRAFT] |
+| 19 | 14 | ● 14/14 [DRAFT] |
+| 20 | 44 | ● 44/44 [DRAFT] |
+| 21 | 37 | ● 37/37 [DRAFT] |
+| 22 | 31 | ● 31/31 [DRAFT] |
+| 23 | 49 | ● 49/49 [DRAFT] |
+| 24 | 27 | ● 27/27 [DRAFT] |
+| 25 | 17 | ● 17/17 [DRAFT] |
+| 26 | 21 | ● 21/21 [DRAFT] |
+| 27 | 36 | ● 36/36 [DRAFT] |
+| 28 | 26 | ● 26/26 [DRAFT] |
+| 29 | 21 | ● 21/21 [DRAFT] |
+| 30 | 26 | ● 26/26 [DRAFT] |
+| 31 | 18 | ● 18/18 [DRAFT] |
+| 32 | 32 | ● 32/32 [DRAFT] |
+| 33 | 33 | ● 33/33 [DRAFT] |
+| 34 | 31 | ● 31/31 [DRAFT] |
+| 35 | 15 | ● 15/15 [DRAFT] |
+| 36 | 38 | ● 38/38 [DRAFT] |
+| 37 | 28 | ● 28/28 [DRAFT] |
+| 38 | 23 | ● 23/23 [DRAFT] |
+| 39 | 29 | ● 29/29 [DRAFT] |
+| 40 | 49 | ● 49/49 [DRAFT] |
+| 41 | 26 | ● 26/26 [DRAFT] |
+| 42 | 20 | ● 20/20 [DRAFT] |
+| 43 | 27 | ● 27/27 [DRAFT] |
+| 44 | 31 | ● 31/31 [DRAFT] |
+| 45 | 25 | ● 25/25 [DRAFT] |
+| 46 | 24 | ● 24/24 [DRAFT] |
+| 47 | 23 | ● 23/23 [DRAFT] |
+| 48 | 35 | ● 35/35 [DRAFT] |
 
-## Malaquias — 0/55 versículos (0.0%), 3 capítulos
+## Daniel — 357/357 versículos (100.0%), 12 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 14 | · pendente |
-| 2 | 17 | · pendente |
-| 3 | 24 | · pendente |
+| 1 | 21 | ● 21/21 [DRAFT] |
+| 2 | 49 | ● 49/49 [DRAFT] |
+| 3 | 33 | ● 33/33 [DRAFT] |
+| 4 | 34 | ● 34/34 [DRAFT] |
+| 5 | 30 | ● 30/30 [DRAFT] |
+| 6 | 29 | ● 29/29 [DRAFT] |
+| 7 | 28 | ● 28/28 [DRAFT] |
+| 8 | 27 | ● 27/27 [DRAFT] |
+| 9 | 27 | ● 27/27 [DRAFT] |
+| 10 | 21 | ● 21/21 [DRAFT] |
+| 11 | 45 | ● 45/45 [DRAFT] |
+| 12 | 13 | ● 13/13 [DRAFT] |
+
+## Oseias — 197/197 versículos (100.0%), 14 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 9 | ● 9/9 [DRAFT] |
+| 2 | 25 | ● 25/25 [DRAFT] |
+| 3 | 5 | ● 5/5 [DRAFT] |
+| 4 | 19 | ● 19/19 [DRAFT] |
+| 5 | 15 | ● 15/15 [DRAFT] |
+| 6 | 11 | ● 11/11 [DRAFT] |
+| 7 | 16 | ● 16/16 [DRAFT] |
+| 8 | 14 | ● 14/14 [DRAFT] |
+| 9 | 17 | ● 17/17 [DRAFT] |
+| 10 | 15 | ● 15/15 [DRAFT] |
+| 11 | 11 | ● 11/11 [DRAFT] |
+| 12 | 15 | ● 15/15 [DRAFT] |
+| 13 | 15 | ● 15/15 [DRAFT] |
+| 14 | 10 | ● 10/10 [DRAFT] |
+
+## Joel — 73/73 versículos (100.0%), 4 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 20 | ● 20/20 [DRAFT] |
+| 2 | 27 | ● 27/27 [DRAFT] |
+| 3 | 5 | ● 5/5 [DRAFT] |
+| 4 | 21 | ● 21/21 [DRAFT] |
+
+## Amós — 146/146 versículos (100.0%), 9 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 15 | ● 15/15 [DRAFT] |
+| 2 | 16 | ● 16/16 [DRAFT] |
+| 3 | 15 | ● 15/15 [DRAFT] |
+| 4 | 13 | ● 13/13 [DRAFT] |
+| 5 | 27 | ● 27/27 [DRAFT] |
+| 6 | 14 | ● 14/14 [DRAFT] |
+| 7 | 17 | ● 17/17 [DRAFT] |
+| 8 | 14 | ● 14/14 [DRAFT] |
+| 9 | 15 | ● 15/15 [DRAFT] |
+
+## Obadias — 21/21 versículos (100.0%), 1 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 21 | ● 21/21 [DRAFT] |
+
+## Jonas — 48/48 versículos (100.0%), 4 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 16 | ● 16/16 [DRAFT] |
+| 2 | 11 | ● 11/11 [DRAFT] |
+| 3 | 10 | ● 10/10 [DRAFT] |
+| 4 | 11 | ● 11/11 [DRAFT] |
+
+## Miqueias — 105/105 versículos (100.0%), 7 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 16 | ● 16/16 [DRAFT] |
+| 2 | 13 | ● 13/13 [DRAFT] |
+| 3 | 12 | ● 12/12 [DRAFT] |
+| 4 | 14 | ● 14/14 [DRAFT] |
+| 5 | 14 | ● 14/14 [DRAFT] |
+| 6 | 16 | ● 16/16 [DRAFT] |
+| 7 | 20 | ● 20/20 [DRAFT] |
+
+## Naum — 47/47 versículos (100.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 14 | ● 14/14 [DRAFT] |
+| 2 | 14 | ● 14/14 [DRAFT] |
+| 3 | 19 | ● 19/19 [DRAFT] |
+
+## Habacuque — 56/56 versículos (100.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 17 | ● 17/17 [DRAFT] |
+| 2 | 20 | ● 20/20 [DRAFT] |
+| 3 | 19 | ● 19/19 [DRAFT] |
+
+## Sofonias — 53/53 versículos (100.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 18 | ● 18/18 [DRAFT] |
+| 2 | 15 | ● 15/15 [DRAFT] |
+| 3 | 20 | ● 20/20 [DRAFT] |
+
+## Ageu — 38/38 versículos (100.0%), 2 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 15 | ● 15/15 [DRAFT] |
+| 2 | 23 | ● 23/23 [DRAFT] |
+
+## Zacarias — 211/211 versículos (100.0%), 14 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 17 | ● 17/17 [DRAFT] |
+| 2 | 17 | ● 17/17 [DRAFT] |
+| 3 | 10 | ● 10/10 [DRAFT] |
+| 4 | 14 | ● 14/14 [DRAFT] |
+| 5 | 11 | ● 11/11 [DRAFT] |
+| 6 | 15 | ● 15/15 [DRAFT] |
+| 7 | 14 | ● 14/14 [DRAFT] |
+| 8 | 23 | ● 23/23 [DRAFT] |
+| 9 | 17 | ● 17/17 [DRAFT] |
+| 10 | 12 | ● 12/12 [DRAFT] |
+| 11 | 17 | ● 17/17 [DRAFT] |
+| 12 | 14 | ● 14/14 [DRAFT] |
+| 13 | 9 | ● 9/9 [DRAFT] |
+| 14 | 21 | ● 21/21 [DRAFT] |
+
+## Malaquias — 55/55 versículos (100.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 14 | ● 14/14 [DRAFT] |
+| 2 | 17 | ● 17/17 [DRAFT] |
+| 3 | 24 | ● 24/24 [DRAFT] |
 
 ## Mateus — 0/1068 versículos (0.0%), 28 capítulos
 

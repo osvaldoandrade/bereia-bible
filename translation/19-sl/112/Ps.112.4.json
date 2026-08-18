@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.112.4",
+    "livro": "Salmos",
+    "capitulo": 112,
+    "versiculo": 4,
+    "pericope": "Ps.112.1-10"
+  },
+  "texto_bv": "A luz raia nas trevas para os retos; ele é gracioso, compassivo e justo.",
+  "traducao_literal": "Raiou nas-trevas luz para-os-retos; gracioso e-compassivo e-justo [é ele].",
+  "termos_originais": [
+    {
+      "palavra": "זָ֘רַ֤ח",
+      "lemma": "2224",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בַּחֹ֣שֶׁךְ",
+      "lemma": "b/2822",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "א֭וֹר",
+      "lemma": "216",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "לַיְשָׁרִ֑ים",
+      "lemma": "l/3477",
+      "morfologia": "HRd/Aampa"
+    },
+    {
+      "palavra": "חַנּ֖וּן",
+      "lemma": "2587",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְרַח֣וּם",
+      "lemma": "c/7349",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "וְצַדִּֽיק",
+      "lemma": "c/6662",
+      "morfologia": "HC/Aamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "זָרַח, perfeito qal em contexto sapiencial/gnômico",
+      "escolha": "presente do indicativo ('raia')",
+      "justificativa": "mesmo tratamento do perfeito gnômico já fixado em Ps.1.1 (valor atemporal, não evento pontual passado).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pretérito perfeito ('raiou')",
+          "motivo": "sugeriria evento único passado, perdendo o valor de máxima geral"
+        }
+      ]
+    },
+    {
+      "questao": "חֹשֶׁךְ em contexto poético-moral (contraste luz/trevas para o reto em meio à adversidade)",
+      "escolha": "trevas",
+      "justificativa": "lexicon.json reserva 'trevas' para contextos poético-morais mediante adjudicação por versículo (nota da entrada H2822); este é um desses contextos, distinto do uso cosmológico neutro de Gn 1.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'escuridão' (glosa padrão cosmológica de Gn 1)",
+          "motivo": "a nota do léxico reserva 'trevas' exatamente para este tipo de contexto poético-moral"
+        }
+      ]
+    },
+    {
+      "questao": "referente implícito de חַנּוּן וְרַחוּם וְצַדִּיק (mesmo par formular de Ps.111.4 חַנּוּן וְרַחוּם יְהוָה, aqui sem sujeito expresso, na esteira de 'para os retos' de 4a)",
+      "escolha": "manter sujeito implícito 'ele' referindo-se ao reto, sem nomear explicitamente 'Deus' no texto",
+      "justificativa": "o hebraico não repete יְהוָה aqui, ao contrário de Ps.111.4b; a oração nominal sem sujeito sustenta lexicalmente a leitura de que os atributos descrevem o justo — mas a ambiguidade é preservada no registro, já que a tradição exegética também lê o eco intencional a Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "nomear 'Deus' explicitamente como sujeito (harmonizando com Ps.111.4b)",
+          "motivo": "TEOLOGIA §2 proíbe harmonização artificial entre passagens paralelas; o hebraico de 112:4b não repete יהוה como em 111:4b"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula da oração nominal 'gracioso, compassivo e justo')",
+    "ele (sujeito suprido, sem antecedente lexical explícito no hemistíquio)"
+  ],
+  "ambiguidades_preservadas": [
+    "o referente de 'gracioso, compassivo e justo' (4b) pode ser o homem reto de 4a ou, por eco intencional de Ps.111.4b (mesmo par חַנּוּן וְרַחוּם ali atribuído a יְהוָה), o próprio SENHOR; o hebraico de 112:4 não repete o nome divino, mantendo a leitura aberta"
+  ],
+  "justificativa": "Verso central do paralelo estrutural com Ps 111 (imitatio Dei): o par formular חַנּוּן וְרַחוּם, usado em Ps.111.4 para יְהוָה, reaparece aqui aplicado ao reto, sem sujeito explícito no hebraico — ambiguidade teologicamente relevante preservada no registro.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

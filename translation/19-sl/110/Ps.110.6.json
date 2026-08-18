@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.110.6",
+    "livro": "Salmos",
+    "capitulo": 110,
+    "versiculo": 6,
+    "pericope": "Ps.110.1-7"
+  },
+  "texto_bv": "Ele julgará entre as nações, encherá a terra de cadáveres; esmagará o chefe sobre a terra vasta.",
+  "traducao_literal": "Julgará entre as nações; encherá de cadáveres; esmagará cabeça sobre terra vasta.",
+  "termos_originais": [
+    {
+      "palavra": "יָדִ֣ין",
+      "lemma": "1777",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בַּ֭גּוֹיִם",
+      "lemma": "b/1471 a",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "מָלֵ֣א",
+      "lemma": "4390",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "גְוִיּ֑וֹת",
+      "lemma": "1472",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "מָ֥חַץ",
+      "lemma": "4272",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "רֹ֝֗אשׁ",
+      "lemma": "7218 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֶ֥רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "רַבָּֽה",
+      "lemma": "7227 a",
+      "morfologia": "HAafsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מָלֵא גְוִיּוֹת — verbo transitivo sem objeto explícito ('encherá de cadáveres')",
+      "escolha": "suprir 'a terra' como objeto implícito no texto_bv",
+      "justificativa": "Português exige objeto direto explícito para 'encher'; o contexto (julgamento entre nações, 'terra vasta' no v.6b) indica o território de batalha como referente implícito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'encherá[-se] de cadáveres' (uso absoluto)",
+          "motivo": "Soa artificial e ambíguo em português; preferiu-se explicitar o referente territorial coerente com o resto do versículo."
+        }
+      ]
+    },
+    {
+      "questao": "רֹאשׁ — singular, sem sufixo ('a cabeça/o chefe')",
+      "escolha": "'o chefe' no texto_bv; 'cabeça' preservado na literal, singular do hebraico mantido",
+      "justificativa": "רֹאשׁ no singular, em paralelo com מְלָכִים (v.5) e גּוֹיִם (v.6a), é lido tradicionalmente como o governante de um território vasto e hostil; o singular do TM é preservado, não pluralizado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pluralizar para 'os chefes'/'as cabeças', por concordância de sentido com 'reis' e 'nações'",
+          "motivo": "O TM usa singular deliberadamente; pluralizar apagaria essa escolha do texto-fonte."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a terra"
+  ],
+  "ambiguidades_preservadas": [
+    "רֹאשׁ no singular pode indicar um líder/governante específico ('o chefe') ou funcionar coletivamente para múltiplos líderes ao longo de 'terra vasta'; a BV preserva o singular do hebraico e a ambiguidade referencial."
+  ],
+  "justificativa": "Continua a cena de julgamento/batalha; objeto elidido de מָלֵא suprido pelo contexto; רֹאשׁ singular preservado, com ambiguidade referencial (chefe individual vs. coletivo) documentada.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

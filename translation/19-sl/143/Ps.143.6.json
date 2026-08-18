@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.143.6",
+    "livro": "Salmos",
+    "capitulo": 143,
+    "versiculo": 6,
+    "pericope": "Ps.143.1-12"
+  },
+  "texto_bv": "Estendo as minhas mãos a ti; a minha alma anseia por ti como terra exausta. Selá.",
+  "traducao_literal": "Estendo as minhas mãos a ti; a minha alma, como terra cansada, a ti. Selá.",
+  "termos_originais": [
+    {
+      "palavra": "פֵּרַ֣שְׂתִּי",
+      "lemma": "6566",
+      "morfologia": "HVpp1cs"
+    },
+    {
+      "palavra": "יָדַ֣י",
+      "lemma": "3027",
+      "morfologia": "HNcbdc/Sp1cs"
+    },
+    {
+      "palavra": "אֵלֶ֑יךָ",
+      "lemma": "413",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "נַפְשִׁ֓י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "כְּאֶֽרֶץ",
+      "lemma": "k/776",
+      "morfologia": "HR/Ncbsa"
+    },
+    {
+      "palavra": "עֲיֵפָ֖ה",
+      "lemma": "5889",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "לְךָ֣",
+      "lemma": "l",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "סֶֽלָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עֲיֵפָה: 'cansada/exausta' (sentido lexical de fadiga) vs. tradição de 'sedenta' (associação com sede/água).",
+      "escolha": "exausta",
+      "justificativa": "עיף significa literalmente 'fatigada, desfalecida'; 'sedenta' seria צָמֵא, ausente do texto. A imagem de sede é conotativa (terra árida cansada de calor), não lexical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sedenta",
+          "motivo": "leitura tradicional (Almeida/ARA), mas sem suporte lexical direto — TEOLOGIA §2 exige valor lexical, não concordismo com a tradição de tradução"
+        }
+      ]
+    },
+    {
+      "questao": "Elipse verbal em נַפְשִׁי ... לְךָ (sem verbo declarado no hebraico).",
+      "escolha": "supre-se 'anseia'",
+      "justificativa": "EDITORIAL §4: elipses são supridas quando o português for agramatical sem isso; o paralelismo com 6a (mãos estendidas) sustenta um verbo de desejo/anseio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tem sede de ti",
+          "motivo": "reintroduziria a imagem de sede rejeitada na decisão anterior sobre עֲיֵפָה"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "anseia (verbo suprido para completar a elipse נַפְשִׁי ... לְךָ, agramatical em português sem verbo)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Súplica com gesto físico (mãos estendidas) e imagem de exaustão; Selá mantido intraduzido, marca litúrgico-musical.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

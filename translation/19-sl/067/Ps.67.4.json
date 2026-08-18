@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.67.4",
+    "livro": "Salmos",
+    "capitulo": 67,
+    "versiculo": 4,
+    "pericope": "Ps.67.1-8"
+  },
+  "texto_bv": "Louvem-te os povos, ó Deus; louvem-te os povos, todos eles!",
+  "traducao_literal": "Louvar-te-ão os povos, ó Deus; louvar-te-ão os povos, todos eles.",
+  "termos_originais": [
+    {
+      "palavra": "יוֹד֖וּךָ",
+      "lemma": "3034",
+      "morfologia": "HVhi3mp/Sp2ms"
+    },
+    {
+      "palavra": "עַמִּ֥ים",
+      "lemma": "5971 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אֱלֹהִ֑ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "י֝וֹד֗וּךָ",
+      "lemma": "3034",
+      "morfologia": "HVhi3mp/Sp2ms"
+    },
+    {
+      "palavra": "עַמִּ֥ים",
+      "lemma": "5971 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "כֻּלָּֽם",
+      "lemma": "3605",
+      "morfologia": "HNcmsc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem verbo-sujeito do hebraico (יוֹדוּךָ עַמִּים, verbo fronteado) em imperfeito jussivo poético, não wayyiqtol narrativo.",
+      "escolha": "manter V-S no texto_bv ('Louvem-te os povos')",
+      "justificativa": "ER-0011 (ordem S-V uniforme) rege especificamente os wayyiqtol narrativos; aqui o imperfeito funciona como jussivo/apóstrofe poética, e o V-S soa natural em português litúrgico ('Louvado seja...').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Os povos te louvem, ó Deus (S-V)",
+          "motivo": "gramaticalmente válido, mas menos natural como refrão de invocação; ER-0011 não obriga a mudança fora de wayyiqtol narrativo"
+        }
+      ]
+    },
+    {
+      "questao": "Repetição integral 'יוֹדוּךָ עַמִּים ... יוֹדוּךָ עַמִּים כֻּלָּם' — refrão que se repete idêntico no v.6, emoldurando o v.5.",
+      "escolha": "preservar a repetição integral no texto publicado",
+      "justificativa": "Trata-se de dispositivo poético estrutural (moldura/inclusio), não redundância acidental de sujeito coberta por ER-0013 item 2; condensar destruiria a estrutura do salmo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "condensar em uma única linha ('Louvem-te os povos, ó Deus, todos eles')",
+          "motivo": "apagaria o paralelismo/refrão intencional que estrutura o salmo em torno do v.5"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Refrão do salmo (idêntico ao v.6), invocação em segunda pessoa dirigida a Deus ('te'); עַמִּים כֻּלָּם reforça totalidade das nações.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

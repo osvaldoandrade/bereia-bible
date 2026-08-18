@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.19.5",
+    "livro": "Salmos",
+    "capitulo": 19,
+    "versiculo": 5,
+    "pericope": "Ps.19.1-15"
+  },
+  "texto_bv": "A sua linha saiu por toda a terra, e as suas palavras, até o fim do mundo. Para o sol pôs neles uma tenda.",
+  "traducao_literal": "Por toda a terra saiu a sua linha, e no fim do mundo as suas palavras; para o sol pôs uma tenda neles.",
+  "termos_originais": [
+    {
+      "palavra": "בְּכָל",
+      "lemma": "b/3605",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "הָאָ֨רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "יָ֘צָ֤א",
+      "lemma": "3318",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "קַוָּ֗ם",
+      "lemma": "6957 b",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "וּבִקְצֵ֣ה",
+      "lemma": "c/b/7097 a",
+      "morfologia": "HC/R/Ncbsc"
+    },
+    {
+      "palavra": "תֵ֭בֵל",
+      "lemma": "8398",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "מִלֵּיהֶ֑ם",
+      "lemma": "4405",
+      "morfologia": "HNcfpc/Sp3mp"
+    },
+    {
+      "palavra": "לַ֝שֶּׁ֗מֶשׁ",
+      "lemma": "l/8121",
+      "morfologia": "HRd/Ncbsa"
+    },
+    {
+      "palavra": "שָֽׂם",
+      "lemma": "7760 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֹ֥הֶל",
+      "lemma": "168",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בָּהֶֽם",
+      "lemma": "b",
+      "morfologia": "HR/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de קַוָּם (H6957b, 'a sua linha/corda [de medir]')",
+      "escolha": "'A sua linha', fiel ao texto massorético pinado (OSHB); não adotada a leitura 'a sua voz' (קוֹלָם) refletida na LXX/Vulgata e citada em Rm 10:18.",
+      "justificativa": "O packet não traz variantes_fonte para este versículo (aparato ausente); a fonte pinada é OSHB/MT, e קַוָּם ('linha de medir', usada para demarcar território/extensão) é a leitura consonantal do TM. A leitura 'voz' é tradução/interpretação da LXX, não uma variante textual hebraica documentada na fonte pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'A sua voz' (LXX/Vulgata/Rm 10:18)",
+          "motivo": "sem aparato no packet pinado (OSHB); mudaria a base textual de MT para LXX sem adjudicação de fontes autorizada"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem verbo-sujeito de יָצָא קַוָּם e referente de בָּהֶם ('neles')",
+      "escolha": "V-S preservado na traducao_literal ('saiu a sua linha'); normalizado a S-V no publicado. 'Neles' mantido como pronome, sem expansão explicativa do referente (os céus, v.2).",
+      "justificativa": "ER-0013 (calque de ordem); o pronome בָּהֶם é gramatical em português sem precisar nomear o antecedente, evitando acrescentar informação que o hebraico não explicita nesta oração.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Nos céus pôs uma tenda para o sol'",
+          "motivo": "supre o antecedente do pronome, interpretação legítima mas não exigida pela gramática portuguesa (EDITORIAL §4)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Referente exato de בָּהֶם ('neles') — os céus (v.2) ou a extensão da terra/mundo (v.5) — preservado pela manutenção do pronome sem explicitação."
+  ],
+  "justificativa": "Segunda oração elíptica (verbo יָצָא subentendido a partir da primeira), preservada como elipse em português, que admite a mesma construção.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

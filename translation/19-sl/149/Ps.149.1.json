@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.149.1",
+    "livro": "Salmos",
+    "capitulo": 149,
+    "versiculo": 1,
+    "pericope": "Ps.149.1-9"
+  },
+  "texto_bv": "Louvem o SENHOR! Cantem ao SENHOR um cântico novo; cantem seu louvor na assembleia dos fiéis.",
+  "traducao_literal": "Louvem Yah! Cantem ao SENHOR canção nova, o louvor dele na assembleia dos fiéis.",
+  "termos_originais": [
+    {
+      "palavra": "הַ֥לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֨הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שִׁ֣ירוּ",
+      "lemma": "7891",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "לַֽ֭יהוָה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "שִׁ֣יר",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "חָדָ֑שׁ",
+      "lemma": "2319",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "תְּ֝הִלָּת֗וֹ",
+      "lemma": "8416",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "בִּקְהַ֥ל",
+      "lemma": "b/6951",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "חֲסִידִֽים",
+      "lemma": "2623",
+      "morfologia": "HAampa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter יָהּ (H3050), forma abreviada do Tetragrama, na abertura do salmo (que retorna em inclusio no v.9)?",
+      "escolha": "SENHOR (mesma glosa de יהוה, H3068)",
+      "justificativa": "יָהּ é forma poética abreviada do mesmo nome divino (cf. NOMES-DIVINOS ER-0002); a BV traduz o valor lexical no corpo do texto em vez de transliterar a fórmula litúrgica, mantendo coerência com שִׁ֣ירוּ לַֽיהוָה no mesmo verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter transliterado 'Aleluia'",
+          "motivo": "introduz empréstimo não traduzido no corpo do texto, fora do padrão da BV para nomes divinos (que traduz, não transliteral)."
+        },
+        {
+          "opcao": "'Javé' ou forma abreviada equivalente",
+          "motivo": "quebra a convenção consolidada SENHOR fixada em ER-0002/NOMES-DIVINOS."
+        }
+      ]
+    },
+    {
+      "questao": "תְּהִלָּתוֹ בִּקְהַל חֲסִידִים é oração elíptica sem verbo próprio de canto; como tornar gramatical em português?",
+      "escolha": "Repetir o verbo 'cantem' antes de 'seu louvor'.",
+      "justificativa": "EDITORIAL §4 permite suprir elipse apenas quando o português fica agramatical sem isso; a oração nominal isolada ('seu louvor na assembleia dos fiéis') não formaria frase completa em pt-BR corrido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Deixar sem verbo, como aposto solto",
+          "motivo": "soa fragmentário e ambíguo em leitura/TTS (EDITORIAL §1.3)."
+        }
+      ]
+    },
+    {
+      "questao": "Como verter חֲסִידִים (H2623), recorrente em vv.1, 5 e 9?",
+      "escolha": "'fiéis'",
+      "justificativa": "Evita conflação com קָדוֹשׁ ('santo'), lexema distinto também presente no corpus; 'fiéis' capta o sentido de lealdade ao pacto (chesed) sem importar outro campo semântico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'santos'",
+          "motivo": "tradição ARA, mas colide lexicalmente com קָדוֹשׁ em outros textos, prejudicando a auditabilidade terminológica do léxico."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "cantem (verbo elidido, retomado da primeira oração para reger 'seu louvor')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Chamado inicial ao louvor comunitário; imperativos dirigidos à congregação (registro 'vocês' implícito no imperativo), preservando a inclusio הַלְלוּ־יָהּ que fecha o salmo em v.9.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

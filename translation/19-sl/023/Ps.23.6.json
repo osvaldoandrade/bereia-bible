@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.23.6",
+    "livro": "Salmos",
+    "capitulo": 23,
+    "versiculo": 6,
+    "pericope": "Ps.23.1-6"
+  },
+  "texto_bv": "Certamente a bondade e a misericórdia me seguirão todos os dias da minha vida; e habitarei na casa do SENHOR por longos dias.",
+  "traducao_literal": "Certamente bondade e misericórdia me perseguirão todos os dias da minha vida; e habitarei na casa do SENHOR por longura de dias.",
+  "termos_originais": [
+    {
+      "palavra": "אַ֤ךְ",
+      "lemma": "389",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "ט֤וֹב",
+      "lemma": "2896 b",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וָחֶ֣סֶד",
+      "lemma": "c/2617 a",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "יִ֭רְדְּפוּנִי",
+      "lemma": "7291",
+      "morfologia": "HVpi3mp/Sp1cs"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְמֵ֣י",
+      "lemma": "3117",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "חַיָּ֑י",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "וְשַׁבְתִּ֥י",
+      "lemma": "c/3427",
+      "morfologia": "HC/Vqq1cs"
+    },
+    {
+      "palavra": "בְּבֵית",
+      "lemma": "b/1004 b",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְ֝הוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לְאֹ֣רֶךְ",
+      "lemma": "l/753",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יָמִֽים",
+      "lemma": "3117",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "טוֹב usado substantivamente ('a bondade'), desviando da glosa padrão adjetival do léxico (H2896 → 'bom')",
+      "escolha": "'a bondade' (substantivo abstrato)",
+      "justificativa": "Aqui טוֹב não modifica nenhum substantivo seguinte; funciona como sujeito nominal paralelo a חֶסֶד. Desvio documentado conforme EDITORIAL §11.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o bem' (mais literal ao valor adjetival-substantivado)",
+          "motivo": "Menos natural como sujeito de 'seguirão' ao lado de 'a misericórdia'; 'bondade' colige melhor com חֶסֶד."
+        }
+      ]
+    },
+    {
+      "questao": "יִרְדְּפוּנִי — רדף ('perseguir'), verbo tipicamente hostil usado em sentido positivo",
+      "escolha": "'seguirão' no publicado; 'perseguirão' na literal",
+      "justificativa": "O verbo hebraico mantém sua força lexical plena de 'perseguir com intensidade', aplicada aqui paradoxalmente à bondade e à misericórdia; o publicado normaliza para 'seguirão' evitando a leitura de hostilidade que a colocação sugeriria em português, mas a força original é preservada na traducao_literal (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'perseguirão' também no publicado",
+          "motivo": "Tecnicamente mais fiel, mas em português corrente soa como ameaça, invertendo o tom do verso; risco de mal-entendido em leitura em voz alta."
+        }
+      ]
+    },
+    {
+      "questao": "לְאֹרֶךְ יָמִים — 'por longura de dias' vs. tradição 'para sempre'",
+      "escolha": "'por longos dias'",
+      "justificativa": "O hebraico expressa duração extensa ('comprimento de dias'), não eternidade explícita; TEOLOGIA §2 veda importar leitura escatológica não codificada no texto-fonte. A leitura de vida eterna é teologicamente legítima como desenvolvimento posterior, mas não está lexicalmente presente aqui.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'para sempre' (tradição Almeida/ARA)",
+          "motivo": "Interpretativamente mais forte que o hebraico; ambiguidade preservada no registro em vez de resolvida a favor da leitura eterna."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "חֶסֶד (hesed): abrange lealdade de aliança, bondade leal e misericórdia; 'misericórdia' é a glosa escolhida, mas o campo semântico mais amplo (fidelidade pactual) permanece latente e não plenamente capturado por uma única palavra pt-BR.",
+    "לְאֹרֶךְ יָמִים: 'por longos dias' preserva a leitura literal de duração extensa, sem decidir a favor ou contra a leitura posterior de eternidade/vida além-morte."
+  ],
+  "justificativa": "Verso de fechamento com retorno à terceira pessoa referindo-se ao SENHOR (בְּבֵית־יְהוָה); nenhuma variante no aparato do packet.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

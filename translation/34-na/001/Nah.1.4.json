@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Nah.1.4",
+    "livro": "Naum",
+    "capitulo": 1,
+    "versiculo": 4,
+    "pericope": "Nah.1.1-14"
+  },
+  "texto_bv": "Ele repreende o mar e o seca; resseca todos os rios. Basã e o Carmelo murcham; a flor do Líbano murcha.",
+  "traducao_literal": "O que repreende o mar e o seca, e todos os rios ele resseca; murcha Basã e o Carmelo, e a flor do Líbano murcha.",
+  "termos_originais": [
+    {
+      "palavra": "גּוֹעֵ֤ר",
+      "lemma": "1605",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בַּיָּם֙",
+      "lemma": "b/3220",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "וַֽיַּבְּשֵׁ֔הוּ",
+      "lemma": "c/3001",
+      "morfologia": "HC/Vpw3ms/Sp3ms"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "הַנְּהָר֖וֹת",
+      "lemma": "d/5104",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "הֶֽחֱרִ֑יב",
+      "lemma": "2717 a",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "אֻמְלַ֤ל",
+      "lemma": "535",
+      "morfologia": "HVKp3ms"
+    },
+    {
+      "palavra": "בָּשָׁן֙",
+      "lemma": "1316",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְכַרְמֶ֔ל",
+      "lemma": "c/3760",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "וּפֶ֥רַח",
+      "lemma": "c/6525",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "לְבָנ֖וֹן",
+      "lemma": "3844",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֻמְלָֽל",
+      "lemma": "535",
+      "morfologia": "HVKp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "sujeito elíptico da cadeia particípio + wayyiqtol (גּוֹעֵר...וַיַּבְּשֵׁהוּ), tacitamente retomando יְהוָה de v.3",
+      "escolha": "supridar 'Ele' no início do versículo",
+      "justificativa": "o hebraico mantém o sujeito tácito por continuidade poética com o versículo anterior; como cada registro da BV é lido também isoladamente, o pronome explícito é necessário para inteligibilidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir 'o SENHOR'",
+          "motivo": "redundante, já nomeado três vezes no v.2 e duas no v.3"
+        }
+      ]
+    },
+    {
+      "questao": "normalização de tempo verbal no hino teofânico (vv.4-7): particípio + wayyiqtol/perfeito hebraicos vertidos para presente gnômico no texto publicado",
+      "escolha": "presente do indicativo ('repreende', 'seca', 'resseca', 'murcham')",
+      "justificativa": "o hebraico hínico mistura particípio (característica atemporal) e wayyiqtol/perfeito (ação concreta) para descrever atributos permanentes de YHWH; o presente gnômico em português capta essa função sem soar como narrativa de evento único. A partir do v.8 o tempo muda para futuro, marcando a virada para o juízo específico e iminente contra Nínive.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter pretérito ao longo de vv.4-7, calcando o wayyiqtol/perfeito",
+          "motivo": "faria o hino soar como relato de um evento passado único, não como descrição de caráter permanente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Ele (sujeito retomado de יהוה, v.3)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Hino teofânico: o SENHOR domina mar e rios, e a natureza (Basã, Carmelo, Líbano — símbolos de fertilidade e força) murcha diante dele. O tempo é normalizado para presente gnômico no texto publicado; a tensão temporal do original hebraico é preservada na traducao_literal.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

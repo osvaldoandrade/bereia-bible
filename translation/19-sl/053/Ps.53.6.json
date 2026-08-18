@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.53.6",
+    "livro": "Salmos",
+    "capitulo": 53,
+    "versiculo": 6,
+    "pericope": "Ps.53.1-7"
+  },
+  "texto_bv": "Ali sentiram grande pavor, onde não havia pavor algum, pois Deus espalhou os ossos daquele que te cercava; tu os cobriste de vergonha, pois Deus os rejeitou.",
+  "traducao_literal": "Ali temeram temor, não havia temor; porque Deus espalhou os ossos do que te cercava; puseste em vergonha, porque Deus os rejeitou.",
+  "termos_originais": [
+    {
+      "palavra": "שָׁ֤ם",
+      "lemma": "8033",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "פָּֽחֲדוּ",
+      "lemma": "6342",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "פַחַד֮",
+      "lemma": "6343",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "הָ֪יָה֫",
+      "lemma": "1961",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "פָ֥חַד",
+      "lemma": "6343",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֱלֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "פִּ֭זַּר",
+      "lemma": "6340",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "עַצְמ֣וֹת",
+      "lemma": "6106",
+      "morfologia": "HNcfpc"
+    },
+    {
+      "palavra": "חֹנָ֑ךְ",
+      "lemma": "2583",
+      "morfologia": "HVqrmsc/Sp2fs"
+    },
+    {
+      "palavra": "הֱ֝בִשֹׁ֗תָה",
+      "lemma": "954",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֱלֹהִ֥ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "מְאָסָֽם",
+      "lemma": "3988 a",
+      "morfologia": "HVqp3ms/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חֹנָךְ traz sufixo 2ª pessoa feminino singular; הֱבִשֹׁתָה é 2ª pessoa masculino singular — quem é o destinatário de 'tu/te'?",
+      "escolha": "preservar a ambiguidade; verter ambos os sufixos como 'te'/'tu' sem harmonizar gênero ou pessoa",
+      "justificativa": "A morfologia da fonte pinada (OSHB) marca os sufixos como estão massoreticamente pontuados, sem base textual firme para escolher um único referente. TEOLOGIA §1.5 exige preservar a ambiguidade do original em vez de resolvê-la por conjectura.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "harmonizar para 3ª pessoa ('Deus os cobriu de vergonha')",
+          "motivo": "apaga o crux textual documentado pela morfologia; decisão exegética não sustentada apenas pela gramática"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter o acusativo cognato פָּחֲדוּ־פַחַד ('temeram temor')?",
+      "escolha": "'sentiram grande pavor'",
+      "justificativa": "Calque preservado integralmente na traducao_literal ('temeram temor'); o publicado normaliza para intensificador adjetival, natural em português (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'temeram um temor'",
+          "motivo": "calque soa artificial no texto publicado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "tu",
+    "os",
+    "algum"
+  ],
+  "ambiguidades_preservadas": [
+    "Identidade do destinatário de 'te' (חֹנָךְ, 2fs) e de 'tu' (הֱבִשֹׁתָה, 2ms): pode ser o inimigo, a comunidade/Sião personificada, ou uma interpelação a Deus; a mudança de pessoa/gênero no hebraico não é harmonizada."
+  ],
+  "justificativa": "Verso sem paralelo direto em Sl 14 (material exclusivo de Sl 53); crux textual documentado no destinatário do sufixo pronominal, mantido como ambiguidade preservada; confiança rebaixada por isso.",
+  "confianca": 0.52,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

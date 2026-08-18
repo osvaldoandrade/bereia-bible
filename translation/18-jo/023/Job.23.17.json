@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.23.17",
+    "livro": "Jó",
+    "capitulo": 23,
+    "versiculo": 17,
+    "pericope": "Job.23.1-17"
+  },
+  "texto_bv": "Pois não fui silenciado diante das trevas, e trevas espessas cobriram o meu rosto.",
+  "traducao_literal": "Porque não fui destruído/silenciado diante da escuridão, e diante do meu rosto cobriu [a] escuridão espessa.",
+  "termos_originais": [
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "נִ֭צְמַתִּי",
+      "lemma": "6789",
+      "morfologia": "HVNp1cs"
+    },
+    {
+      "palavra": "מִפְּנֵי",
+      "lemma": "m/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "חֹ֑שֶׁךְ",
+      "lemma": "2822",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּ֝מִפָּנַ֗י",
+      "lemma": "c/m/6440",
+      "morfologia": "HC/R/Ncbpc/Sp1cs"
+    },
+    {
+      "palavra": "כִּסָּה",
+      "lemma": "3680",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "אֹֽפֶל",
+      "lemma": "652",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חֹשֶׁךְ (H2822): manter a glosa padrão 'escuridão' do léxico ou usar 'trevas'?",
+      "escolha": "'trevas' — desvio da glosa padrão, com lexico_ref",
+      "justificativa": "A entrada do léxico (H2822) reserva explicitamente 'trevas' para contextos poético-morais mediante adjudicação; Jó 23:17 é lamento poético sobre o terror diante de Deus, exatamente o tipo de contexto previsto para esse desvio (lexico_ref: lexicon.json H2822).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'escuridão' (glosa padrão do léxico)",
+          "motivo": "a própria entrada do léxico já reserva 'trevas' para contextos poético-morais como este, evitando registro cosmológico-técnico fora de lugar aqui"
+        }
+      ]
+    },
+    {
+      "questao": "Segunda oração do verso não repete explicitamente a negação לֹא: estender a negação da primeira oração ou ler afirmativamente?",
+      "escolha": "Ler afirmativamente, conforme a sintaxe do TM tal como pinado.",
+      "justificativa": "O TM não repete a negação na segunda oração; a BV segue a sintaxe pinada, preservando a leitura afirmativa e registrando a leitura alternativa como ambiguidade preservada (TEOLOGIA §1.5).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'nem trevas espessas cobriram o meu rosto' (negação estendida)",
+          "motivo": "exigiria suprir um לֹא ausente no TM pinado; sem aparato de variante no pacote, a BV não insere negação não atestada"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A segunda oração do verso não repete a negação לֹא; algumas leituras estendem a negação da primeira oração a ela ('nem trevas espessas cobriram o meu rosto'), mas o TM apresenta afirmação positiva — a BV segue o TM tal como pontuado."
+  ],
+  "justificativa": "Verso final do capítulo, crux clássico sobre a sintaxe da negação; desvio lexical de 'escuridão' para 'trevas' documentado via lexico_ref conforme previsto na própria entrada do léxico.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

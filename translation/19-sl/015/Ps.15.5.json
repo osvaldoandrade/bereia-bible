@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.15.5",
+    "livro": "Salmos",
+    "capitulo": 15,
+    "versiculo": 5,
+    "pericope": "Ps.15.1-5"
+  },
+  "texto_bv": "Não dá o seu dinheiro a juros, nem aceita suborno contra o inocente. Quem faz estas coisas nunca será abalado.",
+  "traducao_literal": "Seu dinheiro não deu em juros; e suborno contra o inocente não tomou. O que faz estas coisas não será abalado para sempre.",
+  "termos_originais": [
+    {
+      "palavra": "כַּסְפּ֤וֹ",
+      "lemma": "3701",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "נָתַ֣ן",
+      "lemma": "5414",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בְּנֶשֶׁךְ֮",
+      "lemma": "b/5392",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְשֹׁ֥חַד",
+      "lemma": "c/7810",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "נָקִ֗י",
+      "lemma": "5355 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "לֹ֥א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "לָ֫קָ֥ח",
+      "lemma": "3947",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "עֹֽשֵׂה",
+      "lemma": "6213 a",
+      "morfologia": "HVqrmsc"
+    },
+    {
+      "palavra": "אֵ֑לֶּה",
+      "lemma": "428",
+      "morfologia": "HPdxcp"
+    },
+    {
+      "palavra": "לֹ֖א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִמּ֣וֹט",
+      "lemma": "4131",
+      "morfologia": "HVNi3ms"
+    },
+    {
+      "palavra": "לְעוֹלָֽם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Fronteamento de כַּסְפּוֹ e שֹׁחַד antes dos respectivos verbos (ordem O-V, duas vezes no verso)",
+      "escolha": "preservar a ordem objeto-verbo na tradução literal; normalizar para sujeito-verbo-objeto no texto publicado",
+      "justificativa": "Doutrina do calque (ER-0013), mesma aplicação dos vv.3-4",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter o fronteamento no publicado",
+          "motivo": "soa arcaico/traduzido em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "נֶשֶׁךְ ('juros/usura', literalmente 'mordida', de root נשך)",
+      "escolha": "'juros'",
+      "justificativa": "Registro neutro contemporâneo; o valor lexical básico é 'juros cobrados' (proibidos pela Torá entre israelitas), sem necessidade de importar a conotação pejorativa adicional de 'usura'",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'usura'",
+          "motivo": "introduz carga moralizante além do valor lexical simples, ainda que etimologicamente mais próxima da raiz 'morder'"
+        }
+      ]
+    },
+    {
+      "questao": "אֵלֶּה ('estas'), demonstrativo plural sem núcleo nominal explícito",
+      "escolha": "suprir 'coisas' — 'estas coisas'",
+      "justificativa": "O português exige núcleo nominal para o demonstrativo plural; o hebraico permite o pronome sozinho, substantivado",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "לְעוֹלָם ('para sempre') com negação לֹא יִמּוֹט ('não será abalado')",
+      "escolha": "'nunca será abalado' no texto publicado, mantendo 'não será abalado para sempre' na tradução literal",
+      "justificativa": "Fusão idiomática de negação + 'para sempre' em advérbio único ('nunca') é mais natural em português corrente, sem perda semântica; a literal preserva os dois elementos separados do original",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'não será abalado para sempre' também no publicado",
+          "motivo": "aceitável, mas 'nunca será abalado' flui melhor em leitura em voz alta (EDITORIAL §1.3) mantendo o mesmo sentido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "coisas"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso final, encerrando a lista de características do justo (não empresta a juros, não aceita suborno) com a promessa conclusiva de estabilidade perpétua. Dois fronteamentos O-V normalizados; נֶשֶׁךְ traduzido por valor lexical neutro 'juros'.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

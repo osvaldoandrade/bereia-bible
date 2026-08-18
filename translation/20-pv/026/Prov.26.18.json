@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.26.18",
+    "livro": "Provérbios",
+    "capitulo": 26,
+    "versiculo": 18,
+    "pericope": "Prov.26.1-28"
+  },
+  "texto_bv": "Como um louco que atira tições, flechas e morte,",
+  "traducao_literal": "Como um louco que atira tições, flechas e morte,",
+  "termos_originais": [
+    {
+      "palavra": "כְּֽ֭מִתְלַהְלֵהַּ",
+      "lemma": "k/3856 b",
+      "morfologia": "HR/Vfrmsa"
+    },
+    {
+      "palavra": "הַיֹּרֶ֥ה",
+      "lemma": "d/3384 b",
+      "morfologia": "HTd/Vqrmsa"
+    },
+    {
+      "palavra": "זִקִּ֗ים",
+      "lemma": "2131 a",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "חִצִּ֥ים",
+      "lemma": "2671",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וָמָֽוֶת",
+      "lemma": "c/4194",
+      "morfologia": "HC/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sentença dividida entre v.18 (prótase) e v.19 (apódose)",
+      "escolha": "manter o corte na fronteira versicular, encerrando v.18 em vírgula e completando o sentido em v.19",
+      "justificativa": "A divisão em versículos do texto-fonte corta a sentença nesse ponto; alterar a pontuação para fechar o pensamento em v.18 romperia a correspondência 1:1 verso-registro exigida pelo pipeline.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "antecipar 'assim é' já em v.18",
+          "motivo": "o marcador comparativo כֵּן só aparece no início de v.19 no hebraico; antecipá-lo distorceria a divisão versicular"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "מִתְלַהְלֵהַּ (hitpael, 'enlouquecido/desvairado') descreve alguém que dispara projéteis mortais por diversão, preparando a comparação com o enganador de v.19.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.134.3",
+    "livro": "Salmos",
+    "capitulo": 134,
+    "versiculo": 3,
+    "pericope": "Ps.134.1-3"
+  },
+  "texto_bv": "Que o SENHOR, aquele que fez os céus e a terra, abençoe você desde Sião.",
+  "traducao_literal": "Abençoe-te SENHOR desde-Sião, o-que-faz céus e-terra.",
+  "termos_originais": [
+    {
+      "palavra": "יְבָרֶכְךָ֣",
+      "lemma": "1288",
+      "morfologia": "HVpi3ms/Sp2ms"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִצִּיּ֑וֹן",
+      "lemma": "m/6726",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "עֹ֝שֵׂ֗ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqrmsc"
+    },
+    {
+      "palavra": "שָׁמַ֥יִם",
+      "lemma": "8064",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וָאָֽרֶץ",
+      "lemma": "c/776",
+      "morfologia": "HC/Ncbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Verbo יְבָרֶכְךָ (Piel imperfeito 3ms + sufixo 2ms): valor modal (jussivo/optativo de bênção) e registro do pronome de 2ª pessoa",
+      "escolha": "Que... abençoe você",
+      "justificativa": "Imperfeito com valor jussivo/precativo, fórmula de bênção sacerdotal correspondente a Sl 128:5 (mesma expressão יְבָרֶכְךָ יְהוָה מִצִּיּוֹן); traduzido com 'que + subjuntivo' para marcar o desejo/bênção pronunciada. Sufixo 2ms preservado como singular 'você' (EDITORIAL §3/D-0003: distinção singular/plural do original sempre mantida) — a bênção recai sobre cada indivíduo, não sobre o grupo coletivamente, marcando contraste com os vocês/vós de v.1–2.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "abençoará você (futuro indicativo)",
+          "motivo": "esvazia o valor jussivo/precativo típico da fórmula de bênção sacerdotal, tornando-a mera predição em vez de invocação"
+        }
+      ]
+    },
+    {
+      "questao": "Verter עֹשֵׂה שָׁמַיִם וָאָרֶץ (particípio construto de עשה, H6213 'fazer', não H1254a 'criar')",
+      "escolha": "aquele que fez os céus e a terra",
+      "justificativa": "Distinção lexical vinculante criar(H1254a)/fazer(H6213): o lema aqui é 6213, exigindo a família de 'fazer', não 'criar', mesmo sendo epíteto cosmológico equivalente em função a título de 'Criador' em outras línguas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "criador dos céus e da terra",
+          "motivo": "importaria H1254a onde o texto emprega H6213; viola a distinção criar/fazer registrada nas diretrizes editoriais"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (partícula introdutória do jussivo, exigida pelo português para marcar o valor optativo/precativo do imperfeito hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Resposta/bênção de fechamento do salmo, provavelmente pronunciada pelos servos/sacerdotes sobre quem os saudou, espelhando Sl 128:5. Ordem do particípio apositivo עֹשֵׂה שָׁמַיִם וָאָרֶץ reposicionada no publicado para seguir 'o SENHOR' de perto (calque de ordem preservado na literal: sujeito+verbo+objeto, epíteto ao final, ER-0013).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.12.12",
+    "livro": "Provérbios",
+    "capitulo": 12,
+    "versiculo": 12,
+    "pericope": "Prov.12.1-28"
+  },
+  "texto_bv": "O ímpio deseja o despojo dos maus, mas a raiz dos justos permanece firme e dá fruto.",
+  "traducao_literal": "Deseja ímpio rede/despojo de maus; e raiz de justos dá.",
+  "termos_originais": [
+    {
+      "palavra": "חָמַ֣ד",
+      "lemma": "2530 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "רָ֭שָׁע",
+      "lemma": "7563",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "מְצ֣וֹד",
+      "lemma": "4685 b",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "רָעִ֑ים",
+      "lemma": "7451 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "וְשֹׁ֖רֶשׁ",
+      "lemma": "c/8328",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "צַדִּיקִ֣ים",
+      "lemma": "6662",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "יִתֵּֽן",
+      "lemma": "5414",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "objeto elíptico de יִתֵּן",
+      "escolha": "permanece firme e dá fruto",
+      "justificativa": "o TM traz apenas 'dá' (יִתֵּן) sem objeto expresso; este hemistíquio é reconhecidamente um dos mais obscuros do livro; a maioria das versões modernas lê sentido de estabilidade/frutificação da raiz, e o verbo 'dar' sem objeto sugere 'dar fruto' por elipse comum em contexto agrícola hebraico",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "a raiz dos justos permanece (sem verbo 'dar')",
+          "motivo": "ignoraria o יִתֵּן do TM, presente e não emendado no packet pinado"
+        },
+        {
+          "opcao": "traduzir apenas 'dá' sem completar o sentido",
+          "motivo": "agramatical em português; verbo transitivo exige objeto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "permanece firme / fruto (objeto elíptico de יִתֵּן)"
+  ],
+  "ambiguidades_preservadas": [
+    "o TM não especifica o objeto de יִתֵּן ('dá'); tradições exegéticas divergem entre 'permanece firme' e 'dá fruto'; a BV supre 'fruto' como leitura mais consistente com a metáfora da raiz, preservando a alternativa aqui."
+  ],
+  "justificativa": "מָצוֹד (H4685b) pode significar 'rede de caça' ou, por extensão, 'presa/despojo'; TM extremamente conciso e sintaticamente elíptico neste hemistíquio.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

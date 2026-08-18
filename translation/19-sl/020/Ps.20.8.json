@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.20.8",
+    "livro": "Salmos",
+    "capitulo": 20,
+    "versiculo": 8,
+    "pericope": "Ps.20.1-10"
+  },
+  "texto_bv": "Uns confiam em carros, e outros em cavalos; mas nós invocamos o nome do SENHOR, nosso Deus.",
+  "traducao_literal": "Estes em-carros, e-estes em-cavalos; e-nós no-nome-do-SENHOR nosso-Deus invocamos.",
+  "termos_originais": [
+    {
+      "palavra": "אֵ֣לֶּה",
+      "lemma": "428",
+      "morfologia": "HPdxcp"
+    },
+    {
+      "palavra": "בָ֭רֶכֶב",
+      "lemma": "b/7393",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "וְאֵ֣לֶּה",
+      "lemma": "c/428",
+      "morfologia": "HC/Pdxcp"
+    },
+    {
+      "palavra": "בַסּוּסִ֑ים",
+      "lemma": "b/5483 b",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "וַאֲנַ֓חְנוּ",
+      "lemma": "c/587",
+      "morfologia": "HC/Pp1cp"
+    },
+    {
+      "palavra": "בְּשֵׁם",
+      "lemma": "b/8034",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהֵ֣ינוּ",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "נַזְכִּֽיר",
+      "lemma": "2142",
+      "morfologia": "HVhi1cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֵלֶּה...וְאֵלֶּה — construção demonstrativa distributiva ('estes...e estes'), oração nominal sem verbo (elipse)",
+      "escolha": "Uns...e outros [confiam]",
+      "justificativa": "O português exige verbo para a oração nominal hebraica; 'confiam' é suprido por elipse gramatical obrigatória (EDITORIAL §4), e o par demonstrativo distributivo vira 'uns...outros', mais idiomático que a repetição de 'estes'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Estes [confiam] em carros, e estes em cavalos' (calque)",
+          "motivo": "repetição de 'estes' soa redundante em português; preservada na traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "נַזְכִּיר (hifil de זכר, 'fazer lembrar/mencionar/invocar') — verbo de raiz distinta do elidido nas duas primeiras orações",
+      "escolha": "invocamos",
+      "justificativa": "O hifil de זכר aqui tem sentido de proclamar/invocar o nome como fundamento de confiança, em contraste retórico com carros/cavalos; preserva-se o lexema próprio em vez de igualá-lo ao verbo 'confiar' (בטח), ausente deste verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "confiamos",
+          "motivo": "importaria o lexema בטח, não presente no texto, só por harmonização com o contraste; TEOLOGIA §2 veda escolha sem suporte lexical direto"
+        },
+        {
+          "opcao": "lembramos (calque)",
+          "motivo": "correto mas semanticamente fraco isolado, sem o matiz de proclamação pública que o contraste retórico pede; preservado na traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "וַאֲנַחְנוּ — waw + pronome independente retomando o sujeito em contraste com 'uns...outros'",
+      "escolha": "mas nós",
+      "justificativa": "A retomada do sujeito com pronome independente sinaliza contraste retórico; ER-0013 permite não verter o waw simples como 'e' quando a força discursiva pedir valor adversativo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "e nós (calque)",
+          "motivo": "perde o contraste retórico marcado pela retomada pronominal; preservado na traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "confiam"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Contraste retórico entre a confiança militar humana (carros, cavalos) e a fonte real de segurança do povo de Deus (o nome do SENHOR).",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

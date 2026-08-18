@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.42.20",
+    "livro": "Isaías",
+    "capitulo": 42,
+    "versiculo": 20,
+    "pericope": "Isa.42.1-25"
+  },
+  "texto_bv": "Você viu muitas coisas, mas não presta atenção; seus ouvidos estão abertos, mas você não ouve.",
+  "traducao_literal": "Viste muitas [coisas] e não guardarás; abrir de ouvidos e não ouvirá.",
+  "termos_originais": [
+    {
+      "palavra": "ראית",
+      "lemma": "7200",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "רַבּ֖וֹת",
+      "lemma": "7227 a",
+      "morfologia": "HAafpa"
+    },
+    {
+      "palavra": "וְלֹ֣א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "תִשְׁמֹ֑ר",
+      "lemma": "8104",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "פָּק֥וֹחַ",
+      "lemma": "6491",
+      "morfologia": "HVqa"
+    },
+    {
+      "palavra": "אָזְנַ֖יִם",
+      "lemma": "241",
+      "morfologia": "HNcfda"
+    },
+    {
+      "palavra": "וְלֹ֥א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יִשְׁמָֽע",
+      "lemma": "8085",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Surface 'ראית' aparece sem vocalização no packet pinado (fonte OSHB, Isa.xml). Morfologia anexada (HVqp2ms) segue a leitura Ketiv ('viste', perfeito 2ms); a tradição de Qere propõe 'רָאוֹת' (infinitivo construto, 'ver'), que harmonizaria a pessoa gramatical com o paralelo פָּקוֹחַ (infinitivo absoluto) e com יִשְׁמָע (3ms).",
+      "leituras": [
+        {
+          "leitura": "ראית = 'viste' (Ketiv, perfeito 2ms, morfologia pinada)",
+          "testemunhas": "OSHB (fonte pinada, morph HVqp2ms)"
+        },
+        {
+          "leitura": "רָאוֹת = 'ver' (Qere tradicional, infinitivo)",
+          "testemunhas": "tradição massorética de Qere; harmoniza com o paralelismo infinitivo do versículo"
+        }
+      ],
+      "avaliacao": "segue-se o Ketiv pinado pela fonte (OSHB), conforme a morfologia efetivamente anexada no packet; o Qere é registrado como leitura alternativa amplamente adotada pelas versões modernas.",
+      "impacto_na_traducao": "decide a pessoa gramatical do primeiro colo (2ms 'você viu' vs. leitura impessoal 'vendo muitas coisas'); optou-se por 2ms, uniformizado com o restante do versículo no texto publicado."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Harmonização de pessoa gramatical entre רָאִיתָ/תִשְׁמֹר (2ms, conforme Ketiv/morfologia pinada) e יִשְׁמָע (3ms) no mesmo versículo",
+      "escolha": "uniformizar para 2ms ('você') no texto publicado",
+      "justificativa": "o hebraico como impresso mistura pessoa gramatical (2ms nos dois primeiros verbos, 3ms no último); a doutrina do calque (ER-0013) autoriza normalizar no publicado o que soa artificial em português, preservando a mistura apenas na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 3ms no fecho ('...mas ele não ouve')",
+          "motivo": "produziria mudança de pessoa em pt-BR sem antecedente claro, mais estranha que a alternância já tolerada no hebraico poético"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Crux textual conhecida (Ketiv/Qere) explorada; ver variantes_textuais para a adjudicação completa.",
+  "confianca": 0.58,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

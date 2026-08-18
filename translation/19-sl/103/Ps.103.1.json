@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.103.1",
+    "livro": "Salmos",
+    "capitulo": 103,
+    "versiculo": 1,
+    "pericope": "Ps.103.1-22"
+  },
+  "texto_bv": "De Davi. Bendize, minha alma, o SENHOR, e todo o meu ser interior bendiga o seu santo nome.",
+  "traducao_literal": "De Davi. Bendize, minha alma, o SENHOR; e todas as minhas entranhas, o nome da sua santidade.",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֨ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "בָּרֲכִ֣י",
+      "lemma": "1288",
+      "morfologia": "HVpv2fs"
+    },
+    {
+      "palavra": "נַ֭פְשִׁי",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "קְ֝רָבַ֗י",
+      "lemma": "7130",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "שֵׁ֥ם",
+      "lemma": "8034",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "קָדְשֽׁוֹ",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de 2ª pessoa para o autoapóstrofe à própria alma (נַפְשִׁי), que abre e fecha o salmo (inclusio com v.22).",
+      "escolha": "Tratar todo o salmo como discurso salmódico dirigido ao louvor de Deus e usar o par tu/vós de forma uniforme nos imperativos de bênção (v.1 'bendize' tu-sg; v.20-22 'bendizei' vós-pl), mesmo quando o vocativo gramatical é a alma, os anjos ou os exércitos, não Deus diretamente.",
+      "justificativa": "EDITORIAL §3 reserva 'tu' a oração/salmo dirigido a Deus; este é um salmo hínico de louvor, e o registro uniforme evita mistura tu/você no mesmo poema.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "você/vocês uniforme",
+          "motivo": "a regra D-0003 reserva você/vocês a discurso humano comum; o gênero deste texto é hinódico/litúrgico, não diálogo comum"
+        },
+        {
+          "opcao": "tu só quando o vocativo é literalmente 'Deus'",
+          "motivo": "deixaria o salmo com registro misto (tu na alma, você nos anjos), quebrando a coesão do refrão que emoldura o poema"
+        }
+      ]
+    },
+    {
+      "questao": "Verbo elidido na segunda oração (וְכָל־קְרָבַי אֶת־שֵׁם קָדְשׁוֹ, sem verbo próprio).",
+      "escolha": "Suprir 'bendiga' (3ª pessoa, concordando com 'todo o meu ser interior'), repetindo o imperativo do primeiro membro por elipse.",
+      "justificativa": "O português exige verbo expresso em cada oração coordenada; o hebraico elide por paralelismo (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir 'bendize' (2ª pessoa)",
+          "motivo": "o sujeito do segundo membro não é mais 'minha alma' (2fs) mas 'minhas entranhas/meu interior', pedindo 3ª pessoa em português"
+        }
+      ]
+    },
+    {
+      "questao": "קֶרֶב (H7130, 'entranhas/interior').",
+      "escolha": "'todo o meu ser interior' no publicado; 'todas as minhas entranhas' na literal.",
+      "justificativa": "Evita registro clínico mantendo o sentido de totalidade interior do orante.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'minhas vísceras'",
+          "motivo": "registro clínico, quebra o tom devocional"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "bendiga (verbo elidido no segundo membro do paralelismo)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo: autoconvocação da alma à bênção de YHWH, com paralelismo sinonímico (alma / entranhas) resolvido por elipse verbal suprida. Fixa o registro tu/vós usado no refrão de todo o capítulo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

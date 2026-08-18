@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.10.1",
+    "livro": "Eclesiastes",
+    "capitulo": 10,
+    "versiculo": 1,
+    "pericope": "Eccl.10.1-20"
+  },
+  "texto_bv": "Moscas mortas fazem feder e apodrecer o óleo do perfumista; um pouco de insensatez pesa mais do que sabedoria e honra.",
+  "traducao_literal": "Moscas de morte fazem feder, fazem fermentar óleo de perfumista; precioso mais que sabedoria, mais que honra, insensatez pouca.",
+  "termos_originais": [
+    {
+      "palavra": "זְב֣וּבֵי",
+      "lemma": "2070",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "מָ֔וֶת",
+      "lemma": "4194",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יַבְאִ֥ישׁ",
+      "lemma": "887",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "יַבִּ֖יעַ",
+      "lemma": "5042",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "שֶׁ֣מֶן",
+      "lemma": "8081",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "רוֹקֵ֑חַ",
+      "lemma": "7543",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "יָקָ֛ר",
+      "lemma": "3368",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "מֵחָכְמָ֥ה",
+      "lemma": "m/2451",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "מִכָּב֖וֹד",
+      "lemma": "m/3519",
+      "morfologia": "HR/Ncbsa"
+    },
+    {
+      "palavra": "סִכְל֥וּת",
+      "lemma": "5531 b",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "מְעָֽט",
+      "lemma": "4592",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "זְבוּבֵי מָוֶת (construto 'moscas de morte') — como verter no publicado?",
+      "escolha": "'moscas mortas' (adjetival)",
+      "justificativa": "Construto hebraico usado adjetivalmente; normalizado no publicado (ER-0013), calque do construto preservado na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'moscas de morte' no publicado",
+          "motivo": "soa artificial em português corrente; reservado à traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "יַבְאִישׁ יַבִּיעַ — dois verbos hifil assindéticos, sem waw entre eles",
+      "escolha": "condensar com 'e' no publicado: 'fazem feder e apodrecer'",
+      "justificativa": "ER-0013: justaposição assindética normalizável no publicado; literal preserva os dois verbos separados sem conectivo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "listar os dois verbos sem conectivo no publicado",
+          "motivo": "soaria truncado em português"
+        }
+      ]
+    },
+    {
+      "questao": "יָקָר מֵחָכְמָה מִכָּבוֹד — 'precioso mais que' com valor comparativo negativo (peso/dano, não elogio)",
+      "escolha": "'pesa mais do que' (equivalência dinâmica)",
+      "justificativa": "O contexto compara dano/peso, não valor positivo; 'precioso' induziria leitura elogiosa da insensatez, invertendo o sentido do provérbio. Glosa lexical 'precioso' preservada na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'é mais precioso do que sabedoria e honra'",
+          "motivo": "soa como elogio à insensatez, contrário ao sentido do provérbio"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Provérbio de abertura do capítulo: um defeito pequeno (insensatez) arruína uma reputação grande (sabedoria/honra), como moscas mortas estragam óleo perfumado.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

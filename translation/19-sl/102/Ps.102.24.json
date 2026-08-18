@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.102.24",
+    "livro": "Salmos",
+    "capitulo": 102,
+    "versiculo": 24,
+    "pericope": "Ps.102.1-29"
+  },
+  "texto_bv": "Ele abateu a minha força no caminho; abreviou os meus dias.",
+  "traducao_literal": "Ele afligiu no caminho a força dele [Ketiv] / a minha força [Qere]; abreviou os meus dias.",
+  "termos_originais": [
+    {
+      "palavra": "עִנָּ֖ה",
+      "lemma": "6031 b",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "בַדֶּ֥רֶךְ",
+      "lemma": "b/1870",
+      "morfologia": "HRd/Ncbsa"
+    },
+    {
+      "palavra": "כחו",
+      "lemma": "3581 b",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "קִצַּ֥ר",
+      "lemma": "7114 a",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "יָמָֽי",
+      "lemma": "3117",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Ketiv/Qere massorético em כחו/כֹּחִי (Sl 102:24); o texto pinado (referencia_fonte: OSHB, Ps.102.24, palavra 'כחו') traz a forma consonantal sem pontuação massorética, distinta de todas as demais palavras vocalizadas do verso — sinal do par Ketiv/Qere tradicional",
+      "leituras": [
+        {
+          "leitura": "כחו (Ketiv) — 'a força dele' (3ª pessoa masculina singular)",
+          "testemunhas": "texto consonantal massorético (Ketiv), presente sem pontuação no packet OSHB pinado"
+        },
+        {
+          "leitura": "כֹּחִי (Qere) — 'a minha força' (1ª pessoa comum singular)",
+          "testemunhas": "tradição de leitura massorética (Qere); seguida pela esmagadora maioria das versões antigas e modernas, coerente com o discurso em primeira pessoa do salmo"
+        }
+      ],
+      "avaliacao": "Qere adotado no texto publicado por coerência gramatical com a primeira pessoa dominante no salmo e por ser a leitura tradicional/majoritária; Ketiv preservado no registro para auditoria.",
+      "impacto_na_traducao": "Determina se o verso fala da força do próprio orante ('minha força', leitura adotada) ou de uma terceira pessoa não identificada ('a força dele', Ketiv) — mudança material de referente."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "כחו (Ketiv, forma consonantal sem pontuação no texto pinado) — 'a força dele' (3ms) — vs. leitura tradicional Qere כֹּחִי — 'a minha força' (1cs)",
+      "escolha": "seguir a leitura Qere tradicional ('a minha força'), registrando o Ketiv consonantal",
+      "justificativa": "o packet pinado traz a forma consonantal sem pontuação massorética (כחו), sinal próprio do aparato Ketiv/Qere; a esmagadora maioria das versões e comentaristas segue o Qere כֹּחִי por coerência com o contexto de primeira pessoa ininterrupto (יָמָי, 'meus dias', na mesma oração); manter o Ketiv 3ms produziria mudança abrupta e não sinalizada de pessoa gramatical",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "seguir o Ketiv literal ('a força dele')",
+          "motivo": "introduziria troca de sujeito gramatical não indicada no discurso (o orante fala de si mesmo em primeira pessoa em todo o entorno), sem apoio versional"
+        }
+      ]
+    },
+    {
+      "questao": "עִנָּה — sujeito não expresso (retomado do contexto: Deus)",
+      "escolha": "suprir 'Ele' como sujeito, referindo-se a Deus",
+      "justificativa": "o verbo transitivo עִנָּה ('afligiu') exige agente; o contexto do lamento atribui a aflição à ação divina (cf. v.10-11, 'por causa da tua indignação'), mantendo a atribuição direta a Deus sem suavização (TEOLOGIA §2)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sujeito impessoal ('fui afligido no caminho')",
+          "motivo": "despersonaliza a agência divina explícita no restante do salmo, suavizando a dificuldade teológica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Ele (sujeito suprido de עִנָּה)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Retomada do lamento pessoal após a seção de esperança (v.13-23): a força do orante foi abatida e seus dias, abreviados — crise de mortalidade que motiva a súplica do v.25.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

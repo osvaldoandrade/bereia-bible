@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.146.4",
+    "livro": "Salmos",
+    "capitulo": 146,
+    "versiculo": 4,
+    "pericope": "Ps.146.1-10"
+  },
+  "texto_bv": "Sai o seu espírito, e ele volta ao seu solo; naquele dia perecem os seus planos.",
+  "traducao_literal": "Sai o espírito dele, volta ao solo dele; no dia aquele pereceram os pensamentos dele.",
+  "termos_originais": [
+    {
+      "palavra": "תֵּצֵ֣א",
+      "lemma": "3318",
+      "morfologia": "HVqi3fs"
+    },
+    {
+      "palavra": "ר֭וּחוֹ",
+      "lemma": "7307",
+      "morfologia": "HNcbsc/Sp3ms"
+    },
+    {
+      "palavra": "יָשֻׁ֣ב",
+      "lemma": "7725",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "לְאַדְמָת֑וֹ",
+      "lemma": "l/127",
+      "morfologia": "HR/Ncfsc/Sp3ms"
+    },
+    {
+      "palavra": "בַּיּ֥וֹם",
+      "lemma": "b/3117",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הַ֝ה֗וּא",
+      "lemma": "d/1931",
+      "morfologia": "HTd/Pp3ms"
+    },
+    {
+      "palavra": "אָבְד֥וּ",
+      "lemma": "6",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "עֶשְׁתֹּנֹתָֽיו",
+      "lemma": "6250",
+      "morfologia": "HNcfpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲדָמָה ('solo/terra cultivável') vs. אֶרֶץ (H776, já fixado no léxico como 'terra')",
+      "escolha": "'solo'",
+      "justificativa": "אֲדָמָה é lexema distinto de אֶרֶץ; usar 'solo' preserva a distinção lexical para auditoria e evoca o campo semântico de 'chão' de onde o homem foi formado (Gn 2:7; 3:19), sem colidir com a entrada já fixada para H776.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "terra",
+          "motivo": "colidiria com a glosa já fixada para H776 (אֶרֶץ), apagando a distinção lexical entre os dois termos hebraicos"
+        }
+      ]
+    },
+    {
+      "questao": "אבד no perfeito (אָבְדוּ) com valor gnômico",
+      "escolha": "Verter no presente do indicativo ('perecem') no texto publicado; a traducao_literal preserva o perfeito ('pereceram')",
+      "justificativa": "O perfeito hebraico em sentença sapiencial descreve verdade geral atemporal; o presente é o equivalente idiomático natural em português (ER-0013 aplicado ao tempo verbal como calque preservável na literal).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pereceram (pretérito) no texto publicado",
+          "motivo": "soa como evento único e passado, obscurecendo o valor gnômico da sentença"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "עֶשְׁתֹּנֹתָיו (H6250) é termo raro; a glosa 'planos' é a mais aceita, mas 'pensamentos'/'projetos' permanecem semanticamente próximos e não excluídos pela morfologia."
+  ],
+  "justificativa": "Continuação do v.3: a mortalidade do ser humano invalida a confiança nele depositada; עֶשְׁתֹּנֹתָיו é termo raro no AT, sentido 'planos/projetos'.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

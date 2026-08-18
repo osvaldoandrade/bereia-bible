@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.36.2",
+    "livro": "Salmos",
+    "capitulo": 36,
+    "versiculo": 2,
+    "pericope": "Ps.36.1-13"
+  },
+  "texto_bv": "No íntimo do meu coração há um oráculo sobre a transgressão do ímpio: não há pavor de Deus diante dos seus olhos.",
+  "traducao_literal": "Oráculo de transgressão para o ímpio, no íntimo do meu coração: não há pavor de Deus diante dos seus olhos.",
+  "termos_originais": [
+    {
+      "palavra": "נְאֻֽם",
+      "lemma": "5002",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "פֶּ֣שַׁע",
+      "lemma": "6588",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לָ֭רָשָׁע",
+      "lemma": "l/7563",
+      "morfologia": "HRd/Aamsa"
+    },
+    {
+      "palavra": "בְּקֶ֣רֶב",
+      "lemma": "b/7130",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "לִבִּ֑י",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "אֵֽין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "פַּ֥חַד",
+      "lemma": "6343",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֱ֝לֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לְנֶ֣גֶד",
+      "lemma": "l/5048",
+      "morfologia": "HR/R"
+    },
+    {
+      "palavra": "עֵינָֽיו",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לִבִּי (\"meu coração\", sufixo 1ª pessoa) — muitas versões modernas leem \"seu coração\" (do ímpio) por conjectura",
+      "escolha": "manter \"meu coração\", seguindo o sufixo 1cs do TM/OSHB pinado",
+      "justificativa": "o packet-fonte não traz variante textual (variantes_fonte) para esta palavra; a BV segue o texto pinado sem emendar, mesmo sendo esta uma cruz textual/interpretativa amplamente discutida (muitas traduções leem \"seu coração\" para suavizar a sintaxe).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"seu coração\" (emenda conjectural לִבּוֹ)",
+          "motivo": "não há base no aparato da fonte pinada (OSHB); alterar o sufixo pessoal seria emendar o TM sem variante atestada no packet"
+        }
+      ]
+    },
+    {
+      "questao": "Função sintática de נְאֻם־פֶּשַׁע לָרָשָׁע — oráculo dirigido ao ímpio ou referente a ele",
+      "escolha": "\"oráculo sobre a transgressão do ímpio\" (לְ com valor de referência/assunto)",
+      "justificativa": "leitura mais compatível com o resto da oração, que descreve uma constatação do salmista sobre o ímpio, não uma personificação da transgressão falando diretamente a ele.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"oráculo dirigido ao ímpio\" (transgressão personificada que fala a ele)",
+          "motivo": "leitura também gramaticalmente possível, mas menos natural com a retomada em 1ª pessoa (\"no íntimo do meu coração\") logo em seguida"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de פַּחַד (H6343) — \"pavor\" (glosa fixada em Sl 14.5/53.6) vs. \"temor\" (fórmula tradicional \"temor de Deus\")",
+      "escolha": "\"pavor\", por consistência com a glosa já fixada para o mesmo lexema no corpus",
+      "justificativa": "H6343 é lexema distinto de יִרְאָה (temor/reverência); a BV mantém glosa estável por lexema (Sl 14.5, Sl 53.6) em vez de importar a fórmula tradicional \"temor de Deus\", que traduziria outro termo hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"temor de Deus\" (fórmula tradicional)",
+          "motivo": "colidiria com a glosa fixa de יִרְאָה, apagando a distinção lexical entre pavor (dread) e temor/reverência que o hebraico mantém em textos distintos"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "quem percebe/pronuncia o oráculo — o salmista refletindo sobre o ímpio, ou a transgressão personificada falando ao coração dele — permanece em aberto; cruz sintática clássica do verso"
+  ],
+  "justificativa": "verso de abertura da seção descritiva do ímpio (vv.2-5); estrutura tradicionalmente considerada difícil, mantida conforme o TM pinado sem emenda.",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

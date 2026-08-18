@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.19.6",
+    "livro": "Jó",
+    "capitulo": 19,
+    "versiculo": 6,
+    "pericope": "Job.19.1-29"
+  },
+  "texto_bv": "Saibam, então, que Deus me tratou com injustiça e me cercou com a sua rede.",
+  "traducao_literal": "Sabei então que Deus perverteu-me; e a sua rede, sobre mim, cercou.",
+  "termos_originais": [
+    {
+      "palavra": "דְּֽעוּ",
+      "lemma": "3045",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "אֵ֭פוֹ",
+      "lemma": "645",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֱל֣וֹהַּ",
+      "lemma": "433",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "עִוְּתָ֑נִי",
+      "lemma": "5791",
+      "morfologia": "HVpp3ms/Sp1cs"
+    },
+    {
+      "palavra": "וּ֝מְצוּד֗וֹ",
+      "lemma": "c/4686 b",
+      "morfologia": "HC/Ncbsc/Sp3ms"
+    },
+    {
+      "palavra": "עָלַ֥י",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "הִקִּֽיף",
+      "lemma": "5362 b",
+      "morfologia": "HVhp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱלוֹהַּ (Eloah, H433) — aplicar a política de nomes divinos fixada para Elohim (H430) e El (H410)?",
+      "escolha": "Deus",
+      "justificativa": "Eloah é a forma singular de Elohim, amplamente usada em Jó; a política ER-0002/NOMES-DIVINOS.md já resolve H430 e H410 como 'Deus' — extensão consistente ao cognato singular, nesta primeira ocorrência do livro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Eloá'",
+          "motivo": "quebra a convenção consolidada de nomes divinos da BV sem ganho de sentido"
+        }
+      ]
+    },
+    {
+      "questao": "מְצוּדוֹ — 'rede/armadilha de caça' vs. 'cerco/fortificação'",
+      "escolha": "rede",
+      "justificativa": "מְצוּדָה pode significar rede de caça ou fortaleza; o contexto de cercar/aprisionar pessoalmente favorece a imagem de caça.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "cerco",
+          "motivo": "sugere fortificação militar, imagem menos preparada pelo contexto imediato de armadilha pessoal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira ocorrência de אֱלוֹהַּ nesta perícope; política de nomes divinos estendida por coerência lexical.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

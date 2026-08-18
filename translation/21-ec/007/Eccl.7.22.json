@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.7.22",
+    "livro": "Eclesiastes",
+    "capitulo": 7,
+    "versiculo": 22,
+    "pericope": "Eccl.7.1-29"
+  },
+  "texto_bv": "Pois seu próprio coração sabe que muitas vezes você também amaldiçoou outros.",
+  "traducao_literal": "Porque também muitas vezes o teu coração sabe que também tu amaldiçoaste outros.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֛י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "גַּם",
+      "lemma": "1571",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "פְּעָמִ֥ים",
+      "lemma": "6471",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "רַבּ֖וֹת",
+      "lemma": "7227 a",
+      "morfologia": "HAafpa"
+    },
+    {
+      "palavra": "יָדַ֣ע",
+      "lemma": "3045",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לִבֶּ֑ךָ",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "אֲשֶׁ֥ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "גַּם",
+      "lemma": "1571",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "את",
+      "lemma": "859 c",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "קִלַּ֥לְתָּ",
+      "lemma": "7043",
+      "morfologia": "HVpp2ms"
+    },
+    {
+      "palavra": "אֲחֵרִֽים",
+      "lemma": "312",
+      "morfologia": "HAampa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "A forma את (grafia defectiva, sem ה final) no lugar do esperado אַתָּה ('tu/você') — o packet pinado já resolve morfologicamente como pronome de 2ms (lemma 859c, HPp2ms), sem sinalizar aparato/variante de fonte.",
+      "escolha": "Traduzir normalmente como pronome de segunda pessoa ('você'), sem tratar como variante textual, seguindo a morfologia já resolvida no packet.",
+      "justificativa": "O packet não traz `variantes_fonte` para este verso; a grafia defectiva את=אַתָּה é fenômeno ortográfico bem atestado no hebraico bíblico (ketiv), já normalizado pela morfologia OSHB fornecida, não constituindo variante textual a adjudicar.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Registrar em variantes_textuais como se fosse aparato crítico",
+          "motivo": "o packet não fornece campo de aparato/variantes_fonte para este verso; tratar como variante textual sem essa base seria inventar aparato inexistente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso conclui a advertência do v.21 com autoconsciência: quem repreende deve lembrar-se de suas próprias faltas.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.146.6",
+    "livro": "Salmos",
+    "capitulo": 146,
+    "versiculo": 6,
+    "pericope": "Ps.146.1-10"
+  },
+  "texto_bv": "Ele fez os céus e a terra, o mar e tudo o que neles há; ele guarda a fidelidade para sempre.",
+  "traducao_literal": "O que faz céus e terra, o mar e tudo o que neles, o guardador de fidelidade para sempre.",
+  "termos_originais": [
+    {
+      "palavra": "עֹשֶׂ֤ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "שָׁ֘מַ֤יִם",
+      "lemma": "8064",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וָאָ֗רֶץ",
+      "lemma": "c/776",
+      "morfologia": "HC/Ncbsa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הַיָּ֥ם",
+      "lemma": "d/3220",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וְאֶת",
+      "lemma": "c/853",
+      "morfologia": "HC/To"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בָּ֑ם",
+      "lemma": "b",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "הַשֹּׁמֵ֖ר",
+      "lemma": "d/8104",
+      "morfologia": "HTd/Vqrmsa"
+    },
+    {
+      "palavra": "אֱמֶ֣ת",
+      "lemma": "571",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְעוֹלָֽם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Cadeia de particípios substantivados (עֹשֶׂה...הַשֹּׁמֵר) sem sujeito explícito, continuando a descrição de יהוה do v.5",
+      "escolha": "Suprir o pronome 'ele' e verter os particípios em orações finitas no texto publicado; preservar a cadeia participial não-finita na traducao_literal",
+      "justificativa": "O hebraico poético encadeia particípios substantivados como aposto do sujeito já introduzido em v.5 (SENHOR, seu Deus); o português exige sujeito explícito para clareza em leitura corrida/TTS. ER-0013 autoriza essa normalização estrutural no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter aposto sem verbo finito ('o que fez os céus e a terra... o que guarda...')",
+          "motivo": "gramatical, mas quebra a fluência de leitura em voz alta ao encadear apostos longos sem verbo principal claro"
+        }
+      ]
+    },
+    {
+      "questao": "אֱמֶת — 'verdade' vs. 'fidelidade'",
+      "escolha": "'fidelidade'",
+      "justificativa": "No contexto de 'guardar para sempre', אֱמֶת tem sentido relacional de constância/lealdade; 'fidelidade' capta esse eixo sem excluir o sentido de 'verdade'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "verdade",
+          "motivo": "leitura mais proposicional, menos natural com o verbo 'guardar para sempre' em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (2x)",
+    "há"
+  ],
+  "ambiguidades_preservadas": [
+    "אֱמֶת mantém dupla ressonância 'verdade/fidelidade'; a BV escolhe 'fidelidade' pelo eixo relacional do verbo 'guardar', sem excluir o sentido proposicional."
+  ],
+  "justificativa": "Louvor ao SENHOR como Criador (retoma vocabulário de Gn 1: céus, terra, mar) e como fiel guardião.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

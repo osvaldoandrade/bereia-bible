@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.14.4",
+    "livro": "Salmos",
+    "capitulo": 14,
+    "versiculo": 4,
+    "pericope": "Ps.14.1-7"
+  },
+  "texto_bv": "Acaso não sabem os que praticam a iniquidade, que devoram o meu povo como quem come pão e não invocam o SENHOR?",
+  "traducao_literal": "Não sabem todos os que praticam iniquidade? Comedores do meu povo comeram pão; ao SENHOR não invocaram.",
+  "termos_originais": [
+    {
+      "palavra": "הֲלֹ֥א",
+      "lemma": "i/3808",
+      "morfologia": "HTi/Tn"
+    },
+    {
+      "palavra": "יָדְעוּ֮",
+      "lemma": "3045",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "פֹּ֪עֲלֵ֫י",
+      "lemma": "6466",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "אָ֥וֶן",
+      "lemma": "205",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֹכְלֵ֣י",
+      "lemma": "398",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "עַ֭מִּי",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "אָ֣כְלוּ",
+      "lemma": "398",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "לֶ֑חֶם",
+      "lemma": "3899",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "יְ֝הוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "קָרָֽאוּ",
+      "lemma": "7121",
+      "morfologia": "HVqp3cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Escopo da pergunta retórica הֲלֹא יָדְעוּ — cobre só a primeira oração ou todo o verso?",
+      "escolha": "estender a interrogação a todo o verso, unindo as três orações num só período retórico",
+      "justificativa": "leitura padrão da sintaxe poética hebraica (cf. paralelo estrutural com salmos de sabedoria): a pergunta retórica governa as ações descritas nas orações seguintes.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "três orações independentes (pergunta + duas afirmações)",
+          "motivo": "quebra o paralelismo poético e produz leitura truncada em português"
+        }
+      ]
+    },
+    {
+      "questao": "אֹכְלֵי עַמִּי אָכְלוּ לֶחֶם — jogo de palavras com אכל duplicado, sem partícula comparativa explícita",
+      "escolha": "explicitar a comparação implícita: 'devoram o meu povo como quem come pão'",
+      "justificativa": "o hebraico justapõe particípio e perfeito da mesma raiz sem marcador comparativo; o português exige a partícula 'como' para que a metáfora (exploração tão fácil quanto comer pão) seja legível, sem alterar o sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"comedores do meu povo comeram pão\" (justaposição literal no publicado)",
+          "motivo": "ininteligível como metáfora em português corrente; a comparação fica implícita demais"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "como quem (comparação implícita entre os dois usos de אכל)"
+  ],
+  "ambiguidades_preservadas": [
+    "duplo uso de אכל: pode ler-se como metáfora de exploração fácil ou como descrição paralela de duas ações distintas (devorar o povo / comer pão) — a BV opta pela leitura metafórica majoritária"
+  ],
+  "justificativa": "פֹּעֲלֵי אָוֶן traduzido 'os que praticam a iniquidade' (idiom recorrente nos salmos). Objeto יְהוָה fronteado no hebraico ('ao SENHOR não invocaram') preservado na literal; normalizado para ordem verbo-objeto no publicado.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

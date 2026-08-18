@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.41.3",
+    "livro": "Salmos",
+    "capitulo": 41,
+    "versiculo": 3,
+    "pericope": "Ps.41.1-14"
+  },
+  "texto_bv": "O SENHOR o guardará e lhe dará vida; ele será declarado feliz na terra. Tu não o entregues à vontade dos seus inimigos.",
+  "traducao_literal": "SENHOR guardará-o e dará-lhe vida; será-declarado-feliz na terra; e não entregarás-o em alma de seus-inimigos.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יִשְׁמְרֵ֣הוּ",
+      "lemma": "8104",
+      "morfologia": "HVqi3ms/Sp3ms"
+    },
+    {
+      "palavra": "וִֽ֭יחַיֵּהוּ",
+      "lemma": "c/2421",
+      "morfologia": "HC/Vpi3ms/Sp3ms"
+    },
+    {
+      "palavra": "יאשר",
+      "lemma": "833",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "בָּאָ֑רֶץ",
+      "lemma": "b/776",
+      "morfologia": "HRd/Ncbsa"
+    },
+    {
+      "palavra": "וְאַֽל",
+      "lemma": "c/408",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "תִּ֝תְּנֵ֗הוּ",
+      "lemma": "5414",
+      "morfologia": "HVqj2ms/Sp3ms"
+    },
+    {
+      "palavra": "בְּנֶ֣פֶשׁ",
+      "lemma": "b/5315",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "אֹיְבָֽיו",
+      "lemma": "341",
+      "morfologia": "HVqrmpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como tratar יאשר, cuja etiqueta morfológica do packet (HTi, partícula interrogativa) diverge da leitura lexical mais aceita da raiz H833 (אשר, 'declarar/ser feliz')?",
+      "escolha": "ele será declarado feliz na terra (leitura verbal passiva de H833, paronomásia com אַשְׁרֵי de v.2)",
+      "justificativa": "A leitura como partícula interrogativa produziria sentença agramatical no contexto; a raiz consonantal, o paralelo formal com v.2 e o consenso das traduções críticas sustentam a leitura de bênção/declaração.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tratar como partícula interrogativa conforme a etiqueta morfológica bruta",
+          "motivo": "não produz sentença coerente na sequência sintática do versículo"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter בְּנֶפֶשׁ אֹיְבָיו (literalmente 'na alma/garganta/apetite dos seus inimigos')?",
+      "escolha": "à vontade dos seus inimigos",
+      "justificativa": "Idiomático em pt-BR para o sentido de 'entregar ao desejo/poder de'; נֶפֶשׁ aqui não é 'alma' no sentido teológico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ao apetite de seus inimigos",
+          "motivo": "mais literal, porém pouco natural em pt-BR"
+        },
+        {
+          "opcao": "nas mãos de seus inimigos",
+          "motivo": "perde a nuance de desejo/vontade presente em נֶפֶשׁ"
+        }
+      ]
+    },
+    {
+      "questao": "Mudança de 3ª pessoa (sobre o SENHOR) para 2ª pessoa direta em וְאַל־תִּתְּנֵהוּ",
+      "escolha": "tu (endereço direto a Deus em oração)",
+      "justificativa": "EDITORIAL §3/D-0003: salmo dirigido a Deus usa 'tu'.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito retomado explicitamente em pt-BR onde o hebraico usa apenas a flexão verbal de יאשר)"
+  ],
+  "ambiguidades_preservadas": [
+    "Vocalização exata de יאשר (Qal passivo vs. Pual) permanece incerta; sentido geral de 'ser declarado/tido por feliz' preservado em ambos os casos"
+  ],
+  "justificativa": "Verso combina promessa de proteção divina (3ª pessoa) com súplica direta final (2ª pessoa), padrão comum na poesia hebraica.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

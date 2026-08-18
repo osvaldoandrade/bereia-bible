@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.20.10",
+    "livro": "Provérbios",
+    "capitulo": 20,
+    "versiculo": 10,
+    "pericope": "Prov.20.1-30"
+  },
+  "texto_bv": "Pesos falsos e medidas falsas: o SENHOR detesta ambos.",
+  "traducao_literal": "Pedra e pedra, efa e efa: abominação ao SENHOR, também ambos eles.",
+  "termos_originais": [
+    {
+      "palavra": "אֶ֣בֶן",
+      "lemma": "68",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וָ֭אֶבֶן",
+      "lemma": "c/68",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "אֵיפָ֣ה",
+      "lemma": "374",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְאֵיפָ֑ה",
+      "lemma": "c/374",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "תּוֹעֲבַ֥ת",
+      "lemma": "8441",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "יְ֝הוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "גַּם",
+      "lemma": "1571",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "שְׁנֵיהֶֽם",
+      "lemma": "8147",
+      "morfologia": "HAcmdc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֶבֶן וָאֶבֶן / אֵיפָה וְאֵיפָה: idiom de repetição = pesos/medidas duplos e desiguais (fraude comercial)",
+      "escolha": "texto_bv: 'pesos falsos e medidas falsas'; traducao_literal preserva a repetição ('pedra e pedra, efa e efa')",
+      "justificativa": "A repetição do mesmo substantivo é idiom hebraico para 'dois pesos diferentes' (um para comprar, outro para vender) — fraude nas balanças; ER-0013 preserva o calque de repetição apenas na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir literalmente 'pedra e pedra' no texto_bv",
+          "motivo": "obscurece o sentido idiomático de fraude para o leitor comum"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "יְהוָה → SENHOR (ER-0002/NOMES-DIVINOS). Paralelo exato de 20:23.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

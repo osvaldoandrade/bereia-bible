@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.45.11",
+    "livro": "Isaías",
+    "capitulo": 45,
+    "versiculo": 11,
+    "pericope": "Isa.45.1-25"
+  },
+  "texto_bv": "Assim diz o SENHOR, o Santo de Israel, aquele que o formou: 'Perguntem-me sobre as coisas vindouras. A respeito de meus filhos e da obra das minhas mãos, vocês me dão ordens?'",
+  "traducao_literal": "Assim disse YHWH, Santo de Israel e seu formador: 'as coisas vindouras perguntem-me; sobre meus filhos e sobre a obra das minhas mãos vocês me ordenam'?",
+  "termos_originais": [
+    {
+      "palavra": "כֹּֽה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אָמַ֧ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָ֛ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "קְד֥וֹשׁ",
+      "lemma": "6918",
+      "morfologia": "HAamsc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֖ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְיֹצְר֑וֹ",
+      "lemma": "c/3335",
+      "morfologia": "HC/Vqrmsc/Sp3ms"
+    },
+    {
+      "palavra": "הָאֹתִיּ֣וֹת",
+      "lemma": "d/857",
+      "morfologia": "HTd/Vqrfpa"
+    },
+    {
+      "palavra": "שְׁאָל֔וּנִי",
+      "lemma": "7592",
+      "morfologia": "HVqv2mp/Sp1cs"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בָּנַ֛י",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "וְעַל",
+      "lemma": "c/5921 a",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "פֹּ֥עַל",
+      "lemma": "6467",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יָדַ֖י",
+      "lemma": "3027",
+      "morfologia": "HNcbdc/Sp1cs"
+    },
+    {
+      "palavra": "תְּצַוֻּֽנִי",
+      "lemma": "6680",
+      "morfologia": "HVpi2mp/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הָאֹתִיּוֹת — 'as coisas vindouras' (de אתה/אתא, 'vir') ou 'os sinais' (de אות)?",
+      "escolha": "'as coisas vindouras', seguindo o lema pinado no packet (857, אתה, 'vir'), morfologia particípio feminino plural",
+      "justificativa": "O packet pina explicitamente o lema 857 para esta forma, não 226 (אוֹת, 'sinal'); a tradução segue a fonte pinada, leitura reconhecida na tradição interpretativa (cf. KJV 'ask me of things to come').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os sinais' (de אוֹת, H226)",
+          "motivo": "não é o lema pinado pela fonte OSHB neste packet; mencionada aqui apenas para auditoria da opção lexical concorrente na tradição"
+        }
+      ]
+    },
+    {
+      "questao": "שְׁאָלוּנִי — imperativo ('perguntem-me!'), não indicativo passado",
+      "escolha": "manter o valor morfológico pinado (imperativo 2mp + sufixo 1cs): 'perguntem-me'",
+      "justificativa": "Morfologia HVqv2mp/Sp1cs = imperativo; a tradução segue a morfologia da fonte, dando ao versículo tom irônico-retórico coerente com a pergunta seguinte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'perguntaram-me' (indicativo)",
+          "motivo": "contradiz a morfologia imperativa pinada pela fonte"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הָאֹתִיּוֹת pode ecoar tanto 'coisas vindouras' (אתה) quanto, por proximidade formal, 'sinais' (אות) em parte da tradição interpretativa"
+  ],
+  "justificativa": "Resposta divina à contestação implícita nos v.9-10, reafirmando a soberania do Formador de Israel sobre seus próprios planos (incluindo Ciro).",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

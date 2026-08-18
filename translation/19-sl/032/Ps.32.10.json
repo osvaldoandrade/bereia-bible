@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.32.10",
+    "livro": "Salmos",
+    "capitulo": 32,
+    "versiculo": 10,
+    "pericope": "Ps.32.1-11"
+  },
+  "texto_bv": "Muitas são as dores do ímpio, mas a bondade cercará aquele que confia no SENHOR.",
+  "traducao_literal": "Muitas dores para-o-ímpio; e-o-que-confia no-SENHOR, bondade cercará-o.",
+  "termos_originais": [
+    {
+      "palavra": "רַבִּ֥ים",
+      "lemma": "7227 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "מַכְאוֹבִ֗ים",
+      "lemma": "4341",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לָרָ֫שָׁ֥ע",
+      "lemma": "l/7563",
+      "morfologia": "HRd/Aamsa"
+    },
+    {
+      "palavra": "וְהַבּוֹטֵ֥חַ",
+      "lemma": "c/d/982",
+      "morfologia": "HC/Td/Vqrmsa"
+    },
+    {
+      "palavra": "בַּיהוָ֑ה",
+      "lemma": "b/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "חֶ֝֗סֶד",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יְסוֹבְבֶֽנּוּ",
+      "lemma": "5437",
+      "morfologia": "HVmi3ms/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חֶסֶד (H2617a) — glosa padrão para o corpus (termo ainda sem entrada no léxico)?",
+      "escolha": "bondade",
+      "justificativa": "Glosa consolidada na tradição bíblica em português (Almeida) para חֶסֶד fora de fórmulas fixas de aliança; captura o sentido relacional de lealdade sem estreitar para 'misericórdia' (que tende a traduzir רחם/חנן) nem ampliar para a perífrase 'amor leal', não consolidada em português. Recomenda-se abrir entrada em lexicon.json para H2617a fora deste registro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'misericórdia'",
+          "motivo": "tende a colidir com רחם/חנן em outros textos, estreitando o campo semântico de חֶסֶד"
+        },
+        {
+          "opcao": "'amor leal'",
+          "motivo": "mais preciso tecnicamente, mas rompe com a tradição lexical consolidada (EDITORIAL §8/§11) sem entrada de léxico que justifique a mudança de convenção"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "são (cópula suprida na oração nominal)",
+    "mas (conjunção adversativa suprida para articular o contraste implícito no waw)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Ordem do hebraico (sujeito חֶסֶד fronteado antes do verbo יְסוֹבְבֶנּוּ) normalizada no publicado para ordem verbo-objeto mais natural em português; literal preserva a ordem original (ER-0013).",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

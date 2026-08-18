@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.9.17",
+    "livro": "Provérbios",
+    "capitulo": 9,
+    "versiculo": 17,
+    "pericope": "Prov.9.1-18"
+  },
+  "texto_bv": "\"As águas roubadas são doces, e o pão comido às escondidas é agradável.\"",
+  "traducao_literal": "Águas roubadas são doces; e pão de esconderijos é agradável.",
+  "termos_originais": [
+    {
+      "palavra": "מַֽיִם",
+      "lemma": "4325",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "גְּנוּבִ֥ים",
+      "lemma": "1589",
+      "morfologia": "HVqsmpa"
+    },
+    {
+      "palavra": "יִמְתָּ֑קוּ",
+      "lemma": "4985",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "וְלֶ֖חֶם",
+      "lemma": "c/3899",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "סְתָרִ֣ים",
+      "lemma": "5643 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יִנְעָֽם",
+      "lemma": "5276",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לֶחֶם סְתָרִים (\"pão de esconderijos/lugares secretos\", construto) — expressão idiomática para algo consumido clandestinamente.",
+      "escolha": "\"pão comido às escondidas\"",
+      "justificativa": "transposição do construto substantivo em locução adverbial, mais natural em português e paralela a \"águas roubadas\" (ambas descrevendo prazer ilícito/clandestino).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"pão de segredos\" (literal)",
+          "motivo": "ambíguo em português — sugeriria pão que guarda segredos, não pão comido secretamente"
+        }
+      ]
+    },
+    {
+      "questao": "H4325 מַיִם já possui entrada fixada no léxico global (\"águas\", Gen.1 e correlatos).",
+      "escolha": "manter \"águas\" (plural)",
+      "justificativa": "consistência terminológica obrigatória com a entrada lexical já APPROVED (EDITORIAL §11, lexicon.json H4325).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"água\" (singular, mais natural em português para líquido genérico)",
+          "motivo": "quebraria a consistência terminológica exigida com a entrada lexical H4325 já fixada como \"águas\""
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Discurso direto da mulher insensata (ER-0004): provérbio sedutor sobre o prazer do ilícito, encerrando seu convite antes do comentário narrativo do v.18.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

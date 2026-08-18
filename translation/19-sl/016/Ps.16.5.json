@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.16.5",
+    "livro": "Salmos",
+    "capitulo": 16,
+    "versiculo": 5,
+    "pericope": "Ps.16.1-11"
+  },
+  "texto_bv": "O SENHOR é a minha porção e o meu cálice; tu sustentas o meu quinhão.",
+  "traducao_literal": "SENHOR, porção do meu quinhão e meu cálice; tu és o que sustenta o meu quinhão/lote.",
+  "termos_originais": [
+    {
+      "palavra": "יְֽהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מְנָת",
+      "lemma": "4490",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "חֶלְקִ֥י",
+      "lemma": "2506 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְכוֹסִ֑י",
+      "lemma": "c/3563 a",
+      "morfologia": "HC/Ncfsc/Sp1cs"
+    },
+    {
+      "palavra": "אַ֝תָּ֗ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "תּוֹמִ֥יךְ",
+      "lemma": "8551",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "גּוֹרָלִֽי",
+      "lemma": "1486",
+      "morfologia": "HNcmsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מְנָת־חֶלְקִי — cadeia construta quase redundante ('porção do meu quinhão')",
+      "escolha": "condensar para 'a minha porção' no texto publicado, preservando a cadeia completa na literal",
+      "justificativa": "מְנָת e חֵלֶק formam hendíadis intensificador quase sinonímico; por analogia à doutrina do calque (ER-0013, condensação de redundância), o publicado condensa e a literal preserva a cadeia integral.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a porção do meu quinhão' (literal integral no publicado)",
+          "motivo": "redundância soa artificial em português corrido; o calque já está preservado na traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "גּוֹרָל — 'sorte/quinhão/lote'",
+      "escolha": "'quinhão' (para diferenciar de חֵלֶק, já vertido 'porção')",
+      "justificativa": "Uso de termos distintos em português para lemas hebraicos distintos, evitando colapsar גּוֹרָל e חֵלֶק na mesma glosa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'sorte'",
+          "motivo": "em português contemporâneo carrega conotação de acaso, o que enfraquece o sentido teológico de herança designada por Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula suprida em 'O SENHOR é a minha porção', oração nominal no hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Metáforas de herança (porção, cálice, quinhão) descrevem YHWH como a posse suficiente do salmista; decisões são de condensação estilística e diferenciação lexical, sem disputa teológica.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

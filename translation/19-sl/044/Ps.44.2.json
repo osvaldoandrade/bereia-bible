@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.44.2",
+    "livro": "Salmos",
+    "capitulo": 44,
+    "versiculo": 2,
+    "pericope": "Ps.44.1-27"
+  },
+  "texto_bv": "Ó Deus, com nossos ouvidos ouvimos; nossos pais nos contaram a obra que fizeste nos dias deles, nos dias da antiguidade.",
+  "traducao_literal": "Deus, em nossos ouvidos ouvimos; nossos pais contaram-nos: obra operaste em dias deles, em dias de antiguidade.",
+  "termos_originais": [
+    {
+      "palavra": "אֱלֹהִ֤ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "בְּאָזְנֵ֬ינוּ",
+      "lemma": "b/241",
+      "morfologia": "HR/Ncfdc/Sp1cp"
+    },
+    {
+      "palavra": "שָׁמַ֗עְנוּ",
+      "lemma": "8085",
+      "morfologia": "HVqp1cp"
+    },
+    {
+      "palavra": "אֲבוֹתֵ֥ינוּ",
+      "lemma": "1",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "סִפְּרוּ",
+      "lemma": "5608 a",
+      "morfologia": "HVpp3cp"
+    },
+    {
+      "palavra": "לָ֑נוּ",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "פֹּ֥עַל",
+      "lemma": "6467",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "פָּעַ֥לְתָּ",
+      "lemma": "6466",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "בִֽ֝ימֵיהֶ֗ם",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmpc/Sp3mp"
+    },
+    {
+      "palavra": "בִּ֣ימֵי",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "קֶֽדֶם",
+      "lemma": "6924 a",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱלֹהִים inicial: vocativo direto ('Ó Deus') ou sujeito de outra oração?",
+      "escolha": "Vocativo, abrindo a súplica em segunda pessoa (registro 'tu')",
+      "justificativa": "A ausência de verbo com אֱלֹהִים como sujeito e o padrão do salmo (discurso dirigido a Deus a partir daqui) favorecem o vocativo; segue D-0003 (oração dirigida a Deus → tu).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "פֹּעַל פָּעַלְתָּ — acusativo cognato (substantivo + verbo de mesma raiz)",
+      "escolha": "'a obra que fizeste' (relativização, suprindo 'que')",
+      "justificativa": "Português não tolera bem o acusativo cognato solto ('obra operaste'); a relativa é a solução natural sem perda de sentido; a literal preserva a justaposição sem o 'que'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'obra operaste' (calque no publicado)",
+          "motivo": "agramatical em português corrente fora da traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Ó",
+    "que"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso introdutório da súplica histórica; sem wayyiqtol, o calque relevante é o acusativo cognato, preservado na literal.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

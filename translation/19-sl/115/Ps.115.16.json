@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.115.16",
+    "livro": "Salmos",
+    "capitulo": 115,
+    "versiculo": 16,
+    "pericope": "Ps.115.1-18"
+  },
+  "texto_bv": "Os céus pertencem ao SENHOR, mas a terra ele deu aos filhos dos homens.",
+  "traducao_literal": "Os-céus, céus, de-SENHOR; e-a-terra deu a-filhos-de homem.",
+  "termos_originais": [
+    {
+      "palavra": "הַשָּׁמַ֣יִם",
+      "lemma": "d/8064",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "שָׁ֭מַיִם",
+      "lemma": "8064",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לַיהוָ֑ה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וְ֝הָאָ֗רֶץ",
+      "lemma": "c/d/776",
+      "morfologia": "HC/Td/Ncbsa"
+    },
+    {
+      "palavra": "נָתַ֥ן",
+      "lemma": "5414",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לִבְנֵי",
+      "lemma": "l/1121 a",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "אָדָֽם",
+      "lemma": "120",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הַשָּׁמַיִם שָׁמַיִם — duplicação enfática ('os céus, céus') em posição de tópico (casus pendens)",
+      "escolha": "normalizar no publicado para 'os céus pertencem ao SENHOR', preservando a duplicação na literal",
+      "justificativa": "ER-0013: a repetição substantiva com artigo definido seguido de indefinido é calque de ênfase retórica ('quanto aos céus — céus são do SENHOR'); soa redundante/artificial se vertida ao pé da letra em português corrido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Os céus são os céus do SENHOR' (calque preservado no publicado)",
+          "motivo": "redundância que soa a erro de tradução em português, não a ênfase retórica"
+        }
+      ]
+    },
+    {
+      "questao": "וְהָאָרֶץ — objeto fronteado antes do verbo נָתַן (waw contrastivo)",
+      "escolha": "'mas a terra ele deu...' no publicado",
+      "justificativa": "O fronteamento de 'a terra' contrasta com o tópico anterior 'os céus', estruturando o verso em antítese (céus=domínio de Deus / terra=dada à humanidade); a waw carrega essa força adversativa.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "pertencem (verbo suprido para a oração nominal com ל de posse)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Distingue o domínio celeste, reservado ao SENHOR, do domínio terrestre, confiado à humanidade — fundamento teológico para a pergunta seguinte sobre por que os mortos não louvam.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

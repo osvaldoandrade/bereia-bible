@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.111.7",
+    "livro": "Salmos",
+    "capitulo": 111,
+    "versiculo": 7,
+    "pericope": "Ps.111.1-10"
+  },
+  "texto_bv": "As obras das suas mãos são verdade e justiça; fiéis são todos os seus preceitos.",
+  "traducao_literal": "Obras-de suas-mãos [são] verdade e justiça; fiéis [são] todos seus-preceitos.",
+  "termos_originais": [
+    {
+      "palavra": "מַעֲשֵׂ֣י",
+      "lemma": "4639",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יָ֭דָיו",
+      "lemma": "3027",
+      "morfologia": "HNcbdc/Sp3ms"
+    },
+    {
+      "palavra": "אֱמֶ֣ת",
+      "lemma": "571",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וּמִשְׁפָּ֑ט",
+      "lemma": "c/4941",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "נֶ֝אֱמָנִ֗ים",
+      "lemma": "539",
+      "morfologia": "HVNrmpa"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "פִּקּוּדָֽיו",
+      "lemma": "6490",
+      "morfologia": "HNcmpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "quiasmo estrutural entre 7a (sujeito-predicado) e 7b (predicado-sujeito fronteado)",
+      "escolha": "preservar o quiasmo no texto publicado ('fiéis são todos os seus preceitos')",
+      "justificativa": "a inversão soa natural em registro hínico/poético português e mantém o paralelismo quiástico intencional do hebraico entre os dois hemistíquios; ER-0013 só exige normalização quando a ordem soar artificial, o que não é o caso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "normalizar para 'todos os seus preceitos são fiéis' (sujeito-predicado uniforme)",
+          "motivo": "apagaria o paralelismo quiástico deliberado do original sem ganho real de naturalidade"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "são (cópula da oração nominal, duas ocorrências)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Par de orações nominais paralelas descrevendo as obras/preceitos divinos; quiasmo preservado por soar natural em português.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

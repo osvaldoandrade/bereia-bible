@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.24.4",
+    "livro": "Salmos",
+    "capitulo": 24,
+    "versiculo": 4,
+    "pericope": "Ps.24.1-10"
+  },
+  "texto_bv": "Aquele que tem mãos limpas e coração puro, que não elevou a minha alma a coisas vãs, nem jurou com engano.",
+  "traducao_literal": "Limpo de mãos e puro de coração, que não levantou para o vazio a minha alma, e não jurou para o engano.",
+  "termos_originais": [
+    {
+      "palavra": "נְקִ֥י",
+      "lemma": "5355 a",
+      "morfologia": "HAamsc"
+    },
+    {
+      "palavra": "כַפַּ֗יִם",
+      "lemma": "3709",
+      "morfologia": "HNcfda"
+    },
+    {
+      "palavra": "וּֽבַר",
+      "lemma": "c/1249",
+      "morfologia": "HC/Aamsc"
+    },
+    {
+      "palavra": "לֵ֫בָ֥ב",
+      "lemma": "3824",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֲשֶׁ֤ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "נָשָׂ֣א",
+      "lemma": "5375",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לַשָּׁ֣וְא",
+      "lemma": "l/7723",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "נַפְשִׁ֑י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "וְלֹ֖א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "נִשְׁבַּ֣ע",
+      "lemma": "7650",
+      "morfologia": "HVNp3ms"
+    },
+    {
+      "palavra": "לְמִרְמָֽה",
+      "lemma": "l/4820",
+      "morfologia": "HR/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "נַפְשִׁי ('minha alma', 1ª pessoa) dentro de uma cláusula descritiva em 3ª pessoa ('aquele que...'). Crux textual conhecido do TM.",
+      "escolha": "Seguir literalmente o Texto Massorético pinado (OSHB): 'a minha alma', preservando a mudança abrupta de pessoa gramatical, tanto no publicado quanto na literal.",
+      "justificativa": "TEOLOGIA §1.1 e §2: o texto hebraico decide e dificuldades do original não são suavizadas; o packet não traz variantes_fonte para este verso, então não há base textual pinada para emendar.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Emendar para 'sua alma' (3ª pessoa), seguindo LXX/Vulgata (ψυχήν αὐτοῦ) e diversas traduções modernas",
+          "motivo": "Harmonização não apoiada por aparato do packet pinado; TEOLOGIA §2 proíbe suavizar dificuldades do original sem evidência textual documentada."
+        }
+      ]
+    },
+    {
+      "questao": "לַשָּׁוְא (idiom 'para o vazio/vaidade/falsidade', mesmo termo de Êx 20:7).",
+      "escolha": "Traduzir 'coisas vãs' no publicado (objeto de devoção falsa/idolatria), preservando 'para o vazio' na literal.",
+      "justificativa": "שָׁוְא não tem entrada prévia no léxico; 'coisas vãs' comunica o sentido de objeto vazio de devoção (ídolos/falsidade) sem se prender à glosa isolada 'em vão', que funcionaria mal com o verbo נשא ('levantar/dirigir a alma para').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'em vão'",
+          "motivo": "Idiomático demais para o verbo 'levantar a alma para', que pede um objeto substantivado ('coisas vãs'), não um advérbio."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Aquele que",
+    "tem"
+  ],
+  "ambiguidades_preservadas": [
+    "Mudança de pessoa gramatical no TM: a cláusula descreve o adorador em 3ª pessoa, mas o objeto de נָשָׂא é 'נַפְשִׁי' (1ª pessoa) — crux textual sem consenso interpretativo (pode refletir voz litúrgica do próprio adorador inserida na resposta, ou peculiaridade de transmissão textual); leitura alternativa 'sua alma' (3ª pessoa) documentada em versões antigas mas não adotada por falta de aparato no packet pinado."
+  ],
+  "justificativa": "Verso de maior dificuldade textual do capítulo; tradução segue rigorosamente o TM pinado (OSHB), com a peculiaridade de pessoa gramatical registrada como ambiguidade preservada, não corrigida silenciosamente.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

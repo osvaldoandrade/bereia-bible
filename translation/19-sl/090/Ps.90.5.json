@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.90.5",
+    "livro": "Salmos",
+    "capitulo": 90,
+    "versiculo": 5,
+    "pericope": "Ps.90.1-17"
+  },
+  "texto_bv": "Tu os arrastas; tornam-se como um sono. Pela manhã são como a relva que brota.",
+  "traducao_literal": "Arrastaste-os; sono se tornam. Na manhã, como relva, brota.",
+  "termos_originais": [
+    {
+      "palavra": "זְ֭רַמְתָּם",
+      "lemma": "2229",
+      "morfologia": "HVqp2ms/Sp3mp"
+    },
+    {
+      "palavra": "שֵׁנָ֣ה",
+      "lemma": "8142",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "יִהְי֑וּ",
+      "lemma": "1961",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "בַּ֝בֹּ֗קֶר",
+      "lemma": "b/1242",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "כֶּחָצִ֥יר",
+      "lemma": "k/2682 a",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "יַחֲלֹֽף",
+      "lemma": "2498",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שֵׁנָה יִהְיוּ (apositivo sem preposição comparativa)",
+      "escolha": "suprir 'como' no publicado",
+      "justificativa": "O hebraico justapõe 'sono' como predicado sem marcador comparativo explícito; o português exige o conectivo para naturalidade.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "יַחֲלֹף (חלף, v.5) — 'brota/renova' vs. 'passa/desaparece'",
+      "escolha": "'brota'",
+      "justificativa": "Leitura em continuidade com v.6 (יָצִיץ...וְחָלָף, 'floresce e brota'), onde o mesmo verbo descreve o florescimento matinal, não o murchar (expresso por מלל/יבש em v.6).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'passa/desaparece'",
+          "motivo": "antecipa o sentido de declínio que só chega em v.6b, tornando v.5b redundante e quebrando a progressão manhã-floresce/tarde-murcha"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "como (comparativo de שֵׁנָה)"
+  ],
+  "ambiguidades_preservadas": [
+    "חלף admite leituras opostas ('passar/desaparecer' vs. 'brotar/renovar-se'); a BV opta pela segunda por coerência com v.6, mas a primeira permanece lexicalmente possível."
+  ],
+  "justificativa": "Abre a metáfora da relva que se desenvolve nos vv. 5-6; a leitura de יַחֲלֹף é a decisão de maior impacto e fica documentada como ambiguidade preservada.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

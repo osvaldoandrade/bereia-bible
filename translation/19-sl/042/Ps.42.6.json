@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.42.6",
+    "livro": "Salmos",
+    "capitulo": 42,
+    "versiculo": 6,
+    "pericope": "Ps.42.1-12"
+  },
+  "texto_bv": "Por que você está abatida, ó minha alma? Por que está perturbada dentro de mim? Espere em Deus, pois eu ainda o louvarei: a salvação do seu rosto.",
+  "traducao_literal": "Por que te abates, minha alma, e te alvoroças sobre mim? Espera em Deus, porque ainda eu o louvarei, salvações de sua face.",
+  "termos_originais": [
+    {
+      "palavra": "מַה",
+      "lemma": "4100",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "תִּשְׁתּ֬וֹחֲחִ֨י",
+      "lemma": "7817",
+      "morfologia": "HVri2fs"
+    },
+    {
+      "palavra": "נַפְשִׁי֮",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "וַתֶּהֱמִ֪י",
+      "lemma": "c/1993",
+      "morfologia": "HC/Vqw2fs"
+    },
+    {
+      "palavra": "עָ֫לָ֥י",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "הוֹחִ֣ילִי",
+      "lemma": "3176",
+      "morfologia": "HVhv2fs"
+    },
+    {
+      "palavra": "לֵֽ֭אלֹהִים",
+      "lemma": "l/430",
+      "morfologia": "HR/Ncmpa"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ע֥וֹד",
+      "lemma": "5750",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אוֹדֶ֗נּוּ",
+      "lemma": "3034",
+      "morfologia": "HVhi1cs/Sp3ms"
+    },
+    {
+      "palavra": "יְשׁוּע֥וֹת",
+      "lemma": "3444",
+      "morfologia": "HNcfpc"
+    },
+    {
+      "palavra": "פָּנָֽיו",
+      "lemma": "6440",
+      "morfologia": "HNcbpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de segunda pessoa no autoapóstrofe à própria alma (תִּשְׁתּוֹחֲחִי, הוֹחִילִי)",
+      "escolha": "você (registro humano-padrão)",
+      "justificativa": "D-0003 distingue apenas dois registros (oração a Deus = tu; demais discursos = você/vocês); o salmista aqui não se dirige a Deus, mas à própria alma — aplicado o registro padrão por não haver categoria própria para autoapóstrofe.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu (convenção poética tradicional: 'ó minha alma, por que te abates')",
+          "motivo": "soaria mais natural em registro litúrgico, mas contraria a letra binária de D-0003; registrado para eventual revisão do mantenedor"
+        }
+      ]
+    },
+    {
+      "questao": "יְשׁוּעוֹת פָּנָיו — construção elíptica final, 3ª pessoa ('a salvação do SEU rosto'), diferente do refrão paralelo de 42:12 (1ª pessoa + 'e meu Deus')",
+      "escolha": "a salvação do seu rosto (mantendo a 3ª pessoa, sem acrescentar 'e meu Deus')",
+      "justificativa": "O TM pinado (OSHB) traz aqui פָּנָיו (3ms), distinto de פָּנַי וֵאלֹהָי em 42:12; a BV segue a leitura pinada verso a verso sem harmonizar com o refrão paralelo, na ausência de variante registrada no packet.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "harmonizar com 42:12 ('a salvação do meu rosto e meu Deus')",
+          "motivo": "não há variante_fonte no packet sustentando emenda; harmonização silenciosa violaria a hierarquia textual e a proibição de harmonização artificial (TEOLOGIA §1.1, §2)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está (cópula exigida pelo português para o predicativo, ausente no hebraico, 2x)",
+    "ó (vocativo)"
+  ],
+  "ambiguidades_preservadas": [
+    "construção elíptica יְשׁוּעוֹת פָּנָיו admite leitura apositiva ('ele, a salvação de seu rosto') ou adverbial ('pela salvação de seu rosto'); a BV opta pela leitura apositiva sem eliminar a outra"
+  ],
+  "justificativa": "Refrão que recorre quase idêntico em 42:12; a diferença de pessoa gramatical entre os dois refrões é preservada, não corrigida.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

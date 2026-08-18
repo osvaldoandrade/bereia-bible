@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.34.2",
+    "livro": "Jó",
+    "capitulo": 34,
+    "versiculo": 2,
+    "pericope": "Job.34.1-37"
+  },
+  "texto_bv": "“Ouçam, sábios, as minhas palavras; vocês que têm conhecimento, deem-me ouvidos.",
+  "traducao_literal": "Ouvi, sábios, minhas palavras; e conhecedores, dai ouvidos a mim.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁמְע֣וּ",
+      "lemma": "8085",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "חֲכָמִ֣ים",
+      "lemma": "2450",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "מִלָּ֑י",
+      "lemma": "4405",
+      "morfologia": "HNcfpc/Sp1cs"
+    },
+    {
+      "palavra": "וְ֝יֹדְעִ֗ים",
+      "lemma": "c/3045",
+      "morfologia": "HC/Vqrmpa"
+    },
+    {
+      "palavra": "הַאֲזִ֥ינוּ",
+      "lemma": "238",
+      "morfologia": "HVhv2mp"
+    },
+    {
+      "palavra": "לִֽי",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como marcar tipograficamente o discurso de Eliú, que se estende por capítulos além deste (34–37) sem fechamento dentro do packet?",
+      "escolha": "Abrir aspas no início da fala (v.2) e não reabri-las a cada versículo subsequente, sem fechamento dentro deste capítulo, já que o discurso de Eliú continua além de Jó 34. Aspas locais marcam apenas falas citadas dentro do discurso (vv.5-6, 9, 18, 31-32, 35-37).",
+      "justificativa": "O corpus já traduzido do livro não é uniforme (Jó 3 mantém aspas abertas até o fim do próprio capítulo, que coincide com o fim da fala; Jó 23 e Jó 32 não reabrem aspas externas nos versículos seguintes). Como o discurso de Eliú não termina no v.37, opta-se por não perpetuar uma aspa aberta sem fechamento previsível — decisão registrada para uniformização futura na promoção.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter aspas abertas em todos os versículos até o fim do capítulo 34 (padrão Jó 3)",
+          "motivo": "o discurso de Eliú não termina no v.37; a aspa ficaria artificialmente aberta, ao contrário de Jó 3, onde a fala termina no último verso do capítulo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "as (artigo antes de 'minhas palavras')",
+    "vocês (sujeito explícito para o particípio יֹדְעִים)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do corpo do discurso após a fórmula do v.1; יֹדְעִים (particípio) nominalizado como oração relativa 'vocês que têm conhecimento'; מִלָּי supre o artigo 'as'.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

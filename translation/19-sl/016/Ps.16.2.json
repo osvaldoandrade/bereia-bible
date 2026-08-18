@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.16.2",
+    "livro": "Salmos",
+    "capitulo": 16,
+    "versiculo": 2,
+    "pericope": "Ps.16.1-11"
+  },
+  "texto_bv": "Eu disse ao SENHOR: “Tu és o meu Senhor; não tenho bem algum além de ti.”",
+  "traducao_literal": "Disse [eu] ao SENHOR: meu Senhor és tu; meu bem, nada além de ti.",
+  "termos_originais": [
+    {
+      "palavra": "אָמַ֣רְתְּ",
+      "lemma": "559",
+      "morfologia": "HVqp2fs"
+    },
+    {
+      "palavra": "לַֽ֭יהוָה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אֲדֹנָ֣י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "אָ֑תָּה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "ט֝וֹבָתִ֗י",
+      "lemma": "2896 c",
+      "morfologia": "HAafsc/Sp1cs"
+    },
+    {
+      "palavra": "בַּל",
+      "lemma": "1077",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "עָלֶֽיךָ",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אָמַרְתְּ pontuado como perfeito 2fs ('tu disseste'), mas o contexto exige 1cs ('eu disse')",
+      "escolha": "traduzir como 1cs 'eu disse'",
+      "justificativa": "אָמַרְתְּ é forma arcaica/defectiva atestada do perfeito 1cs (grafia sem yod final); confirmada pelo contexto (fala do salmista a YHWH) e pela tradição interpretativa (LXX εἶπα, Vulgata dixi, ambas em 1ª pessoa).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tu disseste' (2fs literal)",
+          "motivo": "exigiria um referente feminino ausente do contexto imediato (a alma/נֶפֶשׁ só aparece no v.10); quebraria a lógica do salmo como discurso do salmista a Deus"
+        }
+      ]
+    },
+    {
+      "questao": "אֲדֹנָי אַתָּה — ordem predicado-sujeito do hebraico",
+      "escolha": "normalizar para 'Tu és o meu Senhor' no publicado, preservando a ordem invertida na literal",
+      "justificativa": "Doutrina do calque (ER-0013): a ordem hebraica é preservada na traducao_literal; o publicado segue a ordem natural do português.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "טוֹבָתִי בַּל־עָלֶיךָ — sentido idiomático da negação de exclusividade",
+      "escolha": "'não tenho bem algum além de ti'",
+      "justificativa": "בַּל־עָלֶיךָ (lit. 'não sobre/além de ti') é idiomático para exclusividade; 'bem' capta טוֹבָה (bem-estar/prosperidade), não apenas virtude moral.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'meu bem não se estende além de ti' (mais literal)",
+          "motivo": "soa artificial em português corrido; o sentido idiomático de exclusividade é o mesmo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "és (cópula suprida em 'meu Senhor és tu', oração nominal no hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Confissão de lealdade exclusiva a YHWH; a principal dificuldade é a forma verbal arcaica אָמַרְתְּ, resolvida por leitura tradicional 1cs e não como variante de fonte (o packet não traz aparato para este verso).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.12.26",
+    "livro": "Provérbios",
+    "capitulo": 12,
+    "versiculo": 26,
+    "pericope": "Prov.12.1-28"
+  },
+  "texto_bv": "O justo é guia para o seu próximo, mas o caminho dos ímpios os faz errar.",
+  "traducao_literal": "Explora/guia para seu próximo justo; e caminho de ímpios os faz errar.",
+  "termos_originais": [
+    {
+      "palavra": "יָתֵ֣ר",
+      "lemma": "8446",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "מֵרֵעֵ֣הוּ",
+      "lemma": "m/7453",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "צַדִּ֑יק",
+      "lemma": "6662",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְדֶ֖רֶךְ",
+      "lemma": "c/1870",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "רְשָׁעִ֣ים",
+      "lemma": "7563",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "תַּתְעֵֽם",
+      "lemma": "8582",
+      "morfologia": "HVhi3fs/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָתֵר — forma verbal rara e ambígua",
+      "escolha": "é guia (lendo o lema H8446, תור, 'explorar/espiar/buscar o caminho')",
+      "justificativa": "o lema fornecido no packet (8446) aponta para a raiz תור ('explorar, espiar, buscar'), não para יתר ('exceder/sobrar'); no hifil, 'explorar o caminho para alguém' equivale idiomaticamente a 'guiar/aconselhar'",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "é mais cauteloso que o seu próximo (lendo de יתר, 'exceder')",
+          "motivo": "leitura tradicional em algumas versões, mas não sustentada pelo lema H8446 fixado no packet pinado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "a forma יָתֵר permanece objeto de debate entre hebraístas (raiz תור 'explorar/guiar' vs. יתר 'exceder/ser cauteloso'); a BV segue o lema pinado no packet (8446/תור), sujeito a revisão futura em ciclo de consenso pleno."
+  ],
+  "justificativa": "Uma das formas mais discutidas do livro; o packet pina explicitamente o lema 8446 (תור), o que orienta a escolha lexical da BV nesta camada DRAFT.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

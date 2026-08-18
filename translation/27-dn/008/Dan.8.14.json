@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Dan.8.14",
+    "livro": "Daniel",
+    "capitulo": 8,
+    "versiculo": 14,
+    "pericope": "Dan.8.1-27"
+  },
+  "texto_bv": "E ele me disse: \"Até duas mil e trezentas tardes e manhãs; então o santuário será restabelecido em seu direito.\"",
+  "traducao_literal": "E disse a-mim: até tarde manhã duas-mil e-três centenas; e será-vindicado santuário.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֣אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אֵלַ֔י",
+      "lemma": "413",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "עַ֚ד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עֶ֣רֶב",
+      "lemma": "6153",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בֹּ֔קֶר",
+      "lemma": "1242",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אַלְפַּ֖יִם",
+      "lemma": "505",
+      "morfologia": "HAcbpa"
+    },
+    {
+      "palavra": "וּשְׁלֹ֣שׁ",
+      "lemma": "c/7969",
+      "morfologia": "HC/Acfsa"
+    },
+    {
+      "palavra": "מֵא֑וֹת",
+      "lemma": "3967",
+      "morfologia": "HAcbpa"
+    },
+    {
+      "palavra": "וְנִצְדַּ֖ק",
+      "lemma": "c/6663",
+      "morfologia": "HC/VNq3ms"
+    },
+    {
+      "palavra": "קֹֽדֶשׁ",
+      "lemma": "6944",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עֶרֶב בֹּקֶר אַלְפַּיִם וּשְׁלֹשׁ מֵאוֹת — 2.300 unidades de quê",
+      "escolha": "preservar literal 'duas mil e trezentas tardes e manhãs', sem converter para 'dias' no texto publicado",
+      "justificativa": "o hebraico não usa יוֹם aqui, mas o par עֶרֶב/בֹּקֶר; converter para 1.150 dias completos (tarde+manhã = 1 dia) é interpretação, não tradução",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'2.300 dias' (harmonizando contagens)",
+          "motivo": "decide uma disputa exegética (2.300 dias vs. 1.150 dias) que o léxico não resolve"
+        }
+      ]
+    },
+    {
+      "questao": "וְנִצְדַּק קֹדֶשׁ — glosa da raiz צדק (nifal)",
+      "escolha": "'o santuário será restabelecido em seu direito' (preserva o campo semântico de 'justiça/retidão')",
+      "justificativa": "a raiz צדק não é a raiz cúltica de purificação (טהר); traduzir por 'purificado' importaria campo semântico ausente do lema",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'será purificado' (tradição Almeida/KJV)",
+          "motivo": "usa vocabulário cúltico de טהר, ausente do hebraico, que emprega צדק"
+        },
+        {
+          "opcao": "'será justificado' (cognato exato)",
+          "motivo": "soa estranho em português aplicado a um lugar/edifício; preferiu-se perífrase equivalente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "contagem exata do período (2.300 dias corridos vs. 1.150 dias completos) não é resolvida pelo hebraico"
+  ],
+  "justificativa": "Verso da célebre cronologia apocalíptica; as duas decisões (contagem e glosa de צדק) são deliberadamente conservadoras, evitando importar tradições interpretativas para o texto.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

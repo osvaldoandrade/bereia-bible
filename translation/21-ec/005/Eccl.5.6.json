@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.5.6",
+    "livro": "Eclesiastes",
+    "capitulo": 5,
+    "versiculo": 6,
+    "pericope": "Eccl.5.1-19"
+  },
+  "texto_bv": "Pois muitos sonhos trazem futilidades, e também muitas palavras; mas tema a Deus.",
+  "traducao_literal": "Porque na abundância de sonhos e futilidades, e palavras muitas; mas a Deus, tema.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "בְרֹ֤ב",
+      "lemma": "b/7230",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "חֲלֹמוֹת֙",
+      "lemma": "2472",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וַהֲבָלִ֔ים",
+      "lemma": "c/1892",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "וּדְבָרִ֖ים",
+      "lemma": "c/1697",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "הַרְבֵּ֑ה",
+      "lemma": "7235 a",
+      "morfologia": "HVha"
+    },
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הָאֱלֹהִ֖ים",
+      "lemma": "d/430",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "יְרָֽא",
+      "lemma": "3372",
+      "morfologia": "HVqv2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Elipse do predicado em 'בְרֹב חֲלֹמוֹת וַהֲבָלִים וּדְבָרִים הַרְבֵּה'",
+      "escolha": "Suprir o verbo 'trazer' ('sonhos... trazem futilidades') para tornar a sentença gramatical em português.",
+      "justificativa": "O hebraico é nominal/elíptico, sem verbo expresso; o português exige verbo para a oração ser completa (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'há futilidade' (verbo existencial)",
+          "motivo": "Também plausível; optou-se por 'trazem' para manter o paralelismo sonhos→futilidades mais dinâmico."
+        }
+      ]
+    },
+    {
+      "questao": "הֶבֶל (plural הֲבָלִים) — palavra-chave do livro, primeira ocorrência no pipeline",
+      "escolha": "Glosar 'futilidade(s)', em vez de 'vaidade' (tradição Almeida).",
+      "justificativa": "'Vaidade' desviou de sentido em português contemporâneo (conotação de vanglória); 'futilidade' capta o vazio/efemeridade sem esse falso sentido. Decisão provisória, a harmonizar quando Ecl.1 for traduzido (nenhuma entrada prévia no léxico).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'vaidade'",
+          "motivo": "Risco de leitura equivocada como 'vanglória' em português atual."
+        },
+        {
+          "opcao": "'vapor/sopro' (mais próximo da raiz)",
+          "motivo": "Preserva a imagem original, mas prejudica a fluência proverbial recorrente no livro."
+        }
+      ]
+    },
+    {
+      "questao": "כִּי adversativo + objeto fronteado 'אֶת־הָאֱלֹהִים יְרָא'",
+      "escolha": "O publicado usa ordem natural 'mas tema a Deus'; a literal preserva o objeto fronteado 'mas a Deus, tema'.",
+      "justificativa": "Fronteamento de objeto para ênfase (ER-0013), normalizado no publicado.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "trazem"
+  ],
+  "ambiguidades_preservadas": [
+    "Estrutura sintática exata de 6a (elipse) admite mais de uma reconstrução gramatical."
+  ],
+  "justificativa": "Contraste entre o excesso vão de sonhos/palavras e o temor devido a Deus; glosa de הֶבֶל sinalizada como decisão-piloto do livro.",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

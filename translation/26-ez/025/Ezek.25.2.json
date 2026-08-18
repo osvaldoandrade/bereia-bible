@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.25.2",
+    "livro": "Ezequiel",
+    "capitulo": 25,
+    "versiculo": 2,
+    "pericope": "Ezek.25.1-17"
+  },
+  "texto_bv": "“Filho do homem, dirija o seu rosto para os filhos de Amom, e profetize contra eles.",
+  "traducao_literal": "Filho de-homem, põe o-teu-rosto para os-filhos-de Amom, e-profetiza contra-eles.",
+  "termos_originais": [
+    {
+      "palavra": "בֶּן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אָדָ֕ם",
+      "lemma": "120",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "שִׂ֥ים",
+      "lemma": "7760 a",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "פָּנֶ֖יךָ",
+      "lemma": "6440",
+      "morfologia": "HNcbpc/Sp2ms"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בְּנֵ֣י",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "עַמּ֑וֹן",
+      "lemma": "5983",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְהִנָּבֵ֖א",
+      "lemma": "c/5012",
+      "morfologia": "HC/VNv2ms"
+    },
+    {
+      "palavra": "עֲלֵיהֶֽם",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de segunda pessoa no discurso de Deus a Ezequiel (imperativos שִׂים e וְהִנָּבֵא)",
+      "escolha": "você/imperativo em 'você' (dirija, profetize)",
+      "justificativa": "ER-0003: discurso de Deus para humano usa você/vocês; 'tu' fica reservado à oração dirigida a Deus. Precedente: Jer.1.5-19 (Deus a Jeremias).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu/imperativo arcaizante ('dirige', 'profetiza')",
+          "motivo": "ER-0003 reserva tu à oração; a traducao_literal preserva o registro tu/imperativo direto para auditoria morfológica"
+        }
+      ]
+    },
+    {
+      "questao": "Idiotismo שִׂים פָּנֶיךָ אֶל ('põe o teu rosto para/contra')",
+      "escolha": "'dirija o seu rosto para' (אֶל) ... 'profetize contra' (עֲלֵיהֶם)",
+      "justificativa": "Fórmula recorrente de Ezequiel para introduzir oráculos contra nações; distingue a preposição direcional (אֶל) da preposição hostil de עֲלֵיהֶם, preservando a nuance de cada uma.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Abertura de discurso direto de Deus a Ezequiel (governado por לֵאמֹר do v.1)",
+      "escolha": "Abrir aspas duplas curvas aqui, mantendo-as abertas até o fim de cada bloco oracular (fecha ao final de cada 'ס'/'פ' maior)",
+      "justificativa": "ER-0004: discurso direto introduzido por dois-pontos leva aspas; precedente Jer.1.5 (aspas abertas logo após 'dizendo:').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não marcar aspas (precedente Jer.48.1/Jer.23.16, que tratam 'Assim diz o SENHOR' como cabeçalho não citado)",
+          "motivo": "Ezequiel 25:1 tem 'לֵאמֹר' explícito, estruturalmente igual a Jer.1.4, que dispara aspas em Jer.1.5"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Comissão de Ezequiel para o primeiro dos quatro oráculos do capítulo (Amom), com a fórmula padrão 'filho do homem... dirija o rosto... profetize'.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

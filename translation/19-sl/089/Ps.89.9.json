@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.89.9",
+    "livro": "Salmos",
+    "capitulo": 89,
+    "versiculo": 9,
+    "pericope": "Ps.89.1-53"
+  },
+  "texto_bv": "SENHOR, Deus dos Exércitos, quem é como tu, ó poderoso SENHOR? E a tua fidelidade está ao teu redor.",
+  "traducao_literal": "SENHOR Deus-de exércitos, quem como-tu poderoso, Iá? E-tua-fidelidade ao-teu-redor.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹ֘הֵ֤י",
+      "lemma": "430",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "צְבָא֗וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "מִֽי",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "כָֽמ֖וֹךָ",
+      "lemma": "3644",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "חֲסִ֥ין",
+      "lemma": "2626",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "יָ֑הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וֶ֝אֱמֽוּנָתְךָ֗",
+      "lemma": "c/530",
+      "morfologia": "HC/Ncfsc/Sp2ms"
+    },
+    {
+      "palavra": "סְבִיבוֹתֶֽיךָ",
+      "lemma": "5439",
+      "morfologia": "HNcbpc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָהּ (H3050) é forma abreviada do Tetragrama, não listada explicitamente em NOMES-DIVINOS.md (que cobre apenas H3068 completo).",
+      "escolha": "Verter como 'SENHOR', por extensão da política ER-0002 (mesma referência divina, forma poética abreviada).",
+      "justificativa": "Preserva a convenção consolidada sem introduzir uma terceira grafia ('Iá'/'Jah') que quebraria a uniformidade do nome divino; equivalência referencial mantida no campo de lema do registro para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Transliterar 'Iá'",
+          "motivo": "introduziria variação gráfica do nome divino não prevista na política, prejudicando a consistência terminológica (EDITORIAL §11)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "és (cópula implícita em 'quem como tu poderoso')"
+  ],
+  "ambiguidades_preservadas": [
+    "Estrutura sintática de חֲסִין יָהּ (aposição vocativa vs. predicado nominal separado) preservada como leitura adotada, não única possível."
+  ],
+  "justificativa": "חֲסִין יָהּ tratado como vocativo em aposição ('ó poderoso SENHOR'), não como oração nominal separada.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

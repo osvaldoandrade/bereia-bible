@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.11.4",
+    "livro": "Salmos",
+    "capitulo": 11,
+    "versiculo": 4,
+    "pericope": "Ps.11.1-7"
+  },
+  "texto_bv": "O SENHOR está em seu templo santo; o SENHOR tem o seu trono nos céus. Seus olhos contemplam; suas pálpebras examinam os filhos dos homens.",
+  "traducao_literal": "SENHOR, em seu templo santo; SENHOR, nos céus o seu trono. Seus olhos contemplam, suas pálpebras examinam os filhos do homem.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּֽהֵ֘יכַ֤ל",
+      "lemma": "b/1964",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "קָדְשׁ֗וֹ",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "יְהוָה֮",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בַּשָּׁמַ֪יִם",
+      "lemma": "b/8064",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "כִּ֫סְא֥וֹ",
+      "lemma": "3678",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "עֵינָ֥יו",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc/Sp3ms"
+    },
+    {
+      "palavra": "יֶחֱז֑וּ",
+      "lemma": "2372",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "עַפְעַפָּ֥יו",
+      "lemma": "6079",
+      "morfologia": "HNcmdc/Sp3ms"
+    },
+    {
+      "palavra": "יִ֝בְחֲנ֗וּ",
+      "lemma": "974",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "בְּנֵ֣י",
+      "lemma": "1121 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "אָדָֽם",
+      "lemma": "120",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Repetição de יְהוָה 2× (בְּהֵיכַל קָדְשׁוֹ / בַּשָּׁמַיִם כִּסְאוֹ) — ER-0013 §2 autoriza condensar repetição formular de sujeito quando redundante no publicado (precedente: אֱלֹהִים 2× em Gn 1:4)",
+      "escolha": "Manter as duas ocorrências de 'o SENHOR' no publicado, sem condensar",
+      "justificativa": "Diferente da repetição narrativa de Gn 1:4 (prosa), aqui a dupla menção do Nome é anáfora poética deliberada (paralelismo templo/trono), recurso estilístico do gênero salmódico que a condensação apagaria; desvio consciente da aplicação padrão de ER-0013 §2, registrado nesta decisão.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Condensar em uma só menção ('O SENHOR está em seu templo santo e tem seu trono nos céus')",
+          "motivo": "aplica mecanicamente o precedente narrativo a um contexto poético de anáfora intencional, apagando o paralelismo estrutural do verso"
+        }
+      ]
+    },
+    {
+      "questao": "חָזָה (v.4 עֵינָיו יֶחֱזוּ) e בָּחַן (v.4 עַפְעַפָּיו יִבְחֲנוּ) — glosas fixadas para uso recorrente no capítulo (v.4, v.5, v.7)",
+      "escolha": "חזה → 'contemplar'; בחן → 'examinar'",
+      "justificativa": "Par de verbos paralelos de escrutínio divino; glosas distintas preservam a diferença semântica (ver/avaliar vs. testar/provar) e são reaplicadas em 11:5 e 11:7.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ver' para חזה",
+          "motivo": "achata o matiz de olhar atento/deliberado do verbo, mais forte que ראה"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está (cópula da oração nominal 'SENHOR em seu templo santo')",
+    "tem (verbo possessivo suprido para a oração nominal 'nos céus o seu trono')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso central de afirmação da soberania e onisciência divinas; par de orações nominais (sem verbo no hebraico) exige cópulas supridas no português, documentadas; repetição do Nome mantida por ser recurso poético, não narrativo.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

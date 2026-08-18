@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.2.4",
+    "livro": "Ezequiel",
+    "capitulo": 2,
+    "versiculo": 4,
+    "pericope": "Ezek.2.1-10"
+  },
+  "texto_bv": "Os filhos são de rosto obstinado e coração endurecido; eu envio você a eles, e você lhes dirá: “Assim diz o Senhor DEUS.”",
+  "traducao_literal": "E os filhos, duros de rosto e fortes de coração; eu enviando a ti a eles; e dirás a eles: assim disse o Senhor meus-Senhores YHWH.",
+  "termos_originais": [
+    {
+      "palavra": "וְהַבָּנִ֗ים",
+      "lemma": "c/d/1121 a",
+      "morfologia": "HC/Td/Ncmpa"
+    },
+    {
+      "palavra": "קְשֵׁ֤י",
+      "lemma": "7186",
+      "morfologia": "HAampc"
+    },
+    {
+      "palavra": "פָנִים֙",
+      "lemma": "6440",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "וְחִזְקֵי",
+      "lemma": "c/2389",
+      "morfologia": "HC/Aampc"
+    },
+    {
+      "palavra": "לֵ֔ב",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֲנִ֛י",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "שׁוֹלֵ֥חַ",
+      "lemma": "7971",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "אוֹתְךָ֖",
+      "lemma": "853",
+      "morfologia": "HTo/Sp2ms"
+    },
+    {
+      "palavra": "אֲלֵיהֶ֑ם",
+      "lemma": "413",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "וְאָמַרְתָּ֣",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqp2ms"
+    },
+    {
+      "palavra": "אֲלֵיהֶ֔ם",
+      "lemma": "413",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "כֹּ֥ה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אָמַ֖ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֲדֹנָ֥י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְהֹוִֽה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲדֹנָֽי יְהֹוִֽה (lema 3069, pontuação especial de YHWH após Adonai)",
+      "escolha": "Senhor DEUS",
+      "justificativa": "NOMES-DIVINOS v1.0.0 (ER-0002): Adonai YHWH -> Senhor DEUS, evitando duplicar 'Senhor'. O lema 3069 é a pontuação massorética (qere perpetuum, historicamente lida 'Elohim') usada precisamente nesta combinação para não repetir 'Adonai'; aplica-se a mesma política de H136+H3068.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Senhor SENHOR",
+          "motivo": "expressamente rejeitado pela política de nomes divinos."
+        }
+      ]
+    },
+    {
+      "questao": "קְשֵוֹּ פָנִים וְחִזְקֵּי־לֵב (idiotismos de dureza moral)",
+      "escolha": "'de rosto obstinado e coração endurecido'",
+      "justificativa": "Par idiomático de insolência/teimosia; ordem levemente ajustada para naturalidade no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'duros de rosto e fortes de coração' (calque)",
+          "motivo": "soa estranho em português corrente; preservado na literal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Descrição da obstinação dos destinatários seguida da fórmula do mensageiro profético ('assim diz'); nome divino resolvido pela política ER-0002.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

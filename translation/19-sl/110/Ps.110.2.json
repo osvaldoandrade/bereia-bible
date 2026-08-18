@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.110.2",
+    "livro": "Salmos",
+    "capitulo": 110,
+    "versiculo": 2,
+    "pericope": "Ps.110.1-7"
+  },
+  "texto_bv": "O SENHOR enviará de Sião o cetro do teu poder: domina no meio dos teus inimigos.",
+  "traducao_literal": "O cetro do teu poder enviará SENHOR de Sião: domina no meio de teus inimigos.",
+  "termos_originais": [
+    {
+      "palavra": "מַטֵּֽה",
+      "lemma": "4294",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "עֻזְּךָ֗",
+      "lemma": "5797",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "יִשְׁלַ֣ח",
+      "lemma": "7971",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִצִּיּ֑וֹן",
+      "lemma": "m/6726",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "רְ֝דֵ֗ה",
+      "lemma": "7287 a",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "בְּקֶ֣רֶב",
+      "lemma": "b/7130",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אֹיְבֶֽיךָ",
+      "lemma": "341",
+      "morfologia": "HVqrmpc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem objeto-verbo-sujeito do hebraico (מַטֵּה־עֻזְּךָ יִשְׁלַח יְהוָה), objeto fronteado para ênfase poética",
+      "escolha": "traducao_literal preserva a ordem O-V-S; texto_bv normaliza para S-V-O",
+      "justificativa": "Doutrina do calque (ER-0013): calques de ordem de palavras vão para a traducao_literal; o publicado normaliza para leitura fluente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter o objeto fronteado também no texto_bv",
+          "motivo": "Legível, mas soa arcaizante/artificial em prosa contemporânea; ER-0013 recomenda normalizar quando soar artificial."
+        }
+      ]
+    },
+    {
+      "questao": "מַטֵּה־עֻזְּךָ — glosa de 'cetro do teu poder'",
+      "escolha": "'o cetro do teu poder'",
+      "justificativa": "מַטֶּה = vara/cetro (insígnia de mando régio); עֹז = força/poder. 'Cetro' capta a conotação de autoridade presente no contexto régio do salmo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a vara da tua força'",
+          "motivo": "Mais literal, mas soa arcaico em português contemporâneo sem ganho de sentido."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso paralelístico com objeto fronteado para ênfase poética; ordem O-V-S preservada na literal, normalizada em S-V-O no texto_bv (ER-0013).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

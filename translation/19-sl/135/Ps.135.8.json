@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.135.8",
+    "livro": "Salmos",
+    "capitulo": 135,
+    "versiculo": 8,
+    "pericope": "Ps.135.1-21"
+  },
+  "texto_bv": "Feriu os primogênitos do Egito, desde os homens até os animais.",
+  "traducao_literal": "que-feriu primogênitos-de Egito, desde-homem até-animal.",
+  "termos_originais": [
+    {
+      "palavra": "שֶֽׁ֭הִכָּה",
+      "lemma": "s/5221",
+      "morfologia": "HTr/Vhp3ms"
+    },
+    {
+      "palavra": "בְּכוֹרֵ֣י",
+      "lemma": "1060",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "מִצְרָ֑יִם",
+      "lemma": "4714",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מֵ֝אָדָ֗ם",
+      "lemma": "m/120",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בְּהֵמָֽה",
+      "lemma": "929",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שֶׁ relativo abre o verso, retomando descritivamente as ações de YHWH dos versos anteriores sem sujeito explícito. Preservar a subordinação relativa no publicado?",
+      "escolha": "Normalizar como oração declarativa independente no publicado ('Feriu...'), com o sujeito SENHOR subentendido do contexto imediato (vv.5-6); a relativa é preservada na traducao_literal.",
+      "justificativa": "Doutrina do calque (ER-0013): o pronome relativo solto sem antecedente no mesmo registro quebraria a leitura em português; a literal mantém o calque estrutural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'que feriu...' também no publicado",
+          "motivo": "deixa uma oração relativa sem antecedente visível dentro do próprio registro do versículo, o que confunde o leitor de um JSON por-versículo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Início da seção que recorda o Êxodo (vv.8-12) como motivo de louvor; אָדָם aqui é substantivo comum ('homem/humanidade'), não o nome próprio Adão (morph HR/Ncmsa).",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

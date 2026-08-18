@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.71.2",
+    "livro": "Salmos",
+    "capitulo": 71,
+    "versiculo": 2,
+    "pericope": "Ps.71.1-24"
+  },
+  "texto_bv": "Em tua justiça, livra-me e resgata-me; inclina para mim o teu ouvido, e salva-me.",
+  "traducao_literal": "Em tua justiça, livrar-me-ás e resgatar-me-ás; inclina a mim teu ouvido, e salva-me.",
+  "termos_originais": [
+    {
+      "palavra": "בְּצִדְקָתְךָ֗",
+      "lemma": "b/6666",
+      "morfologia": "HR/Ncfsc/Sp2ms"
+    },
+    {
+      "palavra": "תַּצִּילֵ֥נִי",
+      "lemma": "5337",
+      "morfologia": "HVhi2ms/Sp1cs"
+    },
+    {
+      "palavra": "וּֽתְפַלְּטֵ֑נִי",
+      "lemma": "c/6403",
+      "morfologia": "HC/Vpi2ms/Sp1cs"
+    },
+    {
+      "palavra": "הַטֵּֽה",
+      "lemma": "5186",
+      "morfologia": "HVhv2ms"
+    },
+    {
+      "palavra": "אֵלַ֥י",
+      "lemma": "413",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "אָ֝זְנְךָ֗",
+      "lemma": "241",
+      "morfologia": "HNcfsc/Sp2ms"
+    },
+    {
+      "palavra": "וְהוֹשִׁיעֵֽנִי",
+      "lemma": "c/3467",
+      "morfologia": "HC/Vhv2ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Dois verbos de sentido próximo (נצל hifil e פלט piel) em paralelismo sinonímico.",
+      "escolha": "\"livra-me\" para נצל (Sp71.2a) e \"resgata-me\" para פלט, mantendo distinção lexical.",
+      "justificativa": "O par נצל/פלט recorre no salmo (v.4 usa פלט de novo); manter glosas distintas ajuda a rastrear o lexema ao longo do capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir ambos por \"livra-me\"",
+          "motivo": "apaga o paralelismo de dois verbos hebraicos distintos e prejudica a rastreabilidade lexical."
+        }
+      ]
+    },
+    {
+      "questao": "תַּצִּילֵנִי/וּתְפַלְּטֵנִי são imperfeitos 2ms, não imperativos formais, mas funcionam como pedido.",
+      "escolha": "verter como pedido direto (\"livra-me e resgata-me\"), como os imperativos que seguem (הַטֵּה, וְהוֹשִׁיעֵנִי).",
+      "justificativa": "Continuidade discursiva da súplica; o imperfeito volitivo e o imperativo alternam-se livremente em hebraico poético de petição.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"tu me livrarás e me resgatarás\" (futuro indicativo)",
+          "motivo": "quebra o tom de súplica direta que o paralelismo com os imperativos seguintes estabelece."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Súplica com dois verbos de libertação em paralelo seguida de dois imperativos; sem variantes no packet.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

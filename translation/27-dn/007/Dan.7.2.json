@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Dan.7.2",
+    "livro": "Daniel",
+    "capitulo": 7,
+    "versiculo": 2,
+    "pericope": "Dan.7.1-28"
+  },
+  "texto_bv": "Daniel respondeu e disse: Eu estava vendo, em minha visão durante a noite, e eis que os quatro ventos do céu agitavam o grande mar.",
+  "traducao_literal": "Respondeu Daniel e disse: Vendo eu estava em minha visão com a noite, e eis quatro ventos dos céus irrompendo para o mar grande.",
+  "termos_originais": [
+    {
+      "palavra": "עָנֵ֤ה",
+      "lemma": "6032",
+      "morfologia": "AVqrmsa"
+    },
+    {
+      "palavra": "דָנִיֵּאל֙",
+      "lemma": "1841",
+      "morfologia": "ANp"
+    },
+    {
+      "palavra": "וְאָמַ֔ר",
+      "lemma": "c/560",
+      "morfologia": "AC/Vqrmsa"
+    },
+    {
+      "palavra": "חָזֵ֥ה",
+      "lemma": "2370",
+      "morfologia": "AVqrmsa"
+    },
+    {
+      "palavra": "הֲוֵ֛ית",
+      "lemma": "1934",
+      "morfologia": "AVqp1cs"
+    },
+    {
+      "palavra": "בְּחֶזְוִ֖י",
+      "lemma": "b/2376",
+      "morfologia": "AR/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "עִם",
+      "lemma": "5974",
+      "morfologia": "AR"
+    },
+    {
+      "palavra": "לֵֽילְיָ֑א",
+      "lemma": "3916",
+      "morfologia": "ANcmsd/Td"
+    },
+    {
+      "palavra": "וַאֲר֗וּ",
+      "lemma": "c/718",
+      "morfologia": "AC/Tm"
+    },
+    {
+      "palavra": "אַרְבַּע֙",
+      "lemma": "703",
+      "morfologia": "AAcbsa"
+    },
+    {
+      "palavra": "רוּחֵ֣י",
+      "lemma": "7308",
+      "morfologia": "ANcfpc"
+    },
+    {
+      "palavra": "שְׁמַיָּ֔א",
+      "lemma": "8065",
+      "morfologia": "ANcmpd/Td"
+    },
+    {
+      "palavra": "מְגִיחָ֖ן",
+      "lemma": "1519",
+      "morfologia": "AVarfpa"
+    },
+    {
+      "palavra": "לְיַמָּ֥א",
+      "lemma": "l/3221",
+      "morfologia": "ATo/Ncmsd/Td"
+    },
+    {
+      "palavra": "רַבָּֽא",
+      "lemma": "7229",
+      "morfologia": "AAamsd/Td"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עָנֵה...וְאָמַר — ordem V-S da fórmula de fala",
+      "escolha": "'Daniel respondeu e disse' (S-V no publicado); V-S preservado na literal",
+      "justificativa": "Aplicação de ER-0011 (S-V uniforme, inclusive na fórmula de fala) por analogia ao AT hebraico; a inversão aramaica permanece na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Respondeu Daniel e disse' no publicado",
+          "motivo": "ER-0011 é regra editorial global, não restrita ao hebraico; manter V-S soaria arcaizante"
+        }
+      ]
+    },
+    {
+      "questao": "Marcação de discurso direto de um relato de capítulo inteiro (vv.2-28)",
+      "escolha": "dois-pontos após 'disse' sem abrir aspas que se estenderiam por todo o capítulo",
+      "justificativa": "ER-0004 pressupõe discurso direto breve e delimitado; aqui o discurso é o relato autobiográfico de Daniel que ocupa o resto do capítulo — aspas de abertura sem fechamento correspondente gerariam artefato tipográfico. Aspas ficam reservadas às falas curtas e delimitadas dentro do relato (ex.: v.5, v.23).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "abrir aspas em 7:2 e fechar só em 7:28",
+          "motivo": "impraticável para leitura e TTS num capítulo inteiro; ER-0004 foi pensada para diálogo pontual"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Introdução do relato visionário de Daniel; חזה הוית é perífrase durativa (particípio+haya) traduzida por pretérito imperfeito contínuo, forma que se repete ao longo do capítulo.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.10.17",
+    "livro": "Salmos",
+    "capitulo": 10,
+    "versiculo": 17,
+    "pericope": "Ps.10.1-18"
+  },
+  "texto_bv": "Tu ouviste o desejo dos humildes, SENHOR; confortarás o coração deles, e o teu ouvido atenderá,",
+  "traducao_literal": "O desejo dos humildes ouviste, SENHOR; confirmarás o coração deles, atenderá o teu ouvido,",
+  "termos_originais": [
+    {
+      "palavra": "תַּאֲוַ֬ת",
+      "lemma": "8378",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "עֲנָוִ֣ים",
+      "lemma": "6035",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "שָׁמַ֣עְתָּ",
+      "lemma": "8085",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "תָּכִ֥ין",
+      "lemma": "3559 a",
+      "morfologia": "HVhi2ms"
+    },
+    {
+      "palavra": "לִ֝בָּ֗ם",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "תַּקְשִׁ֥יב",
+      "lemma": "7181",
+      "morfologia": "HVhi2ms"
+    },
+    {
+      "palavra": "אָזְנֶֽךָ",
+      "lemma": "241",
+      "morfologia": "HNcfsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עֲנָוִים ('humildes', H6035) mantido distinto de עָנִי ('aflito', H6041, vv.2,9,12)",
+      "escolha": "traduzir 'humildes' para preservar a distinção lexical do original",
+      "justificativa": "o pacote atesta lemmas diferentes (6035 vs 6041) para as duas raízes; ainda que semanticamente próximas, a consistência terminológica (EDITORIAL §11) recomenda glosas distintas para lexemas distintos",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'aflitos' também aqui, uniformizando com vv.2,9,12",
+          "motivo": "apagaria a distinção lexical marcada pelo pacote (lemma diferente), reduzindo a granularidade semântica do original"
+        }
+      ]
+    },
+    {
+      "questao": "sintaxe de v.17 continua em v.18 (לִשְׁפֹּט depende de תַּקְשִׁיב)",
+      "escolha": "manter v.17 com pontuação aberta (vírgula final), e v.18 como continuação da mesma sentença",
+      "justificativa": "o infinitivo construto לִשְׁפֹּט que abre v.18 não tem sujeito/verbo próprio; depende sintaticamente do verbo תַּקְשִׁיב ('atenderá') do fim de v.17, expressando finalidade",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tratar v.17 como sentença fechada e v.18 como oração nova independente",
+          "motivo": "deixa o infinitivo לִשְׁפֹּט de v.18 sem verbo regente, produzindo fragmento agramatical em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Virada do salmo para a certeza de que Deus ouve; sintaxe atravessa a fronteira versicular 17-18, documentada para auditoria.",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

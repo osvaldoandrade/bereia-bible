@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.145.6",
+    "livro": "Salmos",
+    "capitulo": 145,
+    "versiculo": 6,
+    "pericope": "Ps.145.1-21"
+  },
+  "texto_bv": "Falarão do poder dos teus feitos temíveis, e eu contarei a tua grandeza.",
+  "traducao_literal": "E o poder dos teus feitos temíveis dirão, e a tua grandeza contarei.",
+  "termos_originais": [
+    {
+      "palavra": "וֶעֱז֣וּז",
+      "lemma": "c/5807",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "נוֹרְאֹתֶ֣יךָ",
+      "lemma": "3372",
+      "morfologia": "HVNrfpc/Sp2ms"
+    },
+    {
+      "palavra": "יֹאמֵ֑רוּ",
+      "lemma": "559",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "וגדולתיך",
+      "lemma": "c/1420",
+      "morfologia": "HC/Ncfpc/Sp2ms"
+    },
+    {
+      "palavra": "אֲסַפְּרֶֽנָּה",
+      "lemma": "5608 a",
+      "morfologia": "HVpi1cs/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וגדולתיך — forma consonantal sem vocalização/acentuação (H1420, plural feminino construto + sufixo 2ms, 'tuas grandezas'), única palavra do capítulo sem sinais massoréticos completos no packet",
+      "escolha": "traduzir pelo lema e morfologia fornecidos (plural intensivo hebraico) com singular idiomático em português, 'a tua grandeza'",
+      "justificativa": "plurais abstratos hebraicos de intensidade não se lexicalizam bem como plural formal em português; segue-se o valor lexical, não a superfície gráfica anômala",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "verter no plural formal 'as tuas grandezas'",
+          "motivo": "soa estranho em português; a intensificação hebraica por plural morfológico é convencionalmente vertida como singular"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Grafia consonantal de וגדולתיך sem os sinais de vocalização/cantilação presentes em todas as demais palavras do capítulo; morfologia e lema seguidos exatamente como fornecidos pelo packet, sem emenda."
+  ],
+  "justificativa": "Alternância 3ª pessoa plural ('falarão') / 1ª pessoa singular ('contarei') preservada, característica do salmo que alterna vozes do coro e do salmista (letra ו).",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.9.5",
+    "livro": "Ezequiel",
+    "capitulo": 9,
+    "versiculo": 5,
+    "pericope": "Ezek.9.1-11"
+  },
+  "texto_bv": "A esses ele disse, enquanto eu ouvia: “Passem pela cidade atrás dele e matem; que os olhos de vocês não tenham piedade, e não poupem.”",
+  "traducao_literal": "E a estes disse em meus ouvidos: Passai na cidade atrás dele e feri; não compadeça-se olho de vocês, e não poupais.",
+  "termos_originais": [
+    {
+      "palavra": "וּלְאֵ֨לֶּה֙",
+      "lemma": "c/l/428",
+      "morfologia": "HC/R/Pdxcp"
+    },
+    {
+      "palavra": "אָמַ֣ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בְּאָזְנַ֔י",
+      "lemma": "b/241",
+      "morfologia": "HR/Ncfdc/Sp1cs"
+    },
+    {
+      "palavra": "עִבְר֥וּ",
+      "lemma": "5674 a",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "בָעִ֛יר",
+      "lemma": "b/5892 b",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "אַחֲרָ֖יו",
+      "lemma": "310 a",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "וְהַכּ֑וּ",
+      "lemma": "c/5221",
+      "morfologia": "HC/Vhv2mp"
+    },
+    {
+      "palavra": "על",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "תָּחֹ֥ס",
+      "lemma": "2347",
+      "morfologia": "HVqj3fs"
+    },
+    {
+      "palavra": "עיניכם",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc/Sp2mp"
+    },
+    {
+      "palavra": "וְאַל",
+      "lemma": "c/408",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "תַּחְמֹֽלוּ",
+      "lemma": "2550",
+      "morfologia": "HVqj2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Palavra 'עַל' (H5921, preposição 'sobre') antes de תָּחֹס no packet, onde a sintaxe do jussivo (Vqj3fs) e o paralelo imediato עם וְאַל־תַּחְמֹלוּ exigem uma partícula de negação",
+      "escolha": "Tratar a palavra como equivalente funcional à negação (traduzida 'não'), documentando a anomalia em vez de emendar silenciosamente",
+      "justificativa": "A morfologia do verbo (jussivo 3fs, 'que não se compadeça') só faz sentido com negação precedente; o paralelismo com אַל־תַּחְמֹלוּ na mesma frase confirma a leitura de proibição. Sem acesso a aparato crítico no packet (nenhum campo variantes_fonte fornecido) e sem consultar fontes externas, a decisão prioriza a coerência sintático-morfológica interna do próprio pacote (EDITORIAL: fidelidade semântica vence a forma) e é registrada com transparência total para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Traduzir 'עַל' literalmente como preposição 'sobre/acerca de'",
+          "motivo": "produz oração sem sentido sintático coerente em português e contradiz o paralelismo imediato com אַל־תַּחְמֹלוּ"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Anomalia textual em 'עַל' vs. esperado 'אַל' antes de תָּחֹס — resolvida por necessidade sintática, não confirmada por aparato externo"
+  ],
+  "justificativa": "Verso de comando aos seis homens armados (v.2); 'עֵינֵיכֶם' morfologicamente dual/plural, mantido como 'os olhos de vocês'. הִכָּה traduzido 'matem' pelo sentido letal confirmado no contexto imediato (v.6).",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.38.12",
+    "livro": "Jó",
+    "capitulo": 38,
+    "versiculo": 12,
+    "pericope": "Job.38.1-41"
+  },
+  "texto_bv": "Alguma vez, em toda a sua vida, você deu ordens à manhã, ou mostrou à alvorada o seu lugar,",
+  "traducao_literal": "Desde os seus dias, ordenou você a manhã? Fez-conhecer você a alva o seu lugar,",
+  "termos_originais": [
+    {
+      "palavra": "הְֽ֭מִיָּמֶיךָ",
+      "lemma": "i/m/3117",
+      "morfologia": "HTi/R/Ncmpc/Sp2ms"
+    },
+    {
+      "palavra": "צִוִּ֣יתָ",
+      "lemma": "6680",
+      "morfologia": "HVpp2ms"
+    },
+    {
+      "palavra": "בֹּ֑קֶר",
+      "lemma": "1242",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "ידעתה",
+      "lemma": "3045",
+      "morfologia": "HVpp2ms"
+    },
+    {
+      "palavra": "שחר",
+      "lemma": "7837",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מְקֹמֽוֹ",
+      "lemma": "4725",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ידעתה (Qal perfeito 2ms de ידע) com dois objetos (שַׁחַר, מְקֹמוֹ) — sentido causativo aparente com morfologia não-causativa",
+      "escolha": "traduzir com sentido causativo ('mostrou/fez saber'), seguindo a leitura majoritária, dado o paralelismo com צִוִּיתָ ('ordenou') e a construção de duplo objeto",
+      "justificativa": "a forma consonantal ketiv ידעתה (Qal) é tradicionalmente lida com valor causativo pelo contexto sintático de duplo acusativo (שַׁחַר...מְקֹמוֹ); o packet não trouxe variantes_fonte/qere alternativo para adjudicar; mantém-se a forma Qal registrada na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'você conheceu a alva, seu lugar' (Qal puro, sem causatividade)",
+          "motivo": "não produz sentido coerente em português com dois objetos diretos consecutivos"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A morfologia registrada (Qal perfeito) diverge do sentido causativo tradicionalmente atribuído ao verso; a forma Qal é preservada na traducao_literal."
+  ],
+  "justificativa": "Crux textual clássica do livro de Jó; verso sobre o domínio divino sobre o ritmo do amanhecer.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

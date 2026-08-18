@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.74.5",
+    "livro": "Salmos",
+    "capitulo": 74,
+    "versiculo": 5,
+    "pericope": "Ps.74.1-23"
+  },
+  "texto_bv": "Era como ver homens brandindo machados num emaranhado de árvores.",
+  "traducao_literal": "É conhecido como quem traz [o machado] para cima; num emaranhado de árvores, com machados.",
+  "termos_originais": [
+    {
+      "palavra": "יִ֭וָּדַע",
+      "lemma": "3045",
+      "morfologia": "HVNi3ms"
+    },
+    {
+      "palavra": "כְּמֵבִ֣יא",
+      "lemma": "k/935",
+      "morfologia": "HR/Vhrmsa"
+    },
+    {
+      "palavra": "לְמָ֑עְלָה",
+      "lemma": "l/4605",
+      "morfologia": "HR/D/Sd"
+    },
+    {
+      "palavra": "בִּֽסֲבָךְ",
+      "lemma": "b/5442",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "עֵ֝֗ץ",
+      "lemma": "6086",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "קַרְדֻּמּֽוֹת",
+      "lemma": "7134",
+      "morfologia": "HNcbpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito elíptico de יִוָּדַע (Nifal, 'é conhecido/torna-se visível')",
+      "escolha": "Verter impessoalmente: 'Era como ver...'",
+      "justificativa": "O hebraico não marca sujeito pessoal; o símile (כְּ) introduz a comparação diretamente, exigindo em português uma construção impessoal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sujeito pessoal explícito 'eles'",
+          "motivo": "não está marcado no texto-fonte"
+        }
+      ]
+    },
+    {
+      "questao": "Elipse do objeto de מֵבִיא ('traz/ergue [o quê]')",
+      "escolha": "Recuperar o objeto implícito ('o machado') pelo paralelo com קַרְדֻּמּוֹת ao final do verso",
+      "justificativa": "A sintaxe hebraica é telegráfica; o objeto só aparece no fim do verso e deve ser antecipado na tradução para inteligibilidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deixar sem objeto",
+          "motivo": "agramatical em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o machado (antecipado da posição final do verso)"
+  ],
+  "ambiguidades_preservadas": [
+    "A construção de Sl 74:5 é elíptica e sintaticamente difícil na fonte pinada; a imagem geral (inimigos golpeando como lenhadores) é preservada, mas a articulação exata dos termos permanece incerta."
+  ],
+  "justificativa": "Símile dos invasores golpeando o santuário como lenhadores abrindo caminho num matagal.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

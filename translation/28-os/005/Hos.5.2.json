@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.5.2",
+    "livro": "Oseias",
+    "capitulo": 5,
+    "versiculo": 2,
+    "pericope": "Hos.5.1-15"
+  },
+  "texto_bv": "Os rebeldes aprofundaram a matança, mas eu sou disciplina para todos eles.",
+  "traducao_literal": "E matança, rebeldes aprofundaram; e eu, disciplina para todos eles.",
+  "termos_originais": [
+    {
+      "palavra": "וְשַׁחֲטָ֥ה",
+      "lemma": "c/7819 b",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "שֵׂטִ֖ים",
+      "lemma": "7846",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "הֶעְמִ֑יקוּ",
+      "lemma": "6009",
+      "morfologia": "HVhp3cp"
+    },
+    {
+      "palavra": "וַאֲנִ֖י",
+      "lemma": "c/589",
+      "morfologia": "HC/Pp1cs"
+    },
+    {
+      "palavra": "מוּסָ֥ר",
+      "lemma": "4148",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְכֻלָּֽם",
+      "lemma": "l/3605",
+      "morfologia": "HR/Ncmsc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem fronteada de שַׁחֲטָה (objeto) antes do sujeito שֵׂטִים e do verbo הֶעְמִיקוּ",
+      "escolha": "Normalizar para ordem SVO no publicado ('os rebeldes aprofundaram a matança'), preservando o fronteamento na literal",
+      "justificativa": "ER-0013 item 3; leitura de הֶעְמִיקוּ (Hifil) como transitivo é apoiada pelo objeto explícito שַׁחֲטָה fronteado",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "שֵׂטִים como topônimo 'Sitim' (cf. Nm 25)",
+          "motivo": "a morfologia da fonte marca שֵׂטִים como substantivo comum plural ('rebeldes'), não nome próprio; sem suporte no packet pinado para reler como topônimo"
+        },
+        {
+          "opcao": "leitura intransitiva 'os rebeldes se aprofundaram na matança'",
+          "motivo": "também gramatical, mas o objeto explícito fronteado favorece a leitura transitiva"
+        }
+      ]
+    },
+    {
+      "questao": "מוּסָר לְכֻלָּם: oração nominal predicativa sem verbo היה explícito",
+      "escolha": "'eu sou disciplina para todos eles', presente gnômico",
+      "justificativa": "oração nominal expressa asserção atemporal do juízo divino",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "sou (verbo elíptico da oração nominal וַאֲנִי מוּסָר)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso notoriamente difícil (crux interpretationis); a leitura adotada segue a marcação morfológica do packet (שֵׂטִים como substantivo comum, não topônimo) e a sintaxe de objeto fronteado.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

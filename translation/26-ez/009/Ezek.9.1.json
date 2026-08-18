@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.9.1",
+    "livro": "Ezequiel",
+    "capitulo": 9,
+    "versiculo": 1,
+    "pericope": "Ezek.9.1-11"
+  },
+  "texto_bv": "Ele chamou em meus ouvidos em alta voz, dizendo: “Aproximem-se os encarregados de punir a cidade, cada um com sua arma destruidora na mão.”",
+  "traducao_literal": "E chamou em meus ouvidos voz grande, dizendo: Aproximai-vos, encarregados da cidade, e homem, instrumento da destruição dele, na mão dele.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּקְרָ֣א",
+      "lemma": "c/7121",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בְאָזְנַ֗י",
+      "lemma": "b/241",
+      "morfologia": "HR/Ncfdc/Sp1cs"
+    },
+    {
+      "palavra": "ק֤וֹל",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "גָּדוֹל֙",
+      "lemma": "1419 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "לֵאמֹ֔ר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "קָרְב֖וּ",
+      "lemma": "7126",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "פְּקֻדּ֣וֹת",
+      "lemma": "6486",
+      "morfologia": "HNcfpc"
+    },
+    {
+      "palavra": "הָעִ֑יר",
+      "lemma": "d/5892 b",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "וְאִ֛ישׁ",
+      "lemma": "c/376",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "כְּלִ֥י",
+      "lemma": "3627",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מַשְׁחֵת֖וֹ",
+      "lemma": "4892",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "בְּיָדֽוֹ",
+      "lemma": "b/3027",
+      "morfologia": "HR/Ncbsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito implícito de וַיִּקְרָא (chamou)",
+      "escolha": "Manter pronome 'ele' sem nomear, referente contextual não explicitado no TM (continuidade do capítulo anterior).",
+      "justificativa": "O hebraico não nomeia o sujeito; nomear 'Deus' seria importar informação do contexto amplo não codificada no verso. Fidelidade ao original exige preservar a elipse.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'O SENHOR chamou'",
+          "motivo": "antecipa identificação que só fica clara adiante (v.4); não está no TM deste verso"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de פְּקֻדּוֹת הָעִיר (vocativo, H6486 fpc)",
+      "escolha": "'os encarregados de punir a cidade'",
+      "justificativa": "פְּקֻדָּה cobre o campo semântico de supervisão/visitação/punição; a glosa preserva o valor lexical (encargo) sem restringir prematuramente a 'executores', embora o contexto confirme função letal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'executores da cidade'",
+          "motivo": "interpretativo além do valor lexical de פקד, embora contextualmente plausível"
+        },
+        {
+          "opcao": "'oficiais da cidade'",
+          "motivo": "perde a nuance de punição/visitação presente na raiz"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "estava (verbo de ligação para a oração nominal 'e cada um com sua arma... na mão')"
+  ],
+  "ambiguidades_preservadas": [
+    "Referente do sujeito de 'chamou' (implícito, não nomeado no TM)",
+    "Sentido de פְּקֻדּוֹת entre 'encarregados/supervisores' e 'executores'"
+  ],
+  "justificativa": "Verso de abertura da visão dos seis executores; nenhuma variante de fonte no packet. Cláusula nominal final (וְאִישׁ...בְּיָדוֹ) exige verbo suprido em português.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

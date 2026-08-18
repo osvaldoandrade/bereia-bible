@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.55.7",
+    "livro": "Isaías",
+    "capitulo": 55,
+    "versiculo": 7,
+    "pericope": "Isa.55.1-13"
+  },
+  "texto_bv": "Que o ímpio abandone o seu caminho, e o homem iníquo, os seus pensamentos; que ele volte ao SENHOR, que terá compaixão dele, e ao nosso Deus, que perdoará abundantemente.",
+  "traducao_literal": "Abandone ímpio caminho-dele, e homem de iniquidade, pensamentos-dele; e volte a-o SENHOR, e tenha-compaixão-dele; e a Deus-nosso, porque multiplicará para-perdoar.",
+  "termos_originais": [
+    {
+      "palavra": "יַעֲזֹ֤ב",
+      "lemma": "5800 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "רָשָׁע֙",
+      "lemma": "7563",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "דַּרְכּ֔וֹ",
+      "lemma": "1870",
+      "morfologia": "HNcbsc/Sp3ms"
+    },
+    {
+      "palavra": "וְאִ֥ישׁ",
+      "lemma": "c/376",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "אָ֖וֶן",
+      "lemma": "205",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מַחְשְׁבֹתָ֑יו",
+      "lemma": "4284",
+      "morfologia": "HNcfpc/Sp3ms"
+    },
+    {
+      "palavra": "וְיָשֹׁ֤ב",
+      "lemma": "c/7725",
+      "morfologia": "HC/Vqi3ms"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְהוָה֙",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וִֽירַחֲמֵ֔הוּ",
+      "lemma": "c/7355",
+      "morfologia": "HC/Vpi3ms/Sp3ms"
+    },
+    {
+      "palavra": "וְאֶל",
+      "lemma": "c/413",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "אֱלֹהֵ֖ינוּ",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יַרְבֶּ֥ה",
+      "lemma": "7235 a",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "לִסְלֽוֹחַ",
+      "lemma": "l/5545",
+      "morfologia": "HR/Vqc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Elipse do verbo na segunda oração (וְאִישׁ אָוֶן מַחְשְׁבֹתָיו, sem verbo próprio — gapping do יַעֲזֹב da primeira oração).",
+      "escolha": "Repetir \"abandone\" implicitamente em português (\"e o homem iníquo, os seus pensamentos\").",
+      "justificativa": "O português tolera a mesma elipse por gapping em estrutura paralela; suprir o verbo explicitamente seria redundante e quebraria o paralelismo poético.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Repetir \"abandone\" explicitamente na segunda oração",
+          "motivo": "quebra o paralelismo elíptico do hebraico, que o português também admite sem prejuízo de clareza"
+        }
+      ]
+    },
+    {
+      "questao": "Partícula jussiva (morfológica, sem lexema próprio em יַעֲזֹב/וְיָשֹׁב) precisa de marcador \"que\" em português para indicar volição/exortação.",
+      "escolha": "Suprir \"que\" antes dos verbos exortativos.",
+      "justificativa": "O jussivo hebraico é marcado por forma verbal, não por partícula lexical; o português exige \"que\" + subjuntivo para o mesmo efeito exortativo.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "que (partícula jussiva/exortativa, morfológica no hebraico, sem lexema próprio)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Apelo ao arrependimento com promessa de perdão abundante, fechando o convite dos vv.1-3 em chave ética.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

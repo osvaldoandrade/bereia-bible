@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.23.1",
+    "livro": "Salmos",
+    "capitulo": 23,
+    "versiculo": 1,
+    "pericope": "Ps.23.1-6"
+  },
+  "texto_bv": "Salmo de Davi. O SENHOR é o meu pastor; nada me faltará.",
+  "traducao_literal": "Salmo. De Davi. SENHOR, meu pastor; não faltarei.",
+  "termos_originais": [
+    {
+      "palavra": "מִזְמ֥וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִ֑ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "רֹ֝עִ֗י",
+      "lemma": "7462 b",
+      "morfologia": "HVqrmsc/Sp1cs"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אֶחְסָֽר",
+      "lemma": "2637",
+      "morfologia": "HVqi1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Cláusula nominal יְהוָה רֹעִי sem cópula expressa",
+      "escolha": "Suprir cópula 'é': 'O SENHOR é o meu pastor'",
+      "justificativa": "Hebraico bíblico não usa verbo de ligação no presente; o português exige cópula para gramaticalidade (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Omitir cópula ('O SENHOR, meu pastor')",
+          "motivo": "Soa telegráfico e quebra a prosa contínua exigida para o registro poético-litúrgico da BV."
+        }
+      ]
+    },
+    {
+      "questao": "Verbo intransitivo אֶחְסָר sem objeto expresso",
+      "escolha": "Suprir 'nada' como objeto implícito: 'nada me faltará'",
+      "justificativa": "חסר é usado de forma absoluta ('eu não carecerei/estarei em falta'); o português idiomático supre um objeto genérico para soar natural, sem alterar o sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Não faltarei' (sem objeto)",
+          "motivo": "Gramatical mas menos natural no registro poético contemporâneo; preservado como forma na traducao_literal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é",
+    "nada"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo com a metáfora pastoril; מִזְמוֹר לְדָוִד é rubrica de superscrição, tratada como cláusula nominal formulaica. Nenhuma variante textual no aparato do packet para este verso.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.1.27",
+    "livro": "Provérbios",
+    "capitulo": 1,
+    "versiculo": 27,
+    "pericope": "Prov.1.1-33"
+  },
+  "texto_bv": "quando vier o seu pavor como tempestade, e a sua calamidade vier como redemoinho, quando vierem sobre vocês angústia e aflição,",
+  "traducao_literal": "em-vir como-tempestade pavor-vosso, e-desgraça-vossa como-redemoinho virá; em-vir sobre-vós angústia e-aflição,",
+  "termos_originais": [
+    {
+      "palavra": "בְּבֹ֤א",
+      "lemma": "b/935",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "כשאוה",
+      "lemma": "k/7584",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "פַּחְדְּכֶ֗ם",
+      "lemma": "6343",
+      "morfologia": "HNcmsc/Sp2mp"
+    },
+    {
+      "palavra": "וְֽ֭אֵידְכֶם",
+      "lemma": "c/343",
+      "morfologia": "HC/Ncmsc/Sp2mp"
+    },
+    {
+      "palavra": "כְּסוּפָ֣ה",
+      "lemma": "k/5492 a",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "יֶאֱתֶ֑ה",
+      "lemma": "857",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בְּבֹ֥א",
+      "lemma": "b/935",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "עֲ֝לֵיכֶ֗ם",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "צָרָ֥ה",
+      "lemma": "6869 b",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְצוּקָֽה",
+      "lemma": "c/6695 b",
+      "morfologia": "HC/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Grafia consonantal anômala כשאוה (Kethiv) no texto-fonte pinado",
+      "escolha": "seguir o lema fornecido pelo packet (k/7584 = כְּ+שׁוֹאָה, 'como tempestade/desolação'), paralelo a כְּסוּפָה na mesma oração",
+      "justificativa": "O packet cego resolve a forma consonantal ao lema H7584 sem sinalizar aparato crítico (`variantes_fonte` ausente); a leitura acompanha essa resolução sem introduzir julgamento textual externo ao packet.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "registrar como variante textual autônoma",
+          "motivo": "O packet-fonte não trouxe `variantes_fonte` para este verso; adjudicar variante sem aparato forneceria dado não rastreável ao pipeline (regra de leitura exclusiva do packet)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Imagem dupla de calamidade repentina (tempestade/redemoinho) como consequência da rejeição da sabedoria.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

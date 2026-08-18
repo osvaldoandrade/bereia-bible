@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.125.5",
+    "livro": "Salmos",
+    "capitulo": 125,
+    "versiculo": 5,
+    "pericope": "Ps.125.1-5"
+  },
+  "texto_bv": "Quanto aos que se desviam para os seus caminhos tortuosos,\no SENHOR os levará com os que praticam a iniquidade.\nPaz sobre Israel!",
+  "traducao_literal": "E os que se desviam, suas coisas tortas, o SENHOR os levará, com os que praticam a iniquidade; paz sobre Israel.",
+  "termos_originais": [
+    {
+      "palavra": "וְהַמַּטִּ֤ים",
+      "lemma": "c/d/5186",
+      "morfologia": "HC/Td/Vhrmpa"
+    },
+    {
+      "palavra": "עַֽקַלְקַלּוֹתָ֗ם",
+      "lemma": "6128",
+      "morfologia": "HAafpc/Sp3mp"
+    },
+    {
+      "palavra": "יוֹלִיכֵ֣ם",
+      "lemma": "3212",
+      "morfologia": "HVhi3ms/Sp3mp"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "854",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "פֹּעֲלֵ֣י",
+      "lemma": "6466",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "הָאָ֑וֶן",
+      "lemma": "d/205",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "שָׁ֝ל֗וֹם",
+      "lemma": "7965",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יִשְׂרָאֵֽל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֶת antes de פֹּעֲלֵי הָאָוֶן — preposição \"com\" (H854 אֵת) ou marcador de objeto direto (H853)",
+      "escolha": "Preposição \"com\" (companhia/agrupamento), conforme o lema pinado no packet (854)",
+      "justificativa": "O lema anotado é 854 (אֵת, preposição \"com\"), não 853 (partícula de objeto direto); o verbo יוֹלִיכֵם já tem objeto pronominal 3mp (\"-ם\"), de modo que um segundo objeto direto seria estranho — o sentido é o SENHOR agrupar/levar os desviantes para o mesmo destino dos que praticam a iniquidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ler como marcador de objeto direto",
+          "motivo": "geraria um segundo objeto acusativo redundante do mesmo verbo, já saturado pelo sufixo pronominal"
+        }
+      ]
+    },
+    {
+      "questao": "יוֹלִיכֵם (Hiphil imperfeito 3ms) — indicativo futuro ou jussivo de súplica",
+      "escolha": "Indicativo futuro (\"levará\"), com a leitura volitiva preservada como ambiguidade",
+      "justificativa": "O imperfeito hebraico em contexto de oração (v.4 é imperativo) admite leitura volitiva (\"que leve\"), mas a maioria das traduções trata como afirmação de confiança futura; a BV preserva a ambiguidade no registro sem decidir doutrinariamente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "jussivo explícito \"que o SENHOR os leve\"",
+          "motivo": "assumiria uma decisão gramatical que o texto não força por si só"
+        }
+      ]
+    },
+    {
+      "questao": "Fronteamento (casus pendens) de הַמַּטִּים עֲקַלְקַלּוֹתָם antes do verbo e do sujeito",
+      "escolha": "Preservar o fronteamento com \"Quanto aos...\"",
+      "justificativa": "O hebraico antepõe o objeto lógico da oração seguinte para contraste retórico com os \"bons/retos\" de v.4; \"quanto aos\" reproduz esse efeito enfático em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ordem SVO plana (\"O SENHOR levará os que se desviam...\")",
+          "motivo": "mais natural, mas apaga o contraste enfático que o fronteamento hebraico estabelece com o verso anterior"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "caminhos (para dar referente concreto ao substantivo עֲקַלְקַלּוֹתָם, \"suas coisas tortas/tortuosidades\", que no hebraico já funciona substantivamente sem precisar de \"caminhos\" explícito)"
+  ],
+  "ambiguidades_preservadas": [
+    "יוֹלִיכֵם pode ser lido como indicativo futuro (\"levará\") ou como volitivo/jussivo de súplica (\"que leve\"), dado o contexto de oração iniciado em v.4"
+  ],
+  "justificativa": "Verso de fechamento: contraste entre o destino dos que se desviam para caminhos tortuosos (agrupados com os que praticam a iniquidade, para julgamento) e a bênção final de paz sobre Israel, retomando o tema comunitário de vv.2 e 4.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

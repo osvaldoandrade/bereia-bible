@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hag.2.1",
+    "livro": "Ageu",
+    "capitulo": 2,
+    "versiculo": 1,
+    "pericope": "Hag.2.1-23"
+  },
+  "texto_bv": "No sétimo mês, aos vinte e um do mês, veio a palavra do SENHOR, por meio do profeta Ageu, dizendo:",
+  "traducao_literal": "No sétimo, em vinte e um do mês, foi a palavra do SENHOR pela mão de Ageu, o profeta, dizendo:",
+  "termos_originais": [
+    {
+      "palavra": "בַּשְּׁבִיעִ֕י",
+      "lemma": "b/7637",
+      "morfologia": "HRd/Aomsa"
+    },
+    {
+      "palavra": "בְּעֶשְׂרִ֥ים",
+      "lemma": "b/6242",
+      "morfologia": "HR/Acbpa"
+    },
+    {
+      "palavra": "וְאֶחָ֖ד",
+      "lemma": "c/259",
+      "morfologia": "HC/Acmsa"
+    },
+    {
+      "palavra": "לַחֹ֑דֶשׁ",
+      "lemma": "l/2320",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הָיָה֙",
+      "lemma": "1961",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "דְּבַר",
+      "lemma": "1697",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּיַד",
+      "lemma": "b/3027",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "חַגַּ֥י",
+      "lemma": "2292 a",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַנָּבִ֖יא",
+      "lemma": "d/5030",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "לֵאמֹֽר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Elipse do substantivo em 'בַּשְּׁבִיעִי' (ordinal sem 'mês' explícito)",
+      "escolha": "Suprir 'mês' na primeira menção, retomado por 'לַחֹדֶשׁ' (do mês) na sequência.",
+      "justificativa": "O hebraico usa o ordinal sozinho por elipse padrão em datações proféticas; o português exige o substantivo para não soar truncado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deixar 'No sétimo' sem substantivo",
+          "motivo": "agramatical em português; a datação ficaria ambígua (sétimo quê?)"
+        }
+      ]
+    },
+    {
+      "questao": "בְּיַד (pela mão de) como idioma de agência",
+      "escolha": "traduzir 'por meio de' no publicado, mantendo 'pela mão de' na literal",
+      "justificativa": "idiomatismo hebraico de intermediação profética; o publicado normaliza para uso corrente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'pela mão de Ageu' no publicado",
+          "motivo": "soa literal demais/estranho em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "mês"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "A data, a fórmula de recepção da palavra do SENHOR e o profeta Ageu permanecem explícitos; apenas 'mês' foi suprido por exigência do português.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

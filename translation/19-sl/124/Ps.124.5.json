@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.124.5",
+    "livro": "Salmos",
+    "capitulo": 124,
+    "versiculo": 5,
+    "pericope": "Ps.124.1-8"
+  },
+  "texto_bv": "então as águas arrogantes teriam passado sobre nossa alma.",
+  "traducao_literal": "então passou sobre nossa alma as águas soberbas.",
+  "termos_originais": [
+    {
+      "palavra": "אֲ֭זַי",
+      "lemma": "233",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "עָבַ֣ר",
+      "lemma": "5674 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "נַפְשֵׁ֑נוּ",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cp"
+    },
+    {
+      "palavra": "הַ֝מַּ֗יִם",
+      "lemma": "d/4325",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "הַזֵּֽידוֹנִֽים",
+      "lemma": "d/2121",
+      "morfologia": "HTd/Aampa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "O v.5 repete עָבַר עַל־נַפְשֵׁנוּ do v.4 em ordem invertida (verbo+preposicional antes do sujeito 'as águas'), formando quiasmo com a ordem sujeito-verbo-preposicional do v.4; como verter a ordem no publicado?",
+      "escolha": "normalizar para ordem sujeito-verbo no publicado ('as águas... teriam passado'), preservando a ordem verbo-sujeito original na traducao_literal",
+      "justificativa": "Doutrina do calque (ER-0013): quiasmo de ordem é normalizável para paralelismo direto no texto publicado, permanecendo integral na literal para auditoria; alinha-se também a ER-0011 (ordem S-V uniforme).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preservar V-S também no publicado ('então passaram sobre nossa alma as águas arrogantes')",
+          "motivo": "soa arcaizante/traduzido; a ordem original já fica auditável pela traducao_literal."
+        }
+      ]
+    },
+    {
+      "questao": "הַזֵּידוֹנִים (de זוד/זיד, 'agir com soberba/insolência'), aplicado às águas, personifica o perigo; como verter?",
+      "escolha": "'arrogantes' no publicado; 'soberbas' preservado como glosa alternativa na literal",
+      "justificativa": "זֵד designa tipicamente pessoas insolentes/presunçosas; aplicado às águas, personifica o perigo como agente hostil — metáfora que TEOLOGIA §2 exige preservar, não suavizar para um termo puramente físico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'impetuosas'/'violentas'",
+          "motivo": "descreve força física, mas apaga a personificação moral (soberba/insolência) do lexema, suavizando a dificuldade retórica do original."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecho da imagem de afogamento por quiasmo de ordem com o v.4 (ER-0013); a personificação das águas como agente soberbo intensifica o perigo narrado.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.40.3",
+    "livro": "Jeremias",
+    "capitulo": 40,
+    "versiculo": 3,
+    "pericope": "Jer.40.1-16"
+  },
+  "texto_bv": "E o SENHOR trouxe e fez conforme havia dito; porque vocês pecaram contra o SENHOR e não obedeceram à voz dele, e isso aconteceu com vocês.",
+  "traducao_literal": "E trouxe e fez SENHOR conforme que falou; porque pecastes ao SENHOR e não ouvistes em voz dele, e foi para vós a coisa, esta.",
+  "termos_originais": [
+    {
+      "palavra": "וַיָּבֵ֥א",
+      "lemma": "c/935",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "וַיַּ֛עַשׂ",
+      "lemma": "c/6213 a",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כַּאֲשֶׁ֣ר",
+      "lemma": "k/834 d",
+      "morfologia": "HR/Tr"
+    },
+    {
+      "palavra": "דִּבֵּ֑ר",
+      "lemma": "1696",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "חֲטָאתֶ֤ם",
+      "lemma": "2398",
+      "morfologia": "HVqp2mp"
+    },
+    {
+      "palavra": "לַֽיהוָה֙",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וְלֹֽא",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "שְׁמַעְתֶּ֣ם",
+      "lemma": "8085",
+      "morfologia": "HVqp2mp"
+    },
+    {
+      "palavra": "בְּקוֹל֔וֹ",
+      "lemma": "b/6963 a",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "וְהָיָ֥ה",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqp3ms"
+    },
+    {
+      "palavra": "לָכֶ֖ם",
+      "lemma": "l",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "דבר",
+      "lemma": "1697",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הַזֶּֽה",
+      "lemma": "d/2088",
+      "morfologia": "HTd/Pdxms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Grafia דבר sem prefixo (ketiv sem vocalização) e colapso da apposição enfática 'esta coisa/palavra'",
+      "escolha": "traduzir como pronome demonstrativo 'isso' no publicado, preservando o substantivo explícito 'a coisa, esta' na traducao_literal",
+      "justificativa": "A morfologia fornecida pelo packet atesta substantivo absoluto sem preposição (lemma 1697, HNcmsa), sem prefixo כ; a adjudicação segue estritamente essa análise, já que o packet não traz variantes_fonte para este item. A apposição enfática do hebraico soa artificial em português corrente (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'conforme esta palavra' (assumindo leitura com preposição não atestada no packet)",
+          "motivo": "o packet não fornece aparato de variante para este item; a adjudicação não pode presumir uma leitura alternativa sem base no material fornecido"
+        }
+      ]
+    },
+    {
+      "questao": "Mudança do destinatário de singular (Jeremias, v.2/v.4) para plural (חֲטָאתֶם, שְׁמַעְתֶּם — 2mp)",
+      "escolha": "preservar 'vocês' (plural) conforme a morfologia 2mp atestada",
+      "justificativa": "Dentro da mesma fala, Nebuzaradã amplia retoricamente o destinatário de Jeremias para o povo de Judá/Jerusalém; a distinção morfológica singular/plural é mantida sem harmonização artificial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "verter como 'você' (mantendo Jeremias como único destinatário)",
+          "motivo": "contradiria a morfologia 2mp explícita dos verbos חֲטָאתֶם/שְׁמַעְתֶּם"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Mudança do destinatário singular (Jeremias) para plural (o povo) dentro da mesma fala de Nebuzaradã, sem marcador explícito de transição no texto hebraico."
+  ],
+  "justificativa": "Wayyiqtol em S-V (ER-0011); grafia ketiv de דבר tratada como decisão de tradução (não variante textual, por ausência de aparato no packet).",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

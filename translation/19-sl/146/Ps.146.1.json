@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.146.1",
+    "livro": "Salmos",
+    "capitulo": 146,
+    "versiculo": 1,
+    "pericope": "Ps.146.1-10"
+  },
+  "texto_bv": "Aleluia! Louva, ó minha alma, ao SENHOR.",
+  "traducao_literal": "Louvai a Yah. Louva, minha alma, o SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "הַֽלְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֡הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַלְלִ֥י",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2fs"
+    },
+    {
+      "palavra": "נַ֝פְשִׁ֗י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de הַלְלוּ־יָהּ (refrão fixo) vs. as demais construções de הלל+יהוה no salmo",
+      "escolha": "Manter transliterado 'Aleluia', forma consolidada em português litúrgico",
+      "justificativa": "הַלְלוּ־יָהּ é fórmula fixa que emoldura o salmo (v.1 e v.10, inclusio). 'Aleluia' é grafia consolidada em português (EDITORIAL §8, por analogia a formas fixas consolidadas), distinguindo o refrão da construção plena 'louvar + o SENHOR' usada logo em seguida no mesmo versículo e no v.2. A traducao_literal decompõe o calque ('Louvai a Yah') para auditoria do lemma H3050.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Louvai ao SENHOR",
+          "motivo": "colapsa a fórmula fixa הַלְלוּ־יָהּ com as demais construções verbais do salmo que já usam יהוה pleno (v.1b, v.2), apagando a marca formular do refrão"
+        },
+        {
+          "opcao": "Louvai a Yah (transliteração plena no texto publicado)",
+          "motivo": "introduziria um segundo nome divino distinto de 'SENHOR' no texto publicado, sem tradição consolidada em português, quebrando a unificação de ER-0002"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ó"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Refrão de abertura do salmo, seguido de auto-exortação poética ('louva, minha alma') dirigida ao SENHOR; padrão dos salmos de Hallel (103; 111-117; 135; 146-150).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

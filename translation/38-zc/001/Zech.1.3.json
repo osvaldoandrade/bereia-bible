@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Zech.1.3",
+    "livro": "Zacarias",
+    "capitulo": 1,
+    "versiculo": 3,
+    "pericope": "Zech.1.1-17"
+  },
+  "texto_bv": "Diga a eles: “Assim diz o SENHOR dos Exércitos: ‘Voltem para mim’ — diz o SENHOR dos Exércitos — ‘e eu voltarei para vocês’, diz o SENHOR dos Exércitos.”",
+  "traducao_literal": "E dirás a eles: Assim disse SENHOR de exércitos: Voltai a mim, declaração de SENHOR de exércitos, e voltarei a vocês, disse SENHOR de exércitos.",
+  "termos_originais": [
+    {
+      "palavra": "וְאָמַרְתָּ֣",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqq2ms"
+    },
+    {
+      "palavra": "אֲלֵהֶ֗ם",
+      "lemma": "413",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "כֹּ֤ה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אָמַר֙",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָא֔וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "שׁ֣וּבוּ",
+      "lemma": "7725",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "אֵלַ֔י",
+      "lemma": "413",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "נְאֻ֖ם",
+      "lemma": "5002",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָא֑וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "וְאָשׁ֣וּב",
+      "lemma": "c/7725",
+      "morfologia": "HC/Vqi1cs"
+    },
+    {
+      "palavra": "אֲלֵיכֶ֔ם",
+      "lemma": "413",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "אָמַ֖ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָאֽוֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Estrutura de citação aninhada com a fórmula נְאֻם (declaração) intercalada no meio da fala e אָמַר (disse) repetida como moldura inicial e final.",
+      "escolha": "Aspas duplas para a moldura 'diga a eles: ...' (primeiro nível); aspas simples para as falas diretas do SENHOR ('Voltem para mim' / 'e eu voltarei para vocês'); a fórmula נְאֻם intercalada tratada como travessão parentético, seguindo o padrão já usado no corpus para essa mesma fórmula (Zc 2:9, 2:10, 2:14).",
+      "justificativa": "Preserva a estrutura retórica tripla do hebraico (assim diz / declaração / disse) sem multiplicar níveis de aspas de forma artificial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Tratar as três fórmulas como três blocos citacionais separados com aspas duplas cada",
+          "motivo": "fragmenta artificialmente uma única sentença poética em unidades desconexas"
+        }
+      ]
+    },
+    {
+      "questao": "Pessoa gramatical de 'שׁוּבוּ אֵלַי' / 'אֲלֵיכֶם' (2mp).",
+      "escolha": "'vocês' (plural), consistente com 1:2.",
+      "justificativa": "ER-0003.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Chamado central do capítulo ('voltem... e eu voltarei'), estrutura de reciprocidade retomada em 1:6b como cumprida na geração anterior.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

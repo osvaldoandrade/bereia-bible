@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.43.3",
+    "livro": "Salmos",
+    "capitulo": 43,
+    "versiculo": 3,
+    "pericope": "Ps.43.1-5"
+  },
+  "texto_bv": "Envia a tua luz e a tua verdade; que elas me guiem e me levem ao teu monte santo e às tuas moradas.",
+  "traducao_literal": "Envia tua luz e tua verdade; elas guiem-me; tragam-me ao monte da tua santidade e às tuas moradas.",
+  "termos_originais": [
+    {
+      "palavra": "שְׁלַח",
+      "lemma": "7971",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "אוֹרְךָ֣",
+      "lemma": "216",
+      "morfologia": "HNcbsc/Sp2ms"
+    },
+    {
+      "palavra": "וַ֭אֲמִתְּךָ",
+      "lemma": "c/571",
+      "morfologia": "HC/Ncfsc/Sp2ms"
+    },
+    {
+      "palavra": "הֵ֣מָּה",
+      "lemma": "1992",
+      "morfologia": "HPp3mp"
+    },
+    {
+      "palavra": "יַנְח֑וּנִי",
+      "lemma": "5148",
+      "morfologia": "HVhi3mp/Sp1cs"
+    },
+    {
+      "palavra": "יְבִיא֥וּנִי",
+      "lemma": "935",
+      "morfologia": "HVhi3mp/Sp1cs"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַֽר",
+      "lemma": "2022",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "קָ֝דְשְׁךָ֗",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "וְאֶל",
+      "lemma": "c/413",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "מִשְׁכְּנוֹתֶֽיךָ",
+      "lemma": "4908",
+      "morfologia": "HNcmpc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pronome resumptivo הֵמָּה antes dos dois verbos hifil (יַנְחוּנִי / יְבִיאוּנִי)",
+      "escolha": "preservado como 'elas' no texto publicado, com os dois verbos coordenados por 'e'",
+      "justificativa": "O calque do sujeito resumptivo não soa artificial em português (retoma enfaticamente 'luz e verdade'); mantido na traducao_literal com os dois verbos como orações distintas, e coordenado no texto_bv para fluência (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir 'elas' no publicado",
+          "motivo": "perderia a ênfase do sujeito resumptivo sem ganho de naturalidade"
+        }
+      ]
+    },
+    {
+      "questao": "Tradução de מִשְׁכְּנוֹתֶיךָ (H4908, plural) — 'moradas' vs 'tabernáculos'",
+      "escolha": "moradas",
+      "justificativa": "מִשְׁכָּן designa lugar de habitação; 'moradas' comunica o sentido geral de habitação divina sem importar o termo técnico-cúltico do Tabernáculo mosaico, ausente do cotexto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tabernáculos",
+          "motivo": "termo técnico que sugere referência ao Tabernáculo mosaico específico, não exigido pelo plural genérico aqui"
+        }
+      ]
+    },
+    {
+      "questao": "הַר־קָדְשְׁךָ (construto 'monte da tua santidade')",
+      "escolha": "teu monte santo",
+      "justificativa": "Cadeia construta hebraica de qualidade (substantivo abstrato קֹדֶשׁ) vertida por adjetivo em português, uso padrão para esse tipo de construto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "monte da tua santidade",
+          "motivo": "excessivamente literal para o texto publicado; reservado à traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (introduz a oração final/consecutiva 'que elas me guiem')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Súplica por guia divina; luz e verdade personificadas como guias, conduzindo ao monte santo (Sião/templo) e às moradas de Deus.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.128.2",
+    "livro": "Salmos",
+    "capitulo": 128,
+    "versiculo": 2,
+    "pericope": "Ps.128.1-6"
+  },
+  "texto_bv": "Você comerá do trabalho de suas mãos; feliz é você, e bem lhe irá.",
+  "traducao_literal": "Trabalho de suas mãos — quando comer —, felicidades suas, e bem para você.",
+  "termos_originais": [
+    {
+      "palavra": "יְגִ֣יעַ",
+      "lemma": "3018",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "כַּ֭פֶּיךָ",
+      "lemma": "3709",
+      "morfologia": "HNcfdc/Sp2ms"
+    },
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "תֹאכֵ֑ל",
+      "lemma": "398",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "אַ֝שְׁרֶ֗יךָ",
+      "lemma": "835",
+      "morfologia": "HNcmpc/Sp2ms"
+    },
+    {
+      "palavra": "וְט֣וֹב",
+      "lemma": "c/2896 a",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "לָֽךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְגִיעַ כַּפֶּיךָ כִּי תֹאכֵל — objeto (יְגִיעַ כַּפֶּיךָ) fronteado antes do verbo תֹאכֵל, ligado por כִּי",
+      "escolha": "normalizar para ordem SVO natural no publicado: 'Você comerá do trabalho de suas mãos'",
+      "justificativa": "כִּי aqui não introduz uma condicional clássica, mas liga o objeto antecipado ao verbo com valor quase enfático ('de fato comerás [disso]'); o publicado normaliza a ordem (ER-0013) e a traducao_literal preserva o objeto fronteado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'pois comerás'",
+          "motivo": "trata כִּי como causal clássico isolado, mas quebra a ligação sintática direta com o objeto fronteado יְגִיעַ כַּפֶּיךָ"
+        }
+      ]
+    },
+    {
+      "questao": "sufixo pronominal em לָךְ registrado na fonte como 2ª pessoa feminina singular (morph Sp2fs), destoando do resto do verso (2ms)",
+      "escolha": "traduzir como 'você', mantendo o mesmo referente masculino de כַּפֶּיךָ e אַשְׁרֶיךָ",
+      "justificativa": "A forma לָךְ está pontuada como sufixo de 2fs no texto-fonte, uma grafia poética arcaica bem atestada para 2ms (terminação ךְ sem mapiq, sem valor de mudança de destinatário); o discurso de todo o salmo (vv.2-6) dirige-se a um homem (כַּפֶּיךָ, אֶשְׁתְּךָ, בָּנֶיךָ), por isso o referente permanece masculino.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "marcar mudança de destinatário para feminino",
+          "motivo": "não há base contextual ou sintática para uma mudança de sujeito dentro do mesmo verso; trata-se de variação gráfica/morfológica conhecida, não de conteúdo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Segunda pessoa dirigida a um ser humano (o homem temente ao SENHOR do v.1), não a Deus — 'você', conforme D-0003/EDITORIAL §3 e precedente do corpus (Sl 91). אַשְׁרֶיךָ retoma אַשְׁרֵי do v.1, fechando paralelismo lexical entre os dois versos.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

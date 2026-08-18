@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.46.11",
+    "livro": "Isaías",
+    "capitulo": 46,
+    "versiculo": 11,
+    "pericope": "Isa.46.1-13"
+  },
+  "texto_bv": "Chamo do oriente uma ave de rapina, de uma terra distante o homem do seu conselho; sim, eu falei, também farei cumprir; formei, também farei.",
+  "traducao_literal": "O que chama desde o oriente uma ave de rapina, desde terra distante o homem do seu conselho; também falei, também a farei vir; formei, também a farei.",
+  "termos_originais": [
+    {
+      "palavra": "קֹרֵ֤א",
+      "lemma": "7121",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "מִמִּזְרָח֙",
+      "lemma": "m/4217",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "עַ֔יִט",
+      "lemma": "5861",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מֵאֶ֥רֶץ",
+      "lemma": "m/776",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "מֶרְחָ֖ק",
+      "lemma": "4801",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אִ֣ישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "עצתו",
+      "lemma": "6098",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "אַף",
+      "lemma": "637",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "דִּבַּ֨רְתִּי֙",
+      "lemma": "1696",
+      "morfologia": "HVpp1cs"
+    },
+    {
+      "palavra": "אַף",
+      "lemma": "637",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "אֲבִיאֶ֔נָּה",
+      "lemma": "935",
+      "morfologia": "HVhi1cs/Sp3fs"
+    },
+    {
+      "palavra": "יָצַ֖רְתִּי",
+      "lemma": "3335",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "אַף",
+      "lemma": "637",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "אֶעֱשֶֽׂנָּה",
+      "lemma": "6213 a",
+      "morfologia": "HVqi1cs/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אִישׁ עצתו (sufixo 3ms, 'seu/dele') — referente do pronome, crux textual conhecido",
+      "escolha": "manter 'o homem do seu conselho' no publicado, preservando a mesma ambiguidade referencial que o português 'seu' também carrega",
+      "justificativa": "o packet pinado traz sufixo de 3ª pessoa (עצתו, terminado em vav), não de 1ª pessoa como em עֲצָתִי (v.10, com sufixo י). É crux textual/exegético conhecido: pode ser autorreferência divina em 3ª pessoa ('o conselho dele' = de Deus, recurso retórico atestado em textos proféticos) ou o próprio plano do homem chamado (tradicionalmente identificado com Ciro). O português 'seu' preserva a mesma ambiguidade sem forçar decisão.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o homem do meu conselho' (harmonizando com v.10 e com o sentido corrente em versões que pressupõem 1cs)",
+          "motivo": "o packet pinado traz morfologia de sufixo 3ms (Sp3ms), não 1cs; alterar silenciosamente para 1ª pessoa corrigiria o texto-fonte sem base na morfologia fornecida"
+        }
+      ]
+    },
+    {
+      "questao": "אֲבִיאֶנָּה / אֶעֱשֶׂנָּה — sufixos femininos singulares ('trazê-la/fazê-la')",
+      "escolha": "verter sem marcação de gênero equivalente em português ('farei cumprir'/'farei'), com objeto retomando implicitamente o plano/palavra (fem. em hebraico)",
+      "justificativa": "os sufixos femininos retomam um substantivo feminino implícito no discurso (o plano/a palavra); o português não exige marcação de gênero equivalente para pronomes neutros de objeto.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "referente do sufixo 3ms em עצתו ('seu conselho') — pode ser o conselho do próprio Deus em autorreferência de 3ª pessoa, ou o propósito do homem chamado do oriente"
+  ],
+  "justificativa": "Deus anuncia a convocação de um agente histórico distante (tradicionalmente Ciro) como prova concreta e verificável de sua capacidade de predizer e cumprir, encerrando o argumento iniciado em v.9-10.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

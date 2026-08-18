@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.23.2",
+    "livro": "Salmos",
+    "capitulo": 23,
+    "versiculo": 2,
+    "pericope": "Ps.23.1-6"
+  },
+  "texto_bv": "Ele me faz repousar em pastagens de relva; conduz-me a águas tranquilas.",
+  "traducao_literal": "Em pastagens de relva, ele me faz deitar; sobre águas de descansos, ele me guia.",
+  "termos_originais": [
+    {
+      "palavra": "בִּנְא֣וֹת",
+      "lemma": "b/4999",
+      "morfologia": "HR/Ncfpc"
+    },
+    {
+      "palavra": "דֶּ֭שֶׁא",
+      "lemma": "1877",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יַרְבִּיצֵ֑נִי",
+      "lemma": "7257",
+      "morfologia": "HVhi3ms/Sp1cs"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מֵ֖י",
+      "lemma": "4325",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "מְנֻח֣וֹת",
+      "lemma": "4496",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "יְנַהֲלֵֽנִי",
+      "lemma": "5095",
+      "morfologia": "HVpi3ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito implícito (3ms) dos verbos יַרְבִּיצֵנִי e יְנַהֲלֵנִי",
+      "escolha": "Explicitar 'ele', retomando יְהוָה רֹעִי do v.1",
+      "justificativa": "O hebraico marca a pessoa apenas na flexão verbal; a explicitação em português melhora a leiturabilidade em voz alta/TTS (EDITORIAL §1.3) sem introduzir informação nova.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Sujeito tácito só na conjugação verbal ('Faz-me repousar...')",
+          "motivo": "Gramatical, mas menos claro em leitura isolada do versículo fora do contexto do v.1."
+        }
+      ]
+    },
+    {
+      "questao": "יַרְבִּיצֵנִי (Hifil de רבץ, 'fazer deitar/repousar')",
+      "escolha": "'faz repousar' no publicado; 'faz deitar' na literal",
+      "justificativa": "רבץ descreve o deitar de animais em repouso (uso pastoril); 'repousar' soa mais natural em português contemporâneo sem perder o sentido de descanso físico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'faz deitar' também no publicado",
+          "motivo": "Soa mais cru/artificial no texto corrido; mantido apenas na literal (doutrina do calque, ER-0013)."
+        }
+      ]
+    },
+    {
+      "questao": "מְנֻחוֹת, plural construto ('águas de descansos')",
+      "escolha": "Normalizar para adjetivo 'tranquilas' no publicado; preservar plural construto na literal",
+      "justificativa": "O plural intensivo hebraico não tem equivalente natural em português corrente; ER-0013 autoriza normalização de calques estruturais no texto publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'águas de repousos' (plural literal)",
+          "motivo": "Soa artificial em português; preservado apenas na traducao_literal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele"
+  ],
+  "ambiguidades_preservadas": [
+    "נָוֶה (נְאוֹת) pode denotar tanto 'pastagem' quanto 'morada/abrigo'; optou-se por 'pastagem' pelo paralelo com דֶּשֶׁא ('relva'), mas o sentido de 'lugar de habitação segura' permanece latente na imagem pastoril."
+  ],
+  "justificativa": "Consistência lexical com H1877 (דֶּשֶׁא → 'relva', entrada de léxico). Nenhuma variante textual no aparato do packet.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

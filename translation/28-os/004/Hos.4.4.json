@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.4.4",
+    "livro": "Oseias",
+    "capitulo": 4,
+    "versiculo": 4,
+    "pericope": "Hos.4.1-19"
+  },
+  "texto_bv": "Mas que ninguém entre em disputa, e que ninguém repreenda outro homem; pois o teu povo é como os que disputam com o sacerdote.",
+  "traducao_literal": "Contudo, homem não contenda, e não repreenda homem; e teu povo, como os que contendem com sacerdote.",
+  "termos_originais": [
+    {
+      "palavra": "אַ֥ךְ",
+      "lemma": "389",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "אִ֛ישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יָרֵ֖ב",
+      "lemma": "7378",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "וְאַל",
+      "lemma": "c/408",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יוֹכַ֣ח",
+      "lemma": "3198",
+      "morfologia": "HVhj3ms"
+    },
+    {
+      "palavra": "אִ֑ישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְעַמְּךָ֖",
+      "lemma": "c/5971 a",
+      "morfologia": "HC/Ncmsc/Sp2ms"
+    },
+    {
+      "palavra": "כִּמְרִיבֵ֥י",
+      "lemma": "k/7378",
+      "morfologia": "HR/Vhrmpc"
+    },
+    {
+      "palavra": "כֹהֵֽן",
+      "lemma": "3548",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Segundo אִישׁ em וְאַל־יוֹכַח אִישׁ — sujeito repetido ou objeto do verbo?",
+      "escolha": "Tratado como objeto genérico: 'que ninguém repreenda outro homem'",
+      "justificativa": "A estrutura quiástica (sujeito-verbo / verbo-objeto) é mais econômica e evita redundância; 'outro' é suprido para explicitar a leitura de objeto em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sujeito enfático repetido ('que homem não repreenda; que homem [não seja repreendido]')",
+          "motivo": "gramaticalmente possível, mas redundante e menos natural em português"
+        }
+      ]
+    },
+    {
+      "questao": "Vocalização e sentido de כִּמְרִיבֵי כֹהֵן",
+      "escolha": "Seguir a vocalização massorética pinada (particípio plural construto): 'como os que disputam com o sacerdote'",
+      "justificativa": "O packet fornece a morfologia HR/Vhrmpc (particípio Hifil plural construto de ריב) sem indicar variante; a BV segue o texto consonantal e vocálico pinado sem emendar.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repontuação כִּי מְרִיבִי ('pois minha contenda é contigo, sacerdote')",
+          "motivo": "emenda adotada por parte da crítica textual moderna, mas não suportada pela vocalização do texto pinado; o packet não trouxe aparato para este verso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula)",
+    "outro"
+  ],
+  "ambiguidades_preservadas": [
+    "כִּמְרִיבֵי כֹהֵן admite a leitura massorética preservada aqui ('como os que contendem com um sacerdote') ou a emenda moderna 'pois minha contenda é contigo, sacerdote'; a BV não resolve por emenda.",
+    "Referente de 'teu povo' (2ms) — se dirigido ao sacerdote (continuidade imediata do contexto) ou a Israel/ao profeta — mantido conforme o sufixo, sem resolver o endereçado implícito."
+  ],
+  "justificativa": "Verso reconhecidamente difícil (crux textual); mantida leitura conservadora baseada estritamente na morfologia do texto pinado, sem repontuação.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.10.1",
+    "livro": "Provérbios",
+    "capitulo": 10,
+    "versiculo": 1,
+    "pericope": "Prov.10.1-32"
+  },
+  "texto_bv": "Provérbios de Salomão. O filho sábio alegra o pai, mas o filho tolo é a tristeza de sua mãe.",
+  "traducao_literal": "Provérbios de Salomão: filho sábio alegra pai, e filho tolo, tristeza de mãe dele.",
+  "termos_originais": [
+    {
+      "palavra": "מִשְׁלֵ֗י",
+      "lemma": "4912",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "שְׁלֹ֫מֹ֥ה",
+      "lemma": "8010",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בֵּ֣ן",
+      "lemma": "1121 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "חָ֭כָם",
+      "lemma": "2450",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "יְשַׂמַּח",
+      "lemma": "8055",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "אָ֑ב",
+      "lemma": "1",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּבֵ֥ן",
+      "lemma": "c/1121 a",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "כְּ֝סִ֗יל",
+      "lemma": "3684",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "תּוּגַ֥ת",
+      "lemma": "8424",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "אִמּֽוֹ",
+      "lemma": "517",
+      "morfologia": "HNcfsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Nexo waw entre as duas metades do provérbio (paralelismo antitético)",
+      "escolha": "traduzir com 'mas' no texto publicado, preservando 'e' na traducao_literal",
+      "justificativa": "O paralelismo antitético justo/ímpio, sábio/tolo domina quase todo o capítulo; 'mas' explicita a relação lógica sem alterar o sentido; ER-0013 (doutrina do calque) mantém 'e' na literal — decisão-âncora reaplicada silenciosamente nos versos seguintes.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e' uniforme no texto publicado",
+          "motivo": "apaga o contraste do paralelismo antitético, que soa natural em português com 'mas'"
+        }
+      ]
+    },
+    {
+      "questao": "Distinção lexical entre כְּסִיל (kesil) e אֱוִיל (evil), ambos correntemente vertidos 'tolo/insensato'",
+      "escolha": "כְּסִיל → 'tolo'; אֱוִיל → 'insensato' (mantido em todo o capítulo)",
+      "justificativa": "Duas raízes hebraicas distintas para tipos de insensatez (כסיל: tolice moral/temperamental; אויל: insensatez obstinada, associada à fala em vv.8,10,14,21); glosas distintas preservam a textura lexical do original (TEOLOGIA §2, valor lexical sem concordismo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "glosa única 'tolo' para ambos os lexemas",
+          "motivo": "nivela duas raízes hebraicas distintas, perdendo distinção lexical relevante para o livro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o (artigo definido, 2x)",
+    "é (cópula do segundo estico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Título de nova coleção (מִשְׁלֵי שְׁלֹמֹה) seguido do primeiro provérbio em paralelismo antitético clássico; estabelece decisões lexicais reaplicadas ao longo do capítulo (glosas de sábio/tolo/insensato/prudente/sensato).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

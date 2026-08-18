@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.27.6",
+    "livro": "Salmos",
+    "capitulo": 27,
+    "versiculo": 6,
+    "pericope": "Ps.27.1-14"
+  },
+  "texto_bv": "E agora a minha cabeça se erguerá acima dos meus inimigos que me cercam, e oferecerei em sua tenda sacrifícios de júbilo; cantarei e entoarei louvores ao SENHOR.",
+  "traducao_literal": "E agora se erguerá minha cabeça sobre meus inimigos ao meu redor, e sacrificarei em sua tenda sacrifícios de aclamação; cantarei e salmodiarei ao SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "וְעַתָּ֨ה",
+      "lemma": "c/6258",
+      "morfologia": "HC/D"
+    },
+    {
+      "palavra": "יָר֪וּם",
+      "lemma": "7311 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "רֹאשִׁ֡י",
+      "lemma": "7218 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "עַ֤ל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֹֽיְבַ֬י",
+      "lemma": "341",
+      "morfologia": "HVqrmpc/Sp1cs"
+    },
+    {
+      "palavra": "סְֽבִיבוֹתַ֗י",
+      "lemma": "5439",
+      "morfologia": "HNcbpc/Sp1cs"
+    },
+    {
+      "palavra": "וְאֶזְבְּחָ֣ה",
+      "lemma": "c/2076",
+      "morfologia": "HC/Vqh1cs"
+    },
+    {
+      "palavra": "בְ֭אָהֳלוֹ",
+      "lemma": "b/168",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "זִבְחֵ֣י",
+      "lemma": "2077",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "תְרוּעָ֑ה",
+      "lemma": "8643",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אָשִׁ֥ירָה",
+      "lemma": "7891",
+      "morfologia": "HVqh1cs"
+    },
+    {
+      "palavra": "וַ֝אֲזַמְּרָ֗ה",
+      "lemma": "c/2167",
+      "morfologia": "HC/Vph1cs"
+    },
+    {
+      "palavra": "לַיהוָֽה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ordem V-S de יָרוּם רֹאשִׁי",
+      "escolha": "normalizar para S-V no publicado (\"a minha cabeça se erguerá\"), preservando a ordem V-S do hebraico na traducao_literal",
+      "justificativa": "doutrina do calque (ER-0013): a ordem verbo-sujeito do hebraico poético soa artificial em prosa corrida portuguesa; a literal a mantém para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado (\"se erguerá a minha cabeça\")",
+          "motivo": "soa arcaizante e destoa da norma ER-0011 de ordem S-V uniforme no texto publicado"
+        }
+      ]
+    },
+    {
+      "questao": "אָשִׁירָה וַאֲזַמְּרָה — dois verbos distintos de louvor (שיר/זמר)",
+      "escolha": "\"cantarei e entoarei louvores\", preservando os dois lexemas",
+      "justificativa": "זמר acrescenta a ideia de música/salmodia instrumental ao ato de cantar (שיר); reduzi-los a um único verbo perderia a ênfase cumulativa do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"cantarei e cantarei\" (repetição do mesmo verbo)",
+          "motivo": "perde a distinção lexical entre שיר (cantar) e זמר (salmodiar/tocar louvor)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Virada do salmo (וְעַתָּה) do temor à celebração antecipada: exaltação sobre os inimigos e promessa de culto sacrificial e musical ao SENHOR.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

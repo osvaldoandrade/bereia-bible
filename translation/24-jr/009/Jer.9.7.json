@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.9.7",
+    "livro": "Jeremias",
+    "capitulo": 9,
+    "versiculo": 7,
+    "pericope": "Jer.9.1-25"
+  },
+  "texto_bv": "A língua deles é flecha mortífera, fala engano; com a boca, cada um fala de paz ao seu próximo, mas no íntimo arma a sua emboscada.",
+  "traducao_literal": "Flecha matadora [é] a língua deles, engano fala; com a sua boca, paz ao seu próximo fala; e no seu interior põe a sua emboscada.",
+  "termos_originais": [
+    {
+      "palavra": "חֵ֥ץ",
+      "lemma": "2671",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "שוחט",
+      "lemma": "7819 a",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "לְשׁוֹנָ֖ם",
+      "lemma": "3956",
+      "morfologia": "HNcbsc/Sp3mp"
+    },
+    {
+      "palavra": "מִרְמָ֣ה",
+      "lemma": "4820",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "דִבֵּ֑ר",
+      "lemma": "1696",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "בְּפִ֗יו",
+      "lemma": "b/6310",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "שָׁל֤וֹם",
+      "lemma": "7965",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "854",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "רֵעֵ֨הוּ֙",
+      "lemma": "7453",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "יְדַבֵּ֔ר",
+      "lemma": "1696",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "וּבְקִרְבּ֖וֹ",
+      "lemma": "c/b/7130",
+      "morfologia": "HC/R/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "יָשִׂ֥ים",
+      "lemma": "7760 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "אָרְבּֽוֹ",
+      "lemma": "696",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שוחט — grafia sem os sinais massoréticos plenos presentes em todas as demais palavras do packet (possível crux Ketiv/Qere entre שׁוֹחֵט ativo 'que mata/degola' e שָׁחוּט passivo 'afiada')",
+      "escolha": "traduzir 'mortífera', glosa que cobre tanto a leitura ativa quanto a passiva sem decidir entre elas",
+      "justificativa": "a anomalia gráfica (única palavra do capítulo sem vocalização/acentuação completa no packet) sugere uma crux textual tradicional; sem aparato formal (variantes_fonte) disponível no packet para adjudicar, opta-se por uma glosa neutra que não commit a nenhuma das duas leituras",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'flecha afiada' (assumindo Qere שָׁחוּט)",
+          "motivo": "assume uma leitura específica sem base em aparato formal fornecido pelo packet"
+        },
+        {
+          "opcao": "'flecha que degola' (mais literal de שׁחט)",
+          "motivo": "imagem cirúrgica excessiva, quebra o registro poético do texto"
+        }
+      ]
+    },
+    {
+      "questao": "Alternância número singular/plural (לְשׁוֹנָם plural vs בְּפִיו/יְדַבֵּר singular) no mesmo versículo",
+      "escolha": "normalizar para plural coletivo com 'cada um' no publicado, preservando a alternância gramatical na traducao_literal",
+      "justificativa": "o hebraico alterna entre descrição coletiva (a língua deles) e caso individual representativo (cada um fala/arma); 'cada um' no português capta essa generalização sem soar como isolamento de um único indivíduo",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter singular ('sua língua... sua boca') isolando um único indivíduo",
+          "motivo": "perde o sentido coletivo/generalizante da acusação, que descreve um padrão social, não um caso isolado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Grafia de שוחט sem sinais diacríticos completos no packet — possível crux Ketiv/Qere entre 'que mata' (leitura ativa) e 'afiada' (leitura passiva), sem aparato formal (variantes_fonte) disponível no packet para adjudicação"
+  ],
+  "justificativa": "Descrição da hipocrisia social: fala de paz que esconde traição, com a mesma metáfora da flecha/arco iniciada em v.2; a ambiguidade textual em שוחט é registrada por transparência, sem afetar substancialmente o sentido geral do versículo.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.94.7",
+    "livro": "Salmos",
+    "capitulo": 94,
+    "versiculo": 7,
+    "pericope": "Ps.94.1-23"
+  },
+  "texto_bv": "E disseram: “O SENHOR não vê, e o Deus de Jacó não percebe.”",
+  "traducao_literal": "E disseram: “Não vê Yah; e não entende o Deus de Jacó.”",
+  "termos_originais": [
+    {
+      "palavra": "וַ֭יֹּ֣אמְרוּ",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִרְאֶה",
+      "lemma": "7200",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "יָּ֑הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְלֹא",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יָ֝בִ֗ין",
+      "lemma": "995",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "אֱלֹהֵ֥י",
+      "lemma": "430",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יַעֲקֹֽב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָּהּ (H3050, forma abreviada do Tetragrama) — lema não coberto explicitamente por NOMES-DIVINOS v1.0.0 (que lista apenas H3068)",
+      "escolha": "verter 'SENHOR' no publicado por extensão da política ER-0002; manter 'Yah' na literal para auditoria do lema distinto",
+      "justificativa": "Mesmo referente (YHWH) em forma poética abreviada; transliterar 'Yah' no texto corrido quebraria a própria lógica da política, que já rejeita 'Javé'/'Yahweh' por estrangeirizar o Tetragrama.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Yah' no publicado",
+          "motivo": "introduz forma estrangeirizante inconsistente com a convenção adotada para o nome pleno"
+        }
+      ]
+    },
+    {
+      "questao": "ordem verbo-sujeito calcada por maqqef (יִרְאֶה־יָּהּ; יָבִין אֱלֹהֵי יַעֲקֹב)",
+      "escolha": "normalizar para sujeito-verbo no publicado",
+      "justificativa": "ER-0013: calque de ordem V-S soa artificial fora da fórmula de fala introdutória; a literal preserva a ordem original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado",
+          "motivo": "antinatural em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Citação do discurso cínico dos ímpios negando a percepção divina; primeira ocorrência do nome curto יָּהּ no capítulo.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

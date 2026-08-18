@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.32.7",
+    "livro": "Isaías",
+    "capitulo": 32,
+    "versiculo": 7,
+    "pericope": "Isa.32.1-20"
+  },
+  "texto_bv": "Quanto ao mesquinho, suas armas são más; ele trama maquinações para arruinar os humildes com palavras mentirosas, mesmo quando o necessitado fala o que é justo.",
+  "traducao_literal": "E o mesquinho, seus instrumentos são maus; ele planeja tramas para destruir os humildes com palavras de mentira, e quando o necessitado fala o juízo.",
+  "termos_originais": [
+    {
+      "palavra": "וְכֵלַ֖י",
+      "lemma": "c/3596",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "כֵּלָ֣יו",
+      "lemma": "3627",
+      "morfologia": "HNcmpc/Sp3ms"
+    },
+    {
+      "palavra": "רָעִ֑ים",
+      "lemma": "7451 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "ה֚וּא",
+      "lemma": "1931",
+      "morfologia": "HPp3ms"
+    },
+    {
+      "palavra": "זִמּ֣וֹת",
+      "lemma": "2154",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "יָעָ֔ץ",
+      "lemma": "3289",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לְחַבֵּ֤ל",
+      "lemma": "l/2254 b",
+      "morfologia": "HR/Vpc"
+    },
+    {
+      "palavra": "ענוים",
+      "lemma": "6035",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "בְּאִמְרֵי",
+      "lemma": "b/561",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "שֶׁ֔קֶר",
+      "lemma": "8267",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּבְדַבֵּ֥ר",
+      "lemma": "c/b/1696",
+      "morfologia": "HC/R/Vpc"
+    },
+    {
+      "palavra": "אֶבְי֖וֹן",
+      "lemma": "34",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "מִשְׁפָּֽט",
+      "lemma": "4941",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עֲנָוִים (lema H6035, forma sem pontuação no packet fonte) — 'humildes' ou 'pobres'",
+      "escolha": "humildes",
+      "justificativa": "H6035 עָנָו cobre o campo semântico 'humilde/aflito/pobre'; adotou-se 'humildes' como glosa primária, com a extensão semântica documentada em ambiguidades_preservadas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pobres",
+          "motivo": "leitura tradicional próxima (tradição textual conhece variação עניים/ענוים nesta raiz em outros lugares), mas o lema pinado no packet fonte é H6035 (humilde/aflito), sem aparato de variante anexado a este verso"
+        }
+      ]
+    },
+    {
+      "questao": "Sintaxe de וּבְדַבֵּר אֶבְיוֹן מִשְׁפָּט (infinitivo construto com sujeito e objeto)",
+      "escolha": "e quando o necessitado fala o que é justo",
+      "justificativa": "אֶבְיוֹן funciona como sujeito do infinitivo דַּבֵּר e מִשְׁפָּט como seu objeto: 'e ao falar o necessitado justiça/direito' — isto é, mesmo quando o necessitado apresenta causa justa, o mesquinho o destrói com mentiras.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "e ao falar contra o necessitado com veredito",
+          "motivo": "inverteria sujeito e objeto do infinitivo construto, atribuindo a fala ao mesquinho e não ao necessitado, contra a sintaxe hebraica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "עֲנָוִים pode denotar tanto 'humildes/mansos' quanto, por extensão, 'pobres/aflitos' — campo semântico único em hebraico sem equivalente exato de um só termo em português"
+  ],
+  "justificativa": "Continuação do retrato do perverso (aqui nomeado 'mesquinho'): maquinações deliberadas contra os vulneráveis, mesmo quando estes têm causa justa.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

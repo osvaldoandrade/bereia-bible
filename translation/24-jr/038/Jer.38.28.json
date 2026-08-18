@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.38.28",
+    "livro": "Jeremias",
+    "capitulo": 38,
+    "versiculo": 28,
+    "pericope": "Jer.38.1-28"
+  },
+  "texto_bv": "Jeremias ficou no pátio da guarda até o dia em que Jerusalém foi tomada. E assim aconteceu quando Jerusalém foi tomada:",
+  "traducao_literal": "E ficou Jeremias no pátio da guarda até o dia em que foi tomada Jerusalém. E aconteceu que, quando foi tomada Jerusalém...",
+  "termos_originais": [
+    {
+      "palavra": "וַיֵּ֤שֶׁב",
+      "lemma": "c/3427",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "יִרְמְיָ֨הוּ֙",
+      "lemma": "3414",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בַּחֲצַ֣ר",
+      "lemma": "b/2691 a",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "הַמַּטָּרָ֔ה",
+      "lemma": "d/4307",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "י֖וֹם",
+      "lemma": "3117",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "נִלְכְּדָ֣ה",
+      "lemma": "3920",
+      "morfologia": "HVNp3fs"
+    },
+    {
+      "palavra": "יְרוּשָׁלִָ֑ם",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְהָיָ֕ה",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "כַּאֲשֶׁ֥ר",
+      "lemma": "k/834 d",
+      "morfologia": "HR/Tr"
+    },
+    {
+      "palavra": "נִלְכְּדָ֖ה",
+      "lemma": "3920",
+      "morfologia": "HVNp3fs"
+    },
+    {
+      "palavra": "יְרוּשָׁלִָֽם",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וְהָיָה כַּאֲשֶׁר נִלְכְּדָה יְרוּשָׁלִָם — cláusula final do verso sintaticamente inacabada: o sujeito completo ('assim aconteceu que...') só se resolve no capítulo seguinte (Jer 39:1ss), fora do escopo do packet deste capítulo.",
+      "escolha": "Traduzir a cláusula tal como está, terminando em dois-pontos, sem completar com conteúdo de Jer 39 (ausente do packet).",
+      "justificativa": "O packet cego delimita a unidade em Jer.38.1-28; completar a frase importaria conteúdo de outro capítulo não fornecido, violando a instrução de não suprir OSIS ausente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "encerrar a frase com ponto final, como se fosse completa",
+          "motivo": "apagaria o efeito de transição intencional do texto para o relato da queda de Jerusalém em Jer 39"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Fronteira sintática entre Jer 38:28 e 39:1 — a cláusula 'e aconteceu que quando Jerusalém foi tomada' é retomada e completada apenas no capítulo seguinte"
+  ],
+  "justificativa": "Verso de fecho do capítulo (na divisão canônica), embora sintaticamente a oração continue em Jer 39:1; packet cego termina em 38:28, por isso a tradução preserva a cláusula suspensa.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.3.15",
+    "livro": "Isaías",
+    "capitulo": 3,
+    "versiculo": 15,
+    "pericope": "Isa.3.1-26"
+  },
+  "texto_bv": "\"Que direito têm vocês de esmagar o meu povo e de moer o rosto dos pobres?\" — Diz o Senhor DEUS dos Exércitos.",
+  "traducao_literal": "Que a vós, esmagais meu povo, e o rosto dos pobres moeis? Declaração do Senhor DEUS dos Exércitos.",
+  "termos_originais": [
+    {
+      "palavra": "מלכם",
+      "lemma": "m/l",
+      "morfologia": "HR/R/Sp2mp"
+    },
+    {
+      "palavra": "תְּדַכְּא֣וּ",
+      "lemma": "1792",
+      "morfologia": "HVpi2mp"
+    },
+    {
+      "palavra": "עַמִּ֔י",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וּפְנֵ֥י",
+      "lemma": "c/6440",
+      "morfologia": "HC/Ncbpc"
+    },
+    {
+      "palavra": "עֲנִיִּ֖ים",
+      "lemma": "6041",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "תִּטְחָ֑נוּ",
+      "lemma": "2912",
+      "morfologia": "HVqi2mp"
+    },
+    {
+      "palavra": "נְאֻם",
+      "lemma": "5002",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֲדֹנָ֥י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְהוִ֖ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָאֽוֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "forma consonantal מלכם sem pontuação (único vocábulo do capítulo sem sinais massoréticos completos no packet)",
+      "escolha": "ler como מַה־לָּכֶם ('que direito têm vocês'), conforme a morfologia anexada (duas preposições + sufixo 2mp) e o sentido interrogativo do contexto",
+      "justificativa": "a grafia sem niqqud é anômala frente às demais palavras do capítulo; fenômeno textual registrado como ambiguidade, adotando a leitura sustentada pela morfologia fornecida e pelo paralelo com a pergunta retórica seguinte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar sem interpretar",
+          "motivo": "inviabilizaria a tradução do versículo; a morfologia do packet já resolve a segmentação, apoiando a leitura interrogativa tradicional"
+        }
+      ]
+    },
+    {
+      "questao": "נְאֻם (lit. 'declaração/oráculo de')",
+      "escolha": "'diz' verbalizado no publicado",
+      "justificativa": "fórmula profética fixa; o construto נְאֻם funciona como fórmula de atribuição de fala, verbalizada naturalmente em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'oráculo do Senhor DEUS dos Exércitos' (manter substantivo)",
+          "motivo": "válido e mantido na traducao_literal; o publicado prefere a fórmula verbal mais natural"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "grafia consonantal de מלכם sem pontuação (anomalia no packet); leitura adotada מַה־לָּכֶם 'que direito têm vocês', apoiada pela morfologia, mas a ausência de vocalização no dado-fonte é registrada como incerteza textual."
+  ],
+  "justificativa": "Fórmula de encerramento profético confirma a acusação anterior como palavra direta de Deus.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

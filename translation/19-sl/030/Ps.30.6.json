@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.30.6",
+    "livro": "Salmos",
+    "capitulo": 30,
+    "versiculo": 6,
+    "pericope": "Ps.30.1-13"
+  },
+  "texto_bv": "Pois a sua ira dura um momento, mas o seu favor dura uma vida inteira; à tarde vem hospedar-se o choro, mas, pela manhã, a alegria.",
+  "traducao_literal": "Pois um momento há em sua ira, vida há em seu favor; à tarde pernoita choro, e para a manhã, júbilo.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "רֶ֨גַע",
+      "lemma": "7281",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בְּאַפּוֹ֮",
+      "lemma": "b/639",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "חַיִּ֪ים",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "בִּרְצ֫וֹנ֥וֹ",
+      "lemma": "b/7522",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "בָּ֭עֶרֶב",
+      "lemma": "b/6153",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "יָלִ֥ין",
+      "lemma": "3885 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בֶּ֗כִי",
+      "lemma": "1065",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְלַבֹּ֥קֶר",
+      "lemma": "c/l/1242",
+      "morfologia": "HC/Rd/Ncmsa"
+    },
+    {
+      "palavra": "רִנָּֽה",
+      "lemma": "7440",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Orações nominais elípticas (רֶגַע בְּאַפּוֹ / חַיִּים בִּרְצוֹנוֹ) — suprir verbo 'ser/durar'?",
+      "escolha": "suprido 'dura' (publicado) / 'há' (literal)",
+      "justificativa": "Português não sustenta oração nominal pura nesse registro sem soar telegráfico; o verbo é exigido pela sintaxe (EDITORIAL §4), sem acrescentar sentido novo.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "יָלִין ('lin', pernoitar/hospedar-se) — glosa genérica 'durar/permanecer' ou específica 'pernoitar/hospedar-se'?",
+      "escolha": "mantida específica: 'vem hospedar-se'",
+      "justificativa": "O verbo concreto de hospedagem noturna é a imagem poética central do versículo (o choro como hóspede que parte pela manhã); generalizar apagaria a metáfora.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o choro dura a noite'",
+          "motivo": "perde a imagem de hospedagem/visita temporária que estrutura o versículo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "dura/há (2x; verbo copulativo ausente no hebraico, exigido pela sintaxe portuguesa)",
+    "vem (agregado a 'hospedar-se' para naturalizar o verbo יָלִין)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Quiasmo temático dia/noite, ira/favor; a ordem verbo-sujeito de יָלִין בֶּכִי (imperfeito, não wayyiqtol) foi mantida naturalmente em português, sem violar ER-0011 (que rege apenas o wayyiqtol narrativo).",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

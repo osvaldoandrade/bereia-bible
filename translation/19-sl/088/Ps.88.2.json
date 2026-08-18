@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.88.2",
+    "livro": "Salmos",
+    "capitulo": 88,
+    "versiculo": 2,
+    "pericope": "Ps.88.1-19"
+  },
+  "texto_bv": "SENHOR, Deus da minha salvação, dia e noite clamo diante de ti.",
+  "traducao_literal": "SENHOR, Deus da minha salvação, dia clamei, na noite, diante de ti.",
+  "termos_originais": [
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֱלֹהֵ֣י",
+      "lemma": "430",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יְשׁוּעָתִ֑י",
+      "lemma": "3444",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "יוֹם",
+      "lemma": "3117",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "צָעַ֖קְתִּי",
+      "lemma": "6817",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "בַלַּ֣יְלָה",
+      "lemma": "b/3915",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "נֶגְדֶּֽךָ",
+      "lemma": "5048",
+      "morfologia": "HR/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter יוֹם...בַלַּיְלָה, par temporal (dia/noite) partilhando um único verbo no perfeito?",
+      "escolha": "fundir em 'dia e noite clamo diante de ti' no publicado",
+      "justificativa": "Perfeito hebraico de valor continuo/habitual; fusão evita a leitura truncada de uma segunda oração sem verbo próprio; a literal preserva os dois substantivos temporais e o verbo único.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "de dia clamei; de noite, diante de ti",
+          "motivo": "preserva a elipse verbal da hebraica mas soa truncado como texto corrido em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "e (ligando 'dia' e 'noite' no publicado)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "יְהוָה pontuado SENHOR (ER-0002); אֱלֹהֵי יְשׁוּעָתִי em construto, 'Deus da minha salvação'; segunda pessoa 'ti' por ser oração dirigida a Deus (ER-0003).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

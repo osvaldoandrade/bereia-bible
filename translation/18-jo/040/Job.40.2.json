@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.40.2",
+    "livro": "Jó",
+    "capitulo": 40,
+    "versiculo": 2,
+    "pericope": "Job.40.1-32"
+  },
+  "texto_bv": "Vai o que contende com o Todo-Poderoso corrigi-lo? Quem repreende Deus, que responda!",
+  "traducao_literal": "Contenderá com o Todo-Poderoso o corretor? O repreendedor de Eloá, que lhe responda.",
+  "termos_originais": [
+    {
+      "palavra": "הֲ֭רֹב",
+      "lemma": "i/7378",
+      "morfologia": "HTi/Vqa"
+    },
+    {
+      "palavra": "עִם",
+      "lemma": "5973 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "שַׁדַּ֣י",
+      "lemma": "7706",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יִסּ֑וֹר",
+      "lemma": "3250",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מוֹכִ֖יחַ",
+      "lemma": "3198",
+      "morfologia": "HVhrmsa"
+    },
+    {
+      "palavra": "אֱל֣וֹהַּ",
+      "lemma": "433",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יַעֲנֶֽנָּה",
+      "lemma": "6030 b",
+      "morfologia": "HVqj3ms/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de שַׁדַּי fora da locução אֵל שַׁדַּי",
+      "escolha": "Todo-Poderoso",
+      "justificativa": "NOMES-DIVINOS.md v1.0.0 só fixa אֵל שַׁדַּי → 'Deus Todo-Poderoso'; שַׁדַּי isolado (frequente em Jó) segue convenção corrente pt-BR 'Todo-Poderoso', preservando o registro divino sem duplicar 'Deus'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Onipotente",
+          "motivo": "termo teológico-filosófico menos corrente na tradição de leitura em voz alta da BV"
+        },
+        {
+          "opcao": "transliterar 'Shadai'",
+          "motivo": "quebra a convenção de nomes divinos já fixada para composições com este lexema"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de אֱלוֹהַּ (Eloá, forma singular poética de Elohim, comum em Jó)",
+      "escolha": "Deus",
+      "justificativa": "Mesmo referente que אֱלֹהִים (H430); política de nomes divinos mapeia para 'Deus'. A distinção morfológica Eloá/Elohim fica só na literal/observação, sem duplicar glosa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Eloá'",
+          "motivo": "introduziria um nome divino novo sem tradição consolidada em pt-BR para um lexema que é só variante poética de Elohim"
+        }
+      ]
+    },
+    {
+      "questao": "Referente do sufixo 3fs em יַעֲנֶנָּה ('que ele lhe responda')",
+      "escolha": "deixar sem antecedente explícito no publicado ('que responda')",
+      "justificativa": "O sufixo feminino não tem antecedente claro no verso (nem רֹב nem אֱלוֹהַּ são femininos); optou-se por não forçar um referente que o hebraico não declara.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'que lhe responda' (referente = Deus)",
+          "motivo": "gramaticalmente possível mas não impõe-se; preservado como ambiguidade"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o (artigo antes de 'corretor'/'repreendedor', implícito no particípio substantivado)"
+  ],
+  "ambiguidades_preservadas": [
+    "Referente do sufixo 3fs de יַעֲנֶנָּה (a contenda? a repreensão? Deus?) não é determinável só pela gramática.",
+    "רֹב e יִסּוֹר podem formar uma única cláusula ('o contendor instruirá?') ou duas orações justapostas; ambas as leituras produzem sentido semelhante e foram preservadas na tradução."
+  ],
+  "justificativa": "Verso proverbial de sintaxe comprimida (infinitivo absoluto + substantivo hápax יִסּוֹר); construção alinhada às leituras de ESV/NASB ('Shall a faultfinder contend...').",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

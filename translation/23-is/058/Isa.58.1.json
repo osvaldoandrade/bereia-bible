@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.58.1",
+    "livro": "Isaías",
+    "capitulo": 58,
+    "versiculo": 1,
+    "pericope": "Isa.58.1-14"
+  },
+  "texto_bv": "Clame a plena voz, não se contenha; levante a sua voz como a trombeta, e anuncie ao meu povo a sua transgressão, e à casa de Jacó os seus pecados.",
+  "traducao_literal": "Clama com a garganta, não retenhas; como o shofar, levanta a tua voz; e anuncia ao meu povo a transgressão deles, e à casa de Jacó o pecado deles.",
+  "termos_originais": [
+    {
+      "palavra": "קְרָ֤א",
+      "lemma": "7121",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "בְגָרוֹן֙",
+      "lemma": "b/1627",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תַּחְשֹׂ֔ךְ",
+      "lemma": "2820",
+      "morfologia": "HVqj2ms"
+    },
+    {
+      "palavra": "כַּשּׁוֹפָ֖ר",
+      "lemma": "k/7782",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הָרֵ֣ם",
+      "lemma": "7311 a",
+      "morfologia": "HVhv2ms"
+    },
+    {
+      "palavra": "קוֹלֶ֑ךָ",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "וְהַגֵּ֤ד",
+      "lemma": "c/5046",
+      "morfologia": "HC/Vhv2ms"
+    },
+    {
+      "palavra": "לְעַמִּי֙",
+      "lemma": "l/5971 a",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "פִּשְׁעָ֔ם",
+      "lemma": "6588",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "וּלְבֵ֥ית",
+      "lemma": "c/l/1004 b",
+      "morfologia": "HC/R/Ncmsc"
+    },
+    {
+      "palavra": "יַעֲקֹ֖ב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "חַטֹּאתָֽם",
+      "lemma": "2403 b",
+      "morfologia": "HNcfpc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "קְרָא (H7121) — sentido de 'gritar/proclamar' vs. a glosa-base do léxico 'chamar'",
+      "escolha": "clamar/gritar a plena voz",
+      "justificativa": "H7121 é polissêmico; a entrada do lexicon.json (PROPOSED, cunhada no contexto de Gn 1) fixa 'chamar' como glosa-base, mas em Is 58:1 o cotexto (בְגָרוֹן, כַּשּׁוֹפָר, הָרֵם קוֹלֶךָ) exige o sentido 'gritar/proclamar em alta voz', não 'chamar por nome'. Mesmo lema, sentido determinado pelo contexto — não contradiz a entrada PROPOSED.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "chamar",
+          "motivo": "não capta o registro de proclamação pública exigido pelos modificadores do verso"
+        }
+      ]
+    },
+    {
+      "questao": "בְגָרוֹן — idiomatismo 'com a garganta'",
+      "escolha": "a plena voz",
+      "justificativa": "Idiomatismo hebraico para grito máximo; a forma literal 'com a garganta' é preservada apenas na traducao_literal (doutrina do calque, ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "com a garganta (literal no publicado)",
+          "motivo": "soa artificial em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Comando divino inicial ao profeta para proclamar publicamente a transgressão do povo/casa de Jacó, com paralelismo sinonímico פִּשְׁעָם // חַטֹּאתָם (transgressão/pecados) preservado.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

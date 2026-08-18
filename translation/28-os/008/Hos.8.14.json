@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.8.14",
+    "livro": "Oseias",
+    "capitulo": 8,
+    "versiculo": 14,
+    "pericope": "Hos.8.1-14"
+  },
+  "texto_bv": "Israel esqueceu aquele que o fez e construiu palácios; e Judá multiplicou cidades fortificadas. Mas eu enviarei fogo às suas cidades, e ele consumirá os seus palácios.",
+  "traducao_literal": "E esqueceu Israel aquele que o fez, e construiu palácios; e Judá multiplicou cidades fortificadas; e enviarei fogo às suas cidades, e consumirá seus palácios.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּשְׁכַּ֨ח",
+      "lemma": "c/7911",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֜ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "עֹשֵׂ֗הוּ",
+      "lemma": "6213 a",
+      "morfologia": "HVqrmsc/Sp3ms"
+    },
+    {
+      "palavra": "וַיִּ֨בֶן֙",
+      "lemma": "c/1129",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "הֵֽיכָל֔וֹת",
+      "lemma": "1964",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וִֽיהוּדָ֕ה",
+      "lemma": "c/3063",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "הִרְבָּ֖ה",
+      "lemma": "7235 a",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "עָרִ֣ים",
+      "lemma": "5892 b",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "בְּצֻר֑וֹת",
+      "lemma": "1219",
+      "morfologia": "HAafpa"
+    },
+    {
+      "palavra": "וְשִׁלַּחְתִּי",
+      "lemma": "c/7971",
+      "morfologia": "HC/Vpq1cs"
+    },
+    {
+      "palavra": "אֵ֣שׁ",
+      "lemma": "784",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "בְּעָרָ֔יו",
+      "lemma": "b/5892 b",
+      "morfologia": "HR/Ncfpc/Sp3ms"
+    },
+    {
+      "palavra": "וְאָכְלָ֖ה",
+      "lemma": "c/398",
+      "morfologia": "HC/Vqq3fs"
+    },
+    {
+      "palavra": "אַרְמְנֹתֶֽיהָ",
+      "lemma": "759",
+      "morfologia": "HNcmpc/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem sujeito-verbo em וַיִּשְׁכַּח יִשְׂרָאֵל (wayyiqtol + sujeito explícito)",
+      "escolha": "S-V no publicado (\"Israel esqueceu\"); V-S preservado na traducao_literal (\"esqueceu Israel\")",
+      "justificativa": "ER-0011 (ordem S-V uniforme no texto publicado para todo wayyiqtol; a ordem V-S do hebraico permanece integralmente na literal).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "עֹשֵׂהוּ — \"aquele que o fez\" vs. \"seu criador\"",
+      "escolha": "\"aquele que o fez\" (fazer, H6213)",
+      "justificativa": "EDITORIAL distingue criar (H1254a) de fazer (H6213); o lexema aqui é עשה, não ברא.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"seu criador\"",
+          "motivo": "usaria o campo lexical de ברא (criar) para traduzir עשה (fazer), violando a distinção editorial"
+        }
+      ]
+    },
+    {
+      "questao": "הֵיכָלוֹת — \"palácios\" (reais) ou \"templos\" (santuários, inclusive idólatras)",
+      "escolha": "\"palácios\", mantendo o termo mais genérico",
+      "justificativa": "הֵיכָל cobre tanto edifícios reais quanto santuários; sem marcador contextual unívoco, prefere-se o termo mais amplo, registrando a ambiguidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"templos\"",
+          "motivo": "restringiria a leitura ao sentido cúltico, quando o contexto (paralelo com \"cidades fortificadas\" de Judá) sugere também construção civil/régia"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הֵיכָלוֹת pode designar palácios reais ou templos/santuários, inclusive de culto idólatra"
+  ],
+  "justificativa": "Fecho do oráculo: esquecimento do Criador-que-fez, substituído por construção humana (palácios, cidades fortificadas), respondido com julgamento por fogo.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

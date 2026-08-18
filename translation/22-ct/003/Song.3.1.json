@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.3.1",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 3,
+    "versiculo": 1,
+    "pericope": "Song.3.1-11"
+  },
+  "texto_bv": "Em meu leito, durante as noites, busquei aquele a quem minha alma ama; busquei-o, mas não o encontrei.",
+  "traducao_literal": "Sobre o meu leito, nas noites, busquei aquele que minha alma amou; busquei-o e não o encontrei.",
+  "termos_originais": [
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מִשְׁכָּבִי֙",
+      "lemma": "4904",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "בַּלֵּיל֔וֹת",
+      "lemma": "b/3915",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "בִּקַּ֕שְׁתִּי",
+      "lemma": "1245",
+      "morfologia": "HVpp1cs"
+    },
+    {
+      "palavra": "אֵ֥ת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "שֶׁאָהֲבָ֖ה",
+      "lemma": "s/157",
+      "morfologia": "HTr/Vqp3fs"
+    },
+    {
+      "palavra": "נַפְשִׁ֑י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "בִּקַּשְׁתִּ֖יו",
+      "lemma": "1245",
+      "morfologia": "HVpp1cs/Sp3ms"
+    },
+    {
+      "palavra": "וְלֹ֥א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "מְצָאתִֽיו",
+      "lemma": "4672",
+      "morfologia": "HVqp1cs/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tempo verbal de שֶׁאָהֲבָה נַפְשִׁי (perfeito 'amou') no refrão recorrente do Cântico",
+      "escolha": "texto_bv em presente ('a quem minha alma ama'); traducao_literal preserva o perfeito hebraico ('que minha alma amou')",
+      "justificativa": "Perfeito com valor gnômico/estativo descrevendo afeto contínuo; o presente é a leitura natural em português para esse tipo semântico, mas a forma verbal original é preservada na literal (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'amou' (perfeito) também no texto_bv",
+          "motivo": "soa como amor encerrado no passado, contrariando o sentido gnômico do original"
+        }
+      ]
+    },
+    {
+      "questao": "נֶפֶשׁ ('alma') como sujeito gramatical do amor",
+      "escolha": "manter 'minha alma ama/amou' em vez de reduzir a 'eu amo'",
+      "justificativa": "Preserva a imagem poética hebraica recorrente no Cântico (נֶפֶשׁ como sede do afeto), em consistência terminológica ao longo da perícope (v.1-4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'aquele que eu amo'",
+          "motivo": "apaga a imagem poética de נֶפֶשׁ, recorrente e estruturante no Cântico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "mas (conector adversativo entre 'busquei-o' e 'não o encontrei', ausente no waw hebraico simples)"
+  ],
+  "ambiguidades_preservadas": [
+    "נֶפֶשׁ pode ser lido como 'alma/ser interior' ou funcionar como perífrase para o pronome pessoal; ambas as leituras coexistem na tradição interpretativa do Cântico."
+  ],
+  "justificativa": "Refrão de abertura do poema de busca noturna; מִשְׁכָּב (leito) e בַּלֵּילוֹת (nas noites, plural) situam a cena; o dobramento בִּקַּשְׁתִּיו...מְצָאתִיו marca o fracasso da busca solitária.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

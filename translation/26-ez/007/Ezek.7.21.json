@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.7.21",
+    "livro": "Ezequiel",
+    "capitulo": 7,
+    "versiculo": 21,
+    "pericope": "Ezek.7.1-27"
+  },
+  "texto_bv": "E eu o entregarei na mão de estrangeiros como despojo, e aos ímpios da terra como presa, e ele a profanará.",
+  "traducao_literal": "E eu o darei na mão dos estranhos por despojo, e aos ímpios da terra por presa; e ele a profanará.",
+  "termos_originais": [
+    {
+      "palavra": "וּנְתַתִּ֤יו",
+      "lemma": "c/5414",
+      "morfologia": "HC/Vqq1cs/Sp3ms"
+    },
+    {
+      "palavra": "בְּיַֽד",
+      "lemma": "b/3027",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "הַזָּרִים֙",
+      "lemma": "d/2114 a",
+      "morfologia": "HTd/Aampa"
+    },
+    {
+      "palavra": "לָבַ֔ז",
+      "lemma": "l/957",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וּלְרִשְׁעֵ֥י",
+      "lemma": "c/l/7563",
+      "morfologia": "HC/R/Aampc"
+    },
+    {
+      "palavra": "הָאָ֖רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "לְשָׁלָ֑ל",
+      "lemma": "l/7998",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וחללה",
+      "lemma": "c/2490 c",
+      "morfologia": "HC/Vpq3ms/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וחללה — forma consonantal (ketiv, sem pontuação no packet)",
+      "escolha": "seguir a morfologia anexada ao packet: Piel qatal 3ª masc. sg. + sufixo 3ª fem. sg. ('ele a profanará')",
+      "justificativa": "A grafia consonantal 'וחללה' (5 letras, sem waw plural medial) corresponde formalmente a חִלְּלָהּ (3ms+3fs), distinta da forma plena 'וְחִלְּלוּהָ' (3ª pl.) que ocorre em 7:22 para o mesmo verbo; a instrução do pipeline veda inventar leitura além do que o packet fornece.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "harmonizar com a leitura tradicional plural (Qere) 'e a profanarão'",
+          "motivo": "não é a forma anexada no packet nem a morfologia fornecida (3ms, não 3cp)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "referente de 'ela' em 'profanará' — provavelmente a terra de Israel, retomando o endereçamento feminino dos vv.2-9"
+  ],
+  "justificativa": "Sujeito de 'profanará' permanece indeterminado (o ímpio/estrangeiro coletivo, retomando singularmente o grupo mencionado); objeto 'ela' provavelmente retoma a terra de Israel, endereçada em 2fs nos vv.2-9.",
+  "confianca": 0.5,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

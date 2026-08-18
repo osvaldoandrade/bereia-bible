@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.36.2",
+    "livro": "Jó",
+    "capitulo": 36,
+    "versiculo": 2,
+    "pericope": "Job.36.1-33"
+  },
+  "texto_bv": "“Espera um pouco por mim, e eu mostrarei a você que ainda há palavras a favor de Deus.",
+  "traducao_literal": "Espera-me um pouco, e mostrar-te-ei, porque ainda há para Deus palavras.",
+  "termos_originais": [
+    {
+      "palavra": "כַּתַּר",
+      "lemma": "3803",
+      "morfologia": "HVpv2ms"
+    },
+    {
+      "palavra": "לִ֣י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "זְ֭עֵיר",
+      "lemma": "2191",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וַאֲחַוֶּ֑ךָּ",
+      "lemma": "c/2331",
+      "morfologia": "HC/Vpi1cs/Sp2ms"
+    },
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ע֖וֹד",
+      "lemma": "5750",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "לֶאֱל֣וֹהַּ",
+      "lemma": "l/433",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "מִלִּֽים",
+      "lemma": "4405",
+      "morfologia": "HNcfpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Abertura de discurso direto sem marca de fechamento dentro do capítulo",
+      "escolha": "abrir aspas em 36:2 sem fechá-las dentro do capítulo 36",
+      "justificativa": "o discurso de Eliú iniciado em 36:2 prossegue além do fim deste capítulo (o packet cobre apenas Jó 36:1-33; o discurso continua em Jó 37, fora do escopo deste packet); fechar a citação aqui forjaria um fim de fala que o texto não contém.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fechar aspas ao fim do capítulo 36",
+          "motivo": "forjaria o encerramento do discurso, que continua em Jó 37"
+        }
+      ]
+    },
+    {
+      "questao": "אֱלוֹהַּ (Eloah, H433) — nome divino",
+      "escolha": "'Deus'",
+      "justificativa": "extensão da política NOMES-DIVINOS.md (Elohim → Deus) à forma poética singular אֱלוֹהַּ, comum em Jó e referindo-se ao mesmo Deus de Israel; sem entrada própria ainda no léxico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliteração 'Eloá'",
+          "motivo": "quebra a convenção consolidada pt-BR e a política de nomes divinos, que não distingue formas morfológicas do mesmo referente"
+        }
+      ]
+    },
+    {
+      "questao": "לֶאֱלוֹהַּ מִלִּים — sentido idiomático",
+      "escolha": "'palavras a favor de Deus'",
+      "justificativa": "a preposição לְ com מִלִּים indica palavras em defesa/benefício de Deus, não meramente 'sobre' Deus; Eliú anuncia que falará em defesa da causa divina.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'palavras para Deus'",
+          "motivo": "sugeriria discurso dirigido a Deus, quando Eliú fala a Jó em defesa de Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura da fala de Eliú: pede paciência a Jó e anuncia que falará em defesa de Deus.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

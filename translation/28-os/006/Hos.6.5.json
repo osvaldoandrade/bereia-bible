@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.6.5",
+    "livro": "Oseias",
+    "capitulo": 6,
+    "versiculo": 5,
+    "pericope": "Hos.6.1-11"
+  },
+  "texto_bv": "Por isso eu os talhei pelos profetas, eu os matei com as palavras da minha boca; e o julgamento sobre você vem à luz.",
+  "traducao_literal": "Por isso talhei-os pelos profetas, matei-os pelas palavras da minha boca; e os teus juízos, luz, saem.",
+  "termos_originais": [
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "כֵּ֗ן",
+      "lemma": "3651 c",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "חָצַ֨בְתִּי֙",
+      "lemma": "2672",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "בַּנְּבִיאִ֔ים",
+      "lemma": "b/5030",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "הֲרַגְתִּ֖ים",
+      "lemma": "2026",
+      "morfologia": "HVqp1cs/Sp3mp"
+    },
+    {
+      "palavra": "בְּאִמְרֵי",
+      "lemma": "b/561",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "פִ֑י",
+      "lemma": "6310",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וּמִשְׁפָּטֶ֖יךָ",
+      "lemma": "c/4941",
+      "morfologia": "HC/Ncmpc/Sp2ms"
+    },
+    {
+      "palavra": "א֥וֹר",
+      "lemma": "216",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "יֵצֵֽא",
+      "lemma": "3318",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מִשְׁפָּטֶיךָ — sufixo de 2ª pessoa masculina singular ('teus juízos') no TM, sem emenda para 1ª pessoa",
+      "escolha": "manter a 2ª pessoa do TM ('o julgamento sobre você')",
+      "justificativa": "o packet não traz variantes_fonte para este verso; sem aparato explícito na fonte pinada, a leitura do TM é seguida como está (TEOLOGIA §1.1: o texto hebraico decide).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'meu julgamento' (emendando para 1ª pessoa, seguindo LXX/siríaco em alguns comentários)",
+          "motivo": "não há registro de variante_fonte no packet pinado para adjudicar essa leitura"
+        }
+      ]
+    },
+    {
+      "questao": "אוֹר יֵצֵא — idiomatismo ('luz sai') vs. equivalente português",
+      "escolha": "'vem à luz'",
+      "justificativa": "o idiotismo português 'vir à luz' (tornar-se manifesto/evidente) comunica o mesmo sentido de exposição com naturalidade; a ordem literal 'luz, sai' é preservada na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sai como a luz",
+          "motivo": "mais literal, porém menos natural como fórmula idiomática em português"
+        }
+      ]
+    },
+    {
+      "questao": "חָצַבְתִּי — distinção lexical de טָרָף (v.1, 'despedaçar')",
+      "escolha": "'talhei'",
+      "justificativa": "preserva a distinção entre as duas raízes hebraicas distintas usadas no capítulo (טרף/חצב), evitando repetir 'despedacei'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "despedacei",
+          "motivo": "já reservado para טָרָף no v.1; repetir apagaria a distinção lexical do original"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "מִשְׁפָּטֶיךָ em 2ª pessoa é ambíguo entre 'o juízo que você pronuncia' e 'o juízo que recai sobre você'; a BV preserva essa ambiguidade com 'o julgamento sobre você'"
+  ],
+  "justificativa": "Verso de crux textual conhecida (sufixo de 2ª pessoa em מִשְׁפָּטֶיךָ); sem aparato no packet, segue-se o TM integralmente.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

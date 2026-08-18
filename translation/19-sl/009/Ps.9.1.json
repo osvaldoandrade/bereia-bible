@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.9.1",
+    "livro": "Salmos",
+    "capitulo": 9,
+    "versiculo": 1,
+    "pericope": "Ps.9.1-21"
+  },
+  "texto_bv": "Ao regente. Sobre Mute-Labém. Salmo de Davi.",
+  "traducao_literal": "Para o regente: sobre Mute-Labém. Salmo para Davi.",
+  "termos_originais": [
+    {
+      "palavra": "לַ֭מְנַצֵּחַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "עַלְמ֥וּת",
+      "lemma": "4192+",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "לַבֵּ֗ן",
+      "lemma": "4192",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִזְמ֥וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִֽד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de לַמְנַצֵּחַ (H5329, Piel part. 'aquele que dirige/supervisiona')",
+      "escolha": "Ao regente",
+      "justificativa": "Epíteto técnico do cabeçalho de salmos, referindo-se ao responsável musical/litúrgico; 'regente' comunica a função sem tecnicismo anacrônico e sem alongar o título.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ao mestre de música",
+          "motivo": "perífrase mais longa sem ganho de precisão"
+        },
+        {
+          "opcao": "Ao vencedor (glosa etimológica de נצח)",
+          "motivo": "sentido etimológico não é o sentido funcional no cabeçalho litúrgico"
+        }
+      ]
+    },
+    {
+      "questao": "Tradução de עַלְמוּת לַבֵּן (título musical obscuro; lemas pinados 4192+/4192 ligam a מוּת 'morte', com לַבֵּן parseado como nome próprio)",
+      "escolha": "Transliterar como título técnico: 'Sobre Mute-Labém'",
+      "justificativa": "A referência musical/melódica é irrecuperável com segurança; a transliteração evita afirmar um sentido interpretativo não verificável, seguindo a tradição de tratar como nome de melodia (cf. ARA 'Almute-Labém').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Sobre a morte do filho' (tradução etimológica)",
+          "motivo": "interpretação especulativa de um título técnico cujo referente real (melodia? instrumento?) é desconhecido"
+        },
+        {
+          "opcao": "Emendar para עֲלָמוֹת ('Alamote', cf. Sl 46:1)",
+          "motivo": "forma consonantal distinta no texto pinado (עַלְמוּת ≠ עֲלָמוֹת); emenda não amparada pela fonte"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sentido exato de 'Mute-Labém' como direção musical é desconhecido; mantido transliterado."
+  ],
+  "justificativa": "Cabeçalho técnico-litúrgico do salmo; termo musical obscuro mantido transliterado por falta de referente recuperável com segurança.",
+  "confianca": 0.5,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

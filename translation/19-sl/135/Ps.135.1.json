@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.135.1",
+    "livro": "Salmos",
+    "capitulo": 135,
+    "versiculo": 1,
+    "pericope": "Ps.135.1-21"
+  },
+  "texto_bv": "Louvem o SENHOR! Louvem o nome do SENHOR; louvem, servos do SENHOR!",
+  "traducao_literal": "Louvem a-Yah! Louvem o-nome-de SENHOR; louvem, servos-de SENHOR!",
+  "termos_originais": [
+    {
+      "palavra": "הַ֥לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֨הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַֽ֭לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "שֵׁ֣ם",
+      "lemma": "8034",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַֽ֝לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "עַבְדֵ֥י",
+      "lemma": "5650",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter יָהּ (H3050), forma abreviada do Tetragrama, ausente da tabela NOMES-DIVINOS v1.0.0 (que só lista H3068 יהוה)?",
+      "escolha": "Verter como 'SENHOR', estendendo a política ER-0002 ao lema H3050 por identidade referencial — mesma adjudicação já registrada em Sl 150:1 e Sl 150:6.",
+      "justificativa": "Consistência terminológica com o restante do corpus (mesmo Deus de Israel nomeado pela forma plena YHWH); a auditoria é garantida pelo lema H3050 anexado mecanicamente ao registro, sem precisar de um terceiro rótulo em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Transliterar 'Yah'",
+          "motivo": "cria um terceiro nome divino em português além de SENHOR/Deus/Senhor para o mesmo referente, quebrando a convenção consolidada do corpus"
+        },
+        {
+          "opcao": "Colapsar em interjeição fixa 'Aleluia'",
+          "motivo": "o packet mantém הַלְלוּ e יָהּ como lexemas morfologicamente distintos (verbo + objeto); colapsar apaga a granularidade auditável"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do salmo: tríplice imperativo הַלְלוּ paralelo (louvor ao nome do SENHOR, louvor pelos servos do SENHOR), formando o refrão que se repete nos vv.3 e 21.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

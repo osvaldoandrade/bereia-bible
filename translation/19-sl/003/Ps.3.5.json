@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.3.5",
+    "livro": "Salmos",
+    "capitulo": 3,
+    "versiculo": 5,
+    "pericope": "Ps.3.1-9"
+  },
+  "texto_bv": "Clamo ao SENHOR com a minha voz, e ele me responde do seu monte santo. Selá.",
+  "traducao_literal": "Minha voz, ao SENHOR, clamo; e ele me respondeu do monte de sua santidade. Selá.",
+  "termos_originais": [
+    {
+      "palavra": "ק֭וֹלִי",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶקְרָ֑א",
+      "lemma": "7121",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "וַיַּֽעֲנֵ֨נִי",
+      "lemma": "c/6030 b",
+      "morfologia": "HC/Vqw3ms/Sp1cs"
+    },
+    {
+      "palavra": "מֵהַ֖ר",
+      "lemma": "m/2022",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "קָדְשׁ֣וֹ",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "סֶֽלָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "קוֹלִי ('minha voz') está fronteado antes do verbo אֶקְרָא ('clamo'), ordem enfática do hebraico; preservar o fronteamento no publicado?",
+      "escolha": "normalizar para ordem verbo+complemento no publicado ('clamo... com a minha voz')",
+      "justificativa": "Fronteamento de ênfase (calque de ordem, ER-0013 item 3); soa artificial em português corrido, mas é preservado integralmente na traducao_literal para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Minha voz, ao SENHOR, clamo (ordem preservada)",
+          "motivo": "mantida apenas na literal; no publicado quebra a fluência esperada em prosa poética pt-BR."
+        }
+      ]
+    },
+    {
+      "questao": "Par imperfeito (אֶקְרָא) + wayyiqtol (וַיַּעֲנֵנִי) — verter como pretérito pontual ('clamei... respondeu-me') ou presente habitual ('clamo... responde')?",
+      "escolha": "presente habitual",
+      "justificativa": "O salmo, a partir do v.4, assume tom de confissão de confiança atemporal, não relato de evento único; o presente habitual mantém a coerência com vv.4 e 6.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pretérito narrativo (clamei... respondeu-me)",
+          "motivo": "reduz a confissão de confiança a um episódio pontual, perdendo o timbre atemporal do salmo."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continuação da declaração de confiança; מֵהַר קָדְשׁוֹ ('do monte de sua santidade') referência ao templo/Sião como sede da resposta divina.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

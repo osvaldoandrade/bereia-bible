@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.9.4",
+    "livro": "Provérbios",
+    "capitulo": 9,
+    "versiculo": 4,
+    "pericope": "Prov.9.1-18"
+  },
+  "texto_bv": "Quem é simples, que se volte para cá! E a quem falta juízo, ela diz:",
+  "traducao_literal": "Quem simples? Volte-se para cá. Falto de coração, disse a ele:",
+  "termos_originais": [
+    {
+      "palavra": "מִי",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "פֶ֭תִי",
+      "lemma": "6612 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יָסֻ֣ר",
+      "lemma": "5493",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "הֵ֑נָּה",
+      "lemma": "2008",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "חֲסַר",
+      "lemma": "2638",
+      "morfologia": "HAamsc"
+    },
+    {
+      "palavra": "לֵ֝֗ב",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אָ֣מְרָה",
+      "lemma": "559",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "לּֽוֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "פֶתִי (H6612a) — pessoa simples/ingênua, facilmente persuadida (não \"tolo\" moral como כסיל/אויל).",
+      "escolha": "\"simples\"",
+      "justificativa": "valor lexical próprio de פתי é ingenuidade/inexperiência, distinto de insensatez moral; mantém-se \"simples\" em todas as ocorrências do capítulo (v.4,6,16) por consistência terminológica (EDITORIAL §11).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"insensato\" ou \"tolo\"",
+          "motivo": "lexicalmente corresponde a outras raízes (כסיל/אויל), não a פתי; imprecisão semântica"
+        }
+      ]
+    },
+    {
+      "questao": "חֲסַר־לֵב, literalmente \"falto de coração\" — לֵב em hebraico designa sede do intelecto/vontade, não apenas emoção.",
+      "escolha": "\"falta de juízo\"",
+      "justificativa": "transposição funcional do órgão hebraico (coração = mente/razão) para o equivalente semântico em português, evitando falso sentido emocional (\"sem coração\" = sem sentimento, o que não é o original).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"pobre de coração\" (calque literal)",
+          "motivo": "produz sentido emocional/afetivo em português que o hebraico não pretende"
+        }
+      ]
+    },
+    {
+      "questao": "Estrutura em dois níveis: pregão geral (מִי־פֶתִי יָסֻר הֵנָּה) seguido de introdução de fala direta (אָמְרָה לּוֹ) que abre o discurso citado a partir do v.5.",
+      "escolha": "manter o v.4a sem aspas (fala relatada/geral) e reservar aspas + dois-pontos para o discurso direto que começa no v.5",
+      "justificativa": "ER-0004 (aspas + dois-pontos) aplica-se à fala direta citada; v.4a funciona como pregão de convocação, e \"disse-lhe\" é a fórmula introdutória do discurso propriamente dito que segue.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "colocar todo o v.4 entre aspas como fala direta da sabedoria",
+          "motivo": "gera aninhamento confuso de citação, já que o próprio v.4b (\"ela diz\") é uma fórmula introdutória de discurso, não parte do discurso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (antes de \"se volte\", conector implícito exigido pelo português)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso-charneira que identifica o destinatário do convite (o simples/falto de juízo) e introduz o discurso direto que se abre no v.5, com formula repetida em v.16.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

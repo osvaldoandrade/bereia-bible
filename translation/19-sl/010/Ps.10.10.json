@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.10.10",
+    "livro": "Salmos",
+    "capitulo": 10,
+    "versiculo": 10,
+    "pericope": "Ps.10.1-18"
+  },
+  "texto_bv": "O desamparado é esmagado, verga-se e cai pela força dele.",
+  "traducao_literal": "E é esmagado, encurva-se, e caiu pelas forças dele — os desamparados.",
+  "termos_originais": [
+    {
+      "palavra": "ודכה",
+      "lemma": "c/1794",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "יָשֹׁ֑חַ",
+      "lemma": "7817",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "וְנָפַ֥ל",
+      "lemma": "c/5307",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "בַּ֝עֲצוּמָ֗יו",
+      "lemma": "b/6099",
+      "morfologia": "HR/Aampc/Sp3ms"
+    },
+    {
+      "palavra": "חלכאים",
+      "lemma": "2489",
+      "morfologia": "HNcfpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "verso reconhecidamente o de sintaxe mais obscura do salmo: sujeito, transitividade de ודכה e concordância de número (verbos 3ª sg. vs. חלכאים pl.) não se resolvem apenas pela morfologia disponível no pacote",
+      "escolha": "tratar חלכאים ('desamparados', pl.) como sujeito lógico retomado pelos três verbos singulares que o precedem (ודכה, יָשֹׁחַ, וְנָפַל), traduzindo no publicado como sujeito coletivo singular ('o desamparado') para naturalidade em português",
+      "justificativa": "é a leitura que produz sentença completa a partir dos elementos morfológicos dados (três verbos 3ms + substantivo plural final funcionando como sujeito retroativo), mantendo o padrão do salmo (vítima esmagada pelo poder do ímpio, cf. v.8 חֵלְכָה); nenhuma leitura alternativa é mais economicamente sustentada apenas pela morfologia pinada",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tratar ודכה como transitivo ('ele esmaga') com o ímpio como sujeito implícito, e חלכאים como objeto final solto",
+          "motivo": "deixa יָשֹׁחַ e וְנָפַל sem sujeito claro e produz sequência ainda mais fragmentada"
+        },
+        {
+          "opcao": "traduzir חלכאים no plural no publicado ('os desamparados são esmagados...')",
+          "motivo": "mais fiel ao número do substantivo, mas exige pluralizar os três verbos singulares, ampliando a normalização; optou-se por seguir o número dos verbos, mais numerosos na oração"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sujeito e transitividade de ודכה (esmagar/ser esmagado) permanecem indeterminados apenas pela morfologia do pacote.",
+    "Concordância de número entre os três verbos singulares e o substantivo plural final חלכאים não se resolve pela morfologia disponível; a BV opta por sujeito coletivo singular no publicado, preservando o plural na traducao_literal."
+  ],
+  "justificativa": "Verso de dificuldade sintática elevada, atestada apenas pela análise morfológica disponível no pacote pinado (sem aparato de variantes fornecido); confiança reduzida em conformidade com a incerteza genuína, sem suavizar a dificuldade do texto (TEOLOGIA §2).",
+  "confianca": 0.42,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

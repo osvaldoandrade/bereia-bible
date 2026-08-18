@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.98.3",
+    "livro": "Salmos",
+    "capitulo": 98,
+    "versiculo": 3,
+    "pericope": "Ps.98.1-9"
+  },
+  "texto_bv": "Lembrou-se do seu amor leal e da sua fidelidade para com a casa de Israel; todos os confins da terra viram a salvação do nosso Deus.",
+  "traducao_literal": "Lembrou-se de seu amor leal e sua fidelidade para com a casa de Israel; viram todos os confins da terra a salvação de nosso Deus.",
+  "termos_originais": [
+    {
+      "palavra": "זָ֘כַ֤ר",
+      "lemma": "2142",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "חַסְדּ֨וֹ",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וֶֽאֱֽמוּנָתוֹ֮",
+      "lemma": "c/530",
+      "morfologia": "HC/Ncfsc/Sp3ms"
+    },
+    {
+      "palavra": "לְבֵ֪ית",
+      "lemma": "l/1004 b",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יִשְׂרָ֫אֵ֥ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "רָא֥וּ",
+      "lemma": "7200",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "כָל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אַפְסֵי",
+      "lemma": "657 a",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "אָ֑רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "אֵ֝֗ת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְשׁוּעַ֥ת",
+      "lemma": "3444",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "אֱלֹהֵֽינוּ",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de חֶסֶד (H2617a), sem entrada prévia no lexicon.json",
+      "escolha": "'amor leal'",
+      "justificativa": "Evoca a lealdade de aliança do termo, evitando psicologização e mantendo o campo semântico pactual.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "misericórdia",
+          "motivo": "restringe o campo semântico à compaixão, perdendo a dimensão de lealdade pactual de חֶסֶד"
+        },
+        {
+          "opcao": "benignidade",
+          "motivo": "consolidado em Almeida, mas soa arcaizante e vago ao leitor contemporâneo (EDITORIAL §1.2)"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de אֱמוּנָה (H0530)",
+      "escolha": "'fidelidade'",
+      "justificativa": "Paralelo natural a 'amor leal', preservando a firmeza/constância objetiva do termo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fé",
+          "motivo": "em português contemporâneo desloca o sentido para crença subjetiva, quando o hebraico designa a constância objetiva de Deus"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem V-S de רָאוּ כָל־אַפְסֵי־אָרֶץ",
+      "escolha": "normalizar para S-V no publicado ('todos os confins da terra viram')",
+      "justificativa": "Doutrina do calque ER-0013.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado",
+          "motivo": "soa arcaizante em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Par חֶסֶד/אֱמוּנָה tratado como par fixo de vocabulário de aliança; nenhuma entrada prévia no lexicon.json força adjudicação nova, registrada com alternativas para eventual promoção lexical futura.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

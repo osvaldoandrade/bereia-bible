@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.103.6",
+    "livro": "Salmos",
+    "capitulo": 103,
+    "versiculo": 6,
+    "pericope": "Ps.103.1-22"
+  },
+  "texto_bv": "O SENHOR faz atos de justiça e juízo a todos os oprimidos.",
+  "traducao_literal": "O que faz atos de justiça, o SENHOR, e juízos a todos os oprimidos.",
+  "termos_originais": [
+    {
+      "palavra": "עֹשֵׂ֣ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqrmsc"
+    },
+    {
+      "palavra": "צְדָק֣וֹת",
+      "lemma": "6666",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּ֝מִשְׁפָּטִ֗ים",
+      "lemma": "c/4941",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "לְכָל",
+      "lemma": "l/3605",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "עֲשׁוּקִֽים",
+      "lemma": "6231",
+      "morfologia": "HVqsmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem particípio-objeto-sujeito (עֹשֵׂה צְדָקוֹת יְהוָה, calque poético com sujeito posposto).",
+      "escolha": "Normalizar para ordem SVO natural no publicado, preservando a ordem hebraica na literal.",
+      "justificativa": "ER-0011 fixa ordem S-V uniforme no publicado por analogia a esta inversão poética; soaria traduzido em prosa corrida contemporânea.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'Faz atos de justiça o SENHOR' no publicado",
+          "motivo": "soa traduzido e arcaizante em prosa corrida contemporânea"
+        }
+      ]
+    },
+    {
+      "questao": "עשׂה (H6213a) vs ברא — distinção 'fazer'/'criar' (TEOLOGIA/EDITORIAL).",
+      "escolha": "'faz' (não 'cria'), consistente com a política lexical do programa.",
+      "justificativa": "Distinção lexical criar(H1254a)/fazer(H6213) fixada no programa desde Gn 1.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Transição do relato pessoal (v.1-5) para a descrição do caráter universal de YHWH: justiça em favor dos oprimidos.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

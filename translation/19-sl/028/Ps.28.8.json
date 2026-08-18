@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.28.8",
+    "livro": "Salmos",
+    "capitulo": 28,
+    "versiculo": 8,
+    "pericope": "Ps.28.1-9"
+  },
+  "texto_bv": "O SENHOR é a força deles, e ele é o refúgio de salvação do seu ungido.",
+  "traducao_literal": "SENHOR, força para eles; e o refúgio das salvações do seu ungido, ele.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עֹֽז",
+      "lemma": "5797",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לָ֑מוֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "וּמָ֘ע֤וֹז",
+      "lemma": "c/4581",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "יְשׁוּע֖וֹת",
+      "lemma": "3444",
+      "morfologia": "HNcfpc"
+    },
+    {
+      "palavra": "מְשִׁיח֣וֹ",
+      "lemma": "4899",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "הֽוּא",
+      "lemma": "1931",
+      "morfologia": "HPp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לָמוֹ — 'para eles' (3ª pessoa plural), quebra abrupta da 1ª pessoa singular dominante em vv.1-7",
+      "escolha": "traduzir literalmente 'a força deles', preservando a mudança de pessoa sem emendar para 'minha força' nem inserir 'seu povo'",
+      "justificativa": "O packet-fonte (OSHB/WLC pinado) não traz aparato de variantes para este verso; sem evidência textual pinada de leitura alternativa, a BV segue o TM como está (TEOLOGIA §1.1: o texto decide). O referente de 'eles' é ambíguo no verso isolado, mas encontra antecedente natural em 'o seu povo' do v.9 seguinte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir 'minha força' (assumindo לָמוֹ como erro de cópia por לִי)",
+          "motivo": "exigiria emendar o texto sem base em variante documentada no packet pinado — fora do escopo do tradutor DRAFT"
+        },
+        {
+          "opcao": "inserir explicitamente 'de seu povo' no lugar de 'deles'",
+          "motivo": "expansão interpretativa não codificada neste verso; violaria TEOLOGIA §2 (não importar exegese para dentro do texto)"
+        }
+      ]
+    },
+    {
+      "questao": "מְשִׁיחוֹ — 'seu ungido' (H4899): referente histórico ao rei ungido davídico, não título cristológico pleno",
+      "escolha": "seu ungido (minúscula)",
+      "justificativa": "No Saltério davídico, מָשִׁיחַ designa o rei ungido de Israel; manter minúscula e tradução lexical evita importar carga cristológica não codificada no hebraico (TEOLOGIA §2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'seu Ungido' (maiúscula, leitura messiânica explícita)",
+          "motivo": "o hebraico não distingue maiúscula/minúscula; aplicar maiúscula seria decisão teológica retroprojetada sem suporte lexical-sintático direto no verso"
+        }
+      ]
+    },
+    {
+      "questao": "יְשׁוּעוֹת — plural de 'salvação' (provável plural intensivo/abstrato, não pluralidade numérica de eventos)",
+      "escolha": "refúgio de salvação (singular no publicado)",
+      "justificativa": "Plural hebraico de abstratos como יְשׁוּעָה frequentemente expressa intensidade/plenitude; singular intensivo é mais natural em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'refúgio das salvações' (plural literal) também no publicado",
+          "motivo": "sugere múltiplos atos de salvação distintos, sentido não pretendido; preservado apenas na traducao_literal (ER-0013)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (2x, cópula suprida nas duas orações nominais)"
+  ],
+  "ambiguidades_preservadas": [
+    "referente de 'eles' em לָמוֹ (v.8a) não é explicitado no verso; a BV preserva a ambiguidade sem inserir 'seu povo' ou emendar para 'minha força'"
+  ],
+  "justificativa": "Verso textualmente denso: confissão de que YHWH é força/refúgio, com mudança de pessoa (לָמוֹ) e vocabulário de salvação/unção aplicado ao rei. Sem aparato de variantes no packet, seguido o TM integralmente; ambiguidade do referente preservada.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

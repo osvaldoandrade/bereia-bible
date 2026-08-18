@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hag.1.2",
+    "livro": "Ageu",
+    "capitulo": 1,
+    "versiculo": 2,
+    "pericope": "Hag.1.1-15"
+  },
+  "texto_bv": "“Assim diz o SENHOR dos Exércitos: Este povo diz: ‘Ainda não chegou o tempo de a casa do SENHOR ser edificada.’”",
+  "traducao_literal": "Assim disse YHWH de-Exércitos, dizendo: Este povo, disseram: Não [é] tempo de vir, tempo da casa de YHWH de ser edificada.",
+  "termos_originais": [
+    {
+      "palavra": "כֹּ֥ה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אָמַ֛ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָא֖וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "לֵאמֹ֑ר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "הָעָ֤ם",
+      "lemma": "d/5971 a",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הַזֶּה֙",
+      "lemma": "d/2088",
+      "morfologia": "HTd/Pdxms"
+    },
+    {
+      "palavra": "אָֽמְר֔וּ",
+      "lemma": "559",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "לֹ֥א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "עֶת",
+      "lemma": "6256",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "בֹּ֛א",
+      "lemma": "935",
+      "morfologia": "HVqc"
+    },
+    {
+      "palavra": "עֶת",
+      "lemma": "6256",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "בֵּ֥ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לְהִבָּנֽוֹת",
+      "lemma": "l/1129",
+      "morfologia": "HR/VNc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tempo verbal de כֹּה אָמַר (perfeito, fórmula de mensageiro) e de אָמְרוּ (relato da atitude do povo).",
+      "escolha": "Presente do indicativo ('diz'/'diz') em ambos, no texto publicado.",
+      "justificativa": "O perfeito hebraico na fórmula de mensageiro tem valor performativo/atual; o relato da atitude do povo é apresentado como estado corrente, não evento pontual passado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Pretérito perfeito 'disse/disseram'",
+          "motivo": "esvazia o valor performativo da fórmula profética e sugere um episódio único e encerrado, quando o texto relata uma postura persistente"
+        }
+      ]
+    },
+    {
+      "questao": "Repetição de עֵת ('tempo... tempo') na frase do povo.",
+      "escolha": "traducao_literal preserva a repetição integral (doutrina do calque, ER-0013); texto_bv normaliza para uma única menção de 'tempo'.",
+      "justificativa": "A dupla ocorrência de עֵת é calque estrutural hebraico que soa artificial em português corrido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter a repetição no texto publicado",
+          "motivo": "redundância não-idiomática em português"
+        }
+      ]
+    },
+    {
+      "questao": "Fechamento do oráculo em unidade própria.",
+      "escolha": "Tratar 1:2 como oráculo curto e autocontido (abre e fecha aspas duplas no mesmo versículo), distinto do oráculo mais longo de 1:4-11 introduzido em 1:3.",
+      "justificativa": "O texto-fonte traz marcador de parágrafo forte (פ) ao final de 1:2, e 1:3 reabre a fórmula narrativa 'veio a palavra do SENHOR ... dizendo', sinalizando novo evento de palavra.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Tratar 1:1-11 como uma única fala ininterrupta",
+          "motivo": "ignora a reabertura formular em 1:3 e a quebra de parágrafo massorética"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הָעָם (substantivo coletivo singular) com verbo אָמְרוּ no plural — concordância ad sensum preservada apenas na traducao_literal ('Este povo, disseram')."
+  ],
+  "justificativa": "Oráculo curto: o SENHOR cita a justificativa do povo para adiar a reconstrução do templo. Aspas simples marcam a citação de segundo nível dentro da fala do SENHOR (EDITORIAL §5).",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

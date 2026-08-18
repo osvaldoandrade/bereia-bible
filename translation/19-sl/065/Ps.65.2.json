@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.65.2",
+    "livro": "Salmos",
+    "capitulo": 65,
+    "versiculo": 2,
+    "pericope": "Ps.65.1-14"
+  },
+  "texto_bv": "A ti, o silêncio é louvor, ó Deus, em Sião; e a ti se cumpre o voto.",
+  "traducao_literal": "A-ti silêncio louvor Deus em-Sião; e-a-ti será-pago voto.",
+  "termos_originais": [
+    {
+      "palavra": "לְךָ֤",
+      "lemma": "l",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "דֻֽמִיָּ֬ה",
+      "lemma": "1747",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "תְהִלָּ֓ה",
+      "lemma": "8416",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אֱלֹ֘הִ֥ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "בְּצִיּ֑וֹן",
+      "lemma": "b/6726",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וּ֝לְךָ֗",
+      "lemma": "c/l",
+      "morfologia": "HC/R/Sp2ms"
+    },
+    {
+      "palavra": "יְשֻׁלַּם",
+      "lemma": "7999 a",
+      "morfologia": "HVPi3ms"
+    },
+    {
+      "palavra": "נֶֽדֶר",
+      "lemma": "5088",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sentido de דֻּמִיָּה תְהִלָּה (dois substantivos justapostos sem verbo nem conjunção)",
+      "escolha": "Cláusula nominal com דֻּמִיָּה como sujeito e תְּהִלָּה como predicado: 'o silêncio é louvor' — mantendo a vocalização massorética sem emendar o texto.",
+      "justificativa": "TEOLOGIA §1.1 'o texto hebraico decide': a MT não exige emenda; a leitura preserva o paradoxo (silêncio reverente = forma de louvor), atestado em Sl 62:2 (דּוּמִיָּה = quietude diante de Deus) e Hc 2:20.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Louvor te é devido/convém' (seguindo πρέπει da LXX)",
+          "motivo": "pressupõe leitura ou vocalização diversa da MT pinada; não há variante_fonte registrada no packet para adjudicar"
+        },
+        {
+          "opcao": "'Silenciosamente [vem a ti] louvor' (advérbio, cf. Sl 62:2)",
+          "motivo": "força um verbo implícito não exigido pela justaposição nominal; menos econômico"
+        }
+      ]
+    },
+    {
+      "questao": "Tempo de יְשֻׁלַּם (Pual imperfeito 3ms, 'ser pago/cumprido')",
+      "escolha": "presente gnômico 'se cumpre'",
+      "justificativa": "Imperfeito hebraico descrevendo prática habitual de cumprimento de votos no templo de Sião, não um evento único e futuro.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "futuro 'se cumprirá'",
+          "motivo": "também gramatical, mas menos natural no contexto descritivo-hínico do restante do salmo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula)",
+    "ó (marcador de vocativo)"
+  ],
+  "ambiguidades_preservadas": [
+    "דֻּמִיָּה תְהִלָּה: 'o silêncio é louvor' (leitura adotada) vs. 'louvor te é devido/convém' (tradição de leitura refletida na LXX) — crux léxico-textual clássico, não resolvido por emenda."
+  ],
+  "justificativa": "Verso de abertura do corpo do salmo, endereçado a Deus em oração (EDITORIAL §3, registro 'tu'); mantém a estrutura bimembre do hebraico com dois לְ paralelos ('a ti... e a ti').",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

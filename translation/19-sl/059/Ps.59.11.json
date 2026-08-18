@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.59.11",
+    "livro": "Salmos",
+    "capitulo": 59,
+    "versiculo": 11,
+    "pericope": "Ps.59.1-18"
+  },
+  "texto_bv": "O Deus da sua bondade virá ao meu encontro; Deus me fará ver a queda dos meus adversários.",
+  "traducao_literal": "Deus da sua bondade virá ao meu encontro; Deus me fará ver nos que me espreitam.",
+  "termos_originais": [
+    {
+      "palavra": "אֱלֹהֵ֣י",
+      "lemma": "430",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "חסדו",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "יְקַדְּמֵ֑נִי",
+      "lemma": "6923",
+      "morfologia": "HVpi3ms/Sp1cs"
+    },
+    {
+      "palavra": "אֱ֝לֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יַרְאֵ֥נִי",
+      "lemma": "7200",
+      "morfologia": "HVhi3ms/Sp1cs"
+    },
+    {
+      "palavra": "בְשֹׁרְרָֽי",
+      "lemma": "b/8324",
+      "morfologia": "HR/Ncmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱלֹהֵי חַסְדּוֹ (sufixo 3ms, 'Deus da sua bondade') vs paralelo esperado 1cs",
+      "escolha": "manter a leitura pinada 3ms",
+      "justificativa": "Mesma lógica de v.10: o hebraico pinado decide (TEOLOGIA §1.1); packet não fornece variante_fonte para emendar.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Deus da minha bondade' (harmonizado com v.18)",
+          "motivo": "emenda sem base em aparato fornecido no packet"
+        }
+      ]
+    },
+    {
+      "questao": "חֶסֶד — glosa consistente para o capítulo",
+      "escolha": "bondade",
+      "justificativa": "Termo amplo e contemporâneo para o campo semântico de lealdade afetiva do pacto; usado consistentemente em v.11, v.17 e v.18.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "misericórdia",
+          "motivo": "reservado, no uso do corpus, a רַחֲמִים quando ocorrer"
+        },
+        {
+          "opcao": "amor leal",
+          "motivo": "perifrástico"
+        }
+      ]
+    },
+    {
+      "questao": "יַרְאֵנִי בְשֹׁרְרָי — idiom bíblico de contemplação vitoriosa sobre inimigos (cf. Sl 54.9; 112.8)",
+      "escolha": "suprir 'a queda' para completar o sentido idiomático",
+      "justificativa": "ראה + ב carrega sentido de 'contemplar com satisfação/desforra'; sem o suprimento, a tradução literal soa incompleta em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Deus me fará ver os meus adversários' (sem suprir)",
+          "motivo": "perde o sentido idiomático de vitória sobre o inimigo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a queda"
+  ],
+  "ambiguidades_preservadas": [
+    "Referente de 'sua bondade' (חַסְדּוֹ), mesmo padrão de crux morfológico do v.10"
+  ],
+  "justificativa": "Verso paralelo ao crux de v.10; mesma disciplina de seguir a morfologia pinada sem harmonizar por conjectura com v.18.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.42.9",
+    "livro": "Salmos",
+    "capitulo": 42,
+    "versiculo": 9,
+    "pericope": "Ps.42.1-12"
+  },
+  "texto_bv": "De dia o SENHOR ordena a sua bondade, e de noite o seu cântico está comigo, uma oração ao Deus da minha vida.",
+  "traducao_literal": "De dia ordena o SENHOR sua bondade, e de noite seu cântico comigo, oração ao Deus de minha vida.",
+  "termos_originais": [
+    {
+      "palavra": "יוֹמָ֤ם",
+      "lemma": "3119",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "יְצַוֶּ֬ה",
+      "lemma": "6680",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "יְהוָ֨ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "חַסְדּ֗וֹ",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וּ֭בַלַּיְלָה",
+      "lemma": "c/b/3915",
+      "morfologia": "HC/Rd/Ncmsa"
+    },
+    {
+      "palavra": "שירה",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsc/Sp3ms"
+    },
+    {
+      "palavra": "עִמִּ֑י",
+      "lemma": "5973 a",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "תְּ֝פִלָּ֗ה",
+      "lemma": "8605",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְאֵ֣ל",
+      "lemma": "l/410",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "חַיָּֽי",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Único יְהוָה do salmo (os demais versos usam אֱלֹהִים/אֵל); registro 'elohístico' típico dos Salmos 42–83",
+      "escolha": "SENHOR (conforme NOMES-DIVINOS, sem harmonizar com 'Deus')",
+      "justificativa": "A fonte pinada traz o Tetragrama aqui; a BV verte conforme a política fixa (ER-0002), preservando a alternância real do texto em vez de uniformizá-la.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir também 'Deus', para uniformizar com o restante do salmo",
+          "motivo": "apagaria uma diferença lexical real do hebraico; violaria a hierarquia textual (TEOLOGIA §1.1)"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de חֶסֶד (H2617 a), ainda sem entrada fixada no léxico",
+      "escolha": "bondade",
+      "justificativa": "Glosa consolidada na tradição pt-BR para o campo semântico de lealdade/fidelidade aliançada de חֶסֶד; registrada aqui como primeira ocorrência para futura entrada lexicográfica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "misericórdia",
+          "motivo": "restringe o campo semântico ao perdão, quando חֶסֶד cobre lealdade aliançada mais ampla"
+        },
+        {
+          "opcao": "graça",
+          "motivo": "risco de anacronismo com carga teológica neotestamentária (חֵן, não חֶסֶד)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está (cópula para עִמִּי, 'comigo')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "שירה (kethiv sem waw final) lido conforme a morfologia do packet (Ncbsc/Sp3ms) como 'seu cântico'.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

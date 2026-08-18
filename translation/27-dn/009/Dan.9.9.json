@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Dan.9.9",
+    "livro": "Daniel",
+    "capitulo": 9,
+    "versiculo": 9,
+    "pericope": "Dan.9.1-27"
+  },
+  "texto_bv": "Ao Senhor, nosso Deus, pertencem as misericórdias e os perdões, ainda que nos rebelamos contra ele.",
+  "traducao_literal": "Ao Senhor, nosso Deus, as misericórdias e os perdões, porque nos rebelamos contra ele.",
+  "termos_originais": [
+    {
+      "palavra": "לַֽאדֹנָ֣י",
+      "lemma": "l/136",
+      "morfologia": "HR/Ncmpc/Sp1cs"
+    },
+    {
+      "palavra": "אֱלֹהֵ֔ינוּ",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "הָרַחֲמִ֖ים",
+      "lemma": "d/7356 b",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "וְהַסְּלִח֑וֹת",
+      "lemma": "c/d/5547",
+      "morfologia": "HC/Td/Ncfpa"
+    },
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "מָרַ֖דְנוּ",
+      "lemma": "4775",
+      "morfologia": "HVqp1cp"
+    },
+    {
+      "palavra": "בּֽוֹ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Alternância de pessoa: 'Senhor' (vocativo/2ª) seguido de 'contra ele' (3ª pessoa), e não 'contra ti'",
+      "escolha": "preservar a alternância, sem converter para 2ª pessoa",
+      "justificativa": "Mesma alternância estilística documentada em 9:4; morfologia do packet confirma sufixo 3ms (בּוֹ).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'nos rebelamos contra ti'",
+          "motivo": "harmonização não sustentada pela morfologia do versículo."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "pertencem (verbo elidido na oração nominal hebraica)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "כִּי aqui tem valor concessivo/causal ('ainda que'/'pois'); optei por 'ainda que' para marcar o contraste entre a misericórdia divina e a rebelião confessada.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

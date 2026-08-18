@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.42.25",
+    "livro": "Isaías",
+    "capitulo": 42,
+    "versiculo": 25,
+    "pericope": "Isa.42.1-25"
+  },
+  "texto_bv": "E o SENHOR derramou sobre ele o furor da sua ira, e a violência da guerra; e ela o envolveu em chamas ao redor, mas ele não percebeu; ardeu nele, mas ele não se importou.",
+  "traducao_literal": "E derramou sobre ele furor de sua ira, e violência de guerra; e incendiou-o ao redor e não soube; e ardeu nele e não porá sobre o coração.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּשְׁפֹּ֤ךְ",
+      "lemma": "c/8210",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "עָלָיו֙",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "חֵמָ֣ה",
+      "lemma": "2534",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אַפּ֔וֹ",
+      "lemma": "639",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וֶעֱז֖וּז",
+      "lemma": "c/5807",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "מִלְחָמָ֑ה",
+      "lemma": "4421",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וַתְּלַהֲטֵ֤הוּ",
+      "lemma": "c/3857",
+      "morfologia": "HC/Vpw3fs/Sp3ms"
+    },
+    {
+      "palavra": "מִסָּבִיב֙",
+      "lemma": "m/5439",
+      "morfologia": "HR/Ncbsa"
+    },
+    {
+      "palavra": "וְלֹ֣א",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יָדָ֔ע",
+      "lemma": "3045",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "וַתִּבְעַר",
+      "lemma": "c/1197 a",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "בּ֖וֹ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "וְלֹא",
+      "lemma": "c/3808",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "יָשִׂ֥ים",
+      "lemma": "7760 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "לֵֽב",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito elíptico de וַיִּשְׁפֹּךְ (wayyiqtol 3ms, retomando יְהוָה do v.24)",
+      "escolha": "explicitar 'o SENHOR' no texto publicado",
+      "justificativa": "ER-0011 (ordem S-V uniforme) e clareza referencial exigem sujeito explícito em português, ausente formalmente no verbo hebraico mas recuperável do contexto imediato (v.24).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deixar sujeito implícito ('derramou sobre ele...')",
+          "motivo": "ambíguo em português sem antecedente próximo explícito"
+        }
+      ]
+    },
+    {
+      "questao": "וְלֹא־יָשִׂים עַל־לֵב (imperfeito 3ms, 'não porá sobre o coração') — idiomatismo",
+      "escolha": "'não se importou' / 'não levou a peito'",
+      "justificativa": "שׂים על לב é idiomatismo hebraico para 'prestar atenção/refletir sobre'; tradução literal ('não pôs sobre o coração') seria compreensível mas menos natural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'não pôs no coração' (calque literal no publicado)",
+          "motivo": "compreensível, mas soa como tradução, preferido para a camada literal (ER-0013), não para o publicado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o SENHOR (sujeito de 'וַיִּשְׁפֹּךְ', suprido a partir de 42:24)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecho do capítulo (marca פ): julgamento já consumado sobre Israel, motivado pela recusa em atentar para os caminhos de YHWH (retoma o tema de vv.18-20, cegueira/surdez espiritual).",
+  "confianca": 0.66,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

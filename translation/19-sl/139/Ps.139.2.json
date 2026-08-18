@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.139.2",
+    "livro": "Salmos",
+    "capitulo": 139,
+    "versiculo": 2,
+    "pericope": "Ps.139.1-24"
+  },
+  "texto_bv": "Tu conheces o meu sentar e o meu levantar; entendes o meu pensamento de longe.",
+  "traducao_literal": "Tu soubeste o meu sentar e o meu levantar; entendeste ao meu pensamento de longe.",
+  "termos_originais": [
+    {
+      "palavra": "אַתָּ֣ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "יָ֭דַעְתָּ",
+      "lemma": "3045",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "שִׁבְתִּ֣י",
+      "lemma": "3427",
+      "morfologia": "HVqc/Sp1cs"
+    },
+    {
+      "palavra": "וְקוּמִ֑י",
+      "lemma": "c/6965 b",
+      "morfologia": "HC/Vqc/Sp1cs"
+    },
+    {
+      "palavra": "בַּ֥נְתָּה",
+      "lemma": "995",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "לְ֝רֵעִ֗י",
+      "lemma": "l/7454",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "מֵרָחֽוֹק",
+      "lemma": "m/7350",
+      "morfologia": "HR/Aamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָדַע — glosa recorrente ao longo do capítulo (vv.1,2,4,6,14,23)",
+      "escolha": "conhecer (conheces/conheceste/conhece)",
+      "justificativa": "Escolha terminológica única para ידע no capítulo, garantindo consistência (EDITORIAL §11), dado que o objeto é sempre pessoal ou íntimo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "saber (variando por verso)",
+          "motivo": "introduz inconsistência lexical sem ganho semântico."
+        }
+      ]
+    },
+    {
+      "questao": "שִׁבְתִּי וְקוּמִי — infinitivos construtos ('meu sentar'/'meu levantar'), merisma para 'toda a atividade'",
+      "escolha": "nominalização direta: 'o meu sentar e o meu levantar'",
+      "justificativa": "Preserva a forma nominal do original e o merisma binário, sem expandir em oração temporal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'quando me sento e quando me levanto'",
+          "motivo": "paráfrase temporal que perde o paralelismo nominal do hebraico."
+        }
+      ]
+    },
+    {
+      "questao": "רֵעִי (H7454 'pensamento') — homógrafo de רֵעַ (H7453 'amigo/companheiro')",
+      "escolha": "o meu pensamento",
+      "justificativa": "O lemma da fonte pinada (7454) distingue este substantivo de H7453 'amigo'; o contexto exige o sentido cognitivo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o meu amigo'",
+          "motivo": "lemma incorreto (H7453); produz non sequitur com o verbo 'entender'."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Merisma 'sentar/levantar' expressa a totalidade da atividade cotidiana; בַּנְתָּה (forma longa/enfática de בין) mantido como 'entendes'.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

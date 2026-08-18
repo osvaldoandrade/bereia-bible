@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.23.18",
+    "livro": "Jeremias",
+    "capitulo": 23,
+    "versiculo": 18,
+    "pericope": "Jer.23.1-40"
+  },
+  "texto_bv": "Pois quem esteve no conselho do SENHOR para ver e ouvir a sua palavra? Quem prestou atenção à minha palavra e a ouviu?",
+  "traducao_literal": "Porque quem esteve no conselho do SENHOR e verá e ouvirá a sua palavra? Quem deu atenção à minha palavra e ouviu?",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "מִ֤י",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "עָמַד֙",
+      "lemma": "5975",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בְּס֣וֹד",
+      "lemma": "b/5475",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְיֵ֖רֶא",
+      "lemma": "c/7200",
+      "morfologia": "HC/Vqj3ms"
+    },
+    {
+      "palavra": "וְיִשְׁמַ֣ע",
+      "lemma": "c/8085",
+      "morfologia": "HC/Vqj3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "דְּבָר֑וֹ",
+      "lemma": "1697",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "מִֽי",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "הִקְשִׁ֥יב",
+      "lemma": "7181",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "דברי",
+      "lemma": "1697",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וַיִּשְׁמָֽע",
+      "lemma": "c/8085",
+      "morfologia": "HC/Vqw3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "surface 'דברי' sem pontuação vocálica no packet (anomalia gráfica; tradição conhecida de Ketiv/Qere neste versículo)",
+      "escolha": "traduzido conforme a morfologia fornecida pelo packet (substantivo 1cs, 'minha palavra')",
+      "justificativa": "o packet atribui a 'דברי' o lema 1697 e morfologia Ncmsc/Sp1cs ('minha palavra'), embora a grafia venha sem sinais vocálicos. Segue-se estritamente a morfologia pinada, sem introduzir aparato próprio, pois o packet não trouxe variantes_fonte para este item.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'sua palavra' (3ms, harmonizando com a primeira metade do versículo)",
+          "motivo": "contradiz a morfologia 1cs explicitamente fornecida pelo packet pinado"
+        }
+      ]
+    },
+    {
+      "questao": "mudança de pessoa: 'sua palavra' (3ms, primeira oração) → 'minha palavra' (1cs, segunda oração) no mesmo versículo",
+      "escolha": "preservada tal como no original — o SENHOR passa a falar em 1ª pessoa na segunda pergunta",
+      "justificativa": "mudança abrupta de pessoa gramatical é característica do estilo dos oráculos proféticos, com o SENHOR assumindo a voz diretamente; preservada sem harmonização.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Pergunta retórica que nega aos falsos profetas acesso genuíno ao conselho celestial do SENHOR.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

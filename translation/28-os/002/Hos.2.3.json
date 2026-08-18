@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.2.3",
+    "livro": "Oseias",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "Hos.2.1-25"
+  },
+  "texto_bv": "Digam a seus irmãos: \"Meu Povo\"; e a suas irmãs: \"Compadecida\".",
+  "traducao_literal": "Dizei a vossos irmãos: 'Meu povo'; e a vossas irmãs: '[Ela é] compadecida'.",
+  "termos_originais": [
+    {
+      "palavra": "אִמְר֥וּ",
+      "lemma": "559",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "לַאֲחֵיכֶ֖ם",
+      "lemma": "l/251",
+      "morfologia": "HR/Ncmpc/Sp2mp"
+    },
+    {
+      "palavra": "עַמִּ֑י",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְלַאֲחֽוֹתֵיכֶ֖ם",
+      "lemma": "c/l/269",
+      "morfologia": "HC/R/Ncfpc/Sp2mp"
+    },
+    {
+      "palavra": "רֻחָֽמָה",
+      "lemma": "7355",
+      "morfologia": "HVPp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Traduzir עַמִּי/רֻחָמָה como vocativos citados ou transliterar como nomes próprios (Ami/Ruama)?",
+      "escolha": "Traduzir por valor semântico, capitalizado como termo de endereçamento direto entre aspas.",
+      "justificativa": "A morfologia aqui marca ambas as formas como comuns (substantivo com sufixo / particípio verbal), não Np; a capitalização em discurso direto preserva o jogo de palavras para o leitor em português sem exigir nota de rodapé.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Transliterar 'Ami'/'Ruama'",
+          "motivo": "opacifica o sentido em português; a forma não está marcada como nome próprio formal nesta ocorrência"
+        }
+      ]
+    },
+    {
+      "questao": "רֻחָמָה (particípio Pual, lit. 'a que é compadecida') — glosa publicada?",
+      "escolha": "'Compadecida'.",
+      "justificativa": "Substantivação do particípio, fiel à raiz רחם (compaixão/misericórdia).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Amada'",
+          "motivo": "introduz sema de afeto romântico ausente da raiz, que é especificamente compaixão/misericórdia"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ela é (elipse nominal em 'Compadecida')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Retoma e inverte os nomes das crianças de Os 1:6,9 (Lo-Ruama, Lo-Ami), removendo o 'Lo' negativo como sinal profético de restauração — a mesma técnica é revisitada em 2:25.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

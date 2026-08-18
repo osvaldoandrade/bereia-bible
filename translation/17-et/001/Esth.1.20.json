@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.1.20",
+    "livro": "Ester",
+    "capitulo": 1,
+    "versiculo": 20,
+    "pericope": "Esth.1.1-22"
+  },
+  "texto_bv": "\"Quando o decreto que o rei promulgar for ouvido em todo o seu vasto reino, todas as mulheres darão honra aos seus maridos, do maior ao menor.\"",
+  "traducao_literal": "E se ouvirá o decreto do rei, que ele fará, em todo o seu reino — porque grande ele [é] —, e todas as mulheres darão honra aos seus maridos, desde grande e até pequeno.",
+  "termos_originais": [
+    {
+      "palavra": "וְנִשְׁמַע֩",
+      "lemma": "c/8085",
+      "morfologia": "HC/VNq3ms"
+    },
+    {
+      "palavra": "פִּתְגָ֨ם",
+      "lemma": "6599",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַמֶּ֤לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲשֶֽׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "יַעֲשֶׂה֙",
+      "lemma": "6213 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בְּכָל",
+      "lemma": "b/3605",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "מַלְכוּת֔וֹ",
+      "lemma": "4438",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "רַבָּ֖ה",
+      "lemma": "7227 a",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "הִ֑יא",
+      "lemma": "1931",
+      "morfologia": "HPp3fs"
+    },
+    {
+      "palavra": "וְכָל",
+      "lemma": "c/3605",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "הַנָּשִׁ֗ים",
+      "lemma": "d/802",
+      "morfologia": "HTd/Ncfpa"
+    },
+    {
+      "palavra": "יִתְּנ֤וּ",
+      "lemma": "5414",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "יְקָר֙",
+      "lemma": "3366",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְבַעְלֵיהֶ֔ן",
+      "lemma": "l/1167",
+      "morfologia": "HR/Ncmpc/Sp3fp"
+    },
+    {
+      "palavra": "לְמִגָּד֖וֹל",
+      "lemma": "l/m/1419 a",
+      "morfologia": "HR/R/Aamsa"
+    },
+    {
+      "palavra": "וְעַד",
+      "lemma": "c/5704",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "קָטָֽן",
+      "lemma": "6996 a",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Parentético כִּי רַבָּה הִיא ('porque grande ele [é]', ref. ao reino)",
+      "escolha": "incorporar como adjetivo: 'vasto reino'",
+      "justificativa": "ER-0013: normalização de aposição parentética redundante em prosa corrida.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a parentética ('em todo o seu reino, porque é grande')",
+          "motivo": "soa redundante e quebra o fluxo da sentença condicional em português"
+        }
+      ]
+    },
+    {
+      "questao": "Voz passiva וְנִשְׁמַע + subordinação",
+      "escolha": "'Quando... for ouvido'",
+      "justificativa": "conector temporal suprido para encadear com a oração seguinte, ausente formalmente no hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "E se ouvirá o decreto... e todas as mulheres...",
+          "motivo": "duas orações coordenadas soltas perdem a relação causal/temporal implícita entre decreto e efeito"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "quando (conector suprido)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Conclusão do discurso de Memucã com o efeito social esperado do decreto.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

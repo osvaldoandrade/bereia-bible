@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.29.5",
+    "livro": "Jó",
+    "capitulo": 29,
+    "versiculo": 5,
+    "pericope": "Job.29.1-25"
+  },
+  "texto_bv": "quando o Todo-Poderoso ainda estava comigo e os meus filhos estavam ao meu redor",
+  "traducao_literal": "Enquanto ainda Shaddai comigo, ao redor de mim os meus jovens.",
+  "termos_originais": [
+    {
+      "palavra": "בְּע֣וֹד",
+      "lemma": "b/5750",
+      "morfologia": "HR/D"
+    },
+    {
+      "palavra": "שַׁ֭דַּי",
+      "lemma": "7706",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עִמָּדִ֑י",
+      "lemma": "5978",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "סְבִ֖יבוֹתַ֣י",
+      "lemma": "5439",
+      "morfologia": "HNcbpc/Sp1cs"
+    },
+    {
+      "palavra": "נְעָרָֽי",
+      "lemma": "5288",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שַׁדַּי (H7706) isolado, sem אֵל — nome divino",
+      "escolha": "o Todo-Poderoso",
+      "justificativa": "NOMES-DIVINOS.md registra אֵל שַׁדַּי → 'Deus Todo-Poderoso'; aqui שַׁדַּי ocorre sozinho, e por analogia recebe 'o Todo-Poderoso', mantendo o mesmo referente sem duplicar 'Deus'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Shaddai'",
+          "motivo": "quebra a convenção consolidada de tradução de nomes divinos"
+        }
+      ]
+    },
+    {
+      "questao": "נְעָרָי (H5288) — 'meus filhos' vs. 'meus jovens/servos'",
+      "escolha": "meus filhos",
+      "justificativa": "No contexto da lembrança nostálgica do lar intacto de Jó (antes da perda relatada em Jó 1), a tradição interpretativa majoritária lê נַעַר como referência aos filhos de Jó reunidos ao seu redor.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "meus jovens/servos (glosa lexical estrita)",
+          "motivo": "נַעַר não é o termo padrão para 'filho' (בֵּן); permanece registrado como ambiguidade"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "estavam (verbo elíptico suprido na oração nominal סְבִיבוֹתַי נְעָרָי)"
+  ],
+  "ambiguidades_preservadas": [
+    "נְעָרָי pode referir-se aos filhos de Jó ou a seus jovens servos/dependentes do lar"
+  ],
+  "justificativa": "Quadro do auge doméstico de Jó, com Deus e família/casa reunidos.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

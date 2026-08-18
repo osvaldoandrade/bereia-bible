@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.24.6",
+    "livro": "Salmos",
+    "capitulo": 24,
+    "versiculo": 6,
+    "pericope": "Ps.24.1-10"
+  },
+  "texto_bv": "Esta é a geração dos que o buscam, dos que buscam a tua face: Jacó. Selá.",
+  "traducao_literal": "Esta geração dos que buscam ele, os que buscam a tua face, Jacó. Selá.",
+  "termos_originais": [
+    {
+      "palavra": "זֶ֭ה",
+      "lemma": "2088",
+      "morfologia": "HPdxms"
+    },
+    {
+      "palavra": "דּ֣וֹר",
+      "lemma": "1755",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "דרשו",
+      "lemma": "1875",
+      "morfologia": "HVqrmsc/Sp3ms"
+    },
+    {
+      "palavra": "מְבַקְשֵׁ֨י",
+      "lemma": "1245",
+      "morfologia": "HVprmpc"
+    },
+    {
+      "palavra": "פָנֶ֖יךָ",
+      "lemma": "6440",
+      "morfologia": "HNcbpc/Sp2ms"
+    },
+    {
+      "palavra": "יַעֲקֹ֣ב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "סֶֽלָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "דרשו — forma sem pontuação plena no packet (lema H1875, particípio construto + sufixo 3ms, 'os-que-buscam-ele'), seguida sem conjunção por מְבַקְשֵׁי פָנֶיךָ ('os que buscam a tua face') — mudança de 3ª para 2ª pessoa no mesmo verso.",
+      "escolha": "Traduzir דרשו como 'os que o buscam' (referente implícito: o SENHOR do v.3) e preservar a justaposição sem conjunção com 'os que buscam a tua face', mantendo a mudança de pessoa tanto no publicado quanto na literal.",
+      "justificativa": "TEOLOGIA §2: dificuldades do original não são suavizadas por harmonização; o packet não traz aparato (variantes_fonte) para este verso, então a leitura segue estritamente a morfologia pinada (Sp3ms).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Unificar as duas cláusulas na 2ª pessoa ('os que te buscam, os que buscam a tua face')",
+          "motivo": "Apagaria a mudança de pessoa presente no TM sem base em variante documentada — harmonização não autorizada."
+        }
+      ]
+    },
+    {
+      "questao": "Papel sintático de יַעֲקֹב ao final do verso: vocativo dirigido a um 'Jacó' divino, ou aposto identificando a geração descrita como 'Jacó' (Israel)?",
+      "escolha": "Tratar 'Jacó' como aposto que nomeia a geração descrita ('esta geração... é Jacó'), introduzido por dois-pontos no publicado.",
+      "justificativa": "Leitura mais direta da justaposição hebraica sem conjunção; não há aparato no packet que sustente a emendação para 'Deus de Jacó' (אֱלֹהֵי יַעֲקֹב), presente em LXX/versões antigas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ler 'Jacó' como elipse de 'Deus de Jacó' (seguindo LXX τοῦ θεοῦ Ιακωβ)",
+          "motivo": "Emendação conjectural não apoiada por variantes_fonte no packet pinado; preservada apenas como ambiguidade registrada, não adotada no texto."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é"
+  ],
+  "ambiguidades_preservadas": [
+    "Mudança de pessoa gramatical dentro do verso: 'os que O buscam' (3ª pessoa) seguido por 'a TUA face' (2ª pessoa), sem marcador sintático de transição.",
+    "Papel sintático de יַעֲקֹב: aposto identificando a geração descrita, ou possível elipse de construção mais ampla ('Deus de Jacó'), como sugerem LXX e outras versões antigas — packet sem aparato para decidir."
+  ],
+  "justificativa": "Verso de maior dificuldade morfológica do capítulo (forma דרשו sem pontuação plena no packet); tradução segue estritamente a morfologia fornecida (Sp3ms), sem emendar a partir de versões não pinadas.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

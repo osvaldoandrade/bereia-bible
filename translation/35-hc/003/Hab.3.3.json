@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hab.3.3",
+    "livro": "Habacuque",
+    "capitulo": 3,
+    "versiculo": 3,
+    "pericope": "Hab.3.1-19"
+  },
+  "texto_bv": "Deus vem de Temã, e o Santo, do monte Parã. Selá. A sua majestade cobriu os céus, e a terra se encheu do seu louvor.",
+  "traducao_literal": "Deus, de Temã, virá; e o Santo, do monte Parã. Selá. Cobriu os céus a sua majestade; e o seu louvor encheu a terra.",
+  "termos_originais": [
+    {
+      "palavra": "אֱל֨וֹהַ֙",
+      "lemma": "433",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מִתֵּימָ֣ן",
+      "lemma": "m/8487",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יָב֔וֹא",
+      "lemma": "935",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "וְקָד֥וֹשׁ",
+      "lemma": "c/6918",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "מֵֽהַר",
+      "lemma": "m/2022",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "פָּארָ֖ן",
+      "lemma": "6290",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "סֶ֑לָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    },
+    {
+      "palavra": "כִּסָּ֤ה",
+      "lemma": "3680",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "שָׁמַ֨יִם֙",
+      "lemma": "8064",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "הוֹד֔וֹ",
+      "lemma": "1935",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וּתְהִלָּת֖וֹ",
+      "lemma": "c/8416",
+      "morfologia": "HC/Ncfsc/Sp3ms"
+    },
+    {
+      "palavra": "מָלְאָ֥ה",
+      "lemma": "4390",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "הָאָֽרֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱלוֹהַ (H433, forma poética singular) fora da tabela NOMES-DIVINOS (que cobre H430)",
+      "escolha": "'Deus', por extensão da política ER-0002 ao sinônimo poético de אֱלֹהִים",
+      "justificativa": "H433 é variante morfológica singular de H430 no mesmo campo semântico (Deus de Israel), comum em textos poéticos; tratamento divergente criaria inconsistência terminológica sem ganho de sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "glosa própria ('o Poderoso')",
+          "motivo": "sem suporte lexical específico; H433 não é composição nem título distinto do lexema comum"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem V-O-S do hebraico (כִּסָּה שָׁמַיִם הוֹדוֹ; ...מָלְאָה הָאָרֶץ)",
+      "escolha": "Normalizar para S-V-O no publicado; preservar ordem hebraica na literal",
+      "justificativa": "Aplicação da doutrina do calque (ER-0013) à poesia teofânica.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "אֱלוֹהַ (H433) tratado como sinônimo poético de אֱלֹהִים; não há indicação de distinção teológica no texto-fonte."
+  ],
+  "justificativa": "Abertura da teofania; מָלְאָה tratado como uso transitivo poético ('encheu'), paralelo a Is 6:3.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

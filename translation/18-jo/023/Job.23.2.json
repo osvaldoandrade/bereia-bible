@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.23.2",
+    "livro": "Jó",
+    "capitulo": 23,
+    "versiculo": 2,
+    "pericope": "Job.23.1-17"
+  },
+  "texto_bv": "Hoje também o meu queixume é amargo; a minha mão pesa mais do que o meu gemido.",
+  "traducao_literal": "Também hoje amargura [é] a minha queixa; a minha mão pesada sobre o meu gemido.",
+  "termos_originais": [
+    {
+      "palavra": "גַּם",
+      "lemma": "1571",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "הַ֭יּוֹם",
+      "lemma": "d/3117",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "מְרִ֣י",
+      "lemma": "4805",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "שִׂחִ֑י",
+      "lemma": "7879",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "יָ֝דִ֗י",
+      "lemma": "3027",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "כָּבְדָ֥ה",
+      "lemma": "3513",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אַנְחָתִֽי",
+      "lemma": "585",
+      "morfologia": "HNcfsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָדִי ('minha mão'): manter o Texto Massorético ou seguir a emenda tradicional para 'a mão dele' (referindo-se a Deus)?",
+      "escolha": "Manter o TM, 'minha mão', sem emenda.",
+      "justificativa": "O pacote pinado não traz aparato de variantes (variantes_fonte) para este verso; sem evidência textual documentada, a BV segue a fonte pinada (OSHB) tal como está.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a mão dele' (seguindo LXX/versões antigas)",
+          "motivo": "exigiria aparato de variante ausente no pacote cego; adjudicar sem evidência documentada no registro violaria a auditabilidade da fonte pinada"
+        }
+      ]
+    },
+    {
+      "questao": "עַל־אַנְחָתִי: sentido de עַל ('sobre', 'apesar de' ou comparativo 'mais que')",
+      "escolha": "sentido comparativo, 'mais pesada do que o meu gemido'",
+      "justificativa": "עַל pode indicar comparação em poesia hebraica; essa leitura produz sentido coerente com o paralelismo do verso (queixa amarga / mão mais pesada que o gemido que a expressa).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'apesar do meu gemido' (concessivo)",
+          "motivo": "lexicalmente possível, porém menos natural no paralelismo poético do verso"
+        },
+        {
+          "opcao": "'sobre o meu gemido' (locativo literal)",
+          "motivo": "pouco idiomático em português, obscurece o sentido do verso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula da oração nominal 'amargura é a minha queixa')"
+  ],
+  "ambiguidades_preservadas": [
+    "יָדִי ('minha mão') admite leitura literal (a própria mão/aflição de Jó) ou emenda tradicional para 'a mão dele' (Deus); a BV mantém o TM por ausência de aparato no pacote."
+  ],
+  "justificativa": "Verso de célebre dificuldade textual e sintática; a BV opta por leitura literal do TM sem emendas, preservando a ambiguidade no registro.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

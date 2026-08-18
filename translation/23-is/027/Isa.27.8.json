@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.27.8",
+    "livro": "Isaías",
+    "capitulo": 27,
+    "versiculo": 8,
+    "pericope": "Isa.27.1-13"
+  },
+  "texto_bv": "Com medida, ao enviá-la para longe, tu contendes com ela; ele a removeu com seu vento cruel, no dia do vento leste.",
+  "traducao_literal": "Com a medida, no seu enviar, disputas com ela; removeu com seu vento, o cruel, no dia do vento leste.",
+  "termos_originais": [
+    {
+      "palavra": "בְּסַּאסְּאָ֖ה",
+      "lemma": "b/5432",
+      "morfologia": "HR/Vlc"
+    },
+    {
+      "palavra": "בְּשַׁלְחָ֣הּ",
+      "lemma": "b/7971",
+      "morfologia": "HR/Vpc/Sp3fs"
+    },
+    {
+      "palavra": "תְּרִיבֶ֑נָּה",
+      "lemma": "7378",
+      "morfologia": "HVqi2ms/Sp3fs"
+    },
+    {
+      "palavra": "הָגָ֛ה",
+      "lemma": "1898",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בְּרוּח֥וֹ",
+      "lemma": "b/7307",
+      "morfologia": "HR/Ncbsc/Sp3ms"
+    },
+    {
+      "palavra": "הַקָּשָׁ֖ה",
+      "lemma": "d/7186",
+      "morfologia": "HTd/Aafsa"
+    },
+    {
+      "palavra": "בְּי֥וֹם",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "קָדִֽים",
+      "lemma": "6921",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בְּסַּאסְּאָה (H5432, hápax legômeno) — sentido incerto",
+      "escolha": "com medida",
+      "justificativa": "Provável relação com סְאָה (medida de capacidade, 'seá'), sugerindo julgamento proporcional/medido; hápax sem paralelo seguro no corpus hebraico, glosa adotada por analogia à raiz de medida, com baixa confiança lexical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "expulsando-a / enxotando-a",
+          "motivo": "hipótese alternativa (raiz aparentada a 'afugentar'), com menor apoio na análise morfológica disponível no pacote"
+        },
+        {
+          "opcao": "omitir ou marcar como nota",
+          "motivo": "tier DRAFT exige julgamento completo por versículo; a incerteza é registrada na justificativa e na confiança, não pela omissão do termo"
+        }
+      ]
+    },
+    {
+      "questao": "Mudança de pessoa 2ms (תְּרִיבֶנָּה, 'tu contendes') para 3ms (הָגָה, 'ele removeu') no mesmo verso",
+      "escolha": "preservar a mudança de pessoa tal como no hebraico",
+      "justificativa": "Mudança abrupta de interlocutor é traço estilístico da poesia profética hebraica; suavizar para pessoa uniforme apagaria uma característica retórica genuína do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uniformizar para 3ª pessoa em todo o verso",
+          "motivo": "apaga o traço estilístico de mudança de interlocutor característico da poesia profética"
+        }
+      ]
+    },
+    {
+      "questao": "Objeto elíptico de הָגָה (sem sufixo pronominal expresso)",
+      "escolha": "suprir 'a' (retomando o mesmo referente feminino da oração anterior)",
+      "justificativa": "O verbo hebraico não traz sufixo de objeto (elipse normal em poesia); o português exige pronome objeto explícito para o verbo transitivo 'remover' nesse contexto — suprido sem itálico (EDITORIAL §4).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Glosa de קָשָׁה (H7186) em רוּחוֹ הַקָּשָׁה — consistência com 27.1",
+      "escolha": "cruel (mesma glosa fixada em 27.1)",
+      "justificativa": "Reuso da glosa fixada em Isa.27.1 para o mesmo lexema (EDITORIAL §11).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "a"
+  ],
+  "ambiguidades_preservadas": [
+    "Sentido exato de בְּסַּאסְּאָה permanece incerto (hápax legômeno); 'com medida' é a leitura adotada, não a única defensável."
+  ],
+  "justificativa": "Imagem do exílio como disciplina medida/proporcional (eco do tema de v.7 — Deus não trata Jacó com a mesma severidade que trata seus adversários); o vento leste (קָדִים) é figura recorrente de julgamento devastador em Isaías.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.19.17",
+    "livro": "Provérbios",
+    "capitulo": 19,
+    "versiculo": 17,
+    "pericope": "Prov.19.1-29"
+  },
+  "texto_bv": "Quem se compadece do pobre empresta ao SENHOR, e ele lhe retribuirá o benefício.",
+  "traducao_literal": "Emprestador ao SENHOR, o gracioso ao pobre; e seu pagamento, ele retribuirá a ele.",
+  "termos_originais": [
+    {
+      "palavra": "מַלְוֵ֣ה",
+      "lemma": "3867 b",
+      "morfologia": "HVhrmsc"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "ח֣וֹנֵֽן",
+      "lemma": "2603 a",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "דָּ֑ל",
+      "lemma": "1800",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וּ֝גְמֻל֗וֹ",
+      "lemma": "c/1576",
+      "morfologia": "HC/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "יְשַׁלֶּם",
+      "lemma": "7999 a",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "לֽוֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem hebraica antepõe o predicado ('empresta ao SENHOR') ao sujeito ('quem é gracioso ao pobre') — oração nominal com predicado fronteado.",
+      "escolha": "Reordenar no publicado (sujeito primeiro: 'quem se compadece do pobre... empresta'), preservando a ordem hebraica na literal.",
+      "justificativa": "Ordem S-V/sujeito-predicado é a leitura mais natural em português; a inversão hebraica é estilística e não semântica (ER-0013, normalização de calque de ordem).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter ordem hebraica ('Empresta ao SENHOR quem se compadece do pobre')",
+          "motivo": "Compreensível mas menos natural como abertura de provérbio; preterida para o publicado."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sujeito de יְשַׁלֶּם ('retribuirá') é implicitamente o SENHOR, não expresso de novo no hebraico; explicitado como 'ele' no publicado sem acrescentar o nome divino de novo."
+  ],
+  "justificativa": "YHWH → SENHOR (ER-0002). חוֹנֵן דָּל, 'gracioso/compassivo com o pobre', vertido dinamicamente 'se compadece do pobre'.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

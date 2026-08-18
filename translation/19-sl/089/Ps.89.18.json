@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.89.18",
+    "livro": "Salmos",
+    "capitulo": 89,
+    "versiculo": 18,
+    "pericope": "Ps.89.1-53"
+  },
+  "texto_bv": "Pois tu és o esplendor da força deles; e pelo teu favor exaltas o nosso poder.",
+  "traducao_literal": "Porque esplendor-de força-deles [és] tu; e-em-teu-favor exaltas nosso-chifre.",
+  "termos_originais": [
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "תִפְאֶ֣רֶת",
+      "lemma": "8597",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "עֻזָּ֣מוֹ",
+      "lemma": "5797",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "אָ֑תָּה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "וּ֝בִרְצֹנְךָ֗",
+      "lemma": "c/b/7522",
+      "morfologia": "HC/R/Ncmsc/Sp2ms"
+    },
+    {
+      "palavra": "תרים",
+      "lemma": "7311 a",
+      "morfologia": "HVhi2ms"
+    },
+    {
+      "palavra": "קַרְנֵֽנוּ",
+      "lemma": "7161 a",
+      "morfologia": "HNcbsc/Sp1cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "תרים — forma não pontuada no texto-base; a morfologia do packet a analisa como HVhi2ms (hifil imperfeito 2ª ms, 'tu exaltas'), enquanto a pontuação tradicional impressa de algumas edições (תָּרוּם) sugere qal 3fs ('é exaltado/exaltada'), mudando o sujeito de 'tu' para 'nosso poder'.",
+      "escolha": "Seguir a morfologia do packet pinado (HVhi2ms): 'tu exaltas o nosso poder', mantendo o SENHOR como sujeito agente.",
+      "justificativa": "O packet cego é a fonte pinada e auditável desta tradução (OSHB); segue-se a análise morfológica fornecida sem introduzir repontuação própria não documentada no aparato.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'nosso poder é exaltado' (leitura 3fs, sujeito = 'nosso chifre')",
+          "motivo": "exigiria repontuar a forma consonantal contra a morfologia explícita do packet, sem apoio de variante registrada no aparato desta unidade."
+        }
+      ]
+    },
+    {
+      "questao": "קֶרֶן ('chifre'), símbolo idiomático hebraico de força/dignidade.",
+      "escolha": "Verter 'poder' no publicado; preservar 'chifre' na traducao_literal.",
+      "justificativa": "ER-0013: calque de imagem preservado na literal; publicado normaliza para o sentido idiomático, evitando leitura literal estranha ('exaltas nosso chifre') em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'chifre' também no publicado",
+          "motivo": "em português não carrega a conotação de força/dignidade do hebraico; soa como erro de tradução."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "és (cópula)"
+  ],
+  "ambiguidades_preservadas": [
+    "Leitura alternativa 'nosso poder é exaltado' (sujeito paciente) versus 'tu exaltas nosso poder' (SENHOR agente) preservada como possibilidade textual."
+  ],
+  "justificativa": "עֻזָּמוֹ — 'força deles' (referente: 'nosso escudo'/povo dos vv.16-17, com mudança pronominal 3mp→1cp no mesmo fôlego poético, preservada).",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

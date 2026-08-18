@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.10.20",
+    "livro": "Jó",
+    "capitulo": 10,
+    "versiculo": 20,
+    "pericope": "Job.10.1-22"
+  },
+  "texto_bv": "Não são poucos os meus dias? Cessa, pois, e aparta-te de mim, para que eu tenha um pouco de alívio.",
+  "traducao_literal": "Acaso não poucos são os meus dias? Cesse; aparte-se de mim; e que eu tenha um pouco de alívio.",
+  "termos_originais": [
+    {
+      "palavra": "הֲלֹא",
+      "lemma": "i/3808",
+      "morfologia": "HTi/Tn"
+    },
+    {
+      "palavra": "מְעַ֣ט",
+      "lemma": "4592",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יָמַ֣י",
+      "lemma": "3117",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יחדל",
+      "lemma": "2308",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "ישית",
+      "lemma": "7896",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "מִ֝מֶּ֗נִּי",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "וְאַבְלִ֥יגָה",
+      "lemma": "c/1082",
+      "morfologia": "HC/Vhh1cs"
+    },
+    {
+      "palavra": "מְּעָֽט",
+      "lemma": "4592",
+      "morfologia": "HD"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יחדל / ישית — dois jussivos 3ms consecutivos sem conectivo explícito (possível ketiv/qere não sinalizado no packet)",
+      "escolha": "verter como apelo direto: 'cessa, aparta-te de mim'",
+      "justificativa": "a leitura tradicional entende os dois verbos como pedido para que Deus cesse e se afaste, permitindo um pouco de alívio antes da morte; o packet não trouxe campo variantes_fonte para este verso, então nenhuma adjudicação formal de aparato foi feita — a dificuldade é registrada como ambiguidade preservada, não como variante adjudicada",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "verter ambos como jussivos impessoais de 3ª pessoa ('que cessem, que se desviem')",
+          "motivo": "produz sentido obscuro em português sem sujeito claro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "pois (conector adicionado para fluidez entre os dois imperativos; sem correspondente lexical formal)"
+  ],
+  "ambiguidades_preservadas": [
+    "ketiv/qere não sinalizado no packet entre יחדל e ישית; sujeito gramatical implícito (Deus) e leitura exata dos dois jussivos consecutivos"
+  ],
+  "justificativa": "Crux textual conhecida de Jó 10:20 (dois jussivos justapostos); tradução conservadora do sentido geral sem inventar aparato ausente do packet.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

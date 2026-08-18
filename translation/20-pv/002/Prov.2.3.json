@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.2.3",
+    "livro": "Provérbios",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "Prov.2.1-22"
+  },
+  "texto_bv": "sim, se você clamar por discernimento e por entendimento erguer a voz,",
+  "traducao_literal": "sim, se ao discernimento clamares, ao entendimento deres a tua voz,",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אִ֣ם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לַבִּינָ֣ה",
+      "lemma": "l/998",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "תִקְרָ֑א",
+      "lemma": "7121",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "לַ֝תְּבוּנָ֗ה",
+      "lemma": "l/8394",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "תִּתֵּ֥ן",
+      "lemma": "5414",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "קוֹלֶֽךָ",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "distinção terminológica entre בִּינָה e תְּבוּנָה, quase-sinônimos no campo sapiencial",
+      "escolha": "בינה = 'discernimento'; תבונה = 'entendimento' (glosas fixadas nesta perícope para diferenciar os dois substantivos hebraicos que o português tende a colapsar)",
+      "justificativa": "Sem entrada prévia no lexicon.json para estes termos; escolha necessária para não igualar dois lexemas hebraicos distintos usados lado a lado (paralelismo sinonímico) nos vv.2-3.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir ambos por 'entendimento'",
+          "motivo": "apaga a distinção lexical hebraica, prejudicando o paralelismo binário característico de Provérbios"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "כִּי אִם emphatic ('sim, se' / 'de fato, se'), continuando a cadeia condicional; objetos fronteados (לבינה/לתבונה) preservados na literal, normalizados no texto_bv.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

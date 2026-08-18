@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.14.2",
+    "livro": "Jeremias",
+    "capitulo": 14,
+    "versiculo": 2,
+    "pericope": "Jer.14.1-22"
+  },
+  "texto_bv": "Judá pranteia, e as suas portas desfalecem; abatem-se sombrias até o chão, e o clamor de Jerusalém sobe.",
+  "traducao_literal": "Pranteou Judá, e as suas portas enfraqueceram; escureceram-se à terra, e subiu o clamor de Jerusalém.",
+  "termos_originais": [
+    {
+      "palavra": "אָבְלָ֣ה",
+      "lemma": "56",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "יְהוּדָ֔ה",
+      "lemma": "3063",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּשְׁעָרֶ֥יהָ",
+      "lemma": "c/8179",
+      "morfologia": "HC/Ncmpc/Sp3fs"
+    },
+    {
+      "palavra": "אֻמְלְל֖וּ",
+      "lemma": "535",
+      "morfologia": "HVKp3cp"
+    },
+    {
+      "palavra": "קָדְר֣וּ",
+      "lemma": "6937",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "לָאָ֑רֶץ",
+      "lemma": "l/776",
+      "morfologia": "HRd/Ncbsa"
+    },
+    {
+      "palavra": "וְצִוְחַ֥ת",
+      "lemma": "c/6682",
+      "morfologia": "HC/Ncfsc"
+    },
+    {
+      "palavra": "יְרוּשָׁלִַ֖ם",
+      "lemma": "3389",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עָלָֽתָה",
+      "lemma": "5927",
+      "morfologia": "HVqp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ordem verbo-sujeito poética (qatal V-S, não wayyiqtol) no publicado",
+      "escolha": "normalizar para sujeito-verbo no publicado, preservando V-S na literal, pelo mesmo princípio de naturalidade de ER-0011/ER-0013",
+      "justificativa": "a ordem V-S é traço estilístico do hebraico poético; o português flui melhor com sujeito antes do verbo",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado ('Pranteia Judá')",
+          "motivo": "soa arcaizante/traduzido em português contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "sujeito de קָדְרוּ לָאָרֶץ (retomar 'as portas' ou introduzir 'o povo')",
+      "escolha": "manter 'as portas' como sujeito retomado ('abatem-se sombrias até o chão')",
+      "justificativa": "nenhum sujeito novo é expresso no texto; a leitura mais econômica retoma o sujeito imediatamente anterior",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o povo se prostra ao chão",
+          "motivo": "introduziria referente não expresso no hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "sujeito de קָדְרוּ pode ser 'as portas' (retomado, leitura preferida) ou implicitamente 'o povo'"
+  ],
+  "justificativa": "Descrição do luto de Judá pela seca; qatal poético vertido em presente descritivo para vivacidade, coerente com vv.2-6.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

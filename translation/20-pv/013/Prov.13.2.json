@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.13.2",
+    "livro": "Provérbios",
+    "capitulo": 13,
+    "versiculo": 2,
+    "pericope": "Prov.13.1-25"
+  },
+  "texto_bv": "Do fruto da própria boca, o homem se alimenta do bem, mas o apetite dos traiçoeiros é a violência.",
+  "traducao_literal": "Do fruto da boca do homem, comerá o bem; e a alma dos traiçoeiros, violência.",
+  "termos_originais": [
+    {
+      "palavra": "מִפְּרִ֣י",
+      "lemma": "m/6529",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "פִי",
+      "lemma": "6310",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אִ֭ישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יֹ֣אכַל",
+      "lemma": "398",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "ט֑וֹב",
+      "lemma": "2896 b",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְנֶ֖פֶשׁ",
+      "lemma": "c/5315",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "בֹּגְדִ֣ים",
+      "lemma": "898",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "חָמָֽס",
+      "lemma": "2555",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Verbo elidido em B (וְנֶפֶשׁ בֹּגְדִים חָמָס, sem verbo)",
+      "escolha": "Suprir cópula: 'o apetite dos traiçoeiros é a violência'",
+      "justificativa": "Cláusula nominal exige cópula em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Repetir o verbo 'comer' de A ('a alma dos traiçoeiros come violência')",
+          "motivo": "Mantém a metáfora alimentar mas soa artificial em português; a cópula é mais idiomática."
+        }
+      ]
+    },
+    {
+      "questao": "נֶפֶשׁ (nefesh) — 'alma' vs. 'apetite/desejo'",
+      "escolha": "'apetite' — sentido de fome/desejo, coerente com o campo semântico alimentar de יֹאכַל (comer) na cláusula A",
+      "justificativa": "Preserva o jogo de imagens entre comer bem e 'consumir' violência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'alma'",
+          "motivo": "Glosa genérica; obscurece o paralelo alimentar do versículo (comer bem vs. 'comer' violência)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Contraste entre a fartura lícita obtida pela fala honesta e o apetite predatório dos traiçoeiros.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

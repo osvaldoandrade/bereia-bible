@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.6.10",
+    "livro": "Salmos",
+    "capitulo": 6,
+    "versiculo": 10,
+    "pericope": "Ps.6.1-11"
+  },
+  "texto_bv": "O SENHOR ouviu a minha súplica; o SENHOR aceitará a minha oração.",
+  "traducao_literal": "Ouviu SENHOR a minha súplica; SENHOR a minha oração receberá.",
+  "termos_originais": [
+    {
+      "palavra": "שָׁמַ֣ע",
+      "lemma": "8085",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "תְּחִנָּתִ֑י",
+      "lemma": "8467",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "יְ֝הוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "תְּֽפִלָּתִ֥י",
+      "lemma": "8605",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "יִקָּֽח",
+      "lemma": "3947",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Normalização do quiasmo de ordem (V-S na primeira oração; S-O-V na segunda)",
+      "escolha": "ordem direta sujeito-verbo(-objeto) nas duas orações do texto publicado",
+      "justificativa": "ER-0013 §3 autoriza normalizar quiasmo de ordem no publicado quando soar artificial em português; a traducao_literal preserva o padrão quiástico original (verbo-sujeito / sujeito-objeto-verbo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preservar o quiasmo no publicado ('Ouviu o SENHOR a minha súplica; o SENHOR a minha oração receberá')",
+          "motivo": "soa artificial/arcaizante em prosa poética corrida; ER-0013 permite a normalização com a literal registrando o padrão"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "יִקָּח: pode ser vertido 'aceitará' (receber favoravelmente) ou mais literalmente 'tomará'; escolhido 'aceitará' por soar mais natural em português referindo-se a uma oração, sem alterar o sentido de recebimento"
+  ],
+  "justificativa": "Bicolon quiástico com repetição do nome divino יְהוָה enquadrando as duas orações; tradução publicada normaliza a ordem, literal preserva o quiasmo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.13.5",
+    "livro": "Salmos",
+    "capitulo": 13,
+    "versiculo": 5,
+    "pericope": "Ps.13.1-6"
+  },
+  "texto_bv": "Para que o meu inimigo não diga: “Eu o venci”, nem os meus adversários se alegrem quando eu vacilar.",
+  "traducao_literal": "Para-que-não diga meu-inimigo: “prevaleci-sobre-ele”; meus-adversários se-alegrarão quando eu-vacilar.",
+  "termos_originais": [
+    {
+      "palavra": "פֶּן",
+      "lemma": "6435",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יֹאמַ֣ר",
+      "lemma": "559",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "אֹיְבִ֣י",
+      "lemma": "341",
+      "morfologia": "HVqrmsc/Sp1cs"
+    },
+    {
+      "palavra": "יְכָלְתִּ֑יו",
+      "lemma": "3201",
+      "morfologia": "HVqp1cs/Sp3ms"
+    },
+    {
+      "palavra": "צָרַ֥י",
+      "lemma": "6862 c",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יָ֝גִ֗ילוּ",
+      "lemma": "1523",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֶמּֽוֹט",
+      "lemma": "4131",
+      "morfologia": "HVNi1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "פֶּן não é repetido antes do segundo colo (\"צָרַי יָגִילוּ\"), mas o sentido de propósito negativo continua por paralelismo",
+      "escolha": "traducao_literal preserva a ausência de repetição da partícula (calque, ER-0013); texto_bv supre \"nem\" para manter a continuidade da negação em português",
+      "justificativa": "Sem \"nem\", o segundo colo leria como afirmação independente (\"meus adversários se alegrarão\"), invertendo o sentido do texto; a elipse hebraica de פֶּן é natural em hebraico poético, mas agramatical/ambígua em português sem suprimento (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir \"para que não\" integralmente no segundo colo",
+          "motivo": "apaga o calque de elipse presente no original, que a doutrina do calque manda preservar só na literal"
+        }
+      ]
+    },
+    {
+      "questao": "כִּי אֶמּוֹט: כִּי pode ser causal (\"porque vacilei\") ou temporal (\"quando eu vacilar\")",
+      "escolha": "quando eu vacilar (temporal)",
+      "justificativa": "O paralelo poético liga o regozijo dos adversários ao evento da queda, não a uma causa já consumada; ambas as leituras são lexicalmente plenas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "porque eu vacilei",
+          "motivo": "leitura causal igualmente válida, preservada como ambiguidade no registro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "nem"
+  ],
+  "ambiguidades_preservadas": [
+    "כִּי אֶמּוֹט admite leitura causal (\"porque vacilei\") ou temporal (\"quando eu vacilar\"); a BV opta pela temporal sem apagar a causal"
+  ],
+  "justificativa": "Discurso direto curto introduzido por dois-pontos e aspas duplas curvas (EDITORIAL §5); יְכָלְתִּיו com sufixo 3ms (\"sobre ele\") refere-se ao próprio salmista, vertido \"Eu o venci\".",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

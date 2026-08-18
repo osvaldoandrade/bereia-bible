@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Obad.1.3",
+    "livro": "Obadias",
+    "capitulo": 1,
+    "versiculo": 3,
+    "pericope": "Obad.1.1-21"
+  },
+  "texto_bv": "O orgulho do seu coração o enganou — você, que habita nas fendas da rocha, cuja morada é nas alturas, que diz em seu coração: “Quem me fará descer à terra?”",
+  "traducao_literal": "O orgulho do teu coração te enganou, habitante nas fendas da rocha, a altura sua morada, dizendo em seu coração: “Quem me fará descer à terra?”",
+  "termos_originais": [
+    {
+      "palavra": "זְד֤וֹן",
+      "lemma": "2087",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "לִבְּךָ֙",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "הִשִּׁיאֶ֔ךָ",
+      "lemma": "5377",
+      "morfologia": "HVhp3ms/Sp2ms"
+    },
+    {
+      "palavra": "שֹׁכְנִ֥י",
+      "lemma": "7931",
+      "morfologia": "HVqrmsc"
+    },
+    {
+      "palavra": "בְחַגְוֵי",
+      "lemma": "b/2288",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "סֶּ֖לַע",
+      "lemma": "5553",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מְר֣וֹם",
+      "lemma": "4791",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "שִׁבְתּ֑וֹ",
+      "lemma": "7675",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "אֹמֵ֣ר",
+      "lemma": "559",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בְּלִבּ֔וֹ",
+      "lemma": "b/3820 a",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "מִ֥י",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יוֹרִדֵ֖נִי",
+      "lemma": "3381",
+      "morfologia": "HVhi3ms/Sp1cs"
+    },
+    {
+      "palavra": "אָֽרֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Mudança de pessoa 2ms→3ms dentro do mesmo verso (לִבְּךָ/הִשִּׁיאֶךָ 2ms vs. שִׁבְתּוֹ/בְּלִבּוֹ/יוֹרִדֵנִי com sufixo 3ms)",
+      "escolha": "normalizar para 2ª pessoa (você) no texto publicado, preservando a alternância de pessoa na tradução literal",
+      "justificativa": "A alternância é traço estilístico do hebraico poético (o particípio שֹׁכְנִי funciona em aposição ao endereçado de 2ms, mas os sufixos seguintes são 3ms); mantê-la no publicado quebraria a coesão referencial exigida por EDITORIAL §1.3.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 3ª pessoa integral ('cuja morada é... que ele diz')",
+          "motivo": "rompe o endereçamento direto a Edom que rege todo o oráculo (vv.2–15)"
+        }
+      ]
+    },
+    {
+      "questao": "מְרוֹם שִׁבְתּוֹ, aposto nominal ('a altura, sua morada')",
+      "escolha": "converter em oração relativa: 'cuja morada é nas alturas'",
+      "justificativa": "O aposto nominal hebraico é agramatical em tradução direta para o português; a relativa é a solução natural mais próxima.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter aposto nominal ('a altura, sua morada')",
+          "motivo": "preservado na literal; no publicado soa truncado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A alternância gramatical de pessoa (2ms/3ms) sobre o mesmo referente não é resolvida, apenas suavizada no publicado.",
+    "סֶלַע ('rocha') pode ser leitura genérica ou alusão à cidade edomita de Selá (hoje Petra); ambas preservadas, sem afirmar a leitura toponímica no texto."
+  ],
+  "justificativa": "שֹׁכְנִי (particípio construto qal) e אֹמֵר (particípio qal absoluto) descrevem o endereçado; a citação final (מִי יוֹרִדֵנִי אָרֶץ) é o pensamento de Edom, verdadeiro discurso direto em 1ª pessoa.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

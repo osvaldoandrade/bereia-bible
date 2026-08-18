@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.19.29",
+    "livro": "Jó",
+    "capitulo": 19,
+    "versiculo": 29,
+    "pericope": "Job.19.1-29"
+  },
+  "texto_bv": "Temam a espada, pois o furor traz os castigos da espada, para que saibam que há juízo.",
+  "traducao_literal": "Temei para vós, de diante da espada, pois furor são as iniquidades da espada, para que saibais que há juízo.",
+  "termos_originais": [
+    {
+      "palavra": "גּ֤וּרוּ",
+      "lemma": "1481 c",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "לָכֶ֨ם",
+      "lemma": "l",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "מִפְּנֵי",
+      "lemma": "m/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "חֶ֗רֶב",
+      "lemma": "2719",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "חֵ֭מָה",
+      "lemma": "2534",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "עֲוֺנ֣וֹת",
+      "lemma": "5771",
+      "morfologia": "HNcbpc"
+    },
+    {
+      "palavra": "חָ֑רֶב",
+      "lemma": "2719",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לְמַ֖עַן",
+      "lemma": "4616",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "תֵּדְע֣וּן",
+      "lemma": "3045",
+      "morfologia": "HVqi2mp/Sn"
+    },
+    {
+      "palavra": "שדין",
+      "lemma": "s/1779",
+      "morfologia": "HTr/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שדין (Ketiv) — a fonte pinada (OSHB) analisa como שֶׁ (relativo) + דִּין ('juízo'), lema 's/1779'; a tradição massorética conhece também a leitura Qere שַׁדַּי ('Todo-Poderoso'). Qual seguir?",
+      "escolha": "seguir estritamente a análise morfológica da fonte pinada: 'que há juízo'",
+      "justificativa": "Regra de fidelidade ao packet pinado (OSHB, lema e morfologia anexados mecanicamente): o lema 's/1779' e o morph 'HTr/Ncmsa' determinam a leitura שֶׁ+דִּין; não há liberdade editorial para substituir pela leitura tradicional 'Shaddai' sem reabrir o pin da fonte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir 'Todo-Poderoso' (leitura Qere שַׁדַּי, amplamente adotada por versões históricas)",
+          "motivo": "contradiria a análise morfológica da fonte pinada anexada a este registro; mudança exigiria re-pinagem e adjudicação textual formal, fora do escopo desta unidade DRAFT"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "traz (verbo suprido para a oração nominal חֵמָה עֲוֺנוֹת חָרֶב, sem verbo explícito no hebraico)",
+    "há (verbo suprido para a oração final nominal 'que há juízo')"
+  ],
+  "ambiguidades_preservadas": [
+    "A forma שדין é lida pela fonte pinada como שֶׁ+דִּין ('que há juízo'); a tradição massorética/Qere conhece também 'שַׁדַּי' (Shaddai, 'Todo-Poderoso'). A BV segue a análise da fonte pinada nesta unidade DRAFT; adjudicação textual formal fica para ciclo de promoção."
+  ],
+  "justificativa": "Crux textual conhecida (Ketiv שדין vs. tradição Shaddai); seguida a análise morfológica exatamente como pinada no packet, sem emendar pela tradição.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

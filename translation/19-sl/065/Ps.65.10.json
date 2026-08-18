@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.65.10",
+    "livro": "Salmos",
+    "capitulo": 65,
+    "versiculo": 10,
+    "pericope": "Ps.65.1-14"
+  },
+  "texto_bv": "Visitaste a terra e a fizeste transbordar; tu a enriqueces grandemente. O ribeiro de Deus está cheio de água; preparas o cereal deles, pois assim a preparas.",
+  "traducao_literal": "Visitaste a-terra e-a-fizeste-transbordar; grandemente a-enriquecerás; ribeiro-de-Deus cheio água; prepararás cereal-deles, porque assim a-prepararás.",
+  "termos_originais": [
+    {
+      "palavra": "פָּקַ֥דְתָּ",
+      "lemma": "6485 a",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "הָאָ֨רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "וַתְּשֹׁ֪קְקֶ֡הָ",
+      "lemma": "c/7783",
+      "morfologia": "HC/Vow2ms/Sp3fs"
+    },
+    {
+      "palavra": "רַבַּ֬ת",
+      "lemma": "7227 a",
+      "morfologia": "HAafsc"
+    },
+    {
+      "palavra": "תַּעְשְׁרֶ֗נָּה",
+      "lemma": "6238",
+      "morfologia": "HVhi2ms/Sp3fs"
+    },
+    {
+      "palavra": "פֶּ֣לֶג",
+      "lemma": "6388",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֱ֭לֹהִים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "מָ֣לֵא",
+      "lemma": "4390",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "מָ֑יִם",
+      "lemma": "4325",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "תָּכִ֥ין",
+      "lemma": "3559 a",
+      "morfologia": "HVhi2ms"
+    },
+    {
+      "palavra": "דְּ֝גָנָ֗ם",
+      "lemma": "1715",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "כֵ֥ן",
+      "lemma": "3651 a",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "תְּכִינֶֽהָ",
+      "lemma": "3559 a",
+      "morfologia": "HVhi2ms/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de וַתְּשֹׁקְקֶהָ (polel, שׁקק, 'transbordar/regar abundantemente')",
+      "escolha": "fizeste transbordar",
+      "justificativa": "Raiz רקק שׁ (polel) associada a fluxo abundante/transbordamento de água; escolha lexical baseada na morfologia (tronco polel intensivo), sem entrada prévia no lexicon.json.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "regaste",
+          "motivo": "mais genérico; perde o valor intensivo do tronco polel"
+        }
+      ]
+    },
+    {
+      "questao": "Referente do sufixo 3mp em דְּגָנָם ('o cereal DELES')",
+      "escolha": "mantido 'deles', referente implícito aos habitantes/povos da terra (retomando לְאֻמִּים de v.8 e os moradores da terra em geral)",
+      "justificativa": "Sufixo pronominal sem antecedente explícito no verso; a leitura mais natural liga-o aos habitantes da terra visitada, mantida a ambiguidade do referente exato.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Mudança de tempo verbal: perfeito/wayyiqtol (ações concluídas: 'visitaste', 'fizeste transbordar') para imperfeito (ação contínua/habitual: 'enriqueces', 'preparas') — preservada sem uniformizar todos os verbos num único tempo."
+  ],
+  "justificativa": "פֶּלֶג אֱלֹהִים ('o ribeiro/canal de Deus') é imagem concreta de provisão hídrica associada à terra prometida; מָלֵא tratado como predicativo estativo ('está cheio').",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

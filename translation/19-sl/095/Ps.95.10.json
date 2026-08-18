@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.95.10",
+    "livro": "Salmos",
+    "capitulo": 95,
+    "versiculo": 10,
+    "pericope": "Ps.95.1-11"
+  },
+  "texto_bv": "Quarenta anos tive repulsa daquela geração e disse: “É um povo de coração errante, e eles não conheceram os meus caminhos.”",
+  "traducao_literal": "Quarenta anos tive repulsa com [aquela] geração, e disse: eles [são] um povo errante de coração, e eles não conheceram meus caminhos.",
+  "termos_originais": [
+    {
+      "palavra": "אַרְבָּ֘עִ֤ים",
+      "lemma": "705",
+      "morfologia": "HAcbpa"
+    },
+    {
+      "palavra": "שָׁנָ֨ה",
+      "lemma": "8141",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אָ֘ק֤וּט",
+      "lemma": "6962",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "בְּד֗וֹר",
+      "lemma": "b/1755",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וָאֹמַ֗ר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw1cs"
+    },
+    {
+      "palavra": "עַ֤ם",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "תֹּעֵ֣י",
+      "lemma": "8582",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "לֵבָ֣ב",
+      "lemma": "3824",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הֵ֑ם",
+      "lemma": "1992",
+      "morfologia": "HPp3mp"
+    },
+    {
+      "palavra": "וְ֝הֵ֗ם",
+      "lemma": "c/1992",
+      "morfologia": "HC/Pp3mp"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יָדְע֥וּ",
+      "lemma": "3045",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "דְרָכָֽי",
+      "lemma": "1870",
+      "morfologia": "HNcbpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "קוּט (H6962, raro) — 'sentir repugnância/aborrecer-se visceralmente'",
+      "escolha": "'tive repulsa' (não 'me indignei' ou 'me aborreci')",
+      "justificativa": "Verbo raro de sentido fisiológico-visceral de nojo/repugnância, distinto do genérico 'irar-se'; 'repulsa' capta a intensidade sem suavizar (TEOLOGIA §2, proibição de suavizar antropomorfismos/dificuldades do original).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'me indignei'",
+          "motivo": "suaviza o campo semântico de nojo/repugnância presente em קוט para uma ira genérica mais palatável."
+        }
+      ]
+    },
+    {
+      "questao": "Discurso direto introduzido por וָאֹמַר ('e disse')",
+      "escolha": "Dois-pontos + aspas duplas curvas, conforme ER-0004/EDITORIAL §5",
+      "justificativa": "Verbo de dizer explícito presente no texto-fonte (diferente de vv7-8, sem verbum dicendi); aplica-se a regra padrão de discurso direto.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "עַם תֹּעֵי לֵבָב הֵם — oração nominal com pronome de retomada (הֵם)",
+      "escolha": "'É um povo de coração errante' (cópula suprida; pronome de retomada não vertido lexicalmente)",
+      "justificativa": "הֵם aqui funciona como marcador de predicado nominal (pronomen copulativum), estrutura hebraica sem equivalente formal em português; verter 'eles' redundante soaria agramatical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Povo de coração errante, eles [são]'",
+          "motivo": "preserva a ordem hebraica, mas produz aposto solto e pouco natural no publicado; a ordem é preservada na traducao_literal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula da oração nominal citada, v10b)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Discurso direto formalmente introduzido por וָאֹמַר ('e disse'), com aspas conforme ER-0004; verbo raro de repugnância (קוט) mantido sem suavização (TEOLOGIA §2).",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

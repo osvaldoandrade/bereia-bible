@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.98.6",
+    "livro": "Salmos",
+    "capitulo": 98,
+    "versiculo": 6,
+    "pericope": "Ps.98.1-9"
+  },
+  "texto_bv": "Com trombetas e voz de chifre, aclamem diante do Rei, o SENHOR.",
+  "traducao_literal": "Com trombetas e voz de chifre, gritai de júbilo diante do Rei, o SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "בַּ֭חֲצֹ֣צְרוֹת",
+      "lemma": "b/2689",
+      "morfologia": "HR/Ncfpa"
+    },
+    {
+      "palavra": "וְק֣וֹל",
+      "lemma": "c/6963 a",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "שׁוֹפָ֑ר",
+      "lemma": "7782",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הָ֝רִ֗יעוּ",
+      "lemma": "7321",
+      "morfologia": "HVhv2mp"
+    },
+    {
+      "palavra": "לִפְנֵ֤י",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "הַמֶּ֬לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Distinção lexical חֲצֹצְרָה (H2689) vs. שׁוֹפָר (H7782)",
+      "escolha": "'trombetas' para חֲצֹצְרוֹת e 'chifre' para שׁוֹפָר",
+      "justificativa": "Preserva a distinção lexical do hebraico entre dois instrumentos diferentes (metal vs. chifre), evitando colapso terminológico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'trombeta' para ambos",
+          "motivo": "colapsa dois termos hebraicos distintos em um só vocábulo português, apagando a diferença que o texto-fonte marca"
+        }
+      ]
+    },
+    {
+      "questao": "Aposição הַמֶּלֶךְ יְהוָה (Rei + SENHOR)",
+      "escolha": "'o Rei, o SENHOR', preservando a ordem do hebraico",
+      "justificativa": "O hebraico cita primeiro o título régio, depois o nome divino em aposição; a ordem carrega ênfase.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o SENHOR, o Rei'",
+          "motivo": "inverte a ênfase do hebraico, que apresenta primeiro o título régio"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "שׁוֹפָר pode designar tanto o chifre de carneiro ritual quanto, por extensão, uma trombeta de sopro rústica; 'chifre' preserva o sentido literal do material sem forçar equivalência ritual"
+  ],
+  "justificativa": "Distinção lexical entre חֲצֹצְרָה e שׁוֹפָר preservada com dois vocábulos portugueses distintos (trombeta/chifre); a aposição 'Rei, SENHOR' mantém a ordem hebraica.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

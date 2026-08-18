@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jonah.2.11",
+    "livro": "Jonas",
+    "capitulo": 2,
+    "versiculo": 11,
+    "pericope": "Jonah.2.1-11"
+  },
+  "texto_bv": "O SENHOR falou ao peixe, e o peixe vomitou Jonas na terra seca.",
+  "traducao_literal": "E o SENHOR falou ao peixe; e o peixe vomitou Jonas na terra seca.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לַדָּ֑ג",
+      "lemma": "l/1709",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "וַיָּקֵ֥א",
+      "lemma": "c/6958",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יוֹנָ֖ה",
+      "lemma": "3124",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַיַּבָּשָֽׁה",
+      "lemma": "d/3004",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito elíptico do segundo verbo (וַיָּקֵא, 'vomitou'), não reexpresso no hebraico",
+      "escolha": "explicitar 'o peixe' em vez do pronome 'ele'",
+      "justificativa": "EDITORIAL §1.3: evitar ambiguidade de referência pronominal; o antecedente mais próximo ('o SENHOR') poderia ser mal lido como sujeito de 'vomitou'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele' (pronome)",
+          "motivo": "ambíguo em português entre 'o SENHOR' (sujeito da primeira oração) e 'o peixe' (sujeito real, elidido no hebraico)"
+        }
+      ]
+    },
+    {
+      "questao": "אמר...ל — 'falar a' sem citação direta subsequente (função de comando implícito)",
+      "escolha": "'falou'",
+      "justificativa": "Mantém a glosa básica do verbo (dizer/falar) já usada no capítulo (v.3), mesmo funcionando aqui como comando implícito ao peixe.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ordenou'",
+          "motivo": "traduz a função (comando) em vez do lexema; interpretação reservável para nota, não para o texto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o peixe"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Retoma a narrativa em prosa (fecha a perícope): o SENHOR fala ao peixe e Jonas é devolvido à terra seca; usa a glosa lexicon-fixada 'terra seca' (H3004, cf. Gen.1.9-10).",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

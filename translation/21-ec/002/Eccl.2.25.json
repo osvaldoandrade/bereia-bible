@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.2.25",
+    "livro": "Eclesiastes",
+    "capitulo": 2,
+    "versiculo": 25,
+    "pericope": "Eccl.2.1-26"
+  },
+  "texto_bv": "Pois quem pode comer e quem pode desfrutar, senão eu?",
+  "traducao_literal": "Porque quem come, e quem sente, fora de mim?",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "מִ֥י",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יֹאכַ֛ל",
+      "lemma": "398",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "וּמִ֥י",
+      "lemma": "c/4310",
+      "morfologia": "HC/Ti"
+    },
+    {
+      "palavra": "יָח֖וּשׁ",
+      "lemma": "2363 b",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "ח֥וּץ",
+      "lemma": "2351",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מִמֶּֽנִּי",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter יָחוּשׁ (raiz חוש: 'apressar-se' ou, por cognato aramaico, 'sentir/desfrutar')?",
+      "escolha": "desfrutar",
+      "justificativa": "o paralelismo com אכל ('comer') no contexto hedonista do capítulo favorece o sentido de fruição/prazer (cognato aramaico 'sentir'), mais coerente que o sentido usual hebraico de 'apressar-se'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "apressar-se",
+          "motivo": "sentido mais comum da raiz חוש no hebraico bíblico, mas produz leitura obscura no contexto ('quem pode se apressar sem mim?'); preterido em favor do paralelismo com 'comer'."
+        }
+      ]
+    },
+    {
+      "questao": "מִמֶּנִּי ('à parte de mim', 1ª pessoa) — manter o TM pinado ou considerar leituras de versões antigas?",
+      "escolha": "manter מִמֶּנִּי conforme o TM pinado ('senão eu')",
+      "justificativa": "o packet não traz aparato (variantes_fonte) para este versículo; a leitura seguida é a do texto consonantal-vocálico efetivamente pinado (1ª pessoa, Qohélet).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "מִמֶּנּוּ, 'à parte dele' [Deus] — leitura refletida em versões antigas (LXX ἔξω αὐτοῦ, Vulgata, Peshitta)",
+          "motivo": "não documentada como variante no packet pinado (OSHB); adjudicar uma variante ausente do aparato pinado violaria a regra de não inventar aparato. Registrada aqui apenas como nota de cautela para revisão textual futura, não como adjudicação formal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "pode"
+  ],
+  "ambiguidades_preservadas": [
+    "A crítica textual histórica (LXX, Peshitta, Vulgata) diverge do TM neste pronome (מִמֶּנּוּ 'dele' vs. מִמֶּנִּי 'de mim'), mas o packet pinado (OSHB) não traz variantes_fonte para este versículo, de modo que nenhuma adjudicação formal de variante foi feita."
+  ],
+  "justificativa": "Verso curto com crux textual conhecido na crítica histórica, não refletido no aparato do packet pinado; confiança reduzida por cautela.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

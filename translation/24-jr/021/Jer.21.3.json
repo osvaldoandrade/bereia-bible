@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.21.3",
+    "livro": "Jeremias",
+    "capitulo": 21,
+    "versiculo": 3,
+    "pericope": "Jer.21.1-14"
+  },
+  "texto_bv": "E Jeremias disse a eles: “Assim direis a Zedequias:",
+  "traducao_literal": "E disse Jeremias a eles: Assim direis a Zedequias:",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "יִרְמְיָ֖הוּ",
+      "lemma": "3414",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֲלֵיהֶ֑ם",
+      "lemma": "413",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "כֹּ֥ה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "תֹאמְרֻ֖ן",
+      "lemma": "559",
+      "morfologia": "HVqi2mp/Sn"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "צִדְקִיָּֽהוּ",
+      "lemma": "6667",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וַיֹּ֥אמֶר יִרְמְיָ֖הוּ — único wayyiqtol do capítulo, ordem V-S no hebraico.",
+      "escolha": "Ordem S-V no texto publicado (\"E Jeremias disse\"), V-S preservado na traducao_literal (\"E disse Jeremias\").",
+      "justificativa": "ER-0011 (S-V uniforme no publicado, calque V-S preservado na literal).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "V-S também no publicado",
+          "motivo": "soa arcaizante/traduzido em narrativa em prosa; ER-0011 supersede ER-0008"
+        }
+      ]
+    },
+    {
+      "questao": "Fronteira de discurso direto: v.3 abre a fala de Jeremias que, sem novo verbo declarativo, passa a ser o próprio oráculo (vv.4-10).",
+      "escolha": "Abrir aspas duplas em \"Assim direis a Zedequias:\" e não reabri-las a cada verso seguinte — a citação permanece aberta até o fim de v.10 (fechamento em v.10), tratando \"Assim direis a Zedequias\" e \"Assim diz o SENHOR\" (v.4) como um único nível de fala reportada.",
+      "justificativa": "EDITORIAL §5 prevê aspas simples para citação dentro de citação, mas a fórmula \"dizei a X: Assim diz o SENHOR...\" é convencionalmente tratada como um só nível de discurso nas traduções correntes, evitando aninhamento espúrio; decisão documentada para auditoria e ajuste na montagem do capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Aninhar com aspas simples a partir de v.4 (\"Assim diz o SENHOR...\")",
+          "motivo": "gera aninhamento triplo desnecessário para uma fórmula-oráculo que funciona como rótulo, não como segunda voz narrativa distinta"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Transição narrativa: Jeremias responde aos enviados com a instrução do que devem relatar a Zedequias, abrindo o oráculo que se estende até v.10.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.9.1",
+    "livro": "Provérbios",
+    "capitulo": 9,
+    "versiculo": 1,
+    "pericope": "Prov.9.1-18"
+  },
+  "texto_bv": "A sabedoria construiu a sua casa; lavrou as suas sete colunas.",
+  "traducao_literal": "Sabedoria(s) construiu casa-dela; lavrou colunas-dela, sete.",
+  "termos_originais": [
+    {
+      "palavra": "חָ֭כְמוֹת",
+      "lemma": "2454",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "בָּנְתָ֣ה",
+      "lemma": "1129",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "בֵיתָ֑הּ",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc/Sp3fs"
+    },
+    {
+      "palavra": "חָצְבָ֖ה",
+      "lemma": "2672",
+      "morfologia": "HVqp3fs"
+    },
+    {
+      "palavra": "עַמּוּדֶ֣יהָ",
+      "lemma": "5982",
+      "morfologia": "HNcmpc/Sp3fs"
+    },
+    {
+      "palavra": "שִׁבְעָֽה",
+      "lemma": "7651",
+      "morfologia": "HAcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חָכְמוֹת (H2454) é plural morfológico mas rege verbo 3fs singular (בָּנְתָה) — plural intensivo/de majestade, não pluralidade real.",
+      "escolha": "traduzir como sujeito singular personificado \"a sabedoria\"",
+      "justificativa": "concordância verbal 3fs confirma leitura singular; o plural é intensivo (forma poética), sem correspondente natural em português que não soe estranho.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"as sabedorias\" (plural literal)",
+          "motivo": "quebra a concordância verbal do próprio hebraico e produz sentido estranho em português"
+        }
+      ]
+    },
+    {
+      "questao": "Capitalização de \"sabedoria\" como personificação (mulher que constrói casa, abate animais, envia servas).",
+      "escolha": "minúscula",
+      "justificativa": "EDITORIAL não prevê maiúscula para personificações comuns; por analogia ao princípio minimalista de ER-0012, evita-se atribuir estatuto de nome próprio que o hebraico não marca graficamente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Sabedoria\" maiúscula (convenção comum em traduções inglesas, Lady Wisdom)",
+          "motivo": "sem base gráfica no hebraico e sem diretriz editorial que autorize; preferiu-se consistência com o princípio minimalista já ratificado para nomeação"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem do numeral שִׁבְעָה (\"sete\") pospôsto a \"suas colunas\" no hebraico.",
+      "escolha": "antepor o numeral no publicado (\"suas sete colunas\"), preservando a ordem original na literal",
+      "justificativa": "ordem pospositiva do numeral é natural em hebraico poético mas soa artificial em português; a literal mantém a ordem-fonte para auditoria (ER-0013, princípio geral de preservação de calque estrutural).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter \"colunas, sete\" no publicado",
+          "motivo": "soa como enumeração forçada, não como prosa natural"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "חָכְמוֹת como plural de majestade/abstração intensiva vs. leitura literal plural — a tradução opta pela leitura singular personificada, dominante no consenso exegético, mas a forma morfológica plural é auditável via lemma/morph do registro"
+  ],
+  "justificativa": "Personificação feminina da sabedoria (concordância verbal 3fs com substantivo de forma plural intensiva) inaugura o capítulo; escolhas seguem léxico e morfologia sem interferência doutrinária (TEOLOGIA §1).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

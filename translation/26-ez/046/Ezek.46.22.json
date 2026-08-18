@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.46.22",
+    "livro": "Ezequiel",
+    "capitulo": 46,
+    "versiculo": 22,
+    "pericope": "Ezek.46.1-24"
+  },
+  "texto_bv": "Nos quatro cantos do átrio havia átrios fechados, de quarenta côvados de comprimento e trinta de largura; os quatro tinham a mesma medida — eram de canto.",
+  "traducao_literal": "Nos quatro cantos do átrio, átrios fechados, quarenta de comprimento e trinta de largura, medida uma para os quatro deles, de canto.",
+  "termos_originais": [
+    {
+      "palavra": "בְּאַרְבַּ֜עַת",
+      "lemma": "b/702",
+      "morfologia": "HR/Acmsc"
+    },
+    {
+      "palavra": "מִקְצֹע֤וֹת",
+      "lemma": "4740",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "הֶֽחָצֵר֙",
+      "lemma": "d/2691 a",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "חֲצֵר֣וֹת",
+      "lemma": "2691 a",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "קְטֻר֔וֹת",
+      "lemma": "7000",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "אַרְבָּעִ֣ים",
+      "lemma": "705",
+      "morfologia": "HAcbpa"
+    },
+    {
+      "palavra": "אֹ֔רֶךְ",
+      "lemma": "753",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּשְׁלֹשִׁ֖ים",
+      "lemma": "c/7970",
+      "morfologia": "HC/Acbpa"
+    },
+    {
+      "palavra": "רֹ֑חַב",
+      "lemma": "7341",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מִדָּ֣ה",
+      "lemma": "4060 a",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אַחַ֔ת",
+      "lemma": "259",
+      "morfologia": "HAcfsa"
+    },
+    {
+      "palavra": "לְאַרְבַּעְתָּ֖ם",
+      "lemma": "l/702",
+      "morfologia": "HR/Acmsc/Sp3mp"
+    },
+    {
+      "palavra": "מְׄהֻׄקְׄצָׄעֽׄוֹׄתׄ",
+      "lemma": "7106 b",
+      "morfologia": "HVHsfpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חֲצֵרוֹת קְטֻרוֹת — sentido de קְטֻרוֹת, termo raro neste contexto arquitetônico",
+      "escolha": "'átrios fechados' (pátios pequenos, cercados)",
+      "justificativa": "קטר neste contexto (H7000, distinto de H6999 'queimar incenso') é entendido pelos léxicos como 'pequeno/cercado/coberto'; opção funcional amplamente seguida por versões de referência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'átrios defumados' (associando à raiz de incenso)",
+          "motivo": "confunde com H6999 קטר ('queimar incenso'); sem sentido arquitetônico coerente no contexto de medidas de pátio"
+        }
+      ]
+    },
+    {
+      "questao": "מְקֻצָּעוֹת grafada com pontos extraordinários (puncta extraordinaria) sobre cada letra no texto massorético fornecido pelo packet",
+      "escolha": "traduzir normalmente por 'de canto/cantoneiras' (particípio hofal, H7106b), sem tentar reproduzir a pontuação especial no texto publicado",
+      "justificativa": "os pontos sobre cada letra são nota massorética de destaque/dúvida sobre a palavra, não uma variante de consoantes; o packet fornece lemma e morfologia definidos (Hofal particípio fpl), e a BV traduz o texto tal como pinado, registrando aqui a peculiaridade para fins de auditoria futura.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir a palavra por incerteza quanto ao seu peso textual",
+          "motivo": "o packet fornece lemma e morfologia definidos; omitir seria perda de cobertura não justificada"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "מְקֻצָּעוֹת traz pontuação massorética extraordinária (puncta extraordinaria) no hebraico-fonte, sinal tradicional de dúvida ou destaque sobre a palavra, não resolvido por aparato crítico neste packet"
+  ],
+  "justificativa": "Côvado mantido sem conversão (EDITORIAL §7); medidas אַרְבָּעִים/שְׁלֹשִׁים convertidas a numerais por extenso conforme EDITORIAL §7 mesmo tratando-se de medida.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.114.8",
+    "livro": "Salmos",
+    "capitulo": 114,
+    "versiculo": 8,
+    "pericope": "Ps.114.1-8"
+  },
+  "texto_bv": "que transforma a rocha em lagoa de água, a pederneira em fonte de água.",
+  "traducao_literal": "O que transforma a rocha em lagoa de águas, pederneira em seu manancial de águas.",
+  "termos_originais": [
+    {
+      "palavra": "הַהֹפְכִ֣י",
+      "lemma": "d/2015",
+      "morfologia": "HTd/Vqrmsc"
+    },
+    {
+      "palavra": "הַצּ֣וּר",
+      "lemma": "d/6697",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲגַם",
+      "lemma": "98",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מָ֑יִם",
+      "lemma": "4325",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "חַ֝לָּמִ֗ישׁ",
+      "lemma": "2496",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְמַעְיְנוֹ",
+      "lemma": "l/4599",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "מָֽיִם",
+      "lemma": "4325",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חַלָּמִישׁ (H2496) — glosa",
+      "escolha": "pederneira",
+      "justificativa": "Termo consolidado na tradição bíblica em português para rocha silicosa extremamente dura, contrastando com הַצּוּר ('a rocha') no colo anterior; preserva o par semântico rocha-comum/rocha-durabilíssima do hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sílex",
+          "motivo": "tecnicamente correto, porém menos consolidado na tradição de tradução bíblica em português"
+        },
+        {
+          "opcao": "granito",
+          "motivo": "mineral distinto do sílex/pederneira; imprecisão geológica"
+        }
+      ]
+    },
+    {
+      "questao": "אֲגַם (H98) — glosa",
+      "escolha": "lagoa",
+      "justificativa": "אֲגַם denota corpo d'água parado, menor que יָם ('mar', já usado nos vv.3/5); 'lagoa' evita colisão lexical com 'mar' e capta o sentido de água represada/parada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "lago",
+          "motivo": "sugere corpo d'água maior do que o lexema indica"
+        },
+        {
+          "opcao": "tanque/poça",
+          "motivo": "registro baixo demais para o contexto de milagre teofânico"
+        }
+      ]
+    },
+    {
+      "questao": "מַעְיְנוֹ (Ncmsc/Sp3ms — sufixo 3ms 'seu manancial', quebrando a simetria com אֲגַם־מָיִם, sem sufixo no colo paralelo)",
+      "escolha": "traduzir sem o possessivo no publicado ('fonte de água'); preservar o sufixo na literal ('seu manancial')",
+      "justificativa": "O sufixo pronominal em מַעְיְנוֹ é lido por parte da gramática histórica como resquício de terminação construta arcaica (não posse genuína), dada a ausência de paralelo em אֲגַם־מָיִם; manter 'seu' no publicado introduziria um referente confuso. A ambiguidade morfológica é preservada na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a sua fonte de água' no publicado (leitura pronominal plena)",
+          "motivo": "sem antecedente claro em português; quebra o paralelismo direto com 'lagoa de água' do colo anterior"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sufixo 3ms em מַעְיְנוֹ: pode ser possessivo genuíno ('a sua fonte', referente obscuro) ou resíduo de terminação construta arcaica sem valor possessivo pleno; a BV publica sem o possessivo, a literal preserva o sufixo para auditoria."
+  ],
+  "justificativa": "Continuação do particípio substantivado do v.7 (הַהֹפְכִי, 'o que transforma'), descrevendo o milagre da água da rocha no deserto (cf. Êx 17.6; Nm 20.11) como atributo característico de Deus.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

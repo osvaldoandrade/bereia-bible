@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jonah.1.16",
+    "livro": "Jonas",
+    "capitulo": 1,
+    "versiculo": 16,
+    "pericope": "Jonah.1.1-16"
+  },
+  "texto_bv": "Então os homens temeram grandemente ao SENHOR; ofereceram um sacrifício ao SENHOR e fizeram votos.",
+  "traducao_literal": "E temeram os homens um grande temor ao SENHOR; e sacrificaram um sacrifício ao SENHOR, e votaram votos.",
+  "termos_originais": [
+    {
+      "palavra": "וַיִּֽירְא֧וּ",
+      "lemma": "c/3372",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "הָאֲנָשִׁ֛ים",
+      "lemma": "d/376",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "יִרְאָ֥ה",
+      "lemma": "3373",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "גְדוֹלָ֖ה",
+      "lemma": "1419 a",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַיִּֽזְבְּחוּ",
+      "lemma": "c/2076",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "זֶ֨בַח֙",
+      "lemma": "2077",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לַֽיהוָ֔ה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וַֽיִּדְּר֖וּ",
+      "lemma": "c/5087",
+      "morfologia": "HC/Vqw3mp"
+    },
+    {
+      "palavra": "נְדָרִֽים",
+      "lemma": "5088",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Três acusativos cognatos consecutivos (יִרְאָה...יראו; זֶבַח...זבחו; נְדָרִים...ידרו) — moldura de fechamento do capítulo.",
+      "escolha": "Normalizar os três no publicado (\"temeram grandemente\", \"ofereceram um sacrifício\", \"fizeram votos\"), preservando os substantivos cognatos na traducao_literal.",
+      "justificativa": "ER-0013 — três calques de acusativo cognato em sequência marcam o fechamento solene do capítulo (conversão cúltica dos marinheiros); a normalização evita redundância artificial em português, e a literal documenta os três para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"sacrificaram um sacrifício\" também no publicado",
+          "motivo": "soa redundante em português corrido, apesar de gramatical; a normalização segue o mesmo critério já aplicado a יִרְאָה גְדוֹלָה no v.10."
+        }
+      ]
+    },
+    {
+      "questao": "אֶת־יְהוָ֑ה: objeto explícito do temor (\"temeram... ao SENHOR\"), diferente do temor genérico de v.10 (יִרְאָ֣ה גְדוֹלָ֔ה sem objeto).",
+      "escolha": "Manter o objeto explícito \"ao SENHOR\" no verbo, marcando a mudança de registro: de pavor diante da situação (v.10) para temor reverente/cúltico diante de Deus (v.16).",
+      "justificativa": "O hebraico marca deliberadamente essa progressão — o mesmo substantivo cognato (יִרְאָה גְדוֹלָה) reaparece, mas agora com objeto teológico explícito, sinalizando conversão.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecho do capítulo: os marinheiros pagãos, que começaram clamando cada um ao seu deus (v.5), terminam temendo, sacrificando e fazendo votos ao SENHOR — arco de conversão que espelha ironicamente a desobediência de Jonas.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.26.2",
+    "livro": "Salmos",
+    "capitulo": 26,
+    "versiculo": 2,
+    "pericope": "Ps.26.1-12"
+  },
+  "texto_bv": "Examina-me, SENHOR, e prova-me; refina os meus rins e o meu coração.",
+  "traducao_literal": "Prova-me, SENHOR, e testa-me; refina meus rins e meu coração.",
+  "termos_originais": [
+    {
+      "palavra": "בְּחָנֵ֣נִי",
+      "lemma": "974",
+      "morfologia": "HVqv2ms/Sp1cs"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וְנַסֵּ֑נִי",
+      "lemma": "c/5254",
+      "morfologia": "HC/Vpv2ms/Sp1cs"
+    },
+    {
+      "palavra": "צרופה",
+      "lemma": "6884",
+      "morfologia": "HVqv2ms/Sh"
+    },
+    {
+      "palavra": "כִלְיוֹתַ֣י",
+      "lemma": "3629",
+      "morfologia": "HNcfpc/Sp1cs"
+    },
+    {
+      "palavra": "וְלִבִּֽי",
+      "lemma": "c/3820 a",
+      "morfologia": "HC/Ncmsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Três verbos hebraicos de exame (בחן, נסה, צרף) — como distingui-los em português?",
+      "escolha": "examinar / provar / refinar, em progressão semântica crescente (exame → prova → purificação pelo fogo).",
+      "justificativa": "צרף é metáfora metalúrgica de refino, distinta dos dois primeiros verbos mais gerais de teste; usar três verbos portugueses distintos preserva a progressão retórica do hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir 'prova' para os três verbos",
+          "motivo": "apaga a distinção lexical e a intensificação retórica do hebraico"
+        }
+      ]
+    },
+    {
+      "questao": "A forma צרופה aparece no packet sem niqqud (diferente de todas as demais palavras do versículo) — como tratar?",
+      "escolha": "Analisada pela raiz צרף conforme a morfologia anexa (Qal imperativo + sufixo paragógico -ה), lida tradicionalmente como Qere צָרְפָה ('refina').",
+      "justificativa": "O packet não sinaliza a palavra como variantes_fonte; a ausência de vocalização é tratada como característica da grafia-base (Ketiv), sem alterar o julgamento morfológico fornecido.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "כִלְיוֹתַי — 'rins' ou termo mais genérico?",
+      "escolha": "rins (tradução literal do órgão, sede hebraica das emoções/consciência).",
+      "justificativa": "Preserva a imagem anatômica concreta, em paralelo com 'coração' (לֵב), evitando duplicar o mesmo campo semântico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "entranhas",
+          "motivo": "mais vago, perde a referência anatômica específica do hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Forma צרופה sem niqqud no packet; vocalização tradicionalmente resolvida como Qere צָרְפָה (Qal imperativo 'refina'), mas a base gráfica exata não é adjudicável a partir do registro disponível."
+  ],
+  "justificativa": "Súplica por escrutínio divino total (mãos, mente, sentimentos) que fundamenta a afirmação de integridade dos versículos seguintes.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

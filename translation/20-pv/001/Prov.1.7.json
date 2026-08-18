@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.1.7",
+    "livro": "Provérbios",
+    "capitulo": 1,
+    "versiculo": 7,
+    "pericope": "Prov.1.1-33"
+  },
+  "texto_bv": "O temor do SENHOR é o princípio do conhecimento; os tolos desprezam a sabedoria e a disciplina.",
+  "traducao_literal": "Temor-de SENHOR, princípio-de conhecimento; sabedoria e-disciplina, tolos desprezaram.",
+  "termos_originais": [
+    {
+      "palavra": "יִרְאַ֣ת",
+      "lemma": "3374",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "רֵאשִׁ֣ית",
+      "lemma": "7225",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "דָּ֑עַת",
+      "lemma": "1847",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "חָכְמָ֥ה",
+      "lemma": "2451",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וּ֝מוּסָ֗ר",
+      "lemma": "c/4148",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "אֱוִילִ֥ים",
+      "lemma": "191",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "בָּֽזוּ",
+      "lemma": "936",
+      "morfologia": "HVqp3cp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Oração nominal sem verbo (יִרְאַת יְהוָה רֵאשִׁית דָּעַת)",
+      "escolha": "suprir verbo 'é'",
+      "justificativa": "Português exige cópula explícita em oração nominal predicativa; hebraico não a codifica formalmente.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Ordem OVS do hebraico (חָכְמָה וּמוּסָר אֱוִילִים בָּזוּ — objeto fronteado)",
+      "escolha": "normalizar para SVO no publicado (doutrina do calque, ER-0013)",
+      "justificativa": "Quiasmo de ênfase típico da poesia hebraica; publicado normaliza para fluência, literal preserva a ordem objeto-sujeito-verbo original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter OVS no publicado",
+          "motivo": "Soaria artificial/traduzido em português corrente, contrariando ER-0013."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Versículo-tema do livro; nome divino יְהוָה vertido SENHOR (NOMES-DIVINOS.md, ER-0002).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

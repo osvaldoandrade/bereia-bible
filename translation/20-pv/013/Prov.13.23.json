@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.13.23",
+    "livro": "Provérbios",
+    "capitulo": 13,
+    "versiculo": 23,
+    "pericope": "Prov.13.1-25"
+  },
+  "texto_bv": "O campo lavrado dos pobres produz fartura de alimento, mas há quem a perca por injustiça.",
+  "traducao_literal": "Muito alimento no campo dos pobres; e há o que é arrebatado sem justiça.",
+  "termos_originais": [
+    {
+      "palavra": "רָב",
+      "lemma": "7230",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "אֹ֭כֶל",
+      "lemma": "400",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "נִ֣יר",
+      "lemma": "5215",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "רָאשִׁ֑ים",
+      "lemma": "7326",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "וְיֵ֥שׁ",
+      "lemma": "c/3426",
+      "morfologia": "HC/Tm"
+    },
+    {
+      "palavra": "נִ֝סְפֶּ֗ה",
+      "lemma": "5595",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "בְּלֹ֣א",
+      "lemma": "b/3808",
+      "morfologia": "HR/Tn"
+    },
+    {
+      "palavra": "מִשְׁפָּֽט",
+      "lemma": "4941",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "רָאשִׁים — homógrafo: 'chefes/cabeças' (רֹאשׁ) vs. particípio de רוש 'pobres/necessitados'",
+      "escolha": "'pobres', conforme a morfologia do packet (HVqrmpa, particípio qal de רוש, lema 7326)",
+      "justificativa": "A morfologia fornecida no packet pinado tagueia a forma como particípio verbal de רוש ('ser pobre'), não como o substantivo רֹאשׁ; a BV segue a morfologia pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'dos poderosos/chefes' (lendo רֹאשׁ 'cabeça, chefe')",
+          "motivo": "A morfologia do packet pinado tagueia a forma como particípio de רוש, não como o substantivo רֹאשׁ."
+        }
+      ]
+    },
+    {
+      "questao": "וְיֵשׁ נִסְפֶּה בְּלֹא מִשְׁפָּט — sujeito impessoal 'há quem'",
+      "escolha": "'há quem a perca por injustiça' (liga ao alimento produzido em A)",
+      "justificativa": "O publicado conecta explicitamente ao alimento de A para maior clareza discursiva; a cláusula solta é preservada na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Cláusula solta e desconectada de A: 'e há [alguém] arrebatado sem justiça'",
+          "motivo": "Preservado na traducao_literal; o publicado conecta explicitamente ao alimento de A."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Provérbio sobre injustiça social: a produção do pobre é lícita, mas sujeita a espoliação.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

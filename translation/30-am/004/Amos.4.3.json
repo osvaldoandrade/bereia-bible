@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Amos.4.3",
+    "livro": "Amós",
+    "capitulo": 4,
+    "versiculo": 3,
+    "pericope": "Amos.4.1-13"
+  },
+  "texto_bv": "vocês sairão pelas brechas, cada uma seguindo direto à sua frente, e serão lançadas para o Harmom\" — declara o SENHOR.",
+  "traducao_literal": "E por brechas saireis, cada mulher em frente dela, e lançareis para o Harmom, declaração do SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "וּפְרָצִ֥ים",
+      "lemma": "c/6556",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "תֵּצֶ֖אנָה",
+      "lemma": "3318",
+      "morfologia": "HVqi2fp"
+    },
+    {
+      "palavra": "אִשָּׁ֣ה",
+      "lemma": "802",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "נֶגְדָּ֑הּ",
+      "lemma": "5048",
+      "morfologia": "HR/Sp3fs"
+    },
+    {
+      "palavra": "וְהִשְׁלַכְתֶּ֥נָה",
+      "lemma": "c/7993",
+      "morfologia": "HC/Vhq2fp"
+    },
+    {
+      "palavra": "הַהַרְמ֖וֹנָה",
+      "lemma": "d/2038",
+      "morfologia": "HTd/Np/Sd"
+    },
+    {
+      "palavra": "נְאֻם",
+      "lemma": "5002",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וְהִשְׁלַכְתֶּנָה — Hifil qatal 2fp ativo, sem objeto explícito, com sentido contextual passivo",
+      "escolha": "serão lançadas (sentido passivo no publicado)",
+      "justificativa": "Leitura padrão das versões modernas diante da dificuldade sintática (Hifil ativo sem objeto claro); a traducao_literal preserva a forma ativa hebraica sem suprir objeto, registrando a crux para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "lançareis [objeto elidido] (ativo)",
+          "motivo": "gramaticalmente possível mas semanticamente obscuro em português sem objeto explícito"
+        }
+      ]
+    },
+    {
+      "questao": "הַהַרְמוֹנָה — topônimo hapax de sentido incerto",
+      "escolha": "Harmom (transliteração)",
+      "justificativa": "Sem tradição consolidada em português (EDITORIAL §8); transliteração simplificada preserva a terminação direcional ה do hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Monte Rimom",
+          "motivo": "depende de emenda textual (metátese consoantal) não presente no TM pinado"
+        },
+        {
+          "opcao": "o monturo/esterqueira (tradução por etimologia especulativa)",
+          "motivo": "etimologia incerta demais para virar tradução no texto corrente; preferível preservar como nome próprio transliterado"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem hebraica 'brechas [fronteado] + verbo' (וּפְרָצִים תֵּצֶאנָה)",
+      "escolha": "vocês sairão pelas brechas (ordem natural do português no publicado)",
+      "justificativa": "Calque de topicalização (ER-0013); a traducao_literal preserva a ordem hebraica com o elemento fronteado.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הַהַרְמוֹנָה é hapax legomenon de sentido incerto: topônimo, termo genérico ('lugar de refugo') ou forma corrompida no TM; mantida a transliteração 'Harmom'."
+  ],
+  "justificativa": "Verso de maior dificuldade textual do capítulo (verbo ativo sem objeto, topônimo hapax); tradução segue o consenso das versões modernas, com cruces documentadas. Fecho da fala citada iniciada em 4:2, atribuída pelo refrão נְאֻם־יְהוָה.",
+  "confianca": 0.63,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

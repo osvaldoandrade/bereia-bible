@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.116.11",
+    "livro": "Salmos",
+    "capitulo": 116,
+    "versiculo": 11,
+    "pericope": "Ps.116.1-19"
+  },
+  "texto_bv": "Eu disse, em meu desespero: “Todo homem é mentiroso.”",
+  "traducao_literal": "Eu disse, na minha pressa: todo o homem mentiroso.",
+  "termos_originais": [
+    {
+      "palavra": "אֲ֭נִי",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "אָמַ֣רְתִּי",
+      "lemma": "559",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "בְחָפְזִ֑י",
+      "lemma": "b/2648",
+      "morfologia": "HR/Vqc/Sp1cs"
+    },
+    {
+      "palavra": "כָּֽל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הָאָדָ֥ם",
+      "lemma": "d/120",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "כֹּזֵֽב",
+      "lemma": "3576",
+      "morfologia": "HVqrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בְחָפְזִי ('em minha pressa/alarme/pânico') traduzido 'em meu desespero'",
+      "escolha": "'em meu desespero'",
+      "justificativa": "חפז denota pressa/pânico/alarme; no contexto de aflição extrema do salmo, 'desespero' comunica melhor o tom emocional do que 'pressa' isolada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'na minha pressa' (literal)",
+          "motivo": "Preservado na traducao_literal; isoladamente não comunica bem o pânico implícito em pt-BR corrido."
+        }
+      ]
+    },
+    {
+      "questao": "Oração nominal sem cópula ('todo homem [é] mentiroso')",
+      "escolha": "Suprir 'é'",
+      "justificativa": "Exigência gramatical do português (ER-0006).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula ausente na oração nominal 'todo homem mentiroso')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Confissão retrospectiva de um pensamento de desespero, citado em discurso direto (ER-0004). Verso citado por Paulo em Rm 3:4 (via LXX).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

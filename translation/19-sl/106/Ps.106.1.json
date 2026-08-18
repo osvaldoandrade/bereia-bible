@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.106.1",
+    "livro": "Salmos",
+    "capitulo": 106,
+    "versiculo": 1,
+    "pericope": "Ps.106.1-48"
+  },
+  "texto_bv": "Aleluia! Agradecei ao SENHOR, porque é bom, porque o seu amor leal é para sempre.",
+  "traducao_literal": "Louvai a Yah. Agradecei ao SENHOR porque bom; porque para-sempre amor-leal-dele.",
+  "termos_originais": [
+    {
+      "palavra": "הַֽלְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֨הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הוֹד֣וּ",
+      "lemma": "3034",
+      "morfologia": "HVhv2mp"
+    },
+    {
+      "palavra": "לַיהוָ֣ה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ט֑וֹב",
+      "lemma": "2896 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "כִּ֖י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לְעוֹלָ֣ם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "חַסְדּֽוֹ",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter הַֽלְלוּ יָהּ (H1984b+H3050, 'louvai' + forma abreviada do Tetragrama)?",
+      "escolha": "'Aleluia', transliteração já naturalizada em português.",
+      "justificativa": "Preserva o mesmo referente divino de יהוה→SENHOR sem repetir 'SENHOR' duas vezes na mesma linha de abertura, e mantém a marca formular הַלְלוּיָהּ que emoldura o salmo (abre 106:1, fecha 106:48). NOMES-DIVINOS não cobre explicitamente יָהּ; tratado como empréstimo litúrgico paralelo a 'Amém' (106:48).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Louvai o SENHOR' (aplicando NOMES-DIVINOS também a יָהּ)",
+          "motivo": "gera redundância imediata com 'Agradecei ao SENHOR' na mesma linha e apaga a marca formular הַלְלוּיָהּ que estrutura o salmo"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de חֶסֶד (H2617a), termo recorrente no capítulo (106:1,7,45)",
+      "escolha": "'amor leal'.",
+      "justificativa": "Captura o componente relacional/aliançal do termo, ausente do lexicon.json (proposta registrada aqui); será mantida uniforme no capítulo por consistência terminológica (EDITORIAL §11).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'misericórdia'",
+          "motivo": "desloca o sentido para perdão de culpa, mais estreito que o campo semântico de חֶסֶד"
+        },
+        {
+          "opcao": "'benignidade'",
+          "motivo": "registro arcaizante (EDITORIAL §1.2)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (verbo de ligação em 'porque é bom' e 'para sempre é')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura hínica formular; כִּי duplo introduz o motivo do louvor (bondade e lealdade do SENHOR).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.121.3",
+    "livro": "Salmos",
+    "capitulo": 121,
+    "versiculo": 3,
+    "pericope": "Ps.121.1-8"
+  },
+  "texto_bv": "Não deixará vacilar o seu pé; aquele que o guarda não dormitará.",
+  "traducao_literal": "Não dará ao vacilar o seu pé; não dormitará aquele que o guarda.",
+  "termos_originais": [
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִתֵּ֣ן",
+      "lemma": "5414",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "לַמּ֣וֹט",
+      "lemma": "l/4132",
+      "morfologia": "HRd/Vqc"
+    },
+    {
+      "palavra": "רַגְלֶ֑ךָ",
+      "lemma": "7272",
+      "morfologia": "HNcfsc/Sp2ms"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יָ֝נ֗וּם",
+      "lemma": "5123",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "שֹֽׁמְרֶֽךָ",
+      "lemma": "8104",
+      "morfologia": "HVqrmsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de segunda pessoa: 'tu' (oração dirigida a Deus) ou 'você' (discurso entre humanos)?",
+      "escolha": "você (vertido sem pronome explícito, via formas 'o/seu/sua')",
+      "justificativa": "O salmo não é oração do orante a Deus; é palavra de asseguramento dirigida a um peregrino humano (provavelmente proferida por sacerdote/levita na liturgia de subida), com YHWH tratado na 3ª pessoa (vv.2, 5, 7, 8). Por EDITORIAL §3, discurso entre humanos usa você/vocês; 'tu' fica reservado à oração dirigida a Deus. Esta decisão vale para todo o capítulo (vv.3, 5-8).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu/teu (registro de oração a Deus)",
+          "motivo": "o destinatário do salmo não é YHWH; usar 'tu' confundiria o interlocutor humano com o interlocutor divino do texto"
+        }
+      ]
+    },
+    {
+      "questao": "Sujeito não expresso de יִתֵּן (3ms): supor 'Ele' (referindo a YHWH) ou manter implícito?",
+      "escolha": "manter implícito, sujeito apenas na conjugação verbal",
+      "justificativa": "O hebraico não nomeia o guardião até o v.5 (יְהוָה); preservar essa suspensão retórica evita antecipar o nome divino que o próprio poema revela progressivamente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "supor 'Ele' explícito",
+          "motivo": "anteciparia a identificação de YHWH como guardião, revelada pelo poema somente no v.5"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira metade do díptico de garantia (vv.3-4): o guardião não permite que o pé vacile nem dormita; retoma עֶזְרִי do v.1 sem ainda nomear o SENHOR.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

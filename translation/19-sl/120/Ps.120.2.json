@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.120.2",
+    "livro": "Salmos",
+    "capitulo": 120,
+    "versiculo": 2,
+    "pericope": "Ps.120.1-7"
+  },
+  "texto_bv": "SENHOR, livra a minha alma do lábio mentiroso, da língua enganosa.",
+  "traducao_literal": "SENHOR, livra a minha alma do lábio de mentira, da língua de engano.",
+  "termos_originais": [
+    {
+      "palavra": "יְֽהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַצִּ֣ילָה",
+      "lemma": "5337",
+      "morfologia": "HVhv2ms/Sh"
+    },
+    {
+      "palavra": "נַ֭פְשִׁי",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "מִשְּׂפַת",
+      "lemma": "m/8193",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "שֶׁ֑קֶר",
+      "lemma": "8267",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מִלָּשׁ֥וֹן",
+      "lemma": "m/3956",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "רְמִיָּֽה",
+      "lemma": "7423 a",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "נַפְשִׁי (nephesh) — 'alma' vs. 'vida'",
+      "escolha": "'minha alma'",
+      "justificativa": "registro poético tradicional do lamento; נֶפֶשׁ cobre 'ser/vida/alma' sem que a escolha dependa de doutrina.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'minha vida'",
+          "motivo": "também lexicalmente válido, mas 'alma' preserva melhor o registro poético do salmo sem perda semântica"
+        }
+      ]
+    },
+    {
+      "questao": "construct chains שְׂפַת־שֶׁקֶר / מִלָּשׁוֹן רְמִיָּה",
+      "escolha": "adjetival no publicado ('lábio mentiroso'/'língua enganosa'); substantivo construct preservado na literal ('lábio de mentira'/'língua de engano')",
+      "justificativa": "ER-0013 (doutrina do calque): o construct hebraico repetido soaria artificial em português corrente; a literal preserva a estrutura para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter construct também no publicado",
+          "motivo": "produz sequência arrastada de 'de mentira'/'de engano' sem ganho de fidelidade"
+        }
+      ]
+    },
+    {
+      "questao": "distinção lexical שֶׁקֶר (falsidade) × רְמִיָּה (engano/traição)",
+      "escolha": "termos distintos e consistentes: שֶׁקֶר→mentira/mentiroso, רְמִיָּה→engano/enganosa (mantido também em v3)",
+      "justificativa": "os dois lexemas hebraicos não são sinônimos perfeitos; preservar dois termos portugueses distintos evita apagar a distinção.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir ambos por 'falsidade'",
+          "motivo": "apaga a distinção lexical do original entre as duas raízes"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Súplica direta a Deus (imperativo, registro de tu implícito conforme D-0003/ER-0003) contra a calúnia; decisões concentradas em registro lexical e na doutrina do calque para os dois construct chains paralelos.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.120.3",
+    "livro": "Salmos",
+    "capitulo": 120,
+    "versiculo": 3,
+    "pericope": "Ps.120.1-7"
+  },
+  "texto_bv": "O que ele te dará, e o que ele te acrescentará, língua enganosa?",
+  "traducao_literal": "Que dará a ti, e que acrescentará a ti, língua de engano?",
+  "termos_originais": [
+    {
+      "palavra": "מַה",
+      "lemma": "4100",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יִּתֵּ֣ן",
+      "lemma": "5414",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "לְ֭ךָ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "וּמַה",
+      "lemma": "c/4100",
+      "morfologia": "HC/Ti"
+    },
+    {
+      "palavra": "יֹּסִ֥יף",
+      "lemma": "3254",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "לָ֗ךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "לָשׁ֥וֹן",
+      "lemma": "3956",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "רְמִיָּֽה",
+      "lemma": "7423 a",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "sujeito implícito de יִּתֵּן/יֹּסִיף (3ms, não expresso no hebraico)",
+      "escolha": "suprido 'ele' no publicado, referindo-se implicitamente a Deus (retomando o clamor a SENHOR de v1-2, cuja resposta é descrita em v4)",
+      "justificativa": "o hebraico não expressa sujeito; no contexto de lamento, a leitura mais natural é Deus como agente da retribuição descrita em v4 (flechas, brasas).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sujeito impessoal ('o que se dará a ti', idioma retórico sem agente definido)",
+          "motivo": "também gramatical; preservada como ambiguidade no registro em vez de resolvida no texto"
+        }
+      ]
+    },
+    {
+      "questao": "alternância de gênero לְ֭ךָ (2ms) / לָ֗ךְ (2fs) dirigida à mesma entidade",
+      "escolha": "não marcar a distinção de gênero em português (ambos 'a ti'/'te'); a alternância é registrada, não traduzida",
+      "justificativa": "português não flexiona a 2ª pessoa por gênero nessa posição; a oscilação hebraica — provavelmente concordância retroativa com לָשׁוֹן (feminino), revelado só no fim do verso — não tem equivalente natural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "marcar artificialmente com vocativo antecipado ('a ti, ó língua')",
+          "motivo": "sobre-tradução; o fenômeno é morfológico hebraico sem correspondente natural em português"
+        }
+      ]
+    },
+    {
+      "questao": "לָשׁוֹן רְמִיָּה como vocativo em aposição final",
+      "escolha": "'língua enganosa' em aposição vocativa ao fim da pergunta retórica",
+      "justificativa": "estrutura de maldição retórica dirigida à língua enganosa personificada, respondida em v4.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito implícito de יתן/יסיף, publicado apenas)"
+  ],
+  "ambiguidades_preservadas": [
+    "Identidade do sujeito de יתן/יסיף (Deus implícito vs. construção idiomática impessoal)",
+    "Alternância de gênero לְךָ (masc.) / לָךְ (fem.) na mesma sequência, sem marca correspondente em português"
+  ],
+  "justificativa": "Pergunta retórica de maldição contra a língua enganosa; o verso concentra as duas maiores cruzes gramaticais do salmo (sujeito elíptico e alternância de gênero pronominal), preservadas como ambiguidade em vez de resolvidas por decisão teológica (TEOLOGIA §1.5/§3).",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.58.1",
+    "livro": "Salmos",
+    "capitulo": 58,
+    "versiculo": 1,
+    "pericope": "Ps.58.1-12"
+  },
+  "texto_bv": "Ao regente, conforme “Não destruas”. De Davi. Mictão.",
+  "traducao_literal": "Ao regente. Não destruas. De Davi. Mictão.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֥חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "516+",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תַּשְׁחֵ֗ת",
+      "lemma": "516",
+      "morfologia": "HVhi2ms"
+    },
+    {
+      "palavra": "לְדָוִ֥ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מִכְתָּֽם",
+      "lemma": "4387",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לַמְנַצֵּחַ — rubrica técnica de cabeçalho (particípio piel de נצח, 'dirigir/liderar')",
+      "escolha": "Ao regente",
+      "justificativa": "Termo técnico recorrente em cabeçalhos de salmos, sem tradução consolidada única em português contemporâneo; 'regente' é registro neutro e compreensível em leitura pública/TTS, evitando arcaísmo funcionalmente morto (EDITORIAL §1.2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "mestre de canto",
+          "motivo": "perífrase tradicional, mais longa, sem ganho de precisão"
+        },
+        {
+          "opcao": "músico-mor",
+          "motivo": "arcaísmo (linhagem Almeida) hoje funcionalmente morto"
+        }
+      ]
+    },
+    {
+      "questao": "אַל־תַּשְׁחֵת — segunda rubrica do cabeçalho",
+      "escolha": "Tratada como nome de melodia citado entre aspas curvas: “Não destruas”",
+      "justificativa": "Fórmula idêntica nos cabeçalhos de Sl 57, 59 e 75; entendida como indicação de tonada/melodia preexistente, não como instrução direta ao regente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "instrução direta sem aspas ('Não destruas!')",
+          "motivo": "perde a função de rótulo de melodia e cria imperativo solto sem sintaxe no cabeçalho"
+        }
+      ]
+    },
+    {
+      "questao": "מִכְתָּם — rubrica de gênero de sentido incerto (hápax de raiz disputada)",
+      "escolha": "Mictão (transliterado, sem tradução)",
+      "justificativa": "Termo técnico de gênero poético que ocorre nos cabeçalhos de Sl 16 e 56–60; tratado como rubrica não traduzível, análogo a 'maskil'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "poema áureo",
+          "motivo": "tradução etimológica especulativa (raiz כתם 'ouro'), sem consenso lexical"
+        },
+        {
+          "opcao": "epigrama",
+          "motivo": "importa categoria literária grega estranha ao contexto hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "conforme"
+  ],
+  "ambiguidades_preservadas": [
+    "לְדָוִד pode indicar autoria ('de Davi'), dedicação ou pertença a uma coleção davídica; mantido 'De Davi' sem resolver a relação"
+  ],
+  "justificativa": "Cabeçalho técnico com três rubricas de performance/gênero e atribuição a Davi; sem impacto teológico direto no corpo do salmo.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

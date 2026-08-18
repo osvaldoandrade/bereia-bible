@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.49.4",
+    "livro": "Salmos",
+    "capitulo": 49,
+    "versiculo": 4,
+    "pericope": "Ps.49.1-21"
+  },
+  "texto_bv": "Minha boca falará sabedoria, e a meditação do meu coração será entendimento.",
+  "traducao_literal": "Minha boca falará sabedorias, e a meditação do meu coração, entendimentos.",
+  "termos_originais": [
+    {
+      "palavra": "פִּ֭י",
+      "lemma": "6310",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "יְדַבֵּ֣ר",
+      "lemma": "1696",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "חָכְמ֑וֹת",
+      "lemma": "2454",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "וְהָג֖וּת",
+      "lemma": "c/1900",
+      "morfologia": "HC/Ncfsc"
+    },
+    {
+      "palavra": "לִבִּ֣י",
+      "lemma": "3820 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "תְבוּנֽוֹת",
+      "lemma": "8394",
+      "morfologia": "HNcfpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Segundo cólon (וְהָגוּת לִבִּי תְבוּנוֹת) é nominal, sem verbo — como completar em português?",
+      "escolha": "suprir 'será' (verbo de ligação elíptico)",
+      "justificativa": "Português exige verbo para a oração ser gramatical; ER-0006 permite suprir sem itálico, registrado em palavras_supridas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir 'falará'",
+          "motivo": "força verbo de fala sobre um substantivo (הָגוּת, 'meditação'), menos natural que o verbo de ligação"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "será"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Plurais abstratos hebraicos (חָכְמוֹת, תְּבוּנוֹת) vertidos como singulares coletivos ('sabedoria', 'entendimento'), prática usual para plurais de abstração.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.3.2",
+    "livro": "Oseias",
+    "capitulo": 3,
+    "versiculo": 2,
+    "pericope": "Hos.3.1-5"
+  },
+  "texto_bv": "E eu a comprei para mim por quinze peças de prata e um ômer e um letec de cevada.",
+  "traducao_literal": "E comprei-a para mim por quinze de prata, e ômer de cevada e letec de cevada.",
+  "termos_originais": [
+    {
+      "palavra": "וָאֶכְּרֶ֣הָ",
+      "lemma": "c/3739 a",
+      "morfologia": "HC/Vqw1cs/Sp3fs"
+    },
+    {
+      "palavra": "לִּ֔י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "בַּחֲמִשָּׁ֥ה",
+      "lemma": "b/2568",
+      "morfologia": "HR/Acmsa"
+    },
+    {
+      "palavra": "עָשָׂ֖ר",
+      "lemma": "6240",
+      "morfologia": "HAcmsa"
+    },
+    {
+      "palavra": "כָּ֑סֶף",
+      "lemma": "3701",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְחֹ֥מֶר",
+      "lemma": "c/2563 c",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "שְׂעֹרִ֖ים",
+      "lemma": "8184",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "וְלֵ֥תֶךְ",
+      "lemma": "c/3963",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "שְׂעֹרִֽים",
+      "lemma": "8184",
+      "morfologia": "HNcfpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בַּחֲמִשָּׁה עָשָׂר כָּסֶף — unidade implícita do numeral",
+      "escolha": "quinze peças de prata",
+      "justificativa": "O hebraico não especifica שֶׁקֶל (siclo); numeral + כֶּסֶף exige substantivo supridor em português. 'Peças' é neutro, sem impor a unidade específica 'siclo' que o texto não nomeia.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "quinze siclos de prata",
+          "motivo": "supõe a unidade שֶׁקֶל, ausente do hebraico; comum em outras traduções, mas extrapola o texto-fonte"
+        }
+      ]
+    },
+    {
+      "questao": "Repetição de שְׂעֹרִים em cada medida (ER-0013)",
+      "escolha": "cevada mencionada uma vez no publicado ('um ômer e um letec de cevada')",
+      "justificativa": "A repetição formular do substantivo após cada unidade de medida é preservada integralmente na traducao_literal; no publicado é condensada por soar redundante em português corrido (ER-0013, item 2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "um ômer de cevada e um letec de cevada",
+          "motivo": "mantém a repetição, que soa artificial em português; reservada à traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "Transliteração de חֹמֶר e לֶתֶךְ",
+      "escolha": "ômer / letec, transliterados, sem conversão para litros",
+      "justificativa": "EDITORIAL §7: medidas antigas são mantidas no texto; conversões (aprox. 220L/110L) vão apenas em nota, nunca no corpo do texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "converter para litros no texto",
+          "motivo": "proibido por EDITORIAL §7"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "peças"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Oseias relata o preço de resgate/compra da mulher: quantia em prata somada a duas medidas de cevada (ômer e letec), possivelmente configurando o preço integral de um escravo ou de um contrato de resgate matrimonial — o texto não explicita o motivo exato da soma mista.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

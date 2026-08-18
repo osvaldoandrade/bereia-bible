@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.41.21",
+    "livro": "Ezequiel",
+    "capitulo": 41,
+    "versiculo": 21,
+    "pericope": "Ezek.41.1-26"
+  },
+  "texto_bv": "O santuário tinha um umbral quadrado; e a face do santo dos santos tinha a mesma aparência que a do santuário.",
+  "traducao_literal": "O santuário, umbral quadrado; e face do santo: a aparência como a aparência.",
+  "termos_originais": [
+    {
+      "palavra": "הַֽהֵיכָ֖ל",
+      "lemma": "d/1964",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "מְזוּזַ֣ת",
+      "lemma": "4201",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "רְבֻעָ֑ה",
+      "lemma": "7251",
+      "morfologia": "HVqsfsa"
+    },
+    {
+      "palavra": "וּפְנֵ֣י",
+      "lemma": "c/6440",
+      "morfologia": "HC/Ncbpc"
+    },
+    {
+      "palavra": "הַקֹּ֔דֶשׁ",
+      "lemma": "d/6944",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הַמַּרְאֶ֖ה",
+      "lemma": "d/4758",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "כַּמַּרְאֶֽה",
+      "lemma": "k/4758",
+      "morfologia": "HRd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de מְזוּזָה (H4201) aplicado ao vão do santuário",
+      "escolha": "'umbral'",
+      "justificativa": "Termo arquitetônico português distinto de 'pilastra' (אֵיל) e 'ombreira' (כָּתֵף), já usados neste capítulo para outros elementos do vão da porta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ombreira' (mesma glosa do v.2)",
+          "motivo": "criaria ambiguidade lexical entre dois termos hebraicos distintos (כָּתֵף e מְזוּזָה) traduzidos pela mesma palavra"
+        }
+      ]
+    },
+    {
+      "questao": "הַקֹּדֶשׁ (forma curta, sem 'הַקֳּדָשִׁים') retomando o referente do v.4",
+      "escolha": "traduzir como 'o santo dos santos', entendendo forma elíptica do mesmo referente",
+      "justificativa": "O contexto (contraste com הַהֵיכָל na mesma frase) indica que se trata do mesmo espaço identificado como קֹדֶשׁ הַקֳּדָשִׁים no v.4, aqui referido de forma abreviada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o lugar santo' genérico",
+          "motivo": "perderia a identificação específica com o santo dos santos já nomeado no v.4"
+        }
+      ]
+    },
+    {
+      "questao": "'a aparência como a aparência' (הַמַּרְאֶה כַּמַּרְאֶה) — comparação elíptica",
+      "escolha": "explicitar o segundo termo da comparação como 'a do santuário'",
+      "justificativa": "O hebraico compara duas aparências sem nomear a segunda explicitamente; o contexto imediato (santuário mencionado na mesma frase) é o antecedente mais natural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'a aparência era como a aparência' sem completar o referente",
+          "motivo": "soaria incompleto e confuso em português; a explicitação foi registrada como decisão, não escondida"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "tinha (cópula/verbo possessivo ausente)",
+    "que a do santuário (explicitação do segundo termo comparativo)"
+  ],
+  "ambiguidades_preservadas": [
+    "O referente exato de 'a aparência' comparada não é nomeado no hebraico; a leitura 'a do santuário' é a mais provável pelo contexto, mas não certa."
+  ],
+  "justificativa": "Verso elíptico e sintaticamente comprimido, típico do estilo técnico da visão arquitetônica.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.82.1",
+    "livro": "Salmos",
+    "capitulo": 82,
+    "versiculo": 1,
+    "pericope": "Ps.82.1-8"
+  },
+  "texto_bv": "Salmo de Asafe. Deus se levanta na assembleia divina; no meio dos deuses, ele julga.",
+  "traducao_literal": "Salmo de Asafe. Deus está posto na congregação de El; no meio de deuses, ele julga.",
+  "termos_originais": [
+    {
+      "palavra": "מִזְמ֗וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְאָ֫סָ֥ף",
+      "lemma": "l/623",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אֱֽלֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "נִצָּ֥ב",
+      "lemma": "5324",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "בַּעֲדַת",
+      "lemma": "b/5712",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "אֵ֑ל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בְּקֶ֖רֶב",
+      "lemma": "b/7130",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אֱלֹהִ֣ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יִשְׁפֹּֽט",
+      "lemma": "8199",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Referente de אֱלֹהִים em 'בְּקֶרֶב אֱלֹהִים' (no meio de elohim)",
+      "escolha": "deuses (plural, minúsculo)",
+      "justificativa": "A concordância indica sujeito distinto: יִשְׁפֹּט (3ms) mantém 'Deus' do início do verso como sujeito; 'elohim' aqui é objeto da preposição, com referente plural retomado em v6 ('vocês são deuses... morrerão como homem'). Segue a política do léxico H430: 'deuses' apenas com referente plural indicado por contexto e concordância.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Deus (maiúsculo, mesmo referente do sujeito)",
+          "motivo": "quebraria a lógica da cena (Deus não julgaria 'no meio de si mesmo') e a concordância singular do verbo"
+        },
+        {
+          "opcao": "juízes/poderosos (interpretação alegórica humana)",
+          "motivo": "importa exegese para dentro do texto (TEOLOGIA §2); glosa sem apoio lexical direto no lema H430, ainda que seja leitura teológica legítima — preservada em ambiguidades_preservadas"
+        }
+      ]
+    },
+    {
+      "questao": "Tradução de עֲדַת־אֵל",
+      "escolha": "assembleia divina",
+      "justificativa": "אֵל (H410) funciona aqui em construção genitiva/intensificadora do conselho celestial (cf. uso adjetival de אֵל em construções como 'arzei-el' = cedros grandiosos, Sl 80:11); a tradução evita repetição indesejada com 'Deus', já sujeito da mesma oração.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "assembleia de Deus (literal, H410→Deus per NOMES-DIVINOS)",
+          "motivo": "redundante e ambíguo quanto a designar o mesmo Deus-sujeito ou uma entidade distinta; forma preservada na traducao_literal para auditoria"
+        }
+      ]
+    },
+    {
+      "questao": "נִצָּב (nifal particípio) traduzido dinamicamente",
+      "escolha": "se levanta",
+      "justificativa": "O particípio nifal de נצב denota assumir posição/presidir; 'se levanta' capta Deus tomando o lugar de juiz na assembleia.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "está posto/estacionado (mais estático)",
+          "motivo": "menos idiomático em português corrente; preservado na traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito implícito de יִשְׁפֹּט)"
+  ],
+  "ambiguidades_preservadas": [
+    "Identidade dos 'deuses' (בְּקֶרֶב אֱלֹהִים): seres celestiais do conselho divino ou governantes/juízes humanos investidos de autoridade divina — ambas as leituras são atestadas na tradição interpretativa (cf. Jo 10:34-36 cita este salmo); a BV preserva a ambiguidade lexical, sem resolver para uma leitura no texto publicado.",
+    "עֲדַת־אֵל: 'assembleia pertencente a Deus' (genitivo) vs. uso intensificador de אֵל ('assembleia grandiosa/poderosa') — ambiguidade lexical preservada; a traducao_literal mantém a forma-base 'de El/Deus'."
+  ],
+  "justificativa": "Verso de abertura fixa a cena da assembleia divina e introduz a ambiguidade central do salmo (identidade dos 'deuses' julgados), tratada com cautela teológica conforme TEOLOGIA §1.5 (preservar ambiguidade quando o original é ambíguo entre posições).",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.40.1",
+    "livro": "Isaías",
+    "capitulo": 40,
+    "versiculo": 1,
+    "pericope": "Isa.40.1-31"
+  },
+  "texto_bv": "“Consolem, consolem o meu povo”, diz o seu Deus.",
+  "traducao_literal": "Consolai, consolai meu povo; dirá vosso Deus.",
+  "termos_originais": [
+    {
+      "palavra": "נַחֲמ֥וּ",
+      "lemma": "5162",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "נַחֲמ֖וּ",
+      "lemma": "5162",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "עַמִּ֑י",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "יֹאמַ֖ר",
+      "lemma": "559",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "אֱלֹהֵיכֶֽם",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Postposição da margem de discurso (יֹאמַר אֱלֹהֵיכֶם após a fala)",
+      "escolha": "Manter a ordem original no texto publicado (fala primeiro, 'diz o seu Deus' depois), preservando o efeito poético de abertura abrupta.",
+      "justificativa": "O hebraico introduz a citação antes do verbo introdutório, padrão da poesia profética; o português aceita essa construção sem prejuízo de clareza.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Antepor 'Diz o seu Deus:' à citação",
+          "motivo": "Perde o efeito retórico de abertura abrupta característico do original e do gênero profético."
+        }
+      ]
+    },
+    {
+      "questao": "Registro de segunda pessoa (imperativo 2mp נַחֲמוּ e sufixo אֱלֹהֵיכֶם)",
+      "escolha": "vocês/seu (plural), conforme D-0003 para discurso não-orante.",
+      "justificativa": "O comando é dirigido a destinatários plurais não especificados (mensageiros celestiais ou profetas), não é oração dirigida a Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu/vosso arcaizante",
+          "motivo": "Quebra o registro contemporâneo estabelecido em D-0003 fora do contexto de oração."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Identidade dos destinatários do imperativo 'consolem' (mensageiros celestiais, profetas ou leitor) não é especificada no hebraico e permanece aberta na BV."
+  ],
+  "justificativa": "Abertura do Segundo Isaías: comando divino de consolação ao povo, com fórmula de autenticação profética 'diz o seu Deus' posposta, preservando a estrutura retórica do original.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

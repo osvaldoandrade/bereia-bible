@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.44.3",
+    "livro": "Salmos",
+    "capitulo": 44,
+    "versiculo": 3,
+    "pericope": "Ps.44.1-27"
+  },
+  "texto_bv": "Tu, com a tua mão, expulsaste nações e as plantaste; afligiste povos e os espalhaste.",
+  "traducao_literal": "Tu, tua mão, nações expulsaste e plantaste-os; afligiste povos e enviaste-os (dispersaste-os).",
+  "termos_originais": [
+    {
+      "palavra": "אַתָּ֤ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "יָדְךָ֡",
+      "lemma": "3027",
+      "morfologia": "HNcbsc/Sp2ms"
+    },
+    {
+      "palavra": "גּוֹיִ֣ם",
+      "lemma": "1471 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "ה֭וֹרַשְׁתָּ",
+      "lemma": "3423",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "וַתִּטָּעֵ֑ם",
+      "lemma": "c/5193",
+      "morfologia": "HC/Vqw2ms/Sp3mp"
+    },
+    {
+      "palavra": "תָּרַ֥ע",
+      "lemma": "7489 a",
+      "morfologia": "HVhi2ms"
+    },
+    {
+      "palavra": "לְ֝אֻמִּ֗ים",
+      "lemma": "3816",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וַֽתְּשַׁלְּחֵֽם",
+      "lemma": "c/7971",
+      "morfologia": "HC/Vpw2ms/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָדְךָ ('tua mão') sem preposição, em posição de acusativo instrumental fronteado antes do objeto גּוֹיִם",
+      "escolha": "Suprir 'com' e normalizar para ordem SVO no publicado; preservar a ordem hebraica na literal",
+      "justificativa": "O hebraico bíblico usa acusativo de instrumento sem preposição; o português exige preposição. ER-0013 manda preservar a ordem/calque na literal e normalizar no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Tua mão expulsou nações' (sem 'Tu' inicial)",
+          "motivo": "perde a ênfase do pronome אַתָּה, marca retórica do salmo"
+        }
+      ]
+    },
+    {
+      "questao": "וַתְּשַׁלְּחֵם (Piel de שלח) — 'enviou/despachou' ou 'espalhou/dispersou'?",
+      "escolha": "'espalhaste'",
+      "justificativa": "O paralelismo com הוֹרַשְׁתָּ...וַתִּטָּעֵם (expulsar/plantar nações) sugere sentido de dispersão dos povos derrotados, não de 'enviar' amistoso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'despachaste-os'",
+          "motivo": "soa neutro/administrativo, perde o tom de conquista violenta do contexto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "com"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Narrativa da conquista de Canaã em segunda pessoa; dois pares wayyiqtol preservados como 'e' na literal (ER-0013); fronteamento de objeto normalizado no publicado (ER-0011).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

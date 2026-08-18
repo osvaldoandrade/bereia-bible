@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.5.1",
+    "livro": "Salmos",
+    "capitulo": 5,
+    "versiculo": 1,
+    "pericope": "Ps.5.1-13"
+  },
+  "texto_bv": "Ao mestre de música, sobre Neilote. Salmo de Davi.",
+  "traducao_literal": "Ao diretor, sobre a Neilote, salmo, de Davi.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֥חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "אֶֽל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַנְּחִיל֗וֹת",
+      "lemma": "d/5155",
+      "morfologia": "HTd/Np"
+    },
+    {
+      "palavra": "מִזְמ֥וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִֽד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter לַמְנַצֵּחַ (H5329, particípio piel), termo técnico recorrente nos títulos dos Salmos?",
+      "escolha": "\"Ao mestre de música\" — designação funcional do responsável pela execução musical do salmo.",
+      "justificativa": "מנצח (piel de נצח) denota quem supervisiona/dirige a performance; \"mestre de música\" é contemporâneo, compreensível e neutro teologicamente, sem tecnicismo de arquivo musical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "regente",
+          "motivo": "registro mais formal-orquestral, soa anacrônico para um cabeçalho de salmo"
+        },
+        {
+          "opcao": "músico-mor (Almeida)",
+          "motivo": "arcaísmo funcionalmente morto, proibido por EDITORIAL §1.2"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter הַנְּחִילוֹת (H5155), hápax legômeno marcado como nome próprio (Np) na morfologia?",
+      "escolha": "Transliteração \"Neilote\", preservando a leitura tradicional pt (linhagem Almeida) diante da incerteza lexical.",
+      "justificativa": "A morfologia do packet marca o termo como substantivo próprio (Np), sinalizando que a fonte o trata como nome de melodia/instrumento e não como palavra comum traduzível; sentido exato é obscuro (possível relação com חלל 'flauta' ou com נחל 'possessão/herdade').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"com flautas\"",
+          "motivo": "tradução etimológica popular sem apoio lexical firme; o packet trata o termo como nome próprio, não substantivo comum traduzível"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הַנְּחִילוֹת: sentido exato incerto (nome de melodia, instrumento de sopro ou termo litúrgico não identificado); a BV transcreve em vez de arriscar tradução sem base lexical firme."
+  ],
+  "justificativa": "Título musical formular; termos técnicos (מנצח, נחילות) carecem de consenso lexical seguro — optou-se por clareza funcional e transliteração fiel ao dado morfológico da fonte.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

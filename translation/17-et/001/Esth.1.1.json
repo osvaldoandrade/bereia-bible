@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.1.1",
+    "livro": "Ester",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "Esth.1.1-22"
+  },
+  "texto_bv": "Aconteceu, nos dias de Assuero — este é o Assuero que reinava desde a Índia até Cuxe, sobre cento e vinte e sete províncias —",
+  "traducao_literal": "E aconteceu, nos dias de Assuero: ele, Assuero, o que reina desde Hodu e até Cuxe, sete e vinte e cem província.",
+  "termos_originais": [
+    {
+      "palavra": "וַיְהִ֖י",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בִּימֵ֣י",
+      "lemma": "b/3117",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "אֲחַשְׁוֵר֑וֹשׁ",
+      "lemma": "325",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "ה֣וּא",
+      "lemma": "1931",
+      "morfologia": "HPp3ms"
+    },
+    {
+      "palavra": "אֲחַשְׁוֵר֗וֹשׁ",
+      "lemma": "325",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַמֹּלֵךְ֙",
+      "lemma": "d/4427 a",
+      "morfologia": "HTd/Vqrmsa"
+    },
+    {
+      "palavra": "מֵהֹ֣דּוּ",
+      "lemma": "m/1912",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "וְעַד",
+      "lemma": "c/5704",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "כּ֔וּשׁ",
+      "lemma": "3568 a",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שֶׁ֛בַע",
+      "lemma": "7651",
+      "morfologia": "HAcfsa"
+    },
+    {
+      "palavra": "וְעֶשְׂרִ֥ים",
+      "lemma": "c/6242",
+      "morfologia": "HC/Acbpa"
+    },
+    {
+      "palavra": "וּמֵאָ֖ה",
+      "lemma": "c/3967",
+      "morfologia": "HC/Acbsa"
+    },
+    {
+      "palavra": "מְדִינָֽה",
+      "lemma": "4082",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Verter ou não 'E' no wayyiqtol de abertura do livro",
+      "escolha": "omitir 'E' no publicado",
+      "justificativa": "ER-0013: waw de wayyiqtol só é vertido quando a sequência discursiva pedir; aqui é a abertura absoluta da narrativa, sem linha anterior a retomar. A literal preserva o calque integral.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "E aconteceu",
+          "motivo": "soaria como continuação de um texto anterior inexistente"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem dos numerais do hebraico (unidade-dezena-centena)",
+      "escolha": "cento e vinte e sete",
+      "justificativa": "EDITORIAL §7 exige numerais por extenso; a ordem hebraica é ininteligível em português corrido. ER-0013 manda preservar a ordem original só na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sete e vinte e cem (ordem hebraica)",
+          "motivo": "agramatical/arcaizante em português"
+        }
+      ]
+    },
+    {
+      "questao": "Toponímia הֹדּוּ / כּוּשׁ",
+      "escolha": "Índia / Cuxe",
+      "justificativa": "Índia é grafia consolidada (tradição Almeida); Cuxe já foi fixado pela BV em Gen.2.13 e Gen.10.6-8, mantendo consistência lexical entre livros.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Etiópia (para Cuxe)",
+          "motivo": "tradição Almeida usa Etiópia, mas quebraria a consistência já fixada pela BV em Gênesis"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula explicitando o pronome הוּא)"
+  ],
+  "ambiguidades_preservadas": [
+    "a extensão exata das 127 províncias (unidades administrativas vs. satrapias maiores) não é explicitada pelo texto"
+  ],
+  "justificativa": "Abertura do livro como cláusula apositiva sobre Assuero; sentença permanece sintaticamente aberta para o v.2, como no hebraico.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

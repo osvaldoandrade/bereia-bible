@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.143.10",
+    "livro": "Salmos",
+    "capitulo": 143,
+    "versiculo": 10,
+    "pericope": "Ps.143.1-12"
+  },
+  "texto_bv": "Ensina-me a fazer a tua vontade, pois tu és o meu Deus; o teu espírito é bom; guia-me por terra plana.",
+  "traducao_literal": "Ensina-me a fazer a tua vontade, porque tu és o meu Deus; o teu espírito é bom; guiar-me-ás por terra plana.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְּדֵ֤נִי",
+      "lemma": "3925",
+      "morfologia": "HVpv2ms/Sp1cs"
+    },
+    {
+      "palavra": "לַֽעֲשׂ֣וֹת",
+      "lemma": "l/6213 a",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "רְצוֹנֶךָ֮",
+      "lemma": "7522",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אַתָּ֪ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "אֱל֫וֹהָ֥י",
+      "lemma": "433",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "רוּחֲךָ֥",
+      "lemma": "7307",
+      "morfologia": "HNcbsc/Sp2ms"
+    },
+    {
+      "palavra": "טוֹבָ֑ה",
+      "lemma": "2896 a",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "תַּ֝נְחֵ֗נִי",
+      "lemma": "5148",
+      "morfologia": "HVhi2ms/Sp1cs"
+    },
+    {
+      "palavra": "בְּאֶ֣רֶץ",
+      "lemma": "b/776",
+      "morfologia": "HR/Ncbsc"
+    },
+    {
+      "palavra": "מִישֽׁוֹר",
+      "lemma": "4334",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sintaxe de רוּחֲךָ טוֹבָה תַּנְחֵנִי: o verbo תַּנְחֵנִי está marcado no packet pinado (OSHB) como Hifil imperfeito 2ms (não 3fs), o que impede gramaticalmente que 'teu espírito' (3fs) seja o sujeito do verbo.",
+      "escolha": "duas orações: 'o teu espírito é bom' (nominal) + 'guia-me por terra plana' (petição, sujeito 'tu')",
+      "justificativa": "Segue a morfologia pinada (2ms); TEOLOGIA §1.3 — quando léxico, morfologia e sintaxe decidem, a teologia não vota. A leitura tradicional 'que teu bom Espírito me guie' depende de tomar 'espírito' como sujeito, incompatível com a pessoa verbal marcada no packet.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "que o teu bom Espírito me guie por terra plana (Espírito como sujeito, 3fs)",
+          "motivo": "o prefixo תּ- do hifil imperfeito é morfologicamente idêntico para 2ms e 3fs em hebraico; o packet pinado desambigua como 2ms, e a BV segue a fonte pinada, preservando a alternativa como ambiguidade"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A identidade do prefixo תּ- (2ms/3fs) no hifil imperfeito hebraico permite, em tese, a leitura tradicional com 'espírito' como sujeito ('que teu bom Espírito me guie'); a BV segue a desambiguação morfológica do packet pinado (OSHB: 2ms) e preserva aqui a leitura alternativa para auditoria."
+  ],
+  "justificativa": "Petição por instrução e condução; אֱלוֹהַּ (Eloah, forma poética singular de 'Deus') é distinta do plural אֱלֹהִים já fixado no léxico, recebendo a mesma glosa 'Deus'.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

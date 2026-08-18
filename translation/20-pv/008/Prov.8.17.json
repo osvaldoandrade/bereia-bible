@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.8.17",
+    "livro": "Provérbios",
+    "capitulo": 8,
+    "versiculo": 17,
+    "pericope": "Prov.8.1-36"
+  },
+  "texto_bv": "Eu amo aos que me amam, e os que me buscam com empenho me encontrarão.",
+  "traducao_literal": "Eu, os que me amam [Ketiv: os que a amam], eu amo; e os que me buscam com empenho, me encontrarão.",
+  "termos_originais": [
+    {
+      "palavra": "אֲ֭נִי",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "אהביה",
+      "lemma": "157",
+      "morfologia": "HVqrmpc/Sp3fs"
+    },
+    {
+      "palavra": "אֵהָ֑ב",
+      "lemma": "157",
+      "morfologia": "HVqi1cs"
+    },
+    {
+      "palavra": "וּ֝מְשַׁחֲרַ֗י",
+      "lemma": "c/7836",
+      "morfologia": "HC/Vprmpc/Sp1cs"
+    },
+    {
+      "palavra": "יִמְצָאֻֽנְנִי",
+      "lemma": "4672",
+      "morfologia": "HVqi3mp/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Duplicidade Ketiv-Qere no lemma H157: o packet registra a forma consonantal 'אהביה' (referencia_fonte: morph HVqrmpc/Sp3fs, 'os que a amam') adjacente à forma pontuada 'אֵהָב' ('eu amo'); a leitura tradicional massorética corrige o sufixo para 1ª pessoa ('os que me amam').",
+      "leituras": [
+        {
+          "leitura": "os que a amam (Ketiv, sufixo 3fs)",
+          "testemunhas": "forma consonantal registrada no packet OSHB"
+        },
+        {
+          "leitura": "os que me amam (leitura tradicional, sufixo 1cs)",
+          "testemunhas": "tradição massorética de leitura; LXX, Vulgata e praticamente toda a tradição de tradução"
+        }
+      ],
+      "avaliacao": "leitura tradicional adotada por coerência com o discurso autorreferente em 1ª pessoa",
+      "impacto_na_traducao": "texto_bv segue a leitura tradicional; traducao_literal registra ambas as formas entre colchetes"
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Ketiv אהביה (particípio + sufixo 3fs, 'os que a amam') vs. leitura tradicional 'os que me amam'",
+      "escolha": "seguir a leitura tradicional ('os que me amam'), coerente com o discurso em 1ª pessoa",
+      "justificativa": "A forma consonantal do packet (morph HVqrmpc/Sp3fs) reflete o Ketiv massorético; a esmagadora maioria da tradição de leitura e tradução usa o sufixo de 1ª pessoa, em paralelo com אֵהָב ('eu amo') e מְשַׁחֲרַי ('os que me buscam').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir literalmente o Ketiv ('os que a amam', 3fs)",
+          "motivo": "quebraria a coerência do discurso autorreferente em 1ª pessoa que domina toda a fala da Sabedoria (vv. 12-21)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "duplicidade Ketiv/leitura tradicional no sufixo de אהביה/אֹהֲבַי"
+  ],
+  "justificativa": "Verso de reciprocidade amorosa entre a Sabedoria e seus seguidores, com nó textual Ketiv/leitura tradicional documentado.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

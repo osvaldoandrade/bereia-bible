@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.98.4",
+    "livro": "Salmos",
+    "capitulo": 98,
+    "versiculo": 4,
+    "pericope": "Ps.98.1-9"
+  },
+  "texto_bv": "Gritem de júbilo ao SENHOR, toda a terra; rompam em cântico, exultem e cantem louvores.",
+  "traducao_literal": "Gritai de júbilo ao SENHOR, toda a terra; prorrompei e exultai e cantai louvores.",
+  "termos_originais": [
+    {
+      "palavra": "הָרִ֣יעוּ",
+      "lemma": "7321",
+      "morfologia": "HVhv2mp"
+    },
+    {
+      "palavra": "לַֽ֭יהוָה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הָאָ֑רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "פִּצְח֖וּ",
+      "lemma": "6476",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "וְרַנְּנ֣וּ",
+      "lemma": "c/7442 b",
+      "morfologia": "HC/Vpv2mp"
+    },
+    {
+      "palavra": "וְזַמֵּֽרוּ",
+      "lemma": "c/2167",
+      "morfologia": "HC/Vpv2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Polissíndeto וְ...וְ... antes de cada imperativo (פִּצְחוּ וְרַנְּנוּ וְזַמֵּרוּ)",
+      "escolha": "normalizar no publicado para lista com 'e' apenas antes do último item; preservar cada 'e' na literal",
+      "justificativa": "ER-0013: repetição formular normalizável quando soa artificial ao português corrido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'e...e...e' também no publicado",
+          "motivo": "soa artificial/traduzido em português"
+        }
+      ]
+    },
+    {
+      "questao": "Objeto implícito de פִּצְחוּ, sem complemento explícito no hebraico",
+      "escolha": "'rompam em cântico', supondo o objeto usual (canto) por convenção idiomática",
+      "justificativa": "O verbo פצח idiomaticamente rege 'romper em canto/júbilo' mesmo sem objeto formal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'arrebentem' (tradução mais literal, intransitiva)",
+          "motivo": "sem sentido idiomático claro em português"
+        }
+      ]
+    },
+    {
+      "questao": "Registro dos imperativos (D-0003)",
+      "escolha": "'vocês' (gritem, rompam, exultem, cantem)",
+      "justificativa": "Exortação à congregação/criação personificada, não oração dirigida a Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu/vós litúrgico",
+          "motivo": "D-0003 reserva 'tu' apenas para discurso dirigido a Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "cântico (objeto implícito suprido em 'rompam em cântico', ausente formalmente após פִּצְחוּ)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Série de quatro imperativos (2mp) de louvor; repetição polissindética normalizada no publicado por soar artificial em português corrido, preservada na literal (ER-0013).",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.56.10",
+    "livro": "Isaías",
+    "capitulo": 56,
+    "versiculo": 10,
+    "pericope": "Isa.56.1-12"
+  },
+  "texto_bv": "Vigiam: cegos, todos eles; não sabem nada. Todos são cães mudos, que não conseguem latir; delirantes, deitados, amantes de dormitar.",
+  "traducao_literal": "vigiaram, cegos todos eles, não sabem; todos eles cães mudos, não podem latir; delirantes, deitados, amantes de dormitar.",
+  "termos_originais": [
+    {
+      "palavra": "צפו",
+      "lemma": "6822",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "עִוְרִ֤ים",
+      "lemma": "5787",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "כֻּלָּם֙",
+      "lemma": "3605",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יָדָ֔עוּ",
+      "lemma": "3045",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "כֻּלָּם֙",
+      "lemma": "3605",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "כְּלָבִ֣ים",
+      "lemma": "3611",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אִלְּמִ֔ים",
+      "lemma": "483",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "לֹ֥א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יוּכְל֖וּ",
+      "lemma": "3201",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "לִנְבֹּ֑חַ",
+      "lemma": "l/5024",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "הֹזִים֙",
+      "lemma": "1957",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "שֹֽׁכְבִ֔ים",
+      "lemma": "7901",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "אֹהֲבֵ֖י",
+      "lemma": "157",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "לָנֽוּם",
+      "lemma": "l/5123",
+      "morfologia": "HR/Vqc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "צפו sem pontuação massorética no packet, morfologia fornecida Vqp3cp (perfeito qal 3ª pl., raiz צפה ‘vigiar/observar’)",
+      "escolha": "verter como verbo finito – “vigiam”",
+      "justificativa": "seguir estritamente lemma+morfologia fornecidos no packet cego (Vqp3cp), não a leitura tradicional do Qere massorético (צֹפָיו, substantivo ‘seus vigias’ + sufixo), que não está codificada nos dados recebidos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Seus vigias são todos cegos” (leitura do Qere tradicional)",
+          "motivo": "não suportada pela morfologia efetivamente fornecida no packet (que dá verbo, não substantivo+sufixo)"
+        },
+        {
+          "opcao": "“Vigiai!” (imperativo)",
+          "motivo": "morfologicamente incompatível com Vqp3cp (perfeito, não imperativo Vqv2mp como em אֵתָיו dos vv.9/12)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "nada"
+  ],
+  "ambiguidades_preservadas": [
+    "Crux textual: forma צפו sem pontuação no packet, cuja tradição massorética (Qere) lê como substantivo ‘seus vigias’ (צֹפָיו); dados do packet cego só sustentam a leitura verbal fornecida (Vqp3cp)."
+  ],
+  "justificativa": "Versículo com crux textual conhecida (Ketiv sem iku00fd Qere no packet fornecido); tradução segue estritamente o lemma/morfologia recebidos, preservando a ironia da cegueira dos que deveriam vigiar.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

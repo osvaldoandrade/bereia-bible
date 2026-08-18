@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.8.35",
+    "livro": "Provérbios",
+    "capitulo": 8,
+    "versiculo": 35,
+    "pericope": "Prov.8.1-36"
+  },
+  "texto_bv": "Porque quem me encontra encontra a vida, e alcança o favor do SENHOR.",
+  "traducao_literal": "Porque aquele que me acha [Ketiv: os que acham] vida; e obtém favor do SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "מֹ֭צְאִי",
+      "lemma": "4672",
+      "morfologia": "HVqrmsc/Sp1cs"
+    },
+    {
+      "palavra": "מצאי",
+      "lemma": "4672",
+      "morfologia": "HVqrmpc"
+    },
+    {
+      "palavra": "חַיִּ֑ים",
+      "lemma": "2416 e",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "וַיָּ֥פֶק",
+      "lemma": "c/6329",
+      "morfologia": "HC/Vhw3ms"
+    },
+    {
+      "palavra": "רָ֝צ֗וֹן",
+      "lemma": "7522",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מֵיְהוָֽה",
+      "lemma": "m/3068",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "O packet registra, referencia_fonte: duas formas adjacentes do particípio de מצא (H4672) no mesmo verso — מֹ֭צְאִי (pontuada, particípio ms construto + sufixo 1cs) e מצאי (não pontuada, particípio mp construto, morph HVqrmpc).",
+      "leituras": [
+        {
+          "leitura": "'aquele que me encontra [encontra] vida' (leitura tradicional, seguindo a forma pontuada)",
+          "testemunhas": "forma vocalizada no packet OSHB; tradição de leitura massorética; quase toda a tradição de tradução"
+        },
+        {
+          "leitura": "'os que encontram vida' (construto plural, forma não pontuada)",
+          "testemunhas": "forma consonantal Ketiv registrada no packet"
+        }
+      ],
+      "avaliacao": "leitura tradicional adotada por manter o paralelismo pessoal do verso",
+      "impacto_na_traducao": "texto_bv segue a leitura tradicional; traducao_literal preserva ambas as formas do packet"
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "Duplicidade Ketiv/leitura tradicional em מֹצְאִי/מצאי (raiz מצא, H4672)",
+      "escolha": "seguir a leitura tradicional consolidada ('quem me encontra encontra a vida')",
+      "justificativa": "O packet apresenta duas formas adjacentes da mesma raiz: מֹ֭צְאִי (particípio + sufixo 1cs, pontuado) e מצאי (particípio mp construto, não pontuado, morph HVqrmpc); a leitura tradicional amplamente atestada nas versões resolve a duplicidade como 'aquele que me encontra encontra a vida'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir a forma construta plural isolada ('os que encontram vida')",
+          "motivo": "quebraria o paralelismo pessoal do verso, voltado ao indivíduo que busca a Sabedoria (retomando o singular מֹצְאִי)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "duplicidade textual entre מֹצְאִי (com sufixo 1cs) e מצאי (construto plural sem sufixo) no mesmo verso"
+  ],
+  "justificativa": "Verso conclusivo que resume a recompensa de vida e favor divino a quem encontra a Sabedoria; nó textual documentado sem apagar a duplicidade da fonte.",
+  "confianca": 0.63,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

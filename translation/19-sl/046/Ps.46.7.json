@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.46.7",
+    "livro": "Salmos",
+    "capitulo": 46,
+    "versiculo": 7,
+    "pericope": "Ps.46.1-12"
+  },
+  "texto_bv": "As nações se agitam, os reinos se abalam; ele levanta a sua voz, e a terra se derrete.",
+  "traducao_literal": "Rugiram nações, abalaram-se reinos; deu em-sua-voz, derreteu-se terra.",
+  "termos_originais": [
+    {
+      "palavra": "הָמ֣וּ",
+      "lemma": "1993",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "ג֭וֹיִם",
+      "lemma": "1471 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "מָ֣טוּ",
+      "lemma": "4131",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "מַמְלָכ֑וֹת",
+      "lemma": "4467",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "נָתַ֥ן",
+      "lemma": "5414",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "בְּ֝קוֹל֗וֹ",
+      "lemma": "b/6963 a",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "תָּמ֥וּג",
+      "lemma": "4127",
+      "morfologia": "HVqi3fs"
+    },
+    {
+      "palavra": "אָֽרֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "sujeito elíptico de נָתַן ('deu [voz]')",
+      "escolha": "suprir 'ele' (referente: Deus)",
+      "justificativa": "Verbo 3ms sem sujeito explícito; o contexto imediato (vv.6-8, SENHOR dos Exércitos) identifica Deus como agente.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "tempo verbal do perfeito hebraico (הָמוּ, מָטוּ, נָתַן) em contexto hínico",
+      "escolha": "presente gnômico",
+      "justificativa": "O perfeito hebraico em salmo de louvor descreve ação característica/atemporal de Deus, não um evento passado isolado; o presente mantém o efeito hínico contínuo, coerente com os imperfeitos dos vv.4-6.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pretérito perfeito ('as nações se agitaram')",
+          "motivo": "isola o evento no passado, quebrando a leitura hínica atemporal predominante no salmo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "O tumulto das nações (paralelo ao tumulto das águas, mesma raiz המה do v.4) cede diante da voz de Deus.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

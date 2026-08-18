@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.16.1",
+    "livro": "Salmos",
+    "capitulo": 16,
+    "versiculo": 1,
+    "pericope": "Ps.16.1-11"
+  },
+  "texto_bv": "Mictão de Davi. Guarda-me, ó Deus, pois em ti me refugio.",
+  "traducao_literal": "Mictão. De Davi. Guarda-me, Deus, porque me refugiei em ti.",
+  "termos_originais": [
+    {
+      "palavra": "מִכְתָּ֥ם",
+      "lemma": "4387",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִ֑ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "שָֽׁמְרֵ֥נִי",
+      "lemma": "8104",
+      "morfologia": "HVqv2ms/Sp1cs"
+    },
+    {
+      "palavra": "אֵ֝֗ל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "חָסִ֥יתִי",
+      "lemma": "2620",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "בָֽךְ",
+      "lemma": "b",
+      "morfologia": "HR/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de מִכְתָּם (miktam), termo técnico de superscrição de sentido incerto",
+      "escolha": "Transliteração 'Mictão', seguindo a tradição Almeida",
+      "justificativa": "Termo sem correspondente lexical seguro em português (EDITORIAL §9); transliteração evita decisão especulativa sobre etimologia disputada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tradução do sentido ('poema', 'inscrição', 'joia')",
+          "motivo": "a etimologia de מִכְתָּם é disputada; qualquer tradução do sentido importaria decisão não sustentada pelo léxico"
+        }
+      ]
+    },
+    {
+      "questao": "אֵל (H410) como vocativo dirigido a Deus",
+      "escolha": "Deus",
+      "justificativa": "NOMES-DIVINOS.md: אֵל → Deus (ER-0002).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ó El' (transliteração)",
+          "motivo": "quebra a convenção consolidada de nomes divinos em português"
+        }
+      ]
+    },
+    {
+      "questao": "חָסִיתִי (perfeito qal) — aspecto verbal em português",
+      "escolha": "presente 'me refugio' no texto publicado (perfeito de valor gnômico/presente), preservando o perfeito ('me refugiei') na literal",
+      "justificativa": "O perfeito hebraico expressa aqui um estado de confiança presente e contínuo, não um evento pontual encerrado; o publicado naturaliza sem perda de auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'me refugiei' (passado) no publicado",
+          "motivo": "sugeriria ação pontual já concluída, obscurecendo o sentido presente/contínuo do perfeito hebraico neste contexto"
+        }
+      ]
+    },
+    {
+      "questao": "בָךְ pontuado morfologicamente como Sp2fs, mas o referente (אֵל) é masculino",
+      "escolha": "traduzir como 2ms 'em ti', lendo a forma como pausal do sufixo masculino",
+      "justificativa": "A forma pausal בָךְ é grafia atestada do sufixo masculino 2ms em posição de pausa (fim de oração), indistinguível do feminino apenas pela vocalização; o referente gramatical (אֵל) desambigua.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "leitura literal 2fs ('em ti', feminino)",
+          "motivo": "não há referente feminino no contexto imediato; produziria incoerência sintática com אֵל"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "לְדָוִד pode indicar autoria, dedicatória ou pertença a uma coleção davídica; a BV mantém 'de Davi' sem resolver qual relação exata está em jogo."
+  ],
+  "justificativa": "Superscrição técnica (mictão) seguida de súplica de abertura dirigida a Deus; as decisões centram-se no nome divino, no aspecto do perfeito verbal e numa ambiguidade morfológica do sufixo pronominal.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

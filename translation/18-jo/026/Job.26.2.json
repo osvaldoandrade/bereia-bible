@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.26.2",
+    "livro": "Jó",
+    "capitulo": 26,
+    "versiculo": 2,
+    "pericope": "Job.26.1-14"
+  },
+  "texto_bv": "“Como você ajudou o que não tem força! Como socorreu o braço sem vigor!",
+  "traducao_literal": "“O que você ajudou ao sem força? Salvou o braço, sem vigor?",
+  "termos_originais": [
+    {
+      "palavra": "מֶה",
+      "lemma": "4100",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "עָזַ֥רְתָּ",
+      "lemma": "5826",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "לְלֹא",
+      "lemma": "l/3808",
+      "morfologia": "HR/Tn"
+    },
+    {
+      "palavra": "כֹ֑חַ",
+      "lemma": "3581 b",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "ה֝וֹשַׁ֗עְתָּ",
+      "lemma": "3467",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "זְר֣וֹעַ",
+      "lemma": "2220",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "עֹֽז",
+      "lemma": "5797",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מֶה interrogativo ou exclamativo?",
+      "escolha": "exclamativo irônico no publicado ('Como...!'), mantendo a forma interrogativa na literal",
+      "justificativa": "O contexto é o sarcasmo de Jó contra o discurso de Bildade (cap. 25); מֶה + perfeito é usado idiomaticamente como exclamação retórica (cf. Gn 1:31 מַה־טּוֹב).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter interrogação direta no publicado ('O que você ajudou...?')",
+          "motivo": "perde a força irônica do original, soa como pergunta genuína"
+        }
+      ]
+    },
+    {
+      "questao": "Repetir 'Como' na segunda oração elíptica?",
+      "escolha": "suprir 'Como' na segunda oração do publicado",
+      "justificativa": "מֶה do primeiro colon rege elipticamente o segundo; o português exige a partícula explícita para manter o paralelismo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir e usar apenas pontuação exclamativa",
+          "motivo": "ambíguo em leitura corrida/TTS"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Como (segunda ocorrência, elidida no hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Jó inicia sua réplica com ironia mordaz, repetindo o padrão retórico de perguntas sarcásticas dirigidas a Bildade.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

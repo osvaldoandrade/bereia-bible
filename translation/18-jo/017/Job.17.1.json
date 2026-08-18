@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.17.1",
+    "livro": "Jó",
+    "capitulo": 17,
+    "versiculo": 1,
+    "pericope": "Job.17.1-16"
+  },
+  "texto_bv": "Meu espírito está quebrantado, meus dias se extinguem; a sepultura me aguarda.",
+  "traducao_literal": "Meu espírito está quebrantado; meus dias se extinguem; sepulcros há para mim.",
+  "termos_originais": [
+    {
+      "palavra": "רוּחִ֣י",
+      "lemma": "7307",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "חֻ֭בָּלָה",
+      "lemma": "2254 b",
+      "morfologia": "HVPp3fs"
+    },
+    {
+      "palavra": "יָמַ֥י",
+      "lemma": "3117",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "נִזְעָ֗כוּ",
+      "lemma": "2193",
+      "morfologia": "HVNp3cp"
+    },
+    {
+      "palavra": "קְבָרִ֥ים",
+      "lemma": "6913",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "לִֽי",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "קְבָרִים (plural) — manter plural ou normalizar para singular coletivo no texto publicado?",
+      "escolha": "Normalizar para singular coletivo 'a sepultura' no texto_bv; preservar o plural 'sepulcros' na traducao_literal (ER-0013).",
+      "justificativa": "Plural hebraico de generalização; o português soa mais natural no singular coletivo sem perda de sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter plural 'sepulcros há para mim' no texto_bv",
+          "motivo": "soa artificial em português e não corresponde ao uso idiomático do plural hebraico aqui"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está",
+    "há",
+    "aguarda"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Paralelismo sinonímico: espírito quebrantado / dias extintos, ambos apontando para a proximidade da morte; קברים no plural é generalizante, verbo חבל (Pual) indica dano/ruína já consumado.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

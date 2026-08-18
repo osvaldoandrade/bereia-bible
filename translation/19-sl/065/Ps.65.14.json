@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.65.14",
+    "livro": "Salmos",
+    "capitulo": 65,
+    "versiculo": 14,
+    "pericope": "Ps.65.1-14"
+  },
+  "texto_bv": "As pastagens se vestem de rebanhos, e os vales se cobrem de cereal; gritam de alegria e também cantam.",
+  "traducao_literal": "Vestiram-se pastagens o-rebanho; e-vales cobrir-se-ão-com grão; gritarão-de-alegria, também cantarão.",
+  "termos_originais": [
+    {
+      "palavra": "לָבְשׁ֬וּ",
+      "lemma": "3847",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "כָרִ֨ים",
+      "lemma": "3733 b",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "הַצֹּ֗אן",
+      "lemma": "d/6629",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "וַעֲמָקִ֥ים",
+      "lemma": "c/6010",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "יַֽעַטְפוּ",
+      "lemma": "5848 b",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "בָ֑ר",
+      "lemma": "1250 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יִ֝תְרוֹעֲע֗וּ",
+      "lemma": "7321",
+      "morfologia": "HVri3mp"
+    },
+    {
+      "palavra": "אַף",
+      "lemma": "637",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "יָשִֽׁירוּ",
+      "lemma": "7891",
+      "morfologia": "HVqi3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "כָרִים (H3733b) — homógrafo: 'cordeiros' (H3733a) ou 'pastagens/campinas' (H3733b)",
+      "escolha": "pastagens (H3733b, distinguido no packet do homógrafo 'cordeiro')",
+      "justificativa": "Morfologia do packet cita explicitamente o lema '3733 b', o homógrafo secundário; leitura 'as pastagens se vestem do rebanho' (personificação, paralela a 'os vales se cobrem de cereal') é sintaticamente mais direta que 'os cordeiros vestem-se[?] o rebanho', que exigiria relação estranha entre dois termos de pecuária.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os cordeiros [vestem] o rebanho'",
+          "motivo": "relação semântica improvável entre os dois termos; o packet já distingue o lema como o homógrafo b (pastagem), não a (cordeiro)"
+        }
+      ]
+    },
+    {
+      "questao": "Sujeito de יִתְרוֹעֲעוּ / יָשִׁירוּ (3mp, sem substantivo explícito no verso)",
+      "escolha": "manter implícito, retomando 'pastagens/vales' (natureza personificada) do próprio verso, sem inserir sujeito humano",
+      "justificativa": "Continuidade da personificação da paisagem iniciada em vv.12-13 (veredas, outeiros, pastagens, vales); inserir 'os homens/o povo' como sujeito seria importar um referente não indicado no texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o povo grita de alegria e canta'",
+          "motivo": "introduz sujeito humano não presente no verso, quebrando a personificação da natureza que estrutura vv.12-14"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sujeito último de 'gritam...cantam' pode estender-se implicitamente aos adoradores humanos que a paisagem personificada representa, mas o verso não o nomeia; ambiguidade preservada."
+  ],
+  "justificativa": "Verso final do salmo, culminação da personificação agrícola: montes, vales e pastagens 'vestem-se', 'cobrem-se' e finalmente 'gritam e cantam' — clímax de louvor cósmico coerente com a abertura do salmo (v.2, 'o silêncio é louvor').",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

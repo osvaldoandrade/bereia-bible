@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.8.1",
+    "livro": "Salmos",
+    "capitulo": 8,
+    "versiculo": 1,
+    "pericope": "Ps.8.1-10"
+  },
+  "texto_bv": "Ao mestre de música, sobre a gitite. Salmo de Davi.",
+  "traducao_literal": "Para o diretor, sobre a Gitite: salmo de Davi.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֥חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "עַֽל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "הַגִּתִּ֗ית",
+      "lemma": "d/1665",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "מִזְמ֥וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִֽד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como traduzir מְנַצֵּחַ (particípio piel de נצח, 'dirigir/supervisionar'), termo técnico de cabeçalhos de salmos?",
+      "escolha": "mestre de música",
+      "justificativa": "Registro contemporâneo e reconhecível para o termo técnico musical/litúrgico; evita a ambiguidade de 'regente', que em pt-BR também denota autoridade política.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "regente",
+          "motivo": "ambíguo com sentido de regência política/monárquica em pt-BR contemporâneo"
+        },
+        {
+          "opcao": "músico-mor (tradição Almeida)",
+          "motivo": "arcaizante, título de corte sem uso vivo"
+        }
+      ]
+    },
+    {
+      "questao": "Como verter הַגִּתִּית (termo técnico ligado a גַּת, sem tradução consensual: instrumento gitita, melodia associada a Gate, ou o lagar)?",
+      "escolha": "transliteração 'gitite'",
+      "justificativa": "Termo técnico sem tradição consolidada em português; EDITORIAL §8/9 prescreve transliteração simplificada quando não há forma corrente estabelecida.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "harpa/instrumento de Gate",
+          "motivo": "tradução interpretativa não sustentada com segurança pela morfologia"
+        },
+        {
+          "opcao": "lagar (relação com גַּת 'lagar')",
+          "motivo": "etimologia popular especulativa, sem consenso lexicográfico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "גִּתִּית permanece de sentido técnico incerto (instrumento, melodia ou lugar); a BV preserva a transliteração sem dirimir a ambiguidade."
+  ],
+  "justificativa": "Cabeçalho técnico-musical, padrão nos títulos de salmos; estrutura preposicional (לַ.../עַל.../לְ...) preservada na literal.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

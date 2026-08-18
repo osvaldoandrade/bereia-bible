@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.100.5",
+    "livro": "Salmos",
+    "capitulo": 100,
+    "versiculo": 5,
+    "pericope": "Ps.100.1-5"
+  },
+  "texto_bv": "Porque o SENHOR é bom; o seu amor leal dura para sempre, e a sua fidelidade, de geração em geração.",
+  "traducao_literal": "Porque bom é o SENHOR; para sempre o seu amor leal; e até geração e geração a sua fidelidade.",
+  "termos_originais": [
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ט֣וֹב",
+      "lemma": "2896 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "יְ֭הֹוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לְעוֹלָ֣ם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "חַסְדּ֑וֹ",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וְעַד",
+      "lemma": "c/5704",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "דֹּ֥ר",
+      "lemma": "1755",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וָ֝דֹ֗ר",
+      "lemma": "c/1755",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "אֱמוּנָתֽוֹ",
+      "lemma": "530",
+      "morfologia": "HNcfsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "כִּי־טוֹב יְהֹוָה — ordem predicado-sujeito (adjetivo fronteado antes do nome divino)",
+      "escolha": "naturalizar para 'o SENHOR é bom' no publicado; a literal preserva 'bom é o SENHOR'",
+      "justificativa": "ER-0013: o calque de ordem (predicado antes do sujeito) é preservado na traducao_literal; o publicado usa a ordem predicativa natural do português (sujeito-cópula-predicado).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'bom é o SENHOR' também no publicado",
+          "motivo": "soa poético-arcaizante para o registro formal-neutro exigido (EDITORIAL §1.2)"
+        }
+      ]
+    },
+    {
+      "questao": "Duas orações nominais paralelas sem cópula/verbo (לְעוֹלָם חַסְדּוֹ / וְעַד־דֹּר וָדֹר אֱמוּנָתוֹ)",
+      "escolha": "suprir o verbo 'dura', elidido na segunda oração por coordenação natural em português",
+      "justificativa": "O hebraico não tem verbo copulativo nessas cláusulas nominais; o português exige um verbo para ser gramatical (EDITORIAL §4). Repetir 'dura' nas duas orações soaria redundante; a elisão na segunda cláusula é coordenação natural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "usar 'é' em vez de 'dura'",
+          "motivo": "'dura' capta melhor o sentido de permanência temporal de חֶסֶד/אֱמוּנָה do que a cópula neutra 'é'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "dura (verbo elíptico nas duas orações nominais paralelas: 'o seu amor leal [dura] para sempre' / 'a sua fidelidade [dura], de geração em geração')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula consagrada de louvor (חֶסֶד 'amor leal' + אֱמוּנָה 'fidelidade'), motivação final do salmo; primeira ocorrência deste par no corpus já traduzido, com glosas de חֶסֶד ('amor leal', cf. Sl 36:6) e אֱמוּנָה ('fidelidade', cf. Sl 36:6, 40:11) herdadas por consistência terminológica (EDITORIAL §11).",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

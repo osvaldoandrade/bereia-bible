@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Zech.11.1",
+    "livro": "Zacarias",
+    "capitulo": 11,
+    "versiculo": 1,
+    "pericope": "Zech.11.1-17"
+  },
+  "texto_bv": "Abra, Líbano, as suas portas, e o fogo devorará os seus cedros.",
+  "traducao_literal": "Abre, Líbano, tuas portas; e coma fogo em teus cedros.",
+  "termos_originais": [
+    {
+      "palavra": "פְּתַ֥ח",
+      "lemma": "6605 a",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "לְבָנ֖וֹן",
+      "lemma": "3844",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "דְּלָתֶ֑יךָ",
+      "lemma": "1817 c",
+      "morfologia": "HNcfdc/Sp2ms"
+    },
+    {
+      "palavra": "וְתֹאכַ֥ל",
+      "lemma": "c/398",
+      "morfologia": "HC/Vqi3fs"
+    },
+    {
+      "palavra": "אֵ֖שׁ",
+      "lemma": "784",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "בַּאֲרָזֶֽיךָ",
+      "lemma": "b/730",
+      "morfologia": "HR/Ncmpc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pronome de tratamento na apóstrofe ao Líbano (2ms, não humano, não oração)",
+      "escolha": "você/vocês (extensão do padrão ER-0003 à apóstrofe poética a entidade não humana)",
+      "justificativa": "ER-0003 prevê você/vocês para discurso comum e tu apenas para oração a Deus; a apóstrofe ao Líbano se aproxima mais do discurso comum do que do litúrgico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu/teus (2ms poético)",
+          "motivo": "reservado por ER-0003 à oração dirigida a Deus"
+        },
+        {
+          "opcao": "vós (2mp arcaico)",
+          "motivo": "arcaísmo funcionalmente morto, proibido por EDITORIAL §1.2"
+        }
+      ]
+    },
+    {
+      "questao": "וְתֹאכַל אֵשׁ (imperfeito) — futuro simples ou propósito",
+      "escolha": "futuro simples 'devorará'",
+      "justificativa": "O paralelismo com o v.2 (perfeitos descritivos de juízo) favorece leitura de consequência direta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'para que o fogo devore' (final)",
+          "motivo": "gramaticalmente possível, mas menos natural no anúncio oracular"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura oracular de juízo contra o Líbano, endereçada em segunda pessoa; optou-se por você/vocês por extensão do padrão editorial, preservando tu/vós apenas para a literal quando útil à auditoria.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

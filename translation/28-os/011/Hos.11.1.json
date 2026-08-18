@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.11.1",
+    "livro": "Oseias",
+    "capitulo": 11,
+    "versiculo": 1,
+    "pericope": "Hos.11.1-11"
+  },
+  "texto_bv": "Quando Israel era menino, eu o amei, e do Egito chamei o meu filho.",
+  "traducao_literal": "Porque Israel [era] menino, e eu o amei; e do Egito chamei a meu filho.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֛י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "נַ֥עַר",
+      "lemma": "5288",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֖ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וָאֹהֲבֵ֑הוּ",
+      "lemma": "c/157",
+      "morfologia": "HC/Vqw1cs/Sp3ms"
+    },
+    {
+      "palavra": "וּמִמִּצְרַ֖יִם",
+      "lemma": "c/m/4714",
+      "morfologia": "HC/R/Np"
+    },
+    {
+      "palavra": "קָרָ֥אתִי",
+      "lemma": "7121",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "לִבְנִֽי",
+      "lemma": "l/1121 a",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Valor de כִּי inicial: causal ('porque') ou temporal ('quando')?",
+      "escolha": "temporal 'quando'",
+      "justificativa": "נַעַר (menino/jovem) sinaliza fase da vida; o paralelismo com a ação subsequente ('eu o amei') lê melhor como marcação temporal do início da relação, sentido amplamente atestado para כִּי. A literal preserva o valor básico 'porque' para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "porque (causal)",
+          "motivo": "gramaticalmente possível, mas produz leitura menos natural em português corrido; preservado na traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "קָרָאתִי לִבְנִי: 'chamei meu filho' (objeto direto) ou 'chamei a/para meu filho' (dativo)?",
+      "escolha": "chamei o meu filho",
+      "justificativa": "Construção קרא + ל com sentido de convocar/chamar; verte-se naturalmente como objeto direto em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "chamei para meu filho",
+          "motivo": "mais literal mas soa estranho como frase-alvo do texto publicado; preservado na literal com 'a meu filho'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "era"
+  ],
+  "ambiguidades_preservadas": [
+    "כִּי pode ser lido como causal ('porque') em vez de temporal; ambas leituras são gramaticalmente sustentáveis"
+  ],
+  "justificativa": "Verso de abertura estabelece a metáfora de Israel como filho amado, chamado do Egito; verbo וָאֹהֲבֵהוּ (wayyiqtol 1cs + sufixo) e קָרָאתִי (qatal 1cs) sem ambiguidade lexical relevante.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

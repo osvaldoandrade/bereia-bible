@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.98.8",
+    "livro": "Salmos",
+    "capitulo": 98,
+    "versiculo": 8,
+    "pericope": "Ps.98.1-9"
+  },
+  "texto_bv": "Os rios batam palmas; os montes cantem de júbilo juntos.",
+  "traducao_literal": "Rios batam palmas; juntos, montes cantem de júbilo.",
+  "termos_originais": [
+    {
+      "palavra": "נְהָר֥וֹת",
+      "lemma": "5104",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יִמְחֲאוּ",
+      "lemma": "4222",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "כָ֑ף",
+      "lemma": "3709",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "יַ֝֗חַד",
+      "lemma": "3162 a",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "הָרִ֥ים",
+      "lemma": "2022",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יְרַנֵּֽנוּ",
+      "lemma": "7442 b",
+      "morfologia": "HVpi3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Idiomatismo de יִמְחֲאוּ־כָף (lit. 'bater a palma da mão')",
+      "escolha": "'batam palmas'",
+      "justificativa": "Idiotismo consolidado em português com o mesmo sentido gestual do hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'batam com a mão'",
+          "motivo": "não corresponde ao idiotismo natural em português"
+        }
+      ]
+    },
+    {
+      "questao": "Posição de יַחַד (advérbio fronteado antes de הָרִים)",
+      "escolha": "reposicionar 'juntos' após 'os montes' no publicado ('os montes cantem de júbilo juntos')",
+      "justificativa": "Soa mais natural na sintaxe do português; a posição fronteada é preservada na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'juntos os montes' no publicado",
+          "motivo": "soa como calque de ordem, contrariando EDITORIAL §6 (pontuação/sintaxe segue o português)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Ordem já S-V no hebraico (נְהָרוֹת antes do verbo), sem necessidade de normalização; advérbio יַחַד reposicionado no publicado por naturalidade sintática, preservado na posição original na literal.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

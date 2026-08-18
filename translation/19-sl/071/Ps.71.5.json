@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.71.5",
+    "livro": "Salmos",
+    "capitulo": 71,
+    "versiculo": 5,
+    "pericope": "Ps.71.1-24"
+  },
+  "texto_bv": "Pois tu és a minha esperança, Senhor DEUS, a minha confiança desde a minha juventude.",
+  "traducao_literal": "Porque tu és minha esperança, Senhor DEUS, minha confiança desde minha juventude.",
+  "termos_originais": [
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אַתָּ֥ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "תִקְוָתִ֑י",
+      "lemma": "8615 b",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "אֲדֹנָ֥י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְ֝הוִ֗ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִבְטַחִ֥י",
+      "lemma": "4009",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "מִנְּעוּרָֽי",
+      "lemma": "m/5271 a",
+      "morfologia": "HR/Ncbpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲדֹנָי יְהוִה (H136 + H3069, pontuação de יהוה usada após אֲדֹנָי para evitar repetir \"Senhor Senhor\").",
+      "escolha": "\"Senhor DEUS\", conforme a entrada de combinação da política NOMES-DIVINOS (ER-0002).",
+      "justificativa": "H3069 é a vocalização marcada do Tetragrama (com vogais de אֱלֹהִים) usada precisamente quando precedida de אֲדֹנָי; consonantalmente é o mesmo YHWH de H3068, coberto pela mesma entrada de combo da tabela.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Senhor SENHOR\"",
+          "motivo": "a própria política NOMES-DIVINOS rejeita essa forma por redundância tipográfica estranha ao pt-BR."
+        },
+        {
+          "opcao": "\"SENHOR Deus\"",
+          "motivo": "inverte a ordem sintática do hebraico (אֲדֹנָי vem primeiro) e não segue a tabela ratificada."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Declaração de confiança com o par divino Adonai+YHWH; sem variantes no packet.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

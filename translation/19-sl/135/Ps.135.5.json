@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.135.5",
+    "livro": "Salmos",
+    "capitulo": 135,
+    "versiculo": 5,
+    "pericope": "Ps.135.1-21"
+  },
+  "texto_bv": "Porque eu sei que o SENHOR é grande, e o nosso Senhor está acima de todos os deuses.",
+  "traducao_literal": "Porque eu sei que-grande SENHOR, e-Senhor-nosso mais-que-todo deuses.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֲנִ֣י",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "יָ֭דַעְתִּי",
+      "lemma": "3045",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "גָד֣וֹל",
+      "lemma": "1419 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַ֝אֲדֹנֵ֗ינוּ",
+      "lemma": "c/136",
+      "morfologia": "HC/Ncmpc/Sp1cp"
+    },
+    {
+      "palavra": "מִכָּל",
+      "lemma": "m/3605",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אֱלֹהִֽים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲדֹנֵינוּ (H136 + sufixo 1cp, plural morfológico 'nossos senhores'): como verter, dado que NOMES-DIVINOS lista H136 → 'Senhor' no singular?",
+      "escolha": "'Nosso Senhor', tratando o plural morfológico como plural de majestade (mesmo padrão de אֱלֹהִים), sem concordância plural em português.",
+      "justificativa": "Coerente com a política NOMES-DIVINOS (H136→Senhor) e com o tratamento já dado a plurais morfológicos de referente singular (H430).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Nossos senhores' (plural)",
+          "motivo": "introduziria leitura politeísta ausente do hebraico — plural morfológico de majestade, não plural referencial"
+        }
+      ]
+    },
+    {
+      "questao": "אֱלֹהִים no final do verso ('mais que todo(s) __'): referente é 'Deus' (Israel) ou 'deuses' (plural genérico, comparativo)?",
+      "escolha": "'Deuses' (plural genérico), dado o comparativo מִכָּל־ ('mais que todos os') que exige múltiplos referentes distintos do SENHOR.",
+      "justificativa": "TEOLOGIA §2/lexicon H430: 'deuses' cabe quando o contexto (aqui, a comparação explícita) indica referente plural, não o Deus de Israel.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Confissão de fé em primeira pessoa (אֲנִי יָדַעְתִּי) sobre a grandeza incomparável do SENHOR, tema retomado nos vv.15-18 (contraste com os ídolos).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Nah.1.2",
+    "livro": "Naum",
+    "capitulo": 1,
+    "versiculo": 2,
+    "pericope": "Nah.1.1-14"
+  },
+  "texto_bv": "O SENHOR é Deus zeloso e vingador; o SENHOR é vingador e cheio de furor; o SENHOR vinga-se dos seus adversários e guarda ira contra os seus inimigos.",
+  "traducao_literal": "Deus zeloso e vingador, o SENHOR; vingador o SENHOR e senhor de furor; vingador o SENHOR para os seus adversários, e guardador ele para os seus inimigos.",
+  "termos_originais": [
+    {
+      "palavra": "אֵ֣ל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "קַנּ֤וֹא",
+      "lemma": "7072",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְנֹקֵם֙",
+      "lemma": "c/5358",
+      "morfologia": "HC/Vqrmsa"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "נֹקֵ֥ם",
+      "lemma": "5358",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּבַ֣עַל",
+      "lemma": "c/1167",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "חֵמָ֑ה",
+      "lemma": "2534",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "נֹקֵ֤ם",
+      "lemma": "5358",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "יְהוָה֙",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לְצָרָ֔יו",
+      "lemma": "l/6862 c",
+      "morfologia": "HR/Ncmpc/Sp3ms"
+    },
+    {
+      "palavra": "וְנוֹטֵ֥ר",
+      "lemma": "c/5201",
+      "morfologia": "HC/Vqrmsa"
+    },
+    {
+      "palavra": "ה֖וּא",
+      "lemma": "1931",
+      "morfologia": "HPp3ms"
+    },
+    {
+      "palavra": "לְאֹיְבָֽיו",
+      "lemma": "l/341",
+      "morfologia": "HR/Vqrmpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "repetição tríplice de נֹקֵם יְהוָה no versículo",
+      "escolha": "preservar as três ocorrências no texto publicado, sem condensar",
+      "justificativa": "a repetição é recurso retórico intensificador (não mera redundância informativa de sujeito), estrutural à abertura hínica; ER-0013 permite condensar repetição formular quando redundante — aqui ela é constitutiva do efeito poético e foi mantida.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "condensar para uma única menção de 'vingador'",
+          "motivo": "apagaria a ênfase martelada, característica da abertura do livro"
+        }
+      ]
+    },
+    {
+      "questao": "קַנּוֹא (H7072) — 'zeloso' vs. 'ciumento'",
+      "escolha": "\"zeloso\"",
+      "justificativa": "termo teológico consolidado para a exclusividade da aliança (cf. Êx 20.5; 34.14); 'ciumento' carrega em português contemporâneo conotação pejorativa de fraqueza moral ausente no original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ciumento",
+          "motivo": "lexicalmente possível, mas o registro atual da palavra introduz conotação negativa não pretendida"
+        }
+      ]
+    },
+    {
+      "questao": "בַּעַל חֵמָה — idiotismo 'senhor/possuidor de furor'",
+      "escolha": "\"cheio de furor\"",
+      "justificativa": "idiotismo hebraico vertido pelo valor idiomático em português; a estrutura de posse é preservada na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "senhor de furor (calque)",
+          "motivo": "soa ambíguo em português corrente, podendo sugerir título em vez de estado emocional"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ira (objeto elíptico de נוֹטֵר, retomado por paralelismo de חֵמָה no mesmo versículo)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura hínica que descreve o caráter vingador-justo do SENHOR por meio de repetição martelada de נֹקֵם; a tradução preserva a tríplice menção do nome divino como recurso retórico intencional.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

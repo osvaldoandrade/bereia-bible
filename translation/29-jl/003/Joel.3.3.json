@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Joel.3.3",
+    "livro": "Joel",
+    "capitulo": 3,
+    "versiculo": 3,
+    "pericope": "Joel.3.1-5"
+  },
+  "texto_bv": "Darei prodígios nos céus e na terra: sangue, fogo e colunas de fumaça.",
+  "traducao_literal": "E darei prodígios nos céus e na terra: sangue e fogo e colunas de fumaça.",
+  "termos_originais": [
+    {
+      "palavra": "וְנָֽתַתִּי֙",
+      "lemma": "c/5414",
+      "morfologia": "HC/Vqq1cs"
+    },
+    {
+      "palavra": "מֽוֹפְתִ֔ים",
+      "lemma": "4159",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "בַּשָּׁמַ֖יִם",
+      "lemma": "b/8064",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "וּבָאָ֑רֶץ",
+      "lemma": "c/b/776",
+      "morfologia": "HC/Rd/Ncbsa"
+    },
+    {
+      "palavra": "דָּ֣ם",
+      "lemma": "1818",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וָאֵ֔שׁ",
+      "lemma": "c/784",
+      "morfologia": "HC/Ncbsa"
+    },
+    {
+      "palavra": "וְתִֽימֲר֖וֹת",
+      "lemma": "c/8490",
+      "morfologia": "HC/Ncfpc"
+    },
+    {
+      "palavra": "עָשָֽׁן",
+      "lemma": "6227",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מוֹפְתִים — 'prodígios' vs 'sinais' vs 'maravilhas'",
+      "escolha": "prodígios",
+      "justificativa": "מוֹפֵת enfatiza o caráter extraordinário/portentoso do fenômeno, distinto de אוֹת ('sinal', mais genérico) e de נִפְלָאוֹת ('maravilhas', lexema distinto).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sinais",
+          "motivo": "termo tipicamente reservado a אוֹת no corpus"
+        },
+        {
+          "opcao": "maravilhas",
+          "motivo": "aproxima indevidamente de נִפְלָאוֹת"
+        }
+      ]
+    },
+    {
+      "questao": "Polissíndeto דָּם וָאֵשׁ וְתִימֲרוֹת עָשָׁן",
+      "escolha": "lista com vírgulas no publicado ('sangue, fogo e colunas de fumaça'); waw integral preservado na literal",
+      "justificativa": "Doutrina do calque (ER-0013): a repetição de 'e' entre os três itens soa artificial em enumeração pt-BR; a literal mantém o polissíndeto para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'e' repetido no publicado ('sangue e fogo e colunas de fumaça')",
+          "motivo": "produz cadência estranha em prosa pt-BR corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso curto, lexicalmente direto; único ponto de julgamento é a glosa de מוֹפֵת e a normalização do polissíndeto (ER-0013) entre publicado e literal.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

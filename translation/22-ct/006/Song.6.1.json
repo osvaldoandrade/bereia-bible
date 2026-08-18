@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.6.1",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 6,
+    "versiculo": 1,
+    "pericope": "Song.6.1-12"
+  },
+  "texto_bv": "Para onde foi o seu amado, ó mais bela entre as mulheres? Para onde se virou o seu amado, para que o busquemos com você?",
+  "traducao_literal": "Para onde foi o teu amado, a bela entre as mulheres? Para onde se voltou o teu amado, e o buscaremos contigo?",
+  "termos_originais": [
+    {
+      "palavra": "אָ֚נָה",
+      "lemma": "575",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "הָלַ֣ךְ",
+      "lemma": "1980",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "דּוֹדֵ֔ךְ",
+      "lemma": "1730",
+      "morfologia": "HNcmsc/Sp2fs"
+    },
+    {
+      "palavra": "הַיָּפָ֖ה",
+      "lemma": "d/3303",
+      "morfologia": "HTd/Aafsa"
+    },
+    {
+      "palavra": "בַּנָּשִׁ֑ים",
+      "lemma": "b/802",
+      "morfologia": "HRd/Ncfpa"
+    },
+    {
+      "palavra": "אָ֚נָה",
+      "lemma": "575",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "פָּנָ֣ה",
+      "lemma": "6437",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "דוֹדֵ֔ךְ",
+      "lemma": "1730",
+      "morfologia": "HNcmsc/Sp2fs"
+    },
+    {
+      "palavra": "וּנְבַקְשֶׁ֖נּוּ",
+      "lemma": "c/1245",
+      "morfologia": "HC/Vpi1cp/Sp3ms"
+    },
+    {
+      "palavra": "עִמָּֽךְ",
+      "lemma": "5973 a",
+      "morfologia": "HR/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Segunda pessoa no discurso das companheiras à amada",
+      "escolha": "você/seu",
+      "justificativa": "EDITORIAL §3 / ER-0003: discurso entre humanos usa você/vocês; tu fica reservado à oração dirigida a Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu/teu",
+          "motivo": "arcaizante fora do registro litúrgico; ER-0003 reserva tu à oração dirigida a Deus"
+        }
+      ]
+    },
+    {
+      "questao": "הַיָּפָה בַּנָּשִׁים — artigo definido + adjetivo + בְּ, sem morfologia superlativa sintética",
+      "escolha": "'a mais bela entre as mulheres' no texto publicado",
+      "justificativa": "A construção hebraica não é um superlativo sintético, mas funciona convencionalmente como vocativo de louvor superlativo no gênero waṣf do Cântico; a traducao_literal preserva a forma não-superlativa ('a bela entre as mulheres').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a bela entre as mulheres' também no publicado",
+          "motivo": "soa como identificação neutra, não como o vocativo de admiração que o contexto exige"
+        }
+      ]
+    },
+    {
+      "questao": "וּנְבַקְשֶׁנּוּ — imperfeito 1cp com waw após a pergunta",
+      "escolha": "'para que o busquemos' (oração final)",
+      "justificativa": "O imperfeito 1cp funciona aqui como proposta de ação conjunta ligada ao pedido de direção, mais natural em português como oração final do que como futuro coordenado solto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e o buscaremos' (futuro coordenado)",
+          "motivo": "preservado na traducao_literal; no publicado a leitura final é mais idiomática"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "הַיָּפָה בַּנָּשִׁים pode ler-se como identificação simples ('tu, a bela entre as mulheres') ou como vocativo de superlativo relativo ('ó mais bela'); a BV adota a leitura vocativa convencional sem apagar a base gramatical mais simples, preservada na traducao_literal."
+  ],
+  "justificativa": "Pergunta das companheiras à mulher, retomando o refrão de busca do amado (cf. Ct 3:1-4); dificuldade concentrada na fórmula de superlativo היפה בנשים, sem crux lexical relevante além disso.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

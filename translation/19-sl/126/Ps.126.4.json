@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.126.4",
+    "livro": "Salmos",
+    "capitulo": 126,
+    "versiculo": 4,
+    "pericope": "Ps.126.1-6"
+  },
+  "texto_bv": "Restaura, SENHOR, a nossa sorte, como os ribeiros no Neguebe.",
+  "traducao_literal": "Volta, SENHOR, a nossa volta, como os canais no Neguebe.",
+  "termos_originais": [
+    {
+      "palavra": "שׁוּבָ֣ה",
+      "lemma": "7725",
+      "morfologia": "HVqv2ms/Sh"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "שבותנו",
+      "lemma": "7622",
+      "morfologia": "HNcfsc/Sp1cp"
+    },
+    {
+      "palavra": "כַּאֲפִיקִ֥ים",
+      "lemma": "k/650",
+      "morfologia": "HR/Ncmpa"
+    },
+    {
+      "palavra": "בַּנֶּֽגֶב",
+      "lemma": "b/5045",
+      "morfologia": "HRd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de 2ª pessoa em שׁוּבָה (imperativo dirigido a Deus)",
+      "escolha": "'tu' implícito no imperativo informal ('restaura')",
+      "justificativa": "EDITORIAL §3 / D-0003: oração dirigida a Deus usa 'tu'; forma verbal de imperativo compatível.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Palavra שבותנו (H7622) registrada SEM vocalização no packet fonte pinado, ao contrário de todas as demais palavras do capítulo (plenamente pontuadas com nikkud e teamim) — fenômeno clássico de ketiv/qere neste versículo",
+      "escolha": "ler como qere שְׁבוּתֵנוּ, 'a nossa sorte/restauração', cognato de שִׁיבַת (H7870) já adjudicado em 126:1",
+      "justificativa": "Consistência terminológica com a decisão de 126:1 sobre o idiom שוב שבות; o ketiv שְׁבִיתֵנוּ ('nosso cativeiro') permanece leitura textualmente possível e é registrado como ambiguidade preservada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ketiv שְׁבִיתֵנוּ, 'os nossos cativos'",
+          "motivo": "leitura mais literal-consonantal, porém quebraria a consistência com o idiom já fixado em 126:1 e quanto o hebraico grafa sem vogais precisamente por essa dualidade tradicional"
+        }
+      ]
+    },
+    {
+      "questao": "Figura etimológica שׁוּבָה ... שְׁבוּתֵנוּ (mesma raiz שוב repetida)",
+      "escolha": "traducao_literal preserva o trocadilho de raiz ('Volta... a nossa volta'); publicado normaliza para 'Restaura... a nossa sorte'",
+      "justificativa": "Doutrina do calque ER-0013: repetição formular/figura de raiz preservada na literal, normalizada no texto publicado por soar artificial em português corrente.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "כַּאֲפִיקִים בַּנֶּגֶב",
+      "escolha": "'como os ribeiros no Neguebe' (topônimo consolidado, não traduzido como 'sul' genérico)",
+      "justificativa": "אָפִיק designa leito/canal de água sazonal; com artigo definido הַנֶּגֶב refere-se à região árida específica de Israel, tratada como topônimo (EDITORIAL §8).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'como as correntes no sul'",
+          "motivo": "trata נֶגֶב como direção comum, perdendo a referência geográfica específica pretendida pela imagem (torrentes sazonais do Neguebe)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "שבותנו sem vocalização no packet pinado admite a leitura ketiv 'nosso cativeiro' além da leitura qere adotada 'nossa sorte/restauração'."
+  ],
+  "justificativa": "Imperativo em oração dirigida a Deus (registro tu); crux ketiv/qere adjudicada por consistência com 126:1; figura etimológica preservada na literal.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

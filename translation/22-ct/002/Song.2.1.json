@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.2.1",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 2,
+    "versiculo": 1,
+    "pericope": "Song.2.1-17"
+  },
+  "texto_bv": "Eu sou a rosa de Sarom, o lírio dos vales.",
+  "traducao_literal": "Eu, rosa de Sarom, lírio dos vales.",
+  "termos_originais": [
+    {
+      "palavra": "אֲנִי֙",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "חֲבַצֶּ֣לֶת",
+      "lemma": "2261",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "הַשָּׁר֔וֹן",
+      "lemma": "d/8289",
+      "morfologia": "HTd/Np"
+    },
+    {
+      "palavra": "שֽׁוֹשַׁנַּ֖ת",
+      "lemma": "7799",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "הָעֲמָקִֽים",
+      "lemma": "d/6010",
+      "morfologia": "HTd/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de חֲבַצֶּלֶת (H2261), identificação botânica incerta.",
+      "escolha": "rosa de Sarom (glosa tradicional consolidada em português).",
+      "justificativa": "Sem consenso lexicográfico sobre a espécie (rosa, narciso, açafrão-do-campo, asfódelo); a glosa consolidada evita afirmar identificação botânica não recuperável do lexema isolado, mantendo registro poético reconhecível.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "narciso de Sarom",
+          "motivo": "proposta lexicográfica moderna (Narcissus tazetta), não consolidada em português bíblico."
+        },
+        {
+          "opcao": "açafrão-do-campo/crocus",
+          "motivo": "outra proposta botânica moderna, também sem consenso; introduziria termo pouco reconhecível ao leitor."
+        }
+      ]
+    },
+    {
+      "questao": "Oração nominal hebraica sem cópula.",
+      "escolha": "Suprir \"sou\" no texto publicado; manter a justaposição nominal na tradução literal.",
+      "justificativa": "Português é agramatical sem verbo de ligação (EDITORIAL §4); o hebraico não tem verbo 'ser' no presente.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "sou"
+  ],
+  "ambiguidades_preservadas": [
+    "Identificação botânica de חֲבַצֶּלֶת (rosa, narciso, açafrão-do-campo, asfódelo) permanece indeterminada; a BV usa a glosa consolidada sem afirmar a espécie."
+  ],
+  "justificativa": "Verso de abertura, autodescrição da amada em fórmula floral; oração nominal bimembre sem verbo, resolvida com cópula suprida no publicado.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

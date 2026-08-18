@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.30.4",
+    "livro": "Salmos",
+    "capitulo": 30,
+    "versiculo": 4,
+    "pericope": "Ps.30.1-13"
+  },
+  "texto_bv": "SENHOR, fizeste subir a minha vida do Seol; vivificaste-me dentre os que descem ao poço.",
+  "traducao_literal": "SENHOR, fizeste subir do Seol a minha vida; vivificaste-me dentre os que descem ao poço.",
+  "termos_originais": [
+    {
+      "palavra": "יְֽהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הֶֽעֱלִ֣יתָ",
+      "lemma": "5927",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "מִן",
+      "lemma": "4480 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "שְׁא֣וֹל",
+      "lemma": "7585",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "נַפְשִׁ֑י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "חִ֝יִּיתַ֗נִי",
+      "lemma": "2421",
+      "morfologia": "HVpp2ms/Sp1cs"
+    },
+    {
+      "palavra": "מיורדי",
+      "lemma": "m/3381",
+      "morfologia": "HR/Vqrmpc"
+    },
+    {
+      "palavra": "בֽוֹר",
+      "lemma": "953 a",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "נֶפֶשׁ — 'vida' ou 'alma'?",
+      "escolha": "'vida'",
+      "justificativa": "No contexto de resgate da morte/Seol, 'vida' comunica a preservação da existência sem importar categorias posteriores de 'alma' (psyché) estranhas ao hebraico bíblico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'alma'",
+          "motivo": "glosa tradicional válida, mas arrisca leitura dualista corpo/alma anacrônica; TEOLOGIA §2 pede valor lexical sem concordismo doutrinário"
+        }
+      ]
+    },
+    {
+      "questao": "בּוֹר (H953a, 'poço/cisterna', v.4) vs. שַׁחַת (H7845, 'cova', v.10) — mesma glosa portuguesa ou distinta?",
+      "escolha": "distinta: 'poço' (v.4) e 'cova' (v.10)",
+      "justificativa": "São lexemas hebraicos diferentes no mesmo campo semântico (morte/sepultura); glosas distintas preservam a granularidade auditável exigida por EDITORIAL §11.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'cova' para ambos",
+          "motivo": "simplifica a leitura, mas apaga a distinção lexical rastreável entre H953a e H7845"
+        }
+      ]
+    },
+    {
+      "questao": "מיורדי grafado sem sinais vocálicos no packet, diferente das demais palavras do versículo (todas pontuadas) — provável Ketiv/Qere massorético",
+      "escolha": "traduzido conforme a análise morfológica fornecida (leitura Qere: מ + particípio qal de ירד, 'os que descem')",
+      "justificativa": "A grafia consonantal isolada, sem te'amim/niqqud, é o padrão do WLC/OSHB para o Ketiv quando a vocalização segue o Qere; a morfologia do packet (HR/Vqrmpc) já reflete a leitura Qere adotada, sem impacto no sentido português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sinalizar como lacuna/erro de dados",
+          "motivo": "o packet fornece lema e morfologia completos para a palavra; é fenômeno textual massorético conhecido, não corrupção de dados"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Paralelismo sinonímico com o v.2 (resgate/cura); mantida distinção lexical dos termos 'poço/cova' para auditoria.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

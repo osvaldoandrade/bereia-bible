@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.49.14",
+    "livro": "Isaías",
+    "capitulo": 49,
+    "versiculo": 14,
+    "pericope": "Isa.49.1-26"
+  },
+  "texto_bv": "Mas Sião disse: \"O SENHOR me abandonou, e o Senhor esqueceu-me.\"",
+  "traducao_literal": "E disse Sião: \"Abandonou-me o SENHOR, e o Senhor esqueceu-me.\"",
+  "termos_originais": [
+    {
+      "palavra": "וַתֹּ֥אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3fs"
+    },
+    {
+      "palavra": "צִיּ֖וֹן",
+      "lemma": "6726",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עֲזָבַ֣נִי",
+      "lemma": "5800 a",
+      "morfologia": "HVqp3ms/Sp1cs"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַאדֹנָ֖י",
+      "lemma": "c/136",
+      "morfologia": "HC/Ncmpc/Sp1cs"
+    },
+    {
+      "palavra": "שְׁכֵחָֽנִי",
+      "lemma": "7911",
+      "morfologia": "HVqp3ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Distinção tipográfica יְהוָה (SENHOR, caixa alta) vs. אֲדֹנָי com sufixo 1cs (Senhor, caixa mista) na mesma linha",
+      "escolha": "Manter a distinção SENHOR/Senhor conforme NOMES-DIVINOS v1.0.0",
+      "justificativa": "Política de nomes divinos exige distinguir graficamente YHWH (H3068) de Adonai (H136); aqui os dois termos ocorrem em paralelismo sinonímico no mesmo verso, e a distinção tipográfica é a única forma de auditar qual lema corresponde a cada ocorrência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uniformizar para 'SENHOR' nas duas ocorrências",
+          "motivo": "apagaria a distinção lexical entre יהוה e אדני presente no hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Mas (conector adversativo marcando a virada de tom entre o hino de 49.13 e a queixa de Sião)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Wayyiqtol narrativo (וַתֹּאמֶר) com sujeito explícito 'Sião'; ordem S-V já corresponde ao hebraico aqui (Sião é o sujeito nomeado).",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

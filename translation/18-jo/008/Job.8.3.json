@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.8.3",
+    "livro": "Jó",
+    "capitulo": 8,
+    "versiculo": 3,
+    "pericope": "Job.8.1-22"
+  },
+  "texto_bv": "Acaso Deus perverte o direito, ou o Todo-Poderoso perverte a justiça?",
+  "traducao_literal": "Acaso o Deus perverte o direito? E se o Todo-Poderoso perverte a justiça?",
+  "termos_originais": [
+    {
+      "palavra": "הַ֭אֵל",
+      "lemma": "i/410",
+      "morfologia": "HTi/Ncmsa"
+    },
+    {
+      "palavra": "יְעַוֵּ֣ת",
+      "lemma": "5791",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "מִשְׁפָּ֑ט",
+      "lemma": "4941",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְאִם",
+      "lemma": "c/518 a",
+      "morfologia": "HC/C"
+    },
+    {
+      "palavra": "שַׁ֝דַּ֗י",
+      "lemma": "7706",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יְעַוֵּֽת",
+      "lemma": "5791",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "צֶֽדֶק",
+      "lemma": "6664",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter שַׁדַּי quando ocorre isolado, sem o composto אֵל שַׁדַּי?",
+      "escolha": "'Todo-Poderoso', estendendo o segundo elemento da glosa composta de NOMES-DIVINOS.md ('Deus Todo-Poderoso') às ocorrências isoladas do epíteto, frequentes em Jó.",
+      "justificativa": "NOMES-DIVINOS.md só tabula o composto; a extensão evita duplicar 'Deus' para אֵל e שַׁדַּי no mesmo paralelismo, apagando a distinção lexical do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Shaddai'",
+          "motivo": "quebra a convenção de nomes divinos em português corrente adotada pela BV, análoga à rejeição de 'Javé' em ER-0002"
+        },
+        {
+          "opcao": "'Deus' também para שַׁדַּי",
+          "motivo": "colide com 'Deus' já usado para אֵל na mesma linha paralela"
+        }
+      ]
+    },
+    {
+      "questao": "Como diferenciar מִשְׁפָּט e צֶדֶק no mesmo par sinonímico?",
+      "escolha": "'direito' para מִשְׁפָּט e 'justiça' para צֶדֶק.",
+      "justificativa": "Consistência terminológica (EDITORIAL §11): colapsar os dois lemas em 'justiça' apagaria o paralelismo sinonímico intencional do verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'justiça' para os dois termos",
+          "motivo": "trata dois lemas hebraicos distintos como um só, apagando a distinção lexical"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Acaso"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Pergunta retórica com resposta implícita negativa; abre o argumento teológico de Bildade sobre a justiça divina.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

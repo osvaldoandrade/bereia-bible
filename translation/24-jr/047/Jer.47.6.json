@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.47.6",
+    "livro": "Jeremias",
+    "capitulo": 47,
+    "versiculo": 6,
+    "pericope": "Jer.47.1-7"
+  },
+  "texto_bv": "Ah, espada do SENHOR! Até quando você não se aquietará? Recolha-se à sua bainha; sossegue e cale-se.",
+  "traducao_literal": "Ah, espada para o SENHOR! Até quando não te aquietarás? Recolhe-te à tua bainha; aquieta-te e cala-te.",
+  "termos_originais": [
+    {
+      "palavra": "ה֗וֹי",
+      "lemma": "1945",
+      "morfologia": "HTj"
+    },
+    {
+      "palavra": "חֶ֚רֶב",
+      "lemma": "2719",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "לַֽיהוָ֔ה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אָ֖נָה",
+      "lemma": "575",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תִשְׁקֹ֑טִי",
+      "lemma": "8252",
+      "morfologia": "HVqi2fs"
+    },
+    {
+      "palavra": "הֵאָֽסְפִי֙",
+      "lemma": "622",
+      "morfologia": "HVNv2fs"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "413",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תַּעְרֵ֔ךְ",
+      "lemma": "8593",
+      "morfologia": "HNcbsc/Sp2fs"
+    },
+    {
+      "palavra": "הֵרָגְעִ֖י",
+      "lemma": "7280 b",
+      "morfologia": "HVNv2fs"
+    },
+    {
+      "palavra": "וָדֹֽמִּי",
+      "lemma": "c/1826 a",
+      "morfologia": "HC/Vqv2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pontuação massorética אַל (negação) vs. sentido exigido אֶל ('para dentro de') antes de תַּעְרֵךְ",
+      "escolha": "recolha-se à sua bainha (lendo אֶל, 'para dentro de')",
+      "justificativa": "O packet fonte marca o token com morfologia de partícula negativa (Tn), mas תַּעְרֵךְ é substantivo ('tua bainha'), não verbo — negação seguida de substantivo não forma oração gramatical em hebraico. Todas as traduções de referência leem אֶל ('para dentro de') aqui, no contexto de uma espada mandada voltar à bainha, em paralelo com הֵרָגְעִי וָדֹמִּי ('aquieta-te e cala-te'); crux textual preservado em ambiguidades_preservadas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "leitura literal da negação (não + bainha)",
+          "motivo": "agramatical — אַל exige verbo volitivo em seguida, e תַּעְרֵךְ é substantivo com sufixo pronominal, não verbo"
+        }
+      ]
+    },
+    {
+      "questao": "Pessoa de tratamento na apóstrofe à espada personificada",
+      "escolha": "você",
+      "justificativa": "ER-0003/D-0003 reserva 'tu' à oração dirigida a Deus; o discurso aqui é uma apóstrofe à espada, não uma oração, seguindo o padrão 'você' do discurso comum.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu",
+          "motivo": "reservado por D-0003 a discurso orante dirigido a Deus; a espada personificada não é o interlocutor divino da oração"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Crux textual do MT em אַל/אֶל antes de תַּעְרֵךְ: a pontuação massorética sugere negação (אַל), mas o contexto e a morfologia nominal de תַּעְרֵךְ exigem a preposição אֶל ('para dentro de'); leitura de consenso adotada, tensão textual preservada."
+  ],
+  "justificativa": "Apóstrofe poética à espada do SENHOR, mandada retornar à bainha; verso contém crux textual clássico (אַל/אֶל) resolvido pelo sentido e consenso das traduções de referência.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

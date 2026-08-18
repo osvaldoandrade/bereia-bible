@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.143.3",
+    "livro": "Salmos",
+    "capitulo": 143,
+    "versiculo": 3,
+    "pericope": "Ps.143.1-12"
+  },
+  "texto_bv": "Pois o inimigo perseguiu a minha alma; esmagou a minha vida contra a terra; fez-me habitar em trevas, como os que há muito estão mortos.",
+  "traducao_literal": "Porque perseguiu o inimigo a minha alma; esmagou contra a terra a minha vida; fez-me habitar em trevas, como mortos de há muito.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "רָ֘דַ֤ף",
+      "lemma": "7291",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אוֹיֵ֨ב",
+      "lemma": "341",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "נַפְשִׁ֗י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "דִּכָּ֣א",
+      "lemma": "1792",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "לָ֭אָרֶץ",
+      "lemma": "l/776",
+      "morfologia": "HRd/Ncbsa"
+    },
+    {
+      "palavra": "חַיָּתִ֑י",
+      "lemma": "2416 c",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "הוֹשִׁיבַ֥נִי",
+      "lemma": "3427",
+      "morfologia": "HVhp3ms/Sp1cs"
+    },
+    {
+      "palavra": "בְ֝מַחֲשַׁכִּ֗ים",
+      "lemma": "b/4285",
+      "morfologia": "HR/Ncmpa"
+    },
+    {
+      "palavra": "כְּמֵתֵ֥י",
+      "lemma": "k/4191",
+      "morfologia": "HR/Vqrmpc"
+    },
+    {
+      "palavra": "עוֹלָֽם",
+      "lemma": "5769",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem V-S-O do hebraico (רָדַף אוֹיֵב נַפְשִׁי).",
+      "escolha": "normalizar para S-V-O no publicado; preservar V-S-O na literal",
+      "justificativa": "ER-0013.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S-O no publicado ('perseguiu o inimigo a minha alma')",
+          "motivo": "soa artificial em português, mesmo com o sufixo pronominal desambiguando o objeto"
+        }
+      ]
+    },
+    {
+      "questao": "כְּמֵתֵי עוֹלָם — sentido temporal de עוֹלָם aqui (duração passada) vs. leitura de eternidade.",
+      "escolha": "como os que há muito estão mortos",
+      "justificativa": "עוֹלָם em construção com מֵתֵי designa longa duração no passado ('os mortos de há muito'), não um atributo de eternidade absoluta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "como mortos eternos",
+          "motivo": "introduziria conotação de eternidade que o genitivo temporal não exige aqui"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "עוֹלָם pode conotar tanto 'longa duração passada' quanto, em outros contextos, 'eternidade'; aqui o registro opta pela leitura temporal, apoiada pela regência com מֵתֵי"
+  ],
+  "justificativa": "Imagem de perseguição letal; o salmista compara-se aos mortos antigos, habitando trevas (Seol/sepultura).",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

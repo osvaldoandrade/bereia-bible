@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.72.5",
+    "livro": "Salmos",
+    "capitulo": 72,
+    "versiculo": 5,
+    "pericope": "Ps.72.1-20"
+  },
+  "texto_bv": "Temer-te-ão enquanto durar o sol, e diante da lua, por todas as gerações.",
+  "traducao_literal": "Temer-te-ão com o sol, e diante da lua, geração de gerações.",
+  "termos_originais": [
+    {
+      "palavra": "יִֽירָא֥וּךָ",
+      "lemma": "3372",
+      "morfologia": "HVqi3mp/Sp2ms"
+    },
+    {
+      "palavra": "עִם",
+      "lemma": "5973 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "שָׁ֑מֶשׁ",
+      "lemma": "8121",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "וְלִפְנֵ֥י",
+      "lemma": "c/l/6440",
+      "morfologia": "HC/R/Ncbpc"
+    },
+    {
+      "palavra": "יָ֝רֵ֗חַ",
+      "lemma": "3394",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "דּ֣וֹר",
+      "lemma": "1755",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "דּוֹרִֽים",
+      "lemma": "1755",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sufixo de 2ª pessoa em יִירָאוּךָ dentro de um trecho em 3ª pessoa sobre o rei",
+      "escolha": "manter a 2ª pessoa (\"temer-te-ão\"), como apóstrofe pontual ao rei",
+      "justificativa": "Fidelidade à morfologia do TM (Sp2ms); o packet não traz variantes_fonte para este verso, então não há base textual pinada para emendar. EDITORIAL §preâmbulo: conflito entre regra editorial (tu reservado à oração a Deus) e fidelidade semântica resolve-se a favor da fidelidade, com a exceção registrada aqui.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "suavizar para 3ª pessoa (\"temê-lo-ão\")",
+          "motivo": "apagaria, sem base textual no packet, a marca gramatical anômala do TM"
+        },
+        {
+          "opcao": "emendar para יַאֲרִיךְ (\"prolongue [os dias]\", cf. LXX συμπαραμενεῖ, paralelo a 72:17)",
+          "motivo": "conjectura crítico-textual bem conhecida, mas fora do escopo: o packet pinado (OSHB) não registra variantes_fonte aqui"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "durar (verbo suprido para verter עִם־שָׁמֶשׁ, lit. \"com o sol\", em sentido de duração)"
+  ],
+  "ambiguidades_preservadas": [
+    "a quem se dirige o \"te\" de יִירָאוּךָ — o rei, por apóstrofe retórica em meio ao discurso de 3ª pessoa — permanece uma leitura, não uma resolução plena da crux"
+  ],
+  "justificativa": "דּוֹר דּוֹרִים (repetição formular, calque preservado na literal) normalizado no publicado para \"por todas as gerações\" (ER-0013).",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

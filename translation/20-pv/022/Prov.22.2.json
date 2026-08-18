@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.22.2",
+    "livro": "Provérbios",
+    "capitulo": 22,
+    "versiculo": 2,
+    "pericope": "Prov.22.1-29"
+  },
+  "texto_bv": "O rico e o pobre se encontram; o SENHOR é quem os fez a todos.",
+  "traducao_literal": "Rico e pobre se encontraram; fazedor de todos eles, o SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "עָשִׁ֣יר",
+      "lemma": "6223",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וָרָ֣שׁ",
+      "lemma": "c/7326",
+      "morfologia": "HC/Vqrmsa"
+    },
+    {
+      "palavra": "נִפְגָּ֑שׁוּ",
+      "lemma": "6298",
+      "morfologia": "HVNp3cp"
+    },
+    {
+      "palavra": "עֹשֵׂ֖ה",
+      "lemma": "6213 a",
+      "morfologia": "HVqrmsc"
+    },
+    {
+      "palavra": "כֻלָּ֣ם",
+      "lemma": "3605",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עֹשֶׂה (H6213 'fazer') vs. H1254a 'criar'",
+      "escolha": "'fez' (fazer, H6213), não 'criou'",
+      "justificativa": "Distinção criar(H1254a)/fazer(H6213) do registro editorial; a raiz aqui é עשה, não ברא.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'criou'",
+          "motivo": "Confundiria a distinção lexical fixada pelo programa."
+        }
+      ]
+    },
+    {
+      "questao": "Oração nominal com particípio predicativo antes do sujeito (עֹשֵׂה כֻלָּם יְהוָה)",
+      "escolha": "Reordenar para sujeito-verbo em português",
+      "justificativa": "Naturalidade sintática pt-BR; ordem hebraica preservada na traducao_literal (ER-0013).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "é",
+    "quem"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Sentença comparativa afirmando a condição comum de rico e pobre perante o Criador; ordem nominal hebraica reordenada para naturalidade.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

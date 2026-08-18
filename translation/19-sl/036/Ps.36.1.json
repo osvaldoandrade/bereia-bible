@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.36.1",
+    "livro": "Salmos",
+    "capitulo": 36,
+    "versiculo": 1,
+    "pericope": "Ps.36.1-13"
+  },
+  "texto_bv": "Ao mestre de música. De Davi, servo do SENHOR.",
+  "traducao_literal": "Ao diretor; do servo do SENHOR; de Davi.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֬חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "לְעֶֽבֶד",
+      "lemma": "l/5650",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְהוָ֬ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לְדָוִֽד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem da superscrição לְעֶֽבֶד־יְהוָה לְדָוִד (\"do servo do SENHOR; de Davi\")",
+      "escolha": "inverter para \"De Davi, servo do SENHOR\" no publicado, preservando a ordem hebraica na tradução literal",
+      "justificativa": "o hebraico antepõe o epíteto \"servo do SENHOR\" ao nome próprio; em português é natural pospor o epíteto ao nome (\"Davi, servo do SENHOR\"), como em títulos bíblicos análogos (cf. Sl 18.1). ER-0013 (doutrina do calque): a ordem original é preservada apenas na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem literal \"Do servo do SENHOR, de Davi\" no publicado",
+          "motivo": "soa como referência a duas pessoas distintas, obscurecendo que \"servo do SENHOR\" é epíteto de Davi"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de לַמְנַצֵּחַ (H5329, particípio hifil substantivado)",
+      "escolha": "\"mestre de música\"",
+      "justificativa": "termo técnico de superscrição musical de sentido preciso incerto (\"o que dirige/supervisiona\"); o corpus já traduzido alterna \"mestre de música\" e \"regente\" para o mesmo lema — variação tolerada em tier DRAFT.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"regente\"",
+          "motivo": "sinônimo igualmente usado no corpus; escolha estilística sem diferença semântica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "sentido exato de לְעֶֽבֶד־יְהוָה como título honorífico aplicado a Davi (cf. Sl 18.1) — mantido sem paráfrase"
+  ],
+  "justificativa": "superscrição sem oração verbal; título único no Saltério que qualifica Davi como \"servo do SENHOR\" (cf. Sl 18.1).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

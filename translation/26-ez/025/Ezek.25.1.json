@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.25.1",
+    "livro": "Ezequiel",
+    "capitulo": 25,
+    "versiculo": 1,
+    "pericope": "Ezek.25.1-17"
+  },
+  "texto_bv": "E a palavra do SENHOR veio a mim, dizendo:",
+  "traducao_literal": "E foi a palavra de-SENHOR a-mim, dizendo:",
+  "termos_originais": [
+    {
+      "palavra": "וַיְהִ֥י",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "דְבַר",
+      "lemma": "1697",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֵלַ֥י",
+      "lemma": "413",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "לֵאמֹֽר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem V-S do hebraico (וַיְהִי דְבַר־יְהוָה, 'e-foi a-palavra-do-SENHOR') no texto publicado",
+      "escolha": "Sujeito antes do verbo: \"a palavra do SENHOR veio\"",
+      "justificativa": "ER-0011 (ordem S-V uniforme nos wayyiqtol do texto publicado); a ordem V-S original é preservada na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"E veio a palavra do SENHOR a mim\" (V-S)",
+          "motivo": "superada por ER-0011"
+        }
+      ]
+    },
+    {
+      "questao": "Presença do 'E' inicial (waw + wayyiqtol) abrindo capítulo",
+      "escolha": "Manter 'E', seguindo o precedente de Jer.1.4 para a mesma fórmula (וַיְהִי דְבַר־יְהוָה אֵלַי לֵאמֹר) que recorre dezenas de vezes em Ezequiel como marcador de nova unidade de revelação na sequência do livro",
+      "justificativa": "ER-0013: wayyiqtol inicial vertido 'E' quando a sequência discursiva o pede; aqui o capítulo continua a sucessão de oráculos datados do livro, não abre a obra.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir o 'E' (tratar como título absoluto, cf. Jer.46.1)",
+          "motivo": "Jer.46.1 abre uma coleção nova sem 'vayehi...lemor'; aqui a fórmula com 'lemor' é idêntica à de Jer.1.4, que mantém o 'E'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula-padrão de recepção da palavra profética que abre o oráculo contra os quatro povos vizinhos (Amom, Moabe, Edom, Filístia) neste capítulo.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eccl.5.8",
+    "livro": "Eclesiastes",
+    "capitulo": 5,
+    "versiculo": 8,
+    "pericope": "Eccl.5.1-19"
+  },
+  "texto_bv": "Mas a vantagem da terra, em tudo, é esta: um rei dedicado ao campo cultivado.",
+  "traducao_literal": "E vantagem de terra, em tudo, ela — um rei para campo cultivado, servido.",
+  "termos_originais": [
+    {
+      "palavra": "וְיִתְר֥וֹן",
+      "lemma": "c/3504",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "אֶ֖רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "בַּכֹּ֣ל",
+      "lemma": "b/3605",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "היא",
+      "lemma": "1931",
+      "morfologia": "HPp3fs"
+    },
+    {
+      "palavra": "מֶ֥לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְשָׂדֶ֖ה",
+      "lemma": "l/7704 b",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "נֶעֱבָֽד",
+      "lemma": "5647",
+      "morfologia": "HVNp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וְיִתְרוֹן אֶרֶץ בַּכֹּל הִיא מֶלֶךְ לְשָׂדֶה נֶעֱבָד — um dos versículos mais obscuros do livro",
+      "escolha": "Ler 'a vantagem da terra, em tudo, é um rei dedicado ao campo cultivado' — o bem de uma nação depende de um governante comprometido com a agricultura produtiva, apesar da corrupção burocrática do v.7.",
+      "justificativa": "Leitura que mantém a ordem sintática מֶלֶךְ לְ...נֶעֱבָד como 'rei devotado ao campo', linha próxima de ESV/NIV; nenhuma emenda textual foi aplicada ao texto pinado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o próprio rei é servido pelo campo' (linha KJV)",
+          "motivo": "Inverte sujeito/predicado de forma que exige reler מֶלֶךְ como sujeito passivo, menos natural na sintaxe apresentada."
+        },
+        {
+          "opcao": "Emendar o texto-base",
+          "motivo": "Fora do escopo — o pipeline não emenda o texto pinado sem aparato formal de variantes."
+        }
+      ]
+    },
+    {
+      "questao": "הִיא grafado sem nicud no packet-fonte, concordando em feminino com יִתְרוֹן (masculino)",
+      "escolha": "Traduzir como cópula ('é'), sem marcar a discrepância de gênero no texto publicado; registrar a peculiaridade aqui.",
+      "justificativa": "A forma consoante 'היא' está grafada sem pontuação no packet pinado, ponto tradicionalmente discutido como ketiv/qere na crítica textual (BHS); o packet não trouxe aparato formal (variantes_fonte ausente), então nenhuma adjudicação de variante foi registrada — apenas esta nota de transparência.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "é esta",
+    "dedicado"
+  ],
+  "ambiguidades_preservadas": [
+    "Sintaxe e sentido geral do versículo — múltiplas leituras acadêmicas coexistem sem consenso.",
+    "Concordância de gênero do pronome היא/הוא, grafado sem nicud na fonte pinada."
+  ],
+  "justificativa": "Verso reconhecidamente obscuro (crux interpretum); tradução cautelosa, sem resolver definitivamente a sintaxe, confiança rebaixada.",
+  "confianca": 0.5,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

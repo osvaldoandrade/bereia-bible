@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.143.2",
+    "livro": "Salmos",
+    "capitulo": 143,
+    "versiculo": 2,
+    "pericope": "Ps.143.1-12"
+  },
+  "texto_bv": "E não entres em juízo com o teu servo, pois nenhum vivente é justo diante de ti.",
+  "traducao_literal": "E não entres em juízo com o teu servo, porque não se justifica diante de ti todo vivente.",
+  "termos_originais": [
+    {
+      "palavra": "וְאַל",
+      "lemma": "c/408",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "תָּב֣וֹא",
+      "lemma": "935",
+      "morfologia": "HVqj2ms"
+    },
+    {
+      "palavra": "בְ֭מִשְׁפָּט",
+      "lemma": "b/4941",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "854",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עַבְדֶּ֑ךָ",
+      "lemma": "5650",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "לֹֽא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִצְדַּ֖ק",
+      "lemma": "6663",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "לְפָנֶ֣יךָ",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc/Sp2ms"
+    },
+    {
+      "palavra": "כָל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "חָֽי",
+      "lemma": "2416 a",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sentido de אֶת (lemma 854) em אֶת־עַבְדֶּךָ: preposição comitativa 'com' vs. marcador acusativo (853, homógrafo).",
+      "escolha": "com o teu servo",
+      "justificativa": "O packet pinado marca lemma 854 (preposição), não 853 (marcador de objeto direto); 'não entres em juízo com o teu servo' é a leitura forense padrão do salmo, evitando que Deus se torne litigante contra o próprio servo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não tragas o teu servo a juízo",
+          "motivo": "exigiria lemma 853 (acusativo), não o 854 (comitativo) que consta na morfologia pinada"
+        }
+      ]
+    },
+    {
+      "questao": "מִשְׁפָּט: 'juízo' (processo forense) vs. 'justiça' (atributo moral).",
+      "escolha": "juízo",
+      "justificativa": "Distinção lexical mantida frente a צִדְקָה 'justiça', usado nos vv.1 e 11 do mesmo salmo; aqui o sentido é o ato/processo de julgamento.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "justiça",
+          "motivo": "colidiria com o uso paralelo de צדקה no mesmo salmo, apagando uma distinção lexical intencional"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem O-S-V do hebraico (לֹֽא־יִצְדַּק לְפָנֶיךָ כָל־חָי).",
+      "escolha": "normalizar para S-V no publicado ('nenhum vivente é justo diante de ti'); preservar a ordem original na literal",
+      "justificativa": "ER-0013, doutrina do calque.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Confissão de indignidade universal diante de Deus; tom forense (מִשְׁפָּט) complementa a súplica do v.1.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

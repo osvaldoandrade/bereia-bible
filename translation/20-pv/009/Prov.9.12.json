@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.9.12",
+    "livro": "Provérbios",
+    "capitulo": 9,
+    "versiculo": 12,
+    "pericope": "Prov.9.1-18"
+  },
+  "texto_bv": "Se você for sábio, será sábio para si mesmo; e se zombar, você sozinho arcará com isso.",
+  "traducao_literal": "Se és sábio, és sábio para ti; e se zombas, sozinho o levarás.",
+  "termos_originais": [
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "חָ֭כַמְתָּ",
+      "lemma": "2449",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "חָכַ֣מְתָּ",
+      "lemma": "2449",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "לָּ֑ךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    },
+    {
+      "palavra": "וְ֝לַ֗צְתָּ",
+      "lemma": "c/3887",
+      "morfologia": "HC/Vqp2ms"
+    },
+    {
+      "palavra": "לְֽבַדְּךָ֥",
+      "lemma": "l/905",
+      "morfologia": "HR/Ncmsc/Sp2ms"
+    },
+    {
+      "palavra": "תִשָּֽׂא",
+      "lemma": "5375",
+      "morfologia": "HVqi2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חָכַמְתָּ חָכַמְתָּ — repetição do mesmo verbo (\"és sábio, és sábio\"), ênfase por repetição formular.",
+      "escolha": "condensar para \"se você for sábio, será sábio para si mesmo\" no publicado, preservando a repetição na literal",
+      "justificativa": "doutrina do calque (ER-0013): repetição verbal enfática do hebraico soa redundante em português corrente; o publicado condensa mantendo o sentido de retribuição pessoal, a literal preserva a dupla ocorrência para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"se você é sábio, é sábio\" (repetição literal no publicado)",
+          "motivo": "soa como erro de digitação/redundância em português, contra a meta de naturalidade do publicado"
+        }
+      ]
+    },
+    {
+      "questao": "תִשָּׂא (\"levarás/carregarás\", de נשא) — sentido de arcar com consequência/culpa.",
+      "escolha": "\"arcará com isso\"",
+      "justificativa": "glosa idiomática de נשא no sentido de suportar consequência (uso comum do verbo para culpa/punição em hebraico bíblico).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"levará\" (literal)",
+          "motivo": "ambíguo em português sem complemento claro do que é \"levado\""
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "isso (objeto implícito do verbo נשא)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso de fecho da primeira metade do capítulo: a sabedoria e a insensatez recaem sobre o próprio agente, sem consequência para terceiros.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

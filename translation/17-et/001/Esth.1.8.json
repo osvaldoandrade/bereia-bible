@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.1.8",
+    "livro": "Ester",
+    "capitulo": 1,
+    "versiculo": 8,
+    "pericope": "Esth.1.1-22"
+  },
+  "texto_bv": "O beber seguia a lei: ninguém era obrigado; pois assim o rei tinha ordenado a todos os administradores do seu palácio, que se fizesse conforme a vontade de cada um.",
+  "traducao_literal": "E o beber, conforme a lei, não havia coação; porque assim estabeleceu o rei sobre todo o chefe da sua casa, para fazer conforme a vontade de homem e homem.",
+  "termos_originais": [
+    {
+      "palavra": "וְהַשְּׁתִיָּ֥ה",
+      "lemma": "c/d/8360",
+      "morfologia": "HC/Td/Ncfsa"
+    },
+    {
+      "palavra": "כַדָּ֖ת",
+      "lemma": "k/1881",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "אֵ֣ין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אֹנֵ֑ס",
+      "lemma": "597",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "כֵ֣ן",
+      "lemma": "3651 c",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "יִסַּ֣ד",
+      "lemma": "3245",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "הַמֶּ֗לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "עַ֚ל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "רַ֣ב",
+      "lemma": "7227 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "בֵּית֔וֹ",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "לַעֲשׂ֖וֹת",
+      "lemma": "l/6213 a",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "כִּרְצ֥וֹן",
+      "lemma": "k/7522",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אִישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וָאִֽישׁ",
+      "lemma": "c/376",
+      "morfologia": "HC/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֵין אֹנֵס ('não havia coação')",
+      "escolha": "'ninguém era obrigado'",
+      "justificativa": "voz ativa impessoal mais natural em português que a construção nominal negativa hebraica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não havia coação",
+          "motivo": "calque nominal aceitável, mas menos fluido que a voz ativa impessoal"
+        }
+      ]
+    },
+    {
+      "questao": "רַב בֵּיתוֹ ('chefe da sua casa')",
+      "escolha": "'administradores do seu palácio'",
+      "justificativa": "כָּל־רַב בֵּיתוֹ ('todo chefe de sua casa') indica pluralidade distributiva de mordomos/oficiais do palácio, não um único cargo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o mordomo-mor da sua casa",
+          "motivo": "singular perderia o sentido distributivo de כָּל"
+        }
+      ]
+    },
+    {
+      "questao": "Repetição formular אִישׁ־וָאִישׁ ('homem e homem')",
+      "escolha": "normalizar para 'cada um'",
+      "justificativa": "ER-0013: repetição formular condensável quando redundante em português; a literal preserva a repetição integral.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "homem e homem",
+          "motivo": "calque literal ininteligivel em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "דָּת (lei/decreto) adotado como glosa fixa para o termo técnico jurídico persa recorrente no capítulo.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

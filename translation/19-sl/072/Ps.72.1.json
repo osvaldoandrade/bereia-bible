@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.72.1",
+    "livro": "Salmos",
+    "capitulo": 72,
+    "versiculo": 1,
+    "pericope": "Ps.72.1-20"
+  },
+  "texto_bv": "De Salomão. Ó Deus, dá os teus juízos ao rei, e a tua justiça ao filho do rei.",
+  "traducao_literal": "Para Salomão. Deus, teus juízos ao rei dá, e tua justiça ao filho de rei.",
+  "termos_originais": [
+    {
+      "palavra": "לִשְׁלֹמֹ֨ה",
+      "lemma": "l/8010",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אֱֽלֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "מִ֭שְׁפָּטֶיךָ",
+      "lemma": "4941",
+      "morfologia": "HNcmpc/Sp2ms"
+    },
+    {
+      "palavra": "לְמֶ֣לֶךְ",
+      "lemma": "l/4428",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "תֵּ֑ן",
+      "lemma": "5414",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "וְצִדְקָתְךָ֥",
+      "lemma": "c/6666",
+      "morfologia": "HC/Ncfsc/Sp2ms"
+    },
+    {
+      "palavra": "לְבֶן",
+      "lemma": "l/1121 a",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "מֶֽלֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução da superscrição לִשְׁלֹמֹה",
+      "escolha": "\"De Salomão.\" — mantida a ambiguidade autoria/dedicatória",
+      "justificativa": "A lamed de superscrição admite leitura de autoria (\"por Salomão\") e de dedicatória (\"para Salomão\"); o colofão de 72:20 (\"as orações de Davi... terminaram\") sugere autoria davídica com dedicatória a Salomão, mas o hebraico da superscrição sozinho não resolve isso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Por Salomão\" (só autoria)",
+          "motivo": "conflita com o colofão do v.20, que atribui as orações a Davi"
+        },
+        {
+          "opcao": "\"Para Salomão\" sem indicar possível dupla leitura",
+          "motivo": "apaga a ambiguidade genuína da construção lamed"
+        }
+      ]
+    },
+    {
+      "questao": "מִשְׁפָּט (H4941) vs צְדָקָה (H6666) no mesmo par poético",
+      "escolha": "juízo(s) / justiça, respectivamente, mantido em todo o capítulo",
+      "justificativa": "São dois substantivos hebraicos distintos usados lado a lado (v.1, v.2); colapsar ambos em \"justiça\" apagaria a distinção lexical que o salmo explora.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"justiça\" para os dois termos",
+          "motivo": "perde o par lexical hebraico מִשְׁפָּט/צְדָקָה, recorrente no salmo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Ó (vocativo suprido para o português; ausente marcador vocativo formal no hebraico)",
+    "do (contração de artigo em \"ao filho do rei\"; hebraico לְבֶן־מֶלֶךְ é anártrico, \"ao filho de rei\")"
+  ],
+  "ambiguidades_preservadas": [
+    "לִשְׁלֹמֹה como autoria ou dedicatória (ver decisão acima)"
+  ],
+  "justificativa": "Superscrição + invocação: petição a Deus para que dote o rei (e o \"filho de rei\", em paralelismo) dos seus próprios atributos de justiça. Nomes divinos: אֱלֹהִים → Deus (H430, ER-0002). Segunda pessoa dirigida a Deus em oração: \"tu/teus\" (EDITORIAL §3).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

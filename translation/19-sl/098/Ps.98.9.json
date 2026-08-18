@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.98.9",
+    "livro": "Salmos",
+    "capitulo": 98,
+    "versiculo": 9,
+    "pericope": "Ps.98.1-9"
+  },
+  "texto_bv": "Diante do SENHOR, porque ele vem para julgar a terra; julgará o mundo com justiça, e os povos com equidade.",
+  "traducao_literal": "Diante do SENHOR, porque vem para julgar a terra; julgará o mundo com justiça, e os povos com equidade.",
+  "termos_originais": [
+    {
+      "palavra": "לִֽפְֽנֵי",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "יְהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּ֥י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "בָא֮",
+      "lemma": "935",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לִשְׁפֹּ֪ט",
+      "lemma": "l/8199",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "הָ֫אָ֥רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "יִשְׁפֹּֽט",
+      "lemma": "8199",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "תֵּבֵ֥ל",
+      "lemma": "8398",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בְּצֶ֑דֶק",
+      "lemma": "b/6664",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "וְ֝עַמִּ֗ים",
+      "lemma": "c/5971 a",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "בְּמֵישָׁרִֽים",
+      "lemma": "b/4339",
+      "morfologia": "HR/Ncmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tempo verbal de בָא (perfeito, com valor de presente/iminência no contexto hínico-profético)",
+      "escolha": "'vem' (presente, indicando certeza iminente do juízo)",
+      "justificativa": "O perfeito hebraico aqui tem valor profético-presente, celebrando um juízo certo e iminente, não um fato já concluído.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'veio' (passado)",
+          "motivo": "o contexto celebra um evento iminente/certo, não um fato já concluído"
+        }
+      ]
+    },
+    {
+      "questao": "Sujeito elidido de 'vem' no publicado",
+      "escolha": "suprir 'ele' explicitamente",
+      "justificativa": "Evita ambiguidade referencial em relação a 'o SENHOR' imediatamente anterior; favorece leitura clara em voz alta (EDITORIAL §1.3).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter apenas o verbo sem pronome, como na literal",
+          "motivo": "natural em português, mas menos claro em leitura em voz alta"
+        }
+      ]
+    },
+    {
+      "questao": "Par poético אֶרֶץ / תֵּבֵל, ambos 'terra/mundo'",
+      "escolha": "variar as glosas — 'a terra' para אֶרֶץ e 'o mundo' para תֵּבֵל",
+      "justificativa": "Preserva a distinção lexical de dois termos hebraicos diferentes, mantendo perceptível o paralelismo do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "usar 'terra' para ambos",
+          "motivo": "apagaria a variação lexical intencional do paralelismo hebraico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito de 'vem', suprido no texto_bv para clareza referencial; ausente na literal)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Perfeito בָא com valor de presente profético; variação lexical אֶרֶץ/תֵּבֵל preservada com duas glosas portuguesas distintas para manter perceptível o paralelismo hebraico.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

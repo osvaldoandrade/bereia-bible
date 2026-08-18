@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.108.4",
+    "livro": "Salmos",
+    "capitulo": 108,
+    "versiculo": 4,
+    "pericope": "Ps.108.1-14"
+  },
+  "texto_bv": "Eu te louvarei entre os povos, ó SENHOR; a ti cantarei louvores entre as nações.",
+  "traducao_literal": "Louvarei-te entre os povos, SENHOR; e cantarei-te louvor entre as nações.",
+  "termos_originais": [
+    {
+      "palavra": "אוֹדְךָ֖",
+      "lemma": "3034",
+      "morfologia": "HVhi1cs/Sp2ms"
+    },
+    {
+      "palavra": "בָעַמִּ֥ים",
+      "lemma": "b/5971 a",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַ֝אֲזַמֶּרְךָ֗",
+      "lemma": "c/2167",
+      "morfologia": "HC/Vpi1cs/Sp2ms"
+    },
+    {
+      "palavra": "בַּל",
+      "lemma": "1077",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אֻמִּֽים",
+      "lemma": "3816",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Nome divino: יְהוָה (e não אֲדֹנָי, como no paralelo Sl 57.10)",
+      "escolha": "SENHOR (versalete)",
+      "justificativa": "Tetragrama explícito no packet pinado (H3068); política NOMES-DIVINOS ER-0002. Diferença real em relação a Sl 57.10 (que usa אֲדֹנָי), preservada como variação textual legítima entre os dois salmos, não erro.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "בַּל־אֻמִּים — בַּל como preposição poética (\"entre\"), não como negação (\"não\")",
+      "escolha": "\"entre as nações\", paralelo direto a בָעַמִּים",
+      "justificativa": "בַּל aqui não nega o cognato אֻמִּים; funciona como preposição poética arcaica equivalente a בְּ, no paralelismo sinonímico com בָעַמִּים do primeiro hemistíquio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"não entre as nações\" (בַּל como negação usual)",
+          "motivo": "produziria contradição sem sentido com o paralelismo laudatório do verso; nenhuma tradição de leitura sustenta a negação aqui"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Voto de louvor público e internacional ao SENHOR (compare Sl 57.10, com nome divino distinto por diferença real da fonte).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

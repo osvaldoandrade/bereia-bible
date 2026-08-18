@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Zech.7.1",
+    "livro": "Zacarias",
+    "capitulo": 7,
+    "versiculo": 1,
+    "pericope": "Zech.7.1-14"
+  },
+  "texto_bv": "Aconteceu, no quarto ano do rei Dario, que veio a palavra do SENHOR a Zacarias, no dia quatro do mês nono, o mês de Quisleu.",
+  "traducao_literal": "E aconteceu, no ano quatro a Dario o rei, foi a palavra de SENHOR a Zacarias, em quatro ao mês, o nono, em Quisleu.",
+  "termos_originais": [
+    {
+      "palavra": "וַֽיְהִי֙",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בִּשְׁנַ֣ת",
+      "lemma": "b/8141",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "אַרְבַּ֔ע",
+      "lemma": "702",
+      "morfologia": "HAcfsa"
+    },
+    {
+      "palavra": "לְדָרְיָ֖וֶשׁ",
+      "lemma": "l/1867",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "הַמֶּ֑לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הָיָ֨ה",
+      "lemma": "1961",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "דְבַר",
+      "lemma": "1697",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֜ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "זְכַרְיָ֗ה",
+      "lemma": "2148 a",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בְּאַרְבָּעָ֛ה",
+      "lemma": "b/702",
+      "morfologia": "HR/Acmsa"
+    },
+    {
+      "palavra": "לַחֹ֥דֶשׁ",
+      "lemma": "l/2320",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הַתְּשִׁעִ֖י",
+      "lemma": "d/8671",
+      "morfologia": "HTd/Aomsa"
+    },
+    {
+      "palavra": "בְּכִסְלֵֽו",
+      "lemma": "b/3691",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter וַיְהִי inicial (fórmula de data) e a ordem do numeral do ano (אַרְבַּע, cardinal)?",
+      "escolha": "Verter וַיְהִי como 'Aconteceu, que...' introduzindo a oração principal, sem 'E' isolado; ano com ordinal natural pt-BR ('quarto ano'), dia com cardinal ('dia quatro'), preservando as quantidades do original.",
+      "justificativa": "ER-0013 reserva o 'E' de abertura para quando a sequência discursiva pede; aqui abre nova unidade datada, sem antecedente narrativo dentro da pericope isolada do packet; convencção de datas em pt-BR usa ordinal para anos e cardinal para dias.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Traduzir com 'E aconteceu...' preservando o 'E' inicial",
+          "motivo": "ER-0013 reserva o 'E' de abertura para quando a sequência discursiva pede; aqui abre nova unidade datada, sem antecedente narrativo dentro da pericope isolada do packet"
+        },
+        {
+          "opcao": "Cardinal literal 'ano quatro'",
+          "motivo": "soa estranho em português corrente; a convenção de datas em pt-BR usa ordinal para anos, mantendo a mesma quantidade do original"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (articulando a oração principal)",
+    "o mês de (explicitando Quisleu como o nono mês)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula de datação dupla (וַיְהִי + הָיָה) típica das notícias de data proféticas; a ordem VS de הָיָה (qatal, não wayyiqtol) não é regida por ER-0011, que trata apenas de wayyiqtol; mantive 'veio a palavra do SENHOR' como fórmula idiomática consolidada em português bíblico.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

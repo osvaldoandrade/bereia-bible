@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jonah.4.1",
+    "livro": "Jonas",
+    "capitulo": 4,
+    "versiculo": 1,
+    "pericope": "Jonah.4.1-11"
+  },
+  "texto_bv": "E isso desagradou muito a Jonas, e ele se indignou.",
+  "traducao_literal": "E foi mau a Jonas, mal grande, e ardeu para ele.",
+  "termos_originais": [
+    {
+      "palavra": "וַיֵּ֥רַע",
+      "lemma": "c/7489 a",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יוֹנָ֖ה",
+      "lemma": "3124",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "רָעָ֣ה",
+      "lemma": "7451 c",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "גְדוֹלָ֑ה",
+      "lemma": "1419 a",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "וַיִּ֖חַר",
+      "lemma": "c/2734",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "לֽוֹ",
+      "lemma": "l",
+      "morfologia": "HR/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Rendição do acusativo cognato רָעָה גְדוֹלָה (verbo רעע + substantivo da mesma raiz) que intensifica o verbo impessoal.",
+      "escolha": "Advérbio intensificador 'muito' absorvendo o cognato no verbo 'desagradar'; a estrutura hebraica é preservada na traducao_literal.",
+      "justificativa": "O hebraico usa acusativo interno para grau (idiomatismo comum); o português não tem construção equivalente natural, então o publicado normaliza (ER-0013), mantendo o cognato na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir literalmente 'foi um mal grande a Jonas'",
+          "motivo": "soa artificial e obscurece o sentido idiomático de vexação/desagrado no texto publicado"
+        }
+      ]
+    },
+    {
+      "questao": "Sujeito impessoal do verbo וַיֵּרַע (3ms, sem sujeito explícito).",
+      "escolha": "Suprir 'isso' como sujeito, retomando anaforicamente o arrependimento de Deus quanto a Nínive (Jon 3:10).",
+      "justificativa": "Português exige sujeito explícito; o impessoal hebraico ('foi mau para Jonas') não tem correspondente formal, por isso 'isso' vai a palavras_supridas (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'aquilo' ou construção passiva sem sujeito",
+          "motivo": "'isso' é mais natural em português corrido e mantém a referência anafórica clara"
+        }
+      ]
+    },
+    {
+      "questao": "Rendição de חָרָה לוֹ (lit. 'ardeu para ele') — idiomatismo de ira.",
+      "escolha": "'ele se indignou'",
+      "justificativa": "Idiomatismo hebraico de cólera (a ira 'queima'); tradução dinâmica preservando o sentido, com a imagem do fogo mantida na traducao_literal ('ardeu para ele').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele ficou com raiva/se irou'",
+          "motivo": "'indignar-se' capta melhor o timbre moral da reação de Jonas à graça divina; escolha estilística entre sinônimos aceitáveis"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "isso"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do capítulo: reação de Jonas ao arrependimento de Deus quanto a Nínive (3:10). Par estrutural intencional com a 'grande alegria' de 4:6 (mesma raiz רעה/רעע em sentidos opostos), documentado nas decisões de 4:6.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.147.1",
+    "livro": "Salmos",
+    "capitulo": 147,
+    "versiculo": 1,
+    "pericope": "Ps.147.1-20"
+  },
+  "texto_bv": "Louvem o SENHOR! Porque é bom cantar louvores ao nosso Deus; porque agradável e formoso é o louvor.",
+  "traducao_literal": "Louvai Yah! Porque bom, cantar-louvor a nosso Deus; porque agradável, bela, louvor.",
+  "termos_originais": [
+    {
+      "palavra": "הַ֥לְלוּ",
+      "lemma": "1984 b",
+      "morfologia": "HVpv2mp"
+    },
+    {
+      "palavra": "יָ֨הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ט֭וֹב",
+      "lemma": "2896 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "זַמְּרָ֣ה",
+      "lemma": "2167",
+      "morfologia": "HVpc"
+    },
+    {
+      "palavra": "אֱלֹהֵ֑ינוּ",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "נָ֝עִים",
+      "lemma": "5273 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "נָאוָ֥ה",
+      "lemma": "5000",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "תְהִלָּֽה",
+      "lemma": "8416",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יָהּ (Yah) — forma contrata do tetragrama YHWH (H3050), não listada explicitamente em NOMES-DIVINOS.md, que trata da forma plena יהוה",
+      "escolha": "SENHOR (extensão da política ER-0002 de H3068)",
+      "justificativa": "Yah é reconhecidamente a forma abreviada do mesmo nome divino (cf. Êx 15:2); a política rege o referente, não apenas a grafia plena; a auditabilidade permanece via lemma H3050.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Yah'/'Aleluia'",
+          "motivo": "a política de nomes divinos exige tradução funcional (SENHOR), não transliteração; quebraria a convenção no restante do Saltério"
+        }
+      ]
+    },
+    {
+      "questao": "זַמְּרָה — infinitivo construto pi'el com he raro (não a construção padrão ל+infinitivo), funcionando como complemento verbal de טוֹב",
+      "escolha": "'cantar louvores' (infinitivo complementar de 'bom')",
+      "justificativa": "Construção elíptica 'bom [é] cantar-louvor', análoga a Sl 92:2 (טוֹב לְהֹדוֹת).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ler זַמְּרָה como volitivo ('cantemos louvores')",
+          "motivo": "a morfologia fornecida marca infinitivo construto (Vpc), não coortativo; mudaria o sujeito gramatical da oração"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula, 2x)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura hínica com fórmula הַלְלוּ יָהּ (inclusio com v.20); dois cola paralelos justificando o louvor pela bondade do ato de louvar e pela adequação do louvor a Deus.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Zech.6.6",
+    "livro": "Zacarias",
+    "capitulo": 6,
+    "versiculo": 6,
+    "pericope": "Zech.6.1-15"
+  },
+  "texto_bv": "O carro dos cavalos pretos sai para a terra do norte; o dos brancos saiu atrás dele; e o dos malhados saiu para a terra do sul.",
+  "traducao_literal": "Que nele os cavalos, os pretos, saindo para a terra do norte; e os brancos saíram atrás deles; e os malhados saíram para a terra do sul.",
+  "termos_originais": [
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בָּ֞הּ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3fs"
+    },
+    {
+      "palavra": "הַסּוּסִ֣ים",
+      "lemma": "d/5483 b",
+      "morfologia": "HTd/Ncmpa"
+    },
+    {
+      "palavra": "הַשְּׁחֹרִ֗ים",
+      "lemma": "d/7838",
+      "morfologia": "HTd/Aampa"
+    },
+    {
+      "palavra": "יֹֽצְאִים֙",
+      "lemma": "3318",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֶ֣רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "צָפ֔וֹן",
+      "lemma": "6828",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְהַלְּבָנִ֔ים",
+      "lemma": "c/d/3836",
+      "morfologia": "HC/Td/Aampa"
+    },
+    {
+      "palavra": "יָצְא֖וּ",
+      "lemma": "3318",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אַֽחֲרֵיהֶ֑ם",
+      "lemma": "310 a",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "וְהַ֨בְּרֻדִּ֔ים",
+      "lemma": "c/d/1261",
+      "morfologia": "HC/Td/Aampa"
+    },
+    {
+      "palavra": "יָצְא֖וּ",
+      "lemma": "3318",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֶ֥רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "הַתֵּימָֽן",
+      "lemma": "d/8486",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲשֶׁר־בָּהּ ('que nele/nela', pronome fem.) — suprir 'carro' como antecedente",
+      "escolha": "explicitar 'carro' como referente do pronome feminino singular, retomando os carros de 6.1-3",
+      "justificativa": "o pronome fem. só pode retomar מֶרְכָּבָה (carro, fem.), implícito pelo contexto imediato; o português exige o antecedente explícito para não soar truncado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os cavalos pretos, que estão nele, saem...' sem nomear o carro",
+          "motivo": "mais próximo da estrutura hebraica, mas obscurece o antecedente em português corrido"
+        }
+      ]
+    },
+    {
+      "questao": "diferença de tempo verbal: יֹצְאִים (particípio, cavalos pretos) vs יָצְאוּ (perfeito, brancos e malhados)",
+      "escolha": "verter com 'sai' (presente/durativo) para os pretos e 'saiu' (perfeito) para os demais, preservando a diferença aspectual",
+      "justificativa": "o TM marca deliberadamente o carro dos pretos em ação presente/contínua e os outros dois já partidos; apagar essa distinção perde informação aspectual do texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uniformizar tudo no pretérito ('saíram')",
+          "motivo": "mais fluido, mas apaga a distinção aspectual intencional do TM"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "carro (antecedente do pronome feminino אֲשֶׁר־בָּהּ)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Movimento dos carros/ventos para os quatro pontos cardeais anunciados; verso sintaticamente denso, decisões registradas.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

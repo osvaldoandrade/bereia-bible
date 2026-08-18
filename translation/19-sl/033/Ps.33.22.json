@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.33.22",
+    "livro": "Salmos",
+    "capitulo": 33,
+    "versiculo": 22,
+    "pericope": "Ps.33.1-22"
+  },
+  "texto_bv": "Seja o teu amor leal sobre nós, SENHOR, assim como esperamos em ti.",
+  "traducao_literal": "Seja teu amor leal, YHWH, sobre nós, conforme esperamos em ti.",
+  "termos_originais": [
+    {
+      "palavra": "יְהִֽי",
+      "lemma": "1961",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "חַסְדְּךָ֣",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עָלֵ֑ינוּ",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "כַּ֝אֲשֶׁ֗ר",
+      "lemma": "k/834 d",
+      "morfologia": "HR/Tr"
+    },
+    {
+      "palavra": "יִחַ֥לְנוּ",
+      "lemma": "3176",
+      "morfologia": "HVpp1cp"
+    },
+    {
+      "palavra": "לָֽךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de 2ª pessoa: verso é oração dirigida diretamente ao SENHOR (חַסְדְּךָ, 2ms; לָךְ)",
+      "escolha": "'teu'/'ti' (tratamento de oração/salmo), não 'seu/você'",
+      "justificativa": "EDITORIAL §3: oração/salmo dirigido a Deus usa 'tu', uso litúrgico vivo no Brasil; único verso do capítulo com discurso direto a Deus em 2ª pessoa (os demais são louvor em 3ª pessoa ou exortação a humanos).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'seu amor leal sobre nós... como esperamos em você'",
+          "motivo": "quebraria a distinção editorial entre discurso humano-humano (você) e oração humano-Deus (tu), quando o hebraico já marca claramente o vocativo יְהוָה e o sufixo 2ª pessoa"
+        }
+      ]
+    },
+    {
+      "questao": "Sufixo de לָךְ — tag morfológica do packet marca Sp2fs ('a ti', fem.), mas o vocativo יְהוָה é masculino",
+      "escolha": "ler como 2ms (forma pausal de לְךָ, graficamente coincidente com לָךְ)",
+      "justificativa": "fenômeno gramatical conhecido do hebraico bíblico: em posição de pausa, o sufixo 2ms pode ser grafado como o 2fs; o vocativo masculino יְהוָה no mesmo verso e a ausência de qualquer leitura tradicional 2fs confirmam a leitura 2ms.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'em ti' (2fs, seguindo literalmente a tag morfológica)",
+          "motivo": "gramaticalmente incoerente com o vocativo masculino יְהוָה no mesmo verso; tratado como singularidade de anotação, não como variante textual real"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso de fechamento em forma de petição jussiva (יְהִי), retomando חֶסֶד (vv.5,18) e יחל (v.18, מְיַחֲלִים) em primeira pessoa do plural comunitário.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

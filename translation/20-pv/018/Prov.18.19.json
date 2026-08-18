@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.18.19",
+    "livro": "Provérbios",
+    "capitulo": 18,
+    "versiculo": 19,
+    "pericope": "Prov.18.1-24"
+  },
+  "texto_bv": "Um irmão ofendido é mais difícil de conquistar que uma cidade forte; e as contendas são como as trancas de uma fortaleza.",
+  "traducao_literal": "Um irmão ofendido, mais que cidade forte; e contendas, como tranca de palácio.",
+  "termos_originais": [
+    {
+      "palavra": "אָ֗ח",
+      "lemma": "251",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "נִפְשָׁ֥ע",
+      "lemma": "6586",
+      "morfologia": "HVNrmsa"
+    },
+    {
+      "palavra": "מִקִּרְיַת",
+      "lemma": "m/7151",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "עֹ֑ז",
+      "lemma": "5797",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "ומדונים",
+      "lemma": "c/4066",
+      "morfologia": "HC/Ncmpa"
+    },
+    {
+      "palavra": "כִּבְרִ֥יחַ",
+      "lemma": "k/1280",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אַרְמֽוֹן",
+      "lemma": "759",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ומדונים (forma consonantal sem pontuação vocálica no packet, lema c/4066, morf HC/Ncmpa) — qual valor lexical adotar?",
+      "escolha": "contendas",
+      "justificativa": "Mesmo campo semântico de מִדְיָנִים em 18:18 (H4079); a morfologia do packet classifica a palavra como substantivo comum masculino plural, coerente com 'disputas/contendas'. O packet não trouxe campo de variantes_fonte para este item, portanto nenhuma adjudicação de aparato foi registrada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tratar como termo distinto de 18:18",
+          "motivo": "sem sustentação morfológica ou lexical no packet"
+        }
+      ]
+    },
+    {
+      "questao": "Como suprir a elipse comparativa implícita em מִקִּרְיַת־עֹז (מִן comparativo sem verbo)?",
+      "escolha": "é mais difícil de conquistar que",
+      "justificativa": "O מִן comparativo exige um predicado implícito de dificuldade/resistência, natural em português apenas com verbo suprido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tradução nominal pura ('mais que cidade forte')",
+          "motivo": "agramatical como sentença completa em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é mais difícil de conquistar que"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Provérbio sobre a dificuldade de reconciliar um irmão ofendido, comparando-o a uma fortaleza trancada.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

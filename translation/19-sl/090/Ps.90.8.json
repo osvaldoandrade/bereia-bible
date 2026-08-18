@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.90.8",
+    "livro": "Salmos",
+    "capitulo": 90,
+    "versiculo": 8,
+    "pericope": "Ps.90.1-17"
+  },
+  "texto_bv": "Puseste as nossas iniquidades diante de ti, os nossos pecados ocultos, à luz do teu rosto.",
+  "traducao_literal": "Puseste iniquidades-nossas diante-de-ti; oculto-nosso, para luz de face-tua.",
+  "termos_originais": [
+    {
+      "palavra": "שת",
+      "lemma": "7896",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "עֲוֺנֹתֵ֣ינוּ",
+      "lemma": "5771",
+      "morfologia": "HNcbpc/Sp1cp"
+    },
+    {
+      "palavra": "לְנֶגְדֶּ֑ךָ",
+      "lemma": "l/5048",
+      "morfologia": "HR/R/Sp2ms"
+    },
+    {
+      "palavra": "עֲ֝לֻמֵ֗נוּ",
+      "lemma": "5956",
+      "morfologia": "HVqsmsc/Sp1cp"
+    },
+    {
+      "palavra": "לִמְא֥וֹר",
+      "lemma": "l/3974",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "פָּנֶֽיךָ",
+      "lemma": "6440",
+      "morfologia": "HNcbpc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שת (grafia defectiva de שַׁתָּה, Qal perfeito 2ms de שית)",
+      "escolha": "'puseste'",
+      "justificativa": "Forma consonantal sem pontuação plena no texto-fonte pinado; lida como perfeito 2ms 'puseste', consistente com os sufixos de 2ª pessoa dirigidos a Deus no restante do salmo.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "עֲלֻמֵנוּ (particípio passivo substantivado, 'nosso oculto')",
+      "escolha": "suprir 'pecados' — 'os nossos pecados ocultos'",
+      "justificativa": "O particípio de עלם ('esconder') não especifica o substantivo elidido; o paralelismo com עֲוֺנֹתֵינוּ ('nossas iniquidades') no primeiro colo torna 'pecados' a suplência mais natural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'as nossas coisas ocultas' (sem suprir 'pecados')",
+          "motivo": "mais literal, mas vago e menos natural em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "pecados (referente elidido de עֲלֻמֵנוּ, 'o nosso oculto')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso sobre a onisciência de Deus quanto ao pecado humano; grafia defectiva de שת e a elipse substantiva de עֲלֻמֵנוּ são as decisões centrais.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

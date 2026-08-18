@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.24.3",
+    "livro": "Salmos",
+    "capitulo": 24,
+    "versiculo": 3,
+    "pericope": "Ps.24.1-10"
+  },
+  "texto_bv": "Quem subirá ao monte do SENHOR? E quem ficará em pé em seu lugar santo?",
+  "traducao_literal": "Quem subirá ao monte do SENHOR? E quem se levantará no lugar da santidade dele?",
+  "termos_originais": [
+    {
+      "palavra": "מִֽי",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יַעֲלֶ֥ה",
+      "lemma": "5927",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בְהַר",
+      "lemma": "b/2022",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּמִי",
+      "lemma": "c/4310",
+      "morfologia": "HC/Ti"
+    },
+    {
+      "palavra": "יָ֝קוּם",
+      "lemma": "6965 b",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בִּמְק֥וֹם",
+      "lemma": "b/4725",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "קָדְשֽׁוֹ",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בִּמְקוֹם קָדְשׁוֹ é cadeia construta 'lugar da santidade dele'.",
+      "escolha": "Normalizar no publicado para 'seu lugar santo' (adjetivação), preservando o substantivo 'santidade' na literal.",
+      "justificativa": "ER-0013: construto substantivo-substantivo do hebraico normalizado para adjetivo no português publicado quando a forma construta soaria artificial; מָקוֹם segue glosa do léxico (H4725 → lugar).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'no lugar de sua santidade' também no publicado",
+          "motivo": "Calque de cadeia construta soa artificial em português corrente; reservado à literal."
+        }
+      ]
+    },
+    {
+      "questao": "יָקוּם ('levantar-se/erguer-se') no contexto de acesso ao santuário.",
+      "escolha": "Traduzir 'ficará em pé', explicitando o sentido de permanência/admissão no lugar sagrado.",
+      "justificativa": "O verbo קום aqui não denota apenas postura física, mas capacidade de permanecer/ser admitido no espaço sagrado, paralelo a יַעֲלֶה (subir); 'em pé' é elaboração natural do idiomatismo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'quem se levantará'",
+          "motivo": "Mais literal, porém menos claro em português quanto ao sentido de 'ser admitido/permanecer' no lugar santo."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "em pé"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Pergunta retórica introdutória à liturgia de entrada (vv. 3-6); הַר יְהוָה 'monte do SENHOR' referência a Sião/templo, sem necessidade de explicitação exegética no texto.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.120.1",
+    "livro": "Salmos",
+    "capitulo": 120,
+    "versiculo": 1,
+    "pericope": "Ps.120.1-7"
+  },
+  "texto_bv": "Cântico das subidas. Ao SENHOR, na minha angústia, clamei, e ele me respondeu.",
+  "traducao_literal": "Canto das subidas. Ao SENHOR, em minha angústia a mim, clamei; e respondeu-me.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁ֗יר",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "הַֽמַּ֫עֲל֥וֹת",
+      "lemma": "d/4609 b",
+      "morfologia": "HTd/Ncfpa"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְ֭הוָה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בַּצָּרָ֣תָה",
+      "lemma": "b/6869 b",
+      "morfologia": "HRd/Ncfsa/Sh"
+    },
+    {
+      "palavra": "לִּ֑י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "קָ֝רָ֗אתִי",
+      "lemma": "7121",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "וַֽיַּעֲנֵֽנִי",
+      "lemma": "c/6030 b",
+      "morfologia": "HC/Vqw3ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שִׁיר — registro lexical ('canto' simples vs. 'cântico' litúrgico)",
+      "escolha": "'Cântico' no publicado, 'canto' na literal",
+      "justificativa": "שִׁיר é o substantivo genérico 'canção/canto'; 'cântico' reflete o registro litúrgico-poético consolidado do título saltérico em português, sem acrescentar informação lexical ausente no hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'canto' também no publicado",
+          "motivo": "registro neutro demais para o título de um saltério; 'cântico' é termo consolidado em português bíblico sem ser arcaizante"
+        }
+      ]
+    },
+    {
+      "questao": "שִׁיר הַמַּעֲלוֹת — título de gênero (Sl 120-134)",
+      "escolha": "'Cântico das subidas'",
+      "justificativa": "construct chain preservado (שיר + הַמַּעֲלוֹת definido); título recorrente marcando provável uso de peregrinação/subida a Jerusalém, mas o valor lexical de מַעֲלָה é 'subida/degrau', não 'peregrinação'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Cântico de peregrinação'",
+          "motivo": "paráfrase interpretativa; excede o valor lexical de מַעֲלָה"
+        },
+        {
+          "opcao": "'Cântico dos degraus'",
+          "motivo": "tradição Almeida (via LXX ᾠδὴ τῶν ἀναβαθμῶν); mantida como alternativa registrada, mas 'subidas' é mais transparente ao leitor contemporâneo sem perder o sentido"
+        }
+      ]
+    },
+    {
+      "questao": "Ordem verbo-sujeito em וַֽיַּעֲנֵֽנִי (wayyiqtol)",
+      "escolha": "S-V no publicado ('ele me respondeu'); V-S preservado na literal ('respondeu-me')",
+      "justificativa": "ER-0011 (ordem S-V uniforme no texto publicado, inclusive fora da fórmula de fala) + ER-0013 (a traducao_literal preserva a ordem V-S original do wayyiqtol).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "V-S também no publicado",
+          "motivo": "soa arcaizante em português corrente fora de contexto formular (ER-0008 foi superseded por ER-0011)"
+        }
+      ]
+    },
+    {
+      "questao": "בַּצָּרָתָה לִּי — marcação dupla (he paragógico em צָרָתָה + לי)",
+      "escolha": "traduzir uma vez: 'na minha angústia'; a duplicação é mantida apenas na literal ('em minha angústia a mim')",
+      "justificativa": "o he paragógico é reforço poético arcaico sem correspondente formal separável em português; לי já veicula o possessivo, tornando a dupla marcação redundante no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir também na literal",
+          "motivo": "apagaria o traço morfológico auditável do calque, violando ER-0013"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Título de gênero (שִׁיר הַמַּעֲלוֹת) seguido de invocação e testemunho de resposta divina; nenhuma decisão depende de doutrina, apenas de registro e ordem sintática (ER-0011/ER-0013).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

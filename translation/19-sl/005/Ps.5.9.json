@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.5.9",
+    "livro": "Salmos",
+    "capitulo": 5,
+    "versiculo": 9,
+    "pericope": "Ps.5.1-13"
+  },
+  "texto_bv": "SENHOR, guia-me na tua justiça por causa dos meus inimigos que me espreitam; endireita diante de mim o teu caminho.",
+  "traducao_literal": "SENHOR, guia-me na-tua-justiça por-causa-dos meus-vigias; endireita diante-de-mim teu-caminho.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "נְחֵ֬נִי",
+      "lemma": "5148",
+      "morfologia": "HVqv2ms/Sp1cs"
+    },
+    {
+      "palavra": "בְצִדְקָתֶ֗ךָ",
+      "lemma": "b/6666",
+      "morfologia": "HR/Ncfsc/Sp2ms"
+    },
+    {
+      "palavra": "לְמַ֥עַן",
+      "lemma": "4616",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "שׁוֹרְרָ֑י",
+      "lemma": "8324",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "הושר",
+      "lemma": "3474",
+      "morfologia": "HVhv2ms"
+    },
+    {
+      "palavra": "לְפָנַ֣י",
+      "lemma": "l/6440",
+      "morfologia": "HR/Ncbpc/Sp1cs"
+    },
+    {
+      "palavra": "דַּרְכֶּֽךָ",
+      "lemma": "1870",
+      "morfologia": "HNcbsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שׁוֹרְרָי (H8324, de שׁור 'espiar/vigiar'): tradução do termo para 'inimigo que espreita'?",
+      "escolha": "\"meus inimigos que me espreitam\".",
+      "justificativa": "A raiz denota vigilância hostil, não apenas hostilidade genérica (diferente de אֹיֵב); a perífrase preserva o matiz de espreita/emboscada sem cunhar um neologismo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "meus adversários",
+          "motivo": "genérico demais; perde o traço específico de vigilância/espreita do lexema"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A forma consonantal הושר não traz pontuação no packet pinado (única palavra do capítulo nessa condição); a tradução segue a morfologia anexada (imperativo hifil de ישר) por ausência de aparato formal (sem campo variantes_fonte no packet)."
+  ],
+  "justificativa": "A forma-fonte הושר aparece no packet sem pontuação vocálica, ao contrário de todas as demais palavras do versículo; a morfologia anexada (HVhv2ms, lemma 3474 = ישר) identifica-a como imperativo hifil de ישר ('tornar reto/plano'), e a tradução segue esse dado morfológico apesar da anomalia gráfica de superfície. Não há variantes_fonte declaradas no packet para este verso, então nenhuma adjudicação formal de aparato foi aberta — a anomalia é registrada aqui como observação de proveniência, não como variante textual.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

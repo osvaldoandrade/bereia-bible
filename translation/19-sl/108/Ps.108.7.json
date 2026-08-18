@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.108.7",
+    "livro": "Salmos",
+    "capitulo": 108,
+    "versiculo": 7,
+    "pericope": "Ps.108.1-14"
+  },
+  "texto_bv": "Para que os teus amados sejam libertados, salva-me com a tua mão direita e responde-me.",
+  "traducao_literal": "Para que sejam libertados os teus amados, salva a tua destra, e responde-me.",
+  "termos_originais": [
+    {
+      "palavra": "לְ֭מַעַן",
+      "lemma": "4616",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יֵחָלְצ֣וּן",
+      "lemma": "2502 a",
+      "morfologia": "HVNi3mp/Sn"
+    },
+    {
+      "palavra": "יְדִידֶ֑יךָ",
+      "lemma": "3039 a",
+      "morfologia": "HAampc/Sp2ms"
+    },
+    {
+      "palavra": "הוֹשִׁ֖יעָה",
+      "lemma": "3467",
+      "morfologia": "HVhv2ms/Sh"
+    },
+    {
+      "palavra": "יְמִֽינְךָ֣",
+      "lemma": "3225",
+      "morfologia": "HNcfsc/Sp2ms"
+    },
+    {
+      "palavra": "וַעֲנֵֽנִי",
+      "lemma": "c/6030 b",
+      "morfologia": "HC/Vqv2ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וַעֲנֵנִי — sufixo 1cs (\"responde-me\"), diferente do Ketiv ועננו (\"responde-nos\") de Sl 60.7",
+      "escolha": "\"responde-me\", conforme a morfologia do packet pinado (Sp1cs)",
+      "justificativa": "o texto pinado de Sl 108.7 traz sufixo de 1ª pessoa singular sem ambiguidade (diferente da grafia Ketiv/Qere de Sl 60.7); diferença real entre as fontes dos dois salmos, não erro de cópia — traduzida como está.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "harmonizar com \"responde-nos\" por causa do paralelo em Sl 60.7",
+          "motivo": "apagaria uma diferença textual real entre os dois testemunhos pinados; TEOLOGIA §2 proíbe harmonização artificial entre passagens paralelas"
+        }
+      ]
+    },
+    {
+      "questao": "הוֹשִׁיעָה יְמִינְךָ — imperativo sem objeto formal, seguido de \"tua mão direita\"",
+      "escolha": "tratar יְמִינְךָ como instrumento (\"salva-me com a tua mão direita\"), suprindo o objeto \"-me\"",
+      "justificativa": "mesma leitura já adjudicada em Sl 60.7, ajustada ao sufixo 1cs de responde-me (não 1cp).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tomar יְמִינְךָ como sujeito de verbo elíptico (\"que a tua destra salve\")",
+          "motivo": "construção possível, porém menos direta que ler יְמִינְךָ como complemento instrumental do imperativo já presente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "-me (objeto implícito de \"salva\", suprido pelo paralelo com \"responde-me\")"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Súplica final da primeira estrofe (compare Sl 60.7, com divergência textual genuína no sufixo pronominal: \"me\" em vez de \"nos\").",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

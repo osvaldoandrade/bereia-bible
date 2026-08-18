@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Amos.5.1",
+    "livro": "Amós",
+    "capitulo": 5,
+    "versiculo": 1,
+    "pericope": "Amos.5.1-27"
+  },
+  "texto_bv": "Ouçam esta palavra que eu levanto sobre vocês, um lamento, casa de Israel.",
+  "traducao_literal": "Ouçam esta palavra que eu levanto sobre vocês lamento, casa de Israel.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁמְע֞וּ",
+      "lemma": "8085",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הַדָּבָ֣ר",
+      "lemma": "d/1697",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הַזֶּ֗ה",
+      "lemma": "d/2088",
+      "morfologia": "HTd/Pdxms"
+    },
+    {
+      "palavra": "אֲשֶׁ֨ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "אָנֹכִ֜י",
+      "lemma": "595",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "נֹשֵׂ֧א",
+      "lemma": "5375",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "עֲלֵיכֶ֛ם",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "קִינָ֖ה",
+      "lemma": "7015",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בֵּ֥ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵֽל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "קִינָה (H7015) — glosa de 'lamento fúnebre/elegia'",
+      "escolha": "lamento",
+      "justificativa": "termo corrente e compreensível em leitura em voz alta, preservando o gênero literário de lamentação fúnebre que anuncia o restante do capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "elegia",
+          "motivo": "termo técnico-literário menos natural para leitura em voz alta e TTS"
+        },
+        {
+          "opcao": "pranto",
+          "motivo": "sugere choro físico, não o gênero literário de lamentação que קִינָה designa"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "um (artigo indefinido antes de 'lamento', exigido pelo português)"
+  ],
+  "ambiguidades_preservadas": [
+    "נֹשֵׂא עֲלֵיכֶם admite leitura 'levanto contra vocês' (hostilidade judicial) ou 'levanto por causa de vocês' (compaixão); a preposição עַל é ambígua e a BV usa 'sobre' para preservar ambas as leituras."
+  ],
+  "justificativa": "Fórmula de abertura do oráculo: imperativo + objeto + oração relativa qualificando 'esta palavra' como lamento (קינה), vocativo final 'casa de Israel'.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

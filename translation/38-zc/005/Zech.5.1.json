@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Zech.5.1",
+    "livro": "Zacarias",
+    "capitulo": 5,
+    "versiculo": 1,
+    "pericope": "Zech.5.1-11"
+  },
+  "texto_bv": "Tornei a levantar os olhos e vi: eis que um rolo voava.",
+  "traducao_literal": "E tornei, e levantei os meus olhos, e vi, e eis um rolo, voando.",
+  "termos_originais": [
+    {
+      "palavra": "וָאָשׁ֕וּב",
+      "lemma": "c/7725",
+      "morfologia": "HC/Vqw1cs"
+    },
+    {
+      "palavra": "וָאֶשָּׂ֥א",
+      "lemma": "c/5375",
+      "morfologia": "HC/Vqw1cs"
+    },
+    {
+      "palavra": "עֵינַ֖י",
+      "lemma": "5869 a",
+      "morfologia": "HNcbdc/Sp1cs"
+    },
+    {
+      "palavra": "וָֽאֶרְאֶ֑ה",
+      "lemma": "c/7200",
+      "morfologia": "HC/Vqw1cs"
+    },
+    {
+      "palavra": "וְהִנֵּ֖ה",
+      "lemma": "c/2009",
+      "morfologia": "HC/Tm"
+    },
+    {
+      "palavra": "מְגִלָּ֥ה",
+      "lemma": "4039",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "עָפָֽה",
+      "lemma": "5774 a",
+      "morfologia": "HVqrfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וָאָשׁוּב וָאֶשָּׂא — idiomatismo שוב + verbo finito ('tornar a fazer')",
+      "escolha": "traduzir como 'tornei a levantar' (um só ato retomado), seguindo o mesmo tratamento já dado a Zc 6.1",
+      "justificativa": "שוב seguido de verbo finito é construção padrão do hebraico bíblico para expressar repetição/retomada da ação, não dois atos coordenados distintos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E voltei e levantei os olhos' (dois atos físicos distintos)",
+          "motivo": "sugere deslocamento espacial que o hebraico não indica; o idiomatismo marca a retomada do ato de olhar, não um retorno físico"
+        }
+      ]
+    },
+    {
+      "questao": "עָפָה — particípio Qal fem. predicativo em cena de visão introduzida por וְהִנֵּה",
+      "escolha": "verter por verbo finito no imperfeito descritivo ('voava'), normalizando o particípio no publicado",
+      "justificativa": "ER-0013: a literal preserva o particípio ('voando'); o publicado normaliza para o padrão de cena narrativa já fixado em Zc 6.1 ('saíam').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'eis um rolo voando' (particípio mantido no publicado)",
+          "motivo": "quebraria a consistência com o padrão de cena de visão já fixado no corpus (Zc 6.1)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula introdutória de visão recorrente em Zacarias (cf. 2.1; 6.1); as únicas decisões não triviais são o idiomatismo שוב+verbo e a normalização do particípio descritivo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

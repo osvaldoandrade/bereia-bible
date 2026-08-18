@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.13.20",
+    "livro": "Provérbios",
+    "capitulo": 13,
+    "versiculo": 20,
+    "pericope": "Prov.13.1-25"
+  },
+  "texto_bv": "Ande com os sábios e torne-se sábio, mas o companheiro dos tolos sofrerá dano.",
+  "traducao_literal": "Anda com os sábios, e sê sábio; e o companheiro dos tolos será quebrantado.",
+  "termos_originais": [
+    {
+      "palavra": "הלוך",
+      "lemma": "1980",
+      "morfologia": "HVqa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "854",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "חֲכָמִ֣ים",
+      "lemma": "2450",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "וחכם",
+      "lemma": "c/2449",
+      "morfologia": "HC/Vqv2ms"
+    },
+    {
+      "palavra": "וְרֹעֶ֖ה",
+      "lemma": "c/7462 c",
+      "morfologia": "HC/Vqrmsa"
+    },
+    {
+      "palavra": "כְסִילִ֣ים",
+      "lemma": "3684",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "יֵרֽוֹעַ",
+      "lemma": "7489 a",
+      "morfologia": "HVNi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הלוך ... וחכם — formas do texto-base pinado (infinitivo absoluto + imperativo: 'anda ... e sê sábio'), morfologicamente distintas da leitura tradicional em particípio ('o que anda com os sábios se tornará sábio')",
+      "escolha": "Seguir estritamente a morfologia do packet pinado: par de imperativos ('ande com os sábios e torne-se sábio')",
+      "justificativa": "O texto-base fornecido tagueia הלוך como infinitivo absoluto (Vqa, usado como imperativo) e וחכם como imperativo 2ms (Vqv2ms); a BV segue a morfologia pinada sem reharmonizar para a leitura em particípio mais divulgada nas traduções tradicionais, já que o packet não traz aparato de variante para este item.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Traduzir como particípio + resultado ('o que anda com os sábios torna-se sábio')",
+          "motivo": "Corresponderia a uma vocalização diferente (leitura tradicional mais divulgada) não presente na morfologia do packet pinado; fugiria à regra de não reharmonizar com fontes externas ao packet cego."
+        }
+      ]
+    },
+    {
+      "questao": "וְרֹעֶה כְסִילִים — רֹעֶה como 'companheiro/associado' (רעה II) vs. 'pastor' (רעה I)",
+      "escolha": "'companheiro' — sentido consagrado neste contexto de convívio social",
+      "justificativa": "Sentido pastoril literal não se aplica ao paralelismo social do versículo (andar com/associar-se a).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'pastor de tolos'",
+          "motivo": "Sentido pastoril literal não se aplica ao paralelismo social do versículo."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A forma imperativa dupla (הלוך...וחכם) do texto-base pinado difere da leitura tradicional em particípio (הוֹלֵךְ...יֶחְכָּם) mais divulgada; nenhuma variante consta no aparato do packet, então a leitura morfológica fornecida foi seguida sem adjudicação formal de variante textual."
+  ],
+  "justificativa": "Verso morfologicamente atípico no texto-base pinado (par de imperativos em vez do particípio+imperfeito tradicionalmente citado); confiança reduzida por essa razão.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

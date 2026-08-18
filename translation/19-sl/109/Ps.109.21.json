@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.109.21",
+    "livro": "Salmos",
+    "capitulo": 109,
+    "versiculo": 21,
+    "pericope": "Ps.109.1-31"
+  },
+  "texto_bv": "Mas tu, SENHOR, meu Senhor, age em meu favor por causa do teu nome; porque a tua bondade é boa, livra-me!",
+  "traducao_literal": "E tu, SENHOR, meu Senhor, age comigo por causa do teu nome; porque bom é o teu favor, livra-me.",
+  "termos_originais": [
+    {
+      "palavra": "וְאַתָּ֤ה",
+      "lemma": "c/859 a",
+      "morfologia": "HC/Pp2ms"
+    },
+    {
+      "palavra": "יְה֘וִ֤ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֲדֹנָ֗י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "עֲֽשֵׂה",
+      "lemma": "6213 a",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "אִ֭תִּי",
+      "lemma": "854",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "לְמַ֣עַן",
+      "lemma": "4616",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "שְׁמֶ֑ךָ",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "כִּי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "ט֥וֹב",
+      "lemma": "2896 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "חַ֝סְדְּךָ֗",
+      "lemma": "2617 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "הַצִּילֵֽנִי",
+      "lemma": "5337",
+      "morfologia": "HVhv2ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְהוִה (lema H3069, forma vocalizada especial) seguido de אֲדֹנָי — ordem inversa da combinação padrão אֲדֹנָי יהוה ('Adonai YHWH') coberta por NOMES-DIVINOS.md, que fixa 'Senhor DEUS' para evitar repetição.",
+      "escolha": "'SENHOR, meu Senhor' — mantém os dois nomes distintos, evitando a duplicação idêntica que a política evita, com a ordem hebraica (YHWH antes de Adonai) preservada.",
+      "justificativa": "A política nomes-divinos documenta explicitamente apenas a ordem 'Adonai YHWH'; a ordem invertida aqui não está prevista. A solução escolhida preserva a distinção lexical dos dois termos (SENHOR = YHWH; meu Senhor = Adonai) sem repetir a mesma palavra duas vezes, respeitando o espírito da política (ER-0002).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Senhor DEUS' (aplicando a fórmula fixa da política, ignorando a ordem hebraica)",
+          "motivo": "a fórmula documentada cobre a ordem oposta (Adonai antes de YHWH); aplicá-la aqui inverteria silenciosamente a ordem do texto-fonte sem registro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Virada do lamento para a súplica direta; a pontuação especial de יְהוִה (H3069) sinaliza leitura tradicional próxima de 'Elohim' quando junto de אֲדֹנָי, mas a BV mantém a distinção formal SENHOR/Senhor auditável pelo lema.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

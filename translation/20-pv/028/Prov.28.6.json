@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.28.6",
+    "livro": "Provérbios",
+    "capitulo": 28,
+    "versiculo": 6,
+    "pericope": "Prov.28.1-28"
+  },
+  "texto_bv": "Melhor é o pobre que anda em integridade do que aquele que é perverso em seus caminhos, ainda que seja rico.",
+  "traducao_literal": "Melhor pobre que anda em sua integridade do que perverso de dois caminhos, e ele é rico.",
+  "termos_originais": [
+    {
+      "palavra": "טֽוֹב",
+      "lemma": "2896 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "רָ֭שׁ",
+      "lemma": "7326",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "הוֹלֵ֣ךְ",
+      "lemma": "1980",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בְּתֻמּ֑וֹ",
+      "lemma": "b/8537",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    },
+    {
+      "palavra": "מֵעִקֵּ֥שׁ",
+      "lemma": "m/6141",
+      "morfologia": "HR/Aamsc"
+    },
+    {
+      "palavra": "דְּ֝רָכַ֗יִם",
+      "lemma": "1870",
+      "morfologia": "HNcbda"
+    },
+    {
+      "palavra": "וְה֣וּא",
+      "lemma": "c/1931",
+      "morfologia": "HC/Pp3ms"
+    },
+    {
+      "palavra": "עָשִֽׁיר",
+      "lemma": "6223",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "דְּרָכַיִם é dual ('dois caminhos'): preservar o dual ou normalizar para plural genérico?",
+      "escolha": "Literal preserva o dual ('dois caminhos', sugerindo duplicidade); publicado normaliza para 'seus caminhos' / 'perverso em sua conduta'.",
+      "justificativa": "ER-0013: calques morfológicos (aqui, o dual hebraico) vão para a traducao_literal; o publicado evita um dual sem equivalente natural em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'de duplicidade' no texto publicado",
+          "motivo": "mais preciso ao dual, mas soa artificial/técnico para o registro formal-neutro exigido"
+        }
+      ]
+    },
+    {
+      "questao": "וְהוּא עָשִׁיר: waw disjuntivo circunstancial.",
+      "escolha": "Verter como concessivo 'ainda que seja rico', não como aditivo 'e ele é rico'.",
+      "justificativa": "ER-0013: waw disjuntivo circunstancial não é vertido como simples 'e'; aqui marca contraste concessivo, coerente com a estrutura de comparação טוֹב...מֵ...",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e ele é rico' (aditivo literal)",
+          "motivo": "obscurece a função circunstancial-concessiva da oração em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Integridade financeiramente pobre é preferível à riqueza moralmente tortuosa; דְּרָכַיִם dual sugere caráter duplo/dissimulado.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

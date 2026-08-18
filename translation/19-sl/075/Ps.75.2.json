@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.75.2",
+    "livro": "Salmos",
+    "capitulo": 75,
+    "versiculo": 2,
+    "pericope": "Ps.75.1-11"
+  },
+  "texto_bv": "Graças te damos, ó Deus, graças te damos; e perto está o teu nome. Contam-se as tuas maravilhas.",
+  "traducao_literal": "Demos-graças a-ti, ó-Deus, demos-graças; e-perto [está] teu-nome; contaram tuas-maravilhas.",
+  "termos_originais": [
+    {
+      "palavra": "ה֘וֹדִ֤ינוּ",
+      "lemma": "3034",
+      "morfologia": "HVhp1cp"
+    },
+    {
+      "palavra": "לְּךָ֨",
+      "lemma": "l",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "אֱֽלֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "ה֭וֹדִינוּ",
+      "lemma": "3034",
+      "morfologia": "HVhp1cp"
+    },
+    {
+      "palavra": "וְקָר֣וֹב",
+      "lemma": "c/7138",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "שְׁמֶ֑ךָ",
+      "lemma": "8034",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "סִ֝פְּר֗וּ",
+      "lemma": "5608 a",
+      "morfologia": "HVpp3cp"
+    },
+    {
+      "palavra": "נִפְלְאוֹתֶֽיךָ",
+      "lemma": "6381",
+      "morfologia": "HVNrfpc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "סִפְּרוּ נִפְלְאוֹתֶיךָ — verbo Piel perfeito 3ª pl. sem sujeito expresso: como verter?",
+      "escolha": "Contam-se as tuas maravilhas (construção de indeterminação do sujeito com 'se')",
+      "justificativa": "Perfeito Piel 3ª pl. de ספר sem sujeito antecedente é uso impessoal clássico do hebraico ('contam-se/relatam-se'); נִפְלְאוֹתֶיךָ é objeto direto do verbo ativo, não seu sujeito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "As pessoas recontam as tuas maravilhas",
+          "motivo": "exige sujeito explícito ausente no original"
+        },
+        {
+          "opcao": "Tuas maravilhas são recontadas (passiva analítica)",
+          "motivo": "gramaticalmente viável, mas o 'se' impessoal é mais idiomático em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "Preservar no publicado a repetição הוֹדִינוּ ... הוֹדִינוּ ('demos graças... demos graças')?",
+      "escolha": "Preservada: 'Graças te damos... graças te damos'",
+      "justificativa": "Repetição é ênfase retórica deliberada do salmista, não redundância morta; ER-0013 permite condensar repetição formular quando soar artificial, o que não é o caso aqui.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Condensar em uma só ocorrência",
+          "motivo": "apagaria a ênfase retórica intencional do original"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está (verbo de ligação suprido em 'e perto está o teu nome', ausente na oração nominal hebraica)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura em 2ª pessoa dirigida a Deus (uso de 'tu/te', D-0003 §3); congregação fala em nome coletivo, louvando a proximidade do nome divino e suas maravilhas.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

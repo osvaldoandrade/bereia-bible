@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.80.11",
+    "livro": "Salmos",
+    "capitulo": 80,
+    "versiculo": 11,
+    "pericope": "Ps.80.1-20"
+  },
+  "texto_bv": "Os montes foram cobertos pela sua sombra, e os cedros de Deus, pelos seus ramos.",
+  "traducao_literal": "Foram cobertos os montes [com] a sua sombra, e os seus ramos, [cobriram] os cedros de Deus.",
+  "termos_originais": [
+    {
+      "palavra": "כָּסּ֣וּ",
+      "lemma": "3680",
+      "morfologia": "HVPp3cp"
+    },
+    {
+      "palavra": "הָרִ֣ים",
+      "lemma": "2022",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "צִלָּ֑הּ",
+      "lemma": "6738",
+      "morfologia": "HNcmsc/Sp3fs"
+    },
+    {
+      "palavra": "וַ֝עֲנָפֶ֗יהָ",
+      "lemma": "c/6057",
+      "morfologia": "HC/Ncmpc/Sp3fs"
+    },
+    {
+      "palavra": "אַֽרְזֵי",
+      "lemma": "730",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "אֵֽל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "כָּסּוּ — pual perfeito 3cp ('foram cobertos'), com צִלָּהּ como acusativo de instrumento sem preposição ('sombra dela' como meio, não objeto)",
+      "escolha": "'foram cobertos... pela sua sombra' (voz passiva com agente introduzido por preposição em português)",
+      "justificativa": "O pual hebraico marca voz passiva; o português exige preposição para introduzir o meio/agente que o hebraico expressa por justaposição acusativa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "converter para ativa: 'a sua sombra cobriu os montes'",
+          "motivo": "perde a voz passiva marcada morfologicamente (pual) que o registro literal deve auditar"
+        }
+      ]
+    },
+    {
+      "questao": "וַעֲנָפֶיהָ אַרְזֵי־אֵל — segunda oração elíptica, sem verbo próprio (gapping do verbo כסה da primeira oração)",
+      "escolha": "repetir 'foram cobertos' por elipse suprida no publicado",
+      "justificativa": "Fenômeno comum de elipse verbal no paralelismo poético hebraico; o português não sustenta a oração sem verbo.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "אַרְזֵי־אֵל — construto com אֵל, possivelmente superlativo idiomático ('cedros de Deus' = 'cedros grandiosos', cf. 'montanhas de Deus')",
+      "escolha": "tradução literal 'cedros de Deus'",
+      "justificativa": "TEOLOGIA §2: tradução por valor lexical sem concordismo; o uso superlativo idiomático de אֵל em construtos é uma leitura possível, preservada como ambiguidade, sem forçar a paráfrase 'cedros grandiosos'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'cedros grandiosos/imponentes' (leitura superlativa parafraseada)",
+          "motivo": "decide por antecipação uma leitura idiomática que não é certa, quando a tradução literal direta já comunica grandiosidade por associação"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "foram cobertos (2ª oração, elipse)"
+  ],
+  "ambiguidades_preservadas": [
+    "'cedros de Deus' pode ser superlativo idiomático ('cedros imponentes') ou genitivo de posse/origem pleno; ambas preservadas."
+  ],
+  "justificativa": "Verso descreve o crescimento máximo da videira-Israel; construção passiva + elipse preservada na literal, publicado supre o verbo elidido.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.130.4",
+    "livro": "Salmos",
+    "capitulo": 130,
+    "versiculo": 4,
+    "pericope": "Ps.130.1-8"
+  },
+  "texto_bv": "Pois contigo está o perdão, para que sejas temido.",
+  "traducao_literal": "Pois contigo o perdão, para que sejas temido.",
+  "termos_originais": [
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "עִמְּךָ֥",
+      "lemma": "5973 a",
+      "morfologia": "HR/Sp2ms"
+    },
+    {
+      "palavra": "הַסְּלִיחָ֑ה",
+      "lemma": "d/5547",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "לְ֝מַ֗עַן",
+      "lemma": "4616",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "תִּוָּרֵֽא",
+      "lemma": "3372",
+      "morfologia": "HVNi2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Oração nominal עִמְּךָ הַסְּלִיחָה sem verbo de ligação",
+      "escolha": "suprir 'está' no publicado; a literal mantém a oração nominal sem cópula",
+      "justificativa": "O hebraico não tem verbo 'estar' no presente; o português exige cópula para a oração ficar gramatical (EDITORIAL §4/ER-0006).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "תִּוָּרֵא (Nifal de ירא) — 'ser temido'",
+      "escolha": "temido (reverência diante da santidade que perdoa, não terror servil)",
+      "justificativa": "O propósito do perdão (לְמַעַן) é gerar temor reverente; mantém-se a glosa padrão 'temer' sem suavizar para 'reverenciar', preservando a tensão teológica (perdão gera temor, não presunção) presente no original (TEOLOGIA §2, não suavizar).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "reverenciado",
+          "motivo": "suaviza o campo semântico de ירא, que a BV preserva por princípio"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "está (verbo de ligação ausente na oração nominal hebraica)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "סְלִיחָה ocorre só 3x no AT (Ne 9:17; Sl 130:4; Dn 9:9), sempre perdão divino; termo técnico-teológico, candidato a entrada no léxico.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

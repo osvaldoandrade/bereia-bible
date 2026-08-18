@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.95.11",
+    "livro": "Salmos",
+    "capitulo": 95,
+    "versiculo": 11,
+    "pericope": "Ps.95.1-11"
+  },
+  "texto_bv": "Por isso jurei em minha ira: eles não entrarão no meu descanso.",
+  "traducao_literal": "Que jurei em minha ira: se entrarem no meu descanso.",
+  "termos_originais": [
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "נִשְׁבַּ֥עְתִּי",
+      "lemma": "7650",
+      "morfologia": "HVNp1cs"
+    },
+    {
+      "palavra": "בְאַפִּ֑י",
+      "lemma": "b/639",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "אִם",
+      "lemma": "518 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יְ֝בֹא֗וּן",
+      "lemma": "935",
+      "morfologia": "HVqi3mp/Sn"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מְנוּחָתִֽי",
+      "lemma": "4496",
+      "morfologia": "HNcbsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲשֶׁר inicial com força consecutiva/resultativa ('por isso'), não relativo padrão",
+      "escolha": "'Por isso'",
+      "justificativa": "Uso idiomático de אֲשֶׁר em posição inicial de oração com sentido consecutivo ('de modo que/por isso'), atestado na sintaxe poética hebraica; relativo padrão ('que jurei') produziria oração pendurada sem antecedente claro em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'que jurei em minha ira'",
+          "motivo": "preserva a classe morfológica do relativo, mas deixa a oração sem antecedente sintático claro no publicado; a forma relativa é preservada na traducao_literal."
+        }
+      ]
+    },
+    {
+      "questao": "אִם־יְבֹאוּן após verbo de jurar — fórmula de juramento negativo (אם + imperfeito = negação enfática, não condicional aberta)",
+      "escolha": "'eles não entrarão' (força negativa plena)",
+      "justificativa": "Idiomatismo consolidado do hebraico bíblico: אם em orações de juramento após נשבע funciona como negação absoluta ('juro que não...'), por elipse da apódose de autoimprecação, não como condicional comum.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'se entrarem no meu descanso' (condicional literal)",
+          "motivo": "gramaticalmente literal, mas semanticamente enganoso em português — o original é negação absoluta por elipse, não condicional aberta; a forma condicional é preservada na traducao_literal para auditoria."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Clausura do oráculo com fórmula de juramento divino; אֲשֶׁר com força consecutiva ('por isso') e אִם pós-juramento como negação idiomática absoluta, ambos resolvidos por convenção gramatical hebraica padrão, com a forma literal preservada para auditoria.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

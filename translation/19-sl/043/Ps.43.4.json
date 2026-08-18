@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.43.4",
+    "livro": "Salmos",
+    "capitulo": 43,
+    "versiculo": 4,
+    "pericope": "Ps.43.1-5"
+  },
+  "texto_bv": "Então irei ao altar de Deus, a Deus, a alegria do meu júbilo, e te louvarei com a cítara, ó Deus, meu Deus.",
+  "traducao_literal": "E eu entrarei ao altar de Deus, a Deus, alegria do meu júbilo; e te louvarei com harpa, Deus, meu Deus.",
+  "termos_originais": [
+    {
+      "palavra": "וְאָב֤וֹאָה",
+      "lemma": "c/935",
+      "morfologia": "HC/Vqh1cs"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מִזְבַּ֬ח",
+      "lemma": "4196",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֱלֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אֵל֮",
+      "lemma": "410",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "שִׂמְחַ֪ת",
+      "lemma": "8057",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "גִּ֫ילִ֥י",
+      "lemma": "1524 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "וְאוֹדְךָ֥",
+      "lemma": "c/3034",
+      "morfologia": "HC/Vhi1cs/Sp2ms"
+    },
+    {
+      "palavra": "בְכִנּ֗וֹר",
+      "lemma": "b/3658",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "אֱלֹהִ֥ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אֱלֹהָֽי",
+      "lemma": "430",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de כִּנּוֹר (H3658) — 'cítara' vs 'harpa'",
+      "escolha": "cítara",
+      "justificativa": "כִּנּוֹר é instrumento de cordas dedilhado próximo à lira/cítara; 'cítara' é organologicamente mais precisa que 'harpa', reservada a instrumento de construção distinta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "harpa",
+          "motivo": "tradução tradicional (Almeida), porém organologicamente imprecisa para כִּנּוֹר"
+        }
+      ]
+    },
+    {
+      "questao": "Cadeia construta שִׂמְחַת גִּילִי ('alegria do meu júbilo')",
+      "escolha": "a alegria do meu júbilo",
+      "justificativa": "Preserva a cadeia genitiva hebraica de forma compreensível em português, mantendo os dois substantivos (H8057 simchah, H1524a gil) sem colapsar em paráfrase intensificadora.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "minha suprema alegria",
+          "motivo": "paráfrase que perde a estrutura genitiva visível do original"
+        }
+      ]
+    },
+    {
+      "questao": "אֵל (H410) e אֱלֹהִים (H430) em variação sinonímica no mesmo verso",
+      "escolha": "ambos vertidos 'Deus'",
+      "justificativa": "NOMES-DIVINOS fixa H410→Deus e H430→Deus; a variação lexical hebraica (El/Elohim) não tem par estável em português sem cunhar termo novo, então a distinção estilística se perde no texto, registrada aqui como ambiguidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Deus Poderoso' para אֵל",
+          "motivo": "introduziria distinção não prevista pela política NOMES-DIVINOS sem ocorrência de composição (ex. El Shaddai)"
+        }
+      ]
+    },
+    {
+      "questao": "וְ inicial de וְאָבוֹאָה (coortativo) — força consecutiva",
+      "escolha": "'Então' no texto_bv",
+      "justificativa": "O waw liga a vinda ao altar como consequência de ser guiado (v.3); 'então' explicita essa nuance consecutiva sem acrescentar conteúdo novo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E' simples",
+          "motivo": "preservado como conjunção neutra na traducao_literal, mas menos claro quanto à relação lógica no publicado"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "então (nuance consecutiva do waw + coortativo)",
+    "ó (marcador vocativo antes de 'Deus, meu Deus')"
+  ],
+  "ambiguidades_preservadas": [
+    "variação sinonímica אֵל/אֱלֹהִים no mesmo verso, nivelada em 'Deus' por ambos os lemas apontarem à mesma política de nomes divinos"
+  ],
+  "justificativa": "Voto de ação de graças cúltica: altar, louvor com instrumento, dupla invocação final 'Deus, meu Deus' preservada literalmente.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

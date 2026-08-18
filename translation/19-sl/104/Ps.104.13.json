@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.104.13",
+    "livro": "Salmos",
+    "capitulo": 104,
+    "versiculo": 13,
+    "pericope": "Ps.104.1-35"
+  },
+  "texto_bv": "Rega os montes desde os seus aposentos; do fruto das suas obras a terra se farta.",
+  "traducao_literal": "O que rega os montes desde seus aposentos superiores; do fruto de tuas obras farta-se a terra.",
+  "termos_originais": [
+    {
+      "palavra": "מַשְׁקֶ֣ה",
+      "lemma": "8248",
+      "morfologia": "HVhrmsa"
+    },
+    {
+      "palavra": "הָ֭רִים",
+      "lemma": "2022",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "מֵעֲלִיּוֹתָ֑יו",
+      "lemma": "m/5944",
+      "morfologia": "HR/Ncfpc/Sp3ms"
+    },
+    {
+      "palavra": "מִפְּרִ֥י",
+      "lemma": "m/6529",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "מַ֝עֲשֶׂ֗יךָ",
+      "lemma": "4639",
+      "morfologia": "HNcmpc/Sp2ms"
+    },
+    {
+      "palavra": "תִּשְׂבַּ֥ע",
+      "lemma": "7646",
+      "morfologia": "HVqi3fs"
+    },
+    {
+      "palavra": "הָאָֽרֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Crux morfológico: מֵעֲלִיּוֹתָיו traz sufixo 3ms ('seus aposentos'), mas מַעֲשֶׂיךָ, na mesma oração, traz sufixo 2ms ('tuas obras') — mistura de pessoa gramatical dentro do mesmo versículo, atestada no TM.",
+      "escolha": "normalizar o texto_bv para 3ª pessoa uniforme ('seus aposentos... suas obras'), preservando a mistura exata na traducao_literal (ER-0013, doutrina do calque, aplicada por analogia a discordância de pessoa gramatical)",
+      "justificativa": "A maioria das versões críticas resolve a mistura para legibilidade; a auditoria fica preservada na camada literal, que mantém o sufixo 2ms exato do TM.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a mistura de pessoa no texto_bv ('seus aposentos... tuas obras')",
+          "motivo": "soa como erro de tradução em português corrido; ER-0013 autoriza normalização documentada quando o calque soa artificial"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Mistura gramatical 3ms/2ms em מֵעֲלִיּוֹתָיו/מַעֲשֶׂיךָ preservada na traducao_literal."
+  ],
+  "justificativa": "Ver decisão sobre o crux morfológico de pessoa gramatical.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

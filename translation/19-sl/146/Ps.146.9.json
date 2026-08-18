@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.146.9",
+    "livro": "Salmos",
+    "capitulo": 146,
+    "versiculo": 9,
+    "pericope": "Ps.146.1-10"
+  },
+  "texto_bv": "O SENHOR guarda os estrangeiros, sustenta o órfão e a viúva, mas transtorna o caminho dos ímpios.",
+  "traducao_literal": "O SENHOR guarda os estrangeiros; o órfão e a viúva sustém; mas o caminho dos ímpios transtorna.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שֹׁ֘מֵ֤ר",
+      "lemma": "8104",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "גֵּרִ֗ים",
+      "lemma": "1616",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יָת֣וֹם",
+      "lemma": "3490",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְאַלְמָנָ֣ה",
+      "lemma": "c/490",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "יְעוֹדֵ֑ד",
+      "lemma": "5749 a",
+      "morfologia": "HVoi3ms"
+    },
+    {
+      "palavra": "וְדֶ֖רֶךְ",
+      "lemma": "c/1870",
+      "morfologia": "HC/Ncbsc"
+    },
+    {
+      "palavra": "רְשָׁעִ֣ים",
+      "lemma": "7563",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "יְעַוֵּֽת",
+      "lemma": "5791",
+      "morfologia": "HVpi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Objetos antepostos ao verbo (יָתוֹם וְאַלְמָנָה יְעוֹדֵד; וְדֶרֶךְ רְשָׁעִים יְעַוֵּת) — quiasmo de ordem",
+      "escolha": "Normalizar para ordem verbo-objeto padrão do português no texto publicado; a traducao_literal preserva a anteposição hebraica",
+      "justificativa": "O hebraico antepõe os objetos para criar quiasmo/ênfase contrastiva; em português essa ordem soaria arcaica fora de contexto poético especializado. ER-0013 autoriza a normalização no publicado com preservação do calque na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Preservar a ordem objeto-verbo no texto publicado",
+          "motivo": "soaria artificial em português corrido, embora sintaticamente possível; reservado à traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "Waw em וְדֶרֶךְ רְשָׁעִים — copulativo vs. adversativo",
+      "escolha": "'mas' (adversativo)",
+      "justificativa": "O contraste entre o cuidado de YHWH pelos vulneráveis e sua ação de frustrar o caminho dos ímpios é marcado estruturalmente pelo quiasmo; 'mas' explicita em português o que o waw sinaliza pelo paralelismo antitético, sem acrescentar conteúdo ausente do hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e' (copulativo neutro)",
+          "motivo": "não sinalizaria a virada antitética que o quiasmo hebraico constrói estruturalmente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "יְעַוֵּת (Piel de עוה) pode significar 'tornar torto/tortuoso' ou 'subverter/frustrar' o caminho dos ímpios; a BV escolhe 'transtorna' como termo intermediário que preserva ambas as nuances."
+  ],
+  "justificativa": "Fecha a série de atributos do SENHOR com antítese: cuidado dos vulneráveis (estrangeiro, órfão, viúva) vs. frustração do caminho dos ímpios.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

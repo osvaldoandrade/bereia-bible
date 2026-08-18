@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.116.10",
+    "livro": "Salmos",
+    "capitulo": 116,
+    "versiculo": 10,
+    "pericope": "Ps.116.1-19"
+  },
+  "texto_bv": "Confiei, mesmo quando eu disse: “Estou muito aflito.”",
+  "traducao_literal": "Cri, porque falarei; eu, sofri muito.",
+  "termos_originais": [
+    {
+      "palavra": "הֶ֭אֱמַנְתִּי",
+      "lemma": "539",
+      "morfologia": "HVhp1cs"
+    },
+    {
+      "palavra": "כִּ֣י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֲדַבֵּ֑ר",
+      "lemma": "1696",
+      "morfologia": "HVpi1cs"
+    },
+    {
+      "palavra": "אֲ֝נִ֗י",
+      "lemma": "589",
+      "morfologia": "HPp1cs"
+    },
+    {
+      "palavra": "עָנִ֥יתִי",
+      "lemma": "6031 b",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "מְאֹֽד",
+      "lemma": "3966",
+      "morfologia": "HD"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "כִּי אֲדַבֵּר introduzindo וְאֲנִי עָנִיתִי מְאֹד — crux sintático clássico do TM",
+      "escolha": "Ler אֲדַבֵּר como introdutor de discurso direto ('quando disse:'), com אֲנִי עָנִיתִי מְאֹד como o conteúdo citado ('Estou muito aflito')",
+      "justificativa": "Resolve a dificuldade sintática do TM de modo amplamente aceito (cf. NRSV/NIV), sem necessidade de emendar o texto; preserva o valor causal/temporal usual de כִּי.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "כִּי como consecutivo 'portanto' (LXX ἐπίστευσα διὸ ἐλάλησα, citado em 2Co 4:13)",
+          "motivo": "Não corresponde ao sentido usual da partícula כי no hebraico bíblico; a fonte pinada é o TM, não a LXX."
+        }
+      ]
+    },
+    {
+      "questao": "Tempos verbais mistos (perfeito/imperfeito/perfeito) do versículo",
+      "escolha": "Traduzir em sentido narrativo passado, coerente com o restante do salmo",
+      "justificativa": "Mantém a moldura retrospectiva de ação de graças.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "כִּי pode ser lido como causal ('porque') ou como introdutor temporal-concessivo ('quando'); a tradição grega (LXX/2Co 4:13) lê como consecutivo 'portanto' — leitura preservada na traducao_literal e na justificativa, não adotada no publicado."
+  ],
+  "justificativa": "Verso classicamente difícil (crux interpretum); a traducao_literal preserva a justaposição bruta do TM para auditoria; o publicado adota a leitura de discurso direto mais amplamente sustentada.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.65.5",
+    "livro": "Salmos",
+    "capitulo": 65,
+    "versiculo": 5,
+    "pericope": "Ps.65.1-14"
+  },
+  "texto_bv": "Feliz aquele a quem escolhes e fazes aproximar; ele habitará em teus átrios. Seremos saciados com o bem da tua casa; santo é o teu templo.",
+  "traducao_literal": "Feliz — escolherás e farás-aproximar — habitará teus-átrios; seremos-saciados com-bem casa-tua; santo templo-teu.",
+  "termos_originais": [
+    {
+      "palavra": "אַשְׁרֵ֤י",
+      "lemma": "835",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "תִּֽבְחַ֣ר",
+      "lemma": "977",
+      "morfologia": "HVqi2ms"
+    },
+    {
+      "palavra": "וּתְקָרֵב֮",
+      "lemma": "c/7126",
+      "morfologia": "HC/Vpi2ms"
+    },
+    {
+      "palavra": "יִשְׁכֹּ֪ן",
+      "lemma": "7931",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "חֲצֵ֫רֶ֥יךָ",
+      "lemma": "2691 a",
+      "morfologia": "HNcbpc/Sp2ms"
+    },
+    {
+      "palavra": "נִ֭שְׂבְּעָה",
+      "lemma": "7646",
+      "morfologia": "HVqh1cp"
+    },
+    {
+      "palavra": "בְּט֣וּב",
+      "lemma": "b/2898",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "בֵּיתֶ֑ךָ",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "קְ֝דֹ֗שׁ",
+      "lemma": "6918",
+      "morfologia": "HAamsc"
+    },
+    {
+      "palavra": "הֵיכָלֶֽךָ",
+      "lemma": "1964",
+      "morfologia": "HNcmsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אַשְׁרֵי seguido diretamente de verbo 2ms (תִּבְחַר), sem antecedente nominal explícito nem relativo",
+      "escolha": "suprir 'aquele a quem' para formar oração relativa gramatical em português",
+      "justificativa": "Construção poética elíptica comum ('ashrei + verbo' = 'feliz é aquele que...'); português exige antecedente e relativo explícitos.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "קָדֹשׁ הֵיכָלֶךָ como cláusula nominal independente (adjetivo predicativo fronteado + sujeito)",
+      "escolha": "manter fronteamento no publicado: 'santo é o teu templo'",
+      "justificativa": "Ordem natural e corrente em registro litúrgico pt-BR ('Santo é o Senhor'); não exige normalização S-V como os wayyiqtol narrativos de ER-0011 (verso não-narrativo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o teu templo é santo'",
+          "motivo": "perde a ênfase poética do fronteamento hebraico sem ganho de clareza em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a quem (relativo)",
+    "ele (sujeito de 'habitará', explicitando o antecedente)",
+    "é (cópula em 'santo é o teu templo')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "בֵּיתֶךָ ('tua casa') e הֵיכָלֶךָ ('teu templo') mantidos como dois lexemas distintos (não conflados), preservando o léxico duplo do hebraico para a mesma estrutura; mudança de pessoa 3ms (יִשְׁכֹּן) para 1cp (נִשְׂבְּעָה) preservada sem harmonização.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

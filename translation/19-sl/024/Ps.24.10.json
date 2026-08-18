@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.24.10",
+    "livro": "Salmos",
+    "capitulo": 24,
+    "versiculo": 10,
+    "pericope": "Ps.24.1-10"
+  },
+  "texto_bv": "Quem é este rei da glória? O SENHOR dos Exércitos: ele é o rei da glória. Selá.",
+  "traducao_literal": "Quem, ele, este, rei da glória? SENHOR dos exércitos: ele, rei da glória. Selá.",
+  "termos_originais": [
+    {
+      "palavra": "מִ֤י",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "ה֣וּא",
+      "lemma": "1931",
+      "morfologia": "HPp3ms"
+    },
+    {
+      "palavra": "זֶה֮",
+      "lemma": "2088",
+      "morfologia": "HPdxms"
+    },
+    {
+      "palavra": "מֶ֤לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַכָּ֫ב֥וֹד",
+      "lemma": "d/3519",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "יְהוָ֥ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָא֑וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "ה֤וּא",
+      "lemma": "1931",
+      "morfologia": "HPp3ms"
+    },
+    {
+      "palavra": "מֶ֖לֶךְ",
+      "lemma": "4428",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַכָּב֣וֹד",
+      "lemma": "d/3519",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "סֶֽלָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "מִי הוּא זֶה — pronome triplo enfático ('quem, ele, este'), mais intenso que o מִי זֶה simples do v.8.",
+      "escolha": "Normalizar no publicado para 'Quem é este' (igual ao v.8), preservando os três elementos pronominais integralmente na traducao_literal.",
+      "justificativa": "ER-0013: repetição/ênfase pronominal redundante em português é normalizável no publicado quando soa artificial; a ênfase reforçada da pergunta final (culminação litúrgica) fica documentada na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Reforçar o publicado com um advérbio de ênfase ('Quem é este, afinal, o rei da glória?')",
+          "motivo": "Introduziria uma nuance interpretativa (impaciência/insistência) que o texto não codifica explicitamente; prefere-se normalização neutra, com a ênfase preservada na literal."
+        }
+      ]
+    },
+    {
+      "questao": "יְהוָה צְבָאוֹת — título divino sem entrada explícita em NOMES-DIVINOS.md v1.0.0.",
+      "escolha": "Traduzir 'SENHOR dos Exércitos', glosa consolidada em português bíblico para צָבָאוֹת ('exércitos/hostes').",
+      "justificativa": "Mantém a imagem militar concreta do lexema צָבָא, coerente com o campo semântico bélico do verso anterior (גִּבּוֹר מִלְחָמָה, 'poderoso na batalha'); recomenda-se registrar esta entrada em NOMES-DIVINOS.md para consistência em ocorrências futuras.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'SENHOR Todo-Poderoso'",
+          "motivo": "Tradução dinâmica que apaga a imagem militar concreta de צָבָא ('exército'), preferida por versões como a NVI mas menos aderente ao valor lexical literal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Clímax processional do salmo, resposta final à pergunta repetida dos vv.8/10; SELÁ encerra a unidade litúrgica. Título 'SENHOR dos Exércitos' carece de entrada prévia no léxico/política de nomes divinos — sinalizado para futura ratificação.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

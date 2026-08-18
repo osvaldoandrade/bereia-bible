@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.16.3",
+    "livro": "Salmos",
+    "capitulo": 16,
+    "versiculo": 3,
+    "pericope": "Ps.16.1-11"
+  },
+  "texto_bv": "Quanto aos santos que há na terra, eles são os nobres em quem está todo o meu prazer.",
+  "traducao_literal": "Para os santos que [estão] na terra — eles — e os nobres, todo o meu prazer [está] neles.",
+  "termos_originais": [
+    {
+      "palavra": "לִ֭קְדוֹשִׁים",
+      "lemma": "l/6918",
+      "morfologia": "HR/Aampa"
+    },
+    {
+      "palavra": "אֲשֶׁר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בָּאָ֣רֶץ",
+      "lemma": "b/776",
+      "morfologia": "HRd/Ncbsa"
+    },
+    {
+      "palavra": "הֵ֑מָּה",
+      "lemma": "1992",
+      "morfologia": "HPp3mp"
+    },
+    {
+      "palavra": "וְ֝אַדִּירֵ֗י",
+      "lemma": "c/117",
+      "morfologia": "HC/Aampc"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "חֶפְצִי",
+      "lemma": "2656",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "בָֽם",
+      "lemma": "b",
+      "morfologia": "HR/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sintaxe do versículo (crux clássico): relação entre קְדוֹשִׁים, הֵמָּה, אַדִּירֵי e כָּל־חֶפְצִי",
+      "escolha": "הֵמָּה וְאַדִּירֵי como predicado nominal ('eles são os nobres'), com כָּל־חֶפְצִי־בָם como oração independente seguinte ('todo o meu prazer está neles')",
+      "justificativa": "Parsing sintático majoritário: אַדִּירֵי não forma cadeia construta com חֶפְצִי, pois כָּל intermediário impediria a regência construta; lido como predicado apositivo de הֵמָּה.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "cadeia construta 'os nobres de todo o meu prazer'",
+          "motivo": "sintaticamente forçada — כָּל não pode se interpor numa cadeia construta sem quebrar a regência"
+        }
+      ]
+    },
+    {
+      "questao": "קְדוֹשִׁים — referente (seres celestiais vs. povo fiel de Deus na terra)",
+      "escolha": "'santos' = fiéis de Deus na terra",
+      "justificativa": "A cláusula אֲשֶׁר־בָּאָרֶץ ('que há na terra') distingue estes santos de seres celestiais, apontando para o povo fiel; contraste proposital com os idólatras do v.4.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'seres celestiais/anjos'",
+          "motivo": "contradito pela própria cláusula geográfica do texto ('que há na terra')"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "há (verbo existencial suprido em 'que há na terra', oração nominal no hebraico)",
+    "são (cópula suprida em 'eles são os nobres')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Versículo de sintaxe elíptica e disputada entre os comentaristas; a leitura adotada segue o parsing majoritário (predicado nominal + oração independente), sem apoio em doutrina teológica.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

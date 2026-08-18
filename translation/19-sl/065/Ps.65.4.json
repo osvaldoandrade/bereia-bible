@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.65.4",
+    "livro": "Salmos",
+    "capitulo": 65,
+    "versiculo": 4,
+    "pericope": "Ps.65.1-14"
+  },
+  "texto_bv": "Atos de iniquidade prevaleceram contra mim; tu expiarás as nossas transgressões.",
+  "traducao_literal": "Palavras-de iniquidades prevaleceram mais-que-eu; nossas-transgressões, tu as-expiarás.",
+  "termos_originais": [
+    {
+      "palavra": "דִּבְרֵ֣י",
+      "lemma": "1697",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "עֲ֭וֺנֹת",
+      "lemma": "5771",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "גָּ֣בְרוּ",
+      "lemma": "1396",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "מֶ֑נִּי",
+      "lemma": "4480 a",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "פְּ֝שָׁעֵ֗ינוּ",
+      "lemma": "6588",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "אַתָּ֥ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "תְכַפְּרֵֽם",
+      "lemma": "3722 a",
+      "morfologia": "HVpi2ms/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de דִּבְרֵי (construto de H1697 דָּבָר, 'palavra/coisa/assunto') em דִּבְרֵי עֲוֹנֹת",
+      "escolha": "atos de iniquidade",
+      "justificativa": "דָּבָר no construto com 'iniquidades' funciona no sentido amplo de 'coisa/assunto/feito', não estritamente 'palavra falada'; 'atos' capta esse valor sem descartar o substantivo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir דברי e verter só 'iniquidades'",
+          "motivo": "perde item lexical do original; ER-0013 cobre apenas calques estruturais, não omissão de conteúdo lexical"
+        },
+        {
+          "opcao": "'palavras de iniquidade' (tradução formal estrita)",
+          "motivo": "em português soa como 'discurso pecaminoso', estreitando o sentido mais amplo de דבר"
+        }
+      ]
+    },
+    {
+      "questao": "Glosa de תְכַפְּרֵם (Piel, כפר, 'cobrir/expiar/perdoar')",
+      "escolha": "expiarás",
+      "justificativa": "Termo técnico-teológico do sistema sacrificial (raiz 'cobrir'); 'expiar' preserva o valor técnico sem colapsar em 'perdoar', que interpretaria o mecanismo (cf. lexico_ref pendente — H3722a ainda não tem entrada no lexicon.json).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "perdoarás",
+          "motivo": "interpretativo, oculta a metáfora de cobertura/expiação do verbo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "מֶנִּי pode ser 'contra mim' (superar) ou 'mais do que eu [suporto]'; mantida a leitura de superação ('prevaleceram contra mim')."
+  ],
+  "justificativa": "Mudança de pessoa 1cs (מֶנִּי, 'contra mim') para 1cp (פְּשָׁעֵינוּ, 'nossas transgressões') preservada sem harmonização — confissão pessoal que se amplia para comunitária, comum em salmos (TEOLOGIA §2, não suavizar).",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

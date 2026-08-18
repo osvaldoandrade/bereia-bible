@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Obad.1.2",
+    "livro": "Obadias",
+    "capitulo": 1,
+    "versiculo": 2,
+    "pericope": "Obad.1.1-21"
+  },
+  "texto_bv": "Eis que eu fiz você pequeno entre as nações; você é muito desprezado.",
+  "traducao_literal": "Eis, pequeno te fiz entre as nações; desprezado és tu, muito.",
+  "termos_originais": [
+    {
+      "palavra": "הִנֵּ֥ה",
+      "lemma": "2009",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "קָטֹ֛ן",
+      "lemma": "6996 b",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "נְתַתִּ֖יךָ",
+      "lemma": "5414",
+      "morfologia": "HVqp1cs/Sp2ms"
+    },
+    {
+      "palavra": "בַּגּוֹיִ֑ם",
+      "lemma": "b/1471 a",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "בָּז֥וּי",
+      "lemma": "959",
+      "morfologia": "HVqsmsa"
+    },
+    {
+      "palavra": "אַתָּ֖ה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    },
+    {
+      "palavra": "מְאֹֽד",
+      "lemma": "3966",
+      "morfologia": "HD"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem de frase com predicado fronteado (קָטֹן נְתַתִּיךָ; בָּזוּי אַתָּה — predicado antes do verbo/sujeito)",
+      "escolha": "normalizar para ordem natural do português no publicado (S-V-O / sujeito-predicado), preservando a ordem hebraica na tradução literal",
+      "justificativa": "ER-0013: calques estruturais de ordem são preservados na literal e normalizados no publicado quando soam artificiais.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem hebraica no publicado ('pequeno te fiz')",
+          "motivo": "soa arcaizante/artificial em português contemporâneo, contrariando EDITORIAL §1"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "נְתַתִּיךָ (qal perfeito 1cs + sufixo 2ms) tem sentido factitivo 'eu te fiz/tornei'; בָּזוּי é particípio passivo qal predicativo. Ambos os predicados vêm fronteados no hebraico para ênfase, recurso preservado apenas na literal.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

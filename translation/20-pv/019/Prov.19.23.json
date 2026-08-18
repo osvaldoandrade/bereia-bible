@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.19.23",
+    "livro": "Provérbios",
+    "capitulo": 19,
+    "versiculo": 23,
+    "pericope": "Prov.19.1-29"
+  },
+  "texto_bv": "O temor do SENHOR conduz à vida; quem o tem dormirá satisfeito, sem ser visitado pelo mal.",
+  "traducao_literal": "Temor do SENHOR, para vida; e satisfeito passará a noite, não será visitado, mal.",
+  "termos_originais": [
+    {
+      "palavra": "יִרְאַ֣ת",
+      "lemma": "3374",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לְחַיִּ֑ים",
+      "lemma": "l/2416 e",
+      "morfologia": "HR/Ncmpa"
+    },
+    {
+      "palavra": "וְשָׂבֵ֥עַ",
+      "lemma": "c/7649",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "יָ֝לִ֗ין",
+      "lemma": "3885 a",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "בַּל",
+      "lemma": "1077",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִפָּ֥קֶד",
+      "lemma": "6485 a",
+      "morfologia": "HVNi3ms"
+    },
+    {
+      "palavra": "רָֽע",
+      "lemma": "7451 b",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito não expresso de וְשָׂבֵעַ יָלִין ('e satisfeito passará a noite') — retoma 'quem teme o SENHOR' da primeira linha, não expresso de novo.",
+      "escolha": "Explicitar 'quem o tem' (i.e., quem tem o temor do SENHOR) como sujeito suprido no publicado.",
+      "justificativa": "Português exige sujeito explícito onde o hebraico opera por elipse encadeada entre as duas linhas do dístico; sem a explicitação a frase fica truncada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Deixar sujeito implícito também no publicado ('E, satisfeito, dormirá...')",
+          "motivo": "Gramatical em português, mas obscurece a quem se refere 'satisfeito' sem reler a primeira linha; explicitação melhora a leitura em voz alta (EDITORIAL §1.3)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "quem o tem (sujeito suprido, retomando 'o temor do SENHOR')",
+    "conduz (verbo suprido para לְחַיִּים, 'para vida')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "YHWH → SENHOR (ER-0002). בַּל־יִפָּקֶד רָע, 'não será visitado [por] mal', mantido com רָע como sujeito posposto do verbo passivo, sem suavizar a ideia de imunidade ao mal prometida.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

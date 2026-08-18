@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.12.2",
+    "livro": "Oseias",
+    "capitulo": 12,
+    "versiculo": 2,
+    "pericope": "Hos.12.1-15"
+  },
+  "texto_bv": "Efraim se alimenta de vento e persegue o vento leste o dia todo; multiplica mentira e violência; fazem aliança com a Assíria, e óleo é levado ao Egito.",
+  "traducao_literal": "Efraim pasce vento e persegue vento leste o dia todo; mentira e violência multiplica; e aliança com a Assíria cortam, e azeite para o Egito é levado.",
+  "termos_originais": [
+    {
+      "palavra": "אֶפְרַ֜יִם",
+      "lemma": "669",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "רֹעֶ֥ה",
+      "lemma": "7462 b",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "ר֨וּחַ֙",
+      "lemma": "7307",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "וְרֹדֵ֣ף",
+      "lemma": "c/7291",
+      "morfologia": "HC/Vqrmsa"
+    },
+    {
+      "palavra": "קָדִ֔ים",
+      "lemma": "6921",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַיּ֕וֹם",
+      "lemma": "d/3117",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "כָּזָ֥ב",
+      "lemma": "3577",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וָשֹׁ֖ד",
+      "lemma": "c/7701",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "יַרְבֶּ֑ה",
+      "lemma": "7235 a",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "וּבְרִית֙",
+      "lemma": "c/1285",
+      "morfologia": "HC/Ncfsa"
+    },
+    {
+      "palavra": "עִם",
+      "lemma": "5973 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "אַשּׁ֣וּר",
+      "lemma": "804",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יִכְרֹ֔תוּ",
+      "lemma": "3772",
+      "morfologia": "HVqi3mp"
+    },
+    {
+      "palavra": "וְשֶׁ֖מֶן",
+      "lemma": "c/8081",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "לְמִצְרַ֥יִם",
+      "lemma": "l/4714",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יוּבָֽל",
+      "lemma": "2986",
+      "morfologia": "HVHi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "רֹעֶה רוּחַ — idiomatismo 'pastar vento'",
+      "escolha": "'se alimenta de vento' no publicado, preservando 'pasce vento' na literal.",
+      "justificativa": "Idioma hebraico para futilidade/vaidade de esforço; tradução dinâmica no publicado mantém a imagem sem soar estranha em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'pasta vento' literal no publicado",
+          "motivo": "colisão semântica em português ('pastar' exige objeto tangível), prejudica leiturabilidade/TTS (EDITORIAL §1.3)"
+        }
+      ]
+    },
+    {
+      "questao": "יִכְרֹתוּ (3mp) com sujeito singular Efraim no cotexto",
+      "escolha": "sujeito coletivo implícito 'eles' (Efraim como nação), plural gramatical preservado: 'fazem aliança'.",
+      "justificativa": "Concordância ad sensum comum em hebraico bíblico quando o nome de nação funciona como coletivo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "forçar singular 'Efraim faz aliança'",
+          "motivo": "apaga a morfologia plural do verbo, marcada no registro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "eles (sujeito implícito de 'fazem aliança')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso descritivo de política externa efraimita (alianças com Assíria e Egito) como parte da acusação de falsidade; morfologia clara, poucas cruxes.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

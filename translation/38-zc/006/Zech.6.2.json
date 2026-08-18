@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Zech.6.2",
+    "livro": "Zacarias",
+    "capitulo": 6,
+    "versiculo": 2,
+    "pericope": "Zech.6.1-15"
+  },
+  "texto_bv": "No primeiro carro havia cavalos vermelhos, e no segundo, cavalos pretos.",
+  "traducao_literal": "No carro, o primeiro, cavalos vermelhos; e no carro, o segundo, cavalos pretos.",
+  "termos_originais": [
+    {
+      "palavra": "בַּמֶּרְכָּבָ֥ה",
+      "lemma": "b/4818",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "הָרִֽאשֹׁנָ֖ה",
+      "lemma": "d/7223",
+      "morfologia": "HTd/Aofsa"
+    },
+    {
+      "palavra": "סוּסִ֣ים",
+      "lemma": "5483 b",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "אֲדֻמִּ֑ים",
+      "lemma": "122 a",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "וּבַמֶּרְכָּבָ֥ה",
+      "lemma": "c/b/4818",
+      "morfologia": "HC/Rd/Ncfsa"
+    },
+    {
+      "palavra": "הַשֵּׁנִ֖ית",
+      "lemma": "d/8145",
+      "morfologia": "HTd/Aofsa"
+    },
+    {
+      "palavra": "סוּסִ֥ים",
+      "lemma": "5483 b",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "שְׁחֹרִֽים",
+      "lemma": "7838",
+      "morfologia": "HAampa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Oração nominal sem verbo (elipse copulativa hebraica)",
+      "escolha": "suprir 'havia' para viabilizar a leitura corrida em português",
+      "justificativa": "o hebraico bíblico admite oração sem cópula; o português exige verbo para uma lista descritiva fluente (EDITORIAL §1.3, leitura em voz alta/TTS).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter sem verbo ('No primeiro carro, cavalos vermelhos')",
+          "motivo": "gramatical, mas soa como legenda telegráfica em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "havia"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Lista descritiva dos carros e cores dos cavalos; oração nominal suprida com verbo copulativo conforme ER-0006.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

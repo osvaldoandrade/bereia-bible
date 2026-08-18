@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mic.7.1",
+    "livro": "Miqueias",
+    "capitulo": 7,
+    "versiculo": 1,
+    "pericope": "Mic.7.1-20"
+  },
+  "texto_bv": "Ai de mim! Pois me tornei como quem colhe frutas de verão, como os rabiscos da vindima: não há cacho de uvas para comer, nem a breva que minha alma desejava.",
+  "traducao_literal": "Ai de mim! Porque fui como os ajuntadores de verão, como as rebuscas da vindima; não há cacho para comer; breva desejou minha alma.",
+  "termos_originais": [
+    {
+      "palavra": "אַ֣לְלַי",
+      "lemma": "480",
+      "morfologia": "HTj"
+    },
+    {
+      "palavra": "לִ֗י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "הָיִ֨יתִי֙",
+      "lemma": "1961",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "כְּאָסְפֵּי",
+      "lemma": "k/625",
+      "morfologia": "HR/Ncmpc"
+    },
+    {
+      "palavra": "קַ֔יִץ",
+      "lemma": "7019",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "כְּעֹלְלֹ֖ת",
+      "lemma": "k/5955",
+      "morfologia": "HR/Ncfpc"
+    },
+    {
+      "palavra": "בָּצִ֑יר",
+      "lemma": "1210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֵין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אֶשְׁכּ֣וֹל",
+      "lemma": "811",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לֶאֱכ֔וֹל",
+      "lemma": "l/398",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "בִּכּוּרָ֖ה",
+      "lemma": "1063",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "אִוְּתָ֥ה",
+      "lemma": "183",
+      "morfologia": "HVpp3fs"
+    },
+    {
+      "palavra": "נַפְשִֽׁי",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ordem de אִוְּתָה נַפְשִׁי (verbo-sujeito)",
+      "escolha": "publicado normaliza para sujeito-verbo ('minha alma desejava'); a literal preserva a ordem verbo-sujeito ('desejou minha alma')",
+      "justificativa": "ER-0013, doutrina do calque: a ordem original é sempre preservada na literal e pode ser normalizada no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S também no publicado",
+          "motivo": "soa artificial em português contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "valor temporal do perfeito אִוְּתָה",
+      "escolha": "verter como pretérito imperfeito ('desejava') no publicado, exprimindo carência persistente",
+      "justificativa": "o contexto ('não há cacho... nem breva') descreve uma privação contínua, não um evento pontual encerrado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pretérito perfeito simples 'desejou'",
+          "motivo": "sugere evento fechado e obscurece a leitura de carência atual"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (relativo entre 'breva' e 'minha alma desejava', ausente no hebraico assindético)"
+  ],
+  "ambiguidades_preservadas": [
+    "בִּכּוּרָה אִוְּתָה נַפְשִׁי admite leitura como oração relativa assindética ou como declaração independente; o sentido geral de carência é preservado em ambas"
+  ],
+  "justificativa": "Lamento inicial de Miqueias: a nação como pomar já colhido, sem fruto bom restante. Glossário verificado (אֶשְׁכּוֹל 'cacho', בִּכּוּרָה 'breva/figo precoce'); nenhuma variante textual no aparato do pacote.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

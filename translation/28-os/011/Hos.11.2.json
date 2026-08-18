@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Hos.11.2",
+    "livro": "Oseias",
+    "capitulo": 11,
+    "versiculo": 2,
+    "pericope": "Hos.11.1-11"
+  },
+  "texto_bv": "Eram chamados, e assim se afastavam deles; sacrificavam aos baalins e queimavam incenso às imagens esculpidas.",
+  "traducao_literal": "Chamaram-lhes, assim andaram de diante deles; para os baalins sacrificavam, e para os ídolos queimavam incenso.",
+  "termos_originais": [
+    {
+      "palavra": "קָרְא֖וּ",
+      "lemma": "7121",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "לָהֶ֑ם",
+      "lemma": "l",
+      "morfologia": "HR/Sp3mp"
+    },
+    {
+      "palavra": "כֵּ֚ן",
+      "lemma": "3651 c",
+      "morfologia": "HTm"
+    },
+    {
+      "palavra": "הָלְכ֣וּ",
+      "lemma": "1980",
+      "morfologia": "HVqp3cp"
+    },
+    {
+      "palavra": "מִפְּנֵיהֶ֔ם",
+      "lemma": "m/6440",
+      "morfologia": "HR/Ncbpc/Sp3mp"
+    },
+    {
+      "palavra": "לַבְּעָלִ֣ים",
+      "lemma": "l/1168 a",
+      "morfologia": "HRd/Np"
+    },
+    {
+      "palavra": "יְזַבֵּ֔חוּ",
+      "lemma": "2076",
+      "morfologia": "HVpi3mp"
+    },
+    {
+      "palavra": "וְלַפְּסִלִ֖ים",
+      "lemma": "c/l/6456",
+      "morfologia": "HC/Rd/Ncmpa"
+    },
+    {
+      "palavra": "יְקַטֵּרֽוּן",
+      "lemma": "6999 a",
+      "morfologia": "HVpi3mp/Sn"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito não expresso de קָרְאוּ (3ª pl.) — quem chamava?",
+      "escolha": "voz passiva sem sujeito explícito ('eram chamados')",
+      "justificativa": "O hebraico usa 3ª pessoa plural indefinida sem sujeito nominal, recurso idiomático comumente equivalente a passiva; verter para passiva em português evita inventar um sujeito (profetas? mensageiros?) que o texto não nomeia, preservando a mesma indeterminação do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'chamavam a eles' (ativa, sujeito impessoal)",
+          "motivo": "gera ambiguidade pronominal maior em português do que em hebraico, pois 'eles' colidiria com o referente do verbo seguinte"
+        },
+        {
+          "opcao": "inserir sujeito explícito 'os profetas'",
+          "motivo": "importa informação exegética que o texto-fonte não codifica (proibido por TEOLOGIA §2)"
+        }
+      ]
+    },
+    {
+      "questao": "כֵּן: consequencial ('assim') ou adversativo ('mas')?",
+      "escolha": "assim (consequencial, valor básico da partícula)",
+      "justificativa": "כֵּן não é partícula adversativa; a leitura irônica (quanto mais chamados, mais se afastavam) emerge do contexto sem precisar trocar o conectivo. Mantém-se fiel à partícula.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "mas",
+          "motivo": "suaviza para o leitor a tensão irônica presente no próprio 'assim' hebraico; troca de conectivo não sustentada lexicalmente"
+        }
+      ]
+    },
+    {
+      "questao": "פְּסִלִים (H6456): glosa 'ídolos' (genérica) ou 'imagens esculpidas' (específica)?",
+      "escolha": "imagens esculpidas",
+      "justificativa": "פֶּסֶל denota especificamente imagem de escultura/gravura, distinto de termos genéricos para ídolo; mantém precisão lexical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ídolos",
+          "motivo": "mais fluido, mas nivela com outros lexemas hebraicos genéricos para 'ídolo' não presentes aqui"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Referente de 'deles' em 'se afastavam deles' — pode ser quem os chamava (profetas/mensageiros) ou outro grupo; o hebraico מִפְּנֵיהֶם é igualmente indeterminado quanto ao referente do sufixo 3mp"
+  ],
+  "justificativa": "Verso sintaticamente cru: sujeito de קָרְאוּ não nomeado, sufixos de 3ª pl. com referentes cruzados. Sem variantes_fonte no packet; tradução segue TM conforme morfologia fornecida, sem emendar para 1ª pessoa (leitura da LXX, não adjudicada aqui por ausência de aparato no packet).",
+  "confianca": 0.5,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

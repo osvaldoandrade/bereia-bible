@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.81.8",
+    "livro": "Salmos",
+    "capitulo": 81,
+    "versiculo": 8,
+    "pericope": "Ps.81.1-17"
+  },
+  "texto_bv": "Na angústia, você clamou, e eu o livrei; respondi a você do esconderijo do trovão; testei você junto às águas de Meribá. Selá.",
+  "traducao_literal": "Na angústia você clamou, e eu o livrei; eu respondo a você no esconderijo do trovão; eu provo você junto às águas de Meribá. Selá.",
+  "termos_originais": [
+    {
+      "palavra": "בַּצָּרָ֥ה",
+      "lemma": "b/6869 b",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "קָרָ֗אתָ",
+      "lemma": "7121",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "וָאֲחַ֫לְּצֶ֥ךָּ",
+      "lemma": "c/2502 a",
+      "morfologia": "HC/Vpw1cs/Sp2ms"
+    },
+    {
+      "palavra": "אֶ֭עֶנְךָ",
+      "lemma": "6030 b",
+      "morfologia": "HVqi1cs/Sp2ms"
+    },
+    {
+      "palavra": "בְּסֵ֣תֶר",
+      "lemma": "b/5643 a",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "רַ֑עַם",
+      "lemma": "7482",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אֶבְחָֽנְךָ֨",
+      "lemma": "974",
+      "morfologia": "HVqi1cs/Sp2ms"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מֵ֖י",
+      "lemma": "4325",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "מְרִיבָ֣ה",
+      "lemma": "4809",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "סֶֽלָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Alternância de aspecto verbal (perfeito קָרָאתָ/אֲחַלְּצֶךָּ vs. imperfeito אֶעֶנְךָ/אֶבְחָנְךָ)",
+      "escolha": "uniformizar para passado narrativo no texto publicado (\"respondi\", \"testei\")",
+      "justificativa": "ER-0013 (doutrina do calque): a alternância perfeito/imperfeito é preservada na traducao_literal (\"respondo\"/\"provo\", presente histórico); no publicado, normalizada para passado por coerência narrativa com \"clamou\"/\"livrei\", evitando soar artificial em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter \"respondo\"/\"provo\" no presente também no texto publicado",
+          "motivo": "quebraria a continuidade temporal da narrativa da libertação do Egito, soando incoerente em português"
+        }
+      ]
+    },
+    {
+      "questao": "Segunda pessoa: tu vs. você (fala de Deus a Israel)",
+      "escolha": "\"você\"",
+      "justificativa": "EDITORIAL §3: discurso de Deus para humanos usa você/vocês; \"tu\" fica reservado à oração/salmo dirigido a Deus, o que não é o caso aqui (é Deus quem fala a Israel).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"tu\" por registro poético-litúrgico elevado",
+          "motivo": "contraria a distinção fixada em EDITORIAL §3 entre fala divina-para-humano e oração humana-para-Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Recordação da libertação do Egito e da provação em Meribá (Êx 17; Nm 20), marcada pela mudança para 2ª pessoa direta e fechada por Selá (rubrica musical mantida sem tradução).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

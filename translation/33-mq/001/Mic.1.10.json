@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mic.1.10",
+    "livro": "Miqueias",
+    "capitulo": 1,
+    "versiculo": 10,
+    "pericope": "Mic.1.1-16"
+  },
+  "texto_bv": "Não anunciem isso em Gate; não chorem; em Bete-Le-Afra revolvi-me no pó.",
+  "traducao_literal": "Em Gate não anunciai; chorando, não choreis; em Bete-Le-Afra revolvi-me no pó.",
+  "termos_originais": [
+    {
+      "palavra": "בְּגַת֙",
+      "lemma": "b/1661",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תַּגִּ֔ידוּ",
+      "lemma": "5046",
+      "morfologia": "HVhj2mp"
+    },
+    {
+      "palavra": "בָּכ֖וֹ",
+      "lemma": "1058",
+      "morfologia": "HVqa"
+    },
+    {
+      "palavra": "אַל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תִּבְכּ֑וּ",
+      "lemma": "1058",
+      "morfologia": "HVqj2mp"
+    },
+    {
+      "palavra": "בְּבֵ֣ית",
+      "lemma": "b/1036+",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "לְעַפְרָ֔ה",
+      "lemma": "1036",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עָפָ֖ר",
+      "lemma": "6083",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "התפלשתי",
+      "lemma": "6428",
+      "morfologia": "HVtp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Jogo de palavras גַּת / תַּגִּידוּ e עַפְרָה / עָפָר — impossível reproduzir plenamente em português",
+      "escolha": "manter os topônimos transliterados e a tradução lexical direta ('pó'), sem tentar recriar artificialmente a aliteração hebraica.",
+      "justificativa": "recriar o trocadilho exigiria trocar o nome próprio ou o léxico, ambos vedados; a paranomásia fica documentada no registro para o leitor auditor.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "substituir 'Gate' por tradução funcional ('não contem na Cidade')",
+          "motivo": "apaga o topônimo histórico real"
+        }
+      ]
+    },
+    {
+      "questao": "התפלשתי — forma gramatical hitpael perfeito 1ª pessoa singular ('eu me revolvi'), onde o contexto poderia sugerir imperativo dirigido à cidade",
+      "escolha": "manter a 1ª pessoa conforme a morfologia recebida (perfeito 1cs), lendo como continuação do luto do próprio profeta iniciado no v. 8 ('prantearei... irei descalço... revolvi-me').",
+      "justificativa": "TEOLOGIA §1.1: a morfologia do texto-fonte decide; muitas traduções modernas emendam para imperativo feminino singular, mas o packet pinado não traz variante nem qere alternativo para esta forma — a 1ª pessoa é gramaticalmente sustentável como o profeta prosseguindo seu próprio rito de luto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'revolvei-vos no pó' (imperativo 2fs, seguindo tradições que emendam a forma)",
+          "motivo": "não corresponde à morfologia fornecida (perfeito 1cs) nem há variante_fonte registrada no packet autorizando a emenda"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A pessoa gramatical de התפלשתי é uma crux textual clássica (1cs no TM vs. leitura imperativa adotada por várias versões modernas); a BV segue a morfologia pinada sem emendar."
+  ],
+  "justificativa": "Primeiro de uma série de trocadilhos toponímicos (vv. 10-15) sobre cidades da Chefelá judaíta; tradução preserva os nomes próprios e o sentido lexical, documentando os jogos sonoros sem recriá-los artificialmente.",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

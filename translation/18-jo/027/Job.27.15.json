@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.27.15",
+    "livro": "Jó",
+    "capitulo": 27,
+    "versiculo": 15,
+    "pericope": "Job.27.1-23"
+  },
+  "texto_bv": "O sobrevivente que lhe restar será sepultado pela peste, e as suas viúvas não chorarão.",
+  "traducao_literal": "O seu sobrevivente, na morte/peste, será sepultado; e as suas viúvas não chorarão.",
+  "termos_originais": [
+    {
+      "palavra": "שרידו",
+      "lemma": "8300",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "בַּמָּ֣וֶת",
+      "lemma": "b/4194",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "יִקָּבֵ֑רוּ",
+      "lemma": "6912",
+      "morfologia": "HVNi3mp"
+    },
+    {
+      "palavra": "וְ֝אַלְמְנֹתָ֗יו",
+      "lemma": "c/490",
+      "morfologia": "HC/Ncfpc/Sp3ms"
+    },
+    {
+      "palavra": "לֹ֣א",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "תִבְכֶּֽינָה",
+      "lemma": "1058",
+      "morfologia": "HVqi3fp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Grafia שרידו (sem matres lectionis, morfologia do packet marca singular construto 'Ncmsc/Sp3ms') difere da leitura tradicional (Qere) plural שְׂרִידָיו ('seus sobreviventes'); qual seguir?",
+      "escolha": "seguir a forma e a morfologia singular fornecidas pelo packet pinado ('o seu sobrevivente'), com sentido coletivo",
+      "justificativa": "o registro deve ser auditável ao packet pinado (OSHB); a morfologia anexada mecanicamente marca singular. O singular funciona coletivamente em português ('o sobrevivente/o que restar dele') sem perda de sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir no plural seguindo a tradição de leitura (Qere) 'seus sobreviventes'",
+          "motivo": "divergiria da morfologia efetivamente pinada no packet sem marcação de variante/aparato disponível para adjudicação formal"
+        }
+      ]
+    },
+    {
+      "questao": "בַּמָּוֶת: \"na morte\" ou \"pela peste/pestilência\" (sentido idiomático de מָוֶת em contextos de mortalidade em massa, cf. Jr 15.2)?",
+      "escolha": "\"pela peste\"",
+      "justificativa": "paralelo com o padrão de destruição em massa descrito nos versículos anteriores (espada, fome); מָוֶת como 'pestilência' é uso atestado no hebraico bíblico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"na morte\" (literal)",
+          "motivo": "menos informativo em português — soa tautológico ('será sepultado na morte'); preservado na traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que lhe restar (explicitação do sentido coletivo do singular hebraico)"
+  ],
+  "ambiguidades_preservadas": [
+    "número gramatical do substantivo (singular no texto pinado vs. plural na tradição de leitura)"
+  ],
+  "justificativa": "Ausência de campo de aparato/variantes_fonte no packet para este verso; a divergência Ketiv/Qere é tratada como decisão de tradução, não como variante textual formal, e documentada acima.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

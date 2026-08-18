@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.142.1",
+    "livro": "Salmos",
+    "capitulo": 142,
+    "versiculo": 1,
+    "pericope": "Ps.142.1-8"
+  },
+  "texto_bv": "Masquil de Davi. Quando estava na caverna. Oração.",
+  "traducao_literal": "Masquil; de Davi; em seu estar na caverna; oração.",
+  "termos_originais": [
+    {
+      "palavra": "מַשְׂכִּ֥יל",
+      "lemma": "4905",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִ֑ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "בִּהְיוֹת֖וֹ",
+      "lemma": "b/1961",
+      "morfologia": "HR/Vqc/Sp3ms"
+    },
+    {
+      "palavra": "בַמְּעָרָ֣ה",
+      "lemma": "b/4631",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "תְפִלָּֽה",
+      "lemma": "8605",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter מַשְׂכִּיל (H4905), rubrica de gênero recorrente em títulos de salmos?",
+      "escolha": "Transliterar \"Masquil\"",
+      "justificativa": "Segue o padrão majoritário já fixado em Sl 44:1 e 54:1 (raiz שׂכל de etimologia disputada — poema didático, composição hábil ou perícia musical — sem consenso lexicográfico para uma glosa fixa). Sl 32:1 traduziu 'poema de discernimento' por um eco lexical local com o v.8 daquele salmo; esse motivo não existe aqui, então retorna-se ao padrão de transliteração.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"poema de discernimento/perícia\"",
+          "motivo": "comprometeria-se com uma leitura específica da raiz שׂכל sem o suporte lexical decisivo, e sem o eco textual local que justificou a exceção pontual de Sl 32"
+        },
+        {
+          "opcao": "\"instrução\"",
+          "motivo": "cobre apenas um dos sentidos concorrentes da raiz"
+        }
+      ]
+    },
+    {
+      "questao": "Posição de תְפִלָּה ('oração') ao final da superscrição, depois da nota histórica — diferente de Sl 17:1, onde 'Oração' abre o título",
+      "escolha": "Preservar a ordem hebraica: rubrica de gênero ao final, como no original",
+      "justificativa": "O hebraico deste título situa תְפִלָּה depois de בִּהְיוֹתוֹ בַמְּעָרָה; alterar a ordem para uniformizar com outras superscrições de 'oração' apagaria uma variação estrutural real entre títulos distintos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "mover 'Oração' para o início, como em Sl 17:1",
+          "motivo": "harmonizaria artificialmente duas superscrições hebraicas estruturalmente distintas (TEOLOGIA §2, proibição de harmonização artificial)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sentido preciso de מַשְׂכִּיל como rubrica de gênero (poema didático × composição hábil × instrução musical) permanece em aberto e é transliterado, não resolvido no texto publicado."
+  ],
+  "justificativa": "Superscrição técnica-narrativa (gênero + autoria + circunstância histórica + gênero secundário), sem oração verbal finita; בִּהְיוֹתוֹ é infinitivo construto Qal de היה com sufixo 3ms, calque preservado na literal ('em seu estar').",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

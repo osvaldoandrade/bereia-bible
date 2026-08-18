@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.111.4",
+    "livro": "Salmos",
+    "capitulo": 111,
+    "versiculo": 4,
+    "pericope": "Ps.111.1-10"
+  },
+  "texto_bv": "Ele fez memorial das suas maravilhas; gracioso e compassivo é o SENHOR.",
+  "traducao_literal": "Memorial ele-fez para-suas-maravilhas; gracioso e-compassivo [é] SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "זֵ֣כֶר",
+      "lemma": "2143",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "עָ֭שָׂה",
+      "lemma": "6213 a",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לְנִפְלְאֹתָ֑יו",
+      "lemma": "l/6381",
+      "morfologia": "HR/VNrfpc/Sp3ms"
+    },
+    {
+      "palavra": "חַנּ֖וּן",
+      "lemma": "2587",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "וְרַח֣וּם",
+      "lemma": "c/7349",
+      "morfologia": "HC/Aamsa"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "זֵכֶר עָשָׂה — construção idiomática 'fazer memorial de'",
+      "escolha": "'fez memorial das suas maravilhas' (preserva זֵכֶר como substantivo, objeto de עָשָׂה)",
+      "justificativa": "idiomatismo hebraico 'fazer memorial/lembrança de algo' equivale a instituir algo para ser lembrado; manter o substantivo 'memorial' visível evita uma paráfrase causativa mais distante da estrutura do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Ele fez com que suas maravilhas fossem lembradas' (paráfrase causativa)",
+          "motivo": "mais fluida em português corrente, mas afasta-se da estrutura nominal do hebraico (זֵכֶר como substantivo explícito, objeto de עָשָׂה)"
+        }
+      ]
+    },
+    {
+      "questao": "עָשָׂה = 'fazer' (não 'criar'), conforme distinção editorial ratificada criar(H1254a)/fazer(H6213)",
+      "escolha": "'fez'",
+      "justificativa": "H6213a é sistematicamente vertido 'fazer' pela distinção ratificada do registro editorial.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "par formular חַנּוּן/רַחוּם (cf. Êx 34:6 e paralelos)",
+      "escolha": "'gracioso e compassivo'",
+      "justificativa": "distingue as duas raízes (חנן, favor/graça; רחם, compaixão de raiz uterina) mantendo par fixo formular reconhecível, com glosas diferenciadas para as duas raízes.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'clemente e misericordioso'",
+          "motivo": "sinônimo aceitável, mas preferiu-se reservar 'misericordioso' para outros contextos de רחם, evitando ambiguidade lexical entre as duas raízes"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula de atributos divinos (graça/compaixão) recorrente no saltério; mantida a estrutura de oração nominal predicado-sujeito no segundo hemistíquio por soar natural em português.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

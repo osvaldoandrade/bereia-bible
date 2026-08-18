@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.46.8",
+    "livro": "Salmos",
+    "capitulo": 46,
+    "versiculo": 8,
+    "pericope": "Ps.46.1-12"
+  },
+  "texto_bv": "O SENHOR dos Exércitos está conosco; o Deus de Jacó é a nossa fortaleza. Selá.",
+  "traducao_literal": "SENHOR-de-Exércitos conosco; fortaleza-para-nós Deus-de Jacó. Selá.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "צְבָא֣וֹת",
+      "lemma": "6635 b",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "עִמָּ֑נוּ",
+      "lemma": "5973 a",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "מִשְׂגָּֽב",
+      "lemma": "4869 a",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לָ֝נוּ",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cp"
+    },
+    {
+      "palavra": "אֱלֹהֵ֖י",
+      "lemma": "430",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יַעֲקֹ֣ב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "סֶֽלָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "יְהוָה צְבָאוֹת — título composto ainda não tabelado em NOMES-DIVINOS.md",
+      "escolha": "SENHOR dos Exércitos",
+      "justificativa": "YHWH → SENHOR por ER-0002/política vigente; צָבָא (H6635) = exército/hoste. A composição segue o padrão já aplicado a 'Adonai YHWH → Senhor DEUS' (tetragrama sempre SENHOR maiúsculo). Primeira ocorrência do título no corpus traduzido até aqui; recomenda-se abrir entrada própria no léxico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'SENHOR Todo-Poderoso'",
+          "motivo": "paráfrase interpretativa que importa noção de onipotência não lexicalizada em צָבָא ('exército/hoste')"
+        },
+        {
+          "opcao": "'SENHOR dos anfitriões'",
+          "motivo": "calque próximo demais do inglês 'hosts', soa estranho em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "orações nominais sem cópula (עִמָּנוּ; מִשְׂגָּב־לָנוּ)",
+      "escolha": "suprir 'está'/'é'",
+      "justificativa": "Duas orações nominais hebraicas em paralelismo; o português exige cópula em cada uma.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "está",
+    "é"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Refrão do salmo (repetido no v.12): título divino composto de guerra (SENHOR dos Exércitos) associado à fortaleza de Jacó.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

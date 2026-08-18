@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Joel.1.15",
+    "livro": "Joel",
+    "capitulo": 1,
+    "versiculo": 15,
+    "pericope": "Joel.1.1-20"
+  },
+  "texto_bv": "Ai desse dia! Pois o dia do SENHOR está próximo, e virá como devastação da parte do Todo-Poderoso.",
+  "traducao_literal": "Ai, pelo dia! Porque próximo o dia do SENHOR, e como destruição do Todo-Poderoso virá.",
+  "termos_originais": [
+    {
+      "palavra": "אֲהָ֖הּ",
+      "lemma": "162",
+      "morfologia": "HTj"
+    },
+    {
+      "palavra": "לַיּ֑וֹם",
+      "lemma": "l/3117",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "קָרוֹב֙",
+      "lemma": "7138",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "י֣וֹם",
+      "lemma": "3117",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּכְשֹׁ֖ד",
+      "lemma": "c/k/7701",
+      "morfologia": "HC/R/Ncmsa"
+    },
+    {
+      "palavra": "מִשַׁדַּ֥י",
+      "lemma": "m/7706",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יָבֽוֹא",
+      "lemma": "935",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Paronomásia כְּשֹׁד מִשַׁדַּי (šōd / Šaddai)",
+      "escolha": "traduzir pelo sentido ('devastação'/'Todo-Poderoso'), sem tentar reproduzir o jogo sonoro em português",
+      "justificativa": "O hebraico explora a semelhança fônica entre שֹׁד ('destruição') e שַׁדַּי ('Shaddai'); não há par lexical equivalente em português que preserve som e sentido a um só tempo. A perda é documentada aqui para fins de auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "criar neologismo sonoro em português",
+          "motivo": "Produziria tradução artificial e não lexicamente motivada apenas para imitar o efeito sonoro do original."
+        }
+      ]
+    },
+    {
+      "questao": "שַׁדַּי isolado (sem אֵל precedente)",
+      "escolha": "traduzir por 'o Todo-Poderoso', alinhado à entrada אֵל שַׁדַּי → 'Deus Todo-Poderoso' da política de nomes divinos, omitindo 'Deus' por אֵל estar ausente aqui",
+      "justificativa": "NOMES-DIVINOS v1.0.0 fixa אֵל שַׁדַּי → 'Deus Todo-Poderoso'; aqui o texto tem apenas שַׁדַּי, motivando a forma reduzida 'o Todo-Poderoso', mantendo a raiz consistente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o SENHOR' (equiparando a יהוה)",
+          "motivo": "Apagaria a distinção lexical entre יהוה (nomeado explicitamente na mesma oração) e שַׁדַּי, dois nomes divinos distintos usados lado a lado no verso."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira menção do tema central do livro — o Dia do SENHOR — introduzida por interjeição de lamento e reforçada pela paronomásia שֹׁד/שַׁדַּי, perdida na tradução mas documentada.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.11.3",
+    "livro": "Provérbios",
+    "capitulo": 11,
+    "versiculo": 3,
+    "pericope": "Prov.11.1-31"
+  },
+  "texto_bv": "A integridade dos retos os guia, mas a perversidade dos traidores é a ruína deles.",
+  "traducao_literal": "Integridade dos retos guia-os; e perversidade dos traidores, ruína-deles.",
+  "termos_originais": [
+    {
+      "palavra": "תֻּמַּ֣ת",
+      "lemma": "8538",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "יְשָׁרִ֣ים",
+      "lemma": "3477",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "תַּנְחֵ֑ם",
+      "lemma": "5148",
+      "morfologia": "HVhi3fs/Sp3mp"
+    },
+    {
+      "palavra": "וְסֶ֖לֶף",
+      "lemma": "c/5558",
+      "morfologia": "HC/Ncmsc"
+    },
+    {
+      "palavra": "בּוֹגְדִ֣ים",
+      "lemma": "898",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "ושדם",
+      "lemma": "c/7703",
+      "morfologia": "HC/Ncmsc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Forma ושדם (Kethiv), tagueada no packet como substantivo+sufixo (HC/Ncmsc/Sp3mp, raiz שדד 'devastação')",
+      "escolha": "'é a ruína deles' (leitura nominal, conforme morfologia do packet)",
+      "justificativa": "O packet tagueia ושדם como nome construto + sufixo pronominal, não como forma verbal (que seria a leitura Qere tradicional יְשָׁדֵּם, 'os destruirá'). Sigo estritamente a morfologia fornecida, sem introduzir a vocalização Qere que o packet não trouxe.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os destruirá' (leitura verbal Qere tradicional)",
+          "motivo": "Não corresponde à morfologia HC/Ncmsc/Sp3mp fornecida no packet cego; adjudicação exigiria aparato explícito, ausente aqui."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sentido final é equivalente em ambas as leituras (traição leva à ruína dos traidores), mas a superfície gramatical (nome vs. verbo) permanece incerta sem aparato Kethiv/Qere explícito no packet."
+  ],
+  "justificativa": "Paralelismo antitético integridade/guia vs. perversidade/ruína; forma final do verso segue estritamente a morfologia nominal dada pelo packet.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

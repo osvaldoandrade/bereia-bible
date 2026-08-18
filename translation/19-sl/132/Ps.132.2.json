@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.132.2",
+    "livro": "Salmos",
+    "capitulo": 132,
+    "versiculo": 2,
+    "pericope": "Ps.132.1-18"
+  },
+  "texto_bv": "que jurou ao SENHOR, fez voto ao Poderoso de Jacó:",
+  "traducao_literal": "que jurou ao SENHOR, votou ao Poderoso de Jacó.",
+  "termos_originais": [
+    {
+      "palavra": "אֲשֶׁ֣ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "נִ֭שְׁבַּע",
+      "lemma": "7650",
+      "morfologia": "HVNp3ms"
+    },
+    {
+      "palavra": "לַיהוָ֑ה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "נָ֝דַ֗ר",
+      "lemma": "5087",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לַאֲבִ֥יר",
+      "lemma": "l/46",
+      "morfologia": "HR/Aamsc"
+    },
+    {
+      "palavra": "יַעֲקֹֽב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲבִיר יַעֲקֹב – epíteto divino sem entrada prévia em NOMES-DIVINOS.md",
+      "escolha": "'Poderoso de Jacó'",
+      "justificativa": "אַבִּיר (H46) = 'forte/poderoso'; a construção com יַעֲקֹב forma epíteto de SENHOR paralelo a Gn 49:24 e Is 49:26, traduzido pelo valor lexical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Touro de Jacó' (sentido zoológico primário de אביר em outros contextos)",
+          "motivo": "sentido dominante aqui é 'forte, poderoso'; o zoológico introduziria conotação estranha ao registro salmódico"
+        }
+      ]
+    },
+    {
+      "questao": "abertura de discurso direto (ER-0004) para o conteúdo do voto de Davi, relatado em vv.3-5",
+      "escolha": "abrir aspas duplas curvas no início de v.3, fechando ao final de v.5",
+      "justificativa": "vv.3-5 relatam em primeira pessoa o conteúdo do juramento introduzido por 'jurou/fez voto'; ER-0004 exige marcação gráfica de discurso direto ausente no hebraico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sem aspas, tratando vv.3-5 como continuação narrativa indireta",
+          "motivo": "a primeira pessoa ('não entrarei', 'não subirei') só se sustenta como fala direta de Davi citada pelo salmista"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Relativa que identifica o sujeito do voto (Davi) e abre, com dois-pontos e aspas, o discurso direto citado em vv.3-5.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

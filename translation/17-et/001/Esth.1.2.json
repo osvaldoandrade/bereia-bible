@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Esth.1.2",
+    "livro": "Ester",
+    "capitulo": 1,
+    "versiculo": 2,
+    "pericope": "Esth.1.1-22"
+  },
+  "texto_bv": "naqueles dias, quando o rei Assuero se assentou sobre o trono do seu reino, na cidadela de Susã,",
+  "traducao_literal": "Nos dias, aqueles, ao sentar-se o rei Assuero sobre o trono do seu reino, que [estava] em Susã, a fortaleza,",
+  "termos_originais": [
+    {
+      "palavra": "בַּיָּמִ֖ים",
+      "lemma": "b/3117",
+      "morfologia": "HRd/Ncmpa"
+    },
+    {
+      "palavra": "הָהֵ֑ם",
+      "lemma": "d/1992",
+      "morfologia": "HTd/Pp3mp"
+    },
+    {
+      "palavra": "כְּשֶׁ֣בֶת",
+      "lemma": "k/3427",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "הַמֶּ֣לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "אֲחַשְׁוֵר֗וֹשׁ",
+      "lemma": "325",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "עַ֚ל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "כִּסֵּ֣א",
+      "lemma": "3678",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מַלְכוּת֔וֹ",
+      "lemma": "4438",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "אֲשֶׁ֖ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "בְּשׁוּשַׁ֥ן",
+      "lemma": "b/7800",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "הַבִּירָֽה",
+      "lemma": "d/1002",
+      "morfologia": "HTd/Ncfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Infinitivo construto כְּשֶׁבֶת (temporal)",
+      "escolha": "quando o rei... se assentou",
+      "justificativa": "forma verbal finita de passado para naturalidade narrativa em português; o infinitivo construto hebraico marca simultaneidade temporal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "como o rei se assentava",
+          "motivo": "soa duratividade não indicada pelo contexto pontual da entronização/cena"
+        }
+      ]
+    },
+    {
+      "questao": "Relativa elíptica אֲשֶׁר בְּשׁוּשַׁן הַבִּירָה",
+      "escolha": "normalizar como aposição genitiva 'na cidadela de Susã'",
+      "justificativa": "ER-0013 permite normalizar aposição/relativa quando soa artificial; cópula elidida no hebraico é suprida.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "...que estava em Susã, a fortaleza",
+          "motivo": "mantém a ordem hebraica mas soa pesado em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "estava (cópula elidida na oração relativa)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "בִּירָה (birah) é termo técnico persa para complexo administrativo fortificado; glosado 'cidadela'.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

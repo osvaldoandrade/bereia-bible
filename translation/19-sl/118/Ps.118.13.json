@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.118.13",
+    "livro": "Salmos",
+    "capitulo": 118,
+    "versiculo": 13,
+    "pericope": "Ps.118.1-29"
+  },
+  "texto_bv": "Fui empurrado com violência, para que eu caísse, mas o SENHOR me ajudou.",
+  "traducao_literal": "Empurrando, empurraste-me para eu cair; mas-SENHOR ajudou-me.",
+  "termos_originais": [
+    {
+      "palavra": "דַּחֹ֣ה",
+      "lemma": "1760 a",
+      "morfologia": "HVqa"
+    },
+    {
+      "palavra": "דְחִיתַ֣נִי",
+      "lemma": "1760 a",
+      "morfologia": "HVqp2ms/Sp1cs"
+    },
+    {
+      "palavra": "לִנְפֹּ֑ל",
+      "lemma": "l/5307",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "וַ֖יהוָ֣ה",
+      "lemma": "c/3068",
+      "morfologia": "HC/Np"
+    },
+    {
+      "palavra": "עֲזָרָֽנִי",
+      "lemma": "5826",
+      "morfologia": "HVqp3ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "דַּחֹה דְחִיתַנִי — infinitivo absoluto + verbo qatal 2ms ('tu me empurraste', intensivo), com um endereçado de 2ª pessoa não identificado no contexto imediato (o salmo dirige-se ao SENHOR em 'tu' alhures, mas aqui o alvo do verbo é hostil, não pode ser Deus).",
+      "escolha": "normalizar para voz passiva sem endereçado explícito ('fui empurrado com violência') no publicado",
+      "justificativa": "A 2ª pessoa do singular no hebraico aponta a um adversário não nomeado; verter 'tu me empurraste' no publicado criaria ambiguidade de referência, pois o leitor tende a associar 'tu' ao SENHOR, a quem o salmo se dirige em outros versículos. A voz passiva evita essa confusão, preservando a 2ª pessoa apenas na traducao_literal (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Você me empurrou duramente' (2ª pessoa explícita, endereçada a um adversário)",
+          "motivo": "ambíguo em português, pois o leitor tende a associar 'você' ao SENHOR; quebraria a distinção tu(Deus)/você(humanos) do EDITORIAL §3"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "identidade do agente 2ms ('tu me empurraste') que ataca o salmista — adversário coletivo não nomeado, preservado apenas na traducao_literal"
+  ],
+  "justificativa": "Virada do salmo: da ameaça (vv.10-12) ao resgate concreto (o SENHOR ajudou quando o salmista estava prestes a cair).",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

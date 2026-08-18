@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.141.1",
+    "livro": "Salmos",
+    "capitulo": 141,
+    "versiculo": 1,
+    "pericope": "Ps.141.1-10"
+  },
+  "texto_bv": "Salmo de Davi. SENHOR, eu clamo a ti; apressa-te em meu socorro; dá ouvidos à minha voz quando eu clamo a ti.",
+  "traducao_literal": "Salmo de Davi. SENHOR, eu te clamei; apressa-te para mim; dá ouvidos à minha voz no meu clamar a ti.",
+  "termos_originais": [
+    {
+      "palavra": "מִזְמ֗וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָ֫וִ֥ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "קְ֭רָאתִיךָ",
+      "lemma": "7121",
+      "morfologia": "HVqp1cs/Sp2ms"
+    },
+    {
+      "palavra": "ח֣וּשָׁה",
+      "lemma": "2363 a",
+      "morfologia": "HVqv2ms/Sh"
+    },
+    {
+      "palavra": "לִּ֑י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "הַאֲזִ֥ינָה",
+      "lemma": "238",
+      "morfologia": "HVhv2ms/Sh"
+    },
+    {
+      "palavra": "ק֝וֹלִ֗י",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "בְּקָרְאִי",
+      "lemma": "b/7121",
+      "morfologia": "HR/Vqc/Sp1cs"
+    },
+    {
+      "palavra": "לָֽךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tempo verbal de קְרָאתִיךָ (Qal perfeito 1cs)",
+      "escolha": "Presente performativo: 'eu clamo a ti'",
+      "justificativa": "Perfeito de oração/instantâneo, comum em súplicas dos Salmos, em que o ato verbal coincide com a própria fala; o perfeito formal é preservado na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Passado simples 'eu te clamei'",
+          "motivo": "soa como relato de evento concluído, obscurecendo o caráter de súplica presente típico do gênero"
+        }
+      ]
+    },
+    {
+      "questao": "Sufixo pronominal 2fs em לָךְ referindo-se a YHWH (masculino)",
+      "escolha": "Traduzido normalmente como 'a ti', preservando a peculiaridade apenas em nota",
+      "justificativa": "Curiosidade da vocalização massorética (forma pontuada como 2fs) sem impacto semântico, já que o referente é inequivocamente YHWH.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Emendar tacitamente para a forma masculina esperada",
+          "motivo": "fora do escopo — a BV segue a fonte pinada (OSHB) sem corrigir consoante ou pontuação"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sufixo de לָךְ pontuado como 2fs embora o referente seja YHWH (2ms) — peculiaridade massorética preservada sem correção"
+  ],
+  "justificativa": "Súplica inicial do salmo davídico: presente performativo de clamor + pedido duplo de socorro rápido e atenção à voz.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

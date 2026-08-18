@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.125.1",
+    "livro": "Salmos",
+    "capitulo": 125,
+    "versiculo": 1,
+    "pericope": "Ps.125.1-5"
+  },
+  "texto_bv": "Cântico das subidas.\nOs que confiam no SENHOR são como o monte Sião,\nque não se abala; permanece para sempre.",
+  "traducao_literal": "Canção das subidas. Os que confiam no SENHOR, como o monte de Sião, não será abalado, para sempre habita.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁ֗יר",
+      "lemma": "7892 a",
+      "morfologia": "HNcbsc"
+    },
+    {
+      "palavra": "הַֽמַּ֫עֲל֥וֹת",
+      "lemma": "d/4609 b",
+      "morfologia": "HTd/Ncfpa"
+    },
+    {
+      "palavra": "הַבֹּטְחִ֥ים",
+      "lemma": "d/982",
+      "morfologia": "HTd/Vqrmpa"
+    },
+    {
+      "palavra": "בַּיהוָ֑ה",
+      "lemma": "b/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "כְּֽהַר",
+      "lemma": "k/2022",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "צִיּ֥וֹן",
+      "lemma": "6726",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "לֹא",
+      "lemma": "3808",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִ֝מּ֗וֹט",
+      "lemma": "4131",
+      "morfologia": "HVNi3ms"
+    },
+    {
+      "palavra": "לְעוֹלָ֥ם",
+      "lemma": "l/5769",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "יֵשֵֽׁב",
+      "lemma": "3427",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução da superscrição שִׁיר הַמַּעֲלוֹת",
+      "escolha": "\"Cântico das subidas\", valor lexical direto de מַעֲלוֹת (plural de עלה \"subir\")",
+      "justificativa": "Não há tradição consolidada em pt-BR que force outra opção; qualquer glosa mais específica (peregrinação, degraus do templo) importaria contexto extratextual (TEOLOGIA §2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Cântico de Romagens",
+          "motivo": "paráfrase tradicional (ARA) que presume contexto de peregrinação não codificado no lexema"
+        },
+        {
+          "opcao": "Cântico dos degraus",
+          "motivo": "leitura talmúdica sobre os quinze degraus do templo; extratextual"
+        }
+      ]
+    },
+    {
+      "questao": "Referente gramatical de לֹא־יִמּוֹט...יֵשֵׁב (o monte ou os que confiam)",
+      "escolha": "Preservar a concordância 3ms com הַר (monte) no verbo; a aplicação implícita aos que confiam é efeito do símile, não marca gramatical",
+      "justificativa": "יִמּוֹט e יֵשֵׁב concordam em masculino singular com הַר צִיּוֹן, não com הַבֹּטְחִים (masc. pl.); manter singular preserva a base gramatical do símile e a ambiguidade teológica (estabilidade do monte figurando a do fiel) é preservada, não resolvida no texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Sujeito plural (\"eles não serão abalados, permanecerão para sempre\")",
+          "motivo": "apaga a concordância singular que aponta ao monte como termo comparado, obscurecendo o símile"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (relativo introduzindo a oração sobre o monte, ausente como conector formal no hebraico asindético)"
+  ],
+  "ambiguidades_preservadas": [
+    "Os verbos de estabilidade (não abalar-se, permanecer para sempre) predicam gramaticalmente o monte Sião; a extensão implícita aos que confiam é inferência teológica do símile, preservada mas não afirmada no texto"
+  ],
+  "justificativa": "Verso de abertura do salmo de confiança: símile entre os que confiam no SENHOR e a estabilidade geológica do monte Sião. Superscrição traduzida por valor lexical; concordância verbal mantida com o termo comparado (o monte).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

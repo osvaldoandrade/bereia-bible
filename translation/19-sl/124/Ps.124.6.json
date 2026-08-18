@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.124.6",
+    "livro": "Salmos",
+    "capitulo": 124,
+    "versiculo": 6,
+    "pericope": "Ps.124.1-8"
+  },
+  "texto_bv": "Bendito seja o SENHOR, que não nos entregou como presa aos dentes deles.",
+  "traducao_literal": "Bendito o SENHOR, que não nos deu presa aos dentes deles.",
+  "termos_originais": [
+    {
+      "palavra": "בָּר֥וּךְ",
+      "lemma": "1288",
+      "morfologia": "HVqsmsa"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שֶׁלֹּ֥א",
+      "lemma": "s/3808",
+      "morfologia": "HTr/Tn"
+    },
+    {
+      "palavra": "נְתָנָ֥נוּ",
+      "lemma": "5414",
+      "morfologia": "HVqp3ms/Sp1cp"
+    },
+    {
+      "palavra": "טֶ֝֗רֶף",
+      "lemma": "2964",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְשִׁנֵּיהֶֽם",
+      "lemma": "l/8127",
+      "morfologia": "HR/Ncbdc/Sp3mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בָּרוּךְ é particípio qal passivo sem cópula explícita; declarativo ('é') ou optativo ('seja')?",
+      "escolha": "'seja' (fórmula de bênção) no publicado, cópula suprida em ambas as camadas",
+      "justificativa": "Fórmula de bênção consolidada tanto em hebraico (particípio nu) quanto em português litúrgico ('Bendito seja o SENHOR'); a cópula é suprida por convenção de gênero textual em ambos os idiomas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Bendito é o SENHOR' (declarativo)",
+          "motivo": "gramaticalmente possível e semanticamente compatível; menos idiomático como fórmula hínica de louvor no registro da BV."
+        }
+      ]
+    },
+    {
+      "questao": "טֶרֶף לְשִׁנֵּיהֶם funciona como predicativo do objeto de נְתָנָנוּ, sem preposição equivalente a 'como' no hebraico; suprir marcador?",
+      "escolha": "suprir 'como' no publicado",
+      "justificativa": "O português exige marcador de predicativo do objeto ('deu-nos como presa'), ausente formalmente no hebraico (duplo acusativo).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "seja (cópula do particípio בָּרוּךְ)",
+    "como (predicativo do objeto 'presa')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula de bênção que fecha a seção da condicional irreal (v.1–5), declarando o resultado real e oposto ao contrafactual: o SENHOR não permitiu que os agressores os devorassem.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

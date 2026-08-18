@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.115.12",
+    "livro": "Salmos",
+    "capitulo": 115,
+    "versiculo": 12,
+    "pericope": "Ps.115.1-18"
+  },
+  "texto_bv": "O SENHOR lembrou-se de nós; ele nos abençoará: abençoará a casa de Israel, abençoará a casa de Arão.",
+  "traducao_literal": "SENHOR lembrou-nos; abençoará; abençoará casa-de Israel; abençoará casa-de Arão.",
+  "termos_originais": [
+    {
+      "palavra": "יְהוָה֮",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "זְכָרָ֪נוּ",
+      "lemma": "2142",
+      "morfologia": "HVqp3ms/Sp1cp"
+    },
+    {
+      "palavra": "יְבָ֫רֵ֥ךְ",
+      "lemma": "1288",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "יְ֭בָרֵךְ",
+      "lemma": "1288",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "בֵּ֣ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יִשְׂרָאֵ֑ל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יְ֝בָרֵ֗ךְ",
+      "lemma": "1288",
+      "morfologia": "HVpi3ms"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "בֵּ֥ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אַהֲרֹֽן",
+      "lemma": "175",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tripla repetição de יְבָרֵךְ (v.12, sendo a primeira ocorrência sem objeto explícito)",
+      "escolha": "preservar as três ocorrências no publicado, sem condensar",
+      "justificativa": "ER-0013 permite condensar repetição formular redundante em narrativa, mas aqui a repetição ecoa deliberadamente a estrutura tripartite dos vv.9-11 (Israel/casa de Arão/temerosos) — é anáfora retórica, não redundância.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "condensar em 'ele abençoará a casa de Israel e a casa de Arão'",
+          "motivo": "apagaria o paralelismo estrutural com o refrão tripartite anterior"
+        }
+      ]
+    },
+    {
+      "questao": "Objeto implícito da primeira ocorrência de יְבָרֵךְ (sem אֶת explícito, antes de 'casa de Israel')",
+      "escolha": "suprir 'nos' no publicado, retomando זְכָרָנוּ ('lembrou-se de nós') do colo anterior",
+      "justificativa": "Leitura padrão: a bênção geral anunciada retoma o 'nós' do início do verso, antes de especificar-se em 'casa de Israel'/'casa de Arão'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deixar sem objeto também no publicado ('ele abençoará:')",
+          "motivo": "gramaticalmente possível, mas soa incompleto em português corrido sem o objeto recuperável do contexto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "nos (objeto do primeiro יְבָרֵךְ, recuperado do colo anterior — ver ambiguidade preservada)"
+  ],
+  "ambiguidades_preservadas": [
+    "A primeira ocorrência de יְבָרֵךְ no hebraico não tem objeto explícito; pode retomar 'nós' (זְכָרָנוּ) ou funcionar como anúncio genérico antecipando as duas especificações seguintes. A BV opta pela primeira leitura, mas a leitura genérica é gramaticalmente possível."
+  ],
+  "justificativa": "Transição do refrão exortativo (vv.9-11) para a promessa divina: o SENHOR que foi lembrado abençoa as mesmas duas 'casas' nomeadas antes.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

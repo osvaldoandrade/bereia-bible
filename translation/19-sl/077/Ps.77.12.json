@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.77.12",
+    "livro": "Salmos",
+    "capitulo": 77,
+    "versiculo": 12,
+    "pericope": "Ps.77.1-21"
+  },
+  "texto_bv": "Farei menção dos feitos do SENHOR; porque eu me lembrarei, desde os tempos antigos, das tuas maravilhas.",
+  "traducao_literal": "Farei menção dos feitos de Yah; porque me lembrarei, desde a antiguidade, das tuas maravilhas.",
+  "termos_originais": [
+    {
+      "palavra": "אזכיר",
+      "lemma": "2142",
+      "morfologia": "HVhi1cs"
+    },
+    {
+      "palavra": "מַֽעַלְלֵי",
+      "lemma": "4611",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "יָ֑הּ",
+      "lemma": "3050",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֶזְכְּרָ֖ה",
+      "lemma": "2142",
+      "morfologia": "HVqh1cs"
+    },
+    {
+      "palavra": "מִקֶּ֣דֶם",
+      "lemma": "m/6924 a",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "פִּלְאֶֽךָ",
+      "lemma": "6382",
+      "morfologia": "HNcmsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אזכיר — forma consonantal sem pontuação vocálica no packet (como em v.1), com morfologia HVhi1cs (Hifil imperfeito 1cs de זכר), distinta do Qal coortativo אֶזְכְּרָה que aparece pontuado na sequência do mesmo verso.",
+      "escolha": "\"Farei menção\" (Hifil causativo/declarativo de זכר, \"proclamar, invocar pelo nome\"), distinto de \"lembrar-me\" (Qal, usado logo depois no mesmo verso).",
+      "justificativa": "A morfologia do packet distingue as duas ocorrências do mesmo lema no mesmo verso (Hifil vs. Qal); hazkir no Hifil tem sentido regular de \"fazer menção/proclamar\" (cf. uso cultual do verbo), diferente de \"lembrar-se\" simples — a BV preserva essa distinção morfológica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Eu me lembrarei dos feitos do SENHOR\" (tratando como Qal, igual à segunda ocorrência do verso)",
+          "motivo": "apagaria a distinção morfológica Hifil/Qal marcada no packet entre as duas formas do mesmo verso"
+        }
+      ]
+    },
+    {
+      "questao": "יָהּ (H3050) — forma abreviada do Tetragrama, não listada expressamente em NOMES-DIVINOS (que cobre יהוה pleno).",
+      "escolha": "\"SENHOR\" (caixa alta), por extensão da política ER-0002 à forma abreviada do mesmo Nome.",
+      "justificativa": "יָהּ é reconhecidamente a forma poética contraída de יהוה (cf. \"Hallelu-Yah\"); manter a mesma convenção gráfica (\"SENHOR\") preserva a identidade do referente divino e a auditabilidade via lema (H3050), sem introduzir uma terceira convenção gráfica não prevista na política.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Transliterar \"Yah\"",
+          "motivo": "quebra a convenção consolidada \"SENHOR\" para o Tetragrama e suas formas, sem ganho de fidelidade"
+        },
+        {
+          "opcao": "\"Javé\"",
+          "motivo": "já rejeitado em ER-0002 por disputa de vocalização e ruptura da convenção litúrgica pt-BR"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Retomada do vocabulário de memória (זכר) do lamento, agora direcionado aos feitos de Deus, não à própria angústia; endereço direto (\"tuas maravilhas\") retoma o \"tu\" de v.5.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

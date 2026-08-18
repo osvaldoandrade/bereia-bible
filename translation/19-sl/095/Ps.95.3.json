@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.95.3",
+    "livro": "Salmos",
+    "capitulo": 95,
+    "versiculo": 3,
+    "pericope": "Ps.95.1-11"
+  },
+  "texto_bv": "Pois o SENHOR é Deus grande, e Rei grande sobre todos os deuses.",
+  "traducao_literal": "Porque Deus grande [é] o SENHOR, e rei grande sobre todos os deuses.",
+  "termos_originais": [
+    {
+      "palavra": "כִּ֤י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֵ֣ל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "גָּד֣וֹל",
+      "lemma": "1419 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וּמֶ֥לֶךְ",
+      "lemma": "c/4428",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "גָּ֝ד֗וֹל",
+      "lemma": "1419 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֱלֹהִֽים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֱלֹהִים (H430) em 'עַל־כָּל־אֱלֹהִים' — referente plural-comparativo, não o Deus de Israel",
+      "escolha": "'deuses' (plural, minúscula) — não a glosa 'Deus' da política de nomes divinos",
+      "justificativa": "Aqui אֱלֹהִים não se refere ao Deus de Israel (referente da política NOMES-DIVINOS), mas a outras entidades divinas em construção comparativa de supremacia ('rei grande sobre todos os deuses'), idiomatismo comum do AT (cf. Sl 96:4; 97:9), sem afirmar existência ontológica desses deuses.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Deus' maiúsculo singular",
+          "motivo": "aplicaria a política de nome divino (Elohim referente a Israel, ER-0002) a um uso claramente plural-comparativo, distorcendo o sentido do versículo."
+        }
+      ]
+    },
+    {
+      "questao": "Cópula ausente na oração nominal כִּי אֵל גָּדוֹל יְהוָה",
+      "escolha": "'é' suprido",
+      "justificativa": "Oração nominal hebraica sem verbo de ligação explícito; o português exige cópula.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula da oração nominal, v3a)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Motivação (כִּי) da adoração: SENHOR como Deus grande e rei sobre 'todos os deuses' — leitura comparativa consagrada no AT, não henoteísmo afirmado; NOMES-DIVINOS aplicado distinguindo o referente plural-comparativo do Elohim singular de Israel.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

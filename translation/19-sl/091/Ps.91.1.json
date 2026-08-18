@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.91.1",
+    "livro": "Salmos",
+    "capitulo": 91,
+    "versiculo": 1,
+    "pericope": "Ps.91.1-16"
+  },
+  "texto_bv": "Quem habita no abrigo do Altíssimo repousará à sombra do Todo-Poderoso.",
+  "traducao_literal": "O que habita no abrigo do Altíssimo, à sombra do Todo-Poderoso pernoitará.",
+  "termos_originais": [
+    {
+      "palavra": "יֹ֭שֵׁב",
+      "lemma": "3427",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בְּסֵ֣תֶר",
+      "lemma": "b/5643 a",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "עֶלְי֑וֹן",
+      "lemma": "5945 b",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "בְּצֵ֥ל",
+      "lemma": "b/6738",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "שַׁ֝דַּ֗י",
+      "lemma": "7706",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יִתְלוֹנָֽן",
+      "lemma": "3885 a",
+      "morfologia": "HVri3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter יִתְלוֹנָן (Hitpolel de לין, 'passar a noite/pernoitar') em paralelo com יֹשֵׁב ('habitar')?",
+      "escolha": "repousará (à sombra)",
+      "justificativa": "O Hitpolel de לין expressa permanência protegida, não um pernoite pontual; 'repousará' capta a segurança contínua em paralelo com 'habita', sem soar arcaizante.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "passará a noite / pernoitará",
+          "motivo": "demasiado literal e pontual; perde o paralelismo de permanência com יֹשֵׁב e soa arcaizante em prosa corrida"
+        },
+        {
+          "opcao": "morará",
+          "motivo": "redundante com 'habita' do primeiro hemistíquio, apaga a progressão poética do verso"
+        }
+      ]
+    },
+    {
+      "questao": "שַׁדַּי isolado (sem אֵל precedente) — qual glosa divina?",
+      "escolha": "Todo-Poderoso",
+      "justificativa": "NOMES-DIVINOS.md fixa אֵל שַׁדַּי → 'Deus Todo-Poderoso'; שַׁדַּי isolado recebe o epíteto tradicional 'Todo-Poderoso', reservando 'Deus' para quando אֵל estiver presente no texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Shaddai (transliteração)",
+          "motivo": "quebra a convenção já adotada de traduzir epítetos divinos (YHWH→SENHOR, Elohim→Deus); sem tradição consolidada de transliteração para o leitor comum"
+        },
+        {
+          "opcao": "Deus Todo-Poderoso",
+          "motivo": "importaria a fórmula composta אֵל שַׁדַּי quando o texto traz apenas שַׁדַּי; infidelidade lexical à forma presente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "שַׁדַּי poderia ser transliterado (Shaddai) em vez de glosado ('Todo-Poderoso'); a forma hebraica permanece auditável via lemma H7706."
+  ],
+  "justificativa": "Estrutura paralela hebraica (particípio + duas frases preposicionadas cruzadas) preservada na literal; o publicado une as duas linhas num período fluido, mantendo o paralelismo semântico habitar/repousar sob proteção divina.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

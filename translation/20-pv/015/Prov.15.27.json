@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.15.27",
+    "livro": "Provérbios",
+    "capitulo": 15,
+    "versiculo": 27,
+    "pericope": "Prov.15.1-33"
+  },
+  "texto_bv": "Quem se apega ao lucro injusto perturba a própria casa, mas quem odeia subornos viverá.",
+  "traducao_literal": "Perturba sua casa o que ganha ganho; e o que odeia presentes viverá.",
+  "termos_originais": [
+    {
+      "palavra": "עֹכֵ֣ר",
+      "lemma": "5916",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בֵּ֭יתוֹ",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "בּוֹצֵ֣עַ",
+      "lemma": "1214",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "בָּ֑צַע",
+      "lemma": "1215",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְשׂוֹנֵ֖א",
+      "lemma": "c/8130",
+      "morfologia": "HC/Vqrmsa"
+    },
+    {
+      "palavra": "מַתָּנֹ֣ת",
+      "lemma": "4979",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "יִחְיֶֽה",
+      "lemma": "2421",
+      "morfologia": "HVqi3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "בָּצַע: 'ganho/lucro' obtido por meios injustos ou violentos",
+      "escolha": "lucro injusto",
+      "justificativa": "בָּצַע no corpus sapiencial carrega conotação negativa de ganho por opressão ou desonestidade (não lucro comercial neutro); 'injusto' explicita essa conotação ausente na tradução puramente lexical 'ganho'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ganho",
+          "motivo": "literal, mas neutro em português, perde a conotação pejorativa presente no hebraico e confirmada pelo paralelo com מַתָּנֹת/suborno"
+        }
+      ]
+    },
+    {
+      "questao": "מַתָּנֹת: 'presentes/dádivas', em contexto de corrupção judicial ou comercial",
+      "escolha": "subornos",
+      "justificativa": "No par antitético com בָּצַע (ganho injusto), מַתָּנֹת designa presentes dados para corromper, não dádivas inocentes; 'subornos' evita leitura equivocada de generosidade sendo condenada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "presentes",
+          "motivo": "preserva a forma literal, mas em português soa como condenação da generosidade, invertendo o sentido do provérbio"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "עֹכֵר בֵּיתוֹ ('perturba sua casa') ecoa אָכָר em Js.7 (Acã) — ganho ilícito traz ruína doméstica; conexão intertextual não explicitada no texto, apenas na justificativa.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Obad.1.6",
+    "livro": "Obadias",
+    "capitulo": 1,
+    "versiculo": 6,
+    "pericope": "Obad.1.1-21"
+  },
+  "texto_bv": "Como Esaú foi vasculhado! Seus tesouros escondidos foram descobertos!",
+  "traducao_literal": "Como foram vasculhados Esaú! Foram descobertos os seus tesouros escondidos!",
+  "termos_originais": [
+    {
+      "palavra": "אֵ֚יךְ",
+      "lemma": "349 a",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "נֶחְפְּשׂ֣וּ",
+      "lemma": "2664",
+      "morfologia": "HVNp3cp"
+    },
+    {
+      "palavra": "עֵשָׂ֔ו",
+      "lemma": "6215",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "נִבְע֖וּ",
+      "lemma": "1158",
+      "morfologia": "HVNp3cp"
+    },
+    {
+      "palavra": "מַצְפֻּנָֽיו",
+      "lemma": "4710",
+      "morfologia": "HNcmpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "נֶחְפְּשׂוּ (verbo no plural) com sujeito formalmente singular עֵשָׂו",
+      "escolha": "normalizar para singular no publicado ('Esaú foi vasculhado'), preservando o plural na tradução literal",
+      "justificativa": "עֵשָׂו funciona como nome coletivo/metonímico para os edomitas; a concordância plural com um referente coletivo é traço do hebraico bíblico sem equivalente natural em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Esaú foram vasculhados' (concordância plural)",
+          "motivo": "agramatical em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "נֶחְפְּשׂוּ/נִבְעוּ (nifal perfeito 3cp) descrevem busca e exposição do que estava oculto (מַצְפֻּנָיו, 'seus tesouros escondidos', sufixo 3ms concordando com Esaú no singular).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

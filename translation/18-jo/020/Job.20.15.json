@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.20.15",
+    "livro": "Jó",
+    "capitulo": 20,
+    "versiculo": 15,
+    "pericope": "Job.20.1-29"
+  },
+  "texto_bv": "Ele engoliu riquezas e as vomitará; Deus as expulsará do ventre dele.",
+  "traducao_literal": "Riquezas engoliu, e as vomitará; do ventre dele Deus as expulsará.",
+  "termos_originais": [
+    {
+      "palavra": "חַ֣יִל",
+      "lemma": "2428",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "בָּ֭לַע",
+      "lemma": "1104",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "וַיְקִאֶ֑נּוּ",
+      "lemma": "c/6958",
+      "morfologia": "HC/Vhw3ms/Sp3ms"
+    },
+    {
+      "palavra": "מִ֝בִּטְנ֗וֹ",
+      "lemma": "m/990",
+      "morfologia": "HR/Ncfsc/Sp3ms"
+    },
+    {
+      "palavra": "יוֹרִשֶׁ֥נּוּ",
+      "lemma": "3423",
+      "morfologia": "HVhi3ms/Sp3ms"
+    },
+    {
+      "palavra": "אֵֽל",
+      "lemma": "410",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֵל (H410) — nome divino",
+      "escolha": "'Deus', conforme política NOMES-DIVINOS v1.0.0 (ER-0002)",
+      "justificativa": "Política vinculante de nomes divinos para אל",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'El' (transliterado)",
+          "motivo": "transliteração rejeitada pela política; convenção pt-BR consolidada usa 'Deus'"
+        }
+      ]
+    },
+    {
+      "questao": "יוֹרִשֶׁנּוּ (H3423, hifil de ירש) — 'expulsar/fazer vomitar' vs. 'desapossar'",
+      "escolha": "'expulsará' no publicado, harmonizando com a imagem de vômito do início do verso",
+      "justificativa": "O hifil de ירש pode significar 'fazer perder posse'; aqui aplicado corporalmente ao ventre, a imagem de expulsão é mais coerente com בָּלַע/וַיְקִאֶנּוּ",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'desapossará'",
+          "motivo": "sentido básico da raiz, mas menos natural combinado com 'do ventre dele'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira menção divina explícita do capítulo (אֵל), moldura com v.29 (מֵאֱלֹהִים...מֵאֵל).",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

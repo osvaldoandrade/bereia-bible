@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.114.1",
+    "livro": "Salmos",
+    "capitulo": 114,
+    "versiculo": 1,
+    "pericope": "Ps.114.1-8"
+  },
+  "texto_bv": "Quando Israel saiu do Egito, a casa de Jacó saiu de um povo de fala estranha,",
+  "traducao_literal": "No sair de Israel do Egito, casa de Jacó de povo estrangeiro-falante.",
+  "termos_originais": [
+    {
+      "palavra": "בְּצֵ֣את",
+      "lemma": "b/3318",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "יִ֭שְׂרָאֵל",
+      "lemma": "3478",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מִמִּצְרָ֑יִם",
+      "lemma": "m/4714",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "בֵּ֥ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יַ֝עֲקֹ֗ב",
+      "lemma": "3290",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מֵעַ֥ם",
+      "lemma": "m/5971 a",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "לֹעֵֽז",
+      "lemma": "3937",
+      "morfologia": "HVqrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לֹעֵז (H3937, particípio qal de 'falar estrangeiro/gaguejar') — glosa",
+      "escolha": "fala estranha",
+      "justificativa": "O particípio denota fala ininteligível ao ouvido israelita; 'fala estranha' preserva o sentido descritivo sem introduzir juízo pejorativo não codificado no lexema.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "língua estrangeira",
+          "motivo": "correto mas perde a nuance de ininteligibilidade/gagueira do lexema"
+        },
+        {
+          "opcao": "povo bárbaro",
+          "motivo": "importa conotação pejorativa que o hebraico não codifica"
+        }
+      ]
+    },
+    {
+      "questao": "Elipse do verbo no segundo colo (מֵעַם לֹעֵז sem verbo próprio, retomando יָצָא do 1º colo)",
+      "escolha": "suprir 'saiu' por paralelismo com o primeiro colo",
+      "justificativa": "Português exige verbo no segundo colo; hebraico usa elipse licenciada pelo paralelismo poético (doutrina do calque, ER-0013 — publicado normaliza).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter elipse total ('a casa de Jacó, de um povo de fala estranha')",
+          "motivo": "gramatical em português poético, mas reduz clareza em leitura corrida/TTS (EDITORIAL §1.3)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "saiu (2º colo, elipse reaproveitada do 1º colo)"
+  ],
+  "ambiguidades_preservadas": [
+    "מֵעַם לֹעֵז pode ler-se como aposto a 'Egito' (Egito = povo de fala estranha) ou como referência mais genérica; a BV segue a leitura padrão (aposto a Egito)."
+  ],
+  "justificativa": "Verso de abertura, sem verbo principal explícito: dois cola paralelos descrevendo a saída do Egito, o segundo elíptico. Egito é reapresentado apositivamente como 'povo de fala estranha'.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

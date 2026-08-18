@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Dan.8.11",
+    "livro": "Daniel",
+    "capitulo": 8,
+    "versiculo": 11,
+    "pericope": "Dan.8.1-27"
+  },
+  "texto_bv": "Engrandeceu-se até contra o príncipe do exército; tirou dele o sacrifício contínuo, e o lugar do seu santuário foi derrubado.",
+  "traducao_literal": "E até príncipe-de o-exército ele-se-engrandeceu; e de-ele ele-tirou o-contínuo, e foi-lançado lugar-de seu-santuário.",
+  "termos_originais": [
+    {
+      "palavra": "וְעַ֥ד",
+      "lemma": "c/5704",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "שַֽׂר",
+      "lemma": "8269",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַצָּבָ֖א",
+      "lemma": "d/6635 a",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "הִגְדִּ֑יל",
+      "lemma": "1431",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "וּמִמֶּ֨נּוּ֙",
+      "lemma": "c/4480 a",
+      "morfologia": "HC/R/Sp3ms"
+    },
+    {
+      "palavra": "הרים",
+      "lemma": "7311 a",
+      "morfologia": "HVhp3ms"
+    },
+    {
+      "palavra": "הַתָּמִ֔יד",
+      "lemma": "d/8548",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "וְהֻשְׁלַ֖ךְ",
+      "lemma": "c/7993",
+      "morfologia": "HC/VHp3ms"
+    },
+    {
+      "palavra": "מְכ֥וֹן",
+      "lemma": "4349",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מִקְדָּשֽׁוֹ",
+      "lemma": "4720",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הרים (Qere הֵרִים) — leitura e sujeito da forma não-pontuada",
+      "escolha": "'tirou/removeu' (hifil de רום, 3ms), sujeito = o chifre do v. 9-10; objeto = o sacrifício contínuo",
+      "justificativa": "a morfologia já atribuída pela fonte pinada resolve a forma como Vhp3ms (רום hifil, leitura tradicional Qere הֵרִים); manteve-se essa resolução sem reabrir aparato crítico fora do packet",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ler 'הרים' como substantivo plural 'montes' (הָרִים)",
+          "motivo": "quebra a sintaxe da oração (falta verbo finito) e diverge da morfologia atribuída na fonte pinada"
+        }
+      ]
+    },
+    {
+      "questao": "וְהֻשְׁלַךְ מְכוֹן מִקְדָּשׁוֹ — sujeito do passivo hufal",
+      "escolha": "'o lugar do seu santuário foi derrubado' (sujeito gramatical = מְכוֹן, o local; 'seu' = do príncipe do exército)",
+      "justificativa": "concordância morfológica (VHp3ms, masc. sing.) aponta מְכוֹן como sujeito do verbo passivo",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "sacrifício (para הַתָּמִיד, substantivado)"
+  ],
+  "ambiguidades_preservadas": [
+    "identidade de 'o príncipe do exército' (שַׂר־הַצָּבָא): pode ser o próprio SENHOR (Sabaoth), o arcanjo Miguel ou o sumo sacerdote — o hebraico não desambigua; nenhuma dessas leituras é afirmada no texto publicado (TEOLOGIA §1.5)"
+  ],
+  "justificativa": "Verso-crux do capítulo; a resolução textual (הרים) é herdada da morfologia já pinada pela fonte, não redecidida aqui; a identidade do 'príncipe do exército' é preservada como ambiguidade teológica.",
+  "confianca": 0.55,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

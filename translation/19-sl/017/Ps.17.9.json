@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.17.9",
+    "livro": "Salmos",
+    "capitulo": 17,
+    "versiculo": 9,
+    "pericope": "Ps.17.1-15"
+  },
+  "texto_bv": "Livra-me dos ímpios que me despojam, dos meus inimigos mortais que me cercam.",
+  "traducao_literal": "De diante dos ímpios que me despojaram; meus inimigos, com alma, cercam-me.",
+  "termos_originais": [
+    {
+      "palavra": "מִפְּנֵ֣י",
+      "lemma": "m/6440",
+      "morfologia": "HR/Ncbpc"
+    },
+    {
+      "palavra": "רְ֭שָׁעִים",
+      "lemma": "7563",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "ז֣וּ",
+      "lemma": "2098",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "שַׁדּ֑וּנִי",
+      "lemma": "7703",
+      "morfologia": "HVqp3cp/Sp1cs"
+    },
+    {
+      "palavra": "אֹיְבַ֥י",
+      "lemma": "341",
+      "morfologia": "HVqrmpc/Sp1cs"
+    },
+    {
+      "palavra": "בְּ֝נֶ֗פֶשׁ",
+      "lemma": "b/5315",
+      "morfologia": "HR/Ncbsa"
+    },
+    {
+      "palavra": "יַקִּ֥יפוּ",
+      "lemma": "5362 b",
+      "morfologia": "HVhi3mp"
+    },
+    {
+      "palavra": "עָלָֽי",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "verbo regente ausente — v.9 é sintaticamente dependente do imperativo תַּסְתִּירֵנִי de v.8 (elipse poética)",
+      "escolha": "suprir 'livra-me' para formar oração completa em português",
+      "justificativa": "o hebraico apresenta apenas frases preposicionais paralelas (מִפְּנֵי..., בְּנֶפֶשׁ...יַקִּיפוּ), dependentes do imperativo do versículo anterior; o registro por versículo exige um verbo principal para funcionar isoladamente em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter como fragmento sem verbo principal, ligado por vírgula ao v.8",
+          "motivo": "quebra a legibilidade e a unidade sintática mínima exigida do registro isolado do versículo"
+        }
+      ]
+    },
+    {
+      "questao": "בְּנֶפֶשׁ — modificador idiomático de אֹיְבַי ('com alma' = hostilidade extrema/mortal) vs. leitura literal",
+      "escolha": "'mortais' (intensificador da hostilidade)",
+      "justificativa": "בְּנֶפֶשׁ como modificador de 'meus inimigos' é idiomático para hostilidade extrema/letal (cf. Sl 27:12); 'mortais' comunica a intensidade sem literalizar 'com alma', o que soaria artificial em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'com [toda a] alma' (calque)",
+          "motivo": "preservado na tradução literal; no texto publicado soaria artificial e obscureceria o sentido idiomático"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Livra-me"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Descrição da ameaça (ímpios/inimigos mortais que cercam), sintaticamente dependente do pedido de proteção de v.8; verbo regente suprido para unidade do registro.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

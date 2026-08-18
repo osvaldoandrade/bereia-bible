@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mic.1.2",
+    "livro": "Miqueias",
+    "capitulo": 1,
+    "versiculo": 2,
+    "pericope": "Mic.1.1-16"
+  },
+  "texto_bv": "Ouçam, todos os povos; escuta, terra, e tudo o que nela há: seja o Senhor DEUS testemunha contra vocês, o Senhor, desde o seu santo templo.",
+  "traducao_literal": "Ouvi, povos, todos eles; escuta, terra, e sua plenitude; e seja Senhor DEUS contra vocês por testemunha, Senhor desde o templo de sua santidade.",
+  "termos_originais": [
+    {
+      "palavra": "שִׁמְעוּ֙",
+      "lemma": "8085",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "עַמִּ֣ים",
+      "lemma": "5971 a",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "כֻּלָּ֔ם",
+      "lemma": "3605",
+      "morfologia": "HNcmsc/Sp3mp"
+    },
+    {
+      "palavra": "הַקְשִׁ֖יבִי",
+      "lemma": "7181",
+      "morfologia": "HVhv2fs"
+    },
+    {
+      "palavra": "אֶ֣רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "וּמְלֹאָ֑הּ",
+      "lemma": "c/4393",
+      "morfologia": "HC/Ncmsc/Sp3fs"
+    },
+    {
+      "palavra": "וִיהִי֩",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqj3ms"
+    },
+    {
+      "palavra": "אֲדֹנָ֨י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְהוִ֤ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בָּכֶם֙",
+      "lemma": "b",
+      "morfologia": "HR/Sp2mp"
+    },
+    {
+      "palavra": "לְעֵ֔ד",
+      "lemma": "l/5707",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "אֲדֹנָ֖י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "מֵהֵיכַ֥ל",
+      "lemma": "m/1964",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "קָדְשֽׁוֹ",
+      "lemma": "6944",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "כֻּלָּם pronome resumptivo redundante após עַמִּים",
+      "escolha": "condensar em 'todos os povos' no texto publicado; a literal mantém 'povos, todos eles'.",
+      "justificativa": "Repetição redundante enquadra-se na doutrina do calque (ER-0013 item 2), normalizável no publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'povos, todos eles' no publicado",
+          "motivo": "soa artificial em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "אֲדֹנָי יְהוִה (vocalização especial יְהוִה) vs אֲדֹנָי isolado logo a seguir",
+      "escolha": "'Senhor DEUS' para a combinação (H136+YHWH lido como Elohim), 'Senhor' para a segunda ocorrência isolada de H136, conforme NOMES-DIVINOS.md.",
+      "justificativa": "Política de nomes divinos ER-0002 evita 'Senhor SENHOR'; a vocalização יְהוִה sinaliza a leitura de esquiva quando combinada com אֲדֹנָי.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'SENHOR Deus' para ambas ocorrências",
+          "motivo": "ignora a distinção morfológica entre a forma combinada e a ocorrência isolada de אֲדֹנָי"
+        }
+      ]
+    },
+    {
+      "questao": "וִיהִי jussivo ('que seja') vs futuro indicativo",
+      "escolha": "verter como volitivo 'seja', não futuro simples 'será'.",
+      "justificativa": "morfologia HC/Vqj3ms marca jussivo; a convocação processual (chamar Deus como testemunha) exige o modo volitivo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'será testemunha'",
+          "motivo": "apaga o matiz jussivo/imprecatório do convite processual"
+        }
+      ]
+    },
+    {
+      "questao": "מְלֹאָהּ ('sua plenitude', substantivo único) exige paráfrase em português corrente",
+      "escolha": "'tudo o que nela há'",
+      "justificativa": "verter por um único substantivo abstrato ('plenitude') soa hierático fora de registro; a perífrase mantém o sentido de totalidade do que a terra contém.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'sua plenitude'",
+          "motivo": "mais literal, porém registro elevado incomum na prosa corrente (EDITORIAL §1.2)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "tudo",
+    "há"
+  ],
+  "ambiguidades_preservadas": [
+    "הֵיכַל קָדְשׁוֹ pode indicar o templo celestial (moradia de Deus, cf. Sl 11:4) ou o templo terrestre de Jerusalém; o texto não desambigua."
+  ],
+  "justificativa": "Convocação processual universal (povos/terra) como testemunhas do julgamento; nomes divinos tratados conforme NOMES-DIVINOS.md; modo jussivo preservado.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

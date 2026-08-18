@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.147.19",
+    "livro": "Salmos",
+    "capitulo": 147,
+    "versiculo": 19,
+    "pericope": "Ps.147.1-20"
+  },
+  "texto_bv": "Ele anuncia a sua palavra a Jacó, os seus estatutos e os seus juízos a Israel.",
+  "traducao_literal": "O que anuncia a sua palavra a Jacó, os seus estatutos e os seus juízos a Israel.",
+  "termos_originais": [
+    {
+      "palavra": "מַגִּ֣יד",
+      "lemma": "5046",
+      "morfologia": "HVhrmsa"
+    },
+    {
+      "palavra": "דברו",
+      "lemma": "1697",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "לְיַעֲקֹ֑ב",
+      "lemma": "l/3290",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "חֻקָּ֥יו",
+      "lemma": "2706",
+      "morfologia": "HNcmpc/Sp3ms"
+    },
+    {
+      "palavra": "וּ֝מִשְׁפָּטָ֗יו",
+      "lemma": "c/4941",
+      "morfologia": "HC/Ncmpc/Sp3ms"
+    },
+    {
+      "palavra": "לְיִשְׂרָאֵֽל",
+      "lemma": "l/3478",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "דברו grafado sem pontuação no packet pinado (Ketiv דְּבָרוֹ 'sua palavra', sg., vs. Qere massorético tradicional דְּבָרָיו 'suas palavras/preceitos', pl.); a morfologia fornecida no packet (HNcmsc/Sp3ms) marca singular construto",
+      "escolha": "'a sua palavra' (singular, seguindo forma e morfologia fornecidas no packet)",
+      "justificativa": "O packet pinado marca explicitamente singular construto; não há campo de aparato (variantes_fonte) para este verso no packet, então a BV segue a forma fornecida pela fonte pinada, documentando aqui a leitura Qere tradicional (plural) para transparência de auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'as suas palavras' (Qere massorético tradicional, plural)",
+          "motivo": "a morfologia do packet pinado marca singular construto (Ncmsc); sem aparato explícito de variante no packet, a BV não substitui a forma e a morfologia fornecidas pela fonte pinada"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Ketiv/Qere de דברו: packet pinado registra forma e morfologia singular (ketiv); tradição massorética de leitura (qere) tradicionalmente aponta plural דְּבָרָיו — a BV segue a forma pinada, decisão documentada para revisão futura caso o manifest de fontes seja atualizado."
+  ],
+  "justificativa": "Privilégio único de Israel: recebeu a revelação da palavra, estatutos e juízos de Deus, retomando o tema de eleição do v.20.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

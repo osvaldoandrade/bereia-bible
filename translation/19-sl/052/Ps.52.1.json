@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.52.1",
+    "livro": "Salmos",
+    "capitulo": 52,
+    "versiculo": 1,
+    "pericope": "Ps.52.1-11"
+  },
+  "texto_bv": "Para o mestre de música. Poema didático de Davi.",
+  "traducao_literal": "Ao dirigente. Instrução. De Davi.",
+  "termos_originais": [
+    {
+      "palavra": "לַמְנַצֵּ֗חַ",
+      "lemma": "l/5329",
+      "morfologia": "HRd/Vprmsa"
+    },
+    {
+      "palavra": "מַשְׂכִּ֥יל",
+      "lemma": "4905",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָוִֽד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de לַמְנַצֵּחַ (título musical recorrente)",
+      "escolha": "Para o mestre de música",
+      "justificativa": "Piel particípio de נצח, título de cabeçalho recorrente no saltério, designando o responsável pela execução musical/litúrgica; opção acessível, natural em leitura em voz alta, a ser reutilizada em todos os salmos com este cabeçalho para consistência terminológica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ao regente",
+          "motivo": "tecnicamente correto, porém menos natural para leitura em voz alta/TTS (EDITORIAL §1.3)"
+        },
+        {
+          "opcao": "Ao músico-mor (tradição Almeida)",
+          "motivo": "arcaísmo funcionalmente morto, vedado por EDITORIAL §1.2"
+        }
+      ]
+    },
+    {
+      "questao": "Tradução de מַשְׂכִּיל (gênero técnico do cabeçalho)",
+      "escolha": "Poema didático",
+      "justificativa": "Substantivo do hifil de שׂכל ('ter discernimento, instruir, dar entendimento'); designação de gênero poético sem consenso pleno de sentido entre os léxicos. A opção traduz pelo valor lexical da raiz (instrução/perspicácia) em vez de transliterar, mantendo o cabeçalho legível; termo a ser reaplicado nos demais 'maskil' do saltério (Sl 32, 42, 44, 45, 53, 54, 55, 74, 78, 88, 89, 142) para consistência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Masquil (transliteração)",
+          "motivo": "preserva a opacidade do termo técnico, mas há valor lexical rastreável na raiz שׂכל que a EDITORIAL §9 prioriza traduzir quando possível"
+        },
+        {
+          "opcao": "Contemplação",
+          "motivo": "glosa corrente em algumas tradições, mas sem base consensual mais forte que 'instrução/didático'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "sentido técnico preciso de מַשְׂכִּיל como rótulo de gênero permanece incerto na literatura hebraica"
+  ],
+  "justificativa": "Cabeçalho musical/autoral sem ambiguidade teológica relevante; estabelece precedente terminológico para o restante do Saltério, ainda inédito no corpus.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

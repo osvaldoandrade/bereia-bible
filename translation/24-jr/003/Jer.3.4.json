@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jer.3.4",
+    "livro": "Jeremias",
+    "capitulo": 3,
+    "versiculo": 4,
+    "pericope": "Jer.3.1-25"
+  },
+  "texto_bv": "Você não acabou de me chamar: “Meu Pai! Você é o amigo da minha juventude”?",
+  "traducao_literal": "Não é que agora mesmo chamaste a mim: Meu pai! Companheiro da minha juventude és tu?",
+  "termos_originais": [
+    {
+      "palavra": "הֲל֣וֹא",
+      "lemma": "i/3808",
+      "morfologia": "HTi/Tn"
+    },
+    {
+      "palavra": "מֵעַ֔תָּה",
+      "lemma": "m/6258",
+      "morfologia": "HR/D"
+    },
+    {
+      "palavra": "קראתי",
+      "lemma": "7121",
+      "morfologia": "HVqp2fs"
+    },
+    {
+      "palavra": "לִ֖י",
+      "lemma": "l",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "אָבִ֑י",
+      "lemma": "1",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "אַלּ֥וּף",
+      "lemma": "441 a",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "נְעֻרַ֖י",
+      "lemma": "5271 a",
+      "morfologia": "HNcbpc/Sp1cs"
+    },
+    {
+      "palavra": "אָֽתָּה",
+      "lemma": "859 a",
+      "morfologia": "HPp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "קראתי (grafia consonantal ambígua com 1cs 'eu chamei', mas morfologia do packet indica 2fs 'tu chamaste')",
+      "escolha": "Seguir a morfologia fornecida (2fs): 'você chamou'",
+      "justificativa": "O packet resolve a forma como HVqp2fs; sem aparato de variantes, segue-se a morfologia fornecida.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "1cs 'eu chamei' (leitura consonantal literal sem o ajuste morfológico)",
+          "motivo": "contradiz a morfologia explícita fornecida pelo packet (2fs) e quebra a lógica do diálogo (o SENHOR questiona Israel sobre o que ela disse)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Deus cita as próprias palavras de confiança filial de Israel, contrastando-as com a infidelidade relatada nos versos anteriores.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

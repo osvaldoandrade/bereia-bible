@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.2.7",
+    "livro": "Provérbios",
+    "capitulo": 2,
+    "versiculo": 7,
+    "pericope": "Prov.2.1-22"
+  },
+  "texto_bv": "e reserva aos retos verdadeira sabedoria; é escudo para os que andam em integridade,",
+  "traducao_literal": "e reserva/reservará para os retos verdadeira-sabedoria; escudo, para os que andam em integridade,",
+  "termos_originais": [
+    {
+      "palavra": "וצפן",
+      "lemma": "c/6845",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "לַ֭יְשָׁרִים",
+      "lemma": "l/3477",
+      "morfologia": "HRd/Aampa"
+    },
+    {
+      "palavra": "תּוּשִׁיָּ֑ה",
+      "lemma": "8454",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "מָ֝גֵ֗ן",
+      "lemma": "4043",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "לְהֹ֣לְכֵי",
+      "lemma": "l/1980",
+      "morfologia": "HR/Vqrmpc"
+    },
+    {
+      "palavra": "תֹֽם",
+      "lemma": "8537",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "grafia consonantal de וצפן sem pontuação massorética no packet (surface diferente de todas as demais palavras do capítulo, todas vocalizadas)",
+      "escolha": "seguir estritamente o morph pinado HC/Vqq3ms (weqatal, 3ms) — 'e ele reserva/reservará', sujeito YHWH retomado de 2:6, em sequência modal com יִתֵּן",
+      "justificativa": "O packet não expõe aparato ketiv/qere estruturado (sem campo variantes_fonte); a análise morfológica já anexada resolve tronco/conjugação/pessoa e é adotada sem reinterpretação externa à fonte pinada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tratar como qatal perfeito isolado ('ele reservou', ação concluída e desconectada)",
+          "motivo": "weqatal em sequência com יתן (imperfeito, v.6) funciona como continuação modal/gnômica, não como fato pontual passado isolado"
+        }
+      ]
+    },
+    {
+      "questao": "glosa de תּוּשִׁיָּה, sem entrada prévia no lexicon.json",
+      "escolha": "'verdadeira sabedoria' (sentido cognitivo-moral, em paralelo com חכמה/דעת/תבונה dos vv.6-7)",
+      "justificativa": "O paralelismo sapiencial imediato favorece o campo cognitivo sobre o campo de 'sucesso/prosperidade'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'sucesso' / 'prosperidade'",
+          "motivo": "sentido atestado em outros contextos de תושיה, mas menos ajustado ao paralelismo local com termos de conhecimento"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "וצפן aparece sem pontuação no packet (única palavra não vocalizada do capítulo até aqui) — possível ketiv cuja vocalização tradicional pode diferir; leitura seguida conforme o morph pinado, sem acesso a aparato externo."
+  ],
+  "justificativa": "Continuação da motivação de 2:5-6: YHWH como fonte e guardião da sabedoria; מָגֵן nominal em apposição, sem cópula expressa no hebraico, suprida naturalmente pela pontuação no texto_bv.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

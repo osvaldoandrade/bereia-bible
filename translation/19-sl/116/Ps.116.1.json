@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.116.1",
+    "livro": "Salmos",
+    "capitulo": 116,
+    "versiculo": 1,
+    "pericope": "Ps.116.1-19"
+  },
+  "texto_bv": "Amo o SENHOR, porque ouviu a minha voz, as minhas súplicas.",
+  "traducao_literal": "Amei; porque ouve o SENHOR a minha voz, as minhas súplicas.",
+  "termos_originais": [
+    {
+      "palavra": "אָ֭הַבְתִּי",
+      "lemma": "157",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יִשְׁמַ֥ע",
+      "lemma": "8085",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "יְהוָ֑ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "ק֝וֹלִ֗י",
+      "lemma": "6963 a",
+      "morfologia": "HNcmsc/Sp1cs"
+    },
+    {
+      "palavra": "תַּחֲנוּנָֽי",
+      "lemma": "8469",
+      "morfologia": "HNcmpc/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Objeto elíptico de אָהַבְתִּי ('amei/amo'), sem complemento explícito no hebraico",
+      "escolha": "Suprir 'o SENHOR' como objeto implícito, retomado do sujeito da oração causal seguinte (יהוה)",
+      "justificativa": "O verbo não tem objeto explícito; o SENHOR, sujeito da oração causal imediatamente seguinte, é o referente natural e consensual nas traduções de referência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Deixar 'amo' sem objeto explícito em português",
+          "motivo": "Soa incompleto/agramatical em pt-BR corrido; o objeto é recuperável do contexto imediato, não é invenção exegética."
+        }
+      ]
+    },
+    {
+      "questao": "Tempo verbal de יִשְׁמַע (imperfeito hebraico)",
+      "escolha": "Traduzir como passado narrativo ('ouviu')",
+      "justificativa": "Uso poético do imperfeito (yiqtol) em valor de pretérito, coerente com o relato retrospectivo de libertação que se desenvolve no salmo (vv.3-8).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Presente habitual ('ouve', verdade geral)",
+          "motivo": "Gramaticalmente possível, mas menos coerente com o restante do salmo, que narra uma libertação específica e já concluída."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o SENHOR (objeto implícito de 'amo')"
+  ],
+  "ambiguidades_preservadas": [
+    "Tempo de יִשְׁמַע pode ser presente habitual ou pretérito narrativo — ambas leituras gramaticalmente possíveis."
+  ],
+  "justificativa": "Verso de abertura do salmo de ação de graças: declaração de amor causal, seguida da razão (o SENHOR ouviu a súplica do orante).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

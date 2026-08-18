@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.56.1",
+    "livro": "Isaías",
+    "capitulo": 56,
+    "versiculo": 1,
+    "pericope": "Isa.56.1-12"
+  },
+  "texto_bv": "Assim diz o SENHOR: “Guardem o direito e pratiquem a justiça, porque minha salvação está prestes a chegar, e minha justiça, a se revelar.”",
+  "traducao_literal": "Assim disse SENHOR: guardai direito e fazei justiça, porque próxima minha salvação para vir e minha justiça para revelar-se.",
+  "termos_originais": [
+    {
+      "palavra": "כֹּ֚ה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אָמַ֣ר",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שִׁמְר֥וּ",
+      "lemma": "8104",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "מִשְׁפָּ֖ט",
+      "lemma": "4941",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וַעֲשׂ֣וּ",
+      "lemma": "c/6213 a",
+      "morfologia": "HC/Vqv2mp"
+    },
+    {
+      "palavra": "צְדָקָ֑ה",
+      "lemma": "6666",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "קְרוֹבָ֤ה",
+      "lemma": "7138",
+      "morfologia": "HAafsa"
+    },
+    {
+      "palavra": "יְשֽׁוּעָתִי֙",
+      "lemma": "3444",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "לָב֔וֹא",
+      "lemma": "l/935",
+      "morfologia": "HR/Vqc"
+    },
+    {
+      "palavra": "וְצִדְקָתִ֖י",
+      "lemma": "c/6666",
+      "morfologia": "HC/Ncfsc/Sp1cs"
+    },
+    {
+      "palavra": "לְהִגָּלֽוֹת",
+      "lemma": "l/1540",
+      "morfologia": "HR/VNc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tempo verbal de אָמַר (perfeito) na fórmula כֹּה אָמַר יְהוָה",
+      "escolha": "presente performativo – “Assim diz o SENHOR”",
+      "justificativa": "Fórmula profetica recorrente; o perfeito hebraico tem valor gnômico/performativo, não narrativo-pontual.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Assim disse o SENHOR” (passado estrito)",
+          "motivo": "perde a força de fórmula introdutória viva, sugere evento pontual passado em vez de declaração oracular"
+        }
+      ]
+    },
+    {
+      "questao": "Distinção lexical entre מִשְׁפָּט e צְדָקָה",
+      "escolha": "מִשְׁפָּט → “direito”; צְדָקָה → “justiça”",
+      "justificativa": "são dois substantivos hebraicos diferentes em paralelismo; colapsar ambos em “justiça” apaga a distinção lexical do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“justiça” para ambos",
+          "motivo": "perde o paralelismo binário do hebraico"
+        },
+        {
+          "opcao": "“juízo” para מִשְׁפָּט",
+          "motivo": "registro arcaizante evitável (EDITORIAL §1.2)"
+        }
+      ]
+    },
+    {
+      "questao": "Uso de aspas de discurso direto (ER-0004)",
+      "escolha": "abrir e fechar aspas dentro do próprio v.1, cobrindo o conteúdo do oráculo",
+      "justificativa": "כֹּה אָמַר introduz fala direta autocontida no versículo.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Oráculo introdutório: imperativo duplo (mishpat/tsedaqah) seguido de oração causal com dois substantivos paralelos (yeshuati/tsidqati) e dois infinitivos construtos de propósito/iminência.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

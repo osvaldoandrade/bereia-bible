@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Prov.11.2",
+    "livro": "Provérbios",
+    "capitulo": 11,
+    "versiculo": 2,
+    "pericope": "Prov.11.1-31"
+  },
+  "texto_bv": "Vem a soberba, e logo vem a desonra; mas com os humildes está a sabedoria.",
+  "traducao_literal": "Veio soberba, e veio desonra; e com os humildes, sabedoria.",
+  "termos_originais": [
+    {
+      "palavra": "בָּֽא",
+      "lemma": "935",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "זָ֭דוֹן",
+      "lemma": "2087",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וַיָּבֹ֣א",
+      "lemma": "c/935",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "קָל֑וֹן",
+      "lemma": "7036",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְֽאֶת",
+      "lemma": "c/854",
+      "morfologia": "HC/R"
+    },
+    {
+      "palavra": "צְנוּעִ֥ים",
+      "lemma": "6800 b",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "חָכְמָֽה",
+      "lemma": "2451",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "וְאֶת aqui é preposição comitativa ('com'), não marcador de objeto direto",
+      "escolha": "traduzir 'com os humildes'",
+      "justificativa": "Morfologia do packet marca HC/R (conjunção+preposição), confirmando אֵת = 'com', não o אֶת acusativo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e os humildes, sabedoria' (objeto direto)",
+          "motivo": "Contradiria a morfologia HR (preposição) fornecida no packet."
+        }
+      ]
+    },
+    {
+      "questao": "Ordem V-S do wayyiqtol (וַיָּבֹא קָלוֹן)",
+      "escolha": "S-V no texto publicado ('vem a desonra'); V-S preservado na traducao_literal",
+      "justificativa": "ER-0011: ordem S-V uniforme no publicado; calque V-S mantido no registro literal (ER-0013).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "logo (para marcar a sequência בָּא...וַיָּבֹא)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Paralelismo antitético: chegada da soberba/desonra vs. presença da sabedoria entre os humildes; duplo verbo 'vir' (בָּא/וַיָּבֹא) reforça a certeza da consequência.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

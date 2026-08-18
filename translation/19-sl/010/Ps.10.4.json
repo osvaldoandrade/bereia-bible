@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.10.4",
+    "livro": "Salmos",
+    "capitulo": 10,
+    "versiculo": 4,
+    "pericope": "Ps.10.1-18"
+  },
+  "texto_bv": "O ímpio, em sua arrogância, não busca a Deus; todos os seus pensamentos são: 'Não há Deus.'",
+  "traducao_literal": "O ímpio, conforme a altivez do seu rosto, não busca; não há Deus [é] todo o seu pensamento.",
+  "termos_originais": [
+    {
+      "palavra": "רָשָׁ֗ע",
+      "lemma": "7563",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "כְּגֹ֣בַהּ",
+      "lemma": "k/1363",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "אַ֭פּוֹ",
+      "lemma": "639",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "בַּל",
+      "lemma": "1077",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִדְרֹ֑שׁ",
+      "lemma": "1875",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "אֵ֥ין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "אֱ֝לֹהִ֗ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "כָּל",
+      "lemma": "3605",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "מְזִמּוֹתָֽיו",
+      "lemma": "4209",
+      "morfologia": "HNcfpc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "objeto elidido de בַּל־יִדְרֹשׁ ('não busca')",
+      "escolha": "suprir 'a Deus' como objeto, exigido pela regência transitiva de 'buscar' em português",
+      "justificativa": "a oração seguinte ('não há Deus, todo o seu pensamento') deixa claro que o objeto implícito da busca é Deus; sem objeto, 'não busca' soa incompleto em português",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deixar 'não busca' sem objeto explícito",
+          "motivo": "agramatical em português; EDITORIAL §4 autoriza suprir elipse quando o português exige"
+        }
+      ]
+    },
+    {
+      "questao": "כְּגֹבַהּ אַפּוֹ — 'altura de seu nariz/rosto' como idiotismo de orgulho, não de ira",
+      "escolha": "traduzir 'em sua arrogância', entendendo אַף como 'rosto/semblante' no idiomatismo de altivez",
+      "justificativa": "גֹבַהּ אַף é expressão consagrada para soberba (rosto erguido), distinta do sentido 'ira' do mesmo lexema em outros contextos",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'na altura de sua ira'",
+          "motivo": "colisão semântica — 'altura' não combina naturalmente com 'ira' no idiomatismo hebraico, que é sobre o semblante erguido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a Deus (objeto de 'busca')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Retrato do ímpio autossuficiente; estrutura nominal dupla ('não há Deus' como predicado de 'todo o seu pensamento').",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

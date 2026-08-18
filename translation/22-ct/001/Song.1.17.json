@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.1.17",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 1,
+    "versiculo": 17,
+    "pericope": "Song.1.1-17"
+  },
+  "texto_bv": "As vigas da nossa casa são cedros; os nossos caibros são ciprestes.",
+  "traducao_literal": "As vigas da nossa casa [são] cedros; os nossos caibros/painéis [são] ciprestes.",
+  "termos_originais": [
+    {
+      "palavra": "קֹר֤וֹת",
+      "lemma": "6982",
+      "morfologia": "HNcfpc"
+    },
+    {
+      "palavra": "בָּתֵּ֨ינוּ֙",
+      "lemma": "1004 b",
+      "morfologia": "HNcmpc/Sp1cp"
+    },
+    {
+      "palavra": "אֲרָזִ֔ים",
+      "lemma": "730",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "רחיטנו",
+      "lemma": "7351",
+      "morfologia": "HNcmsc/Sp1cp"
+    },
+    {
+      "palavra": "בְּרוֹתִֽים",
+      "lemma": "1266",
+      "morfologia": "HNcmpa"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Song.1.17 רחיטנו: grafia consonantal sem niqqud/trope no texto-fonte pinado (OSHB), distinta de todas as demais palavras do verso, típica de par Ketiv/Qere (ח/ה) — Ketiv רחיטנו, Qere tradicional רָהִיטֵנוּ.",
+      "leituras": [
+        {
+          "leitura": "רהיטנו (Qere, 'os nossos caibros/painéis')",
+          "testemunhas": "tradição massorética padrão (Qere)"
+        },
+        {
+          "leitura": "רחיטנו (Ketiv, forma consonantal registrada no packet OSHB)",
+          "testemunhas": "OSHB, forma escrita sem vocalização no texto-fonte pinado"
+        }
+      ],
+      "avaliacao": "variação gráfica ח/ה sem impacto semântico; ambas as formas remetem ao mesmo substantivo ('caibro/painel de teto').",
+      "impacto_na_traducao": "nenhum — tradução segue a leitura tradicional (Qere) רָהִיטֵנוּ, 'os nossos caibros'."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "רחיטנו — grafia sem vocalização/trope no texto-fonte pinado (Ketiv/Qere ח/ה)",
+      "escolha": "ler como רָהִיטֵנוּ ('os nossos caibros/painéis'), tradição de leitura (Qere) do TM",
+      "justificativa": "a forma no packet aparece sem niqqud/trope, ao contrário de todas as demais palavras do capítulo — sinal de par Ketiv (consoantes escritas, רחיט) / Qere (leitura tradicional, רהיט, com permuta gráfica ח/ה); ambas as formas têm o mesmo sentido ('caibro, painel de teto'), sem impacto semântico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar/manter a forma consonantal sem vocalizar",
+          "motivo": "o registro exige uma leitura para tradução; a tradição Qere é a leitura padrão adotada por edições impressas do TM"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fechamento descritivo do 'leito' ampliado para a 'casa' do casal, em imagens de madeiras nobres (cedro, cipreste), continuando a metáfora natural/pastoril do capítulo.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

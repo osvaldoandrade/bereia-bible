@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.123.3",
+    "livro": "Salmos",
+    "capitulo": 123,
+    "versiculo": 3,
+    "pericope": "Ps.123.1-4"
+  },
+  "texto_bv": "Tem piedade de nós, SENHOR, tem piedade de nós, pois já estamos muito fartos de desprezo.",
+  "traducao_literal": "Tem piedade de nós, SENHOR, tem piedade de nós; porque muito nos fartamos de desprezo.",
+  "termos_originais": [
+    {
+      "palavra": "חָנֵּ֣נוּ",
+      "lemma": "2603 a",
+      "morfologia": "HVqv2ms/Sp1cp"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "חָנֵּ֑נוּ",
+      "lemma": "2603 a",
+      "morfologia": "HVqv2ms/Sp1cp"
+    },
+    {
+      "palavra": "כִּֽי",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "רַ֝֗ב",
+      "lemma": "7227 a",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "שָׂבַ֥עְנוּ",
+      "lemma": "7646",
+      "morfologia": "HVqp1cp"
+    },
+    {
+      "palavra": "בֽוּז",
+      "lemma": "937",
+      "morfologia": "HNcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Registro de segunda pessoa no imperativo חָנֵּנוּ, dirigido a Deus em oração",
+      "escolha": "'tu' implícito no imperativo informal ('tem piedade')",
+      "justificativa": "D-0003: oração/salmo dirigido a Deus usa o registro 'tu'; o imperativo 'tem' já veicula essa pessoa gramatical em português sem necessidade de pronome explícito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tenha piedade de nós' (registro 'você'/formal)",
+          "motivo": "contraria D-0003 para discurso orante dirigido a Deus"
+        }
+      ]
+    },
+    {
+      "questao": "רַב שָׂבַעְנוּ — adjetivo intensificador רַב anteposto ao verbo (ordem marcada no hebraico)",
+      "escolha": "'muito' antes do verbo na literal ('muito nos fartamos'), preservando a posição enfática; publicado normaliza para ordem natural do português ('já estamos muito fartos')",
+      "justificativa": "a anteposição de רַב é um recurso enfático de poesia hebraica (calque, ER-0013); o português preserva o advérbio de intensidade, mas o publicado ajusta a ordem para soar natural, sem perda de sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem hebraica também no publicado ('pois muito fartos estamos de desprezo')",
+          "motivo": "soa arcaizante em português corrente fora de fórmula fixa"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Refrão de súplica (imperativo repetido חָנֵּנוּ...חָנֵּנוּ) seguido de causal com בּוּז ('desprezo'), retomando o vocabulário de 123:2; decisões cobrem apenas registro pronominal e posição do intensificador רַב.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

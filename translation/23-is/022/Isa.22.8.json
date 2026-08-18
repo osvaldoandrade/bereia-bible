@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.22.8",
+    "livro": "Isaías",
+    "capitulo": 22,
+    "versiculo": 8,
+    "pericope": "Isa.22.1-25"
+  },
+  "texto_bv": "A proteção de Judá foi retirada; e, naquele dia, você olhou para as armas da Casa do Bosque.",
+  "traducao_literal": "E descobriu a cobertura de Judá; e olhaste, naquele dia, para a arma da Casa do Bosque.",
+  "termos_originais": [
+    {
+      "palavra": "וַיְגַ֕ל",
+      "lemma": "c/1540",
+      "morfologia": "HC/Vpw3ms"
+    },
+    {
+      "palavra": "אֵ֖ת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "מָסַ֣ךְ",
+      "lemma": "4539",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוּדָ֑ה",
+      "lemma": "3063",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וַתַּבֵּט֙",
+      "lemma": "c/5027",
+      "morfologia": "HC/Vhw2ms"
+    },
+    {
+      "palavra": "בַּיּ֣וֹם",
+      "lemma": "b/3117",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הַה֔וּא",
+      "lemma": "d/1931",
+      "morfologia": "HTd/Pp3ms"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "נֶ֖שֶׁק",
+      "lemma": "5402",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "בֵּ֥ית",
+      "lemma": "1004 b",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַיָּֽעַר",
+      "lemma": "d/3293 a",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito elidido de וַיְגַל ('descobriu/removeu')",
+      "escolha": "voz passiva no publicado, sem atribuir agente ('foi retirada')",
+      "justificativa": "O hebraico não nomeia o agente; preservar essa ambiguidade (Deus como juiz, cf. v.5, ou o inimigo invasor) evita decisão exegética não sustentada pela gramática (TEOLOGIA §1.5).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o SENHOR removeu' (sujeito explícito)",
+          "motivo": "Importaria um agente que o texto não nomeia — violaria TEOLOGIA §2 (proibição de inserir implicação que o texto não codifica)."
+        }
+      ]
+    },
+    {
+      "questao": "וַתַּבֵּט — morfologia do packet marca 2ms ('tu olhaste'), não 3fs",
+      "escolha": "seguir a morfologia pinada: segunda pessoa ('você olhou')",
+      "justificativa": "O packet fonte desambigua explicitamente para Vhw2ms; seguir a fonte pinada é mandatório mesmo onde versões tradicionais preferem 3fs ('ela olhou', referindo-se a Jerusalém).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "3ª pessoa fem. sing. ('ela olhou')",
+          "motivo": "Leitura tradicional (LXX/versões), mas diverge da morfologia explícita do packet pinado, que é a fonte de auditoria."
+        }
+      ]
+    },
+    {
+      "questao": "בֵּית הַיָּעַר — nome próprio do arsenal de Salomão",
+      "escolha": "'Casa do Bosque' (tradução do nome)",
+      "justificativa": "Sem tradição consolidada de transliteração em português; tradução transparente do nome do edifício (cf. 1Rs 7:2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transliterar 'Bet-Haiaar'",
+          "motivo": "Sem uso corrente; menos inteligível que a tradução do nome."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sujeito não nomeado de 'descobriu/removeu' a proteção de Judá — preservado sem agente explícito."
+  ],
+  "justificativa": "Transição do relato militar para a repreensão aos preparativos humanos de defesa (vv.8-11).",
+  "confianca": 0.62,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.6.1",
+    "livro": "Isaías",
+    "capitulo": 6,
+    "versiculo": 1,
+    "pericope": "Isa.6.1-13"
+  },
+  "texto_bv": "No ano da morte do rei Uzias, vi o Senhor assentado sobre um trono alto e elevado, e as suas orlas enchiam o templo.",
+  "traducao_literal": "No ano da morte do rei Uzias, e vi o Senhor sentado sobre um trono alto e elevado, e as suas orlas enchendo o templo.",
+  "termos_originais": [
+    {
+      "palavra": "בִּשְׁנַת",
+      "lemma": "b/8141",
+      "morfologia": "HR/Ncfsc"
+    },
+    {
+      "palavra": "מוֹת֙",
+      "lemma": "4194",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "הַמֶּ֣לֶךְ",
+      "lemma": "d/4428",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "עֻזִּיָּ֔הוּ",
+      "lemma": "5818",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "וָאֶרְאֶ֧ה",
+      "lemma": "c/7200",
+      "morfologia": "HC/Vqw1cs"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "אֲדֹנָ֛י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יֹשֵׁ֥ב",
+      "lemma": "3427",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "עַל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "כִּסֵּ֖א",
+      "lemma": "3678",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "רָ֣ם",
+      "lemma": "7311 a",
+      "morfologia": "HVqrmsa"
+    },
+    {
+      "palavra": "וְנִשָּׂ֑א",
+      "lemma": "c/5375",
+      "morfologia": "HC/VNrmsa"
+    },
+    {
+      "palavra": "וְשׁוּלָ֖יו",
+      "lemma": "c/7757",
+      "morfologia": "HC/Ncmpc/Sp3ms"
+    },
+    {
+      "palavra": "מְלֵאִ֥ים",
+      "lemma": "4390",
+      "morfologia": "HVqrmpa"
+    },
+    {
+      "palavra": "אֶת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "הַהֵיכָֽל",
+      "lemma": "d/1964",
+      "morfologia": "HTd/Ncmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Waw inicial de וָאֶרְאֶה (wayyiqtol 1cs) após cláusula temporal fronteada",
+      "escolha": "Sem 'E' inicial no publicado; a literal preserva a partícula.",
+      "justificativa": "A cláusula temporal fronteada ('No ano da morte...') já estabelece a sequência narrativa; 'E' soaria artificial abrindo a oração principal em português (ER-0013, doutrina do calque).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E vi o Senhor...' com E inicial",
+          "motivo": "redundante após a cláusula temporal fronteada; calque desnecessário no texto publicado"
+        }
+      ]
+    },
+    {
+      "questao": "וְשׁוּלָיו ('e as suas orlas'): suprir 'manto/vestes' ausente no hebraico?",
+      "escolha": "Manter sem suprir; referente de vestimenta fica implícito, como no original.",
+      "justificativa": "'As suas orlas enchiam o templo' é gramatical em português; EDITORIAL §4 só exige suprir palavra quando a ausência tornar o texto agramatical, não apenas menos explícito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'as orlas do seu manto'",
+          "motivo": "supre substantivo ausente no texto-fonte sem necessidade gramatical"
+        }
+      ]
+    },
+    {
+      "questao": "הַהֵיכָל: 'templo' ou 'palácio'?",
+      "escolha": "templo",
+      "justificativa": "O contexto de teofania com trono, serafins e altar (v.6) aponta para o sentido cúltico do lexema, majoritário nessa cena.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "palácio",
+          "motivo": "sentido secundário do lexema, menos adequado à cena de culto celestial com altar"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Referente exato de 'suas orlas' (vestimenta não nomeada) preservado como no hebraico, sem suprir substantivo."
+  ],
+  "justificativa": "אֲדֹנָי (não יהוה) verte 'Senhor' conforme NOMES-DIVINOS v1.0.0/ER-0002. Verbo 1cs יָשַׁב é implícito no sujeito, sem necessidade de calque V-S (ER-0011 não se aplica a verbo sem sujeito nominal explícito).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

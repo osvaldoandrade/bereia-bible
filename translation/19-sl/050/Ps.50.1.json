@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.50.1",
+    "livro": "Salmos",
+    "capitulo": 50,
+    "versiculo": 1,
+    "pericope": "Ps.50.1-23"
+  },
+  "texto_bv": "Salmo de Asafe. O Poderoso, Deus, o SENHOR, falou e convocou a terra, desde o nascer do sol até o seu ocaso.",
+  "traducao_literal": "Salmo de Asafe. Deus, Deus, SENHOR, falou e chamou a terra, desde o nascente do sol até o seu poente.",
+  "termos_originais": [
+    {
+      "palavra": "מִזְמ֗וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְאָ֫סָ֥ף",
+      "lemma": "l/623",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "אֵ֤ל",
+      "lemma": "410",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "אֱֽלֹהִ֡ים",
+      "lemma": "430",
+      "morfologia": "HNcmpa"
+    },
+    {
+      "palavra": "יְֽהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "דִּבֶּ֥ר",
+      "lemma": "1696",
+      "morfologia": "HVpp3ms"
+    },
+    {
+      "palavra": "וַיִּקְרָא",
+      "lemma": "c/7121",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "אָ֑רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "מִמִּזְרַח",
+      "lemma": "m/4217",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "שֶׁ֝֗מֶשׁ",
+      "lemma": "8121",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "עַד",
+      "lemma": "5704",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "מְבֹאֽוֹ",
+      "lemma": "3996",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de אֵל na sequência tripla אֵל אֱלֹהִים יְהוָה",
+      "escolha": "Render אֵל como 'o Poderoso' no texto publicado, evitando a tautologia 'Deus, Deus, o SENHOR'; a traducao_literal preserva o calque cru 'Deus, Deus, SENHOR'.",
+      "justificativa": "אֵל (H410) tem valor lexical de força/poder, atestado substantivamente (cf. Gn 31:29); o paseq massorético após אֵל isola o termo do par אֱלֹהִים יְהוָה que segue. Desvio pontual da glosa padrão 'Deus' registrado conforme NOMES-DIVINOS.md ('desvio exige adjudicação registrada').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Deus, Deus, o SENHOR (glosa padrão sem desvio)",
+          "motivo": "Soa como erro de repetição em português, obscurecendo o efeito retórico de empilhamento de títulos divinos do hebraico."
+        },
+        {
+          "opcao": "Deus dos deuses, o SENHOR",
+          "motivo": "Importaria leitura de construto que a sintaxe (aposição, não genitivo) não sustenta."
+        }
+      ]
+    },
+    {
+      "questao": "מִמִּזְרַח־שֶׁמֶשׁ עַד־מְבֹאוֹ (idiomatismo direcional)",
+      "escolha": "'desde o nascer do sol até o seu ocaso' (BV) / 'desde o nascente do sol até o seu poente' (literal).",
+      "justificativa": "Idiomatismo hebraico para 'de leste a oeste', preservado com a imagem solar em vez de abstração geográfica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "de leste a oeste",
+          "motivo": "Perde a imagem solar (nascente/poente) presente no hebraico."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A relação sintática exata entre אֵל e אֱלֹהִים יְהוָה (aposição tripla vs. vocativo + predicado) permanece aberta; o paseq massorético sugere separação, mas a BV não resolve a estrutura de forma definitiva."
+  ],
+  "justificativa": "Superscrição + abertura teofânica: os três nomes divinos convocam toda a terra como testemunha do julgamento que segue.",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

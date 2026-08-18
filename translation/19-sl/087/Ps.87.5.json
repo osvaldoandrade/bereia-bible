@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.87.5",
+    "livro": "Salmos",
+    "capitulo": 87,
+    "versiculo": 5,
+    "pericope": "Ps.87.1-7"
+  },
+  "texto_bv": "E de Sião se dirá: “Este e aquele nasceram nela”; e o próprio Altíssimo a estabelecerá.",
+  "traducao_literal": "E de Sião será dito: 'homem e homem nasceu nela'; e ele a estabelecerá, o Altíssimo.",
+  "termos_originais": [
+    {
+      "palavra": "וּֽלֲצִיּ֨וֹן",
+      "lemma": "c/l/6726",
+      "morfologia": "HC/R/Np"
+    },
+    {
+      "palavra": "יֵאָמַ֗ר",
+      "lemma": "559",
+      "morfologia": "HVNi3ms"
+    },
+    {
+      "palavra": "אִ֣ישׁ",
+      "lemma": "376",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וְ֭אִישׁ",
+      "lemma": "c/376",
+      "morfologia": "HC/Ncmsa"
+    },
+    {
+      "palavra": "יֻלַּד",
+      "lemma": "3205",
+      "morfologia": "HVPp3ms"
+    },
+    {
+      "palavra": "בָּ֑הּ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3fs"
+    },
+    {
+      "palavra": "וְה֖וּא",
+      "lemma": "c/1931",
+      "morfologia": "HC/Pp3ms"
+    },
+    {
+      "palavra": "יְכוֹנְנֶ֣הָ",
+      "lemma": "3559 a",
+      "morfologia": "HVoi3ms/Sp3fs"
+    },
+    {
+      "palavra": "עֶלְיֽוֹן",
+      "lemma": "5945 b",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אִישׁ וְאִישׁ (repetição formular distributiva, lit. 'homem e homem') indica indivíduos de diferentes nações contados um a um como nascidos em Sião — como verter a repetição no publicado?",
+      "escolha": "Normalizar para 'este e aquele' no publicado (ER-0013, repetição formular condensável); preservar 'homem e homem' na traducao_literal.",
+      "justificativa": "'Homem e homem' é agramatical em português corrente; 'este e aquele' preserva o sentido distributivo (cada indivíduo, de cada nação) sem soar artificial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'cada um'",
+          "motivo": "Perde o pareamento binário do original, que sugere contagem individual, nação por nação, e não apenas coletiva."
+        },
+        {
+          "opcao": "Manter 'homem e homem' também no publicado.",
+          "motivo": "Calque agramatical em português; ER-0013 autoriza a normalização no texto publicado."
+        }
+      ]
+    },
+    {
+      "questao": "וְהוּא...עֶלְיוֹן: pronome enfático fronteado ('e ele') com o nome divino עֶלְיוֹן ('Altíssimo') em aposição ao final da oração no hebraico — reordenar no publicado?",
+      "escolha": "Antecipar 'o próprio Altíssimo' junto ao sujeito no publicado ('e o próprio Altíssimo a estabelecerá'); preservar a ordem original (aposto ao final) na literal.",
+      "justificativa": "Em português, deixar o nome divino solto ao final da oração ('e ele a estabelecerá, o Altíssimo') soa como aposto deslocado e prejudica a clareza referencial (EDITORIAL §1.3); a literal mantém a ordem hebraica para fins de auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter a ordem hebraica também no publicado.",
+          "motivo": "Clareza referencial comprometida em português contemporâneo; o pronome 'ele' ficaria sem antecedente próximo até o fim da oração."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "יְכוֹנְנֶהָ (imperfeito, 'estabelecerá') mantido em tempo futuro, coerente com os demais imperfeitos da perícope (v.4 אַזְכִּיר, v.6 יִסְפֹּר); 'Altíssimo' para עֶלְיוֹן segue a glosa já consolidada no corpus (Sl 46.5; 47.3; 7.18; 9.3; 21.8).",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

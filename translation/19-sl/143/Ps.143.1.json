@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.143.1",
+    "livro": "Salmos",
+    "capitulo": 143,
+    "versiculo": 1,
+    "pericope": "Ps.143.1-12"
+  },
+  "texto_bv": "Salmo de Davi. SENHOR, ouve a minha oração; dá ouvidos às minhas súplicas; responde-me na tua fidelidade e na tua justiça.",
+  "traducao_literal": "Salmo, de Davi. SENHOR, ouve a minha oração, dá ouvidos às minhas súplicas; na tua fidelidade responde-me, na tua justiça.",
+  "termos_originais": [
+    {
+      "palavra": "מִזְמ֗וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לְדָ֫וִ֥ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "יְהוָ֤ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "שְׁמַ֬ע",
+      "lemma": "8085",
+      "morfologia": "HVqv2ms"
+    },
+    {
+      "palavra": "תְּפִלָּתִ֗י",
+      "lemma": "8605",
+      "morfologia": "HNcfsc/Sp1cs"
+    },
+    {
+      "palavra": "הַאֲזִ֥ינָה",
+      "lemma": "238",
+      "morfologia": "HVhv2ms/Sh"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "תַּחֲנוּנַ֑י",
+      "lemma": "8469",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "בֶּאֱמֻנָתְךָ֥",
+      "lemma": "b/530",
+      "morfologia": "HR/Ncfsc/Sp2ms"
+    },
+    {
+      "palavra": "עֲ֝נֵ֗נִי",
+      "lemma": "6030 b",
+      "morfologia": "HVqv2ms/Sp1cs"
+    },
+    {
+      "palavra": "בְּצִדְקָתֶֽךָ",
+      "lemma": "b/6666",
+      "morfologia": "HR/Ncfsc/Sp2ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de הַאֲזִינָה (Hifil denominativo de אֹזֶן, sem substantivo explícito no verso).",
+      "escolha": "dá ouvidos às minhas súplicas",
+      "justificativa": "Precedente idêntico em Sl 140:7 — mesmo lema (238), mesma morfologia (Hifil imperativo 2ms + he paragógico), mesmo regime com תַּחֲנוּן; mantém-se a glosa já fixada no corpus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "inclina o ouvido às minhas súplicas",
+          "motivo": "tradução plausível, mas divergiria do precedente já fixado em Sl 140:7 para o mesmo lema no mesmo contexto"
+        }
+      ]
+    },
+    {
+      "questao": "Segunda pessoa: tu vs. você, em oração dirigida a Deus.",
+      "escolha": "tu (formas verbais: ouve, dá, responde-me)",
+      "justificativa": "EDITORIAL §3 / ER-0003: salmo/oração dirigida a Deus usa tu; distinto do discurso entre humanos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "você",
+          "motivo": "ER-0003 reserva você/vocês ao discurso entre humanos, não à oração dirigida a Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ouvidos (verbo denominativo האזין sem substantivo explícito no verso; supre-se para naturalidade, seguindo o precedente de Sl 140:7 com o mesmo lema)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Superscrição + súplica de abertura; vocabulário (SENHOR, oração, súplicas, fidelidade, justiça) já consolidado no corpus de Salmos anteriores; nome divino conforme NOMES-DIVINOS.md (YHWH→SENHOR).",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

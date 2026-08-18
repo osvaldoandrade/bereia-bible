@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.19.13",
+    "livro": "Salmos",
+    "capitulo": 19,
+    "versiculo": 13,
+    "pericope": "Ps.19.1-15"
+  },
+  "texto_bv": "Quem pode entender os erros? Purifica-me das faltas ocultas.",
+  "traducao_literal": "Erros, quem pode entender? Das ocultas, purifica-me.",
+  "termos_originais": [
+    {
+      "palavra": "שְׁגִיא֥וֹת",
+      "lemma": "7691",
+      "morfologia": "HNcfpa"
+    },
+    {
+      "palavra": "מִֽי",
+      "lemma": "4310",
+      "morfologia": "HTi"
+    },
+    {
+      "palavra": "יָבִ֑ין",
+      "lemma": "995",
+      "morfologia": "HVqi3ms"
+    },
+    {
+      "palavra": "מִֽנִּסְתָּר֥וֹת",
+      "lemma": "m/5641",
+      "morfologia": "HR/VNrfpa"
+    },
+    {
+      "palavra": "נַקֵּֽנִי",
+      "lemma": "5352",
+      "morfologia": "HVpv2ms/Sp1cs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שְׁגִיאוֹת ('erros') sem possessivo explícito — erros de quem?",
+      "escolha": "Mantido sem possessivo ('os erros'), preservando a generalidade do hebraico.",
+      "justificativa": "EDITORIAL §4: só se supre o que o português exige para ser gramatical; 'os erros' é gramatical sem especificar o possuidor, e a ambiguidade (erros próprios vs. erros humanos em geral) é retórica, não um vazio sintático.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'os próprios erros'",
+          "motivo": "fecha a leitura para o sentido reflexivo, quando o hebraico admite tanto o sentido pessoal quanto o genérico ('quem pode discernir erros [de qualquer um]?')"
+        }
+      ]
+    },
+    {
+      "questao": "נִסְתָּרוֹת (particípio Nifal fem. pl. substantivado, 'as ocultas/coisas ocultas') sem substantivo explícito",
+      "escolha": "Suprido 'faltas', em paralelismo com שְׁגִיאוֹת ('erros') da primeira oração.",
+      "justificativa": "Português admite 'das ocultas' como adjetivo substantivado, mas fica ambíguo sem contexto; 'faltas ocultas' segue o paralelismo do verso e a leitura padrão do campo semântico (pecado/culpa) que perpassa 19:13-14.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'das coisas ocultas'",
+          "motivo": "mais literal, mas menos preciso quanto ao campo semântico de culpa/pecado do dístico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "faltas (substantivo suprido para נִסְתָּרוֹת, particípio substantivado sem núcleo explícito no hebraico)"
+  ],
+  "ambiguidades_preservadas": [
+    "Se שְׁגִיאוֹת se refere aos erros do próprio salmista ou a erros humanos em geral (retoricamente: 'ninguém consegue discernir todos os seus erros')."
+  ],
+  "justificativa": "Verso de transição do louvor à lei (19:8-11) para a súplica pessoal (19:13-15); campo semântico de culpa oculta introduzido aqui.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

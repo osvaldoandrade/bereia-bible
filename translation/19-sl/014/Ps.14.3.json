@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.14.3",
+    "livro": "Salmos",
+    "capitulo": 14,
+    "versiculo": 3,
+    "pericope": "Ps.14.1-7"
+  },
+  "texto_bv": "Todos se desviaram, juntos se corromperam; não há quem faça o bem, não há sequer um.",
+  "traducao_literal": "O todo desviou-se, juntamente corromperam-se; não há fazedor de bem; não há também um.",
+  "termos_originais": [
+    {
+      "palavra": "הַכֹּ֥ל",
+      "lemma": "d/3605",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "סָר֮",
+      "lemma": "5493",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "יַחְדָּ֪ו",
+      "lemma": "3162 b",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "נֶ֫אֱלָ֥חוּ",
+      "lemma": "444",
+      "morfologia": "HVNp3cp"
+    },
+    {
+      "palavra": "אֵ֤ין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "עֹֽשֵׂה",
+      "lemma": "6213 a",
+      "morfologia": "HVqrmsc"
+    },
+    {
+      "palavra": "ט֑וֹב",
+      "lemma": "2896 b",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "אֵ֝֗ין",
+      "lemma": "369",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "גַּם",
+      "lemma": "1571",
+      "morfologia": "HTa"
+    },
+    {
+      "palavra": "אֶחָֽד",
+      "lemma": "259",
+      "morfologia": "HAcmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Concordância número: הַכֹּל סָר (singular coletivo) → נֶאֱלָחוּ (plural)",
+      "escolha": "normalizar para plural uniforme no publicado ('Todos se desviaram, juntos se corromperam')",
+      "justificativa": "doutrina do calque (ER-0013): o singular coletivo do hebraico (הַכֹּל como sujeito de verbo singular) é um calque gramatical que soa como erro de concordância em português; a literal preserva a assimetria singular/plural do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'o todo desviou-se' no publicado",
+          "motivo": "leitura ambígua/agramatical em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "גַּם־אֶחָד — ênfase 'nem sequer um'",
+      "escolha": "não há sequer um",
+      "justificativa": "capta a partícula enfática גַּם sem duplicar literalmente 'também'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não há também um",
+          "motivo": "calque literal soa estranho como fechamento de verso em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "assimetria número singular/plural do sujeito coletivo, normalizada no publicado"
+  ],
+  "justificativa": "Retoma o refrão אֵין עֹשֵׂה־טוֹב do v.1, intensificando com 'não há sequer um'. Repetição formular preservada como estrutura de refrão do salmo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

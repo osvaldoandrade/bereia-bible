@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.31.10",
+    "livro": "Ezequiel",
+    "capitulo": 31,
+    "versiculo": 10,
+    "pericope": "Ezek.31.1-18"
+  },
+  "texto_bv": "Portanto, assim diz o Senhor DEUS: Porque te elevaste em estatura, e ele pôs sua copa entre as nuvens, e seu coração se exaltou em sua altura,",
+  "traducao_literal": "Portanto, assim disse o Senhor DEUS: Porque te elevaste em estatura, e pôs ele sua copa entre nuvens, e se elevou seu coração em sua altura,",
+  "termos_originais": [
+    {
+      "palavra": "לָכֵ֗ן",
+      "lemma": "l/3651 c",
+      "morfologia": "HR/D"
+    },
+    {
+      "palavra": "כֹּ֤ה",
+      "lemma": "3541",
+      "morfologia": "HD"
+    },
+    {
+      "palavra": "אָמַר֙",
+      "lemma": "559",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "אֲדֹנָ֣י",
+      "lemma": "136",
+      "morfologia": "HNcmpc/Sp1cs"
+    },
+    {
+      "palavra": "יְהוִ֔ה",
+      "lemma": "3069",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "יַ֕עַן",
+      "lemma": "3282",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "אֲשֶׁ֥ר",
+      "lemma": "834 a",
+      "morfologia": "HTr"
+    },
+    {
+      "palavra": "גָּבַ֖הְתָּ",
+      "lemma": "1361",
+      "morfologia": "HVqp2ms"
+    },
+    {
+      "palavra": "בְּקוֹמָ֑ה",
+      "lemma": "b/6967",
+      "morfologia": "HR/Ncfsa"
+    },
+    {
+      "palavra": "וַיִּתֵּ֤ן",
+      "lemma": "c/5414",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "צַמַּרְתּוֹ֙",
+      "lemma": "6788",
+      "morfologia": "HNcfsc/Sp3ms"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "בֵּ֣ין",
+      "lemma": "996",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עֲבוֹתִ֔ים",
+      "lemma": "5688",
+      "morfologia": "HNcbpa"
+    },
+    {
+      "palavra": "וְרָ֥ם",
+      "lemma": "c/7311 a",
+      "morfologia": "HC/Vqp3ms"
+    },
+    {
+      "palavra": "לְבָב֖וֹ",
+      "lemma": "3824",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "בְּגָבְהֽוֹ",
+      "lemma": "b/1363",
+      "morfologia": "HR/Ncmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "אֲדֹנָי יְהוִה (H136+H3069)",
+      "escolha": "'Senhor DEUS'",
+      "justificativa": "NOMES-DIVINOS.md v1.0.0 (ER-0002): Adonai+YHWH → 'Senhor DEUS', evitando a duplicação 'Senhor SENHOR'.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Alternância de pessoa gramatical no versículo (2ª pessoa 'גָּבַהְתָּ' te elevaste / 3ª pessoa 'וַיִּתֵּן'...'רָם לְבָבוֹ' ele pôs...seu coração)",
+      "escolha": "preservada sem normalização, tanto no publicado quanto na literal",
+      "justificativa": "traço retórico documentado em Ezequiel (oscilação entre discurso direto ao destinatário e narração em 3ª pessoa sobre ele); TEOLOGIA §2 proíbe suavizar dificuldades do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "uniformizar tudo em 2ª pessoa ('...e puseste tua copa...e teu coração se elevou') para fluência",
+          "motivo": "apagaria uma característica sintática real do texto-fonte, não um mero calque estrutural"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "alternância 2ª/3ª pessoa em v.10 mantida sem normalização — traço retórico do texto-fonte, não erro de cópia presumido."
+  ],
+  "justificativa": "Abre a seção de julgamento (vv.10-14) com a fórmula profética 'assim diz o Senhor DEUS', retomando עֲבֹתִים ('nuvens') de v.3.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

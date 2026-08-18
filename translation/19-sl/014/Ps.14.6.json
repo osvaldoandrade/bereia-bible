@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.14.6",
+    "livro": "Salmos",
+    "capitulo": 14,
+    "versiculo": 6,
+    "pericope": "Ps.14.1-7"
+  },
+  "texto_bv": "Vocês envergonham o conselho do pobre, mas o SENHOR é o seu refúgio.",
+  "traducao_literal": "O conselho do pobre vós envergonhareis; mas o SENHOR é refúgio dele.",
+  "termos_originais": [
+    {
+      "palavra": "עֲצַת",
+      "lemma": "6098",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "עָנִ֥י",
+      "lemma": "6041",
+      "morfologia": "HAamsa"
+    },
+    {
+      "palavra": "תָבִ֑ישׁוּ",
+      "lemma": "954",
+      "morfologia": "HVhi2mp"
+    },
+    {
+      "palavra": "כִּ֖י",
+      "lemma": "3588 a",
+      "morfologia": "HC"
+    },
+    {
+      "palavra": "יְהוָ֣ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "מַחְסֵֽהוּ",
+      "lemma": "4268",
+      "morfologia": "HNcmsc/Sp3ms"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "עֲצַת־עָנִי fronteado antes do verbo (calque de ênfase)",
+      "escolha": "normalizar para ordem verbo-objeto no publicado ('Vocês envergonham o conselho do pobre'), preservando objeto fronteado na literal",
+      "justificativa": "doutrina do calque (ER-0013): o fronteamento hebraico marca ênfase que soa artificial em prosa-verso pt-BR corrente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter objeto fronteado no publicado",
+          "motivo": "soa traduzido"
+        }
+      ]
+    },
+    {
+      "questao": "Segunda pessoa: תָבִישׁוּ é 2mp — 'vós' (D-0003 litúrgico) ou 'vocês' (discurso direto entre humanos)?",
+      "escolha": "vocês",
+      "justificativa": "D-0003: este é discurso do salmista dirigido aos ímpios (2ª pessoa entre humanos), não oração a Deus; 'tu/vós' fica reservado à fala dirigida a Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "vós (registro litúrgico-arcaizante)",
+          "motivo": "D-0003 reserva 'tu' à fala dirigida a Deus; aqui o destinatário são os ímpios"
+        }
+      ]
+    },
+    {
+      "questao": "כִּי — adversativo ('mas') ou causal ('porque')?",
+      "escolha": "mas (adversativo)",
+      "justificativa": "o contraste entre a tentativa de envergonhar o plano do pobre e a realidade ('mas o SENHOR é seu refúgio') é semanticamente mais coerente que uma leitura causal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "porque (causal)",
+          "motivo": "produziria leitura causal pouco natural ('vocês envergonham... porque o SENHOR é refúgio dele')"
+        }
+      ]
+    },
+    {
+      "questao": "Tempo/modo de תָבִישׁוּ (imperfeito) — presente habitual vs. futuro",
+      "escolha": "presente ('envergonham')",
+      "justificativa": "descreve atitude característica e contínua dos ímpios, coerente com o registro sapiencial do salmo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "envergonharão (futuro)",
+          "motivo": "restringe a um evento futuro específico, menos natural no contexto de descrição de caráter"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula ausente em מַחְסֵהוּ, oração nominal)"
+  ],
+  "ambiguidades_preservadas": [
+    "כִּי: leitura adversativa vs. causal — BV opta pela adversativa"
+  ],
+  "justificativa": "Verso de contraste entre a zombaria dos ímpios e a confiança do pobre no SENHOR; מַחְסֵהוּ (refúgio-dele) com sufixo pronominal mantido.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

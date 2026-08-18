@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Song.3.3",
+    "livro": "Cântico dos Cânticos",
+    "capitulo": 3,
+    "versiculo": 3,
+    "pericope": "Song.3.1-11"
+  },
+  "texto_bv": "Os guardas que rondam a cidade me encontraram, e eu perguntei: \"Vocês viram aquele a quem minha alma ama?\"",
+  "traducao_literal": "Encontraram-me os guardas, os que rondam na cidade: aquele que minha alma amou, vistes?",
+  "termos_originais": [
+    {
+      "palavra": "מְצָא֨וּנִי֙",
+      "lemma": "4672",
+      "morfologia": "HVqp3cp/Sp1cs"
+    },
+    {
+      "palavra": "הַשֹּׁ֣מְרִ֔ים",
+      "lemma": "d/8104",
+      "morfologia": "HTd/Vqrmpa"
+    },
+    {
+      "palavra": "הַסֹּבְבִ֖ים",
+      "lemma": "d/5437",
+      "morfologia": "HTd/Vqrmpa"
+    },
+    {
+      "palavra": "בָּעִ֑יר",
+      "lemma": "b/5892 b",
+      "morfologia": "HRd/Ncfsa"
+    },
+    {
+      "palavra": "אֵ֛ת",
+      "lemma": "853",
+      "morfologia": "HTo"
+    },
+    {
+      "palavra": "שֶׁאָהֲבָ֥ה",
+      "lemma": "s/157",
+      "morfologia": "HTr/Vqp3fs"
+    },
+    {
+      "palavra": "נַפְשִׁ֖י",
+      "lemma": "5315",
+      "morfologia": "HNcbsc/Sp1cs"
+    },
+    {
+      "palavra": "רְאִיתֶֽם",
+      "lemma": "7200",
+      "morfologia": "HVqp2mp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Verbo introdutório do discurso direto ('perguntei'), ausente no hebraico",
+      "escolha": "suprir 'e eu perguntei' antes da fala citada",
+      "justificativa": "O hebraico justapõe a fala sem verbum dicendi explícito (comum em poesia hebraica); o português exige marcador de discurso direto para não soar agramatical (EDITORIAL §4-5).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "dois-pontos direto após 'encontraram-me', sem verbo suprido",
+          "motivo": "em português soa incompleto sem um verbo introdutório explícito, diferente do hebraico que tolera a justaposição"
+        }
+      ]
+    },
+    {
+      "questao": "Segunda pessoa de רְאִיתֶם (2mp) dirigida aos guardas",
+      "escolha": "'vocês viram' (D-0003: discurso humano-humano usa você/vocês)",
+      "justificativa": "Diálogo entre humanos; a distinção de número (plural) é preservada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'vistes' (vós)",
+          "motivo": "reservado por D-0003 a discurso litúrgico dirigido a Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "e eu perguntei (verbum dicendi ausente no hebraico, suprido para discurso direto em português)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "A amada relata o encontro com os guardas noturnos e a pergunta que lhes fez, ainda sem resposta registrada no texto.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

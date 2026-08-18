@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Isa.11.4",
+    "livro": "Isaías",
+    "capitulo": 11,
+    "versiculo": 4,
+    "pericope": "Isa.11.1-16"
+  },
+  "texto_bv": "Mas julgará os pobres com justiça, e decidirá com equidade a favor dos humildes da terra; ferirá a terra com a vara da sua boca e matará o ímpio com o sopro dos seus lábios.",
+  "traducao_literal": "E julgará com justiça os pobres, e decidirá com equidade os humildes da terra; e ferirá terra com a vara da sua boca, e com o sopro dos seus lábios matará ímpio.",
+  "termos_originais": [
+    {
+      "palavra": "וְשָׁפַ֤ט",
+      "lemma": "c/8199",
+      "morfologia": "HC/Vqq3ms"
+    },
+    {
+      "palavra": "בְּצֶ֨דֶק֙",
+      "lemma": "b/6664",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "דַּלִּ֔ים",
+      "lemma": "1800",
+      "morfologia": "HAampa"
+    },
+    {
+      "palavra": "וְהוֹכִ֥יחַ",
+      "lemma": "c/3198",
+      "morfologia": "HC/Vhq3ms"
+    },
+    {
+      "palavra": "בְּמִישׁ֖וֹר",
+      "lemma": "b/4334",
+      "morfologia": "HR/Ncmsa"
+    },
+    {
+      "palavra": "לְעַנְוֵי",
+      "lemma": "l/6035",
+      "morfologia": "HR/Aampc"
+    },
+    {
+      "palavra": "אָ֑רֶץ",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "וְהִֽכָּה",
+      "lemma": "c/5221",
+      "morfologia": "HC/Vhq3ms"
+    },
+    {
+      "palavra": "אֶ֨רֶץ֙",
+      "lemma": "776",
+      "morfologia": "HNcbsa"
+    },
+    {
+      "palavra": "בְּשֵׁ֣בֶט",
+      "lemma": "b/7626",
+      "morfologia": "HR/Ncmsc"
+    },
+    {
+      "palavra": "פִּ֔יו",
+      "lemma": "6310",
+      "morfologia": "HNcmsc/Sp3ms"
+    },
+    {
+      "palavra": "וּבְר֥וּחַ",
+      "lemma": "c/b/7307",
+      "morfologia": "HC/R/Ncbsc"
+    },
+    {
+      "palavra": "שְׂפָתָ֖יו",
+      "lemma": "8193",
+      "morfologia": "HNcfdc/Sp3ms"
+    },
+    {
+      "palavra": "יָמִ֥ית",
+      "lemma": "4191",
+      "morfologia": "HVhi3ms"
+    },
+    {
+      "palavra": "רָשָֽׁע",
+      "lemma": "7563",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Quiasmo instrumento-verbo entre as duas orações finais (וְהִֽכָּה־אֶרֶץ בְּשֵׁבֶט פִּיו // וּבְרוּחַ שְׂפָתָיו יָמִית רָשָׁע)",
+      "escolha": "Normalizado para ordem paralela verbo-instrumento nas duas orações no publicado (ER-0013); quiasmo preservado na traducao_literal",
+      "justificativa": "ER-0013 autoriza normalizar quiasmos que soariam artificiais em português corrido; a estrutura original é auditável na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Preservar o quiasmo no publicado",
+          "motivo": "funcionaria em português, mas o padrão do programa é normalizar esse tipo de quiasmo no texto publicado (ER-0013)"
+        }
+      ]
+    },
+    {
+      "questao": "וּבְרוּחַ שְׂפָתָיו — mesma palavra רוּחַ de v.2, aqui em sentido físico junto a 'lábios'",
+      "escolha": "sopro",
+      "justificativa": "No contexto de 'lábios' e em paralelo a 'vara da boca', רוּחַ tem sentido de hálito/sopro (a fala como arma), distinto do sentido pneumatológico de v.2; adjudicação contextual conforme exige o léxico H7307.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "espírito",
+          "motivo": "produziria sentido teologicamente estranho ('espírito dos lábios mata'); o contexto físico pede 'sopro/hálito'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a favor de (explicita o dativo de vantagem לְעַנְוֵי para clareza em português)"
+  ],
+  "ambiguidades_preservadas": [
+    "עַנְוֵי־אָרֶץ / הִכָּה־אֶרֶץ repetem אֶרֶץ ('terra'); pode referir-se à terra de Israel ou ao mundo em sentido amplo. Ambos os usos foram vertidos por 'terra' sem desambiguar o escopo."
+  ],
+  "justificativa": "Descreve o juízo justo do rebento a favor dos pobres e contra o ímpio, com instrumento verbal (boca/lábios) paralelo a arma física (vara); quiasmo normalizado conforme ER-0013.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

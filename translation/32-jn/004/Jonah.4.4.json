@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jonah.4.4",
+    "livro": "Jonas",
+    "capitulo": 4,
+    "versiculo": 4,
+    "pericope": "Jonah.4.1-11"
+  },
+  "texto_bv": "E o SENHOR disse: \"É justo você ficar tão indignado?\"",
+  "traducao_literal": "E disse o SENHOR: É bom arder para ti?",
+  "termos_originais": [
+    {
+      "palavra": "וַיֹּ֣אמֶר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "יְהוָ֔ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "הַהֵיטֵ֖ב",
+      "lemma": "d/3190",
+      "morfologia": "HTi/Vha"
+    },
+    {
+      "palavra": "חָ֥רָה",
+      "lemma": "2734",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "לָֽךְ",
+      "lemma": "l",
+      "morfologia": "HR/Sp2fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Segunda pessoa (Deus falando a Jonas, um humano).",
+      "escolha": "'você'",
+      "justificativa": "EDITORIAL §3: discurso de Deus para humano usa 'você', em contraste com a oração de Jonas (vv.2-3), que usa 'tu'.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Anomalia morfológica na fonte: o sufixo לָךְ é pontuado como 2fs (HR/Sp2fs), embora o referente seja Jonas (masculino).",
+      "escolha": "Traduzir pelo referente sintático masculino ('você'), sem alterar o sentido.",
+      "justificativa": "A forma consonantal לך é idêntica para 2ms/2fs; a pontuação massorética aqui diverge do paralelo claramente masculino em 4:9 (לְךָ֖, HR/Sp2ms) — fenômeno pontual de grafia defectiva, documentado em gramáticas do hebraico bíblico (cf. GKC §32h). Não afeta a tradução, que segue o contexto e o paralelo de 4:9.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "seguir a marca formal 2fs sem tradução e apenas sinalizar a anomalia",
+          "motivo": "a resolução textual-crítica está fora do escopo do tradutor; o registro documenta a anomalia sem alterar a leitura semântica"
+        }
+      ]
+    },
+    {
+      "questao": "Rendição de הַהֵיטֵב (הֲ interrogativo + infinitivo absoluto de יטב) + חָרָה לְ — idiomatismo 'é bom te irares?'",
+      "escolha": "'É justo você ficar tão indignado?'",
+      "justificativa": "Idiomatismo de aprovação moral ('fazer bem, ser correto'); 'justo' capta o julgamento ético implícito na pergunta retórica de Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Você tem razão para se indignar?'",
+          "motivo": "aceitável, mas 'é justo' preserva melhor o campo semântico ético de יטב (bem/correto)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Pontuação massorética de לָךְ como 2fs, provavelmente variante gráfica sem significado semântico distinto do 2ms de 4:9; documentada em decisão, não resolvida no aparato crítico."
+  ],
+  "justificativa": "Primeira das duas perguntas retóricas paralelas de Deus a Jonas neste capítulo (cf. 4:9), abrindo o questionamento divino sobre a legitimidade da ira de Jonas.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

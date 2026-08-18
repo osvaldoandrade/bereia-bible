@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.30.8",
+    "livro": "Salmos",
+    "capitulo": 30,
+    "versiculo": 8,
+    "pericope": "Ps.30.1-13"
+  },
+  "texto_bv": "SENHOR, pelo teu favor, firmaste força à minha montanha. Escondeste o teu rosto, e fiquei perturbado.",
+  "traducao_literal": "SENHOR, em teu favor, firmaste força à minha montanha; escondeste teu rosto; fiquei perturbado.",
+  "termos_originais": [
+    {
+      "palavra": "יְֽהוָ֗ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "בִּרְצוֹנְךָ֮",
+      "lemma": "b/7522",
+      "morfologia": "HR/Ncmsc/Sp2ms"
+    },
+    {
+      "palavra": "הֶעֱמַ֪דְתָּה",
+      "lemma": "5975",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "לְֽהַרְרִ֫י",
+      "lemma": "l/2042",
+      "morfologia": "HR/Ncmsc/Sp1cs"
+    },
+    {
+      "palavra": "עֹ֥ז",
+      "lemma": "5797",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "הִסְתַּ֥רְתָּ",
+      "lemma": "5641",
+      "morfologia": "HVhp2ms"
+    },
+    {
+      "palavra": "פָנֶ֗יךָ",
+      "lemma": "6440",
+      "morfologia": "HNcbpc/Sp2ms"
+    },
+    {
+      "palavra": "הָיִ֥יתִי",
+      "lemma": "1961",
+      "morfologia": "HVqp1cs"
+    },
+    {
+      "palavra": "נִבְהָֽל",
+      "lemma": "926",
+      "morfologia": "HVNrmsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "הַרְרִי (forma poética de הַר, 'montanha', + sufixo 1cs) — literal 'minha montanha' ou paráfrase 'minha fortaleza/segurança'?",
+      "escolha": "'minha montanha' (literal mantida)",
+      "justificativa": "A morfologia aponta para a forma poética específica de 'monte/montanha'; é imagem de estabilidade, mas o lexema não é 'fortaleza' (מִבְצָר/מָעוֹז); preservar 'montanha' mantém a imagem concreta hebraica.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'minha fortaleza'",
+          "motivo": "paráfrase interpretativa que perde a imagem concreta do monte, específica do lexema הרר"
+        }
+      ]
+    },
+    {
+      "questao": "פָּנֶיךָ ('teu rosto') aqui é objeto direto de הִסְתַּרְתָּ, distinto da locução construta עַל־פְּנֵי já fixada no léxico (H6440, 'face de') — usar glosa própria?",
+      "escolha": "'rosto' (não 'face')",
+      "justificativa": "A entrada H6440 do léxico cobre especificamente a locução construta 'al-penei' ('sobre a face de'); aqui פָּנֶיךָ é objeto direto pessoal ('esconder o rosto'), idiotismo distinto que pede glosa própria em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'face' (reusar a glosa do léxico)",
+          "motivo": "colide com o uso idiomático diferente; 'rosto' é o termo natural para 'esconder o rosto' em português"
+        }
+      ]
+    },
+    {
+      "questao": "Parataxe entre 'escondeste o teu rosto' e 'fiquei perturbado' (sem conjunção no hebraico) — suprir 'e' no publicado?",
+      "escolha": "suprido 'e' no publicado; parataxe preservada na literal",
+      "justificativa": "ER-0013 permite normalizar parataxe estrutural no publicado quando soar artificial; a justaposição sem conectivo soaria truncada em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter parataxe sem 'e' no publicado",
+          "motivo": "leitura em voz alta fica abrupta; EDITORIAL §1.3 pede conforto de leitura"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "e (junção entre as duas últimas orações paratáticas, ausente no hebraico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Contraste central do salmo: a segurança concedida (favor) é revertida pela ocultação do rosto divino, motivando a súplica dos vv. 9-11.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

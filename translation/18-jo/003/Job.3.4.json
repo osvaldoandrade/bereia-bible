@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Job.3.4",
+    "livro": "Jó",
+    "capitulo": 3,
+    "versiculo": 4,
+    "pericope": "Job.3.1-26"
+  },
+  "texto_bv": "Que aquele dia seja trevas; que Deus, lá do alto, não o procure, e que a luz não resplandeça sobre ele.",
+  "traducao_literal": "Aquele dia, seja trevas; não o busque Deus desde o alto; e não resplandeça sobre ele claridade.",
+  "termos_originais": [
+    {
+      "palavra": "הַיּ֥וֹם",
+      "lemma": "d/3117",
+      "morfologia": "HTd/Ncmsa"
+    },
+    {
+      "palavra": "הַה֗וּא",
+      "lemma": "d/1931",
+      "morfologia": "HTd/Pp3ms"
+    },
+    {
+      "palavra": "יְֽהִ֫י",
+      "lemma": "1961",
+      "morfologia": "HVqj3ms"
+    },
+    {
+      "palavra": "חֹ֥שֶׁךְ",
+      "lemma": "2822",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "אַֽל",
+      "lemma": "408",
+      "morfologia": "HTn"
+    },
+    {
+      "palavra": "יִדְרְשֵׁ֣הוּ",
+      "lemma": "1875",
+      "morfologia": "HVqj3ms/Sp3ms"
+    },
+    {
+      "palavra": "אֱל֣וֹהַּ",
+      "lemma": "433",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "מִמָּ֑עַל",
+      "lemma": "m/4605",
+      "morfologia": "HR/D"
+    },
+    {
+      "palavra": "וְאַל",
+      "lemma": "c/408",
+      "morfologia": "HC/Tn"
+    },
+    {
+      "palavra": "תּוֹפַ֖ע",
+      "lemma": "3313",
+      "morfologia": "HVhj3fs"
+    },
+    {
+      "palavra": "עָלָ֣יו",
+      "lemma": "5921 a",
+      "morfologia": "HR/Sp3ms"
+    },
+    {
+      "palavra": "נְהָרָֽה",
+      "lemma": "5105",
+      "morfologia": "HNcfsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "חֹשֶׁךְ (H2822) — 'trevas' vs. glosa padrão do léxico 'escuridão'",
+      "escolha": "'trevas'",
+      "justificativa": "desvio autorizado pela própria nota do léxico (H2822='escuridão', PROPOSED), que reserva 'trevas' a contexto poético-moral mediante adjudicação; Jó 3 é imprecação poética por excelência. lexico_ref: H2822.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'escuridão' (glosa padrão)",
+          "motivo": "registro mais neutro-cosmológico; o próprio léxico prevê esta exceção poético-moral."
+        }
+      ]
+    },
+    {
+      "questao": "אֱלוֹהַּ (Eloah, H433) — forma poética singular de Deus",
+      "escolha": "'Deus', por extensão direta da política NOMES-DIVINOS.md",
+      "justificativa": "NOMES-DIVINOS.md não lista Eloah explicitamente, mas é a forma poética de אֱלֹהִים, frequentíssima em Jó; mantém-se a mesma glosa por coerência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Eloá' (transliteração)",
+          "motivo": "quebra a convenção consolidada 'Deus' sem ganho de precisão para o leitor pt-BR."
+        }
+      ]
+    },
+    {
+      "questao": "jussivos com אַל",
+      "escolha": "suprir 'que' para o optativo/subjuntivo em português",
+      "justificativa": "ER-0006: elemento gramatical exigido pelo pt-BR sem correspondente formal no hebraico.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "que (marcador optativo)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira maldição específica: que o dia do nascimento seja apagado da criação, negado luz e busca divina.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

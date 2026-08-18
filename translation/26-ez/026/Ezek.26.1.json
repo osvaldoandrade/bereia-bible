@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ezek.26.1",
+    "livro": "Ezequiel",
+    "capitulo": 26,
+    "versiculo": 1,
+    "pericope": "Ezek.26.1-21"
+  },
+  "texto_bv": "No décimo primeiro ano, no primeiro dia do mês, veio a mim a palavra do SENHOR, dizendo:",
+  "traducao_literal": "E foi no décimo-primeiro ano, no um do mês, foi palavra-de SENHOR a mim, dizendo:",
+  "termos_originais": [
+    {
+      "palavra": "וַיְהִ֛י",
+      "lemma": "c/1961",
+      "morfologia": "HC/Vqw3ms"
+    },
+    {
+      "palavra": "בְּעַשְׁתֵּֽי",
+      "lemma": "b/6249",
+      "morfologia": "HR/Aobpc"
+    },
+    {
+      "palavra": "עֶשְׂרֵ֥ה",
+      "lemma": "6240",
+      "morfologia": "HAcfsa"
+    },
+    {
+      "palavra": "שָׁנָ֖ה",
+      "lemma": "8141",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "בְּאֶחָ֣ד",
+      "lemma": "b/259",
+      "morfologia": "HR/Acmsa"
+    },
+    {
+      "palavra": "לַחֹ֑דֶשׁ",
+      "lemma": "l/2320",
+      "morfologia": "HRd/Ncmsa"
+    },
+    {
+      "palavra": "הָיָ֥ה",
+      "lemma": "1961",
+      "morfologia": "HVqp3ms"
+    },
+    {
+      "palavra": "דְבַר",
+      "lemma": "1697",
+      "morfologia": "HNcmsc"
+    },
+    {
+      "palavra": "יְהוָ֖ה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    },
+    {
+      "palavra": "אֵלַ֥י",
+      "lemma": "413",
+      "morfologia": "HR/Sp1cs"
+    },
+    {
+      "palavra": "לֵאמֹֽר",
+      "lemma": "l/559",
+      "morfologia": "HR/Vqc"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "A fórmula de data omite o nome/número do mês (בְּאֶחָד לַחֹדֶשׁ, 'no um do mês', sem mês especificado) — único caso assim em Ezequiel.",
+      "escolha": "Traduzir literalmente sem suprir o mês, preservando a lacuna do TM pinado.",
+      "justificativa": "O texto hebraico pinado (OSHB) não contém o nome/número do mês nesta fórmula, diferentemente de todas as outras datações do livro; suprir um mês conjecturado importaria dado externo ao texto-fonte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Suprir um mês conjecturado (ex.: 'terceiro mês', seguindo reconstrução cronológica ou a LXX)",
+          "motivo": "não está no TM pinado; nenhuma variante_fonte foi trazida pelo packet para justificar a inserção"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "dia"
+  ],
+  "ambiguidades_preservadas": [
+    "Mês da fórmula de data não especificado no TM (único caso em Ezequiel); apenas o dia do mês é dado."
+  ],
+  "justificativa": "Fórmula de datação padrão de Ezequiel (wayehi + ano/mês/dia + 'veio a palavra do SENHOR'); wayyiqtol inicial não vertido por 'E' no publicado (ER-0013), preservado na literal; lacuna do mês mantida sem suprimento.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.77.11",
+    "livro": "Salmos",
+    "capitulo": 77,
+    "versiculo": 11,
+    "pericope": "Ps.77.1-21"
+  },
+  "texto_bv": "E eu disse: “Esta é a minha aflição: que a mão direita do Altíssimo mudou.”",
+  "traducao_literal": "E eu disse: minha aflição é esta: a mudança da destra do Altíssimo.",
+  "termos_originais": [
+    {
+      "palavra": "וָ֭אֹמַר",
+      "lemma": "c/559",
+      "morfologia": "HC/Vqw1cs"
+    },
+    {
+      "palavra": "חַלּ֣וֹתִי",
+      "lemma": "2470 a",
+      "morfologia": "HVqc/Sp1cs"
+    },
+    {
+      "palavra": "הִ֑יא",
+      "lemma": "1931",
+      "morfologia": "HPp3fs"
+    },
+    {
+      "palavra": "שְׁ֝נ֗וֹת",
+      "lemma": "8141",
+      "morfologia": "HVqc"
+    },
+    {
+      "palavra": "יְמִ֣ין",
+      "lemma": "3225",
+      "morfologia": "HNcfsc"
+    },
+    {
+      "palavra": "עֶלְיֽוֹן",
+      "lemma": "5945 b",
+      "morfologia": "HAamsa"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "שְׁנוֹת — o packet atribui lema 8141 (שָׁנָה \"ano\") mas morfologia HVqc (infinitivo construto verbal), não HNcfpc (substantivo, como em v.6). Isso aponta para a leitura alternativa de שנה II (\"mudar\"), não para \"anos\".",
+      "escolha": "Seguir a morfologia fornecida: \"a mudança da mão direita do Altíssimo\" (infinitivo construto de שנה \"mudar\"), não \"os anos da destra do Altíssimo\".",
+      "justificativa": "A morfologia do packet pinado é a autoridade da fonte nesta etapa; HVqc identifica explicitamente uma forma verbal, distinta do substantivo HNcfpc de v.6 (mesmo lema, leitura morfológica diferente) — reflete um crux clássico de Sl 77:11, em que o TM permite tanto \"anos\" quanto \"mudança\" a partir da mesma sequência consonantal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"os anos da destra do Altíssimo\" (leitura substantiva tradicional)",
+          "motivo": "exigiria morfologia HNcfpc como em v.6; o packet atribui HVqc a esta ocorrência, e o DRAFT segue a morfologia pinada, não a leitura mais familiar"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "שְׁנוֹת יְמִין עֶלְיוֹן admite leitura substantiva tradicional (\"os anos da destra do Altíssimo\") e leitura verbal (\"a mudança da destra do Altíssimo\", seguida aqui por indicação morfológica do packet); ambas lexicalmente plenas."
+  ],
+  "justificativa": "Virada estrutural do salmo: do lamento (vv.2–10) para a resolução de lembrar os feitos de Deus (vv.12ss); discurso direto marcado por dois-pontos e aspas curvas (ER-0004).",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

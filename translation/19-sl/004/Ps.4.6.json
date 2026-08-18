@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.4.6",
+    "livro": "Salmos",
+    "capitulo": 4,
+    "versiculo": 6,
+    "pericope": "Ps.4.1-9"
+  },
+  "texto_bv": "Ofereçam sacrifícios de justiça e confiem no SENHOR.",
+  "traducao_literal": "Sacrifiquem sacrifícios de justiça e confiai no SENHOR.",
+  "termos_originais": [
+    {
+      "palavra": "זִבְח֥וּ",
+      "lemma": "2076",
+      "morfologia": "HVqv2mp"
+    },
+    {
+      "palavra": "זִבְחֵי",
+      "lemma": "2077",
+      "morfologia": "HNcmpc"
+    },
+    {
+      "palavra": "צֶ֑דֶק",
+      "lemma": "6664",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "וּ֝בִטְח֗וּ",
+      "lemma": "c/982",
+      "morfologia": "HC/Vqv2mp"
+    },
+    {
+      "palavra": "אֶל",
+      "lemma": "413",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "יְהוָֽה",
+      "lemma": "3068",
+      "morfologia": "HNp"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "זִבְחוּ זִבְחֵי (acusativo cognato, raiz repetida) — preservar 'sacrifiquem sacrifícios' ou normalizar?",
+      "escolha": "Ofereçam sacrifícios de justiça (normalizado no publicado)",
+      "justificativa": "Acusativo cognato é natural em hebraico mas redundante em português corrente; normalizado no texto_bv, preservado na traducao_literal (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Sacrifiquem sacrifícios de justiça",
+          "motivo": "mimetiza o acusativo cognato mas soa redundante em português publicado"
+        }
+      ]
+    },
+    {
+      "questao": "זִבְחֵי־צֶדֶק — cadeia construta ('sacrifícios de justiça') ou adjetivação ('sacrifícios justos')?",
+      "escolha": "sacrifícios de justiça",
+      "justificativa": "Preserva a cadeia construta hebraica, natural também em português, sem decidir se צֶדֶק qualifica o modo ritual da oferta ou a disposição ética do ofertante.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sacrifícios justos",
+          "motivo": "a adjetivação fecha prematuramente a ambiguidade entre modo ritual correto e retidão ética"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "זִבְחֵי־צֶדֶק pode qualificar o modo ritual correto da oferta ou a disposição ética de quem oferece."
+  ],
+  "justificativa": "Par de imperativos cúlticos; acusativo cognato normalizado no publicado, preservado na literal.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

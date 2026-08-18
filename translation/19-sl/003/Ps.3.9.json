@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.3.9",
+    "livro": "Salmos",
+    "capitulo": 3,
+    "versiculo": 9,
+    "pericope": "Ps.3.1-9"
+  },
+  "texto_bv": "Do SENHOR é a salvação; sobre o teu povo, a tua bênção! Selá.",
+  "traducao_literal": "Ao SENHOR a salvação; sobre teu povo tua bênção. Selá.",
+  "termos_originais": [
+    {
+      "palavra": "לַיהוָ֥ה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "הַיְשׁוּעָ֑ה",
+      "lemma": "d/3444",
+      "morfologia": "HTd/Ncfsa"
+    },
+    {
+      "palavra": "עַֽל",
+      "lemma": "5921 a",
+      "morfologia": "HR"
+    },
+    {
+      "palavra": "עַמְּךָ֖",
+      "lemma": "5971 a",
+      "morfologia": "HNcmsc/Sp2ms"
+    },
+    {
+      "palavra": "בִרְכָתֶ֣ךָ",
+      "lemma": "1293",
+      "morfologia": "HNcfsc/Sp2ms"
+    },
+    {
+      "palavra": "סֶּֽלָה",
+      "lemma": "5542",
+      "morfologia": "HTj"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "לַיהוָה הַיְשׁוּעָה é oração nominal de posse (לְ possessivo), sem cópula expressa; como verter mantendo o fronteamento enfático 'ao/do SENHOR'?",
+      "escolha": "suprir 'é' e manter 'Do SENHOR' fronteado no publicado",
+      "justificativa": "Preposição לְ de posse indica que a salvação pertence ao SENHOR; a cópula é suprida por exigência do português (ER-0006), mas o fronteamento enfático do original é preservado no publicado por coincidir com ordem natural de ênfase em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "A salvação pertence ao SENHOR (ordem SVO neutra)",
+          "motivo": "perde o fronteamento enfático presente no calque hebraico; preservado como leitura alternativa válida, mas não escolhida para não apagar a ênfase."
+        }
+      ]
+    },
+    {
+      "questao": "עַל־עַמְּךָ בִרְכָתֶךָ (segunda oração nominal) pode ser lida como afirmação ('tua bênção está sobre teu povo') ou como bênção otativa ('que tua bênção esteja sobre teu povo'); fixar um verbo?",
+      "escolha": "não fixar verbo no publicado, preservando a abertura sintática com pontuação exclamativa que sugere bênção sem decidir o modo verbal",
+      "justificativa": "O hebraico não fixa modo verbal (oração nominal pura); impor um verbo indicativo ou subjuntivo decidiria uma questão que o texto-fonte deixa em aberto (TEOLOGIA §1.5, preservar ambiguidade quando o original é ambíguo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "que a tua bênção esteja sobre o teu povo (otativo explícito)",
+          "motivo": "fixaria leitura de desejo/prece, quando a oração nominal também comporta leitura afirmativa/declarativa; preservado como ambiguidade."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é"
+  ],
+  "ambiguidades_preservadas": [
+    "oração nominal final (בִרְכָתֶךָ sobre עַמְּךָ) admite leitura afirmativa ('tua bênção está sobre o teu povo') ou otativa ('que a tua bênção esteja sobre o teu povo'); nenhum modo verbal é fixado no publicado"
+  ],
+  "justificativa": "Versículo final, conclusão da confissão de confiança com afirmação de que a salvação é prerrogativa do SENHOR e extensão de bênção sobre o povo (não apenas sobre o salmista individual).",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}

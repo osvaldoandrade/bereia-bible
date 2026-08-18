@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Ps.24.1",
+    "livro": "Salmos",
+    "capitulo": 24,
+    "versiculo": 1,
+    "pericope": "Ps.24.1-10"
+  },
+  "texto_bv": "Salmo de Davi. Do SENHOR é a terra e a sua plenitude, o mundo e os que nele habitam.",
+  "traducao_literal": "De Davi, salmo. Ao SENHOR a terra e a plenitude dela; o mundo e os moradores nela.",
+  "termos_originais": [
+    {
+      "palavra": "לְדָוִ֗ד",
+      "lemma": "l/1732",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "מִ֫זְמ֥וֹר",
+      "lemma": "4210",
+      "morfologia": "HNcmsa"
+    },
+    {
+      "palavra": "לַֽ֭יהוָה",
+      "lemma": "l/3068",
+      "morfologia": "HR/Np"
+    },
+    {
+      "palavra": "הָאָ֣רֶץ",
+      "lemma": "d/776",
+      "morfologia": "HTd/Ncbsa"
+    },
+    {
+      "palavra": "וּמְלוֹאָ֑הּ",
+      "lemma": "c/4393",
+      "morfologia": "HC/Ncmsc/Sp3fs"
+    },
+    {
+      "palavra": "תֵּ֝בֵ֗ל",
+      "lemma": "8398",
+      "morfologia": "HNcfsa"
+    },
+    {
+      "palavra": "וְיֹ֣שְׁבֵי",
+      "lemma": "c/3427",
+      "morfologia": "HC/Vqrmpc"
+    },
+    {
+      "palavra": "בָֽהּ",
+      "lemma": "b",
+      "morfologia": "HR/Sp3fs"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem invertida do título (לְדָוִד מִזְמוֹר, 'de-Davi salmo', em vez do usual מִזְמוֹר לְדָוִד 'salmo de Davi').",
+      "escolha": "Normalizar no publicado para a ordem convencional 'Salmo de Davi'; a ordem hebraica invertida é preservada integralmente na traducao_literal.",
+      "justificativa": "ER-0013 (doutrina do calque): calque de ordem é preservado na literal e normalizado no publicado quando soaria artificial em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'De Davi, salmo' também no publicado",
+          "motivo": "Soa traduzido e não corresponde à convenção de título já fixada nos salmos anteriores do corpus."
+        }
+      ]
+    },
+    {
+      "questao": "לַיהוָה הָאָרֶץ é oração nominal de posse (sem verbo 'ser' expresso).",
+      "escolha": "Suprir o verbo 'é' para expressar a posse implícita ('Do SENHOR é a terra').",
+      "justificativa": "Português exige cópula explícita; hebraico marca posse só com a preposição ל.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Ao SENHOR pertence a terra'",
+          "motivo": "Paráfrase mais distante da ordem/registro do original; preferida a solução mais próxima e igualmente natural."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "מְלוֹא (H4393, sem entrada lexicográfica prévia) traduzido 'plenitude', termo corrente em português bíblico. אֶרֶץ segue glosa consolidada do léxico (H776 → terra). תֵּבֵל traduzido 'mundo' (sinônimo poético de אֶרֶץ, sem lema prévio no léxico). Discurso descritivo de terceira pessoa, sem implicação da regra de segunda pessoa (D-0003).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f"
+  }
+}
