@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eph.3.1",
+    "livro": "Efésios",
+    "capitulo": 3,
+    "versiculo": 1,
+    "pericope": "Eph.3.1-21"
+  },
+  "texto_bv": "Por isso eu, Paulo, o prisioneiro de Cristo Jesus por causa de vocês, os gentios —",
+  "traducao_literal": "Por isto eu, Paulo, o prisioneiro de Cristo Jesus, por vocês, os gentios —",
+  "termos_originais": [
+    {
+      "palavra": "Τούτου",
+      "lemma": "οὗτος",
+      "morfologia": "D-GSN"
+    },
+    {
+      "palavra": "χάριν",
+      "lemma": "χάριν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἐγὼ",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1NS"
+    },
+    {
+      "palavra": "Παῦλος",
+      "lemma": "Παῦλος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δέσμιος",
+      "lemma": "δέσμιος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Χριστοῦ",
+      "lemma": "Χριστός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ὑπὲρ",
+      "lemma": "ὑπέρ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ὑμῶν",
+      "lemma": "σύ",
+      "morfologia": "P-2GP"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPN"
+    },
+    {
+      "palavra": "ἐθνῶν",
+      "lemma": "ἔθνος",
+      "morfologia": "N-GPN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Frase interrompida (anacoluto): a construção iniciada com 'Τούτου χάριν ἐγὼ Παῦλος' não recebe verbo principal; é retomada literalmente em 3:14.",
+      "escolha": "Preservar a interrupção com travessão ao final, sem completar artificialmente a oração.",
+      "justificativa": "O grego suspende a sentença aqui e a retoma com a mesma fórmula em Eph.3.14; completar o período apagaria a marca estilística do longo parêntese de 3:2-13.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Completar a oração com verbo suprido (ex.: '...escrevo/oro')",
+          "motivo": "acréscimo sem base lexical no packet; a quebra é intencional e documentável, não lacuna a preencher"
+        }
+      ]
+    },
+    {
+      "questao": "ὑπὲρ ὑμῶν τῶν ἐθνῶν — 'por causa de' (causa) ou 'em favor de' (benefício)?",
+      "escolha": "'por causa de vocês, os gentios'",
+      "justificativa": "ὑπέρ + genitivo aqui indica o motivo do aprisionamento de Paulo (sua missão aos gentios), não um benefício pontual.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'em favor de vocês'",
+          "motivo": "soa como benefício direto e concreto, obscurecendo o sentido causal (prisão por causa da missão aos gentios)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Sentença interrompida (anacoluto); retomada em Eph.3.14"
+  ],
+  "justificativa": "Abertura da digressão de 3:2-13; 'gentios' segue o termo já consolidado no projeto para ἔθνη em contexto paulino (cf. 1Cor.1.23, 1Cor.12.2).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eph.6.2",
+    "livro": "Efésios",
+    "capitulo": 6,
+    "versiculo": 2,
+    "pericope": "Eph.6.1-24"
+  },
+  "texto_bv": "Honre seu pai e sua mãe — este é o primeiro mandamento com promessa —",
+  "traducao_literal": "Honra o teu pai e a mãe, a qual é mandamento primeiro em promessa,",
+  "termos_originais": [
+    {
+      "palavra": "τίμα",
+      "lemma": "τιμάω",
+      "morfologia": "V-PAM-2S"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "πατέρα",
+      "lemma": "πατήρ",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "σου",
+      "lemma": "σύ",
+      "morfologia": "P-2GS"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "μητέρα",
+      "lemma": "μήτηρ",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἥτις",
+      "lemma": "ὅστις",
+      "morfologia": "R-NSF"
+    },
+    {
+      "palavra": "ἐστὶν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἐντολὴ",
+      "lemma": "ἐντολή",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "πρώτη",
+      "lemma": "πρῶτος",
+      "morfologia": "A-NSF-S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἐπαγγελίᾳ",
+      "lemma": "ἐπαγγελία",
+      "morfologia": "N-DSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Pontuação de citação do AT (Êx 20.12/Dt 5.16 LXX) sem fórmula introdutória explícita ('diz:')",
+      "escolha": "Sem aspas duplas; marcado por travessão parentético para isolar o comentário de Paulo ('este é o primeiro mandamento com promessa')",
+      "justificativa": "ER-0004 reserva aspas a discurso direto introduzido por fórmula com dois-pontos; aqui não há verbo introdutório explícito no grego.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Aspas duplas em todo o mandamento citado",
+          "motivo": "Estenderia ER-0004 além do escopo declarado (fórmula ausente)."
+        }
+      ]
+    },
+    {
+      "questao": "Pessoa gramatical do imperativo singular τίμα, dirigido ao filho individual",
+      "escolha": "Manter o sistema você/vocês (ER-0003) também no singular, com concordância seu/sua + verbo na forma de 'você' ('Honre... seu... sua')",
+      "justificativa": "Consistência de registro em todo o capítulo; ER-0003 não abre exceção para singular fora da oração a Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"Honra... teu... tua\" (forma de tu)",
+          "motivo": "ER-0003 reserva tu à oração dirigida a Deus, não a mandamento entre humanos ainda que citado do AT."
+        }
+      ]
+    },
+    {
+      "questao": "ἐντολὴ πρώτη ἐν ἐπαγγελίᾳ",
+      "escolha": "\"o primeiro mandamento com promessa\" (não 'o primeiro dos Dez Mandamentos')",
+      "justificativa": "Honra aos pais não é o primeiro do Decálogo; é o primeiro mandamento seguido de promessa explícita.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"o principal mandamento\"",
+          "motivo": "Perde o valor ordinal/numérico marcado por πρώτη."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sua (referente à mãe; o grego não repete σου para μητέρα, elidido por elipse gramatical)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Citação do mandamento de honrar pai e mãe (Êx 20.12/Dt 5.16 LXX), com comentário parentético de Paulo sobre ser o primeiro mandamento acompanhado de promessa.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

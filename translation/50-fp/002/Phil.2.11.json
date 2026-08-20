@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Phil.2.11",
+    "livro": "Filipenses",
+    "capitulo": 2,
+    "versiculo": 11,
+    "pericope": "Phil.2.1-30"
+  },
+  "texto_bv": "e toda língua confesse que Jesus Cristo é Senhor, para glória de Deus Pai.",
+  "traducao_literal": "e toda língua confesse: Senhor Jesus Cristo, para glória de Deus Pai.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πᾶσα",
+      "lemma": "πᾶς",
+      "morfologia": "A-NSF"
+    },
+    {
+      "palavra": "γλῶσσα",
+      "lemma": "γλῶσσα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἐξομολογήσηται",
+      "lemma": "ἐξομολογέω",
+      "morfologia": "V-AMS-3S"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ΚΥΡΙΟΣ",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ΙΗΣΟΥΣ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ΧΡΙΣΤΟΣ",
+      "lemma": "Χριστός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "δόξαν",
+      "lemma": "δόξα",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Πατρός",
+      "lemma": "πατήρ",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ordem Κύριος (predicado, anártico, fronteado) — Ἰησοῦς Χριστός (sujeito)",
+      "escolha": "publicado normaliza para ordem predicativa natural do português ('Jesus Cristo é Senhor'); literal preserva o fronteamento grego ('Senhor Jesus Cristo')",
+      "justificativa": "aplicação do princípio geral da doutrina do calque (ER-0013) à ordem de palavras grega, não apenas hebraica: o grego fronteia o predicado nominal (Κύριος) por ênfase retórica, prática que soa artificial em português corrido; a literal preserva a ordem para fins de auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'Senhor Jesus Cristo' também no publicado",
+          "motivo": "em português essa ordem lê-se como vocativo/título justaposto, não como predicado de uma confissão — perde a força declarativa 'Jesus Cristo É Senhor'"
+        }
+      ]
+    },
+    {
+      "questao": "ΚΥΡΙΟΣ ΙΗΣΟΥΣ ΧΡΙΣΤΟΣ em maiúsculas no texto-fonte Nestle 1904",
+      "escolha": "não reproduzir versaletes/caixa-alta no texto português; tratar como convenção editorial de fórmula confessional",
+      "justificativa": "a caixa alta é convenção tipográfica do editor para marcar fórmula credal fixa, não traço morfológico do grego; o português não tem essa convenção.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "reproduzir em maiúsculas ('SENHOR JESUS CRISTO')",
+          "motivo": "criaria confusão com a convenção de SENHOR = YHWH (NOMES-DIVINOS.md), reservada ao Tetragrama"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula elidida na oração nominal ὅτι ΚΥΡΙΟΣ ΙΗΣΟΥΣ ΧΡΙΣΤΟΣ)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Clímax do hino: confissão credal fixa (fórmula batismal/litúrgica primitiva), cópula elidida suprida; culmina em glória a Deus Pai, preservando a subordinação trinitária funcional do texto sem a apagar nem a enfatizar além do que o grego codifica.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

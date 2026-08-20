@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Eph.2.1",
+    "livro": "Efésios",
+    "capitulo": 2,
+    "versiculo": 1,
+    "pericope": "Eph.2.1-22"
+  },
+  "texto_bv": "Também vocês estavam mortos em suas transgressões e pecados,",
+  "traducao_literal": "E vós, sendo mortos nas transgressões e nos pecados de vós,",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὑμᾶς",
+      "lemma": "σύ",
+      "morfologia": "P-2AP"
+    },
+    {
+      "palavra": "ὄντας",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAP-APM"
+    },
+    {
+      "palavra": "νεκροὺς",
+      "lemma": "νεκρός",
+      "morfologia": "A-APM"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPN"
+    },
+    {
+      "palavra": "παραπτώμασιν",
+      "lemma": "παράπτωμα",
+      "morfologia": "N-DPN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ταῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPF"
+    },
+    {
+      "palavra": "ἁμαρτίαις",
+      "lemma": "ἁμαρτία",
+      "morfologia": "N-DPF"
+    },
+    {
+      "palavra": "ὑμῶν",
+      "lemma": "σύ",
+      "morfologia": "P-2GP"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ὄντας νεκρούς — particípio pendente sem verbo finito (anacoluto retomado só em v.5, συνεζωοποίησεν)",
+      "escolha": "suprir 'estavam' no publicado; literal preserva o particípio ('sendo mortos')",
+      "justificativa": "o português exige verbo finito onde o grego usa participio suspenso; a literal mantém o calque para auditoria (ER-0013 aplicado por extensão ao período grego), e a justificativa do verso remete à resolução sintática em v.5.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "antecipar 'Deus vos deu vida' já em v.1",
+          "motivo": "introduziria o sujeito e o verbo principal antes do tempo, distorcendo a estrutura retórica de Paulo (a descrição da morte precede, por várias orações, o anúncio do ato de Deus)"
+        }
+      ]
+    },
+    {
+      "questao": "παράπτωμα vs. ἁμαρτία — dois substantivos gregos distintos no mesmo verso",
+      "escolha": "'transgressões' (παραπτώμασιν) e 'pecados' (ἁμαρτίαις), glosas distintas",
+      "justificativa": "segue o precedente lexical já fixado em Rom.5.15-20 (παράπτωμα→'transgressão', distinto de ἁμαρτία→'pecado'), preservando a variação lexical proposital do grego (EDITORIAL §11).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir ambos por 'pecados'",
+          "motivo": "colapsaria dois termos que o corpus paulino distingue deliberadamente"
+        }
+      ]
+    },
+    {
+      "questao": "καί inicial de capítulo",
+      "escolha": "literal preserva ('E vós...'); publicado normaliza para 'Também vocês...'",
+      "justificativa": "o καί retoma a descrição cristológica do capítulo 1 sem abrir sentença nova; 'também' marca a continuidade sem soar artificial em português no início de um novo capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E vocês estavam mortos...' no publicado",
+          "motivo": "soa traduzido ao abrir capítulo com conjunção; EDITORIAL §6.2 permite normalização quando o calque soa artificial"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "estavam (verbo elidido pela oração participial pendente, retomada em v.5)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abre o longo período de Ef 2.1-7 (sujeito 'vós' descrito por particípios sem verbo principal até v.5); a tradução supre o verbo para viabilizar o português, remetendo a auditoria à traducao_literal.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

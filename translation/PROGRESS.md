@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 29109/31155 versículos.**
+**Total Bíblia sourced: 29517/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1331,36 +1331,36 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 12 | 21 | ● 21/21 [DRAFT] |
 | 13 | 13 | ● 13/13 [DRAFT] |
 
-## Gálatas — 0/149 versículos (0.0%), 6 capítulos
+## Gálatas — 149/149 versículos (100.0%), 6 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 24 | · pendente |
-| 2 | 21 | · pendente |
-| 3 | 29 | · pendente |
-| 4 | 31 | · pendente |
-| 5 | 26 | · pendente |
-| 6 | 18 | · pendente |
+| 1 | 24 | ● 24/24 [DRAFT] |
+| 2 | 21 | ● 21/21 [DRAFT] |
+| 3 | 29 | ● 29/29 [DRAFT] |
+| 4 | 31 | ● 31/31 [DRAFT] |
+| 5 | 26 | ● 26/26 [DRAFT] |
+| 6 | 18 | ● 18/18 [DRAFT] |
 
-## Efésios — 0/155 versículos (0.0%), 6 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 23 | · pendente |
-| 2 | 22 | · pendente |
-| 3 | 21 | · pendente |
-| 4 | 32 | · pendente |
-| 5 | 33 | · pendente |
-| 6 | 24 | · pendente |
-
-## Filipenses — 0/104 versículos (0.0%), 4 capítulos
+## Efésios — 155/155 versículos (100.0%), 6 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 30 | · pendente |
-| 2 | 30 | · pendente |
-| 3 | 21 | · pendente |
-| 4 | 23 | · pendente |
+| 1 | 23 | ● 23/23 [DRAFT] |
+| 2 | 22 | ● 22/22 [DRAFT] |
+| 3 | 21 | ● 21/21 [DRAFT] |
+| 4 | 32 | ● 32/32 [DRAFT] |
+| 5 | 33 | ● 33/33 [DRAFT] |
+| 6 | 24 | ● 24/24 [DRAFT] |
+
+## Filipenses — 104/104 versículos (100.0%), 4 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 30 | ● 30/30 [DRAFT] |
+| 2 | 30 | ● 30/30 [DRAFT] |
+| 3 | 21 | ● 21/21 [DRAFT] |
+| 4 | 23 | ● 23/23 [DRAFT] |
 
 ## Colossenses — 0/95 versículos (0.0%), 4 capítulos
 
