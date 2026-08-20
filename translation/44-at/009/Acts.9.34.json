@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.9.34",
+    "livro": "Atos",
+    "capitulo": 9,
+    "versiculo": 34,
+    "pericope": "Acts.9.1-43"
+  },
+  "texto_bv": "Pedro lhe disse: “Eneias, Jesus Cristo o cura! Levante-se e arrume a sua cama.” E ele imediatamente se levantou.",
+  "traducao_literal": "e disse-lhe Pedro: Eneias, cura-te Jesus Cristo; levanta-te e arruma para ti mesmo. E imediatamente se levantou.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἶπεν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Πέτρος",
+      "lemma": "Πέτρος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Αἰνέα",
+      "lemma": "Αἰνέας",
+      "morfologia": "N-VSM"
+    },
+    {
+      "palavra": "ἰᾶταί",
+      "lemma": "ἰάομαι",
+      "morfologia": "V-PNI-3S"
+    },
+    {
+      "palavra": "σε",
+      "lemma": "σύ",
+      "morfologia": "P-2AS"
+    },
+    {
+      "palavra": "Ἰησοῦς",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Χριστός",
+      "lemma": "Χριστός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἀνάστηθι",
+      "lemma": "ἀνίστημι",
+      "morfologia": "V-2AAM-2S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "στρῶσον",
+      "lemma": "στρωννύω",
+      "morfologia": "V-AAM-2S"
+    },
+    {
+      "palavra": "σεαυτῷ",
+      "lemma": "σεαυτοῦ",
+      "morfologia": "F-2DSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εὐθέως",
+      "lemma": "εὐθέως",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἀνέστη",
+      "lemma": "ἀνίστημι",
+      "morfologia": "V-2AAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "στρῶσον σεαυτῷ — o objeto direto de 'arruma' (a cama/esteira) fica implícito no grego, só o dativo reflexivo σεαυτῷ é expresso",
+      "escolha": "suprir 'a sua cama' como objeto, exigido pela regência do verbo em português",
+      "justificativa": "'arrumar' em português exige complemento; o grego elide o objeto por ser óbvio no contexto (κράβαττος do v.33)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'arruma para si mesmo' sem objeto",
+          "motivo": "agramatical em português; 'arrumar' não funciona como verbo absoluto sem complemento claro"
+        }
+      ]
+    },
+    {
+      "questao": "pronome de objeto direto na fala de Pedro a Eneias — 'te cura' (colado a tu) vs. 'o cura' (concordando com você)",
+      "escolha": "'o cura' (pronome oblíquo de 3ª pessoa, concordando gramaticalmente com 'você')",
+      "justificativa": "mantém a concordância formal do registro 'você' fixado para o capítulo (ER-0003), evitando a mistura tu/você que 'te' produziria com o sujeito 'você' implícito",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'te cura' (uso coloquial brasileiro corrente de 'te' com você)",
+          "motivo": "embora comum na fala informal do PT-BR, quebra a concordância formal-neutra exigida pelo registro da BV (EDITORIAL §1.2)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a sua cama (objeto elidido de στρῶσον σεαυτῷ, subentendido pelo contexto de κράβαττος no v.33)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "ἰᾶταί σε (presente, valor performativo/imediato) vertido no presente 'cura', não no futuro, preservando o efeito imediato do enunciado de cura.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.10.1",
+    "livro": "Atos",
+    "capitulo": 10,
+    "versiculo": 1,
+    "pericope": "Acts.10.1-48"
+  },
+  "texto_bv": "Havia em Cesareia um homem chamado Cornélio, centurião da coorte chamada Itálica,",
+  "traducao_literal": "Um homem, porém, certo, em Cesareia, de nome Cornélio, centurião da coorte a chamada Itálica,",
+  "termos_originais": [
+    {
+      "palavra": "Ἀνὴρ",
+      "lemma": "ἀνήρ",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "δέ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τις",
+      "lemma": "τὶς",
+      "morfologia": "X-NSM"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Καισαρίᾳ",
+      "lemma": "Καισάρεια",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "ὀνόματι",
+      "lemma": "ὄνομα",
+      "morfologia": "N-DSN"
+    },
+    {
+      "palavra": "Κορνήλιος",
+      "lemma": "Κορνήλιος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἑκατοντάρχης",
+      "lemma": "ἑκατοντάρχης",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "σπείρης",
+      "lemma": "σπεῖρα",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "καλουμένης",
+      "lemma": "καλέω",
+      "morfologia": "V-PEP-GSF"
+    },
+    {
+      "palavra": "Ἰταλικῆς",
+      "lemma": "Ἰταλικός",
+      "morfologia": "A-GSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito sem verbo finito em 10:1–2 (o predicado εἶδεν só chega em 10:3)",
+      "escolha": "Suprir um verbo copulativo ('Havia') no início de 10:1 para fechar a oração em português, deixando 10:3 iniciar a oração seguinte com o verbo principal grego (εἶδεν).",
+      "justificativa": "O grego encadeia 10:1–3 numa única frase (sujeito longo + predicado só em εἶδεν); dividir por versículo BV exige um verbo suprido para naturalidade sem alterar o sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 10:1–2 como fragmento nominal sem verbo, replicando a sintaxe grega",
+          "motivo": "agramatical em português corrido; cacofonia de leitura em voz alta (EDITORIAL §1.3)"
+        }
+      ]
+    },
+    {
+      "questao": "ἀνήρ: 'homem' vs. 'varão'",
+      "escolha": "homem",
+      "justificativa": "'Varão' é arcaísmo funcionalmente morto em pt-BR contemporâneo (EDITORIAL §1.2); 'homem' cobre o valor lexical sem perda semântica. Decisão vale para todas as ocorrências de ἀνήρ no capítulo (10:5, 17, 22, 26, 30).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "varão",
+          "motivo": "arcaísmo proibido pelo registro EDITORIAL §1.2"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Havia (verbo copulativo suprido para abrir a oração; o grego não tem verbo finito até εἶδεν em 10:3)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura narrativa introduzindo Cornélio; σπεῖρα/ἑκατοντάρχης mantidos como termos técnicos militares romanos sem tradução modernizante.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

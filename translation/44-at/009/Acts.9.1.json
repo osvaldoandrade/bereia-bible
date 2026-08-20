@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.9.1",
+    "livro": "Atos",
+    "capitulo": 9,
+    "versiculo": 1,
+    "pericope": "Acts.9.1-43"
+  },
+  "texto_bv": "Saulo, porém, ainda respirando ameaças e morte contra os discípulos do Senhor, foi ao sumo sacerdote",
+  "traducao_literal": "O, porém, Saulo, ainda respirando de ameaça e de morte contra os discípulos do Senhor, tendo-se aproximado ao sumo sacerdote",
+  "termos_originais": [
+    {
+      "palavra": "Ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Σαῦλος",
+      "lemma": "Σαῦλος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἔτι",
+      "lemma": "ἔτι",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἐμπνέων",
+      "lemma": "ἐμπνέω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "ἀπειλῆς",
+      "lemma": "ἀπειλή",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "φόνου",
+      "lemma": "φόνος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "μαθητὰς",
+      "lemma": "μαθητής",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Κυρίου",
+      "lemma": "κύριος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "προσελθὼν",
+      "lemma": "προσέρχομαι",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "ἀρχιερεῖ",
+      "lemma": "ἀρχιερεύς",
+      "morfologia": "N-DSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "προσελθὼν (particípio) sem verbo principal no verso — a oração grega só se completa em ᾐτήσατο (v.2)",
+      "escolha": "verter o particípio como verbo finito ('foi ao sumo sacerdote') no publicado, permitindo que o v.1 seja lido como oração completa; o v.2 retoma com 'e pediu-lhe'",
+      "justificativa": "prática corrente de segmentação por versículo quando o grego estende a sintaxe por dois versos; a traducao_literal preserva o particípio ('tendo-se aproximado') para auditoria da forma original",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a oração truncada no publicado ('...e, aproximando-se do sumo sacerdote,')",
+          "motivo": "produziria um período agramatical isolado em português, já que o verso não contém o verbo principal"
+        }
+      ]
+    },
+    {
+      "questao": "ἀπειλῆς καὶ φόνου (genitivo duplo, singular no grego) regendo ἐμπνέων — idiotismo 'respirando ameaça-e-morte'",
+      "escolha": "'ameaças e morte' (pluralizando apenas o primeiro substantivo, mantendo o idiomatismo natural em português)",
+      "justificativa": "ἀπειλή e φόνος estão no singular no grego (genitivo de conteúdo), mas o plural de 'ameaças' é mais natural em português sem alterar o sentido; a traducao_literal preserva o singular grego",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ameaça e morte' (singular estrito)",
+          "motivo": "soa artificial em português corrido, embora mais próximo do calque"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura da perícope da conversão de Saulo; a oração grega contínua entre v.1-2 é dividida por conveniência de versificação, sem perda de conteúdo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

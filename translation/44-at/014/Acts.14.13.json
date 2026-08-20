@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.14.13",
+    "livro": "Atos",
+    "capitulo": 14,
+    "versiculo": 13,
+    "pericope": "Acts.14.1-28"
+  },
+  "texto_bv": "O sacerdote de Zeus, cujo templo ficava diante da cidade, trouxe touros e grinaldas até os portões e, junto com a multidão, queria oferecer sacrifício.",
+  "traducao_literal": "E o sacerdote do Zeus que estava diante da cidade, tendo trazido touros e grinaldas até os portões, junto com as multidões, queria sacrificar.",
+  "termos_originais": [
+    {
+      "palavra": "ὅ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "τε",
+      "lemma": "τέ",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "ἱερεὺς",
+      "lemma": "ἱερεύς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Διὸς",
+      "lemma": "Ζεύς",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "ὄντος",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAP-GSM"
+    },
+    {
+      "palavra": "πρὸ",
+      "lemma": "πρό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "πόλεως",
+      "lemma": "πόλις",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "ταύρους",
+      "lemma": "ταῦρος",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "στέμματα",
+      "lemma": "στέμμα",
+      "morfologia": "N-APN"
+    },
+    {
+      "palavra": "ἐπὶ",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "πυλῶνας",
+      "lemma": "πυλών",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "ἐνέγκας",
+      "lemma": "φέρω",
+      "morfologia": "V-AAP-NSM"
+    },
+    {
+      "palavra": "σὺν",
+      "lemma": "σύν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "ὄχλοις",
+      "lemma": "ὄχλος",
+      "morfologia": "N-DPM"
+    },
+    {
+      "palavra": "ἤθελεν",
+      "lemma": "θέλω",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "θύειν",
+      "lemma": "θύω",
+      "morfologia": "V-PAN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "τοῦ Διὸς τοῦ ὄντος πρὸ τῆς πόλεως (lit. 'do Zeus que estava diante da cidade') — referente elíptico",
+      "escolha": "suprir 'templo' explicitando o referente",
+      "justificativa": "o grego personifica o culto pelo nome do próprio deus (o santuário de Zeus situado fora da cidade); sem a palavra suprida, 'de Zeus, que ficava diante da cidade' torna-se ambíguo quanto a quem ou o que ficava diante da cidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter sem suprir ('de Zeus, que estava diante da cidade')",
+          "motivo": "mais literal, mas gera ambiguidade referencial em português corrido (EDITORIAL §1.3)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "templo (cujo — referente implícito de τοῦ ὄντος πρὸ τῆς πόλεως)"
+  ],
+  "ambiguidades_preservadas": [
+    "πυλῶνας ('portões') pode referir-se aos portões da cidade ou aos portões do templo/pátio onde os apóstolos estavam hospedados; o grego não especifica."
+  ],
+  "justificativa": "Palavra suprida documentada conforme EDITORIAL §4; ambiguidade de πυλῶνας preservada sem decisão forçada.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

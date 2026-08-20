@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.13.9",
+    "livro": "Atos",
+    "capitulo": 13,
+    "versiculo": 9,
+    "pericope": "Acts.13.1-52"
+  },
+  "texto_bv": "Saulo, também chamado Paulo, cheio do Espírito Santo, fixou os olhos nele,",
+  "traducao_literal": "Saulo, e, o também Paulo, tendo sido cheio do Espírito Santo, tendo fixado o olhar nele,",
+  "termos_originais": [
+    {
+      "palavra": "Σαῦλος",
+      "lemma": "Σαῦλος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "δέ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Παῦλος",
+      "lemma": "Παῦλος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "πλησθεὶς",
+      "lemma": "πίμπλημι",
+      "morfologia": "V-APP-NSM"
+    },
+    {
+      "palavra": "Πνεύματος",
+      "lemma": "πνεῦμα",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "Ἁγίου",
+      "lemma": "ἅγιος",
+      "morfologia": "A-GSN"
+    },
+    {
+      "palavra": "ἀτενίσας",
+      "lemma": "ἀτενίζω",
+      "morfologia": "V-AAP-NSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτὸν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "fronteira do versículo sem verbo principal",
+      "escolha": "manter o fragmento sem oração completa, sem ponto final, dando continuidade sintática a v.10",
+      "justificativa": "o packet pinado divide o texto exatamente aqui: v.9 termina em ἀτενίσας εἰς αὐτὸν e o verbo principal εἶπεν só aparece em v.10; a BV segue a fronteira da fonte sem completar artificialmente a oração.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fundir v.9-10 em uma só sentença no publicado",
+          "motivo": "quebraria a correspondência 1:1 verso-registro exigida pelo pipeline"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "'chamado' (elipse de ὁ καὶ Παῦλος, lit. 'o também Paulo')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "πλησθεὶς Πνεύματος Ἁγίου traduzido adjetivalmente ('cheio do Espírito Santo'), equivalência corrente para o particípio passivo aoristo.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

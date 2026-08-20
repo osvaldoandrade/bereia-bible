@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.12.25",
+    "livro": "Atos",
+    "capitulo": 12,
+    "versiculo": 25,
+    "pericope": "Acts.12.1-25"
+  },
+  "texto_bv": "Barnabé e Saulo, tendo cumprido o serviço, voltaram de Jerusalém, levando consigo João, também chamado Marcos.",
+  "traducao_literal": "E Barnabé e Saulo voltaram, de Jerusalém, tendo cumprido o serviço, levando consigo João, o chamado Marcos.",
+  "termos_originais": [
+    {
+      "palavra": "Βαρνάβας",
+      "lemma": "Βαρναβᾶς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Σαῦλος",
+      "lemma": "Σαῦλος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὑπέστρεψαν",
+      "lemma": "ὑποστρέφω",
+      "morfologia": "V-AAI-3P"
+    },
+    {
+      "palavra": "ἐξ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Ἱερουσαλὴμ",
+      "lemma": "Ἱεροσόλυμα",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "πληρώσαντες",
+      "lemma": "πληρόω",
+      "morfologia": "V-AAP-NPM"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "διακονίαν",
+      "lemma": "διακονία",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "συνπαραλαβόντες",
+      "lemma": "συμπαραλαμβάνω",
+      "morfologia": "V-2AAP-NPM"
+    },
+    {
+      "palavra": "Ἰωάνην",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "ἐπικληθέντα",
+      "lemma": "ἐπικαλέω",
+      "morfologia": "V-APP-ASM"
+    },
+    {
+      "palavra": "Μάρκον",
+      "lemma": "Μᾶρκος",
+      "morfologia": "N-ASM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐξ Ἱερουσαλὴμ — direção do movimento (de/para Jerusalém)",
+      "escolha": "de Jerusalém (ἐξ = 'de/desde')",
+      "justificativa": "A fonte pinada (Nestle 1904) traz ἐξ ('de/desde'), não εἰς ('para'); verte-se literalmente pela preposição efetivamente pinada. Nota-se que outras edições/manuscritos trazem εἰς Ἱερουσαλήμ neste ponto — crux textual conhecida —, mas o packet não trouxe aparato (variantes_fonte) para este verso; segue-se estritamente a leitura da fonte pinada, sem consulta a outras edições.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "voltaram para Jerusalém (εἰς)",
+          "motivo": "não é a leitura da fonte textual pinada (Nestle1904.csv); adjudicação restrita ao texto efetivamente lido, sem aparato disponível no packet"
+        }
+      ]
+    },
+    {
+      "questao": "διακονίαν — 'serviço' de socorro material (cf. At 11:29-30)",
+      "escolha": "serviço",
+      "justificativa": "διακονία retoma o serviço de socorro material à igreja de Jerusalém mencionado em At 11:29-30, fora do escopo deste capítulo; 'serviço' preserva a generalidade do termo grego sem antecipar conteúdo externo ao capítulo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ministério",
+          "motivo": "em pt-BR contemporâneo conota função eclesiástica formal, estreitando o sentido de 'tarefa de assistência' aqui"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso de fechamento com crux textual conhecida na tradição manuscrita (ἐξ vs. εἰς); packet não trouxe aparato, então segue-se estritamente a leitura pinada ἐξ, documentando a alternativa rejeitada apenas para transparência.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

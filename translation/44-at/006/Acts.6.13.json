@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.6.13",
+    "livro": "Atos",
+    "capitulo": 6,
+    "versiculo": 13,
+    "pericope": "Acts.6.1-15"
+  },
+  "texto_bv": "E apresentaram falsas testemunhas, que diziam: “Este homem não para de falar palavras contra o lugar santo e contra a Lei.”",
+  "traducao_literal": "E apresentaram testemunhas falsas, dizendo: “Este homem não cessa de falar palavras contra o lugar santo e a lei”;",
+  "termos_originais": [
+    {
+      "palavra": "ἔστησάν",
+      "lemma": "ἵστημι",
+      "morfologia": "V-AAI-3P"
+    },
+    {
+      "palavra": "τε",
+      "lemma": "τέ",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "μάρτυρας",
+      "lemma": "μάρτυς",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "ψευδεῖς",
+      "lemma": "ψευδής",
+      "morfologia": "A-APM"
+    },
+    {
+      "palavra": "λέγοντας",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-APM"
+    },
+    {
+      "palavra": "Ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "ἄνθρωπος",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "οὗτος",
+      "lemma": "οὗτος",
+      "morfologia": "D-NSM"
+    },
+    {
+      "palavra": "οὐ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "παύεται",
+      "lemma": "παύω",
+      "morfologia": "V-PEI-3S"
+    },
+    {
+      "palavra": "λαλῶν",
+      "lemma": "λαλέω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "ῥήματα",
+      "lemma": "ῥῆμα",
+      "morfologia": "N-APN"
+    },
+    {
+      "palavra": "κατὰ",
+      "lemma": "κατά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "τόπου",
+      "lemma": "τόπος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "ἁγίου",
+      "lemma": "ἅγιος",
+      "morfologia": "A-GSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "νόμου",
+      "lemma": "νόμος",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "τοῦ τόπου τοῦ ἁγίου — presença ou não de dêixis",
+      "escolha": "'o lugar santo', sem acrescentar 'este'",
+      "justificativa": "O grego não traz demonstrativo aqui (diferente de τὸν τόπον τοῦτον em v.14); manter sem 'este' evita projetar sobre este verso uma dêixis que só aparece no seguinte.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'este lugar santo'",
+          "motivo": "soa mais natural isoladamente, mas projetaria a dêixis de v.14 sobre um verso que não a tem"
+        }
+      ]
+    },
+    {
+      "questao": "Fronteira da citação (a fala das falsas testemunhas continua em v.14, ligada por γάρ)",
+      "escolha": "aspas fecham ao fim do v.13; v.14 dá sequência ao mesmo discurso sem reabrir aspas",
+      "justificativa": "γάρ no início de v.14 amarra gramaticalmente o verso como razão/continuação da mesma fala; segue a convenção de granularidade por versículo já adotada em v.2.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "aspas abertas do v.13 ao fechamento em v.14",
+          "motivo": "mais fiel à extensão real da fala única, mas rompe a granularidade por versículo do registro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "νόμος capitalizado 'Lei' por referência à Lei de Moisés/Torá, seguindo o precedente já adotado em Esdras 7.6 para o mesmo referente institucional.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
