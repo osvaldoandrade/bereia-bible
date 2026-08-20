@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.5.1",
+    "livro": "João",
+    "capitulo": 5,
+    "versiculo": 1,
+    "pericope": "John.5.1-47"
+  },
+  "texto_bv": "Depois disso, houve uma festa dos judeus, e Jesus subiu a Jerusalém.",
+  "traducao_literal": "Depois destas coisas havia festa dos judeus, e subiu Jesus a Jerusalém.",
+  "termos_originais": [
+    {
+      "palavra": "Μετὰ",
+      "lemma": "μετά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ταῦτα",
+      "lemma": "οὗτος",
+      "morfologia": "D-APN"
+    },
+    {
+      "palavra": "ἦν",
+      "lemma": "εἰμί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "ἑορτὴ",
+      "lemma": "ἑορτή",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPM"
+    },
+    {
+      "palavra": "Ἰουδαίων",
+      "lemma": "Ἰουδαῖος",
+      "morfologia": "A-GPM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀνέβη",
+      "lemma": "ἀναβαίνω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "Ἰησοῦς",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Ἱεροσόλυμα",
+      "lemma": "Ἱεροσόλυμα",
+      "morfologia": "N-APN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἑορτὴ τῶν Ἰουδαίων é anártrica (sem artigo) — qual festa?",
+      "escolha": "traduzir 'uma festa dos judeus', sem identificar qual, preservando a indeterminação do original",
+      "justificativa": "ἑορτή aparece sem artigo definido no grego pinado; identificar a festa importaria uma decisão cronológica que o texto não faz",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a festa dos judeus' (determinada, ex.: Páscoa)",
+          "motivo": "anexaria implicitamente uma identificação cronológica não sustentada pelo anartro grego"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Qual festa (anártrica) não é identificada; a tradição exegética diverge entre Páscoa, Pentecostes, Tabernáculos ou Purim — a BV não resolve."
+  ],
+  "justificativa": "Verso introdutório de transição narrativa, sem dificuldade lexical maior além da indeterminação da festa, registrada como ambiguidade.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

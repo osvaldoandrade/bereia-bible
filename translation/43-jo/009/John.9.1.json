@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.9.1",
+    "livro": "João",
+    "capitulo": 9,
+    "versiculo": 1,
+    "pericope": "John.9.1-41"
+  },
+  "texto_bv": "E, ao passar, viu um homem cego de nascença.",
+  "traducao_literal": "E passando, viu um homem cego desde o nascimento.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "παράγων",
+      "lemma": "παράγω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "εἶδεν",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "ἄνθρωπον",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τυφλὸν",
+      "lemma": "τυφλός",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "γενετῆς",
+      "lemma": "γενετή",
+      "morfologia": "N-GSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐκ γενετῆς — locução idiomática ('desde o nascimento')",
+      "escolha": "de nascença",
+      "justificativa": "expressão consolidada em português para a mesma realidade; a traducao_literal preserva a preposição+substantivo",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "desde o nascimento (no publicado)",
+          "motivo": "literal demais, soa como calque no texto corrido"
+        }
+      ]
+    },
+    {
+      "questao": "sujeito implícito de εἶδεν (o particípio παράγων concorda com sujeito não nomeado)",
+      "escolha": "manter sujeito implícito (zero pronominal), sem inserir 'Jesus'",
+      "justificativa": "o grego também deixa o sujeito implícito, retomando o discurso encerrado em Jo 8; inserir o nome antecipa informação que só se torna explícita no v.3",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "inserir 'Jesus' explicitamente",
+          "motivo": "importaria informação que o próprio texto grego só torna explícita no v.3 (ἀπεκρίθη Ἰησοῦς)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "identidade do sujeito de 'viu' permanece implícita (Jesus), como no grego — só é nomeado no v.3"
+  ],
+  "justificativa": "Narrativa de transição de Jo 8 para Jo 9; sujeito (Jesus) permanece implícito até o v.3, conforme o próprio grego, sem antecipação exegética.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

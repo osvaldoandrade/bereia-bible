@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.4.1",
+    "livro": "João",
+    "capitulo": 4,
+    "versiculo": 1,
+    "pericope": "John.4.1-54"
+  },
+  "texto_bv": "Quando, pois, o Senhor soube que os fariseus tinham ouvido que Jesus estava fazendo e batizando mais discípulos do que João,",
+  "traducao_literal": "Como, pois, soube o Senhor que ouviram os fariseus que Jesus mais discípulos faz e batiza do que João,",
+  "termos_originais": [
+    {
+      "palavra": "Ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "οὖν",
+      "lemma": "οὖν",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἔγνω",
+      "lemma": "γινώσκω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Κύριος",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἤκουσαν",
+      "lemma": "ἀκούω",
+      "morfologia": "V-AAI-3P"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "Φαρισαῖοι",
+      "lemma": "Φαρισαῖος",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰησοῦς",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "πλείονας",
+      "lemma": "πολύς",
+      "morfologia": "A-APM-C"
+    },
+    {
+      "palavra": "μαθητὰς",
+      "lemma": "μαθητής",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "ποιεῖ",
+      "lemma": "ποιέω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "βαπτίζει",
+      "lemma": "βαπτίζω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἢ",
+      "lemma": "ἤ",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "Ἰωάνης",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ὁ Κύριος narrativo referindo-se a Jesus",
+      "escolha": "'o Senhor', maiúsculo, seguindo NOMES-DIVINOS (κύριος NT -> Senhor)",
+      "justificativa": "É o próprio narrador joanino que chama Jesus de 'o Senhor' nesta perícope; a política NOMES-DIVINOS trata κύριος (NT) como Senhor por padrão.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Jesus' substituindo por antonomásia",
+          "motivo": "apagaria a escolha lexical do narrador, que usa κύριος e não Ἰησοῦς neste ponto"
+        }
+      ]
+    },
+    {
+      "questao": "ποιεῖ καὶ βαπτίζει, presente histórico em discurso indireto",
+      "escolha": "normalizado para pretérito progressivo no publicado ('estava fazendo e batizando'), preservado o presente na literal",
+      "justificativa": "padrão adotado no capítulo para o presente histórico joanino, muito frequente (cf. vv.5,7,9…); consistência de tempo narrativo em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter presente ('faz e batiza') no publicado",
+          "motivo": "soaria como discurso direto, quebrando o quadro de discurso indireto do relato"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "ἔγνω aoristo, 'soube'; oração completa apenas em v.3 (ἀφῆκεν), com v.2 como parêntese do narrador.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

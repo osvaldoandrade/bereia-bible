@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.5.3",
+    "livro": "João",
+    "capitulo": 5,
+    "versiculo": 3,
+    "pericope": "John.5.1-47"
+  },
+  "texto_bv": "Nestes ficava deitada uma grande quantidade de enfermos — cegos, coxos e ressecados —, esperando o movimento da água.",
+  "traducao_literal": "Nestes se deitava uma multidão dos enfermos, cegos, coxos, ressecados, esperando o movimento da água.",
+  "termos_originais": [
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ταύταις",
+      "lemma": "οὗτος",
+      "morfologia": "D-DPF"
+    },
+    {
+      "palavra": "κατέκειτο",
+      "lemma": "κατάκειμαι",
+      "morfologia": "V-INI-3S"
+    },
+    {
+      "palavra": "πλῆθος",
+      "lemma": "πλῆθος",
+      "morfologia": "N-NSN"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPM"
+    },
+    {
+      "palavra": "ἀσθενούντων",
+      "lemma": "ἀσθενέω",
+      "morfologia": "V-PAP-GPM"
+    },
+    {
+      "palavra": "τυφλῶν",
+      "lemma": "τυφλός",
+      "morfologia": "A-GPM"
+    },
+    {
+      "palavra": "χωλῶν",
+      "lemma": "χωλός",
+      "morfologia": "A-GPM"
+    },
+    {
+      "palavra": "ξηρῶν",
+      "lemma": "ξηρός",
+      "morfologia": "A-GPM"
+    },
+    {
+      "palavra": "ἐκδεχομένων",
+      "lemma": "ἐκδέχομαι",
+      "morfologia": "V-PNP-GPM"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSN"
+    },
+    {
+      "palavra": "ὕδατος",
+      "lemma": "ὕδωρ",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "κίνησιν",
+      "lemma": "κίνησις",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "A partir de 'ξηρῶν(' (fim do v.3) até 'νοσήματι)' (fim do v.4), a fonte pinada Nestle 1904 marca o trecho entre parênteses, sinalizando dúvida editorial quanto à autenticidade da explicação do anjo que agita a água (referencia_fonte: parêntese de abertura em John.5.3, após ξηρῶν).",
+      "leituras": [
+        {
+          "leitura": "Inclui 3b-4 no corpo do texto",
+          "testemunhas": "maioria dos manuscritos bizantinos tardios; Nestle 1904 o imprime entre parênteses"
+        },
+        {
+          "leitura": "Omite 3b-4 inteiramente",
+          "testemunhas": "P66, P75, Sinaítico, Vaticano e outros unciais antigos — a crítica textual moderna majoritária considera 3b-4 glosa explicativa posterior"
+        }
+      ],
+      "avaliacao": "a fonte pinada imprime o trecho no corpo do texto, apenas sinalizado por parênteses; a BV segue a autoridade textual pinada e traduz integralmente, documentando aqui a fragilidade da atestação antiga.",
+      "impacto_na_traducao": "o texto publicado inclui vv.3b-4 por fidelidade à fonte pinada; ver nota completa em John.5.4."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "tradução de ξηρῶν (lit. 'ressecados', enfermos com membro atrofiado/paralisado)",
+      "escolha": "'ressecados' (substantivado), alinhado ao mesmo lema em Matt.12.10 ('mão ressecada')",
+      "justificativa": "consistência lexical com a única outra ocorrência do lema já traduzida no corpus",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'paralíticos'",
+          "motivo": "colide com παραλυτικός, lema distinto usado alhures (Matt 9; Mc 2); apagaria a distinção"
+        },
+        {
+          "opcao": "'aleijados'",
+          "motivo": "genérico demais, perde a imagem de 'ressecamento' do membro presente no grego"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Início da unidade textualmente disputada (3b-4); tradução da lista de enfermos sem outras dificuldades lexicais.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

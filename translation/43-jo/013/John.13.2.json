@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.13.2",
+    "livro": "João",
+    "capitulo": 13,
+    "versiculo": 2,
+    "pericope": "John.13.1-38"
+  },
+  "texto_bv": "E, estando já em curso a ceia, tendo o diabo posto no coração de Judas, filho de Simão Iscariotes, que o entregasse,",
+  "traducao_literal": "E, ceia estando em curso, o diabo já tendo lançado no coração, para que o entregasse, Judas de Simão Iscariotes,",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "δείπνου",
+      "lemma": "δεῖπνον",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "γινομένου",
+      "lemma": "γίνομαι",
+      "morfologia": "V-PNP-GSN"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "διαβόλου",
+      "lemma": "διάβολος",
+      "morfologia": "A-GSM"
+    },
+    {
+      "palavra": "ἤδη",
+      "lemma": "ἤδη",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "βεβληκότος",
+      "lemma": "βάλλω",
+      "morfologia": "V-RAP-GSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "καρδίαν",
+      "lemma": "καρδία",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἵνα",
+      "lemma": "ἵνα",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "παραδοῖ",
+      "lemma": "παραδίδωμι",
+      "morfologia": "V-2AAS-3S"
+    },
+    {
+      "palavra": "αὐτὸν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "Ἰούδας",
+      "lemma": "Ἰούδας",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Σίμωνος",
+      "lemma": "Σίμων",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Ἰσκαριώτης",
+      "lemma": "Ἰσκαριώθ",
+      "morfologia": "N-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "παραδίδωμι — 'entregar' ou 'trair'",
+      "escolha": "'entregar' (valor lexical neutro)",
+      "justificativa": "o verbo significa literalmente 'passar adiante/entregar'; a conotação de traição é inferência contextual, não lexical — mantido uniforme nas ocorrências do capítulo (vv.2,11,21)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'trair'",
+          "motivo": "interpretação consolidada na tradição, mas estreita o sentido lexical mais amplo do verbo"
+        }
+      ]
+    },
+    {
+      "questao": "reordenação do nome 'Judas' (grego adia o sujeito ao fim da oração, efeito de suspense)",
+      "escolha": "antecipar o nome no publicado por exigência de clareza referencial em português",
+      "justificativa": "a ordem original é preservada na traducao_literal",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem grega (nome ao final)",
+          "motivo": "em português soa como aposto solto, prejudicando a leitura em voz alta"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "filho de (relação patronímica implícita no genitivo Σίμωνος)"
+  ],
+  "ambiguidades_preservadas": [
+    "referente de 'τὴν καρδίαν' (o coração) — não está explicitado de quem é; entendido pelo contexto como o de Judas, mas o grego não marca posse"
+  ],
+  "justificativa": "Continuação da oração subordinada iniciada em v.1; genitivo absoluto duplo (δείπνου γινομένου / τοῦ διαβόλου βεβληκότος).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

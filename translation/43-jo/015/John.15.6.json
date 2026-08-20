@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.15.6",
+    "livro": "João",
+    "capitulo": 15,
+    "versiculo": 6,
+    "pericope": "John.15.1-27"
+  },
+  "texto_bv": "Se alguém não permanecer em mim, é lançado fora, como o ramo, e seca; ajuntam-nos e os lançam ao fogo, e eles queimam.",
+  "traducao_literal": "Se alguém não permanecer em mim, foi lançado fora como o ramo e secou, e ajuntam-nos e ao fogo lançam, e queima.",
+  "termos_originais": [
+    {
+      "palavra": "ἐὰν",
+      "lemma": "ἐάν",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "μή",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "τις",
+      "lemma": "τὶς",
+      "morfologia": "X-NSM"
+    },
+    {
+      "palavra": "μένῃ",
+      "lemma": "μένω",
+      "morfologia": "V-PAS-3S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἐμοί",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DS"
+    },
+    {
+      "palavra": "ἐβλήθη",
+      "lemma": "βάλλω",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "ἔξω",
+      "lemma": "ἔξω",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSN"
+    },
+    {
+      "palavra": "κλῆμα",
+      "lemma": "κλῆμα",
+      "morfologia": "N-NSN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐξηράνθη",
+      "lemma": "ξηραίνω",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "συνάγουσιν",
+      "lemma": "συνάγω",
+      "morfologia": "V-PAI-3P"
+    },
+    {
+      "palavra": "αὐτὰ",
+      "lemma": "αὐτός",
+      "morfologia": "P-APN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-ASN"
+    },
+    {
+      "palavra": "πῦρ",
+      "lemma": "πῦρ",
+      "morfologia": "N-ASN"
+    },
+    {
+      "palavra": "βάλλουσιν",
+      "lemma": "βάλλω",
+      "morfologia": "V-PAI-3P"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "καίεται",
+      "lemma": "καίω",
+      "morfologia": "V-PEI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐβλήθη/ἐξηράνθη — aoristo gnômico em condicional geral",
+      "escolha": "presente do indicativo ('é lançado... e seca')",
+      "justificativa": "O aoristo grego em máxima geral (condicional atemporal ἐὰν + subjuntivo) tem valor gnômico, não passado pontual; o português vernacular expressa esse valor com presente, como faz a tradição em outras passagens análogas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pretérito perfeito ('foi lançado... e secou')",
+          "motivo": "literal, mas sugere um evento passado único, obscurecendo o valor de verdade geral da condicional"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Sujeito indeterminado de συνάγουσιν/βάλλουσιν (3ª pl. sem sujeito expresso) preservado como construção de sujeito indefinido, natural também em português. Nota mecânica: o packet registra discordância entre morph (V-PEI-3S) e func_morph (V-PPI-3S) para καίεται; ambas as leituras (voz média/passiva) convergem no mesmo sentido ('queima/é queimado'), sem impacto na tradução (MORFOLOGIA-NESTLE1904 §regra 3).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

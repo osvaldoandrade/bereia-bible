@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.1.18",
+    "livro": "João",
+    "capitulo": 1,
+    "versiculo": 18,
+    "pericope": "John.1.1-51"
+  },
+  "texto_bv": "Ninguém viu a Deus jamais; o Deus unigênito, que está no seio do Pai, esse o revelou.",
+  "traducao_literal": "Deus ninguém viu jamais; um Deus unigênito, o que está no seio do Pai, aquele revelou.",
+  "termos_originais": [
+    {
+      "palavra": "Θεὸν",
+      "lemma": "θεός",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "οὐδεὶς",
+      "lemma": "οὐδείς",
+      "morfologia": "A-NSM-N"
+    },
+    {
+      "palavra": "ἑώρακεν",
+      "lemma": "ὁράω",
+      "morfologia": "V-RAI-3S-ATT"
+    },
+    {
+      "palavra": "πώποτε",
+      "lemma": "πώποτε",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "μονογενὴς",
+      "lemma": "μονογενής",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "Θεὸς",
+      "lemma": "θεός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "ὢν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "κόλπον",
+      "lemma": "κόλπος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Πατρὸς",
+      "lemma": "πατήρ",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἐκεῖνος",
+      "lemma": "ἐκεῖνος",
+      "morfologia": "D-NSM"
+    },
+    {
+      "palavra": "ἐξηγήσατο",
+      "lemma": "ἐξηγέομαι",
+      "morfologia": "V-ADI-3S"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "Em μονογενὴς [...] no fim do v.18, o texto pinado (Nestle 1904) lê μονογενὴς Θεός ('Deus unigênito'); a tradição bizantina/Textus Receptus lê ὁ μονογενὴς Υἱός ('o Filho unigênito').",
+      "leituras": [
+        {
+          "leitura": "μονογενὴς Θεός ('Deus unigênito')",
+          "testemunhas": "Nestle 1904 (fonte pinada; apoio em 𝔓66 𝔓75 ℵ B C* L, entre outros)"
+        },
+        {
+          "leitura": "ὁ μονογενὴς Υἱός ('o Filho unigênito')",
+          "testemunhas": "Tradição bizantina majoritária / Textus Receptus (A C³ Θ Ψ e a maioria dos minúsculos), base de versões históricas em português"
+        }
+      ],
+      "avaliacao": "BV segue a autoridade textual pinada do programa (ER-0018/ADR-0003), que lê Θεός; a leitura Υἱός tem peso relevante na tradição receptus e na Almeida histórica, sendo caso paradigmático citado em TEOLOGIA §4.",
+      "impacto_na_traducao": "Adotado 'Deus unigênito' no texto publicado; a leitura 'Filho unigênito' permanece registrada como variante de peso doutrinário, não afirmada no texto."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "μονογενὴς Θεός (fonte pinada) vs ὁ μονογενὴς Υἱός (variante)",
+      "escolha": "Seguir a fonte pinada: 'o Deus unigênito'",
+      "justificativa": "ER-0018/ADR-0003 fixam o Nestle 1904 como autoridade textual do NT; a BV verte a leitura pinada, registrando a variante conforme TEOLOGIA §4 (caso paradigmático explicitamente listado).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o Filho unigênito' (Υἱός, tradição bizantina/Textus Receptus, base de Almeida histórica)",
+          "motivo": "Não corresponde à autoridade textual pinada do programa (ER-0018); registrada como variante de peso doutrinário, não descartada como leitura."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecho do prólogo; ἐξηγήσατο (raiz de 'exegese') vertido 'revelou', preservando em traducao_literal a ideia de 'expor/dar a conhecer em detalhe'.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.13.4",
+    "livro": "João",
+    "capitulo": 13,
+    "versiculo": 4,
+    "pericope": "John.13.1-38"
+  },
+  "texto_bv": "Jesus levantou-se da ceia e pôs de lado as vestes; e, tomando uma toalha, cingiu-se com ela.",
+  "traducao_literal": "levanta-se da ceia e põe as vestes, e, tendo tomado uma toalha, cingiu-se a si mesmo.",
+  "termos_originais": [
+    {
+      "palavra": "ἐγείρεται",
+      "lemma": "ἐγείρω",
+      "morfologia": "V-PEI-3S"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSN"
+    },
+    {
+      "palavra": "δείπνου",
+      "lemma": "δεῖπνον",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τίθησιν",
+      "lemma": "τίθημι",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-APN"
+    },
+    {
+      "palavra": "ἱμάτια",
+      "lemma": "ἱμάτιον",
+      "morfologia": "N-APN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "λαβὼν",
+      "lemma": "λαμβάνω",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "λέντιον",
+      "lemma": "λέντιον",
+      "morfologia": "N-ASN"
+    },
+    {
+      "palavra": "διέζωσεν",
+      "lemma": "διαζώννυμι",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "ἑαυτόν",
+      "lemma": "ἑαυτοῦ",
+      "morfologia": "F-3ASM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "presente histórico grego (ἐγείρεται, τίθησιν), recurso estilístico recorrente no capítulo (λέγει etc.)",
+      "escolha": "normalizar para pretérito no texto publicado; a traducao_literal preserva o presente histórico grego",
+      "justificativa": "decisão-guia para todas as ocorrências recorrentes de presente histórico no restante do capítulo (não repetida em cada registro)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "presente histórico uniforme em português ('levanta-se... põe... diz...')",
+          "motivo": "recurso natural em grego koiné, mas soa artificial em prosa narrativa pt-BR corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Jesus (sujeito elíptico, retomado apenas pela concordância verbal grega)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verbo principal do período iniciado em v.1 (ἐγείρεται); marca o início da ação narrada do lava-pés.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

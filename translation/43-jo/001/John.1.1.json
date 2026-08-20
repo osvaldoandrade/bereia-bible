@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.1.1",
+    "livro": "João",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "John.1.1-51"
+  },
+  "texto_bv": "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.",
+  "traducao_literal": "No princípio era o Verbo, e o Verbo era para com o Deus, e Deus era o Verbo.",
+  "termos_originais": [
+    {
+      "palavra": "Ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἀρχῇ",
+      "lemma": "ἀρχή",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "ἦν",
+      "lemma": "εἰμί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Λόγος",
+      "lemma": "λόγος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Λόγος",
+      "lemma": "λόγος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἦν",
+      "lemma": "εἰμί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "πρὸς",
+      "lemma": "πρός",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "Θεόν",
+      "lemma": "θεός",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Θεὸς",
+      "lemma": "θεός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἦν",
+      "lemma": "εἰμί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Λόγος",
+      "lemma": "λόγος",
+      "morfologia": "N-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Glosa de Λόγος",
+      "escolha": "Verbo (maiúscula, título pessoal)",
+      "justificativa": "Tradição consolidada da Bíblia em português (Almeida e sucessoras) para o Logos joanino; evita colisão com o substantivo comum 'palavra' e sinaliza o estatuto pessoal do referente, já identificado como divino no mesmo versículo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Palavra",
+          "motivo": "Semanticamente possível, mas perde o registro teológico consolidado e cria ambiguidade com o uso comum do termo em português."
+        }
+      ]
+    },
+    {
+      "questao": "Θεὸς ἦν ὁ Λόγος — predicado nominal anártro anteposto ao verbo",
+      "escolha": "'o Verbo era Deus' (predicado qualitativo, não indefinido)",
+      "justificativa": "Construção clássica de predicado nominal sem artigo antecedendo o verbo (regra de Colwell): o sujeito gramatical é ὁ Λόγος (articulado); Θεός anártro fronteado marca natureza/qualidade, não um segundo deus indefinido. Base é gramatical, não doutrinária (TEOLOGIA §3).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o Verbo era um deus'",
+          "motivo": "Não sustentado pela sintaxe grega do predicado nominal anártro fronteado; exigiria evidência gramatical que a construção não oferece."
+        }
+      ]
+    },
+    {
+      "questao": "πρὸς τὸν Θεόν",
+      "escolha": "'com Deus' (idiomático, relação face a face)",
+      "justificativa": "πρός + acusativo aqui expressa proximidade relacional, não apenas direção espacial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'para com Deus' (literal)",
+          "motivo": "Preservado na traducao_literal; no publicado soa arcaizante."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do prólogo joanino; ordem do grego preservada na literal (predicado fronteado 'Deus era o Verbo'), publicado normaliza para leitura natural em pt-BR.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

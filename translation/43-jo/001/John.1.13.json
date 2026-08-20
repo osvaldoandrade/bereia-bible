@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.1.13",
+    "livro": "João",
+    "capitulo": 1,
+    "versiculo": 13,
+    "pericope": "John.1.1-51"
+  },
+  "texto_bv": "os quais nasceram, não do sangue, nem da vontade da carne, nem da vontade do homem, mas de Deus.",
+  "traducao_literal": "os quais não de sangues, nem da vontade da carne, nem da vontade de varão, mas de Deus foram gerados.",
+  "termos_originais": [
+    {
+      "palavra": "οἳ",
+      "lemma": "ὅς",
+      "morfologia": "R-NPM"
+    },
+    {
+      "palavra": "οὐκ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἐξ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αἱμάτων",
+      "lemma": "αἷμα",
+      "morfologia": "N-GPN"
+    },
+    {
+      "palavra": "οὐδὲ",
+      "lemma": "οὐδέ",
+      "morfologia": "CONJ-N"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "θελήματος",
+      "lemma": "θέλημα",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "σαρκὸς",
+      "lemma": "σάρξ",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "οὐδὲ",
+      "lemma": "οὐδέ",
+      "morfologia": "CONJ-N"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "θελήματος",
+      "lemma": "θέλημα",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "ἀνδρὸς",
+      "lemma": "ἀνήρ",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἀλλ’",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἐγεννήθησαν",
+      "lemma": "γεννάω",
+      "morfologia": "V-API-3P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "αἱμάτων — plural incomum ('sangues')",
+      "escolha": "Publicado normaliza para singular 'sangue'; literal preserva o plural hebraizante",
+      "justificativa": "Idiotismo hebraico (plural de 'sangue' = linhagem/descendência física) que soa artificial no plural em português; calque preservado apenas na literal (ER-0013 por analogia).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter o plural 'sangues' no publicado",
+          "motivo": "Soaria como erro de português, sem ganho de sentido para o leitor comum."
+        }
+      ]
+    },
+    {
+      "questao": "ἀνήρ (não ἄνθρωπος) em 'vontade de varão'",
+      "escolha": "'vontade do homem' no publicado; 'vontade de varão' na literal",
+      "justificativa": "ἀνήρ é especificamente masculino/marital, distinto do genérico ἄνθρωπος usado alhures no capítulo (vv.4,9); nuance registrada, mas naturalizada no publicado dado o paralelismo com 'vontade da carne'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'varão' no publicado",
+          "motivo": "Registro arcaizante desnecessário para o sentido, dado que o contexto (paralelo com 'carne') já restringe a leitura a geração humana masculina."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "ἐγεννήθησαν (passivo) vertido intransitivo 'nasceram' no publicado; 'foram gerados' preserva a voz passiva na literal.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

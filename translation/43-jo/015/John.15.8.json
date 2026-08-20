@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.15.8",
+    "livro": "João",
+    "capitulo": 15,
+    "versiculo": 8,
+    "pericope": "John.15.1-27"
+  },
+  "texto_bv": "Nisto é glorificado o meu Pai: que vocês deem muito fruto e se tornem meus discípulos.",
+  "traducao_literal": "Nisto foi glorificado o Pai de mim, que fruto muito porteis e vos tornareis meus discípulos.",
+  "termos_originais": [
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τούτῳ",
+      "lemma": "οὗτος",
+      "morfologia": "D-DSN"
+    },
+    {
+      "palavra": "ἐδοξάσθη",
+      "lemma": "δοξάζω",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Πατήρ",
+      "lemma": "πατήρ",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "μου",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GS"
+    },
+    {
+      "palavra": "ἵνα",
+      "lemma": "ἵνα",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "καρπὸν",
+      "lemma": "καρπός",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "πολὺν",
+      "lemma": "πολύς",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "φέρητε",
+      "lemma": "φέρω",
+      "morfologia": "V-PAS-2P"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "γενήσεσθε",
+      "lemma": "γίνομαι",
+      "morfologia": "V-FDI-2P"
+    },
+    {
+      "palavra": "ἐμοὶ",
+      "lemma": "ἐμός",
+      "morfologia": "S-1SNPM"
+    },
+    {
+      "palavra": "μαθηταί",
+      "lemma": "μαθητής",
+      "morfologia": "N-NPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐν τούτῳ ... ἵνα — final ou epexegético?",
+      "escolha": "epexegético ('nisto... que', explicando o conteúdo de 'isto')",
+      "justificativa": "ἵνα aqui explica o que é 'isto' que glorifica o Pai (dar fruto), não introduz finalidade separada; 'que' capta melhor essa relação do que 'para que'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'para que'",
+          "motivo": "sugere que o fruto é causa/propósito posterior da glorificação, quando o grego apresenta o dar fruto como o próprio conteúdo do 'isto'"
+        }
+      ]
+    },
+    {
+      "questao": "γενήσεσθε (futuro indicativo) coordenado a φέρητε (subjuntivo)",
+      "escolha": "harmonizar ambos no subjuntivo português ('deem... e se tornem')",
+      "justificativa": "O grego mistura modo (subjuntivo/indicativo) sem que o packet registre variante textual para este item; trata-se de estilo koiné, não de questão de aparato. O português normaliza para paralelismo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preservar a assimetria ('...deem fruto e vocês se tornarão...')",
+          "motivo": "reproduz a mudança de modo grega, mas soa como erro de concordância em português, sem ganho de fidelidade auditável"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso-charneira que liga a permanência (vv.4-7) à identidade discipular; sem apontamento de variante no packet para γενήσεσθε/γένησθε.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

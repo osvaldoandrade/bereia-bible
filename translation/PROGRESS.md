@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 26103/31155 versículos.**
+**Total Bíblia sourced: 26818/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1212,26 +1212,26 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 23 | 55 | ● 55/55 [DRAFT] |
 | 24 | 53 | ● 53/53 [DRAFT] |
 
-## João — 0/879 versículos (0.0%), 21 capítulos
+## João — 715/879 versículos (81.3%), 21 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 51 | · pendente |
-| 2 | 25 | · pendente |
-| 3 | 36 | · pendente |
-| 4 | 54 | · pendente |
-| 5 | 47 | · pendente |
-| 6 | 71 | · pendente |
-| 7 | 53 | · pendente |
-| 8 | 59 | · pendente |
-| 9 | 41 | · pendente |
-| 10 | 42 | · pendente |
-| 11 | 57 | · pendente |
-| 12 | 50 | · pendente |
-| 13 | 38 | · pendente |
-| 14 | 31 | · pendente |
-| 15 | 27 | · pendente |
-| 16 | 33 | · pendente |
+| 1 | 51 | ● 51/51 [DRAFT] |
+| 2 | 25 | ● 25/25 [DRAFT] |
+| 3 | 36 | ● 36/36 [DRAFT] |
+| 4 | 54 | ● 54/54 [DRAFT] |
+| 5 | 47 | ● 47/47 [DRAFT] |
+| 6 | 71 | ● 71/71 [DRAFT] |
+| 7 | 53 | ● 53/53 [DRAFT] |
+| 8 | 59 | ● 59/59 [DRAFT] |
+| 9 | 41 | ● 41/41 [DRAFT] |
+| 10 | 42 | ● 42/42 [DRAFT] |
+| 11 | 57 | ● 57/57 [DRAFT] |
+| 12 | 50 | ● 50/50 [DRAFT] |
+| 13 | 38 | ● 38/38 [DRAFT] |
+| 14 | 31 | ● 31/31 [DRAFT] |
+| 15 | 27 | ● 27/27 [DRAFT] |
+| 16 | 33 | ● 33/33 [DRAFT] |
 | 17 | 26 | · pendente |
 | 18 | 40 | · pendente |
 | 19 | 42 | · pendente |

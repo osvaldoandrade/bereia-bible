@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.4.4",
+    "livro": "João",
+    "capitulo": 4,
+    "versiculo": 4,
+    "pericope": "John.4.1-54"
+  },
+  "texto_bv": "E era necessário que ele passasse pela Samaria.",
+  "traducao_literal": "Era necessário, porém, ele passar através da Samaria.",
+  "termos_originais": [
+    {
+      "palavra": "Ἔδει",
+      "lemma": "δεῖ",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "αὐτὸν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "διέρχεσθαι",
+      "lemma": "διέρχομαι",
+      "morfologia": "V-PNN"
+    },
+    {
+      "palavra": "διὰ",
+      "lemma": "διά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "Σαμαρίας",
+      "lemma": "Σαμάρεια",
+      "morfologia": "N-GSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "δεῖ impessoal, 'é necessário'",
+      "escolha": "'era necessário que...', com sujeito suprido 'ele' explicitado",
+      "justificativa": "δεῖ é impessoal em grego; o infinitivo διέρχεσθαι com acusativo de sujeito (αὐτόν) exige oração completiva pessoal em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'convinha que ele passasse'",
+          "motivo": "suaviza a necessidade que δεῖ carrega no vocabulário joanino (cf. Jo 3:14, 3:30)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele (sujeito da oração completiva, suprido para reger 'passasse')"
+  ],
+  "ambiguidades_preservadas": [
+    "δεῖ pode indicar necessidade meramente geográfica (rota mais curta) ou providencial/teológica (uso característico de δεῖ em João); ambas plausíveis sem marcação gramatical que decida"
+  ],
+  "justificativa": "A rota direta Judeia-Galileia atravessa a Samaria; δεῖ tem matiz de necessidade tanto geográfica quanto providencial (uso joanino), preservada sem explicitar qual no texto.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

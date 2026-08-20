@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.9.9",
+    "livro": "João",
+    "capitulo": 9,
+    "versiculo": 9,
+    "pericope": "John.9.1-41"
+  },
+  "texto_bv": "Uns diziam: “É este.” Outros diziam: “Não, mas é semelhante a ele.” Ele dizia: “Sou eu.”",
+  "traducao_literal": "Uns diziam que: Este é. Outros diziam: Não, mas semelhante a ele é. Aquele dizia que: Eu sou.",
+  "termos_originais": [
+    {
+      "palavra": "ἄλλοι",
+      "lemma": "ἄλλος",
+      "morfologia": "A-NPM"
+    },
+    {
+      "palavra": "ἔλεγον",
+      "lemma": "λέγω",
+      "morfologia": "V-IAI-3P"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Οὗτός",
+      "lemma": "οὗτος",
+      "morfologia": "D-NSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἄλλοι",
+      "lemma": "ἄλλος",
+      "morfologia": "A-NPM"
+    },
+    {
+      "palavra": "ἔλεγον",
+      "lemma": "λέγω",
+      "morfologia": "V-IAI-3P"
+    },
+    {
+      "palavra": "Οὐχί",
+      "lemma": "οὐχί",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἀλλὰ",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὅμοιος",
+      "lemma": "ὅμοιος",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἐκεῖνος",
+      "lemma": "ἐκεῖνος",
+      "morfologia": "D-NSM"
+    },
+    {
+      "palavra": "ἔλεγεν",
+      "lemma": "λέγω",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἐγώ",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1NS"
+    },
+    {
+      "palavra": "εἰμι",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-1S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ὅτι recitativo (introduz discurso direto)",
+      "escolha": "omitir a tradução do ὅτι recitativo, marcando o discurso direto com aspas (ER-0004)",
+      "justificativa": "ὅτι recitativo é marca gramatical grega de discurso direto sem correspondente lexical em português; ER-0004 já resolve a marcação via pontuação",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Ἐγώ εἰμι — possível eco da fórmula joanina de autodeclaração absoluta, aqui em resposta simples do mendigo curado",
+      "escolha": "traduzir no registro comum da fala ('Sou eu'), sem marcar eco teológico não sinalizado pelo contexto",
+      "justificativa": "TEOLOGIA §2 proíbe importar exegese para dentro do texto; o uso aqui responde 'sim, sou eu mesmo', sem os marcadores contextuais das fórmulas absolutas de Jesus em outros lugares do Evangelho",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Eu Sou' (maiúsculo, ecoando fórmula teofânica)",
+          "motivo": "o contexto é identificação pessoal comum, não teofania; a maiúscula projetaria teologia não sustentada pela sintaxe deste verso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Discurso direto do povo dividido sobre a identidade do homem; a resposta dele ('Ἐγώ εἰμι') traduzida no registro comum, sem eco teológico não sinalizado pelo contexto (TEOLOGIA §2).",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.5.2",
+    "livro": "João",
+    "capitulo": 5,
+    "versiculo": 2,
+    "pericope": "John.5.1-47"
+  },
+  "texto_bv": "Há em Jerusalém, junto à porta das Ovelhas, um tanque chamado em hebraico Betzatá, com cinco pórticos.",
+  "traducao_literal": "Há, porém, em Jerusalém, junto à [porta] das ovelhas, um tanque, o chamado em hebraico Betzatá, tendo cinco pórticos.",
+  "termos_originais": [
+    {
+      "palavra": "Ἔστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPN"
+    },
+    {
+      "palavra": "Ἱεροσολύμοις",
+      "lemma": "Ἱεροσόλυμα",
+      "morfologia": "N-DPN"
+    },
+    {
+      "palavra": "ἐπὶ",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "προβατικῇ",
+      "lemma": "προβατικός",
+      "morfologia": "A-DSF"
+    },
+    {
+      "palavra": "κολυμβήθρα",
+      "lemma": "κολυμβήθρα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "ἐπιλεγομένη",
+      "lemma": "ἐπιλέγω",
+      "morfologia": "V-PEP-NSF"
+    },
+    {
+      "palavra": "Ἑβραϊστὶ",
+      "lemma": "Ἑβραϊστί",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "Βηθζαθά",
+      "lemma": "Βηθζαθά",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "πέντε",
+      "lemma": "πέντε",
+      "morfologia": "A-NUI"
+    },
+    {
+      "palavra": "στοὰς",
+      "lemma": "στοά",
+      "morfologia": "N-APF"
+    },
+    {
+      "palavra": "ἔχουσα",
+      "lemma": "ἔχω",
+      "morfologia": "V-PAP-NSF"
+    }
+  ],
+  "variantes_textuais": [
+    {
+      "descricao": "O nome do tanque tem variação manuscrita ampla entre Βηθεσδά, Βηθζαθά e Βηθσαϊδά; a fonte pinada (referencia_fonte: Nestle1904.csv, git 713f28a3) lê Βηθζαθά.",
+      "leituras": [
+        {
+          "leitura": "Βηθζαθά (Betzatá)",
+          "testemunhas": "leitura adotada pela fonte pinada Nestle 1904"
+        },
+        {
+          "leitura": "Βηθεσδά (Betesda)",
+          "testemunhas": "Textus Receptus / tradição Almeida"
+        },
+        {
+          "leitura": "Βηθσαϊδά (Betsaida)",
+          "testemunhas": "alguns testemunhos, possível confusão com a cidade da Galileia"
+        }
+      ],
+      "avaliacao": "Nestle 1904 é a autoridade textual pinada do NT (ADR-0003/ER-0018); a BV segue Βηθζαθά sem adjudicar entre as variantes por critério eclesiástico.",
+      "impacto_na_traducao": "nome próprio transliterado 'Betzatá', divergindo da forma tradicional 'Betesda' consagrada por Almeida."
+    }
+  ],
+  "decisoes": [
+    {
+      "questao": "προβατικῇ (adjetivo substantivado, sem o núcleo nominal expresso)",
+      "escolha": "suprir 'porta', com 'Ovelhas' maiúsculo, seguindo o precedente já fixado na BV para שער הצאן (Neh.3.1; 12.39)",
+      "justificativa": "o adjetivo feminino προβατικῇ concorda com um substantivo elidido, tradicionalmente entendido como πύλῃ ('porta'), cf. Ne 3:1,32; 12:39 LXX; sem suprir 'porta' o português fica agramatical",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tanque das ovelhas' (aplicando προβατικῇ a κολυμβήθρα)",
+          "motivo": "κολυμβήθρα é o sujeito seguinte da oração, marcado por artigo próprio; προβατικῇ concorda com um substantivo anterior elidido, não com κολυμβήθρα"
+        }
+      ]
+    },
+    {
+      "questao": "Βηθζαθά — transliteração do nome do tanque, com variação manuscrita ampla",
+      "escolha": "'Betzatá', transliteração simplificada da leitura pinada Nestle 1904 (θ→t, seguindo o padrão já fixado em Βηθανία→Betânia)",
+      "justificativa": "a leitura da fonte pinada difere da tradição Almeida ('Betesda', refletindo Βηθεσδά do Textus Receptus); manteve-se fidelidade à autoridade textual pinada (ADR-0003)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Betesda' (tradição Almeida/TR)",
+          "motivo": "reflete a leitura Βηθεσδά do Textus Receptus, ausente da fonte pinada Nestle 1904"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "porta"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Descrição do cenário; elipse de προβατικῇ e o nome do tanque exigem adjudicação documentada acima.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.16.1",
+    "livro": "João",
+    "capitulo": 16,
+    "versiculo": 1,
+    "pericope": "John.16.1-33"
+  },
+  "texto_bv": "Eu lhes falei estas coisas para que vocês não vacilem.",
+  "traducao_literal": "Estas coisas tenho falado a vós, para que não sejais escandalizados.",
+  "termos_originais": [
+    {
+      "palavra": "Ταῦτα",
+      "lemma": "οὗτος",
+      "morfologia": "D-APN"
+    },
+    {
+      "palavra": "λελάληκα",
+      "lemma": "λαλέω",
+      "morfologia": "V-RAI-1S"
+    },
+    {
+      "palavra": "ὑμῖν",
+      "lemma": "σύ",
+      "morfologia": "P-2DP"
+    },
+    {
+      "palavra": "ἵνα",
+      "lemma": "ἵνα",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "σκανδαλισθῆτε",
+      "lemma": "σκανδαλίζω",
+      "morfologia": "V-APS-2P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "σκανδαλισθῆτε — glosa de σκανδαλίζω",
+      "escolha": "'vacilem' no texto publicado",
+      "justificativa": "σκανδαλίζω denota tropeçar/cair/apostatar, não ofensa moral; 'escandalizar-se' deriva semanticamente no português contemporâneo para 'chocar-se', sentido ausente do grego.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'se escandalizem'",
+          "motivo": "deriva semântica no pt-BR atual (choque moral), não o sentido de queda/apostasia do grego"
+        },
+        {
+          "opcao": "'tropecem'",
+          "motivo": "mais literal, mas menos claro sobre o risco de apostasia que o contexto (perseguição, vv.2-3) sugere"
+        }
+      ]
+    },
+    {
+      "questao": "Registro de 2ª pessoa (tu/vós → você/vocês)",
+      "escolha": "traducao_literal preserva tu/vós; texto_bv normaliza para você/vocês em todo o capítulo",
+      "justificativa": "D-0003/EDITORIAL §3: discurso de Jesus para humanos usa você/vocês no publicado; a literal mantém a forma arcaica para auditoria (precedente: Matt.5.25).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tu/vós' também no publicado",
+          "motivo": "arcaísmo funcionalmente morto fora do vocativo litúrgico (EDITORIAL §1.2)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sujeito 'eu' de λελάληκα (1ª pessoa já morfológica, sem pronome explícito no grego)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Encerramento do discurso de despedida iniciado em Jo 15; ligação direta com o tema da perseguição anunciada nos vv.2-4.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

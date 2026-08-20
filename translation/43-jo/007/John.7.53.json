@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.7.53",
+    "livro": "João",
+    "capitulo": 7,
+    "versiculo": 53,
+    "pericope": "John.7.1-53"
+  },
+  "texto_bv": "E cada um foi para a sua casa.",
+  "traducao_literal": "(E foi cada um para a casa dele.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐπορεύθη",
+      "lemma": "πορεύομαι",
+      "morfologia": "V-AOI-3S"
+    },
+    {
+      "palavra": "ἕκαστος",
+      "lemma": "ἕκαστος",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "οἶκον",
+      "lemma": "οἶκος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Parêntese de abertura não fechado no grego-fonte",
+      "escolha": "preservar a pontuação de abertura como marca editorial da fonte, documentando-a no registro, sem fechá-la arbitrariamente no texto_bv",
+      "justificativa": "o packet cego traz '(' inicial em John.7.53 sem fechamento correspondente dentro do capítulo — sinal editorial da fonte pinada (Nestle 1904) de que a unidade textual continua além do capítulo 7; o registro documenta o fato observável na própria fonte pinada, sem consultar aparato externo ao packet cego",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "remover o parêntese por não fechar no capítulo",
+          "motivo": "apagaria um sinal deliberado da fonte pinada; fidelidade à fonte tal como pinada (ADR-0003) exige preservá-lo no registro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "O parêntese de abertura sem fechamento em John.7.53 sinaliza, na fonte pinada, o início de uma unidade textual cuja extensão ultrapassa o capítulo 7 — não resolvida neste registro, que cobre apenas os OSIS presentes no packet cego do capítulo 7"
+  ],
+  "justificativa": "Verso de transição/fecho de cena, com marca de pontuação da fonte preservada tal como pinada.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

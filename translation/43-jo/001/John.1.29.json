@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.1.29",
+    "livro": "João",
+    "capitulo": 1,
+    "versiculo": 29,
+    "pericope": "John.1.1-51"
+  },
+  "texto_bv": "No dia seguinte, ele viu Jesus vindo a ele e disse: \"Eis o Cordeiro de Deus, que tira o pecado do mundo.\"",
+  "traducao_literal": "No dia seguinte vê Jesus vindo a ele, e diz: Eis o Cordeiro de Deus, o que tira o pecado do mundo.",
+  "termos_originais": [
+    {
+      "palavra": "Τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "ἐπαύριον",
+      "lemma": "ἐπαύριον",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "βλέπει",
+      "lemma": "βλέπω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "Ἰησοῦν",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "ἐρχόμενον",
+      "lemma": "ἔρχομαι",
+      "morfologia": "V-PNP-ASM"
+    },
+    {
+      "palavra": "πρὸς",
+      "lemma": "πρός",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτόν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "Ἴδε",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AAM-2S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Ἀμνὸς",
+      "lemma": "ἀμνός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "αἴρων",
+      "lemma": "αἴρω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "ἁμαρτίαν",
+      "lemma": "ἁμαρτία",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "κόσμου",
+      "lemma": "κόσμος",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "βλέπει/λέγει — presente histórico",
+      "escolha": "Verter em pretérito perfeito ('viu... disse') no publicado",
+      "justificativa": "Naturalidade narrativa em pt-BR; o presente histórico do grego (recurso estilístico joanino) é preservado na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter o presente histórico no publicado ('vê... diz')",
+          "motivo": "Soa artificial em narrativa corrida de português contemporâneo, embora seja recurso estilístico legítimo do grego, preservado na literal."
+        }
+      ]
+    },
+    {
+      "questao": "αἴρων (αἴρω) — 'tirar/remover' ou 'levar/carregar sobre si'",
+      "escolha": "'tira' (remoção)",
+      "justificativa": "Leitura mais consolidada nas traduções em português para a metáfora do Cordeiro pascal/expiatório.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'leva' (carrega sobre si, substituição vicária)",
+          "motivo": "Também lexicalmente sustentável e teologicamente ressonante (substituição vicária); preservada como leitura alternativa."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "αἴρων pode significar 'que tira/remove' o pecado ou 'que leva/carrega sobre si' o pecado; ambos os sentidos são lexicalmente possíveis e teologicamente relevantes."
+  ],
+  "justificativa": "Tradução DRAFT do capítulo (ADR-0002).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

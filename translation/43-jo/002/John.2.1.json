@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.2.1",
+    "livro": "João",
+    "capitulo": 2,
+    "versiculo": 1,
+    "pericope": "John.2.1-25"
+  },
+  "texto_bv": "E, no terceiro dia, houve um casamento em Caná da Galileia, e a mãe de Jesus estava lá.",
+  "traducao_literal": "E no dia, o terceiro, casamento aconteceu em Caná da Galileia; e estava a mãe de Jesus ali.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "ἡμέρᾳ",
+      "lemma": "ἡμέρα",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "τρίτῃ",
+      "lemma": "τρίτος",
+      "morfologia": "A-DSF"
+    },
+    {
+      "palavra": "γάμος",
+      "lemma": "γάμος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐγένετο",
+      "lemma": "γίνομαι",
+      "morfologia": "V-2ADI-3S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Κανὰ",
+      "lemma": "Κανά",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "Γαλιλαίας",
+      "lemma": "Γαλιλαία",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἦν",
+      "lemma": "εἰμί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "μήτηρ",
+      "lemma": "μήτηρ",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἐκεῖ",
+      "lemma": "ἐκεῖ",
+      "morfologia": "ADV"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Manter ou não o 'E' inicial de τῇ ἡμέρᾳ τῇ τρίτῃ",
+      "escolha": "Manter 'E' como conector de continuidade narrativa com a sequência de dias de João 1",
+      "justificativa": "João 1 encadeia vários dias ('no dia seguinte', 1:29,35,43); 'ao terceiro dia' retoma essa contagem, e o 'E' marca a continuidade da perícope.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Omitir 'E' e abrir com 'No terceiro dia'",
+          "motivo": "perde o encadeamento cronológico explícito com o capítulo anterior"
+        }
+      ]
+    },
+    {
+      "questao": "γάμος anártrico (sem artigo)",
+      "escolha": "'um casamento', artigo indefinido suprido",
+      "justificativa": "Grego sem artigo; português exige artigo indefinido para introduzir referente novo.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "um (artigo indefinido para γάμος anártrico)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura de perícope narrativa; ordem V-S do grego (ἐγένετο... ἦν) normalizada para S-V no publicado, preservada na literal.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

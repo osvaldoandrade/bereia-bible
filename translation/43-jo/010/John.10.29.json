@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.10.29",
+    "livro": "João",
+    "capitulo": 10,
+    "versiculo": 29,
+    "pericope": "John.10.1-42"
+  },
+  "texto_bv": "O que meu Pai me deu é maior que tudo, e ninguém pode arrebatá-las da mão do Pai.",
+  "traducao_literal": "O meu Pai, o que me deu, maior que tudo é, e ninguém pode arrebatar da mão do Pai.",
+  "termos_originais": [
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Πατήρ",
+      "lemma": "πατήρ",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "μου",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GS"
+    },
+    {
+      "palavra": "ὃ",
+      "lemma": "ὅς",
+      "morfologia": "R-ASN"
+    },
+    {
+      "palavra": "δέδωκέν",
+      "lemma": "δίδωμι",
+      "morfologia": "V-RAI-3S"
+    },
+    {
+      "palavra": "μοι",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DS"
+    },
+    {
+      "palavra": "πάντων",
+      "lemma": "πᾶς",
+      "morfologia": "A-GPN"
+    },
+    {
+      "palavra": "μεῖζόν",
+      "lemma": "μέγας",
+      "morfologia": "A-NSN-C"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "οὐδεὶς",
+      "lemma": "οὐδείς",
+      "morfologia": "A-NSM-N"
+    },
+    {
+      "palavra": "δύναται",
+      "lemma": "δύναμαι",
+      "morfologia": "V-PNI-3S"
+    },
+    {
+      "palavra": "ἁρπάζειν",
+      "lemma": "ἁρπάζω",
+      "morfologia": "V-PAN"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "χειρὸς",
+      "lemma": "χείρ",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Πατρός",
+      "lemma": "πατήρ",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ὃ...μεῖζόν (neutro) — sujeito é 'o que o Pai deu' ou 'o Pai'?",
+      "escolha": "'O que meu Pai me deu' é maior que tudo (sujeito neutro)",
+      "justificativa": "A morfologia pinada traz ὃ como R-ASN (relativo neutro, objeto de δέδωκεν) e μεῖζόν como A-NSN-C (comparativo neutro nominativo); a concordância neutra estabelece que o sujeito de 'é maior' é a oração relativa 'o que o Pai me deu' (o rebanho/dom), não 'ὁ Πατήρ' (masculino). A leitura 'meu Pai...é maior que todos' exigiria ὅς e μείζων masculinos, formas ausentes no texto pinado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Meu Pai, que mo deu, é maior que todos'",
+          "motivo": "leitura corrente em algumas versões, mas não sustentada pela concordância morfológica neutra do texto grego pinado (ὃ...μεῖζόν)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "-las (objeto elíptico de 'arrebatar', suprido pelo contexto: as ovelhas)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Crux gramatical clássica resolvida pela morfologia neutra pinada no packet (ὃ/μεῖζόν).",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

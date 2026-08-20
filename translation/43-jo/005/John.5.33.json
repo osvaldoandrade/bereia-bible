@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.5.33",
+    "livro": "João",
+    "capitulo": 5,
+    "versiculo": 33,
+    "pericope": "John.5.1-47"
+  },
+  "texto_bv": "Vocês enviaram mensageiros a João, e ele testemunhou a favor da verdade.",
+  "traducao_literal": "Vocês enviaram a João, e ele testemunhou à verdade;",
+  "termos_originais": [
+    {
+      "palavra": "ὑμεῖς",
+      "lemma": "σύ",
+      "morfologia": "P-2NP"
+    },
+    {
+      "palavra": "ἀπεστάλκατε",
+      "lemma": "ἀποστέλλω",
+      "morfologia": "V-RAI-2P"
+    },
+    {
+      "palavra": "πρὸς",
+      "lemma": "πρός",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Ἰωάνην",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μεμαρτύρηκεν",
+      "lemma": "μαρτυρέω",
+      "morfologia": "V-RAI-3S"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "ἀληθείᾳ",
+      "lemma": "ἀλήθεια",
+      "morfologia": "N-DSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἀπεστάλκατε πρὸς Ἰωάνην — objeto implícito do envio",
+      "escolha": "suprido 'mensageiros' ('vocês enviaram mensageiros a João')",
+      "justificativa": "o grego elide o objeto direto de ἀπεστάλκατε (pressupõe uma delegação enviada a João Batista, cf. Jo 1:19); sem suprir, o português soa incompleto",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'vocês foram a João' (tratando ἀπεστάλκατε como autorreferencial)",
+          "motivo": "ἀποστέλλω significa 'enviar', não 'ir'; exige objeto enviado, aqui elidido, não sujeito que se desloca"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "mensageiros"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Identifica retrospectivamente João Batista como testemunha humana já mencionada em capítulo anterior não incluído neste packet.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

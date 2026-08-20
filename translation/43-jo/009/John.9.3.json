@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.9.3",
+    "livro": "João",
+    "capitulo": 9,
+    "versiculo": 3,
+    "pericope": "John.9.1-41"
+  },
+  "texto_bv": "Jesus respondeu: “Nem este pecou, nem os pais dele; mas foi para que as obras de Deus se manifestassem nele.”",
+  "traducao_literal": "Respondeu Jesus: Nem este pecou nem os pais dele, mas para que se manifestem as obras de Deus nele.",
+  "termos_originais": [
+    {
+      "palavra": "ἀπεκρίθη",
+      "lemma": "ἀποκρίνομαι",
+      "morfologia": "V-ADI-3S"
+    },
+    {
+      "palavra": "Ἰησοῦς",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Οὔτε",
+      "lemma": "οὔτε",
+      "morfologia": "CONJ-N"
+    },
+    {
+      "palavra": "οὗτος",
+      "lemma": "οὗτος",
+      "morfologia": "D-NSM"
+    },
+    {
+      "palavra": "ἥμαρτεν",
+      "lemma": "ἁμαρτάνω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "οὔτε",
+      "lemma": "οὔτε",
+      "morfologia": "CONJ-N"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "γονεῖς",
+      "lemma": "γονεύς",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "ἀλλ’",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἵνα",
+      "lemma": "ἵνα",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "φανερωθῇ",
+      "lemma": "φανερόω",
+      "morfologia": "V-APS-3S"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPN"
+    },
+    {
+      "palavra": "ἔργα",
+      "lemma": "ἔργον",
+      "morfologia": "N-NPN"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ordem verbo-sujeito ἀπεκρίθη Ἰησοῦς (padrão narrativo grego de introdução de fala)",
+      "escolha": "sujeito-verbo no publicado ('Jesus respondeu'); verbo-sujeito preservado na traducao_literal",
+      "justificativa": "aplicação consistente, ao longo do capítulo, do mesmo princípio de naturalidade de ER-0011 ao padrão narrativo grego ἀπεκρίθη + nome — decisão fixada aqui e reaplicada sem repetição nos versos seguintes com o mesmo padrão",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "V-S uniforme ('Respondeu Jesus') no publicado",
+          "motivo": "soa arcaizante fora da fórmula literária; mesma lógica de ER-0011 para o hebraico se estende ao grego por naturalidade, não por mandato formal da diretriz"
+        }
+      ]
+    },
+    {
+      "questao": "ἀλλ’ ἵνα φανερωθῇ — elipse do verbo principal da oração adversativa após ἀλλά",
+      "escolha": "suprir 'foi' para tornar a oração gramatical em português ('mas foi para que...')",
+      "justificativa": "o grego elide o verbo principal em orações de propósito absoluto após ἀλλά (uso comum); o português exige um verbo finito para a oração ficar gramatical",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "reproduzir a elipse sem suprir verbo",
+          "motivo": "agramatical em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "foi (verbo principal elidido em grego após ἀλλά, exigido pela sintaxe portuguesa)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Resposta de Jesus rejeita a teologia retributiva causal implícita na pergunta do v.2, sem harmonizar ou suavizar (TEOLOGIA §2); o texto é deixado como está, a tensão permanece aberta.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

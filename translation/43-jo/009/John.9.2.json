@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.9.2",
+    "livro": "João",
+    "capitulo": 9,
+    "versiculo": 2,
+    "pericope": "John.9.1-41"
+  },
+  "texto_bv": "E os discípulos dele lhe perguntaram, dizendo: “Rabi, quem pecou, este ou os pais dele, para que nascesse cego?”",
+  "traducao_literal": "E perguntaram-lhe os discípulos dele, dizendo: Rabi, quem pecou, este ou os pais dele, para que cego nascesse?",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἠρώτησαν",
+      "lemma": "ἐρωτάω",
+      "morfologia": "V-AAI-3P"
+    },
+    {
+      "palavra": "αὐτὸν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "μαθηταὶ",
+      "lemma": "μαθητής",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "λέγοντες",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "Ῥαββεί",
+      "lemma": "ῥαββί",
+      "morfologia": "HEB"
+    },
+    {
+      "palavra": "τίς",
+      "lemma": "τίς",
+      "morfologia": "I-NSM"
+    },
+    {
+      "palavra": "ἥμαρτεν",
+      "lemma": "ἁμαρτάνω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "οὗτος",
+      "lemma": "οὗτος",
+      "morfologia": "D-NSM"
+    },
+    {
+      "palavra": "ἢ",
+      "lemma": "ἤ",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "γονεῖς",
+      "lemma": "γονεύς",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "ἵνα",
+      "lemma": "ἵνα",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τυφλὸς",
+      "lemma": "τυφλός",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "γεννηθῇ",
+      "lemma": "γεννάω",
+      "morfologia": "V-APS-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ordem verbo-sujeito ἠρώτησαν ... οἱ μαθηταὶ αὐτοῦ",
+      "escolha": "sujeito-verbo no publicado ('os discípulos dele lhe perguntaram'); verbo-sujeito preservado na traducao_literal",
+      "justificativa": "naturalidade do português contemporâneo em narrativa; mesma lógica de ER-0011 (ordem S-V), embora a diretriz trate formalmente do wayyiqtol hebraico",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado",
+          "motivo": "soa arcaizante/traduzido em português contemporâneo fora da fórmula literária"
+        }
+      ]
+    },
+    {
+      "questao": "τίς ἥμαρτεν ... ἵνα τυφλὸς γεννηθῇ — pressuposto teológico da pergunta (pecado causando cegueira)",
+      "escolha": "traduzir a oração final ἵνα como propósito ('para que'), preservando a pressuposição determinista da pergunta dos discípulos, sem suavizar",
+      "justificativa": "TEOLOGIA §2 proíbe suavizar dificuldades do original; a pergunta reflete teologia retributiva popular que Jesus corrige no v.3, e essa correção só funciona se o propósito genuíno da pergunta for preservado",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir ἵνα como resultado ('de modo que')",
+          "motivo": "enfraquece o propósito genuíno pressuposto pelos discípulos, que é justamente o ponto retórico corrigido por Jesus no v.3"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Pergunta retórica dos discípulos com pressuposto teológico popular (pecado causando deficiência), preservada sem suavização (TEOLOGIA §2).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
