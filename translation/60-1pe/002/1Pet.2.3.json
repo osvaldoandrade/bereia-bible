@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Pet.2.3",
+    "livro": "1 Pedro",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "1Pet.2.1-25"
+  },
+  "texto_bv": "se é que provaram que o Senhor é bom.",
+  "traducao_literal": "se provaram que bom [é] o Senhor.",
+  "termos_originais": [
+    {
+      "palavra": "εἰ",
+      "lemma": "εἰ",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "ἐγεύσασθε",
+      "lemma": "γεύομαι",
+      "morfologia": "V-ADI-2P"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "χρηστὸς",
+      "lemma": "χρηστός",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Κύριος",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "κύριος em eco de Sl 34:8 (LXX 33:9) — referente YHWH (AT) ou Cristo (contexto imediato)?",
+      "escolha": "Senhor (grafia padrão NT, não SENHOR)",
+      "justificativa": "NOMES-DIVINOS.md prevê avaliar caso a caso citações do AT com YHWH subjacente. Não há aqui fórmula formal de citação (diferente de 2:6); o contexto imediato (Cristo, cap. 1) favorece leitura cristológica, mas o eco de Sl 34:8 LXX é evidente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "SENHOR (maiúscula, tratando como citação direta de YHWH)",
+          "motivo": "não há marcação formal de citação no grego; forçaria no texto uma leitura que o autor não explicitou"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Referente de ὁ Κύριος: YHWH do Salmo 34:8 subjacente, ou Cristo no sentido imediato da carta — ambas as leituras são coerentes com o uso de κύριος em 1 Pedro"
+  ],
+  "justificativa": "Eco de Sl 34:8 LXX (γεύσασθε καὶ ἴδετε ὅτι χρηστὸς ὁ κύριος), sem fórmula de citação; ordem predicado-sujeito do grego preservada na literal.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jude.1.1",
+    "livro": "Judas",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "Jude.1.1-25"
+  },
+  "texto_bv": "Judas, servo de Jesus Cristo, e irmão de Tiago, aos chamados, amados em Deus Pai e guardados para Jesus Cristo:",
+  "traducao_literal": "Judas, de Jesus Cristo servo, e irmão de Tiago, aos em Deus Pai amados e para Jesus Cristo guardados chamados.",
+  "termos_originais": [
+    {
+      "palavra": "Ἰούδας",
+      "lemma": "Ἰούδας",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Χριστοῦ",
+      "lemma": "Χριστός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "δοῦλος",
+      "lemma": "δοῦλος (II)",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἀδελφὸς",
+      "lemma": "ἀδελφός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰακώβου",
+      "lemma": "Ἰάκωβος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Θεῷ",
+      "lemma": "θεός",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "Πατρὶ",
+      "lemma": "πατήρ",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "ἠγαπημένοις",
+      "lemma": "ἀγαπάω",
+      "morfologia": "V-RPP-DPM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "Χριστῷ",
+      "lemma": "Χριστός",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "τετηρημένοις",
+      "lemma": "τηρέω",
+      "morfologia": "V-RPP-DPM"
+    },
+    {
+      "palavra": "κλητοῖς",
+      "lemma": "κλητός",
+      "morfologia": "A-DPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem grega (regência antes do núcleo; κλητοῖς como núcleo nominal posposto às duas orações participiais)",
+      "escolha": "normalizar para ordem natural do português no publicado, preservando a ordem grega na literal",
+      "justificativa": "doutrina do calque (ER-0013): calque de ordem preservado só na literal",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem grega no publicado",
+          "motivo": "soaria artificial em português; ER-0013 autoriza normalização"
+        }
+      ]
+    },
+    {
+      "questao": "τετηρημένοις + dativo Ἰησοῦ Χριστῷ — dativo de interesse ('guardados PARA Jesus Cristo') vs. de agente ('guardados POR Jesus Cristo')",
+      "escolha": "guardados para Jesus Cristo (dativo de interesse/destino escatológico)",
+      "justificativa": "paralelo com o uso de τηρέω/φυλάσσω no restante da carta (vv.6,13,21,24), voltado ao futuro escatológico",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "guardados por Jesus Cristo",
+          "motivo": "leitura de agente é gramaticalmente possível, mas menos apoiada pelo uso do verbo na carta"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "τετηρημένοις Ἰησοῦ Χριστῷ: dativo pode ser de vantagem ('para Jesus Cristo') ou de agente ('por Jesus Cristo')"
+  ],
+  "justificativa": "Saudação epistolar nominal, sem verbo finito, padrão greco-helenístico; κλητοῖς é o núcleo substantivado modificado por dois particípios perfeitos passivos.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

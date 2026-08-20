@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "3John.1.5",
+    "livro": "3 João",
+    "capitulo": 1,
+    "versiculo": 5,
+    "pericope": "3John.1.1-15"
+  },
+  "texto_bv": "Amado, você procede com fidelidade em tudo o que faz para com os irmãos, mesmo sendo eles estranhos,",
+  "traducao_literal": "Amado, fiel fazes o que quer que trabalhes para os irmãos, e isso estranhos,",
+  "termos_originais": [
+    {
+      "palavra": "Ἀγαπητέ",
+      "lemma": "ἀγαπητός",
+      "morfologia": "A-VSM"
+    },
+    {
+      "palavra": "πιστὸν",
+      "lemma": "πιστός",
+      "morfologia": "A-ASN"
+    },
+    {
+      "palavra": "ποιεῖς",
+      "lemma": "ποιέω",
+      "morfologia": "V-PAI-2S"
+    },
+    {
+      "palavra": "ὃ",
+      "lemma": "ὅς",
+      "morfologia": "R-ASN"
+    },
+    {
+      "palavra": "ἐὰν",
+      "lemma": "ἐάν",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "ἐργάσῃ",
+      "lemma": "ἐργάζομαι",
+      "morfologia": "V-ADS-2S"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "ἀδελφοὺς",
+      "lemma": "ἀδελφός",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τοῦτο",
+      "lemma": "οὗτος",
+      "morfologia": "D-ASN"
+    },
+    {
+      "palavra": "ξένους",
+      "lemma": "ξένος",
+      "morfologia": "A-APM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "πιστὸν ποιεῖς: idiomatismo grego 'fazer fiel' = agir com fidelidade",
+      "escolha": "procede com fidelidade",
+      "justificativa": "ποιέω + adjetivo neutro substantivado (πιστόν) é idiomatismo koiné para 'agir de modo X'; verter literalmente 'fazes fiel' soaria agramatical em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fazes [algo] fiel",
+          "motivo": "calco agramatical em português; preservado apenas na traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "καὶ τοῦτο ξένους: idiomatismo enfático grego ('e isso, estranhos')",
+      "escolha": "mesmo sendo eles estranhos",
+      "justificativa": "καὶ τοῦτο é fórmula grega de ênfase aditiva ('e isso especialmente', 'e ainda por cima'); aplicada aqui a ξένους (pessoas que Gaio não conhecia pessoalmente), vertida com oração concessiva natural em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "e isso, estrangeiros",
+          "motivo": "preservado como calque na traducao_literal; no publicado soa truncado/agramatical"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sendo eles (verbo de ligação suprido para verter a construção apositiva elíptica καὶ τοῦτο ξένους)"
+  ],
+  "ambiguidades_preservadas": [
+    "ξένους pode indicar 'estranhos/desconhecidos' pessoalmente ou 'forasteiros' em sentido mais amplo de itinerantes; preservado sob 'estranhos'."
+  ],
+  "justificativa": "Frase inicia período que se completa no v.6 (relativa οἳ ἐμαρτύρησαν); pontuação de vírgula mantida para dar continuidade sintática entre os dois versículos.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

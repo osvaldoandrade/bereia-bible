@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 30318/31155 versículos.**
+**Total Bíblia sourced: 30645/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1441,33 +1441,33 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 12 | 29 | ● 29/29 [DRAFT] |
 | 13 | 25 | ● 25/25 [DRAFT] |
 
-## Tiago — 0/108 versículos (0.0%), 5 capítulos
+## Tiago — 108/108 versículos (100.0%), 5 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 27 | · pendente |
-| 2 | 26 | · pendente |
-| 3 | 18 | · pendente |
-| 4 | 17 | · pendente |
-| 5 | 20 | · pendente |
+| 1 | 27 | ● 27/27 [DRAFT] |
+| 2 | 26 | ● 26/26 [DRAFT] |
+| 3 | 18 | ● 18/18 [DRAFT] |
+| 4 | 17 | ● 17/17 [DRAFT] |
+| 5 | 20 | ● 20/20 [DRAFT] |
 
-## 1 Pedro — 0/105 versículos (0.0%), 5 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 25 | · pendente |
-| 2 | 25 | · pendente |
-| 3 | 22 | · pendente |
-| 4 | 19 | · pendente |
-| 5 | 14 | · pendente |
-
-## 2 Pedro — 0/61 versículos (0.0%), 3 capítulos
+## 1 Pedro — 105/105 versículos (100.0%), 5 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 21 | · pendente |
-| 2 | 22 | · pendente |
-| 3 | 18 | · pendente |
+| 1 | 25 | ● 25/25 [DRAFT] |
+| 2 | 25 | ● 25/25 [DRAFT] |
+| 3 | 22 | ● 22/22 [DRAFT] |
+| 4 | 19 | ● 19/19 [DRAFT] |
+| 5 | 14 | ● 14/14 [DRAFT] |
+
+## 2 Pedro — 61/61 versículos (100.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 21 | ● 21/21 [DRAFT] |
+| 2 | 22 | ● 22/22 [DRAFT] |
+| 3 | 18 | ● 18/18 [DRAFT] |
 
 ## 1 João — 0/105 versículos (0.0%), 5 capítulos
 
@@ -1479,23 +1479,23 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 4 | 21 | · pendente |
 | 5 | 21 | · pendente |
 
-## 2 João — 0/13 versículos (0.0%), 1 capítulos
+## 2 João — 13/13 versículos (100.0%), 1 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 13 | · pendente |
+| 1 | 13 | ● 13/13 [DRAFT] |
 
-## 3 João — 0/15 versículos (0.0%), 1 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 15 | · pendente |
-
-## Judas — 0/25 versículos (0.0%), 1 capítulos
+## 3 João — 15/15 versículos (100.0%), 1 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 25 | · pendente |
+| 1 | 15 | ● 15/15 [DRAFT] |
+
+## Judas — 25/25 versículos (100.0%), 1 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 25 | ● 25/25 [DRAFT] |
 
 ## Apocalipse — 0/405 versículos (0.0%), 22 capítulos
 

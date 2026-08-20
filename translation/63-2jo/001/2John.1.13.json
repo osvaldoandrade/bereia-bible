@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2John.1.13",
+    "livro": "2 João",
+    "capitulo": 1,
+    "versiculo": 13,
+    "pericope": "2John.1.1-13"
+  },
+  "texto_bv": "Os filhos da sua irmã eleita saúdam você.",
+  "traducao_literal": "Saúda-te os filhos da irmã de ti, a eleita.",
+  "termos_originais": [
+    {
+      "palavra": "Ἀσπάζεταί",
+      "lemma": "ἀσπάζομαι",
+      "morfologia": "V-PNI-3S"
+    },
+    {
+      "palavra": "σε",
+      "lemma": "σύ",
+      "morfologia": "P-2AS"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPN"
+    },
+    {
+      "palavra": "τέκνα",
+      "lemma": "τέκνον",
+      "morfologia": "N-NPN"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "ἀδελφῆς",
+      "lemma": "ἀδελφή",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "σου",
+      "lemma": "σύ",
+      "morfologia": "P-2GS"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "ἐκλεκτῆς",
+      "lemma": "ἐκλεκτός",
+      "morfologia": "A-GSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ἀσπάζεταί σε τὰ τέκνα (ordem verbo-sujeito): normalização de ordem.",
+      "escolha": "Ordem sujeito-verbo no publicado ('Os filhos... saúdam você'), preservando verbo-sujeito na literal.",
+      "justificativa": "Por analogia à doutrina do calque (ER-0013/ER-0011), a ordem V-S do grego (comum em fórmulas de despedida epistolar) é normalizada para S-V no português corrido, mantida integralmente na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Saúda-te os filhos...' no publicado",
+          "motivo": "ordem V-S soa arcaica/artificial como abertura de frase em português contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "τῆς ἀδελφῆς σου τῆς ἐκλεκτῆς: mesma raiz ἐκλεκτ- de v.1 (ἐκλεκτῇ κυρίᾳ).",
+      "escolha": "'irmã eleita', preservando o mesmo termo 'eleita' usado em v.1 para consistência terminológica e para não apagar o paralelismo estrutural entre as duas menções.",
+      "justificativa": "EDITORIAL §11: consistência do mesmo lema (ἐκλεκτός) ao longo da carta; o paralelismo entre 'senhora eleita' (v.1) e 'irmã... eleita' (v.13) é dado literário do texto, relevante inclusive para a ambiguidade nome-próprio-vs-comum registrada em v.1.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula de despedida epistolar padrão; a menção final retoma o vocabulário de abertura ('eleita'), reforçando a leitura de que se trata de comunidades ('senhora'/'irmã') mais do que de duas mulheres nomeadas — ambiguidade já registrada em v.1, não reaberta aqui.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

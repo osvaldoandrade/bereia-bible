@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jas.4.9",
+    "livro": "Tiago",
+    "capitulo": 4,
+    "versiculo": 9,
+    "pericope": "Jas.4.1-17"
+  },
+  "texto_bv": "Que o riso de vocês se transforme em pranto, e a alegria, em abatimento.",
+  "traducao_literal": "O riso de vocês em pranto se transforme, e a alegria em abatimento [se transforme].",
+  "termos_originais": [
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "γέλως",
+      "lemma": "γέλως",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὑμῶν",
+      "lemma": "σύ",
+      "morfologia": "P-2GP"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πένθος",
+      "lemma": "πένθος",
+      "morfologia": "N-ASN"
+    },
+    {
+      "palavra": "μετατραπήτω",
+      "lemma": "μετατρέπω",
+      "morfologia": "V-2APM-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "χαρὰ",
+      "lemma": "χαρά",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "κατήφειαν",
+      "lemma": "κατήφεια",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Elipse do verbo μετατραπήτω na segunda oração (καὶ ἡ χαρὰ εἰς κατήφειαν).",
+      "escolha": "suprir o verbo elidido no texto publicado; marcá-lo entre colchetes na literal",
+      "justificativa": "EDITORIAL §4: elipse do original suprida apenas quando o português for agramatical sem isso — aqui é o caso.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "κατήφεια — 'tristeza' (genérico) ou termo mais específico?",
+      "escolha": "abatimento",
+      "justificativa": "κατήφεια denota especificamente o semblante/postura abatida (olhar baixo de vergonha ou luto), mais preciso que 'tristeza', que já cobriria o campo de πένθος na primeira metade do verso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tristeza",
+          "motivo": "redundante com 'pranto/πένθος' já usado na primeira oração paralela"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "se transforme (verbo elidido na segunda oração, μετατραπήτω subentendido)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Estrutura paralela (quiástica em conteúdo, não em ordem sintática) com verbo único regendo dois sujeitos coordenados.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

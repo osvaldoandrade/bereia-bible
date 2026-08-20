@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Pet.1.24",
+    "livro": "1 Pedro",
+    "capitulo": 1,
+    "versiculo": 24,
+    "pericope": "1Pet.1.1-25"
+  },
+  "texto_bv": "Porque toda carne é como a erva, e toda a sua glória, como a flor da erva; a erva seca, e a flor cai;",
+  "traducao_literal": "Porque toda carne [é] como erva, e toda glória dela como flor de erva; secou a erva, e a flor caiu;",
+  "termos_originais": [
+    {
+      "palavra": "διότι",
+      "lemma": "διότι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πᾶσα",
+      "lemma": "πᾶς",
+      "morfologia": "A-NSF"
+    },
+    {
+      "palavra": "σὰρξ",
+      "lemma": "σάρξ",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "χόρτος",
+      "lemma": "χόρτος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πᾶσα",
+      "lemma": "πᾶς",
+      "morfologia": "A-NSF"
+    },
+    {
+      "palavra": "δόξα",
+      "lemma": "δόξα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "αὐτῆς",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSF"
+    },
+    {
+      "palavra": "ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἄνθος",
+      "lemma": "ἄνθος",
+      "morfologia": "N-NSN"
+    },
+    {
+      "palavra": "χόρτου",
+      "lemma": "χόρτος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἐξηράνθη",
+      "lemma": "ξηραίνω",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "χόρτος",
+      "lemma": "χόρτος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSN"
+    },
+    {
+      "palavra": "ἄνθος",
+      "lemma": "ἄνθος",
+      "morfologia": "N-NSN"
+    },
+    {
+      "palavra": "ἐξέπεσεν",
+      "lemma": "ἐκπίπτω",
+      "morfologia": "V-2AAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "δόξα (aqui, seguindo a LXX) vs. חֶסֶד/'lealdade' na BV do AT em Is 40:6 (TM hebraico)",
+      "escolha": "'glória', seguindo estritamente o grego pinado (Nestle 1904), sem harmonizar com a tradução BV do AT baseada no TM",
+      "justificativa": "TEOLOGIA §2 proíbe harmonização artificial entre paralelos; a LXX (fonte da citação em 1Pe) já diverge do TM hebraico aqui, e a BV do NT segue sua própria fonte pinada (ADR-0003).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'lealdade' (harmonizando com Is 40:6 BV)",
+          "motivo": "importaria uma leitura do TM hebraico para dentro do texto grego que o autor de 1Pe está citando por sua própria fonte, a LXX"
+        }
+      ]
+    },
+    {
+      "questao": "ἐξέπεσεν — verbo diferente do 'murchar' usado na BV de Is 40:7-8 (que verte נָבֵל)",
+      "escolha": "'cai' (sentido literal de ἐκπίπτω, 'cair/desprender-se'), não 'murcha'",
+      "justificativa": "coerência com o verbo grego efetivamente presente na fonte pinada de 1Pe, distinto do verbo hebraico de Isaías.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula elíptica na primeira comparação nominal; a segunda mantém a elipse também em português, natural no paralelismo)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Citação de Is 40:6-7 (LXX), contrastando a fragilidade humana com a permanência da palavra de Deus, concluída no v.25.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

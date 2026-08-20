@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jas.5.6",
+    "livro": "Tiago",
+    "capitulo": 5,
+    "versiculo": 6,
+    "pericope": "Jas.5.1-20"
+  },
+  "texto_bv": "Vocês condenaram, assassinaram o justo; ele não resiste a vocês.",
+  "traducao_literal": "Condenastes, assassinastes o justo; não se opõe a vocês.",
+  "termos_originais": [
+    {
+      "palavra": "κατεδικάσατε",
+      "lemma": "καταδικάζω",
+      "morfologia": "V-AAI-2P"
+    },
+    {
+      "palavra": "ἐφονεύσατε",
+      "lemma": "φονεύω",
+      "morfologia": "V-AAI-2P"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "δίκαιον",
+      "lemma": "δίκαιος",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "οὐκ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἀντιτάσσεται",
+      "lemma": "ἀντιτάσσω",
+      "morfologia": "V-PEI-3S"
+    },
+    {
+      "palavra": "ὑμῖν",
+      "lemma": "σύ",
+      "morfologia": "P-2DP"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "τὸν δίκαιον — referente genérico/coletivo ou individual (leitura messiânica patrística)?",
+      "escolha": "mantido genérico/coletivo ('o justo' como figura representativa), sem retroprojeção messiânica",
+      "justificativa": "TEOLOGIA §2/§4 — o texto não codifica identificação cristológica explícita nesta passagem; retroprojetar seria importar exegese para dentro do texto",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o Justo' com maiúscula, referência a Cristo",
+          "motivo": "leitura patrística possível mas não exigida pela gramática; violaria a proibição de inserir implicação cristológica não codificada no texto-fonte (TEOLOGIA §2)"
+        }
+      ]
+    },
+    {
+      "questao": "discordância entre morph (V-PEI-3S) e func_morph (V-PMI-3S) em ἀντιτάσσεται",
+      "escolha": "mantida a leitura de voz média ('ele não resiste'), seguindo a resolução funcional do packet",
+      "justificativa": "MORFOLOGIA-NESTLE1904 regra 3 exige documentar, não nivelar silenciosamente, a discordância; a forma formal E (média-ou-passiva) é resolvida pelo func_morph para média",
+      "alternativas_rejeitedas": [],
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "voz passiva ('não lhe é oposto/resistido')",
+          "motivo": "sentido menos natural no contexto; a análise funcional da fonte pinada resolve a forma ambígua para média"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecha o oráculo de juízo com acusação de violência judicial/homicídio contra o inocente que não revida.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

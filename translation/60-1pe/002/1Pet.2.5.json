@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Pet.2.5",
+    "livro": "1 Pedro",
+    "capitulo": 2,
+    "versiculo": 5,
+    "pericope": "1Pet.2.1-25"
+  },
+  "texto_bv": "vocês também, como pedras vivas, estão sendo edificados como casa espiritual, para um sacerdócio santo, a fim de oferecer sacrifícios espirituais aceitáveis a Deus por meio de Jesus Cristo.",
+  "traducao_literal": "e vocês mesmos, como pedras vivas, sois edificados casa espiritual, para sacerdócio santo, para oferecer sacrifícios espirituais aceitáveis a Deus por meio de Jesus Cristo.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "αὐτοὶ",
+      "lemma": "αὐτός",
+      "morfologia": "P-NPM"
+    },
+    {
+      "palavra": "ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "λίθοι",
+      "lemma": "λίθος",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "ζῶντες",
+      "lemma": "ζάω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "οἰκοδομεῖσθε",
+      "lemma": "οἰκοδομέω",
+      "morfologia": "V-PEI-2P"
+    },
+    {
+      "palavra": "οἶκος",
+      "lemma": "οἶκος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "πνευματικὸς",
+      "lemma": "πνευματικός",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἱεράτευμα",
+      "lemma": "ἱεράτευμα",
+      "morfologia": "N-ASN"
+    },
+    {
+      "palavra": "ἅγιον",
+      "lemma": "ἅγιος",
+      "morfologia": "A-ASN"
+    },
+    {
+      "palavra": "ἀνενέγκαι",
+      "lemma": "ἀναφέρω",
+      "morfologia": "V-AAN"
+    },
+    {
+      "palavra": "πνευματικὰς",
+      "lemma": "πνευματικός",
+      "morfologia": "A-APF"
+    },
+    {
+      "palavra": "θυσίας",
+      "lemma": "θυσία",
+      "morfologia": "N-APF"
+    },
+    {
+      "palavra": "εὐπροσδέκτους",
+      "lemma": "εὐπρόσδεκτος",
+      "morfologia": "A-APF"
+    },
+    {
+      "palavra": "Θεῷ",
+      "lemma": "θεός",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "διὰ",
+      "lemma": "διά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Χριστοῦ",
+      "lemma": "Χριστός",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "οἰκοδομεῖσθε — forma idêntica para indicativo e imperativo presente passivo 2ª pl.",
+      "escolha": "indicativo ('estão sendo edificados'), seguindo o func_morph V-PPI-2P do packet",
+      "justificativa": "O packet anota func_morph indicativo; mantém-se a leitura descritiva, coerente com o indicativo predominante da perícope (2:9-10).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "imperativo ('sejam edificados')",
+          "motivo": "gramaticalmente possível (forma idêntica), mas o func_morph do packet aponta indicativo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "como (antes de 'casa espiritual' — predicativo nominal sem preposição no grego)"
+  ],
+  "ambiguidades_preservadas": [
+    "οἰκοδομεῖσθε pode ser lido como imperativo ('sejam edificados'), já que a forma grega é idêntica ao indicativo"
+  ],
+  "justificativa": "Aplica a metáfora da pedra viva (2:4) coletivamente à comunidade, com linguagem sacerdotal (Êx 19:6).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Pet.1.16",
+    "livro": "1 Pedro",
+    "capitulo": 1,
+    "versiculo": 16,
+    "pericope": "1Pet.1.1-25"
+  },
+  "texto_bv": "porque está escrito: “Sejam santos, porque eu sou santo.”",
+  "traducao_literal": "porque está escrito: Santos sereis, porque eu santo.",
+  "termos_originais": [
+    {
+      "palavra": "διότι",
+      "lemma": "διότι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "γέγραπται",
+      "lemma": "γράφω",
+      "morfologia": "V-RPI-3S"
+    },
+    {
+      "palavra": "Ἅγιοι",
+      "lemma": "ἅγιος",
+      "morfologia": "A-NPM"
+    },
+    {
+      "palavra": "ἔσεσθε",
+      "lemma": "εἰμί",
+      "morfologia": "V-FDI-2P"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐγὼ",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1NS"
+    },
+    {
+      "palavra": "ἅγιος",
+      "lemma": "ἅγιος",
+      "morfologia": "A-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "citação de Lv 19:2 (LXX), mais curta que o texto hebraico já fixado na BV do AT",
+      "escolha": "'Sejam santos, porque eu sou santo' — ecoa a fórmula já fixada na BV de Lv 19:2, mas sem a cláusula 'SENHOR, o Deus de vocês', ausente na citação grega",
+      "justificativa": "TEOLOGIA §2 proíbe harmonização artificial entre paralelos; aqui é o próprio autor petrino quem cita e abrevia Lv 19:2 — a BV segue fielmente o texto grego pinado de 1Pe, sem reinserir a cláusula ausente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "expandir a citação para igualar Lv 19:2 integralmente",
+          "motivo": "importaria texto que o grego de 1Pe não contém, violando a proibição de harmonização artificial"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sou (verbo elíptico em 'ἐγὼ ἅγιος', oração nominal grega)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fundamenta o imperativo do v.15 na citação escriturística; γέγραπται ('está escrito') marca a citação como autoridade do AT.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

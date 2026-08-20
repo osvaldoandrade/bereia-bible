@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "3John.1.1",
+    "livro": "3 João",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "3John.1.1-15"
+  },
+  "texto_bv": "O ancião, ao amado Gaio, a quem eu amo em verdade.",
+  "traducao_literal": "O ancião, a Gaio o amado, a quem eu amo em verdade.",
+  "termos_originais": [
+    {
+      "palavra": "Ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "πρεσβύτερος",
+      "lemma": "πρεσβύτερος",
+      "morfologia": "A-NSM-C"
+    },
+    {
+      "palavra": "Γαΐῳ",
+      "lemma": "Γάϊος",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "ἀγαπητῷ",
+      "lemma": "ἀγαπητός",
+      "morfologia": "A-DSM"
+    },
+    {
+      "palavra": "ὃν",
+      "lemma": "ὅς",
+      "morfologia": "R-ASM"
+    },
+    {
+      "palavra": "ἐγὼ",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1NS"
+    },
+    {
+      "palavra": "ἀγαπῶ",
+      "lemma": "ἀγαπάω",
+      "morfologia": "V-PAI-1S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἀληθείᾳ",
+      "lemma": "ἀλήθεια",
+      "morfologia": "N-DSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "πρεσβύτερος: 'ancião' ou 'presbítero'?",
+      "escolha": "ancião",
+      "justificativa": "Glosa lexical simples do comparativo substantivado πρεσβύτερος ('mais velho/ancião'); evita importar o sentido de ofício eclesiástico posterior que 'presbítero' carrega em tradições que usam esse termo como cargo formal (TEOLOGIA §2, proibição de importar exegese/carga doutrinária para o texto).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "presbítero",
+          "motivo": "transliteração cognata que soa como título de ofício formal em certas tradições eclesiásticas; risco de carga doutrinária não codificada no lexema simples"
+        }
+      ]
+    },
+    {
+      "questao": "ἐν ἀληθείᾳ: advérbio ('verdadeiramente') ou termo técnico joanino ('a verdade')?",
+      "escolha": "em verdade (leitura como termo técnico joanino, não mero advérbio de sinceridade)",
+      "justificativa": "ἀλήθεια é tema recorrente em 3 João (vv. 1,3,4,8,12) com uso técnico joanino referente à verdade do evangelho/comunhão cristã, não apenas 'sinceramente'; mantida a mesma glosa 'verdade' ao longo do capítulo para preservar a rede lexical (TEOLOGIA §3.2 — a escolha sobrevive ao uso do mesmo lexema no resto do corpus).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "verdadeiramente",
+          "motivo": "reduz o substantivo a mero advérbio de modo, apagando o possível sentido técnico joanino"
+        },
+        {
+          "opcao": "na verdade",
+          "motivo": "colide em português com o marcador discursivo coloquial 'na verdade' (= 'aliás/de fato'), gerando ambiguidade indesejada"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "ἐν ἀληθείᾳ pode ler-se como 'verdadeiramente' (modo) ou como 'na verdade [do evangelho]' (termo técnico); ambas plausíveis, preservadas sob a glosa neutra 'em verdade'."
+  ],
+  "justificativa": "Fórmula de abertura epistolar sem verbo finito no original (endereçamento), preservada sem verbo suprido também no publicado, como no grego.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jas.3.9",
+    "livro": "Tiago",
+    "capitulo": 3,
+    "versiculo": 9,
+    "pericope": "Jas.3.1-18"
+  },
+  "texto_bv": "Com ela bendizemos o Senhor e Pai, e com ela amaldiçoamos os seres humanos, feitos à semelhança de Deus.",
+  "traducao_literal": "Com ela bendizemos o Senhor e Pai, e com ela amaldiçoamos os homens, os que segundo a semelhança de Deus vieram a ser;",
+  "termos_originais": [
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτῇ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSF"
+    },
+    {
+      "palavra": "εὐλογοῦμεν",
+      "lemma": "εὐλογέω",
+      "morfologia": "V-PAI-1P"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "Κύριον",
+      "lemma": "κύριος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Πατέρα",
+      "lemma": "πατήρ",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτῇ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSF"
+    },
+    {
+      "palavra": "καταρώμεθα",
+      "lemma": "καταράομαι",
+      "morfologia": "V-PNI-1P"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "ἀνθρώπους",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "καθ’",
+      "lemma": "κατά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ὁμοίωσιν",
+      "lemma": "ὁμοίωσις",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "γεγονότας",
+      "lemma": "γίνομαι",
+      "morfologia": "V-2RAP-APM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Κύριον καὶ Πατέρα — aplicação da política de nomes divinos (κύριος → Senhor).",
+      "escolha": "Senhor e Pai",
+      "justificativa": "NOMES-DIVINOS.md (ER-0002): κύριος (NT) → Senhor (G2962); aqui em referência inequívoca a Deus, coordenado com Πατέρα.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "γεγονότας (particípio perfeito de γίνομαι, 'vir a ser') vs. equivalência com ποιέω/κτίζω ('fazer'/'criar').",
+      "escolha": "feitos (no publicado); 'que vieram a ser' preservado na literal",
+      "justificativa": "O grego usa γίνομαι, não ποιέω nem κτίζω — eco de Gn 1:26 LXX καθ' ὁμοίωσιν, que também emprega vocabulário de devir; o publicado normaliza para 'feitos' por naturalidade, mas a literal preserva o verbo de devir para não apagar a nuance, em paralelo à distinção criar/fazer do AT (EDITORIAL/TEOLOGIA).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "criados",
+          "motivo": "importaria o campo lexical de ברא/κτίζω, ausente no texto grego, que usa γίνομαι"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Contraste central da perícope (bendizer/amaldiçoar com a mesma língua); καθ’ ὁμοίωσιν Θεοῦ ecoa Gênesis 1:26 LXX, fundamentando teologicamente a incoerência denunciada nos vv.9-10 sem que a BV precise reforçar esse elo além do que o texto already codifica.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

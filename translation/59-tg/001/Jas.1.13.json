@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jas.1.13",
+    "livro": "Tiago",
+    "capitulo": 1,
+    "versiculo": 13,
+    "pericope": "Jas.1.1-27"
+  },
+  "texto_bv": "Ninguém, ao ser tentado, diga: \"Estou sendo tentado por Deus\"; pois Deus não pode ser tentado pelo mal, e ele mesmo não tenta a ninguém.",
+  "traducao_literal": "Ninguém, sendo tentado, diga que da parte de Deus é tentado; pois Deus intentável quanto ao mal é, e tenta ele mesmo a ninguém.",
+  "termos_originais": [
+    {
+      "palavra": "Μηδεὶς",
+      "lemma": "μηδείς",
+      "morfologia": "A-NSM-N"
+    },
+    {
+      "palavra": "πειραζόμενος",
+      "lemma": "πειράζω",
+      "morfologia": "V-PEP-NSM"
+    },
+    {
+      "palavra": "λεγέτω",
+      "lemma": "λέγω",
+      "morfologia": "V-PAM-3S"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἀπὸ",
+      "lemma": "ἀπό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "πειράζομαι",
+      "lemma": "πειράζω",
+      "morfologia": "V-PEI-1S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Θεὸς",
+      "lemma": "θεός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἀπείραστός",
+      "lemma": "ἀπείραστος",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "κακῶν",
+      "lemma": "κακός",
+      "morfologia": "A-GPN"
+    },
+    {
+      "palavra": "πειράζει",
+      "lemma": "πειράζω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "αὐτὸς",
+      "lemma": "αὐτός",
+      "morfologia": "P-NSM"
+    },
+    {
+      "palavra": "οὐδένα",
+      "lemma": "οὐδείς",
+      "morfologia": "A-ASM-N"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como tratar a guinada semântica de πειράζω/πειρασμός entre vv.2-12 ('provação', sentido positivo) e vv.13-15 ('tentação ao pecado', sentido negativo)?",
+      "escolha": "traduzir com duas famílias de palavras distintas em português ('provação' vs 'tentação'), documentando a perda do jogo de palavras grego",
+      "justificativa": "o grego explora deliberadamente a ambiguidade da mesma raiz para fazer a transição retórica do capítulo (de teste externo a sedução interna); o português não tem uma única palavra que cubra os dois sentidos sem soar teologicamente equivocada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "usar 'provação' também em 1:13-15, por uniformidade lexical estrita",
+          "motivo": "produziria sentido teologicamente incorreto — o texto nega que Deus 'tente ao pecado', não que Deus 'não prove' ninguém (cf. Gn 22:1 LXX, onde o mesmo verbo é usado para Deus testar Abraão)"
+        }
+      ]
+    },
+    {
+      "questao": "ἀπείραστός ἐστιν κακῶν (hapax legomenon): 'não pode ser tentado pelo mal' ou 'não tem experiência do mal'?",
+      "escolha": "não pode ser tentado pelo mal",
+      "justificativa": "leitura majoritária nos léxicos modernos, ligando ἀπείραστος à raiz de πειράζω (tentar); mantém a coerência argumentativa do verso (Deus não tenta porque não pode ser tentado).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'é estranho ao mal / não tem experiência do mal'",
+          "motivo": "leitura minoritária, ligando o termo à raiz πεῖρα ('experiência'); gramaticalmente possível dado tratar-se de hapax legomenon sem paralelo de uso decisivo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Discurso direto marcado com aspas duplas curvas conforme ER-0004.",
+  "confianca": 0.71,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Jas.3.5",
+    "livro": "Tiago",
+    "capitulo": 3,
+    "versiculo": 5,
+    "pericope": "Jas.3.1-18"
+  },
+  "texto_bv": "Assim também a língua é um pequeno membro, mas se vangloria de grandes coisas. Vejam: um fogo pequeno incendeia uma floresta imensa!",
+  "traducao_literal": "Assim também a língua pequeno membro é e grandes coisas se gaba; eis quão grande fogo, quão grande matéria acende.",
+  "termos_originais": [
+    {
+      "palavra": "οὕτως",
+      "lemma": "οὕτω",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "γλῶσσα",
+      "lemma": "γλῶσσα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "μικρὸν",
+      "lemma": "μικρός",
+      "morfologia": "A-NSN"
+    },
+    {
+      "palavra": "μέλος",
+      "lemma": "μέλος",
+      "morfologia": "N-NSN"
+    },
+    {
+      "palavra": "ἐστὶν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μεγάλα",
+      "lemma": "μέγας",
+      "morfologia": "A-APN"
+    },
+    {
+      "palavra": "αὐχεῖ",
+      "lemma": "αὐχέω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἰδοὺ",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AMM-2S"
+    },
+    {
+      "palavra": "ἡλίκον",
+      "lemma": "ἡλίκος",
+      "morfologia": "A-NSN"
+    },
+    {
+      "palavra": "πῦρ",
+      "lemma": "πῦρ",
+      "morfologia": "N-NSN"
+    },
+    {
+      "palavra": "ἡλίκην",
+      "lemma": "ἡλίκος",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "ὕλην",
+      "lemma": "ὕλη",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἀνάπτει",
+      "lemma": "ἀνάπτω",
+      "morfologia": "V-PAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἡλίκον πῦρ ἡλίκην ὕλην — o mesmo pronome relativo de grau ἡλίκος ('de que tamanho') repetido; o grego não marca explicitamente 'pequeno' de um lado e 'grande' do outro.",
+      "escolha": "quão pequeno fogo incendeia quão grande floresta (assimetria interpretativa no publicado)",
+      "justificativa": "ἡλίκος é ambíguo entre 'grande' e 'pequeno'; o contexto imediato (língua = μικρὸν μέλος, 'pequeno membro') e a tradição interpretativa (KJV 'a little fire kindleth', ARA) resolvem a assimetria para o efeito retórico do parágrafo — algo pequeno causando efeito desproporcional. A traducao_literal preserva a repetição simétrica do mesmo termo, sem resolver a assimetria (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "quão grande fogo, quão grande floresta (simétrico)",
+          "motivo": "gramaticalmente possível, mas esvazia o paradoxo retórico que o parágrafo constrói (instrumento pequeno, efeito grande)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "ἡλίκος não lexicaliza 'grande' ou 'pequeno' por si mesmo; a leitura contrastiva do publicado é interpretativa e não está resolvida pela gramática isolada — a traducao_literal mantém o mesmo termo repetido nos dois membros."
+  ],
+  "justificativa": "οὕτως καὶ retoma explicitamente as duas metáforas anteriores (freio, leme) e as aplica à língua; ὕλην ('matéria/mato/floresta') traduzido por 'floresta' por ajustar-se ao campo semântico de incêndio.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

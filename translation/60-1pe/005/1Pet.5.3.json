@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Pet.5.3",
+    "livro": "1 Pedro",
+    "capitulo": 5,
+    "versiculo": 3,
+    "pericope": "1Pet.5.1-14"
+  },
+  "texto_bv": "nem dominando os que lhes foram confiados, mas sendo exemplos para o rebanho:",
+  "traducao_literal": "nem como dominando os quinhões, mas tornando-se modelos do rebanho:",
+  "termos_originais": [
+    {
+      "palavra": "μηδ’",
+      "lemma": "μηδέ",
+      "morfologia": "CONJ-N"
+    },
+    {
+      "palavra": "ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "κατακυριεύοντες",
+      "lemma": "κατακυριεύω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPM"
+    },
+    {
+      "palavra": "κλήρων",
+      "lemma": "κλῆρος",
+      "morfologia": "N-GPM"
+    },
+    {
+      "palavra": "ἀλλὰ",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τύποι",
+      "lemma": "τύπος",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "γινόμενοι",
+      "lemma": "γίνομαι",
+      "morfologia": "V-PNP-NPM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSN"
+    },
+    {
+      "palavra": "ποιμνίου",
+      "lemma": "ποίμνιον",
+      "morfologia": "N-GSN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Como verter τῶν κλήρων (\"quinhões, porções, lotes\")?",
+      "escolha": "os que lhes foram confiados",
+      "justificativa": "Em contexto pastoral, κλῆρος designa a porção do rebanho sob a responsabilidade de cada ancião (uso lexical atestado, não anacronismo eclesiástico de \"clero\"); \"os que lhes foram confiados\" comunica esse sentido ao leitor contemporâneo sem obscuridade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "quinhões/porções",
+          "motivo": "mais literal, mas opaco para o leitor comum; preservado na traducao_literal"
+        },
+        {
+          "opcao": "clero",
+          "motivo": "anacronismo — o sentido institucional posterior da palavra não está codificado no texto de Pedro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "κλήρων interpretado como \"os que lhes foram confiados\" por valor lexical pastoral, sem resolver se o escopo é indivíduos ou congregações inteiras."
+  ],
+  "justificativa": "Continuação da instrução aos anciãos: liderança por exemplo, não por dominação sobre os que estão sob seus cuidados.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
