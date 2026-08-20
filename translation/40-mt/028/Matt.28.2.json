@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.28.2",
+    "livro": "Mateus",
+    "capitulo": 28,
+    "versiculo": 2,
+    "pericope": "Matt.28.1-20"
+  },
+  "texto_bv": "E eis que houve um grande terremoto, pois um anjo do Senhor desceu do céu, aproximou-se, removeu a pedra e ficou sentado sobre ela.",
+  "traducao_literal": "E eis, houve um tremor grande; pois um anjo de Senhor, tendo descido do céu e tendo se aproximado, rolou a pedra e estava sentado sobre ela.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἰδοὺ",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AMM-2S"
+    },
+    {
+      "palavra": "σεισμὸς",
+      "lemma": "σεισμός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐγένετο",
+      "lemma": "γίνομαι",
+      "morfologia": "V-2ADI-3S"
+    },
+    {
+      "palavra": "μέγας",
+      "lemma": "μέγας",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ἄγγελος",
+      "lemma": "ἄγγελος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Κυρίου",
+      "lemma": "κύριος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "καταβὰς",
+      "lemma": "καταβαίνω",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "ἐξ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "οὐρανοῦ",
+      "lemma": "οὐρανός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "προσελθὼν",
+      "lemma": "προσέρχομαι",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "ἀπεκύλισεν",
+      "lemma": "ἀποκυλίω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "λίθον",
+      "lemma": "λίθος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐκάθητο",
+      "lemma": "κάθημαι",
+      "morfologia": "V-INI-3S"
+    },
+    {
+      "palavra": "ἐπάνω",
+      "lemma": "ἐπάνω",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἄγγελος Κυρίου (anártrico) — grau de determinação",
+      "escolha": "\"um anjo do Senhor\" (indefinido, preservando a ausência de artigo grego)",
+      "justificativa": "O grego não traz artigo diante de ἄγγελος; manter o indefinido evita superdeterminação ausente do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"o anjo do Senhor\"",
+          "motivo": "introduziria definitude que o grego anártrico não expressa neste ponto"
+        }
+      ]
+    },
+    {
+      "questao": "Κύριος (NT) — nome divino",
+      "escolha": "\"Senhor\" conforme NOMES-DIVINOS.md (κύριος NT → Senhor, ER-0002)",
+      "justificativa": "Política fixada para o corpus do NT.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "ἐκάθητο (imperfeito) — aspecto durativo",
+      "escolha": "\"ficou sentado\" (preserva o valor durativo/estativo do imperfeito)",
+      "justificativa": "O imperfeito grego marca estado contínuo, distinto de um simples \"sentou-se\" pontual.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"sentou-se\"",
+          "motivo": "aspecto pontual, apaga a nuance durativa do imperfeito"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Descrição da ação do anjo; principais decisões são de aspecto verbal (imperfeito) e de determinação do sintagma \"anjo do Senhor\".",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

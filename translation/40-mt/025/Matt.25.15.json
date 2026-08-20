@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.25.15",
+    "livro": "Mateus",
+    "capitulo": 25,
+    "versiculo": 15,
+    "pericope": "Matt.25.1-46"
+  },
+  "texto_bv": "e deu a um cinco talentos, a outro dois, e a outro um — a cada um segundo a sua própria capacidade —, e partiu de viagem. Em seguida,",
+  "traducao_literal": "e a um deu cinco talentos, a outro dois, a outro um, a cada um segundo a sua própria capacidade; e partiu para fora. Imediatamente,",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ᾧ",
+      "lemma": "ὅς",
+      "morfologia": "R-DSM"
+    },
+    {
+      "palavra": "μὲν",
+      "lemma": "μέν",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "ἔδωκεν",
+      "lemma": "δίδωμι",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "πέντε",
+      "lemma": "πέντε",
+      "morfologia": "A-NUI"
+    },
+    {
+      "palavra": "τάλαντα",
+      "lemma": "τάλαντον",
+      "morfologia": "N-APN"
+    },
+    {
+      "palavra": "ᾧ",
+      "lemma": "ὅς",
+      "morfologia": "R-DSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "δύο",
+      "lemma": "δύο",
+      "morfologia": "A-NUI"
+    },
+    {
+      "palavra": "ᾧ",
+      "lemma": "ὅς",
+      "morfologia": "R-DSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἕν",
+      "lemma": "εἷς",
+      "morfologia": "A-ASN"
+    },
+    {
+      "palavra": "ἑκάστῳ",
+      "lemma": "ἕκαστος",
+      "morfologia": "A-DSM"
+    },
+    {
+      "palavra": "κατὰ",
+      "lemma": "κατά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "ἰδίαν",
+      "lemma": "ἴδιος",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "δύναμιν",
+      "lemma": "δύναμις",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀπεδήμησεν",
+      "lemma": "ἀποδημέω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "Εὐθέως",
+      "lemma": "εὐθέως",
+      "morfologia": "ADV"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Fronteira de versículo no meio de uma única oração grega (Εὐθέως fica ao final de 25:15 no packet pinado, não no início de 25:16)",
+      "escolha": "Seguir exatamente a fronteira do OSIS pinado no packet, deixando o registro de 25:15 terminar com 'Em seguida,' e o de 25:16 continuar a mesma frase.",
+      "justificativa": "Instrução do pipeline: traduzir exatamente os versículos do packet cego sem reagrupar por inferência; a autoridade textual pinada (Nestle1904.csv) determina essa fronteira específica, ainda que edições impressas usuais abram o v.16 com 'Imediatamente'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Mover 'Εὐθέως' para o início do registro de 25:16, como fazem edições impressas comuns",
+          "motivo": "Reagruparia palavras entre OSIS diferentes por inferência editorial, contrariando a fidelidade estrita ao packet pinado (MORFOLOGIA-NESTLE1904.md regra 5-6)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A quebra de versículo entre 25:15 e 25:16 no meio de uma única oração grega é preservada tal como no packet pinado, não harmonizada com a versificação tradicional impressa mais comum."
+  ],
+  "justificativa": "τάλαντον mantido como transliteração consolidada ('talento'), medida antiga não convertida no texto (EDITORIAL §7).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

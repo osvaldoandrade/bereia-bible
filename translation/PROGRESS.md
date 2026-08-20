@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 23769/31155 versículos.**
+**Total Bíblia sourced: 24281/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1129,7 +1129,7 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 2 | 17 | ● 17/17 [DRAFT] |
 | 3 | 24 | ● 24/24 [DRAFT] |
 
-## Mateus — 556/1068 versículos (52.1%), 28 capítulos
+## Mateus — 1068/1068 versículos (100.0%), 28 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -1149,18 +1149,18 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 14 | 36 | ● 36/36 [DRAFT] |
 | 15 | 39 | ● 39/39 [DRAFT] |
 | 16 | 28 | ● 28/28 [DRAFT] |
-| 17 | 26 | · pendente |
-| 18 | 34 | · pendente |
-| 19 | 30 | · pendente |
-| 20 | 34 | · pendente |
-| 21 | 46 | · pendente |
-| 22 | 46 | · pendente |
-| 23 | 38 | · pendente |
-| 24 | 51 | · pendente |
-| 25 | 46 | · pendente |
-| 26 | 75 | · pendente |
-| 27 | 66 | · pendente |
-| 28 | 20 | · pendente |
+| 17 | 26 | ● 26/26 [DRAFT] |
+| 18 | 34 | ● 34/34 [DRAFT] |
+| 19 | 30 | ● 30/30 [DRAFT] |
+| 20 | 34 | ● 34/34 [DRAFT] |
+| 21 | 46 | ● 46/46 [DRAFT] |
+| 22 | 46 | ● 46/46 [DRAFT] |
+| 23 | 38 | ● 38/38 [DRAFT] |
+| 24 | 51 | ● 51/51 [DRAFT] |
+| 25 | 46 | ● 46/46 [DRAFT] |
+| 26 | 75 | ● 75/75 [DRAFT] |
+| 27 | 66 | ● 66/66 [DRAFT] |
+| 28 | 20 | ● 20/20 [DRAFT] |
 
 ## Marcos — 0/673 versículos (0.0%), 16 capítulos
 

@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.25.14",
+    "livro": "Mateus",
+    "capitulo": 25,
+    "versiculo": 14,
+    "pericope": "Matt.25.1-46"
+  },
+  "texto_bv": "Pois é como um homem que, partindo em viagem, chamou os seus servos e lhes confiou os seus bens,",
+  "traducao_literal": "Pois é como um homem que, partindo para fora, chamou os seus próprios servos e lhes entregou os seus bens,",
+  "termos_originais": [
+    {
+      "palavra": "Ὥσπερ",
+      "lemma": "ὥσπερ",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἄνθρωπος",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἀποδημῶν",
+      "lemma": "ἀποδημέω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "ἐκάλεσεν",
+      "lemma": "καλέω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "ἰδίους",
+      "lemma": "ἴδιος",
+      "morfologia": "A-APM"
+    },
+    {
+      "palavra": "δούλους",
+      "lemma": "δοῦλος (II)",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "παρέδωκεν",
+      "lemma": "παραδίδωμι",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "αὐτοῖς",
+      "lemma": "αὐτός",
+      "morfologia": "P-DPM"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-APN"
+    },
+    {
+      "palavra": "ὑπάρχοντα",
+      "lemma": "ὑπάρχω",
+      "morfologia": "V-PAP-APN"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ὥσπερ γάρ sem verbo principal explícito (retoma a comparação de v.1)",
+      "escolha": "Suprir implicitamente 'é' (verbo de comparação) no publicado e na literal, retomando ὁμοιωθήσεται de v.1.",
+      "justificativa": "O grego usa comparação elíptica apoiada no contexto amplo do capítulo; o português exige um verbo copulativo mínimo para a oração ficar gramatical.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Traduzir sem verbo copulativo ('Pois como um homem...')",
+          "motivo": "Agramatical em português corrido"
+        }
+      ]
+    },
+    {
+      "questao": "παραδίδωμι — 'entregar/confiar'",
+      "escolha": "'confiou' no publicado; 'entregou' na literal",
+      "justificativa": "'Confiar' capta a nuance de depósito de confiança presente no contexto da parábola (bens deixados sob responsabilidade), mantendo consistência com o mesmo verbo em v.20/22.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'entregou' também no publicado",
+          "motivo": "Correto, porém menos expressivo da relação de confiança que estrutura a parábola"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (verbo de comparação retomado elipticamente de v.1)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura da parábola dos talentos; δοῦλος vertido 'servo', reaproveitando o padrão já fixado no corpus (cf. Mt 8:6; 10:24).",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

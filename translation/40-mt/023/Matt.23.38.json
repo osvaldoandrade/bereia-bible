@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.23.38",
+    "livro": "Mateus",
+    "capitulo": 23,
+    "versiculo": 38,
+    "pericope": "Matt.23.1-39"
+  },
+  "texto_bv": "Eis que a casa de vocês fica abandonada.",
+  "traducao_literal": "Eis que a vossa casa vos é deixada.",
+  "termos_originais": [
+    {
+      "palavra": "ἰδοὺ",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AMM-2S"
+    },
+    {
+      "palavra": "ἀφίεται",
+      "lemma": "ἀφίημι",
+      "morfologia": "V-PEI-3S"
+    },
+    {
+      "palavra": "ὑμῖν",
+      "lemma": "σύ",
+      "morfologia": "P-2DP"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "οἶκος",
+      "lemma": "οἶκος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὑμῶν",
+      "lemma": "σύ",
+      "morfologia": "P-2GP"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν — dativo ὑμῖν redundante com genitivo ὑμῶν",
+      "escolha": "condensar em 'a casa de vocês fica abandonada'",
+      "justificativa": "o dativo ὑμῖν ('a vocês', marcando o destinatário do abandono) é redundante em português com 'de vocês' (posse); condensado no publicado para evitar repetição artificial ('a casa de vocês é deixada a vocês'), mas preservado como dativo distinto na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "reproduzir ambos os pronomes ('a vossa casa vos é deixada a vós')",
+          "motivo": "redundância que soa artificial em português, sem ganho semântico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "O Nestle 1904 (autoridade textual pinada, ER-0018) não traz o adjetivo 'ἔρημος' ('deserta/desolada') presente na tradição bizantina majoritária depois de 'ὁ οἶκος ὑμῶν'; a BV segue estritamente o texto do packet, sem inserir a palavra ausente. ἀφίεται ('é deixada/abandonada') já comunica o sentido de abandono divino do templo/cidade mesmo sem o adjetivo.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

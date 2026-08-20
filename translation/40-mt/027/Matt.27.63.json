@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.27.63",
+    "livro": "Mateus",
+    "capitulo": 27,
+    "versiculo": 63,
+    "pericope": "Matt.27.1-66"
+  },
+  "texto_bv": "dizendo: \"Senhor, lembramo-nos de que aquele enganador disse, quando ainda vivia: 'Depois de três dias serei ressuscitado.'\"",
+  "traducao_literal": "dizendo: Senhor, lembramo-nos que aquele enganador disse, ainda vivendo: Depois de três dias sou levantado.",
+  "termos_originais": [
+    {
+      "palavra": "λέγοντες",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "Κύριε",
+      "lemma": "κύριος",
+      "morfologia": "N-VSM"
+    },
+    {
+      "palavra": "ἐμνήσθημεν",
+      "lemma": "μιμνῄσκω",
+      "morfologia": "V-API-1P"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐκεῖνος",
+      "lemma": "ἐκεῖνος",
+      "morfologia": "D-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "πλάνος",
+      "lemma": "πλάνος",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "εἶπεν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "ἔτι",
+      "lemma": "ἔτι",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ζῶν",
+      "lemma": "ζάω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "Μετὰ",
+      "lemma": "μετά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τρεῖς",
+      "lemma": "τρεῖς",
+      "morfologia": "A-APF"
+    },
+    {
+      "palavra": "ἡμέρας",
+      "lemma": "ἡμέρα",
+      "morfologia": "N-APF"
+    },
+    {
+      "palavra": "ἐγείρομαι",
+      "lemma": "ἐγείρω",
+      "morfologia": "V-PEI-1S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "κύριε — vocativo dos sacerdotes a Pilatos",
+      "escolha": "'Senhor' (tratamento respeitoso secular, dirigido a Pilatos)",
+      "justificativa": "Vocativo de cortesia romana dirigido ao governador, sentido distinto do nome divino κύριος (G2962, política NOMES-DIVINOS) reservado a referências a Deus/Cristo; aqui não há referente divino.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "grafar minúsculo para evitar confusão com o título divino",
+          "motivo": "'Senhor' maiúsculo é a convenção pt-BR padrão para tratamento respeitoso a autoridade, independentemente do referente; o contexto (dirigido a Pilatos) desambigua"
+        }
+      ]
+    },
+    {
+      "questao": "ἐγείρομαι — voz média/passiva na fala citada de Jesus",
+      "escolha": "'serei ressuscitado' (leitura funcional passiva, conforme func_morph do pacote)",
+      "justificativa": "Forma morfologicamente média, funcionalmente passiva; a leitura passiva ('serei levantado [por Deus]') é a mais corrente para este verbo nas predições da paixão; a alternativa (média, 'ressurgirei por conta própria') é registrada como leitura possível não excluída.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ressurgirei' (leitura média, agência própria)",
+          "motivo": "gramaticalmente possível dada a identidade de forma médio-passiva, mas menos frequente na tradição de leitura desta fórmula"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "ἐγείρομαι (forma médio-passiva idêntica) admite 'serei ressuscitado' (agente divino) e 'ressurgirei' (agência própria); a BV opta pela leitura passiva, registrando a alternativa."
+  ],
+  "justificativa": "Citação indireta da predição da paixão de Jesus, atribuída pelos sacerdotes.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

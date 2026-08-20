@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.19.3",
+    "livro": "Mateus",
+    "capitulo": 19,
+    "versiculo": 3,
+    "pericope": "Matt.19.1-30"
+  },
+  "texto_bv": "Fariseus se aproximaram dele, pondo-o à prova, e perguntaram: \"É lícito a um homem divorciar-se de sua mulher por qualquer motivo?\"",
+  "traducao_literal": "E se aproximaram dele fariseus, testando-o e dizendo: Se é lícito divorciar-se da sua mulher por toda causa?",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "προσῆλθον",
+      "lemma": "προσέρχομαι",
+      "morfologia": "V-2AAI-3P"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    },
+    {
+      "palavra": "Φαρισαῖοι",
+      "lemma": "Φαρισαῖος",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "πειράζοντες",
+      "lemma": "πειράζω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "αὐτὸν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "λέγοντες",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "Εἰ",
+      "lemma": "εἰ",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "ἔξεστιν",
+      "lemma": "ἔξεστι(ν)",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἀπολῦσαι",
+      "lemma": "ἀπολύω",
+      "morfologia": "V-AAN"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "γυναῖκα",
+      "lemma": "γυνή",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "κατὰ",
+      "lemma": "κατά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πᾶσαν",
+      "lemma": "πᾶς",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "αἰτίαν",
+      "lemma": "αἰτία",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Εἰ ἔξεστιν — εἰ interrogativo introduzindo pergunta direta (semitismo sintático via LXX), não condicional 'se'",
+      "escolha": "traduzir como pergunta direta sem 'se': 'É lícito...?'",
+      "justificativa": "εἰ + indicativo em abertura de discurso direto é fórmula de pergunta no grego bíblico, calco do הֲ interrogativo hebraico; o publicado normaliza, a literal preserva 'Se é lícito' (ER-0013)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Se é lícito...' no publicado",
+          "motivo": "soa como prótase condicional inacabada em português, obscurecendo a pergunta direta"
+        }
+      ]
+    },
+    {
+      "questao": "ἀπολῦσαι τὴν γυναῖκα αὐτοῦ — infinitivo sem sujeito expresso",
+      "escolha": "'a um homem divorciar-se de sua mulher' (sujeito suprido)",
+      "justificativa": "o infinitivo grego não tem sujeito formal; o português exige um agente explícito para o divórcio, papel que no debate rabínico (cf. Dt 24:1) cabe ao marido",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'divorciar a sua mulher' sem sujeito",
+          "motivo": "agramatical/ambíguo em português sobre quem divorcia quem"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a um homem (sujeito do infinitivo ἀπολῦσαι)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "κατὰ πᾶσαν αἰτίαν remete ao debate rabínico sobre motivos válidos de divórcio (Hillel x Shammai); πειράζοντες preservado como 'pondo-o à prova', consistente com Mt 16:1.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

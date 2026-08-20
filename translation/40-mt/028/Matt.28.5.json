@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.28.5",
+    "livro": "Mateus",
+    "capitulo": 28,
+    "versiculo": 5,
+    "pericope": "Matt.28.1-20"
+  },
+  "texto_bv": "O anjo disse às mulheres: \"Não tenham medo; sei que vocês procuram Jesus, o crucificado.\"",
+  "traducao_literal": "Respondendo, o anjo disse às mulheres: Não temam, vocês; pois sei que vocês buscam Jesus, o crucificado;",
+  "termos_originais": [
+    {
+      "palavra": "ἀποκριθεὶς",
+      "lemma": "ἀποκρίνομαι",
+      "morfologia": "V-AOP-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "ἄγγελος",
+      "lemma": "ἄγγελος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "εἶπεν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "ταῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPF"
+    },
+    {
+      "palavra": "γυναιξίν",
+      "lemma": "γυνή",
+      "morfologia": "N-DPF"
+    },
+    {
+      "palavra": "Μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "φοβεῖσθε",
+      "lemma": "φοβέω",
+      "morfologia": "V-PNM-2P"
+    },
+    {
+      "palavra": "ὑμεῖς",
+      "lemma": "σύ",
+      "morfologia": "P-2NP"
+    },
+    {
+      "palavra": "οἶδα",
+      "lemma": "οἶδα",
+      "morfologia": "V-RAI-1S"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰησοῦν",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "ἐσταυρωμένον",
+      "lemma": "σταυρόω",
+      "morfologia": "V-RPP-ASM"
+    },
+    {
+      "palavra": "ζητεῖτε",
+      "lemma": "ζητέω",
+      "morfologia": "V-PAI-2P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἀποκριθεὶς...εἶπεν — fórmula \"respondendo, disse\" sem pergunta prévia",
+      "escolha": "normalizar para \"disse\" no texto publicado; a literal preserva \"respondendo, disse\"",
+      "justificativa": "Fórmula narrativa fixa do grego (não implica pergunta real) que soa redundante em português corrido; a literal mantém o calque para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter \"Respondendo, o anjo disse\" no publicado",
+          "motivo": "soa traduzido/artificial em português, apesar de correto"
+        }
+      ]
+    },
+    {
+      "questao": "Formatação de discurso direto que se estende por vários versículos (5–7)",
+      "escolha": "cada versículo recebe abertura e fechamento próprios de aspas duplas curvas, tratando o registro por versículo como unidade tipográfica autocontida",
+      "justificativa": "O schema registra um versículo por vez; aspas fechadas em cada verso evitam ambiguidade de estado aberto entre registros independentes, sem alterar o sentido da fala contínua do anjo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "abrir aspas só no v.5 e fechar só no v.7",
+          "motivo": "deixaria versos intermediários com aspas duplas não balanceadas quando lidos isoladamente"
+        }
+      ]
+    },
+    {
+      "questao": "segunda pessoa (Μὴ φοβεῖσθε ὑμεῖς)",
+      "escolha": "\"vocês\" (discurso do anjo às mulheres = discurso a humanos, ER-0003)",
+      "justificativa": "Regra provisória D-0003/ER-0003.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira fala do anjo; normaliza-se a fórmula ἀποκριθεὶς...εἶπεν e fixa-se a convenção de aspas por versículo para todo o capítulo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
