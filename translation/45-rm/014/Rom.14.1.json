@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.14.1",
+    "livro": "Romanos",
+    "capitulo": 14,
+    "versiculo": 1,
+    "pericope": "Rom.14.1-23"
+  },
+  "texto_bv": "Acolham quem for fraco na fé, mas não para disputas de opiniões.",
+  "traducao_literal": "Ora, o que é fraco na fé, acolhei; não para distinções de pensamentos.",
+  "termos_originais": [
+    {
+      "palavra": "Τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀσθενοῦντα",
+      "lemma": "ἀσθενέω",
+      "morfologia": "V-PAP-ASM"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "πίστει",
+      "lemma": "πίστις",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "προσλαμβάνεσθε",
+      "lemma": "προσλαμβάνω",
+      "morfologia": "V-PEM-2P"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "διακρίσεις",
+      "lemma": "διάκρισις",
+      "morfologia": "N-APF"
+    },
+    {
+      "palavra": "διαλογισμῶν",
+      "lemma": "διαλογισμός",
+      "morfologia": "N-GPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem do objeto fronteado (Τὸν... ἀσθενοῦντα antes do verbo προσλαμβάνεσθε)",
+      "escolha": "Normalizar para ordem verbo-objeto natural do português no publicado, preservando o objeto fronteado na traducao_literal",
+      "justificativa": "Fronteamento do objeto é recurso retórico grego de ênfase, sem equivalente natural em pt-BR corrido; a literal preserva a marca (doutrina do calque, ER-0013, aplicada por analogia ao NT).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter objeto fronteado no publicado ('O que é fraco na fé, acolham')",
+          "motivo": "soa artificial/traduzido em pt-BR contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "διακρίσεις διαλογισμῶν",
+      "escolha": "disputas de opiniões",
+      "justificativa": "διάκρισις = distinção/disputa; διαλογισμός = raciocínio/dúvida/opinião; o par indica controvérsia sobre pontos discutíveis, não julgamento formal (κρίνω, reservado ao resto do capítulo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "julgamento de pensamentos",
+          "motivo": "κρίνω não ocorre aqui; usar 'julgamento' colidiria com o campo semântico forense reservado a κρίνω no restante do capítulo"
+        },
+        {
+          "opcao": "disputas de dúvidas",
+          "motivo": "διαλογισμός pode significar dúvida isoladamente, mas associado a διάκρισις no plural o sentido de 'opinião discutível' é mais natural"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso de abertura da perícope sobre o 'fraco na fé' (tema unificador do capítulo). Optou-se por não transformar em julgamento forense (κρίνω) o que o grego marca com vocabulário de disputa/opinião.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

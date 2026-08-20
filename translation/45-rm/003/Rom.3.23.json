@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.3.23",
+    "livro": "Romanos",
+    "capitulo": 3,
+    "versiculo": 23,
+    "pericope": "Rom.3.1-31"
+  },
+  "texto_bv": "pois todos pecaram e estão destituídos da glória de Deus,",
+  "traducao_literal": "porque todos pecaram e são destituídos da glória de Deus,",
+  "termos_originais": [
+    {
+      "palavra": "πάντες",
+      "lemma": "πᾶς",
+      "morfologia": "A-NPM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἥμαρτον",
+      "lemma": "ἁμαρτάνω",
+      "morfologia": "V-2AAI-3P"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὑστεροῦνται",
+      "lemma": "ὑστερέω",
+      "morfologia": "V-PEI-3P"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "δόξης",
+      "lemma": "δόξα",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "morph V-PEI-3P (ambíguo) vs. func_morph V-PPI-3P em ὑστεροῦνται — discordância a documentar",
+      "escolha": "segui o func_morph (passiva): 'estão destituídos'",
+      "justificativa": "sentido passivo-resultativo, coerente com o argumento de que todos foram privados da glória de Deus pelo pecado",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'carecem' (leitura média, 'lhes falta')",
+          "motivo": "gramaticalmente possível, mas não é a voz resolvida pelo func_morph do packet"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Sumário da acusação universal: todos pecaram sem exceção.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

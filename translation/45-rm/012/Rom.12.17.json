@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.12.17",
+    "livro": "Romanos",
+    "capitulo": 12,
+    "versiculo": 17,
+    "pericope": "Rom.12.1-21"
+  },
+  "texto_bv": "A ninguém retribuam mal por mal; procurem o que é correto diante de todos os homens.",
+  "traducao_literal": "A ninguém mal por mal retribuindo; procurando o que é bom diante de todos os homens;",
+  "termos_originais": [
+    {
+      "palavra": "μηδενὶ",
+      "lemma": "μηδείς",
+      "morfologia": "A-DSM-N"
+    },
+    {
+      "palavra": "κακὸν",
+      "lemma": "κακός",
+      "morfologia": "A-ASN"
+    },
+    {
+      "palavra": "ἀντὶ",
+      "lemma": "ἀντί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "κακοῦ",
+      "lemma": "κακός",
+      "morfologia": "A-GSN"
+    },
+    {
+      "palavra": "ἀποδιδόντες",
+      "lemma": "ἀποδίδωμι",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "προνοούμενοι",
+      "lemma": "προνοέω",
+      "morfologia": "V-PEP-NPM"
+    },
+    {
+      "palavra": "καλὰ",
+      "lemma": "καλός",
+      "morfologia": "A-APN"
+    },
+    {
+      "palavra": "ἐνώπιον",
+      "lemma": "ἐνώπιον",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πάντων",
+      "lemma": "πᾶς",
+      "morfologia": "A-GPM"
+    },
+    {
+      "palavra": "ἀνθρώπων",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-GPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "καλὰ: 'o bem' ou 'o que é correto/honesto'?",
+      "escolha": "o que é correto",
+      "justificativa": "καλός é lexema distinto de ἀγαθός (usado em 12:2, 12:9, 12:21); manter glosas distintas preserva a consistência terminológica exigida pelo EDITORIAL §11",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "o bem",
+          "motivo": "colide com ἀγαθόν, presente em outros versículos do mesmo capítulo"
+        }
+      ]
+    },
+    {
+      "questao": "Discordância morfológica de προνοούμενοι (morph=V-PEP ambíguo; func_morph=V-PMP média)",
+      "escolha": "procurando/procurem (voz média)",
+      "justificativa": "func_morph resolve contextualmente para média; documentado conforme regra 3 de MORFOLOGIA-NESTLE1904.md",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Retoma o tema da não-retaliação, preparando 12:19-21.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

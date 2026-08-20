@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.3.2",
+    "livro": "Romanos",
+    "capitulo": 3,
+    "versiculo": 2,
+    "pericope": "Rom.3.1-31"
+  },
+  "texto_bv": "Muito, em todo sentido; pois, em primeiro lugar, os oráculos de Deus lhes foram confiados.",
+  "traducao_literal": "Muito, segundo todo modo. Pois, em primeiro lugar, que foram confiados os oráculos de Deus.",
+  "termos_originais": [
+    {
+      "palavra": "πολὺ",
+      "lemma": "πολύς",
+      "morfologia": "A-NSN"
+    },
+    {
+      "palavra": "κατὰ",
+      "lemma": "κατά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πάντα",
+      "lemma": "πᾶς",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "τρόπον",
+      "lemma": "τρόπος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "πρῶτον",
+      "lemma": "πρῶτος",
+      "morfologia": "ADV-S"
+    },
+    {
+      "palavra": "μὲν",
+      "lemma": "μέν",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐπιστεύθησαν",
+      "lemma": "πιστεύω",
+      "morfologia": "V-API-3P"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-APN"
+    },
+    {
+      "palavra": "λόγια",
+      "lemma": "λόγιον",
+      "morfologia": "N-APN"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sintaxe elíptica de πρῶτον μὲν γὰρ ὅτι, sem 'δεύτερον' correlato que a complete (anacoluto reconhecido pelos comentaristas)",
+      "escolha": "tratar ὅτι como recitativo introduzindo o conteúdo da vantagem, sem forçar um 'que' preso artificialmente à oração anterior em português",
+      "justificativa": "Paulo nunca completa formalmente o paralelismo 'em primeiro lugar / em segundo lugar'; o sentido é claro apesar da sintaxe quebrada",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'que' como conector gramatical explícito no publicado",
+          "motivo": "soa agramatical em pt-BR; a literal preserva o ὅτι sem tradução fluente para registrar o anacoluto"
+        }
+      ]
+    },
+    {
+      "questao": "Voz passiva de ἐπιστεύθησαν com objeto retido τὰ λόγια (construção grega de dupla acusativa passivizada: sujeito gramatical implícito = 'os judeus', objeto retido = 'os oráculos')",
+      "escolha": "inverter a construção para 'os oráculos de Deus lhes foram confiados' (sujeito pt = oráculos; 'lhes' recupera o sujeito grego implícito)",
+      "justificativa": "naturalidade sintática do português sem perda de sentido; 'ser confiado com algo' é calco do inglês, não do grego",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'eles foram confiados com os oráculos de Deus'",
+          "motivo": "construção estranha em pt-BR, embora mais próxima da ordem sintática grega"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (elipse de πολύ)"
+  ],
+  "ambiguidades_preservadas": [
+    "πρῶτον μὲν sem δεύτερον correlato — anacoluto reconhecido; Paulo não completa formalmente a enumeração"
+  ],
+  "justificativa": "Resposta afirmativa de Paulo à sua própria pergunta retórica de v.1, com o primeiro de vários privilégios de Israel (cf. Rm 9:4-5).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.5.13",
+    "livro": "Romanos",
+    "capitulo": 5,
+    "versiculo": 13,
+    "pericope": "Rom.5.1-21"
+  },
+  "texto_bv": "Pois, até a lei, o pecado já estava no mundo; mas o pecado não é imputado quando não há lei;",
+  "traducao_literal": "Pois até lei pecado era no mundo; pecado, porém, não é imputado, não havendo lei;",
+  "termos_originais": [
+    {
+      "palavra": "ἄχρι",
+      "lemma": "ἄχρι",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "νόμου",
+      "lemma": "νόμος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἁμαρτία",
+      "lemma": "ἁμαρτία",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἦν",
+      "lemma": "εἰμί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "κόσμῳ",
+      "lemma": "κόσμος",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "ἁμαρτία",
+      "lemma": "ἁμαρτία",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "οὐκ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἐλλογεῖται",
+      "lemma": "ἐλλογέω",
+      "morfologia": "V-PEI-3S"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ὄντος",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAP-GSM"
+    },
+    {
+      "palavra": "νόμου",
+      "lemma": "νόμος",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐλλογεῖται: pequena discordância entre func_morph (V-PPI-3S) e morph (V-PEI-3S) no packet",
+      "escolha": "manter 'é imputado' (voz passiva presente), sem impacto tradutório da discordância",
+      "justificativa": "O termo técnico contábil ἐλλογέω ('lançar em conta, imputar') é bem atestado; ambas as análises apontam voz passiva 3ª singular, divergindo apenas na notação de tempo, sem alterar o sentido tradutório.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'é contabilizado'/'é lançado em conta'",
+          "motivo": "mais literal ao sentido comercial do termo, mas 'imputado' já é o termo técnico-teológico consagrado em português para este conceito paulino"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Explica por que a morte reinou mesmo antes da lei mosaica (retomado em v.14).",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

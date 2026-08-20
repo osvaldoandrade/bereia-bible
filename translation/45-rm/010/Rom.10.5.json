@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.10.5",
+    "livro": "Romanos",
+    "capitulo": 10,
+    "versiculo": 5,
+    "pericope": "Rom.10.1-21"
+  },
+  "texto_bv": "Pois Moisés escreve que o homem que praticar a justiça que provém da lei viverá por ela.",
+  "traducao_literal": "Moisés, pois, escreve que a justiça que [é] da lei — o homem que a praticar viverá nela.",
+  "termos_originais": [
+    {
+      "palavra": "Μωϋσῆς",
+      "lemma": "Μωϋσῆς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "γράφει",
+      "lemma": "γράφω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "δικαιοσύνην",
+      "lemma": "δικαιοσύνη",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "νόμου",
+      "lemma": "νόμος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "ποιήσας",
+      "lemma": "ποιέω",
+      "morfologia": "V-AAP-NSM"
+    },
+    {
+      "palavra": "ἄνθρωπος",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ζήσεται",
+      "lemma": "ζάω",
+      "morfologia": "V-FDI-3S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτῇ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "τὴν δικαιοσύνην τὴν ἐκ νόμου fronteada como objeto (hipérbato)",
+      "escolha": "normalizar para ordem natural no publicado, preservando o fronteamento na literal",
+      "justificativa": "ER-0013.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter o objeto fronteado no publicado",
+          "motivo": "soa artificial em português"
+        }
+      ]
+    },
+    {
+      "questao": "ποιέω aplicado a δικαιοσύνη",
+      "escolha": "praticar",
+      "justificativa": "'praticar a justiça' é o idiomatismo pt-BR corrente para ποιέω + abstrato ético; 'fazer a justiça' soaria ambíguo (executar um ato jurídico pontual).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fazer",
+          "motivo": "ambíguo entre 'praticar como modo de vida' e 'realizar um ato jurídico único'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "a (pronome objeto elíptico em 'que a praticar', retomando 'a justiça')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Citação livre de Dt 30:12-14 (LXX), introduzida por ὅτι declarativo; hipérbato do objeto normalizado conforme ER-0013.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

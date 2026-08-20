@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.6.9",
+    "livro": "Romanos",
+    "capitulo": 6,
+    "versiculo": 9,
+    "pericope": "Rom.6.1-23"
+  },
+  "texto_bv": "sabendo que Cristo, ressuscitado dentre os mortos, já não morre; a morte já não tem domínio sobre ele.",
+  "traducao_literal": "sabendo que Cristo, tendo-sido-ressuscitado dentre mortos, não-mais morre; morte dele não-mais reina.",
+  "termos_originais": [
+    {
+      "palavra": "εἰδότες",
+      "lemma": "οἶδα",
+      "morfologia": "V-RAP-NPM"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Χριστὸς",
+      "lemma": "Χριστός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐγερθεὶς",
+      "lemma": "ἐγείρω",
+      "morfologia": "V-APP-NSM"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "νεκρῶν",
+      "lemma": "νεκρός",
+      "morfologia": "A-GPM"
+    },
+    {
+      "palavra": "οὐκέτι",
+      "lemma": "οὐκέτι",
+      "morfologia": "ADV-N"
+    },
+    {
+      "palavra": "ἀποθνῄσκει",
+      "lemma": "ἀποθνῄσκω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "θάνατος",
+      "lemma": "θάνατος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "οὐκέτι",
+      "lemma": "οὐκέτι",
+      "morfologia": "ADV-N"
+    },
+    {
+      "palavra": "κυριεύει",
+      "lemma": "κυριεύω",
+      "morfologia": "V-PAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "κυριεύει sem objeto explícito",
+      "escolha": "suprir 'sobre ele' para completar o verbo transitivo em português",
+      "justificativa": "κυριεύει é usado de modo absoluto no grego (θάνατος αὐτοῦ = 'a morte dele' é o sujeito; αὐτοῦ não é objeto do verbo); 'ter domínio' em português pede complemento, suprido a partir do referente contextual (Cristo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "a morte já não reina",
+          "motivo": "preserva a intransitividade grega, mas soa incompleto em português sem complemento"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "sobre ele"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "εἰδότες retoma τοῦτο γινώσκοντες de 6.6 como novo marco de argumento; ἐγερθεὶς (aoristo passivo) e ἀποθνῄσκει (presente) contrastam evento pontual/estado permanente.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

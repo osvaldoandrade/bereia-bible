@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.3.9",
+    "livro": "Romanos",
+    "capitulo": 3,
+    "versiculo": 9,
+    "pericope": "Rom.3.1-31"
+  },
+  "texto_bv": "Que, pois? Levamos alguma vantagem? De modo nenhum; pois já demonstramos que judeus e gregos, todos, estão sob o pecado,",
+  "traducao_literal": "Que, pois? Levamos vantagem? Não de modo algum; pois já acusamos antes que judeus e também gregos, todos, sob pecado estar,",
+  "termos_originais": [
+    {
+      "palavra": "Τί",
+      "lemma": "τίς",
+      "morfologia": "I-NSN"
+    },
+    {
+      "palavra": "οὖν",
+      "lemma": "οὖν",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "προεχόμεθα",
+      "lemma": "προέχω",
+      "morfologia": "V-PNI-1P"
+    },
+    {
+      "palavra": "οὐ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "πάντως",
+      "lemma": "πάντως",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "προῃτιασάμεθα",
+      "lemma": "προαιτιάομαι",
+      "morfologia": "V-ADI-1P"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰουδαίους",
+      "lemma": "Ἰουδαῖος",
+      "morfologia": "A-APM"
+    },
+    {
+      "palavra": "τε",
+      "lemma": "τέ",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἕλληνας",
+      "lemma": "Ἕλλην",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "πάντας",
+      "lemma": "πᾶς",
+      "morfologia": "A-APM"
+    },
+    {
+      "palavra": "ὑφ’",
+      "lemma": "ὑπό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἁμαρτίαν",
+      "lemma": "ἁμαρτία",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "εἶναι",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "προεχόμεθα (v.9): forma classicamente ambígua entre voz média ('temos vantagem/nos protegemos') e leitura passiva ('somos superados/ultrapassados')",
+      "escolha": "voz média, 'levamos alguma vantagem?', conforme o func_morph do packet (V-PNI-1P)",
+      "justificativa": "retoma diretamente τὸ περισσόν de v.1, fechando o inclusio da seção diatribe (3:1-9)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'somos superados/ultrapassados?' (leitura passiva)",
+          "motivo": "gramaticalmente possível e defendida por parte da exegese, mas não é a voz resolvida pelo func_morph do packet"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "προεχόμεθα (v.9): controvérsia exegética reconhecida entre voz média e leitura passiva; adotada a média por resolução do func_morph"
+  ],
+  "justificativa": "Conclusão da seção 1:18-3:20: nem judeus nem gregos escapam da acusação universal de pecado.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 27984/31155 versículos.**
+**Total Bíblia sourced: 28416/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1271,26 +1271,26 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 27 | 44 | ● 44/44 [DRAFT] |
 | 28 | 30 | ● 30/30 [DRAFT] |
 
-## Romanos — 0/432 versículos (0.0%), 16 capítulos
+## Romanos — 432/432 versículos (100.0%), 16 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 32 | · pendente |
-| 2 | 29 | · pendente |
-| 3 | 31 | · pendente |
-| 4 | 25 | · pendente |
-| 5 | 21 | · pendente |
-| 6 | 23 | · pendente |
-| 7 | 25 | · pendente |
-| 8 | 39 | · pendente |
-| 9 | 33 | · pendente |
-| 10 | 21 | · pendente |
-| 11 | 36 | · pendente |
-| 12 | 21 | · pendente |
-| 13 | 14 | · pendente |
-| 14 | 23 | · pendente |
-| 15 | 33 | · pendente |
-| 16 | 26 | · pendente |
+| 1 | 32 | ● 32/32 [DRAFT] |
+| 2 | 29 | ● 29/29 [DRAFT] |
+| 3 | 31 | ● 31/31 [DRAFT] |
+| 4 | 25 | ● 25/25 [DRAFT] |
+| 5 | 21 | ● 21/21 [DRAFT] |
+| 6 | 23 | ● 23/23 [DRAFT] |
+| 7 | 25 | ● 25/25 [DRAFT] |
+| 8 | 39 | ● 39/39 [DRAFT] |
+| 9 | 33 | ● 33/33 [DRAFT] |
+| 10 | 21 | ● 21/21 [DRAFT] |
+| 11 | 36 | ● 36/36 [DRAFT] |
+| 12 | 21 | ● 21/21 [DRAFT] |
+| 13 | 14 | ● 14/14 [DRAFT] |
+| 14 | 23 | ● 23/23 [DRAFT] |
+| 15 | 33 | ● 33/33 [DRAFT] |
+| 16 | 26 | ● 26/26 [DRAFT] |
 
 ## 1 Coríntios — 0/437 versículos (0.0%), 16 capítulos
 

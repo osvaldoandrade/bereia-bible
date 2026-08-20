@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.14.11",
+    "livro": "Romanos",
+    "capitulo": 14,
+    "versiculo": 11,
+    "pericope": "Rom.14.1-23"
+  },
+  "texto_bv": "Pois está escrito: \"Tão certo como eu vivo\", diz o SENHOR, \"diante de mim se dobrará todo joelho, e toda língua confessará a Deus\".",
+  "traducao_literal": "Pois está escrito: 'Vivo eu', diz o Senhor, 'a mim se dobrará todo joelho, e toda língua confessará a Deus'.",
+  "termos_originais": [
+    {
+      "palavra": "γέγραπται",
+      "lemma": "γράφω",
+      "morfologia": "V-RPI-3S"
+    },
+    {
+      "palavra": "γάρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ζῶ",
+      "lemma": "ζάω",
+      "morfologia": "V-PAI-1S"
+    },
+    {
+      "palavra": "ἐγώ",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1NS"
+    },
+    {
+      "palavra": "λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "Κύριος",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐμοὶ",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DS"
+    },
+    {
+      "palavra": "κάμψει",
+      "lemma": "κάμπτω",
+      "morfologia": "V-FAI-3S"
+    },
+    {
+      "palavra": "πᾶν",
+      "lemma": "πᾶς",
+      "morfologia": "A-NSN"
+    },
+    {
+      "palavra": "γόνυ",
+      "lemma": "γόνυ",
+      "morfologia": "N-NSN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πᾶσα",
+      "lemma": "πᾶς",
+      "morfologia": "A-NSF"
+    },
+    {
+      "palavra": "γλῶσσα",
+      "lemma": "γλῶσσα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἐξομολογήσεται",
+      "lemma": "ἐξομολογέω",
+      "morfologia": "V-FMI-3S"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "Θεῷ",
+      "lemma": "θεός",
+      "morfologia": "N-DSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "κύριος na citação do Antigo Testamento (Is 45:23, combinada com a fórmula de juramento profético חַי־אָנִי נְאֻם־יְהוָה)",
+      "escolha": "SENHOR (caixa alta), representando יהוה subjacente à citação",
+      "justificativa": "NOMES-DIVINOS prevê 'citações do AT com YHWH subjacente: avaliar caso a caso'. A fórmula 'Ζῶ ἐγώ, λέγει Κύριος' reproduz o padrão profético חַי־אָנִי נְאֻם־יְהוָה, associado a Isaías 45:23, onde o falante é YHWH; aqui κύριος não é o título aplicado a Cristo no restante do capítulo, mas citação direta do AT.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Senhor (título comum)",
+          "motivo": "apagaria a identificação com o Tetragrama que a fórmula de juramento profético carrega no hipotexto de Isaías"
+        }
+      ]
+    },
+    {
+      "questao": "Ζῶ ἐγώ (hebraísmo da fórmula de juramento)",
+      "escolha": "Tão certo como eu vivo",
+      "justificativa": "Verte o sentido idiomático do juramento hebraico חַי־אָנִי para o publicado; a ordem literal 'Vivo eu' é preservada na traducao_literal (doutrina do calque, ER-0013, por analogia).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Vivo eu, diz o SENHOR (manter no publicado)",
+          "motivo": "soa arcaico/estranho fora do registro litúrgico em pt-BR contemporâneo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Citação combinada de Isaías 45:23 com a fórmula de juramento profético; a identificação de κύριος com YHWH é a decisão central do verso.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

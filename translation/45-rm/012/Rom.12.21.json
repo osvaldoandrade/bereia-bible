@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.12.21",
+    "livro": "Romanos",
+    "capitulo": 12,
+    "versiculo": 21,
+    "pericope": "Rom.12.1-21"
+  },
+  "texto_bv": "Não seja vencido pelo mal, mas vença o mal com o bem.",
+  "traducao_literal": "Não sejas vencido pelo mal, mas vence o mal com o bem.",
+  "termos_originais": [
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "νικῶ",
+      "lemma": "νικάω",
+      "morfologia": "V-PEM-2S"
+    },
+    {
+      "palavra": "ὑπὸ",
+      "lemma": "ὑπό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSN"
+    },
+    {
+      "palavra": "κακοῦ",
+      "lemma": "κακός",
+      "morfologia": "A-GSN"
+    },
+    {
+      "palavra": "ἀλλὰ",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "νίκα",
+      "lemma": "νικάω",
+      "morfologia": "V-PAM-2S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSN"
+    },
+    {
+      "palavra": "ἀγαθῷ",
+      "lemma": "ἀγαθός",
+      "morfologia": "A-DSN"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-ASN"
+    },
+    {
+      "palavra": "κακόν",
+      "lemma": "κακός",
+      "morfologia": "A-ASN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Discordância morfológica de νικῶ (morph=V-PEM-2S ambígua média/passiva; func_morph=V-PPM-2S passiva)",
+      "escolha": "seja vencido (passiva)",
+      "justificativa": "func_morph resolve contextualmente para passiva; documentado conforme regra 3 de MORFOLOGIA-NESTLE1904.md; sentido teológico coerente (não deixar-se subjugar pelo mal, por ação externa)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não vença pelo mal (média)",
+          "motivo": "não faz sentido pragmático simétrico com o segundo imperativo (νίκα, claramente ativo); a leitura passiva é a única coerente com o paralelismo antitético"
+        }
+      ]
+    },
+    {
+      "questao": "Número gramatical singular (2S) mantido de 12:20",
+      "escolha": "você (singular)",
+      "justificativa": "conclusão da unidade iniciada em 12:20, mantendo o mesmo endereçamento singular",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Versículo de encerramento do capítulo, resumindo o princípio de vencer o mal com o bem (ἐν τῷ ἀγαθῷ, instrumental).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

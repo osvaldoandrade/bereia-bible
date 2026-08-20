@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.12.16",
+    "livro": "Romanos",
+    "capitulo": 12,
+    "versiculo": 16,
+    "pericope": "Rom.12.1-21"
+  },
+  "texto_bv": "Tenham o mesmo modo de pensar uns para com os outros; não sejam soberbos, mas associem-se aos humildes. Não sejam sábios aos seus próprios olhos.",
+  "traducao_literal": "O mesmo uns para com os outros pensando; não as coisas altas pensando, mas com os humildes deixando-se levar. Não se tornem sábios ao lado de si mesmos.",
+  "termos_originais": [
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-ASN"
+    },
+    {
+      "palavra": "αὐτὸ",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASN"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἀλλήλους",
+      "lemma": "ἀλλήλων",
+      "morfologia": "C-APM"
+    },
+    {
+      "palavra": "φρονοῦντες",
+      "lemma": "φρονέω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-APN"
+    },
+    {
+      "palavra": "ὑψηλὰ",
+      "lemma": "ὑψηλός",
+      "morfologia": "A-APN"
+    },
+    {
+      "palavra": "φρονοῦντες",
+      "lemma": "φρονέω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "ἀλλὰ",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "ταπεινοῖς",
+      "lemma": "ταπεινός",
+      "morfologia": "A-DPM"
+    },
+    {
+      "palavra": "συναπαγόμενοι",
+      "lemma": "συναπάγω",
+      "morfologia": "V-PEP-NPM"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "γίνεσθε",
+      "lemma": "γίνομαι",
+      "morfologia": "V-PNM-2P"
+    },
+    {
+      "palavra": "φρόνιμοι",
+      "lemma": "φρόνιμος",
+      "morfologia": "A-NPM"
+    },
+    {
+      "palavra": "παρ’",
+      "lemma": "παρά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἑαυτοῖς",
+      "lemma": "ἑαυτοῦ",
+      "morfologia": "F-2DPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Discordância morfológica de συναπαγόμενοι (morph=V-PEP ambíguo média/passiva; func_morph=V-PMP média)",
+      "escolha": "associem-se (voz média)",
+      "justificativa": "func_morph resolve contextualmente para média; documentado conforme regra 3 de MORFOLOGIA-NESTLE1904.md",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sejam levados (passiva)",
+          "motivo": "não segue a resolução do func_morph presente no packet"
+        }
+      ]
+    },
+    {
+      "questao": "τοῖς ταπεινοῖς: pessoas humildes ou coisas/tarefas humildes?",
+      "escolha": "aos humildes (pessoas)",
+      "justificativa": "leitura majoritária no uso do NT e no paralelismo com μὴ τὰ ὑψηλὰ φρονοῦντες, que trata de atitude social",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "às coisas humildes/tarefas modestas",
+          "motivo": "gramaticalmente possível (dativo neutro plural igual ao masculino), mas menos apoiada pelo contexto imediato"
+        }
+      ]
+    },
+    {
+      "questao": "τὰ ὑψηλὰ φρονοῦντες: tradução idiomática",
+      "escolha": "não sejam soberbos",
+      "justificativa": "capta o sentido pejorativo de 'pensar coisas altas de si' em português idiomático",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não pensem coisas elevadas",
+          "motivo": "em português contemporâneo 'elevado' tem conotação positiva, invertendo o sentido pejorativo do grego"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "τοῖς ταπεινοῖς pode designar pessoas humildes ou coisas/tarefas humildes; optou-se pela leitura de pessoas, mas a ambiguidade morfológica é registrada"
+  ],
+  "justificativa": "παρ’ ἑαυτοῖς (idiotismo, 'a seus próprios olhos/em sua própria estimação') vertido idiomaticamente.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

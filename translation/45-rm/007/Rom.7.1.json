@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.7.1",
+    "livro": "Romanos",
+    "capitulo": 7,
+    "versiculo": 1,
+    "pericope": "Rom.7.1-25"
+  },
+  "texto_bv": "Ou vocês não sabem, irmãos — pois falo a quem conhece a lei —, que a lei domina o homem enquanto ele vive?",
+  "traducao_literal": "Ou ignorais, irmãos (pois falo a conhecedores de lei), que a lei domina o homem por todo o tempo que ele vive?",
+  "termos_originais": [
+    {
+      "palavra": "Ἢ",
+      "lemma": "ἤ",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "ἀγνοεῖτε",
+      "lemma": "ἀγνοέω",
+      "morfologia": "V-PAI-2P"
+    },
+    {
+      "palavra": "ἀδελφοί",
+      "lemma": "ἀδελφός",
+      "morfologia": "N-VPM"
+    },
+    {
+      "palavra": "γινώσκουσιν",
+      "lemma": "γινώσκω",
+      "morfologia": "V-PAP-DPM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "νόμον",
+      "lemma": "νόμος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "λαλῶ",
+      "lemma": "λαλέω",
+      "morfologia": "V-PAI-1S"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "νόμος",
+      "lemma": "νόμος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "κυριεύει",
+      "lemma": "κυριεύω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "ἀνθρώπου",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἐφ’",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ὅσον",
+      "lemma": "ὅσος",
+      "morfologia": "K-ASM"
+    },
+    {
+      "palavra": "χρόνον",
+      "lemma": "χρόνος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "ζῇ",
+      "lemma": "ζάω",
+      "morfologia": "V-PAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἀγνοεῖτε — 'não sabem' vs 'ignoram'",
+      "escolha": "não sabem",
+      "justificativa": "registro formal-neutro; 'ignoram' soa mais arcaico/livresco em pt-BR contemporâneo",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ignoram",
+          "motivo": "mais próximo do étimo, mas menos natural no registro-alvo"
+        }
+      ]
+    },
+    {
+      "questao": "γινώσκουσιν...νόμον λαλῶ — particípio dativo substantivado sem antecedente expresso",
+      "escolha": "falo a quem conhece a lei",
+      "justificativa": "o particípio dativo plural funciona como substantivo ('aos que conhecem'), exigindo sujeito suprido 'quem' em português",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "falo com conhecimento de lei",
+          "motivo": "perde a função de objeto indireto do particípio substantivado, que se refere aos leitores, não ao próprio Paulo"
+        }
+      ]
+    },
+    {
+      "questao": "νόμον anártro (1ª ocorrência) vs ὁ νόμος articular (2ª ocorrência)",
+      "escolha": "'lei' / 'a lei', sem marcar a diferença de artigo no publicado",
+      "justificativa": "o português não distingue artigo definido tão sistematicamente quanto o grego nesse contexto genérico",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "capitalizar a 2ª ocorrência como 'a Lei'",
+          "motivo": "introduziria uma distinção exegética (Torá vs. princípio jurídico) não exigida pela morfologia isolada"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "não (reforço negativo em ἀγνοεῖτε)",
+    "quem (substantivação do particípio γινώσκουσιν)",
+    "ele (sujeito elíptico de ζῇ)"
+  ],
+  "ambiguidades_preservadas": [
+    "νόμος anártro na 1ª ocorrência pode indicar 'lei' em sentido genérico (princípio jurídico) e não especificamente a Torá; a BV mantém 'lei' sem artigo definido para preservar a abertura"
+  ],
+  "justificativa": "Paulo abre com pergunta retórica assumindo conhecimento jurídico dos leitores; a analogia do casamento que segue (7:2-3) depende desse princípio geral de que a lei só governa enquanto a pessoa vive.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

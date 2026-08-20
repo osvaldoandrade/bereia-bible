@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.4.8",
+    "livro": "Romanos",
+    "capitulo": 4,
+    "versiculo": 8,
+    "pericope": "Rom.4.1-25"
+  },
+  "texto_bv": "Bem-aventurado o homem a quem o SENHOR jamais creditará pecado.",
+  "traducao_literal": "Bem-aventurado o varão de quem de modo nenhum creditará SENHOR pecado.",
+  "termos_originais": [
+    {
+      "palavra": "μακάριος",
+      "lemma": "μακάριος",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ἀνὴρ",
+      "lemma": "ἀνήρ",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "οὗ",
+      "lemma": "ὅς",
+      "morfologia": "R-GSM"
+    },
+    {
+      "palavra": "οὐ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "λογίσηται",
+      "lemma": "λογίζομαι",
+      "morfologia": "V-ADS-3S"
+    },
+    {
+      "palavra": "Κύριος",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἁμαρτίαν",
+      "lemma": "ἁμαρτία",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "κύριος nesta citação de Sl 32:2 (LXX 31:2), onde o hebraico subjacente é יהוה",
+      "escolha": "'SENHOR' (caixa alta), marcando o Tetragrama subjacente, conforme NOMES-DIVINOS ('citações do AT com YHWH subjacente: avaliar caso a caso com registro')",
+      "justificativa": "o TM de Sl 32:2 traz יהוה; a LXX verte κύριος; a citação em Rm 4:8 herda essa cadeia. Caso avaliado conforme a cláusula de exceção da política de nomes divinos.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Senhor' (tratamento padrão de κύριος no NT)",
+          "motivo": "obscureceria o Tetragrama subjacente numa citação direta do AT, quando a própria política prevê avaliação caso a caso"
+        }
+      ]
+    },
+    {
+      "questao": "οὐ μὴ + subjuntivo (negação enfática)",
+      "escolha": "'jamais' no publicado, preservando 'de modo nenhum' na literal",
+      "justificativa": "οὐ μὴ é a negação mais forte do grego neotestamentário; 'jamais' capta a ênfase sem soar arcaico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'não... de forma alguma'",
+          "motivo": "mais literal, porém mais pesado no publicado que 'jamais'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "ἀνήρ ('varão', distinto de ἄνθρωπος em v.6) verte-se 'homem' no publicado; a distinção lexical grega não tem correspondente natural e contemporâneo em português sem soar arcaico"
+  ],
+  "justificativa": "Segunda metade da citação de Sl 32; caso de nome divino adjudicado e documentado conforme NOMES-DIVINOS.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.4.1",
+    "livro": "Romanos",
+    "capitulo": 4,
+    "versiculo": 1,
+    "pericope": "Rom.4.1-25"
+  },
+  "texto_bv": "Que diremos, então, que Abraão, nosso antepassado segundo a carne, encontrou?",
+  "traducao_literal": "Que, pois, diremos ter encontrado Abraão, o antepassado de nós segundo carne?",
+  "termos_originais": [
+    {
+      "palavra": "Τί",
+      "lemma": "τίς",
+      "morfologia": "I-ASN"
+    },
+    {
+      "palavra": "οὖν",
+      "lemma": "οὖν",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐροῦμεν",
+      "lemma": "εἶπον",
+      "morfologia": "V-FAI-1P"
+    },
+    {
+      "palavra": "εὑρηκέναι",
+      "lemma": "εὑρίσκω",
+      "morfologia": "V-RAN"
+    },
+    {
+      "palavra": "Ἀβραὰμ",
+      "lemma": "Ἀβραάμ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "προπάτορα",
+      "lemma": "προπάτωρ",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "ἡμῶν",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GP"
+    },
+    {
+      "palavra": "κατὰ",
+      "lemma": "κατά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "σάρκα",
+      "lemma": "σάρξ",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Construção de acusativo+infinitivo (ἐροῦμεν εὑρηκέναι Ἀβραάμ) e posição de κατὰ σάρκα",
+      "escolha": "Normalizar o AcI para oração completiva finita ('diremos que Abraão encontrou') no publicado; preservar a ordem verbo-infinitivo-sujeito na literal; ligar κατὰ σάρκα a 'antepassado' (leitura sintaticamente mais próxima), registrando a leitura alternativa.",
+      "justificativa": "ER-0013 (doutrina do calque): literal preserva a construção grega; publicado normaliza para o português corrente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "κατὰ σάρκα modificando εὑρηκέναι ('o que Abraão encontrou por meios humanos/carnais')",
+          "motivo": "sintaticamente possível pela proximidade com o infinitivo, mas a ordem de palavras favorece a leitura com προπάτορα; preservada como ambiguidade, não descartada"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "κατὰ σάρκα pode qualificar 'antepassado' (descendência física) ou 'encontrou' (por meios humanos/carnais), preparando o contraste fé × obras do v.2"
+  ],
+  "justificativa": "Abre o argumento de Rm 4 com pergunta retórica sobre o que Abraão 'encontrou/obteve'; objeto do verbo fica implícito no grego, respondido só em vv.2-3.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

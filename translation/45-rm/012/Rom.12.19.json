@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.12.19",
+    "livro": "Romanos",
+    "capitulo": 12,
+    "versiculo": 19,
+    "pericope": "Rom.12.1-21"
+  },
+  "texto_bv": "Não se vinguem, amados, mas deem lugar à ira; pois está escrito: \"Minha é a vingança; eu retribuirei\", diz o Senhor.",
+  "traducao_literal": "Não a si mesmos vingando, amados, mas deem lugar à ira; pois está escrito: 'A mim vingança, eu retribuirei', diz o Senhor.",
+  "termos_originais": [
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἑαυτοὺς",
+      "lemma": "ἑαυτοῦ",
+      "morfologia": "F-2APM"
+    },
+    {
+      "palavra": "ἐκδικοῦντες",
+      "lemma": "ἐκδικέω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "ἀγαπητοί",
+      "lemma": "ἀγαπητός",
+      "morfologia": "A-VPM"
+    },
+    {
+      "palavra": "ἀλλὰ",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "δότε",
+      "lemma": "δίδωμι",
+      "morfologia": "V-2AAM-2P"
+    },
+    {
+      "palavra": "τόπον",
+      "lemma": "τόπος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "ὀργῇ",
+      "lemma": "ὀργή",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "γέγραπται",
+      "lemma": "γράφω",
+      "morfologia": "V-RPI-3S"
+    },
+    {
+      "palavra": "γάρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἐμοὶ",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DS"
+    },
+    {
+      "palavra": "ἐκδίκησις",
+      "lemma": "ἐκδίκησις",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἐγὼ",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1NS"
+    },
+    {
+      "palavra": "ἀνταποδώσω",
+      "lemma": "ἀνταποδίδωμι",
+      "morfologia": "V-FAI-1S"
+    },
+    {
+      "palavra": "λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "Κύριος",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "κύριος na fórmula de encerramento da citação de Dt 32:35 (LXX): 'Senhor' ou 'SENHOR'?",
+      "escolha": "Senhor",
+      "justificativa": "convenção padrão do NT (NOMES-DIVINOS.md, fase NT: κύριος→Senhor); embora o texto citado do AT tenha YHWH subjacente, a forma grega aqui é κύριος em fórmula de discurso, não o tetragrama hebraico diretamente vertido — avaliado caso a caso conforme a nota da política",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "SENHOR (caixa alta)",
+          "motivo": "reservado à vertente direta de יהוה no AT hebraico; aplicá-lo aqui pressuporia decisão editorial ainda não estendida ao corpus do NT"
+        }
+      ]
+    },
+    {
+      "questao": "τῇ ὀργῇ: inserir '[de Deus]' explicitamente?",
+      "escolha": "manter 'à ira' sem qualificador",
+      "justificativa": "TEOLOGIA §2 proíbe importar exegese para dentro do texto; o grego não especifica o agente",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "à ira de Deus",
+          "motivo": "expansão interpretativa não presente no grego"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (verbo elidido em Ἐμοὶ ἐκδίκησις)"
+  ],
+  "ambiguidades_preservadas": [
+    "τῇ ὀργῇ não especifica agente no grego; leitura tradicional entende 'a ira de Deus', apoiada pelo contexto da citação seguinte, mas o texto não o declara"
+  ],
+  "justificativa": "Citação de Dt 32:35; ἐκδίκησις vertido 'vingança' por consistência lexical com ἐκδικοῦντες no início do versículo.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

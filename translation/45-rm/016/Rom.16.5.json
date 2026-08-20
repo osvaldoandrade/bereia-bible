@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.16.5",
+    "livro": "Romanos",
+    "capitulo": 16,
+    "versiculo": 5,
+    "pericope": "Rom.16.1-27"
+  },
+  "texto_bv": "Saúdem também a igreja que se reúne na casa deles. Saúdem Epêneto, meu amado, que é a primícia da Ásia para Cristo.",
+  "traducao_literal": "e a que segundo casa deles, igreja. Saudai Epêneto, o amado de mim, o qual é primícia da Ásia para Cristo.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "κατ’",
+      "lemma": "κατά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "οἶκον",
+      "lemma": "οἶκος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "αὐτῶν",
+      "lemma": "αὐτός",
+      "morfologia": "P-GPM"
+    },
+    {
+      "palavra": "ἐκκλησίαν",
+      "lemma": "ἐκκλησία",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἀσπάσασθε",
+      "lemma": "ἀσπάζομαι",
+      "morfologia": "V-ADM-2P"
+    },
+    {
+      "palavra": "Ἐπαίνετον",
+      "lemma": "Ἐπαίνετος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "ἀγαπητόν",
+      "lemma": "ἀγαπητός",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "μου",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GS"
+    },
+    {
+      "palavra": "ὅς",
+      "lemma": "ὅς",
+      "morfologia": "R-NSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἀπαρχὴ",
+      "lemma": "ἀπαρχή",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "Ἀσίας",
+      "lemma": "Ἀσία",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Χριστόν",
+      "lemma": "Χριστός",
+      "morfologia": "N-ASM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "καὶ τὴν κατ’ οἶκον αὐτῶν ἐκκλησίαν (início do v.5) é sintaticamente objeto elíptico de Ἀσπάσασθε (v.3), retomado após a oração relativa intercalada do v.4 — como tornar isso legível em português, já que o registro é por versículo?",
+      "escolha": "repetir 'Saúdem' no início do v.5, tratando-o como continuação da mesma saudação iniciada no v.3",
+      "justificativa": "A divisão em versículos é posterior ao texto grego; a saudação a Prisca/Áquila/igreja em sua casa é um único ato retórico interrompido pela cláusula elogiosa do v.4. Supre-se o verbo para que o v.5 seja gramatical isoladamente, documentando a elipse.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "iniciar o v.5 apenas com 'E à igreja...' sem verbo",
+          "motivo": "reproduziria a elipse grega, mas produziria agramaticalidade em português, que não tolera objeto solto sem verbo governante visível na sentença."
+        }
+      ]
+    },
+    {
+      "questao": "ἀπαρχή (singular) — manter singular 'a primícia' ou pluralizar 'as primícias' (uso coletivo comum em português bíblico)?",
+      "escolha": "a primícia",
+      "justificativa": "O grego traz substantivo singular; manter o singular preserva a imagem pontual do primeiro convertido, sem diluir-se no uso coletivo mais frouxo de 'primícias'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "as primícias",
+          "motivo": "plural consagrado pela tradição, mas dilui a singularidade da imagem do primeiro convertido."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Saúdem (verbo elíptico suprido no início do versículo, retomando o objeto de Ἀσπάσασθε do v.3 através da oração relativa do v.4)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fecha a saudação a Prisca/Áquila (igreja doméstica) e abre nova saudação individual a Epêneto, o primeiro convertido da Ásia.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

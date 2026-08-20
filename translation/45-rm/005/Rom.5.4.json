@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.5.4",
+    "livro": "Romanos",
+    "capitulo": 5,
+    "versiculo": 4,
+    "pericope": "Rom.5.1-21"
+  },
+  "texto_bv": "a perseverança produz caráter aprovado, e o caráter aprovado produz esperança;",
+  "traducao_literal": "e a perseverança, prova; e a prova, esperança;",
+  "termos_originais": [
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὑπομονὴ",
+      "lemma": "ὑπομονή",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "δοκιμήν",
+      "lemma": "δοκιμή",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "δοκιμὴ",
+      "lemma": "δοκιμή",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἐλπίδα",
+      "lemma": "ἐλπίς",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "δοκιμή: glosa lexical",
+      "escolha": "caráter aprovado",
+      "justificativa": "δοκιμή designa o estado de ter sido testado e aprovado (resultado), não o teste em si; 'caráter aprovado' comunica esse resultado positivo, evitando a ambiguidade de 'prova' entre 'teste' e 'evidência'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "prova",
+          "motivo": "tradição de Almeida, mas ambíguo em português entre teste e evidência"
+        },
+        {
+          "opcao": "experiência",
+          "motivo": "calco do inglês 'experience' (KJV), mas em português sugere acúmulo de vivência, não o resultado qualificado do termo grego"
+        }
+      ]
+    },
+    {
+      "questao": "dupla elipse verbal (δοκιμήν, ἐλπίδα sem verbo)",
+      "escolha": "suprir 'produz' nas duas orações, ecoando κατεργάζεται do v.3",
+      "justificativa": "O grego omite o verbo por elipse estilística; o português exige verbo para ser gramatical (EDITORIAL §4).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "produz (1ª ocorrência)",
+    "produz (2ª ocorrência)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Cadeia gradativa (sorites): tribulação → perseverança → caráter aprovado → esperança.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

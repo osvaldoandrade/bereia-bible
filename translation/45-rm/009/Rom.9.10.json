@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.9.10",
+    "livro": "Romanos",
+    "capitulo": 9,
+    "versiculo": 10,
+    "pericope": "Rom.9.1-33"
+  },
+  "texto_bv": "E não somente isso, mas também Rebeca, tendo concebido de um só homem, Isaque, nosso pai —",
+  "traducao_literal": "E não somente, mas também Rebeca, de um leito tendo, de Isaque o pai de nós;",
+  "termos_originais": [
+    {
+      "palavra": "οὐ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "μόνον",
+      "lemma": "μόνος",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "δέ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀλλὰ",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ῥεβέκκα",
+      "lemma": "Ῥεβέκκα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἐξ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἑνὸς",
+      "lemma": "εἷς",
+      "morfologia": "A-GSM"
+    },
+    {
+      "palavra": "κοίτην",
+      "lemma": "κοίτη",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἔχουσα",
+      "lemma": "ἔχω",
+      "morfologia": "V-PAP-NSF"
+    },
+    {
+      "palavra": "Ἰσαὰκ",
+      "lemma": "Ἰσαάκ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "πατρὸς",
+      "lemma": "πατήρ",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἡμῶν",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GP"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐξ ἑνὸς κοίτην ἔχουσα",
+      "escolha": "tendo concebido de um só homem",
+      "justificativa": "κοίτην ἔχουσα é idiomatismo grego para relação conjugal/concepção; substantivo referencial suprido para tornar inteligível o sentido de origem única (contraste com poligamia, argumento de eleição sem obras).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tendo leito de um só",
+          "motivo": "agramatical e opaco em português corrente"
+        }
+      ]
+    },
+    {
+      "questao": "sentença sem verbo principal (anacoluto vv.10-13)",
+      "escolha": "preservado o corte de oração, sentido completado pelo verbo ἐρρέθη do v.12",
+      "justificativa": "O grego suspende a sintaxe por três versículos; a BV mantém a divisão por versículo determinada pelo packet sem forçar um verbo principal onde o original não o repõe.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "inserir verbo principal explícito no v.10",
+          "motivo": "imporia decisão sintática que o próprio grego posterga"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "homem (referente implícito de ἑνός, genitivo masculino)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Início de um segundo exemplo (Rebeca/Jacó-Esaú) numa sentença anacolútica que só se completa no v.12; travessão final marca a suspensão, não diálogo.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

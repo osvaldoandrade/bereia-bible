@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rom.10.3",
+    "livro": "Romanos",
+    "capitulo": 10,
+    "versiculo": 3,
+    "pericope": "Rom.10.1-21"
+  },
+  "texto_bv": "Pois, ignorando a justiça de Deus e buscando estabelecer a própria, eles não se sujeitaram à justiça de Deus.",
+  "traducao_literal": "Pois ignorando a de Deus justiça, e a própria buscando estabelecer, à justiça de Deus não se sujeitaram.",
+  "termos_originais": [
+    {
+      "palavra": "ἀγνοοῦντες",
+      "lemma": "ἀγνοέω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "δικαιοσύνην",
+      "lemma": "δικαιοσύνη",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "ἰδίαν",
+      "lemma": "ἴδιος",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "ζητοῦντες",
+      "lemma": "ζητέω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "στῆσαι",
+      "lemma": "ἵστημι",
+      "morfologia": "V-AAN"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "δικαιοσύνῃ",
+      "lemma": "δικαιοσύνη",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "οὐχ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ὑπετάγησαν",
+      "lemma": "ὑποτάσσω",
+      "morfologia": "V-2API-3P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "τῇ δικαιοσύνῃ τοῦ Θεοῦ fronteada antes do verbo (hipérbato enfático)",
+      "escolha": "normalizar para ordem SVO no publicado, preservando o hipérbato na traducao_literal",
+      "justificativa": "ER-0013 (doutrina do calque): calques estruturais preservados na literal, normalizados no publicado quando soam artificiais.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'à justiça de Deus não se sujeitaram' no publicado",
+          "motivo": "soa traduzido/arcaizante em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "eles (sujeito explicitado, implícito nos particípios gregos)",
+    "justiça (elipse em τὴν ἰδίαν, retomando δικαιοσύνην)"
+  ],
+  "ambiguidades_preservadas": [
+    "'justiça de Deus' (δικαιοσύνη τοῦ Θεοῦ): genitivo pode ser lido como a própria justiça de Deus (atributo) ou como a justiça que provém de Deus/status concedido — crux paulino clássico (cf. Rm 1:17; 3:21-22), preservado sem desambiguação"
+  ],
+  "justificativa": "Dois particípios coordenados (ἀγνοοῦντες, ζητοῦντες) com sujeito comum implícito, explicitado no publicado; hipérbato do objeto normalizado conforme ER-0013.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
