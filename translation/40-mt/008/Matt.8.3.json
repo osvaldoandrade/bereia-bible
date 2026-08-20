@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.8.3",
+    "livro": "Mateus",
+    "capitulo": 8,
+    "versiculo": 3,
+    "pericope": "Matt.8.1-34"
+  },
+  "texto_bv": "E, estendendo a mão, tocou nele, dizendo: “Quero, seja purificado.” E imediatamente sua lepra foi purificada.",
+  "traducao_literal": "E tendo estendido a mão, tocou-lhe, dizendo: Quero, sê purificado. E imediatamente foi purificada a lepra dele.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐκτείνας",
+      "lemma": "ἐκτείνω",
+      "morfologia": "V-AAP-NSM"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "χεῖρα",
+      "lemma": "χείρ",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἥψατο",
+      "lemma": "ἅπτω",
+      "morfologia": "V-ADI-3S"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "λέγων",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "Θέλω",
+      "lemma": "θέλω",
+      "morfologia": "V-PAI-1S"
+    },
+    {
+      "palavra": "καθαρίσθητι",
+      "lemma": "καθαρίζω",
+      "morfologia": "V-APM-2S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εὐθέως",
+      "lemma": "εὐθέως",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἐκαθερίσθη",
+      "lemma": "καθαρίζω",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "λέπρα",
+      "lemma": "λέπρα",
+      "morfologia": "N-NSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem verbo-sujeito de ἐκαθερίσθη αὐτοῦ ἡ λέπρα",
+      "escolha": "normalizar para sujeito-verbo no publicado ('sua lepra foi purificada'); preservar V-S na literal",
+      "justificativa": "mesma doutrina do calque (ER-0013) aplicada à sintaxe grega: V-S soa traduzido em narrativa pt-BR corrente",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado",
+          "motivo": "artificial em português contemporâneo"
+        }
+      ]
+    },
+    {
+      "questao": "καθαρίσθητι — imperativo passivo",
+      "escolha": "manter a voz passiva ('seja purificado'), não reflexiva",
+      "justificativa": "a passiva grega marca a cura como ação de agente externo (implicitamente divino/de Jesus), não autopurificação do leproso",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'purifica-te' (reflexivo)",
+          "motivo": "apaga a voz passiva do original e sugere ação do próprio leproso"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Duas orações coordenadas por καί; εὐθέως mantido como advérbio temporal 'imediatamente'; ἐκαθερίσθη (grafia alternativa de καθαρίζω) tratado como variação ortográfica, não variante textual, por ausência de aparato no packet.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

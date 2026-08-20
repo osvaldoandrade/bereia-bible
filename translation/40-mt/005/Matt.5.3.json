@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.5.3",
+    "livro": "Mateus",
+    "capitulo": 5,
+    "versiculo": 3,
+    "pericope": "Matt.5.1-48"
+  },
+  "texto_bv": "Bem-aventurados os pobres de espírito, porque deles é o reino dos céus.",
+  "traducao_literal": "Bem-aventurados os pobres no espírito, porque deles é o reino dos céus.",
+  "termos_originais": [
+    {
+      "palavra": "Μακάριοι",
+      "lemma": "μακάριος",
+      "morfologia": "A-NPM"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "πτωχοὶ",
+      "lemma": "πτωχός",
+      "morfologia": "A-NPM"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSN"
+    },
+    {
+      "palavra": "πνεύματι",
+      "lemma": "πνεῦμα",
+      "morfologia": "N-DSN"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "αὐτῶν",
+      "lemma": "αὐτός",
+      "morfologia": "P-GPM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "βασιλεία",
+      "lemma": "βασιλεία",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPM"
+    },
+    {
+      "palavra": "οὐρανῶν",
+      "lemma": "οὐρανός",
+      "morfologia": "N-GPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "μακάριος: 'bem-aventurados' vs 'felizes'",
+      "escolha": "bem-aventurados",
+      "justificativa": "μακάριος nas bem-aventuranças designa um estado objetivo de favor declarado por Deus, não a emoção subjetiva que 'feliz' carrega em português contemporâneo; 'bem-aventurado' preserva esse campo semântico mais pleno e permanece vivo no registro religioso formal do português do Brasil (não é arcaísmo funcionalmente morto nos termos do EDITORIAL §1.2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "felizes",
+          "motivo": "mais contemporâneo, mas reduz o sentido a estado emocional subjetivo, mais estreito que μακάριος"
+        }
+      ]
+    },
+    {
+      "questao": "τῷ πνεύματι: dativo de respeito",
+      "escolha": "'de espírito' (não 'no espírito')",
+      "justificativa": "dativo de respeito/referência ('pobres com respeito ao espírito'); 'de espírito' é a construção idiomática equivalente em português, sem alterar o sentido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "pobres no espírito",
+          "motivo": "calque mais literal, preservado na traducao_literal; soa menos natural no texto publicado"
+        }
+      ]
+    },
+    {
+      "questao": "βασιλεία τῶν οὐρανῶν: maiúscula ou minúscula em 'reino'",
+      "escolha": "'reino' minúsculo",
+      "justificativa": "'reino dos céus' é expressão comum mateana (distinta de 'reino de Deus' dos sinóticos paralelos), não um nome próprio pleno; tratada como substantivo comum qualificado, não como título.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Reino dos Céus maiúsculo",
+          "motivo": "atribuiria estatuto de nome próprio que o grego (sem recurso gráfico) não codifica, similar à lógica de ER-0012"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira bem-aventurança; oração nominal sem cópula expressa no grego, gramatical também em português sem verbo 'ser' suprido.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

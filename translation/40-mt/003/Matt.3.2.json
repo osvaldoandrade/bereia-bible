@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.3.2",
+    "livro": "Mateus",
+    "capitulo": 3,
+    "versiculo": 2,
+    "pericope": "Matt.3.1-17"
+  },
+  "texto_bv": "dizendo: “Arrependam-se, porque o reino dos céus está próximo.”",
+  "traducao_literal": "dizendo: Arrependei-vos; pois chegou perto o reino dos céus.",
+  "termos_originais": [
+    {
+      "palavra": "λέγων",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "Μετανοεῖτε",
+      "lemma": "μετανοέω",
+      "morfologia": "V-PAM-2P"
+    },
+    {
+      "palavra": "ἤγγικεν",
+      "lemma": "ἐγγίζω",
+      "morfologia": "V-RAI-3S"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "βασιλεία",
+      "lemma": "βασιλεία",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPM"
+    },
+    {
+      "palavra": "οὐρανῶν",
+      "lemma": "οὐρανός",
+      "morfologia": "N-GPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Segunda pessoa do imperativo Μετανοεῖτε",
+      "escolha": "'Arrependam-se' (vocês).",
+      "justificativa": "ER-0003: discurso de João à multidão é discurso humano, não oração; imperativo plural com 'vocês'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Arrependei-vos' (vós)",
+          "motivo": "forma arcaica de segunda pessoa, proibida fora do vocativo litúrgico (EDITORIAL §1.2)"
+        }
+      ]
+    },
+    {
+      "questao": "βασιλεία τῶν οὐρανῶν",
+      "escolha": "'reino dos céus' (glosa literal, termo técnico mateano).",
+      "justificativa": "Expressão característica de Mateus, distinta de 'reino de Deus' dos demais sinóticos; mantida sem harmonização (TEOLOGIA §2).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'reino de Deus'",
+          "motivo": "harmonizaria artificialmente com Marcos/Lucas, apagando a variação lexical intencional do evangelho"
+        }
+      ]
+    },
+    {
+      "questao": "ἤγγικεν (perfeito de ἐγγίζω)",
+      "escolha": "'está próximo' (leitura do perfeito como estado presente).",
+      "justificativa": "O perfeito grego indica ação completada com relevância presente; 'está próximo' capta melhor esse valor do que um pretérito simples.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'chegou'",
+          "motivo": "o pretérito simples português não comunica o mesmo peso durativo-presente do perfeito grego"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira fala direta do capítulo; registro de segunda pessoa e termo técnico mateano fixados aqui para uso consistente no restante do livro.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

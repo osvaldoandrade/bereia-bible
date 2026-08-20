@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.1.1",
+    "livro": "Mateus",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "Matt.1.1-25"
+  },
+  "texto_bv": "Livro da origem de Jesus Cristo, filho de Davi, filho de Abraão.",
+  "traducao_literal": "Livro de origem de Jesus Cristo, filho de Davi, filho de Abraão.",
+  "termos_originais": [
+    {
+      "palavra": "Βίβλος",
+      "lemma": "βίβλος",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "γενέσεως",
+      "lemma": "γένεσις",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Χριστοῦ",
+      "lemma": "Χριστός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "υἱοῦ",
+      "lemma": "υἱός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Δαυεὶδ",
+      "lemma": "Δαυίδ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "υἱοῦ",
+      "lemma": "υἱός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Ἀβραάμ",
+      "lemma": "Ἀβραάμ",
+      "morfologia": "N-PRI"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "γένεσις — 'genealogia' vs. 'geração' vs. 'origem'",
+      "escolha": "'origem' no texto publicado",
+      "justificativa": "γένεσις reaparece em 1:18 introduzindo o relato do nascimento; 'origem' cobre as duas funções do termo (lista genealógica vv.2-16 e narrativa de nascimento vv.18-25) e preserva o eco com βίβλος γενέσεως de Gn 2:4/5:1 (LXX).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'genealogia'",
+          "motivo": "mais natural para o contexto imediato da lista de nomes, mas quebra o inclusio lexical com 1:18 e perde o eco com Gênesis LXX"
+        },
+        {
+          "opcao": "'geração'",
+          "motivo": "calque mais próximo da raiz grega, mas soa arcaico e ambíguo em português contemporâneo (confunde-se com 'geração' = faixa etária)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "γένεσις cobre tanto 'lista genealógica' (vv.2-16) quanto 'origem/nascimento' (vv.18-25); a BV usa 'origem' nos dois lugares para não apagar essa dupla função do termo grego"
+  ],
+  "justificativa": "Título do capítulo com dupla função estrutural (inclusio); NT segue autoridade textual Nestle 1904 pinada (ER-0018).",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

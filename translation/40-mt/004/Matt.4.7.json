@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.4.7",
+    "livro": "Mateus",
+    "capitulo": 4,
+    "versiculo": 7,
+    "pericope": "Matt.4.1-25"
+  },
+  "texto_bv": "Jesus lhe disse: \"Também está escrito: 'Não porás à prova o Senhor, teu Deus.'\"",
+  "traducao_literal": "Disse a ele Jesus: Novamente está escrito: Não porás à prova o Senhor teu Deus.",
+  "termos_originais": [
+    {
+      "palavra": "ἔφη",
+      "lemma": "φημί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Ἰησοῦς",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Πάλιν",
+      "lemma": "πάλιν",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "γέγραπται",
+      "lemma": "γράφω",
+      "morfologia": "V-RPI-3S"
+    },
+    {
+      "palavra": "Οὐκ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἐκπειράσεις",
+      "lemma": "ἐκπειράζω",
+      "morfologia": "V-FAI-2S"
+    },
+    {
+      "palavra": "Κύριον",
+      "lemma": "κύριος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "Θεόν",
+      "lemma": "θεός",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "σου",
+      "lemma": "σύ",
+      "morfologia": "P-2GS"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐκπειράσεις (πειράζω intensificado por ἐκ-) vs. πειράζω simples (vv.1,3)",
+      "escolha": "'porás à prova' para ἐκπειράζω, reservando 'tentar' para πειράζω",
+      "justificativa": "distinção lexical preservada para auditoria e coerência com o restante do capítulo",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tentarás' para ambos os verbos",
+          "motivo": "apaga a distinção lexical intencional entre o verbo do diabo (πειράζω) e o verbo da citação de Dt 6:16 (ἐκπειράζω)"
+        }
+      ]
+    },
+    {
+      "questao": "κύριος τὸν θεόν σου — citação de Dt 6:16, YHWH subjacente no hebraico",
+      "escolha": "'o Senhor, teu Deus' (política padrão G2962→Senhor para o NT)",
+      "justificativa": "decisão provisória, sujeita a revisão quando a política de citações veterotestamentárias no NT for fixada em lexicon",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'o SENHOR, teu Deus' (refletindo o Tetragrama hebraico subjacente)",
+          "motivo": "NOMES-DIVINOS pede avaliação caso a caso para citações do AT no NT; sem sub-política fixada ainda, opta-se pela convenção padrão do NT até ratificação específica"
+        }
+      ]
+    },
+    {
+      "questao": "ordem V-S (ἔφη αὐτῷ ὁ Ἰησοῦς)",
+      "escolha": "publicado em S-V ('Jesus lhe disse'); literal preserva V-S",
+      "justificativa": "extensão do princípio ER-0011 ao grego",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Πάλιν ('novamente/também') introduz segunda citação escriturística; vertido 'também está escrito'.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

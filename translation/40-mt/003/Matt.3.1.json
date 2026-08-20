@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.3.1",
+    "livro": "Mateus",
+    "capitulo": 3,
+    "versiculo": 1,
+    "pericope": "Matt.3.1-17"
+  },
+  "texto_bv": "Naqueles dias, apareceu João Batista, pregando no deserto da Judeia,",
+  "traducao_literal": "E naqueles dias aparece João, o Batista, pregando no deserto da Judeia,",
+  "termos_originais": [
+    {
+      "palavra": "Ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ταῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPF"
+    },
+    {
+      "palavra": "ἡμέραις",
+      "lemma": "ἡμέρα",
+      "morfologia": "N-DPF"
+    },
+    {
+      "palavra": "ἐκείναις",
+      "lemma": "ἐκεῖνος",
+      "morfologia": "D-DPF"
+    },
+    {
+      "palavra": "παραγίνεται",
+      "lemma": "παραγίνομαι",
+      "morfologia": "V-PNI-3S"
+    },
+    {
+      "palavra": "Ἰωάνης",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "βαπτιστὴς",
+      "lemma": "βαπτιστής",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "κηρύσσων",
+      "lemma": "κηρύσσω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "ἐρήμῳ",
+      "lemma": "ἔρημος",
+      "morfologia": "A-DSF"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "Ἰουδαίας",
+      "lemma": "Ἰουδαία",
+      "morfologia": "N-GSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tratamento do presente histórico παραγίνεται",
+      "escolha": "Normalizado para pretérito perfeito ('apareceu') no texto publicado; a literal preserva o presente histórico grego.",
+      "justificativa": "Narrativa em português soa mais natural em pretérito; o presente histórico é marca estilística de vivacidade do grego que se perde na tradução literal do tempo verbal, mas fica registrada na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter presente histórico no publicado ('aparece João')",
+          "motivo": "soa não natural em prosa narrativa contínua do português, quebra o fluxo com os pretéritos das orações seguintes"
+        }
+      ]
+    },
+    {
+      "questao": "δέ inicial de abertura de perícope",
+      "escolha": "Não vertida lexicalmente.",
+      "justificativa": "δέ pós-positivo aqui é conectivo fraco típico de abertura de unidade narrativa em Mateus, sem carga adversativa; verter 'e' ou 'ora' no início do capítulo soaria artificial.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'E naqueles dias...'",
+          "motivo": "calque desnecessário de conectivo fraco no início de nova seção"
+        },
+        {
+          "opcao": "'Ora, naqueles dias...'",
+          "motivo": "registro elevado demais para simples transição narrativa"
+        }
+      ]
+    },
+    {
+      "questao": "βαπτιστής como epíteto fixo",
+      "escolha": "'João Batista' (maiúscula, nome composto consolidado).",
+      "justificativa": "Tradição consolidada do português bíblico (EDITORIAL §8) trata 'Batista' como epíteto fixo equivalente a sobrenome.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'João, o batista' (minúscula, aposto)",
+          "motivo": "mais literal à sintaxe grega (ὁ βαπτιστής com artigo), mas quebra a convenção consolidada do português bíblico"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura de perícope: presente histórico normalizado, δέ transicional absorvido pela pontuação, epíteto de João fixado na forma consolidada.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.1.16",
+    "livro": "Mateus",
+    "capitulo": 1,
+    "versiculo": 16,
+    "pericope": "Matt.1.1-25"
+  },
+  "texto_bv": "Jacó gerou José, marido de Maria, da qual nasceu Jesus, chamado Cristo.",
+  "traducao_literal": "E Jacó gerou José, o marido de Maria, da qual foi gerado Jesus, o chamado Cristo.",
+  "termos_originais": [
+    {
+      "palavra": "Ἰακὼβ",
+      "lemma": "Ἰακώβ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐγέννησεν",
+      "lemma": "γεννάω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "Ἰωσὴφ",
+      "lemma": "Ἰωσήφ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "ἄνδρα",
+      "lemma": "ἀνήρ",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "Μαρίας",
+      "lemma": "Μαρία",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "ἐξ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἧς",
+      "lemma": "ὅς",
+      "morfologia": "R-GSF"
+    },
+    {
+      "palavra": "ἐγεννήθη",
+      "lemma": "γεννάω",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "Ἰησοῦς",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "λεγόμενος",
+      "lemma": "λέγω",
+      "morfologia": "V-PEP-NSM"
+    },
+    {
+      "palavra": "Χριστός",
+      "lemma": "Χριστός",
+      "morfologia": "N-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "mudança de voz verbal: ἐγέννησεν (ativo, 'X gerou Y') em todos os elos vv.2-15, mas ἐγεννήθη (passivo) no elo final, referido a Maria ('ἐξ ἧς'), não a José",
+      "escolha": "preservar a mudança de voz ativa→passiva tanto no publicado quanto na literal",
+      "justificativa": "É a assinatura gramatical mais sutil do evangelho para o nascimento virginal: o padrão 'X gerou Y' se rompe exatamente no elo de José, e o verbo muda de sujeito ativo para construção passiva com origem em Maria — coerente com a narrativa explícita de vv.18-25. Suavizar essa quebra apagaria um recurso literário do próprio texto-fonte (TEOLOGIA §2, proibição de suavizar dificuldades/nuances do original).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'José gerou Jesus' ou 'Jacó gerou José, pai de Jesus'",
+          "motivo": "obscureceria a quebra sintática que o próprio grego constrói; apagaria a distinção entre paternidade legal e biológica que o capítulo desenvolve em vv.18-25"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "'ὁ λεγόμενος Χριστός' ('o chamado Cristo') — Cristo aqui já funciona quase como nome próprio, embora a etimologia titular ('o Ungido') permaneça ativa ao longo do evangelho; ambiguidade preservada sem optar por uma ou outra leitura no texto."
+  ],
+  "justificativa": "Elo culminante da genealogia; a quebra de padrão verbal é teologicamente central e preservada literalmente.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

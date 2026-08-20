@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.5.21",
+    "livro": "Mateus",
+    "capitulo": 5,
+    "versiculo": 21,
+    "pericope": "Matt.5.1-48"
+  },
+  "texto_bv": "Vocês ouviram que foi dito aos antigos: “Não matarás”; mas quem matar estará sujeito a julgamento.",
+  "traducao_literal": "Ouvistes que foi dito aos antigos: Não matarás; mas quem matar, réu será do juízo.",
+  "termos_originais": [
+    {
+      "palavra": "Ἠκούσατε",
+      "lemma": "ἀκούω",
+      "morfologia": "V-AAI-2P"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐρρέθη",
+      "lemma": "εἶπον",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "ἀρχαίοις",
+      "lemma": "ἀρχαῖος",
+      "morfologia": "A-DPM"
+    },
+    {
+      "palavra": "Οὐ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "φονεύσεις",
+      "lemma": "φονεύω",
+      "morfologia": "V-FAI-2S"
+    },
+    {
+      "palavra": "ὃς",
+      "lemma": "ὅς",
+      "morfologia": "R-NSM"
+    },
+    {
+      "palavra": "δ’",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἂν",
+      "lemma": "ἄν",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "φονεύσῃ",
+      "lemma": "φονεύω",
+      "morfologia": "V-AAS-3S"
+    },
+    {
+      "palavra": "ἔνοχος",
+      "lemma": "ἔνοχος",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ἔσται",
+      "lemma": "εἰμί",
+      "morfologia": "V-FDI-3S"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "κρίσει",
+      "lemma": "κρίσις",
+      "morfologia": "N-DSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Aspas em citação autocontida de lei (ER-0004)",
+      "escolha": "abrir aspas duplas em torno de 'Não matarás', citação fechada dentro do próprio versículo",
+      "justificativa": "diferente do discurso contínuo de Jesus (5:2, sem aspas por se estender além do capítulo), esta citação da Lei antiga abre e fecha dentro do mesmo versículo, permitindo aspas sem quebra de integridade tipográfica.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Registro verbal da citação decálogo: forma 'matarás' (2ª sg. conjugação tu) mesmo sob a política você/vocês",
+      "escolha": "manter a fórmula tradicional 'Não matarás' (conjugação de tu) para as seis citações legais do capítulo (5:21,27,33,38,43)",
+      "justificativa": "estas citações reproduzem a fórmula fixa do Decálogo/Lei, cristalizada em português bíblico independentemente da oposição tu/você (mesmo traduções que adotam 'você' no discurso corrente, como a NVI, preservam 'Não matarás' para o mandamento); tratá-la como discurso dialógico comum e converter para 'você não vai matar' quebraria uma fórmula legal reconhecível e soaria artificial. Exceção registrada conforme EDITORIAL preâmbulo (fidelidade/uso consagrado sobre regra editorial genérica).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "você não matará",
+          "motivo": "gramaticalmente consistente com ER-0003, mas rompe a fórmula legal fixa reconhecida por todo leitor de língua portuguesa"
+        }
+      ]
+    },
+    {
+      "questao": "τῇ κρίσει: tribunal local (κρίσις) vs Sinédrio (v.22) vs geena (v.22)",
+      "escolha": "'estará sujeito a julgamento' (κρίσις = tribunal local, o menor grau da escalada dos vv.21-22)",
+      "justificativa": "κρίσις aqui designa o tribunal judaico local, distinto de συνέδριον (Sinédrio, tribunal supremo) e de γέεννα (juízo divino) em 5:22; a distinção lexical grega é preservada em português por termos diferentes.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira das seis antíteses ('ouvistes... mas eu vos digo'); ἐρρέθη, aoristo passivo impessoal ('foi dito'), sem agente expresso — preserva a voz passiva sem atribuir autoria explícita a Moisés ou a Deus.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.4.13",
+    "livro": "Mateus",
+    "capitulo": 4,
+    "versiculo": 13,
+    "pericope": "Matt.4.1-25"
+  },
+  "texto_bv": "E, deixando Nazaré, foi morar em Cafarnaum, cidade litorânea, nos territórios de Zabulom e Naftali,",
+  "traducao_literal": "E tendo deixado Nazaré, tendo vindo, habitou em Cafarnaum, a marítima, nos limites de Zabulom e Naftali;",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "καταλιπὼν",
+      "lemma": "καταλείπω",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "Ναζαρὰ",
+      "lemma": "Ναζαρά",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "ἐλθὼν",
+      "lemma": "ἔρχομαι",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "κατῴκησεν",
+      "lemma": "κατοικέω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Καφαρναοὺμ",
+      "lemma": "Καφαρναούμ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "παραθαλασσίαν",
+      "lemma": "παραθαλάσσιος",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ὁρίοις",
+      "lemma": "ὅριον",
+      "morfologia": "N-DPN"
+    },
+    {
+      "palavra": "Ζαβουλὼν",
+      "lemma": "Ζαβουλών",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Νεφθαλείμ",
+      "lemma": "Νεφθαλίμ",
+      "morfologia": "N-PRI"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "καταλιπὼν...ἐλθὼν κατῴκησεν (dois particípios + verbo principal)",
+      "escolha": "condensado em 'deixando Nazaré, foi morar', absorvendo ἐλθὼν ('tendo vindo') no verbo de movimento",
+      "justificativa": "condensação de particípio redundante, preservado com os dois verbos na literal",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'deixando Nazaré, vindo, habitou' (três verbos)",
+          "motivo": "redundante em português; ἐλθὼν é preparatório e já contido semanticamente em 'foi morar'"
+        }
+      ]
+    },
+    {
+      "questao": "τὴν παραθαλασσίαν (adjetivo substantivado, 'a que é junto ao mar')",
+      "escolha": "'cidade litorânea'",
+      "justificativa": "supre o substantivo 'cidade' para o adjetivo grego funcionar em português",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a marítima' (calque adjetival)",
+          "motivo": "preservado na literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "cidade (para completar o adjetivo substantivado τὴν παραθαλασσίαν)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Nomes próprios em grafia consolidada: Nazaré, Cafarnaum, Zabulom, Naftali (EDITORIAL §8).",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

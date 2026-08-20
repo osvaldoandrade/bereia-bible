@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.3.6",
+    "livro": "Mateus",
+    "capitulo": 3,
+    "versiculo": 6,
+    "pericope": "Matt.3.1-17"
+  },
+  "texto_bv": "e eram batizados por ele no rio Jordão, confessando os seus pecados.",
+  "traducao_literal": "e eram batizados no Jordão, o rio, por ele, confessando os pecados deles.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐβαπτίζοντο",
+      "lemma": "βαπτίζω",
+      "morfologia": "V-IEI-3P"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "Ἰορδάνῃ",
+      "lemma": "Ἰορδάνης",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "ποταμῷ",
+      "lemma": "ποταμός",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "ὑπ’",
+      "lemma": "ὑπό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "ἐξομολογούμενοι",
+      "lemma": "ἐξομολογέω",
+      "morfologia": "V-PEP-NPM"
+    },
+    {
+      "palavra": "τὰς",
+      "lemma": "ὁ",
+      "morfologia": "T-APF"
+    },
+    {
+      "palavra": "ἁμαρτίας",
+      "lemma": "ἁμαρτία",
+      "morfologia": "N-APF"
+    },
+    {
+      "palavra": "αὐτῶν",
+      "lemma": "αὐτός",
+      "morfologia": "P-GPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐξομολογούμενοι — voz média (func_morph diverge de morph, forma ambígua)",
+      "escolha": "'confessando' (sentido médio-reflexivo ativo), conforme func_morph, que resolve a forma ambígua como média.",
+      "justificativa": "MORFOLOGIA-NESTLE1904 §Regras de uso item 3: discordância entre func_morph e morph deve ser documentada; aqui func_morph (média) é semanticamente decisiva — confessar é ato do próprio sujeito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "leitura passiva ('sendo confessados')",
+          "motivo": "sem sentido coerente para ἐξομολογέω com objeto 'pecados' nesse contexto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Conclusão da cena de batismo coletivo no Jordão; verbo de confissão resolvido pela voz funcional do packet.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

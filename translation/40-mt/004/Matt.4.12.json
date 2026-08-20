@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Matt.4.12",
+    "livro": "Mateus",
+    "capitulo": 4,
+    "versiculo": 12,
+    "pericope": "Matt.4.1-25"
+  },
+  "texto_bv": "Ouvindo que João fora preso, Jesus retirou-se para a Galileia.",
+  "traducao_literal": "Mas tendo ouvido que João foi entregue, retirou-se para a Galileia.",
+  "termos_originais": [
+    {
+      "palavra": "Ἀκούσας",
+      "lemma": "ἀκούω",
+      "morfologia": "V-AAP-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰωάνης",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "παρεδόθη",
+      "lemma": "παραδίδωμι",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "ἀνεχώρησεν",
+      "lemma": "ἀναχωρέω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "Γαλιλαίαν",
+      "lemma": "Γαλιλαία",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "sujeito não explícito no grego (particípio Ἀκούσας concorda com sujeito implícito 'Jesus', subentendido do discurso, não nomeado neste versículo)",
+      "escolha": "explicitar 'Jesus' no publicado para clareza referencial (EDITORIAL §1.3, leitura em voz alta/TTS)",
+      "justificativa": "o versículo abre nova unidade narrativa (mudança de cena após a tentação); a ausência de nome cria ambiguidade referencial em leitura isolada",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter sujeito implícito só com pronome nulo ('retirou-se')",
+          "motivo": "preservado na literal; o publicado prioriza clareza de referente na abertura de cena"
+        }
+      ]
+    },
+    {
+      "questao": "παρεδόθη (literalmente 'foi entregue')",
+      "escolha": "'fora preso' no publicado, refletindo o sentido factual estabelecido na narrativa (cf. Mt 14:3)",
+      "justificativa": "παραδίδωμι é polissêmico ('entregar', 'trair', 'prender'); o contexto factual do evangelho (prisão de João) autoriza a glosa contextual, sem importar exegese teológica adicional — apenas o fato narrado alhures no mesmo evangelho",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'foi entregue' (tradução literal do verbo)",
+          "motivo": "preservada na tradução literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Jesus (sujeito implícito explicitado para clareza referencial)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Transição de perícope: fim da tentação, início do ministério galileu.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
