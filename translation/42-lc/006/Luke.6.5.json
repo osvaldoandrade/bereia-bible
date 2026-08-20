@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.6.5",
+    "livro": "Lucas",
+    "capitulo": 6,
+    "versiculo": 5,
+    "pericope": "Luke.6.1-49"
+  },
+  "texto_bv": "E lhes disse: \"O Filho do Homem é Senhor do sábado.\"",
+  "traducao_literal": "E dizia a eles: Senhor é do sábado o Filho do homem.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἔλεγεν",
+      "lemma": "λέγω",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "αὐτοῖς",
+      "lemma": "αὐτός",
+      "morfologia": "P-DPM"
+    },
+    {
+      "palavra": "Κύριός",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSN"
+    },
+    {
+      "palavra": "σαββάτου",
+      "lemma": "σάββατον",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Υἱὸς",
+      "lemma": "υἱός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "ἀνθρώπου",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem predicado-sujeito (Κύριος...ἐστιν...ὁ Υἱός) e κύριος->Senhor",
+      "escolha": "Normalizar para ordem sujeito-predicado no publicado (ER-0011/ER-0013); κύριος vertido 'Senhor' por política NOMES-DIVINOS (fase NT), aqui como título, não referência direta a YHWH",
+      "justificativa": "Calque de ordem preservado na literal; publicado soa natural com sujeito 'Filho do Homem' à frente. 'Filho do Homem' maiúsculo como título messiânico fixo (primeira ocorrência no capítulo).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter ordem V-S no publicado",
+          "motivo": "soa traduzido/arcaico em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira ocorrência de 'Filho do Homem' no capítulo; fixa a maiúscula como título.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.8.23",
+    "livro": "Lucas",
+    "capitulo": 8,
+    "versiculo": 23,
+    "pericope": "Luke.8.1-56"
+  },
+  "texto_bv": "Enquanto navegavam, ele adormeceu. E desceu sobre o lago uma tempestade de vento, e o barco ia se enchendo de água, e corriam perigo.",
+  "traducao_literal": "Navegando eles, ele adormeceu. E desceu tempestade de vento sobre o lago, e enchiam-se e corriam-perigo.",
+  "termos_originais": [
+    {
+      "palavra": "πλεόντων",
+      "lemma": "πλέω",
+      "morfologia": "V-PAP-GPM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "αὐτῶν",
+      "lemma": "αὐτός",
+      "morfologia": "P-GPM"
+    },
+    {
+      "palavra": "ἀφύπνωσεν",
+      "lemma": "ἀφυπνόω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "κατέβη",
+      "lemma": "καταβαίνω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "λαῖλαψ",
+      "lemma": "λαῖλαψ",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἀνέμου",
+      "lemma": "ἄνεμος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "λίμνην",
+      "lemma": "λίμνη",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "συνεπληροῦντο",
+      "lemma": "συμπληρόω",
+      "morfologia": "V-IEI-3P"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐκινδύνευον",
+      "lemma": "κινδυνεύω",
+      "morfologia": "V-IAI-3P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "συνεπληροῦντο — sujeito gramatical não explícito (plural, verbo passivo 'encher-se')",
+      "escolha": "sujeito retomado como 'o barco'",
+      "justificativa": "O verbo plural sem sujeito expresso pode referir-se aos ocupantes ou, por metonímia, à embarcação que se enche de água; optou-se pelo referente concreto habitual da expressão (o barco tomando água), mais claro ao leitor em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'eles se enchiam' (mantendo sujeito humano/ambíguo)",
+          "motivo": "soa agramatical/confuso em português — pessoas não 'se enchem', a imagem é do barco"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o barco (sujeito retomado de συνεπληροῦντο)",
+    "de água (objeto implícito do verbo 'encher-se')"
+  ],
+  "ambiguidades_preservadas": [
+    "referente exato de συνεπληροῦντο — barco vs. ocupantes — não é lexicalmente fechado pelo grego"
+  ],
+  "justificativa": "'de água' suprido para completar o sentido de συνεπληροῦντο ('enchiam-se'), agramatical sem objeto explícito em português.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

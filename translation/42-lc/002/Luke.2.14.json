@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.2.14",
+    "livro": "Lucas",
+    "capitulo": 2,
+    "versiculo": 14,
+    "pericope": "Luke.2.1-52"
+  },
+  "texto_bv": "\"Glória a Deus nas alturas, e paz na terra entre os homens de sua boa vontade.\"",
+  "traducao_literal": "Glória nas alturas a Deus, e sobre a terra paz entre homens de boa vontade.",
+  "termos_originais": [
+    {
+      "palavra": "Δόξα",
+      "lemma": "δόξα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ὑψίστοις",
+      "lemma": "ὕψιστος",
+      "morfologia": "A-DPN-S"
+    },
+    {
+      "palavra": "Θεῷ",
+      "lemma": "θεός",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐπὶ",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "γῆς",
+      "lemma": "γῆ",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "εἰρήνη",
+      "lemma": "εἰρήνη",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἀνθρώποις",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-DPM"
+    },
+    {
+      "palavra": "εὐδοκίας",
+      "lemma": "εὐδοκία",
+      "morfologia": "N-GSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "εὐδοκίας — genitivo (texto pinado Nestle 1904) vs. εὐδοκία nominativo (texto majoritário/bizantino, base do 'boa vontade para com os homens' da KJV/Almeida antiga)",
+      "escolha": "genitivo, 'homens de [sua] boa vontade' — a paz recai sobre os homens que são objeto do agrado/favor de Deus, não uma afirmação de que todos os homens têm boa vontade",
+      "justificativa": "O packet traz εὐδοκίας (N-GSF, genitivo), a leitura do texto crítico pinado por ADR-0003; ER-0018 vincula a autoridade textual ao Nestle 1904, sem cotejo com o Textus Receptus. O genitivo qualifica ἀνθρώποις como 'homens do [seu] agrado', não sujeito de boa vontade humana universal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'paz entre os homens, boa vontade' (nominativo εὐδοκία, tradição TR/KJV/Almeida clássica)",
+          "motivo": "não corresponde ao caso gramatical do texto-fonte pinado (genitivo); mudaria o sentido teológico de 'favor eletivo de Deus' para 'benevolência humana genérica' sem base na fonte adotada (ER-0018)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "'homens de sua boa vontade' pode ler-se como 'os homens sobre quem recai o favor/eleição de Deus' (leitura mais provável do genitivo) ou, menos provavelmente, 'homens de boa disposição/vontade própria'; a BV não dirime completamente entre as duas por meio da tradução isolada do genitivo."
+  ],
+  "justificativa": "O hino angélico mais citado do capítulo; a variante de caso gramatical de εὐδοκίας tem peso teológico documentado (favor eletivo vs. benevolência universal), tratada aqui como questão textual/gramatical, não como aparato disputado no packet (que não trouxe variantes_fonte para este verso).",
+  "confianca": 0.6,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

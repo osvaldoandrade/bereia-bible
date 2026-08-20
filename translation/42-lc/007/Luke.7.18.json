@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.7.18",
+    "livro": "Lucas",
+    "capitulo": 7,
+    "versiculo": 18,
+    "pericope": "Luke.7.1-50"
+  },
+  "texto_bv": "Os discípulos de João contaram-lhe a respeito de todas essas coisas. E João, chamando a si dois dos seus discípulos,",
+  "traducao_literal": "E anunciaram a João os discípulos dele a respeito de todas estas coisas. E, tendo-chamado-a-si dois dentre os discípulos dele, João",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀπήγγειλαν",
+      "lemma": "ἀπαγγέλλω",
+      "morfologia": "V-AAI-3P"
+    },
+    {
+      "palavra": "Ἰωάνει",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "μαθηταὶ",
+      "lemma": "μαθητής",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "περὶ",
+      "lemma": "περί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πάντων",
+      "lemma": "πᾶς",
+      "morfologia": "A-GPN"
+    },
+    {
+      "palavra": "τούτων",
+      "lemma": "οὗτος",
+      "morfologia": "D-GPN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "προσκαλεσάμενος",
+      "lemma": "προσκαλέω",
+      "morfologia": "V-ADP-NSM"
+    },
+    {
+      "palavra": "δύο",
+      "lemma": "δύο",
+      "morfologia": "A-NUI"
+    },
+    {
+      "palavra": "τινὰς",
+      "lemma": "τὶς",
+      "morfologia": "X-APM"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPM"
+    },
+    {
+      "palavra": "μαθητῶν",
+      "lemma": "μαθητής",
+      "morfologia": "N-GPM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Ἰωάνης",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Grafia Ἰωάνης/Ἰωάνει (forma com um só ν) vs. Ἰωάννης tradicional",
+      "escolha": "traduzir sempre 'João', sem marcar a variante gráfica",
+      "justificativa": "Variação puramente ortográfica da fonte pinada (Nestle 1904), sem efeito semântico; EDITORIAL §8 manda usar a grafia consolidada em português para nomes próprios com tradição.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Fronteira de sentença atravessando a divisão versicular 7:18/7:19",
+      "escolha": "encerrar 7:18 em vírgula, completando a oração em 7:19",
+      "justificativa": "O grego não pontua fim de período em 7:18 (sem token de pontuação final na fonte pinada); a oração sobre 'ele enviou' só se completa no verso seguinte — cobertura do packet exige registrar os dois versículos como unidades formalmente separadas, mesmo sendo uma única sentença.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "fechar 7:18 como frase completa e reabrir sujeito em 7:19",
+          "motivo": "seria mais natural em português isolado, mas obscureceria que é uma única sentença grega dividida pela versificação"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso sem pontuação final na fonte pinada; mantido em aberto para 7:19.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

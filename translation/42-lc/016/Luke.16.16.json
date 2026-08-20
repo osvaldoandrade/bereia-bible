@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.16.16",
+    "livro": "Lucas",
+    "capitulo": 16,
+    "versiculo": 16,
+    "pericope": "Luke.16.1-31"
+  },
+  "texto_bv": "A lei e os profetas foram até João; desde então o reino de Deus é anunciado, e todos se esforçam para entrar nele.",
+  "traducao_literal": "A lei e os profetas [foram] até João; desde então o reino de Deus é anunciado, e todo homem para ele se violenta/é forçado.",
+  "termos_originais": [
+    {
+      "palavra": "Ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "νόμος",
+      "lemma": "νόμος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "προφῆται",
+      "lemma": "προφήτης",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "μέχρι",
+      "lemma": "μέχρι",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "Ἰωάνου",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ἀπὸ",
+      "lemma": "ἀπό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τότε",
+      "lemma": "τότε",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "βασιλεία",
+      "lemma": "βασιλεία",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "εὐαγγελίζεται",
+      "lemma": "εὐαγγελίζω",
+      "morfologia": "V-PEI-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πᾶς",
+      "lemma": "πᾶς",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτὴν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASF"
+    },
+    {
+      "palavra": "βιάζεται",
+      "lemma": "βιάζω",
+      "morfologia": "V-PEI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ὁ νόμος καὶ οἱ προφῆται μέχρι Ἰωάνου — verbo elidido",
+      "escolha": "suprido 'foram'",
+      "justificativa": "O grego não tem verbo explícito nesta oração nominal; o português exige verbo para ser gramatical (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "não suprir verbo algum",
+          "motivo": "resultaria em oração sem predicado, agramatical em português"
+        }
+      ]
+    },
+    {
+      "questao": "πᾶς εἰς αὐτὴν βιάζεται — voz de βιάζεται (média ou passiva?)",
+      "escolha": "'todos se esforçam para entrar nele' (voz média, sentido ativo-reflexivo)",
+      "justificativa": "βιάζομαι pode ser lido como média ('força seu próprio caminho para dentro') ou como passiva ('é impelido/pressionado'); optou-se pela leitura média, mais corrente na exegese, preservando a alternativa em ambiguidade.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'e todo homem é forçado a entrar nele' (passiva)",
+          "motivo": "leitura minoritária, mas gramaticalmente possível; preservada como ambiguidade registrada, não descartada por completo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "foram"
+  ],
+  "ambiguidades_preservadas": [
+    "βιάζεται pode ser voz média ('esforça-se para entrar') ou passiva ('é forçado/impelido a entrar'); ambas gramaticalmente possíveis e debatidas na exegese — BV preserva a tensão"
+  ],
+  "justificativa": "Ditado difícil e classicamente ambíguo sobre a lei/profetas e o reino.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

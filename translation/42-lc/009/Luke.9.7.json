@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.9.7",
+    "livro": "Lucas",
+    "capitulo": 9,
+    "versiculo": 7,
+    "pericope": "Luke.9.1-62"
+  },
+  "texto_bv": "Herodes, o tetrarca, ouviu tudo o que estava acontecendo e ficou perplexo, porque alguns diziam que João havia ressuscitado dos mortos,",
+  "traducao_literal": "E ouviu Herodes, o tetrarca, todas as coisas que aconteciam, e estava perplexo, por ser dito por alguns que João foi ressuscitado dentre os mortos,",
+  "termos_originais": [
+    {
+      "palavra": "Ἤκουσεν",
+      "lemma": "ἀκούω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἡρῴδης",
+      "lemma": "Ἡρῴδης",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "τετραάρχης",
+      "lemma": "τετραάρχης",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-APN"
+    },
+    {
+      "palavra": "γινόμενα",
+      "lemma": "γίνομαι",
+      "morfologia": "V-PNP-APN"
+    },
+    {
+      "palavra": "πάντα",
+      "lemma": "πᾶς",
+      "morfologia": "A-APN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "διηπόρει",
+      "lemma": "διαπορέω",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "διὰ",
+      "lemma": "διά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-ASN"
+    },
+    {
+      "palavra": "λέγεσθαι",
+      "lemma": "λέγω",
+      "morfologia": "V-PEN"
+    },
+    {
+      "palavra": "ὑπό",
+      "lemma": "ὑπό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τινων",
+      "lemma": "τὶς",
+      "morfologia": "X-GPM"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰωάνης",
+      "lemma": "Ἰωάννης",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἠγέρθη",
+      "lemma": "ἐγείρω",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "νεκρῶν",
+      "lemma": "νεκρός",
+      "morfologia": "A-GPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem verbo-sujeito grega (Ἤκουσεν δὲ Ἡρῴδης)",
+      "escolha": "normalizar para sujeito-verbo no texto publicado ('Herodes ouviu'), preservando a ordem grega na literal",
+      "justificativa": "por analogia à doutrina do calque (ER-0013, cunhada para o hebraico): a inversão V-S do grego narrativo é um traço de estilo, não de sentido; o publicado segue a ordem natural do português",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter V-S no publicado ('Ouviu Herodes...')",
+          "motivo": "soa arcaizante em português contemporâneo sem ganho semântico"
+        }
+      ]
+    },
+    {
+      "questao": "Grafia do nome Ἰωάνης",
+      "escolha": "'João' (grafia consolidada em português)",
+      "justificativa": "EDITORIAL §8 — nomes com tradição consolidada usam a grafia corrente, não a transliteração do grego (que aqui traz um só ny, forma do Nestle 1904)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Joanes'",
+          "motivo": "transliteração erudita sem uso corrente em português"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "τετραάρχης transliterado 'tetrarca', título administrativo sem tradução corrente melhor.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

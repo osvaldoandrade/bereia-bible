@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.10.15",
+    "livro": "Lucas",
+    "capitulo": 10,
+    "versiculo": 15,
+    "pericope": "Luke.10.1-42"
+  },
+  "texto_bv": "E você, Cafarnaum, será elevada até o céu? Descerá até o Hades.",
+  "traducao_literal": "E tu, Cafarnaum, acaso até o céu serás exaltada? Até o Hades descerás.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "σύ",
+      "lemma": "σύ",
+      "morfologia": "P-2NS"
+    },
+    {
+      "palavra": "Καφαρναούμ",
+      "lemma": "Καφαρναούμ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἕως",
+      "lemma": "ἕως",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "οὐρανοῦ",
+      "lemma": "οὐρανός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ὑψωθήσῃ",
+      "lemma": "ὑψόω",
+      "morfologia": "V-FPI-2S"
+    },
+    {
+      "palavra": "ἕως",
+      "lemma": "ἕως",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Ἅιδου",
+      "lemma": "ᾅδης",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "καταβήσῃ",
+      "lemma": "καταβαίνω",
+      "morfologia": "V-FDI-2S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "μὴ...ὑψωθήσῃ — pergunta retórica (μὴ interrogativo, esperando 'não') vs. leitura declarativa ('tu que te exaltas')",
+      "escolha": "manter como pergunta retórica, conforme o futuro passivo interrogativo do texto pinado",
+      "justificativa": "O Nestle1904 pinado traz μὴ ἕως οὐρανοῦ ὑψωθήσῃ (interrogativa com μή), não a leitura particípio 'ὑψωθεῖσα' de outras tradições; sem variantes_fonte no packet, segue-se a forma dada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tu que te exaltas até o céu, serás abatida' (leitura declarativa/particípio)",
+          "motivo": "não é o texto do packet pinado; introduziria variante não sinalizada"
+        }
+      ]
+    },
+    {
+      "questao": "Ἅιδου — traduzir 'Hades' ou 'inferno'",
+      "escolha": "manter 'Hades' (transliteração/nome próprio)",
+      "justificativa": "TEOLOGIA §2 veda importar exegese; 'Hades' é o termo grego para a morada dos mortos, distinto de 'Geena' (juízo final) — traduzir por 'inferno' importaria concordismo teológico não codificado no lexema.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'inferno'",
+          "motivo": "colapsa Hades com Geena, distinção que o NT preserva"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Julgamento contra Cafarnaum, eco de Is 14:13-15.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

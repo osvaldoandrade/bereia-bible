@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.16.6",
+    "livro": "Lucas",
+    "capitulo": 16,
+    "versiculo": 6,
+    "pericope": "Luke.16.1-31"
+  },
+  "texto_bv": "Ele respondeu: 'Cem batos de azeite.' Disse-lhe então: 'Pegue a sua conta, sente-se depressa e escreva cinquenta.'",
+  "traducao_literal": "Ele, porém, disse: Cem batos de azeite. Disse a ele: Recebe os teus escritos e, tendo-te sentado, depressa escreve cinquenta.",
+  "termos_originais": [
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἶπεν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "Ἑκατὸν",
+      "lemma": "ἑκατόν",
+      "morfologia": "A-NUI"
+    },
+    {
+      "palavra": "βάτους",
+      "lemma": "βάτος (II)",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "ἐλαίου",
+      "lemma": "ἔλαιον",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἶπεν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    },
+    {
+      "palavra": "Δέξαι",
+      "lemma": "δέχομαι",
+      "morfologia": "V-ADM-2S"
+    },
+    {
+      "palavra": "σου",
+      "lemma": "σύ",
+      "morfologia": "P-2GS"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-APN"
+    },
+    {
+      "palavra": "γράμματα",
+      "lemma": "γράμμα",
+      "morfologia": "N-APN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "καθίσας",
+      "lemma": "καθίζω",
+      "morfologia": "V-AAP-NSM"
+    },
+    {
+      "palavra": "ταχέως",
+      "lemma": "ταχέως",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "γράψον",
+      "lemma": "γράφω",
+      "morfologia": "V-AAM-2S"
+    },
+    {
+      "palavra": "πεντήκοντα",
+      "lemma": "πεντήκοντα",
+      "morfologia": "A-NUI"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "βάτους — unidade de medida líquida",
+      "escolha": "'batos', transliteração mantida",
+      "justificativa": "EDITORIAL §7: medidas antigas mantidas, conversão não entra no texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "converter para litros no texto",
+          "motivo": "EDITORIAL §7 exige que conversões fiquem em nota, nunca no texto corrido"
+        }
+      ]
+    },
+    {
+      "questao": "τὰ γράμματα — documento de dívida",
+      "escolha": "'conta' (bilhete/registro do débito)",
+      "justificativa": "γράμμα literalmente 'escrito/letra'; no contexto comercial da parábola refere-se ao registro do débito. 'Conta' é natural e evita o falso sentido de 'recibo' (prova de pagamento já feito).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'recibo'",
+          "motivo": "sugere quitação já ocorrida, o que contradiz o contexto de dívida ainda pendente sendo reduzida"
+        },
+        {
+          "opcao": "'os teus escritos' (calque)",
+          "motivo": "preservado na traducao_literal; soa artificial no texto publicado"
+        }
+      ]
+    },
+    {
+      "questao": "πεντήκοντα — elipse da unidade",
+      "escolha": "'cinquenta' sem unidade, como no original",
+      "justificativa": "O grego elide a unidade (batos) na segunda menção; a BV preserva a mesma elipse, sem suprir 'batos'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "suprir 'batos' explícito",
+          "motivo": "o original também elide; suprir quebraria o paralelismo estilístico com a fonte"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Diálogo administrador–devedor (nível 2, aspas simples), cada fala fechada dentro do próprio versículo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
