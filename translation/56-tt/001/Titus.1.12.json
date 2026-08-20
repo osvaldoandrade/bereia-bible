@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Titus.1.12",
+    "livro": "Tito",
+    "capitulo": 1,
+    "versiculo": 12,
+    "pericope": "Titus.1.1-16"
+  },
+  "texto_bv": "Um deles, seu próprio profeta, disse: \"Os cretenses são sempre mentirosos, feras más, ventres preguiçosos.\"",
+  "traducao_literal": "disse alguém dentre-eles, próprio deles profeta: 'cretenses sempre mentirosos, feras más, ventres ociosos.'",
+  "termos_originais": [
+    {
+      "palavra": "εἶπέν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "τις",
+      "lemma": "τὶς",
+      "morfologia": "X-NSM"
+    },
+    {
+      "palavra": "ἐξ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτῶν",
+      "lemma": "αὐτός",
+      "morfologia": "P-GPM"
+    },
+    {
+      "palavra": "ἴδιος",
+      "lemma": "ἴδιος",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "αὐτῶν",
+      "lemma": "αὐτός",
+      "morfologia": "P-GPM"
+    },
+    {
+      "palavra": "προφήτης",
+      "lemma": "προφήτης",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Κρῆτες",
+      "lemma": "Κρής",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "ἀεὶ",
+      "lemma": "ἀεί",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ψεῦσται",
+      "lemma": "ψεύστης",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "κακὰ",
+      "lemma": "κακός",
+      "morfologia": "A-NPN"
+    },
+    {
+      "palavra": "θηρία",
+      "lemma": "θηρίον",
+      "morfologia": "N-NPN"
+    },
+    {
+      "palavra": "γαστέρες",
+      "lemma": "γαστήρ",
+      "morfologia": "N-NPF"
+    },
+    {
+      "palavra": "ἀργαί",
+      "lemma": "ἀργός",
+      "morfologia": "A-NPF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "O grego antigo não marca graficamente a citação (ausência de sinais diacríticos de citação); trata-se da citação atribuída a Epimênides de Creta.",
+      "escolha": "aplicar EDITORIAL §5 (dois-pontos + aspas duplas curvas) à citação",
+      "justificativa": "embora o texto-fonte não tenha pontuação de citação, o conteúdo é reconhecidamente uma citação de terceiro (εἶπέν τις...); a regra de discurso direto da BV se aplica por analogia estrutural, marcando visualmente a fala citada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sem aspas, integrado à prosa",
+          "motivo": "obscureceria para o leitor que se trata de uma citação de um poeta cretense, perdendo informação estrutural presente na sintaxe grega (εἶπέν τις ἐξ αὐτῶν...)"
+        }
+      ]
+    },
+    {
+      "questao": "γαστέρες ἀργαί (lit. 'ventres ociosos/desocupados'): idiomatizar como 'glutões preguiçosos' ou manter a imagem literal.",
+      "escolha": "ventres preguiçosos",
+      "justificativa": "mantém a imagem corporal grega, já consolidada nas traduções pt-BR, sem perder a força pejorativa do provérbio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "glutões",
+          "motivo": "interpretação corrente do provérbio, mas afasta-se do valor lexical de ἀργός ('ocioso/preguiçoso'), que fala de indolência, não de gula"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Citação do poeta cretense (tradicionalmente identificado como Epimênides) sobre seu próprio povo; sem verbo copulativo expresso em grego, suprido implicitamente no verbo 'são'.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

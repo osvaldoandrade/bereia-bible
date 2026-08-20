@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Tim.3.1",
+    "livro": "1 Timóteo",
+    "capitulo": 3,
+    "versiculo": 1,
+    "pericope": "1Tim.3.1-16"
+  },
+  "texto_bv": "Fiel é a palavra: se alguém aspira ao episcopado, deseja uma obra boa.",
+  "traducao_literal": "Fiel a palavra: se alguém a episcopado aspira, de boa obra deseja.",
+  "termos_originais": [
+    {
+      "palavra": "Πιστὸς",
+      "lemma": "πιστός",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "λόγος",
+      "lemma": "λόγος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "εἴ",
+      "lemma": "εἰ",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "τις",
+      "lemma": "τὶς",
+      "morfologia": "X-NSM"
+    },
+    {
+      "palavra": "ἐπισκοπῆς",
+      "lemma": "ἐπισκοπή",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "ὀρέγεται",
+      "lemma": "ὀρέγω",
+      "morfologia": "V-PEI-3S"
+    },
+    {
+      "palavra": "καλοῦ",
+      "lemma": "καλός",
+      "morfologia": "A-GSN"
+    },
+    {
+      "palavra": "ἔργου",
+      "lemma": "ἔργον",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "ἐπιθυμεῖ",
+      "lemma": "ἐπιθυμέω",
+      "morfologia": "V-PAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐπισκοπῆς — glosa do abstrato correspondente a ἐπίσκοπος",
+      "escolha": "episcopado",
+      "justificativa": "Mantém coerência lexical com ἐπίσκοπος→'bispo', já fixado em Fp 1.1; 'episcopado' é o abstrato consolidado em português para o ofício.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "supervisão/cargo de superintendência",
+          "motivo": "mais próximo etimologicamente, mas rompe a consistência terminológica já fixada com 'bispo' noutro livro do corpus (EDITORIAL §11)"
+        }
+      ]
+    },
+    {
+      "questao": "καλοῦ ἔργου — glosa de καλός",
+      "escolha": "boa obra",
+      "justificativa": "καλός é glosado uniformemente 'bom/boa' no capítulo (recorre em vv.1,2,4,7,12,13); evita variação estilística sem base lexical diferenciada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "obra excelente",
+          "motivo": "opção estilística válida, mas quebraria a uniformidade da glosa de καλός adotada para o capítulo inteiro"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (cópula elidida na oração nominal Πιστὸς ὁ λόγος)",
+    "uma (artigo indefinido exigido pelo português; καλοῦ ἔργου é anártrico no grego)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Fórmula formular πιστὸς ὁ λόγος (recorrente nas pastorais) traduzida com cópula suprida; ἐπισκοπή alinhado a ἐπίσκοπος→'bispo' já fixado no corpus.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

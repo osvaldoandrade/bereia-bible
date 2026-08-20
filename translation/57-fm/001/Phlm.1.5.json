@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Phlm.1.5",
+    "livro": "Filemom",
+    "capitulo": 1,
+    "versiculo": 5,
+    "pericope": "Phlm.1.1-25"
+  },
+  "texto_bv": "porque ouço falar do teu amor e da fé que tens para com o Senhor Jesus e para com todos os santos,",
+  "traducao_literal": "ouvindo de ti o amor e a fé que tens para o Senhor Jesus e para todos os santos",
+  "termos_originais": [
+    {
+      "palavra": "ἀκούων",
+      "lemma": "ἀκούω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "σου",
+      "lemma": "σύ",
+      "morfologia": "P-2GS"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "ἀγάπην",
+      "lemma": "ἀγάπη",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "πίστιν",
+      "lemma": "πίστις",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἣν",
+      "lemma": "ὅς",
+      "morfologia": "R-ASF"
+    },
+    {
+      "palavra": "ἔχεις",
+      "lemma": "ἔχω",
+      "morfologia": "V-PAI-2S"
+    },
+    {
+      "palavra": "πρὸς",
+      "lemma": "πρός",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "Κύριον",
+      "lemma": "κύριος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "Ἰησοῦν",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πάντας",
+      "lemma": "πᾶς",
+      "morfologia": "A-APM"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "ἁγίους",
+      "lemma": "ἅγιος",
+      "morfologia": "A-APM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἀκούων σου τὴν ἀγάπην καὶ τὴν πίστιν — ἣν ἔχεις concorda só com πίστιν, mas semanticamente estende-se a ambos",
+      "escolha": "'que tens' aplicado a ambos (amor e fé)",
+      "justificativa": "ἣν (relativo feminino singular) concorda gramaticalmente só com πίστιν (fé), mas o sentido claramente inclui ἀγάπην (amor) por proximidade e paralelismo — figura de zeugma comum em Paulo. traducao_literal preserva a concordância estrita; texto_bv estende naturalmente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "amor... e a fé que tens",
+          "motivo": "tecnicamente mais fiel à concordância grega, mas cria estranheza ao sugerir que só a fé (não o amor) é dirigida ao Senhor e aos santos, quando o sentido claramente abrange ambos"
+        }
+      ]
+    },
+    {
+      "questao": "ἀκούων — particípio causal",
+      "escolha": "'porque ouço' (conector causal explicitado)",
+      "justificativa": "O particípio grego liga-se ao v.4 (Εὐχαριστῶ) como causa da ação de graças; o português exige conector explícito para a subordinação que o grego faz por justaposição participial.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "porque (conector causal explicitando a relação entre o particípio ἀκούων e o v.4, agramatical sem isso em português)",
+    "falar (verbo suprido para 'ouço [falar] do teu amor')"
+  ],
+  "ambiguidades_preservadas": [
+    "Escopo de ἣν ἔχεις (fé/amor voltados ao Senhor e aos santos): gramaticalmente só 'fé', semanticamente ambos — preservado no campo traducao_literal com a concordância estrita."
+  ],
+  "justificativa": "Continuação do agradecimento: motivo é o testemunho do amor e da fé de Filemom.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

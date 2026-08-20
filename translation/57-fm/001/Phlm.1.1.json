@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Phlm.1.1",
+    "livro": "Filemom",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "Phlm.1.1-25"
+  },
+  "texto_bv": "Paulo, prisioneiro de Cristo Jesus, e o irmão Timóteo, a Filemom, nosso amado e cooperador,",
+  "traducao_literal": "Paulo, prisioneiro de Cristo Jesus, e Timóteo o irmão, a Filemom o amado e cooperador de nós",
+  "termos_originais": [
+    {
+      "palavra": "Παῦλος",
+      "lemma": "Παῦλος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "δέσμιος",
+      "lemma": "δέσμιος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Χριστοῦ",
+      "lemma": "Χριστός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Τιμόθεος",
+      "lemma": "Τιμόθεος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "ἀδελφὸς",
+      "lemma": "ἀδελφός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Φιλήμονι",
+      "lemma": "Φιλήμων",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "ἀγαπητῷ",
+      "lemma": "ἀγαπητός",
+      "morfologia": "A-DSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "συνεργῷ",
+      "lemma": "συνεργός",
+      "morfologia": "A-DSM"
+    },
+    {
+      "palavra": "ἡμῶν",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GP"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "δέσμιος Χριστοῦ Ἰησοῦ — genitivo de Χριστοῦ Ἰησοῦ",
+      "escolha": "prisioneiro de Cristo Jesus (genitivo de causa/posse: preso por causa de/pertencente a Cristo)",
+      "justificativa": "Genitivo ambíguo entre causa (preso por Cristo) e posse (prisioneiro que pertence a Cristo); mantido literal 'de Cristo Jesus' preserva a ambiguidade sem forçar uma leitura.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "prisioneiro por causa de Cristo Jesus",
+          "motivo": "resolve interpretativamente a ambiguidade do genitivo, que o grego não desfaz"
+        }
+      ]
+    },
+    {
+      "questao": "ὁ ἀδελφός aposto a Τιμόθεος",
+      "escolha": "'o irmão Timóteo' no publicado, preservando o artigo apositivo em posição de aposto após o nome na literal",
+      "justificativa": "O grego usa o artigo para marcar o aposto 'o irmão'; em português soa mais natural antepor 'o irmão' ou pospor como aposto — optou-se por manter próximo à ordem, mas fluente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Timóteo, o irmão",
+          "motivo": "também válido; optou-se pela forma mais compacta para abertura de carta"
+        }
+      ]
+    },
+    {
+      "questao": "τῷ ἀγαπητῷ καὶ συνεργῷ ἡμῶν — a quem se refere ἡμῶν (nosso)",
+      "escolha": "'nosso amado e cooperador' — ἡμῶν rege ambos os predicados (amado e cooperador)",
+      "justificativa": "Sintaticamente ἡμῶν pode reger só συνεργῷ ou os dois adjetivos coordenados por καὶ sob o mesmo artigo τῷ; optou-se pela leitura mais natural em que o possessivo se estende ao par.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "nosso amado, e cooperador (sem posse no segundo)",
+          "motivo": "quebra a coordenação sob o mesmo artigo, menos natural"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "nosso (nome do destinatário construído com vírgula, sem verbo copulativo explícito de saudação — próprio de abertura epistolar)"
+  ],
+  "ambiguidades_preservadas": [
+    "δέσμιος Χριστοῦ Ἰησοῦ: genitivo de causa ('preso por causa de Cristo') ou de pertença ('prisioneiro de Cristo') — ambas leituras correntes, preservadas pela preposição 'de'."
+  ],
+  "justificativa": "Abertura epistolar padrão: remetentes (Paulo e Timóteo), destinatário principal (Filemom) com dois qualificativos. Estrutura de saudação de carta grega antiga sem verbo finito, suprida apenas pela pontuação em português.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

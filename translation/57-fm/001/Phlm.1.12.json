@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Phlm.1.12",
+    "livro": "Filemom",
+    "capitulo": 1,
+    "versiculo": 12,
+    "pericope": "Phlm.1.1-25"
+  },
+  "texto_bv": "eu o envio de volta a ti, ele que é o meu próprio coração.",
+  "traducao_literal": "a quem enviei de volta a ti, ele, isto é as entranhas de mim",
+  "termos_originais": [
+    {
+      "palavra": "ὃν",
+      "lemma": "ὅς",
+      "morfologia": "R-ASM"
+    },
+    {
+      "palavra": "ἀνέπεμψά",
+      "lemma": "ἀναπέμπω",
+      "morfologia": "V-AAI-1S"
+    },
+    {
+      "palavra": "σοι",
+      "lemma": "σύ",
+      "morfologia": "P-2DS"
+    },
+    {
+      "palavra": "αὐτόν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "τοῦτ’",
+      "lemma": "οὗτος",
+      "morfologia": "D-NSN"
+    },
+    {
+      "palavra": "ἔστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-APN"
+    },
+    {
+      "palavra": "ἐμὰ",
+      "lemma": "ἐμός",
+      "morfologia": "S-1SAPN"
+    },
+    {
+      "palavra": "σπλάγχνα",
+      "lemma": "σπλάγχνον",
+      "morfologia": "N-APN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "τὰ ἐμὰ σπλάγχνα — mesma metáfora somática do v.7",
+      "escolha": "'o meu próprio coração' (consistência terminológica com σπλάγχνα → 'coração' do v.7)",
+      "justificativa": "Mantida a mesma glosa de σπλάγχνα usada no v.7, por consistência terminológica dentro do mesmo capítulo (EDITORIAL §11).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "minhas entranhas",
+          "motivo": "mesma razão do v.7: fisiologicamente estranho em português, obscurece o sentido afetivo"
+        }
+      ]
+    },
+    {
+      "questao": "ἀνέπεμψά — aoristo epistolar (perspectiva do momento da leitura, não da escrita)",
+      "escolha": "'eu o envio' (presente, valor de aoristo epistolar)",
+      "justificativa": "Aoristo epistolar: Paulo escreve do ponto de vista de quando a carta será lida (o ato de enviar já terá ocorrido), convenção bem atestada nas cartas gregas; verte-se por presente em português para manter a naturalidade da entrega da carta com o portador.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "eu o enviei",
+          "motivo": "mais literal ao aoristo grego, mas confunde o leitor pt-BR, que não tem a convenção do aoristo epistolar e entenderia como envio já concluído antes da leitura, quando na prática Onésimo chega junto com a carta"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "isto é (locução explicativa para τοῦτ’ ἔστιν, mantida como locução equivalente)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Paulo envia Onésimo de volta, identificando-o intimamente consigo mesmo.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

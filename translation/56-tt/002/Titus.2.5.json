@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Titus.2.5",
+    "livro": "Tito",
+    "capitulo": 2,
+    "versiculo": 5,
+    "pericope": "Titus.2.1-15"
+  },
+  "texto_bv": "sensatas, puras, dedicadas ao lar, boas, submissas a seus próprios maridos, para que a palavra de Deus não seja difamada.",
+  "traducao_literal": "sensatas, puras, dedicadas ao lar, boas, sujeitas aos seus próprios maridos, para que a palavra de Deus não seja difamada.",
+  "termos_originais": [
+    {
+      "palavra": "σώφρονας",
+      "lemma": "σώφρων",
+      "morfologia": "A-APF"
+    },
+    {
+      "palavra": "ἁγνάς",
+      "lemma": "ἁγνός",
+      "morfologia": "A-APF"
+    },
+    {
+      "palavra": "οἰκουργούς",
+      "lemma": "οἰκουργός",
+      "morfologia": "A-APF"
+    },
+    {
+      "palavra": "ἀγαθάς",
+      "lemma": "ἀγαθός",
+      "morfologia": "A-APF"
+    },
+    {
+      "palavra": "ὑποτασσομένας",
+      "lemma": "ὑποτάσσω",
+      "morfologia": "V-PEP-APF"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "ἰδίοις",
+      "lemma": "ἴδιος",
+      "morfologia": "A-DPM"
+    },
+    {
+      "palavra": "ἀνδράσιν",
+      "lemma": "ἀνήρ",
+      "morfologia": "N-DPM"
+    },
+    {
+      "palavra": "ἵνα",
+      "lemma": "ἵνα",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "λόγος",
+      "lemma": "λόγος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "βλασφημῆται",
+      "lemma": "βλασφημέω",
+      "morfologia": "V-PES-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "οἰκουργός (lema pinado do packet) — glosa",
+      "escolha": "'dedicadas ao lar'",
+      "justificativa": "lema atestado na fonte pinada nestle1904@713f28a3, sem variantes_fonte apresentadas no packet; glosa por valor lexical (trabalhar em casa).",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "βλασφημῆται — registro da glosa",
+      "escolha": "'difamada' (não 'blasfemada')",
+      "justificativa": "βλασφημέω tem sentido amplo de 'falar mal, injuriar'; aplicado à 'palavra de Deus' pela má conduta de crentes perante forasteiros, não blasfêmia religiosa direta contra Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'blasfemada'",
+          "motivo": "registro técnico-religioso estreito demais para o contexto social do versículo."
+        }
+      ]
+    },
+    {
+      "questao": "ὑποτασσομένας — voz média/passiva (morph V-PEP-APF vs func_morph V-PPP-APF; discordância documentada por MORFOLOGIA-NESTLE1904.md regra 3)",
+      "escolha": "'submissas' (adjetivo, neutro quanto à voz)",
+      "justificativa": "a forma é ambígua entre média ('sujeitando-se', ato voluntário) e passiva ('sendo sujeitadas'); o adjetivo português evita decidir a favor de uma leitura só.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'sujeitando-se' (média, reflexiva)",
+          "motivo": "decidiria pela leitura funcional (func_morph), descartando a ambiguidade presente na forma (morph)."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "ὑποτασσομένας: ambígua entre submissão voluntária (média) e estado imposto (passiva); a BV usa adjetivo neutro."
+  ],
+  "justificativa": "Fecho da lista de qualidades das mulheres jovens; a cláusula final liga a conduta doméstica à reputação pública do evangelho.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

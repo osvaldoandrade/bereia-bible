@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Phlm.1.9",
+    "livro": "Filemom",
+    "capitulo": 1,
+    "versiculo": 9,
+    "pericope": "Phlm.1.1-25"
+  },
+  "texto_bv": "prefiro, por causa do amor, antes suplicar — eu, Paulo, sendo o que sou, um velho e agora também prisioneiro de Cristo Jesus.",
+  "traducao_literal": "por causa do amor mais suplico, tal sendo como Paulo velho, agora porém também prisioneiro de Cristo Jesus",
+  "termos_originais": [
+    {
+      "palavra": "διὰ",
+      "lemma": "διά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "ἀγάπην",
+      "lemma": "ἀγάπη",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "μᾶλλον",
+      "lemma": "μᾶλλον",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "παρακαλῶ",
+      "lemma": "παρακαλέω",
+      "morfologia": "V-PAI-1S"
+    },
+    {
+      "palavra": "τοιοῦτος",
+      "lemma": "τοιοῦτος",
+      "morfologia": "D-NSM"
+    },
+    {
+      "palavra": "ὢν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "Παῦλος",
+      "lemma": "Παῦλος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "πρεσβύτης",
+      "lemma": "πρεσβύτης",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "νυνὶ",
+      "lemma": "νυνί",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "δέσμιος",
+      "lemma": "δέσμιος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Χριστοῦ",
+      "lemma": "Χριστός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "πρεσβύτης — 'velho/ancião' vs. possível confusão com πρεσβευτής ('embaixador')",
+      "escolha": "'um velho' (idade avançada)",
+      "justificativa": "A forma pinada é πρεσβύτης (ancião/idoso), morfologicamente distinta de πρεσβευτής (embaixador); alguns intérpretes conjecturam confusão de cópia, mas o texto pinado traz πρεσβύτης sem marca de variante, e a leitura 'velho' é a mais direta.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "embaixador",
+          "motivo": "exigiria a forma πρεσβευτής, ausente no texto pinado; leitura por conjectura filológica externa, não pelo texto-base"
+        }
+      ]
+    },
+    {
+      "questao": "τοιοῦτος ὢν ὡς — 'sendo tal como/sendo o que sou'",
+      "escolha": "'sendo o que sou' (idiomático)",
+      "justificativa": "τοιοῦτος ὢν ὡς Παῦλος literalmente 'sendo tal como Paulo' é redundante em português (o falante já é Paulo); verte-se pela ideia de autoidentificação enfática.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sendo tal qual Paulo",
+          "motivo": "mantém a redundância do grego (Paulo falando de si na terceira pessoa gramatical do nome), mas soa estranho e confuso em português corrido"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "eu (sujeito explicitado para clarear a autorreferência de Paulo, implícito na construção grega com nome próprio em aposto)"
+  ],
+  "ambiguidades_preservadas": [
+    "πρεσβύτης ('velho', idade) é por alguns lido como possível erro de cópia para πρεσβευτής ('embaixador'); o texto pinado não registra variante, e a BV segue a forma atestada."
+  ],
+  "justificativa": "Paulo funda o apelo pessoal em sua condição (idoso, preso), preferindo suplicar a ordenar.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 29748/31155 versículos.**
+**Total Bíblia sourced: 30015/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1389,39 +1389,39 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 2 | 17 | ● 17/17 [DRAFT] |
 | 3 | 18 | ● 18/18 [DRAFT] |
 
-## 1 Timóteo — 0/113 versículos (0.0%), 6 capítulos
+## 1 Timóteo — 113/113 versículos (100.0%), 6 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 20 | · pendente |
-| 2 | 15 | · pendente |
-| 3 | 16 | · pendente |
-| 4 | 16 | · pendente |
-| 5 | 25 | · pendente |
-| 6 | 21 | · pendente |
+| 1 | 20 | ● 20/20 [DRAFT] |
+| 2 | 15 | ● 15/15 [DRAFT] |
+| 3 | 16 | ● 16/16 [DRAFT] |
+| 4 | 16 | ● 16/16 [DRAFT] |
+| 5 | 25 | ● 25/25 [DRAFT] |
+| 6 | 21 | ● 21/21 [DRAFT] |
 
-## 2 Timóteo — 0/83 versículos (0.0%), 4 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 18 | · pendente |
-| 2 | 26 | · pendente |
-| 3 | 17 | · pendente |
-| 4 | 22 | · pendente |
-
-## Tito — 0/46 versículos (0.0%), 3 capítulos
+## 2 Timóteo — 83/83 versículos (100.0%), 4 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 16 | · pendente |
-| 2 | 15 | · pendente |
-| 3 | 15 | · pendente |
+| 1 | 18 | ● 18/18 [DRAFT] |
+| 2 | 26 | ● 26/26 [DRAFT] |
+| 3 | 17 | ● 17/17 [DRAFT] |
+| 4 | 22 | ● 22/22 [DRAFT] |
 
-## Filemom — 0/25 versículos (0.0%), 1 capítulos
+## Tito — 46/46 versículos (100.0%), 3 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 25 | · pendente |
+| 1 | 16 | ● 16/16 [DRAFT] |
+| 2 | 15 | ● 15/15 [DRAFT] |
+| 3 | 15 | ● 15/15 [DRAFT] |
+
+## Filemom — 25/25 versículos (100.0%), 1 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 25 | ● 25/25 [DRAFT] |
 
 ## Hebreus — 0/303 versículos (0.0%), 13 capítulos
 

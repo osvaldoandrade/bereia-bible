@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "2Tim.2.11",
+    "livro": "2 Timóteo",
+    "capitulo": 2,
+    "versiculo": 11,
+    "pericope": "2Tim.2.1-26"
+  },
+  "texto_bv": "Esta palavra é fiel: “Se morremos com ele, também com ele viveremos;",
+  "traducao_literal": "Fiel a palavra; pois se morremos-com [ele], também viveremos-com [ele];",
+  "termos_originais": [
+    {
+      "palavra": "Πιστὸς",
+      "lemma": "πιστός",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "λόγος",
+      "lemma": "λόγος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "εἰ",
+      "lemma": "εἰ",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "συναπεθάνομεν",
+      "lemma": "συναποθνῄσκω",
+      "morfologia": "V-2AAI-1P"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "συζήσομεν",
+      "lemma": "συζάω",
+      "morfologia": "V-FAI-1P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Πιστὸς ὁ λόγος — fórmula de citação; onde abrir as aspas do dito citado?",
+      "escolha": "abrir aspas no início do dito citado (v.11b), a fechar ao fim do v.13",
+      "justificativa": "ER-0004: discurso direto/citação recebe aspas duplas curvas; πιστὸς ὁ λόγος é fórmula técnica pastoral (cf. 1Tm 1:15; 3:1; 4:9; Tt 3:8) que introduz um dito citado, aqui reconhecível pela estrutura poética de quatro linhas condicionais (vv.11-13).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "sem aspas, tratando vv.11-13 como fala direta do próprio Paulo",
+          "motivo": "perde o sinal de que se trata de um dito tradicional/hínico citado, reconhecido pela erudição do NT"
+        }
+      ]
+    },
+    {
+      "questao": "συναπεθάνομεν / συζήσομεν (verbos compostos com συν-) — companheiro suprido",
+      "escolha": "com ele",
+      "justificativa": "o prefixo συν- implica companhia; o contexto paulino (cf. Rm 6:8) aponta para 'com Cristo'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir o objeto implícito",
+          "motivo": "deixaria o português agramatical ou ambíguo demais sem a referência"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "esta (retomando ὁ λόγος como catafórico)",
+    "ele (2x, objeto implícito dos verbos compostos)"
+  ],
+  "ambiguidades_preservadas": [
+    "extensão exata da citação (se inclui só vv.11-12 ou também v.13) não é marcada no grego; a BV estende as aspas até o fim do v.13 por critério editorial, não lexical"
+  ],
+  "justificativa": "Início de possível fragmento hínico/credal citado por Paulo; estrutura de quatro condicionais (vv.11-13) tratada como unidade.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
