@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.27.23",
+    "livro": "Atos",
+    "capitulo": 27,
+    "versiculo": 23,
+    "pericope": "Acts.27.1-44"
+  },
+  "texto_bv": "Pois esta noite esteve ao meu lado um anjo do Deus a quem pertenço e a quem sirvo,",
+  "traducao_literal": "pois esteve ao meu lado, nesta noite, do Deus — de quem sou, a quem também sirvo — anjo,",
+  "termos_originais": [
+    {
+      "palavra": "παρέστη",
+      "lemma": "παρίστημι",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "γάρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μοι",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DS"
+    },
+    {
+      "palavra": "ταύτῃ",
+      "lemma": "οὗτος",
+      "morfologia": "D-DSF"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "νυκτὶ",
+      "lemma": "νύξ",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "οὗ",
+      "lemma": "ὅς",
+      "morfologia": "R-GSM"
+    },
+    {
+      "palavra": "εἰμι",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-1S"
+    },
+    {
+      "palavra": "ᾧ",
+      "lemma": "ὅς",
+      "morfologia": "R-DSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "λατρεύω",
+      "lemma": "λατρεύω",
+      "morfologia": "V-PAI-1S"
+    },
+    {
+      "palavra": "ἄγγελος",
+      "lemma": "ἄγγελος",
+      "morfologia": "N-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "hipérbato grego: ἄγγελος deslocado ao fim da oração, separado de τοῦ Θεοῦ",
+      "escolha": "normalizar a ordem no texto publicado ('um anjo do Deus...'), preservando a ordem deslocada apenas na traducao_literal",
+      "justificativa": "doutrina do calque (ER-0013): a ênfase retórica do grego (retardar o sujeito 'anjo' até o fim, após qualificar o Deus a quem Paulo pertence e serve) é estilística e soaria artificial se reproduzida no português publicado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter a ordem deslocada no texto publicado",
+          "motivo": "produziria período de leitura difícil, contra EDITORIAL §1.3 (fluência em voz alta)"
+        }
+      ]
+    },
+    {
+      "questao": "τοῦ Θεοῦ, οὗ εἰμι — 'do Deus de quem sou'",
+      "escolha": "'do Deus a quem pertenço'",
+      "justificativa": "οὗ εἰμι (genitivo de posse com εἰμί) expressa pertencimento/propriedade, não mera identidade; 'a quem pertenço' comunica isso melhor que o literal 'de quem sou'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'de quem sou' (literal)",
+          "motivo": "ambíguo em português, pode soar incompleto"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira menção de intervenção angélica direta no capítulo; θεός aqui = Deus (política NOMES-DIVINOS.md, θεός NT → Deus).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

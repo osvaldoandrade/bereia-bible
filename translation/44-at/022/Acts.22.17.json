@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.22.17",
+    "livro": "Atos",
+    "capitulo": 22,
+    "versiculo": 17,
+    "pericope": "Acts.22.1-30"
+  },
+  "texto_bv": "Aconteceu que, quando voltei a Jerusalém e estava orando no templo, caí em êxtase",
+  "traducao_literal": "Aconteceu-me, tendo eu voltado a Jerusalém e orando eu no templo, vir a estar eu em êxtase",
+  "termos_originais": [
+    {
+      "palavra": "Ἐγένετο",
+      "lemma": "γίνομαι",
+      "morfologia": "V-2ADI-3S"
+    },
+    {
+      "palavra": "δέ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μοι",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DS"
+    },
+    {
+      "palavra": "ὑποστρέψαντι",
+      "lemma": "ὑποστρέφω",
+      "morfologia": "V-AAP-DSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Ἱερουσαλὴμ",
+      "lemma": "Ἱεροσόλυμα",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "προσευχομένου",
+      "lemma": "προσεύχομαι",
+      "morfologia": "V-PNP-GSM"
+    },
+    {
+      "palavra": "μου",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GS"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSN"
+    },
+    {
+      "palavra": "ἱερῷ",
+      "lemma": "ἱερός",
+      "morfologia": "N-DSN"
+    },
+    {
+      "palavra": "γενέσθαι",
+      "lemma": "γίνομαι",
+      "morfologia": "V-2ADN"
+    },
+    {
+      "palavra": "με",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1AS"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἐκστάσει",
+      "lemma": "ἔκστασις",
+      "morfologia": "N-DSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Fronteira de versículo dentro de uma única frase grega (v.17–18)",
+      "escolha": "Manter o v.17 sem ponto final, prosseguindo a oração no v.18, espelhando a ausência de pontuação terminal no texto-fonte",
+      "justificativa": "O packet não traz pontuação final após ἐκστάσει; a oração grega só se completa em 22.18. A BV preserva a divisão versicular tradicional sem fechar artificialmente a frase.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Fechar o v.17 com ponto final e reiniciar o v.18 como frase nova",
+          "motivo": "quebraria a subordinação sintática do grego (γενέσθαι με ... καὶ ἰδεῖν), quando o próprio texto-fonte não marca essa fronteira"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Início do relato da visão no templo de Jerusalém.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

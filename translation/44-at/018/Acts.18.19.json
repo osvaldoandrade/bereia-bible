@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.18.19",
+    "livro": "Atos",
+    "capitulo": 18,
+    "versiculo": 19,
+    "pericope": "Acts.18.1-28"
+  },
+  "texto_bv": "Chegaram a Éfeso, onde Paulo deixou Priscila e Áquila; ele, por sua vez, entrou na sinagoga e discutiu com os judeus.",
+  "traducao_literal": "E chegaram a Éfeso, e deixou-os ali, e ele mesmo, tendo entrado na sinagoga, discutiu com os judeus.",
+  "termos_originais": [
+    {
+      "palavra": "κατήντησαν",
+      "lemma": "καταντάω",
+      "morfologia": "V-AAI-3P"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Ἔφεσον",
+      "lemma": "Ἔφεσος",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "κἀκείνους",
+      "lemma": "κἀκεῖνος",
+      "morfologia": "D-APM-K"
+    },
+    {
+      "palavra": "κατέλιπεν",
+      "lemma": "καταλείπω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτοῦ",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "αὐτὸς",
+      "lemma": "αὐτός",
+      "morfologia": "P-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἰσελθὼν",
+      "lemma": "εἰσέρχομαι",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "συναγωγὴν",
+      "lemma": "συναγωγή",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "διελέξατο",
+      "lemma": "διαλέγομαι",
+      "morfologia": "V-ADI-3S"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "Ἰουδαίοις",
+      "lemma": "Ἰουδαῖος",
+      "morfologia": "A-DPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "αὐτοῦ na oração 'κατέλιπεν αὐτοῦ' — pronome pessoal ('dele') ou advérbio de lugar ('ali')?",
+      "escolha": "advérbio de lugar 'ali', conforme a morfologia do packet (ADV, Strong 847, distinto do pronome αὐτός)",
+      "justificativa": "o packet marca esta ocorrência especificamente como advérbio (Strong 847, ἐκεῖ-like 'ali'), não como forma do pronome αὐτός (Strong 846); evita a leitura incorreta 'deixou-o' ou 'deixou dele'.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ler como pronome pessoal",
+          "motivo": "contraria a morfologia expressamente marcada como advérbio no packet"
+        }
+      ]
+    },
+    {
+      "questao": "κἀκείνους ('aqueles/aquele casal') — referente implícito",
+      "escolha": "explicitar 'Priscila e Áquila' no publicado",
+      "justificativa": "clareza referencial; a literal preserva o demonstrativo genérico 'aqueles'.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Chegada a Éfeso encerra a viagem iniciada em Cencreia (v.18); Paulo entra sozinho na sinagoga para dialogar com os judeus locais.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

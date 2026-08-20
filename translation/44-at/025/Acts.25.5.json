@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Acts.25.5",
+    "livro": "Atos",
+    "capitulo": 25,
+    "versiculo": 5,
+    "pericope": "Acts.25.1-27"
+  },
+  "texto_bv": "Festo disse: \"Que os que têm autoridade entre vocês desçam comigo e, se há algo de errado nesse homem, que o acusem.\"",
+  "traducao_literal": "Os, pois, entre vós, disse ele, poderosos, tendo descido comigo, se algo há no homem de errado, acusem-no.",
+  "termos_originais": [
+    {
+      "palavra": "Οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "οὖν",
+      "lemma": "οὖν",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ὑμῖν",
+      "lemma": "σύ",
+      "morfologia": "P-2DP"
+    },
+    {
+      "palavra": "φησίν",
+      "lemma": "φημί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "δυνατοὶ",
+      "lemma": "δυνατός",
+      "morfologia": "A-NPM"
+    },
+    {
+      "palavra": "συνκαταβάντες",
+      "lemma": "συγκαταβαίνω",
+      "morfologia": "V-2AAP-NPM"
+    },
+    {
+      "palavra": "εἴ",
+      "lemma": "εἰ",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "τί",
+      "lemma": "τὶς",
+      "morfologia": "X-NSN"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "ἀνδρὶ",
+      "lemma": "ἀνήρ",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "ἄτοπον",
+      "lemma": "ἄτοπος",
+      "morfologia": "A-NSN"
+    },
+    {
+      "palavra": "κατηγορείτωσαν",
+      "lemma": "κατηγορέω",
+      "morfologia": "V-PAM-3P"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "φησίν intercalado + sujeito não expresso",
+      "escolha": "supri 'Festo disse:' no início e movi φησίν para fora da citação",
+      "justificativa": "O grego intercala 'disse ele' no meio da fala (recurso natural em grego, estranho em pt-BR); ER-0004 pede dois-pontos + aspas no início da citação.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preservar φησίν intercalado ('Os que, disse ele, entre vós...')",
+          "motivo": "quebra a legibilidade e o fluxo do discurso direto em português"
+        }
+      ]
+    },
+    {
+      "questao": "segunda pessoa do plural (ὑμῖν implícito no vocativo social)",
+      "escolha": "'vocês'",
+      "justificativa": "Discurso entre humanos segue você/vocês (EDITORIAL §3, ER-0003).",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "Festo disse:"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Discurso direto de Festo aos acusadores judeus, convocando-os a Cesareia.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
