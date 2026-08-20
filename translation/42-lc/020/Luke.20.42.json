@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.20.42",
+    "livro": "Lucas",
+    "capitulo": 20,
+    "versiculo": 42,
+    "pericope": "Luke.20.1-47"
+  },
+  "texto_bv": "Pois o próprio Davi diz no livro dos Salmos: 'Disse o SENHOR ao meu Senhor: Sente-se à minha direita,'",
+  "traducao_literal": "Pois ele mesmo, Davi, diz no livro dos salmos: Disse SENHOR ao Senhor de mim: Senta-te à direita de mim,",
+  "termos_originais": [
+    {
+      "palavra": "αὐτὸς",
+      "lemma": "αὐτός",
+      "morfologia": "P-NSM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Δαυεὶδ",
+      "lemma": "Δαυίδ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "βίβλῳ",
+      "lemma": "βίβλος",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "ψαλμῶν",
+      "lemma": "ψαλμός",
+      "morfologia": "N-GPM"
+    },
+    {
+      "palavra": "Εἶπεν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "Κύριος",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "Κυρίῳ",
+      "lemma": "κύριος",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "μου",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GS"
+    },
+    {
+      "palavra": "Κάθου",
+      "lemma": "κάθημαι",
+      "morfologia": "V-PNM-2S"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "δεξιῶν",
+      "lemma": "δεξιός",
+      "morfologia": "A-GPN"
+    },
+    {
+      "palavra": "μου",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GS"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Κύριος (1ª ocorrência) vs Κυρίῳ μου (2ª) — dupla ocorrência em citação de Sl 110:1",
+      "escolha": "1ª 'SENHOR' (YHWH, Tetragrama do hebraico יְהוָה); 2ª 'Senhor' (Adoni, referente messiânico/davídico, não o Tetragrama)",
+      "justificativa": "Sl 110:1 hebraico: נְאֻם יְהוָה לַאדֹנִי — a primeira ocorrência traduz יהוה (Tetragrama), a segunda traduz אֲדֹנִי com sufixo pronominal de 1sg, forma usada para superiores humanos/reais, nunca para Deus com esse sufixo; a distinção gráfica torna visível a estrutura do argumento de Jesus (o 'Senhor' de Davi é maior que um mero descendente)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "ambos 'SENHOR'",
+          "motivo": "apaga a distinção lexical hebraica entre יהוה e אדני, que é o próprio ponto retórico do argumento"
+        },
+        {
+          "opcao": "1ª 'Senhor', 2ª 'senhor' minúsculo",
+          "motivo": "perde a marcação do Tetragrama exigida pela política NOMES-DIVINOS na primeira ocorrência"
+        }
+      ]
+    },
+    {
+      "questao": "segunda pessoa no oráculo divino (Κάθου): tu vs você",
+      "escolha": "'Sente-se' (você) no publicado",
+      "justificativa": "discurso de Deus (YHWH) para um humano/figura messiânica, não oração dirigida a Deus; D-0003 aplica 'você' a todo discurso de Deus para humanos",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Senta-te' (tu)",
+          "motivo": "reservado por EDITORIAL §3 a oração/salmo dirigido A Deus, não de Deus para humanos"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A identidade plena do 'meu Senhor' (messiânico/davídico) permanece implícita no texto grego; a argumentação de Jesus no v.44 explora essa tensão sem que o versículo a resolva explicitamente — a leitura cristológica é implicação do argumento, não afirmação lexical direta"
+  ],
+  "justificativa": "Citação direta de Sl 110:1 (LXX 109:1), central ao argumento de Jesus sobre a filiação davídica do Cristo.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

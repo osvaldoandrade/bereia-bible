@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.23.54",
+    "livro": "Lucas",
+    "capitulo": 23,
+    "versiculo": 54,
+    "pericope": "Luke.23.1-56"
+  },
+  "texto_bv": "Era o dia da Preparação, e o sábado estava para começar.",
+  "traducao_literal": "E era o dia da Preparação, e o sábado estava amanhecendo.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἡμέρα",
+      "lemma": "ἡμέρα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἦν",
+      "lemma": "εἰμί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "Παρασκευῆς",
+      "lemma": "παρασκευή",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "σάββατον",
+      "lemma": "σάββατον",
+      "morfologia": "N-NSN"
+    },
+    {
+      "palavra": "ἐπέφωσκεν",
+      "lemma": "ἐπιφώσκω",
+      "morfologia": "V-IAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐπέφωσκεν aplicado ao início do sábado (calendário judaico começa ao pôr do sol)",
+      "escolha": "\"estava para começar\"",
+      "justificativa": "O verbo tem valor lexical de 'amanhecer', mas o sábado judaico começa ao entardecer; a BV preserva o sentido funcional (o dia está prestes a iniciar) evitando a contradição cronológica de 'amanhecia' em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"o sábado amanhecia\"",
+          "motivo": "tradução literal do verbo, mas gera confusão cronológica, já que o sábado judaico começa ao pôr do sol"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Uso de ἐπιφώσκω ('amanhecer') para o início do sábado, que no calendário judaico começa ao anoitecer — tensão lexical preservada na literal, resolvida funcionalmente no publicado."
+  ],
+  "justificativa": "Παρασκευή mantido como termo técnico do calendário (dia da Preparação, sexta-feira).",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

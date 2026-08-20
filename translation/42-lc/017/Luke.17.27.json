@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.17.27",
+    "livro": "Lucas",
+    "capitulo": 17,
+    "versiculo": 27,
+    "pericope": "Luke.17.1-37"
+  },
+  "texto_bv": "comiam, bebiam, casavam-se e davam suas filhas em casamento, até o dia em que Noé entrou na arca; então veio o dilúvio e destruiu a todos.",
+  "traducao_literal": "comiam, bebiam, casavam-se, davam-se em casamento, até o dia em que Noé entrou na arca, e veio o dilúvio e destruiu a todos.",
+  "termos_originais": [
+    {
+      "palavra": "ἤσθιον",
+      "lemma": "ἐσθίω",
+      "morfologia": "V-IAI-3P"
+    },
+    {
+      "palavra": "ἔπινον",
+      "lemma": "πίνω",
+      "morfologia": "V-IAI-3P"
+    },
+    {
+      "palavra": "ἐγάμουν",
+      "lemma": "γαμέω",
+      "morfologia": "V-IAI-3P"
+    },
+    {
+      "palavra": "ἐγαμίζοντο",
+      "lemma": "γαμίζω",
+      "morfologia": "V-IEI-3P"
+    },
+    {
+      "palavra": "ἄχρι",
+      "lemma": "ἄχρι",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἧς",
+      "lemma": "ὅς",
+      "morfologia": "R-GSF"
+    },
+    {
+      "palavra": "ἡμέρας",
+      "lemma": "ἡμέρα",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "εἰσῆλθεν",
+      "lemma": "εἰσέρχομαι",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "Νῶε",
+      "lemma": "Νῶε",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "κιβωτόν",
+      "lemma": "κιβωτός",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἦλθεν",
+      "lemma": "ἔρχομαι",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "κατακλυσμὸς",
+      "lemma": "κατακλυσμός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀπώλεσεν",
+      "lemma": "ἀπόλλυμι",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "πάντας",
+      "lemma": "πᾶς",
+      "morfologia": "A-APM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Assíndeto grego (ἤσθιον, ἔπινον, ἐγάμουν, ἐγαμίζοντο sem conectivos)",
+      "escolha": "normalizar com pontuação natural do português na enumeração",
+      "justificativa": "O assíndeto grego é preservado na literal; o publicado usa a pontuação natural do português para a mesma enumeração, análogo à doutrina do calque (ER-0013) aplicada ao NT.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter assíndeto puro no publicado ('comiam bebiam casavam-se')",
+          "motivo": "agramatical em português sem os conectivos/pontuação de praxe"
+        }
+      ]
+    },
+    {
+      "questao": "ἐγαμίζοντο — voz passiva ('eram dadas em casamento')",
+      "escolha": "'davam suas filhas em casamento' (ativo, sujeito implícito 'os pais')",
+      "justificativa": "ἐγάμουν (ativo, 'casavam-se', sujeito homens) e ἐγαμίζοντο (passivo, 'eram dadas em casamento', sujeito mulheres/filhas) marcam papéis distintos no casamento antigo; verte-se preservando a distinção de agência.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Descreve a vida cotidiana normal antes do dilúvio, sem indício de maldade explícita — o ponto é a surpresa do julgamento, não a depravação.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

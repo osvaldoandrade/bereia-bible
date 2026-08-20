@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.19.1",
+    "livro": "Lucas",
+    "capitulo": 19,
+    "versiculo": 1,
+    "pericope": "Luke.19.1-48"
+  },
+  "texto_bv": "Jesus entrou em Jericó e ia atravessando a cidade.",
+  "traducao_literal": "E, tendo entrado, atravessava a Jericó.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἰσελθὼν",
+      "lemma": "εἰσέρχομαι",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "διήρχετο",
+      "lemma": "διέρχομαι",
+      "morfologia": "V-INI-3S"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "Ἱερειχώ",
+      "lemma": "Ἰεριχώ",
+      "morfologia": "N-PRI"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito não expresso (só a pessoa verbal); o grego não nomeia 'Jesus' neste versículo, retomando o antecedente do capítulo anterior, ausente do packet.",
+      "escolha": "Sujeito 'Jesus' explicitado no publicado para abertura de capítulo; a literal mantém apenas a pessoa verbal.",
+      "justificativa": "Abertura de capítulo em português exige antecedente claro; o grego se apoia em contexto fora do packet.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter sujeito implícito ('Ele entrou...')",
+          "motivo": "perde a ancoragem de abertura de capítulo, ambígua fora do contexto do packet"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Jesus (sujeito, implícito no grego pela pessoa verbal)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura de perícope; verbo duplo (particípio + imperfeito) denota entrada seguida de travessia contínua da cidade.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

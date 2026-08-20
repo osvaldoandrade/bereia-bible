@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.20.30",
+    "livro": "Lucas",
+    "capitulo": 20,
+    "versiculo": 30,
+    "pericope": "Luke.20.1-47"
+  },
+  "texto_bv": "e o segundo também a tomou,",
+  "traducao_literal": "e o segundo,",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δεύτερος",
+      "lemma": "δεύτερος",
+      "morfologia": "A-NSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "καὶ ὁ δεύτερος — elipse verbal no grego",
+      "escolha": "suprir 'também a tomou' no publicado, preservando a elipse nua na traducao_literal",
+      "justificativa": "o grego elide o verbo por economia de estilo em enumeração serial, retomado explicitamente no v.31 (ὁ τρίτος ἔλαβεν αὐτήν) e resumido no próprio v.31 (ὡσαύτως δὲ καὶ οἱ ἑπτά)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deixar 'e o segundo' sem complemento no publicado",
+          "motivo": "agramatical em português; frase incompleta sem verbo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "também a tomou (verbo e complemento elípticos no grego, reconstituídos a partir do paralelo com o v.31 e do resumo dos sete irmãos)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Versículo elíptico no packet pinado (sem verbo próprio); cobertura mantida conforme a autoridade textual, sem preencher aparato inexistente.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

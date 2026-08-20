@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Luke.20.2",
+    "livro": "Lucas",
+    "capitulo": 20,
+    "versiculo": 2,
+    "pericope": "Luke.20.1-47"
+  },
+  "texto_bv": "e lhe disseram: \"Diga-nos: com que autoridade faz estas coisas, ou quem é que lhe deu esta autoridade?\"",
+  "traducao_literal": "e disseram, dizendo a ele: Dize-nos em que autoridade fazes estas coisas, ou quem é o que te deu esta autoridade?",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἶπαν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAI-3P"
+    },
+    {
+      "palavra": "λέγοντες",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "πρὸς",
+      "lemma": "πρός",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτόν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "Εἰπὸν",
+      "lemma": "λέγω",
+      "morfologia": "V-2AAM-2S"
+    },
+    {
+      "palavra": "ἡμῖν",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DP"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ποίᾳ",
+      "lemma": "ποῖος",
+      "morfologia": "I-DSF"
+    },
+    {
+      "palavra": "ἐξουσίᾳ",
+      "lemma": "ἐξουσία",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "ταῦτα",
+      "lemma": "οὗτος",
+      "morfologia": "D-APN"
+    },
+    {
+      "palavra": "ποιεῖς",
+      "lemma": "ποιέω",
+      "morfologia": "V-PAI-2S"
+    },
+    {
+      "palavra": "ἢ",
+      "lemma": "ἤ",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "τίς",
+      "lemma": "τίς",
+      "morfologia": "I-NSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δούς",
+      "lemma": "δίδωμι",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "σοι",
+      "lemma": "σύ",
+      "morfologia": "P-2DS"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "ἐξουσίαν",
+      "lemma": "ἐξουσία",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ταύτην",
+      "lemma": "οὗτος",
+      "morfologia": "D-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "εἶπαν λέγοντες πρὸς αὐτόν (pleonasmo do verbo de fala)",
+      "escolha": "normalizar para 'lhe disseram' no publicado, preservando 'disseram, dizendo a ele' na literal",
+      "justificativa": "calque de fórmula semítica (אמר...לאמר) via influência da LXX; tratado por analogia à doutrina do calque (ER-0013)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'disseram, dizendo-lhe' no publicado",
+          "motivo": "soa redundante e não-natural em português"
+        }
+      ]
+    },
+    {
+      "questao": "segunda pessoa: tu vs você",
+      "escolha": "você ('Diga-nos', 'faz')",
+      "justificativa": "discurso entre humanos (líderes religiosos e Jesus), não oração; EDITORIAL §3/D-0003",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu",
+          "motivo": "reservado por D-0003 a oração/salmo dirigido a Deus"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "ἐξουσία mantido 'autoridade' nas duas ocorrências do versículo, coerência lexical interna e com o restante do capítulo.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
