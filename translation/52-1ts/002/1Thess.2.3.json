@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Thess.2.3",
+    "livro": "1 Tessalonicenses",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "1Thess.2.1-20"
+  },
+  "texto_bv": "Pois a nossa exortação não vem de erro, nem de impureza, nem de engano,",
+  "traducao_literal": "a porque exortação nossa não de erro nem de imundícia nem em engano,",
+  "termos_originais": [
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "παράκλησις",
+      "lemma": "παράκλησις",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἡμῶν",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GP"
+    },
+    {
+      "palavra": "οὐκ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πλάνης",
+      "lemma": "πλάνη",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "οὐδὲ",
+      "lemma": "οὐδέ",
+      "morfologia": "CONJ-N"
+    },
+    {
+      "palavra": "ἐξ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἀκαθαρσίας",
+      "lemma": "ἀκαθαρσία",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "οὐδὲ",
+      "lemma": "οὐδέ",
+      "morfologia": "CONJ-N"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "δόλῳ",
+      "lemma": "δόλος",
+      "morfologia": "N-DSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "παράκλησις: 'exortação' ou 'apelo/consolo'",
+      "escolha": "exortação",
+      "justificativa": "no contexto de defesa da pregação apostólica, παράκλησις denota o apelo exortativo que convoca à fé, sentido teológico consolidado para o termo neste uso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "apelo",
+          "motivo": "mais vago; 'exortação' é o termo consolidado para a pregação apostólica que convoca"
+        }
+      ]
+    },
+    {
+      "questao": "oração nominal sem cópula (ἐστίν implícito) regendo três preposições coordenadas",
+      "escolha": "suprir o verbo 'vem/procede'",
+      "justificativa": "o grego omite o verbo; o português exige um verbo para reger as três preposições coordenadas (ἐκ/ἐκ/ἐν).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "repetir 'é' três vezes",
+          "motivo": "redundante e menos fluido em português"
+        }
+      ]
+    },
+    {
+      "questao": "ἐν δόλῳ: variação preposicional ἐκ/ἐκ/ἐν no calque triplo",
+      "escolha": "normalizar para 'de engano' no publicado, preservando 'em engano' na literal",
+      "justificativa": "ER-0013 (doutrina do calque): a alternância estilística ἐκ/ἐκ/ἐν é preservada na traducao_literal; o publicado normaliza para paralelismo triplo mais natural.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter 'com engano' no publicado",
+          "motivo": "quebra o paralelismo triplo mais do que a normalização completa"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "vem (verbo elíptico suprido para a oração nominal grega)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso nominal sem verbo no grego; tradução supre verbo mínimo por exigência gramatical do português (EDITORIAL §4), sem alterar sentido.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

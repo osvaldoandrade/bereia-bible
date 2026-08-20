@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 29517/31155 versículos.**
+**Total Bíblia sourced: 29748/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1362,32 +1362,32 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 3 | 21 | ● 21/21 [DRAFT] |
 | 4 | 23 | ● 23/23 [DRAFT] |
 
-## Colossenses — 0/95 versículos (0.0%), 4 capítulos
+## Colossenses — 95/95 versículos (100.0%), 4 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 29 | · pendente |
-| 2 | 23 | · pendente |
-| 3 | 25 | · pendente |
-| 4 | 18 | · pendente |
+| 1 | 29 | ● 29/29 [DRAFT] |
+| 2 | 23 | ● 23/23 [DRAFT] |
+| 3 | 25 | ● 25/25 [DRAFT] |
+| 4 | 18 | ● 18/18 [DRAFT] |
 
-## 1 Tessalonicenses — 0/89 versículos (0.0%), 5 capítulos
-
-| Cap | Vers | Estado |
-|---|---|---|
-| 1 | 10 | · pendente |
-| 2 | 20 | · pendente |
-| 3 | 13 | · pendente |
-| 4 | 18 | · pendente |
-| 5 | 28 | · pendente |
-
-## 2 Tessalonicenses — 0/47 versículos (0.0%), 3 capítulos
+## 1 Tessalonicenses — 89/89 versículos (100.0%), 5 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
-| 1 | 12 | · pendente |
-| 2 | 17 | · pendente |
-| 3 | 18 | · pendente |
+| 1 | 10 | ● 10/10 [DRAFT] |
+| 2 | 20 | ● 20/20 [DRAFT] |
+| 3 | 13 | ● 13/13 [DRAFT] |
+| 4 | 18 | ● 18/18 [DRAFT] |
+| 5 | 28 | ● 28/28 [DRAFT] |
+
+## 2 Tessalonicenses — 47/47 versículos (100.0%), 3 capítulos
+
+| Cap | Vers | Estado |
+|---|---|---|
+| 1 | 12 | ● 12/12 [DRAFT] |
+| 2 | 17 | ● 17/17 [DRAFT] |
+| 3 | 18 | ● 18/18 [DRAFT] |
 
 ## 1 Timóteo — 0/113 versículos (0.0%), 6 capítulos
 

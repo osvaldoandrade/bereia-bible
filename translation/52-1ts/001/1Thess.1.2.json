@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Thess.1.2",
+    "livro": "1 Tessalonicenses",
+    "capitulo": 1,
+    "versiculo": 2,
+    "pericope": "1Thess.1.1-10"
+  },
+  "texto_bv": "Damos graças a Deus sempre, por todos vocês, fazendo menção de vocês em nossas orações, sem cessar,",
+  "traducao_literal": "Damos graças a Deus sempre a respeito de todos vós, fazendo menção sobre as orações de nós, incessantemente",
+  "termos_originais": [
+    {
+      "palavra": "Εὐχαριστοῦμεν",
+      "lemma": "εὐχαριστέω",
+      "morfologia": "V-PAI-1P"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "Θεῷ",
+      "lemma": "θεός",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "πάντοτε",
+      "lemma": "πάντοτε",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "περὶ",
+      "lemma": "περί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πάντων",
+      "lemma": "πᾶς",
+      "morfologia": "A-GPM"
+    },
+    {
+      "palavra": "ὑμῶν",
+      "lemma": "σύ",
+      "morfologia": "P-2GP"
+    },
+    {
+      "palavra": "μνείαν",
+      "lemma": "μνεία",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ποιούμενοι",
+      "lemma": "ποιέω",
+      "morfologia": "V-PEP-NPM"
+    },
+    {
+      "palavra": "ἐπὶ",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPF"
+    },
+    {
+      "palavra": "προσευχῶν",
+      "lemma": "προσευχή",
+      "morfologia": "N-GPF"
+    },
+    {
+      "palavra": "ἡμῶν",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GP"
+    },
+    {
+      "palavra": "ἀδιαλείπτως",
+      "lemma": "ἀδιαλείπτως",
+      "morfologia": "ADV"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἀδιαλείπτως: fronteira sintática (fecha o v.2 ou abre o particípio do v.3)",
+      "escolha": "manter ἀδιαλείπτως dentro do texto do versículo 2, conforme o limite fixado pela fonte pinada (Nestle1904); traduzido 'sem cessar' encerrando o v.2",
+      "justificativa": "a fronteira de versículo é dado da fonte pinada, não decisão editorial; a questão sintática sobre se o advérbio rege μνείαν ποιούμενοι (v.2) ou μνημονεύοντες (v.3) é preservada como ambiguidade, não resolvida por deslocamento de texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deslocar ἀδιαλείπτως para o início do v.3, seguindo a leitura sintática majoritária dos comentaristas",
+          "motivo": "exigiria alterar a fronteira OSIS do packet, vedado pela regra de cobertura idêntica ao packet pinado"
+        }
+      ]
+    },
+    {
+      "questao": "μνείαν ποιούμενοι: objeto implícito da menção",
+      "escolha": "suprir 'de vocês' retomando ὑμῶν de περὶ πάντων ὑμῶν",
+      "justificativa": "o grego não repete o objeto, apoiando-se na oração anterior; o português exige objeto explícito para 'fazer menção'.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "de vocês (objeto implícito de 'fazendo menção')"
+  ],
+  "ambiguidades_preservadas": [
+    "ἀδιαλείπτως pode modificar 'fazendo menção... em nossas orações' (fim do v.2) ou 'lembrando' (início do v.3) — crux sintática clássica não resolvida pela fonte pinada"
+  ],
+  "justificativa": "Ação de graças contínua de Paulo, Silvano e Timóteo pelos tessalonicenses; estrutura participial do grego mantida como gerúndios encadeados.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

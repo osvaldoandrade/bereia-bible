@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Thess.2.11",
+    "livro": "1 Tessalonicenses",
+    "capitulo": 2,
+    "versiculo": 11,
+    "pericope": "1Thess.2.1-20"
+  },
+  "texto_bv": "como vocês sabem, tratamos cada um de vocês como um pai trata os seus próprios filhos,",
+  "traducao_literal": "conforme sabeis, como a cada um de vós, como um pai a seus próprios filhos,",
+  "termos_originais": [
+    {
+      "palavra": "καθάπερ",
+      "lemma": "καθάπερ",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "οἴδατε",
+      "lemma": "οἶδα",
+      "morfologia": "V-RAI-2P"
+    },
+    {
+      "palavra": "ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἕνα",
+      "lemma": "εἷς",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "ἕκαστον",
+      "lemma": "ἕκαστος",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "ὑμῶν",
+      "lemma": "σύ",
+      "morfologia": "P-2GP"
+    },
+    {
+      "palavra": "ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "πατὴρ",
+      "lemma": "πατήρ",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τέκνα",
+      "lemma": "τέκνον",
+      "morfologia": "N-APN"
+    },
+    {
+      "palavra": "ἑαυτοῦ",
+      "lemma": "ἑαυτοῦ",
+      "morfologia": "F-3GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "anacoluto grego: 2:11 não tem verbo finito próprio; a oração só se completa com os particípios de 2:12",
+      "escolha": "suprir verbo mínimo 'tratamos' (e 'trata' na comparação) para permitir leitura autônoma de 2:11 como registro separado",
+      "justificativa": "o grego de 1Ts 2:11-12 é um único período com anacoluto: 2:11 traz a comparação (καθάπερ...ὡς πατὴρ τέκνα ἑαυτοῦ) sem verbo finito; o núcleo verbal só aparece nos particípios de 2:12 (παρακαλοῦντες, παραμυθούμενοι, μαρτυρόμενοι). Como o packet fragmenta os versículos, um verbo mínimo foi suprido em 2:11 para leitura autônoma, sem prejuízo de sentido — o fechamento sintático pleno só ocorre com 2:12.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deixar 2:11 sem verbo em português",
+          "motivo": "agramatical como período independente; violaria EDITORIAL §4 (supridas apenas quando o português for agramatical sem isso)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "tratamos (verbo principal suprido)",
+    "trata (verbo implícito na comparação com 'pai')"
+  ],
+  "ambiguidades_preservadas": [
+    "a fronteira 2:11/2:12 corresponde a um único período grego com anacoluto; a divisão versicular do packet não fecha uma unidade sintática completa em 2:11 isoladamente"
+  ],
+  "justificativa": "Verso estruturalmente incompleto no grego (anacoluto), resolvido em 2:12; confiança reduzida por causa da suplência necessária para leitura autônoma.",
+  "confianca": 0.65,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
