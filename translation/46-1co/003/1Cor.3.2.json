@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Cor.3.2",
+    "livro": "1 Coríntios",
+    "capitulo": 3,
+    "versiculo": 2,
+    "pericope": "1Cor.3.1-23"
+  },
+  "texto_bv": "Eu dei a vocês leite para beber, não alimento; pois vocês ainda não podiam recebê-lo. E nem mesmo agora podem,",
+  "traducao_literal": "Leite a vocês dei de beber, não alimento; pois ainda não podiam. Mas nem ainda agora podem,",
+  "termos_originais": [
+    {
+      "palavra": "γάλα",
+      "lemma": "γάλα",
+      "morfologia": "N-ASN"
+    },
+    {
+      "palavra": "ὑμᾶς",
+      "lemma": "σύ",
+      "morfologia": "P-2AP"
+    },
+    {
+      "palavra": "ἐπότισα",
+      "lemma": "ποτίζω",
+      "morfologia": "V-AAI-1S"
+    },
+    {
+      "palavra": "οὐ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "βρῶμα",
+      "lemma": "βρῶμα",
+      "morfologia": "N-ASN"
+    },
+    {
+      "palavra": "οὔπω",
+      "lemma": "οὔπω",
+      "morfologia": "ADV-N"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐδύνασθε",
+      "lemma": "δύναμαι",
+      "morfologia": "V-INI-2P"
+    },
+    {
+      "palavra": "Ἀλλ’",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "οὐδὲ",
+      "lemma": "οὐδέ",
+      "morfologia": "CONJ-N"
+    },
+    {
+      "palavra": "ἔτι",
+      "lemma": "ἔτι",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "νῦν",
+      "lemma": "νῦν",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "δύνασθε",
+      "lemma": "δύναμαι",
+      "morfologia": "V-PNI-2P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "δύναμαι (v.2) ocorre sem infinitivo/objeto expresso ('ainda não podiam', 'nem agora podem') — como verter para o português, que exige complemento?",
+      "escolha": "Suprido 'recebê-lo' (retomando 'alimento') nas duas ocorrências.",
+      "justificativa": "O grego permite elipse do complemento porque o contexto imediato (leite/alimento) o retoma; o português torna a oração incompleta sem objeto explícito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deixar elíptico ('vocês ainda não podiam')",
+          "motivo": "soa agramatical em português, ao contrário do grego."
+        }
+      ]
+    },
+    {
+      "questao": "ποτίζω (mesmo lema do v.6 ἐπότισεν) — manter glosa idêntica nos dois versos?",
+      "escolha": "'dar de beber' aqui (leite/pessoas); 'regar' no v.6 (plantas) — glosas contextuais distintas para o mesmo lema.",
+      "justificativa": "O mesmo verbo grego cobre 'dar de beber a alguém' e 'regar uma planta'; o português não tem verbo único natural para os dois domínios. A identidade lexical fica registrada aqui para consistência terminológica futura.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "glosa única 'regar' nos dois versos",
+          "motivo": "soa estranho aplicado a pessoas bebendo leite."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "recebê-lo"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continuação da metáfora da alimentação de crianças; βρῶμα glosado como 'alimento' sem acrescentar 'sólido' (não lexicalizado, contraste com 'leite' já suficiente).",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

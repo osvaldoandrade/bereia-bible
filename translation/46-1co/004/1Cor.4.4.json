@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Cor.4.4",
+    "livro": "1 Coríntios",
+    "capitulo": 4,
+    "versiculo": 4,
+    "pericope": "1Cor.4.1-21"
+  },
+  "texto_bv": "Pois minha consciência não me acusa de nada; mas não é isso que me justifica. Quem me julga é o Senhor.",
+  "traducao_literal": "Pois nada contra mim mesmo tenho consciência, mas não nisto estou justificado; o que me julga, porém, é Senhor.",
+  "termos_originais": [
+    {
+      "palavra": "οὐδὲν",
+      "lemma": "οὐδείς",
+      "morfologia": "A-ASN-N"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐμαυτῷ",
+      "lemma": "ἐμαυτοῦ",
+      "morfologia": "F-1DSM"
+    },
+    {
+      "palavra": "σύνοιδα",
+      "lemma": "σύνοιδα",
+      "morfologia": "V-RAI-1S"
+    },
+    {
+      "palavra": "ἀλλ’",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "οὐκ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τούτῳ",
+      "lemma": "οὗτος",
+      "morfologia": "D-DSN"
+    },
+    {
+      "palavra": "δεδικαίωμαι",
+      "lemma": "δικαιόω",
+      "morfologia": "V-RPI-1S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀνακρίνων",
+      "lemma": "ἀνακρίνω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "με",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1AS"
+    },
+    {
+      "palavra": "Κύριός",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "σύνοιδα ἐμαυτῷ — idiomatismo grego de 'ter consciência contra si mesmo'",
+      "escolha": "minha consciência não me acusa de nada",
+      "justificativa": "σύνοιδα + dativo reflexivo é expressão idiomática grega para 'não ter nada na consciência contra si'; a forma idiomática em português evita o calque opaco.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "nada sei contra mim mesmo (calque literal)",
+          "motivo": "soa artificial em português; preservado na traducao_literal"
+        }
+      ]
+    },
+    {
+      "questao": "Κύριός ἐστιν (predicado anártro) — referente de 'Senhor'",
+      "escolha": "o Senhor (referência a Cristo)",
+      "justificativa": "conforme NOMES-DIVINOS.md (κύριος NT → Senhor) e o contexto imediato (4:1, 'servos de Cristo'), Κύριος aqui remete a Cristo como juiz, não a Deus Pai genericamente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "um senhor (minúscula genérica)",
+          "motivo": "perderia a referência específica a Cristo como juiz, incompatível com o uso da carta"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "é (verbo de ligação suprido na oração nominal 'Quem me julga é o Senhor')"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Paulo distingue consciência limpa de justificação: a ausência de culpa subjetiva não equivale a veredito objetivo, que cabe somente ao Senhor.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

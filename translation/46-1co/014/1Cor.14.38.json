@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Cor.14.38",
+    "livro": "1 Coríntios",
+    "capitulo": 14,
+    "versiculo": 38,
+    "pericope": "1Cor.14.1-40"
+  },
+  "texto_bv": "mas, se alguém não reconhece isso, ele mesmo não é reconhecido.",
+  "traducao_literal": "mas se alguém ignora, é ignorado.",
+  "termos_originais": [
+    {
+      "palavra": "εἰ",
+      "lemma": "εἰ",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "δέ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τις",
+      "lemma": "τὶς",
+      "morfologia": "X-NSM"
+    },
+    {
+      "palavra": "ἀγνοεῖ",
+      "lemma": "ἀγνοέω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἀγνοεῖται",
+      "lemma": "ἀγνοέω",
+      "morfologia": "V-PEI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἀγνοεῖται — voz e modo (indicativo passivo, conforme morph V-PEI-3S do packet)",
+      "escolha": "'não é reconhecido' (passivo indicativo), preservando o jogo de palavras ἀγνοεῖ/ἀγνοεῖται",
+      "justificativa": "a fonte pinada (Nestle 1904, morph V-PEI-3S) atesta indicativo presente passivo, não imperativo; a BV segue estritamente a leitura morfológica do packet, sem adjudicar aqui a favor de uma variante não presente no aparato fornecido.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'seja ignorado' (lendo como imperativo)",
+          "motivo": "não corresponde à morfologia atestada no packet pinado (V-PEI-3S, indicativo, não V-PAM/V-PEM imperativo); adjudicar a variante exigiria aparato de fonte que o packet não fornece"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "isso",
+    "ele mesmo"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Jogo etimológico ἀγνοεῖ (ignora) / ἀγνοεῖται (é ignorado) preservado com o par 'não reconhece / não é reconhecido' no publicado.",
+  "confianca": 0.7,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Cor.13.8",
+    "livro": "1 Coríntios",
+    "capitulo": 13,
+    "versiculo": 8,
+    "pericope": "1Cor.13.1-13"
+  },
+  "texto_bv": "O amor nunca falha; mas, quer haja profecias, serão abolidas; quer línguas, cessarão; quer conhecimento, será abolido.",
+  "traducao_literal": "O amor nunca cai; quer porém profecias, serão abolidas; quer línguas, cessarão; quer conhecimento, será abolido.",
+  "termos_originais": [
+    {
+      "palavra": "Ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "ἀγάπη",
+      "lemma": "ἀγάπη",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "οὐδέποτε",
+      "lemma": "οὐδέποτε",
+      "morfologia": "ADV-N"
+    },
+    {
+      "palavra": "πίπτει",
+      "lemma": "πίπτω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "εἴτε",
+      "lemma": "εἴτε",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "προφητεῖαι",
+      "lemma": "προφητεία",
+      "morfologia": "N-NPF"
+    },
+    {
+      "palavra": "καταργηθήσονται",
+      "lemma": "καταργέω",
+      "morfologia": "V-FPI-3P"
+    },
+    {
+      "palavra": "εἴτε",
+      "lemma": "εἴτε",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "γλῶσσαι",
+      "lemma": "γλῶσσα",
+      "morfologia": "N-NPF"
+    },
+    {
+      "palavra": "παύσονται",
+      "lemma": "παύω",
+      "morfologia": "V-FDI-3P"
+    },
+    {
+      "palavra": "εἴτε",
+      "lemma": "εἴτε",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "γνῶσις",
+      "lemma": "γνῶσις",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "καταργηθήσεται",
+      "lemma": "καταργέω",
+      "morfologia": "V-FPI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "καταργηθήσονται (voz passiva, profecias/conhecimento) vs παύσονται (voz média, línguas) — nivelar ou preservar a distinção?",
+      "escolha": "preservar: 'serão abolidas'/'será abolido' (passivo) para profecias e conhecimento; 'cessarão' (médio) para as línguas.",
+      "justificativa": "TEOLOGIA §1.5: quando o original é ambíguo entre posições teológicas — aqui, o debate sobre se as línguas 'cessam por si' de modo distinto da abolição de profecia/conhecimento —, a BV preserva a distinção gramatical sem resolver o debate exegético.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'cessarão' para os três verbos",
+          "motivo": "apaga a distinção morfológica passivo/médio que sustenta um debate exegético real (cessacionismo)"
+        }
+      ]
+    },
+    {
+      "questao": "πίπτει ('cai') — traduzir literalmente ou pelo sentido figurado ('falha')?",
+      "escolha": "'nunca falha' no publicado; 'nunca cai' preservado na literal.",
+      "justificativa": "ER-0013: πίπτω tem uso figurado atestado ('chegar ao fim, falhar'); 'cai' sozinho é ambíguo em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'nunca cai' no publicado",
+          "motivo": "ambíguo em português, não comunica claramente o sentido de 'nunca chega ao fim'"
+        }
+      ]
+    },
+    {
+      "questao": "εἴτε...εἴτε...εἴτε sem verbo — suprir?",
+      "escolha": "suprir 'haja' nas três orações elípticas.",
+      "justificativa": "ER-0006: elipse agramatical em português sem verbo suprido.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [
+    "haja (verbo suprido nas três orações elípticas com εἴτε)"
+  ],
+  "ambiguidades_preservadas": [
+    "Distinção entre καταργηθήσονται (passivo, profecias/conhecimento) e παύσονται (médio, línguas): a BV preserva a diferença gramatical sem se posicionar sobre se ela implica um fim distinto/antecipado para as línguas (debate cessacionista/continuísta)."
+  ],
+  "justificativa": "Verso central da argumentação sobre a permanência do amor frente aos dons; distinção gramatical entre os três verbos de cessação preservada por exigência de neutralidade teológica.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

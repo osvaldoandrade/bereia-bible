@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1Cor.14.33",
+    "livro": "1 Coríntios",
+    "capitulo": 14,
+    "versiculo": 33,
+    "pericope": "1Cor.14.1-40"
+  },
+  "texto_bv": "pois Deus não é Deus de desordem, mas de paz — como se vê em todas as igrejas dos santos —,",
+  "traducao_literal": "pois não é de desordem o Deus, mas de paz, como em todas as igrejas dos santos,",
+  "termos_originais": [
+    {
+      "palavra": "οὐ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "γάρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἀκαταστασίας",
+      "lemma": "ἀκαταστασία",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Θεὸς",
+      "lemma": "θεός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἀλλὰ",
+      "lemma": "ἀλλά",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἰρήνης",
+      "lemma": "εἰρήνη",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "Ὡς",
+      "lemma": "ὡς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "πάσαις",
+      "lemma": "πᾶς",
+      "morfologia": "A-DPF"
+    },
+    {
+      "palavra": "ταῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPF"
+    },
+    {
+      "palavra": "ἐκκλησίαις",
+      "lemma": "ἐκκλησία",
+      "morfologia": "N-DPF"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPM"
+    },
+    {
+      "palavra": "ἁγίων",
+      "lemma": "ἅγιος",
+      "morfologia": "A-GPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "οὐ γάρ ἐστιν ἀκαταστασίας ὁ Θεὸς — elipse do substantivo repetido",
+      "escolha": "suprir 'Deus' na segunda cláusula ('Deus não é Deus de desordem')",
+      "justificativa": "o grego tem apenas um ὁ Θεός com dois genitivos predicativos (ἀκαταστασίας, εἰρήνης); o português pede a repetição do núcleo para não soar truncado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Deus não é de desordem",
+          "motivo": "gramatical, mas ambíguo/estranho sem o núcleo nominal repetido"
+        }
+      ]
+    },
+    {
+      "questao": "Ὡς ἐν πάσαις ταῖς ἐκκλησίαις τῶν ἁγίων — anexação sintática",
+      "escolha": "manter a cláusula como fecho do v.33, conforme a segmentação por versículo da fonte pinada",
+      "justificativa": "há debate exegético consagrado sobre se esta cláusula fecha o v.33 (comparação com a prática geral das igrejas) ou abre o v.34 (introduzindo a instrução às mulheres); o packet pinado (Nestle 1904 por versículo) não traz variante de fonte sobre isso, então a BV segue a segmentação da fonte sem tomar partido interpretativo no texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "deslocar a cláusula para o v.34",
+          "motivo": "alteraria a segmentação por versículo da fonte pinada sem base em variantes_fonte do packet; extrapolaria a autoridade textual adotada"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Deus",
+    "se vê"
+  ],
+  "ambiguidades_preservadas": [
+    "Anexação sintática de 'como em todas as igrejas dos santos' — ao v.33 (regra geral) ou ao v.34 (introdução às mulheres) — é crux exegética reconhecida, não resolvida pelo texto grego pinado nem por variante de fonte no packet."
+  ],
+  "justificativa": "Sentença teológica geral sobre o caráter de Deus, base para as regras práticas anteriores e a instrução seguinte.",
+  "confianca": 0.68,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
