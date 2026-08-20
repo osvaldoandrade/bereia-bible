@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Heb.1.1",
+    "livro": "Hebreus",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "Heb.1.1-14"
+  },
+  "texto_bv": "Deus, que outrora falou muitas vezes e de muitas maneiras aos pais pelos profetas,",
+  "traducao_literal": "De muitas partes e de muitos modos, antigamente, Deus, tendo falado aos pais, nos profetas,",
+  "termos_originais": [
+    {
+      "palavra": "Πολυμερῶς",
+      "lemma": "πολυμερῶς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πολυτρόπως",
+      "lemma": "πολυτρόπως",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "πάλαι",
+      "lemma": "πάλαι",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Θεὸς",
+      "lemma": "θεός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "λαλήσας",
+      "lemma": "λαλέω",
+      "morfologia": "V-AAP-NSM"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "πατράσιν",
+      "lemma": "πατήρ",
+      "morfologia": "N-DPM"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "προφήταις",
+      "lemma": "προφήτης",
+      "morfologia": "N-DPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "λαλήσας é particípio aoristo (\"tendo falado\") subordinado ao verbo principal ἐλάλησεν de Hb 1:2; como verter para o português publicado?",
+      "escolha": "Converter em oração relativa finita: \"que outrora falou\", plantando o sujeito Deus logo no início do período.",
+      "justificativa": "EDITORIAL §1.3 (evitar períodos pesados/arcaizantes); o particípio equivalente \"tendo falado\" soa arcaizante em pt-BR contemporâneo. A construção participial integral é preservada na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"havendo Deus falado antigamente...\"",
+          "motivo": "gerúndio/particípio composto pesado, registro arcaizante (EDITORIAL §1.2)"
+        }
+      ]
+    },
+    {
+      "questao": "ἐν τοῖς προφήταις — ἐν instrumental/de agência (\"por meio dos/pelos profetas\") ou locativo (\"nos profetas\")?",
+      "escolha": "\"pelos profetas\" no publicado (agência); \"nos profetas\" preservado na literal.",
+      "justificativa": "Uso helenístico de ἐν como marcador de agência/instrumento (cf. hebraísmo subjacente בְּיַד/בְּ); \"nos profetas\" soaria como localização espacial em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"nos profetas\" no texto publicado",
+          "motivo": "ambíguo em pt-BR contemporâneo, sugere lugar e não agência de fala"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "que (relativizador, ao converter o particípio λαλήσας em oração relativa)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura do exórdio: oração subordinada que se completa no v.2. Πολυμερῶς/πολυτρόπως tratados como par idiomático (\"muitas vezes e de muitas maneiras\"), preservando na literal o sentido mais cru (\"de muitas partes e de muitos modos\"). Sujeito Deus antecipado para naturalidade sintática pt-BR.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

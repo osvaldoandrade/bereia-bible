@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Heb.3.9",
+    "livro": "Hebreus",
+    "capitulo": 3,
+    "versiculo": 9,
+    "pericope": "Heb.3.1-19"
+  },
+  "texto_bv": "onde os pais de vocês me testaram, pondo-me à prova, e viram as minhas obras",
+  "traducao_literal": "onde [me] testaram os pais de vocês, em provação, e viram as obras de mim",
+  "termos_originais": [
+    {
+      "palavra": "οὗ",
+      "lemma": "οὗ",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἐπείρασαν",
+      "lemma": "πειράζω",
+      "morfologia": "V-AAI-3P"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "πατέρες",
+      "lemma": "πατήρ",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "ὑμῶν",
+      "lemma": "σύ",
+      "morfologia": "P-2GP"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "δοκιμασίᾳ",
+      "lemma": "δοκιμασία",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἶδον",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AAI-3P"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-APN"
+    },
+    {
+      "palavra": "ἔργα",
+      "lemma": "ἔργον",
+      "morfologia": "N-APN"
+    },
+    {
+      "palavra": "μου",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GS"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐπείρασαν sem objeto explícito 'με' nesta leitura do Nestle 1904",
+      "escolha": "suprir 'me' como objeto, registrado em palavras_supridas, sem alterar o grego pinado",
+      "justificativa": "O verbo πειράζω exige objeto para sentido completo; o contexto de primeira pessoa (μου em 'τὰ ἔργα μου' no mesmo versículo) confirma que o locutor é o mesmo sujeito testado.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir ἐπείρασαν de forma absoluta, sem objeto",
+          "motivo": "agramatical em português; 'testar' exige complemento"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "me (objeto elíptico de ἐπείρασαν, ausente na superfície grega deste testemunho, exigido pelo sentido e confirmado por μου em 'ἔργα μου' no mesmo versículo)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Citação de Salmos 95.9: os pais testaram a Deus no deserto apesar de terem visto suas obras.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

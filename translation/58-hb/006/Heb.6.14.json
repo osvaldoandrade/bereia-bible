@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Heb.6.14",
+    "livro": "Hebreus",
+    "capitulo": 6,
+    "versiculo": 14,
+    "pericope": "Heb.6.1-20"
+  },
+  "texto_bv": "dizendo: \"Certamente eu o abençoarei grandemente e o multiplicarei grandemente.\"",
+  "traducao_literal": "dizendo: \"Se de fato, abençoando, abençoarei você; e multiplicando, multiplicarei você.\"",
+  "termos_originais": [
+    {
+      "palavra": "λέγων",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "Εἰ",
+      "lemma": "εἰ",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "μὴν",
+      "lemma": "μήν (I)",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "εὐλογῶν",
+      "lemma": "εὐλογέω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "εὐλογήσω",
+      "lemma": "εὐλογέω",
+      "morfologia": "V-FAI-1S"
+    },
+    {
+      "palavra": "σε",
+      "lemma": "σύ",
+      "morfologia": "P-2AS"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πληθύνων",
+      "lemma": "πληθύνω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "πληθυνῶ",
+      "lemma": "πληθύνω",
+      "morfologia": "V-FAI-1S"
+    },
+    {
+      "palavra": "σε",
+      "lemma": "σύ",
+      "morfologia": "P-2AS"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "εὐλογῶν εὐλογήσω (particípio + verbo cognato, hebraísmo de ênfase) — preservar o calque ou normalizar com advérbio intensificador?",
+      "escolha": "normalizar com 'grandemente' no publicado; calque preservado na literal",
+      "justificativa": "a construção reproduz o infinitivo absoluto hebraico (Gn 22:17) via particípio+verbo cognato grego, hebraísmo de ênfase; soa artificial em português ('abençoando abençoarei'), por isso normalizado com advérbio intensificador no publicado (ER-0013), preservado integralmente na traducao_literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "abençoando, abençoarei você (calque no publicado)",
+          "motivo": "soa artificial e arcaico em português corrente; reservado à camada literal"
+        }
+      ]
+    },
+    {
+      "questao": "Registro de segunda pessoa: Deus se dirigindo a Abraão (citação de Gn 22:17) — 'tu' ou 'você'?",
+      "escolha": "você (implícito no clítico 'o')",
+      "justificativa": "D-0003/EDITORIAL §3: discurso de Deus para humano usa você/vocês; a citação, embora vetero-testamentária, é reportada como discurso direto de Deus a um humano, não oração humana a Deus.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "tu/te",
+          "motivo": "reservado a oração/salmo dirigido a Deus, categoria distinta (D-0003)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "grandemente (2x, representando a intensificação do particípio+verbo cognato hebraizante εὐλογῶν εὐλογήσω / πληθύνων πληθυνῶ, normalizada no publicado por ER-0013)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Citação direta de Gn 22:17 LXX, introduzida por dois-pontos e aspas curvas (EDITORIAL §5); a construção hebraizante de ênfase é normalizada no publicado e preservada na literal.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

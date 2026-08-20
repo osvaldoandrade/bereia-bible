@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Heb.1.10",
+    "livro": "Hebreus",
+    "capitulo": 1,
+    "versiculo": 10,
+    "pericope": "Heb.1.1-14"
+  },
+  "texto_bv": "E: \"Tu, Senhor, no princípio fundaste a terra, e os céus são obras das tuas mãos.",
+  "traducao_literal": "E: Tu, segundo os princípios, Senhor, a terra fundaste, e obras das mãos tuas são os céus;",
+  "termos_originais": [
+    {
+      "palavra": "καί",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Σὺ",
+      "lemma": "σύ",
+      "morfologia": "P-2NS"
+    },
+    {
+      "palavra": "κατ’",
+      "lemma": "κατά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἀρχάς",
+      "lemma": "ἀρχή",
+      "morfologia": "N-APF"
+    },
+    {
+      "palavra": "Κύριε",
+      "lemma": "κύριος",
+      "morfologia": "N-VSM"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "γῆν",
+      "lemma": "γῆ",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἐθεμελίωσας",
+      "lemma": "θεμελιόω",
+      "morfologia": "V-AAI-2S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἔργα",
+      "lemma": "ἔργον",
+      "morfologia": "N-NPN"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPF"
+    },
+    {
+      "palavra": "χειρῶν",
+      "lemma": "χείρ",
+      "morfologia": "N-GPF"
+    },
+    {
+      "palavra": "σού",
+      "lemma": "σύ",
+      "morfologia": "P-2GS"
+    },
+    {
+      "palavra": "εἰσιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3P"
+    },
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "οὐρανοί",
+      "lemma": "οὐρανός",
+      "morfologia": "N-NPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "κατ’ ἀρχάς está no plural (\"segundo os princípios/começos\") — preservar o plural ou normalizar para o singular idiomático \"no princípio\"?",
+      "escolha": "\"no princípio\" no publicado (singular idiomático); plural preservado na literal.",
+      "justificativa": "Plural idiomático grego sem correspondente natural no plural em português corrente; convenção bíblica consolidada usa singular (\"no princípio\").",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"segundo os princípios\" no publicado",
+          "motivo": "soaria filosófico/técnico, alheio ao registro narrativo-poético do salmo citado"
+        }
+      ]
+    },
+    {
+      "questao": "Κύριε (vocativo) — como verter?",
+      "escolha": "\"Senhor\", conforme NOMES-DIVINOS.md (κύριος→Senhor).",
+      "justificativa": "Política ER-0002/NOMES-DIVINOS.md v1.0.0 aplicada à fase NT.",
+      "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Registro de segunda pessoa — nova citação (Sl 102:25-27), dirigida ao Filho tratado como Κύριε.",
+      "escolha": "\"tu\" (mesmo critério das citações anteriores).",
+      "justificativa": "Novo oráculo divino solene, mesmo padrão de registro estabelecido no v.5.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"você\"",
+          "motivo": "quebraria o padrão de registro já fixado para as citações do capítulo"
+        }
+      ]
+    },
+    {
+      "questao": "Fronteira do discurso direto: a citação do Sl 102 se estende do v.10 ao v.12.",
+      "escolha": "Abrir aspas no v.10, sem fechar até o final do v.12.",
+      "justificativa": "Mesma lógica de marcação do v.8/v.9, para não fragmentar visualmente uma citação contínua.",
+      "alternativas_rejeitadas": []
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Sexta citação (Sl 102:25-27 LXX), aplicada ao Filho como criador e imutável, em contraste com a criação que perece.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
