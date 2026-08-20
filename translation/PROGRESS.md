@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 26818/31155 versículos.**
+**Total Bíblia sourced: 26982/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1212,7 +1212,7 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 23 | 55 | ● 55/55 [DRAFT] |
 | 24 | 53 | ● 53/53 [DRAFT] |
 
-## João — 715/879 versículos (81.3%), 21 capítulos
+## João — 879/879 versículos (100.0%), 21 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -1232,11 +1232,11 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 14 | 31 | ● 31/31 [DRAFT] |
 | 15 | 27 | ● 27/27 [DRAFT] |
 | 16 | 33 | ● 33/33 [DRAFT] |
-| 17 | 26 | · pendente |
-| 18 | 40 | · pendente |
-| 19 | 42 | · pendente |
-| 20 | 31 | · pendente |
-| 21 | 25 | · pendente |
+| 17 | 26 | ● 26/26 [DRAFT] |
+| 18 | 40 | ● 40/40 [DRAFT] |
+| 19 | 42 | ● 42/42 [DRAFT] |
+| 20 | 31 | ● 31/31 [DRAFT] |
+| 21 | 25 | ● 25/25 [DRAFT] |
 
 ## Atos — 0/1002 versículos (0.0%), 28 capítulos
 

@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "John.19.1",
+    "livro": "João",
+    "capitulo": 19,
+    "versiculo": 1,
+    "pericope": "John.19.1-42"
+  },
+  "texto_bv": "Então Pilatos tomou Jesus e o açoitou.",
+  "traducao_literal": "Então, pois, tomou Pilatos a Jesus e açoitou.",
+  "termos_originais": [
+    {
+      "palavra": "Τότε",
+      "lemma": "τότε",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "οὖν",
+      "lemma": "οὖν",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἔλαβεν",
+      "lemma": "λαμβάνω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Πειλᾶτος",
+      "lemma": "Πιλᾶτος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "Ἰησοῦν",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐμαστίγωσεν",
+      "lemma": "μαστιγόω",
+      "morfologia": "V-AAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito gramatical de ἐμαστίγωσεν ('açoitou')",
+      "escolha": "Pilatos mantido como sujeito gramatical do verbo, sem inserir 'mandou'",
+      "justificativa": "O grego atribui a ação diretamente a Pilatos, idioma narrativo comum para magistrados romanos que delegavam a execução física a subordinados; a BV não supre um agente causativo ausente do texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'mandou açoitá-lo'",
+          "motivo": "introduz um verbo causativo ausente do grego; plausível historicamente, mas não é o que o texto diz"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "o (objeto de 'açoitou')"
+  ],
+  "ambiguidades_preservadas": [
+    "Pilatos como sujeito gramatical do açoite, historicamente executado por soldados sob seu comando"
+  ],
+  "justificativa": "Τότε οὖν (dois conectivos, 'então, pois') condensados em 'Então' para fluência; ἔλαβεν...ὁ Πειλᾶτος preserva ordem V-S na literal, normalizada para S-V no texto publicado.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
