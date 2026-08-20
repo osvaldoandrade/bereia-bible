@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.2.3",
+    "livro": "Marcos",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "Mark.2.1-28"
+  },
+  "texto_bv": "E vêm a ele, trazendo um paralítico, carregado por quatro homens.",
+  "traducao_literal": "E vêm, trazendo a ele um paralítico sendo levantado por quatro.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἔρχονται",
+      "lemma": "ἔρχομαι",
+      "morfologia": "V-PNI-3P"
+    },
+    {
+      "palavra": "φέροντες",
+      "lemma": "φέρω",
+      "morfologia": "V-PAP-NPM"
+    },
+    {
+      "palavra": "πρὸς",
+      "lemma": "πρός",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτὸν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "παραλυτικὸν",
+      "lemma": "παραλυτικός",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "αἰρόμενον",
+      "lemma": "αἴρω",
+      "morfologia": "V-PEP-ASM"
+    },
+    {
+      "palavra": "ὑπὸ",
+      "lemma": "ὑπό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τεσσάρων",
+      "lemma": "τέσσαρες",
+      "morfologia": "A-GPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἔρχονται é presente histórico (traço estilístico recorrente de Marcos, ~150 ocorrências no livro).",
+      "escolha": "Preservar o presente histórico no publicado ('vêm') sempre que soar natural em português narrativo.",
+      "justificativa": "O presente histórico é recurso vivo também em narrativa oral/escrita do português ('aí ele chega e diz...'); não é artificial aqui, e marca o estilo vívido de Marcos — decisão aplicada de modo consistente ao longo do capítulo (v.3,15,18,25 etc.) sem repetir a justificativa integralmente.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Normalizar todo o capítulo para pretérito",
+          "motivo": "Apagaria uma marca estilística real e auditável do texto-fonte, contra o espírito de ER-0013 (preservar traços estruturais quando não soam artificiais)."
+        }
+      ]
+    },
+    {
+      "questao": "τεσσάρων (genitivo 'de quatro') sem substantivo expresso.",
+      "escolha": "Suprir 'homens'.",
+      "justificativa": "Grego elide o substantivo, retomando pelo numeral apenas; português exige o núcleo nominal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'por quatro' sem completar",
+          "motivo": "Agramatical/ambíguo em português."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "homens (completa τεσσάρων)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "αἰρόμενον, particípio presente passivo, 'sendo carregado' → 'carregado'. Confiança DRAFT.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

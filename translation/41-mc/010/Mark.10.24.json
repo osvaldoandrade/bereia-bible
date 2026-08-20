@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.10.24",
+    "livro": "Marcos",
+    "capitulo": 10,
+    "versiculo": 24,
+    "pericope": "Mark.10.1-52"
+  },
+  "texto_bv": "Os discípulos se espantaram com essas palavras. Mas Jesus, respondendo de novo, lhes disse: \"Filhos, como é difícil entrar no reino de Deus!",
+  "traducao_literal": "Os discípulos, porém, se espantavam com as suas palavras. Jesus, porém, respondendo de novo, diz-lhes: Filhos, quão difícil é entrar no reino de Deus;",
+  "termos_originais": [
+    {
+      "palavra": "οἱ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μαθηταὶ",
+      "lemma": "μαθητής",
+      "morfologia": "N-NPM"
+    },
+    {
+      "palavra": "ἐθαμβοῦντο",
+      "lemma": "θαμβέω",
+      "morfologia": "V-IEI-3P"
+    },
+    {
+      "palavra": "ἐπὶ",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPM"
+    },
+    {
+      "palavra": "λόγοις",
+      "lemma": "λόγος",
+      "morfologia": "N-DPM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰησοῦς",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "πάλιν",
+      "lemma": "πάλιν",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἀποκριθεὶς",
+      "lemma": "ἀποκρίνομαι",
+      "morfologia": "V-AOP-NSM"
+    },
+    {
+      "palavra": "λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "αὐτοῖς",
+      "lemma": "αὐτός",
+      "morfologia": "P-DPM"
+    },
+    {
+      "palavra": "Τέκνα",
+      "lemma": "τέκνον",
+      "morfologia": "N-VPN"
+    },
+    {
+      "palavra": "πῶς",
+      "lemma": "πῶς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "δύσκολόν",
+      "lemma": "δύσκολος",
+      "morfologia": "A-NSN"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "βασιλείαν",
+      "lemma": "βασιλεία",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "εἰσελθεῖν",
+      "lemma": "εἰσέρχομαι",
+      "morfologia": "V-2AAN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "o texto pinado (Nestle 1904) não traz a cláusula 'τοὺς πεποιθότας ἐπὶ [τοῖς] χρήμασιν' ('para os que confiam nas riquezas'), presente em manuscritos posteriores e em versões tradicionais (TR/Bizantina)",
+      "escolha": "traduzir sem essa cláusula, seguindo estritamente o texto pinado",
+      "justificativa": "ADR-0003 fixa Nestle 1904 como autoridade textual; o packet não sinaliza variante de aparato para este verso, logo não há adjudicação a registrar em variantes_textuais",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "inserir a cláusula tradicional por familiaridade com versões consolidadas",
+          "motivo": "violaria a autoridade textual pinada (ADR-0003) sem base no packet"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "τέκνα ('filhos/filhinhos') como vocativo afetuoso de Jesus aos discípulos, único no NT nesta forma direta.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

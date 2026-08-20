@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.15.2",
+    "livro": "Marcos",
+    "capitulo": 15,
+    "versiculo": 2,
+    "pericope": "Mark.15.1-47"
+  },
+  "texto_bv": "Pilatos o interrogou: \"Você é o rei dos judeus?\" Ele respondeu: \"Você o diz.\"",
+  "traducao_literal": "E interrogou-o Pilatos: Tu és o Rei dos judeus? Ele, porém, respondendo, diz-lhe: Tu dizes.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐπηρώτησεν",
+      "lemma": "ἐπερωτάω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "αὐτὸν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Πειλᾶτος",
+      "lemma": "Πιλᾶτος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "Σὺ",
+      "lemma": "σύ",
+      "morfologia": "P-2NS"
+    },
+    {
+      "palavra": "εἶ",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-2S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Βασιλεὺς",
+      "lemma": "βασιλεύς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPM"
+    },
+    {
+      "palavra": "Ἰουδαίων",
+      "lemma": "Ἰουδαῖος",
+      "morfologia": "A-GPM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀποκριθεὶς",
+      "lemma": "ἀποκρίνομαι",
+      "morfologia": "V-AOP-NSM"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    },
+    {
+      "palavra": "λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "Σὺ",
+      "lemma": "σύ",
+      "morfologia": "P-2NS"
+    },
+    {
+      "palavra": "λέγεις",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-2S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Presente histórico narrativo (λέγει)",
+      "escolha": "normalizar para pretérito ('respondeu') no publicado; preservar o presente na traducao_literal",
+      "justificativa": "Marcos usa extensivamente o presente histórico narrativo. Tratado como extensão da doutrina do calque (ER-0013) ao grego: a literal preserva o tempo verbal do original, o publicado normaliza para o pretérito narrativo padrão do português. Aplicado uniformemente ao longo do capítulo (vv. 16,17,20,21,22,24,27,34,47 etc.) sem repetir a nota em cada ocorrência.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter presente histórico também no publicado ('diz')",
+          "motivo": "soa estilisticamente marcado/estranho em prosa narrativa pt-BR corrida, ao contrário do grego, onde é recurso vívido comum"
+        }
+      ]
+    },
+    {
+      "questao": "Segunda pessoa no interrogatório Pilatos-Jesus",
+      "escolha": "'você' (D-0003/ER-0003)",
+      "justificativa": "discurso entre humanos (interrogatório judicial), não oração dirigida a Deus; 'tu' reservado a esse segundo caso.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tu' uniforme por solenidade da cena",
+          "motivo": "a regra distingue pelo destinatário (humano × Deus), não pelo tom de solenidade"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "'Σὺ λέγεις' ('Você o diz') preserva a ambiguidade entre afirmação plena e resposta evasiva, como em Mt 27.11."
+  ],
+  "justificativa": "Βασιλεὺς τῶν Ἰουδαίων vertido 'rei dos judeus' em minúscula, título usado ironicamente por Pilatos, consistente com Mt 27.11.",
+  "confianca": 0.77,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

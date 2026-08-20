@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.3.18",
+    "livro": "Marcos",
+    "capitulo": 3,
+    "versiculo": 18,
+    "pericope": "Mark.3.1-35"
+  },
+  "texto_bv": "André, Filipe, Bartolomeu, Mateus, Tomé, Tiago, filho de Alfeu, Tadeu e Simão, o cananeu,",
+  "traducao_literal": "e André e Filipe e Bartolomeu e Mateus e Tomé e Tiago, o de Alfeu, e Tadeu e Simão, o cananeu",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἀνδρέαν",
+      "lemma": "Ἀνδρέας",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Φίλιππον",
+      "lemma": "Φίλιππος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Βαρθολομαῖον",
+      "lemma": "Βαρθολομαῖος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Μαθθαῖον",
+      "lemma": "Μαθθαῖος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Θωμᾶν",
+      "lemma": "Θωμᾶς",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰάκωβον",
+      "lemma": "Ἰάκωβος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Ἁλφαίου",
+      "lemma": "Ἁλφαῖος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Θαδδαῖον",
+      "lemma": "Θαδδαῖος",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Σίμωνα",
+      "lemma": "Σίμων",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "Καναναῖον",
+      "lemma": "Καναναῖος",
+      "morfologia": "N-ASM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "lista poliassindética (καί repetido oito vezes) e Καναναῖον (epíteto de Simão)",
+      "escolha": "normalizar a lista com vírgulas no publicado, preservando os 'e' repetidos na literal; manter 'cananeu' em minúscula como epíteto",
+      "justificativa": "aplicação por analogia da doutrina do calque (ER-0013) ao polissíndeto grego, que soa artificial em português com 'e' repetido a cada item; 'cananeu' tratado como epíteto descritivo, não antropônimo pleno.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter todos os 'e' também no publicado",
+          "motivo": "produz enumeração arrastada, contra a legibilidade em voz alta exigida por EDITORIAL §1.3"
+        },
+        {
+          "opcao": "maiúscula 'Cananeu' como sobrenome",
+          "motivo": "atribuiria estatuto de nome próprio pleno que o grego, mero epíteto adjetival, não codifica"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "filho (elidido em 'τὸν τοῦ Ἁλφαίου', igual ao padrão de 3:17)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continuação da lista dos Doze iniciada em 3:16; nomes em grafia consolidada.",
+  "confianca": 0.73,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

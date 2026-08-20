@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.16.9",
+    "livro": "Marcos",
+    "capitulo": 16,
+    "versiculo": 9,
+    "pericope": "Mark.16.1-20"
+  },
+  "texto_bv": "Tendo Jesus ressuscitado de manhã cedo no primeiro dia da semana, apareceu primeiro a Maria Madalena, de quem tinha expulsado sete demônios.",
+  "traducao_literal": "Tendo ressuscitado de manhã cedo no primeiro [dia] do sábado, apareceu primeiro a Maria a Madalena, de quem tinha expulsado sete demônios.",
+  "termos_originais": [
+    {
+      "palavra": "Ἀναστὰς",
+      "lemma": "ἀνίστημι",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πρωῒ",
+      "lemma": "πρωΐ",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "πρώτῃ",
+      "lemma": "πρῶτος",
+      "morfologia": "A-DSF-S"
+    },
+    {
+      "palavra": "σαββάτου",
+      "lemma": "σάββατον",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "ἐφάνη",
+      "lemma": "φαίνω",
+      "morfologia": "V-2API-3S"
+    },
+    {
+      "palavra": "πρῶτον",
+      "lemma": "πρῶτος",
+      "morfologia": "ADV-S"
+    },
+    {
+      "palavra": "Μαρίᾳ",
+      "lemma": "Μαρία",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "Μαγδαληνῇ",
+      "lemma": "Μαγδαληνή",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "παρ’",
+      "lemma": "παρά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἧς",
+      "lemma": "ὅς",
+      "morfologia": "R-GSF"
+    },
+    {
+      "palavra": "ἐκβεβλήκει",
+      "lemma": "ἐκβάλλω",
+      "morfologia": "V-LAI-3S"
+    },
+    {
+      "palavra": "ἑπτὰ",
+      "lemma": "ἑπτά",
+      "morfologia": "A-NUI"
+    },
+    {
+      "palavra": "δαιμόνια",
+      "lemma": "δαιμόνιον",
+      "morfologia": "N-APN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ἀναστὰς...ἐφάνη — sujeito de 3ª pessoa não nomeado no grego",
+      "escolha": "Jesus (suprido)",
+      "justificativa": "O particípio Ἀναστάς e o verbo ἐφάνη não têm sujeito expresso; após a lacuna narrativa de 16:8 (mudança de foco das mulheres para ele), o português exige reidentificação explícita.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ele' sem nome",
+          "motivo": "o referente muda de sujeito e precisa de reidentificação explícita para evitar ambiguidade em início de nova unidade narrativa"
+        }
+      ]
+    },
+    {
+      "questao": "Colchetes duplos da fonte pinada (Nestle 1904) delimitando 16:9-20",
+      "escolha": "traduzir integralmente o Final Longo; sinalizar a incerteza textual apenas no aparato de 16:20, conforme a própria fonte reserva",
+      "justificativa": "A fonte marca 16:9-20 com [[ ]] por reconhecer a ausência da passagem nos unciais mais antigos (Sinaítico, Vaticano), mas a preserva como texto recebido; ER-0018 determina que o aparato do Final Curto (pseudo-verso 16:99) fica registrado em 16:20, não distribuído por todos os versículos do Final Longo.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "omitir 16:9-20 do capítulo",
+          "motivo": "o packet inclui esses versículos explicitamente; a diretriz de cobertura exige tradução idêntica ao conjunto OSIS do packet"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Jesus (sujeito não nomeado no grego)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abre o Final Longo de Marcos (16:9-20), unidade textualmente disputada; ver nota de aparato completa em 16:20.",
+  "confianca": 0.74,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

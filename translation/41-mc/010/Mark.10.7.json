@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.10.7",
+    "livro": "Marcos",
+    "capitulo": 10,
+    "versiculo": 7,
+    "pericope": "Mark.10.1-52"
+  },
+  "texto_bv": "'Por isso, o homem deixará seu pai e sua mãe,",
+  "traducao_literal": "Por causa disto, deixará o homem o pai dele e a mãe,",
+  "termos_originais": [
+    {
+      "palavra": "ἕνεκεν",
+      "lemma": "ἕνεκα",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τούτου",
+      "lemma": "οὗτος",
+      "morfologia": "D-GSN"
+    },
+    {
+      "palavra": "καταλείψει",
+      "lemma": "καταλείπω",
+      "morfologia": "V-FAI-3S"
+    },
+    {
+      "palavra": "ἄνθρωπος",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "πατέρα",
+      "lemma": "πατήρ",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "μητέρα",
+      "lemma": "μήτηρ",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "citação de Gn 2:24 sem a cláusula 'e se unirá à sua mulher' (καὶ προσκολληθήσεται πρὸς τὴν γυναῖκα αὐτοῦ), presente em Mt 19:5 e na LXX, mas ausente do texto grego pinado de Mc 10:7",
+      "escolha": "traduzir exatamente o texto de Nestle 1904 tal como está no packet, sem completar a citação com a cláusula ausente",
+      "justificativa": "TEOLOGIA §2 proíbe harmonização artificial entre passagens paralelas; a autoridade textual pinada (ADR-0003) não traz essa cláusula em Mc 10:7, e o packet não sinaliza variante de aparato para este verso",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "completar com 'e se unirá à sua mulher', harmonizando com Mt 19:5/Gn 2:24 LXX",
+          "motivo": "inseriria texto ausente da autoridade textual pinada; violaria a proibição de harmonização (TEOLOGIA §2)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "A citação de Gênesis 2:24 aparece truncada no grego pinado de Marcos (falta a cláusula da união conjugal); não se sabe se é escolha estilística de Marcos ou lacuna de transmissão textual — a BV segue o texto pinado sem suprir."
+  ],
+  "justificativa": "Abre citação de Gn 2:24 dentro da fala de Jesus (citação dentro de citação, EDITORIAL §5, aspas simples); fecha em 10:8.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

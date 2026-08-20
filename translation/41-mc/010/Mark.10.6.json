@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.10.6",
+    "livro": "Marcos",
+    "capitulo": 10,
+    "versiculo": 6,
+    "pericope": "Mark.10.1-52"
+  },
+  "texto_bv": "Mas, desde o princípio da criação, Deus os fez macho e fêmea.",
+  "traducao_literal": "Mas desde o princípio da criação, macho e fêmea os fez;",
+  "termos_originais": [
+    {
+      "palavra": "ἀπὸ",
+      "lemma": "ἀπό",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "δὲ",
+      "lemma": "δέ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀρχῆς",
+      "lemma": "ἀρχή",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "κτίσεως",
+      "lemma": "κτίσις",
+      "morfologia": "N-GSF"
+    },
+    {
+      "palavra": "ἄρσεν",
+      "lemma": "ἄρσην",
+      "morfologia": "A-ASN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "θῆλυ",
+      "lemma": "θῆλυς",
+      "morfologia": "A-ASN"
+    },
+    {
+      "palavra": "ἐποίησεν",
+      "lemma": "ποιέω",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "αὐτούς",
+      "lemma": "αὐτός",
+      "morfologia": "P-APM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἐποίησεν αὐτούς sem sujeito nomeado (implícito 'Deus', pela citação de Gênesis que segue)",
+      "escolha": "explicitar 'Deus' como sujeito no publicado",
+      "justificativa": "o português exige sujeito expresso para clareza; o referente é inequívoco pelo contexto de citação de Gn 1:27 (EDITORIAL §4)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter sujeito implícito ('macho e fêmea os fez')",
+          "motivo": "soa truncado e ambíguo em português, embora preservado na traducao_literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Deus (sujeito suprido, implícito no grego pela citação de Gn 1:27 que segue)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "ἄρσεν καὶ θῆλυ ('macho e fêmea') retoma Gn 1:27 (LXX), termo já fixado em Gn 1:27 e em Matt.19.4.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.8.1",
+    "livro": "Marcos",
+    "capitulo": 8,
+    "versiculo": 1,
+    "pericope": "Mark.8.1-38"
+  },
+  "texto_bv": "Naqueles dias, havia de novo uma grande multidão que não tinha o que comer. Jesus chamou os discípulos e disse-lhes:",
+  "traducao_literal": "Naqueles dias, de novo, havendo grande multidão e não tendo o que comessem, tendo chamado a si os discípulos, diz a eles:",
+  "termos_originais": [
+    {
+      "palavra": "Ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἐκείναις",
+      "lemma": "ἐκεῖνος",
+      "morfologia": "D-DPF"
+    },
+    {
+      "palavra": "ταῖς",
+      "lemma": "ὁ",
+      "morfologia": "T-DPF"
+    },
+    {
+      "palavra": "ἡμέραις",
+      "lemma": "ἡμέρα",
+      "morfologia": "N-DPF"
+    },
+    {
+      "palavra": "πάλιν",
+      "lemma": "πάλιν",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "πολλοῦ",
+      "lemma": "πολύς",
+      "morfologia": "A-GSM"
+    },
+    {
+      "palavra": "ὄχλου",
+      "lemma": "ὄχλος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "ὄντος",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAP-GSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μὴ",
+      "lemma": "μή",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἐχόντων",
+      "lemma": "ἔχω",
+      "morfologia": "V-PAP-GPM"
+    },
+    {
+      "palavra": "τί",
+      "lemma": "τίς",
+      "morfologia": "I-ASN"
+    },
+    {
+      "palavra": "φάγωσιν",
+      "lemma": "ἐσθίω",
+      "morfologia": "V-2AAS-3P"
+    },
+    {
+      "palavra": "προσκαλεσάμενος",
+      "lemma": "προσκαλέω",
+      "morfologia": "V-ADP-NSM"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "μαθητὰς",
+      "lemma": "μαθητής",
+      "morfologia": "N-APM"
+    },
+    {
+      "palavra": "λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "αὐτοῖς",
+      "lemma": "αὐτός",
+      "morfologia": "P-DPM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Genitivos absolutos (πολλοῦ ὄχλου ὄντος, μὴ ἐχόντων) e presente histórico λέγει",
+      "escolha": "Publicado normaliza os genitivos absolutos em orações finitas e o presente histórico em pretérito ('disse'); a literal preserva os particípios e o presente.",
+      "justificativa": "Aplicação ao grego do mesmo princípio de ER-0013 (calque estrutural preservado na literal, normalizado no publicado) — o presente histórico é traço estilístico do narrador de Marcos, não informação semântica adicional.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'diz' no publicado",
+          "motivo": "soa traduzido em português narrativo corrido; o traço estilístico sobrevive na literal para auditoria"
+        }
+      ]
+    },
+    {
+      "questao": "Sujeito de λέγει não expresso no grego",
+      "escolha": "Suprir 'Jesus' explicitamente no publicado",
+      "justificativa": "O verbo 3ª sg. sem sujeito expresso pressupõe Jesus pelo contexto do capítulo anterior; EDITORIAL §1.3 exige evitar ambiguidade de referência pronominal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Deixar implícito ('...chamou os discípulos e disse:')",
+          "motivo": "funciona em grego por concordância verbal, mas em português cria ambiguidade sobre quem fala"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Jesus (sujeito de λέγει)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abre a perícope da multiplicação dos pães para os quatro mil; presente histórico e genitivos absolutos são normalizados no publicado e preservados na literal (ER-0013 estendida ao grego).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

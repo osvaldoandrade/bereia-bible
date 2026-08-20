@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.1.1",
+    "livro": "Marcos",
+    "capitulo": 1,
+    "versiculo": 1,
+    "pericope": "Mark.1.1-45"
+  },
+  "texto_bv": "Princípio do evangelho de Jesus Cristo (Filho de Deus).",
+  "traducao_literal": "Princípio do evangelho de Jesus Cristo (Filho de Deus).",
+  "termos_originais": [
+    {
+      "palavra": "Ἀρχὴ",
+      "lemma": "ἀρχή",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSN"
+    },
+    {
+      "palavra": "εὐαγγελίου",
+      "lemma": "εὐαγγέλιον",
+      "morfologia": "N-GSN"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Χριστοῦ",
+      "lemma": "Χριστός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Υἱοῦ",
+      "lemma": "υἱός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Parênteses em '(Υἱοῦ Θεοῦ)' na fonte pinada",
+      "escolha": "Preservar os parênteses no texto_bv e na traducao_literal, refletindo a pontuação do Nestle1904 tal como pinado",
+      "justificativa": "O packet cego não trouxe variantes_fonte para este verso, mas a tipografia da fonte pinada já marca a frase entre parênteses; sem aparato de testemunhas para adjudicar, a BV preserva o sinal em vez de apagá-lo ou de assumir uma leitura.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "remover os parênteses e integrar a frase normalmente",
+          "motivo": "apagaria, sem base de aparato, um sinal textual presente na fonte pinada"
+        }
+      ]
+    },
+    {
+      "questao": "Χριστός: 'Cristo' ou 'Ungido/Messias'",
+      "escolha": "Cristo",
+      "justificativa": "Grafia consolidada em português bíblico (EDITORIAL §8), paralela ao tratamento onomástico de nomes próprios; o valor lexical 'ungido' é registrado aqui para auditoria.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Ungido",
+          "motivo": "tradução lexical exata, mas rompe a convenção onomástica consolidada"
+        }
+      ]
+    },
+    {
+      "questao": "Maiúscula em 'Filho' como título cristológico",
+      "escolha": "capitalizar 'Filho de Deus'",
+      "justificativa": "Extensão, por analogia, da lógica de EDITORIAL §10 (maiúscula documentada por decisão exegética) a um título nominal fixo, não pronominal; primeira ocorrência do padrão no corpus NT da BV.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "minúscula uniforme",
+          "motivo": "tratamento reservado a pronomes referentes a Deus, não a títulos nominais consolidados"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Estatuto textual da frase '(Filho de Deus)' — presente na fonte pinada entre parênteses; packet não trouxe aparato de testemunhas para adjudicar variantes de omissão"
+  ],
+  "justificativa": "Superscrição sem verbo; BV mantém a elipse nominal do grego e preserva a marcação tipográfica da fonte pinada.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

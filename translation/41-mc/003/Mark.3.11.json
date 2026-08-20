@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.3.11",
+    "livro": "Marcos",
+    "capitulo": 3,
+    "versiculo": 11,
+    "pericope": "Mark.3.1-35"
+  },
+  "texto_bv": "E os espíritos imundos, quando o viam, prostravam-se diante dele e clamavam, dizendo: “Tu és o Filho de Deus.”",
+  "traducao_literal": "E os espíritos, os imundos, quando o viam, prostravam-se diante dele e clamavam dizendo que: “Tu és o Filho de Deus.”",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPN"
+    },
+    {
+      "palavra": "πνεύματα",
+      "lemma": "πνεῦμα",
+      "morfologia": "N-NPN"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPN"
+    },
+    {
+      "palavra": "ἀκάθαρτα",
+      "lemma": "ἀκάθαρτος",
+      "morfologia": "A-NPN"
+    },
+    {
+      "palavra": "ὅταν",
+      "lemma": "ὅταν",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "αὐτὸν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "ἐθεώρουν",
+      "lemma": "θεωρέω",
+      "morfologia": "V-IAI-3P"
+    },
+    {
+      "palavra": "προσέπιπτον",
+      "lemma": "προσπίπτω",
+      "morfologia": "V-IAI-3P"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἔκραζον",
+      "lemma": "κράζω",
+      "morfologia": "V-IAI-3P"
+    },
+    {
+      "palavra": "λέγοντα",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NPN"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Σὺ",
+      "lemma": "σύ",
+      "morfologia": "P-2NS"
+    },
+    {
+      "palavra": "εἶ",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-2S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Υἱὸς",
+      "lemma": "υἱός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ὅτι recitativum introduzindo discurso direto",
+      "escolha": "não traduzir lexicalmente; marcar só por dois-pontos e aspas (ER-0004)",
+      "justificativa": "ὅτι recitativo é marca gramatical grega de discurso direto, sem correspondente lexical em português; a pontuação assume essa função.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir como 'que' antes das aspas",
+          "motivo": "produziria redundância agramatical em português ('clamavam dizendo que: Tu és...')"
+        }
+      ]
+    },
+    {
+      "questao": "maiúscula em 'Filho de Deus' (Υἱὸς τοῦ Θεοῦ)",
+      "escolha": "manter maiúscula, título cristológico",
+      "justificativa": "título messiânico/cristológico reconhecido na confissão dos espíritos imundos, distinto do pronome comum referente a Deus (minúsculo por EDITORIAL §10); tratado como título/nome próprio.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "minúscula ('filho de deus')",
+          "motivo": "apagaria o estatuto de título que a confissão demoníaca evidencia no grego"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "θεός → Deus conforme NOMES-DIVINOS.md (G2316); πνεύματα ἀκάθαρτα mantido em minúscula, em contraste proposital com Πνεῦμα Ἅγιον de 3:29.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

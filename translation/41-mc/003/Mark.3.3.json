@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.3.3",
+    "livro": "Marcos",
+    "capitulo": 3,
+    "versiculo": 3,
+    "pericope": "Mark.3.1-35"
+  },
+  "texto_bv": "E ele disse ao homem que tinha a mão ressecada: “Levanta-te, vem para o meio.”",
+  "traducao_literal": "E diz ao homem, o que tem a mão ressecada: “Levanta-te para o meio.”",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "ἀνθρώπῳ",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "χεῖρα",
+      "lemma": "χείρ",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "ἔχοντι",
+      "lemma": "ἔχω",
+      "morfologia": "V-PAP-DSM"
+    },
+    {
+      "palavra": "ξηράν",
+      "lemma": "ξηρός",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "Ἔγειρε",
+      "lemma": "ἐγείρω",
+      "morfologia": "V-PAM-2S"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-ASN"
+    },
+    {
+      "palavra": "μέσον",
+      "lemma": "μέσος",
+      "morfologia": "A-ASN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "presente histórico λέγει (padrão recorrente no capítulo: 3:3,4,5,13,20,31,32,33,34)",
+      "escolha": "normalizar para pretérito no publicado ('disse'), preservando o presente na tradução literal ('diz')",
+      "justificativa": "recurso estilístico marcano recorrente; aplica-se por analogia a doutrina do calque (ER-0013): a literal preserva o presente histórico grego, o publicado normaliza para naturalidade narrativa em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter presente também no publicado",
+          "motivo": "soa artificial em prosa narrativa portuguesa contemporânea (EDITORIAL §1.3)"
+        }
+      ]
+    },
+    {
+      "questao": "Ἔγειρε εἰς τὸ μέσον — elipse do verbo de movimento",
+      "escolha": "suprir 'vem'",
+      "justificativa": "o grego usa apenas a preposição εἰς τὸ μέσον após o imperativo de levantar-se, elidindo o verbo de deslocamento; o português exige um verbo explícito.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "“Levanta-te, para o meio”",
+          "motivo": "agramatical em português apesar de mais literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "vem (elipse do verbo de movimento em εἰς τὸ μέσον, exigida pela gramática portuguesa)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Primeira ocorrência do presente histórico marcano do capítulo; regra registrada aqui e reaplicada nos versículos seguintes sem repetir a justificativa completa.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

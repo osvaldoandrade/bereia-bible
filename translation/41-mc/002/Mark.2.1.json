@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.2.1",
+    "livro": "Marcos",
+    "capitulo": 2,
+    "versiculo": 1,
+    "pericope": "Mark.2.1-28"
+  },
+  "texto_bv": "Alguns dias depois, Jesus entrou outra vez em Cafarnaum, e ouviu-se dizer que estava em casa.",
+  "traducao_literal": "E, tendo entrado outra vez em Cafarnaum através de dias, ouviu-se que em casa ele está.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἰσελθὼν",
+      "lemma": "εἰσέρχομαι",
+      "morfologia": "V-2AAP-NSM"
+    },
+    {
+      "palavra": "πάλιν",
+      "lemma": "πάλιν",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "Καφαρναοὺμ",
+      "lemma": "Καφαρναούμ",
+      "morfologia": "N-PRI"
+    },
+    {
+      "palavra": "δι’",
+      "lemma": "διά",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "ἡμερῶν",
+      "lemma": "ἡμέρα",
+      "morfologia": "N-GPF"
+    },
+    {
+      "palavra": "ἠκούσθη",
+      "lemma": "ἀκούω",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "οἴκῳ",
+      "lemma": "οἶκος",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "ἐστίν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Sujeito de εἰσελθὼν/ἠκούσθη não é nomeado no grego (só retomado do contexto de Mc 1).",
+      "escolha": "Suprir 'Jesus' explicitamente no publicado, mantendo a ausência de nome como traço da literal.",
+      "justificativa": "Português exige antecedente claro; grego retoma por concordância de particípio/gênero apenas.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Usar apenas 'ele'",
+          "motivo": "Ambíguo em português no início de perícope, sem antecedente imediato no mesmo registro."
+        }
+      ]
+    },
+    {
+      "questao": "δι’ ἡμερῶν (lit. 'através de dias') é idiomatismo temporal.",
+      "escolha": "'alguns dias depois'",
+      "justificativa": "Uso idiomático atestado de διά+genitivo temporal = intervalo decorrido; sentido lexical, não teológico.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'por meio de dias' (calque)",
+          "motivo": "Ininteligível em português corrente; reservado à traducao_literal."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Jesus (sujeito retomado do contexto)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Abertura narrativa; ἠκούσθη ὅτι é passiva impessoal ('ouviu-se que'), mantida no publicado. Confiança DRAFT.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

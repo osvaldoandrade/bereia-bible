@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Mark.3.1",
+    "livro": "Marcos",
+    "capitulo": 3,
+    "versiculo": 1,
+    "pericope": "Mark.3.1-35"
+  },
+  "texto_bv": "Jesus entrou novamente numa sinagoga, e havia ali um homem que tinha a mão ressecada.",
+  "traducao_literal": "E entrou novamente em sinagoga, e havia ali um homem, tendo a mão ressecada.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἰσῆλθεν",
+      "lemma": "εἰσέρχομαι",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "πάλιν",
+      "lemma": "πάλιν",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "εἰς",
+      "lemma": "εἰς",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "συναγωγήν",
+      "lemma": "συναγωγή",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἦν",
+      "lemma": "εἰμί",
+      "morfologia": "V-IAI-3S"
+    },
+    {
+      "palavra": "ἐκεῖ",
+      "lemma": "ἐκεῖ",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "ἄνθρωπος",
+      "lemma": "ἄνθρωπος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐξηραμμένην",
+      "lemma": "ξηραίνω",
+      "morfologia": "V-RPP-ASF"
+    },
+    {
+      "palavra": "ἔχων",
+      "lemma": "ἔχω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "χεῖρα",
+      "lemma": "χείρ",
+      "morfologia": "N-ASF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "sujeito elíptico de εἰσῆλθεν",
+      "escolha": "suprir explicitamente 'Jesus'",
+      "justificativa": "o grego traz só a forma verbal de 3ª pessoa, sem sujeito expresso; o referente é Jesus, retomado da narrativa anterior (Mc 2); suprido sem itálico (EDITORIAL §4/ER-0006).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter sujeito implícito ('E entrou...')",
+          "motivo": "gera ambiguidade referencial em leitura do capítulo isolado, contra EDITORIAL §1.3"
+        }
+      ]
+    },
+    {
+      "questao": "ἐξηραμμένην (particípio perfeito passivo de ξηραίνω)",
+      "escolha": "ressecada",
+      "justificativa": "glosa literal de 'secar/murchar', preservando o sentido físico do estado resultante.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "atrofiada",
+          "motivo": "termo médico moderno que importa diagnóstico não codificado no grego"
+        },
+        {
+          "opcao": "mirrada",
+          "motivo": "arcaísmo em desuso no registro contemporâneo (EDITORIAL §1.2)"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "Jesus (sujeito não expresso no grego, retomado do contexto)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Tradução direta; único ponto não-trivial é a supridura do sujeito elíptico e a glosa do particípio de ξηραίνω.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
