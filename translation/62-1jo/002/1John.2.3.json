@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1John.2.3",
+    "livro": "1 João",
+    "capitulo": 2,
+    "versiculo": 3,
+    "pericope": "1John.2.1-29"
+  },
+  "texto_bv": "E nisto sabemos que o conhecemos, se guardamos os mandamentos dele.",
+  "traducao_literal": "E nisto conhecemos que o temos conhecido, se os mandamentos dele guardarmos.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τούτῳ",
+      "lemma": "οὗτος",
+      "morfologia": "D-DSN"
+    },
+    {
+      "palavra": "γινώσκομεν",
+      "lemma": "γινώσκω",
+      "morfologia": "V-PAI-1P"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐγνώκαμεν",
+      "lemma": "γινώσκω",
+      "morfologia": "V-RAI-1P"
+    },
+    {
+      "palavra": "αὐτόν",
+      "lemma": "αὐτός",
+      "morfologia": "P-ASM"
+    },
+    {
+      "palavra": "ἐὰν",
+      "lemma": "ἐάν",
+      "morfologia": "COND"
+    },
+    {
+      "palavra": "τὰς",
+      "lemma": "ὁ",
+      "morfologia": "T-APF"
+    },
+    {
+      "palavra": "ἐντολὰς",
+      "lemma": "ἐντολή",
+      "morfologia": "N-APF"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "τηρῶμεν",
+      "lemma": "τηρέω",
+      "morfologia": "V-PAS-1P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "γινώσκω presente indicativo (fórmula 'ἐν τούτῳ γινώσκομεν') vs. γινώσκω perfeito (ἐγνώκαμεν) no mesmo versículo — mesma raiz grega, dois valores.",
+      "escolha": "Política lexical fixada aqui para o capítulo: γινώσκω presente em fórmula evidencial ('ἐν τούτῳ...') = inferência a partir de evidência = 'saber'; γινώσκω perfeito relacional (conhecimento pessoal de Deus/Cristo/irmão) = 'conhecer'. οἶδα = sempre 'saber'.",
+      "justificativa": "O grego usa deliberadamente a mesma raiz duas vezes com valores aspectuais distintos (presente gnômico-inferencial vs. perfeito de estado relacional); traduzir ambos por 'conhecer' soa redundante e obscurece a fórmula evidencial recorrente em 1João; a traducao_literal preserva a identidade lexical do original mantendo a mesma raiz portuguesa 'conhecer' nos dois casos (calque lexical, extensão de ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'conhecemos... conhecemos' (mesma glosa nas duas ocorrências)",
+          "motivo": "gramatical, mas produz repetição pesada em português e apaga a função evidencial específica da fórmula joanina, recorrente em 1João"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso programático que fixa a política lexical saber/conhecer para γινώσκω usada no resto do capítulo (lexico_ref para vv.5,18,29).",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

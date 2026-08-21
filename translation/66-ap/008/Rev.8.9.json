@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rev.8.9",
+    "livro": "Apocalipse",
+    "capitulo": 8,
+    "versiculo": 9,
+    "pericope": "Rev.8.1-13"
+  },
+  "texto_bv": "E morreu a terça parte das criaturas que há no mar, as que têm vida, e a terça parte dos navios foi destruída.",
+  "traducao_literal": "E morreu a terça-parte das criaturas, as no mar, as que-têm vidas, e a terça-parte dos navios foram-destruídos.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἀπέθανεν",
+      "lemma": "ἀποθνῄσκω",
+      "morfologia": "V-2AAI-3S"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSN"
+    },
+    {
+      "palavra": "τρίτον",
+      "lemma": "τρίτος",
+      "morfologia": "A-NSN"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPN"
+    },
+    {
+      "palavra": "κτισμάτων",
+      "lemma": "κτίσμα",
+      "morfologia": "N-GPN"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPN"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῇ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSF"
+    },
+    {
+      "palavra": "θαλάσσῃ",
+      "lemma": "θάλασσα",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "τὰ",
+      "lemma": "ὁ",
+      "morfologia": "T-NPN"
+    },
+    {
+      "palavra": "ἔχοντα",
+      "lemma": "ἔχω",
+      "morfologia": "V-PAP-NPN"
+    },
+    {
+      "palavra": "ψυχάς",
+      "lemma": "ψυχή",
+      "morfologia": "N-APF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSN"
+    },
+    {
+      "palavra": "τρίτον",
+      "lemma": "τρίτος",
+      "morfologia": "A-NSN"
+    },
+    {
+      "palavra": "τῶν",
+      "lemma": "ὁ",
+      "morfologia": "T-GPN"
+    },
+    {
+      "palavra": "πλοίων",
+      "lemma": "πλοῖον",
+      "morfologia": "N-GPN"
+    },
+    {
+      "palavra": "διεφθάρησαν",
+      "lemma": "διαφθείρω",
+      "morfologia": "V-2API-3P"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ψυχάς (τὰ ἔχοντα ψυχάς) — 'almas' vs. 'vida'",
+      "escolha": "'vida' — 'as que têm vida'",
+      "justificativa": "no contexto de fauna marinha, ψυχή designa fôlego/vida animal (sentido biológico corrente no grego bíblico, cf. LXX נֶפֶשׁ חַיָּה), não 'alma' no sentido antropológico-teológico; optar por 'almas' importaria conotação estranha ao referente (criaturas do mar)",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'almas'",
+          "motivo": "soa como antropomorfização das criaturas marinhas, sem suporte no uso do lexema para fauna"
+        }
+      ]
+    },
+    {
+      "questao": "διεφθάρησαν (plural) com sujeito singular τὸ τρίτον",
+      "escolha": "normalizar para singular 'foi destruída' no texto publicado; plural preservado na literal",
+      "justificativa": "concordância ad sensum do grego (verbo atraído para o número do genitivo partitivo τῶν πλοίων) não tem paralelo natural em português com sujeito singular explícito ('a terça parte')",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'foram destruídos' no publicado",
+          "motivo": "agramatical em português com sujeito singular 'a terça parte'"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Duas decisões não triviais, ambas resolvidas por evidência lexical/gramatical: valor biológico de ψυχή para fauna, e normalização de concordância ad sensum incompatível com a sintaxe do português.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

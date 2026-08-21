@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1John.5.11",
+    "livro": "1 João",
+    "capitulo": 5,
+    "versiculo": 11,
+    "pericope": "1John.5.1-21"
+  },
+  "texto_bv": "E este é o testemunho: que Deus nos deu a vida eterna, e esta vida está no seu Filho.",
+  "traducao_literal": "E este é o testemunho, que vida eterna deu Deus a nós, e esta vida no seu Filho está.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "αὕτη",
+      "lemma": "οὗτος",
+      "morfologia": "D-NSF"
+    },
+    {
+      "palavra": "ἐστὶν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "μαρτυρία",
+      "lemma": "μαρτυρία",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ζωὴν",
+      "lemma": "ζωή",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "αἰώνιον",
+      "lemma": "αἰώνιος",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "ἔδωκεν",
+      "lemma": "δίδωμι",
+      "morfologia": "V-AAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Θεὸς",
+      "lemma": "θεός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἡμῖν",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DP"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "αὕτη",
+      "lemma": "οὗτος",
+      "morfologia": "D-NSF"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "ζωὴ",
+      "lemma": "ζωή",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τῷ",
+      "lemma": "ὁ",
+      "morfologia": "T-DSM"
+    },
+    {
+      "palavra": "Υἱῷ",
+      "lemma": "υἱός",
+      "morfologia": "N-DSM"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ordem S-V no publicado (ἔδωκεν ὁ Θεὸς ἡμῖν e ἐν τῷ Υἱῷ αὐτοῦ ἐστιν)",
+      "escolha": "normalizar para sujeito-verbo e verbo ao final da oração conforme a sintaxe natural do português, preservando a ordem grega na literal",
+      "justificativa": "aplicação do mesmo princípio de ER-0011 (calque de ordem preservado só na literal) ao grego, por analogia editorial — a ordem grega é estilística, não semanticamente distintiva aqui",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "preservar a ordem grega no publicado ('vida eterna deu Deus a nós')",
+          "motivo": "soa arcaizante/poético fora de registro em português corrente"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "ὅτι completivo introduz o conteúdo do testemunho, retomando o tema de vv.9-10.",
+  "confianca": 0.79,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

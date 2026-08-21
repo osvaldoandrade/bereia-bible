@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rev.5.1",
+    "livro": "Apocalipse",
+    "capitulo": 5,
+    "versiculo": 1,
+    "pericope": "Rev.5.1-14"
+  },
+  "texto_bv": "E vi, na mão direita daquele que estava assentado no trono, um livro escrito por dentro e por fora, selado com sete selos.",
+  "traducao_literal": "E vi sobre a direita do sentado sobre o trono um livro escrito por dentro e por trás, selado com selos sete.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἶδον",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AAI-1S"
+    },
+    {
+      "palavra": "ἐπὶ",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "δεξιὰν",
+      "lemma": "δεξιός",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "καθημένου",
+      "lemma": "κάθημαι",
+      "morfologia": "V-PNP-GSM"
+    },
+    {
+      "palavra": "ἐπὶ",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "θρόνου",
+      "lemma": "θρόνος",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "βιβλίον",
+      "lemma": "βιβλίον",
+      "morfologia": "N-ASN"
+    },
+    {
+      "palavra": "γεγραμμένον",
+      "lemma": "γράφω",
+      "morfologia": "V-RPP-ASN"
+    },
+    {
+      "palavra": "ἔσωθεν",
+      "lemma": "ἔσωθεν",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ὄπισθεν",
+      "lemma": "ὄπισθεν",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "κατεσφραγισμένον",
+      "lemma": "κατασφραγίζω",
+      "morfologia": "V-RPP-ASN"
+    },
+    {
+      "palavra": "σφραγῖσιν",
+      "lemma": "σφραγίς",
+      "morfologia": "N-DPF"
+    },
+    {
+      "palavra": "ἑπτά",
+      "lemma": "ἑπτά",
+      "morfologia": "A-NUI"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "βιβλίον: 'livro' ou 'rolo'",
+      "escolha": "livro",
+      "justificativa": "Uso consolidado nas traduções pt-BR (Almeida/ARA/NVI); a possibilidade de leitura como rolo de papiro selado (formato de testamento romano com sete selos) é preservada como ambiguidade, não afirmada no texto.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "rolo",
+          "motivo": "mais preciso quanto à forma física antiga, mas rompe sem ganho semântico decisivo a tradição lexical consolidada de 'livro'"
+        }
+      ]
+    },
+    {
+      "questao": "δεξιάν sem substantivo expresso (elipse de 'mão')",
+      "escolha": "suprir 'mão' sem itálico",
+      "justificativa": "Elipse idiomática grega consolidada para 'mão direita'; palavra suprida listada conforme EDITORIAL §4.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "traduzir só 'a direita'",
+          "motivo": "agramatical/ambíguo em português sem o substantivo elidido"
+        }
+      ]
+    },
+    {
+      "questao": "ὄπισθεν: 'atrás' ou 'por fora'",
+      "escolha": "por fora",
+      "justificativa": "Descreve um rolo opistógrafo (escrito também no verso); 'por fora' é mais natural em português para esse sentido, com 'por trás' preservado na literal (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "por trás",
+          "motivo": "mais literal, porém soa estranho em português para descrever escrita em ambos os lados de um rolo"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "mão (δεξιάν)"
+  ],
+  "ambiguidades_preservadas": [
+    "livro/rolo: βιβλίον pode designar tanto um livro quanto um rolo de papiro; a BV opta por 'livro' por tradição lexical, preservando a leitura como rolo selado no formato de testamento romano de sete selos"
+  ],
+  "justificativa": "καθημένου (particípio substantivado) verte-se 'daquele que estava assentado', mantendo o valor durativo da cena descrita; a estrutura geral segue o grego com ajustes mínimos de ordem para naturalidade.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

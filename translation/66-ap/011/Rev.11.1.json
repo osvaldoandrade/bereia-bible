@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rev.11.1",
+    "livro": "Apocalipse",
+    "capitulo": 11,
+    "versiculo": 1,
+    "pericope": "Rev.11.1-19"
+  },
+  "texto_bv": "Foi-me dada uma cana semelhante a uma vara, e foi-me dito: “Levanta-te e mede o templo de Deus, o altar e os que nele adoram.”",
+  "traducao_literal": "E foi-me dada uma cana semelhante a uma vara, dizendo: Levanta-te e mede o templo de Deus e o altar e os que adoram nele.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐδόθη",
+      "lemma": "δίδωμι",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "μοι",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1DS"
+    },
+    {
+      "palavra": "κάλαμος",
+      "lemma": "κάλαμος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὅμοιος",
+      "lemma": "ὅμοιος",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ῥάβδῳ",
+      "lemma": "ῥάβδος",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "λέγων",
+      "lemma": "λέγω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "Ἔγειρε",
+      "lemma": "ἐγείρω",
+      "morfologia": "V-PAM-2S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "μέτρησον",
+      "lemma": "μετρέω",
+      "morfologia": "V-AAM-2S"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "ναὸν",
+      "lemma": "ναός",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-ASN"
+    },
+    {
+      "palavra": "θυσιαστήριον",
+      "lemma": "θυσιαστήριον",
+      "morfologia": "N-ASN"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τοὺς",
+      "lemma": "ὁ",
+      "morfologia": "T-APM"
+    },
+    {
+      "palavra": "προσκυνοῦντας",
+      "lemma": "προσκυνέω",
+      "morfologia": "V-PAP-APM"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτῷ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "λέγων é particípio nominativo masculino sem sujeito gramatical claro (o Nestle 1904 aqui não traz 'ὁ ἄγγελος εἱστήκει', presente no Textus Receptus).",
+      "escolha": "Normalizado para construção impessoal 'foi-me dito', preservando a ambiguidade do falante.",
+      "justificativa": "ER-0013: o calque do particípio solto é preservado na traducao_literal e normalizado no publicado quando soaria artificial ou agramatical em português.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Inserir 'o anjo' como sujeito, harmonizando com o Textus Receptus",
+          "motivo": "O Nestle 1904 pinado não traz essa cláusula; inserir importaria leitura de tradição textual não pinada (ADR-0003)."
+        },
+        {
+          "opcao": "Manter 'dizendo' solto, sem sujeito, em português",
+          "motivo": "Produz anacoluto agramatical em português; EDITORIAL §1.3 exige conforto de leitura."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [
+    "Identidade de quem fala ('dizendo') não é especificada no Nestle 1904 — em outras tradições textuais é o anjo da medição, mas o texto pinado não o nomeia."
+  ],
+  "justificativa": "Verso de abertura da cena de medição do templo; o particípio solto λέγων foi normalizado para uma passiva impessoal em português, preservando a ambiguidade do falante. ναός/θυσιαστήριον vertidos por 'templo'/'altar', termos correntes.",
+  "confianca": 0.72,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

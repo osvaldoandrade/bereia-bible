@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1John.1.4",
+    "livro": "1 João",
+    "capitulo": 1,
+    "versiculo": 4,
+    "pericope": "1John.1.1-10"
+  },
+  "texto_bv": "E escrevemos estas coisas para que a nossa alegria seja completa.",
+  "traducao_literal": "E estas coisas escrevemos nós, para que a nossa alegria esteja cumprida.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ταῦτα",
+      "lemma": "οὗτος",
+      "morfologia": "D-APN"
+    },
+    {
+      "palavra": "γράφομεν",
+      "lemma": "γράφω",
+      "morfologia": "V-PAI-1P"
+    },
+    {
+      "palavra": "ἡμεῖς",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1NP"
+    },
+    {
+      "palavra": "ἵνα",
+      "lemma": "ἵνα",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "χαρὰ",
+      "lemma": "χαρά",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἡμῶν",
+      "lemma": "ἐγώ",
+      "morfologia": "P-1GP"
+    },
+    {
+      "palavra": "ᾖ",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAS-3S"
+    },
+    {
+      "palavra": "πεπληρωμένη",
+      "lemma": "πληρόω",
+      "morfologia": "V-RPP-NSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ἡμεῖς enfático redundante (pronome de 1ª pl. junto ao verbo já flexionado): manter no publicado?",
+      "escolha": "omitir no publicado, preservar na literal",
+      "justificativa": "Pronome pessoal explícito é redundância enfática do grego (o verbo já marca a pessoa); no português, o mesmo efeito de ênfase soa artificial se o pronome for reproduzido fora de contexto contrastivo. ER-0013: calque de ênfase preservado só na literal.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'nós escrevemos estas coisas'",
+          "motivo": "reproduz a ênfase, mas sem um contraste explícito no texto português soa como estilo deslocado, não reforço natural"
+        }
+      ]
+    },
+    {
+      "questao": "ᾖ πεπληρωμένη (perífrase perfeita subjuntiva: 'esteja/seja cumprida'): glosa no publicado",
+      "escolha": "'seja completa'",
+      "justificativa": "'Completa' é mais natural em pt-BR contemporâneo do que 'cumprida/preenchida' para χαρὰ πεπληρωμένη, sem perda de sentido (alegria plena/perfeita).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'esteja cumprida'",
+          "motivo": "mais próximo do verbo πληρόω, mas soa menos natural para 'alegria' em português corrente; reservado à literal"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Declaração de propósito do autor ao escrever: a comunhão testemunhada gera alegria completa, encerrando a introdução (1:1-4).",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

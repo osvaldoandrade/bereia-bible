@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "1John.5.1",
+    "livro": "1 João",
+    "capitulo": 5,
+    "versiculo": 1,
+    "pericope": "1John.5.1-21"
+  },
+  "texto_bv": "Todo aquele que crê que Jesus é o Cristo nasceu de Deus, e todo aquele que ama quem gerou ama também quem nasceu dele.",
+  "traducao_literal": "Todo o que crê que Jesus é o Cristo, de Deus foi gerado; e todo o que ama o que gerou ama o que foi gerado dele.",
+  "termos_originais": [
+    {
+      "palavra": "Πᾶς",
+      "lemma": "πᾶς",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "πιστεύων",
+      "lemma": "πιστεύω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "ὅτι",
+      "lemma": "ὅτι",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Ἰησοῦς",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Χριστὸς",
+      "lemma": "Χριστός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ἐκ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τοῦ",
+      "lemma": "ὁ",
+      "morfologia": "T-GSM"
+    },
+    {
+      "palavra": "Θεοῦ",
+      "lemma": "θεός",
+      "morfologia": "N-GSM"
+    },
+    {
+      "palavra": "γεγέννηται",
+      "lemma": "γεννάω",
+      "morfologia": "V-RPI-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πᾶς",
+      "lemma": "πᾶς",
+      "morfologia": "A-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "ἀγαπῶν",
+      "lemma": "ἀγαπάω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "γεννήσαντα",
+      "lemma": "γεννάω",
+      "morfologia": "V-AAP-ASM"
+    },
+    {
+      "palavra": "ἀγαπᾷ",
+      "lemma": "ἀγαπάω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "τὸν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASM"
+    },
+    {
+      "palavra": "γεγεννημένον",
+      "lemma": "γεννάω",
+      "morfologia": "V-RPP-ASM"
+    },
+    {
+      "palavra": "ἐξ",
+      "lemma": "ἐκ",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτοῦ",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de γεννάω (γεγέννηται/γεννήσαντα/γεγεννημένον) na mesma sentença",
+      "escolha": "Variar 'nasceu de Deus' (idioma teológico consolidado da regeneração) e 'gerou/foi gerado' (relação pai-filho na segunda oração), preservando a raiz única na traducao_literal",
+      "justificativa": "γεννάω cobre tanto 'gerar' (voz ativa, o Pai) quanto 'nascer/ser gerado' (voz passiva, o crente); a segunda oração repete o mesmo verbo para a relação pai-filho e pede consistência de raiz",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'foi gerado de Deus' uniforme nas três ocorrências",
+          "motivo": "soa artificial em português, quebra o idiomatismo consolidado 'nascer de Deus'"
+        },
+        {
+          "opcao": "'nasceu' nas três ocorrências, inclusive para o Pai",
+          "motivo": "o Pai não 'nasce', gera; perderia a distinção ativa/passiva do grego"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "aquele (2x, para substantivar o particípio articular grego)"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "πᾶς ὁ + particípio é construção substantivada regular ('todo aquele que...'); ἐκ τοῦ Θεοῦ marca origem/fonte. A oração final repete a raiz γεννάω para ligar a fé cristológica ao amor fraternal como sinal do novo nascimento.",
+  "confianca": 0.76,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
