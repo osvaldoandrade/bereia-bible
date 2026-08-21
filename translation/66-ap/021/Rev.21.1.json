@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rev.21.1",
+    "livro": "Apocalipse",
+    "capitulo": 21,
+    "versiculo": 1,
+    "pericope": "Rev.21.1-27"
+  },
+  "texto_bv": "E vi um novo céu e uma nova terra, pois o primeiro céu e a primeira terra já passaram, e o mar já não existe.",
+  "traducao_literal": "E vi céu novo e terra nova; pois o primeiro céu e a primeira terra passaram, e o mar não é mais.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "εἶδον",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AAI-1S"
+    },
+    {
+      "palavra": "οὐρανὸν",
+      "lemma": "οὐρανός",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "καινὸν",
+      "lemma": "καινός",
+      "morfologia": "A-ASM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "γῆν",
+      "lemma": "γῆ",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "καινήν",
+      "lemma": "καινός",
+      "morfologia": "A-ASF"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "πρῶτος",
+      "lemma": "πρῶτος",
+      "morfologia": "A-NSM-S"
+    },
+    {
+      "palavra": "οὐρανὸς",
+      "lemma": "οὐρανός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "πρώτη",
+      "lemma": "πρῶτος",
+      "morfologia": "A-NSF-S"
+    },
+    {
+      "palavra": "γῆ",
+      "lemma": "γῆ",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "ἀπῆλθαν",
+      "lemma": "ἀπέρχομαι",
+      "morfologia": "V-2AAI-3P"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἡ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSF"
+    },
+    {
+      "palavra": "θάλασσα",
+      "lemma": "θάλασσα",
+      "morfologia": "N-NSF"
+    },
+    {
+      "palavra": "οὐκ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "ἔστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ἔτι",
+      "lemma": "ἔτι",
+      "morfologia": "ADV"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Tradução de οὐρανός/γῆ anartros com καινός",
+      "escolha": "\"um novo céu e uma nova terra\" — artigo indefinido suprido e adjetivo anteposto no publicado",
+      "justificativa": "O grego é anartros (οὐρανὸν καινόν); o pt-BR pede artigo indefinido e a ordem adjetivo-nome soa natural; a literal preserva a ordem pós-posta e a ausência de artigo (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"novo céu e nova terra\" sem artigos",
+          "motivo": "soaria telegráfico e perderia a indefinição do anartros no registro publicado"
+        },
+        {
+          "opcao": "\"céu novo e terra nova\"",
+          "motivo": "aceitável, mas a ordem com artigo é mais idiomática; fica na camada literal"
+        }
+      ]
+    },
+    {
+      "questao": "Verbo ἔστιν presente em οὐκ ἔστιν ἔτι",
+      "escolha": "\"o mar já não existe\" (presente)",
+      "justificativa": "O presente εἰμί descreve o estado vigente da visão; nivelar ao passado dos verbos anteriores apagaria o tempo do original.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"o mar já não havia\"",
+          "motivo": "converte presente em imperfeito sem base sintática"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "um",
+    "uma"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "καί inicial vertido \"E\" por retomar a linha de visões (ER-0013.1); γάρ causal → \"pois\"; S-V uniforme (ER-0011). Sem variantes_fonte no packet.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

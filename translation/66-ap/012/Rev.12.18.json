@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rev.12.18",
+    "livro": "Apocalipse",
+    "capitulo": 12,
+    "versiculo": 18,
+    "pericope": "Rev.12.1-18"
+  },
+  "texto_bv": "E ele ficou de pé sobre a areia do mar.",
+  "traducao_literal": "E ficou de pé sobre a areia do mar.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐστάθη",
+      "lemma": "ἵστημι",
+      "morfologia": "V-API-3S"
+    },
+    {
+      "palavra": "ἐπὶ",
+      "lemma": "ἐπί",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "τὴν",
+      "lemma": "ὁ",
+      "morfologia": "T-ASF"
+    },
+    {
+      "palavra": "ἄμμον",
+      "lemma": "ἄμμος",
+      "morfologia": "N-ASF"
+    },
+    {
+      "palavra": "τῆς",
+      "lemma": "ὁ",
+      "morfologia": "T-GSF"
+    },
+    {
+      "palavra": "θαλάσσης",
+      "lemma": "θάλασσα",
+      "morfologia": "N-GSF"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Numeração da fonte: esta cláusula corresponde ao que edições críticas modernas atribuem a Rev 13:1a.",
+      "escolha": "Manter como Rev.12.18 conforme a fonte pinada nestle1904 (referencia_fonte: nestle1904@713f28a3, ADR-0003/ER-0018); sem renumeração nem fusão.",
+      "justificativa": "A autoridade textual pinada governa a numeração (MORFOLOGIA-NESTLE1904 regra 6); a divisão reflete a tradição de versificação mais antiga adotada por Nestle 1904.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "transferir a cláusula para 13:1",
+          "motivo": "violaria a numeração da fonte pinada"
+        }
+      ]
+    },
+    {
+      "questao": "ἐστάθη (ἵστημι, aoristo passivo).",
+      "escolha": "'ficou de pé'.",
+      "justificativa": "Aoristo ingressivo de ἵστημι (assumir posição de pé); coerente com a família no capítulo (v. 4: ἕστηκεν estativo → 'estava parado').",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'parou'",
+          "motivo": "pode sugerir cessação de movimento, não assunção de posição"
+        },
+        {
+          "opcao": "'colocou-se'",
+          "motivo": "aceitável, porém menos preciso para ἵστημι"
+        }
+      ]
+    },
+    {
+      "questao": "Sujeito implícito (o dragão, retomado do v. 17).",
+      "escolha": "Suprido 'ele' para clareza e TTS na fronteira de versículo.",
+      "justificativa": "O verbo grego não traz sujeito expresso; o antecedente é o dragão do v. 17 (EDITORIAL §4; §1.3).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "manter sujeito oculto",
+          "motivo": "ambiguidade de referência na fronteira de versículo para leitura em voz alta"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "ele"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Verso de cláusula única, continuação sentencial do v. 17 (a fonte marca o fim do v. 17 com ponto sublinear ·). ἐπὶ + acusativo → 'sobre'. ἄμμος → 'areia'; θάλασσα → 'mar' (consistente com o v. 12). Sem aparato de variantes no packet.",
+  "confianca": 0.75,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

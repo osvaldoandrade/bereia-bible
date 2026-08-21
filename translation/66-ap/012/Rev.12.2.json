@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rev.12.2",
+    "livro": "Apocalipse",
+    "capitulo": 12,
+    "versiculo": 2,
+    "pericope": "Rev.12.1-18"
+  },
+  "texto_bv": "Ela estava grávida e gritava, sofrendo dores de parto e atormentada para dar à luz.",
+  "traducao_literal": "E tendo no ventre, e grita, sentindo dores de parto e sendo atormentada para dar à luz.",
+  "termos_originais": [
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "γαστρὶ",
+      "lemma": "γαστήρ",
+      "morfologia": "N-DSF"
+    },
+    {
+      "palavra": "ἔχουσα",
+      "lemma": "ἔχω",
+      "morfologia": "V-PAP-NSF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "κράζει",
+      "lemma": "κράζω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ὠδίνουσα",
+      "lemma": "ὠδίνω",
+      "morfologia": "V-PAP-NSF"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "βασανιζομένη",
+      "lemma": "βασανίζω",
+      "morfologia": "V-PEP-NSF"
+    },
+    {
+      "palavra": "τεκεῖν",
+      "lemma": "τίκτω",
+      "morfologia": "V-2AAN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Presentes descritivos (particípio ἐν γαστρὶ ἔχουσα; κράζει presente indicativo).",
+      "escolha": "Imperfeito no publicado ('estava grávida e gritava'); a literal preserva o presente ('tendo no ventre, e grita').",
+      "justificativa": "Descrição de cena dentro de narrativa em tempo passado; o imperfeito português expressa a duratividade dos presentes gregos; a literal mantém o presente para auditoria (ER-0013).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "presente histórico ('está grávida e grita')",
+          "motivo": "marcado e pouco natural em narrativa portuguesa contemporânea"
+        },
+        {
+          "opcao": "pretérito perfeito ('gritou')",
+          "motivo": "perde o aspecto durativo/in progress codificado pelos presentes"
+        }
+      ]
+    },
+    {
+      "questao": "Idioma ἐν γαστρὶ ἔχουσα, sem objeto expresso.",
+      "escolha": "'estava grávida' (idioma português consolidado); a literal preserva 'tendo no ventre'.",
+      "justificativa": "A fórmula grega não explicita objeto; o idioma português corresponde sem suprir 'filho' (EDITORIAL §4).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'tinha um filho no ventre'",
+          "motivo": "supriria objeto ausente do grego"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "estava"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Continuação da descrição da mulher (v. 1); καὶ inicial não vertido (mera continuidade descritiva, ER-0013). ὠδίνουσα → 'sofrendo dores de parto' (particípio presente ativo). βασανιζομένη mantida como passiva 'atormentada' (morph V-PEP × func_morph V-PPP é distinção efetiva/passiva sem impacto semântico). τεκεῖν final → 'para dar à luz'.",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

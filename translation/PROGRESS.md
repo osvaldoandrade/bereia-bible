@@ -2,7 +2,7 @@
 
 Rastreador por capítulo (ADR-0002/0003).
 Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904 pinados.
-**Total Bíblia sourced: 30944/31155 versículos.**
+**Total Bíblia sourced: 31155/31155 versículos.**
 
 
 ## Gênesis — 1533/1533 versículos (100.0%), 50 capítulos
@@ -1497,7 +1497,7 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 |---|---|---|
 | 1 | 25 | ● 25/25 [DRAFT] |
 
-## Apocalipse — 194/405 versículos (47.9%), 22 capítulos
+## Apocalipse — 405/405 versículos (100.0%), 22 capítulos
 
 | Cap | Vers | Estado |
 |---|---|---|
@@ -1512,15 +1512,15 @@ Regenerar: `python3 scripts/progress.py`. Fontes de contagem: OSHB e Nestle 1904
 | 9 | 21 | ● 21/21 [DRAFT] |
 | 10 | 11 | ● 11/11 [DRAFT] |
 | 11 | 19 | ● 19/19 [DRAFT] |
-| 12 | 18 | · pendente |
-| 13 | 18 | · pendente |
-| 14 | 20 | · pendente |
-| 15 | 8 | · pendente |
-| 16 | 21 | · pendente |
-| 17 | 18 | · pendente |
-| 18 | 24 | · pendente |
-| 19 | 21 | · pendente |
-| 20 | 15 | · pendente |
-| 21 | 27 | · pendente |
-| 22 | 21 | · pendente |
+| 12 | 18 | ● 18/18 [DRAFT] |
+| 13 | 18 | ● 18/18 [DRAFT] |
+| 14 | 20 | ● 20/20 [DRAFT] |
+| 15 | 8 | ● 8/8 [DRAFT] |
+| 16 | 21 | ● 21/21 [DRAFT] |
+| 17 | 18 | ● 18/18 [DRAFT] |
+| 18 | 24 | ● 24/24 [DRAFT] |
+| 19 | 21 | ● 21/21 [DRAFT] |
+| 20 | 15 | ● 15/15 [DRAFT] |
+| 21 | 27 | ● 27/27 [DRAFT] |
+| 22 | 21 | ● 21/21 [DRAFT] |
 

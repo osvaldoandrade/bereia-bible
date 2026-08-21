@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rev.21.22",
+    "livro": "Apocalipse",
+    "capitulo": 21,
+    "versiculo": 22,
+    "pericope": "Rev.21.1-27"
+  },
+  "texto_bv": "E não vi nela templo algum, pois o Senhor Deus Todo-Poderoso é o seu templo, e também o Cordeiro.",
+  "traducao_literal": "E não vi templo nela; pois o Senhor, o Deus, o Todo-Poderoso, é o templo dela, e o Cordeiro.",
+  "termos_originais": [
+    {
+      "palavra": "Καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "ναὸν",
+      "lemma": "ναός",
+      "morfologia": "N-ASM"
+    },
+    {
+      "palavra": "οὐκ",
+      "lemma": "οὐ",
+      "morfologia": "PRT-N"
+    },
+    {
+      "palavra": "εἶδον",
+      "lemma": "ὁράω",
+      "morfologia": "V-2AAI-1S"
+    },
+    {
+      "palavra": "ἐν",
+      "lemma": "ἐν",
+      "morfologia": "PREP"
+    },
+    {
+      "palavra": "αὐτῇ",
+      "lemma": "αὐτός",
+      "morfologia": "P-DSF"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "γὰρ",
+      "lemma": "γάρ",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "Κύριος",
+      "lemma": "κύριος",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Θεὸς",
+      "lemma": "θεός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "Παντοκράτωρ",
+      "lemma": "παντοκράτωρ",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "ναὸς",
+      "lemma": "ναός",
+      "morfologia": "N-NSM"
+    },
+    {
+      "palavra": "αὐτῆς",
+      "lemma": "αὐτός",
+      "morfologia": "P-GSF"
+    },
+    {
+      "palavra": "ἐστιν",
+      "lemma": "εἰμί",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "καὶ",
+      "lemma": "καί",
+      "morfologia": "CONJ"
+    },
+    {
+      "palavra": "τὸ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSN"
+    },
+    {
+      "palavra": "Ἀρνίον",
+      "lemma": "ἀρνίον",
+      "morfologia": "N-NSN"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "ναός e o triplo título ὁ Κύριος ὁ Θεὸς ὁ Παντοκράτωρ",
+      "escolha": "ναός → \"templo\"; \"o Senhor Deus Todo-Poderoso\" (ER-0002)",
+      "justificativa": "ναός é o santuário/naós (não ἱερόν, o complexo); κύριος → Senhor e θεός → Deus conforme política de nomes divinos (NT); παντοκράτωρ → Todo-Poderoso, glosa consolidada.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"santuário\"",
+          "motivo": "possível, mas \"templo\" é a glosa padrão para ναός em Ap"
+        },
+        {
+          "opcao": "\"Dominador de tudo\" para Παντοκράτωρ",
+          "motivo": "literalismo sem tradição; a convenção pt-BR é Todo-Poderoso"
+        }
+      ]
+    },
+    {
+      "questao": "καὶ τὸ Ἀρνίον coordenado ao sujeito",
+      "escolha": "\"e também o Cordeiro\"",
+      "justificativa": "τὸ Ἀρνίον é segundo sujeito de ἐστιν (o Cordeiro também é o templo); \"também\" suprido para explicitar a coordenação predicativa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"e o Cordeiro\" sem \"também\"",
+          "motivo": "aceitável (fica na literal), mas no publicado a ambiguidade de leitura isolada cresce"
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [
+    "também"
+  ],
+  "ambiguidades_preservadas": [],
+  "justificativa": "ναὸν οὐκ εἶδον ἐν αὐτῇ com objeto frontado → \"não vi nela templo algum\"; γάρ causal → \"pois\"; αὐτῆς → \"seu\" (da cidade). Sem variantes_fonte no packet.",
+  "confianca": 0.8,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}

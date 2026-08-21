@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.1.0",
+  "referencia": {
+    "osis": "Rev.22.20",
+    "livro": "Apocalipse",
+    "capitulo": 22,
+    "versiculo": 20,
+    "pericope": "Rev.22.1-21"
+  },
+  "texto_bv": "Aquele que testemunha estas coisas diz: “Sim, venho depressa.” Amém! Vem, Senhor Jesus.",
+  "traducao_literal": "Diz o que testemunha estas coisas: Sim, venho depressa. Amém, vem, Senhor Jesus.",
+  "termos_originais": [
+    {
+      "palavra": "Λέγει",
+      "lemma": "λέγω",
+      "morfologia": "V-PAI-3S"
+    },
+    {
+      "palavra": "ὁ",
+      "lemma": "ὁ",
+      "morfologia": "T-NSM"
+    },
+    {
+      "palavra": "μαρτυρῶν",
+      "lemma": "μαρτυρέω",
+      "morfologia": "V-PAP-NSM"
+    },
+    {
+      "palavra": "ταῦτα",
+      "lemma": "οὗτος",
+      "morfologia": "D-APN"
+    },
+    {
+      "palavra": "Ναί",
+      "lemma": "ναί",
+      "morfologia": "PRT"
+    },
+    {
+      "palavra": "ἔρχομαι",
+      "lemma": "ἔρχομαι",
+      "morfologia": "V-PNI-1S"
+    },
+    {
+      "palavra": "ταχύ",
+      "lemma": "ταχύς",
+      "morfologia": "ADV"
+    },
+    {
+      "palavra": "Ἀμήν",
+      "lemma": "ἀμήν",
+      "morfologia": "HEB"
+    },
+    {
+      "palavra": "ἔρχου",
+      "lemma": "ἔρχομαι",
+      "morfologia": "V-PNM-2S"
+    },
+    {
+      "palavra": "Κύριε",
+      "lemma": "κύριος",
+      "morfologia": "N-VSM"
+    },
+    {
+      "palavra": "Ἰησοῦ",
+      "lemma": "Ἰησοῦς",
+      "morfologia": "N-VSM"
+    }
+  ],
+  "variantes_textuais": [],
+  "decisoes": [
+    {
+      "questao": "Ναί",
+      "escolha": "'Sim'",
+      "justificativa": "Partícula afirmativa padrão; marca a solenidade da promessa.",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Certamente'",
+          "motivo": "Adiciona matiz de certeza não codificado na partícula."
+        }
+      ]
+    },
+    {
+      "questao": "Ἀμήν (morfologia HEB na fonte)",
+      "escolha": "Transliterar 'Amém'",
+      "justificativa": "Palavra hebraica/aramaica consolidada na tradição pt; não traduzida (EDITORIAL §8, grafia corrente).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Assim seja'",
+          "motivo": "Tradução interpretativa que apaga a palavra litúrgica do original."
+        }
+      ]
+    },
+    {
+      "questao": "ἔρχου Κύριε Ἰησοῦ (vocativo, imperativo 2ª singular)",
+      "escolha": "'Vem, Senhor Jesus' (registro tu de oração)",
+      "justificativa": "D-0003: oração dirigida a Deus usa tu; imperativo 'vem' e vocativo 'Senhor' para κύριος (ER-0002).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Venha, Senhor Jesus'",
+          "motivo": "Forma de você inadequada ao registro de oração."
+        }
+      ]
+    },
+    {
+      "questao": "Resposta do vidente (Ἀμήν...) sem verbo de fala",
+      "escolha": "Sem aspas na segunda parte",
+      "justificativa": "Política uniforme: aspas apenas com verbo de fala explícito (Λέγει marca a primeira parte).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Aspas em 'Amém! Vem, Senhor Jesus'",
+          "motivo": "O grego não marca a troca de locutor."
+        }
+      ]
+    }
+  ],
+  "palavras_supridas": [],
+  "ambiguidades_preservadas": [],
+  "justificativa": "Λέγει ὁ μαρτυρῶν ταῦτα → 'Aquele que testemunha estas coisas diz' (ordem S-V no publicado, ER-0011). ταχύ → 'depressa' consistente (vv.7,12).",
+  "confianca": 0.78,
+  "status": "DRAFT",
+  "ciclos_consenso": 1,
+  "objecoes_nao_resolvidas": [],
+  "fontes": {
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.1.0",
+    "regras_versao": "1.1.0",
+    "lexico_versao": "0.6.1",
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "nestle1904@713f28a3"
+  }
+}
