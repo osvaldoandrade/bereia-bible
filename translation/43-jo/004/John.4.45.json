@@ -7,7 +7,7 @@
     "versiculo": 45,
     "pericope": "John.4.1-54"
   },
-  "texto_bv": "Quando, então, ele chegou à Galileia, os galileus o receberam, pois tinham visto tudo o que ele fizera em Jerusalém na festa; pois eles também tinham ido à festa.",
+  "texto_bv": "Quando, então, ele chegou à Galileia, os galileus o receberam, porque tinham visto tudo o que ele tinha feito em Jerusalém na festa; pois eles também tinham ido à festa.",
   "traducao_literal": "Quando, pois, veio para a Galileia, receberam-no os galileus, tudo tendo visto quanto fez em Jerusalém na festa; pois também eles foram à festa.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fizera → tinha feito | pois tinham visto → porque tinham visto",
+      "justificativa": "Arcaísmo vedado por EDITORIAL §1.2 — mais-que-perfeito sintético normalizado para a forma composta. | Repetição estilística de “pois” na mesma frase (duas ocorrências separadas por ponto-e-vírgula); primeira instância substituída por “porque” para fluidez na leitura em voz alta (EDITORIAL §1.3). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "ἑορτή, 'festa', referência à Páscoa mencionada em Jo 2:13,23 (contexto anterior do evangelho).",
@@ -152,10 +160,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "nestle1904@713f28a3"
   }
 }

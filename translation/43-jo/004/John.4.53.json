@@ -7,7 +7,7 @@
     "versiculo": 53,
     "pericope": "John.4.1-54"
   },
-  "texto_bv": "O pai reconheceu, então, que fora exatamente naquela hora em que Jesus lhe tinha dito: “O seu filho vive”; e creu ele, e toda a sua casa.",
+  "texto_bv": "O pai reconheceu, então, que foi exatamente naquela hora em que Jesus lhe tinha dito: “O seu filho vive”; e creu ele, e toda a sua casa.",
   "traducao_literal": "Soube, pois, o pai que naquela hora, na qual lhe disse Jesus: O filho de ti vive; e creu ele e a casa dele toda.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fora → foi",
+      "justificativa": "Arcaísmo vedado por EDITORIAL §1.2 — mais-que-perfeito sintético de “ser” (não flagrado pelo ARC-1 por homografia com a preposição “fora”); normalizado para pretérito perfeito, anterioridade clara pelo contexto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "οἰκία, 'casa', inclui toda a família e dependentes/servos, num padrão de conversão familiar coletiva (cf. At 16:31-34).",
@@ -152,10 +160,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "nestle1904@713f28a3"
   }
 }
