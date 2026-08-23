@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Jer.29.1-32"
   },
-  "texto_bv": "e eu serei achado por vocês\" — diz o SENHOR — \"e restaurarei a sorte de vocês, e ajuntarei vocês de todas as nações e de todos os lugares para onde eu tinha expulsado vocês\" — diz o SENHOR — \"e farei vocês voltarem ao lugar de onde eu exilei vocês.",
+  "texto_bv": "e eu serei achado por vocês\" — diz o SENHOR — \"e restaurarei a sorte de vocês, e ajuntarei vocês de todas as nações e de todos os lugares para onde eu tinha expulsado vocês\" — diz o SENHOR. \"E farei vocês voltarem ao lugar de onde eu exilei vocês.",
   "traducao_literal": "e serei achado por vós — oráculo de YHWH — e farei voltar o cativeiro de vós [grafia crua no packet: שביתכם, sem pontuação], e ajuntarei a vós de todas as nações e de todos os lugares para onde vos expulsei — oráculo de YHWH — e farei voltar a vós ao lugar de onde exilei a vós dali.",
   "termos_originais": [
     {
@@ -174,6 +174,13 @@
           "motivo": "restringe o idioma ao sentido concreto de repatriação, quando o idioma bíblico cobre também a restauração geral de bem-estar"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "expulsado vocês\" — diz o SENHOR — \"e farei → expulsado vocês\" — diz o SENHOR. \"E farei",
+      "justificativa": "Divisão de sentença longa (47→36+11 palavras) na segunda intercalação 'diz o SENHOR'; preservadas as repetições formulaicas de 'vocês' fiéis ao sufixo -kem do original (§1.3) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -187,10 +194,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

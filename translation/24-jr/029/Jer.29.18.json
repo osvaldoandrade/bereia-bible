@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Jer.29.1-32"
   },
-  "texto_bv": "E eu os perseguirei com a espada, a fome e a peste, e farei deles um pavor para todos os reinos da terra: uma maldição, um espanto, um assobio de escárnio e um opróbrio entre todas as nações para onde eu os expulsei,",
+  "texto_bv": "Eu os perseguirei com a espada, a fome e a peste. Farei deles um pavor para todos os reinos da terra: uma maldição, um espanto, um assobio de escárnio e um opróbrio entre todas as nações para onde eu os expulsei,",
   "traducao_literal": "E perseguirei atrás deles com a espada, com a fome e com a peste, e os farei para [grafia crua no packet: לזועה] pavor, para todos os reinos da terra, para maldição, e para espanto, e para assobio, e para opróbrio, entre todas as nações para onde os expulsei ali.",
   "termos_originais": [
     {
@@ -134,6 +134,13 @@
           "motivo": "perde a estrutura formular reconhecível, recorrente em pelo menos três passagens do livro"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E eu os perseguirei com a espada, a fome e a peste, e farei deles → Eu os perseguirei com a espada, a fome e a peste. Farei deles",
+      "justificativa": "Divisão de sentença longa (43→12+31 palavras) em duas; remoção de waw inicial desnecessário à sequência discursiva (§1.3, ER-0013) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -145,10 +152,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
