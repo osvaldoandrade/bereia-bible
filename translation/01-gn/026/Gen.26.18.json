@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Gen.26.1-35"
   },
-  "texto_bv": "E Isaque tornou a cavar os poços de água que se haviam cavado nos dias de Abraão, seu pai (pois os filisteus os haviam entulhado depois da morte de Abraão); e chamou-lhes os nomes que seu pai lhes chamara.",
+  "texto_bv": "E Isaque tornou a cavar os poços de água que se haviam cavado nos dias de Abraão, seu pai (pois os filisteus os haviam entulhado depois da morte de Abraão); e chamou-lhes os nomes que seu pai lhes havia dado.",
   "traducao_literal": "E voltou Isaque e cavou os poços de água que cavaram nos dias de Abraão, seu pai, e entulharam-nos os filisteus depois da morte de Abraão; e chamou-lhes nomes conforme os nomes que lhes chamou seu pai.",
   "termos_originais": [
     {
@@ -132,7 +132,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e chamou-lhes os nomes que seu pai lhes chamara. → e chamou-lhes os nomes que seu pai lhes havia dado.",
+      "justificativa": "PRO-1: substituição de ‘chamara’ (repetição verbal próxima e forma menos usual) por ‘havia dado’ para clareza referencial e variedade léxica; antecedente de ‘lhes’ inequívoco (os poços) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Isaque restaura a herança do pai — continuidade da linha e dos direitos.",
@@ -142,10 +150,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

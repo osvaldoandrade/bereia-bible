@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Gen.26.1-35"
   },
-  "texto_bv": "Então chamou Abimeleque a Isaque, e disse: “Eis que ela é tua mulher; como, pois, disseste: ‘É minha irmã’?” E Isaque disse-lhe: “Porque eu dizia: para que eu não morra por causa dela.”",
+  "texto_bv": "Então Abimeleque chamou Isaque e disse: “Eis que ela é tua mulher; como, pois, disseste: ‘É minha irmã’?” E Isaque lhe disse: “Porque eu dizia: para que eu não morra por causa dela.”",
   "traducao_literal": "E chamou Abimeleque a Isaque, e disse: “Somente, eis tua mulher ela; e como disseste ‘minha irmã ela’?” E disse-lhe Isaque: “Porque disse: para que eu não morra por causa dela.”",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então chamou Abimeleque a Isaque, e disse: → Então Abimeleque chamou Isaque e disse: | E Isaque disse-lhe: → E Isaque lhe disse:",
+      "justificativa": "RED-1: remoção de artigo preposicional desnecessário antes de nome próprio em posição de objeto (a Isaque → Isaque); ordem S-V uniforme (ER-0011) | RED-1: ênclise deslocada para próclise após conjunção coordenativa, registro formal-neutro contemporâneo (§1.2) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Tradução DRAFT do capítulo (ADR-0002).",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
