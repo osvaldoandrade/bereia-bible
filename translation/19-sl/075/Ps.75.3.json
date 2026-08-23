@@ -76,13 +76,15 @@
   "confianca": 0.75,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): A BV verte כִּי (ki, partícula causal) como “Quando” (temporal), reinterpretando a frase como oração temporal. O original declara causa: “Pois tomarei o tempo determinado” — não “Quando eu o tomar”. A correção para “Pois” ou “Porque” restauraria o nexo causal, mas o restante da frase (“eu tomar o tempo determinado”) foi construído em torno da leitura temporal, de modo que a substituição isolada do nexo não basta sem reescrever a oração subordinada. — evidência: traducao_literal: “Porque tomarei tempo-determinado”; BV: “Quando eu tomar o tempo determinado”. A partícula כִּי em contexto declarativo é causal; a leitura temporal exige que o verbo subsequente seja reinterpretado, o que ultrapassa correção de forma."
+  ],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

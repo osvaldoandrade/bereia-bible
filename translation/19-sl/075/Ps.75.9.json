@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Ps.75.1-11"
   },
-  "texto_bv": "Pois há um cálice na mão do SENHOR, com vinho fermentado, cheio de mistura; ele o derrama, e até as borras dele todos os ímpios da terra sorverão e beberão.",
+  "texto_bv": "Pois há um cálice na mão do SENHOR, com vinho fermentado, cheio de mistura. Ele o derrama, e até as borras dele todos os ímpios da terra sorverão e beberão.",
   "traducao_literal": "Porque cálice na-mão-de-SENHOR; e-vinho fermentado, cheio [de] mistura; e-derramou dele; certamente borras-dela sorverão, beberão, todos ímpios-de-terra.",
   "termos_originais": [
     {
@@ -125,6 +125,13 @@
       "escolha": "SENHOR (caixa alta), conforme ER-0002/NOMES-DIVINOS.md",
       "justificativa": "Tetragrama YHWH; política vinculante da BV.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele o derrama, e até → Ele o derrama, e até",
+      "justificativa": "Frase com 30 palavras (> 40 do §1.3 não se aplica aqui, mas a estrutura com duas orações independentes longas sobrecarrega a leitura; a segmentação por ponto final após “mistura” cria duas frases de 14 e 16 palavras, mais confortáveis em voz alta. O par verbal formular “sorverão e beberão” — repetição intencional do original — é preservado. EDITORIAL §1.3. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -138,10 +145,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
