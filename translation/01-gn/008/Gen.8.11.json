@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Gen.8.1-22"
   },
-  "texto_bv": "E a pomba voltou a ele à tardinha, e eis que trazia no bico uma folha de oliveira recém-colhida; assim conheceu Noé que as águas tinham diminuído sobre a terra.",
+  "texto_bv": "E a pomba voltou a ele à tardinha, e trazia no bico uma folha de oliveira recém-colhida; assim conheceu Noé que as águas tinham diminuído sobre a terra.",
   "traducao_literal": "E veio a ele a pomba ao tempo da tarde, e eis uma folha de oliveira arrancada no seu bico; e soube Noé que tinham diminuído as águas de sobre a terra.",
   "termos_originais": [
     {
@@ -97,7 +97,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e eis que trazia no bico → e trazia no bico",
+      "justificativa": "Remoção do calque “eis que” (CAL-2, ER-0013): o הִנֵּה hebraico apresenta aqui informação nova sem força dêitica que justifique a manutenção em pt-BR contemporâneo; o verbo “trazia” expressa a descoberta sem o marcador artificial. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "עֲלֵה־זַיִת 'folha de oliveira' — sinal de vida renovada (símbolo posterior de paz).",
@@ -107,10 +115,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
