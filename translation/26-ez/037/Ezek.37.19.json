@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Ezek.37.1-28"
   },
-  "texto_bv": "\"diga a eles: Assim diz o Senhor DEUS: Eis que tomarei a vara de José, que está na mão de Efraim, e as tribos de Israel, suas companheiras, e as unirei a ela — à vara de Judá — e farei delas uma só vara, e elas serão uma só na minha mão.\"",
+  "texto_bv": "\"diga a eles: Assim diz o Senhor DEUS: Eis que tomarei a vara de José, que está na mão de Efraim, e as tribos de Israel, suas companheiras, e as unirei a ela — à vara de Judá. Farei delas uma só vara, e elas serão uma só na minha mão.\"",
   "traducao_literal": "dirás a eles: assim disse Senhor DEUS: eis eu tomando a madeira de José, que na mão de Efraim, e as tribos de Israel, companheiro dele; e darei elas sobre ela, com a madeira de Judá, e farei elas para madeira uma, e serão uma na minha mão.",
   "termos_originais": [
     {
@@ -173,6 +173,13 @@
           "motivo": "lema pinado (854) e sintaxe (já há objeto direto 'אוֹתָם') indicam preposição, não marcador acusativo"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"diga a eles: Assim diz o Senhor DEUS: Eis que tomarei a vara de José, que está na mão de Efraim, e as tribos de Israel, suas companheiras, e as unirei a ela — à vara de Judá — e farei delas uma só vara, e elas serão uma só na minha mão.\" → \"diga a eles: Assim diz o Senhor DEUS: Eis que tomarei a vara de José, que está na mão de Efraim, e as tribos de Israel, suas companheiras, e as unirei a ela — à vara de Judá. Farei delas uma só vara, e elas serão uma só na minha mão.\"",
+      "justificativa": "LEN-1 (51 palavras): dividido em duas sentencas apos 'a vara de Juda'. Referencias pronominais inequivocas: 'as' retoma a vara e as tribos; 'delas' retoma o conjunto unido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -184,10 +191,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
