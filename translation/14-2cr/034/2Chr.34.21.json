@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "2Chr.34.1-33"
   },
-  "texto_bv": "“Vão e consultem o SENHOR por mim e pelo remanescente em Israel e em Judá acerca das palavras do livro encontrado, pois grande é a ira do SENHOR que se derramou sobre nós, porque nossos pais não guardaram a palavra do SENHOR nem fizeram conforme tudo o que está escrito neste livro.”",
+  "texto_bv": "“Vão e consultem o SENHOR por mim e pelo remanescente em Israel e em Judá acerca das palavras do livro encontrado, pois grande é a ira do SENHOR que se derramou sobre nós. Nossos pais não guardaram a palavra do SENHOR nem fizeram conforme tudo o que está escrito neste livro.”",
   "traducao_literal": "“Vão, busquem o SENHOR por mim e pelo que restou em Israel e em Judá, acerca das palavras do livro que foi encontrado, porque grande é a ira do SENHOR que foi derramada sobre nós, pelo fato de nossos pais não terem guardado a palavra do SENHOR, para fazer conforme tudo o que está escrito sobre este livro.”",
   "termos_originais": [
     {
@@ -198,6 +198,13 @@
           "motivo": "Condensa os lexemas שׁמר e עשׂה em um único verbo."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sobre nós, porque nossos pais → sobre nós. Nossos pais",
+      "justificativa": "Divisão de sentença longa (52 palavras, §1.3) em duas sentenças menores, sem perda de sentido — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -213,10 +220,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
