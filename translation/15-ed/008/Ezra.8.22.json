@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Ezra.8.1-36"
   },
-  "texto_bv": "Pois tive vergonha de pedir ao rei tropas e cavaleiros para nos ajudarem contra o inimigo no caminho, porque tínhamos dito ao rei: “A mão de nosso Deus está sobre todos os que o buscam, para o bem; mas seu poder e sua ira estão contra todos os que o abandonam.”",
+  "texto_bv": "Pois tive vergonha de pedir ao rei tropas e cavaleiros para nos ajudarem contra o inimigo no caminho. Tínhamos dito ao rei: “A mão de nosso Deus está sobre todos os que o buscam, para o bem; mas seu poder e sua ira estão contra todos os que o abandonam.”",
   "traducao_literal": "Pois tive vergonha de pedir do rei exército e cavaleiros para ajudar-nos do inimigo no caminho, porque dissemos ao rei: “A mão de nosso Deus [está] sobre todos os que o buscam para bem, e seu poder e sua ira sobre todos os que o abandonam.”",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
           "motivo": "Inverteria os dois grupos e o contraste."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "caminho, porque tínhamos → caminho. Tínhamos",
+      "justificativa": "LEN-1: sentença de 51 palavras dividida em duas (18 + 33); relação causal preservada por justaposição narrativa — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -165,10 +172,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
