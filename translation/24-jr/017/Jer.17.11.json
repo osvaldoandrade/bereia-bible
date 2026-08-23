@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Jer.17.1-27"
   },
-  "texto_bv": "Como a perdiz que choca ovos que não pôs, é aquele que junta riqueza sem justiça; no meio dos seus dias ela o abandonará, e no seu fim ele será um insensato.",
+  "texto_bv": "Como a perdiz que choca ovos que não pôs, é aquele que junta riqueza sem justiça; no meio dos seus dias, a riqueza o abandonará, e no seu fim ele será um insensato.",
   "traducao_literal": "Perdiz choca e-não pariu; faz riqueza e-não com-justiça; na-metade-de dias-seus abandonará-o, e-no-fim-seu será insensato.",
   "termos_originais": [
     {
@@ -99,6 +99,13 @@
       "escolha": "seguir a morfologia da fonte pinada: plural construto + sufixo 3ms ('seus dias')",
       "justificativa": "mesmo procedimento adotado em v.10 para forma análoga: a morfologia fornecida no pacote é a base da leitura.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "no meio dos seus dias ela o abandonará → no meio dos seus dias, a riqueza o abandonará",
+      "justificativa": "PRO-1: pronome \"ela\" sem antecedente inequívoco (poderia referir-se à perdiz); substituído pelo substantivo \"a riqueza\" para referência pronominal clara (§5 do prompt canônico). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -110,10 +117,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

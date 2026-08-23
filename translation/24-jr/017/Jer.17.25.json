@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Jer.17.1-27"
   },
-  "texto_bv": "então entrarão pelas portas desta cidade reis e príncipes que se sentam sobre o trono de Davi, montados em carros e em cavalos — eles e os seus príncipes, os homens de Judá e os habitantes de Jerusalém — e esta cidade será habitada para sempre.",
+  "texto_bv": "então entrarão pelas portas desta cidade reis e príncipes que se sentam sobre o trono de Davi, montados em carros e em cavalos — eles e os seus príncipes, os homens de Judá e os habitantes de Jerusalém. E esta cidade será habitada para sempre.",
   "traducao_literal": "E-entrarão nas-portas-de cidade a-esta reis e-príncipes, sentados sobre-trono-de Davi, montados no-carro e-nos-cavalos, eles e-príncipes-seus, homem-de Judá e-habitantes-de Jerusalém; e-habitará cidade-a-esta para-sempre.",
   "termos_originais": [
     {
@@ -127,7 +127,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "habitantes de Jerusalém — e esta cidade será habitada para sempre. → habitantes de Jerusalém. E esta cidade será habitada para sempre.",
+      "justificativa": "LEN-1: sentença de 44 palavras dividida em duas (33 + 8) para atender §1.3 (≤ 40 palavras); travessão substituído por ponto final, mantendo o \"E\" de continuidade discursiva. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Apódose da condicional iniciada em v.24: promessa de continuidade dinástica e da própria cidade.",
@@ -137,10 +145,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
