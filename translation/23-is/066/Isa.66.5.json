@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Isa.66.1-24"
   },
-  "texto_bv": "Ouçam a palavra do SENHOR, vocês que tremem diante da sua palavra: seus irmãos, que os odeiam e os expulsam por causa do meu nome, dizem: ‘Que o SENHOR seja glorificado, para que vejamos a alegria de vocês’; mas são eles que serão envergonhados.",
+  "texto_bv": "Ouçam a palavra do SENHOR, vocês que tremem diante da sua palavra: seus irmãos, que os odeiam e os expulsam por causa do meu nome, dizem: ‘Que o SENHOR seja glorificado, para que vejamos a alegria de vocês.’ Mas são eles que serão envergonhados.",
   "traducao_literal": "Ouvi a palavra do SENHOR, os que tremeis diante da sua palavra: disseram vossos irmãos, os que vos odeiam, os que vos excluem por causa do meu nome: 'Seja glorificado o SENHOR, para que vejamos a vossa alegria'; mas eles serão envergonhados.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
           "motivo": "menos natural sintaticamente, duplicaria a referência ao nome divino"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "de vocês’; mas são eles → de vocês.’ Mas são eles",
+      "justificativa": "Divisão de sentença longa (44 palavras, LEN-1); oração adversativa inicia período próprio após fecho de citação interna (§1.3). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -135,10 +142,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
