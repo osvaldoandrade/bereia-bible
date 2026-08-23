@@ -7,7 +7,7 @@
     "versiculo": 40,
     "pericope": "Jer.48.1-47"
   },
-  "texto_bv": "Porque assim diz o SENHOR: Eis que ele voará como a águia e estenderá as suas asas sobre Moabe.",
+  "texto_bv": "Porque assim diz o SENHOR: Voará como a águia e estenderá as suas asas sobre Moabe.",
   "traducao_literal": "Porque assim disse SENHOR eis como-a-águia voará e-estenderá asas-dele para-Moabe.",
   "termos_originais": [
     {
@@ -67,7 +67,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que ele voará como a águia → Voará como a águia",
+      "justificativa": "Normalização do calque paratático 'eis que' (ER-0013/EDITORIAL §6.2): o dêitico tem força apresentativa fraca antes da metáfora da águia; a construção 'assim diz o SENHOR' já introduz o discurso divino. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Imagem militar da águia predadora, provavelmente representando o exército invasor (cf. v.44 sobre Babilônia).",
@@ -77,10 +85,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

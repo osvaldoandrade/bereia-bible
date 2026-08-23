@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Jer.48.1-47"
   },
-  "texto_bv": "Mais do que pelo pranto de Jazer, eu choro por você, ó vinha de Sibma; os seus ramos passaram além do mar, chegaram até o mar de Jazer; sobre a sua colheita de verão e sobre a sua vindima caiu o destruidor.",
+  "texto_bv": "Mais do que pelo pranto de Jazer, eu choro por você, ó vinha de Sibma; os seus ramos passaram além do mar, chegaram até o mar de Jazer. Sobre a sua colheita de verão e sobre a sua vindima caiu o destruidor.",
   "traducao_literal": "Mais-do-que-pranto-de Jazer choro por-você vinha-de Sibma seus-ramos passaram mar até mar-de Jazer chegaram sobre-seu-fruto-de-verão e-sobre-sua-vindima destruidor caiu.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "chegaram até o mar de Jazer; sobre a sua colheita → chegaram até o mar de Jazer. Sobre a sua colheita",
+      "justificativa": "Divisão de sentença de 42 palavras (EDITORIAL §1.3/LEN-1): ponto final no limite sintático natural após 'Jazer', separando a expansão geográfica da vinha da ação do destruidor. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Lamento pela vinha de Sibma (imagem de prosperidade agrícola moabita), com segunda pessoa 'você'.",
@@ -117,10 +125,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
