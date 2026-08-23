@@ -1,5 +1,7 @@
 import importlib.util
+import json
 import pathlib
+import tempfile
 import unittest
 
 
@@ -105,6 +107,49 @@ class ValidateVerseTests(unittest.TestCase):
                 "depois": "x", "motivo": "m"}]
         v = self._verse("texto alterado", mud)
         self.assertIsNone(ship._validate_verse(v, rec))
+
+
+class RegenBlockFromRecordTests(unittest.TestCase):
+    """Last-resort salvage: a block even quote-repair cannot parse (inner
+    quote followed by a comma) is rebuilt from the record when it declares
+    SEM_ALTERACAO."""
+
+    def setUp(self):
+        self._real_root = ship.ROOT
+        self.tmp = tempfile.TemporaryDirectory()
+        ship.ROOT = self.tmp.name
+        chap = pathlib.Path(self.tmp.name) / "translation" / "05-dt" / "012"
+        chap.mkdir(parents=True)
+        self.rec_text = 'e você disser: "Quero comer carne", poderá comê-la.'
+        (chap / "Deut.12.20.json").write_text(
+            json.dumps({"status": "DRAFT", "texto_bv": self.rec_text}),
+            encoding="utf-8")
+
+    def tearDown(self):
+        ship.ROOT = self._real_root
+        self.tmp.cleanup()
+
+    def test_sem_alteracao_reconstruido_do_registro(self):
+        chunk = ('"osis": "Deut.12.20",\n'
+                 '      "texto_bv_revisto": "e você disser: "Quero comer '
+                 'carne", poderá comê-la.",\n'
+                 '      "mudancas": [],\n'
+                 '      "veredito": "SEM_ALTERACAO"\n    }')
+        v = ship.regen_block_from_record(chunk, "05-dt", 12)
+        self.assertEqual(v["texto_bv_revisto"], self.rec_text)
+        self.assertEqual(v["mudancas"], [])
+
+    def test_revisado_nao_regenerado(self):
+        chunk = '"osis": "Deut.12.20", "veredito": "REVISADO"}'
+        self.assertIsNone(ship.regen_block_from_record(chunk, "05-dt", 12))
+
+    def test_sem_veredito_nao_regenerado(self):
+        chunk = '"osis": "Deut.12.20", "texto_bv_revisto": "x"}'
+        self.assertIsNone(ship.regen_block_from_record(chunk, "05-dt", 12))
+
+    def test_sem_osis_nao_regenerado(self):
+        chunk = '"texto_bv_revisto": "x", "veredito": "SEM_ALTERACAO"}'
+        self.assertIsNone(ship.regen_block_from_record(chunk, "05-dt", 12))
 
 
 class CanonQuotesTests(unittest.TestCase):

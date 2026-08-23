@@ -198,19 +198,42 @@ def _validate_verse(v, record_text):
     return v
 
 
+def regen_block_from_record(chunk, book, chap):
+    """Last-resort salvage for a block that quote-repair cannot parse
+    (e.g. an unescaped inner quote followed by a comma — ambiguous for
+    the lookahead). If the block declares SEM_ALTERACAO, the hard guards
+    require its text to equal the record anyway, so rebuild the block
+    verbatim from the DRAFT record. Returns None for anything that could
+    carry edits (REVISADO, missing veredito) — those stay manual."""
+    m = re.search(r'"osis":\s*"([^"]+)"', chunk)
+    if not m or not re.search(r'"veredito":\s*"SEM_ALTERACAO"', chunk):
+        return None
+    osis = m.group(1)
+    rec_path = os.path.join(ROOT, "translation", book, "%03d" % chap,
+                            osis + ".json")
+    with open(rec_path, encoding="utf-8") as f:
+        rec = json.load(f)
+    if rec.get("status") != "DRAFT":
+        return None
+    return {"osis": osis, "texto_bv_revisto": rec["texto_bv"],
+            "mudancas": [], "objecoes": [], "veredito": "SEM_ALTERACAO"}
+
+
 def recover_file(path):
     """Salvage a review-out file whose verse blocks are broken by
     unescaped quotes (known agent wart). Clean blocks are kept; broken
     blocks are quote-repaired, then VERIFIED against the records:
     no-mudanca verses must equal the record text; REVISADO verses must
-    equal record text + mudancas applied. Aborts on anything it cannot
-    verify."""
+    equal record text + mudancas applied. Blocks that even quote-repair
+    cannot parse are rebuilt from the record when they declare
+    SEM_ALTERACAO (their text must equal the record anyway). Aborts on
+    anything it cannot verify."""
     raw = open(path, encoding="utf-8").read()
     head = json.loads(raw[:raw.find('"versos"')] + '"versos": []}')
     book, chap = head["book_dir"], int(head["chapter"])
     idxs = ([m.start() for m in re.finditer(r'\{\s*"osis":', raw)]
             + [raw.rfind("]")])
-    versos, kept, rebuilt = [], [], []
+    versos, kept, rebuilt, regen = [], [], [], []
     for a, b in zip(idxs[:-1], idxs[1:]):
         chunk = raw[a:b].rstrip().rstrip(",").rstrip()
         if not chunk.endswith("}"):
@@ -223,8 +246,13 @@ def recover_file(path):
                 v = json.loads(fix_inner_quotes(chunk))
                 repaired = True
             except json.JSONDecodeError:
-                print("recover ABORT: unparseable block near offset %d" % a)
-                sys.exit(1)
+                v = regen_block_from_record(chunk, book, chap)
+                if v is None:
+                    print("recover ABORT: unparseable block near offset %d"
+                          % a)
+                    sys.exit(1)
+                repaired = True
+                regen.append(v["osis"])
         osis = v["osis"]
         with open(os.path.join(ROOT, "translation", book, "%03d" % chap,
                                osis + ".json"), encoding="utf-8") as f:
@@ -240,9 +268,12 @@ def recover_file(path):
         json.dump({"book_dir": book, "chapter": chap, "versos": versos},
                   f, ensure_ascii=False, indent=1)
         f.write("\n")
-    print("recover %s: %d verses | verified clean %d | repaired %d (%s)" % (
-        os.path.basename(path), len(versos), len(kept), len(rebuilt),
-        ",".join(rebuilt) or "-"))
+    print("recover %s: %d verses | verified clean %d | repaired %d (%s)"
+          % (os.path.basename(path), len(versos), len(kept),
+             len(rebuilt), ",".join(rebuilt) or "-"))
+    if regen:
+        print("  rebuilt from record (SEM_ALTERACAO unparseable): %s"
+              % ",".join(regen))
 
 
 def main(argv=None):
