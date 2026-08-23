@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Gen.3.1-24"
   },
-  "texto_bv": "mas do fruto da árvore que está no meio do jardim, Deus disse: ‘Não comereis dele, nem nele tocareis, para que não morrais.’”",
+  "texto_bv": "mas do fruto da árvore que está no meio do jardim, Deus disse: ‘Não comam dele, nem nele toquem, para que não morram.’”",
   "traducao_literal": "mas do fruto da árvore que está no meio do jardim, disse Deus: ‘Não comereis dele e não tocareis nele, para que não morrais.’”",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "comereis → comam | tocareis → toquem | morrais → morram",
+      "justificativa": "Normalização vós→vocês (§3/D-0003/VOS-1) | Normalização vós→vocês (§3/D-0003/VOS-1, coerência do paradigma) | Normalização vós→vocês (§3/D-0003, coerência do paradigma) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "'nem tocareis nele': acréscimo da mulher à proibição de 2:17."
@@ -99,10 +107,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
