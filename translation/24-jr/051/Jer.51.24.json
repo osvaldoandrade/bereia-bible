@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Jer.51.1-64"
   },
-  "texto_bv": "Retribuirei a Babilônia e a todos os habitantes da Caldeia todo o mal que fizeram em Sião, diante dos vossos olhos, diz o SENHOR.",
+  "texto_bv": "Retribuirei a Babilônia e a todos os habitantes da Caldeia todo o mal que fizeram em Sião, diante dos olhos de vocês, diz o SENHOR.",
   "traducao_literal": "E retribuirei a Babilônia, e a todos os habitantes da Caldeia, todo o mal deles que fizeram em Sião, diante dos vossos olhos, diz o SENHOR.",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "diante dos vossos olhos → diante dos olhos de vocês",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): vós→vocês em discurso de Deus→povo; ARC-1 — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Encerra a série anafórica com a motivação jurídica: retribuição pelo mal feito a Sião, testemunhado pelo próprio povo exilado.",
@@ -92,10 +100,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 50,
     "pericope": "Jer.51.1-64"
   },
-  "texto_bv": "Vocês que escaparam da espada, vão embora, não parem; lembrem-se do SENHOR desde longe, e que Jerusalém suba ao vosso coração.",
+  "texto_bv": "Vocês que escaparam da espada, vão embora, não parem; lembrem-se do SENHOR desde longe, e que Jerusalém suba ao coração de vocês.",
   "traducao_literal": "Escapos da espada, vão, não parem; lembrem-se, desde longe, do SENHOR, e Jerusalém suba sobre o vosso coração.",
   "termos_originais": [
     {
@@ -77,7 +77,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ao vosso coração → ao coração de vocês",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): vós→vocês em discurso narrador→povo; ARC-1 — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Exortação final aos sobreviventes exilados: partam sem demora e mantenham viva a memória de Jerusalém e do SENHOR.",
@@ -87,10 +95,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
