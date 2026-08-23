@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "E, subindo a camada de orvalho, eis que sobre a face do deserto estava uma coisa fina e semelhante a escamas, fina como a geada sobre a terra.",
+  "texto_bv": "Subindo a camada de orvalho, sobre a face do deserto estava uma coisa fina, semelhante a escamas, fina como a geada sobre a terra.",
   "traducao_literal": "E subiu a camada do orvalho, e eis que sobre a face do deserto, algo fino, escamoso, fino como a geada sobre a terra.",
   "termos_originais": [
     {
@@ -77,7 +77,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E, subindo a camada de orvalho, eis que sobre a face do deserto estava uma coisa fina e semelhante a escamas → Subindo a camada de orvalho, sobre a face do deserto estava uma coisa fina, semelhante a escamas",
+      "justificativa": "CAL-2: remoção de 'eis que'; remoção de 'E' paratático inicial; aposto em vez de coordenação aditiva para 'semelhante a escamas'. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "דַּק מְחֻסְפָּס 'fino, escamoso/em flocos' (hapax); דַּק כַּכְּפֹר 'fino como a geada' — descrição do maná, algo nunca visto (v.15).",
@@ -87,10 +95,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

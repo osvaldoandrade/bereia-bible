@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "Então disse Moisés: Comei-o hoje, porquanto hoje é o sábado do SENHOR; hoje não o achareis no campo.",
+  "texto_bv": "Então Moisés disse: Comam-no hoje, porque hoje é o sábado do SENHOR; hoje vocês não o acharão no campo.",
   "traducao_literal": "E disse Moisés: Comei-o hoje, porque sábado hoje para YHWH; hoje não o achareis no campo.",
   "termos_originais": [
     {
@@ -72,7 +72,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então disse Moisés → Então Moisés disse | Comei-o → Comam-no | porquanto → porque | não o achareis → vocês não o acharão",
+      "justificativa": "ER-0011: ordem S-V uniforme em wayyiqtol narrativo. | Paradigma vós→você (D-0003/ER-0019): imperativo 3p pl 'vocês'. | Registro formal-neutro (EDITORIAL §1.1): 'porque' é mais natural em pt-BR contemporâneo que 'porquanto'. | Paradigma vós→você (D-0003/ER-0019): 3p pl + sujeito explícito para clareza. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "O maná, as codornizes e o sábado (DRAFT, ADR-0002).",
@@ -82,10 +90,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "Tenho ouvido as murmurações dos filhos de Israel; fala-lhes, dizendo: Ao entardecer comereis carne, e pela manhã vos fartareis de pão; e sabereis que eu sou o SENHOR vosso Deus.",
+  "texto_bv": "Tenho ouvido as murmurações dos filhos de Israel; fale a eles, dizendo: Ao entardecer vocês comerão carne, e pela manhã se fartarão de pão; e saberão que eu sou o SENHOR, o Deus de vocês.",
   "traducao_literal": "Ouvi as murmurações dos filhos de Israel; fala a eles, dizendo: Entre os dois entardeceres comereis carne, e pela manhã vos fartareis de pão; e sabereis que eu YHWH, vosso Deus.",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fala-lhes → fale a eles | comereis → vocês comerão | vos fartareis → se fartarão | sabereis → saberão | o SENHOR vosso Deus → o SENHOR, o Deus de vocês",
+      "justificativa": "Paradigma tu→você (D-0003): Deus→Moisés, humano→humano singular, imperativo 'você'. | Paradigma vós→você (D-0003/ER-0019): Deus→povo. | Paradigma vós→você (D-0003/ER-0019): pronome reflexivo + verbo 3p pl. | Paradigma vós→você (D-0003/ER-0019): 3p pl. | Paradigma vós→você (D-0003/ER-0019): possessivo; artigo definido para fluidez. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "וִידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם 'sabereis que eu sou o SENHOR vosso Deus' — a provisão é revelação (como as pragas o foram ao Egito, 7:5). YHWH→SENHOR; אֱלֹהֵיכֶם→Deus.",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

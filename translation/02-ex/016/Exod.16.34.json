@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "Como o SENHOR ordenara a Moisés, assim Arão o pôs diante do Testemunho, em guarda.",
+  "texto_bv": "Como o SENHOR havia ordenado a Moisés, assim Arão o pôs diante do Testemunho, em guarda.",
   "traducao_literal": "Conforme ordenou YHWH a Moisés, e deixou-o Arão diante do Testemunho por guarda.",
   "termos_originais": [
     {
@@ -62,7 +62,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ordenara → havia ordenado",
+      "justificativa": "ARC-1: mais-que-perfeito sintético (arcaísmo funcionalmente morto, EDITORIAL §1.2) → mais-que-perfeito composto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "לִפְנֵי הָעֵדֻת 'diante do Testemunho' (as tábuas/a arca, ainda por vir, 25:16) — antecipação; o maná junto à Lei no santuário. YHWH→SENHOR.",
@@ -72,10 +80,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

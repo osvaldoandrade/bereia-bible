@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "E aconteceu que, à tarde, subiram codornizes, e cobriram o arraial; e pela manhã havia uma camada de orvalho ao redor do arraial.",
+  "texto_bv": "À tarde, subiram codornizes e cobriram o arraial; e pela manhã havia uma camada de orvalho ao redor do arraial.",
   "traducao_literal": "E aconteceu ao entardecer, e subiu a codorniz e cobriu o acampamento; e pela manhã houve uma camada de orvalho ao redor do acampamento.",
   "termos_originais": [
     {
@@ -77,7 +77,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, à tarde, subiram → À tarde, subiram",
+      "justificativa": "CAL-1: remoção de 'E aconteceu que' (calque paratático artificial). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "שְׂלָו 'codornizes' (aves migratórias, providencialmente trazidas; cf. Nm 11:31). O orvalho precede o maná.",
@@ -87,10 +95,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

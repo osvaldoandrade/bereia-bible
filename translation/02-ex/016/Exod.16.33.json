@@ -7,7 +7,7 @@
     "versiculo": 33,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "Disse também Moisés a Arão: Toma um vaso, e mete nele um gômer cheio de maná, e põe-no diante do SENHOR, em guarda para as vossas gerações.",
+  "texto_bv": "Moisés disse também a Arão: Tome um vaso, coloque nele um gômer cheio de maná e ponha diante do SENHOR, em guarda para as gerações de vocês.",
   "traducao_literal": "E disse Moisés a Arão: Toma um jarro e dá ali a plenitude do ômer de maná, e deixa-o diante de YHWH por guarda para as vossas gerações.",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Disse também Moisés → Moisés disse também | Toma um vaso, e mete nele → Tome um vaso, coloque nele | e põe-no diante → e ponha diante | as vossas gerações → as gerações de vocês",
+      "justificativa": "ER-0011: ordem S-V uniforme em wayyiqtol narrativo. | Paradigma tu→você (D-0003): Moisés→Arão, humano→humano singular, imperativo 'você'; 'coloque' é mais natural que 'mete' em registro formal-neutro. | Paradigma tu→você (D-0003): imperativo 'você'; elipse do pronome átono 'no' (contexto claro). | Paradigma vós→você (D-0003/ER-0019): possessivo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "צִנְצֶנֶת 'jarro/vaso' de maná 'diante do SENHOR' — depois guardado na arca (Hb 9:4, 'a urna de ouro com o maná'; registrado). YHWH→SENHOR.",
@@ -112,10 +120,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
