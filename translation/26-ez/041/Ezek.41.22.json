@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Ezek.41.1-26"
   },
-  "texto_bv": "O altar era de madeira, com três côvados de altura, e seu comprimento, dois côvados; tinha seus cantos, e seu comprimento e suas laterais eram de madeira. E ele me disse: “Esta é a mesa que está diante do SENHOR.”",
+  "texto_bv": "O altar era de madeira, com três côvados de altura e dois côvados de comprimento; tinha cantos, e o comprimento e as laterais eram de madeira. E ele me disse: “Esta é a mesa que está diante do SENHOR.”",
   "traducao_literal": "O altar, madeira, três côvados altura; e seu comprimento, duas côvados; e seus cantos para ele; e seu comprimento e suas paredes, madeira. E falou a mim: Isto [é] a mesa que [está] diante do SENHOR.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "escolha": "SENHOR",
       "justificativa": "Política de nomes divinos ER-0002/NOMES-DIVINOS.md.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e seu comprimento, dois côvados → e dois côvados de comprimento | tinha seus cantos, e seu comprimento e suas laterais eram de madeira → tinha cantos, e o comprimento e as laterais eram de madeira",
+      "justificativa": "Redução de pronome possessivo redundante (PRO-1): 'seu' removido, integrando a medida ao sintagma anterior sob o sujeito já estabelecido (altar) | Redução de pronomes possessivos redundantes (PRO-1): três possessivos ('seus', 'seu', 'suas') removidos; referência ao altar inequívoca pelo sujeito gramatical — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -143,10 +150,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
