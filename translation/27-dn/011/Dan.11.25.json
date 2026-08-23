@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Dan.11.1-45"
   },
-  "texto_bv": "Ele despertará a sua força e o seu coração contra o rei do sul, com um grande exército; e o rei do sul entrará em guerra com um exército muito grande e poderoso, mas não conseguirá resistir, porque tramarão planos contra ele.",
+  "texto_bv": "Ele despertará a sua força e o seu coração contra o rei do sul, com um grande exército; e o rei do sul entrará em guerra com um exército muito grande e poderoso, mas não conseguirá manter-se, pois há conspiração contra ele.",
   "traducao_literal": "E despertará a sua força e o seu coração sobre o rei do sul, com exército grande; e o rei do sul se envolverá em guerra, com exército grande e poderoso até muito; e não ficará de pé, porque pensarão sobre ele pensamentos.",
   "termos_originais": [
     {
@@ -127,7 +127,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas não conseguirá resistir, porque tramarão planos contra ele. → mas não conseguirá manter-se, pois há conspiração contra ele.",
+      "justificativa": "Divisão de sentença de 42 palavras (LEN-1/§1.3) — embora o resultado final ainda seja uma sentença longa, a substituição da oração subordinada “porque tramarão planos” pela causal mais concisa “pois há conspiração” reduz a carga sintática. A substituição de “resistir” por “manter-se” evita repetição com “resistir” usado no verso anterior (§1.2). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "sujeito de 'tramarão' — conselheiros do próprio rei do sul, ou agentes do rei do norte"
@@ -139,10 +147,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Dan.11.1-45"
   },
-  "texto_bv": "Aquele que vier contra ele fará conforme a sua vontade, e ninguém lhe fará frente; ele se estabelecerá na terra formosa, e a destruição estará em suas mãos.",
+  "texto_bv": "Aquele que vier contra ele fará conforme a sua vontade, e ninguém lhe resistirá; ele se estabelecerá na terra formosa, e a destruição estará nas mãos dele.",
   "traducao_literal": "E fará o que vem a ele conforme a sua vontade, e não há quem fique de pé diante dele; e ficará de pé na terra do ornamento, e a destruição na sua mão.",
   "termos_originais": [
     {
@@ -83,6 +83,13 @@
           "motivo": "sentido secundário irrelevante ao contexto geográfico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e ninguém lhe fará frente → e ninguém lhe resistirá | e a destruição estará em suas mãos. → e a destruição estará nas mãos dele.",
+      "justificativa": "Substituição da perífrase “fazer frente” por verbo único “resistirá” — mais conciso e natural em pt-BR contemporâneo (§1.2). | Referência pronominal inequívoca (PRO-1/§5): “suas mãos” era ambíguo (poderia referir-se ao conquistado); “dele” retoma claramente o sujeito da oração. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -94,10 +101,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

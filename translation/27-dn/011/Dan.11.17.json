@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Dan.11.1-45"
   },
-  "texto_bv": "Ele voltará o rosto para vir com toda a força do seu reino, trazendo consigo termos de acordo, e fará o que planeja; e lhe dará a filha das mulheres, para arruiná-lo, mas ela não persistirá, nem será dele.",
+  "texto_bv": "Ele voltará o rosto para vir com a força de todo o seu reino, trazendo propostas de acordo, e fará o que planeja; e lhe entregará a filha das mulheres, para arruiná-lo, mas ela não prevalecerá, nem será dele.",
   "traducao_literal": "E porá o seu rosto para vir com força de todo o seu reino, e retos com ele, e fará; e a filha das mulheres lhe dará, para a destruir; e não ficará de pé, e não dele será.",
   "termos_originais": [
     {
@@ -135,6 +135,13 @@
       "escolha": "referente ambíguo preservado",
       "justificativa": "sufixo feminino aceita ambos os antecedentes no contexto",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "trazendo consigo termos de acordo → trazendo propostas de acordo | e lhe dará a filha → e lhe entregará a filha | mas ela não persistirá → mas ela não prevalecerá",
+      "justificativa": "Eliminação de “consigo” (redundante com o sujeito da oração) e substituição de “termos” por “propostas” para maior precisão léxica em pt-BR (§1.2). | Variação verbal para evitar repetição de “fará” (já usado em “fará o que planeja”); “entregará” é mais preciso no contexto de aliança matrimonial. | Substituição de “persistirá” (inusitado em contexto bíblico-político) por “prevalecerá”, mais idiomático em pt-BR e alinhado com o léxico do versículo (§1.2). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -149,10 +156,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

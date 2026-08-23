@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Dan.11.1-45"
   },
-  "texto_bv": "Mas, quando ele se levantar, o seu reino será quebrado e repartido para os quatro ventos dos céus; não ficará para os seus descendentes, nem terá o domínio que ele exerceu, pois o seu reino será arrancado e dado a outros, além destes.",
+  "texto_bv": "Mas, quando ele se levantar, o seu reino será quebrado e repartido para os quatro ventos dos céus; não ficará para os seus descendentes, nem terá o domínio que ele exerceu. Pois o seu reino será tomado e dado a outros, além destes.",
   "traducao_literal": "E como o seu erguer-se, será quebrado o seu reino, e será repartido para os quatro ventos dos céus; e não para a sua posteridade, e não como o seu domínio que dominou, porque será arrancado o seu reino, e para outros, afora estes.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois o seu reino será arrancado e dado a outros, além destes. → Pois o seu reino será tomado e dado a outros, além destes. | pois o seu reino será arrancado → Pois o seu reino será tomado",
+      "justificativa": "Divisão de sentença de 43 palavras (LEN-1/§1.3) no conector causal “pois”, promovendo-o a início de frase independente; sem perda sintática. | Substituição de “arrancado” por “tomado” para eliminar a redundância interna (RED-1) com “será quebrado” — o original emprega verbos distintos (נתץ vs. עקר), mas em português “quebrado…arrancado” soa repetitivo sem fidelidade acrescida. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "ele (sujeito retomado)",
     "ficará/terá (verbos supridos nas elipses do hebraico)"
@@ -120,10 +128,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
