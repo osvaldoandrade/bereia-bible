@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "Prov.31.1-31"
   },
-  "texto_bv": "Dai-lhe do fruto das suas mãos, e que as suas obras a louvem nas portas.",
+  "texto_bv": "Deem-lhe do fruto das suas mãos, e que as suas obras a louvem nas portas.",
   "traducao_literal": "Dai a-ela de-fruto-de mãos-dela; e-louvem-a nas-portas obras-dela.",
   "termos_originais": [
     {
@@ -47,7 +47,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Dai-lhe do fruto → Deem-lhe do fruto",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): imperativo 'Dai' (vós) → 'Deem' (vocês) em instrução humano→humano. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "que (partícula optativa suprida para introduzir 'que as suas obras a louvem')"
   ],
@@ -59,10 +67,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

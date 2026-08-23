@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Prov.31.1-31"
   },
-  "texto_bv": "Dai bebida forte ao que perece, e vinho aos amargurados de alma.",
+  "texto_bv": "Deem bebida forte ao que perece, e vinho aos amargurados de alma.",
   "traducao_literal": "Dai bebida-forte ao-que-perece, e-vinho aos-amargos-de alma.",
   "termos_originais": [
     {
@@ -42,7 +42,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Dai bebida forte → Deem bebida forte",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): imperativo 'Dai' (vós) → 'Deem' (vocês) em instrução humano→humano. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Contraste irônico com vv.4-5: ao rei, não convém bebida forte; a quem perece e sofre, ela é remédio paliativo.",
@@ -52,10 +60,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

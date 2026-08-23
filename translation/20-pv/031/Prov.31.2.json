@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Prov.31.1-31"
   },
-  "texto_bv": "Que te direi, meu filho, filho do meu ventre, filho dos meus votos?",
+  "texto_bv": "Que lhe direi, meu filho, filho do meu ventre, filho dos meus votos?",
   "traducao_literal": "Que, filho-meu? E-que, filho-de-ventre-meu? E-que, filho-de-votos-meus?",
   "termos_originais": [
     {
@@ -63,6 +63,13 @@
           "motivo": "reproduz o calque de repetição do מַה triplo, mas gera redundância desnecessária em português corrido; ER-0013 permite condensar repetição formular redundante no publicado."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Que te direi → Que lhe direi",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): pronome oblíquo 'te' (tu) → 'lhe' (você) em discurso humano→humano (mãe→filho). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -76,10 +83,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
