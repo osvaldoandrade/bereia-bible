@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Ezek.25.1-17"
   },
-  "texto_bv": "portanto, eis que eu estendo a minha mão contra você, e o entregarei às nações como despojo; eu o exterminarei dentre os povos, e o farei perecer dentre as terras; eu o destruirei, e você saberá que eu sou o SENHOR.’”",
+  "texto_bv": "portanto, eis que eu estendo a minha mão contra você e o entregarei às nações como despojo; o exterminarei dentre os povos e o farei perecer dentre as terras; o destruirei, e você saberá que eu sou o SENHOR.’”",
   "traducao_literal": "Portanto eis-me: estendi a-minha-mão sobre-ti; e-dar-te-ei por-despojo às-nações; e-cortar-te-ei dentre-os-povos; e-farei-te-perecer dentre-as-terras; destruir-te-ei; e-saberás que eu SENHOR.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "escolha": "Uniformizar em futuro do português ('exterminarei... farei perecer... destruirei'), preservando três verbos distintos para as três raízes",
       "justificativa": "Convenção do 'perfeito profético' hebraico como certeza futura; preserva a distinção lexical das três raízes de destruição.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "você, e o entregarei → você e o entregarei | eu o exterminarei → o exterminarei | povos, e o farei → povos e o farei | eu o destruirei → o destruirei",
+      "justificativa": "vírgula desnecessária entre orações coordenadas com mesmo sujeito | pronome sujeito redundante; verbo já codifica pessoa; hebraico sem pronome explícito | vírgula desnecessária entre orações coordenadas com mesmo sujeito | pronome sujeito redundante; verbo já codifica pessoa; hebraico sem pronome explícito — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -142,10 +149,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Ezek.25.1-17"
   },
-  "texto_bv": "portanto, eis que eu entrego você aos filhos do oriente, como possessão: eles armarão os seus acampamentos em você, e colocarão em você as suas moradas; eles comerão o seu fruto, e eles beberão o seu leite.",
+  "texto_bv": "portanto, eis que eu entrego você aos filhos do oriente, como possessão: eles armarão os seus acampamentos em você e colocarão em você as suas moradas; comerão o seu fruto e beberão o seu leite.",
   "traducao_literal": "Portanto eis-me entregando-te aos-filhos-do-oriente por-possessão; e-habitarão os-seus-acampamentos em-ti, e-darão em-ti as-suas-moradas; eles comerão o-teu-fruto, e-eles beberão o-teu-leite.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
           "motivo": "apagaria o paralelismo enfático do original"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "em você, e colocarão → em você e colocarão | moradas; eles comerão → moradas; comerão | fruto, e eles beberão → fruto e beberão",
+      "justificativa": "vírgula desnecessária entre orações coordenadas com mesmo sujeito | pronome sujeito redundante após sujeito já estabelecido; normalização per ER-0013 | pronome sujeito redundante e vírgula desnecessária; normalização per ER-0013 — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -135,10 +142,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
