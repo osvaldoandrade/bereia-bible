@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Ezek.34.1-31"
   },
-  "texto_bv": "A árvore do campo dará o seu fruto, e a terra dará a sua colheita; elas estarão seguras em sua terra e saberão que eu sou o SENHOR, quando eu quebrar as varas do seu jugo e as livrar da mão dos que as escravizavam.",
+  "texto_bv": "A árvore do campo dará o seu fruto, e a terra dará a sua colheita. Elas estarão seguras em sua terra e saberão que eu sou o SENHOR, quando eu quebrar as varas do seu jugo e as livrar da mão dos que as escravizavam.",
   "traducao_literal": "E dará a árvore do campo o seu fruto, e a terra dará a sua colheita, e estarão sobre a sua terra em segurança; e saberão que eu sou SENHOR, ao quebrar eu as varas do jugo deles, e as livrarei da mão dos que trabalhavam nelas.",
   "termos_originais": [
     {
@@ -132,7 +132,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "colheita; elas estarão → colheita. Elas estarão",
+      "justificativa": "Divisão de sentença de 45 palavras (LEN-1) em duas orações independentes; o paralelismo 'árvore do campo/terra' fica preservado integralmente na primeira oração; a segunda oração (segurança + reconhecimento de YHWH) é sintaticamente autônoma (EDITORIAL §1.3) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Fórmula de reconhecimento (\"saberão que eu sou o SENHOR\") ligada à quebra do jugo — imagem de libertação do exílio/opressão.",
@@ -142,10 +150,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

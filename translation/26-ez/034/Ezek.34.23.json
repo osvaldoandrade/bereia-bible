@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Ezek.34.1-31"
   },
-  "texto_bv": "Levantarei sobre elas um só pastor, o meu servo Davi, e ele as apascentará; ele as apascentará e será o pastor delas.",
+  "texto_bv": "Levantarei sobre elas um só pastor, o meu servo Davi, e ele as apascentará; ele será o pastor delas.",
   "traducao_literal": "E levantarei sobre eles pastor um, e apascentará a eles, a saber, o meu servo Davi; ele os apascentará, e ele será para eles por pastor.",
   "termos_originais": [
     {
@@ -92,7 +92,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "apascentará; ele as apascentará e será → apascentará; ele será",
+      "justificativa": "Remoção de repetição idêntica ('ele as apascentará' 2× na mesma sentença); o original hebraico emprega o verbo רעה em duas cláusulas sintaticamente distintas ('apascentará a eles' + 'ele os apascentará, e ele será para eles por pastor'), mas a BV condensou-as gerando repetição mecânica não-formular; corrige-se preservando uma menção ao verbo e a cláusula 'será o pastor delas' — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "a saber"
   ],
@@ -104,10 +112,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
