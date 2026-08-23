@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Esth.2.1-23"
   },
-  "texto_bv": "A moça agradou-o, e ela obteve favor diante dele; ele se apressou a dar-lhe os tratamentos de beleza e as porções que lhe cabiam, e as sete moças escolhidas da casa do rei para servi-la; e a transferiu, com as suas moças, para o melhor lugar da casa das mulheres.",
+  "texto_bv": "A moça agradou-o e obteve favor diante dele. Ele se apressou a dar-lhe os tratamentos de beleza e as porções que lhe cabiam, e as sete moças escolhidas da casa do rei para servi-la. Transferiu-a, com as suas moças, para o melhor lugar da casa das mulheres.",
   "traducao_literal": "E a moça foi boa aos seus olhos, e obteve favor diante dele; e ele se apressou [em dar] os seus tratamentos de beleza e as suas porções, para dar-lhe, e as sete moças escolhidas para lhe serem dadas da casa do rei; e mudou-a, e as suas moças, para o melhor da casa das mulheres.",
   "termos_originais": [
     {
@@ -158,6 +158,13 @@
           "motivo": "especifica além do que o lexema garante nesse contexto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "A moça agradou-o, e ela obteve → A moça agradou-o e obteve | diante dele; ele → diante dele. Ele | servi-la; e a transferiu, → servi-la. Transferiu-a,",
+      "justificativa": "PRO-1: pronome \"ela\" redundante — o sujeito \"A moça\" se mantém na oração coordenada com mesmo sujeito; vírgula antes de \"e\" eliminada (sujeito idêntico). | LEN-1: sentença de 50 palavras dividida no primeiro ponto-e-vírgula; oração com sujeito novo (Hegai) inicia período próprio. | LEN-1: segundo ponto-e-vírgula convertido em ponto; \"e\" inicial eliminado por se tratar de novo período, com ênclise regular após ponto final. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -172,10 +179,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Esth.2.1-23"
   },
-  "texto_bv": "Quando chegou a vez de Ester, filha de Abiail, tio de Mardoqueu — que a tinha tomado para si como filha —, de entrar à presença do rei, ela não pediu nada além do que Hegai, eunuco do rei, guardião das mulheres, indicasse; e Ester obtinha favor aos olhos de todos os que a viam.",
+  "texto_bv": "Quando chegou a vez de Ester, filha de Abiail, tio de Mardoqueu — que a tinha tomado para si como filha —, de entrar à presença do rei, ela não pediu nada além do que Hegai, eunuco do rei, guardião das mulheres, indicasse. Ester obtinha favor aos olhos de todos os que a viam.",
   "traducao_literal": "E ao chegar a vez de Ester, filha de Abiail, tio de Mardoqueu, que a tomara para si por filha, de vir ao rei, não pediu coisa alguma senão o que dissesse Hegai, eunuco do rei, guardião das mulheres; e Ester obtinha favor aos olhos de todos os que a viam.",
   "termos_originais": [
     {
@@ -182,7 +182,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "indicasse; e Ester obtinha → indicasse. Ester obtinha",
+      "justificativa": "LEN-1: sentença de 53 palavras dividida no ponto-e-vírgula; a segunda oração tem sujeito explícito (Ester) e constitui período autônomo. Primeiro segmento permanece com 41 palavras devido à estrutura de oração temporal com apostos encaixados, que não admite divisão sem perda sintática (ER-0019, EDITORIAL §1.3). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "אֲבִיחַיִל identificado aqui como pai biológico de Ester (retomando dado novo não mencionado em 2:7, onde só o vínculo com Mardoqueu aparece); דֹּד מָרְדֳּכַי reafirma que Mardoqueu é tio, não pai, de Ester — consistente com 2:7.",
@@ -192,10 +200,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
