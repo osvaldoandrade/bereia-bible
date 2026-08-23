@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Ezek.31.1-18"
   },
-  "texto_bv": "Isso é para que nenhuma árvore regada por águas se eleve em sua estatura, nem ponha sua copa entre as nuvens, nem seus poderosos se firmem em altura — todas as que bebem águas —, pois todas elas estão destinadas à morte, à terra profunda, no meio dos filhos dos homens, com os que descem à cova.",
+  "texto_bv": "Isso é para que nenhuma árvore regada por águas se eleve em sua estatura, nem ponha sua copa entre as nuvens, nem seus poderosos se firmem em altura — todas as que bebem águas. Pois todas elas estão destinadas à morte, à terra profunda, no meio dos filhos dos homens, com os que descem à cova.",
   "traducao_literal": "Para que não se elevem em sua estatura todas as árvores de águas, e não ponham sua copa entre nuvens, e não se firmem a eles em sua altura todas as que bebem águas; porque todas elas foram entregues à morte, à terra debaixo, no meio dos filhos de homem, com os que descem à cova.",
   "termos_originais": [
     {
@@ -198,6 +198,13 @@
           "motivo": "contraria a marcação morfológica fornecida pelo packet pinado; preservada como ambiguidade dado ser a leitura mais difundida nas versões correntes"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "— todas as que bebem águas —, pois todas elas → — todas as que bebem águas. Pois todas elas",
+      "justificativa": "LEN-1: sentença de 55 palavras dividida em duas (30 + 20 palavras) no limite sintático natural entre cláusula final e cláusula causal; paralelismo interno de cada parte preservado (§1.3) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -211,10 +218,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

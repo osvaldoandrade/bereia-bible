@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Ezek.31.1-18"
   },
-  "texto_bv": "Com o som de sua queda, fiz tremer as nações, quando o fiz descer ao Seol, com os que descem à cova; e se consolaram na terra profunda todas as árvores do Éden, as melhores e mais boas do Líbano, todas as que bebem águas.",
+  "texto_bv": "Com o som de sua queda, fiz tremer as nações, quando o fiz descer ao Seol, com os que descem à cova. E se consolaram na terra profunda todas as árvores do Éden, as escolhidas e belas do Líbano, todas as que bebem águas.",
   "traducao_literal": "Com a voz de sua queda, fiz tremer nações, em meu fazer descer a ele ao Seol, com os que descem à cova; e se consolaram na terra debaixo todas as árvores do Éden, escolhida e boa do Líbano, todas as que bebem águas.",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "descem à cova; e se consolaram → descem à cova. E se consolaram | as melhores e mais boas do Líbano → as escolhidas e belas do Líbano",
+      "justificativa": "LEN-1: sentença de 45 palavras dividida em duas (22 + 22 palavras) entre as duas ações distintas (tremer das nações e consolação das árvores do Éden) (§1.3) | Gramática normativa: 'mais boas' é comparativo não padrão em pt-BR (comparativo irregular de 'boa' é 'melhor'); corrigido para os dois adjetivos do original (בְּחִירֵי וְטוֹבֵי — escolhidas e boas/belas), preservando o sentido da traducao_literal 'escolhida e boa' — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "תַּחְתִּית glosado 'terra profunda' (publicado) / 'terra debaixo' (literal), consistente com vv.14 e 18; עֵדֶן/לְבָנוֹן mantidos como nomes próprios consolidados.",
@@ -132,10 +140,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
