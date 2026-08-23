@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Exod.25.1-40"
   },
-  "texto_bv": "Farás um querubim numa extremidade, e o outro querubim na outra extremidade; de uma só peça com o propiciatório fareis os querubins nas duas extremidades dele.",
+  "texto_bv": "Você fará um querubim numa extremidade e o outro querubim na outra; de uma só peça com o propiciatório vocês farão os querubins nas suas duas extremidades.",
   "traducao_literal": "E faze um querubim de uma extremidade daqui, e um querubim da extremidade dali; do propiciatório fareis os querubins sobre as suas duas extremidades.",
   "termos_originais": [
     {
@@ -97,7 +97,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Farás → Você fará | numa extremidade, e o outro → numa extremidade e o outro | fareis → vocês farão | nas duas extremidades dele → nas suas duas extremidades",
+      "justificativa": "Normalização do paradigma vós→você (§3/D-0003). | Remoção de vírgula entre orações coordenadas aditivas simples. | Normalização do paradigma vós→vocês (§3/D-0003; aqui imperativo plural). | Pronome possessivo 'suas' mais idiomático que 'dele' em pt-BR para posse inalienável de objeto inanimado. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Instruções do tabernáculo: oferta, arca, mesa, candelabro (DRAFT, ADR-0002).",
@@ -107,10 +115,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

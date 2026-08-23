@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "Exod.25.1-40"
   },
-  "texto_bv": "E haverá um botão debaixo de dois braços que saem dele; e outro botão debaixo de dois outros braços que saem dele; e ainda outro botão debaixo de dois outros braços que saem dele; assim se fará com os seis braços que saem do candelabro.",
+  "texto_bv": "Haverá um botão debaixo de dois braços que saem dele; outro botão debaixo de dois outros braços que saem dele; e ainda outro botão debaixo de dois outros braços que saem dele — assim se fará com os seis braços que saem do candelabro.",
   "traducao_literal": "E um botão debaixo dos dois braços dele, e um botão debaixo dos dois braços dele, e um botão debaixo dos dois braços dele, para os seis braços, os que saem do candelabro.",
   "termos_originais": [
     {
@@ -112,7 +112,22 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E haverá → Haverá | dois outros braços → dois outros braços | assim se fará → — assim se fará",
+      "justificativa": "Remoção do 'E' inicial de período (calque de waw, ER-0013); o período já inicia nova unidade temática. | Repetição mantida: o original repete a fórmula três vezes; fidelidade ao paralelismo (EDITORIAL §4/ER-0013). | Travessão separa oração recapitulativa das três cláusulas paralelas; melhora a pontuação (§6.1) e evita sentença de 45 palavras sem pausa (LEN-1). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Achado RED-1 flagrou 'botao debaixo; bracos saem; debaixo dois' como redundância, mas trata-se de paralelismo tríplice do original hebraico (três cláusulas idênticas para os seis braços); a repetição é fidelidade, não defeito. — evidência: Literal preserva a repetição tripla: 'um botão debaixo dos dois braços dele' × 3. A manutenção é obrigatória por EDITORIAL §4. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Instruções do tabernáculo: oferta, arca, mesa, candelabro (DRAFT, ADR-0002).",
@@ -122,10 +137,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

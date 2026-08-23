@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Exod.25.1-40"
   },
-  "texto_bv": "Também farão uma arca de madeira de acácia; o seu comprimento será de dois côvados e meio, e a sua largura de um côvado e meio, e a sua altura de um côvado e meio.",
+  "texto_bv": "Também farão uma arca de madeira de acácia; o seu comprimento será de dois côvados e meio, a sua largura de um côvado e meio, e a sua altura de um côvado e meio.",
   "traducao_literal": "E farão uma arca de madeiras de acácia; dois côvados e meio o seu comprimento, e um côvado e meio a sua largura, e um côvado e meio a sua altura.",
   "termos_originais": [
     {
@@ -77,7 +77,22 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "farão → farão | e a sua largura de um côvado e meio, e a sua altura → a sua largura de um côvado e meio, e a sua altura",
+      "justificativa": "Sem alteração (forma já compatível com paradigma vocês). | Repetição de 'côvado e meio' mantida (fidelidade ao original que repete as medidas); remoção de 'e' inicial do segundo segmento para fluidez (ER-0013). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Achado RED-1 flagrou 'covado meio' como redundância interna, mas trata-se de repetição de medida presente no original hebraico; não é defeito. — evidência: Dois côvados e meio / um côvado e meio / um côvado e meio correspondem ao hebraico; a repetição é fidelidade, não redundância. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "אֲרוֹן 'arca' (do concerto) — o objeto central, o trono-estrado da presença de Deus. Côvado ~45 cm.",
@@ -87,10 +102,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
