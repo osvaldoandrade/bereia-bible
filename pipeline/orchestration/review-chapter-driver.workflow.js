@@ -1,6 +1,6 @@
 // Editorial review driver for DRAFT hot-spots (ER-0019, PIPELINE.md v1.2.0).
 // ONE agent per hot chapter, up to 16 chapters in parallel. Each agent reads
-// the canonical prompt (pipeline/prompts/revisor-editorial-draft.md v1.0.0),
+// the canonical prompt (pipeline/prompts/revisor-editorial-draft.md v1.1.0),
 // the chapter digest produced by scripts/qa_linguistico.py
 // (qa/reports/review-input/<book_dir>-<cap>.json — carries texto_bv,
 // traducao_literal and the static findings), adjudicates each finding
@@ -33,7 +33,8 @@ const SUMMARY = {
 }
 
 const preamble = 'Você é o revisor editorial da Bereia Version (BV), etapa de revisão do tier DRAFT (ER-0019, PIPELINE.md v1.2.0). Sua mudança é somente de FORMA — nunca de sentido.\n' +
-  'LEIA, nesta ordem: ' + REPO + '/pipeline/prompts/revisor-editorial-draft.md (v1.0.0, seu papel e regras duras de saída); ' + REPO + '/pipeline/rules/EDITORIAL.md (v1.1.0, autoridade de forma); ' + REPO + '/decisions/DECISOES.md (ER-0011..ER-0019, vinculantes); ' + REPO + '/lexicon/lexicon.json (só se precisar de consistência terminológica).\n' +
+  'LEIA, nesta ordem: ' + REPO + '/pipeline/prompts/revisor-editorial-draft.md (v1.1.0, seu papel e regras duras de saída); ' + REPO + '/pipeline/rules/EDITORIAL.md (v1.1.0, autoridade de forma); ' + REPO + '/decisions/DECISOES.md (ER-0011..ER-0019, vinculantes); ' + REPO + '/lexicon/lexicon.json (só se precisar de consistência terminológica).\n' +
+  'Paradigma de 2ª pessoa (§3/D-0003): humano↔humano e Deus→humano = você/vocês; oração a Deus = tu. Se o capítulo usa vós onde §3 pede vocês, normalize o capítulo INTEIRO coerentemente (item 10 do prompt canônico).\n' +
   'Regras duras: (1) correção que exija mudança de sentido vira objeção MATERIAL — o texto NÃO muda; (2) fórmulas intencionais do original (refrões, paralelismo, quiasmos, repetições formularies) são MANTIDAS mesmo quando a triagem as flagrou; (3) traducao_literal nunca é reescrita; (4) cobertura OSIS idêntica ao digest.\n'
 
 async function reviewChapter(ch) {

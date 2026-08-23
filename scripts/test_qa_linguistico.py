@@ -89,6 +89,31 @@ class MarkerTests(unittest.TestCase):
         self.assertNotIn("PRO-1",
                          ids(qa.verse_findings(rec("Ele disse uma palavra."))))
 
+    def test_paradigma_vos_marcado(self):
+        cases = [
+            "comereis o pão com ervas amargas",
+            "guardai a páscoa do Senhor",
+            "e vós sois o povo do Senhor",
+            "fazei isso em memória de mim",
+            "amai-vos uns aos outros",
+            "vós tendes parte nisso",
+        ]
+        for t in cases:
+            with self.subTest(t=t):
+                self.assertIn("VOS-1", ids(qa.verse_findings(rec(t))))
+
+    def test_primeira_pessoa_nao_confundida_com_vos(self):
+        # -ei is ambiguous: 1sg preterite/future must NOT flag VOS-1;
+        # "sai"/"cai"/"pai" are not 2pl imperatives either
+        cases = [
+            "Amanhã farei o que mandei.",
+            "Eu falei com ele e pensei no assunto.",
+            "O pai dele sai de casa e cai no chão.",
+        ]
+        for t in cases:
+            with self.subTest(t=t):
+                self.assertNotIn("VOS-1", ids(qa.verse_findings(rec(t))))
+
     def test_passivas_em_excesso_marcadas(self):
         t = "as águas foram partidas e o muro foi levantado."
         self.assertIn("PAS-1", ids(qa.verse_findings(rec(t))))
@@ -145,13 +170,16 @@ class ScanRollupTests(unittest.TestCase):
             self.assertEqual(digest["versos"][1]["achados"], [])
 
     def test_corpus_real_smoke(self):
+        # structural assertions only: marker content of specific verses
+        # changes as editorial review cycles land (ER-0019)
         chapters, totals = qa.scan(str(ROOT / "translation"), threshold=8)
         self.assertGreater(totals["versos"], 31000)
         gen24 = chapters.get(("01-gn", 24))
         self.assertIsNotNone(gen24)
-        achados_15 = [v["achados"] for v in gen24["todos"]
-                      if v["osis"] == "Gen.24.15"][0]
-        self.assertTrue({"CAL-1", "CAL-2"} & {f["id"] for f in achados_15})
+        verso_15 = [v for v in gen24["todos"] if v["osis"] == "Gen.24.15"]
+        self.assertEqual(len(verso_15), 1)
+        for fi in verso_15[0]["achados"]:
+            self.assertIn(fi["id"], qa.MARKER_WEIGHT)
 
 
 if __name__ == "__main__":

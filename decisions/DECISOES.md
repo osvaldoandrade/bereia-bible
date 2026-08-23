@@ -224,13 +224,15 @@ Ver `docs/domain/governanca/glossary.md`.
 - Problema: a cobertura DRAFT (ER-0016/0017: 1 agente por capítulo, foco em
   fidelidade e auditabilidade) produziu texto de tradução em geral correto mas de
   leitura difícil em pt-BR: calques paratáticos ("e aconteceu que", "eis que"),
-  arcaísmos vedados (EDITORIAL §1.2), redundâncias internas e sentenças acima de
+  arcaísmos vedados (EDITORIAL §1.2), paradigma vós em discurso Deus→humano
+  (§3/D-0003 pede você/vocês), redundâncias internas e sentenças acima de
   40 palavras (§1.3). A normalização editorial prevista no §6.2 nunca foi executada
   porque não existia como etapa.
 - Decisão: etapa de **revisão editorial** sobre hot-spots, em três passos
   (PIPELINE.md v1.2.0):
-  1. triagem estática `scripts/qa_linguistico.py` (marcadores mecânicos, sem
-     agentes; saída `qa/reports/hotspots.*` + digest por capítulo hot);
+  1. triagem estática `scripts/qa_linguistico.py` (marcadores mecânicos — ARC-1,
+     LEN-1, VOS-1, RAT-1, RED-1, CAL-1/2, PRO-1, PAS-1 — sem agentes; saída
+     `qa/reports/hotspots.*` + digest por capítulo hot);
   2. 1 agente revisor por capítulo hot
      (`pipeline/orchestration/review-chapter-driver.workflow.js`, prompt canônico
      `pipeline/prompts/revisor-editorial-draft.md`), até 16 em paralelo;
@@ -246,9 +248,18 @@ Ver `docs/domain/governanca/glossary.md`.
   - status **permanece DRAFT** — promoção a REVIEW segue exigindo consenso pleno
     + QA de contaminação (FSM inalterada);
   - fórmulas intencionais do original (refrões, paralelismo, quiasmos) são
-    mantidas pelo revisor; a triagem estática apenas flagra, não decide.
+    mantidas pelo revisor; a triagem estática apenas flagra, não decide;
+  - normalização do paradigma vós→vocês (§3/D-0003) aplica-se ao capítulo
+    INTEIRO de forma coerente (prompt canônico v1.1.0, item 10); oração a Deus
+    permanece em tu.
 - Primeira execução (2026-08-23): 31142 versos DRAFT varridos; 5705 com achados
   (18,3%); 506 capítulos hot no limiar score ≥ 8.
+- Piloto (2026-08-23, Gn 24 / Êx 12 / Mc 4): 17 versos revisados + 1 objeção
+  MATERIAL (Gen.24.7) persistidos e commitados (fc329f7f, 6410e600, 662e0158).
+  Achado do piloto: Êx 12 emprega paradigma vós (comereis, vossas, guardai) em
+  discurso de Deus, não flagrado pelos marcadores originais — marcador VOS-1
+  adicionado nesta data e prompt canônico elevado a v1.1.0 (normalização
+  coordenada do capítulo inteiro; `prompts_versao` do ciclo passa a 1.2.1).
 
 ---
 

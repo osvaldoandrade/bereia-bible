@@ -34,7 +34,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST_PATH = os.path.join(ROOT, "sources", "manifest.json")
 LEXICON_PATH = os.path.join(ROOT, "lexicon", "lexicon.json")
 
-PROMPTS_VERSAO = "1.2.0"   # review-chapter-driver + revisor-editorial-draft.md
+PROMPTS_VERSAO = "1.2.1"   # review-chapter-driver + revisor-editorial-draft.md v1.1.0
 REGRAS_VERSAO = "1.1.0"    # pipeline/rules/EDITORIAL.md et al.
 
 

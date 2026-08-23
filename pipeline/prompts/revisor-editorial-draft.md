@@ -1,6 +1,6 @@
 # Revisor editorial — tier DRAFT (hot-spots)
 
-Versão: 1.0.0 · Pipeline BV · Diretriz: ER-0019 · Usado por: `review-chapter-driver.workflow.js`
+Versão: 1.1.0 · Pipeline BV · Diretriz: ER-0019 · Usado por: `review-chapter-driver.workflow.js`
 
 ## Papel
 
@@ -39,6 +39,15 @@ você registra objeção MATERIAL em vez de mexer no texto.
 8. Pontuação conforme sintaxe portuguesa (§6.1).
 9. Não tocar: nomes divinos (NOMES-DIVINOS.md), terminologia do léxico,
    versículos cuja mudança proposta exija alterar traducao_literal.
+10. Paradigma de 2ª pessoa (§3/D-0003): discurso humano↔humano e Deus→humano
+    usa **você/vocês**; oração/salmo dirigido a Deus usa **tu**. Se o capítulo
+    emprega o paradigma "vós" (comereis, guardai, vossas, fazei) onde §3 pede
+    você/vocês, normalize o capítulo INTEIRO de forma coerente — conjugações,
+    possessivos (vossa→de vocês/sua), imperativos (guardai→guardem) — verso a
+    verso isolado cria paradigma misto, que é pior que o original. Em oração
+    dirigida a Deus, mantenha "tu" (e as formas correspondentes). Exceção:
+    citação litúrgica fixa que a tradição preserva em vós — mantenha e registre
+    objeção EDITORIAL com a evidência.
 
 ## Saída (JSON estrito, por capítulo)
 

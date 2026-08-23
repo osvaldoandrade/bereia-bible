@@ -122,8 +122,8 @@ Etapa posterior à cobertura DRAFT (ER-0016/0017), aplicada somente a hot-spots:
 
 1. **Triagem estática** (`scripts/qa_linguistico.py`): marcadores mecânicos sobre
    `texto_bv` de registros DRAFT — arcaísmos (§1.2), sentenças > 40 palavras (§1.3),
-   calques paratáticos, redundância interna, excesso de pronomes/passivas,
-   divergência de extensão vs `traducao_literal`. Saída: `qa/reports/hotspots.json`
+   paradigma vós (§3/D-0003), calques paratáticos, redundância interna, excesso de
+   pronomes/passivas, divergência de extensão vs `traducao_literal`. Saída: `qa/reports/hotspots.json`
    + `hotspots.md` + digest por capítulo hot (`qa/reports/review-input/`).
    O detector apenas flagra; a adjudicação (corrigir vs manter fórmula intencional)
    é do agente revisor.

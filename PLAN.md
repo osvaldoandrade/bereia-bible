@@ -182,5 +182,5 @@ pelo finalizador, não só os que mudam texto.
 | Data | Etapa | Resultado |
 |---|---|---|
 | 2026-08-23 | Triagem estática (`scripts/qa_linguistico.py`) | 31142 vv DRAFT; 5705 com achados; 506 capítulos hot (score ≥ 8) |
-| 2026-08-23 | Piloto (Gn 24, Êx 12, Mc 4) | — |
+| 2026-08-23 | Piloto (Gn 24, Êx 12, Mc 4) | 17 vv revisados, 1 objeção MATERIAL (Gen.24.7, texto mantido); commit fc329f7f/6410e600/662e0158; achado: paradigma vós → marcador VOS-1 + prompt v1.1.0 |
 

@@ -6,6 +6,7 @@ texto_bv shows mechanical signs of EDITORIAL.md violations or translationese:
 
   ARC-1  dead archaisms (EDITORIAL §1.2)                       weight 3
   LEN-1  sentence > 40 words (EDITORIAL §1.3)                  weight 3
+  VOS-1  "vós" verb paradigm (EDITORIAL §3/D-0003)             weight 3
   RAT-1  texto_bv diverges in length from traducao_literal     weight 2
   RED-1  repeated content bigram inside one verse (redundancy)  weight 2
   CAL-1  paratactic calques "e aconteceu que"                   weight 2
@@ -57,6 +58,19 @@ ARC_RE = re.compile(
 )
 ACONTECEU_RE = re.compile(r"\be?\s*aconteceu que\b", re.IGNORECASE)
 EIS_RE = re.compile(r"\beis que\b", re.IGNORECASE)
+# "vós" paradigm (EDITORIAL §3/D-0003 requires você/vocês in human<->human
+# and God->human discourse). Unambiguous 2pl forms only:
+#   - future/conditional/imperfect endings (areis/ereis/ireis/aríeis/...);
+#   - -ai imperatives with >= 2 preceding letters (excludes "sai", "cai",
+#     "pai"); the bare -ei ending is AMBIGUOUS with 1sg preterite/future
+#     ("pensei", "farei"), so those imperatives are an explicit list.
+VOS_RE = re.compile(
+    r"\b(\w{2,}(?:areis|ereis|ireis|aríeis|eríeis|iríeis|áveis|íeis)"
+    r"|\w{2,}ai"
+    r"|dai|fazei|trazei|sabei|dizei"
+    r"|ponde|tende|vede|vinde|sede|ide"
+    r"|sois|estais|tendes|vedes|pondes|dizeis"
+    r"|vós)\b")
 PASSIVE_RE = re.compile(
     r"\b(?:foi|foram|era|eram|é|são|será|serão|está|estão|estava|estavam|"
     r"tinha|tinham|seja|sejam|fosse|fossem)\s+\w+(?:ado|ada|ados|adas|"
@@ -64,7 +78,7 @@ PASSIVE_RE = re.compile(
 PRONOUNS = {"ele", "ela", "eles", "elas", "lhe", "lhes", "seu", "sua",
             "seus", "suas", "dele", "dela", "deles", "delas", "consigo"}
 
-MARKER_WEIGHT = {"ARC-1": 3, "LEN-1": 3, "RAT-1": 2, "RED-1": 2,
+MARKER_WEIGHT = {"ARC-1": 3, "LEN-1": 3, "VOS-1": 3, "RAT-1": 2, "RED-1": 2,
                  "CAL-1": 2, "CAL-2": 1, "PRO-1": 1, "PAS-1": 1}
 
 MAX_SENTENCE_WORDS = 40          # EDITORIAL §1.3
@@ -125,6 +139,11 @@ def verse_findings(rec):
     if long_sents:
         findings.append({"id": "LEN-1", "peso": MARKER_WEIGHT["LEN-1"],
                          "detalhe": "sentença de %d palavras" % max(long_sents)})
+
+    vos_hits = sorted({m.group(0).lower() for m in VOS_RE.finditer(text)})
+    if vos_hits:
+        findings.append({"id": "VOS-1", "peso": MARKER_WEIGHT["VOS-1"],
+                         "detalhe": ", ".join(vos_hits[:5])})
 
     if literal:
         n_bv, n_lit = len(text.split()), len(literal.split())
