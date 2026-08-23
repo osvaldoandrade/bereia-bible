@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Gen.37.1-36"
   },
-  "texto_bv": "E Rúben voltou à cisterna, e eis que José não estava na cisterna; então rasgou as suas vestes.",
+  "texto_bv": "E Rúben voltou à cisterna, e José não estava nela; então rasgou as suas vestes.",
   "traducao_literal": "E voltou Rúben ao poço, e eis que não havia José no poço; e rasgou as suas vestes.",
   "termos_originais": [
     {
@@ -67,7 +67,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e eis que José não estava na cisterna → e José não estava nela",
+      "justificativa": "CAL-2: normalização de 'eis que' artificial (ER-0013); 'na cisterna'→'nela' para evitar repetição imediata — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Rúben ausente na venda (voltara depois); o rasgar das vestes = luto/desespero.",
@@ -77,10 +85,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
