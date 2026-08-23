@@ -132,7 +132,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "PRO-1 flagrou 6 pronomes de 3ª pessoa como ambíguos, mas a referência é clara pelo contexto: 'nele' = Jeoiaquim (v.30); 'sua descendência / seus servos' = dele; 'deles / eles' = o grupo mencionado (descendência, servos, habitantes, homens de Judá). O original hebraico emprega a mesma densidade pronominal. — evidência: traducao_literal: 'sobre ele e sobre a sua descendência e sobre os seus servos a iniquidade deles; e trarei sobre eles e sobre os habitantes de Jerusalém e sobre o homem de Judá todo o mal que falei a eles, e não ouviram' — mesma cadeia pronominal. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "עָלָיו ('sobre ele', 3ms) seguido de עֲוֺנָם ('a iniquidade deles', 3mp) — o sufixo plural em 'iniquidade' generaliza para Jeoiaquim, sua descendência e seus servos coletivamente, apesar do pronome singular inicial; a BV mantém essa mudança de número sem harmonizá-la."
@@ -144,10 +152,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

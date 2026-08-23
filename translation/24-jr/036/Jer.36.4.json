@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Jer.36.1-32"
   },
-  "texto_bv": "Jeremias chamou Baruque, filho de Nerias, e Baruque escreveu, da boca de Jeremias, todas as palavras do SENHOR que ele lhe falara, num rolo de livro.",
+  "texto_bv": "Jeremias chamou Baruque, filho de Nerias, e Baruque escreveu, da boca de Jeremias, todas as palavras do SENHOR que ele lhe tinha falado, num rolo de livro.",
   "traducao_literal": "E chamou Jeremias a Baruque, filho de Nerias, e escreveu Baruque, da boca de Jeremias, todas as palavras do SENHOR que falara a ele, sobre um rolo de livro.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
           "motivo": "paráfrase que perde a recorrência lexical do idiomatismo ao longo do capítulo"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "falara → tinha falado",
+      "justificativa": "Arcaísmo funcionalmente morto (§1.2/EDITORIAL): mais-que-perfeito sintético substituído por mais-que-perfeito composto, vivo em pt-BR contemporâneo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,10 +141,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

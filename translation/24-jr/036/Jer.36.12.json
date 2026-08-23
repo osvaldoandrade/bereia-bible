@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Jer.36.1-32"
   },
-  "texto_bv": "Ele desceu à casa do rei, à câmara do escrivão, e eis que ali estavam sentados todos os oficiais: Elisama, o escrivão; Delaías, filho de Semaías; Elnatã, filho de Acbor; Gemarias, filho de Safã; Zedequias, filho de Hananias; e todos os oficiais.",
+  "texto_bv": "Ele desceu à casa do rei, à câmara do escrivão, e ali estavam sentados todos os oficiais: Elisama, o escrivão; Delaías, filho de Semaías; Elnatã, filho de Acbor; Gemarias, filho de Safã; Zedequias, filho de Hananias; e todos os oficiais.",
   "traducao_literal": "E desceu à casa do rei, à câmara do escrivão, e eis que ali todos os oficiais estavam sentados: Elisama, o escrivão, e Delaías, filho de Semaías, e Elnatã, filho de Acbor, e Gemarias, filho de Safã, e Zedequias, filho de Hananias, e todos os oficiais.",
   "termos_originais": [
     {
@@ -158,6 +158,13 @@
           "motivo": "tradução tradicional em pt-BR, mas induz leitura de parentesco real ausente do lexema שַׂר"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e eis que ali estavam sentados → e ali estavam sentados",
+      "justificativa": "Calque paratático (§6.2/ER-0013): 'eis que' (hinnēh) normalizado no texto publicado por soar artificial em narrativa pt-BR; a força dêitica sobrevive na traducao_literal. Remoção também reduz a sentença de 42 para 40 palavras, resolvendo o LEN-1. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -171,10 +178,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

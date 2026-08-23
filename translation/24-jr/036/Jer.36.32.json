@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Jer.36.1-32"
   },
-  "texto_bv": "Jeremias tomou outro rolo e o deu a Baruque, filho de Nerias, o escrivão, que escreveu nele, da boca de Jeremias, todas as palavras do livro que Jeoiaquim, rei de Judá, tinha queimado no fogo; e ainda foram acrescentadas a elas muitas outras palavras semelhantes.",
+  "texto_bv": "Jeremias tomou outro rolo e o deu a Baruque, filho de Nerias, o escrivão, que escreveu nele, da boca de Jeremias, todas as palavras do livro que Jeoiaquim, rei de Judá, tinha queimado no fogo. Ainda foram acrescentadas a elas muitas outras palavras semelhantes.",
   "traducao_literal": "E Jeremias tomou outro rolo e o deu a Baruque, filho de Nerias, o escrivão, e escreveu nele, da boca de Jeremias, todas as palavras do livro que queimou Jeoiaquim, rei de Judá, no fogo; e ainda foi acrescentado sobre elas palavras muitas como estas.",
   "termos_originais": [
     {
@@ -162,7 +162,22 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tinha queimado no fogo; e ainda foram acrescentadas → tinha queimado no fogo. Ainda foram acrescentadas",
+      "justificativa": "Sentença > 40 palavras (§1.3): dividida no ponto-e-vírgula, criando duas frases de ~35 e ~10 palavras sem perda sintática nem adição de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "PAS-1 flagrou 2 construções passivas, mas 'foram acrescentadas' é passiva legítima com agente indeterminado (o original não especifica quem acrescentou); a outra construção ('tinha queimado') é ativa. Conversão para ativa exigiria inventar sujeito não presente no original. — evidência: traducao_literal: 'e ainda foi acrescentado sobre elas palavras muitas como estas' — passiva sem agente no original. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Cláusula de fechamento do capítulo, em construção X-qatal (sujeito antes do verbo, já S-V no original, sem inversão a normalizar); nota final sobre o acréscimo de mais palavras ao segundo rolo, sem especificar seu conteúdo.",
@@ -172,10 +187,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

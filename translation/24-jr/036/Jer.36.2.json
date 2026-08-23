@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Jer.36.1-32"
   },
-  "texto_bv": "\"Toma um rolo de livro e escreve nele todas as palavras que eu falei a você sobre Israel, sobre Judá e sobre todas as nações, desde o dia em que falei com você, desde os dias de Josias, até hoje.",
+  "texto_bv": "\"Tome um rolo de livro e escreva nele todas as palavras que eu falei a você sobre Israel, sobre Judá e sobre todas as nações, desde o dia em que falei com você, desde os dias de Josias, até hoje.",
   "traducao_literal": "\"Toma para ti um rolo de livro e escreve nele todas as palavras que falei a ti sobre Israel e sobre Judá e sobre todas as nações, desde o dia falei a ti, desde os dias de Josias e até este dia.",
   "termos_originais": [
     {
@@ -168,6 +168,20 @@
       "escolha": "você (ER-0003/D-0003).",
       "justificativa": "Discurso de Deus dirigido a um humano (Jeremias) segue a convenção você/vocês, reservando tu à oração dirigida a Deus.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Toma → Tome | escreve → escreva",
+      "justificativa": "Coerência paradigmática (§3/D-0003): Deus→humano = você; imperativo de 3ps (você) em vez de 2ps (tu) para alinhar com o pronome 'você' já empregado no verso. | Coerência paradigmática (§3/D-0003): imperativo de 3ps (você) em vez de 2ps (tu), alinhando com 'você' no mesmo verso. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "RED-1 flagrou 'falei voce' como redundância interna, mas a repetição de 'falei a você' espelha o original hebraico (dibre elêka + dibbartî elêka) — é fórmula intencional, não defeito. — evidência: traducao_literal repete 'falei a ti' duas vezes, correspondendo a duas ocorrências distintas no hebraico. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -181,10 +195,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
