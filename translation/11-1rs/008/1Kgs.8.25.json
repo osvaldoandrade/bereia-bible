@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "1Kgs.8.1-66"
   },
-  "texto_bv": "Agora, SENHOR, Deus de Israel, guarda para teu servo Davi, meu pai, aquilo que lhe falaste, dizendo: ‘Não te faltará, diante de mim, homem que se assente no trono de Israel, contanto que teus filhos guardem o caminho deles, andando diante de mim como tu andaste diante de mim.’",
+  "texto_bv": "Agora, SENHOR, Deus de Israel, guarda para teu servo Davi, meu pai, aquilo que lhe falaste. Disseste: ‘Não te faltará, diante de mim, homem que se assente no trono de Israel, contanto que teus filhos guardem o caminho deles, andando diante de mim como tu andaste diante de mim.’",
   "traducao_literal": "E agora, SENHOR, Deus de Israel, guarda para teu servo Davi, meu pai, aquilo que falaste a ele, dizendo: ‘Não será cortado para ti, de diante de mim, homem que se assente sobre o trono de Israel, somente se teus filhos guardarem o caminho deles, para andar diante de mim como andaste diante de mim.’",
   "termos_originais": [
     {
@@ -193,7 +193,15 @@
       "impacto_na_traducao": "Nenhum impacto lexical, sintático ou semântico na tradução de 8:25."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "aquilo que lhe falaste, dizendo: ‘Não te faltará → aquilo que lhe falaste. Disseste: ‘Não te faltará",
+      "justificativa": "Divisão de sentença longa (49 palavras, LEN-1): gerúndio 'dizendo' substituído por frase independente 'Disseste' (2ª pessoa, coerente com paradigma 'tu' de oração a Deus, §3/D-0003). Primeira frase: 17 palavras; segunda: 28 palavras. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A petição ‘guarda’, a promessa dinástica, o homem no trono, a condição sobre os filhos e a repetição ‘diante de mim’ foram preservados; a nota acentual foi auditada sem criar variante lexical.",
@@ -203,10 +211,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }

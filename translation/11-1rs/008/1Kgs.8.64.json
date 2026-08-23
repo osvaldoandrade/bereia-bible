@@ -7,7 +7,7 @@
     "versiculo": 64,
     "pericope": "1Kgs.8.1-66"
   },
-  "texto_bv": "Naquele dia, o rei santificou o meio do pátio que estava diante da Casa do SENHOR, pois ali ofereceu o holocausto, a oferta de cereal e a gordura das ofertas pacíficas; porque o altar de bronze que estava diante do SENHOR era pequeno demais para conter o holocausto, a oferta de cereal e a gordura das ofertas pacíficas.",
+  "texto_bv": "Naquele dia, o rei santificou o meio do pátio diante da Casa do SENHOR, pois ali ofereceu o holocausto, a oferta de cereal e a gordura das ofertas pacíficas. O altar de bronze diante do SENHOR era pequeno demais para conter o holocausto, a oferta de cereal e a gordura das ofertas pacíficas.",
   "traducao_literal": "Naquele dia santificou o rei o meio do pátio que estava diante da Casa do SENHOR, porque fez ali o holocausto, e a oferta de cereal, e as gorduras das ofertas pacíficas; porque o altar do bronze que estava diante do SENHOR era pequeno para conter o holocausto, e a oferta de cereal, e as gorduras das ofertas pacíficas.",
   "termos_originais": [
     {
@@ -192,7 +192,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o meio do pátio que estava diante da Casa do SENHOR, pois ali ofereceu o holocausto, a oferta de cereal e a gordura das ofertas pacíficas; porque o altar de bronze que estava diante do SENHOR era pequeno demais → o meio do pátio diante da Casa do SENHOR, pois ali ofereceu o holocausto, a oferta de cereal e a gordura das ofertas pacíficas. O altar de bronze diante do SENHOR era pequeno demais",
+      "justificativa": "Divisão de sentença longa (58 palavras, LEN-1) em duas frases (~27 + ~27 palavras) e condensação de 'que estava diante' (2×, RED-1) para 'diante' (relativa copulativa dispensável em pt-BR). A repetição da lista tripartida (holocausto/cereal/gordura) é mantida — paralelismo causa-efeito intencional do original. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "demais"
   ],
@@ -204,10 +212,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }

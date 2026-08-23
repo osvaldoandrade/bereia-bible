@@ -7,7 +7,7 @@
     "versiculo": 43,
     "pericope": "1Kgs.8.1-66"
   },
-  "texto_bv": "tu ouvirás nos céus, lugar da tua habitação, e farás conforme tudo pelo que o estrangeiro clamar a ti, para que todos os povos da terra conheçam teu nome, para temerem a ti como teu povo Israel e para saberem que teu nome é invocado sobre esta Casa que edifiquei.",
+  "texto_bv": "tu ouvirás nos céus, lugar da tua habitação, e farás conforme tudo pelo que o estrangeiro clamar a ti. Assim todos os povos da terra conhecerão teu nome, temerão a ti como teu povo Israel e saberão que teu nome é invocado sobre esta Casa que edifiquei.",
   "traducao_literal": "tu ouvirás nos céus, lugar da tua habitação, e farás conforme tudo o que clamar a ti o estrangeiro, a fim de que conheçam todos os povos da terra teu nome, para temer a ti como teu povo Israel e para saber que teu nome é chamado sobre esta Casa que edifiquei.",
   "termos_originais": [
     {
@@ -167,7 +167,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "clamar a ti, para que todos os povos da terra conheçam teu nome, para temerem a ti como teu povo Israel e para saberem que → clamar a ti. Assim todos os povos da terra conhecerão teu nome, temerão a ti como teu povo Israel e saberão que",
+      "justificativa": "Divisão de sentença longa (50 palavras, LEN-1): oração consecutiva 'para que... conheçam/temeram/saberem' (subjuntivo) desmembrada em frase independente com 'Assim' (futuro do indicativo). O lema'an hebraico é final-consecutivo; a nuance de certeza vs. finalidade é estilística neste contexto. Primeira frase: 22 palavras; segunda: 27 palavras. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "‘Teu nome é invocado sobre esta Casa’ mantém a fórmula נִקְרָא עַל sem reduzi-la a mera denominação ou propriedade."
@@ -179,10 +187,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
