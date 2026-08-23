@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Exod.8.1-28"
   },
-  "texto_bv": "E Moisés disse: Eis que saio de ti, e rogarei ao SENHOR, que estes enxames de moscas se retirem amanhã de Faraó, dos seus servos, e do seu povo; somente que Faraó não mais me engane, não deixando ir a este povo para sacrificar ao SENHOR.",
+  "texto_bv": "E Moisés disse: Eis que saio de ti e rogarei ao SENHOR que estes enxames de moscas se retirem amanhã de Faraó, dos seus servos e do seu povo. Somente que Faraó não mais me engane, não deixando ir este povo para sacrificar ao SENHOR.",
   "traducao_literal": "E disse Moisés: Eis que eu saindo de com ti, e orarei a YHWH, e afastar-se-á o enxame de Faraó, dos seus servos e do seu povo amanhã; somente não continue Faraó a zombar, para não deixar ir o povo para sacrificar a YHWH.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "saio de ti, e rogarei ao SENHOR, que estes enxames de moscas se retirem amanhã de Faraó, dos seus servos, e do seu povo; somente → saio de ti e rogarei ao SENHOR que estes enxames de moscas se retirem amanhã de Faraó, dos seus servos e do seu povo. Somente | a este povo → este povo",
+      "justificativa": "Divisão de sentença longa de 46 palavras em dois períodos (LEN-1, §1.3) e limpeza de vírgulas desnecessárias antes de 'e' com mesmo sujeito (§6.1). O 'eis que' inicial é mantido por força dêitica (anúncio de partida). | Regência de 'deixar ir' pede objeto direto sem preposição 'a' (§6.1). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "אַל־יֹסֵף פַּרְעֹה הָתֵל 'não torne Faraó a zombar/enganar' — Moisés desconfia da palavra de Faraó, que já se retratara (v.4,11). YHWH→SENHOR.",
@@ -152,10 +160,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

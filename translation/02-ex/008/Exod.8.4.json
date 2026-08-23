@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Exod.8.1-28"
   },
-  "texto_bv": "E Faraó chamou a Moisés e a Arão, e disse: Rogai ao SENHOR que tire as rãs de mim e do meu povo; então deixarei ir o povo, para que sacrifiquem ao SENHOR.",
+  "texto_bv": "E Faraó chamou a Moisés e a Arão, e disse: Peçam ao SENHOR que tire as rãs de mim e do meu povo; então deixarei ir o povo, para que sacrifiquem ao SENHOR.",
   "traducao_literal": "E chamou Faraó a Moisés e a Arão, e disse: Orai a YHWH, e afaste as rãs de mim e do meu povo; e deixarei ir o povo, e sacrificarão a YHWH.",
   "termos_originais": [
     {
@@ -97,7 +97,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Rogai → Peçam",
+      "justificativa": "Paradigma vós→vocês: imperativo plural (VOS-1, D-0003/§3). Faraó dirige-se a Moisés e Arão (humano→humano plural). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "הַעְתִּירוּ 'orai/intercedei' — Faraó reconhece o poder de YHWH sob pressão, mas retratar-se-á (v.11). Primeira 'negociação'. YHWH→SENHOR.",
@@ -107,10 +115,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
