@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "Jer.44.1-30"
   },
-  "texto_bv": "Portanto, ouçam a palavra do SENHOR, todo o Judá que habita na terra do Egito: eis que jurei pelo meu grande nome, diz o SENHOR, que o meu nome nunca mais será invocado pela boca de nenhum homem de Judá em toda a terra do Egito, dizendo: ‘Vive o Senhor DEUS.’",
+  "texto_bv": "Portanto, ouçam a palavra do SENHOR, todo o Judá que habita na terra do Egito. Eis que jurei pelo meu grande nome, diz o SENHOR, que o meu nome nunca mais será invocado pela boca de nenhum homem de Judá em toda a terra do Egito, dizendo: 'Vive o Senhor DEUS.'",
   "traducao_literal": "Portanto ouvi a palavra de SENHOR, todo o Judá, os que habitam na terra do Egito: eis-me jurei pelo meu nome grande, disse SENHOR, se ainda será meu nome chamado na boca de todo homem de Judá, dizendo: vive Senhor DEUS, em toda a terra do Egito.",
   "termos_originais": [
     {
@@ -184,6 +184,13 @@
       "escolha": "'Senhor DEUS', com a fórmula completa entre aspas simples: ‘Vive o Senhor DEUS.’",
       "justificativa": "NOMES-DIVINOS.md: אֲדֹנָי יהוה → Senhor DEUS (evita 'Senhor SENHOR'); aspas simples por ser citação de fórmula ritual dentro do discurso já duplamente citado (precedente: 'Ai, senhor!' em Jer.34.5).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "na terra do Egito: eis que jurei → na terra do Egito. Eis que jurei",
+      "justificativa": "Divisão de sentença longa (51 palavras, LEN-1) em duas no limite entre o chamado à atenção (imperativo) e o conteúdo do anúncio divino. O 'Eis que' (הִנְנִי, deictic com força) inicia nova frase com clareza contextual; a conexão com 'ouçam' sobrevive ao ponto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -195,10 +202,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

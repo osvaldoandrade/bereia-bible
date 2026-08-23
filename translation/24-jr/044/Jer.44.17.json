@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Jer.44.1-30"
   },
-  "texto_bv": "Certamente cumpriremos toda palavra que saiu da nossa boca, queimando incenso à Rainha dos Céus e derramando-lhe libações, como fizemos nós, nossos pais, nossos reis e nossos líderes nas cidades de Judá e nas ruas de Jerusalém; comíamos pão à fartura, vivíamos bem e não víamos desgraça alguma.",
+  "texto_bv": "Certamente cumpriremos toda palavra que saiu da nossa boca, queimando incenso à Rainha dos Céus e derramando-lhe libações, como fizemos nós, nossos pais, nossos reis e nossos líderes nas cidades de Judá e nas ruas de Jerusalém. Comíamos pão à fartura, vivíamos bem e não víamos desgraça alguma.",
   "traducao_literal": "Porque fazendo faremos toda a palavra que saiu da nossa boca, para queimar-incenso à rainha dos céus e para derramar-lhe libações, como fizemos nós e nossos pais, nossos reis e nossos príncipes, nas cidades de Judá e nas ruas de Jerusalém; e nos saciamos de pão, e fomos bons, e mal não vimos.",
   "termos_originais": [
     {
@@ -200,6 +200,13 @@
           "motivo": "mais tradicional, porém menos transparente para o leitor atual; ambos válidos"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nas ruas de Jerusalém; comíamos pão → nas ruas de Jerusalém. Comíamos pão",
+      "justificativa": "Divisão de sentença longa (49 palavras, LEN-1) em duas no limite sintático natural marcado pelo ponto e vírgula. A segunda oração é recordação nostálgica independente da declaração de voto; a partícula waw no hebraico permite início de novo período. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -213,10 +220,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

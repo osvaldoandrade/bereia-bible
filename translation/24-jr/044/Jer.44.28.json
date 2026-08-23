@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Jer.44.1-30"
   },
-  "texto_bv": "E os fugitivos da espada voltarão da terra do Egito para a terra de Judá, poucos em número; e todo o remanescente de Judá que veio para a terra do Egito para lá morar saberá de quem é a palavra que se cumprirá — se a minha ou a deles.",
+  "texto_bv": "E os fugitivos da espada voltarão da terra do Egito para a terra de Judá, poucos em número. E todo o remanescente de Judá que veio à terra do Egito para lá morar saberá de quem é a palavra que se cumprirá — se a minha ou a deles.",
   "traducao_literal": "E os escapos da espada voltarão da terra do Egito para a terra de Judá, homens de número; e saberão todo o remanescente de Judá, os que vêm à terra do Egito para peregrinar ali, a palavra de quem se levantará, de mim ou deles.",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
       "escolha": "'de quem é a palavra que se cumprirá — se a minha ou a deles'.",
       "justificativa": "קום no sentido de 'cumprir-se/confirmar-se' uma palavra profética, contrastando a palavra de YHWH (por meio de Jeremias) com a garantia falsa de proteção que os fugitivos aparentemente tinham (implícita nos vv.17-19).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "poucos em número; e todo o remanescente → poucos em número. E todo o remanescente | que veio para a terra do Egito para lá morar → que veio à terra do Egito para lá morar",
+      "justificativa": "Divisão de sentença longa (49 palavras, LEN-1) em duas no limite sintático natural marcado pelo ponto e vírgula. A segunda oração tem sujeito próprio (todo o remanescente) e verbo independente (saberá); a conexão discursiva sobrevive ao 'E' inicial. | Contração de 'para a' → 'à' para evitar repetição cacofônica próxima 'para a terra... para lá' (§1.3, leitura confortável em voz alta). Sem alteração de sentido: 'vir a' e 'vir para' são equivalentes direcionais neste contexto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -160,10 +167,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
