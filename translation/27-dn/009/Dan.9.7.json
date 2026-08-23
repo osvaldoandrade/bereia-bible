@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Dan.9.1-27"
   },
-  "texto_bv": "A ti, Senhor, pertence a justiça; a nós, a vergonha do rosto, como hoje se vê — aos homens de Judá, aos moradores de Jerusalém e a todo o Israel, tanto os de perto como os de longe, em todas as terras para onde os expulsaste, por causa da infidelidade que cometeram contra ti.",
+  "texto_bv": "A ti, Senhor, pertence a justiça; a nós, a vergonha do rosto, como hoje se vê. Ela cabe aos homens de Judá, aos moradores de Jerusalém e a todo o Israel — tanto os de perto como os de longe, em todas as terras para onde os expulsaste, por causa da infidelidade que cometeram contra ti.",
   "traducao_literal": "A ti, Senhor, a justiça, e a nós a vergonha do rosto, como o dia de hoje, aos homens de Judá e aos moradores de Jerusalém e a todo o Israel, os próximos e os distantes, em todas as terras para onde os expulsaste, pela infidelidade que cometeram contra ti.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
           "motivo": "agramatical em prosa corrida do português (EDITORIAL §1.3)."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "A ti, Senhor, pertence a justiça; a nós, a vergonha do rosto, como hoje se vê — aos homens de Judá, aos moradores de Jerusalém e a todo o Israel, tanto os de perto como os de longe, em todas as terras para onde os expulsaste, por causa da infidelidade que cometeram contra ti. → A ti, Senhor, pertence a justiça; a nós, a vergonha do rosto, como hoje se vê. Ela cabe aos homens de Judá, aos moradores de Jerusalém e a todo o Israel — tanto os de perto como os de longe, em todas as terras para onde os expulsaste, por causa da infidelidade que cometeram contra ti.",
+      "justificativa": "LEN-1: sentença de 53 palavras dividida em duas (~23 + ~30) para conforto de leitura (§1.3). Sentido preservado: a segunda frase retoma o sujeito implícito (a vergonha) e explicita os destinatários enumerados. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -161,10 +168,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
