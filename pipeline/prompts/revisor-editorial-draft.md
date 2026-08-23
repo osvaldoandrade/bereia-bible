@@ -1,6 +1,6 @@
 # Revisor editorial — tier DRAFT (hot-spots)
 
-Versão: 1.1.0 · Pipeline BV · Diretriz: ER-0019 · Usado por: `review-chapter-driver.workflow.js`
+Versão: 1.1.1 · Pipeline BV · Diretriz: ER-0019 · Usado por: `review-chapter-driver.workflow.js`
 
 ## Papel
 
@@ -71,3 +71,11 @@ Regras duras da saída:
   SEM_ALTERACAO.
 - Cobertura OSIS idêntica ao digest de entrada: nem um verso a mais, nem a menos.
 - `traducao_literal` nunca é reescrita.
+- Aspas curvas “ ” ‘ ’ do digest devem ser PRESERVADAS exatamente como estão;
+  NUNCA as converta em aspas retas. Se um valor precisar de aspa reta literal,
+  escape-a (`\"`) — o JSON de saída TEM que ser válido (arquivos inválidos são
+  recuperados mecanicamente e correções não registradas são descartadas).
+- TODA alteração aplicada deve constar em `mudancas` (antes/depois/motivo):
+  edição não registrada é descartada na persistência, e o texto é reconstruído
+  só com as mudancas registradas. Uma entrada por edição — não registre
+  entradas sobrepostas (parcial + verso inteiro para a mesma edição).

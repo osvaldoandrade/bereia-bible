@@ -260,6 +260,14 @@ Ver `docs/domain/governanca/glossary.md`.
   discurso de Deus, não flagrado pelos marcadores originais — marcador VOS-1
   adicionado nesta data e prompt canônico elevado a v1.1.0 (normalização
   coordenada do capítulo inteiro; `prompts_versao` do ciclo passa a 1.2.1).
+- Execução em massa (2026-08-23): `scripts/ship_review_batch.py` — reparo
+  mecânico (quote-swap incidental), recuperação verificada de saídas
+  malformadas (`--recover`: blocos consertados por máquina de estados de
+  aspas e validados contra registro+mudancas; `--regen-noop`), persistência,
+  bvcheck e commit por capítulo em um comando. Warts recorrentes dos agentes
+  (aspas curvas emitidas retas sem escape; edições não registradas em
+  mudancas — estas são descartadas, o texto é reconstruído só com as mudancas
+  registradas) levaram o prompt canônico a v1.1.1; `prompts_versao` 1.2.2.
 
 ---
 
