@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "Porque cobriram a face de toda a terra, de modo que a terra se escureceu; e comeram toda a erva da terra, e todo o fruto das árvores, que deixara a saraiva; e não ficou verde algum nas árvores, nem na erva do campo, por toda a terra do Egito.",
+  "texto_bv": "Porque cobriram a face de toda a terra, de modo que a terra se escureceu; e comeram toda a erva da terra, e todo o fruto das árvores, que a saraiva tinha deixado. Não ficou verde algum nas árvores, nem na erva do campo, por toda a terra do Egito.",
   "traducao_literal": "E cobriu o olho de toda a terra, e escureceu-se a terra, e comeu toda a erva da terra e todo o fruto da árvore que deixou a saraiva; e não restou todo o verde na árvore e na erva do campo em toda a terra do Egito.",
   "termos_originais": [
     {
@@ -157,7 +157,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que deixara a saraiva; e não ficou verde algum nas árvores, nem na erva do campo, por toda a terra do Egito. → que a saraiva tinha deixado. Não ficou verde algum nas árvores, nem na erva do campo, por toda a terra do Egito.",
+      "justificativa": "ARC-1: mais-que-perfeito sintético 'deixara' substituído pelo composto 'tinha deixado' (§1.2). LEN-1 (50 palavras): sentença dividida em duas após 'deixado'; vírgula+e substituída por ponto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "וַתֶּחְשַׁךְ הָאָרֶץ 'e a terra escureceu' — os gafanhotos preludiam as trevas (v.21); a devastação é total.",
@@ -167,10 +175,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

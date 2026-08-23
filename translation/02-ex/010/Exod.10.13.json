@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "Então estendeu Moisés a sua vara sobre a terra do Egito, e o SENHOR trouxe sobre a terra um vento oriental todo aquele dia e toda aquela noite; e aconteceu que pela manhã o vento oriental trouxe os gafanhotos.",
+  "texto_bv": "Então estendeu Moisés a sua vara sobre a terra do Egito, e o SENHOR trouxe sobre a terra um vento oriental todo aquele dia e toda aquela noite; e pela manhã o vento oriental trouxe os gafanhotos.",
   "traducao_literal": "E estendeu Moisés o seu cajado sobre a terra do Egito, e YHWH conduziu um vento oriental na terra todo aquele dia e toda a noite; foi a manhã, e o vento oriental levantou o gafanhoto.",
   "termos_originais": [
     {
@@ -132,7 +132,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e aconteceu que pela manhã o vento oriental trouxe os gafanhotos. → e pela manhã o vento oriental trouxe os gafanhotos.",
+      "justificativa": "CAL-1: removido o calque paratático 'aconteceu que' (§6.2/ER-0013); o adjunto temporal 'pela manhã' substitui naturalmente a construção. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "רוּחַ קָדִים 'vento oriental' (o instrumento de Deus, cf. 14:21 no mar) — a criação obedece a YHWH contra o Egito. YHWH→SENHOR.",
@@ -142,10 +150,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

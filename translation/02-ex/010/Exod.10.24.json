@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "Então chamou Faraó a Moisés, e disse: Ide, servi ao SENHOR; somente fiquem as vossas ovelhas e as vossas vacas; vão também convosco as vossas crianças.",
+  "texto_bv": "Então chamou Faraó a Moisés, e disse: Vão, sirvam ao SENHOR; somente fiquem as ovelhas e as vacas de vocês; vão também com vocês as suas crianças.",
   "traducao_literal": "E chamou Faraó a Moisés, e disse: Ide, servi a YHWH; somente o vosso rebanho e o vosso gado seja detido; também as vossas crianças irão convosco.",
   "termos_originais": [
     {
@@ -97,7 +97,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ide, servi ao SENHOR; somente fiquem as vossas ovelhas e as vossas vacas; vão também convosco as vossas crianças. → Vão, sirvam ao SENHOR; somente fiquem as ovelhas e as vacas de vocês; vão também com vocês as suas crianças.",
+      "justificativa": "Normalização do paradigma vós→vocês (§3/D-0003): discurso humano→humano (Faraó a Moisés). 'Ide'→'Vão', 'servi'→'sirvam', 'vossas ovelhas/vossas vacas'→'ovelhas/vacas de vocês', 'convosco'→'com vocês', 'vossas crianças'→'suas crianças'. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Quarta negociação: agora cedem-se as crianças, mas retêm-se os rebanhos (para o culto e o sustento). Moisés recusa (v.25-26). YHWH→SENHOR.",
@@ -107,10 +115,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
