@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Gen.47.1-31"
   },
-  "texto_bv": "E acabando-se o dinheiro na terra do Egito e na terra de Canaã, vieram todos os egípcios a José, dizendo: Dá-nos pão; por que morreremos na tua presença? Pois o dinheiro nos falta.",
+  "texto_bv": "E acabando-se o dinheiro na terra do Egito e na terra de Canaã, vieram todos os egípcios a José, dizendo: Dê-nos pão; por que morreremos na sua presença? Pois o dinheiro nos falta.",
   "traducao_literal": "E acabou-se a prata da terra do Egito e da terra de Canaã, e vieram todos os egípcios a José, dizendo: Dá-nos pão; e por que morreremos diante de ti? Porque acabou a prata.",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Dá-nos → Dê-nos | na tua presença → na sua presença",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003/ER-0019): imperativo tu → você em discurso humano↔humano | Normalização do paradigma de 2ª pessoa (§3/D-0003/ER-0019): possessivo tu → você em discurso humano↔humano — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Israel em Gósen e a administração da fome (DRAFT, ADR-0002).",
@@ -127,10 +135,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

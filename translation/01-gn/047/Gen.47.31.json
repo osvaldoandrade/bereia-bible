@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "Gen.47.1-31"
   },
-  "texto_bv": "E disse Jacó: Jura-me. E ele lhe jurou. Então Israel se inclinou sobre a cabeceira da cama.",
+  "texto_bv": "E disse Jacó: Jure-me. E ele lhe jurou. Então Israel se inclinou sobre a cabeceira da cama.",
   "traducao_literal": "E disse: Jura-me. E jurou a ele. E prostrou-se Israel sobre a cabeça da cama.",
   "termos_originais": [
     {
@@ -78,7 +78,15 @@
       "impacto_na_traducao": "Muda a imagem (inclinar-se no leito vs apoiar-se no bastão em adoração); a BV mantém o TM e registra a tradição do NT."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Jura-me → Jure-me",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003/ER-0019): imperativo tu → você em discurso humano↔humano — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "TM עַל־רֹאשׁ הַמִּטָּה 'sobre a cabeceira da cama'; LXX lê הַמַּטֶּה 'o bastão' (ἐπὶ τὸ ἄκρον τῆς ῥάβδου), leitura seguida em Hb 11:21. Variante registrada.",
@@ -88,10 +96,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
