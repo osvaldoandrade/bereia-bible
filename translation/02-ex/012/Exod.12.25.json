@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "E acontecerá que, quando entrardes na terra que o SENHOR vos dará, como tem dito, guardareis este culto.",
+  "texto_bv": "E acontecerá que, quando entrarem na terra que o SENHOR dará a vocês, como tem dito, guardem este culto.",
   "traducao_literal": "E será, quando vierdes à terra que dará YHWH a vós, conforme falou, e guardareis o serviço este.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "entrardes → entrarem | vos dará → dará a vocês | guardareis → guardem",
+      "justificativa": "Normalização do paradigma vós→vocês (§3/D-0003) — futuro do subjuntivo, 2ª→3ª pessoa do plural. | Normalização do paradigma vós→vocês (§3/D-0003) — pronome oblíquo átono convertido em locução prepositiva. | Normalização do paradigma vós→vocês (§3/D-0003) — futuro com valor imperativo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A Páscoa liga o êxodo à posse futura da terra — a festa é praticada 'quando entrardes'; memória que projeta esperança. YHWH→SENHOR.",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
