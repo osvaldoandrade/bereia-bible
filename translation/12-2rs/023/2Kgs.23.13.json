@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Kgs.23.1-37"
   },
-  "texto_bv": "O rei profanou os lugares altos diante de Jerusalém, ao sul do monte da Destruição, que Salomão, rei de Israel, havia construído para Astarote, abominação dos sidônios, para Quemos, abominação de Moabe, e para Milcom, prática detestável dos filhos de Amom.",
+  "texto_bv": "O rei profanou os lugares altos diante de Jerusalém, ao sul do monte da Destruição. Salomão, rei de Israel, os havia construído para Astarote, abominação dos sidônios, para Quemos, abominação de Moabe, e para Milcom, prática detestável dos filhos de Amom.",
   "traducao_literal": "E os lugares altos que estavam diante de Jerusalém, que estavam à direita do monte da Destruição, que construiu Salomão, rei de Israel, para Astarote, abominação dos sidônios, e para Quemos, abominação de Moabe, e para Milcom, detestação dos filhos de Amom, tornou impuros o rei.",
   "termos_originais": [
     {
@@ -147,7 +147,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Destruição, que Salomão, rei de Israel, havia construído → Destruição. Salomão, rei de Israel, os havia construído",
+      "justificativa": "Divisão de sentença com 41 palavras em duas (15 + 26), conforme §1.3 (EDITORIAL). Pronome ‘os’ retoma ‘lugares altos’ com referência inequívoca. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "havia"
   ],
@@ -161,10 +169,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
