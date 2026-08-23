@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Dan.8.1-27"
   },
-  "texto_bv": "Eu vi em visão, e aconteceu que, enquanto eu observava, eu estava em Susã, a cidadela que fica na província de Elão; eu vi em visão, e eu estava junto ao canal de Ulai.",
+  "texto_bv": "Eu vi em visão e, enquanto eu observava, eu estava em Susã, a cidadela que fica na província de Elão; eu vi em visão e eu estava junto ao canal de Ulai.",
   "traducao_literal": "E eu vi em a visão, e foi em meu ver, e eu em Susã a cidadela que em Elão a província; e eu vi em a visão, e eu eu-estava sobre canal-de Ulai.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "apaga a distinção lexical entre אוּבָל e נָהָר"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e aconteceu que, enquanto eu observava → e, enquanto eu observava",
+      "justificativa": "remoção de calque paratático 'aconteceu que' (ER-0013/§6.2); a cláusula temporal 'enquanto eu observava' já veicula o sentido circunstancial do original — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -121,10 +128,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
