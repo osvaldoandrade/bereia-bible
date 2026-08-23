@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Eccl.2.1-26"
   },
-  "texto_bv": "E tudo o que os meus olhos pediram, eu não lhes neguei; não privei meu coração de alegria alguma, pois meu coração se alegrava por causa de toda a minha labuta, e essa foi a minha porção em toda a minha labuta.",
+  "texto_bv": "E tudo o que os meus olhos pediram, eu não lhes neguei; não privei meu coração de alegria alguma. Pois meu coração se alegrava por causa de toda a minha labuta, e essa foi a minha porção em toda a minha labuta.",
   "traducao_literal": "E tudo o que pediram os meus olhos, não retive deles; não retive meu coração de toda alegria; porque meu coração [estava] alegre de toda a minha labuta; e isso foi minha porção de toda a minha labuta.",
   "termos_originais": [
     {
@@ -153,6 +153,13 @@
           "motivo": "mais genérico; 'porção' preserva melhor o timbre de quinhão/destino atribuído."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "não privei meu coração de alegria alguma, pois meu coração se alegrava → não privei meu coração de alegria alguma. Pois meu coração se alegrava",
+      "justificativa": "LEN-1: sentença de 42 palavras dividida em duas (18 + 22); vírgula antes de ‘pois’ substituída por ponto. RED-1 (‘minha labuta’ ×2): falso positivo — a repetição espelha o original (‘de toda a minha labuta… minha porção de toda a minha labuta’). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -164,10 +171,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

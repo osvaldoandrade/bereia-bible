@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Eccl.2.1-26"
   },
-  "texto_bv": "Então me voltei para todas as obras que as minhas mãos tinham feito, e para a labuta com que labutei para fazê-las; e eis que tudo era vapor e correr atrás do vento, e não havia proveito debaixo do sol.",
+  "texto_bv": "Então me voltei para todas as obras que as minhas mãos tinham feito e para a labuta com que labutei para fazê-las. Tudo era vapor e correr atrás do vento; não havia proveito debaixo do sol.",
   "traducao_literal": "E voltei-me, eu, para todas as minhas obras que fizeram as minhas mãos, e para a labuta que labutei para fazer; e eis que tudo [era] vapor e perseguição de vento; e não [havia] proveito debaixo do sol.",
   "termos_originais": [
     {
@@ -130,6 +130,13 @@
       "escolha": "debaixo do sol",
       "justificativa": "fórmula característica de Qohélet; fixada em tradução literal padrão, sem variação, para permitir rastreamento lexical ao longo do livro (vv.11,17,18,19,20,22).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então me voltei para todas as obras que as minhas mãos tinham feito, e para a labuta com que labutei para fazê-las; e eis que tudo era vapor e correr atrás do vento, e não havia proveito debaixo do sol. → Então me voltei para todas as obras que as minhas mãos tinham feito e para a labuta com que labutei para fazê-las. Tudo era vapor e correr atrás do vento; não havia proveito debaixo do sol.",
+      "justificativa": "CAL-2: ‘eis que’ normalizado (dêitico redundante com ‘Então me voltei’, que já marca a reflexão); LEN-1: sentença de 41 palavras dividida em duas (22 + 14); vírgula antes de ‘e para a labuta’ removida (mesmo sujeito). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -143,10 +150,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
