@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Exod.4.1-31"
   },
-  "texto_bv": "Então se acendeu a ira do SENHOR contra Moisés, e disse: Não é Arão, o levita, teu irmão? Eu sei que ele falará muito bem; e eis que ele também sai ao teu encontro; e, vendo-te, se alegrará no seu coração.",
+  "texto_bv": "Então se acendeu a ira do SENHOR contra Moisés, e disse: Não é Arão, o levita, seu irmão? Eu sei que ele falará muito bem; e eis que ele também sai ao seu encontro; e, ao ver você, se alegrará no seu coração.",
   "traducao_literal": "E acendeu-se a ira de YHWH contra Moisés, e disse: Não é Arão, o levita, teu irmão? Sei que falar falará ele; e também eis que ele saindo ao teu encontro, e ver-te-á e se alegrará no seu coração.",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "teu irmão → seu irmão | ao teu encontro → ao seu encontro | vendo-te → ao ver você",
+      "justificativa": "§3/D-0003: Deus→humano pede você; possessivo teu→seu | §3/D-0003: possessivo teu→seu (Deus→humano = você) | §3/D-0003: pronome te→você (Deus→humano); 'ao ver' mais natural que gerúndio com pronome clítico — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "וַיִּחַר־אַף יְהוָה 'acendeu-se a ira do SENHOR' — a insistência de Moisés provoca; Deus concede Arão como porta-voz (concessão, não plano ideal). YHWH→SENHOR.",
@@ -132,10 +140,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Exod.4.1-31"
   },
-  "texto_bv": "Então disse o SENHOR a Moisés: Estende a tua mão, e pega-lhe pela cauda. E estendeu a sua mão, e pegou-lhe pela cauda, e tornou-se em vara na sua mão.",
+  "texto_bv": "Então disse o SENHOR a Moisés: Estenda a sua mão e pegue-a pela cauda. Ele estendeu a sua mão e a pegou, e ela se transformou em vara na sua mão.",
   "traducao_literal": "E disse YHWH a Moisés: Estende a tua mão e segura na sua cauda. E estendeu a sua mão e agarrou-o, e tornou-se em cajado na sua palma.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Estende a tua mão, e pega-lhe pela cauda → Estenda a sua mão e pegue-a pela cauda | pegou-lhe pela cauda → a pegou | tornou-se em vara na sua mão → ela se transformou em vara na sua mão",
+      "justificativa": "§3/D-0003: imperativos com você (estende→estenda, pega→pegue); possessivo tua→sua; correção de regência: pegar é VTD (pega-lhe→pegue-a) | RED-1: redundância 'pela cauda' não repetida no original (literal: 'agarrou-o'); remoção preserva fidelidade | ARC-1: arcaísmo 'tornou-se em' substituído por 'se transformou em'; sujeito explícito 'ela' para evitar ambiguidade (sujeito é a cobra, não Moisés) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Pegar a serpente pela cauda (não pela cabeça, o modo seguro) exige fé/obediência.",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

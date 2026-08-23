@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Exod.4.1-31"
   },
-  "texto_bv": "E se acontecer que ainda não creiam a estes dois sinais, nem ouçam a tua voz, tomarás das águas do rio, e as derramarás na terra seca; e as águas que tomarás do rio tornar-se-ão em sangue sobre a terra seca.",
+  "texto_bv": "E se acontecer que ainda não creiam a estes dois sinais nem ouçam a sua voz, você tomará das águas do rio e as derramará na terra seca. E as águas que você tomar do rio se transformarão em sangue sobre a terra seca.",
   "traducao_literal": "E será, se não crerem também aos dois sinais estes e não ouvirem à tua voz, e tomarás das águas do Nilo e derramarás à terra seca; e serão as águas que tomarás do Nilo, e serão em sangue na terra seca.",
   "termos_originais": [
     {
@@ -137,7 +137,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tua voz → sua voz | tomarás…derramarás…tomarás → você tomará…derramará…você tomar | tornar-se-ão em sangue → se transformarão em sangue | terra seca; e as águas → terra seca. E as águas",
+      "justificativa": "§3/D-0003: Deus→humano pede você; possessivo tua→sua | §3/D-0003: futuro 2ª pessoa tu→3ª pessoa você; sujeito explícito para clareza após divisão | ARC-1: mesóclise (arcaísmo §1.2) 'tornar-se-ão' eliminada; 'tornar-se em'→'se transformar em' | LEN-1: sentença de 43 palavras dividida em duas no ponto da oração coordenada (semicolon→ponto) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Terceiro sinal: a água do Nilo em sangue — antecipa a primeira praga (7:17-21). O Nilo, deus e vida do Egito, vira sangue.",
@@ -147,10 +155,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
