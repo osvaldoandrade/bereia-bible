@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "E o rio produzirá rãs em abundância, que subirão e virão à tua casa, e ao teu quarto de dormir, e sobre a tua cama, e às casas dos teus servos, e sobre o teu povo, e aos teus fornos, e às tuas amassadeiras.",
+  "texto_bv": "E o rio produzirá uma multidão de rãs, que subirão e virão à sua casa, ao seu quarto de dormir, sobre a sua cama, às casas dos seus servos, sobre o seu povo, aos seus fornos e às suas amassadeiras.",
   "traducao_literal": "E enxameará o Nilo rãs, e subirão e virão na tua casa e na câmara do teu deitar e sobre o teu leito, e na casa dos teus servos e no teu povo, e nos teus fornos e nas tuas amassadeiras.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "rãs em abundância → uma multidão de rãs | à tua casa, e ao teu quarto de dormir, e sobre a tua cama, e às casas dos teus servos, e sobre o teu povo, e aos teus fornos, e às tuas amassadeiras. → à sua casa, ao seu quarto de dormir, sobre a sua cama, às casas dos seus servos, sobre o seu povo, aos seus fornos e às suas amassadeiras.",
+      "justificativa": "Reformulação para pt-BR mais natural: 'em abundância' posposto→'uma multidão de' anteposto. | Normalização do paradigma de 2ª pessoa (§3/D-0003): possessivos tu→você; remoção do excesso de 'e' na enumeração (§1.3/LEN-1): 44→~36 palavras. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "וְשָׁרַץ 'enxameará' (a mesma raiz de 1:7, Israel que 'enxameia') — o Nilo, fonte da vida egípcia, produz agora a praga que invade cada esfera da vida (leito, forno, massa).",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

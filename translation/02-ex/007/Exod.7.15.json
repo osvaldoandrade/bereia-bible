@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "Vai pela manhã a Faraó; eis que ele sairá às águas; põe-te em frente dele na beira do rio, e toma na tua mão a vara que se tornou em cobra.",
+  "texto_bv": "Vá a Faraó pela manhã; veja que ele sairá às águas; ponha-se em frente dele na beira do rio, e tome na sua mão a vara que se tornou cobra.",
   "traducao_literal": "Vai a Faraó pela manhã; eis que ele saindo às águas, e postar-te-ás ao seu encontro sobre a margem do Nilo; e o cajado que se tornou em serpente tomarás na tua mão.",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vai → Vá | eis que → veja que | põe-te → ponha-se | tua mão → sua mão | se tornou em cobra → se tornou cobra",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): imperativo tu→você. | Normalização do calque paratático (§6.2/CAL-2): 'eis que'→'veja que' preserva a força dêitica com vocabulário contemporâneo. | Normalização do paradigma de 2ª pessoa (§3/D-0003): imperativo tu→você com ênclise. | Normalização do paradigma de 2ª pessoa (§3/D-0003): possessivo tu→você. | Remoção do arcaísmo 'tornar-se em' (§1.2): preposição 'em' dispensável. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Faraó vai ao Nilo (culto matinal ao rio-deus Hápi?) — Moisés o confronta ali, onde a primeira praga ferirá o próprio Nilo. הַמַּטֶּה ... נֶהְפַּךְ לְנָחָשׁ retoma 4:3 (aqui נָחָשׁ). YHWH implícito.",
@@ -112,10 +120,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
