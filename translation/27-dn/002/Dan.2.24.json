@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Dan.2.1-49"
   },
-  "texto_bv": "Por isso, Daniel foi a Arioque, a quem o rei havia encarregado de matar os sábios da Babilônia; foi e lhe disse: \"Não mate os sábios da Babilônia; leve-me à presença do rei, e eu declararei ao rei a interpretação.\"",
+  "texto_bv": "Por isso, Daniel foi a Arioque, a quem o rei havia encarregado de matar os sábios da Babilônia. Foi e lhe disse: \"Não mate os sábios da Babilônia. Leve-me à presença do rei, e eu declararei ao rei a interpretação.\"",
   "traducao_literal": "Por-causa-disto Daniel entrou a Arioque, que o-rei havia-designado para-destruir os-sábios-de Babel; foi e-assim disse-lhe, aos-sábios-de Babel: não destruas; faze-me-entrar diante-do-rei, e-a-interpretação ao-rei mostrarei.",
   "termos_originais": [
     {
@@ -147,7 +147,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Babilônia; foi e lhe disse: \"Não mate os sábios da Babilônia; leve-me → Babilônia. Foi e lhe disse: \"Não mate os sábios da Babilônia. Leve-me",
+      "justificativa": "LEN-1: sentença de 41 palavras dividida em três unidades menores (narrativa + introdução da fala + dois imperativos), sem perda sintática nem mudança de sentido (ER-0019; EDITORIAL §1.3). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "S-V (ER-0011); registro você/vocês para o imperativo dirigido a Arioque ('não mate', 'leve-me').",
@@ -157,10 +165,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

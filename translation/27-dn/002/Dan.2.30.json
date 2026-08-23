@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Dan.2.1-49"
   },
-  "texto_bv": "Quanto a mim, não foi por alguma sabedoria que eu tenha mais do que qualquer ser vivo que este mistério me foi revelado, mas para que a interpretação seja dada a conhecer ao rei, e para que você conheça os pensamentos do seu coração.",
+  "texto_bv": "Quanto a mim, não foi por alguma sabedoria que eu tenha mais do que qualquer ser vivo que este mistério me foi revelado. Mas para que a interpretação seja dada a conhecer ao rei, e para que você conheça os pensamentos do seu coração.",
   "traducao_literal": "E-eu, não por-sabedoria que há em-mim mais-que todos-os-viventes este-mistério foi-revelado a-mim, mas por-causa de que a-interpretação ao-rei se-faça-saber, e-os-pensamentos-de teu-coração conheças.",
   "termos_originais": [
     {
@@ -127,7 +127,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "foi revelado, mas para que → foi revelado. Mas para que",
+      "justificativa": "LEN-1: sentença de 44 palavras dividida em duas no eixo antitético (não por sabedoria… / mas para que…), preservando a oposição semântica original (ER-0019; EDITORIAL §1.3). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Daniel nega mérito próprio, retomando רָזָה/גֱּלִי do vocabulário fixado em v.18-19 (EDITORIAL §11).",
@@ -137,10 +145,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
