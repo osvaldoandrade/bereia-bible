@@ -66,13 +66,15 @@
   "confianca": 0.74,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): BV emprega 'Nós os abençoamos' (1ª pessoa plural → 3ª pessoa plural objeto), enquanto a traducao_literal registra 'abençoamos-vos' (1ª pessoa plural → 2ª pessoa plural objeto). A BV muda o destinatário da bênção: na literal, os sacerdotes abençoam os peregrinos que acabaram de chegar (vós = os que vêm em nome do SENHOR); na BV, abençoam terceiros (os = eles). — evidência: traducao_literal: 'abençoamos-vos desde-a-casa-de SENHOR'; texto_bv: 'Nós os abençoamos desde a casa do SENHOR'. A correção exigiria mudar o pronome objeto de 'os' para 'vos' ou reformular para 'Nós abençoamos vocês', o que altera a forma pronominal e a relação enunciativa — mudança de sentido, não de forma."
+  ],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
