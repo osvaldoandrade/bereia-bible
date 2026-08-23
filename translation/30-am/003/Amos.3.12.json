@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Amos.3.1-15"
   },
-  "texto_bv": "Assim diz o SENHOR: como o pastor arranca da boca do leão apenas duas pernas ou um pedaço de orelha, assim serão salvos os filhos de Israel que habitam em Samaria — com um canto de cama, ou um leito de Damasco.",
+  "texto_bv": "Assim diz o SENHOR: como o pastor arranca da boca do leão apenas duas pernas ou um pedaço de orelha, assim serão salvos os filhos de Israel que habitam em Samaria — com um canto de cama, e um leito de Damasco.",
   "traducao_literal": "Assim disse SENHOR como arrancará o-pastor de-boca-de o-leão duas pernas ou pedaço-de orelha assim serão-salvos filhos-de Israel os-que-habitam em-Samaria em-canto-de cama e-em-Damasco leito.",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
           "motivo": "expansão interpretativa não codificada lexicalmente no hebraico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ou um leito de Damasco → e um leito de Damasco",
+      "justificativa": "Conjunção original é waw aditivo (tradução literal: 'e-em-Damasco leito'); BV tinha 'ou' (escolha semântica de alternância). Correção para 'e' alinha a conjunção com o original e preserva o paralelismo aditivo da fórmula. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -163,10 +170,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
