@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Dan.3.1-33"
   },
-  "texto_bv": "Por mim, portanto, é decretado que todo povo, nação e língua que disser algo indevido contra o Deus de Sadraque, Mesaque e Abede-Nego seja despedaçado, e a sua casa se torne um montão de escombros; porque não há nenhum outro deus que possa livrar dessa maneira.\"",
+  "texto_bv": "Por mim, portanto, é decretado que todo povo, nação e língua que disser algo indevido contra o Deus de Sadraque, Mesaque e Abede-Nego seja despedaçado, e a sua casa se torne um montão de escombros. Porque não há nenhum outro deus que possa livrar dessa maneira.\"",
   "traducao_literal": "E por mim é posto decreto: que todo povo, nação e língua que disser erro contra o Deus deles, de Sadraque, Mesaque e Abede-Nego, seja feito em pedaços, e a sua casa se torne monturo; porque não há deus outro que possa livrar como este.",
   "termos_originais": [
     {
@@ -193,6 +193,13 @@
           "motivo": "glosa teologicamente carregada além do que o lexema aramaico sustenta por si só."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "escombros; porque → escombros. Porque",
+      "justificativa": "divisão de período longo (LEN-1, 47 palavras); ponto-final em lugar de ponto e vírgula para separar o decreto da sua justificação; PAS-1 é falso-positivo — passivas são naturais na fórmula de decreto (é decretado, seja despedaçado) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -206,10 +213,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

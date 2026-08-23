@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Dan.3.1-33"
   },
-  "texto_bv": "Nabucodonosor respondeu e disse: \"Bendito seja o Deus de Sadraque, Mesaque e Abede-Nego, que enviou o seu anjo e livrou os seus servos que confiaram nele, e que desobedeceram a ordem do rei e entregaram os seus corpos, para não servirem nem adorarem nenhum outro deus além do seu próprio Deus.",
+  "texto_bv": "Nabucodonosor respondeu e disse: \"Bendito seja o Deus de Sadraque, Mesaque e Abede-Nego, que enviou o seu anjo e livrou os seus servos que confiaram nele. Eles desobedeceram à ordem do rei e entregaram os seus corpos, para não servirem nem adorarem nenhum outro deus além do seu próprio Deus.",
   "traducao_literal": "Respondeu Nabucodonosor e disse: bendito o Deus deles, de Sadraque, Mesaque e Abede-Nego, que enviou o seu mensageiro e livrou os seus servos que confiaram nele; e a palavra do rei mudaram, e entregaram os seus corpos, para que não servissem e não se prostrassem a nenhum deus, senão ao Deus deles.",
   "termos_originais": [
     {
@@ -190,6 +190,13 @@
       "escolha": "contraste tipográfico mantido no mesmo versículo: 'nenhum outro deus' minúsculo, 'seu próprio Deus' maiúsculo.",
       "justificativa": "reflete a distinção teológica que o próprio texto marca lexicalmente (אֱלָהּ genérico vs. referente definido pelo sufixo pronominal ligado aos três hebreus).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nele, e que desobedeceram → nele. Eles desobedeceram | desobedeceram a ordem → desobedeceram à ordem",
+      "justificativa": "divisão de período longo (LEN-1, 52 palavras); relativa coordenada convertida em oração independente com sujeito explícito, preservando o sentido; PRO-1 é falso-positivo — antecedentes inequívocos (Deus, servos) | crase obrigatória: desobedecer (regência a) + a ordem (artigo feminino) = à ordem (AO90, §1.1) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -203,10 +210,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

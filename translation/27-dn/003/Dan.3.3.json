@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Dan.3.1-33"
   },
-  "texto_bv": "Então se reuniram os sátrapas, os prefeitos, os governadores, os conselheiros, os tesoureiros, os juízes, os magistrados e todas as autoridades da província para a dedicação da estátua que o rei Nabucodonosor tinha erigido, e ficaram de pé diante da estátua que Nabucodonosor tinha erigido.",
+  "texto_bv": "Então se reuniram os sátrapas, os prefeitos, os governadores, os conselheiros, os tesoureiros, os juízes, os magistrados e todas as autoridades da província para a dedicação da estátua que o rei Nabucodonosor tinha erigido. Eles ficaram de pé diante da estátua que Nabucodonosor tinha erigido.",
   "traducao_literal": "Então se reuniam os sátrapas, os prefeitos e os governadores, os conselheiros, os tesoureiros, os juízes, os magistrados, e toda autoridade da província, para a dedicação da estátua que Nabucodonosor, o rei, tinha levantado; e estavam de pé diante da estátua que Nabucodonosor tinha levantado.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
           "motivo": "aqui a repetição é traço retórico intencional, não redundância acidental de sujeito."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tinha erigido, e ficaram de pé → tinha erigido. Eles ficaram de pé",
+      "justificativa": "divisão de período longo (LEN-1, 45 palavras) em duas frases independentes; RED-1 é falso-positivo — o original repete a referência à estátua (fidelidade, §4 do prompt); PAS-1 é falso-positivo — não há passivas nas orações — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -154,10 +161,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
