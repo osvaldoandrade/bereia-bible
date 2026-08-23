@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Ezek.46.1-24"
   },
-  "texto_bv": "A oferta de cereais será de uma efa para o carneiro; para os cordeiros, a oferta de cereais será o que a sua mão puder dar; e um him de azeite para cada efa.",
+  "texto_bv": "A oferta de cereais será de uma efa para o carneiro; para os cordeiros, será o que a sua mão puder dar; e um him de azeite para cada efa.",
   "traducao_literal": "E a oferta de cereais: uma efa para o carneiro; e para os cordeiros, oferta de cereais, dádiva da sua mão; e azeite, um him para a efa.",
   "termos_originais": [
     {
@@ -73,6 +73,13 @@
           "motivo": "preservado apenas na traducao_literal; no publicado soaria artificial (ER-0013)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para os cordeiros, a oferta de cereais será o que a sua mão puder dar → para os cordeiros, será o que a sua mão puder dar",
+      "justificativa": "Remoção de 'a oferta de cereais' repetida (RED-1) — sujeito recuperável da oração anterior, sem perda de sentido; fidelidade ao original preservada. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -84,10 +91,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
