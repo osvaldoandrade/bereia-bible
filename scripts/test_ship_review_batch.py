@@ -109,6 +109,41 @@ class ValidateVerseTests(unittest.TestCase):
         self.assertIsNone(ship._validate_verse(v, rec))
 
 
+class RepairQuoteSwapsTests(unittest.TestCase):
+    def setUp(self):
+        self._real_root = ship.ROOT
+        self.tmp = tempfile.TemporaryDirectory()
+        ship.ROOT = self.tmp.name
+        chap = pathlib.Path(self.tmp.name) / "translation" / "12-2rs" / "004"
+        chap.mkdir(parents=True)
+        self.rec_text = 'disse a Geazi: “Eis ali aquela sunamita.'
+        (chap / "2Kgs.4.25.json").write_text(
+            json.dumps({"status": "DRAFT", "texto_bv": self.rec_text}),
+            encoding="utf-8")
+
+    def tearDown(self):
+        ship.ROOT = self._real_root
+        self.tmp.cleanup()
+
+    def _out(self, revisto):
+        return {"book_dir": "12-2rs", "chapter": 4, "versos": [
+            {"osis": "2Kgs.4.25", "texto_bv_revisto": revisto,
+             "mudancas": [], "objecoes": [], "veredito": "SEM_ALTERACAO"}]}
+
+    def test_aspa_de_fronteira_adicionada_revertida(self):
+        out = self._out(self.rec_text + '”')
+        fixed, bad = ship.repair_quote_swaps(out)
+        self.assertEqual(fixed, ["2Kgs.4.25"])
+        self.assertEqual(bad, [])
+        self.assertEqual(out["versos"][0]["texto_bv_revisto"], self.rec_text)
+
+    def test_diff_interno_continua_manual(self):
+        out = self._out(self.rec_text.replace("sunamita", "mulher"))
+        fixed, bad = ship.repair_quote_swaps(out)
+        self.assertEqual(fixed, [])
+        self.assertEqual(bad, ["2Kgs.4.25"])
+
+
 class RegenBlockFromRecordTests(unittest.TestCase):
     """Last-resort salvage: a block even quote-repair cannot parse (inner
     quote followed by a comma) is rebuilt from the record when it declares

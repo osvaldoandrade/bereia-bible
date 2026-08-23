@@ -56,8 +56,10 @@ def chapter_dir(out):
 
 
 def repair_quote_swaps(out):
-    """Revert quote-style-only diffs on no-mudanca verses. Return
-    (fixed_osis, bad_osis): bad = non-quote diff needing manual review."""
+    """Revert quote-only diffs on no-mudanca verses: quote-style swaps and
+    the boundary-quote wart (agent adds/drops an opening or closing quote
+    of a multi-verse quote without logging anything). Return
+    (fixed_osis, bad_osis): bad = other diff needing manual review."""
     fixed, bad = [], []
     for v in out["versos"]:
         if v.get("mudancas"):
@@ -68,7 +70,8 @@ def repair_quote_swaps(out):
         rev = v["texto_bv_revisto"]
         if rev == cur:
             continue
-        if canon_quotes(cur) == canon_quotes(rev):
+        cur_c, rev_c = canon_quotes(cur), canon_quotes(rev)
+        if cur_c == rev_c or cur_c.strip('"') == rev_c.strip('"'):
             v["texto_bv_revisto"] = cur
             fixed.append(v["osis"])
         else:
