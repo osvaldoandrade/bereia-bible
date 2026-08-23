@@ -7,7 +7,7 @@
     "versiculo": 42,
     "pericope": "Ezek.40.1-49"
   },
-  "texto_bv": "E quatro mesas para o holocausto, de pedras lavradas, com um côvado e meio de comprimento, um côvado e meio de largura e um côvado de altura; sobre elas se colocavam os utensílios com que se degolava o holocausto e o sacrifício.",
+  "texto_bv": "E quatro mesas para o holocausto, de pedras lavradas, com um côvado e meio de comprimento, um côvado e meio de largura e um côvado de altura. Sobre elas se colocavam os utensílios com que se degolava o holocausto e o sacrifício.",
   "traducao_literal": "E quatro mesas para o holocausto, pedras talhadas: comprimento côvado um e meio; e largura: côvado um e meio; e altura: côvado um; sobre elas, e colocavam os utensílios com que degolavam o holocausto sobre eles, e o sacrifício.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e um côvado de altura; sobre elas se colocavam → e um côvado de altura. Sobre elas se colocavam",
+      "justificativa": "LEN-1: sentença de 42 palavras dividida na fronteira entre descrição dimensional e uso litúrgico das mesas, reduzindo cada período (§1.3) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "relação exata entre estas quatro mesas de pedra e as oito mesas anteriores (mesmo conjunto ou conjunto adicional) não é explicitada no texto"
@@ -154,10 +162,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
