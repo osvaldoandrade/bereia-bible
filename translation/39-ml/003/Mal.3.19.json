@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Mal.3.1-24"
   },
-  "texto_bv": "Pois eis que o dia vem, ardendo como um forno; e todos os arrogantes e todo aquele que pratica a maldade serão palha, e o dia que vem os incendiará, diz o SENHOR dos Exércitos, de modo que não lhes deixará raiz nem ramo.",
+  "texto_bv": "Pois eis que o dia vem, ardendo como um forno. E todos os arrogantes e todo aquele que pratica a maldade serão palha; o dia que vem os incendiará, diz o SENHOR dos Exércitos, de modo que não lhes deixará raiz nem ramo.",
   "traducao_literal": "Porque eis que o dia vem, ardendo como o forno; e serão todos os arrogantes e todo o que pratica maldade palha; e os incendiará o dia, o que vem — disse SENHOR dos Exércitos — que não deixará para eles raiz e ramo.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "como um forno; e todos → como um forno. E todos | serão palha, e o dia → serão palha; o dia",
+      "justificativa": "Redução de sentença > 40 palavras (§1.3/LEN-1); ponto final no lugar do ponto e vírgula, waw mantido como conectivo de novo período (ER-0013). \"Eis que\" único é fórmula profética legítima (הִנֵּה) — mantido (CAL-2 = falso positivo). Também substituído ponto e vírgula por vírgula após \"palha\" para evitar três níveis de pausa no mesmo período. | Ponto e vírgula no lugar de vírgula + \"e\" para separar orações independentes com sujeitos distintos (\"arrogantes/serão palha\" vs. \"dia/incendiará\"), melhorando a clareza sintática (§6.1). O \"e\" removido não corresponde a waw adicional no original — é conectivo editorial da BV. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Descrição do dia do juízo como fogo consumidor total contra os arrogantes e ímpios, retomando a imagem do fogo refinador dos vv.2-3 em chave destrutiva.",
@@ -152,10 +160,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

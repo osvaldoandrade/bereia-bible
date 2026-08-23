@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Mal.3.1-24"
   },
-  "texto_bv": "Vocês estão debaixo de maldição, porque vocês estão me roubando — a nação toda.",
+  "texto_bv": "Vocês estão debaixo de maldição, porque estão me roubando — a nação toda.",
   "traducao_literal": "Com a maldição vocês estão amaldiçoados, e a mim vocês estão roubando, a nação toda.",
   "termos_originais": [
     {
@@ -63,6 +63,13 @@
           "motivo": "redundância que soa a erro de tradução em português, não a ênfase retórica do hebraico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "porque vocês estão me roubando → porque estão me roubando",
+      "justificativa": "Pronome sujeito redundante (RED-1); sujeito \"vocês\" já estabelecido na oração principal anterior. O original enfatiza \"a mim\" (לִי), não o sujeito repetido. Remoção do segundo \"vocês\" sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -74,10 +81,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
