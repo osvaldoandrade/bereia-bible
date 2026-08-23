@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Jer.31.1-40"
   },
-  "texto_bv": "“E não ensinarão mais cada um ao seu próximo, e cada um ao seu irmão, dizendo: ‘Conheçam o SENHOR’; porque todos eles me conhecerão, do menor deles até o maior” — oráculo do SENHOR — “porque eu perdoarei a iniquidade deles, e do pecado deles não mais me lembrarei.”",
+  "texto_bv": "“E não ensinarão mais cada um ao seu próximo, e cada um ao seu irmão, dizendo: ‘Conheçam o SENHOR’; porque todos eles me conhecerão, do menor deles até o maior” — oráculo do SENHOR. “Porque eu perdoarei a iniquidade deles, e do pecado deles não mais me lembrarei.”",
   "traducao_literal": "E não ensinarão mais, cada um ao seu próximo e cada um ao seu irmão, dizendo: conhecei o SENHOR; porque todos eles me conhecerão, desde o pequeno deles até o grande deles, oráculo de SENHOR; porque perdoarei a iniquidade deles, e do pecado deles não me lembrarei mais.",
   "termos_originais": [
     {
@@ -157,7 +157,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "oráculo do SENHOR — “porque → oráculo do SENHOR. “Porque",
+      "justificativa": "LEN-1: sentença com 47 palavras dividida em duas (§1.3); ponto final no lugar do segundo travessão do parêntese oracular, separando a cláusula causal final em sentença própria — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Clímax da 'nova aliança', citado extensamente em Hb 8:10-12 e 10:16-17; tradução segue estritamente o hebraico pinado, sem ajuste à citação neotestamentária (TEOLOGIA §2).",
@@ -167,10 +175,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
