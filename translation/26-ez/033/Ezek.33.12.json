@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Ezek.33.1-33"
   },
-  "texto_bv": "E você, filho do homem, diga aos filhos do seu povo: A justiça do justo não o livrará no dia da sua transgressão, e o ímpio não cairá pela sua impiedade no dia em que se converter dela; e o justo não poderá viver pela sua justiça no dia em que pecar.",
+  "texto_bv": "E você, filho do homem, diga aos filhos do seu povo: A justiça do justo não o livrará no dia da sua transgressão, e o ímpio não cairá pela sua impiedade no dia em que se converter dela. E o justo não poderá viver pela sua justiça no dia em que pecar.",
   "traducao_literal": "E-você filho-de-homem, dirás a-filhos-de-teu-povo: justiça-do-justo não-a-livrará no-dia-de-sua-transgressão, e-impiedade-do-ímpio não tropeçará nela no-dia-de-converter-se-ele de-sua-impiedade; e-justo não poderá viver por-ela no-dia-de-seu-pecado.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
           "motivo": "apaga a distinção lexical que o hebraico mantém entre as quatro raízes"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "converter dela; e o justo → converter dela. E o justo",
+      "justificativa": "LEN-1: sentença de 52 palavras dividida em duas para respeitar §1.3 (> 40 palavras); a conjunção 'e' preservada na segunda sentença mantém a coesão discursiva. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -174,10 +181,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

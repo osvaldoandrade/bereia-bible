@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Ezek.33.1-33"
   },
-  "texto_bv": "E eis que você é para eles como uma canção de amor, cantada por quem tem bela voz e sabe tocar bem; e eles ouvem as suas palavras, mas não as praticam.",
+  "texto_bv": "E você é para eles como uma canção de amor, de bela voz e bem tocada; e eles ouvem as suas palavras, mas não as praticam.",
   "traducao_literal": "e-eis-que-você a-eles como-canção-de-amores, bela-de-voz e-boa-de-tocar, e-ouvem tuas-palavras e-fazendo não-estão elas.",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E eis que você é para eles → E você é para eles | cantada por quem tem bela voz e sabe tocar bem → de bela voz e bem tocada",
+      "justificativa": "CAL-2: 'eis que' (הִנֵּה) normalizado (§6.2/ER-0013); o dêitico não carrega força discursiva que justifique a preservação neste contexto. | Fluidez: perífrase 'cantada por quem tem... e sabe...' condensada para atributos diretos; preserva os dois qualificativos do original (בְּטוֹב וּמֵטִב). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Metáfora central do capítulo: o profeta reduzido a entretenimento estético.",
@@ -92,10 +100,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
