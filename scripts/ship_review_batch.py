@@ -178,6 +178,9 @@ def _validate_verse(v, record_text):
     if skipped:
         print("  note %s: %d redundant mudanca(s) skipped"
               % (v["osis"], skipped))
+    if skipped == len(mudancas):
+        # no declared mudanca applies to the record: nothing to verify
+        return None
     declared = canon_quotes(v["texto_bv_revisto"])
     rebuilt = canon_quotes(text)
     # tolerate dropped boundary quotes (agent wart) on either end; the
