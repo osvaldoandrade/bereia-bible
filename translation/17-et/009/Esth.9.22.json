@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Esth.9.1-32"
   },
-  "texto_bv": "pois foram os dias em que os judeus obtiveram descanso dos seus inimigos, e o mês em que a sua tristeza se transformou em alegria e o seu luto em dia de festa; e para que os fizessem dias de banquete e alegria, com envio de porções de comida uns aos outros e presentes aos pobres.",
+  "texto_bv": "pois foram os dias em que os judeus obtiveram descanso dos seus inimigos, e o mês em que a sua tristeza se transformou em alegria e o seu luto em dia de festa. Esses dias devem ser de banquete e alegria, com envio de porções de comida uns aos outros e presentes aos pobres.",
   "traducao_literal": "Como os dias em que descansaram neles os judeus dos seus inimigos, e o mês que se inverteu para eles de tristeza para alegria, e de luto para dia bom; para fazer deles dias de banquete e alegria, e envio de porções, cada um ao seu companheiro, e presentes aos pobres.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois foram os dias em que os judeus obtiveram descanso dos seus inimigos, e o mês em que a sua tristeza se transformou em alegria e o seu luto em dia de festa; e para que os fizessem dias de banquete e alegria, com envio de porções de comida uns aos outros e presentes aos pobres. → pois foram os dias em que os judeus obtiveram descanso dos seus inimigos, e o mês em que a sua tristeza se transformou em alegria e o seu luto em dia de festa. Esses dias devem ser de banquete e alegria, com envio de porções de comida uns aos outros e presentes aos pobres.",
+      "justificativa": "LEN-1: sentença de 56 palavras dividida em duas; substituição de '; e para que os fizessem' por '. Esses dias devem ser de' — oração subordinada de finalidade tornada oração independente com sujeito explícito (§1.3). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "pois (conectivo explicitando a relação causal implícita na oração comparativa כַּיָּמִים)"
   ],
@@ -154,10 +162,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

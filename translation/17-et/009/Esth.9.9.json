@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Esth.9.1-32"
   },
-  "texto_bv": "mataram também a Parmasta, a Arisai, a Aridai e a Vaizata,",
+  "texto_bv": "mataram também a Parmasta, a Arisai, a Aridai e a Vaizata.",
   "traducao_literal": "E a Parmasta, e a Arisai, e a Aridai, e a Vaizata.",
   "termos_originais": [
     {
@@ -52,7 +52,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mataram também a Parmasta, a Arisai, a Aridai e a Vaizata, → mataram também a Parmasta, a Arisai, a Aridai e a Vaizata.",
+      "justificativa": "Pontuação (§6.1): vírgula final substituída por ponto — coerente com vv. 7-8. VOS-1 ('aridai, arisai') é falso positivo: são antropônimos, não formas verbais de 2ª pessoa. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "mataram",
     "também"
@@ -65,10 +73,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
