@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "E todo o monte Sinai fumegava, porque o SENHOR descera sobre ele em fogo; e a sua fumaça subiu como fumaça de um forno, e todo o monte tremia grandemente.",
+  "texto_bv": "E todo o monte Sinai fumegava, porque o SENHOR tinha descido sobre ele em fogo; e a sua fumaça subiu como fumaça de um forno, e todo o monte tremia grandemente.",
   "traducao_literal": "E o monte Sinai fumegava, todo ele, por causa de que desceu sobre ele YHWH no fogo; e subiu a sua fumaça como a fumaça do forno, e estremeceu todo o monte muito.",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "descera → tinha descido",
+      "justificativa": "§1.2/ARC-1: arcaísmo funcionalmente morto — mais-que-perfeito sintético 'descera' → composto 'tinha descido' (pt-BR contemporâneo) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "יָרַד עָלָיו יְהוָה בָּאֵשׁ 'o SENHOR desceu sobre ele em fogo' — Deus como fogo consumidor (cf. Dt 4:24; Hb 12:29). O monte treme diante do Criador. YHWH→SENHOR.",
@@ -112,10 +120,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

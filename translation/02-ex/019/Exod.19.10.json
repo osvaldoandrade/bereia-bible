@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "Disse mais o SENHOR a Moisés: Vai ao povo, e santifica-os hoje e amanhã, e lavem eles as suas vestes,",
+  "texto_bv": "O SENHOR disse mais a Moisés: Vá ao povo e santifique-os hoje e amanhã, e lavem eles as suas vestes,",
   "traducao_literal": "E disse YHWH a Moisés: Vai ao povo e santifica-os hoje e amanhã, e lavem as suas vestes,",
   "termos_originais": [
     {
@@ -72,7 +72,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Disse mais o SENHOR a Moisés: Vai ao povo, e santifica-os → O SENHOR disse mais a Moisés: Vá ao povo e santifique-os",
+      "justificativa": "ER-0011: ordem S-V em wayyiqtol ('Disse mais o SENHOR' → 'O SENHOR disse mais'); §3/D-0003: paradigma 2ª pessoa — Vai (tu) → Vá (você), santifica-os → santifique-os; queda de vírgula antes de 'e' coordenando imperativos de mesmo sujeito — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "וְקִדַּשְׁתָּם 'santifica-os' — a aproximação do Deus santo exige consagração (lavar vestes, pureza); a santidade não é trivial. YHWH→SENHOR.",
@@ -82,10 +90,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

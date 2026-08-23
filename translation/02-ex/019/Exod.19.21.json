@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "E disse o SENHOR a Moisés: Desce, adverte ao povo que não traspasse o limite para ver ao SENHOR, e muitos deles pereçam.",
+  "texto_bv": "E o SENHOR disse a Moisés: Desça, advirta o povo que não traspasse o limite para ver o SENHOR, e muitos deles pereçam.",
   "traducao_literal": "E disse YHWH a Moisés: Desce, adverte ao povo, para que não irrompam a YHWH para ver, e caiam dele muitos.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E disse o SENHOR a Moisés: Desce, adverte ao povo → E o SENHOR disse a Moisés: Desça, advirta o povo | para ver ao SENHOR → para ver o SENHOR",
+      "justificativa": "ER-0011: ordem S-V ('disse o SENHOR' → 'o SENHOR disse'); §3/D-0003: paradigma 2ª pessoa — Desce→Desça, adverte→advirta (Deus→Moisés = você); regência: advertir alguém (OD direta, sem preposição 'a') | Regência verbal: ver + OD direto (sem preposição 'a' antes de SENHOR como objeto de 'ver') — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "פֶּן־יֶהֶרְסוּ ... לִרְאוֹת 'para que não irrompam a ver' — a curiosidade não santificada é mortal; a glória de Deus não se aproxima sem mediação (cf. o véu, Hb 9:8). YHWH→SENHOR.",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

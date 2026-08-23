@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "E disse ao povo: Estai prontos para o terceiro dia; e não vos chegueis a mulher.",
+  "texto_bv": "E disse ao povo: Estejam prontos para o terceiro dia; e não se aproximem de mulher.",
   "traducao_literal": "E disse ao povo: Sede prontos para três dias; não vos aproximeis de mulher.",
   "termos_originais": [
     {
@@ -67,7 +67,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Estai prontos para o terceiro dia → Estejam prontos para o terceiro dia | não vos chegueis a mulher → não se aproximem de mulher",
+      "justificativa": "§3/D-0003: paradigma 2ª pessoa — imperativo plural Estai (vós) → Estejam (vocês); Moisés→povo = humano↔humano | §3/D-0003: paradigma 2ª pessoa — vos chegueis (vós) → se aproximem (vocês); 'aproximar-se de' é mais natural em pt-BR contemporâneo que 'chegar-se a' — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A abstinência conjugal temporária como parte da consagração para o encontro sagrado (pureza ritual, cf. 1Sm 21:4-5).",
@@ -77,10 +85,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

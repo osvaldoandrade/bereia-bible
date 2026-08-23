@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "Então disse Moisés ao SENHOR: O povo não poderá subir ao monte Sinai, porque tu nos tens advertido, dizendo: Marca limites ao monte, e santifica-o.",
+  "texto_bv": "Então Moisés disse ao SENHOR: O povo não poderá subir ao monte Sinai, porque tu nos tens advertido, dizendo: Marque limites ao monte e santifique-o.",
   "traducao_literal": "E disse Moisés a YHWH: Não poderá o povo subir ao monte Sinai, porque tu advertiste em nós, dizendo: Põe limite ao monte e santifica-o.",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então disse Moisés ao SENHOR → Então Moisés disse ao SENHOR | dizendo: Marca limites ao monte, e santifica-o. → dizendo: Marque limites ao monte e santifique-o.",
+      "justificativa": "ER-0011: ordem S-V em wayyiqtol narrativo | §3/D-0003: paradigma 2ª pessoa — citação da fala de Deus (Deus→Moisés = você): imperativos Marca→Marque, santifica-o→santifique-o; queda de vírgula antes de 'e' com mesmo sujeito imperativo — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A chegada ao Sinai e a teofania (DRAFT, ADR-0002).",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "E marcarás limites ao povo em redor, dizendo: Guardai-vos, não subais ao monte, nem toqueis o seu termo; todo aquele que tocar o monte, certamente morrerá.",
+  "texto_bv": "E você marcará limites ao povo em redor, dizendo: Guardem-se, não subam ao monte, nem toquem o seu limite; todo aquele que tocar o monte, certamente morrerá.",
   "traducao_literal": "E porás limite ao povo ao redor, dizendo: Guardai-vos de subir ao monte e de tocar na sua extremidade; todo o que tocar no monte, morrer morrerá.",
   "termos_originais": [
     {
@@ -92,7 +92,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E marcarás limites ao povo em redor → E você marcará limites ao povo em redor | Guardai-vos, não subais ao monte, nem toqueis o seu termo → Guardem-se, não subam ao monte, nem toquem o seu limite",
+      "justificativa": "§3/D-0003: paradigma 2ª pessoa — marcarás (tu) → você marcará (Deus→Moisés) | §3/D-0003: paradigma 2ª pessoa — imperativos plurais vós→vocês (Guardai-vos→Guardem-se, subais→subam, toqueis→toquem); §1.2: arcaísmo 'termo' (sentido de fronteira) → 'limite' (pt-BR contemporâneo) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A santidade do monte impõe limite (הִגְבַּלְתָּ): a proximidade de Deus é mortal ao pecador sem mediação (cf. Hb 12:18-21). YHWH implícito.",
@@ -102,10 +110,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
