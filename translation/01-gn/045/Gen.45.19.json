@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Gen.45.1-28"
   },
-  "texto_bv": "A ti, pois, é ordenado; fazei isto: tomai vós da terra do Egito carros para os vossos filhos e para as vossas mulheres, e trazei vosso pai, e vinde.",
+  "texto_bv": "A você, pois, é ordenado; façam isto: tomem da terra do Egito carros para os filhos de vocês e para as mulheres de vocês, e tragam o pai de vocês, e venham.",
   "traducao_literal": "E tu és ordenado: isto fazei; tomai para vós da terra do Egito carros para as vossas crianças e para as vossas mulheres, e carregai o vosso pai e vinde.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "A ti → A você | fazei isto: tomai vós → façam isto: tomem | vossos filhos → filhos de vocês | vossas mulheres → mulheres de vocês | trazei vosso pai → tragam o pai de vocês | e vinde → e venham",
+      "justificativa": "Normalização tu→você (§3/D-0003); Faraó dirigindo-se a José. | Normalização vós→vocês (§3/D-0003). | Normalização vós→vocês (§3/D-0003). | Normalização vós→vocês (§3/D-0003). | Normalização vós→vocês (§3/D-0003). | Normalização vós→vocês (§3/D-0003). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "José se dá a conhecer aos irmãos (DRAFT, ADR-0002).",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

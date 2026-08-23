@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Gen.45.1-28"
   },
-  "texto_bv": "Então lhe contaram todas as palavras de José, que ele lhes falara; e vendo ele os carros que José enviara para o levar, reviveu o espírito de Jacó, seu pai.",
+  "texto_bv": "Então lhe contaram todas as palavras de José, que ele lhes havia falado; e, vendo ele os carros que José havia enviado para o levar, reviveu o espírito de Jacó, seu pai.",
   "traducao_literal": "E falaram a ele todas as palavras de José que falou a eles; e viu os carros que enviou José para o carregar, e viveu o espírito de Jacó, seu pai.",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que ele lhes falara → que ele lhes havia falado | José enviara → José havia enviado | e vendo ele → e, vendo ele",
+      "justificativa": "Substituição de mais-que-perfeito sintético por composto (EDITORIAL §1.2, arcaísmo funcionalmente morto). | Substituição de mais-que-perfeito sintético por composto (EDITORIAL §1.2, arcaísmo funcionalmente morto). | Vírgula para isolar oração reduzida de gerúndio (§6.1). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "וַתְּחִי רוּחַ יַעֲקֹב 'reviveu o espírito de Jacó' — os carros (prova tangível) fazem a fé nascer; o ancião volta a viver.",
@@ -127,10 +135,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

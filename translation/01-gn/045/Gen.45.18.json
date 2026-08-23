@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Gen.45.1-28"
   },
-  "texto_bv": "e tomai o vosso pai, e as vossas famílias, e vinde a mim; e eu vos darei o melhor da terra do Egito, e comereis a fartura da terra.",
+  "texto_bv": "e tomem o pai de vocês, e as famílias de vocês, e venham a mim; e eu darei a vocês o melhor da terra do Egito, e vocês comerão a fartura da terra.",
   "traducao_literal": "e tomai o vosso pai e as vossas casas e vinde a mim; e darei a vós o bem da terra do Egito, e comei a gordura da terra.",
   "termos_originais": [
     {
@@ -97,7 +97,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tomai o vosso pai, e as vossas famílias → tomem o pai de vocês, e as famílias de vocês | e vinde a mim → e venham a mim | eu vos darei → eu darei a vocês | e comereis → e vocês comerão",
+      "justificativa": "Normalização vós→vocês (§3/D-0003). | Normalização vós→vocês (§3/D-0003). | Normalização vós→vocês (§3/D-0003). | Normalização vós→vocês (§3/D-0003). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "חֵלֶב הָאָרֶץ 'a gordura da terra' = o melhor/mais rico dela.",
@@ -107,10 +115,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

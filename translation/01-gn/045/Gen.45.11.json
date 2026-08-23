@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Gen.45.1-28"
   },
-  "texto_bv": "E ali te sustentarei, porque ainda haverá cinco anos de fome, para que não pereças de pobreza, tu e a tua casa, e tudo o que tens.",
+  "texto_bv": "E ali sustentarei você, porque ainda haverá cinco anos de fome, para que não pereça de pobreza, você e a sua casa, e tudo o que você tem.",
   "traducao_literal": "E sustentar-te-ei ali, porque ainda cinco anos de fome; para que não empobreças, tu e a tua casa e tudo o que é teu.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "te sustentarei → sustentarei você | não pereças → não pereça | tu e a tua casa → você e a sua casa | o que tens → o que você tem",
+      "justificativa": "Normalização tu→você (§3/D-0003); mensagem ao pai. | Normalização tu→você (§3/D-0003). | Normalização tu→você (§3/D-0003). | Normalização tu→você (§3/D-0003). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "José se dá a conhecer aos irmãos (DRAFT, ADR-0002).",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

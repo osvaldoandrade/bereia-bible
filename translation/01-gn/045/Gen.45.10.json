@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gen.45.1-28"
   },
-  "texto_bv": "e habitarás na terra de Gósen, e estarás perto de mim, tu e os teus filhos, e os filhos dos teus filhos, e as tuas ovelhas, e as tuas vacas, e tudo o que tens.",
+  "texto_bv": "e habitará na terra de Gósen, e estará perto de mim, você e os seus filhos, e os filhos dos seus filhos, e as suas ovelhas, e as suas vacas, e tudo o que você tem.",
   "traducao_literal": "e habitarás na terra de Gósen, e estarás perto de mim, tu e os teus filhos e os filhos dos teus filhos, e o teu rebanho e o teu gado e tudo o que é teu.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "habitarás → habitará | estarás → estará | tu e os teus filhos → você e os seus filhos | filhos dos teus filhos → filhos dos seus filhos | tuas ovelhas → suas ovelhas | tuas vacas → suas vacas | o que tens → o que você tem",
+      "justificativa": "Normalização tu→você (§3/D-0003); mensagem de José ao pai. | Normalização tu→você (§3/D-0003). | Normalização tu→você (§3/D-0003). | Normalização tu→você (§3/D-0003). | Normalização tu→você (§3/D-0003). | Normalização tu→você (§3/D-0003). | Normalização tu→você (§3/D-0003). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "גֹּשֶׁן (Gósen) — região do delta oriental, apropriada a pastores; separada dos egípcios (46:34).",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
