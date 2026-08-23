@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Kgs.4.1-44"
   },
-  "texto_bv": "Eliseu disse a Geazi: “Diga-lhe, por favor: ‘Eis que você teve todo este cuidado por nós. O que se pode fazer por você? Há algo que se possa falar por você ao rei ou ao comandante do exército?’” Ela respondeu: “Eu habito no meio de meu povo.”",
+  "texto_bv": "Eliseu disse a Geazi: “Diga-lhe, por favor: ‘Você teve todo este cuidado por nós. O que se pode fazer por você? Há algo que se possa falar por você ao rei ou ao comandante do exército?’” Ela respondeu: “Eu habito no meio de meu povo.”",
   "traducao_literal": "E ele lhe disse: “Diga, por favor, a ela: ‘Eis que você se inquietou por nós com toda esta inquietação. O que fazer por você? Há para falar por você ao rei ou ao comandante do exército?’” E ela disse: “No meio de meu povo eu habito.”",
   "termos_originais": [
     {
@@ -157,7 +157,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que você teve → Você teve",
+      "justificativa": "Normalização de calque paratático (CAL-2/ER-0013): ‘Eis que’ artificial em discurso direto contemporâneo; o reconhecimento do cuidado da sunamita é conveyed pela própria declaração sem necessidade do dêitico arcaico. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "Eliseu",
     "a Geazi",
@@ -172,10 +180,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }

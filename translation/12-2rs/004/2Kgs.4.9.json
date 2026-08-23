@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "2Kgs.4.1-44"
   },
-  "texto_bv": "Ela disse a seu marido: “Eis que agora sei que este homem que passa sempre por nós é um santo homem de Deus.",
+  "texto_bv": "Ela disse a seu marido: “Agora sei que este homem que passa sempre por nós é um santo homem de Deus.”",
   "traducao_literal": "E ela disse a seu marido: “Eis, por favor, sei que santo homem de Deus é este que passa por nós continuamente.",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que agora sei → Agora sei",
+      "justificativa": "Normalização de calque paratático (CAL-2/ER-0013): ‘Eis que’ artificial em discurso direto contemporâneo; o advérbio ‘agora’ já carrega a ênfase dêitica da descoberta da sunamita. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A mulher fala ao marido e identifica o visitante recorrente como santo homem de Deus; os predicados e a continuidade foram preservados.",
@@ -92,10 +100,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
