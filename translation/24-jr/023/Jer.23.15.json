@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Jer.23.1-40"
   },
-  "texto_bv": "Portanto, assim diz o SENHOR dos Exércitos acerca dos profetas: eis que eu os farei comer absinto e lhes darei a beber água envenenada, porque dos profetas de Jerusalém saiu a impiedade para toda a terra.",
+  "texto_bv": "Portanto, assim diz o SENHOR dos Exércitos acerca dos profetas: eu os farei comer absinto e lhes darei a beber água envenenada, porque dos profetas de Jerusalém saiu a impiedade para toda a terra.",
   "traducao_literal": "Portanto assim disse SENHOR dos Exércitos sobre os profetas: eis-me alimentando-os de absinto e dando-lhes a beber água de veneno; porque dos profetas de Jerusalém saiu profanação para toda a terra.",
   "termos_originais": [
     {
@@ -134,6 +134,13 @@
       "escolha": "água envenenada",
       "justificativa": "רֹאשׁ designa planta de gosto amargo e tóxico (associada a cicuta/absinto); 'água envenenada' comunica o efeito em português corrido, com a literal preservando 'água de veneno'.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "profetas: eis que eu os farei → profetas: eu os farei",
+      "justificativa": "Normalização de calque paratático ‘eis que’ (הִנְנִי); sentido preservado pelo tempo verbal futuro (ER-0013/§6.2) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -145,10 +152,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
