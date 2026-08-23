@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Ezek.21.1-37"
   },
-  "texto_bv": "Em sua mão direita estava o presságio referente a Jerusalém: para dispor aríetes, para abrir a boca com grito de matança, para levantar a voz com alarido de guerra, para dispor aríetes contra as portas, para lançar rampa de cerco, para construir torre de assédio.",
+  "texto_bv": "Em sua mão direita estava o presságio referente a Jerusalém: dispor aríetes, abrir a boca com grito de matança, levantar a voz com alarido de guerra, dispor aríetes contra as portas, lançar rampa de cerco, construir torre de assédio.",
   "traducao_literal": "Em direita-dele foi o presságio Jerusalém: para pôr aríetes, para abrir boca em matança, para levantar voz em alarido, para pôr aríetes contra portas, para derramar rampa, para construir torre-de-cerco.",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para dispor aríetes, para abrir a boca com grito de matança, para levantar a voz com alarido de guerra, para dispor aríetes contra as portas, para lançar rampa de cerco, para construir torre de assédio → dispor aríetes, abrir a boca com grito de matança, levantar a voz com alarido de guerra, dispor aríetes contra as portas, lançar rampa de cerco, construir torre de assédio",
+      "justificativa": "Remoção de 'para' redundante após dois-pontos que já sinaliza finalidade (§1.3/LEN-1) — reduz sentença de 45 para 39 palavras. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "referente a (liga elíptica entre 'presságio' e 'Jerusalém', justapostos no hebraico)"
   ],
@@ -124,10 +132,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

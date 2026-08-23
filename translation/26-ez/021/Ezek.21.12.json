@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Ezek.21.1-37"
   },
-  "texto_bv": "E será que, quando te perguntarem: 'Por que gemes?', dirás: 'Por causa de uma notícia, porque ela vem; e todo coração se derreterá, e todas as mãos se enfraquecerão, e todo espírito desfalecerá, e todos os joelhos se tornarão em água. Eis que ela vem e se cumprirá', diz o Senhor DEUS.",
+  "texto_bv": "E será que, quando te perguntarem: 'Por que gemes?', dirás: 'Por causa de uma notícia, porque ela vem. E todo coração se derreterá, e todas as mãos se enfraquecerão, e todo espírito desfalecerá, e todos os joelhos se tornarão em água. Eis que ela vem e se cumprirá', diz o Senhor DEUS.",
   "traducao_literal": "E será, quando disserem a ti: sobre que tu gemes? — e dirás: sobre notícia, porque vem; e derreterá todo coração, e enfraquecerão todas mãos, e desfalecerá todo espírito, e todos joelhos irão águas; eis vem, e será feita — oráculo do Senhor DEUS.",
   "termos_originais": [
     {
@@ -183,6 +183,13 @@
           "motivo": "Perde a imagem concreta hebraica em favor de generalização emocional."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "porque ela vem; e todo coração → porque ela vem. E todo coração",
+      "justificativa": "Divisão de sentença com mais de 40 palavras (§1.3/LEN-1) — ponto final no lugar de ponto e vírgula para quebrar a sequência paratática dentro da citação. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -194,10 +201,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
