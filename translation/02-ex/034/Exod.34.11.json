@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Exod.34.1-35"
   },
-  "texto_bv": "Observe o que hoje lhe ordeno. Eis que expulsarei de diante de você os amorreus, os cananeus, os hititas, os perizeus, os heveus e os jebuseus.",
+  "texto_bv": "Observe o que hoje lhe ordeno. Expulsarei de diante de você os amorreus, os cananeus, os hititas, os perizeus, os heveus e os jebuseus.",
   "traducao_literal": "Guarda para você o que eu ordenando você hoje; eis-me expulsando das faces de você o amorreu, e o cananeu, e o hitita, e o perizeu, e o heveu, e o jebuseu.",
   "termos_originais": [
     {
@@ -97,7 +97,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que expulsarei de diante de você → Expulsarei de diante de você",
+      "justificativa": "Normalização de calque paratático “eis que” (הִנֵּה hinneh) sem força dêitica especial neste contexto de anúncio sequencial a imperativo (§6.2/ER-0013); forma verbal simples preserva o sentido de anúncio futuro. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Os gentílicos coletivos singulares são naturalizados no plural, e a cadeia integral permanece na literal.",
@@ -107,10 +115,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
