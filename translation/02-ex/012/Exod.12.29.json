@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "E aconteceu que, à meia-noite, o SENHOR feriu todo o primogênito na terra do Egito, desde o primogênito de Faraó, que se sentava no seu trono, até ao primogênito do cativo que estava no cárcere, e todo o primogênito dos animais.",
+  "texto_bv": "À meia-noite, o SENHOR feriu todo o primogênito na terra do Egito — desde o primogênito de Faraó, que se sentava no seu trono, até o primogênito do cativo, que estava no cárcere, e todo o primogênito dos animais.",
   "traducao_literal": "E aconteceu na metade da noite, e YHWH feriu todo o primogênito na terra do Egito, desde o primogênito de Faraó, o que se assenta sobre o seu trono, até o primogênito do cativo que na casa do poço, e todo o primogênito de animal.",
   "termos_originais": [
     {
@@ -127,7 +127,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, à meia-noite, → À meia-noite, | na terra do Egito, desde → na terra do Egito — desde | até ao → até o",
+      "justificativa": "CAL-1: eliminação do calque paratático 'E aconteceu que' (waw consecutivo desnecessário na abertura de nova cena narrativa), conforme ER-0013 e EDITORIAL §6.2. | LEN-1: travessão introduz pausa que divide a sentença de 42 palavras em duas unidades de leitura (~15 + ~21), conforme EDITORIAL §1.3. | AO90: contração 'até ao' preterida em favor de 'até o' no português brasileiro contemporâneo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "וַיהוָה הִכָּה 'e o SENHOR feriu' — cumpre-se o anúncio (11:4-5). Do trono ao cárcere: todo o Egito ferido. YHWH→SENHOR.",
@@ -137,10 +145,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.0",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

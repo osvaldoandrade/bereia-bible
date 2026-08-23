@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Então tomai um molho de hissopo, e molhai-o no sangue que estiver na bacia, e passai-o na verga da porta, e em ambas as ombreiras, do sangue que estiver na bacia; porém nenhum de vós saia da porta da sua casa até à manhã.",
+  "texto_bv": "Então tomai um molho de hissopo, molhai-o no sangue que estiver na bacia e passai-o na verga da porta e em ambas as ombreiras, com o sangue que estiver na bacia. Porém nenhum de vós saia da porta da sua casa até à manhã.",
   "traducao_literal": "E tomareis um molho de hissopo e o mergulhareis no sangue que na bacia, e tocareis à verga e às duas ombreiras do sangue que na bacia; e vós não saireis, cada um da entrada da sua casa, até a manhã.",
   "termos_originais": [
     {
@@ -137,7 +137,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e molhai-o no sangue que estiver na bacia, e passai-o na verga da porta, e em ambas as ombreiras, do sangue que estiver na bacia; porém → molhai-o no sangue que estiver na bacia e passai-o na verga da porta e em ambas as ombreiras, com o sangue que estiver na bacia. Porém",
+      "justificativa": "LEN-1: divisão da sentença de 46 palavras em duas (28 + 14), com ponto final no lugar do ponto-e-vírgula. Remoção de vírgulas antes de 'e' com mesmo sujeito (norma portuguesa). Preposição 'do'→'com' mais natural em pt-BR. ER-0019, EDITORIAL §1.3. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "אֵזוֹב 'hissopo' — usado depois na purificação (Lv 14; Nm 19; Sl 51:7; Jo 19:29 na cruz, registrado). Aplicar o sangue e permanecer dentro = confiar na provisão.",
@@ -147,10 +155,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.0",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
