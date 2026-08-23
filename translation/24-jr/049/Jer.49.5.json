@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Jer.49.1-39"
   },
-  "texto_bv": "Eis que trago sobre ti um terror — declara o Senhor DEUS dos Exércitos — de todos os que te rodeiam; sereis expulsos, cada um por si, e não haverá quem reúna os fugitivos.",
+  "texto_bv": "Eis que trago sobre vocês um terror de todos os que os rodeiam — declara o Senhor DEUS dos Exércitos — e serão expulsos, cada um por si, e não haverá quem reúna os fugitivos.",
   "traducao_literal": "Eis-me trazendo sobre-ti terror, declaração-de Senhor YHWH dos-Exércitos, de-todos os-teus-arredores; e-sereis-expulsos(plural) cada-um diante-dele, e-não-há quem-reúna para-o-fugitivo.",
   "termos_originais": [
     {
@@ -114,6 +114,13 @@
           "motivo": "soa como erro gramatical em português, sem função estilística equivalente"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sobre ti → sobre vocês | que te rodeiam → que os rodeiam | um terror — declara o Senhor DEUS dos Exércitos — de todos os que te rodeiam → um terror de todos os que os rodeiam — declara o Senhor DEUS dos Exércitos | sereis expulsos → serão expulsos",
+      "justificativa": "Normalização vós→vocês (§3/D-0003, ER-0019): pronome oblíquo dirigido aos amonitas. | Normalização vós→vocês (§3/D-0003, ER-0019): pronome oblíquio. | Reposição do adjunto 'de todos os que os rodeiam' junto ao núcleo 'terror', eliminando separação sintática pelo parentético. | Normalização vós→vocês (§3/D-0003, ER-0019): conjugação verbal. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -125,10 +132,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

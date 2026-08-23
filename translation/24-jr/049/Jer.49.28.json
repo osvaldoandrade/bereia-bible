@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Jer.49.1-39"
   },
-  "texto_bv": "Quanto a Quedar e aos reinos de Hazor, que Nabucodonosor, rei da Babilônia, feriu, assim diz o SENHOR: Levantai-vos, subi contra Quedar, e destruí os filhos do oriente.",
+  "texto_bv": "Quanto a Quedar e aos reinos de Hazor, que Nabucodonosor, rei da Babilônia, feriu, assim diz o SENHOR: Levantem-se, subam contra Quedar, e destruam os filhos do oriente.",
   "traducao_literal": "Para Quedar e-para-os-reinos-de Hazor, que feriu Nabucodonosor rei-de Babel, assim disse YHWH: levantai-vos, subi contra Quedar, e-destruí os-filhos-de oriente.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Levantai-vos → Levantem-se | subi → subam | destruí → destruam",
+      "justificativa": "Normalização vós→vocês (§3/D-0003, ER-0019): imperativo plural na ordem divina. | Normalização vós→vocês (§3/D-0003, ER-0019): imperativo plural. | Normalização vós→vocês (§3/D-0003, ER-0019): imperativo plural. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "נבוכדראצור grafado sem pontuação vocálica na fonte pinada (Ketiv atípico), diferente da forma plena pontuada em 49:30 (נְבוּכַדְרֶאצַּר); traduzido uniformemente 'Nabucodonosor', sem impacto semântico"
@@ -119,10 +127,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
