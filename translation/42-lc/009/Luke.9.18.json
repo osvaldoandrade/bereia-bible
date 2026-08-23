@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Luke.9.1-62"
   },
-  "texto_bv": "E aconteceu que, estando ele orando à parte, os discípulos estavam com ele; e ele lhes perguntou: \"Quem dizem as multidões que eu sou?\"",
+  "texto_bv": "Estando ele orando à parte, os discípulos estavam com ele; e ele lhes perguntou: \"Quem dizem as multidões que eu sou?\"",
   "traducao_literal": "E aconteceu, em estar ele orando à parte, estavam com ele os discípulos, e perguntou a eles, dizendo: Quem me as multidões dizem ser?",
   "termos_originais": [
     {
@@ -127,7 +127,22 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, estando ele orando à parte, → Estando ele orando à parte,",
+      "justificativa": "Normalização de calque paratático 'e aconteceu que' (ἐγένετο) conforme ER-0013/§6.2; o sentido temporal é preservado pelo gerúndio. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "PRO-1 sinalizou 4 pronomes de 3ª pessoa (ele×3 + lhes), mas todos têm antecedente inequívoco (Jesus, discípulos). — evidência: \"ele\" refere-se a Jesus (sujeito da oração); \"lhes\" refere-se aos discípulos (objeto indireto claro). Nenhuma ambiguidade pronominal. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "que"
   ],
@@ -139,10 +154,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "nestle1904@713f28a3"
   }
 }

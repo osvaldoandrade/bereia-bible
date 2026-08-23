@@ -7,7 +7,7 @@
     "versiculo": 45,
     "pericope": "Luke.9.1-62"
   },
-  "texto_bv": "Mas eles não entendiam essa palavra; ela lhes estava encoberta, para que não a compreendessem, e tinham medo de perguntar a ele sobre essa palavra.",
+  "texto_bv": "Mas eles não entendiam essa palavra; ela lhes estava encoberta, para que não a compreendessem, e tinham medo de perguntar a ele sobre isso.",
   "traducao_literal": "E eles não entendiam esta palavra, e estava encoberta deles, para que não a percebessem, e temiam perguntar a ele acerca desta palavra.",
   "termos_originais": [
     {
@@ -127,7 +127,22 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e tinham medo de perguntar a ele sobre essa palavra. → e tinham medo de perguntar a ele sobre isso.",
+      "justificativa": "Correção de redundância interna (RED-1): 'essa palavra' repetido duas vezes no mesmo versículo sem correspondente repetição no original; substituído por pronome demonstrativo na segunda ocorrência. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "PRO-1 sinalizou 4 pronomes de 3ª pessoa (eles, lhes, a, ele), mas todos têm antecedente inequívoco. — evidência: \"eles\" = discípulos; \"lhes\" = aos discípulos; \"a\" = a palavra; \"ele\" = Jesus. Referências claras no contexto narrativo. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "o texto não identifica o agente do encobrimento (ἦν παρακεκαλυμμένον, passivo sem agente expresso) — a BV preserva essa indeterminação, sem supor Deus ou os próprios discípulos como sujeito"
@@ -139,10 +154,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "nestle1904@713f28a3"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Luke.9.1-62"
   },
-  "texto_bv": "E aconteceu que, cerca de oito dias depois destas palavras, ele tomou consigo Pedro, João e Tiago, e subiu ao monte para orar.",
+  "texto_bv": "Cerca de oito dias depois destas palavras, ele tomou consigo Pedro, João e Tiago e subiu ao monte para orar.",
   "traducao_literal": "E aconteceu depois destas palavras cerca de oito dias, e tendo tomado Pedro e João e Tiago, subiu ao monte para orar.",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, cerca de oito dias depois destas palavras, ele tomou consigo Pedro, João e Tiago, e subiu ao monte para orar. → Cerca de oito dias depois destas palavras, ele tomou consigo Pedro, João e Tiago e subiu ao monte para orar.",
+      "justificativa": "Normalização de calque paratático 'e aconteceu que' (ἐγένετο) conforme ER-0013/§6.2; a indicação temporal já introduz a cena sem necessidade do marcador. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "que"
   ],
@@ -129,10 +137,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "nestle1904@713f28a3"
   }
 }

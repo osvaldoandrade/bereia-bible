@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Luke.9.1-62"
   },
-  "texto_bv": "Mas ele lhes disse: \"Deem vocês mesmos a eles de comer.\" Eles responderam: \"Não temos mais do que cinco pães e dois peixes, a não ser que nós mesmos vamos comprar alimento para todo este povo.\"",
+  "texto_bv": "Mas ele lhes disse: \"Deem vocês mesmos a eles de comer.\" Eles responderam: \"Não temos mais do que cinco pães e dois peixes, a não ser que vamos comprar alimento para todo este povo.\"",
   "traducao_literal": "E disse a eles: Dai vós a eles de comer. E eles disseram: Não temos mais que cinco pães e dois peixes, a menos que, indo nós, compremos para todo este povo alimentos.",
   "termos_originais": [
     {
@@ -172,7 +172,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a não ser que nós mesmos vamos comprar → a não ser que vamos comprar",
+      "justificativa": "Remoção de \"nós mesmos\" redundante com o sujeito já explícito na desinência verbal e no contexto; o original não enfatiza com pronome reflexivo neste ponto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "ὑμεῖς e ἡμεῖς enfáticos (pronomes redundantes) vertidos 'vocês mesmos'/'nós mesmos' para preservar a ênfase grega.",
@@ -182,10 +190,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "nestle1904@713f28a3"
   }
 }
