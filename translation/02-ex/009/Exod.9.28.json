@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Exod.9.1-35"
   },
-  "texto_bv": "Orai ao SENHOR (pois que basta) para que não haja mais trovões de Deus nem saraiva; e eu vos deixarei ir, e não ficareis mais aqui.",
+  "texto_bv": "Orem ao SENHOR (pois que basta) para que não haja mais trovões de Deus nem saraiva; e eu os deixarei ir, e não ficarão mais aqui.",
   "traducao_literal": "Orai a YHWH, e muito de haver trovões de Deus e saraiva; e deixar-vos-ei ir, e não continuareis a ficar de pé.",
   "termos_originais": [
     {
@@ -77,7 +77,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Orai ao SENHOR → Orem ao SENHOR | eu vos deixarei ir → eu os deixarei ir | não ficareis mais aqui → não ficarão mais aqui",
+      "justificativa": "normalização vós→vocês (§3/D-0003/VOS-1): imperativo 2ª pl.→3ª pl. | normalização vós→vocês (§3/D-0003/VOS-1): pronome oblíquo 2ª pl.→3ª pl. | normalização vós→vocês (§3/D-0003/VOS-1): futuro 2ª pl.→3ª pl. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "רַב 'basta/é muito' — Faraó implora o fim. קֹלֹת אֱלֹהִים 'trovões de Deus' (elohim: superlativo 'trovões poderosíssimos', ou 'de Deus'). YHWH→SENHOR; אֱלֹהִים→Deus.",
@@ -87,10 +95,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
