@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Jer.43.1-13"
   },
-  "texto_bv": "Pois Baruque, filho de Nerias, está incitando você contra nós, para nos entregar nas mãos dos caldeus, para nos matar e nos exilar para a Babilônia.”",
+  "texto_bv": "“Pois Baruque, filho de Nerias, está incitando você contra nós, para nos entregar nas mãos dos caldeus, para nos matar e nos exilar para a Babilônia.”",
   "traducao_literal": "Porque Baruque filho-de-Nerias incitando-te em-nós para-dar-nos em-mão-de-os-caldeus para-matar-nos e-para-exilar-nos Babilônia.",
   "termos_originais": [
     {
@@ -114,6 +114,20 @@
       "escolha": "'nos exilar'",
       "justificativa": "Mantém o par de consequências que os acusadores atribuem à suposta conspiração — morte ou deportação — sem colapsar os dois verbos num só sentido genérico.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Pois Baruque, → “Pois Baruque,",
+      "justificativa": "Abertura de aspas duplas no verso que continua o discurso direto iniciado no v. 2 (§5/ER-0004). O v. 2 recebeu o fechamento correspondente; cada verso deve ter aspas pareadas. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Ratio 2.60 (RAT-1): 26 palavras BV vs 10 na literal. — evidência: A expansão decorre de perifráse verbal necessária em pt-BR (‘está incitando’ para particípio hebraico) e de preposições articuladas (‘nas mãos dos’, ‘para nos entregar’, ‘para nos matar’, ‘para nos exilar’). A literal condensa em prefixos pronominais hebraicos que o português não possui. Não há redundância nem adição de sentido. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -125,10 +139,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

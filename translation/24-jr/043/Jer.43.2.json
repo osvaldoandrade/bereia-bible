@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Jer.43.1-13"
   },
-  "texto_bv": "Então Azarias, filho de Hosaías, e Joanã, filho de Careá, e todos os homens arrogantes disseram a Jeremias: “O que você está falando é mentira; o SENHOR, nosso Deus, não o enviou para dizer: ‘Não entrem no Egito para morar ali como estrangeiros.’",
+  "texto_bv": "Então Azarias, filho de Hosaías, e Joanã, filho de Careá, e todos os homens arrogantes disseram a Jeremias: “O que você está falando é mentira; o SENHOR, nosso Deus, não o enviou para dizer: ‘Não entrem no Egito para morar ali como estrangeiros.’”",
   "traducao_literal": "E-disse Azarias filho-de-Hosaías e-Joanã filho-de-Careá e-todos-os-homens os-arrogantes dizendo a-Jeremias mentira você falando não enviou-te SENHOR Deus-nosso dizendo não entrareis Egito para-peregrinar ali.",
   "termos_originais": [
     {
@@ -190,6 +190,20 @@
           "motivo": "mais literal, porém menos claro em português contemporâneo; preferiu-se explicitar 'como estrangeiros'"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "estrangeiros.’ → estrangeiros.’”",
+      "justificativa": "Fechamento de aspas duplas externas no verso que contém abertura de discurso direto (§5/ER-0004). O discurso continua no v. 3, mas cada verso deve ter aspas duplas pareadas; verso 3 recebe aspas de abertura correspondente. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Sentença de 43 palavras (LEN-1, limiar 40) com ratio 1.95 (RAT-1). — evidência: O verso contém moldura narrativa (atribuição de fala) + discurso direto citado que se estende ao v. 3. Dividir exigiria reestruturar a citação interna ou criar verso fragmentário; a unidade discurso-atribuição é inseparável no original. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -203,10 +217,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
