@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Dan.7.1-28"
   },
-  "texto_bv": "Depois disso eu estava vendo, em visões da noite, e eis um quarto animal, terrível e espantoso, e muito forte; tinha grandes dentes de ferro, devorava e triturava, e pisava o resto com os pés; e era diferente de todos os animais que vieram antes dele, e tinha dez chifres.",
+  "texto_bv": "Depois disso eu estava vendo, em visões da noite, e eis um quarto animal, terrível e espantoso, e muito forte. Tinha grandes dentes de ferro; devorava e triturava, e pisava o resto com os pés. Era diferente de todos os animais que vieram antes dele e tinha dez chifres.",
   "traducao_literal": "Depois disto vendo eu estava em visões da noite, e eis animal quarto, terrível e espantoso e forte demais, e dentes de ferro a ele, grandes; devorava e triturava, e o resto com seus pés pisava; e ela diferente de todos os animais que diante dela; e chifres dez a ela.",
   "termos_originais": [
     {
@@ -188,6 +188,13 @@
           "motivo": "menos natural dado o contexto de sucessão de reinos/animais explicado em vv.17,23"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "muito forte; tinha → muito forte. Tinha | com os pés; e era diferente de todos os animais que vieram antes dele, e tinha dez chifres. → com os pés. Era diferente de todos os animais que vieram antes dele e tinha dez chifres.",
+      "justificativa": "divisão de sentença com mais de 40 palavras (§1.3/LEN-1) | divisão de sentença com mais de 40 palavras (§1.3/LEN-1); remoção de 'e' paratático inicial e vírgula antes de 'e tinha' (mesmo sujeito) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -202,10 +209,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

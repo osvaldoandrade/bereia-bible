@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Dan.7.1-28"
   },
-  "texto_bv": "E acerca dos dez chifres que estavam em sua cabeça, e do outro que subiu, diante do qual caíram três; aquele chifre tinha olhos e uma boca que falava grandes coisas, e sua aparência era maior que a dos seus companheiros.",
+  "texto_bv": "E acerca dos dez chifres em sua cabeça, e do outro que subiu, diante do qual caíram três; aquele chifre tinha olhos e uma boca que falava grandes coisas, e sua aparência era maior que a dos seus companheiros.",
   "traducao_literal": "E sobre os chifres dez que em sua cabeça, e o outro que subiu, e caíram diante dele três; e aquele chifre, e olhos a ele, e boca falando coisas grandes, e sua aparência maior que seus companheiros.",
   "termos_originais": [
     {
@@ -127,7 +127,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "chifres que estavam em sua cabeça → chifres em sua cabeça",
+      "justificativa": "remoção de verbo suprido para redução abaixo de 40 palavras (§1.3/LEN-1); elipse preservada conforme original — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "tinha (chifre... olhos, verbo de posse suprido)",
     "era (liga 'aparência' a 'maior')"
@@ -140,10 +148,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
