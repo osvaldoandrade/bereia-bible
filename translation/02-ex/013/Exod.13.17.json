@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Exod.13.1-22"
   },
-  "texto_bv": "E aconteceu que, quando Faraó deixou ir o povo, Deus não os levou pelo caminho da terra dos filisteus, que estava mais perto; porque Deus disse: Para que porventura o povo não se arrependa, vendo a guerra, e volte ao Egito.",
+  "texto_bv": "Quando Faraó deixou ir o povo, Deus não os levou pelo caminho da terra dos filisteus, que estava mais perto; porque Deus disse: Para que o povo não se arrependa, vendo a guerra, e volte ao Egito.",
   "traducao_literal": "E aconteceu, quando deixou ir Faraó o povo, que não os guiou Deus pelo caminho da terra dos filisteus, porque perto ele; porque disse Deus: Para que não se arrependa o povo no seu ver guerra, e voltem ao Egito.",
   "termos_originais": [
     {
@@ -132,7 +132,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, quando → Quando | Para que porventura o povo → Para que o povo",
+      "justificativa": "Normalização de calque paratático (§6.2/ER-0013, CAL-1): 'E aconteceu que' é tradução servil de וַיְהִי כִי; aspecto temporal preservado por 'Quando'. Contribui para LEN-1 (41→37 palavras). | Remoção de arcaísmo (§1.2, ARC-1): 'porventura' é funcionalmente morto em pt-BR contemporâneo; sentido preventivo ('para que...não') já expresso pela construção sem o advérbio. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Deus evita a rota curta (litoral filisteu, fortificada) — pedagogia divina: o povo recém-liberto não suportaria a guerra imediata. A providência considera a fraqueza. אֱלֹהִים→Deus.",
@@ -142,10 +150,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

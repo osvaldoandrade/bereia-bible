@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Exod.13.1-22"
   },
-  "texto_bv": "E acontecerá que, quando teu filho amanhã te perguntar, dizendo: Que é isto? Dir-lhe-ás: O SENHOR nos tirou com mão forte do Egito, da casa da servidão.",
+  "texto_bv": "E acontecerá que, quando seu filho amanhã lhe perguntar, dizendo: Que é isto? Você lhe dirá: O SENHOR nos tirou com mão forte do Egito, da casa da servidão.",
   "traducao_literal": "E será, quando te perguntar o teu filho amanhã, dizendo: Que isto? E dirás a ele: Com força de mão fez-nos sair YHWH do Egito, da casa de servos.",
   "termos_originais": [
     {
@@ -97,7 +97,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "teu filho → seu filho | te perguntar → lhe perguntar | Dir-lhe-ás: → Você lhe dirá:",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003, ER-0019): tu→você em discurso Deus→humano; possessivo tu 'teu' → você 'seu'. | Normalização do paradigma de 2ª pessoa (§3/D-0003, ER-0019): tu→você; oblíquo indireto tu 'te' (perguntar a alguém) → você 'lhe'. | Normalização do paradigma de 2ª pessoa (§3/D-0003, ER-0019) e remoção de mesóclise (§1.2): tu 'Dir-lhe-ás' → você 'Você lhe dirá', com sujeito explícito para clareza após pergunta intercalada. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "מַה־זֹּאת 'que é isto?' — a pergunta do filho (cf. 12:26) que a prática ritual provoca; a resposta narra a redenção. YHWH→SENHOR.",
@@ -107,10 +115,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

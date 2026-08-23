@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Exod.13.1-22"
   },
-  "texto_bv": "E acontecerá que, quando o SENHOR te houver introduzido na terra do cananeu, do heteu, do amorreu, do heveu, e do jebuseu, que jurou a teus pais que te daria, terra que mana leite e mel, guardarás este culto neste mês.",
+  "texto_bv": "Quando o SENHOR o houver introduzido na terra do cananeu, do heteu, do amorreu, do heveu e do jebuseu, que jurou a seus pais que lhe daria, terra que mana leite e mel, você guardará este culto neste mês.",
   "traducao_literal": "E será, quando te fizer vir YHWH à terra do cananeu e do heteu e do amorreu e do heveu e do jebuseu, que jurou aos teus pais para dar a ti, terra que mana leite e mel, e servirás o serviço este no mês este.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E acontecerá que, quando → Quando | te houver introduzido → o houver introduzido | do heveu, e do jebuseu → do heveu e do jebuseu | teus pais → seus pais | te daria → lhe daria | guardarás este culto → você guardará este culto",
+      "justificativa": "Normalização de calque paratático (§6.2/ER-0013) para redução de sentença longa (LEN-1, 41 palavras); 'E acontecerá que' é calque de וְהָיָה כִי, aspecto temporal preservado pelo futuro perfeito do subjuntivo 'houver introduzido'. | Normalização do paradigma de 2ª pessoa (§3/D-0003, ER-0019): tu→você em discurso Deus→humano; oblíquo direto tu 'te' → você 'o'. | Pontuação conforme sintaxe portuguesa (§6.1): vírgula antes de 'e' em enumeração simples não é padrão em pt-BR. | Normalização do paradigma de 2ª pessoa (§3/D-0003, ER-0019): tu→você; possessivo tu 'teus' → você 'seus'. | Normalização do paradigma de 2ª pessoa (§3/D-0003, ER-0019): tu→você; oblíquo indireto tu 'te' → você 'lhe'. | Normalização do paradigma de 2ª pessoa (§3/D-0003, ER-0019): tu→você; futuro tu 'guardarás' → futuro você 'guardará', com sujeito explícito para clareza após oração subordinada longa. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Consagração dos primogênitos e a partida (DRAFT, ADR-0002).",
@@ -152,10 +160,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
