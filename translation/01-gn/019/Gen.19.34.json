@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Gen.19.1-38"
   },
-  "texto_bv": "E aconteceu que, no dia seguinte, a primogênita disse à mais nova: “Eis que ontem à noite me deitei com meu pai; demos-lhe de beber vinho também esta noite, e então entra tu, e deita-te com ele, para que conservemos a descendência de nosso pai.”",
+  "texto_bv": "No dia seguinte, a primogênita disse à mais nova: “Ontem à noite me deitei com meu pai; demos-lhe de beber vinho também esta noite, e então entre você e deite-se com ele, para que conservemos a descendência de nosso pai.”",
   "traducao_literal": "E aconteceu no dia seguinte, e disse a primogênita à mais jovem: “Eis que me deitei ontem à noite com meu pai; demos-lhe de beber vinho também esta noite, e entra, deita-te com ele, e façamos viver de nosso pai semente.”",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, no dia seguinte → No dia seguinte | Eis que ontem → Ontem | entra tu, e deita-te → entre você e deite-se",
+      "justificativa": "ER-0013: normalização do calque 'aconteceu que' | ER-0013: normalização do calque 'eis que' | §3/D-0003: tu→você (discurso humano↔humano entre as filhas) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Tradução DRAFT do capítulo (ADR-0002).",
@@ -127,10 +135,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

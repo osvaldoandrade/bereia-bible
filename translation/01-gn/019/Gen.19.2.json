@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Gen.19.1-38"
   },
-  "texto_bv": "e disse: “Eis agora, meus senhores, vinde, peço-vos, à casa do vosso servo, e passai nela a noite, e lavai os vossos pés; e de madrugada vos levantareis e ireis vosso caminho.” E eles disseram: “Não, mas passaremos a noite na praça.”",
+  "texto_bv": "e disse: “Eis agora, meus senhores, venham, peço a vocês, à casa do seu servo, e passem nela a noite, e lavem os seus pés; e de madrugada se levantarão e seguirão o seu caminho.” E eles disseram: “Não, mas passaremos a noite na praça.”",
   "traducao_literal": "e disse: “Eis, ora, meus senhores, desviai-vos, ora, para a casa do vosso servo, e pernoitai, e lavai os vossos pés, e madrugareis e ireis para o vosso caminho.” E disseram: “Não, mas na praça pernoitaremos.”",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vinde, peço-vos → venham, peço a vocês | à casa do vosso servo → à casa do seu servo | passai → passem | lavai os vossos pés → lavem os seus pés | vos levantareis e ireis vosso caminho → se levantarão e seguirão o seu caminho",
+      "justificativa": "§3/D-0003: normalização do paradigma vós→vocês (discurso humano↔humano) | §3/D-0003: vosso→seu (vocês) | §3/D-0003: vós→vocês (imperativo) | §3/D-0003: vós→vocês | §3/D-0003: vós→vocês (futuro + sintaxe moderna) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Tradução DRAFT do capítulo (ADR-0002).",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

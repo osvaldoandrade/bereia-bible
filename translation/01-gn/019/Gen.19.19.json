@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Gen.19.1-38"
   },
-  "texto_bv": "Eis que agora o teu servo achou graça aos teus olhos, e engrandeceste a tua misericórdia que a mim me fizeste, para guardar a minha alma em vida; mas eu não posso escapar para a montanha, para que porventura não me apanhe este mal, e eu morra.",
+  "texto_bv": "Agora o seu servo achou graça aos seus olhos e engrandeceu a sua misericórdia que me fez, para guardar a minha alma em vida. Mas eu não posso escapar para a montanha, para que não me apanhe este mal e eu morra.",
   "traducao_literal": "Eis, ora, achou o teu servo graça aos teus olhos, e engrandeceste a tua misericórdia que fizeste comigo, para conservar viva a minha alma; e eu não posso escapar para a montanha, para que não se apegue a mim o mal, e eu morra.",
   "termos_originais": [
     {
@@ -127,7 +127,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que agora → Agora | o teu servo achou graça aos teus olhos, e engrandeceste a tua misericórdia que a mim me fizeste → o seu servo achou graça aos seus olhos e engrandeceu a sua misericórdia que me fez | em vida; mas → em vida. Mas | para que porventura não me apanhe este mal, e eu morra → para que não me apanhe este mal e eu morra",
+      "justificativa": "ER-0013: normalização do calque 'eis que' | §3/D-0003: tu→você (Ló→anjo, não oração a Deus); remoção de 'a mim me' redundante | EDITORIAL §1.3: divisão de sentença com 47 palavras | EDITORIAL §1.2: arcaísmo 'porventura' removido; vírgula desnecessária suprimida — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "חֶסֶד (chesed) 'misericórdia/bondade leal' — termo teológico central.",
@@ -137,10 +145,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
