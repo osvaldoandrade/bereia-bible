@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Ezek.32.1-32"
   },
-  "texto_bv": "Filho do homem, levante uma lamentação sobre o faraó, rei do Egito, e diga a ele: Você foi comparado a um leão novo entre as nações, mas você é como o monstro nos mares; você irrompia em seus rios, turvava as águas com os pés e pisoteava os seus rios.",
+  "texto_bv": "Filho do homem, levante uma lamentação sobre o faraó, rei do Egito, e diga a ele: Você foi comparado a um leão novo entre as nações. Mas você é como o monstro nos mares; você irrompia em seus rios, turvava as águas com os pés e pisoteava os seus rios.",
   "traducao_literal": "Filho-de-homem, levanta lamentação sobre faraó rei-de-Egito, e-dirás a-ele: leão-novo-de nações foste-comparado, e-tu como-o-monstro nos-mares; e-irrompeste em-teus-rios, e-turvaste águas com-teus-pés, e-pisoteaste seus-rios.",
   "termos_originais": [
     {
@@ -153,6 +153,13 @@
           "motivo": "construto genitivo literal soa possessivo em português, obscurecendo o sentido comparativo/associativo do hebraico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nações, mas você → nações. Mas você",
+      "justificativa": "LEN-1: sentença de 50 palavras dividida na oração adversativa para melhor legibilidade (§1.3) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -168,10 +175,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

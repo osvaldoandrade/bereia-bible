@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Ezek.32.1-32"
   },
-  "texto_bv": "Ali está Elão, com toda a sua multidão, ao redor do seu túmulo; todos eles são traspassados, caídos pela espada, os que desceram incircuncisos à terra das profundezas, os que espalharam o seu terror na terra dos viventes; e carregam a sua vergonha com os que descem à cova.",
+  "texto_bv": "Ali está Elão, com toda a sua multidão, ao redor do seu túmulo; todos eles são traspassados, caídos pela espada, os que desceram incircuncisos à terra das profundezas, os que espalharam o seu terror na terra dos viventes. E carregam a sua vergonha com os que descem à cova.",
   "traducao_literal": "Ali Elão, e-toda sua-multidão, ao-redor-de túmulo-dela; todos-eles traspassados, os-que-caíram pela-espada, que desceram incircuncisos à-terra-de profundezas, que deram terror-deles na-terra-de viventes; e-carregaram vergonha-deles com os-que-descem cova.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "viventes; e carregam → viventes. E carregam",
+      "justificativa": "LEN-1: sentença de 49 palavras dividida na oração coordenada para melhor legibilidade (§1.3) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "está (verbaliza a oração nominal inicial)"
   ],
@@ -154,10 +162,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
