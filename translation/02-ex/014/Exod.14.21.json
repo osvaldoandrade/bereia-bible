@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Exod.14.1-31"
   },
-  "texto_bv": "Então Moisés estendeu a sua mão sobre o mar, e o SENHOR fez retirar o mar por um forte vento oriental toda aquela noite; e o mar tornou-se em seco, e as águas foram partidas.",
+  "texto_bv": "Então Moisés estendeu a sua mão sobre o mar, e o SENHOR fez retirar o mar por um forte vento oriental toda aquela noite; e o mar se tornou terra seca, e as águas foram partidas.",
   "traducao_literal": "E estendeu Moisés a sua mão sobre o mar, e conduziu YHWH o mar com um vento oriental forte toda a noite, e pôs o mar por terra seca, e fenderam-se as águas.",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o mar tornou-se em seco → o mar se tornou terra seca",
+      "justificativa": "Arcaísmo funcionalmente morto (§1.2): 'tornar-se em' + adjetivo é construção arcaizante em pt-BR; normalizado para 'se tornou' + substantivo ('terra seca'), conforme a traducao_literal ('pôs o mar por terra seca') e o sentido original. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "רוּחַ קָדִים עַזָּה 'forte vento oriental' (o instrumento de Deus, cf. 10:13) — o milagre por meios naturais dirigidos soberanamente; לֶחָרָבָה 'em terra seca'. YHWH→SENHOR.",
@@ -127,10 +135,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
