@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Gen.34.1-31"
   },
-  "texto_bv": "“Estes homens são pacíficos para conosco; portanto habitem na terra, e negociem nela, pois eis que a terra é bastante larga para eles; tomemos por mulheres as suas filhas, e demos-lhes as nossas filhas.",
+  "texto_bv": "“Estes homens são pacíficos para conosco; portanto habitem na terra, e negociem nela, pois a terra é bastante larga para eles; tomemos por mulheres as suas filhas, e demos-lhes as nossas filhas.",
   "traducao_literal": "“Os homens estes pacíficos eles conosco; e habitem na terra e negociem-na, e a terra, eis larga de mãos diante deles; as suas filhas tomaremos para nós por mulheres, e as nossas filhas daremos a eles.",
   "termos_originais": [
     {
@@ -127,7 +127,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois eis que a terra é bastante larga para eles → pois a terra é bastante larga para eles",
+      "justificativa": "Normalização do calque paratático 'eis que' (EDITORIAL §6.2, ER-0013); a partícula apresentativa soa artificial em pt-BR contemporâneo e a asserção mantém a força informativa. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Hamor omite aos concidadãos o verdadeiro custo (a circuncisão como pretexto) — engano mútuo entre os grupos.",
@@ -137,10 +145,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

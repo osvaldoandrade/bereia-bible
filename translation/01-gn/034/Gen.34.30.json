@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Gen.34.1-31"
   },
-  "texto_bv": "Então disse Jacó a Simeão e a Levi: “Vós me perturbastes, tornando-me odioso entre os habitantes desta terra, entre os cananeus e os ferezeus; sendo eu pouca gente em número, eles se ajuntarão contra mim, e me ferirão, e serei destruído, eu e a minha casa.”",
+  "texto_bv": "Então disse Jacó a Simeão e a Levi: “Vocês me perturbaram, tornando-me odioso entre os habitantes desta terra, entre os cananeus e os ferezeus. Sendo eu pouca gente em número, eles se ajuntarão contra mim, e me ferirão, e serei destruído, eu e a minha casa.”",
   "traducao_literal": "E disse Jacó a Simeão e a Levi: “Perturbastes-me, ao fazer-me feder no habitante da terra, no cananeu e no ferezeu; e eu homens de número, e se ajuntarão contra mim e me ferirão, e serei destruído eu e a minha casa.”",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vós me perturbastes → Vocês me perturbaram | ferezeus; sendo eu pouca gente → ferezeus. Sendo eu pouca gente",
+      "justificativa": "Normalização do paradigma de 2ª pessoa: pronome e conjugação vós→vocês (§3/D-0003, discurso humano↔humano). | Divisão de sentença de 47 palavras em dois períodos menores (EDITORIAL §1.3); a construção absoluta com gerúndio permite o início da segunda frase. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "A repreensão de Jacó (34:30) foca no perigo, não na injustiça; só em 49:5-7 ele condena moralmente a violência de Simeão e Levi."
@@ -134,10 +142,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
