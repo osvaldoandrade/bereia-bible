@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Gen.27.1-46"
   },
-  "texto_bv": "E aconteceu que, acabando Isaque de abençoar a Jacó, e mal saíra Jacó da presença de Isaque, seu pai, veio Esaú, seu irmão, da sua caça.",
+  "texto_bv": "Quando Isaque acabou de abençoar a Jacó, e Jacó mal tinha saído da presença de Isaque, seu pai, veio Esaú, seu irmão, da sua caça.",
   "traducao_literal": "E aconteceu que, quando acabou Isaque de abençoar a Jacó, e foi: apenas sair saiu Jacó de com a face de Isaque, seu pai, e Esaú, seu irmão, veio da sua caça.",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, acabando Isaque de abençoar a Jacó → Quando Isaque acabou de abençoar a Jacó | e mal saíra Jacó da presença de Isaque, seu pai → e Jacó mal tinha saído da presença de Isaque, seu pai",
+      "justificativa": "Normalização do calque paratático ‘E aconteceu que’ (ER-0013/§6.2); reestruturação em oração temporal. | Substituição do mais-que-perfeito sintético ‘saíra’ (§1.2/EDITORIAL) pelo composto ‘tinha saído’; ordem S-V conforme ER-0011. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Momento de máxima tensão — Esaú chega segundos depois.",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
