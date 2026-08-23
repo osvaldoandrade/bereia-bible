@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "1Kgs.21.1-29"
   },
-  "texto_bv": "Os homens da cidade dele — os anciãos e os nobres que moravam na cidade — fizeram conforme Jezabel lhes havia mandado, conforme estava escrito nas cartas que ela lhes enviara.",
+  "texto_bv": "Os homens da cidade dele — os anciãos e os nobres que moravam na cidade — fizeram conforme Jezabel lhes havia mandado, conforme estava escrito nas cartas que ela lhes havia enviado.",
   "traducao_literal": "E fizeram os homens de sua cidade, os anciãos e os nobres que habitavam em sua cidade, conforme enviou a eles Jezabel, conforme o que estava escrito nas cartas que enviou a eles.",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que ela lhes enviara → que ela lhes havia enviado",
+      "justificativa": "Mais-que-perfeito sintético “enviara” é arcaísmo funcionalmente morto (EDITORIAL §1.2); substituído pelo mais-que-perfeito composto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Homens, cidade repetida, anciãos, nobres, Jezabel, ordem, escrita, cartas e envio repetido foram preservados.",
@@ -112,10 +120,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }

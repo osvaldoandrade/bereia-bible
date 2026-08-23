@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "1Kgs.21.1-29"
   },
-  "texto_bv": "Quem da casa de Acabe morrer na cidade será comido pelos cães; e quem morrer no campo será comido pelas aves do céu.”",
+  "texto_bv": "Quem da casa de Acabe morrer na cidade, os cães o comerão; e quem morrer no campo, as aves do céu o comerão.”",
   "traducao_literal": "O que morrer de Acabe na cidade comerão os cães; e o que morrer no campo comerão as aves dos céus.”",
   "termos_originais": [
     {
@@ -62,7 +62,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "morrer na cidade será comido pelos cães; e quem morrer no campo será comido pelas aves do céu.” → morrer na cidade, os cães o comerão; e quem morrer no campo, as aves do céu o comerão.”",
+      "justificativa": "Duas construções passivas (PAS-1) desnecessárias; conversão para ativa preserva o paralelismo intencional do original e melhora fluidez em pt-BR (EDITORIAL §6.2; tradução literal tem a ordem ativa: “comerão os cães / comerão as aves”). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "da casa"
   ],
@@ -74,10 +82,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
