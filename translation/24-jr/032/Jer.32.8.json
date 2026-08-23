@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "E Hanamel, filho de meu tio, veio a mim, conforme a palavra do SENHOR, ao pátio da guarda, e me disse: \"Compre, por favor, o meu campo que está em Anatote, na terra de Benjamim, pois seu é o direito de herança, e sua é a resgate; compre-o para si.\" Então percebi que aquilo era a palavra do SENHOR.",
+  "texto_bv": "Hanamel, filho de meu tio, veio a mim ao pátio da guarda, conforme a palavra do SENHOR. Ele me disse: \"Compre, por favor, o meu campo que está em Anatote, na terra de Benjamim, pois seu é o direito de herança, e sua é a resgate; compre-o para si.\" Então percebi que aquilo era a palavra do SENHOR.",
   "traducao_literal": "E veio a mim Hanamel, filho do meu tio, conforme a palavra do SENHOR, ao pátio da guarda, e disse a mim: Compra, por favor, o meu campo que [está] em Anatote, que [está] na terra de Benjamim, pois teu [é] o direito da herança e tua [é] a resgate; compra para ti. E eu soube que a palavra do SENHOR [era] ela.",
   "termos_originais": [
     {
@@ -182,7 +182,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E Hanamel, filho de meu tio, veio a mim, conforme a palavra do SENHOR, ao pátio da guarda, e me disse: → Hanamel, filho de meu tio, veio a mim ao pátio da guarda, conforme a palavra do SENHOR. Ele me disse:",
+      "justificativa": "Remoção de waw inicial não-discursivo (ER-0013); divisão de sentença longa (LEN-1, §1.3) e reordenação para fluidez. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "percebi/soube (verbo idiomático 'וָאֵדַע' já presente no original, mantido)"
   ],
@@ -194,10 +202,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

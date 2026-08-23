@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "Os caldeus que lutam contra esta cidade entrarão, atearão fogo a esta cidade e a queimarão, junto com as casas em cujos terraços queimaram incenso a Baal e derramaram ofertas de libação a outros deuses, para me provocarem à ira.",
+  "texto_bv": "Os caldeus que lutam contra esta cidade entrarão, atearão fogo a ela e a queimarão, junto com as casas em cujos terraços queimaram incenso a Baal e derramaram ofertas de libação a outros deuses, para me provocarem à ira.",
   "traducao_literal": "E virão os caldeus, os que lutam contra esta cidade, e acenderão esta cidade em fogo e a queimarão, e as casas sobre cujos terraços queimaram incenso a Baal e derramaram libações a deuses outros, para me provocarem.",
   "termos_originais": [
     {
@@ -137,7 +137,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "atearão fogo a esta cidade e a queimarão → atearão fogo a ela e a queimarão",
+      "justificativa": "Pronome anafórico em lugar de repetição de 'esta cidade' (RED-1); a repetição não é fórmula intencional do original. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Descrição do julgamento como consequência da idolatria doméstica (culto em terraços); הַכְעִסֵנִי traduzido 'me provocarem à ira'.",
@@ -147,10 +155,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

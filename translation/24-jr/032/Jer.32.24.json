@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "Eis que as rampas de cerco chegaram à cidade para tomá-la, e a cidade está entregue nas mãos dos caldeus que lutam contra ela, por causa da espada, da fome e da peste; e o que disseste aconteceu, e eis que tu o vês.",
+  "texto_bv": "Eis que as rampas de cerco chegaram à cidade para tomá-la. A cidade está entregue nas mãos dos caldeus que lutam contra ela, pela espada, pela fome e pela peste; o que disseste aconteceu, e tu o vês.",
   "traducao_literal": "Eis que as rampas chegaram à cidade para tomá-la, e a cidade [foi] dada na mão dos caldeus, os que lutam contra ela, por causa da espada e da fome e da peste; e o que falaste aconteceu, e eis que tu vês.",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para tomá-la, e a cidade → para tomá-la. A cidade | por causa da espada, da fome e da peste → pela espada, pela fome e pela peste | e eis que tu o vês → e tu o vês",
+      "justificativa": "Divisão de sentença longa (LEN-1, §1.3). | Forma mais concisa (§1.3). | Normalização do segundo hinneh no verso (CAL-2, ER-0013); força dêitica fraca após o desfecho 'aconteceu'. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "סֹלְלוֹת designa as rampas de cerco militar (terraplenagem); tríade 'espada, fome e peste' recorrente em Jeremias.",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

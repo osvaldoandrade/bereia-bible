@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "Construíram os altos de Baal, que estão no vale do filho de Hinom, para fazerem passar seus filhos e suas filhas pelo fogo em honra a Moloque — o que eu não lhes ordenei, e nem me veio à mente que fizessem esta abominação, para levar Judá a pecar.",
+  "texto_bv": "Construíram os altos de Baal, que estão no vale do filho de Hinom, para fazerem passar seus filhos e suas filhas pelo fogo em honra a Moloque. Eu não lhes ordenei isso, nem me veio à mente que fizessem esta abominação, para levar Judá a pecar.",
   "traducao_literal": "E construíram os altos de Baal que [estão] no vale do filho de Hinom, para fazer passar os filhos deles e as filhas deles a Moloque, o que não ordenei a eles, e não subiu sobre o meu coração fazer esta abominação, para fazer pecar Judá.",
   "termos_originais": [
     {
@@ -152,7 +152,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "em honra a Moloque — o que eu não lhes ordenei, e nem me veio → em honra a Moloque. Eu não lhes ordenei isso, nem me veio",
+      "justificativa": "Divisão de sentença longa (LEN-1, §1.3); suprimento de 'isso' como objeto direto (ER-0006); remoção de 'e' antes de 'nem' em nova sentença. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "החטי (ketiv defectivo) confirmado pela morfologia anexada como Hifil infinitivo construto de חטא ('fazer pecar'), sem alteração de sentido pela grafia sem matres lectionis; referência ao culto a Moloque no vale de Hinom (Tofete).",
@@ -162,10 +170,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

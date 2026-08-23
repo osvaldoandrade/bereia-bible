@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "'Assim diz o SENHOR dos Exércitos, Deus de Israel: Tome estes documentos — este documento da compra, tanto o selado quanto este documento aberto — e coloque-os num vaso de barro, para que durem muitos dias.'",
+  "texto_bv": "'Assim diz o SENHOR dos Exércitos, Deus de Israel: Tome estes documentos — o documento da compra, tanto o selado quanto o aberto — e coloque-os num vaso de barro, para que durem muitos dias.'",
   "traducao_literal": "Assim disse o SENHOR dos Exércitos, Deus de Israel: tomar estes documentos, este documento da compra e o selado e este documento do aberto, e os porás num vaso de barro, para que durem dias muitos.",
   "termos_originais": [
     {
@@ -158,6 +158,13 @@
           "motivo": "soa agramatical como ordem em português; preservado assim apenas na traducao_literal"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "este documento da compra, tanto o selado quanto este documento aberto → o documento da compra, tanto o selado quanto o aberto",
+      "justificativa": "Eliminação de dêitico redundante (RED-1); a referência já está estabelecida por 'estes documentos'. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -169,10 +176,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

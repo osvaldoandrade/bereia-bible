@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "por causa de todo o mal que os filhos de Israel e os filhos de Judá fizeram para me provocar à ira — eles, os seus reis, os seus príncipes, os seus sacerdotes e os seus profetas, e os homens de Judá e os habitantes de Jerusalém.",
+  "texto_bv": "por causa de todo o mal que os filhos de Israel e os filhos de Judá fizeram para me provocar à ira — eles, seus reis, seus príncipes, seus sacerdotes e seus profetas, os homens de Judá e habitantes de Jerusalém.",
   "traducao_literal": "por causa de todo o mal dos filhos de Israel e dos filhos de Judá que fizeram para me provocar, eles, os reis deles, os príncipes deles, os sacerdotes deles e os profetas deles, e o homem de Judá e os habitantes de Jerusalém.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os seus reis, os seus príncipes, os seus sacerdotes e os seus profetas, e os homens de Judá e os habitantes → seus reis, seus príncipes, seus sacerdotes e seus profetas, os homens de Judá e habitantes",
+      "justificativa": "Simplificação de artigo + possessivo (LEN-1, §1.3); remoção de 'e' conector para manter sentença no limite de 40 palavras. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Lista de responsáveis coletivos e institucionais pela apostasia (realeza, sacerdócio, profecia, povo).",
@@ -117,10 +125,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

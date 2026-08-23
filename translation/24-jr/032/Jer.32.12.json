@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "E entreguei o documento da compra a Baruque, filho de Nerias, filho de Macseias, na presença de Hanamel, filho de meu tio, e na presença das testemunhas que haviam assinado o documento da compra, e na presença de todos os judeus que estavam sentados no pátio da guarda.",
+  "texto_bv": "Entreguei o documento da compra a Baruque, filho de Nerias, filho de Macseias, diante de Hanamel, filho de meu tio, das testemunhas que assinaram o documento e de todos os judeus sentados no pátio da guarda.",
   "traducao_literal": "E dei o documento da compra a Baruque, filho de Nerias, filho de Macseias, aos olhos de Hanamel meu tio, e aos olhos das testemunhas, as que escreveram no documento da compra, aos olhos de todos os judeus que estavam sentados no pátio da guarda.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
           "motivo": "provável conflação histórica com מַעֲשֵׂיָה, nome hebraico diferente; contraria a auditabilidade ao lema pinado"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E entreguei o documento da compra a Baruque, filho de Nerias, filho de Macseias, na presença de Hanamel, filho de meu tio, e na presença das testemunhas que haviam assinado o documento da compra, e na presença de todos os judeus que estavam sentados no pátio da guarda. → Entreguei o documento da compra a Baruque, filho de Nerias, filho de Macseias, diante de Hanamel, filho de meu tio, das testemunhas que assinaram o documento e de todos os judeus sentados no pátio da guarda.",
+      "justificativa": "Remoção de waw inicial (ER-0013); condensação de três 'na presença de' em um único 'diante de' (LEN-1, §1.3); eliminação da segunda ocorrência de 'da compra' (RED-1); 'haviam assinado' → 'assinaram'. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -154,10 +161,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
