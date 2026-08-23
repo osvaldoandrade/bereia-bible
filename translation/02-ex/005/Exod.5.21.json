@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Exod.5.1-23"
   },
-  "texto_bv": "e disseram-lhes: O SENHOR atente sobre vós, e julgue isto, pois fizestes o nosso cheiro repugnante aos olhos de Faraó, e aos olhos dos seus servos, dando-lhes a espada nas mãos para nos matar.",
+  "texto_bv": "e disseram-lhes: O SENHOR atente sobre vocês e julgue isto, pois fizeram o nosso cheiro repugnante aos olhos de Faraó e aos olhos dos seus servos, dando-lhes a espada nas mãos para nos matar.",
   "traducao_literal": "e disseram a eles: Veja YHWH sobre vós e julgue, que fizestes feder o nosso cheiro aos olhos de Faraó e aos olhos dos seus servos, para dar espada na mão deles para matar-nos.",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sobre vós, e julgue → sobre vocês e julgue | fizestes → fizeram | de Faraó, e aos olhos → de Faraó e aos olhos",
+      "justificativa": "Normalização vós→vocês (VOS-1); vírgula desnecessária antes de 'e' com mesmo sujeito (§6.1) | Normalização vós→vocês (item 10): pretérito perfeito | Pontuação: vírgula desnecessária antes de 'e' em complementos paralelos (§6.1) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "הִבְאַשְׁתֶּם אֶת־רֵיחֵנוּ 'fizestes feder o nosso cheiro' = tornastes-nos odiosos. Os oficiais culpam Moisés/Arão — a fé abalada pela piora. YHWH→SENHOR.",
@@ -112,10 +120,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

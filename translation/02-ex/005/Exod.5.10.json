@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Exod.5.1-23"
   },
-  "texto_bv": "Então saíram os exatores do povo, e os seus oficiais, e falaram ao povo, dizendo: Assim diz Faraó: Eu não vos darei palha.",
+  "texto_bv": "Então saíram os exatores do povo e os seus oficiais e falaram ao povo, dizendo: Assim diz Faraó: Eu não lhes darei palha.",
   "traducao_literal": "E saíram os opressores do povo e os seus oficiais, e disseram ao povo, dizendo: Assim disse Faraó: Não vos estou dando palha.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vos → lhes | do povo, e os seus oficiais, e falaram → do povo e os seus oficiais e falaram",
+      "justificativa": "Normalização vós→vocês (item 10, §3/D-0003): clítico 2ª pess. pl. → 3ª pess. pl. para vocês | Pontuação: vírgulas desnecessárias antes de 'e' em sujeito composto e predicado (§6.1) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "כֹּה אָמַר פַּרְעֹה 'assim diz Faraó' — paródia da fórmula divina (v.1): o decreto do tirano contra a palavra do SENHOR.",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

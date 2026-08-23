@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Exod.5.1-23"
   },
-  "texto_bv": "E foram açoitados os oficiais dos filhos de Israel, que os exatores de Faraó tinham posto sobre eles, dizendo estes: Por que não acabastes a vossa tarefa de tijolos, ontem e hoje, como antes?",
+  "texto_bv": "E foram açoitados os oficiais dos filhos de Israel, que os exatores de Faraó tinham posto sobre eles, dizendo estes: Por que não acabaram a sua tarefa de tijolos, ontem e hoje, como antes?",
   "traducao_literal": "E foram feridos os oficiais dos filhos de Israel, que puseram sobre eles os opressores de Faraó, dizendo: Por que não acabastes o vosso estatuto para fazer tijolos, como ontem e anteontem, também ontem, também hoje?",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "acabastes → acabaram | vossa → sua",
+      "justificativa": "Normalização vós→vocês (item 10): pretérito perfeito | Normalização vós→vocês (ARC-1): possessivo — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Os capatazes hebreus (שֹׁטְרִים), presos entre Faraó e o povo, apanham — a opressão recai sobre os próprios oprimidos.",
@@ -127,10 +135,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

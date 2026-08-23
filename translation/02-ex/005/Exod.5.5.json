@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Exod.5.1-23"
   },
-  "texto_bv": "E disse mais Faraó: Eis que o povo da terra já é muito, e vós os fazeis descansar das suas cargas.",
+  "texto_bv": "E Faraó disse mais: O povo da terra já é numeroso, e vocês os fazem descansar das suas cargas.",
   "traducao_literal": "E disse Faraó: Eis que muitos agora o povo da terra, e vós os fazeis descansar das suas cargas.",
   "termos_originais": [
     {
@@ -62,7 +62,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E disse mais Faraó → E Faraó disse mais | Eis que o povo da terra já é muito → O povo da terra já é numeroso | vós os fazeis → vocês os fazem",
+      "justificativa": "ER-0011: ordem S-V uniforme em wayyiqtol narrativo | CAL-2: 'eis que' normalizado (força dêitica insuficiente no contexto administrativo); complemento predicativo para clareza de registro formal-neutro (§1.2) | Normalização vós→vocês (VOS-1) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Moisés e Arão diante de Faraó; a servidão agravada (DRAFT, ADR-0002).",
@@ -72,10 +80,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
