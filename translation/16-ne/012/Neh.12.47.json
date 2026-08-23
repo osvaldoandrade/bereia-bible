@@ -7,7 +7,7 @@
     "versiculo": 47,
     "pericope": "Neh.12.1-47"
   },
-  "texto_bv": "E todo o Israel, nos dias de Zorobabel e nos dias de Neemias, dava as porções dos cantores e dos porteiros, a porção de cada dia; e separava as ofertas consagradas para os levitas, e os levitas as separavam para os filhos de Arão.",
+  "texto_bv": "E todo o Israel, nos dias de Zorobabel e nos dias de Neemias, dava as porções dos cantores e dos porteiros, a porção de cada dia. E separava as ofertas consagradas para os levitas, e os levitas as separavam para os filhos de Arão.",
   "traducao_literal": "E todo o Israel, nos dias de Zorobabel e nos dias de Neemias, dando as porções dos cantores e dos porteiros, a coisa do dia no seu dia; e consagrando aos levitas, e os levitas consagrando aos filhos de Arão.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
           "motivo": "ambíguo em português, sugere consagrar pessoas em vez de porções"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dia; e separava as ofertas → dia. E separava as ofertas",
+      "justificativa": "LEN-1 — divisão de sentença com 44 palavras (limiar §1.3: 40); 'e' coordenativo inicia nova oração independente, sem perda sintática nem alteração de sentido — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -131,10 +138,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 44,
     "pericope": "Neh.12.1-47"
   },
-  "texto_bv": "Naquele dia, homens foram designados sobre as câmaras para os tesouros, as contribuições, as primícias e os dízimos, a fim de recolherem neles, dos campos das cidades, as porções da lei para os sacerdotes e os levitas; pois a alegria de Judá estava nos sacerdotes e nos levitas que ali serviam.",
+  "texto_bv": "Naquele dia, homens foram designados sobre as câmaras para os tesouros, as contribuições, as primícias e os dízimos, a fim de recolherem neles, dos campos das cidades, as porções da lei para os sacerdotes e os levitas. Pois a alegria de Judá estava nos sacerdotes e nos levitas que ali serviam.",
   "traducao_literal": "E foram designados naquele dia homens sobre as câmaras, para os tesouros, para as contribuições, para as primícias e para os dízimos, para recolher neles, dos campos das cidades, as porções da lei para os sacerdotes e para os levitas; porque a alegria de Judá era sobre os sacerdotes e sobre os levitas que estavam servindo.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "levitas; pois a alegria → levitas. Pois a alegria",
+      "justificativa": "LEN-1 — divisão de sentença com 51 palavras (limiar §1.3: 40); ponto final na fronteira causal marcada por 'pois', sem perda sintática nem alteração de sentido; RED-1 ('sacerdotes levitas') é fórmula intencional do original (paralelismo entre cláusula de designação e cláusula de alegria) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Wayyiqtol passivo nifal V-S (וַיִּפָּקְדוּ אֲנָשִׁים); ordem S-V no publicado (ER-0011).",
@@ -152,10 +160,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
