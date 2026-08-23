@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Ps.106.1-48"
   },
-  "texto_bv": "Esqueceram Deus, seu salvador, que fizera coisas grandiosas no Egito,",
+  "texto_bv": "Esqueceram Deus, seu salvador, que havia feito coisas grandiosas no Egito,",
   "traducao_literal": "Esqueceram Deus salvador-deles, fazedor-de grandezas em-Egito,",
   "termos_originais": [
     {
@@ -42,7 +42,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fizera → havia feito",
+      "justificativa": "Arcaísmo funcionalmente morto (EDITORIAL §1.2): mais-que-perfeito sintético substituído por mais-que-perfeito composto, registro formal-neutro contemporâneo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "אֵל vertido 'Deus' (NOMES-DIVINOS); retomada do tema central do salmo (esquecimento).",
@@ -52,10 +60,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
