@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Gen.35.1-29"
   },
-  "texto_bv": "E aconteceu que, no meio das dores do parto, disse-lhe a parteira: “Não temas, porque também terás este filho.”",
+  "texto_bv": "No meio das dores do parto, disse-lhe a parteira: “Não tema, porque também terá este filho.”",
   "traducao_literal": "E aconteceu que, no seu endurecer no dar à luz, e disse-lhe a parteira: “Não temas, porque também este para ti um filho.”",
   "termos_originais": [
     {
@@ -77,7 +77,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, no meio → No meio | Não temas → Não tema | porque também terás este filho → porque também terá este filho",
+      "justificativa": "CAL-1: remoção do calque paratático 'aconteceu que' (§6.2/ER-0013) | §3/D-0003: normalização tu→você (humano→humano), imperativo | §3/D-0003: normalização tu→você, conjugação — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Tradução DRAFT do capítulo (ADR-0002).",
@@ -87,10 +95,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

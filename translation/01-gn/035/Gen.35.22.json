@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Gen.35.1-29"
   },
-  "texto_bv": "E aconteceu que, habitando Israel naquela terra, foi Rúben, e deitou-se com Bila, concubina de seu pai; e Israel o soube. E eram doze os filhos de Jacó.",
+  "texto_bv": "Habitando Israel naquela terra, foi Rúben, e deitou-se com Bila, concubina de seu pai; e Israel o soube. E eram doze os filhos de Jacó.",
   "traducao_literal": "E aconteceu que, no habitar Israel na terra aquela, e foi Rúben e deitou-se com Bila, concubina de seu pai; e ouviu Israel. E foram os filhos de Jacó doze.",
   "termos_originais": [
     {
@@ -119,7 +119,15 @@
       "impacto_na_traducao": "Nenhum sobre o texto; a pausa é anotação escribal (silêncio embaraçoso)."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, habitando → Habitando",
+      "justificativa": "CAL-1: remoção do calque paratático 'aconteceu que' (§6.2/ER-0013) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "O pecado de Rúben (tomar a concubina do pai = usurpar a autoridade paterna) custa-lhe a primogenitura (49:3-4). O TM tem uma pausa/lacuna (pisqa) após 'e Israel o soube' — o silêncio marca a gravidade.",
@@ -129,10 +137,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
