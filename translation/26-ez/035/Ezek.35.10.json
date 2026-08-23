@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Ezek.35.1-15"
   },
-  "texto_bv": "Porque você disse: ‘As duas nações e as duas terras serão minhas, e nós as possuiremos’ — embora o SENHOR estivesse ali —",
+  "texto_bv": "Porque você disse: “As duas nações e as duas terras serão minhas, e nós as possuiremos” — embora o SENHOR estivesse ali —",
   "traducao_literal": "Porquanto o-teu-dizer: as-duas nações e-as-duas terras para-mim serão, e-a-possuiremos — e-SENHOR ali estava —",
   "termos_originais": [
     {
@@ -99,6 +99,13 @@
       "escolha": "Manter literal, sem identificar explicitamente Israel e Judá no texto",
       "justificativa": "O texto não nomeia os referentes; a identificação com os dois reinos é inferência exegética razoável mas não lexicalmente necessária — preservada apenas na justificativa, não importada ao texto.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "‘As duas nações e as duas terras serão minhas, e nós as possuiremos’ → “As duas nações e as duas terras serão minhas, e nós as possuiremos”",
+      "justificativa": "Nesting de aspas: citação dentro de discurso entre aspas simples exige aspas duplas (ER-0004). Versículo 12 já usa aspas duplas corretamente para citação interna. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -112,10 +119,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

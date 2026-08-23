@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Ezek.35.1-15"
   },
-  "texto_bv": "portanto, tão certo como eu vivo — diz o Senhor DEUS —, agirei conforme a sua ira e conforme o seu ciúme, que você demonstrou por causa do seu ódio contra eles; e eu me farei conhecer entre eles, quando eu o julgar.",
+  "texto_bv": "portanto, tão certo como eu vivo — diz o Senhor DEUS —, agirei conforme a sua ira e conforme o seu ciúme, que você demonstrou por causa do seu ódio contra eles. E eu me farei conhecer entre eles, quando eu o julgar.",
   "traducao_literal": "Portanto vivo eu, oráculo-de Senhor DEUS, e-farei conforme-a-tua-ira e-conforme-o-teu-ciúme que fizeste a-partir-de-o-teu-ódio contra-eles; e-serei-conhecido entre-eles quando eu-te-julgar.",
   "termos_originais": [
     {
@@ -114,6 +114,13 @@
       "escolha": "'eles' = os filhos de Israel, retomando o antecedente explícito do v.5",
       "justificativa": "Antecedente claro e próximo no discurso (בְּנֵי־יִשְׂרָאֵל, v.5); nenhum outro candidato plausível no contexto.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "contra eles; e eu me farei conhecer entre eles, quando eu o julgar. → contra eles. E eu me farei conhecer entre eles, quando eu o julgar.",
+      "justificativa": "Sentença com 41 palavras (LEN-1, §1.3). Divisão no limite da oração coordenada (ponto-e-vírgula → ponto final), sem perda sintática nem adição de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -125,10 +132,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
