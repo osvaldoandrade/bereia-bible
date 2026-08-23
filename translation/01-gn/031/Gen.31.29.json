@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Gen.31.1-54"
   },
-  "texto_bv": "Poder havia em minha mão para vos fazer mal; mas o Deus de vosso pai me falou ontem à noite, dizendo: ‘Guarda-te, não fales a Jacó nem bem nem mal.’",
+  "texto_bv": "Poder havia em minha mão para fazer mal a vocês; mas o Deus do pai de vocês me falou ontem à noite, dizendo: ‘Guarda-te, não fales a Jacó nem bem nem mal.’",
   "traducao_literal": "Há para o poder da minha mão fazer convosco mal; e o Deus de vosso pai ontem à noite disse a mim, dizendo: ‘Guarda-te de falar com Jacó de bem até mal.’",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vos fazer mal → fazer mal a vocês | de vosso pai → do pai de vocês",
+      "justificativa": "§3/D-0003: pronome oblíquo vós→vocês em discurso humano↔humano (Labão→Jacó e família) | §3/D-0003: possessivo vosso→de vocês com contração (de+o=do) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Tradução DRAFT do capítulo (ADR-0002).",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
