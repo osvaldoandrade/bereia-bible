@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Gen.39.1-23"
   },
-  "texto_bv": "e aconteceu que, levantando eu a minha voz e gritando, ele deixou a sua veste ao meu lado, e fugiu para fora.",
+  "texto_bv": "Quando levantei a minha voz e gritei, ele deixou a sua veste ao meu lado e fugiu para fora.",
   "traducao_literal": "e aconteceu, como levantar eu a minha voz e gritar, que deixou a sua veste junto de mim, e fugiu para fora.",
   "termos_originais": [
     {
@@ -57,7 +57,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e aconteceu que, levantando eu a minha voz e gritando → Quando levantei a minha voz e gritei | , e fugiu para fora. → e fugiu para fora.",
+      "justificativa": "CAL-1: 'e aconteceu que' é calque paratático removido; construção gerundiva ('levantando eu') normalizada para 'Quando + pretérito', forma natural pt-BR (ER-0013/EDITORIAL §6.2). | EDITORIAL §6.1: vírgula antes de 'e' coordenativo removida quando o sujeito é o mesmo ('ele deixou... e fugiu'). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "José na casa de Potifar (DRAFT, ADR-0002).",
@@ -67,10 +75,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gen.39.1-23"
   },
-  "texto_bv": "E aconteceu que, falando ela a José dia após dia, ele não lhe deu ouvidos, para se deitar com ela, nem para estar com ela.",
+  "texto_bv": "Falando ela a José dia após dia, ele não lhe deu ouvidos, para se deitar com ela, nem para estar com ela.",
   "traducao_literal": "E aconteceu, como falar ela a José dia dia, que não a ouvia, para deitar-se junto dela, para estar com ela.",
   "termos_originais": [
     {
@@ -77,7 +77,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, falando → Falando",
+      "justificativa": "CAL-1: 'E aconteceu que' é calque paratático removido conforme ER-0013/EDITORIAL §6.2. PRO-1 (5 pronomes) são referências claras no contexto narrativo (ela=mulher, ele=José) — falso-positivo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "יוֹם יוֹם 'dia após dia' — assédio persistente; a resistência de José é continuada.",
@@ -87,10 +95,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

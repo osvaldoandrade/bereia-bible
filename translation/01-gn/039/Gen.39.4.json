@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Gen.39.1-23"
   },
-  "texto_bv": "E José achou graça aos seus olhos, e o servia; e ele o pôs sobre a sua casa, e entregou na sua mão tudo o que tinha.",
+  "texto_bv": "E José achou graça aos olhos dele, e o servia; e o seu senhor o pôs sobre a sua casa, e entregou na sua mão tudo o que tinha.",
   "traducao_literal": "E achou José graça aos seus olhos, e o servia; e o encarregou sobre a sua casa, e tudo o que havia para ele deu na sua mão.",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "aos seus olhos → aos olhos dele | e ele o pôs → e o seu senhor o pôs",
+      "justificativa": "PRO-1: esclarece que os olhos são de Potifar, não de José; evita ambiguidade do possessivo 'seus' sem antecedente imediato claro. | PRO-1: o sujeito anterior é José ('José achou graça... e o servia'); 'ele' ambíguo é substituído por 'o seu senhor' para referência inequívoca a Potifar. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "חֵן 'graça/favor' — José favorecido, como o será diante do carcereiro (39:21) e de Faraó.",
@@ -92,10 +100,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
