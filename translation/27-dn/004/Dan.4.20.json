@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Dan.4.1-34"
   },
-  "texto_bv": "E quanto ao que o rei viu — um vigilante, um santo, descendo dos céus e dizendo: \"Derrubem a árvore e destruam-na; contudo, deixem o toco das suas raízes na terra, preso com uma cinta de ferro e bronze, entre a erva tenra do campo; que seja molhado pelo orvalho dos céus, e que a sua porção seja com os animais do campo, até que passem sobre ele sete tempos\" —",
+  "texto_bv": "E quanto ao que o rei viu — um vigilante, um santo, descendo dos céus e dizendo: \"Derrubem a árvore e destruam-na. Contudo, deixem o toco das suas raízes na terra, preso com uma cinta de ferro e bronze, entre a erva tenra do campo. Que seja molhado pelo orvalho dos céus, e que a sua porção seja com os animais do campo, até que passem sobre ele sete tempos\" —",
   "traducao_literal": "E o que viu o rei, vigilante e santo, descendo dos céus e dizendo: derrubai a árvore e destruí-a; porém a raiz principal de suas raízes na terra deixai, e com cinta de ferro e bronze, na erva tenra do campo, e pelo orvalho dos céus seja molhado, e com o animal do campo a sua porção, até que sete tempos passem sobre ele —",
   "termos_originais": [
     {
@@ -197,7 +197,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "destruam-na; contudo → destruam-na. Contudo | do campo; que seja → do campo. Que seja",
+      "justificativa": "Discurso direto interno de 70 palavras: primeiro ponto-e-vírgula convertido em ponto para reduzir a sentença mais longa do capítulo; LEN-1 (§1.3). | Segundo ponto-e-vírgula do discurso direto convertido em ponto; complementa a divisão da sentença de 70 palavras; LEN-1 (§1.3). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Recapitulação quase verbatim do sonho (v.10-12), agora dentro do discurso interpretativo de Daniel; mesmas decisões terminológicas já registradas nos versículos correspondentes reaplicadas por consistência.",
@@ -207,10 +215,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

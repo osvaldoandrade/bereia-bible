@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Dan.4.1-34"
   },
-  "texto_bv": "E por mim foi emitido um decreto, para que fossem trazidos diante de mim todos os sábios da Babilônia, a fim de que me dessem a conhecer a interpretação do sonho.",
+  "texto_bv": "E emiti um decreto para que trouxessem todos os sábios da Babilônia à minha presença, a fim de que me dessem a conhecer a interpretação do sonho.",
   "traducao_literal": "E de mim foi posto decreto, para trazer diante de mim a todos os sábios de Babel, que a interpretação do sonho me fizessem saber.",
   "termos_originais": [
     {
@@ -83,6 +83,13 @@
           "motivo": "opaco em português, perde o sentido técnico de decreto real"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "por mim foi emitido um decreto, para que fossem trazidos diante de mim → emiti um decreto para que trouxessem ... à minha presença",
+      "justificativa": "Duas passivas desnecessárias com agente explícito (por mim) convertidas em ativa na 1ª pessoa do narrador; PAS-1. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -96,10 +103,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

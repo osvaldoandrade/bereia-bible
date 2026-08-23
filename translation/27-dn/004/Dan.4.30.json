@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Dan.4.1-34"
   },
-  "texto_bv": "Naquela mesma hora a palavra se cumpriu sobre Nabucodonosor: ele foi expulso do meio dos homens, e comeu erva como os bois, e o seu corpo foi molhado pelo orvalho dos céus, até que os seus cabelos cresceram como as penas das águias, e as suas unhas, como as garras das aves.",
+  "texto_bv": "Naquela mesma hora a palavra se cumpriu sobre Nabucodonosor: ele foi expulso do meio dos homens e comeu erva como os bois. O seu corpo foi molhado pelo orvalho dos céus, até que os seus cabelos cresceram como as penas das águias, e as suas unhas, como as garras das aves.",
   "traducao_literal": "Naquela hora a palavra se cumpriu sobre Nabucodonosor, e de entre os homens foi expulso, e erva como os bois comeu, e pelo orvalho dos céus o seu corpo foi molhado, até que o seu cabelo como águias cresceu, e as suas unhas como aves.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
       "escolha": "suprir 'penas' e 'garras' para viabilizar a comparação em português",
       "justificativa": "EDITORIAL §4: 'cabelo como águias' e 'unhas como aves' são agramaticais/sem sentido direto em português sem o substantivo comparado explícito, embora implícito no original pela plausibilidade da imagem (penugem/garras).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "como os bois, e o seu corpo → como os bois. O seu corpo",
+      "justificativa": "Sentença de 52 palavras dividida após o segundo elemento da enumeração; LEN-1 (§1.3). PRO-1 (4 pronomes) é falso-positivo: «seu corpo», «seus cabelos», «suas unhas» referem-se inequivocamente a Nabucodonosor. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -147,10 +154,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
