@@ -7,7 +7,7 @@
     "versiculo": 36,
     "pericope": "Gen.42.1-38"
   },
-  "texto_bv": "Então Jacó, seu pai, lhes disse: Vós me tendes privado dos meus filhos: José já não existe, e Simeão já não existe, e levareis a Benjamim! Contra mim são todas estas coisas.",
+  "texto_bv": "Então Jacó, seu pai, lhes disse: Vocês têm me privado dos meus filhos: José já não existe, e Simeão já não existe, e levarão a Benjamim! Contra mim são todas estas coisas.",
   "traducao_literal": "E disse a eles Jacó, seu pai: A mim desfilhastes: José não está, e Simeão não está, e a Benjamim tomareis; sobre mim foram todas elas.",
   "termos_originais": [
     {
@@ -92,7 +92,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vós me tendes privado dos meus filhos: José já não existe, e Simeão já não existe, e levareis a Benjamim! → Vocês têm me privado dos meus filhos: José já não existe, e Simeão já não existe, e levarão a Benjamim!",
+      "justificativa": "Normalização do paradigma vós→vocês (§3/D-0003): 'Vós...tendes'→'Vocês têm', 'levareis'→'levarão' — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "אֹתִי שִׁכַּלְתֶּם 'a mim privastes de filhos'; עָלַי הָיוּ כֻלָּנָה 'sobre mim vieram todas' — o lamento de Jacó (que ignora o papel deles em 37).",
@@ -102,10 +110,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

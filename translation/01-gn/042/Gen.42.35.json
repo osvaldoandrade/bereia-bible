@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "Gen.42.1-38"
   },
-  "texto_bv": "E aconteceu que, esvaziando eles os seus sacos, eis que cada um tinha a trouxa do seu dinheiro no seu saco; e viram as trouxas do seu dinheiro, eles e o seu pai, e temeram.",
+  "texto_bv": "Quando esvaziaram os seus sacos, cada um tinha a trouxa do seu dinheiro no seu saco; e viram as trouxas do seu dinheiro, eles e o seu pai, e temeram.",
   "traducao_literal": "E aconteceu, eles esvaziando os seus sacos, e eis cada um a trouxa da sua prata no seu saco; e viram as trouxas das suas pratas, eles e o seu pai, e temeram.",
   "termos_originais": [
     {
@@ -92,7 +92,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, esvaziando eles os seus sacos, eis que cada um tinha a trouxa do seu dinheiro no seu saco; → Quando esvaziaram os seus sacos, cada um tinha a trouxa do seu dinheiro no seu saco;",
+      "justificativa": "Normalização de calques paratáticos (ER-0013): 'E aconteceu que' (CAL-1) e 'eis que' (CAL-2) removidos por construção temporal natural em pt-BR; PRO-1 é falso-positivo: pronomes refletem sufixos possessivos do hebraico — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A primeira descida dos irmãos ao Egito (DRAFT, ADR-0002).",
@@ -102,10 +110,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
