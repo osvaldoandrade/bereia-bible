@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "Jer.33.1-26"
   },
-  "texto_bv": "também rejeitarei a descendência de Jacó e de Davi, meu servo, deixando de tomar dentre a sua descendência os que haveriam de governar sobre a descendência de Abraão, Isaque e Jacó; mas eu restaurarei a sorte deles e terei compaixão deles.",
+  "texto_bv": "também rejeitarei a descendência de Jacó e de Davi, meu servo, deixando de escolher governantes entre eles para a descendência de Abraão, Isaque e Jacó. Mas restaurarei a sorte deles e terei compaixão deles.",
   "traducao_literal": "também semente-de Jacó e-Davi servo-meu rejeitarei, de-tomar de-semente-dele governantes sobre semente-de Abraão, Isaque e-Jacó; porque farei-voltar sorte-deles e-terei-compaixão-deles.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "escolha": "tratado como forma padrão de אָשׁוּב (Qal impf. 1cs de שוב), sem registrar como variante textual",
       "justificativa": "variação puramente ortográfica (plene/defectiva); o packet não traz aparato (variantes_fonte) para este verso, e a morfologia (HVqi1cs) confirma a mesma análise gramatical",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "também rejeitarei a descendência de Jacó e de Davi, meu servo, deixando de tomar dentre a sua descendência os que haveriam de governar sobre a descendência de Abraão, Isaque e Jacó; mas eu restaurarei a sorte deles e terei compaixão deles. → também rejeitarei a descendência de Jacó e de Davi, meu servo, deixando de escolher governantes entre eles para a descendência de Abraão, Isaque e Jacó. Mas restaurarei a sorte deles e terei compaixão deles.",
+      "justificativa": "LEN-1 (§1.3): sentença original de 41 palavras. Reduzida para 38 em duas frases: (a) \"tomar dentre a sua descendência os que haveriam de governar sobre\" condensado para \"escolher governantes entre eles para\" (mesmo sentido, sem perda); (b) \"; mas eu\" → \". Mas\" (divisão sintática + queda do pronome redundante \"eu\" com verbo já em 1.ª pessoa). Diretriz: ER-0019. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -137,10 +144,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
