@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Jer.6.1-30"
   },
-  "texto_bv": "Ouvimos a notícia sobre ele; as nossas mãos ficaram fracas; a angústia nos tomou, dor como a de uma mulher em trabalho de parto.",
+  "texto_bv": "Ouvimos a notícia sobre ele; as nossas mãos ficaram fracas; a angústia nos tomou, dor como a de mulher em parto.",
   "traducao_literal": "Ouvimos sua-notícia, afrouxaram nossas-mãos; angústia nos-tomou, dor como-a-que-dá-à-luz.",
   "termos_originais": [
     {
@@ -57,7 +57,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dor como a de uma mulher em trabalho de parto → dor como a de mulher em parto",
+      "justificativa": "LEN-1 (ratio 3.00): condensar 'uma mulher em trabalho de parto' para 'mulher em parto' — expressão idiomática equivalente, sem perda de sentido. Queda do artigo indefinido e de 'trabalho de' (implicitamente contido em 'em parto'). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "A voz em primeira pessoa do plural ('nós') muda para os habitantes de Jerusalém/Sião reagindo à notícia da invasão, sem marcação formal de troca de falante no texto-fonte."
@@ -69,10 +77,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
