@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Luke.6.1-49"
   },
-  "texto_bv": "Naqueles dias, aconteceu que ele saiu para o monte a fim de orar, e passou a noite orando a Deus.",
+  "texto_bv": "Naqueles dias, ele saiu para o monte a fim de orar e passou a noite orando a Deus.",
   "traducao_literal": "Aconteceu, e, naqueles dias, sair ele para o monte a orar, e estava passando a noite na oração de Deus.",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Naqueles dias, aconteceu que ele saiu para o monte a fim de orar, e passou → Naqueles dias, ele saiu para o monte a fim de orar e passou",
+      "justificativa": "Normalização de calque paratático 'aconteceu que' (CAL-1/ER-0013): o marcador temporal 'Naqueles dias' já ancora a narrativa; a remoção torna a frase mais fluida. Vírgula antes de 'e' removida (mesmo sujeito). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "τῇ προσευχῇ τοῦ Θεοῦ (genitivo objetivo) vertido 'orando a Deus', mais natural que 'na oração de Deus'.",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "nestle1904@713f28a3"
   }
 }

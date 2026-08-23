@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Luke.6.1-49"
   },
-  "texto_bv": "Aconteceu que, num sábado, enquanto ele atravessava umas searas, os discípulos dele colhiam as espigas e as comiam, debulhando-as com as mãos.",
+  "texto_bv": "Num sábado, enquanto ele atravessava umas searas, os discípulos dele colhiam as espigas e as comiam, debulhando-as com as mãos.",
   "traducao_literal": "Aconteceu, e, em sábado, atravessar ele através de searas, e colhiam os discípulos dele e comiam as espigas, debulhando com as mãos.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
           "motivo": "perifrástico e menos preciso (não especifica o cereal)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Aconteceu que, num sábado, enquanto ele atravessava → Num sábado, enquanto ele atravessava",
+      "justificativa": "Normalização de calque paratático 'Aconteceu que' (CAL-1/ER-0013): o marcador temporal 'num sábado' já cumpre a função de transição narrativa; a remoção torna a frase mais direta e natural em pt-BR. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -136,10 +143,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "nestle1904@713f28a3"
   }
 }
