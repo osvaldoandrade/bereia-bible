@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "1Chr.12.1-41"
   },
-  "texto_bv": "Davi saiu ao encontro deles, respondeu e lhes disse: “Se vocês vieram em paz para me ajudar, meu coração estará unido a vocês; mas, se vieram para me trair aos meus adversários, embora não haja violência em minhas mãos, que o Deus de nossos pais veja e repreenda.”",
+  "texto_bv": "Davi saiu ao encontro deles, respondeu e lhes disse: “Se vocês vieram em paz para me ajudar, meu coração estará unido a vocês. Mas, se vieram para me trair aos meus adversários, embora não haja violência em minhas mãos, que o Deus de nossos pais veja e repreenda.”",
   "traducao_literal": "E saiu Davi diante deles, e respondeu, e disse a eles: “Se para paz vieram vocês a mim, para me ajudar, haverá para mim sobre vocês um coração para unir; e, se para me trair aos meus adversários, sem violência em minhas palmas, veja o Deus de nossos pais e repreenda.”",
   "termos_originais": [
     {
@@ -174,6 +174,20 @@
         }
       ],
       "diretriz_ref": "ER-0003"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a vocês; mas, se vieram → a vocês. Mas, se vieram",
+      "justificativa": "LEN-1: sentença de 48 palavras dividida no ponto-e-vírgula; as duas condicionais são sintaticamente independentes e o “Mas” inicial preserva o nexo contrastivo. ER-0019, §1.3. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "RED-1 flagrou repetição de “vieram” (“vocês vieram” × 2) — evidência: Paralelismo antitético intencional do original hebraico: duas cláusulas condicionais (“Se para paz vieram… e se para me trair…”) com o mesmo verbo. Repetição é fidelidade ao original, não redundância. Mantido. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -193,10 +207,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
