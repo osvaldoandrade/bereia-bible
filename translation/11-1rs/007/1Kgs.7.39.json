@@ -7,7 +7,7 @@
     "versiculo": 39,
     "pericope": "1Kgs.7.1-51"
   },
-  "texto_bv": "Ele colocou cinco bases no lado direito da casa e cinco no lado esquerdo. Colocou o Mar no lado direito da casa, para o leste, em frente ao sul.",
+  "texto_bv": "Ele colocou cinco bases no lado direito da casa e cinco no lado esquerdo. Colocou o Mar no lado direito, para o leste, em frente ao sul.",
   "traducao_literal": "E deu as bases: cinco sobre o lado da casa à direita e cinco sobre o lado da casa à sua esquerda; e o Mar deu do lado da casa direito, para o leste, diante do sul.",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Colocou o Mar no lado direito da casa, para o leste → Colocou o Mar no lado direito, para o leste",
+      "justificativa": "Supressão de \"da casa\" na segunda menção, já estabelecido como antecedente na oração anterior; elimina repetição redundante sem perda de referência (EDITORIAL §1.3, RED-1) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "Ele"
   ],
@@ -136,10 +144,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
