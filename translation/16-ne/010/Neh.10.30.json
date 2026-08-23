@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Neh.10.1-40"
   },
-  "texto_bv": "se uniram a seus irmãos, seus nobres, e assumiram maldição e juramento de andar na Lei de Deus, dada por meio de Moisés, servo de Deus, e de guardar e cumprir todos os mandamentos do SENHOR, nosso Senhor, seus juízos e seus estatutos.",
+  "texto_bv": "se uniram a seus irmãos, seus nobres. Assumiram maldição e juramento de andar na Lei de Deus, dada por meio de Moisés, servo de Deus, e de guardar e cumprir todos os mandamentos do SENHOR, nosso Senhor, seus juízos e seus estatutos.",
   "traducao_literal": "agarravam-se a seus irmãos, seus nobres, e entravam em maldição e em juramento, para andar na Lei de Deus, que foi dada pela mão de Moisés, servo de Deus, e para guardar e para fazer todos os mandamentos do SENHOR, nosso Senhor, e seus juízos e seus estatutos.",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
           "motivo": "Deixaria os particípios sem sujeito e romperia o período contínuo."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "seus nobres, e assumiram → seus nobres. Assumiram",
+      "justificativa": "Divisão de sentença longa (43 palavras → 7 + 35); coordenação entre orações permite corte sem perda sintática (§1.3/LEN-1) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -181,10 +188,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
