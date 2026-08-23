@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Hag.1.1-15"
   },
-  "texto_bv": "E Zorobabel, filho de Salatiel, e Josué, filho de Jeozadaque, o sumo sacerdote, e todo o remanescente do povo obedeceram à voz do SENHOR seu Deus e às palavras do profeta Ageu, como o SENHOR seu Deus o havia enviado; e o povo temeu diante do SENHOR.",
+  "texto_bv": "E Zorobabel, filho de Salatiel, e Josué, filho de Jeozadaque, o sumo sacerdote, e todo o remanescente do povo obedeceram à voz do SENHOR seu Deus e às palavras do profeta Ageu, como o SENHOR seu Deus o havia enviado. E o povo temeu diante do SENHOR.",
   "traducao_literal": "E-ouviu Zorobabel filho-de Salatiel e-Josué filho-de Jeozadaque o-sacerdote o-grande e-todo remanescente-de o-povo à-voz-de YHWH seu-Deus-deles e-sobre as-palavras-de Ageu o-profeta, como enviou-o YHWH seu-Deus-deles; e-temeu o-povo de-diante-de YHWH.",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
           "motivo": "criaria a falsa impressão de duas pessoas ou de uma variante textual relevante"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "havia enviado; e o povo → havia enviado. E o povo",
+      "justificativa": "Divisão de sentença longa (47 palavras) em duas orações sintaticamente independentes no ponto-e-vírgula existente, reduzindo para 40 + 7 palavras (§1.3/LEN-1). Mudança puramente de pontuação, sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -177,10 +184,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
