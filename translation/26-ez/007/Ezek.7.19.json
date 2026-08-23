@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Ezek.7.1-27"
   },
-  "texto_bv": "Lançarão a sua prata nas ruas, e o seu ouro será como imundícia; nem a sua prata nem o seu ouro poderão livrá-los no dia do furor do SENHOR; não saciarão a sua alma, nem encherão o seu ventre, porque isso foi o tropeço da sua iniquidade.",
+  "texto_bv": "Lançarão a sua prata nas ruas, e o seu ouro será como imundícia; nem a sua prata nem o seu ouro poderão livrá-los no dia do furor do SENHOR. Não saciarão a sua alma, nem encherão o seu ventre, porque isso foi o tropeço da sua iniquidade.",
   "traducao_literal": "Sua prata nas ruas lançarão, e seu ouro em imundícia será; sua prata e seu ouro não poderá livrá-los no dia do furor de SENHOR; sua alma não saciarão, e suas entranhas não encherão; porque tropeço da sua iniquidade foi.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
           "motivo": "menos direto; 'imundícia' condensa o mesmo campo semântico com uma palavra"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "no dia do furor do SENHOR; não saciarão → no dia do furor do SENHOR. Não saciarão",
+      "justificativa": "Dividir sentença de 48 palavras em duas (29 + 18), abaixo do limite de 40 palavras (§1.3/LEN-1); pausa natural na sintaxe (semicolon → período) entre a inutilidade da riqueza e a incapacidade de saciar. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -154,10 +161,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
