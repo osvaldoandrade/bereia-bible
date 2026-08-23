@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Ezek.16.1-63"
   },
-  "texto_bv": "Por isso, eis que estendi a minha mão contra você e diminuí a sua porção; entreguei você à vontade das que a odeiam, as filhas dos filisteus, que se envergonham do seu caminho depravado.",
+  "texto_bv": "Por isso, estendi a minha mão contra você e diminuí a sua porção; entreguei você à vontade das que a odeiam, as filhas dos filisteus, que se envergonham do seu caminho depravado.",
   "traducao_literal": "E eis, estendi minha mão sobre ti, e diminuí tua porção, e te dei na alma das que te odeiam, filhas dos filisteus, as envergonhadas de teu caminho, depravação.",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Por isso, eis que estendi → Por isso, estendi",
+      "justificativa": "Remoção do calque paratático 'eis que' (§6.2/ER-0013) — uso artificial após conectivo de consequência. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Primeira ameaça de juízo dentro da acusação: redução territorial e entrega aos filisteus.",
@@ -92,10 +100,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

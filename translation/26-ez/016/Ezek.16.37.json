@@ -7,7 +7,7 @@
     "versiculo": 37,
     "pericope": "Ezek.16.1-63"
   },
-  "texto_bv": "portanto, eis que ajuntarei todos os seus amantes, com quem você teve prazer, e todos os que você amou, junto com todos os que você odiou; eu os ajuntarei contra você de todos os lados, exporei a sua nudez diante deles, e eles verão toda a sua nudez.",
+  "texto_bv": "Portanto, ajuntarei todos os seus amantes, com quem você teve prazer, e todos os que você amou, junto com todos os que você odiou. Eu os ajuntarei contra você de todos os lados, exporei a sua nudez diante deles, e eles verão toda a sua nudez.",
   "traducao_literal": "portanto, eis que eu ajunto todos os teus amantes que agradaste sobre eles, e todos os que amaste, sobre todos os que odiaste; e os ajuntarei sobre ti ao redor, e revelarei tua nudez a eles, e verão toda a tua nudez.",
   "termos_originais": [
     {
@@ -152,7 +152,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "portanto, eis que ajuntarei → Portanto, ajuntarei | que você odiou; eu os ajuntarei → que você odiou. Eu os ajuntarei",
+      "justificativa": "Remoção do calque paratático 'eis que' (§6.2/ER-0013) — uso artificial após conectivo consecutivo. | Divisão de sentença com 53 palavras (§1.3) na transição entre reunião dos amantes e execução do juízo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Sentença judicial: os próprios amantes (aliados estrangeiros) tornam-se agentes da humilhação pública.",
@@ -162,10 +170,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

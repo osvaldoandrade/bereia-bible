@@ -7,7 +7,7 @@
     "versiculo": 49,
     "pericope": "Ezek.16.1-63"
   },
-  "texto_bv": "Eis que esta foi a iniquidade de Sodoma, sua irmã: ela e as suas filhas tinham orgulho, fartura de pão e tranquilidade despreocupada, mas não amparavam a mão do pobre e do necessitado.",
+  "texto_bv": "Esta foi a iniquidade de Sodoma, sua irmã: ela e as suas filhas tinham orgulho, fartura de pão e tranquilidade despreocupada, mas não amparavam a mão do pobre e do necessitado.",
   "traducao_literal": "Eis, esta foi a iniquidade de Sodoma, tua irmã: orgulho, fartura de pão e tranquilidade de sossego, foi para ela e para suas filhas; e mão de pobre e necessitado não segurou.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que esta foi → Esta foi",
+      "justificativa": "Remoção do calque paratático 'eis que' (§6.2/ER-0013) — introdução de declaração factual sem força dêitica suficiente. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Definição da iniquidade de Sodoma centrada em orgulho e negligência social, não (aqui) em pecado sexual — leitura consistente com o texto-fonte, sem harmonização com outras tradições sobre Sodoma (TEOLOGIA §2).",
@@ -117,10 +125,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
