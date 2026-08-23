@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Ezek.24.1-27"
   },
-  "texto_bv": "E os vossos turbantes estarão sobre as vossas cabeças, e as vossas sandálias, nos vossos pés; não vos lamentareis nem chorareis; antes definhareis nas vossas iniquidades, e gemereis uns com os outros.",
+  "texto_bv": "E os seus turbantes estarão sobre as suas cabeças, e as suas sandálias, nos seus pés; não se lamentarão nem chorarão; antes definharão nas suas iniquidades, e gemerão uns com os outros.",
   "traducao_literal": "E os turbantes de vós, sobre as cabeças de vós; e as sandálias de vós, nos pés de vós; não vos lamentareis e não chorareis; e apodrecereis nas iniquidades de vós, e gemereis homem ao seu irmão.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os vossos turbantes estarão sobre as vossas cabeças, e as vossas sandálias, nos vossos pés → os seus turbantes estarão sobre as suas cabeças, e as suas sandálias, nos seus pés | não vos lamentareis nem chorareis → não se lamentarão nem chorarão | definhareis nas vossas iniquidades, e gemereis → definharão nas suas iniquidades, e gemerão",
+      "justificativa": "Normalização vós→vocês, §3/D-0003 | Normalização vós→vocês, §3/D-0003 | Normalização vós→vocês, §3/D-0003 — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "estarão (verbo suprido nas orações nominais 'os vossos turbantes [estarão] sobre as vossas cabeças...')"
   ],
@@ -99,10 +107,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
