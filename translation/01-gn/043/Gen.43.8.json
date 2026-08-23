@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Gen.43.1-34"
   },
-  "texto_bv": "Então disse Judá a Israel, seu pai: Envia o moço comigo, e levantar-nos-emos e iremos, para que vivamos e não morramos, nem nós, nem tu, nem os nossos filhos.",
+  "texto_bv": "Então Judá disse a Israel, seu pai: Envie o moço comigo, e nos levantaremos e iremos, para que vivamos e não morramos, nem nós, nem você, nem os nossos filhos.",
   "traducao_literal": "E disse Judá a Israel, seu pai: Envia o moço comigo, e levantemo-nos e vamos, e vivamos e não morramos, também nós, também tu, também as nossas crianças.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então disse Judá → Então Judá disse | Envia → Envie | levantar-nos-emos → nos levantaremos | nem tu → nem você",
+      "justificativa": "ER-0011: ordem S-V no texto publicado. | §3/D-0003: paradigma tu→você em discurso humano→humano (item 10, coerência do capítulo). | §1.2: mesóclise é arcaísmo funcionalmente morto; próclise em pt-BR contemporâneo. | §3/D-0003: paradigma tu→você (item 10, coerência do capítulo). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A segunda descida, com Benjamim (DRAFT, ADR-0002).",
@@ -117,10 +125,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }

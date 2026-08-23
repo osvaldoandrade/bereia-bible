@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Gen.43.1-34"
   },
-  "texto_bv": "E eles disseram: Aquele homem perguntou muito por nós, e pela nossa parentela, dizendo: Vive ainda vosso pai? Tendes ainda algum irmão? E nós lhe respondemos conforme essas palavras. Podíamos nós, acaso, saber que ele diria: Fazei descer o vosso irmão?",
+  "texto_bv": "E eles disseram: Aquele homem perguntou muito por nós e pela nossa parentela, dizendo: Vive ainda o pai de vocês? Têm ainda algum irmão? E nós lhe respondemos conforme essas palavras. Podíamos, acaso, saber que ele diria: Façam descer o irmão de vocês?",
   "traducao_literal": "E disseram: Perguntar perguntou o homem por nós e pela nossa linhagem, dizendo: Ainda o vosso pai vivo? Há para vós um irmão? E anunciamos a ele conforme a boca das palavras estas. Saber saberíamos que diria: Fazei descer o vosso irmão?",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vosso pai → o pai de vocês | Tendes → Têm | Fazei descer o vosso irmão → Façam descer o irmão de vocês | Podíamos nós, acaso → Podíamos, acaso",
+      "justificativa": "ARC-1/§3/D-0003: paradigma vós→vocês. | §3/D-0003: paradigma vós→vocês. | VOS-1/§3/D-0003: paradigma vós→vocês (imperativo + possessivo). | Sujeito 'nós' explícito redundante com a desinência verbal; elipse natural em pt-BR. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A segunda descida, com Benjamim (DRAFT, ADR-0002).",
@@ -152,10 +160,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
