@@ -217,6 +217,39 @@ Ver `docs/domain/governanca/glossary.md`.
 - O driver/persistidor torna-se fonte-neutro e registros do NT pinam
   `nestle1904@713f28a3`. Versão agregada dos prompts: 1.1.0; processo: 1.1.0.
 
+## ER-0019 — Revisão editorial do tier DRAFT sobre hot-spots estáticos
+
+- Data: 2026-08-23 · Escopo: programa · Origem: meta do mantenedor (legibilidade
+  pt-BR do DRAFT) · Status: ATIVA
+- Problema: a cobertura DRAFT (ER-0016/0017: 1 agente por capítulo, foco em
+  fidelidade e auditabilidade) produziu texto de tradução em geral correto mas de
+  leitura difícil em pt-BR: calques paratáticos ("e aconteceu que", "eis que"),
+  arcaísmos vedados (EDITORIAL §1.2), redundâncias internas e sentenças acima de
+  40 palavras (§1.3). A normalização editorial prevista no §6.2 nunca foi executada
+  porque não existia como etapa.
+- Decisão: etapa de **revisão editorial** sobre hot-spots, em três passos
+  (PIPELINE.md v1.2.0):
+  1. triagem estática `scripts/qa_linguistico.py` (marcadores mecânicos, sem
+     agentes; saída `qa/reports/hotspots.*` + digest por capítulo hot);
+  2. 1 agente revisor por capítulo hot
+     (`pipeline/orchestration/review-chapter-driver.workflow.js`, prompt canônico
+     `pipeline/prompts/revisor-editorial-draft.md`), até 16 em paralelo;
+  3. persistência in-place `scripts/persist_review.py` + commit por capítulo.
+- Guardas (vinculantes):
+  - mudança somente de **FORMA**; correção que altere sentido é proibida — vira
+    objeção MATERIAL registrada em `objecoes_nao_resolvidas` (bloqueia APPROVED;
+    o texto não muda);
+  - cobertura OSIS exata: nenhum verso inventado, omitido ou renumerado;
+  - cada mudança aplicada é registrada em `decisoes` com `diretriz_ref: ER-0019`;
+  - re-pin de `fontes` no ciclo (ER-0010): `prompts_versao` 1.2.0 (review),
+    regras e léxico nas versões efetivamente lidas, modelo do ciclo;
+  - status **permanece DRAFT** — promoção a REVIEW segue exigindo consenso pleno
+    + QA de contaminação (FSM inalterada);
+  - fórmulas intencionais do original (refrões, paralelismo, quiasmos) são
+    mantidas pelo revisor; a triagem estática apenas flagra, não decide.
+- Primeira execução (2026-08-23): 31142 versos DRAFT varridos; 5705 com achados
+  (18,3%); 506 capítulos hot no limiar score ≥ 8.
+
 ---
 
 ## Follow-ups abertos

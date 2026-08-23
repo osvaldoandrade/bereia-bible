@@ -1,7 +1,8 @@
 # PIPELINE — Bereia Version
 
-Versão do processo: **1.1.0** · Mudanças exigem bump SemVer + entrada em `decisions/DECISOES.md`.
-(1.1.0: autoridade NT Nestle 1904, packets gregos e driver fonte-neutro — ADR-0003/ER-0018.)
+Versão do processo: **1.2.0** · Mudanças exigem bump SemVer + entrada em `decisions/DECISOES.md`.
+(1.2.0: revisão editorial do tier DRAFT sobre hot-spots estáticos — ER-0019.
+1.1.0: autoridade NT Nestle 1904, packets gregos e driver fonte-neutro — ADR-0003/ER-0018.)
 
 ## Visão
 
@@ -114,6 +115,37 @@ Todo ciclo de reparo/consistência re-pina **todos** os campos de `fontes` do
 registro para as versões efetivamente lidas naquele ciclo (léxico, regras,
 prompts, modelo) — nunca preserva pins do ciclo anterior. Pin desatualizado em
 registro é defeito de dados.
+
+## Revisão editorial do tier DRAFT (ER-0019)
+
+Etapa posterior à cobertura DRAFT (ER-0016/0017), aplicada somente a hot-spots:
+
+1. **Triagem estática** (`scripts/qa_linguistico.py`): marcadores mecânicos sobre
+   `texto_bv` de registros DRAFT — arcaísmos (§1.2), sentenças > 40 palavras (§1.3),
+   calques paratáticos, redundância interna, excesso de pronomes/passivas,
+   divergência de extensão vs `traducao_literal`. Saída: `qa/reports/hotspots.json`
+   + `hotspots.md` + digest por capítulo hot (`qa/reports/review-input/`).
+   O detector apenas flagra; a adjudicação (corrigir vs manter fórmula intencional)
+   é do agente revisor.
+2. **Revisão por capítulo** (`pipeline/orchestration/review-chapter-driver.workflow.js`,
+   prompt canônico `pipeline/prompts/revisor-editorial-draft.md`): 1 agente por
+   capítulo hot, até 16 em paralelo. Mudança somente de FORMA, nunca de sentido.
+3. **Persistência** (`scripts/persist_review.py`): exige cobertura OSIS exata;
+   aplica `texto_bv` revisado e registra cada mudança em `decisoes`
+   (`diretriz_ref: ER-0019`); objeção MATERIAL não altera o texto e entra em
+   `objecoes_nao_resolvidas` (bloqueia APPROVED); re-pina `fontes` (ER-0010).
+   O status **permanece DRAFT** — promoção a REVIEW continua exigindo o ciclo de
+   consenso pleno + QA de contaminação.
+
+Reprodução:
+
+```
+python3 scripts/qa_linguistico.py            # triagem; limiar -threshold (padrão 8)
+# Workflow review-chapter-driver com args.chapters = capítulos hot
+python3 scripts/persist_review.py qa/reports/review-out/01-gn-024.json -modelo <modelo-do-ciclo>
+./bin/bvcheck -records translation/01-gn/024 -lexicon lexicon/lexicon.json
+git commit por capítulo
+```
 
 ## Reprodução
 

@@ -176,3 +176,11 @@ Notas do dia dois: pipeline interrompido por limite de gasto da conta a meio cam
 basta: metadados provisórios de raqia e objeção aberta em 1:8 precisaram do finalizador
 (guarda F-0011). Lição incorporada: ratificação de perícope processa TODOS os versículos
 pelo finalizador, não só os que mudam texto.
+
+## Ciclos de revisão editorial (ER-0019, pós-cobertura DRAFT)
+
+| Data | Etapa | Resultado |
+|---|---|---|
+| 2026-08-23 | Triagem estática (`scripts/qa_linguistico.py`) | 31142 vv DRAFT; 5705 com achados; 506 capítulos hot (score ≥ 8) |
+| 2026-08-23 | Piloto (Gn 24, Êx 12, Mc 4) | — |
+
