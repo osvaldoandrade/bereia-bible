@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Gen.9.1-29"
   },
-  "texto_bv": "E o temor e o pavor de vós virão sobre todo animal da terra, e sobre toda ave dos céus; com tudo o que se move sobre o solo, e com todos os peixes do mar, nas vossas mãos são entregues.",
+  "texto_bv": "E o temor e o pavor de vocês virão sobre todo animal da terra e sobre toda ave dos céus. Tudo o que se move sobre o solo e todos os peixes do mar são entregues nas suas mãos.",
   "traducao_literal": "E o vosso temor e o vosso pavor será sobre todo animal da terra, e sobre toda ave dos céus, em tudo o que rasteja o solo, e em todos os peixes do mar; na vossa mão foram entregues.",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "de vós → de vocês | nas vossas mãos → nas suas mãos | E o temor e o pavor de vós virão sobre todo animal da terra, e sobre toda ave dos céus; com tudo o que se move sobre o solo, e com todos os peixes do mar, nas vossas mãos são entregues. → E o temor e o pavor de vocês virão sobre todo animal da terra e sobre toda ave dos céus. Tudo o que se move sobre o solo e todos os peixes do mar são entregues nas suas mãos.",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): pronome pessoal vós → vocês em discurso Deus→humano. | Normalização do paradigma de 2ª pessoa (§3/D-0003): possessivo vossas → suas (de vocês). | Divisão de sentença de 41 palavras em duas orações (§1.3/LEN-1); remoção de vírgulas e conjunções desnecessárias para fluidez. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Domínio reafirmado (1:28), agora com temor — relação alterada pós-queda.",
@@ -122,10 +130,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.1",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
