@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Josh.7.1-26"
   },
-  "texto_bv": "Josué tomou Acã, filho de Zerá, a prata, o manto, a barra de ouro, os filhos e as filhas de Acã, seu boi, seu jumento, seu rebanho, sua tenda e tudo o que lhe pertencia. Todo Israel estava com ele, e eles os levaram ao vale de Acor.",
+  "texto_bv": "Josué tomou Acã, filho de Zerá, a prata, o manto, a barra de ouro, os filhos e as filhas de Acã, seu boi, seu jumento, seu rebanho, sua tenda e tudo o que lhe pertencia. Todo Israel estava com Josué e os levaram ao vale de Acor.",
   "traducao_literal": "E tomou Josué Acã, filho de Zerá, e a prata, e o manto, e a língua do ouro, e os filhos dele, e as filhas dele, e o boi dele, e o jumento dele, e o rebanho dele, e a tenda dele, e todo o que era para ele, e todo Israel com ele; e fizeram subir a eles ao vale de Acor.",
   "termos_originais": [
     {
@@ -241,6 +241,13 @@
           "motivo": "Altera relevo e topônimo."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Todo Israel estava com ele, e eles os levaram → Todo Israel estava com Josué e os levaram",
+      "justificativa": "referência pronominal inequívoca — 'ele' ambíguo entre Josué e Acã após lista de possessivos; substituição por nome próprio e remoção de 'eles' expletivo (EDITORIAL §1.3, achado PRO-1) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -256,10 +263,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
