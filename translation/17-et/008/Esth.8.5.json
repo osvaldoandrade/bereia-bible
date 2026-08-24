@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Esth.8.1-17"
   },
-  "texto_bv": "Ela disse: \"Se for do agrado do rei, se eu encontrei favor diante dele, se este assunto parece correto ao rei e se sou agradável a seus olhos, que se escreva para revogar as cartas que continham o plano de Hamã, filho de Hamedata, o agagita, o qual ele escreveu para destruir os judeus que estão em todas as províncias do rei.",
+  "texto_bv": "Ela disse: \"Se for do agrado do rei, se eu encontrei favor diante dele, se este assunto parece correto ao rei e se sou agradável a seus olhos, que se escreva para revogar as cartas que continham o plano de Hamã, filho de Hamedata, o agagita. Ele escreveu esse plano para destruir os judeus que estão em todas as províncias do rei.",
   "traducao_literal": "E disse: se ao rei parecer bom, e se achei favor diante dele, e reto for o assunto diante do rei, e boa eu for aos seus olhos, escreva-se para fazer voltar as cartas, plano de Hamã filho de Hamedata o agagita, que escreveu para destruir os judeus que estão em todas as províncias do rei.",
   "termos_originais": [
     {
@@ -193,6 +193,13 @@
           "motivo": "sugere construto direto e obscurece a estrutura apositiva do original"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": ", o qual ele escreveu para destruir → . Ele escreveu esse plano para destruir",
+      "justificativa": "LEN-1: sentença de 62 palavras dividida em duas pela ruptura da oração relativa; referente (plano de Hamã) tornado explícito para clareza. PRO-1: pronomes com referentes inequívocos em contexto (dele=rei, seus=do rei, ele=Hamã), falso positivo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -206,10 +213,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

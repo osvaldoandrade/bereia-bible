@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Esth.8.1-17"
   },
-  "texto_bv": "O rei Assuero disse à rainha Ester e a Mardoqueu, o judeu: \"Eis que dei a casa de Hamã a Ester, e a ele o enforcaram na forca, porque ele estendeu a mão contra os judeus.",
+  "texto_bv": "O rei Assuero disse à rainha Ester e a Mardoqueu, o judeu: \"Eu dei a casa de Hamã a Ester, e a ele o enforcaram na forca, porque ele estendeu a mão contra os judeus.",
   "traducao_literal": "E disse o rei Assuero à rainha Ester e a Mardoqueu o judeu: eis a casa de Hamã dei a Ester, e a ele penduraram sobre a árvore, porque estendeu a sua mão contra os judeus.",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
           "motivo": "não há variantes_fonte associado no packet; é grafia interna do OSHB, não testemunha externa alternativa"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que dei → Eu dei",
+      "justificativa": "CAL-2: calque paratático הִנֵּה normalizado em discurso direto; primeira pessoa do rei já carrega ênfase declarativa sem o arcaísmo 'eis que'. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -150,10 +157,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
