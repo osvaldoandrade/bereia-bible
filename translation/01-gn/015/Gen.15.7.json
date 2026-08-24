@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Gen.15.1-21"
   },
-  "texto_bv": "E disse-lhe: “Eu sou o SENHOR, que te tirei de Ur dos caldeus, para te dar esta terra, para a possuíres.”",
+  "texto_bv": "E disse-lhe: “Eu sou o SENHOR, que o tirei de Ur dos caldeus, para lhe dar esta terra, para que a possua.”",
   "traducao_literal": "E disse-lhe: “Eu sou o SENHOR, que te fiz sair de Ur dos caldeus, para dar-te esta terra, para possuí-la.”",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que te tirei → que o tirei | para te dar → para lhe dar | para a possuíres → para que a possua",
+      "justificativa": "§3/D-0003: pronome oblíquo você em discurso Deus→humano | §3/D-0003: pronome oblíquo você em discurso Deus→humano | §3/D-0003: conjugação você em discurso Deus→humano (infinitivo pessoal tu → subjuntivo você) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Tradução DRAFT (ADR-0002); aliança com Abrão.",
@@ -92,10 +100,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
