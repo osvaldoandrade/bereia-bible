@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Num.31.1-54"
   },
-  "texto_bv": "tudo o que resiste ao fogo deverá passar pelo fogo e ficará puro; contudo, também deverá ser purificado com a água de purificação. Tudo o que não resiste ao fogo deverá passar pela água.",
+  "texto_bv": "tudo o que resiste ao fogo deverá passar pelo fogo e ficará puro; contudo, também será purificado com a água de purificação. Tudo o que não resiste ao fogo deverá passar pela água.",
   "traducao_literal": "Toda coisa que entra no fogo farão passar no fogo, e será pura; somente com águas de remoção purificar-se-á; e tudo o que não entra no fogo farão passar na água.",
   "termos_originais": [
     {
@@ -137,6 +137,13 @@
           "motivo": "Apaga sua categoria ritual específica."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "contudo, também deverá ser purificado → contudo, também será purificado",
+      "justificativa": "RED-1: remove repetição de “deverá” (2× no mesmo período); troca por futuro simples, preservando o sentido normativo (a purificação permanece obrigatória). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -155,10 +162,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
