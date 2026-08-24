@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "1Kgs.14.1-31"
   },
-  "texto_bv": "Quanto ao restante dos feitos de Jeroboão, como guerreou e como reinou, eis que estão escritos no Livro dos Acontecimentos dos Dias dos Reis de Israel.",
+  "texto_bv": "Quanto ao restante dos feitos de Jeroboão, como guerreou e como reinou, estão escritos no Livro dos Acontecimentos dos Dias dos Reis de Israel.",
   "traducao_literal": "E o restante das palavras de Jeroboão, como guerreou e como reinou, eis que estão escritos sobre o livro das palavras dos dias dos reis de Israel.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "como reinou, eis que estão escritos → como reinou, estão escritos",
+      "justificativa": "Remoção do calque “eis que” (הִנֵּה) em fórmula formular de encerramento de reinado — sem força dêitica; normalização conforme EDITORIAL §6.2 / ER-0013. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Restante, Jeroboão, guerra, reinado, escrita e título da fonte real foram mantidos.",
@@ -97,10 +105,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
