@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "2Chr.31.1-21"
   },
-  "texto_bv": "Quanto aos filhos de Arão, os sacerdotes que estavam nos campos das terras de pastagem de suas cidades, em cada cidade havia homens designados pelo nome para dar porções a todo homem entre os sacerdotes e a todo aquele registrado por genealogia entre os levitas.",
+  "texto_bv": "Quanto aos filhos de Arão, os sacerdotes que estavam nos campos das terras de pastagem de suas cidades, em cada cidade havia homens designados pelo nome para dar porções a todo sacerdote e a todo levita registrado por genealogia.",
   "traducao_literal": "E para os filhos de Arão, os sacerdotes, nos campos da terra de pastagem de suas cidades, em toda cidade e cidade, homens que foram designados por nomes, para dar porções a todo masculino entre os sacerdotes e a todo o que se registrava por genealogia entre os levitas.",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a todo homem entre os sacerdotes e a todo aquele registrado por genealogia entre os levitas → a todo sacerdote e a todo levita registrado por genealogia",
+      "justificativa": "LEN-1 (45 palavras → 39). Compressão de perifrases equivalentes: “todo homem entre os sacerdotes” = todo sacerdote; “todo aquele registrado por genealogia entre os levitas” = todo levita registrado por genealogia. Sentido preservado; sentença abaixo do limiar de 40 palavras (§1.3). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "Quanto",
     "que estavam",
@@ -134,10 +142,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
