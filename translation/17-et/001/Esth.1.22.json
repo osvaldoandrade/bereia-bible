@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Esth.1.1-22"
   },
-  "texto_bv": "Então ele enviou cartas a todas as províncias do reino, a cada província segundo a sua escrita e a cada povo segundo a sua língua, para que todo homem fosse senhor em sua própria casa e falasse a língua do seu povo.",
+  "texto_bv": "Enviou cartas a todas as províncias do reino, a cada província segundo a sua escrita e a cada povo segundo a sua língua, para que todo homem fosse senhor em sua própria casa e falasse a língua do seu povo.",
   "traducao_literal": "E enviou cartas a todas as províncias do rei, a província e província conforme a sua escrita, e a povo e povo conforme a sua língua, para ser todo homem senhor na sua casa, e falando conforme a língua do seu povo.",
   "termos_originais": [
     {
@@ -144,6 +144,13 @@
           "motivo": "calque literal soa redundante e não-idiomático em português corrente"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então ele enviou cartas → Enviou cartas",
+      "justificativa": "§1.3/LEN-1: remoção de “Então ele” (sujeito oculto, recuperável do contexto — o rei, v.21); redução de 42 para 40 palavras. “Então” é calque paratático (§6.2/ER-0013) desnecessário quando a sequência narrativa já está estabelecida — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -159,10 +166,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

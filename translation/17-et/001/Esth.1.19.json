@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Esth.1.1-22"
   },
-  "texto_bv": "\"Se for do agrado do rei, que saia da sua presença um decreto real, e seja escrito nas leis da Pérsia e da Média, para que não seja revogado, de que Vasti não compareça mais diante do rei Assuero; e que o rei dê a posição de rainha a outra, melhor do que ela.\"",
+  "texto_bv": "\"Se for do agrado do rei, que saia da sua presença um decreto real e seja escrito nas leis da Pérsia e da Média, para que não seja revogado. Que Vasti não compareça mais diante do rei Assuero, e que o rei dê a posição de rainha a outra, melhor do que ela.\"",
   "traducao_literal": "Se sobre o rei bom, saia palavra real de diante dele, e seja escrita nas leis da Pérsia e da Média, e não passe: que não venha Vasti diante do rei Assuero; e o seu reinado dê o rei à sua companheira, a melhor do que ela.",
   "termos_originais": [
     {
@@ -180,6 +180,13 @@
           "motivo": "sugeriria território administrativo, não o título/posição de rainha-consorte"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "um decreto real, e seja escrito → um decreto real e seja escrito | revogado, de que Vasti não compareça mais diante do rei Assuero; e que → revogado. Que Vasti não compareça mais diante do rei Assuero, e que",
+      "justificativa": "§6.1: remoção de vírgula antes de “e” com mesmo sujeito implícito (decreto) | §1.3/LEN-1: divisão de sentença de 54 palavras em duas (26+26); ponto-e-vírgula substituído por ponto final; “de que” (subordinação ao decreto) convertido em “Que” (optativo independente), preservando o conteúdo da proposta — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -193,10 +200,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
