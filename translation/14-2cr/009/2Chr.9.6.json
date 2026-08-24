@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "2Chr.9.1-31"
   },
-  "texto_bv": "Eu não acreditei nas palavras deles até que vim e meus olhos viram. Eis que não me contaram nem a metade da abundância de sua sabedoria; você excedeu o relato que ouvi.",
+  "texto_bv": "Eu não acreditei nas palavras deles até que vim e meus olhos viram. Não me contaram nem a metade da abundância de sua sabedoria; você excedeu o relato que ouvi.",
   "traducao_literal": "E não acreditei nas palavras deles até que vim e viram meus olhos; e eis que não foi declarada a mim metade da abundância de sua sabedoria; você acrescentou sobre o relato que ouvi.",
   "termos_originais": [
     {
@@ -135,6 +135,13 @@
         }
       ],
       "diretriz_ref": "ER-0003"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que não me contaram → Não me contaram",
+      "justificativa": "Normalização de calque paratático ‘eis que’ (הִנֵּה) conforme ER-0013/EDITORIAL §6.2 — dêitico soa artificial em pt-BR contemporâneo; a ênfase de surpresa já é veiculada pelo conteúdo (‘nem a metade’). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -149,10 +156,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2684b500479b9a7c731402edec8866cd33e1d25de2b90e4730b2c6f1e97df12b",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
