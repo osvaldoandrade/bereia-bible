@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Deut.24.1-22"
   },
-  "texto_bv": "e se esse segundo marido vier a odiá-la, escrever uma certidão de divórcio, entregá-la nas mãos dela e mandá-la embora de sua casa, ou se esse segundo marido, que a tomou por esposa, morrer;",
+  "texto_bv": "e se esse segundo marido vier a odiá-la, escrever uma certidão de divórcio, entregá-la nas mãos dela e mandá-la embora de sua casa, ou se ele, que a tomou por esposa, morrer;",
   "traducao_literal": "E odiá-la o homem posterior, e escrever para ela um documento de separação, e der na mão dela, e a enviar da casa dele; ou quando morrer o homem posterior que a tomou para si por mulher;",
   "termos_originais": [
     {
@@ -142,6 +142,13 @@
           "motivo": "Elimina uma das duas condições previstas."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ou se esse segundo marido, que a tomou por esposa, morrer → ou se ele, que a tomou por esposa, morrer",
+      "justificativa": "Elimina repetição de “esse segundo marido” (RED-1) no mesmo verso; pronome “ele” retoma o antecedente imediato sem ambiguidade; a repetição não é fórmula intencional do original (apenas referência redundante em português) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -157,10 +164,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
