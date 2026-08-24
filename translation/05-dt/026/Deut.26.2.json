@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Deut.26.1-19"
   },
-  "texto_bv": "pegue uma parte das primícias de todos os frutos do solo que você colher na terra que o SENHOR, seu Deus, lhe dá, coloque-a numa cesta e vá ao lugar que o SENHOR, seu Deus, escolher para ali fazer habitar seu nome.",
+  "texto_bv": "pegue uma parte das primícias de todos os frutos do solo que você colher na terra que o SENHOR, seu Deus, lhe dá e coloque-a numa cesta. Vá ao lugar que o SENHOR, seu Deus, escolher para ali fazer habitar seu nome.",
   "traducao_literal": "E você tomará do princípio de todo fruto do solo que fará entrar da terra de você que SENHOR, seu Deus, dá a você, e porá na cesta, e irá ao lugar que escolher SENHOR, seu Deus, para fazer habitar o nome dele ali.",
   "termos_originais": [
     {
@@ -159,6 +159,13 @@
           "motivo": "Troca o nome divino pelo próprio Deus como objeto explícito."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pegue uma parte das primícias de todos os frutos do solo que você colher na terra que o SENHOR, seu Deus, lhe dá, coloque-a numa cesta e vá ao lugar que o SENHOR, seu Deus, escolher para ali fazer habitar seu nome. → pegue uma parte das primícias de todos os frutos do solo que você colher na terra que o SENHOR, seu Deus, lhe dá e coloque-a numa cesta. Vá ao lugar que o SENHOR, seu Deus, escolher para ali fazer habitar seu nome.",
+      "justificativa": "LEN-1: sentença de 42 palavras dividida em duas (23 + 15) para respeitar o limite de 40 palavras (§1.3). RED-1: a repetição de “SENHOR, seu Deus” (2×) é fórmula deuteronômica intencional — mantida (falso-positivo). PRO-1: pronomes com antecedente claro — mantido (falso-positivo). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -176,10 +183,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
