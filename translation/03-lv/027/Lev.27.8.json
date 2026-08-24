@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Lev.27.1-34"
   },
-  "texto_bv": "Se quem fez o voto não tiver recursos para pagar a avaliação, será levado diante do sacerdote. O sacerdote fixará a avaliação conforme os recursos de quem fez o voto.",
+  "texto_bv": "Se quem fez o voto não tiver recursos para pagar a avaliação, será levado diante do sacerdote. O sacerdote fixará a avaliação conforme os recursos dessa pessoa.",
   "traducao_literal": "E se pobre ele para tua avaliação, então o fará ficar diante do sacerdote, e avaliará a ele o sacerdote; conforme o que alcançar a mão do que vota, o avaliará o sacerdote.",
   "termos_originais": [
     {
@@ -132,6 +132,13 @@
           "motivo": "Elimina o critério objetivo dos recursos do votante."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "conforme os recursos de quem fez o voto → conforme os recursos dessa pessoa",
+      "justificativa": "RED-1: remove repetição interna de ‘quem fez o voto’ (o hebraico repita הַנֹּדֵר, mas o português dispensa a redundância com referência pronominal inequívoca) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -148,10 +155,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
