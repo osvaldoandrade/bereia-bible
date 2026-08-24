@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Ezra.3.1-13"
   },
-  "texto_bv": "Deram prata aos cortadores de pedra e aos artesãos, e alimento, bebida e azeite aos sidônios e tírios, para que trouxessem madeira de cedro do Líbano pelo mar até Jope, conforme a autorização que Ciro, rei da Pérsia, lhes havia concedido.",
+  "texto_bv": "Deram prata aos cortadores de pedra e aos artesãos, e alimento, bebida e azeite aos sidônios e tírios, para que trouxessem madeira de cedro do Líbano pelo mar até Jope. Fizeram-no conforme a autorização que Ciro, rei da Pérsia, lhes havia concedido.",
   "traducao_literal": "E deram prata aos cortadores e aos artesãos, e alimento, e bebida, e azeite aos sidônios e aos tírios, para fazer vir madeiras de cedro do Líbano ao mar de Jope, conforme a autorização de Ciro, rei da Pérsia, sobre eles.",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "até Jope, conforme a autorização → até Jope. Fizeram-no conforme a autorização",
+      "justificativa": "LEN-1: divisão de sentença de 41 palavras em duas (30 + 12); 'Fizeram-no' é palavra suprida (§4) exigida pela nova sentença; sentido preservado — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "de pedra",
     "para que",
@@ -140,10 +148,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

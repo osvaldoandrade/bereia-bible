@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Ezra.3.1-13"
   },
-  "texto_bv": "Jesua, seus filhos e irmãos, Cadmiel e seus filhos, os filhos de Judá, colocaram-se como um só para supervisionar os que faziam o trabalho na casa de Deus; também os filhos de Henadade, seus filhos e seus irmãos, os levitas.",
+  "texto_bv": "Jesua, seus filhos e irmãos, Cadmiel e seus filhos, os filhos de Judá, colocaram-se como um só para supervisionar os que faziam o trabalho na casa de Deus. Também os filhos de Henadade, seus filhos e seus irmãos, os levitas.",
   "traducao_literal": "E ficou de pé Jesua, seus filhos e seus irmãos, Cadmiel e seus filhos, filhos de Judá, como um só, para supervisionar os que faziam o trabalho na casa de Deus; filhos de Henadade, seus filhos e seus irmãos, os levitas.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
           "motivo": "Criaria agente singular e verbo inexistentes."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "na casa de Deus; também os filhos → na casa de Deus. Também os filhos",
+      "justificativa": "LEN-1: divisão no ponto do ponto e vírgula (41 → 28 + 12 palavras). RED-1 e PRO-1 são falso-positivos: a repetição de 'filhos' e 'irmãos' é formulação clânica do original; os possessivos têm antecedente imediato inequívoco. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -138,10 +145,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
