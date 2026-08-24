@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Josh.17.1-18"
   },
-  "texto_bv": "Manassés também possuía, dentro de Issacar e Aser, Bete-Seã e suas cidades dependentes, Ibleão e suas cidades dependentes, os habitantes de Dor e as cidades dependentes dela, os habitantes de En-Dor e as cidades dependentes dela, os habitantes de Taanaque e as cidades dependentes dela, e os habitantes de Megido e as cidades dependentes dela — três distritos.",
+  "texto_bv": "Manassés também possuía, dentro de Issacar e Aser, Bete-Seã e suas cidades dependentes, Ibleão e suas cidades dependentes, os habitantes de Dor e as cidades dependentes dela, e os habitantes de En-Dor e as cidades dependentes dela. Também possuía os habitantes de Taanaque e as cidades dependentes dela, e os habitantes de Megido e as cidades dependentes dela — três distritos.",
   "traducao_literal": "E foi para Manassés, em Issacar e em Aser, Bete-Seã e suas filhas, e Ibleão e suas filhas, e os habitantes de Dor e suas filhas, e os habitantes de En-Dor e suas filhas, e os habitantes de Taanaque e suas filhas, e os habitantes de Megido e suas filhas: os três distritos.",
   "termos_originais": [
     {
@@ -167,6 +167,13 @@
           "motivo": "Não há aparato ketiv/qere no verso que autorize modificar o texto."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Manassés também possuía, dentro de Issacar e Aser, Bete-Seã e suas cidades dependentes, Ibleão e suas cidades dependentes, os habitantes de Dor e as cidades dependentes dela, os habitantes de En-Dor e as cidades dependentes dela, os habitantes de Taanaque e as cidades dependentes dela, e os habitantes de Megido e as cidades dependentes dela — três distritos. → Manassés também possuía, dentro de Issacar e Aser, Bete-Seã e suas cidades dependentes, Ibleão e suas cidades dependentes, os habitantes de Dor e as cidades dependentes dela, e os habitantes de En-Dor e as cidades dependentes dela. Também possuía os habitantes de Taanaque e as cidades dependentes dela, e os habitantes de Megido e as cidades dependentes dela — três distritos.",
+      "justificativa": "LEN-1: sentença de 59 palavras dividida em dois períodos para atender §1.3 (limite de 40 palavras). RED-1 (repetição de “cidades dependentes”) e PRO-1 (6 pronomes) são falso-positivos: a repetição “suas filhas” (בנותיה) é fórmula territorial do original hebraico, e todos os pronomes têm antecedente claro (cada cidade nomeada). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -184,10 +191,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
