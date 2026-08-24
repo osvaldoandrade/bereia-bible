@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "1Chr.5.1-41"
   },
-  "texto_bv": "Estes foram os chefes das casas de seus pais: Efer, Isi, Eliel, Azriel, Jeremias, Hodavias e Jadiel, homens valentes, homens de renome e chefes das casas de seus pais.",
+  "texto_bv": "Estes foram os chefes das casas de seus pais: Efer, Isi, Eliel, Azriel, Jeremias, Hodavias e Jadiel — homens valentes e de renome.",
   "traducao_literal": "E estes, chefes da casa de seus pais: e Efer, e Isi, e Eliel, e Azriel, e Jeremias, e Hodavias, e Jadiel; homens, valentes de força, homens de nomes, chefes para a casa de seus pais.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Estes foram os chefes das casas de seus pais: Efer, Isi, Eliel, Azriel, Jeremias, Hodavias e Jadiel, homens valentes, homens de renome e chefes das casas de seus pais. → Estes foram os chefes das casas de seus pais: Efer, Isi, Eliel, Azriel, Jeremias, Hodavias e Jadiel — homens valentes e de renome.",
+      "justificativa": "Redundância interna (§1.4): “chefes das casas de seus pais” repetido no início e no fim do versículo; a segunda ocorrência é redundante em português (o original usa como aposto descritivo). Removida a repetição final e condensado “homens valentes, homens de renome” em “homens valentes e de renome”. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "foram — fornece a cópula da identificação nominal"
   ],
@@ -119,10 +127,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
