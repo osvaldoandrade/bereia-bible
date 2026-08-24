@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Exod.21.1-37"
   },
-  "texto_bv": "Porém o que lhe não armou ciladas, mas Deus o fez cair nas suas mãos, eu te designarei um lugar, para onde ele fugirá.",
+  "texto_bv": "Porém o que lhe não armou ciladas, mas Deus o fez cair nas suas mãos, eu lhe designarei um lugar, para onde ele fugirá.",
   "traducao_literal": "E o que não emboscou, mas Deus fez encontrar à sua mão, e porei para ti um lugar para onde fugirá para lá.",
   "termos_originais": [
     {
@@ -72,7 +72,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eu te designarei → eu lhe designarei",
+      "justificativa": "Paradigma de 2ª pessoa §3/D-0003: Deus→humano = você. Normalização do pronome oblíquo te (tu) para lhe (você). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Distinção entre homicídio doloso e culposo (acidental): 'Deus o fez cair na mão' = sem premeditação; há refúgio (as cidades de refúgio, Nm 35; Dt 19). A justiça pesa a intenção. אֱלֹהִים→Deus.",
@@ -82,10 +90,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
