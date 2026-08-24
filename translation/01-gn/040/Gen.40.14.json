@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Gen.40.1-23"
   },
-  "texto_bv": "Porém lembra-te de mim, quando te for bem; e usa, peço-te, de misericórdia para comigo, e faze menção de mim a Faraó, e faze-me sair desta casa;",
+  "texto_bv": "Porém lembre-se de mim, quando lhe for bem; e use, por favor, de misericórdia para comigo, e faça menção de mim a Faraó, e faça-me sair desta casa;",
   "traducao_literal": "Porém, se te lembrares de mim contigo, quando for bem para ti, e fizeres, por favor, comigo bondade, e me fizeres lembrado a Faraó, e me fizeres sair desta casa;",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "lembra-te de mim → lembre-se de mim | quando te for bem → quando lhe for bem | usa, peço-te, → use, por favor, | faze menção → faça menção | faze-me sair → faça-me sair",
+      "justificativa": "§3/D-0003: imperativo tu→você em discurso humano→humano (José→copeiro); normalização coordenada do capítulo | §3/D-0003: oblíquo dativo tu→você (te→lhe) | §3/D-0003: imperativo tu→você (usa→use); 'peço-te'→'por favor' (partícula נָא, conforme tradução literal) | §3/D-0003: imperativo tu→você (faze→faça) | §3/D-0003: imperativo tu→você (faze→faça) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "חֶסֶד 'bondade/lealdade' — José pede a reciprocidade que o copeiro esquecerá (40:23).",
@@ -112,10 +120,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
