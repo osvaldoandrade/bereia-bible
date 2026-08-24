@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Exod.18.1-27"
   },
-  "texto_bv": "E disse Jetro: Bendito seja o SENHOR, que vos livrou da mão dos egípcios e da mão de Faraó; que livrou este povo de debaixo da mão dos egípcios.",
+  "texto_bv": "E disse Jetro: Bendito seja o SENHOR, que os livrou da mão dos egípcios e da mão de Faraó; que livrou este povo de debaixo da mão dos egípcios.",
   "traducao_literal": "E disse Jetro: Bendito YHWH, que vos livrou da mão do Egito e da mão de Faraó, que livrou o povo de debaixo da mão do Egito.",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que vos livrou → que os livrou",
+      "justificativa": "Normalização do paradigma de 2ª pessoa: vós→vocês em discurso humano→humano (D-0003/ER-0003/§3) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "בָּרוּךְ יְהוָה 'bendito seja o SENHOR' — o sacerdote gentio bendiz a YHWH; o êxodo tem alcance sobre as nações. YHWH→SENHOR.",
@@ -112,10 +120,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
