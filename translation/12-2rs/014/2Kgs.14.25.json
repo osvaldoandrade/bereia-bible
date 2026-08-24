@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "2Kgs.14.1-29"
   },
-  "texto_bv": "Foi Jeroboão quem restabeleceu a fronteira de Israel desde Lebo-Hamate até o mar da Arabá, conforme a palavra do SENHOR, Deus de Israel, que havia falado por meio de seu servo Jonas, filho de Amitai, o profeta, que era de Gate-Hefer.",
+  "texto_bv": "Foi Jeroboão quem restabeleceu a fronteira de Israel desde Lebo-Hamate até o mar da Arabá, conforme a palavra do SENHOR, Deus de Israel, falada por meio de seu servo Jonas, filho de Amitai, o profeta de Gate-Hefer.",
   "traducao_literal": "Ele fez voltar a fronteira de Israel desde Lebo-Hamate até o mar da Arabá, conforme a palavra do SENHOR, Deus de Israel, que falou pela mão de seu servo Jonas, filho de Amitai, o profeta, que era de Gate-Hefer.",
   "termos_originais": [
     {
@@ -152,6 +152,13 @@
           "motivo": "Apagaria o limite norte da restauração."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que havia falado → falada | o profeta, que era de Gate-Hefer → o profeta de Gate-Hefer",
+      "justificativa": "Redução de sentença acima de 40 palavras (§1.3/LEN-1); oração relativa convertida em particípio passivo concordando com ‘palavra’, sem alteração de sentido | Redução de sentença acima de 40 palavras (§1.3/LEN-1); oração relativa convertida em locução prepositiva, sem alteração de sentido; VOS-1 sobre ‘Amitai’ é falso positivo (nome próprio, אֲמִתַּי) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -169,10 +176,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }

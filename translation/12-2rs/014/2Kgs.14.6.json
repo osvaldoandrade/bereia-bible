@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "2Kgs.14.1-29"
   },
-  "texto_bv": "Mas ele não matou os filhos dos assassinos, conforme está escrito no Livro da Lei de Moisés, no qual o SENHOR ordenou: “Os pais não serão mortos por causa dos filhos, nem os filhos serão mortos por causa dos pais; cada um será morto por seu próprio pecado.”",
+  "texto_bv": "Mas ele não matou os filhos dos assassinos, conforme está escrito no Livro da Lei de Moisés. Nele, o SENHOR ordenou: “Os pais não serão mortos por causa dos filhos, nem os filhos serão mortos por causa dos pais; cada um será morto por seu próprio pecado.”",
   "traducao_literal": "E os filhos dos que feriram não matou, conforme o escrito no livro da Lei de Moisés, que ordenou o SENHOR, dizendo: “Não serão mortos pais por causa de filhos, e filhos não serão mortos por causa de pais; mas cada homem em seu pecado morrerá.”",
   "termos_originais": [
     {
@@ -179,6 +179,13 @@
           "motivo": "Apagaria a diferença formal de voz preservada pelo XML."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Moisés, no qual o SENHOR ordenou: → Moisés. Nele, o SENHOR ordenou:",
+      "justificativa": "Divisão de sentença com mais de 40 palavras (§1.3/LEN-1); ponto final após ‘Moisés’ e retomada com ‘Nele’ referindo-se ao livro; paralelismo da citação de Dt 24.16 mantido (RED-1 é repetição intencional do original) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -197,10 +204,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
