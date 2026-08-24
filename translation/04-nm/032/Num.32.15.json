@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Num.32.1-42"
   },
-  "texto_bv": "Se vocês deixarem de segui-lo, ele tornará a deixar este povo no deserto, e vocês destruirão todo este povo.”",
+  "texto_bv": "Se vocês deixarem de segui-lo, ele tornará a deixar o povo no deserto, e vocês destruirão todo este povo.”",
   "traducao_literal": "Porque, se voltardes de após ele, tornará ainda a deixar a ele no deserto; e destruireis todo este povo.”",
   "termos_originais": [
     {
@@ -82,6 +82,13 @@
           "motivo": "Restringe o objeto coletivo."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele tornará a deixar este povo no deserto, e vocês destruirão todo este povo → ele tornará a deixar o povo no deserto, e vocês destruirão todo este povo",
+      "justificativa": "RED-1: redundância não presente no original — o hebraico usa pronome ‘a ele’ na primeira ocorrência e ‘todo este povo’ na segunda; a BV introduziu ‘este povo’ duas vezes. Artigo definido na primeira ocorrência restaura a distinção do original. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -96,10 +103,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
