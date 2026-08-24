@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Exod.22.1-30"
   },
-  "texto_bv": "E ser-me-eis homens santos; portanto não comereis carne que foi despedaçada no campo pelas feras; aos cães a lançareis.",
+  "texto_bv": "E sejam para mim homens santos; portanto não comam carne despedaçada no campo pelas feras; lancem-na aos cães.",
   "traducao_literal": "E homens de santidade sereis para mim; e carne no campo, despedaçada, não comereis; ao cão a lançareis.",
   "termos_originais": [
     {
@@ -72,7 +72,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E ser-me-eis homens santos → E sejam para mim homens santos | portanto não comereis carne que foi despedaçada no campo pelas feras; aos cães a lançareis → portanto não comam carne despedaçada no campo pelas feras; lancem-na aos cães",
+      "justificativa": "VOS-1 + mesóclise (§1.2) — futuro 2pp com mesóclise \"ser-me-eis\" convertido em imperativo 3pp \"sejam\" com locução \"para mim\"; eliminação de forma arcaizante. | VOS-1 — normalização do paradigma vós→vocês (§3/D-0003): futuro 2pp \"comereis\" → imperativo negativo \"comam\" (3pp); \"lançareis\" → imperativo \"lancem\"; simplificação de \"que foi despedaçada\" → \"despedaçada\" (redução oracional sem perda). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "אַנְשֵׁי־קֹדֶשׁ 'homens santos/consagrados' — a santidade prática (inclusive na dieta) decorre da eleição (19:6); o povo de Deus é distinto. WLC 22:30 = pt 22:31. YHWH implícito.",
@@ -82,10 +90,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
