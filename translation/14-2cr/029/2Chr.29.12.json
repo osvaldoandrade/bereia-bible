@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "2Chr.29.1-36"
   },
-  "texto_bv": "Então se levantaram os levitas: Maate, filho de Amasai, e Joel, filho de Azarias, dos filhos de Coate; dos filhos de Merari, Quis, filho de Abdi, e Azarias, filho de Jealelel; e dos gersonitas, Joá, filho de Zima, e Éden, filho de Joá.",
+  "texto_bv": "Então se levantaram os levitas: Maate, filho de Amasai, e Joel, filho de Azarias, dos filhos de Coate. Também se levantaram dos filhos de Merari: Quis, filho de Abdi, e Azarias, filho de Jealelel; e dos gersonitas: Joá, filho de Zima, e Éden, filho de Joá.",
   "traducao_literal": "E levantaram-se os levitas: Maate, filho de Amasai, e Joel, filho de Azarias, dos filhos do coatita; e dos filhos de Merari, Quis, filho de Abdi, e Azarias, filho de Jealelel; e do gersonita, Joá, filho de Zima, e Éden, filho de Joá.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
           "motivo": "Colapsaria homônimos explicitamente ligados a pais diferentes."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dos filhos de Coate; dos filhos de Merari, → dos filhos de Coate. Também se levantaram dos filhos de Merari:",
+      "justificativa": "LEN-1: sentença de 43 palavras dividida em duas para respeitar o limite de 40 palavras (§1.3); o original permite a divisão sem perda sintática. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -174,10 +181,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
