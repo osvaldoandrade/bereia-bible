@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Ezra.9.1-15"
   },
-  "texto_bv": "que ordenaste por meio de teus servos, os profetas: ‘A terra na qual vocês estão entrando para tomar posse é uma terra impura, por causa da impureza dos povos das terras e das práticas repugnantes com que a encheram, de uma extremidade à outra, com sua impureza.",
+  "texto_bv": "que ordenaste por meio de teus servos, os profetas: ‘A terra na qual vocês estão entrando para tomar posse é uma terra impura por causa da impureza dos povos das terras. Com práticas repugnantes eles a encheram de uma extremidade à outra, com sua impureza.",
   "traducao_literal": "os quais ordenaste pela mão de teus servos, os profetas, dizendo: ‘A terra em que vocês estão entrando para possuí-la é terra de impureza; ela, pela impureza dos povos das terras, pelas abominações deles, com as quais a encheram de boca a boca, com sua impureza.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
           "motivo": "O contexto tem a terra como objeto preenchido, não uma cadeia de fala."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "impura, por causa da impureza dos povos das terras e das práticas repugnantes com que a encheram, de uma extremidade à outra, com sua impureza. → impura por causa da impureza dos povos das terras. Com práticas repugnantes eles a encheram de uma extremidade à outra, com sua impureza.",
+      "justificativa": "LEN-1: divisão da citação interna em duas sentenças para reduzir o total de 47 palavras; reestruturação sintática que preserva integralmente o sentido (práticas repugnantes como instrumento da contaminação pelos povos das terras) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -158,10 +165,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

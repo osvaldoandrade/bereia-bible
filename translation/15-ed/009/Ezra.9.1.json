@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Ezra.9.1-15"
   },
-  "texto_bv": "Depois que essas coisas foram concluídas, os líderes se aproximaram de mim e disseram: “O povo de Israel, os sacerdotes e os levitas não se separaram dos povos das terras e seguem suas práticas repugnantes: as dos cananeus, hititas, ferezeus, jebuseus, amonitas, moabitas, egípcios e amorreus.",
+  "texto_bv": "Depois que essas coisas foram concluídas, os líderes se aproximaram de mim e disseram: “O povo de Israel, os sacerdotes e os levitas não se separaram dos povos das terras. Seguem suas práticas repugnantes: as dos cananeus, hititas, ferezeus, jebuseus, amonitas, moabitas, egípcios e amorreus.",
   "traducao_literal": "E, ao serem concluídas estas coisas, aproximaram-se de mim os líderes, dizendo: “Não se separaram o povo de Israel, e os sacerdotes, e os levitas, dos povos das terras, como as abominações deles: quanto ao cananeu, ao hitita, ao ferezeu, ao jebuseu, ao amonita, ao moabita, ao egípcio e ao amorreu.",
   "termos_originais": [
     {
@@ -138,6 +138,13 @@
           "motivo": "Confundiria as pessoas com as práticas atribuídas a elas."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "terras e seguem → terras. Seguem",
+      "justificativa": "LEN-1: divisão de sentença longa (46 palavras) em duas sentenças menores dentro da fala direta; waw consecutivo normalizado como nova sentença (ER-0013); a lista de oito povos é fórmula intencional e foi preservada — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -155,10 +162,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
