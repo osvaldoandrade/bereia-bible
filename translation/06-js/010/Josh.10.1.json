@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Josh.10.1-43"
   },
-  "texto_bv": "Quando Adoni-Zedeque, rei de Jerusalém, soube que Josué havia conquistado Ai e a dedicado à destruição — fazendo com Ai e seu rei o mesmo que fizera com Jericó e seu rei — e que os habitantes de Gibeão tinham feito paz com Israel e viviam no meio deles,",
+  "texto_bv": "Quando Adoni-Zedeque, rei de Jerusalém, soube que Josué havia conquistado Ai e a dedicado à destruição — fazendo com Ai e seu rei o mesmo que havia feito com Jericó e seu rei — e que os habitantes de Gibeão tinham feito paz com Israel e viviam no meio deles,",
   "traducao_literal": "E aconteceu, ao ouvir Adoni-Zedeque, rei de Jerusalém, que capturou Josué Ai e a dedicou à destruição, como fez a Jericó e ao rei dela, assim fez a Ai e ao rei dela; e que fizeram paz os habitantes de Gibeão com Israel e estavam no meio deles,",
   "termos_originais": [
     {
@@ -182,6 +182,20 @@
           "motivo": "Contradiz “viviam no meio deles”."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fizera → havia feito",
+      "justificativa": "Arcaísmo funcionalmente morto (§1.2): mais-que-perfeito sintético substituído por composto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Sentença com 48 palavras (LEN-1). — evidência: A oração temporal 'Quando...soube que...e que...' é uma única unidade sintática dependente que prepara o v2 ('O medo deles foi intenso'); dividi-la exigiria abandonar a subordinação temporal explícita (Quando) e adicionar verbo ('Soube também') não presente no original, enfraquecendo o nexo causal com o versículo seguinte. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -195,10 +209,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
