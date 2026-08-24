@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "2Chr.32.1-33"
   },
-  "texto_bv": "Senaqueribe também escreveu cartas para insultar o SENHOR, Deus de Israel, dizendo contra ele: “Assim como os deuses das nações das terras não livraram seu povo da minha mão, também o Deus de Ezequias não livrará seu povo da minha mão.”",
+  "texto_bv": "Senaqueribe também escreveu cartas para insultar o SENHOR, Deus de Israel, dizendo: “Assim como os deuses das nações das terras não livraram seu povo da minha mão, também o Deus de Ezequias não livrará seu povo da minha mão.”",
   "traducao_literal": "E cartas escreveu para insultar o SENHOR, Deus de Israel, e para dizer contra ele, dizendo: “Como os deuses das nações das terras, que não livraram seu povo da minha mão, assim não livrará o Deus de Ezequias seu povo da minha mão.”",
   "termos_originais": [
     {
@@ -132,7 +132,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dizendo contra ele: → dizendo:",
+      "justificativa": "redundância contextual (EDITORIAL §1.3); em português, ‘insultar o SENHOR… dizendo’ já direciona o discurso — ‘contra ele’ é pleonasmo; reduz a sentença de 41 para 39 palavras (abaixo do limite de §1.3). RED-1 (‘povo minha’) mantido: paralelismo intencional do original (‘como… assim…’). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "Senaqueribe",
     "também"
@@ -147,10 +155,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
