@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "1Kgs.6.1-38"
   },
-  "texto_bv": "As duas portas eram de madeira de oliveira. Ele entalhou nelas entalhes de querubins, palmeiras e flores abertas, revestiu-as de ouro e aplicou o ouro sobre os querubins e as palmeiras.",
+  "texto_bv": "As duas portas eram de madeira de oliveira. Ele entalhou nelas querubins, palmeiras e flores abertas, revestiu-as de ouro e aplicou o ouro sobre os querubins e as palmeiras.",
   "traducao_literal": "E duas portas de madeiras de óleo; e entalhou sobre elas entalhes de querubins, e palmeiras, e flores abertas, e revestiu de ouro; e fez descer sobre os querubins e sobre as palmeiras o ouro.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
           "motivo": "Substitui o material ouro e os dois verbos de aplicação."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele entalhou nelas entalhes de querubins, palmeiras e flores abertas → Ele entalhou nelas querubins, palmeiras e flores abertas",
+      "justificativa": "RED-1: remoção de \"entalhes de\" — figura etimológica (verbo + substantivo cognato) redundante em pt-BR; o hebraico preserva a construção na traducao_literal — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -140,10 +147,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }

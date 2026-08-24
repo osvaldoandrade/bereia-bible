@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "1Kgs.6.1-38"
   },
-  "texto_bv": "O santuário interno, em sua parte dianteira, tinha vinte côvados de comprimento, vinte côvados de largura e vinte côvados de altura. Ele o revestiu de ouro puro e revestiu de cedro o altar.",
+  "texto_bv": "O santuário interno, em sua parte dianteira, tinha vinte côvados de comprimento, vinte de largura e vinte de altura. Ele o revestiu de ouro puro e revestiu de cedro o altar.",
   "traducao_literal": "E diante do santuário interno: vinte côvados de comprimento, e vinte côvados de largura, e vinte côvados sua altura; e o revestiu de ouro fechado, e revestiu um altar de cedro.",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
           "motivo": "Calca o adjetivo fora de seu uso metalúrgico."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vinte côvados de comprimento, vinte côvados de largura e vinte côvados de altura → vinte côvados de comprimento, vinte de largura e vinte de altura",
+      "justificativa": "RED-1: elipse de \"côvados\" nas segunda e terceira ocorrências — paralelismo dimensional preservado, repetição do substantivo desnecessária em pt-BR quando o referente é o mesmo — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -136,10 +143,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }

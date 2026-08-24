@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "1Kgs.6.1-38"
   },
-  "texto_bv": "As duas portas eram de madeira de cipreste. Os dois painéis de uma porta eram articulados, e os dois painéis da segunda porta também eram articulados.",
+  "texto_bv": "As duas portas eram de madeira de cipreste. Os dois painéis de uma porta eram articulados, e os dois da segunda porta, também.",
   "traducao_literal": "E duas portas de madeiras de ciprestes; dois lados da primeira porta, giratórios, e dois entalhes da segunda porta, giratórios.",
   "termos_originais": [
     {
@@ -97,6 +97,13 @@
           "motivo": "Apaga os dois componentes de cada porta e sua mobilidade."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e os dois painéis da segunda porta também eram articulados → e os dois da segunda porta, também",
+      "justificativa": "RED-1: condensação do paralelismo — elipse de \"painéis\" (referente claro) e de \"eram articulados\" (predicado recuperado pelo contexto); PAS-1: \"eram articulados\" é particípio adjetivo (estado), não passiva verdadeira, portanto falso-positivo — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -116,10 +123,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
