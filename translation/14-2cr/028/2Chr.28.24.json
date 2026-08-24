@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "2Chr.28.1-27"
   },
-  "texto_bv": "Acaz reuniu os utensílios da casa de Deus, cortou em pedaços os utensílios da casa de Deus, fechou as portas da casa do SENHOR e fez altares para si em todos os cantos de Jerusalém.",
+  "texto_bv": "Acaz reuniu os utensílios da casa de Deus, cortou-os em pedaços, fechou as portas da casa do SENHOR e fez altares para si em todos os cantos de Jerusalém.",
   "traducao_literal": "E reuniu Acaz os utensílios da casa de Deus, e cortou os utensílios da casa de Deus, e fechou as portas da casa do SENHOR, e fez para si altares em todo canto em Jerusalém.",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "cortou em pedaços os utensílios da casa de Deus → cortou-os em pedaços",
+      "justificativa": "RED-1: condensação de repetição redundante (ER-0013); o original repete 'os utensílios da casa de Deus' como objeto de dois verbos (reuniu/cortou), redundante em pt-BR; pronome oblíquo substitui a segunda ocorrência. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Mantém Acaz como agente dos quatro verbos, repete integralmente os utensílios e a casa de Deus, distingue portas e altares e conserva toda Jerusalém.",
@@ -132,10 +140,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
