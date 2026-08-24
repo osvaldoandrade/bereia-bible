@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Exod.20.1-26"
   },
-  "texto_bv": "Então disse o SENHOR a Moisés: Assim dirás aos filhos de Israel: Vós vistes que dos céus falei convosco.",
+  "texto_bv": "Então disse o SENHOR a Moisés: Assim dirás aos filhos de Israel: Vocês viram que dos céus falei com vocês.",
   "traducao_literal": "E disse YHWH a Moisés: Assim dirás aos filhos de Israel: Vós vistes que dos céus falei convosco.",
   "termos_originais": [
     {
@@ -92,7 +92,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vós vistes → Vocês viram | convosco → com vocês",
+      "justificativa": "Normalização vós→vocês no capítulo inteiro: pronome+verbo 2ª pl.→3ª pl. (§3/D-0003, item 10 — coerência do paradigma) | Normalização vós→vocês no capítulo inteiro: pronome pós-preposição (§3/D-0003, item 10 — coerência do paradigma) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Começa o 'Código da Aliança' (20:22-23:33). A base: Deus falou 'dos céus' — sem imagem (v.23). YHWH→SENHOR.",
@@ -102,10 +110,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
