@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Exod.1.1-22"
   },
-  "texto_bv": "E disse ao seu povo: Eis que o povo dos filhos de Israel é mais numeroso e mais forte do que nós.",
+  "texto_bv": "E disse ao seu povo: Vejam que o povo dos filhos de Israel é mais numeroso e mais forte do que nós.",
   "traducao_literal": "E disse ao seu povo: Eis que o povo dos filhos de Israel, numeroso e poderoso mais do que nós.",
   "termos_originais": [
     {
@@ -62,7 +62,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que o povo → Vejam que o povo",
+      "justificativa": "Normalização de calque 'Eis que' (CAL-2) para 'Vejam que', preservando a força dêitica do hinneh em discurso de Faraó (§6.2/ER-0013). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "עַם 'povo' — pela primeira vez Israel é chamado 'povo' (עַם), e por um egípcio, com receio.",
@@ -72,10 +80,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
