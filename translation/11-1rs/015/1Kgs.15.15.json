@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "1Kgs.15.1-34"
   },
-  "texto_bv": "Ele levou à casa do SENHOR as coisas que seu pai havia consagrado e as coisas que ele próprio havia consagrado: prata, ouro e utensílios.",
+  "texto_bv": "Ele levou à casa do SENHOR as coisas que seu pai e ele próprio haviam consagrado: prata, ouro e utensílios.",
   "traducao_literal": "E levou as coisas santas de seu pai e suas coisas santas à casa do SENHOR: prata, e ouro, e utensílios.",
   "termos_originais": [
     {
@@ -78,7 +78,15 @@
       "impacto_na_traducao": "A BV atribui o segundo conjunto de consagrações a Asa; o qere conserva uma construção alternativa ligada à casa do SENHOR."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "as coisas que seu pai havia consagrado e as coisas que ele próprio havia consagrado → as coisas que seu pai e ele próprio haviam consagrado",
+      "justificativa": "RED-1: redundância interna — a BV expandiu o substantivo repetido do original (qodshé aviv / qodashav) em duas orações relativas com o verbo haver repetido; a condensação em uma única oração com sujeito composto preserva a dupla menção das coisas consagradas e elimina a repetição verbal que não espelha o hebraico (ER-0019/§1.4). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "Ele",
     "próprio"
@@ -93,10 +101,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
