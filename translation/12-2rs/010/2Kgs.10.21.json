@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "2Kgs.10.1-36"
   },
-  "texto_bv": "Jeú enviou mensageiros por todo o Israel, e todos os adoradores de Baal vieram. Não restou ninguém que não viesse. Entraram no templo de Baal, e o templo de Baal ficou cheio de uma extremidade à outra.",
+  "texto_bv": "Jeú enviou mensageiros por todo o Israel, e todos os adoradores de Baal vieram. Não restou ninguém que não viesse. Entraram no templo de Baal, e o templo ficou cheio de uma extremidade à outra.",
   "traducao_literal": "E Jeú enviou por todo Israel, e vieram todos os adoradores de Baal, e não restou homem que não veio; e entraram no templo de Baal, e encheu-se o templo de Baal de boca a boca.",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e o templo de Baal ficou cheio → e o templo ficou cheio",
+      "justificativa": "Redução de redundância (EDITORIAL §4/RED-1): segunda menção de 'de Baal' é desnecessária pois antecedente já identifica o templo; mantém clareza com menos repetição — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "mensageiros",
     "ninguém",
@@ -136,10 +144,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
