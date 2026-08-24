@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "2Kgs.7.1-20"
   },
-  "texto_bv": "Eles seguiram os arameus até o Jordão, e eis que todo o caminho estava cheio de roupas e utensílios que Aram havia lançado fora em sua pressa. Os mensageiros voltaram e contaram ao rei.",
+  "texto_bv": "Eles seguiram os arameus até o Jordão, e todo o caminho estava cheio de roupas e utensílios que Aram havia lançado fora em sua pressa. Os mensageiros voltaram e contaram ao rei.",
   "traducao_literal": "E foram atrás deles até o Jordão; e eis que todo o caminho estava cheio de roupas e utensílios que Aram lançou em sua pressa; e voltaram os mensageiros, e contaram ao rei.",
   "termos_originais": [
     {
@@ -118,7 +118,15 @@
       "impacto_na_traducao": "A tradução segue o qere: ‘em sua pressa’."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e eis que todo o caminho estava cheio → e todo o caminho estava cheio",
+      "justificativa": "Normalização de calque paratático 'eis que' (ER-0013/§6.2): hinnê narrativo em contexto onde a descoberta já é veiculada pela sequência narrativa; dêitico sem força retórica suficiente para manter o arcaísmo 'eis que' em pt-BR contemporâneo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "arameus",
     "havia",
@@ -132,10 +140,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
