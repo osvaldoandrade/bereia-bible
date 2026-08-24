@@ -7,7 +7,7 @@
     "versiculo": 37,
     "pericope": "2Sam.3.1-39"
   },
-  "texto_bv": "Naquele dia, todo o povo e todo o Israel souberam que a morte de Abner, filho de Ner, não partira do rei.",
+  "texto_bv": "Naquele dia, todo o povo e todo o Israel souberam que a morte de Abner, filho de Ner, não partiu do rei.",
   "traducao_literal": "E souberam todo o povo e todo Israel no dia aquele que não fora da parte do rei fazer morrer Abner, filho de Ner.",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
           "motivo": "Inverte a conclusão."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "não partira do rei → não partiu do rei",
+      "justificativa": "Arcaísmo funcionalmente morto (EDITORIAL §1.2): mais-que-perfeito sintético “partira” substituído por pretérito perfeito “partiu”; a anterioridade já está codificada pela subordinação (“souberam que…”). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -117,10 +124,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
