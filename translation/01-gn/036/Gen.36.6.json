@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Gen.36.1-43"
   },
-  "texto_bv": "E Esaú tomou as suas mulheres, e os seus filhos, e as suas filhas, e todas as almas da sua casa, e o seu gado, e todos os seus animais, e todos os bens que adquirira na terra de Canaã; e foi-se para outra terra, apartando-se de Jacó, seu irmão.",
+  "texto_bv": "E Esaú tomou as suas mulheres, e os seus filhos, e as suas filhas, e todas as almas da sua casa, e o seu gado, e todos os seus animais, e todos os bens que adquirira na terra de Canaã. E foi-se para outra terra, apartando-se de Jacó, seu irmão.",
   "traducao_literal": "E tomou Esaú as suas mulheres, e os seus filhos, e as suas filhas, e todas as almas da sua casa, e o seu gado, e todo o seu animal, e toda a sua aquisição que adquiriu na terra de Canaã; e foi a uma terra de diante de Jacó, seu irmão.",
   "termos_originais": [
     {
@@ -162,7 +162,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "na terra de Canaã; e foi-se para outra terra, → na terra de Canaã. E foi-se para outra terra,",
+      "justificativa": "Divisão de sentença de 52 palavras em duas frases para atender §1.3 (limite de 40 palavras) e reduzir a densidade pronominal (PRO-1). A fórmula enumerativa paratática do original (repetição de “e”) permanece intacta na primeira frase; a segunda frase contém apenas a ação de partida, sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A separação pacífica (como Abraão/Ló, 13) — a terra não suporta ambos.",
@@ -172,10 +180,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max"
   }
 }
