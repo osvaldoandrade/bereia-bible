@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "2Chr.1.1-18"
   },
-  "texto_bv": "Salomão ajuntou carros de guerra e cavaleiros. Tinha mil e quatrocentos carros e doze mil cavaleiros, e os colocou nas cidades dos carros de guerra e junto ao rei, em Jerusalém.",
+  "texto_bv": "Salomão ajuntou carros de guerra e cavaleiros. Tinha mil e quatrocentos carros e doze mil cavaleiros, e os colocou nas cidades dos carros e junto ao rei, em Jerusalém.",
   "traducao_literal": "E ajuntou Salomão carros e cavaleiros; e houve para ele mil e quatrocentos carros e doze mil cavaleiros; e os fez repousar nas cidades dos carros e com o rei, em Jerusalém.",
   "termos_originais": [
     {
@@ -127,6 +127,13 @@
           "motivo": "Retiraria Salomão como agente causativo."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "cidades dos carros de guerra → cidades dos carros",
+      "justificativa": "RED-1: repetição de 'de guerra' eliminada na segunda ocorrência; o hebraico não repete o qualificador (עָרֵי הָרֶכֶב); contexto já estabelece o referente (ER-0019, EDITORIAL §1.4) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -140,10 +147,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "841da0dbc7c010b52998ce483ebc4b9ad0db87e6fa1e54fccda5148b023bcfca",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
