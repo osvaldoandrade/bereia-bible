@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Josh.8.1-35"
   },
-  "texto_bv": "O SENHOR disse a Josué: “Não tenha medo nem fique desanimado. Leve com você todo o povo de guerra, levante-se e suba contra Ai. Veja: entreguei em sua mão o rei de Ai, seu povo, sua cidade e sua terra.",
+  "texto_bv": "O SENHOR disse a Josué: “Não tenha medo nem fique desanimado. Leve com você todo o povo de guerra, levante-se e suba contra Ai. Veja: entreguei em sua mão o rei de Ai, o povo dele, a cidade dele e a terra dele.",
   "traducao_literal": "E disse SENHOR a Josué: “Não temas e não te assustes; toma contigo todo o povo da guerra, e levanta-te, sobe a Ai; vê, dei em tua mão o rei de Ai, e o povo dele, e a cidade dele, e a terra dele.",
   "termos_originais": [
     {
@@ -187,6 +187,13 @@
           "motivo": "Antecipa e identifica indevidamente o coletivo com o destacamento do verso 3."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "seu povo, sua cidade e sua terra → o povo dele, a cidade dele e a terra dele",
+      "justificativa": "Referência pronominal inequívoca (item 5/PRO-1): ‘seu/sua’ ambíguo no paradigma você (pode referir-se a Josué ou ao rei de Ai); ‘dele’ explicita posse do rei, conforme a traducao_literal (‘o povo dele, e a cidade dele, e a terra dele’). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -198,10 +205,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
