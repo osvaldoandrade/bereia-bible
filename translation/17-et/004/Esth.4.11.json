@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Esth.4.1-17"
   },
-  "texto_bv": "“Todos os servos do rei e o povo das províncias do rei sabem que há uma só lei para qualquer homem ou mulher que entrar na presença do rei, no pátio interior, sem ter sido chamado: a morte — salvo aquele a quem o rei estender o cetro de ouro, para que viva. E eu não fui chamada para entrar na presença do rei há trinta dias.”",
+  "texto_bv": "“Todos os servos do rei e o povo das províncias do rei sabem que há uma só lei para qualquer homem ou mulher que entrar na presença do rei, no pátio interior, sem ter sido chamado: a morte. Salvo aquele a quem o rei estender o cetro de ouro, para que viva. E eu não fui chamada para entrar na presença do rei há trinta dias.”",
   "traducao_literal": "Todos os servos do rei e o povo das províncias do rei sabem que todo homem ou mulher que entrar ao rei, ao pátio interior, que não for chamado, uma é a sua lei: a morte; exceto aquele a quem o rei estender o cetro de ouro, e viverá; e eu não fui chamada para entrar ao rei estes trinta dias.",
   "termos_originais": [
     {
@@ -244,6 +244,13 @@
           "motivo": "agramatical em português."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a morte — salvo aquele → a morte. Salvo aquele",
+      "justificativa": "Divisão de sentença de 52 palavras (LEN-1): travessão substituído por ponto final, criando oração independente com “Salvo” em função adversativa; primeira sentença cai para 37 palavras. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -257,10 +264,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }

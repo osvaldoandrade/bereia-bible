@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Esth.4.1-17"
   },
-  "texto_bv": "Deu a ele também a cópia do texto do decreto que havia sido emitido em Susã para exterminá-los, para que a mostrasse a Ester, contasse a ela tudo e a instruísse a ir ao rei suplicar-lhe e, na presença dele, interceder por seu povo.",
+  "texto_bv": "Deu-lhe também a cópia do texto do decreto emitido em Susã para exterminá-los, para que a mostrasse a Ester, contasse tudo e a instruísse a ir ao rei suplicar-lhe e, na presença dele, interceder por seu povo.",
   "traducao_literal": "E a cópia do texto do decreto que fora dado em Susã para os destruir, deu a ele, para mostrar a Ester, e para contar a ela, e para ordenar sobre ela ir ao rei, para suplicar a ele, e para pedir de diante dele por seu povo.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
       "escolha": "\"cópia do texto do decreto\".",
       "justificativa": "פתשגן é termo técnico administrativo persa para cópia oficial de documento, já glosado assim em Est 3:14/8:13.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Deu a ele → Deu-lhe | que havia sido emitido → emitido | contasse a ela tudo → contasse tudo",
+      "justificativa": "Concisão: pronome oblíquo dativo em vez de preposicionado, referente inequívoco (Hataque, v.6). | Concisão: oração relativa passiva reduzida a particípio, mesmo valor semântico. | Concisão: objeto indireto elidido por retoma contextual imediata (Ester, nomeada na oração anterior); reduz sentença para ≤40 palavras (LEN-1). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -159,10 +166,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
