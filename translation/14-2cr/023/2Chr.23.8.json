@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "2Chr.23.1-21"
   },
-  "texto_bv": "Os levitas e todo Judá fizeram tudo o que Joiada, o sacerdote, havia ordenado. Cada um reuniu seus homens, tanto os que entravam no turno do sábado como os que saíam, pois Joiada, o sacerdote, não havia dispensado as divisões.",
+  "texto_bv": "Os levitas e todo Judá fizeram tudo o que Joiada, o sacerdote, havia ordenado. Cada um reuniu seus homens, tanto os que entravam no turno do sábado como os que saíam, pois o sacerdote não havia dispensado as divisões.",
   "traducao_literal": "E fizeram os levitas e todo Judá conforme tudo o que ordenou Joiada, o sacerdote; e tomaram, cada homem, seus homens, os que entravam no sábado com os que saíam do sábado, porque não dispensou Joiada, o sacerdote, as divisões.",
   "termos_originais": [
     {
@@ -137,7 +137,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois Joiada, o sacerdote, não havia dispensado as divisões. → pois o sacerdote não havia dispensado as divisões.",
+      "justificativa": "RED-1: remoção da repetição redundante de “Joiada, o sacerdote” em proximidade imediata; o referente é inequívoco pelo contexto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Preserva levitas e Judá como agentes, a inclusão simultânea dos turnos que entravam e saíam e Joiada como responsável por manter as divisões.",
@@ -147,10 +155,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
+    "modelo": "qwen3.7-max",
     "texto_fonte": "oshb@3d15126f"
   }
 }
