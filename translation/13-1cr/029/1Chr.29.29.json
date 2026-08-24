@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "1Chr.29.1-30"
   },
-  "texto_bv": "Os atos do rei Davi, desde os primeiros até os últimos, eis que estão escritos nos registros de Samuel, o vidente, nos registros de Natã, o profeta, e nos registros de Gade, o visionário, ",
+  "texto_bv": "Os atos do rei Davi, desde os primeiros até os últimos, estão escritos nos registros de Samuel, o vidente, nos registros de Natã, o profeta, e nos registros de Gade, o visionário, ",
   "traducao_literal": "E os atos de Davi, o rei, os primeiros e os últimos, eis que estão escritos sobre os atos de Samuel, o vidente, e sobre os atos de Natã, o profeta, e sobre os atos de Gade, o visionário, ",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "escolha": "Manter vidente, profeta e visionário como três títulos diferentes.",
       "justificativa": "A fonte emprega três substantivos distintos e não autoriza uniformizá-los.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "últimos, eis que estão escritos → últimos, estão escritos",
+      "justificativa": "normalização de calque paratático (§6.2/ER-0013/CAL-2); hinneh (הִנֵּה) com força dêitica preservada na traducao_literal — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -139,10 +146,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
