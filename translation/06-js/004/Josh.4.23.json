@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Josh.4.1-24"
   },
-  "texto_bv": "Pois o SENHOR, o Deus de vocês, secou diante de vocês as águas do Jordão até que o atravessassem, assim como o SENHOR, o Deus de vocês, fez com o mar de Juncos: ele o secou diante de nós até que o atravessássemos.",
+  "texto_bv": "Pois o SENHOR, o Deus de vocês, secou diante de vocês as águas do Jordão até que o atravessassem. Assim como o SENHOR, o Deus de vocês, fez com o mar de Juncos: ele o secou diante de nós até que o atravessássemos.",
   "traducao_literal": "Porque fez secar YHWH, Deus de vocês, as águas do Jordão de diante de vocês até atravessarem vocês, assim como fez YHWH, Deus de vocês, ao mar de Juncos, que fez secar de diante de nós até atravessarmos nós.",
   "termos_originais": [
     {
@@ -162,6 +162,13 @@
           "motivo": "Contradiz “até”."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "atravessassem, assim como → atravessassem. Assim como",
+      "justificativa": "Sentença com 43 palavras (> 40, §1.3); divisão na conjunção comparativa reduz para 19 + 24 palavras sem perda sintática. Repetições de “SENHOR, o Deus de vocês” e “secou diante” mantidas: paralelismo intencional do original hebraico (RED-1 é fidelidade, não defeito). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -181,10 +188,10 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.2",
     "regras_versao": "1.1.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max"
   }
 }
