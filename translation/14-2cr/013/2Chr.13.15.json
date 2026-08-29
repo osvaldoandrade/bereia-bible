@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "2Chr.13.1-23"
   },
-  "texto_bv": "Os homens de Judá deram o grito de guerra. Quando os homens de Judá deram o grito, Deus golpeou Jeroboão e todo o Israel diante de Abias e Judá.",
+  "texto_bv": "Os homens de Judá deram o grito de guerra. Ao gritarem, Deus golpeou Jeroboão e todo o Israel diante de Abias e Judá.",
   "traducao_literal": "E fizeram soar os homens de Judá; e aconteceu, ao fazerem soar os homens de Judá, que Deus golpeou Jeroboão e todo Israel diante de Abias e Judá.",
   "termos_originais": [
     {
@@ -114,6 +114,13 @@
           "motivo": "Substitui o agente divino explícito."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Quando os homens de Judá deram o grito → Ao gritarem",
+      "justificativa": "RED-1 — a repetição integral do sujeito (“os homens de Judá”) e do verbo (“deram o grito”) na oração temporal é calque narrativo do hebraico (wayyiqtol + infinitivo construto com sujeito repetido), não recurso retórico intencional. ARA condensa para “bradando eles”; NVIPT para “Ao som do grito de guerra”. A BV publicada normaliza com infinitivo flexionado, eliminando a redundância sem perda de sentido (§6.2/ER-0013). — revisão de forma sem alteração de sentido (ER-0019). RED-1 confirmado como redundância não-intencional — a repetição do sujeito completo na oração temporal é convenção narrativa hebraica, não paralelismo ou refrão. ARA e NVIPT condensam a segunda ocorrência. A normalização preserva o agente (homens de Judá, recuperado por “gritarem”) e a sequência temporal.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -129,10 +136,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "59834506b517a69ff9d8a33aad3652a3a94c1322a20cb9e2d2d65d72b860fe4a",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
