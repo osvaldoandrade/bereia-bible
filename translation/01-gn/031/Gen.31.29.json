@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Gen.31.1-54"
   },
-  "texto_bv": "Poder havia em minha mão para fazer mal a vocês; mas o Deus do pai de vocês me falou ontem à noite, dizendo: ‘Guarda-te, não fales a Jacó nem bem nem mal.’",
+  "texto_bv": "Poder havia em minha mão para fazer mal a vocês; mas o Deus do pai de vocês me falou ontem à noite, dizendo: ‘Tome cuidado, não fale a Jacó nem bem nem mal.’",
   "traducao_literal": "Há para o poder da minha mão fazer convosco mal; e o Deus de vosso pai ontem à noite disse a mim, dizendo: ‘Guarda-te de falar com Jacó de bem até mal.’",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "justificativa": "§3/D-0003: pronome oblíquo vós→vocês em discurso humano↔humano (Labão→Jacó e família) | §3/D-0003: possessivo vosso→de vocês com contração (de+o=do) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Guarda-te, não fales a Jacó nem bem nem mal. → Tome cuidado, não fale a Jacó nem bem nem mal.",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): citação de Deus→Labão = Deus→humano = você. “Guarda-te, não fales” → “Tome cuidado, não fale”. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -131,9 +138,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
