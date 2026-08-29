@@ -12,23 +12,17 @@
     {
       "osis": "1Chr.29.2",
       "texto_bv_revisto": "Com todas as minhas forças, preparei para o templo de meu Deus o ouro para os objetos de ouro, a prata para os de prata, o bronze para os de bronze, o ferro para os de ferro e a madeira para os de madeira. Também preparei pedras de ônix, pedras para engaste, pedras de antimônio, pedras multicoloridas, toda espécie de pedra preciosa e grande quantidade de pedras de alabastro.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Com todas as minhas forças, preparei para o templo de meu Deus o ouro para os objetos de ouro, a prata para os de prata, o bronze para os de bronze, o ferro para os de ferro e a madeira para os de madeira. Também preparei pedras de ônix e pedras para engaste, pedras de antimônio e pedras multicoloridas, toda espécie de pedra preciosa e grande quantidade de pedras de alabastro.",
-          "depois": "Com todas as minhas forças, preparei para o templo de meu Deus o ouro para os objetos de ouro, a prata para os de prata, o bronze para os de bronze, o ferro para os de ferro e a madeira para os de madeira. Também preparei pedras de ônix, pedras para engaste, pedras de antimônio, pedras multicoloridas, toda espécie de pedra preciosa e grande quantidade de pedras de alabastro.",
-          "motivo": "LEN-1 (44 palavras): primeira frase já longa com 30 palavras; segunda frase reorganizada como enumeração simples (vírgulas em vez de “e” repetido), reduzindo de 14 para 13 palavras e melhorando fluência de leitura. §1.3"
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "1Chr.29.3",
       "texto_bv_revisto": "Além disso, por meu prazer no templo de meu Deus, tenho um tesouro particular de ouro e prata, que dei ao templo de meu Deus, além de tudo o que preparei para o templo santo: ",
       "mudancas": [],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "SEM_ALTERACAO",
+      "justificativa": "A repetição de 'templo de meu Deus' (2x) + 'templo santo' reflete o original hebraico (בַּיִת × 3); NVIPT também emprega 'templo' três vezes no mesmo verso. RED-1 é falso positivo: a repetição é formular, não defeito."
     },
     {
       "osis": "1Chr.29.4",
@@ -42,7 +36,8 @@
       "texto_bv_revisto": "ouro para os objetos de ouro, prata para os de prata e material para toda obra feita pelas mãos dos artesãos. Quem, pois, se oferece voluntariamente para encher hoje a mão para o SENHOR?” ",
       "mudancas": [],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "SEM_ALTERACAO",
+      "justificativa": "BV preserva o idioma hebraico 'encher a mão' (מִלֵּא יָדוֹ, consagrar-se em oferta); NTLH/ARA/NVIPT normalizam para 'fazer oferta voluntária'/'ofertar dádivas'. A manutenção é escolha tradutória deliberada (preservação do idioma no DRAFT), não defeito de forma; normalização exigiria decisão semântica sobre o alcance do idioma."
     },
     {
       "osis": "1Chr.29.6",
@@ -105,7 +100,8 @@
       "texto_bv_revisto": "Mas quem sou eu, e quem é meu povo, para que pudéssemos reter força e oferecer voluntariamente dessa maneira? Pois tudo vem de ti, e da tua mão te damos.",
       "mudancas": [],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "SEM_ALTERACAO",
+      "justificativa": "BV preserva o idioma 'reter força' (לַעְצֹר כֹּחַ, literal: reter/reunir capacidade); NTLH/ARA/NVIPT verte a ideia por 'fazer ofertas voluntariamente'/'contribuir generosamente'. A manutenção é escolha tradutória (preservação idiomática), não defeito de forma; explicitar o sentido exigiria decisão semântica."
     },
     {
       "osis": "1Chr.29.15",
@@ -116,10 +112,17 @@
     },
     {
       "osis": "1Chr.29.16",
-      "texto_bv_revisto": "SENHOR, nosso Deus, toda esta abundância que preparamos para construir para ti uma casa para teu santo nome vem da tua mão, e tudo é teu.",
-      "mudancas": [],
+      "texto_bv_revisto": "SENHOR, nosso Deus, toda esta abundância que preparamos para construir para ti um templo para teu santo nome vem da tua mão, e tudo é teu.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "uma casa para teu santo nome",
+          "depois": "um templo para teu santo nome",
+          "motivo": "Consistência lexical (§1.4/ER-0019): mesmo heb. בַּיִת traduzido como 'templo' em vv.2,3,7 mas 'casa' em v.16; NTLH e NVIPT usam 'templo' consistentemente neste capítulo. Normalização para o lexema majoritário."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "1Chr.29.17",
@@ -147,8 +150,8 @@
       "texto_bv_revisto": "Davi disse a toda a assembleia: “Bendigam, por favor, o SENHOR, seu Deus.” Toda a assembleia bendisse o SENHOR, Deus de seus pais; inclinaram-se e prostraram-se diante do SENHOR e do rei.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "RED-1 (senhor deus) é falso-positivo: a coocorrência de SENHOR e Deus neste verso é requerida pelo original (“SENHOR vosso Deus” / “Deus de seus pais”) e não constitui redundância eliminável.",
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "SEM_ALTERACAO",
+      "justificativa": "RED-1 flag 'senhor deus': as três ocorrências de SENHOR refletem a estrutura narrativa original (ordem de Davi + ação da assembleia + prostração). A repetição é natural no contexto litúrgico-narrativo e corresponde ao hebraico."
     },
     {
       "osis": "1Chr.29.21",
@@ -176,7 +179,8 @@
       "texto_bv_revisto": "Todos os líderes, os guerreiros e também todos os filhos do rei Davi deram a mão sob o rei Salomão.",
       "mudancas": [],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "SEM_ALTERACAO",
+      "justificativa": "BV preserva o idioma hebraico 'dar a mão sob' (נָתְנוּ יָד תַּחַת, submeter-se); NTLH/ARA/NVIPT explicitam ('prometeram ser fiéis'/'se submeteram'/'prometeram submissão'). A manutenção é escolha tradutória (preservação idiomática), não defeito de forma."
     },
     {
       "osis": "1Chr.29.25",
