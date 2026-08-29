@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Exod.17.1-16"
   },
-  "texto_bv": "Tendo, pois, ali o povo sede de água, o povo murmurou contra Moisés, e disse: Por que nos fez subir do Egito, para nos matar de sede, a nós e aos nossos filhos e ao nosso gado?",
+  "texto_bv": "Tendo, pois, ali o povo sede de água, o povo murmurou contra Moisés, e disse: Por que nos fez subir do Egito, para nos matar de sede, a nós e aos nossos filhos e ao nosso rebanho?",
   "traducao_literal": "E teve sede ali o povo por água, e murmurou o povo contra Moisés, e disse: Por que isto nos fizeste subir do Egito, para matar a mim e aos meus filhos e ao meu gado com a sede?",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "justificativa": "pretérito tu→você, humano→humano (§3/D-0003) | infinitivo pessoal tu→impessoal com sujeito você (§3/D-0003) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ao nosso gado → ao nosso rebanho",
+      "justificativa": "Consistência lexical (§1.4): o heb. miqneh é genérico (gado/rebanho); a BV usa 'filhos' para humanos e 'gado' para animais no mesmo sintagma, mas 'filhos e gado' soa ambíguo em pt-BR contemporâneo ('filhos' não se aplica naturalmente a animais). NTLH usa 'ovelhas e cabras', NVIPT usa 'rebanhos'; 'rebanho' é o termo coletivo padrão que cobre ovelhas, cabras e bois, mantendo paralelismo com 'nossos filhos'. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -131,9 +138,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

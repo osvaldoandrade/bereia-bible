@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Exod.17.1-16"
   },
-  "texto_bv": "E assim Josué desfez a Amaleque e ao seu povo, ao fio da espada.",
+  "texto_bv": "E assim Josué derrotou a Amaleque e ao seu povo, ao fio da espada.",
   "traducao_literal": "E enfraqueceu Josué a Amaleque e ao seu povo ao fio da espada.",
   "termos_originais": [
     {
@@ -52,7 +52,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "desfez a Amaleque → derrotou a Amaleque",
+      "justificativa": "Arcaísmo lexical (§1.2): 'desfazer' no sentido militar de 'derrotar/destruir' é uso arcaico em pt-BR contemporâneo; leitor moderno entende 'desfazer' primariamente como 'desmanchar/desintegrar'. NTLH usa 'derrotou completamente', NVIPT usa 'derrotou', ARA usa 'prostrou' (também formal). 'Derrotou' é o verbo padrão contemporâneo para vitória militar, sem mudança de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Água da rocha e a guerra contra Amaleque (DRAFT, ADR-0002).",
@@ -62,10 +70,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
