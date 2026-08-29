@@ -7,7 +7,7 @@
     "versiculo": 33,
     "pericope": "2Chr.6.1-42"
   },
-  "texto_bv": "“ouve dos céus, do lugar de tua habitação, e faze conforme tudo o que o estrangeiro clamar a ti, para que todos os povos da terra conheçam teu nome e te temam, como teu povo Israel, e para que saibam que teu nome é invocado sobre esta casa que construí.”",
+  "texto_bv": "“ouve dos céus, do lugar de tua habitação, e faze conforme tudo o que o estrangeiro clamar a ti, para que todos os povos da terra conheçam teu nome e te temam, como teu povo Israel, e para que saibam que teu nome é chamado sobre esta casa que construí.”",
   "traducao_literal": "“E tu ouvirás dos céus, do lugar de tua habitação, e farás conforme tudo o que chamar a ti o estrangeiro, para que conheçam todos os povos da terra teu nome, e para temer-te como teu povo Israel, e para saber que teu nome é chamado sobre esta casa que construí.”",
   "termos_originais": [
     {
@@ -194,6 +194,13 @@
           "motivo": "Naturalizaria a expressão, mas apagaria a voz passiva e a preposição sobre."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "teu nome é invocado sobre esta casa → teu nome é chamado sobre esta casa",
+      "justificativa": "Consistência lexical (§1.4) e naturalidade: ARA usa “pelo teu nome é chamada esta casa”; NVIPT simplifica para “traz o teu nome”. “Invocado sobre” soa técnico-teológico em pt-BR contemporâneo; “chamado sobre” (ARA) é mais natural e reflete melhor o hebraico קָרָא שִׁמְךָ (qara’ shimkha, “teu nome é chamado [sobre]”). — revisão de forma sem alteração de sentido (ER-0019). LEN-1 (50 palavras). A sentença é apódose da condição do v. 32 e flui naturalmente como conclusão. Divisão quebraria o nexo lógico com a prótase precedente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -207,10 +214,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "61882d63ac01ff67c4a8b3cee8cc5eb85cec2c11457f1b6fb41a3b0169e7e189",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
