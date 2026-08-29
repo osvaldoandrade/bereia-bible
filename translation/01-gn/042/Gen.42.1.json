@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Gen.42.1-38"
   },
-  "texto_bv": "E viu Jacó que havia trigo no Egito, e disse Jacó a seus filhos: Por que estão olhando uns para os outros?",
+  "texto_bv": "E Jacó soube que havia trigo no Egito, e disse a seus filhos: Por que estão olhando uns para os outros?",
   "traducao_literal": "E viu Jacó que havia cereal no Egito, e disse Jacó aos seus filhos: Por que vos olhais uns aos outros?",
   "termos_originais": [
     {
@@ -74,6 +74,13 @@
       "justificativa": "Normalização do paradigma vós→vocês (§3/D-0003): discurso humano→humano exige você/vocês — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E viu Jacó → E Jacó soube | e disse Jacó a seus filhos → e disse a seus filhos",
+      "justificativa": "ER-0011 ordem S-V em wayyiqtol + normalização de calque idiomático: רָאָה neste contexto = perceber/tomar conhecimento, não ver literal; NTLH/ARA/NVIPT convergem em \"soube\" | ER-0013 eliminação de repetição formular de sujeito (Jacó) já mencionado na oração principal; NTLH/ARA/NVIPT omitem o segundo \"Jacó\" — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -86,9 +93,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
