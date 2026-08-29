@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Então direis: Este é o sacrifício da páscoa ao SENHOR, que passou as casas dos filhos de Israel no Egito, quando feriu os egípcios, e livrou as nossas casas. Então o povo inclinou-se, e adorou.",
+  "texto_bv": "Então dirão: Este é o sacrifício da páscoa ao SENHOR, que passou as casas dos filhos de Israel no Egito, quando feriu os egípcios, e livrou as nossas casas. Então o povo inclinou-se, e adorou.",
   "traducao_literal": "E direis: Sacrifício de páscoa ele para YHWH, que passou por cima das casas dos filhos de Israel no Egito, no seu ferir o Egito, e as nossas casas livrou. E inclinou-se o povo e prostrou-se.",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então direis → Então dirão",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): ‘direis’ (vós) → ‘dirão’ (vocês), coerente com o restante do capítulo que emprega o paradigma você/vocês em discurso Deus→humanos. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "זֶבַח־פֶּסַח 'sacrifício da páscoa' — a resposta ao filho narra o poupar (פָסַח) e o livrar. O povo adora antes mesmo da libertação — fé na palavra. YHWH→SENHOR.",
@@ -127,10 +135,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
