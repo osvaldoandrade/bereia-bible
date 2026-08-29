@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "2Chr.10.1-19"
   },
-  "texto_bv": "O rei Roboão enviou Hadorão, que estava encarregado do trabalho forçado. Os filhos de Israel o apedrejaram com uma pedra, e ele morreu. E o rei Roboão esforçou-se para subir ao carro e fugir para Jerusalém.",
+  "texto_bv": "O rei Roboão enviou Hadorão, que estava encarregado do trabalho forçado. Os filhos de Israel o apedrejaram, e ele morreu. E o rei Roboão esforçou-se para subir ao carro e fugir para Jerusalém.",
   "traducao_literal": "E enviou o rei Roboão Hadorão, que estava sobre o tributo; e apedrejaram nele os filhos de Israel uma pedra, e ele morreu. E o rei Roboão fortaleceu-se para subir no carro, para fugir a Jerusalém.",
   "termos_originais": [
     {
@@ -150,6 +150,13 @@
           "motivo": "Torna explícito um plural que a forma nominal não apresenta."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "apedrejaram com uma pedra, e ele morreu → apedrejaram, e ele morreu",
+      "justificativa": "Calque do heb. וַיִּרְגְּמוּ בוֹ אֶבֶן (apedrejar + instrumento). Em pt-BR, “apedrejar” já codifica o uso de pedras; “com uma pedra” é redundância calqueada. NTLH, ARA e NVIPT omitem o instrumento. Remoção de calque desnecessário (ER-0013/§6.2) sem perda de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -163,10 +170,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2684b500479b9a7c731402edec8866cd33e1d25de2b90e4730b2c6f1e97df12b",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
