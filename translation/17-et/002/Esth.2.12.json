@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Esth.2.1-23"
   },
-  "texto_bv": "Quando chegava a vez de cada moça entrar à presença do rei Assuero, depois de passar doze meses conforme a lei das mulheres — pois assim se completavam os dias dos seus tratamentos de beleza: seis meses com óleo de mirra e seis meses com especiarias e outros cosméticos das mulheres —",
+  "texto_bv": "Quando chegava a vez de cada moça entrar à presença do rei Assuero, ela já tinha passado doze meses conforme a lei das mulheres. Pois assim se completavam os dias dos seus tratamentos de beleza: seis meses com óleo de mirra e seis meses com especiarias e outros cosméticos das mulheres.",
   "traducao_literal": "E ao chegar a vez de moça e moça, de vir ao rei Assuero, ao fim de haver para ela, conforme a lei das mulheres, doze meses — pois assim se cumpriam os dias dos seus tratamentos: seis meses com óleo de mirra e seis meses com especiarias e com os tratamentos de beleza das mulheres —",
   "termos_originais": [
     {
@@ -179,6 +179,13 @@
           "motivo": "suaviza o caráter de regulamento oficial imposto pela corte, presente no uso de דָּת no restante do livro"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Quando chegava a vez de cada moça entrar à presença do rei Assuero, depois de passar doze meses conforme a lei das mulheres — pois assim se completavam os dias dos seus tratamentos de beleza: seis meses com óleo de mirra e seis meses com especiarias e outros cosméticos das mulheres — → Quando chegava a vez de cada moça entrar à presença do rei Assuero, ela já tinha passado doze meses conforme a lei das mulheres. Pois assim se completavam os dias dos seus tratamentos de beleza: seis meses com óleo de mirra e seis meses com especiarias e outros cosméticos das mulheres.",
+      "justificativa": "LEN-1: sentença de 50 palavras dividida em duas (24 + 27), conforme §1.3. A oração reduzida \"depois de passar\" foi desenvolvida para \"ela já tinha passado\", e o inciso entre travessões virou sentença independente. RED-1 mantido: \"seis meses...seis meses\" é repetição intencional do original (paralelismo temporal). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -190,10 +197,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

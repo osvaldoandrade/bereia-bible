@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Esth.2.1-23"
   },
-  "texto_bv": "Quando a palavra do rei e o seu decreto se divulgaram, e muitas moças foram reunidas na cidadela de Susã, sob a responsabilidade de Hegai, Ester também foi levada à casa do rei, aos cuidados de Hegai, guardião das mulheres.",
+  "texto_bv": "Quando a ordem do rei e o seu decreto se divulgaram, e muitas moças foram reunidas na cidadela de Susã, sob a responsabilidade de Hegai, Ester também foi levada à casa do rei, aos cuidados de Hegai, guardião das mulheres.",
   "traducao_literal": "E aconteceu que, ao se ouvir a palavra do rei e o seu decreto, e ao se reunirem muitas moças à cidadela de Susã, à mão de Hegai, foi levada Ester à casa do rei, à mão de Hegai, guardião das mulheres.",
   "termos_originais": [
     {
@@ -150,6 +150,13 @@
       "justificativa": "RED-1: a expressão \"sob a responsabilidade de Hegai\" ocorre duas vezes no mesmo versículo, espelhando o hebraico \"à mão de Hegai\" (2×). A repetição é narrativa, não formulária (não é refrão nem paralelismo); em português a forma expandida torna-se conspicuamente redundante. Segunda ocorrência variada para \"aos cuidados de Hegai\", preservando ambas as menções do nome próprio conforme o original (ER-0019, EDITORIAL §1.4). — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a palavra do rei → a ordem do rei",
+      "justificativa": "\"Palavra\" é calque semântico do heb. דְּבַר (dvar) no sentido de \"ordem/mandado\". As três referências convergem: NTLH \"ordem\", ARA \"ordem\", NVIPT \"ordem\". \"Ordem do rei\" é mais natural em pt-BR contemporâneo. EDITORIAL §6.2/ER-0013 (calque normalizado no publicado) + §1.4. — revisão de forma sem alteração de sentido (ER-0019). VOS-1: falso positivo — \"Hegai\" é nome próprio. PAS-1: duas passivas mantidas (\"foram reunidas\", \"foi levada\"), coerentes com ARA e NVIPT que também usam passivas neste verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -161,10 +168,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
