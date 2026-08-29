@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Josh.13.1-33"
   },
-  "texto_bv": "O território destinado a eles tinha Maanaim como ponto de partida. Sua extensão cobria Basã integralmente, incluindo a totalidade do reino de Ogue, rei daquela região. Dentro de Basã ficava ainda o conjunto completo das Aldeias de Jair, que perfazia sessenta cidades.",
+  "texto_bv": "O território deles começava em Maanaim e abrangia toda a Basã, incluindo todo o reino de Ogue, rei daquela região. Em Basã ficavam ainda todas as aldeias de Jair, totalizando sessenta cidades.",
   "traducao_literal": "E foi a extensão deles a partir de Maanaim: Basã toda, o reino inteiro de Ogue, rei de Basã, e a totalidade das aldeias de Jair que há em Basã — sessenta cidades.",
   "termos_originais": [
     {
@@ -165,6 +165,13 @@
           "motivo": "A aposição numérica segue imediatamente as Aldeias de Jair e totaliza esse conjunto."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O território destinado a eles tinha Maanaim como ponto de partida. Sua extensão cobria Basã integralmente, incluindo a totalidade do reino de Ogue, rei daquela região. Dentro de Basã ficava ainda o conjunto completo das Aldeias de Jair, que perfazia sessenta cidades. → O território deles começava em Maanaim e abrangia toda a Basã, incluindo todo o reino de Ogue, rei daquela região. Em Basã ficavam ainda todas as aldeias de Jair, totalizando sessenta cidades.",
+      "justificativa": "Registro empolado (“integralmente”, “a totalidade do”, “conjunto completo das”, “perfazia”) destoa do piso de naturalidade (EDITORIAL §1.1/§1.4); NTLH/ARA/NVIPT convergem em linguagem direta. Simplificação de forma, mesmo sentido. “Aldeias” → “aldeias” (minúscula: não é nome próprio pleno, conforme ARA e ER-0012). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -190,10 +197,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
