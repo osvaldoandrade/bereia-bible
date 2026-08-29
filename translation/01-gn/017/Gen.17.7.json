@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Gen.17.1-27"
   },
-  "texto_bv": "E estabelecerei a minha aliança entre mim e você, e a sua descendência depois de você, nas suas gerações, por aliança perpétua, para lhe ser por Deus, a você e à sua descendência depois de você.",
+  "texto_bv": "E estabelecerei a minha aliança entre mim e você, e a sua descendência depois de você, nas suas gerações, por aliança perpétua, para ser o seu Deus, a você e à sua descendência depois de você.",
   "traducao_literal": "E estabelecerei a minha aliança entre mim e ti, e entre a tua semente depois de ti, para as suas gerações, por aliança de eternidade, para ser para ti por Deus, e para a tua semente depois de ti.",
   "termos_originais": [
     {
@@ -110,6 +110,13 @@
       "justificativa": "§3/D-0003: normalização paradigma tu→você; ti (3x)→você (3x); tua (2x)→sua (2x); te→lhe (clítico dativo) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para lhe ser por Deus → para ser o seu Deus",
+      "justificativa": "remoção de hebraísmo calque (“ser por Deus” → “ser o Deus de”); NVIPT usa “para ser o seu Deus”, mais natural em pt-BR; EDITORIAL §6.2/ER-0013 — revisão de forma sem alteração de sentido (ER-0019). RED-1: repetições (“depois de você” ×2, “sua descendência” ×2) vêm do original hebraico — fidelidade, não redundância (item 4 do prompt). PRO-1: pronomes necessários para o discurso; hebraísmo “ser por Deus” corrigido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,9 +129,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
