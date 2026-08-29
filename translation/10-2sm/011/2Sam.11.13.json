@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Sam.11.1-27"
   },
-  "texto_bv": "Davi convocou Urias, que comeu e bebeu em sua presença; Davi o deixou embriagado. Ao anoitecer, Urias foi repousar em seu leito junto aos servos de seu senhor, sem descer à própria casa.",
+  "texto_bv": "Davi convocou Urias, que comeu e bebeu em sua presença; Davi o embriagou. Ao anoitecer, Urias foi repousar em seu leito junto aos servos de seu senhor, sem descer à própria casa.",
   "traducao_literal": "E chamou-o Davi, e comeu diante dele, e bebeu, e o embriagou; e saiu à tarde para deitar em seu leito com os servos de seu senhor, e à sua casa não desceu.",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
           "motivo": "Inverte a causação."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Davi o deixou embriagado → Davi o embriagou",
+      "justificativa": "O original é causativo direto (wayyiqtol de שכר, hip'il). As três referências usam causativo direto: ARA “o embebedou”, NVIPT “o embriagou”, NTLH “fez com que ele ficasse bêbado”. “Deixou embriagado” é ambíguo em pt-BR (permissivo vs. causativo); “o embriagou” é mais claro e fiel ao original (§1 piso de naturalidade). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -124,10 +131,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
