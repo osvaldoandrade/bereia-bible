@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "1Sam.23.1-28"
   },
-  "texto_bv": "Eles se levantaram e foram a Zife antes de Saul. Davi e seus homens, porém, estavam no deserto de Maom, na Arabá, ao sul de Jesimom.",
+  "texto_bv": "Eles se levantaram e foram a Zife à frente de Saul. Davi e seus homens, porém, estavam no deserto de Maom, na Arabá, ao sul de Jesimom.",
   "traducao_literal": "E levantaram-se, e foram para Zife diante de Saul; e Davi e seus homens, no deserto de Maom, na Arabá, para a direita de Jesimom.",
   "termos_originais": [
     {
@@ -92,6 +92,13 @@
           "motivo": "Inverte a direção."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "foram a Zife antes de Saul → foram a Zife à frente de Saul",
+      "justificativa": "Ambiguidade de referência (§1.3/checklist item 5): “antes de Saul” em pt-BR contemporâneo tende a leitura temporal, mas o sentido é espacial (chegaram adiante dele). ARA usa “adiante de Saul” e NVIPT “à frente de Saul”; as três referências convergem em expressão espacial inequívoca. Normalizado para “à frente de”. — revisão de forma sem alteração de sentido (ER-0019). As três referências usam expressão espacial clara (ARA “adiante de”, NVIPT “à frente de”, NTLH “adiante de”); a BV usava “antes de” que é ambíguo em pt-BR (leitura temporal preferencial). Correção de forma para eliminar ambiguidade, sem alteração de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -107,10 +114,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
