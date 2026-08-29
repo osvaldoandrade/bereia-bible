@@ -166,13 +166,32 @@
   "confianca": 0.62,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): “ao sul” traduz o hebraico ימין (yamin, “à direita”), que em geografia bíblica (orientação leste) indica o lado sul-leste. ARA preserva o literal “à direita do Monte de Corrupção”; NTLH interpreta como “ao sul do monte das Oliveiras”. BV isolada ao traduzir yamin como “ao sul” quando a forma literal (“à direita”) é preferível. — evidência: ARA: “à direita do Monte de Corrupção” (literal); NTLH: “ao sul do monte das Oliveiras” (interpretativo). NVIPT: “no sul do monte da Destruição” (também interpretativo). O hebraico yamin = “direita”, não “sul”."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
