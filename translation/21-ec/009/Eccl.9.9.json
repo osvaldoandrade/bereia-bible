@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Eccl.9.1-18"
   },
-  "texto_bv": "Aproveite a vida ao lado da mulher que você ama, por todos os dias da sua vida passageira que ele lhe deu debaixo do sol — todos os seus dias fugazes. Pois essa é a sua parte na vida e no trabalho com que você se esforça debaixo do sol.",
+  "texto_bv": "Aproveite a vida ao lado da mulher que você ama, por todos os dias da sua vida passageira que Deus lhe deu debaixo do sol — todos os seus dias fugazes. Pois essa é a sua parte na vida e no trabalho com que você se esforça debaixo do sol.",
   "traducao_literal": "Vê vida com a mulher que amaste, todos os dias da vida do teu sopro/vaidade que ele te deu debaixo do sol, todos os dias do teu sopro/vaidade; porque essa [é] a tua porção na vida e no teu trabalho com que tu te afadigas debaixo do sol.",
   "termos_originais": [
     {
@@ -178,6 +178,13 @@
           "motivo": "leitura mais natural e teologicamente consistente com o capítulo, mas adiciona um substantivo ausente no original hebraico deste verso especificamente."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que ele lhe deu → que Deus lhe deu",
+      "justificativa": "Referência pronominal inequívoca (§1, item 5): 'ele' sem antecedente explícito no verso pode causar ambiguidade. NTLH, ARA e NVIPT usam 'Deus' explicitamente ('que Deus lhe deu' / 'que Deus te deu' / 'que Deus dá a você'). A explicitação do sujeito é forma, não sentido — o referente é o mesmo. — revisão de forma sem alteração de sentido (ER-0019). PRO-1 ('5 pronomes de 3ª pessoa'): o único pronome ambíguo era 'ele' sem antecedente claro no verso; os demais possessivos ('sua', 'seus') têm referente inequívoco (o leitor endereçado). A correção alinha a BV com as três referências e elimina a ambiguidade sem alterar o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -191,10 +198,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
