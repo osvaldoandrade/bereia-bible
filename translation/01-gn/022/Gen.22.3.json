@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Gen.22.1-24"
   },
-  "texto_bv": "E Abraão levantou-se de madrugada, e albardou o seu jumento, e tomou consigo dois dos seus moços e Isaque, seu filho; e rachou lenha para o holocausto, e levantou-se, e foi ao lugar que Deus lhe tinha dito.",
+  "texto_bv": "E Abraão levantou-se de madrugada, e albardou o seu jumento, e tomou consigo dois dos seus moços e Isaque, seu filho; e rachou lenha para o holocausto, e foi ao lugar que Deus lhe tinha dito.",
   "traducao_literal": "E madrugou Abraão pela manhã, e albardou o seu jumento, e tomou os seus dois moços com ele, e a Isaque, seu filho; e rachou lenhas de holocausto, e levantou-se e foi ao lugar que lhe disse o Deus.",
   "termos_originais": [
     {
@@ -144,6 +144,13 @@
       "justificativa": "ARC-1: arcaísmo funcionalmente morto — mais-que-perfeito sintético substituído por forma composta (EDITORIAL §1.2) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e levantou-se, e foi ao lugar → e foi ao lugar",
+      "justificativa": "Redundância (RED-1): “levantou-se” aparece duas vezes no mesmo verso. A primeira ocorrência (“levantou-se de madrugada”) é informativa (indica o momento da ação); a segunda é calque paratático do wayyiqtol hebraico que repete o verbo sem informação nova. ARA resolve com “partiu”; a normalização editorial elimina a repetição mantendo o sentido (§1.3/ER-0013). — revisão de forma sem alteração de sentido (ER-0019). PRO-1 (5 pronomes de 3ª pessoa): todos com antecedente claro (Abraão), sem ambiguidade referencial. A redundância de “levantou-se” foi corrigida; os pronomes possessivos são legítimos e necessários à narrativa.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -156,9 +163,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
