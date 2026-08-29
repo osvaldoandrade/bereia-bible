@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "2Kgs.10.1-36"
   },
-  "texto_bv": "O SENHOR disse a Jeú: “Visto que você agiu bem, fazendo o que é reto aos meus olhos, e fez à casa de Acabe tudo o que estava em meu coração. Por isso, seus filhos até a quarta geração se assentarão no trono de Israel.”",
+  "texto_bv": "O SENHOR disse a Jeú: “Visto que você agiu bem, fazendo o que é reto aos meus olhos, e fez à casa de Acabe tudo o que estava em meu coração, seus filhos até a quarta geração se assentarão no trono de Israel.”",
   "traducao_literal": "E o SENHOR disse a Jeú: “Visto que você fez bem ao fazer o reto aos meus olhos, conforme tudo o que estava em meu coração fez à casa de Acabe, filhos de quarta geração se assentarão para você sobre o trono de Israel.”",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
       "justificativa": "Divisão de sentença longa (EDITORIAL §1.3/LEN-1): período de 43 palavras dividido em dois (~25 + ~15); relação causal preservada com 'Por isso' sem perda sintática nem adição de sentido — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": ". Por isso, seus filhos → , seus filhos",
+      "justificativa": "Correção de sintaxe (§6.1): a conjunção subordinativa “Visto que” exigia oração principal na mesma sentença; o ponto final após “coração” deixava a subordinada suspensa. Substituído por vírgula para conectar à principal, eliminando também o conector “Por isso” redundante com “Visto que”. NTLH/ARA/NVIPT ligam causal e consequência numa só sentença. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -167,9 +174,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
