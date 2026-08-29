@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Esth.6.1-14"
   },
-  "texto_bv": "e que as vestes e o cavalo sejam entregues nas mãos de um dos mais nobres príncipes do rei; que vistam o homem a quem o rei deseja honrar, e o conduzam a cavalo pela praça da cidade, e proclamem diante dele: ‘Assim se faz ao homem a quem o rei deseja honrar!’",
+  "texto_bv": "e que as vestes e o cavalo sejam entregues nas mãos de um dos mais nobres príncipes do rei. Que vistam o homem a quem o rei deseja honrar, e o conduzam a cavalo pela praça da cidade, e proclamem diante dele: ‘Assim se faz ao homem a quem o rei deseja honrar!’",
   "traducao_literal": "E seja dada a veste e o cavalo por mão de um homem dos príncipes do rei, os nobres, e vistam o homem que o rei deseja em sua honra, e cavalguem-no sobre o cavalo na praça da cidade, e clamem diante dele: 'Assim se fará ao homem que o rei deseja em sua honra.'",
   "termos_originais": [
     {
@@ -184,6 +184,13 @@
           "motivo": "enfraquece o timbre de fórmula fixa e pública, típica de pregões"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "príncipes do rei; que vistam → príncipes do rei. Que vistam",
+      "justificativa": "Sentença de 53 palavras (LEN-1) dividida em duas frases no ponto-e-vírgula original, reduzindo para ~28 e ~25 palavras respectivamente, conforme EDITORIAL §1.3 (>40 palavras). A repetição do refrão “deseja honrar” (RED-1) é fórmula intencional do original e foi mantida. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -197,10 +204,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
