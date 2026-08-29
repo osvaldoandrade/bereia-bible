@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Gen.38.1-30"
   },
-  "texto_bv": "E ele disse: Que penhor lhe darei? E ela disse: O seu selo, e o seu cordão, e o seu cajado que tem na mão. E ele lhos deu, e a possuiu, e ela concebeu dele.",
+  "texto_bv": "E ele disse: “Que penhor lhe darei?” E ela disse: “O seu selo, e o seu cordão, e o seu cajado que tem na mão”. E ele lhos deu, e a possuiu, e ela concebeu dele.",
   "traducao_literal": "E disse: Que penhor darei a ti? E disse: O teu selo, e o teu cordão, e o teu cajado que está na tua mão. E deu a ela, e veio a ela, e concebeu dele.",
   "termos_originais": [
     {
@@ -120,6 +120,13 @@
       "justificativa": "Paradigma 2ª pessoa §3/D-0003: pronome oblíquo de 2ª pessoa (te) normalizado para 3ª (lhe) em discurso você | Paradigma 2ª pessoa §3/D-0003: possessivo tu→você (teu→seu) | Paradigma 2ª pessoa §3/D-0003: possessivo tu→você (teu→seu) | Paradigma 2ª pessoa §3/D-0003: possessivo tu→você (teu→seu) | Paradigma 2ª pessoa §3/D-0003: conjugação de 'ter' normalizada de tu (tens) para você (tem) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E ele disse: Que penhor lhe darei? E ela disse: O seu selo,  → E ele disse: “Que penhor lhe darei?” E ela disse: “O seu sel",
+      "justificativa": "Acrescentar aspas duplas em discurso direto (EDITORIAL §5) — revisão de forma sem alteração de sentido (ER-0019). PRO-1 flagged 9 pronomes de 3ª pessoa, mas o contexto dialogal torna as referências inequívocas: “lhe”/“seu” = você (Tamar), “ele” = Judá, “la” = Tamar. O uso de “lhos” (lhe+os) é formal mas não arcaico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -132,9 +139,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

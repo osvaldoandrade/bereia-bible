@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Gen.38.1-30"
   },
-  "texto_bv": "Então ela despiu de sobre si as vestes da sua viuvez, cobriu-se com um véu, envolveu-se e assentou-se à entrada de Enaim, a caminho de Timna; porque via que Selá já era crescido, e ela não lhe fora dada por mulher.",
+  "texto_bv": "Então ela despiu de sobre si as vestes da sua viuvez, cobriu-se com um véu, envolveu-se e assentou-se à entrada de Enaim, a caminho de Timna. Ela fez isso porque via que Selá já era crescido, e ela não lhe fora dada por mulher.",
   "traducao_literal": "E tirou as vestes da sua viuvez de sobre ela, e cobriu-se com o véu, e envolveu-se, e assentou-se à entrada de Enaim, que está sobre o caminho de Timna; porque viu que crescera Selá, e ela não fora dada a ele por mulher.",
   "termos_originais": [
     {
@@ -150,6 +150,13 @@
       "justificativa": "Sentença > 40 palavras (§1.3/LEN-1): remoção de 'e' polissindéticos e divisão com ponto-e-vírgula antes da oração causal, sem perda sintática nem mudança de sentido — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a caminho de Timna; porque via que Selá já era crescido, e ela não lhe fora dada por mulher. → a caminho de Timna. Ela fez isso porque via que Selá já era crescido, e ela não lhe fora dada por mulher.",
+      "justificativa": "Divisão de sentença com 44 palavras (§1.3/LEN-1): ponto-e-vírgula substituído por ponto final + retomada com “Ela fez isso porque”, conforme NTLH e NVIPT que dividem o período. Sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). PRO-1 flagged 4 pronomes, mas as referências são inequívocas: “ela” = Tamar, “lhe” = Selá. A divisão resolve também a extensão excessiva do período.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -164,9 +171,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
