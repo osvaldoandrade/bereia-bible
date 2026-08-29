@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Gen.20.1-18"
   },
-  "texto_bv": "E a Sara disse: “Eis que dei mil peças de prata a teu irmão; eis que ele te é por véu dos olhos para todos os que estão contigo; e assim foste justificada diante de todos.”",
+  "texto_bv": "E a Sara disse: “Dei mil peças de prata a seu irmão; ele lhe é por véu dos olhos para todos os que estão com você; e assim você foi justificada diante de todos.”",
   "traducao_literal": "E a Sara disse: “Eis que dei mil de prata a teu irmão; eis que ele para ti por cobertura de olhos para todos os que contigo; e com todos, e justificada.”",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que dei mil peças de prata a teu irmão → Dei mil peças de prata a seu irmão | eis que ele te é por véu dos olhos → ele lhe é por véu dos olhos | que estão contigo → que estão com você | foste justificada → você foi justificada",
+      "justificativa": "remoção de 'Eis que' (§6.2/ER-0013) + normalização possessivo 'teu'→'seu' (§3/D-0003, tu→você) | remoção de 'eis que' (§6.2/ER-0013) + normalização 'te'→'lhe' (§3/D-0003, tu→você) | normalização paradigma tu→você (§3/D-0003) | normalização paradigma tu→você (§3/D-0003) — revisão de forma sem alteração de sentido (ER-0019). CAL-2 adjudicado: duas ocorrências de 'eis que' removidas. Paradigma tu→você aplicado no discurso Abimeleque→Sara (§3/D-0003). A metáfora 'véu dos olhos' é mantida (fórmula intencional do original, preservada também pela ARA).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "כְּסוּת עֵינַיִם ('cobertura dos olhos') e וְנֹכָחַת ('e foste vindicada/repreendida') são filologicamente difíceis; a tradução é conjetural."
@@ -114,10 +122,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
