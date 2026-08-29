@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Jer.30.1-24"
   },
-  "texto_bv": "Porque eu estou com você — declaração do SENHOR — para salvá-lo. Farei um fim completo de todas as nações entre as quais eu o dispersei, mas de você não farei um fim completo; eu o disciplinarei na medida justa, mas de modo algum o deixarei impune.",
+  "texto_bv": "Porque eu estou com você — declaração do SENHOR — para salvá-lo. Destruirei completamente todas as nações entre as quais eu o dispersei, mas a você não destruirei completamente; eu o disciplinarei na medida justa, mas de modo algum o deixarei impune.",
   "traducao_literal": "Porque contigo eu, declaração do SENHOR, para te salvar; porque farei extermínio em todas as nações para onde te espalhei, mas a ti não farei extermínio, e te disciplinarei para a medida justa, e inocentar não te inocentarei.",
   "termos_originais": [
     {
@@ -154,6 +154,13 @@
           "motivo": "soa artificial e redundante em português corrente"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Farei um fim completo de todas as nações → Destruirei completamente todas as nações | mas de você não farei um fim completo → mas a você não destruirei completamente",
+      "justificativa": "Colocação mais natural em pt-BR (§1.4/§1 piso de naturalidade); “fazer um fim completo de” é coloquial e pouco idiomático; ARA usa “darei fim cabal”, NVIPT usa “destruirei completamente”. Contraste retórico intencional preservado. | Harmonização com a mudança anterior (§1.4 consistência lexical); contraste retórico preservado; “a você” (objeto direto preposicionado) é mais natural que “de você” neste contexto. — revisão de forma sem alteração de sentido (ER-0019). RED-1: a repetição de “fim completo”/“destruir completamente” é contraste retórico intencional (nações vs. Israel), não redundância defeituosa — todas as referências mantêm o paralelismo (ARA: “darei fim cabal”/“não darei fim”; NVIPT: “destruirei completamente”/“não destruirei completamente”). Correção de forma apenas na colocação.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -165,10 +172,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
