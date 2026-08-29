@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Gen.19.1-38"
   },
-  "texto_bv": "No dia seguinte, a primogênita disse à mais nova: “Ontem à noite me deitei com meu pai; demos-lhe de beber vinho também esta noite, e então entre você e deite-se com ele, para que conservemos a descendência de nosso pai.”",
+  "texto_bv": "No dia seguinte, a primogênita disse à mais nova: “Ontem à noite me deitei com meu pai. Demos-lhe de beber vinho também esta noite, e então entre você e deite-se com ele, para que conservemos a descendência de nosso pai.”",
   "traducao_literal": "E aconteceu no dia seguinte, e disse a primogênita à mais jovem: “Eis que me deitei ontem à noite com meu pai; demos-lhe de beber vinho também esta noite, e entra, deita-te com ele, e façamos viver de nosso pai semente.”",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "justificativa": "ER-0013: normalização do calque 'aconteceu que' | ER-0013: normalização do calque 'eis que' | §3/D-0003: tu→você (discurso humano↔humano entre as filhas) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "meu pai; demos-lhe → meu pai. Demos-lhe",
+      "justificativa": "Divisão de sentença com >40 palavras (§1.3). O ponto final separa a constatação passada (“me deitei”) da proposta futura (“Demos-lhe”), melhorando a legibilidade sem perda sintática. NTLH e NVIPT fazem divisão semelhante. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -136,9 +143,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
