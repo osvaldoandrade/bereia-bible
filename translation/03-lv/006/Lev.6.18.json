@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Lev.6.1-23"
   },
-  "texto_bv": "“Fale a Arão e a seus filhos: ‘Esta é a instrução sobre a oferta pelo pecado: a oferta pelo pecado será imolada diante do SENHOR no mesmo lugar em que o holocausto é imolado. Ela é santíssima.",
+  "texto_bv": "“Fale a Arão e a seus filhos: ‘Esta é a instrução sobre a oferta pelo pecado: ela será imolada diante do SENHOR no mesmo lugar em que o holocausto é imolado. Ela é santíssima.",
   "traducao_literal": "Fala a Arão e a seus filhos, dizendo: Esta é a instrução da oferta pelo pecado: no lugar em que será imolado o holocausto será imolada a oferta pelo pecado diante de YHWH; santo de santos ela.",
   "termos_originais": [
     {
@@ -127,6 +127,13 @@
           "motivo": "É possível, mas diverge da âncora terminológica já persistida no livro."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a oferta pelo pecado será imolada → ela será imolada",
+      "justificativa": "RED-1: eliminação de repetição nominal imediata (“oferta pelo pecado” 2× consecutivas após dois-pontos); pronome anafórico “ela” mantém referência inequívoca à oferta introduzida na mesma frase. PAS-1: as duas construções passivas (“será imolada” e “é imolado”) são mantidas por necessidade sintática — uma refere-se à oferta, outra ao holocausto como termo de comparação; original e ARA preservam. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -141,10 +148,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
