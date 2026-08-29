@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Josh.3.1-17"
   },
-  "texto_bv": "Mantenham entre vocês e a arca uma distância de cerca de dois mil côvados medidos; não se aproximem dela. Assim vocês saberão por qual caminho devem seguir, pois nunca passaram por esse caminho.”",
+  "texto_bv": "Mantenham entre vocês e a arca uma distância de cerca de dois mil côvados; não se aproximem dela. Assim vocês saberão por qual caminho devem seguir, pois nunca passaram por esse caminho.”",
   "traducao_literal": "Contudo, distância haverá entre vós e entre ela, cerca de dois mil côvados na medida; não vos aproximeis dela, para que saibais o caminho no qual andareis, porque não passastes pelo caminho desde ontem, anteontem.",
   "termos_originais": [
     {
@@ -175,6 +175,13 @@
           "motivo": "Inverte a afirmação."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "côvados medidos → côvados",
+      "justificativa": "Remoção de calque da traducao_literal (“na medida”, bammiddah) sem equivalente funcional em português; “cerca de” já indica aproximação, tornando “medidos” redundante. ARA/NVIPT/NTLH omitem o termo (EDITORIAL §1.4, §6.2). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -193,10 +200,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
