@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Josh.10.1-43"
   },
-  "texto_bv": "Quando Adoni-Zedeque, rei de Jerusalém, soube que Josué havia conquistado Ai e a dedicado à destruição — fazendo com Ai e seu rei o mesmo que havia feito com Jericó e seu rei — e que os habitantes de Gibeão tinham feito paz com Israel e viviam no meio deles,",
+  "texto_bv": "Quando Adoni-Zedeque, rei de Jerusalém, soube que Josué havia conquistado Ai e a havia dedicado à destruição — fazendo com Ai e seu rei o mesmo que havia feito com Jericó e seu rei — e que os habitantes de Gibeão tinham feito paz com Israel e viviam no meio deles,",
   "traducao_literal": "E aconteceu, ao ouvir Adoni-Zedeque, rei de Jerusalém, que capturou Josué Ai e a dedicou à destruição, como fez a Jericó e ao rei dela, assim fez a Ai e ao rei dela; e que fizeram paz os habitantes de Gibeão com Israel e estavam no meio deles,",
   "termos_originais": [
     {
@@ -196,6 +196,13 @@
       "justificativa": "Sentença com 48 palavras (LEN-1). — evidência: A oração temporal 'Quando...soube que...e que...' é uma única unidade sintática dependente que prepara o v2 ('O medo deles foi intenso'); dividi-la exigiria abandonar a subordinação temporal explícita (Quando) e adicionar verbo ('Soube também') não presente no original, enfraquecendo o nexo causal com o versículo seguinte. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a dedicado → a havia dedicado",
+      "justificativa": "Correção gramatical: elipse irregular do auxiliar 'havia' antes de particípio com pronome oblíquo intercalado; a forma 'a dedicado' é agramatical em pt-BR. Alinhamento com NVIPT ('a tinha destruído') que repete o auxiliar. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 (49 palavras): a sentença longa preserva a estrutura temporal do original (oração subordinada 'quando...soube que...e que...') e a NVIPT também mantém construção longa neste verso. A correção gramatical ('a havia dedicado') é a mudança principal; a pontuação com travessões já organiza o aparte comparativo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -210,9 +217,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
