@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Num.32.1-42"
   },
-  "texto_bv": "Agora vocês se levantaram no lugar de seus pais, uma nova geração de homens pecadores, para aumentar ainda mais o furor da ira do SENHOR contra Israel!",
+  "texto_bv": "Agora vocês se levantaram no lugar de seus pais, uma geração de homens pecadores, para aumentar ainda mais o furor da ira do SENHOR contra Israel!",
   "traducao_literal": "E eis que vos levantastes no lugar de vossos pais, geração de homens pecadores, para acrescentar ainda sobre o ardor da ira de YHWH contra Israel.",
   "termos_originais": [
     {
@@ -102,6 +102,13 @@
           "motivo": "Inverte חַטָּאִים."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "uma nova geração de homens pecadores → uma geração de homens pecadores",
+      "justificativa": "Remoção de palavra suprida (“nova”) sem correspondente no original; NTLH, ARA e NVIPT não incluem o termo. O contraste geracional já está explícito em “no lugar de seus pais”. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -118,10 +125,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
