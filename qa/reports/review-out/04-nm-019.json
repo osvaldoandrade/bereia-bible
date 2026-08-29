@@ -35,6 +35,7 @@
    "texto_bv_revisto": "A novilha será queimada diante de Eleazar. Seu couro, sua carne, seu sangue e seu excremento serão queimados juntos.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 (4 pronomes de 3ª pessoa) e PAS-1 (2 passivas) são falso-positivo: todos os possessivos referem-se inequivocamente a “a novilha”, sujeito do período anterior, e as passivas reproduzem a estrutura do hebraico. NTLH/ARA/NVIPT convergem na mesma construção passiva. Fórmula de enumeração (couro/carne/sangue/excremento) preservada.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -84,6 +85,7 @@
    "texto_bv_revisto": "Essa pessoa se purificará com a água no terceiro dia e, no sétimo dia, ficará pura. Se não se purificar no terceiro e no sétimo dia, não ficará pura.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 flagged (“ficará pura” repetido), mas a repetição espelha a estrutura formular do hebraico (condição positiva e negativa com desfecho idêntico). NTLH/ARA/NVIPT mantêm a mesma repetição (“ficará puro/limpo”). Fórmula intencional preservada (§1.4/ER-0019 v2).",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -91,6 +93,7 @@
    "texto_bv_revisto": "Qualquer pessoa que tocar num cadáver humano e não se purificar tornará impuro o tabernáculo do SENHOR; essa pessoa será eliminada de Israel. Como a água de purificação não foi aspergida sobre ela, continuará impura; sua impureza permanecerá nela.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PAS-1 flagged (2 passivas), mas ambas reproduzem a estrutura do hebraico (“não foi aspergida” / “será eliminada”) e são naturais em português. NTLH/ARA/NVIPT convergem em construções passivas semelhantes. Sem divergência significativa.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -124,16 +127,9 @@
   {
    "osis": "Num.19.18",
    "texto_bv_revisto": "Um homem puro pegará o hissopo e o mergulhará na água. Aspergirá a água sobre a tenda, sobre todos os recipientes, sobre as pessoas que estiveram ali e sobre quem tiver tocado num osso, em alguém morto pela espada, num cadáver ou numa sepultura.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "Um homem puro pegará o hissopo, o mergulhará na água e aspergirá a água sobre a tenda, sobre todos os recipientes, sobre as pessoas que estiveram ali e sobre quem tiver tocado num osso, em alguém morto pela espada, num cadáver ou numa sepultura.",
-     "depois": "Um homem puro pegará o hissopo e o mergulhará na água. Aspergirá a água sobre a tenda, sobre todos os recipientes, sobre as pessoas que estiveram ali e sobre quem tiver tocado num osso, em alguém morto pela espada, num cadáver ou numa sepultura.",
-     "motivo": "Divisão de sentença de 44 palavras em duas (§1.3); corte na fronteira natural preparação/aplicação, sem perda sintática nem adição de sentido."
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Num.19.19",
@@ -147,14 +143,23 @@
    "texto_bv_revisto": "Mas a pessoa que ficar impura e não se purificar será eliminada do meio da assembleia, pois tornou impuro o santuário do SENHOR. A água de purificação não foi aspergida sobre ela; ela está impura.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PAS-1 flagged (2 passivas), mas ambas reproduzem fielmente o hebraico (“será eliminada” / “não foi aspergida”). NTLH/ARA/NVIPT convergem em construções passivas equivalentes. Sem divergência significativa.",
    "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Num.19.21",
-   "texto_bv_revisto": "Este será um estatuto perpétuo para eles: quem aspergir a água de purificação lavará suas roupas, e quem tocar na água de purificação ficará impuro até o entardecer.",
-   "mudancas": [],
+   "texto_bv_revisto": "Este será um estatuto perpétuo para eles: quem aspergir a água de purificação lavará suas roupas, e quem tocar nela ficará impuro até o entardecer.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "quem tocar na água de purificação ficará impuro",
+     "depois": "quem tocar nela ficará impuro",
+     "motivo": "RED-1: segunda ocorrência de “água de purificação” no mesmo verso substituída por pronome “nela” para evitar redundância mecânica em português. ARA e NVIPT repetem o termo, mas o português natural dispensa a repetição quando o referente é inequívoco (§1.4)."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "justificativa": "RED-1 confirmado: “água de purificação” aparece duas vezes no mesmo verso sem necessidade retórica. Correção de forma: substituição por pronome “nela” mantém o sentido e o paralelismo semântico, eliminando a repetição mecânica.",
+   "veredito": "REVISADO"
   },
   {
    "osis": "Num.19.22",
