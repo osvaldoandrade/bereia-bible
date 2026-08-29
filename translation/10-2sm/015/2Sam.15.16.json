@@ -92,6 +92,13 @@
           "motivo": "Altera o número."
         }
       ]
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "BV traduz “a seus pés” (literal) como “a pé”. NTLH (“acompanhado por toda a sua família”), ARA (“com todos os de sua casa”) e NVIPT (“seguido por todos os de sua família”) evitam a expressão. “A pé” é interpretação idiomática válida em pt-BR para “seguir a pé” (compare v. 17, onde “saíram a pé” é inequívoco). Divergência das refs é de escolha estilística, não erro; mantida. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -107,10 +114,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
