@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "2Kgs.2.1-25"
   },
-  "texto_bv": "Enquanto eles caminhavam e conversavam, eis que um carro de fogo e cavalos de fogo os separaram; e Elias subiu aos céus num redemoinho.",
+  "texto_bv": "Enquanto eles caminhavam e conversavam, de repente um carro de fogo e cavalos de fogo os separaram; e Elias subiu aos céus num redemoinho.",
   "traducao_literal": "E aconteceu: eles iam andando e falando, e eis um carro de fogo e cavalos de fogo; e separaram entre os dois, e subiu Elias no redemoinho aos céus.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "Atribui ao carro a função que o verso associa ao redemoinho."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eis que → de repente",
+      "justificativa": "Normalização de calque paratático (CAL-2, EDITORIAL §6.2/ER-0013); NTLH e NVIPT usam “de repente” para o mesmo הִנֵּה dramático — revisão de forma sem alteração de sentido (ER-0019). CAL-2 sinalizou “eis que”. O הִנֵּה tem força dêitica forte (aparição súbita do carro de fogo), mas “de repente” preserva a dramaticidade em pt-BR contemporâneo, como fazem NTLH e NVIPT. ARA mantém “eis que”, mas a forma soa arcaica em narrativa contemporânea.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -124,10 +131,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
