@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "Exod.23.1-33"
   },
-  "texto_bv": "E porei os teus limites desde o mar Vermelho até ao mar dos filisteus, e desde o deserto até ao rio; porque darei nas tuas mãos os moradores da terra, para que os lances de diante de ti.",
+  "texto_bv": "E porei os teus limites desde o mar Vermelho até o mar dos filisteus, e desde o deserto até o rio; porque darei nas tuas mãos os moradores da terra, para que os lances de diante de ti.",
   "traducao_literal": "E porei o teu limite desde o mar de Juncos e até o mar dos filisteus, e desde o deserto até o Rio; porque darei na vossa mão os habitantes da terra, e os expulsarás de diante de ti.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "até ao mar dos filisteus → até o mar dos filisteus | até ao rio → até o rio",
+      "justificativa": "Contração “até ao” é padrão do português europeu; em pt-BR a forma preferencial é “até o” (preposição + artigo sem fusão). ARA e NVIPT usam “até o”. (§1 naturalidade pt-BR) | Mesma correção: “até ao” → “até o” para consistência pt-BR. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "As fronteiras ideais (do mar Vermelho ao Mediterrâneo, do deserto ao Eufrates) — a extensão da promessa a Abraão (Gn 15:18), realizada em parte sob Salomão. יַם־סוּף→mar Vermelho; הַנָּהָר→o Rio (Eufrates). YHWH→eu.",
@@ -117,10 +125,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
