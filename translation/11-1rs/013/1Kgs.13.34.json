@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "1Kgs.13.1-34"
   },
-  "texto_bv": "Isso se tornou pecado para a casa de Jeroboão, levando-a a ser eliminada e destruída da face da terra.",
+  "texto_bv": "Isso se tornou pecado para a casa de Jeroboão, levando à sua eliminação e destruição da face da terra.",
   "traducao_literal": "E foi nesta coisa para pecado da casa de Jeroboão, e para eliminar e para destruir de sobre a face do solo.",
   "termos_originais": [
     {
@@ -67,7 +67,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "levando-a a ser eliminada e destruída → levando à sua eliminação e destruição",
+      "justificativa": "passiva analítica (“ser eliminada e destruída”) substituída por construção nominal mais fluida; NVIPT usa forma similar (“levou à sua queda e à sua eliminação”) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "Isso",
     "levando-a a ser"
@@ -80,10 +88,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
