@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Isa.49.1-26"
   },
-  "texto_bv": "Reis serão seus tutores, e suas princesas, suas amas; com o rosto em terra eles se prostrarão diante de você e lamberão o pó dos seus pés; e você saberá que eu sou o SENHOR, e que os que esperam em mim não serão envergonhados.",
+  "texto_bv": "Reis serão seus tutores, e suas princesas, suas amas. Com o rosto em terra, eles se prostrarão diante de você e lamberão o pó dos seus pés. Então você saberá que eu sou o SENHOR e que os que esperam em mim não serão envergonhados.",
   "traducao_literal": "E serão reis os teus tutores, e as suas princesas, as tuas amas; com rosto em terra a ti se prostrarão, e o pó dos teus pés lamberão; e saberás que eu sou o SENHOR, que não se envergonharão os que esperam em mim.",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Reis serão seus tutores, e suas princesas, suas amas; com o rosto em terra eles se prostrarão diante de você e lamberão o pó dos seus pés; e você saberá que eu sou o SENHOR, e que os que esperam em mim não serão envergonhados. → Reis serão seus tutores, e suas princesas, suas amas. Com o rosto em terra, eles se prostrarão diante de você e lamberão o pó dos seus pés. Então você saberá que eu sou o SENHOR e que os que esperam em mim não serão envergonhados.",
+      "justificativa": "Divisão de sentença longa (45 palavras → três períodos de ~10, ~17 e ~18 palavras) para atender §1.3; vírgula adverbial após \"Com o rosto em terra\"; \"Então\" marca progressão conclusiva. PRO-1 (5 pronomes 3ª) não é problema: possessivos de 3ª (seu/sua) são padrão pt-BR para referente de tratamento \"você\". — revisão de forma sem alteração de sentido (ER-0019). LEN-1 adjudicado com divisão em três períodos; PRO-1 é falso-positivo pois possessivos referem-se a \"você\" (Sião) no padrão culto brasileiro.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Imagem hiperbólica de submissão das nações a Sião; fórmula de reconhecimento ('e saberás que eu sou o SENHOR') recorrente em Isaías; קוָֹי (particípio Qal + 1cs, 'os que esperam em mim') mantém coerência com o tema da esperança em YHWH.",
@@ -122,10 +130,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
