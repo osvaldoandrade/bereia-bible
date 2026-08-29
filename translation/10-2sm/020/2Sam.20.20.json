@@ -80,6 +80,13 @@
       "justificativa": "Ratio texto_bv/traducao_literal baixo (0,61). A BV normalizou a sintaxe hebraica condicional (“se eu engolir e se eu destruir”) para infinitivo (“engolir ou destruir”), e condensou “Longe seja, longe seja para mim” em “Longe de mim”. — evidência: Literal: “Longe seja, longe seja para mim, se eu engolir e se eu destruir.” BV: “Longe de mim! Longe de mim engolir ou destruir!” Sentido integralmente preservado; normalização sintática conforme ER-0013 (doutrina do calque). (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "RAT-1 flagged ratio 0.61 (11/18 palavras vs literal), mas a condensação é legítima: a BV preserva a duplicação hebraica (“Longe de mim! Longe de mim”) e os dois verbos (“engolir ou destruir”), eliminando apenas a construção condicional redundante (“se eu...se eu”). Normalização conforme §6.2/ER-0013. ARA também preserva a duplicação. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -94,9 +101,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -110,6 +110,13 @@
       "justificativa": "Repetição de “Joabe respondeu” em dois pares de fala consecutivos (v. 17b e 17d). O original hebraico emprega “E disse” elíptico três vezes; a BV adicionou atribuição para clareza, gerando eco estilístico. — evidência: Original: “E disse: Eu. E disse ela a ele: Ouça as palavras de sua serva. E disse: Ouvindo estou eu.” BV resolveu com “Ele respondeu” + “Joabe respondeu” — eco notável mas preferível à elipse sem sujeito em pt-BR. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "RED-1 flagged “joabe respondeu” (2×), mas a BV já alterna “Ele respondeu” e “Joabe respondeu” para evitar ambiguidade de referente após a fala da mulher — escolha estilística legítima em diálogo. PRO-1 (5 pronomes) com referentes claros no contexto dialógico. Paradigma você correto (§3: “Você é Joabe”, “Escute”, “sua serva”). (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -127,9 +134,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
