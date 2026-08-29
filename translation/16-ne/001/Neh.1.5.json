@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Neh.1.1-11"
   },
-  "texto_bv": "Eu disse: “Ó SENHOR, Deus dos céus, Deus grande e temível, que mantém a aliança e o amor leal com os que o amam e com os que guardam seus mandamentos.",
+  "texto_bv": "Eu disse: “Ó SENHOR, Deus dos céus, Deus grande e temível, que mantém a aliança e o amor leal com os que te amam e com os que guardam teus mandamentos.",
   "traducao_literal": "E disse: “Por favor, SENHOR, Deus dos céus, o Deus grande e temível, guardando a aliança e o amor leal aos que o amam e aos que guardam seus mandamentos.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
           "motivo": "Violaria os nomes divinos, o particípio ‘guardar’ e a lealdade expressa por חֶסֶד."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os que o amam → os que te amam | seus mandamentos → teus mandamentos",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): oração direta a Deus exige “tu”. NTLH (“te amam”) e ARA (“que te amam”) confirmam. Pronome oblíquo “o” (3ª pessoa) incompatível com os “teu/teus” do mesmo verso. | Paradigma de 2ª pessoa (§3/D-0003): possessivo deve concordar com o paradigma “tu” da oração a Deus. NTLH/ARA/NVIPT usam “teus” ou “os teus”. — revisão de forma sem alteração de sentido (ER-0019). NTLH e ARA empregam consistentemente “te” e “teus” ao longo da oração; a BV misturava “teu” (v.5a) com “o/seus” (v.5b), violando §3. Correção de forma — o sentido (fidelidade de Deus aos que o amam) permanece intacto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -108,10 +115,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
