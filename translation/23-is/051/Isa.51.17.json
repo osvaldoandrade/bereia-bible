@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Isa.51.1-23"
   },
-  "texto_bv": "Desperta, desperta, levanta-te, Jerusalém, você que bebeu da mão do SENHOR o cálice do seu furor; o cálice, a taça que faz cambalear, você bebeu e esgotou.",
+  "texto_bv": "Desperte, desperte, levante-se, Jerusalém, você que bebeu da mão do SENHOR o cálice do seu furor; o cálice, a taça que faz cambalear, você bebeu e esgotou.",
   "traducao_literal": "Desperta, desperta, levanta-te, Jerusalém, que bebeu da mão do SENHOR o cálice do seu furor; a taça, o cálice de vertigem, você bebeu, esgotou.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "mais literal, preservado na traducao_literal; o publicado prioriza fluência"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Desperta, desperta, levanta-te → Desperte, desperte, levante-se",
+      "justificativa": "normalização do paradigma de 2ª pessoa: imperativos de tu (desperta/levanta-te) convertidos para você (desperte/levante-se), coerente com 'você que bebeu' no mesmo verso e com o paradigma você usado em todo o bloco vv.17-23 (§3/D-0003, item 10) — revisão de forma sem alteração de sentido (ER-0019). RED-1 é falso positivo: a repetição de 'bebeu' é paralelismo intencional do original hebraico — ARA e NVIPT também repetem o verbo beber nas duas orações. A mudança aplicada é de paradigma (§3), não de redundância.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,10 +126,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
