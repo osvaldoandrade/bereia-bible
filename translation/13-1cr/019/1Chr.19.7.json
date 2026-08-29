@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "1Chr.19.1-19"
   },
-  "texto_bv": "Eles contrataram para si trinta e dois mil carros, além do rei de Maacá e seu povo. Estes vieram e acamparam diante de Medeba. Os filhos de Amom se reuniram de suas cidades e vieram para a guerra.",
+  "texto_bv": "Eles contrataram para si trinta e dois mil carros, além do rei de Maacá e seu povo. Estes vieram e acamparam diante de Medeba. Os amonitas se reuniram de suas cidades e vieram para a guerra.",
   "traducao_literal": "E contrataram para eles trinta e dois mil carros, e o rei de Maacá, e seu povo; e vieram, e acamparam diante de Medeba; e os filhos de Amom reuniram-se de suas cidades, e vieram para a guerra.",
   "termos_originais": [
     {
@@ -134,6 +134,13 @@
       "escolha": "Usar “Estes” para o contingente contratado, sem incluir prematuramente os filhos de Amom.",
       "justificativa": "Os amonitas são introduzidos como sujeito distinto na oração seguinte e se reúnem de suas cidades.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "filhos de Amom → amonitas",
+      "justificativa": "Normalização de hebraísmo “filhos de Amom” para “amonitas” (§1.4/ER-0019 v2); consistência com todo o capítulo. — revisão de forma sem alteração de sentido (ER-0019). Mesma normalização aplicada nos versos anteriores. NTLH/ARA/NVIPT usam “amonitas”.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -148,10 +155,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
