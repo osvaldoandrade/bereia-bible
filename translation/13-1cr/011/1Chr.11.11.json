@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "1Chr.11.1-47"
   },
-  "texto_bv": "Esta é a lista dos guerreiros de Davi: Jasobeão, filho de Hacmoni, chefe dos oficiais. Ele brandiu sua lança contra trezentos mortos de uma só vez.",
+  "texto_bv": "Esta é a lista dos guerreiros de Davi: Jasobeão, filho de Hacmoni, chefe dos oficiais. Ele brandiu sua lança contra trezentos e os matou de uma só vez.",
   "traducao_literal": "E estes, o número dos guerreiros que pertenciam a Davi: Jasobeão, filho de Hacmoni, chefe dos oficiais; ele despertou sua lança contra trezentos mortos em uma vez.",
   "termos_originais": [
     {
@@ -151,6 +151,13 @@
         }
       ],
       "diretriz_ref": "ER-0013"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "contra trezentos mortos de uma só vez. → contra trezentos e os matou de uma só vez.",
+      "justificativa": "Sintaxe ambígua: “brandiu sua lança contra trezentos mortos” sugere que os 300 já estavam mortos antes do golpe. NTLH/ARA/NVIPT explicitam a ação letal (“os matou”/“lutou contra…e os matou”). Ajuste de clareza sem alteração de sentido — o evento descrito é idêntico. — revisão de forma sem alteração de sentido (ER-0019). As três referências desfazem a ambiguidade resultativa do original (“contra 300, mortos de uma vez”), explicitando o verbo “matar”. A BV seguia a construção resultativa do hebraico, que em pt-BR soa como se os alvos já estivessem mortos. Mudança de forma (clareza sintática), sentido preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -164,10 +171,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
