@@ -63,6 +63,7 @@
    "texto_bv_revisto": "Pegarão um tecido azul e cobrirão o candelabro da iluminação, suas lâmpadas, seus espevitadores, seus apagadores e todos os recipientes de azeite usados em seu serviço.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 é falso-positivo: os possessivos “suas” referem-se a “candelabro” (substantivo inanimado imediatamente anterior) com antecedente inequívoco; as três referências usam a mesma construção possessiva.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -105,6 +106,7 @@
    "texto_bv_revisto": "Quando o acampamento estiver para partir, Arão e seus filhos terminarão de cobrir os objetos sagrados e todos os utensílios sagrados. Depois disso, os coatitas virão para carregá-los, mas não tocarão nos objetos sagrados, para que não morram. Essas são as cargas dos coatitas na tenda do encontro.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 é fidelidade ao original: o hebraico repete הקדש (haqodesh, “sagrado”) duas vezes; NTLH e NVIPT também repetem “sagrados”. A repetição é fórmula intencional do original, não defeito.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -133,6 +135,7 @@
    "texto_bv_revisto": "Procedam desta maneira em favor deles, para que permaneçam vivos e não morram ao se aproximar dos objetos santíssimos: Arão e seus filhos entrarão e atribuirão a cada homem seu serviço e sua carga.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 é falso-positivo: os pronomes “eles” e possessivos “seu/sua” referem-se aos coatitas (mencionados no verso anterior) e a “cada homem” respectivamente, com antecedente claro. ARA usa a mesma construção (“lhes designarão a cada um o seu serviço”).",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -158,10 +161,17 @@
   },
   {
    "osis": "Num.4.23",
-   "texto_bv_revisto": "Conte-os dos trinta aos cinquenta anos de idade: todos os que ingressarem no corpo de serviço para prestar serviço na tenda do encontro.",
-   "mudancas": [],
+   "texto_bv_revisto": "Conte-os dos trinta aos cinquenta anos de idade: todos os que ingressarem no corpo de serviço para realizar o trabalho na tenda do encontro.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "corpo de serviço para prestar serviço",
+     "depois": "corpo de serviço para realizar o trabalho",
+     "motivo": "Elimina repetição do lexema “serviço” em proximidade (“corpo de serviço...prestar serviço”). O hebraico usa dois termos distintos (צָבָא tsava e עֲבֹדָה avodah); ARA resolve com “serviço...trabalho”, NTLH simplifica para “trabalhar”. Consistência lexical (§1.4): normaliza para o lexema “trabalho” já usado em 4.3."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Num.4.24",
@@ -175,19 +185,15 @@
    "texto_bv_revisto": "Eles transportarão as cortinas do tabernáculo, a tenda do encontro, sua cobertura, a cobertura de pele de golfinho que fica por cima dela e a cortina da entrada da tenda do encontro;",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 é fidelidade ao original: “tenda do encontro” (אהל מועד, ohel moed) é termo técnico que o hebraico repete duas vezes no verso; NTLH/ARA/NVIPT também repetem o termo.",
    "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Num.4.26",
    "texto_bv_revisto": "as cortinas do pátio; a cortina da entrada do portão do pátio, que fica ao redor do tabernáculo e do altar; as cordas dessas cortinas; todos os utensílios usados no serviço delas; e tudo o que precisa ser feito com elas. Assim servirão.",
    "mudancas": [],
-   "objecoes": [
-    {
-     "gravidade": "EDITORIAL",
-     "problema": "Sentença com 41 palavras (LEN-1, limiar >40).",
-     "evidencia": "Enumeração de itens do serviço gersonita com semicolons que já segmentam a lista em grupos naturais; a estrutura espelha a enumeração contínua do original hebraico. Dividir artificialmente quebraria a unidade da lista sem ganho de clareza."
-    }
-   ],
+   "objecoes": [],
+   "justificativa": "LEN-1 (~41 palavras) justificado pelo gênero: lista técnica de inventário com estrutura segmentada por ponto-e-vírgula. O original hebraico apresenta enumeração contínua; ARA (~38 palavras) e NTLH (~28 palavras) também mantêm frase longa. Divisão artificial prejudicaria a fluidez da lista.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -195,6 +201,7 @@
    "texto_bv_revisto": "Todo o serviço dos gersonitas, em todas as suas cargas e tarefas, será realizado sob as ordens de Arão e seus filhos. Vocês lhes atribuirão, sob sua responsabilidade, todas as cargas.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 é falso-positivo: “suas cargas e tarefas” refere-se aos gersonitas (antecedente imediato); “lhes” e “sua responsabilidade” referem-se igualmente aos gersonitas, com antecedente claro na frase anterior.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -223,6 +230,7 @@
    "texto_bv_revisto": "Esta é a responsabilidade das cargas deles em todo o seu serviço na tenda do encontro: as tábuas do tabernáculo, suas travessas, suas colunas e suas bases;",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 é falso-positivo: “deles” refere-se aos meraritas (contexto imediato); “seu serviço” e “suas travessas/colunas/bases” referem-se ao tabernáculo, com antecedente explícito.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -230,6 +238,7 @@
    "texto_bv_revisto": "as colunas ao redor do pátio, suas bases, suas estacas, suas cordas, todos os seus utensílios e tudo relacionado ao serviço delas. Vocês designarão nominalmente os utensílios que cada um ficará responsável por transportar.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 é falso-positivo: todos os possessivos referem-se a “colunas” e “pátio” (antecedentes imediatamente anteriores na lista de inventário).",
    "veredito": "SEM_ALTERACAO"
   },
   {
