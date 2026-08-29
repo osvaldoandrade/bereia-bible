@@ -42,6 +42,7 @@
    "texto_bv_revisto": "De um mês a cinco anos, a avaliação será de cinco siclos de prata para o menino e três siclos de prata para a menina.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 é falso-positivo: a repetição de “siclos de prata” espelha o original hebraico (literal: “cinco siclos de prata… três siclos de prata”). ARA e NVIPT também repetem a expressão (“cinco siclos de prata… três siclos de prata” / “sessenta gramas de prata… trinta e seis gramas de prata”). Trata-se de fórmula do texto-fonte, não de redundância editorial.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -54,16 +55,9 @@
   {
    "osis": "Lev.27.8",
    "texto_bv_revisto": "Se quem fez o voto não tiver recursos para pagar a avaliação, será levado diante do sacerdote. O sacerdote fixará a avaliação conforme os recursos dessa pessoa.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "conforme os recursos de quem fez o voto",
-     "depois": "conforme os recursos dessa pessoa",
-     "motivo": "RED-1: remove repetição interna de ‘quem fez o voto’ (o hebraico repita הַנֹּדֵר, mas o português dispensa a redundância com referência pronominal inequívoca)"
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Lev.27.9",
@@ -146,7 +140,14 @@
    "osis": "Lev.27.20",
    "texto_bv_revisto": "Se ele não resgatar o campo e o campo for vendido a outra pessoa, não poderá mais ser resgatado.",
    "mudancas": [],
-   "objecoes": [],
+   "objecoes": [
+    {
+     "gravidade": "MATERIAL",
+     "problema": "Conjunção “e” com valor copulativo onde NTLH, ARA e NVIPT leem o waw hebraico como disjuntivo (“ou”). A BV exige que ambas as condições se cumpram (não resgatar E ser vendido); as referências leem como condições alternativas (não resgatar OU ser vendido). A correção de “e” para “ou” alteraria o escopo lógico da condição, o que é mudança de sentido.",
+     "evidencia": "NTLH: “se não quiser tornar a comprá-lo ou se outra pessoa o comprar”; ARA: “Se não o quiser remir, ou se houver vendido o campo a outrem”; NVIPT: “se não a resgatar, ou se a tiver vendido”. Todas leem o waw de וְנִמְכַּר como disjunção."
+    }
+   ],
+   "justificativa": "A BV segue a tradução literal (“e se não resgatar… e se vender”), preservando a parataxe do waw hebraico. As três referências leem o waw como disjuntivo. Corrigir “e” para “ou” mudaria o escopo lógico da condição, configurando alteração de sentido; por isso, registra-se objeção MATERIAL e o texto permanece inalterado.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -187,22 +188,16 @@
   {
    "osis": "Lev.27.26",
    "texto_bv_revisto": "Ninguém consagrará o primogênito de um animal, pois, por ser primogênito, já pertence ao SENHOR. Seja do gado ou do rebanho, é do SENHOR.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "Seja do gado ou do rebanho, pertence ao SENHOR.",
-     "depois": "Seja do gado ou do rebanho, é do SENHOR.",
-     "motivo": "RED-1: remove repetição do verbo ‘pertencer’ no mesmo verso; ‘é do SENHOR’ é mais próximo do hebraico לַיהוָה הוּא e mantém o sentido de propriedade divina"
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Lev.27.27",
    "texto_bv_revisto": "Se o primogênito for de um animal impuro, poderá ser resgatado pelo valor da avaliação, acrescentando-se um quinto. Se não for resgatado, será vendido pelo valor da avaliação.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 é falso-positivo: a repetição de “pelo valor da avaliação” espelha o original (“pela tua avaliação… pela tua avaliação”). ARA (“segundo a tua avaliação… segundo a tua avaliação”) e NVIPT (“pelo valor estabelecido… pelo valor estabelecido”) também mantêm a repetição formular. Fidelidade ao texto-fonte (§1.4/RED-1).",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -252,6 +247,7 @@
    "texto_bv_revisto": "Estes são os mandamentos que o SENHOR deu a Moisés para os israelitas no monte Sinai.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: o marcador detectou “sinai” como ocorrência do padrão, mas trata-se do topônimo “monte Sinai”, sem qualquer forma verbal ou pronominal de 2ª pessoa no paradigma vós. O verso emprega “deu” (3ª pessoa), “Moisés”, “israelitas” — tudo conforme o paradigma você/vocês (§3/D-0003).",
    "veredito": "SEM_ALTERACAO"
   }
  ]
