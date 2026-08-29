@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "1Chr.28.1-21"
   },
-  "texto_bv": "O rei Davi se levantou e ficou de pé. Então disse: “Ouçam-me, meus irmãos e meu povo! Eu tinha no coração construir uma casa de descanso para a arca da aliança do SENHOR e para o estrado dos pés de nosso Deus, e fiz preparativos para construí-la.",
+  "texto_bv": "O rei Davi se pôs de pé. Então disse: “Ouçam-me, meus irmãos e meu povo! Eu tinha no coração construir uma casa de descanso para a arca da aliança do SENHOR e para o estrado dos pés de nosso Deus, e fiz preparativos para construí-la.",
   "traducao_literal": "E levantou-se Davi, o rei, sobre seus pés e disse: “Ouçam-me, meus irmãos e meu povo! Eu, com meu coração para construir casa de descanso para a arca da aliança do SENHOR e para o estrado dos pés de nosso Deus; e preparei para construir.",
   "termos_originais": [
     {
@@ -144,6 +144,13 @@
       "escolha": "Usar ‘fiz preparativos’ na BV sem listar materiais.",
       "justificativa": "O Hifil 1cs expressa preparação, mas o objeto não é nomeado neste verso.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "se levantou e ficou de pé → se pôs de pé",
+      "justificativa": "As três referências usam um único verbo para a ação (NTLH 'ficou de pé', ARA 'se pôs em pé', NVIPT 'se pôs de pé'); a BV redundava dois verbos para o hebraico wayyaqam... al-raglayw, que é uma única ação com frase preposicional. — revisão de forma sem alteração de sentido (ER-0019). Eliminação de redundância verbal; as três referências convergem em usar um único verbo para a ação de levantar-se.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -162,10 +169,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
