@@ -92,7 +92,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "RED-1: a repetição de “erva-doce” é estrutural — o verso contrasta o processamento de duas plantas em duas metades (negativa: “não é debulhada”; positiva: “é batida”), e a mesma planta aparece em ambas as metades do contraste. ARA também repete “nigela” duas vezes; NVIPT repete “endro” duas vezes. PAS-1: passivas naturais para processos agrícolas com agente genérico; ARA e NVIPT também usam construções passivas/impessoais neste verso. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Segunda etapa da parábola: cada grão exige o instrumento de debulha proporcional à sua fragilidade — sementes miúdas não recebem o trilho pesado usado nos cereais.",
@@ -102,10 +110,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
