@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Ps.111.1-10"
   },
-  "texto_bv": "Louvai o SENHOR! Eu darei graças ao SENHOR de todo o coração, no conselho dos retos e na congregação.",
+  "texto_bv": "Louvem o SENHOR! Eu darei graças ao SENHOR de todo o coração, no conselho dos retos e na congregação.",
   "traducao_literal": "Louvai Yah. Eu louvarei a SENHOR com todo o coração, no conselho dos retos e congregação.",
   "termos_originais": [
     {
@@ -83,6 +83,13 @@
           "motivo": "colapsaria a distinção lexical com הַלְלוּ, apagando a variação estilística do original"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Louvai → Louvem",
+      "justificativa": "Normalização do paradigma vós→vocês (§3/D-0003): imperativo dirigido a humanos (convocação ao louvor) usa vocês; “Louvai” (vós) é arcaísmo funcional fora de vocativo litúrgico. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -98,10 +105,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Ps.112.1-10"
   },
-  "texto_bv": "Bom é o homem generoso, que empresta; ele conduz os seus assuntos com justiça.",
+  "texto_bv": "Bom é o homem generoso, que empresta; ele conduz os seus negócios com justiça.",
   "traducao_literal": "Bom homem gracioso e-emprestador; ele-sustentará suas-palavras com-juízo.",
   "termos_originais": [
     {
@@ -80,6 +80,13 @@
           "motivo": "quebraria a consistência já fixada com Ps.111.7, que também usa 'justiça' para H4941"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele conduz os seus assuntos com justiça → ele conduz os seus negócios com justiça",
+      "justificativa": "Consistência com NTLH/ARA/NVIPT (todas usam negócios) e precisão contextual (§1.4); contexto de empréstimo/comércio pede negócios, não assuntos. — revisão de forma sem alteração de sentido (ER-0019). RAT-1 (ratio 2.00) é falso positivo. Assuntos→negócios alinha com as 3 referências. Sobre Bom vs Feliz/Ditoso (divergência das refs): BV traduz tov literalmente como Bom, preservando a distinção lexical entre ashrei (v.1, Feliz) e tov (v.5, Bom); ARA/NVIPT/NTLH equalizam como feliz/ditoso. Escolha legítima da BV, sem necessidade de objeção.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -93,10 +100,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
