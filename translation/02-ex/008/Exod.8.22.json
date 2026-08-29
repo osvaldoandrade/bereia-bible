@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Exod.8.1-28"
   },
-  "texto_bv": "E Moisés disse: Não convém que façamos assim, porque sacrificaríamos ao SENHOR nosso Deus a abominação dos egípcios; eis que se sacrificássemos a abominação dos egípcios perante os seus olhos, não nos apedrejariam eles?",
+  "texto_bv": "E Moisés disse: Não convém que façamos assim, porque sacrificaríamos ao SENHOR nosso Deus a abominação dos egípcios; pois, se sacrificássemos a abominação dos egípcios perante os seus olhos, não nos apedrejariam eles?",
   "traducao_literal": "E disse Moisés: Não é reto fazer assim, porque abominação do Egito sacrificaríamos a YHWH, nosso Deus; eis que sacrificaríamos a abominação do Egito aos seus olhos, e não nos apedrejariam?",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eis que se sacrificássemos → pois, se sacrificássemos",
+      "justificativa": "§6.2/ER-0013 (normalização do calque 'eis que' com força explicativa, não dêitica) — revisão de forma sem alteração de sentido (ER-0019). RED-1 'abominacao egipcios' é falso positivo: a repetição de 'abominação dos egípcios' (to'evath mitsrayim) é fórmula intencional do original hebraico — a primeira ocorrência identifica o que seria sacrificado, a segunda reforça a consequência retórica. Manter por fidelidade (§4 do prompt canônico). CAL-2 'eis que' normalizado para 'pois' por ter função explicativa, não dêitica.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "תּוֹעֲבַת מִצְרַיִם 'abominação do Egito' — os animais que Israel sacrifica são sagrados para os egípcios; sacrificá-los à vista deles provocaria violência. Separação necessária. YHWH→SENHOR.",
@@ -122,10 +130,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Exod.8.1-28"
   },
-  "texto_bv": "E disse o SENHOR a Moisés: Dize a Arão: Estende a tua mão com a tua vara sobre os rios, sobre os canais, e sobre os tanques, e faze subir rãs sobre a terra do Egito.",
+  "texto_bv": "E o SENHOR disse a Moisés: Diga a Arão: Estenda a sua mão com a sua vara sobre os rios, sobre os canais e sobre os tanques, e faça subir rãs sobre a terra do Egito.",
   "traducao_literal": "E disse YHWH a Moisés: Dize a Arão: Estende a tua mão com o teu cajado sobre os rios, sobre os canais e sobre os açudes, e faze subir as rãs sobre a terra do Egito.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
       "escolha": "Êxodo 8 hebraico corresponde a 8:5-32 nas versões em português",
       "justificativa": "Consequência do deslocamento iniciado em 7:26 (heb) = 8:1 (pt). A BV numera pelo WLC/OSHB (fonte pinada), mantendo a auditabilidade versículo a versículo. Ao citar, converter: heb 8:N = pt 8:(N+4).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E disse o SENHOR → E o SENHOR disse | Dize a Arão: Estende a tua mão com a tua vara → Diga a Arão: Estenda a sua mão com a sua vara | e faze → e faça | canais, e sobre → canais e sobre",
+      "justificativa": "ER-0011 (ordem S-V em wayyiqtol narrativo) | §3/D-0003 (paradigma tu→você em discurso Deus→humano) | §3/D-0003 (imperativo tu→você) | pontuação (vírgula antes de 'e' em lista com mesmo sujeito) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -144,10 +151,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
