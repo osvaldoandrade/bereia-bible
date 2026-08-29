@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "2Kgs.8.1-29"
   },
-  "texto_bv": "Enquanto Geazi contava ao rei como Eliseu havia feito o morto reviver, eis que a mulher cujo filho ele fez reviver chegou para clamar ao rei por sua casa e por seu campo. Geazi disse: “Meu senhor, ó rei, esta é a mulher, e este é o filho dela, a quem Eliseu fez reviver.”",
+  "texto_bv": "Enquanto Geazi contava ao rei como Eliseu havia feito o morto reviver, a mulher cujo filho ele fez reviver chegou para clamar ao rei por sua casa e por seu campo. Geazi disse: “Meu senhor, ó rei, esta é a mulher, e este é o filho dela, a quem Eliseu fez reviver.”",
   "traducao_literal": "E aconteceu que ele estava contando ao rei o que Eliseu fez ao reviver o morto; e eis a mulher cujo filho ele fez reviver, clamando ao rei por sua casa e por seu campo. E Geazi disse: “Meu senhor, o rei, esta é a mulher e este é o filho dela, a quem Eliseu fez reviver.”",
   "termos_originais": [
     {
@@ -196,6 +196,13 @@
       "justificativa": "ARC-1: mais-que-perfeito sintético ‘fizera’ substituído por pretérito perfeito ‘fez’, forma viva em pt-BR; referência temporal clara pelo contexto narrativo. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eis que a mulher → a mulher",
+      "justificativa": "§6.2/ER-0013: 'eis que' é calque paratático do hebraico (הִנֵּה) que soa artificial em pt-BR contemporâneo quando não tem força dêitica marcada. NTLH/NVIPT normalizam para 'chegou/apresentou-se'; ARA mantém 'eis que' (mais arcaico). A BV remove o calque mantendo a narrativa fluida. — revisão de forma sem alteração de sentido (ER-0019). Remoção do calque 'eis que' conforme §6.2. Os 4 pronomes de 3ª pessoa (PRO-1) são todos necessários à clareza referencial (ele=Eliseu, ela=a mulher, seu filho, dela).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -214,9 +221,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
