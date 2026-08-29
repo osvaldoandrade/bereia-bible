@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "2Chr.8.1-18"
   },
-  "texto_bv": "Conforme a norma de Davi, seu pai, Salomão estabeleceu as divisões dos sacerdotes sobre o serviço deles; os levitas em seus postos, para louvar e servir diante dos sacerdotes segundo a tarefa de cada dia; e os porteiros em suas divisões, em cada porta, pois assim era o mandamento de Davi, homem de Deus.",
+  "texto_bv": "Conforme a norma de Davi, seu pai, Salomão estabeleceu as divisões dos sacerdotes sobre o serviço deles. Salomão estabeleceu os levitas em seus postos para louvar e servir diante dos sacerdotes, segundo a tarefa de cada dia, e os porteiros em suas divisões, em cada porta, pois assim era o mandamento de Davi, homem de Deus.",
   "traducao_literal": "E fez ficar de pé, conforme a norma de Davi, seu pai, as divisões dos sacerdotes sobre seu serviço, e os levitas sobre seus postos, para louvar e para servir diante dos sacerdotes, conforme a matéria de dia em seu dia, e os porteiros em suas divisões, para porta e porta, porque assim o mandamento de Davi, homem de Deus.",
   "termos_originais": [
     {
@@ -186,6 +186,13 @@
       "justificativa": "PRO-1: substituição de \"seu serviço\" por \"o serviço deles\" para desfazer ambiguidade do pronome possessivo — o referente é os sacerdotes, não Salomão (referência pronominal inequívoca, §1.3). — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sacerdotes sobre o serviço deles; os levitas → sacerdotes sobre o serviço deles. Salomão estabeleceu os levitas | para louvar e para servir → para louvar e servir",
+      "justificativa": "LEN-1 (sentença de 54 palavras). Divisão em duas sentenças (20 + 34 palavras). Sujeito “Salomão” explicitado na segunda sentença para clareza referencial, seguindo padrão NTLH/ARA/NVIPT que reintroduzem o sujeito. | Redundância do “para” repetido; a preposição única rege ambos os infinitivos sem perda de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -203,9 +210,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
