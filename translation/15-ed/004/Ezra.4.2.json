@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Ezra.4.1-24"
   },
-  "texto_bv": "Eles se aproximaram de Zorobabel e dos chefes das famílias paternas e lhes disseram: “Vamos construir com vocês, pois, assim como vocês, buscamos o Deus de vocês e sacrificamos a ele desde os dias de Esar-Hadom, rei da Assíria, que nos trouxe para cá.”",
+  "texto_bv": "Eles se aproximaram de Zorobabel e dos chefes das famílias paternas e lhes disseram: “Vamos construir com vocês, pois, porque, como vocês, nós buscamos o Deus de vocês e sacrificamos a ele desde os dias de Esar-Hadom, rei da Assíria, o qual nos trouxe para cá.”",
   "traducao_literal": "E aproximaram-se de Zorobabel e dos chefes dos pais, e disseram-lhes: “Construiremos com vocês, pois como vocês buscaremos o Deus de vocês, e a ele nós sacrificamos desde os dias de Esar-Hadom, rei da Assíria, aquele que nos fez subir para cá.”",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
           "motivo": "Inferiria leitura portuguesa do ketiv consonantal e inverteria a alegação dos falantes."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois, assim como vocês, buscamos → porque, como vocês, nós buscamos | que nos trouxe para cá → o qual nos trouxe para cá",
+      "justificativa": "Fluidez (§1.1): “porque, como vocês” é construção mais natural em pt-BR; pronome “nós” explícito evita ambiguidade; alinhado com NVIPT (“porque, como vocês, nós buscamos”). | Referência pronominal inequívoca (§1.5): “que” podia referir-se a “Deus” (antecedente mais próximo); “o qual” aponta inequivocamente para “Esar-Hadom, rei da Assíria”. — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 (45 palavras) tratado com correções cirúrgicas de fluidez e referência pronominal; NTLH divide em duas sentenças mas a BV mantém a unidade discursiva do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -179,10 +186,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
