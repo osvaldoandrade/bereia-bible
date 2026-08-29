@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Jer.18.1-23"
   },
-  "texto_bv": "Agora, pois, diga aos homens de Judá e aos moradores de Jerusalém: Assim diz o SENHOR: Eis que eu estou formando um mal contra vocês e planejando um plano contra vocês. Voltem agora, cada um do seu mau caminho, e corrijam os seus caminhos e as suas ações.",
+  "texto_bv": "Agora, pois, diga aos homens de Judá e aos moradores de Jerusalém: Assim diz o SENHOR: Eis que eu estou formando um mal contra vocês e traçando um plano contra vocês. Voltem agora, cada um do seu mau caminho, e corrijam os seus caminhos e as suas ações.",
   "traducao_literal": "E agora, dize, por favor, ao homem de Judá e aos moradores de Jerusalém, para dizer: Assim disse o SENHOR: Eis que eu formando contra vocês mal, e pensando contra vocês pensamento; voltem, por favor, cada um do seu caminho, o mau, e façam bem os seus caminhos e as suas ações.",
   "termos_originais": [
     {
@@ -179,6 +179,13 @@
           "motivo": "apagaria a figura etimológica que o original constrói de propósito"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "planejando um plano → traçando um plano",
+      "justificativa": "Redundância cacofônica em pt-BR ('planejando um plano'); substituído por 'traçando um plano' que preserva o sentido do acusativo cognato hebraico (חֹשֵׁב מַחֲשָׁבָה) com leitura mais natural. A repetição 'contra vocês...contra vocês' é mantida por ser paralelismo intencional do original (עֲלֵיכֶם repetido). — revisão de forma sem alteração de sentido (ER-0019). RED-1 (contra vocês ×2): o hebraico repete עֲלֵיכֶם duas vezes — paralelismo intencional que a BV preserva; não é redundência espúria. CAL-2 (eis que): הִנֵּה com força dêitica enfática no anúncio divino; mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -190,10 +197,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
