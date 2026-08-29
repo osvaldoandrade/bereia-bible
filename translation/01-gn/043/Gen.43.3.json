@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Gen.43.1-34"
   },
-  "texto_bv": "Mas Judá lhe falou, dizendo: Aquele homem nos protestou fortemente, dizendo: Não verão a minha face, se o irmão de vocês não estiver com vocês.",
+  "texto_bv": "Mas Judá lhe falou, dizendo: Aquele homem nos advertiu severamente, dizendo: Não verão a minha face, se o irmão de vocês não estiver com vocês.",
   "traducao_literal": "E disse a ele Judá, dizendo: Testemunhar testemunhou contra nós o homem, dizendo: Não vereis a minha face sem o vosso irmão convosco.",
   "termos_originais": [
     {
@@ -94,6 +94,13 @@
       "justificativa": "Ordem S-V preferencial em pt-BR; fronting enfático do hebraico normalizado. | ARC-1/VOS-1/§3/D-0003: paradigma vós→vocês (vereis→verão, vosso→de vocês, convosco→com vocês). — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "protestou fortemente → advertiu severamente",
+      "justificativa": "Escolha lexical mais precisa para o heb. הֵעִיד (testificar/advertir solenemente). ARA e NVIPT convergem em \"advertiu\"; \"protestar\" em pt-BR contemporâneo tem conotação de reclamar/reivindicar, não de advertir com veemência. §1.4 e piso de naturalidade (§1.1.4). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -106,9 +113,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
