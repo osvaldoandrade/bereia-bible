@@ -4,16 +4,30 @@
  "versos": [
   {
    "osis": "Exod.15.1",
-   "texto_bv_revisto": "Então cantou Moisés e os filhos de Israel este cântico ao SENHOR, e falaram, dizendo: Cantarei ao SENHOR, porque triunfou gloriosamente; lançou no mar o cavalo e o seu cavaleiro.",
-   "mudancas": [],
+   "texto_bv_revisto": "Então cantaram Moisés e os filhos de Israel este cântico ao SENHOR, dizendo: Cantarei ao SENHOR, porque triunfou gloriosamente; lançou no mar o cavalo e o seu cavaleiro.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Então cantou Moisés",
+     "depois": "Então cantaram Moisés",
+     "motivo": "concordância verbal: sujeito composto 'Moisés e os filhos de Israel' exige verbo no plural (cantaram)"
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "ao SENHOR, e falaram, dizendo:",
+     "depois": "ao SENHOR, dizendo:",
+     "motivo": "normalização de calque paratático (ER-0013): redundância do duplo verbo introdutório 'e falaram, dizendo' (וַיֹּאמְרוּ לֵאמֹר) eliminada; 'dizendo' basta para introduzir o cântico"
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Exod.15.2",
    "texto_bv_revisto": "O SENHOR é a minha força e o meu cântico; ele me foi por salvação; este é o meu Deus, portanto lhe farei uma habitação; o Deus de meu pai, e o exaltarei.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "As três referências convergem em 'o louvarei' para אַנְוֵהוּ (anvehu), enquanto a BV segue a tradição interpretativa de נָוָה (habitação/morada), rendendo 'lhe farei uma habitação'. Ambas são leituras legítimas do hebraico; a BV preserva a metáfora da morada divina. Mudança para 'o louvarei' alteraria o sentido teológico — não aplicável como edição de forma.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -42,6 +56,7 @@
    "texto_bv_revisto": "A tua destra, ó SENHOR, é gloriosa em poder; a tua destra, ó SENHOR, despedaça o inimigo.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "Achado RED-1 (redundância 'destra senhor') é falso positivo: a repetição de 'A tua destra, ó SENHOR' é paralelismo sinonímico hebraico, estrutura poética intencional do cântico. ARA mantém a mesma repetição ('A tua destra, ó Senhor... a tua destra, ó Senhor'). Fórmula preservada conforme item 4 do prompt (redundância intencional do original = fidelidade).",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -63,6 +78,7 @@
    "texto_bv_revisto": "O inimigo dizia: Perseguirei, alcançarei, repartirei os despojos; a minha alma se fartará deles, arrancarei a minha espada, a minha mão os destruirá.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "As referências divergem da BV em 'a minha alma se fartará deles' (ARA: 'meu desejo se satisfará'; NVIPT: 'os devorarei'; NTLH: 'ficaremos com tudo'). A BV preserva a metáfora hebraica da נֶפֶשׁ (alma/apetite) como sujeito — תמלא נפשי (minha alma se encherá). A expressão é legível em português e integra a retórica do inimigo no original. 'Fartar-se' não é arcaísmo; a construção é poética mas compreensível.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -84,6 +100,7 @@
    "texto_bv_revisto": "Estendeste a tua destra; a terra os tragou.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "As três referências usam 'mão direita' onde a BV usa 'destra'. No entanto, a BV mantém consistência intra-capítulo (§1.4): 'destra' aparece tanto em v6 quanto em v12 para o mesmo termo hebraico (יָמִין, yamin). A ARA é inconsistente ('destra' em v6, 'mão direita' em v12). A BV é mais coerente internamente. 'Destra' é termo literário mas não arcaico, adequado ao registro poético do cântico.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -145,16 +162,9 @@
   {
    "osis": "Exod.15.21",
    "texto_bv_revisto": "E Miriã lhes respondia: Cantem ao SENHOR, porque triunfou gloriosamente; lançou no mar o cavalo com o seu cavaleiro.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "Cantai ao SENHOR",
-     "depois": "Cantem ao SENHOR",
-     "motivo": "Normalização do paradigma de 2ª pessoa (§3/D-0003): imperativo vós 'Cantai' → vocês 'Cantem' em discurso humano→humano (Miriã dirige-se às mulheres)."
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Exod.15.22",
@@ -179,23 +189,62 @@
   },
   {
    "osis": "Exod.15.25",
-   "texto_bv_revisto": "E ele clamou ao SENHOR, e o SENHOR mostrou-lhe uma árvore, e lançou-a nas águas, e as águas se tornaram doces. Ali lhes deu estatuto e ordenança, e ali os provou,",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.15.26",
-   "texto_bv_revisto": "e disse: Se ouvires atento a voz do SENHOR teu Deus, e fizeres o que é reto diante dos seus olhos, e inclinares os ouvidos aos seus mandamentos, e guardares todos os seus estatutos, nenhuma das enfermidades que pus sobre o Egito porei sobre ti; porque eu sou o SENHOR que te sara.",
+   "texto_bv_revisto": "E ele clamou ao SENHOR, e o SENHOR mostrou-lhe uma árvore, e Moisés a lançou nas águas, e as águas se tornaram doces. Ali lhes deu estatuto e ordenança, e ali os provou,",
    "mudancas": [
     {
      "tipo": "EDITORIAL",
-     "antes": "guardares todos os seus estatutos, nenhuma das enfermidades",
-     "depois": "guardares todos os seus estatutos. Nenhuma das enfermidades",
-     "motivo": "Divisão de sentença com 53 palavras em duas (condições | promessa), conforme EDITORIAL §1.3 e ER-0019, sem perda sintática nem adição de sentido."
+     "antes": "e lançou-a nas águas",
+     "depois": "e Moisés a lançou nas águas",
+     "motivo": "clareza referencial (§5): sujeito de 'lançou' ambíguo após cláusula com 'o SENHOR' como sujeito; ARA/NVIPT/NTLH explicitam Moisés como agente"
     }
    ],
    "objecoes": [],
+   "justificativa": "As três referências explicitam Moisés como sujeito de 'lançou' (ARA: 'Moisés lançou-a'; NVIPT: 'Ele o lançou'; NTLH: 'Moisés jogou'), enquanto a BV deixava o sujeito implícito após cláusula com 'o SENHOR' como sujeito, gerando ambiguidade referencial. Sujeito explicitado para clareza, sem alteração de sentido.",
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Exod.15.26",
+   "texto_bv_revisto": "e disse: Se vocês ouvirem atentamente a voz do SENHOR, seu Deus, e fizerem o que é reto diante dos seus olhos, e inclinarem os ouvidos aos seus mandamentos, e guardarem todos os seus estatutos, nenhuma das enfermidades que pus sobre o Egito porei sobre vocês; porque eu sou o SENHOR que os sara.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Se ouvires atento a voz do SENHOR teu Deus",
+     "depois": "Se vocês ouvirem atentamente a voz do SENHOR, seu Deus",
+     "motivo": "normalização do paradigma de 2ª pessoa vós→vocês em discurso Deus→humano (§3/D-0003): ouvires atento (tu) → vocês ouvirem atentamente; teu Deus → seu Deus"
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "e fizeres",
+     "depois": "e fizerem",
+     "motivo": "normalização do paradigma de 2ª pessoa vós→vocês (D-0003)"
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "e inclinares",
+     "depois": "e inclinarem",
+     "motivo": "normalização do paradigma de 2ª pessoa vós→vocês (D-0003)"
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "e guardares",
+     "depois": "e guardarem",
+     "motivo": "normalização do paradigma de 2ª pessoa vós→vocês (D-0003)"
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "porei sobre ti",
+     "depois": "porei sobre vocês",
+     "motivo": "normalização do paradigma de 2ª pessoa vós→vocês (D-0003)"
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "que te sara",
+     "depois": "que os sara",
+     "motivo": "normalização do paradigma de 2ª pessoa vós→vocês (D-0003)"
+    }
+   ],
+   "objecoes": [],
+   "justificativa": "Achado LEN-1 (53 palavras): a sentença condicional única (4 condições + consequência + razão) é mantida como um só período para preservar o fluxo lógico-retórico do original hebraico, alinhada com ARA que também não divide. O LEN-1 é atenuado pela estrutura paralela das condições. A normalização do paradigma vós→vocês (D-0003) foi aplicada em todo o discurso Deus→humano: 6 formas verbais e 2 pronomes normalizados de tu para vocês.",
    "veredito": "REVISADO"
   },
   {
