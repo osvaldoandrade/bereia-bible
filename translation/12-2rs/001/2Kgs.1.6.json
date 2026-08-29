@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "2Kgs.1.1-18"
   },
-  "texto_bv": "Eles lhe responderam: “Um homem subiu ao nosso encontro e nos disse: ‘Vão, voltem ao rei que enviou vocês e digam-lhe: Assim diz o SENHOR: É por não haver Deus em Israel que você manda consultar Baal-Zebube, deus de Ecrom? Por isso, você não descerá da cama em que subiu, pois certamente morrerá.’”",
+  "texto_bv": "Eles lhe responderam: “Um homem subiu ao nosso encontro e nos disse: ‘Vão, voltem ao rei que enviou vocês. Digam-lhe: Assim diz o SENHOR: É por não haver Deus em Israel que você manda consultar Baal-Zebube, deus de Ecrom? Por isso, você não descerá da cama em que subiu, pois certamente morrerá.’”",
   "traducao_literal": "E disseram a ele: “Um homem subiu ao nosso encontro e disse a nós: ‘Vão, voltem ao rei que enviou vocês, e falem a ele: Assim disse o SENHOR: É por não haver Deus em Israel que você está enviando para consultar Baal-Zebube, deus de Ecrom? Por isso, a cama à qual você subiu ali, não descerá dela, pois morrer, morrerá.’”",
   "termos_originais": [
     {
@@ -235,6 +235,13 @@
       "justificativa": "Sentença com 42+ palavras (LEN-1) devido a discurso direto aninhado em três níveis: narração → fala dos mensageiros → instrução ao rei → oráculo divino. — evidência: Divisão exigiria reestruturação do enquadramento de fala reportada (paráfrase do discurso), o que ultrapassa correção de forma; comprimento é inerente à estrutura de citação aninhada do original hebraico. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "...que enviou vocês e digam-lhe: Assim diz o SENHOR... → ...que enviou vocês. Digam-lhe: Assim diz o SENHOR...",
+      "justificativa": "Sentença com 42 palavras (> 40, §1.3); dividida em duas após a instrução de retorno, antes da mensagem profética a ser transmitida. S1: 21 palavras; S2: ~30 palavras. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -249,9 +256,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
