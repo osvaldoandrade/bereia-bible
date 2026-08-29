@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Deut.20.1-20"
   },
-  "texto_bv": "Quanto às mulheres, às crianças, aos animais e a tudo o que houver na cidade — todo o seu despojo —, você tomará tudo como despojo para si. Você ficará com o despojo de seus inimigos que o SENHOR, seu Deus, lhe entregou.",
+  "texto_bv": "Quanto às mulheres, às crianças, aos animais e a tudo o que houver na cidade — todo o seu despojo —, você tomará tudo para si. Você ficará com o despojo de seus inimigos que o SENHOR, seu Deus, lhe entregou.",
   "traducao_literal": "Somente as mulheres, e as crianças, e o animal, e tudo o que houver na cidade, todo o despojo dela, você saqueará para você; e comerá o despojo de seus inimigos que deu YHWH, seu Deus, a você.",
   "termos_originais": [
     {
@@ -147,6 +147,13 @@
           "motivo": "Inverte a apropriação."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "você tomará tudo como despojo para si → você tomará tudo para si",
+      "justificativa": "RED-1: “despojo” aparecia 3× no verso (aparição extra na BV além das 2× do hebraico שָׁלָל). A aposição “— todo o seu despojo —” já nomeia o conceito; remover “como despojo” na oração seguinte elimina a redundância sem perda de sentido. Restam 2× “despojo”, fiel ao original. — revisão de forma sem alteração de sentido (ER-0019). PRO-1 é falso-positivo: “seu”, “seus”, “lhe” são formas do paradigma você (2ª pessoa). RED-1 corrigido: redução de “despojo” de 3× para 2×, alinhando com o hebraico e com ARA (que usa “despojo” + “presa” para variar).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -165,10 +172,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
