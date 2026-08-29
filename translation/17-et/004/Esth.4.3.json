@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Esth.4.1-17"
   },
-  "texto_bv": "Em toda província, no lugar aonde chegava a ordem do rei e o seu decreto, havia grande luto entre os judeus, com jejum, choro e lamento; saco e cinza eram estendidos para muitos.",
+  "texto_bv": "Em toda província, no lugar aonde chegava a ordem do rei e o seu decreto, havia grande luto entre os judeus, com jejum, choro e lamento; muitos se deitavam em saco e cinza.",
   "traducao_literal": "E em toda província e província, lugar onde a palavra do rei e o seu decreto chegava, luto grande para os judeus, e jejum, e choro, e lamentação; saco e cinza eram estendidos para muitos.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
           "motivo": "perderia a nuança de יצע (estender/servir de leito), diferente do לבש (vestir) usado no v.1 para Mardoqueu."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "saco e cinza eram estendidos para muitos → muitos se deitavam em saco e cinza",
+      "justificativa": "Passiva calque do hebraico (יֻצַּע) soa artificial em pt-BR e obscurece o agente; NTLH/ARA/NVIPT convergem na voz ativa (“se deitavam em saco e cinza” / “vestiram roupas de pano grosseiro e se deitaram sobre cinzas”). Normalização para ativa conforme §6 (passivas desnecessárias) e §1.4 (piso de naturalidade). — revisão de forma sem alteração de sentido (ER-0019). NTLH/ARA/NVIPT usam voz ativa (“muitos se deitavam em saco e cinza” ou equivalente); a passiva da BV é calque que soa pouco natural em pt-BR contemporâneo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -144,10 +151,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
