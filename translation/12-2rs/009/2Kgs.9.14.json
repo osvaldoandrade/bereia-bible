@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "2Kgs.9.1-37"
   },
-  "texto_bv": "Jeú, filho de Josafá, filho de Ninsi, conspirou contra Jorão. Jorão estava defendendo Ramote-Gileade, ele e todo Israel, contra Hazael, rei de Arã.",
+  "texto_bv": "Jeú, filho de Josafá, neto de Ninsi, conspirou contra Jorão. Jorão estava defendendo Ramote-Gileade, ele e todo Israel, contra Hazael, rei de Arã.",
   "traducao_literal": "E conspirou Jeú, filho de Josafá, filho de Ninsi, contra Jorão; e Jorão estava guardando em Ramote-Gileade, ele e todo Israel, diante de Hazael, rei de Arã.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
           "motivo": "Troca o sujeito singular nomeado."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "filho de Ninsi → neto de Ninsi",
+      "justificativa": "consistência com v.2; NTLH e NVIPT usam “neto de Ninsi” (§1.4) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -136,10 +143,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
