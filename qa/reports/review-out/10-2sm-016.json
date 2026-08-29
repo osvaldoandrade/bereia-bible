@@ -61,9 +61,17 @@
     {
       "osis": "2Sam.16.9",
       "texto_bv_revisto": "Abisai, filho de Zeruia, perguntou ao rei: “Que razão existe para este cão morto amaldiçoar meu senhor, o rei? Conceda-me atravessar e remover a cabeça dele.”",
-      "mudancas": [],
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "meu senhor, o rei?",
+          "depois": "meu senhor, o rei?",
+          "motivo": "A frase é interrogativa direta (pergunta retórica); a BV omitiu o ponto de interrogação final. Pontuação conforme sintaxe portuguesa (§6.1). ARA e NVIPT confirmam a interrogação."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Achado VOS-1 é falso positivo (detalhe 'abisai' refere-se ao nome próprio, não a forma verbal de 2ª pessoa do plural). A correção aplicada é puramente pontuacional: adição do '?' ausente em frase interrogativa direta.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "2Sam.16.10",
@@ -74,16 +82,25 @@
     },
     {
       "osis": "2Sam.16.11",
-      "texto_bv_revisto": "Davi dirigiu estas palavras a Abisai e ao conjunto de seus servos: “Meu próprio filho, nascido de mim, está atrás da minha vida; muito mais este benjamita! Não o impeçam de amaldiçoar, pois foi isso que o SENHOR lhe disse.",
-      "mudancas": [],
+      "texto_bv_revisto": "Davi dirigiu estas palavras a Abisai e a todos os seus servos: “Meu próprio filho, nascido de mim, está atrás da minha vida; muito mais este benjamita! Não o impeçam de amaldiçoar, pois foi isso que o SENHOR lhe disse.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "ao conjunto de seus servos",
+          "depois": "a todos os seus servos",
+          "motivo": "Uso não idiomático de 'conjunto' para traduzir 'todos os seus servos' (literal: 'a todos os seus servos'). 'Conjunto' em pt-BR soa matemático/técnico neste contexto. NTLH ('todos os seus oficiais'), ARA ('todos os seus servos') e NVIPT ('todos os seus conselheiros') usam 'todos'. Correção por naturalidade (§1.1/§1.4)."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Achado VOS-1 é falso positivo (detalhe 'abisai' é nome próprio). A mudança de 'ao conjunto de seus servos' para 'a todos os seus servos' corrige expressão não idiomática em pt-BR, alinhando com as três referências (NTLH/ARA/NVIPT) e com a própria traducao_literal ('a todos os seus servos').",
+      "veredito": "REVISADO"
     },
     {
       "osis": "2Sam.16.12",
       "texto_bv_revisto": "Talvez o SENHOR considere minha iniquidade e me retribua com o bem em troca da maldição dele neste dia.”",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "As três referências usam 'aflição' onde a BV usa 'iniquidade'. No entanto, a traducao_literal da BV também traduz 'minha iniquidade', indicando que a BV segue leitura textual distinta (hebraico com 'avon' em vez de 'ani'). Divergência é textual, não de forma; portanto, SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -112,6 +129,7 @@
       "texto_bv_revisto": "Quando Husai, o arquita, amigo de Davi, chegou até Absalão, disse-lhe: “Viva o rei! Viva o rei!”",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 é falso positivo (detalhe 'husai' é nome próprio, não forma verbal). Texto em boa forma, com aspas curvas e discurso direto correto.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -119,6 +137,7 @@
       "texto_bv_revisto": "Absalão perguntou a Husai: “É esta a sua lealdade para com seu amigo? Por que você não foi com ele?”",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 é falso positivo (detalhe 'husai' é nome próprio). Texto já emprega paradigma 'você' (§3/D-0003) e soa natural em pt-BR.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -126,6 +145,7 @@
       "texto_bv_revisto": "Husai respondeu a Absalão: “Não! Ficarei a serviço daquele que foi escolhido pelo SENHOR, por este povo e por todos os homens de Israel; é com ele que permanecerei.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 é falso positivo (detalhe 'husai' é nome próprio). Texto emprega paradigma 'você'/eu coerente e soa natural.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -161,6 +181,7 @@
       "texto_bv_revisto": "Naqueles dias, o conselho que Aitofel dava era como se alguém consultasse a palavra de Deus. Assim era considerado todo conselho de Aitofel, tanto por Davi como por Absalão.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado RED-1 aponta repetição de 'conselho [de Aitofel]' em duas sentenças adjacentes. No entanto, a repetição espelha o hebraico (que repete o termo duas vezes) e constitui fórmula intencional do original — manter é fidelidade (§4 do prompt: 'repetir o que o original repete é FIDELIDADE'). A BV já condensa a primeira ocorrência ('o conselho que Aitofel dava') em relação à literal ('o conselho de Aitofel que aconselhou'), reduzindo a redundância sem apagá-la.",
       "veredito": "SEM_ALTERACAO"
     }
   ]

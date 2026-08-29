@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "2Sam.16.1-23"
   },
-  "texto_bv": "Davi dirigiu estas palavras a Abisai e ao conjunto de seus servos: “Meu próprio filho, nascido de mim, está atrás da minha vida; muito mais este benjamita! Não o impeçam de amaldiçoar, pois foi isso que o SENHOR lhe disse.",
+  "texto_bv": "Davi dirigiu estas palavras a Abisai e a todos os seus servos: “Meu próprio filho, nascido de mim, está atrás da minha vida; muito mais este benjamita! Não o impeçam de amaldiçoar, pois foi isso que o SENHOR lhe disse.",
   "traducao_literal": "E Davi disse a Abisai e a todos os seus servos: “Eis, meu filho, que saiu de minhas entranhas, busca minha vida; quanto mais agora um benjamita! Deixem-no, e que amaldiçoe, pois o SENHOR disse a ele.",
   "termos_originais": [
     {
@@ -177,6 +177,13 @@
           "motivo": "Substitui o SENHOR como fonte atribuída da fala."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ao conjunto de seus servos → a todos os seus servos",
+      "justificativa": "Uso não idiomático de 'conjunto' para traduzir 'todos os seus servos' (literal: 'a todos os seus servos'). 'Conjunto' em pt-BR soa matemático/técnico neste contexto. NTLH ('todos os seus oficiais'), ARA ('todos os seus servos') e NVIPT ('todos os seus conselheiros') usam 'todos'. Correção por naturalidade (§1.1/§1.4). — revisão de forma sem alteração de sentido (ER-0019). Achado VOS-1 é falso positivo (detalhe 'abisai' é nome próprio). A mudança de 'ao conjunto de seus servos' para 'a todos os seus servos' corrige expressão não idiomática em pt-BR, alinhando com as três referências (NTLH/ARA/NVIPT) e com a própria traducao_literal ('a todos os seus servos').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -196,10 +203,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
