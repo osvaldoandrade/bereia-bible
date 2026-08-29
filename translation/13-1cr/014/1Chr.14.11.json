@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "1Chr.14.1-17"
   },
-  "texto_bv": "Eles subiram a Baal-Perazim, e Davi feriu os filisteus ali. Davi disse: “Deus abriu uma brecha em meus inimigos por minha mão, como uma brecha aberta pelas águas.” Por isso chamaram aquele lugar Baal-Perazim.",
+  "texto_bv": "Os filisteus subiram a Baal-Perazim, e Davi os derrotou ali. Davi disse: “Deus abriu uma brecha em meus inimigos por minha mão, como uma brecha aberta pelas águas.” Por isso chamaram aquele lugar Baal-Perazim.",
   "traducao_literal": "E subiram em Baal-Perazim, e os feriu ali Davi; e disse Davi: “Rompeu Deus meus inimigos por minha mão, como brecha de águas.” Por isso chamaram o nome daquele lugar Baal-Perazim.",
   "termos_originais": [
     {
@@ -154,6 +154,13 @@
         }
       ],
       "diretriz_ref": "ER-0013"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eles subiram a Baal-Perazim → Os filisteus subiram a Baal-Perazim | Davi feriu os filisteus ali → Davi os derrotou ali",
+      "justificativa": "Referência pronominal inequívoca (§1.5): \"Eles\" sem antecedente explícito na frase poderia referir-se a Davi e seus homens; ARA explicita \"os filisteus\". | נָכָה (nakah) em contexto de batalha traduzido por \"derrotou\" em ARA/NTLH/NVIPT; \"feriu\" soa literal demais em pt-BR para narrativa de batalha (§1.4 piso de naturalidade). — revisão de forma sem alteração de sentido (ER-0019). Achado RED-1 (\"baal perazim\") adjudicado: repetição do nome é fórmula etiológica intencional do original (explicação toponímica), não redundância defeituosa — mantida. NTLH/ARA/NVIPT convergem em \"derrotou\"; BV com \"feriu\" soa menos natural em narrativa de batalha.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -172,10 +179,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
