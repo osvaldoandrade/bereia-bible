@@ -66,13 +66,32 @@
   "confianca": 0.62,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): Possível confusão entre Disom (דִּישׁוֹן, filho de Aná, v. 41) e Disã (דִּישָׁן, filho de Seir, v. 38). O TM em 1Cr 1:42 lê בְּנֵי דִישָׁן ('filhos de Disã'), e ARA/NVIPT vertem corretamente 'Disã'. A BV grafa 'Disom', grafia que em 1.38 identifica outro personagem. A traducao_literal também traz 'Disom', sugerindo que o erro pode estar na fonte/packet. — evidência: ARA 1.42: 'Os filhos de Disã: Uz e Arã.' NVIPT 1.42: 'Estes foram os filhos de Disã: Uz e Arã.' BV 1.38 já grafa corretamente 'Disã' para o filho de Seir, mas em 1.42 usa 'Disom'."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
