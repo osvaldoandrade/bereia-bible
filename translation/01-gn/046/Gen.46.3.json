@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Gen.46.1-34"
   },
-  "texto_bv": "E disse: Eu sou Deus, o Deus de teu pai; não temas descer ao Egito, porque eu te farei ali uma grande nação.",
+  "texto_bv": "E disse: Eu sou Deus, o Deus de seu pai; não tema descer ao Egito, porque eu farei de você ali uma grande nação.",
   "traducao_literal": "E disse: Eu o Deus (El), Deus de teu pai; não temas de descer ao Egito, porque em nação grande te porei ali.",
   "termos_originais": [
     {
@@ -88,6 +88,13 @@
       "escolha": "Eu sou Deus, o Deus de teu pai",
       "justificativa": "הָאֵל 'o Deus' (El, o nome do Deus dos patriarcas) em aposição a 'o Deus de teu pai' — continuidade da aliança de Abraão/Isaque. Verte-se 'Deus' (El), mantendo a identificação patriarcal.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "teu pai → seu pai | não temas → não tema | eu te farei ali uma grande nação → eu farei de você ali uma grande nação",
+      "justificativa": "§3/D-0003: paradigma tu→você em discurso Deus→humano; NTLH e NVIPT usam seu/seu pai | §3/D-0003: imperativo tu→você em discurso Deus→humano | §3/D-0003: pronome oblíquo tu→você em discurso Deus→humano; NVIPT segue o mesmo padrão (farei de você) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -99,10 +106,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
