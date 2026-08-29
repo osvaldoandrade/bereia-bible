@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Ezek.10.1-22"
   },
-  "texto_bv": "Então ele disse ao homem vestido de linho: “Entre por entre o rodopio, por baixo do querubim; encha as suas mãos de brasas de fogo dentre os querubins e espalhe-as sobre a cidade.” E ele entrou diante dos meus olhos.",
+  "texto_bv": "Então ele disse ao homem vestido de linho: “Entre no meio do rodopio, por baixo do querubim; encha as suas mãos de brasas de fogo dentre os querubins e espalhe-as sobre a cidade.” E ele entrou diante dos meus olhos.",
   "traducao_literal": "E disse ao homem vestido de linho, e disse: Entra para entre o rodopio, para debaixo do querubim; e enche os teus punhos de brasas de fogo dentre os querubins; e espalha sobre a cidade. E entrou diante dos meus olhos.",
   "termos_originais": [
     {
@@ -173,6 +173,20 @@
           "motivo": "importa conotação de mecanismo de içar, ausente do hebraico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Entre por entre o rodopio → Entre no meio do rodopio",
+      "justificativa": "Correção de cacofonia (§1.3): sequência 'Entre por entre' soa artificial em leitura em voz alta; 'no meio de' preserva o sentido de penetração no interior do mecanismo das rodas. — revisão de forma sem alteração de sentido (ER-0019). Cacofonia 'Entre por entre' corrigida. 'Ele' ambíguo registrado como objeção EDITORIAL: ARA concorda com BV (sujeito implícito); NTLH/NVIPT explicitam. Imperativos já corretamente no paradigma 'você' (entre/encha/espalhe, §3/D-0003).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Pronome 'ele' sem antecedente explícito no verso. — evidência: NTLH e NVIPT identificam o falante como 'o SENHOR'/'O Senhor'; ARA deixa implícito; BV usa 'ele' que é ambíguo sem contexto imediato. Explicitação exigiria adição além do que o hebraico declara no verso (wayyomer sem sujeito nomeado). (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -188,10 +202,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
