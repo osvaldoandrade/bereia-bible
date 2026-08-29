@@ -14,6 +14,7 @@
    "texto_bv_revisto": "Eles vieram com Zorobabel, Jesua, Neemias, Seraías, Reelaías, Mordecai, Bilsã, Mispar, Bigvai, Reum e Baaná. Este é o número dos homens do povo de Israel:",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Mordecai\" e \"Bigvai\" são nomes próprios hebraicos transliterados, não formas verbais de 2ª pessoa plural. Sobre \"Mordecai\" (BV/NTLH) vs \"Mardoqueu\" (ARA/NVIPT): NTLH também usa \"Mordecai\", e a forma é corrente em pt-BR contemporâneo; variação legítima entre transliteração e forma tradicional, sem arcaísmo.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -63,6 +64,7 @@
    "texto_bv_revisto": "Descendentes de Zacai: setecentos e sessenta.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Zacai\" é nome próprio hebraico transliterado, não forma verbal de 2ª pessoa plural.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -77,6 +79,7 @@
    "texto_bv_revisto": "Descendentes de Bebai: seiscentos e vinte e três.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Bebai\" é nome próprio hebraico transliterado, não forma verbal de 2ª pessoa plural.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -98,6 +101,7 @@
    "texto_bv_revisto": "Descendentes de Bigvai: dois mil e cinquenta e seis.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Bigvai\" é nome próprio hebraico transliterado, não forma verbal de 2ª pessoa plural.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -119,6 +123,7 @@
    "texto_bv_revisto": "Descendentes de Bezai: trezentos e vinte e três.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Bezai\" é nome próprio hebraico transliterado, não forma verbal de 2ª pessoa plural.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -294,6 +299,7 @@
    "texto_bv_revisto": "Os descendentes dos porteiros: descendentes de Salum, Ater, Talmom, Acube, Hatita e Sobai; ao todo, cento e trinta e nove.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Sobai\" é nome próprio hebraico transliterado, não forma verbal de 2ª pessoa plural. A repetição de \"descendentes\" reflete a estrutura formular do original, condensada conforme ER-0013 (a literal repete \"filhos de\" seis vezes).",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -322,6 +328,7 @@
    "texto_bv_revisto": "descendentes de Hagabe, Salmai e Hanã;",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Salmai\" é nome próprio hebraico transliterado, não forma verbal de 2ª pessoa plural.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -343,6 +350,7 @@
    "texto_bv_revisto": "descendentes de Uzá, Paseia e Besai;",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Besai\" é nome próprio hebraico transliterado, não forma verbal de 2ª pessoa plural.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -382,10 +390,18 @@
   },
   {
    "osis": "Ezra.2.55",
-   "texto_bv_revisto": "Os descendentes dos servos de Salomão: descendentes de Sotai, Haçoferete e Peruda;",
-   "mudancas": [],
+   "texto_bv_revisto": "Os descendentes dos servos de Salomão: descendentes de Sotai, Soferete e Peruda;",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Haçoferete",
+     "depois": "Soferete",
+     "motivo": "Convergência total das 3 referências (NTLH/ARA/NVIPT usam \"Soferete\"); BV usava \"Haçoferete\" com artigo hebraico incorporado, transliteração erudita. EDITORIAL §8 pede grafia consolidada em português; §1.4 reforça consistência com as referências."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "justificativa": "VOS-1 é falso-positivo (\"Sotai\" é nome próprio). Mudança aplicada: \"Haçoferete\" → \"Soferete\" (convergência das 3 refs, §8/§1.4).",
+   "veredito": "REVISADO"
   },
   {
    "osis": "Ezra.2.56",
@@ -399,6 +415,7 @@
    "texto_bv_revisto": "descendentes de Sefatias, Hatil, Poquerete-Hazebaim e Ami.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RAT-1 é falso-positivo: a ratio baixa (0.58) resulta da condensação legítima da fórmula repetitiva \"filhos de X, filhos de Y...\" em \"descendentes de X, Y, Z...\" — exatamente o que ER-0013 recomenda para o texto publicado. A traducao_literal preserva a repetição para auditoria.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -427,6 +444,7 @@
    "texto_bv_revisto": "Entre os descendentes dos sacerdotes estavam os descendentes de Habaías, de Hacoz e de Barzilai. O ancestral destes havia tomado como esposa uma das filhas de Barzilai, o gileadita, e passou a ser chamado pelo nome da família delas.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "VOS-1 é falso-positivo: \"Barzilai\" é nome próprio hebraico transliterado, não forma verbal de 2ª pessoa plural.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -434,6 +452,7 @@
    "texto_bv_revisto": "Eles procuraram seu registro genealógico, mas não foram encontrados; por isso, foram considerados impuros e excluídos do sacerdócio.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PAS-1 (peso 1): as duas construções passivas (\"não foram encontrados\", \"foram considerados impuros\") refletem a construção do original hebraico e são gramaticalmente naturais em pt-BR. ARA também mantém passivas equivalentes. Remodelar para ativa exigiria introduzir sujeito não presente no original (mudança de sentido).",
    "veredito": "SEM_ALTERACAO"
   },
   {
