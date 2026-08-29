@@ -5,16 +5,10 @@
   {
    "osis": "Josh.8.1",
    "texto_bv_revisto": "O SENHOR disse a Josué: “Não tenha medo nem fique desanimado. Leve com você todo o povo de guerra, levante-se e suba contra Ai. Veja: entreguei em sua mão o rei de Ai, o povo dele, a cidade dele e a terra dele.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "seu povo, sua cidade e sua terra",
-     "depois": "o povo dele, a cidade dele e a terra dele",
-     "motivo": "Referência pronominal inequívoca (item 5/PRO-1): ‘seu/sua’ ambíguo no paradigma você (pode referir-se a Josué ou ao rei de Ai); ‘dele’ explicita posse do rei, conforme a traducao_literal (‘o povo dele, e a cidade dele, e a terra dele’)."
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "justificativa": "PRO-1 é falso-positivo: os três “dele” têm antecedente claro (“o rei de Ai”) e são mais precisos que “seu/sua” (ambíguo em pt-BR). ARA e NVIPT também usam possessivos de 3ª pessoa (“seu povo, sua cidade, sua terra”); a BV opta por “dele” para eliminar ambiguidade.",
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Josh.8.2",
@@ -119,6 +113,7 @@
    "texto_bv_revisto": "Todo o povo que estava na cidade foi convocado para persegui-los. Eles perseguiram Josué e foram afastados da cidade.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PAS-1 parcialmente justificado: “foi convocado” é passiva adequada (agente indeterminado; NTLH/ARA/NVIPT também usam passiva aqui). “Foram afastados” captura o sentido de terem sido atraídos para longe pela fingida fuga de Israel; NTLH e ARA usam ativa (“afastaram-se”), mas a passiva da BV preserva a noção de causalidade externa (a artimanha de Josué).",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -151,10 +146,17 @@
   },
   {
    "osis": "Josh.8.21",
-   "texto_bv_revisto": "Josué e todo Israel perceberam que a força da emboscada dominara a cidade e que dela subia fumaça. Então deram meia-volta e golpearam os homens de Ai.",
-   "mudancas": [],
+   "texto_bv_revisto": "Josué e todo Israel perceberam que a força da emboscada havia dominado a cidade e que dela subia fumaça. Então deram meia-volta e golpearam os homens de Ai.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "dominara",
+     "depois": "havia dominado",
+     "motivo": "Mais-que-perfeito sintético é arcaísmo vedado por EDITORIAL §1.2-tabela; substituído pelo pretérito composto (“havia dominado”). NTLH e NVIPT também usam forma composta (“tinham tomado”)."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Josh.8.22",
@@ -173,16 +175,9 @@
   {
    "osis": "Josh.8.24",
    "texto_bv_revisto": "Israel terminou de matar todos os habitantes de Ai que estavam no campo — no deserto onde haviam perseguido Israel. Todos caíram ao fio da espada até serem exterminados. Então todo Israel voltou a Ai e feriu a cidade ao fio da espada.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "Quando Israel terminou de matar todos os habitantes de Ai que estavam no campo — no deserto onde haviam perseguido Israel — e todos eles caíram ao fio da espada até serem exterminados, todo Israel voltou a Ai e feriu a cidade ao fio da espada.",
-     "depois": "Israel terminou de matar todos os habitantes de Ai que estavam no campo — no deserto onde haviam perseguido Israel. Todos caíram ao fio da espada até serem exterminados. Então todo Israel voltou a Ai e feriu a cidade ao fio da espada.",
-     "motivo": "Sentença com 44 palavras dividida em três orações (§1.3/LEN-1); sequência temporal preservada via ‘Então’; repetição formular de ‘ao fio da espada’ mantida (fidelidade ao original)."
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Josh.8.25",
@@ -216,7 +211,14 @@
    "osis": "Josh.8.29",
    "texto_bv_revisto": "Josué pendurou o rei de Ai em uma árvore até o entardecer. Ao pôr do sol, Josué ordenou que retirassem o cadáver da árvore. Eles o lançaram à entrada do portão da cidade e ergueram sobre ele um grande monte de pedras, que permanece até hoje.",
    "mudancas": [],
-   "objecoes": [],
+   "objecoes": [
+    {
+     "gravidade": "EDITORIAL",
+     "problema": "NTLH/ARA/NVIPT usam “enforcou” onde BV usa “pendurou”; “enforcar” é mais preciso em contexto de execução, mas mudaria a amplitude semântica do heb. תלה (que pode indicar pendura, empalação ou exposição de cadáver).",
+     "evidencia": "NTLH: “enforcou o rei de Ai numa árvore”; ARA: “Ao rei de Ai enforcou num madeiro”; NVIPT: “Enforcou o rei de Ai numa árvore”. BV preserva ambiguidade do original; melhoria de precisão requer decisão exegética do mantenedor."
+    }
+   ],
+   "justificativa": "As três referências divergem da BV ao usar “enforcou” em vez de “pendurou”. A BV preserva a ambiguidade do heb. תלה, que não especifica o método (enforcamento, empalação ou exposição). Mudar para “enforcar” acrescentaria especificidade não explícita no original — objeção EDITORIAL registrada para decisão do mantenedor.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -229,16 +231,9 @@
   {
    "osis": "Josh.8.31",
    "texto_bv_revisto": "A construção seguiu a ordem que Moisés, servo do SENHOR, havia dado aos filhos de Israel, conforme está registrado no livro da Torá de Moisés: o altar era de pedras intactas, sem que se manejasse ferro sobre elas. Sobre ele fizeram subir holocaustos ao SENHOR e sacrificaram ofertas pacíficas.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "dera",
-     "depois": "havia dado",
-     "motivo": "Mais-que-perfeito sintético substituído por composto (§1.2/ARC-1): arcaísmo funcionalmente morto em pt-BR contemporâneo."
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Josh.8.32",
@@ -252,6 +247,7 @@
    "texto_bv_revisto": "Todo Israel — seus anciãos, oficiais e juízes — estava de pé de ambos os lados da arca, diante dos sacerdotes levitas que carregavam a arca da aliança do SENHOR. Tanto o estrangeiro residente como o nativo estavam ali: metade do povo diante do monte Gerizim e a outra metade diante do monte Ebal, conforme Moisés, servo do SENHOR, havia ordenado anteriormente, para abençoar o povo de Israel.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 é falso-positivo: as três ocorrências de “diante” descrevem posições espaciais distintas (diante dos sacerdotes, diante do monte Gerizim, diante do monte Ebal) — repetição natural de preposição locativa, não redundância defeituosa. As referências também repetem sua preposição (ARA: “em frente do” 2×; NVIPT: “defronte do” 2×).",
    "veredito": "SEM_ALTERACAO"
   },
   {
