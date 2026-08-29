@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "2Kgs.7.1-20"
   },
-  "texto_bv": "Quando aqueles homens acometidos de tsaraat chegaram à extremidade do acampamento, entraram numa tenda, comeram e beberam. Levaram dali prata, ouro e roupas, foram e os esconderam. Depois voltaram, entraram em outra tenda, levaram coisas dali, foram e as esconderam.",
+  "texto_bv": "Quando aqueles homens acometidos de tsaraat chegaram à extremidade do acampamento, entraram numa tenda, comeram e beberam. Levaram dali prata, ouro e roupas e foram escondê-los. Depois voltaram, entraram em outra tenda e foram escondê-las.",
   "traducao_literal": "E chegaram aqueles acometidos de tsaraat até a extremidade do acampamento, e entraram em uma tenda, e comeram, e beberam, e carregaram dali prata, e ouro, e roupas, e foram, e esconderam; e voltaram, e entraram em outra tenda, e carregaram dali, e foram, e esconderam.",
   "termos_originais": [
     {
@@ -152,7 +152,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Levaram dali prata, ouro e roupas, foram e os esconderam. → Levaram dali prata, ouro e roupas e foram escondê-los. | levaram coisas dali, foram e as esconderam. → e foram escondê-las.",
+      "justificativa": "Eliminação de sequência paratática ‘foram e os esconderam’ (RED-1); infinitivo ‘escondê-los’ é mais fluido e natural em pt-BR, mantendo o sentido de deslocamento + ação. | Condensação da segunda sequência paratática para evitar repetição de ‘foram e… esconderam’; NTLH e NVIPT variam o verbo ou condensam a segunda ação. — revisão de forma sem alteração de sentido (ER-0019). RED-1 ‘foram esconderam’: a BV era a única entre as quatro traduções a repetir literalmente ‘foram e… esconderam’ nas duas orações. O hebraico repete o verbo ‘ir’ (wayyeleku), mas em pt-BR a repetição soa artificial; NTLH usa ‘saíram e esconderam’ / ‘fizeram a mesma coisa’, NVIPT usa ‘saíram para esconder’ / ‘esconderam’. A revisão usa infinitivo com pronome oblíquo, mais natural.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "homens",
     "os",
@@ -168,10 +176,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

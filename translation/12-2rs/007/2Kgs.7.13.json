@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Kgs.7.1-20"
   },
-  "texto_bv": "Um de seus servos respondeu: “Que tomem, por favor, cinco dos cavalos restantes que ficaram na cidade. Eis que eles são como toda a multidão de Israel que restou nela; eis que são como toda a multidão de Israel que pereceu. Enviemos homens e vejamos.”",
+  "texto_bv": "Um de seus servos respondeu: “Que tomem, por favor, cinco dos cavalos que restaram na cidade. Eis que eles são como toda a multidão de Israel que restou nela; são como toda a multidão de Israel que pereceu. Enviemos homens e vejamos.”",
   "traducao_literal": "E respondeu um de seus servos, e disse: “E que tomem, por favor, cinco dos cavalos restantes que restaram nela. Eis que eles são como toda a multidão de Israel que restou nela; eis que eles são como toda a multidão de Israel que chegou ao fim. E enviemos, e vejamos.”",
   "termos_originais": [
     {
@@ -168,7 +168,15 @@
       "impacto_na_traducao": "A tradução verte ‘toda a multidão de Israel’ e mantém sua repetição integral."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "cinco dos cavalos restantes que ficaram na cidade → cinco dos cavalos que restaram na cidade | Eis que eles são como toda a multidão de Israel que restou nela; eis que são como toda a multidão de Israel que pereceu. → Eis que eles são como toda a multidão de Israel que restou nela; são como toda a multidão de Israel que pereceu.",
+      "justificativa": "Eliminação de redundância interna (RED-1): ‘restantes que ficaram’ é pleonasmo em pt-BR; o hebraico usa apenas o particípio de notar (restante), sem duplicação. | Remoção do segundo ‘eis que’ (CAL-2) para evitar redundância em pt-BR; o primeiro ‘eis que’ é mantido por sua força dêitica no discurso enfático do servo. — revisão de forma sem alteração de sentido (ER-0019). RED-1: ‘restantes que ficaram’ é pleonasmo que o hebraico não contém (apenas o particípio hanoterarim). CAL-2: dois ‘eis que’ consecutivos soam excessivos em pt-BR; o primeiro é preservado pela força dêitica (discurso persuasivo do servo), o segundo removido. A repetição de ‘multidão de Israel’ é paralelismo hebraico intencional (fórmula retórica) e foi mantida.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "na cidade",
     "homens"
@@ -183,10 +191,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
