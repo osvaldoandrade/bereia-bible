@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Esth.5.1-14"
   },
-  "texto_bv": "No terceiro dia, Ester vestiu trajes reais e ficou de pé no pátio interno da casa do rei, diante da casa do rei. O rei estava sentado em seu trono real, na casa real, de frente para a entrada da casa.",
+  "texto_bv": "No terceiro dia, Ester vestiu trajes reais e ficou de pé no pátio interno do palácio do rei, diante do palácio do rei. O rei estava sentado em seu trono real, no salão real, de frente para a entrada.",
   "traducao_literal": "E aconteceu, no dia terceiro, e vestiu Ester realeza, e parou no pátio interno da casa do rei, em frente à casa do rei; e o rei, sentado sobre o trono da sua realeza, na casa da realeza, em frente à entrada da casa.",
   "termos_originais": [
     {
@@ -165,6 +165,13 @@
           "motivo": "apagaria a distinção e a retomada anafórica presentes no hebraico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "casa do rei → palácio do rei | na casa real → no salão real | de frente para a entrada da casa → de frente para a entrada",
+      "justificativa": "Consistência lexical e naturalidade (§1.4): as três referências (NTLH/ARA/NVIPT) usam 'palácio' para o complexo real; 'casa' é tradução literal de 'bet' que em contexto palaciano soa arcaica em pt-BR contemporâneo. | Distinção espacial e consistência (§1.4): NTLH/ARA/NVIPT distinguem o complexo ('palácio') da sala do trono ('salão'/'sala'); BV usava 'casa' repetido, perdendo a distinção espacial. | Eliminação de redundância: após 'salão real', 'da casa' é pleonasmo; a entrada é do salão já mencionado. NTLH/NVIPT omitem o complemento por clareza. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -180,10 +187,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

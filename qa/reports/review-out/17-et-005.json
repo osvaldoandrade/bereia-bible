@@ -4,10 +4,29 @@
   "versos": [
     {
       "osis": "Esth.5.1",
-      "texto_bv_revisto": "No terceiro dia, Ester vestiu trajes reais e ficou de pé no pátio interno da casa do rei, diante da casa do rei. O rei estava sentado em seu trono real, na casa real, de frente para a entrada da casa.",
-      "mudancas": [],
+      "texto_bv_revisto": "No terceiro dia, Ester vestiu trajes reais e ficou de pé no pátio interno do palácio do rei, diante do palácio do rei. O rei estava sentado em seu trono real, no salão real, de frente para a entrada.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "casa do rei",
+          "depois": "palácio do rei",
+          "motivo": "Consistência lexical e naturalidade (§1.4): as três referências (NTLH/ARA/NVIPT) usam 'palácio' para o complexo real; 'casa' é tradução literal de 'bet' que em contexto palaciano soa arcaica em pt-BR contemporâneo."
+        },
+        {
+          "tipo": "EDITORIAL",
+          "antes": "na casa real",
+          "depois": "no salão real",
+          "motivo": "Distinção espacial e consistência (§1.4): NTLH/ARA/NVIPT distinguem o complexo ('palácio') da sala do trono ('salão'/'sala'); BV usava 'casa' repetido, perdendo a distinção espacial."
+        },
+        {
+          "tipo": "EDITORIAL",
+          "antes": "de frente para a entrada da casa",
+          "depois": "de frente para a entrada",
+          "motivo": "Eliminação de redundância: após 'salão real', 'da casa' é pleonasmo; a entrada é do salão já mencionado. NTLH/NVIPT omitem o complemento por clareza."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Esth.5.2",
@@ -54,22 +73,16 @@
     {
       "osis": "Esth.5.8",
       "texto_bv_revisto": "se encontrei favor aos olhos do rei e se for do agrado do rei atender ao meu pedido e cumprir a minha súplica, que o rei e Hamã venham ao banquete que prepararei para eles. Amanhã farei conforme a palavra do rei.\"",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "para eles; e amanhã farei",
-          "depois": "para eles. Amanhã farei",
-          "motivo": "LEN-1: sentença com 43 palavras dividida em duas no limite natural do ponto-e-vírgula; waw conjunção suprimido na nova sentença conforme ER-0013 (doutrina do calque). Sentido preservado."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Esth.5.9",
       "texto_bv_revisto": "Naquele dia, Hamã saiu alegre e de coração contente. Mas, quando viu Mordecai à porta do rei, e este não se levantou nem se moveu diante dele, Hamã ficou cheio de ira contra Mordecai.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 é falso positivo: o marcador flagrou o nome próprio 'Mordecai' mas não há formas de vós no verso. O texto está em paradigma você (discurso narrativo), sem arcaísmos ou inconsistências.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -98,6 +111,7 @@
       "texto_bv_revisto": "Mas tudo isso de nada me vale, todas as vezes que vejo o judeu Mordecai sentado à porta do rei.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 é falso positivo: o marcador flagrou o nome próprio 'Mordecai' mas não há formas de vós no verso. O texto está em primeira pessoa (discurso de Hamã), sem arcaísmos.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -105,6 +119,7 @@
       "texto_bv_revisto": "Zeres, sua esposa, e todos os seus amigos disseram a ele: \"Façam uma forca de cinquenta côvados de altura; pela manhã, fale com o rei, e que Mordecai seja enforcado nela; depois vá alegre com o rei ao banquete.\" A palavra agradou a Hamã, e ele mandou fazer a forca.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achados VOS-1 e PRO-1 são falsos positivos: VOS-1 flagrou 'Mordecai' (nome próprio, não forma de vós); PRO-1 conta pronomes de 3ª pessoa mas todos têm antecedente claro ('sua esposa', 'seus amigos', 'disseram a ele', 'seja enforcado nela'). O texto está natural e sem arcaísmos.",
       "veredito": "SEM_ALTERACAO"
     }
   ]
