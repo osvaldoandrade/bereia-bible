@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Ezek.17.1-24"
   },
-  "texto_bv": "Dize: Assim diz o Senhor DEUS: Ela prosperará? Não arrancará ele as suas raízes, cortará o seu fruto e ele secará? Todas as folhas do seu broto secarão. E não será com braço forte nem com muito povo que a arrancarão pelas raízes.",
+  "texto_bv": "Diga: Assim diz o Senhor DEUS: Ela prosperará? Não arrancará ela as suas raízes, cortará o seu fruto e ele secará? Todas as folhas do seu broto secarão. E não será com braço forte nem com muito povo que a arrancarão pelas raízes.",
   "traducao_literal": "Dize: Assim disse o Senhor DEUS: Prosperará? Não as suas raízes arrancará, e o seu fruto cortará, e secará? Todas as folhas de seu broto secarão; e não com braço grande e com povo muito, para levantá-la das suas raízes.",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
           "motivo": "ambíguo em português corrido; mantido apenas na traducao_literal."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Dize → Diga | arrancará ele → arrancará ela",
+      "justificativa": "§3/D-0003: normalização tu→você no imperativo (discurso Deus→humano) | Concordância de gênero: o agente é a águia (substantivo feminino em português); \"ele\" seguiria o gênero do hebraico נשׁר (masculino), mas em português o pronome deve concordar com \"águia\" (feminino). NTLH/ARA tornam o sujeito explícito como \"a águia\". — revisão de forma sem alteração de sentido (ER-0019). PRO-1 parcialmente resolvido com a correção de concordância. \"ele secará\" (segunda ocorrência) mantém-se: \"ele\" refere-se a \"fruto\" (masculino), concordância correta.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -175,10 +182,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
