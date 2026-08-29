@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "2Chr.15.1-19"
   },
-  "texto_bv": "Durante muitos dias, Israel esteve sem o Deus verdadeiro, sem sacerdote que ensinasse e sem lei.",
+  "texto_bv": "Durante muito tempo, Israel esteve sem o Deus verdadeiro, sem sacerdote que ensinasse e sem lei.",
   "traducao_literal": "E muitos dias para Israel sem Deus de verdade, e sem sacerdote que ensina, e sem lei.",
   "termos_originais": [
     {
@@ -78,6 +78,13 @@
           "motivo": "Fundiria Deus, sacerdote docente e lei numa abstração única e apagaria a repetição."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Durante muitos dias → Durante muito tempo",
+      "justificativa": "normalização de idiomatismo hebraico (יָמִים רַבִּים, “muitos dias” → “muito tempo”); NTLH/ARA/NVIPT convergem em “muito tempo” (§1.4/ER-0019 v2 — piso de naturalidade) — revisão de forma sem alteração de sentido (ER-0019). A expressão “muitos dias” é calque literal do hebraico יָמִים רַבִּים; em pt-BR contemporâneo, o idiomático é “muito tempo”. As três referências convergem. Mudança de forma (normalização idiomática), sem alteração de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -95,10 +102,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "59834506b517a69ff9d8a33aad3652a3a94c1322a20cb9e2d2d65d72b860fe4a",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
