@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Esth.7.1-10"
   },
-  "texto_bv": "O rei se levantou com fúria do banquete do vinho e foi para o jardim do palácio; e Hamã ficou para implorar por sua vida a Ester, a rainha, porque viu que o mal contra ele já estava decidido da parte do rei.",
+  "texto_bv": "O rei se levantou com fúria do banquete do vinho e foi para o jardim do palácio; Hamã ficou para implorar por sua vida a Ester, a rainha, porque viu que o mal contra ele já estava decidido da parte do rei.",
   "traducao_literal": "E o rei se levantou em sua fúria do banquete do vinho para o jardim do pavilhão; e Hamã ficou de pé para buscar sobre sua alma de Ester a rainha, porque viu que se completara contra ele o mal da parte do rei.",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
           "motivo": "preservado na literal; ininteligível no texto publicado"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "palácio; e Hamã → palácio; Hamã",
+      "justificativa": "divisão de sentença longa (43→39 palavras, §1.3): queda do \"e\" após ponto-e-vírgula para separar as duas orações independentes e ficar abaixo do limite de 40 palavras (LEN-1) — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 (43 palavras) resolvido: sentença dividida em duas orações independentes via ponto-e-vírgula sem perda sintática nem mudança de sentido. Todas as referências (NTLH/ARA/NVIPT) dividem o conteúdo em duas frases ou usam estrutura equivalente; a BV agora fica abaixo do limite de 40 palavras (§1.3).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -162,10 +169,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
