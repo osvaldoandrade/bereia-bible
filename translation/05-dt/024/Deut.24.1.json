@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Deut.24.1-22"
   },
-  "texto_bv": "Se um homem tomar uma mulher e se casar com ela, e ela não encontrar favor aos olhos dele porque ele descobriu nela algo indecente, e ele escrever uma certidão de divórcio, entregá-la nas mãos dela e mandá-la embora de sua casa;",
+  "texto_bv": "Se um homem tomar uma mulher e se casar com ela, e ela não encontrar favor aos seus olhos por ele descobrir nela algo indecente, e escrever uma certidão de divórcio, entregá-la nas mãos dela e mandá-la embora de sua casa;",
   "traducao_literal": "Quando um homem tomar uma mulher e a possuir, e acontecer que, se ela não encontrar favor aos olhos dele, porque encontrou nela nudez de uma coisa, e escrever para ela um documento de separação, e der na mão dela, e a enviar da casa dele;",
   "termos_originais": [
     {
@@ -191,6 +191,13 @@
       "justificativa": "Sentença condicional com mais de 40 palavras (LEN-1); redução aplicada diminui de ~45 para ~42 palavras, mas o período continua acima do limite — evidência: A condicional dos vv.1-4 forma uma unidade sintática única no original (sequência de condições ligadas por waw com conclusão apenas no v.4); dividir em sentenças menores com ponto final criaria oração condicional sem apódose, comprometendo a lógica do período (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "aos olhos dele → aos seus olhos | porque ele descobriu → por ele descobrir | e ele escrever → e escrever",
+      "justificativa": "Possessivo mais natural em pt-BR; evita repetição de “dele” (§1.4 fluidez pronominal). | Construção mais concisa e fluida (por + infinitivo) em oração subordinada causal (§1.3 redução de extensão). | Queda de pronome redundante; sujeito (o homem) é inequívoco pelo contexto (§1.3, PRO-1). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -209,9 +216,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
