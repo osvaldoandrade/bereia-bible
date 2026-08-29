@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "2Chr.14.1-14"
   },
-  "texto_bv": "Zerá, o cuxita, saiu contra eles com um exército de mil milhares e trezentos carros de guerra, e chegou até Maressa.",
+  "texto_bv": "Zerá, o cuxita, saiu contra eles com um exército de um milhão e trezentos carros de guerra, e chegou até Maressa.",
   "traducao_literal": "E saiu contra eles Zerá, o cuxita, com uma força: mil milhares e carros, trezentos; e veio até Maressa.",
   "termos_originais": [
     {
@@ -130,6 +130,13 @@
           "motivo": "'Carruagem' pode sugerir veículo cerimonial e não explicita o emprego militar do contexto."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mil milhares → um milhão",
+      "justificativa": "Hebraísmo numeral ('alpe alpe') que soa artificial em pt-BR; ARA e NVIPT usam 'um milhão', forma padrão contemporânea. Mesmo valor numérico — mudança apenas de forma (§1.2-tabela por analogia, piso de naturalidade §1.1). — revisão de forma sem alteração de sentido (ER-0019). 'Cuxita' mantido apesar de NTLH/ARA/NVIPT usarem 'etíope': é termo técnico preciso para a região de Cuxe (sul do Egito, norte do Sudão), adotado pela BV com consistência interna (vv. 8, 11, 12). Não consta da tabela de arcaísmos (§1.2) e é atestado em traduções acadêmicas (Bíblia de Jerusalém). A mudança aplicada restringiu-se ao numeral.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -145,10 +152,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "59834506b517a69ff9d8a33aad3652a3a94c1322a20cb9e2d2d65d72b860fe4a",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
