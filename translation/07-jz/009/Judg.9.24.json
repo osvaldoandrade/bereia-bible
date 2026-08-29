@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Judg.9.1-57"
   },
-  "texto_bv": "Isso ocorreu para que a violência contra os setenta filhos de Jerubaal recaísse sobre os responsáveis e para que o sangue deles fosse posto sobre Abimeleque, irmão deles, que os matou. E também para que recaísse sobre os cidadãos de Siquém, que fortaleceram as mãos de Abimeleque para que ele matasse os próprios irmãos.",
+  "texto_bv": "Isso ocorreu para que a violência contra os setenta filhos de Jerubaal e o sangue deles recaíssem sobre Abimeleque, irmão deles, que os matou, e sobre os cidadãos de Siquém, que fortaleceram as mãos de Abimeleque para que ele matasse os próprios irmãos.",
   "traducao_literal": "Para vir a violência dos setenta filhos de Jerubaal, e o sangue deles para pôr sobre Abimeleque, irmão deles, que matou a eles, e sobre os senhores de Siquém, que fortaleceram as mãos dele para matar os irmãos dele.",
   "termos_originais": [
     {
@@ -145,6 +145,13 @@
       "justificativa": "Sentença com 50 palavras (LEN-1, §1.3): dividida em duas orações preservando o paralelismo do original (violência recaindo sobre Abimeleque / sobre os cidadãos de Siquém); sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a violência contra os setenta filhos de Jerubaal recaísse sobre os responsáveis e para que o sangue deles fosse posto sobre Abimeleque, irmão deles, que os matou. E também para que recaísse sobre os cidadãos de Siquém → a violência contra os setenta filhos de Jerubaal e o sangue deles recaíssem sobre Abimeleque, irmão deles, que os matou, e sobre os cidadãos de Siquém",
+      "justificativa": "Remoção de adição interpretativa (“os responsáveis”) sem correspondente no original, que cria estrutura tripartida onde o hebraico tem duas partes (Abimeleque + cidadãos de Siquém). Reestruturação sintática restaura o paralelismo original e alinha com ARA/NVIPT, que também têm exatamente dois alvos. VOS-1 é falso-positivo (a palavra “responsáveis” não é forma de vós). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -160,9 +167,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 48,
     "pericope": "Judg.9.1-57"
   },
-  "texto_bv": "Abimeleque subiu ao monte Zalmom com todo o povo que o acompanhava. Pegou os machados com a mão, cortou um ramo de árvore, levantou-o e o pôs sobre o ombro. Depois disse ao povo: “O que vocês me viram fazer, apressem-se e façam como eu.”",
+  "texto_bv": "Abimeleque subiu ao monte Zalmom com todo o povo que o acompanhava. Pegou um machado com a mão, cortou um ramo de árvore, levantou-o e o pôs sobre o ombro. Depois disse ao povo: “O que vocês me viram fazer, apressem-se e façam como eu.”",
   "traducao_literal": "E subiu Abimeleque ao monte Zalmom, ele e todo o povo que com ele; e tomou Abimeleque os machados em sua mão, e cortou um ramo de árvores, e levantou-o, e pôs sobre seu ombro; e disse ao povo que com ele: “O que vistes que fiz, apressai-vos, fazei como eu.”",
   "termos_originais": [
     {
@@ -183,6 +183,13 @@
           "motivo": "“um machado nas mãos” mudaria os dois números."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Pegou os machados com a mão → Pegou um machado com a mão",
+      "justificativa": "Correção de número gramatical: o original hebraico tem singular (hagarzen — “o machado”); todas as referências (NTLH “um machado”, ARA “um machado”, NVIPT “um machado”) confirmam singular. O plural “os machados” na BV é divergência numérica sem base no original. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -196,10 +203,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "448ce31dc22d0af840bbe830aa95cc30ad7ec314593818fa8db7542d8acf68fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
