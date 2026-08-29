@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Kgs.17.1-41"
   },
-  "texto_bv": "O SENHOR advertiu Israel e Judá por meio de todos os profetas e de todos os videntes, dizendo: “Voltem de seus maus caminhos e guardem meus mandamentos e meus estatutos, conforme toda a lei que ordenei a seus pais e que enviei a vocês por meio de meus servos, os profetas.”",
+  "texto_bv": "O SENHOR advertiu Israel e Judá por meio de todos os profetas e de todos os videntes, dizendo: “Voltem de seus maus caminhos. Guardem meus mandamentos e meus estatutos, conforme toda a lei que ordenei a seus pais e que enviei a vocês por meio de meus servos, os profetas.”",
   "traducao_literal": "E advertiu o SENHOR em Israel e em Judá pela mão de todos os profetas, de todo vidente, dizendo: “Voltem de seus caminhos maus, e guardem meus mandamentos, meus estatutos, conforme toda a lei que ordenei a seus pais e que enviei a vocês pela mão de meus servos, os profetas.”",
   "termos_originais": [
     {
@@ -168,7 +168,15 @@
       "impacto_na_traducao": "A BV segue o qere com ‘todos os profetas’; a literal também expõe o valor coletivo no contexto."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "“Voltem de seus maus caminhos e guardem meus mandamentos e meus estatutos, conforme toda a lei que ordenei a seus pais e que enviei a vocês por meio de meus servos, os profetas.” → “Voltem de seus maus caminhos. Guardem meus mandamentos e meus estatutos, conforme toda a lei que ordenei a seus pais e que enviei a vocês por meio de meus servos, os profetas.”",
+      "justificativa": "LEN-1: sentença de 51 palavras (§1.3); divisão na junção coordenativa dentro da citação direta, sem perda sintática. NVIPT faz divisão análoga. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 flagrou 51 palavras na sentença. A citação direta permite divisão natural na junção entre os dois imperativos (“Voltem… e guardem…” → “Voltem… . Guardem…”). NTLH mantém uma frase longa; NVIPT divide no mesmo ponto. O waw coordenativo hebraico não exige conjunção em português (§6.2/ER-0013).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "O SENHOR, Israel e Judá, profetas e videntes, os dois imperativos, mandamentos, estatutos, toda a lei, pais e servos foram preservados.",
@@ -178,10 +186,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
