@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Ezek.8.1-18"
   },
-  "texto_bv": "E ele me trouxe ao pátio interior da casa do SENHOR; e eis que, à entrada do templo do SENHOR, entre o pórtico e o altar, havia cerca de vinte e cinco homens com as costas voltadas para o templo do SENHOR e o rosto voltado para o oriente; e eles se prostravam para o oriente, diante do sol.",
+  "texto_bv": "E ele me trouxe ao pátio interior da casa do SENHOR. À entrada do templo do SENHOR, entre o pórtico e o altar, estavam cerca de vinte e cinco homens com as costas voltadas para o templo do SENHOR e o rosto voltado para o oriente. Eles se prostravam para o oriente, diante do sol.",
   "traducao_literal": "E trouxe-me ao pátio da casa do SENHOR, a interior; e eis a entrada do templo do SENHOR, entre o pórtico e entre o altar, como vinte e cinco homens; as costas deles para o templo do SENHOR e os rostos deles para o oriente; e eles prostrando-se para o oriente ao sol.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
           "motivo": "sem evidência de que a forma incomum altere o sentido; não convém introduzir variação sem base lexical"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "do SENHOR; e eis que, à entrada → do SENHOR. À entrada | havia cerca de → estavam cerca de | para o oriente; e eles se prostravam → para o oriente. Eles se prostravam",
+      "justificativa": "LEN-1 (59 palavras): primeira divisão — separação da chegada ao pátio da descrição da cena; remoção do calque paratático 'e eis que' (§6.2/ER-0013). | LEN-1: ajuste verbal para concordar com a segunda sentença; 'estavam' mais natural com sujeito humano posposto em pt-BR. | LEN-1: segunda divisão — sentença 3 descreve a ação (prostração); eliminação do calque paratático 'e' (§6.2/ER-0013). — revisão de forma sem alteração de sentido (ER-0019). LEN-1 (59 palavras) resolvido com divisão em três sentenças nos pontos naturais de ruptura. RED-1 ('templo do SENHOR' 3×): repetição preservada — reflete o hebraico e é mantida por ARA e NVIPT (§1.4, fórmulas intencionais). NTLH reduz a 2×, mas a BV segue ARA/NVIPT por serem mais formais.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -176,10 +183,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

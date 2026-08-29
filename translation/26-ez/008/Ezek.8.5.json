@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Ezek.8.1-18"
   },
-  "texto_bv": "E ele me disse: \"Filho do homem, levanta os teus olhos para o norte.\" E eu levantei os meus olhos para o norte, e eis que, ao norte, junto à porta do altar, estava essa imagem do ciúme, na entrada.",
+  "texto_bv": "E ele me disse: \"Filho do homem, levante os seus olhos para o norte.\" E eu levantei os meus olhos para o norte, e eis que, ao norte, junto à porta do altar, estava essa imagem do ciúme.",
   "traducao_literal": "E disse a mim: filho do homem, levanta agora os teus olhos caminho do norte. E levantei os meus olhos caminho do norte, e eis do norte, para a porta do altar, a imagem do ciúme, esta, na entrada.",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
           "motivo": "soa como pedido de igual para igual; a partícula aqui marca ordem retórica divina, não cortesia"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "levanta os teus olhos → levante os seus olhos | estava essa imagem do ciúme, na entrada. → estava essa imagem do ciúme.",
+      "justificativa": "VOS-1/§3/D-0003: normalização do paradigma vós→você — imperativo 'levanta' (tu) → 'levante' (você); possessivo 'teus' → 'seus'. Discurso de Deus→humano exige você. | RED-1: remoção de 'na entrada', redundante com 'junto à porta do altar' (mesma informação locativa expressa duas vezes em português sem ganho semântico). — revisão de forma sem alteração de sentido (ER-0019). VOS-1 normalizado (capítulo inteiro em você, §3). RED-1: a redundância 'junto à porta...na entrada' é defeito de forma em pt-BR; ARA mantém ambas, mas NVIPT condensa — a BV segue o piso de naturalidade (§1.4). CAL-2 mantido como fórmula visionária.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -141,10 +148,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
