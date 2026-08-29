@@ -7,7 +7,7 @@
     "versiculo": 43,
     "pericope": "Gen.24.1-67"
   },
-  "texto_bv": "eis que estou junto à fonte de água; seja, pois, que a donzela que sair para tirar água, e a quem eu disser: Dê-me, peço-lhe, de beber um pouco de água do seu cântaro,",
+  "texto_bv": "estou aqui, junto à fonte de água; seja, pois, que a jovem que sair para tirar água, e a quem eu disser: Dê-me, peço-lhe, de beber um pouco de água do seu cântaro,",
   "traducao_literal": "eis-me de pé sobre a fonte de água; e seja: a donzela a que sair para tirar, e eu lhe disser: Dá-me de beber, ora, um pouco de água do teu cântaro,",
   "termos_originais": [
     {
@@ -115,6 +115,13 @@
       "justificativa": "§3/D-0003: tu→você (diálogo humano↔humano citado na oração) | §3/D-0003: tu→você (diálogo humano↔humano citado na oração) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eis que estou junto à fonte de água → estou aqui, junto à fonte de água | a donzela que sair → a jovem que sair",
+      "justificativa": "CAL-2: normalização do calque “eis que” (hinneh); NTLH e NVIPT normalizam (“Eu estou aqui” / “Aqui estou”). Paralelo com v13 (mesma normalização). | Consistência lexical intra-capítulo (§1.4): BV usa “moças” (v13), “jovem” (v16, v28, v55, v58) e “donzela” (só aqui) para o mesmo referente (Rebeca/na’arah). “Donzela” é outlier e soa arcaico em pt-BR contemporâneo; NTLH e NVIPT usam “moça/jovem”. Normalizado para o lexema majoritário no capítulo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -127,9 +134,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
