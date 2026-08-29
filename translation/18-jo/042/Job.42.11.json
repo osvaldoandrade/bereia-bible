@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Job.42.1-17"
   },
-  "texto_bv": "Então todos os seus irmãos, todas as suas irmãs e todos os que o haviam conhecido antes vieram a ele, comeram pão com ele em sua casa, condoeram-se dele e o consolaram de todo o mal que o SENHOR tinha trazido sobre ele; e cada um lhe deu uma quesitá e uma argola de ouro.",
+  "texto_bv": "Então todos os seus irmãos, todas as suas irmãs e todos os que o haviam conhecido antes vieram a ele e comeram pão com ele em sua casa. Condoeram-se dele e o consolaram de todo o mal que o SENHOR tinha trazido sobre ele, e cada um lhe deu uma quesitá e uma argola de ouro.",
   "traducao_literal": "E vieram a ele todos os seus irmãos, e todas as suas irmãs, e todos os seus conhecidos de antes, e comeram com ele pão em sua casa, e condoeram-se com ele, e consolaram-no sobre todo o mal que trouxe o SENHOR sobre ele; e deram-lhe, cada um, uma quesitá, e cada um um anel de ouro.",
   "termos_originais": [
     {
@@ -199,6 +199,13 @@
           "motivo": "restringe à orelha, quando o hebraico também designa argola nasal"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vieram a ele, comeram pão com ele em sua casa, condoeram-se dele e o consolaram de todo o mal que o SENHOR tinha trazido sobre ele; e cada um → vieram a ele e comeram pão com ele em sua casa. Condoeram-se dele e o consolaram de todo o mal que o SENHOR tinha trazido sobre ele, e cada um",
+      "justificativa": "divisão de sentença longa (56 palavras → duas sentenças de ~28 palavras; §1.3/LEN-1) — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -212,10 +219,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
