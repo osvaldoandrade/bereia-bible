@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Gen.16.1-16"
   },
-  "texto_bv": "E Sarai disse a Abrão: “Eis que o SENHOR me impediu de dar à luz; toma, peço-te, a minha serva; talvez eu tenha filhos por meio dela.” E Abrão deu ouvidos à voz de Sarai.",
+  "texto_bv": "E Sarai disse a Abrão: “Eis que o SENHOR me impediu de dar à luz; tome, por favor, a minha serva; talvez eu tenha filhos por meio dela.” E Abrão deu ouvidos à voz de Sarai.",
   "traducao_literal": "E disse Sarai a Abrão: “Eis que, ora, o SENHOR me reteve de dar à luz; entra, ora, à minha serva; talvez eu seja edificada dela.” E ouviu Abrão à voz de Sarai.",
   "termos_originais": [
     {
@@ -130,6 +130,13 @@
       "justificativa": "ARC-1: “porventura” é arcaísmo funcionalmente morto (EDITORIAL §1.2); substituído por “talvez” com ajuste de modo verbal (futuro do indicativo → presente do subjuntivo, exigido por “talvez”). Sentido preservado (possibilidade). CAL-2 (“eis que”) mantido: força dêitica em discurso direto (Sarai apresenta um fato a Abrão). — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "toma, peço-te, a minha serva → tome, por favor, a minha serva",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): discurso humano↔humano usa você/vocês; imperativo tu “toma” → “tome” (você); partícula de súplica נָא vertida como “por favor” em registro contemporâneo. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 (“Eis que”) mantido: hinneh com força dêitica — Sarai aponta para o fato de que o SENHOR a impediu; ARA preserva “Eis que” no mesmo contexto. VOS-1 é falso-positivo (nome Sarai).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -144,9 +151,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
