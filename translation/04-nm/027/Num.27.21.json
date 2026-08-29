@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Num.27.1-23"
   },
-  "texto_bv": "Josué se apresentará diante do sacerdote Eleazar, que consultará por ele o juízo do Urim diante do SENHOR. À palavra dele, sairão; e à palavra dele, entrarão: Josué, todos os israelitas com ele e toda a comunidade.”",
+  "texto_bv": "Josué se apresentará diante do sacerdote Eleazar, que consultará por ele o juízo do Urim diante do SENHOR. À palavra de Eleazar, sairão; e à palavra de Eleazar, entrarão: Josué, todos os israelitas com ele e toda a comunidade.”",
   "traducao_literal": "E diante de Eleazar, o sacerdote, ele ficará, e perguntará por ele pelo juízo do Urim diante de YHWH; segundo sua boca sairão, e segundo sua boca entrarão, ele e todos os filhos de Israel com ele, e toda a comunidade.”",
   "termos_originais": [
     {
@@ -187,6 +187,13 @@
           "motivo": "Restringe a comunidade sem apoio."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "À palavra dele, sairão; e à palavra dele, entrarão → À palavra de Eleazar, sairão; e à palavra de Eleazar, entrarão",
+      "justificativa": "PRO-1: referência pronominal ambígua — “dele” poderia referir-se a Josué ou a Eleazar, ambos antecedentes masculinos na frase. Explicitado conforme ARA, que também nomeia Eleazar (“segundo a ordem de Eleazar”), preservando o paralelismo do original (§1.3 clareza pronominal). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -205,10 +212,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
