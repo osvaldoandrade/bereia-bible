@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Gen.39.1-23"
   },
-  "texto_bv": "Quando o seu senhor ouviu as palavras que sua mulher lhe falava, dizendo: Conforme estas palavras me fez o teu servo, acendeu-se a sua ira.",
+  "texto_bv": "Quando o seu senhor ouviu as palavras que sua mulher lhe falava, dizendo: “Foi assim que o seu servo me tratou”, a sua ira se acendeu.",
   "traducao_literal": "E aconteceu, como ouvir o seu senhor as palavras de sua mulher que falou a ele, dizendo: Conforme as palavras estas me fez o teu servo, que se acendeu a sua ira.",
   "termos_originais": [
     {
@@ -104,6 +104,13 @@
       "justificativa": "CAL-1: 'E aconteceu que' é calque paratático removido; construção gerundiva ('ouvindo o seu senhor') normalizada para 'Quando + sujeito + pretérito', forma natural pt-BR (ER-0013/EDITORIAL §6.2). PRO-1 (4 pronomes) são referências claras no contexto — falso-positivo. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Conforme estas palavras me fez o teu servo → Foi assim que o seu servo me tratou | acendeu-se a sua ira → a sua ira se acendeu | dizendo: Conforme → dizendo: “Foi",
+      "justificativa": "Paradigma §3: 'teu servo' → 'seu servo' (você). NVIPT: 'Foi assim que o seu escravo me tratou' — mais natural. 'Me fez' é calque hebraico pouco idiomático. | Ordem S-V (ER-0011); ênclise em posição pós-verbal deslocada soa artificial. | Discurso direto com aspas duplas curvas (ER-0004). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -116,9 +123,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
