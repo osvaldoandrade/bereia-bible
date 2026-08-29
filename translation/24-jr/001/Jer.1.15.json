@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Jer.1.1-19"
   },
-  "texto_bv": "Pois eis que eu convoco todas as famílias dos reinos do norte” — declaração do SENHOR — “e virão, e cada um porá o seu trono à entrada das portas de Jerusalém, contra todos os seus muros ao redor e contra todas as cidades de Judá.",
+  "texto_bv": "“Pois eis que eu convoco todas as famílias dos reinos do norte” — declaração do SENHOR. “Eles virão, e cada um porá o seu trono à entrada das portas de Jerusalém, contra todos os seus muros ao redor e contra todas as cidades de Judá.",
   "traducao_literal": "Porque eis-me chamando para todas as famílias de-reinos de-norte — declaração de-SENHOR — e virão e porão, cada homem, o seu trono, entrada de-portas de-Jerusalém, e sobre todo o seu muro ao redor, e sobre todas as cidades de-Judá.",
   "termos_originais": [
     {
@@ -138,6 +138,13 @@
       "escolha": "Tratar como aposto intercalado dentro da própria citação, com travessões",
       "justificativa": "Mesmo padrão já fixado no corpus para נְאֻם־יְהוָה mediano (cf. 1Sam.2.30: 'Mas agora — declaração do SENHOR — longe de mim tal coisa!').",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "norte” — declaração do SENHOR — “e virão → norte” — declaração do SENHOR. “Eles virão",
+      "justificativa": "Divisão de sentença longa (LEN-1, 44 palavras; §1.3): a interpolação narrativa encerra a primeira sentença com ponto final; a segunda inicia com sujeito explícito “Eles”. CAL-2 (“eis que”) mantido — הִנֵּה tem força dêitica em proclamação divina de convocação (§6.2/ER-0013). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -149,10 +156,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

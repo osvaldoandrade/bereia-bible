@@ -73,6 +73,13 @@
       "escolha": "Traduzir normalmente como 'contra você/ti' (masculino), sem alterar o sentido",
       "justificativa": "Peculiaridade morfológica pontual do texto massorético nesta palavra, sem impacto semântico: o referente (Jeremias) é inequivocamente masculino em todo o contexto imediato (אִתְּךָ, 2ms). Registrada para auditoria, não afeta a tradução.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "RED-1 (“contra você” × 2): o hebraico traz עָלֶיךָ (contra ti) explícito na primeira cláusula e sufixo pronominal -ךָ em יִכְלְךָ (prevalecerão contra ti) na segunda. A BV explicita o sufixo verbal como “contra você” — é fidelidade ao original, não redundância. ARA omite o sufixo na segunda cláusula (“não prevalecerão”); NVIPT substitui por “não o vencerão”. A BV preserva integralmente os dois pronomes do original. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -84,10 +91,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
