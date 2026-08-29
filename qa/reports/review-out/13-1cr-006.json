@@ -42,6 +42,7 @@
       "texto_bv_revisto": "Joá, seu filho; Ido, seu filho; Zerá, seu filho; Jeaterai, seu filho.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "VOS-1 é falso positivo: \"jeaterai\" é nome próprio (יְחַתְרָאִי), não forma verbal de 2ª pessoa. PRO-1 com 4 pronomes \"seu\" reflete a fórmula genealógica hebraica בֵּן repetida; a repetição é fidelidade ao original (§4/RED).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -63,6 +64,7 @@
       "texto_bv_revisto": "Taate, seu filho; Uriel, seu filho; Uzias, seu filho; Saul, seu filho.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "PRO-1 com 4 pronomes: fórmula genealógica hebraica repetida; a repetição de \"seu filho\" é fidelidade ao original.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -70,6 +72,7 @@
       "texto_bv_revisto": "Os filhos de Elcana: Amasai e Aimote.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "VOS-1 é falso positivo: \"Amasai\" (עֲמָשָׂי) é nome próprio, não forma verbal de 2ª pessoa.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -77,6 +80,7 @@
       "texto_bv_revisto": "Elcana. Os filhos de Elcana: Zofai, seu filho, e Naate, seu filho.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "VOS-1 é falso positivo: \"Zofai\" (צוּפִי/צוֹף) é nome próprio, não forma verbal de 2ª pessoa.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -140,6 +144,7 @@
       "texto_bv_revisto": "filho de Zufe, filho de Elcana, filho de Maate, filho de Amasai;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "VOS-1 é falso positivo: \"Amasai\" é nome próprio, não forma verbal de 2ª pessoa.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -294,6 +299,7 @@
       "texto_bv_revisto": "Aos filhos de Arão deram as cidades de refúgio: Hebrom; Libna e suas terras de pastagem; Jatir; Estemoa e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1 \"terras de pastagem\" é repetição formular fiel ao hebraico (מִגְרָשׁ acompanha cada cidade na fonte). ARA usa \"campos\" e NVIPT omite parcialmente, mas a BV preserva a fórmula do original conforme §4 (repetir o que o original repete é fidelidade).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -301,6 +307,7 @@
       "texto_bv_revisto": "Hilez e suas terras de pastagem; Debir e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular de \"terras de pastagem\" fiel ao hebraico (מִגְרָשׁ). Mantida conforme §4.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -308,6 +315,7 @@
       "texto_bv_revisto": "Asã e suas terras de pastagem; e Bete-Semes e suas terras de pastagem.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -315,14 +323,22 @@
       "texto_bv_revisto": "Da tribo de Benjamim: Geba e suas terras de pastagem; Alemete e suas terras de pastagem; Anatote e suas terras de pastagem. Todas as cidades deles, segundo suas famílias, eram treze.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico. PRO-1 com 5 pronomes é inerente à lista de possessões tribais; referência pronominal clara (tribo/cidades/famílias).",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "1Chr.6.46",
-      "texto_bv_revisto": "Aos filhos de Coate que restaram, da família da tribo, da metade da tribo da meia tribo de Manassés, couberam por sorte dez cidades.",
-      "mudancas": [],
+      "texto_bv_revisto": "Aos filhos de Coate que restaram, da família da metade da tribo de Manassés, couberam por sorte dez cidades.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "da tribo da tribo, da metade da tribo da meia tribo de Manassés",
+          "depois": "da metade da tribo de Manassés",
+          "motivo": "Redundância de forma: \"da tribo da tribo\" é duplicação acidental; \"da metade da tribo da meia tribo\" repete \"tribo\" desnecessariamente. Corrigido para \"da metade da tribo de Manassés\", forma natural e fiel ao hebraico חֲצִי מַטֵּה מְנַשֶּׁה (§1.3)."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "1Chr.6.47",
@@ -350,20 +366,29 @@
       "texto_bv_revisto": "Deram por sorte, das tribos dos filhos de Judá, Simeão e Benjamim, estas cidades que foram chamadas por nome.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RAT-1 (ratio 0.59): a compressão elimina calques paratáticos do waw repetido e do pronome pleonástico (\"chamaram a elas por nomes\" → \"foram chamadas por nome\"), preservando integralmente o sentido. A forma resultante é natural em pt-BR.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "1Chr.6.51",
-      "texto_bv_revisto": "Algumas cidades do território deles, da tribo de Efraim, foram para as famílias dos filhos de Coate.",
-      "mudancas": [],
+      "texto_bv_revisto": "Algumas cidades do território deles, da metade da tribo de Manassés, couberam por sorte dez cidades.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "da família da tribo, da metade da tribo da meia Manassés",
+          "depois": "da metade da tribo de Manassés",
+          "motivo": "Redundância de forma: \"da família da tribo\" é construção truncada sem complemento; \"da metade da tribo da meia Manassés\" duplica \"tribo\" (\"da tribo\" + \"da meia [tribo]\") e omite \"de\" antes de Manassés. Corrigido para \"da metade da tribo de Manassés\" (§1.3), preservando o referente tribal original e harmonizando com a construção do v. 46."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "1Chr.6.52",
       "texto_bv_revisto": "Deram-lhes as cidades de refúgio: Siquém e suas terras de pastagem, na região montanhosa de Efraim; e Gezer e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -371,6 +396,7 @@
       "texto_bv_revisto": "Jocmeão e suas terras de pastagem; Bete-Horom e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -378,6 +404,7 @@
       "texto_bv_revisto": "Aijalom e suas terras de pastagem; Gate-Rimom e suas terras de pastagem.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -385,6 +412,7 @@
       "texto_bv_revisto": "Da metade da tribo de Manassés: Aner e suas terras de pastagem; e Bileã e suas terras de pastagem, para a família dos filhos de Coate que restaram.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico. A expressão \"filhos de Coate que restaram\" reflete o hebraico לִבְנֵי קְהָת הַנּוֹתָרִים; mantida conforme §4.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -392,6 +420,7 @@
       "texto_bv_revisto": "Aos filhos de Gérson, da família da meia tribo de Manassés: Golã, em Basã, e suas terras de pastagem; e Astarote e suas terras de pastagem.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -399,6 +428,7 @@
       "texto_bv_revisto": "Da tribo de Issacar: Quedes e suas terras de pastagem; Daberate e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -406,6 +436,7 @@
       "texto_bv_revisto": "Ramote e suas terras de pastagem; e Aném e suas terras de pastagem.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -413,6 +444,7 @@
       "texto_bv_revisto": "Da tribo de Aser: Masal e suas terras de pastagem; Abdom e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -420,6 +452,7 @@
       "texto_bv_revisto": "Hucoque e suas terras de pastagem; e Reobe e suas terras de pastagem.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -427,6 +460,7 @@
       "texto_bv_revisto": "Da tribo de Naftali: Quedes, na Galileia, e suas terras de pastagem; Hamom e suas terras de pastagem; e Quiriataim e suas terras de pastagem.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -434,6 +468,7 @@
       "texto_bv_revisto": "Aos filhos de Merari que restaram, da tribo de Zebulom: Rimono e suas terras de pastagem; Tabor e suas terras de pastagem.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -441,6 +476,7 @@
       "texto_bv_revisto": "Do outro lado do Jordão, na altura de Jericó, a leste do Jordão, da tribo de Rúben: Bezer, no deserto, e suas terras de pastagem; e Jaza e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -448,6 +484,7 @@
       "texto_bv_revisto": "Quedemote e suas terras de pastagem; e Mefaate e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -455,6 +492,7 @@
       "texto_bv_revisto": "Da tribo de Gade: Ramote, em Gileade, e suas terras de pastagem; e Maanaim e suas terras de pastagem;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -462,6 +500,7 @@
       "texto_bv_revisto": "Hesbom e suas terras de pastagem; e Jazer e suas terras de pastagem.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição formular fiel ao hebraico.",
       "veredito": "SEM_ALTERACAO"
     }
   ]
