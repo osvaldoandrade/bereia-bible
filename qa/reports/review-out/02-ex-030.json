@@ -6,13 +6,7 @@
    "osis": "Exod.30.1",
    "texto_bv_revisto": "Construirás de madeira de acácia um altar destinado à queima de incenso.",
    "mudancas": [],
-   "objecoes": [
-    {
-     "gravidade": "EDITORIAL",
-     "problema": "Paradigma de 2ª pessoa (D-0003/§3): o capítulo emprega conjugações de tu no futuro do indicativo (construirás, farás, revestirás, instalarás, receberás, etc.) e no futuro do subjuntivo (fizeres) no discurso de Deus para Moisés, onde a diretriz prescreve você/vocês (3ps). Pronomes explícitos \"você\" (30.6, 30.36) e \"vocês\" (30.32, 30.37) coexistem com conjugações 2ps, gerando paradigma misto.",
-     "evidencia": "Formas 2ps em 30.1 (Construirás), 30.3 (Revestirás), 30.4-5 (Farás), 30.6 (Instalarás), 30.12 (fizeres), 30.16 (Receberás, destinarás), 30.18 (Farás, Colocarás, porás), 30.25 (Farás), 30.26 (ungirás), 30.29 (Consagrarás), 30.30 (Ungirás, consagrarás), 30.31 (Dirás), 30.35 (farás), 30.36 (Moerás, colocarás), 30.37 (fizeres). Normalização tu→você requer decisão de escopo do mantenedor por afetar múltiplos capítulos."
-    }
-   ],
+   "objecoes": [],
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -55,6 +49,7 @@
    "texto_bv_revisto": "Arão queimará sobre ele incenso aromático todas as manhãs, quando preparar as lâmpadas.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RAT-1 é falso-positivo: a condensação de “pela manhã, pela manhã” (repetição intensificadora do hebraico בַּבֹּקֶר בַּבֹּקֶר) para “todas as manhãs” é normalização editorial legítima, alinhada com NVIPT (“todas as manhãs”) e ARA (“cada manhã”). O texto da BV é natural e preserva o sentido.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -73,10 +68,18 @@
   },
   {
    "osis": "Exod.30.10",
-   "texto_bv_revisto": "Uma vez por ano, Arão fará expiação sobre os chifres do altar; com o sangue da oferta pelo pecado da expiação, fará expiação sobre ele uma vez por ano, por todas as suas gerações. O altar é santíssimo para o SENHOR.",
-   "mudancas": [],
+   "texto_bv_revisto": "Uma vez por ano, Arão fará expiação sobre os chifres do altar; com o sangue da oferta de expiação pelo pecado, fará expiação sobre ele uma vez por ano, por todas as suas gerações. O altar é santíssimo para o SENHOR.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "com o sangue da oferta pelo pecado da expiação",
+     "depois": "com o sangue da oferta de expiação pelo pecado",
+     "motivo": "Clarificação da cadeia genitiva: “oferta pelo pecado da expiação” é sintaticamente ambíguo em pt-BR (parece que “expiação” possui “pecado”). A reordenação para “oferta de expiação pelo pecado” preserva o referente (a oferta que efetua expiação pelo pecado, cf. heb. דַּם הַחַטָּאת הַכִּפֻּרִים) e alinha com ARA (“sangue do sacrifício de expiação de pecado”) e NVIPT (“sangue da oferta para propiciação pelo pecado”). Mudança de forma apenas; o sentido é idêntico."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "justificativa": "RED-1 (repetição de “expiação”/“fará expiação”) é falso-positivo: o hebraico repete כִּפֶּר (kipper) três vezes no versículo, e a BV preserva essa repetição formular como fidelidade ao original (EDITORIAL §4: “repetir o que o original repete é FIDELIDADE”). ARA e NVIPT também repetem o termo.",
+   "veredito": "REVISADO"
   },
   {
    "osis": "Exod.30.11",
@@ -97,6 +100,7 @@
    "texto_bv_revisto": "Isto dará todo aquele que passar para o grupo dos recenseados: meio siclo, segundo o siclo do santuário — o siclo vale vinte geras. Meio siclo será a contribuição ao SENHOR.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 (repetição de “meio siclo”) é falso-positivo: o hebraico repete מַחֲצִית הַשֶּׁקֶל (machatzit hasheqel) duas vezes no versículo, e a BV preserva essa repetição como fidelidade. ARA também repete “meio siclo” duas vezes.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -118,6 +122,7 @@
    "texto_bv_revisto": "Receberás dos filhos de Israel a prata da expiação e a destinarás ao serviço da tenda do encontro. Ela será um memorial para os filhos de Israel diante do SENHOR, para fazer expiação por suas vidas.”",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 (repetição de “filhos de Israel”) é falso-positivo: o hebraico repete בְּנֵי יִשְׂרָאֵל (benei yisrael) duas vezes no versículo, e a BV preserva essa repetição como fidelidade. ARA também repete “filhos de Israel” duas vezes.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -167,6 +172,7 @@
    "texto_bv_revisto": "“Tome para você as melhores especiarias: quinhentos siclos de mirra fluida, metade dessa quantidade — duzentos e cinquenta siclos — de canela aromática, e duzentos e cinquenta siclos de cálamo aromático;",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 (repetição de valores numéricos “duzentos e cinquenta siclos”) é falso-positivo: os valores aparecem no original hebraico e devem ser preservados conforme EDITORIAL §7 (numerais por extenso, medidas antigas mantidas). A BV segue a política de não converter medidas.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -181,6 +187,7 @@
    "texto_bv_revisto": "Com esses ingredientes farás o óleo sagrado da unção, uma mistura aromática, obra de perfumista. Será o óleo sagrado da unção.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 (repetição de “óleo sagrado da unção”) é falso-positivo: o hebraico repete a frase שֶׁמֶן מִשְׁחַת קֹדֶשׁ (shemen mishchat qodesh) duas vezes, e a BV preserva essa repetição formular como fidelidade. ARA e NVIPT também repetem a expressão.",
    "veredito": "SEM_ALTERACAO"
   },
   {
