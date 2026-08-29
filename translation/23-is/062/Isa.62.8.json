@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Isa.62.1-12"
   },
-  "texto_bv": "O SENHOR jurou pela sua mão direita e pelo braço do seu poder: Nunca mais darei o seu trigo como alimento aos seus inimigos, nem estrangeiros beberão o seu vinho novo, fruto do seu trabalho.",
+  "texto_bv": "O SENHOR jurou pela sua mão direita e pelo braço da sua força: Nunca mais darei o seu trigo como alimento aos seus inimigos, nem estrangeiros beberão o seu vinho novo, fruto do seu trabalho.",
   "traducao_literal": "Jurou o SENHOR pela sua destra e pelo braço da sua força: Se eu der teu grão mais [como] alimento aos teus inimigos, e se beberem filhos de estrangeiro teu mosto, no qual trabalhaste.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
           "motivo": "reproduz a elipse hebraica de forma que soa incompleta/ambígua em português, sem o efeito retórico do original"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "braço do seu poder → braço da sua força",
+      "justificativa": "Naturalidade (§1.1/§1.4): NTLH/ARA/NVIPT convergem em “força” ou “poderoso” (ARA: “braço da sua força”; NVIPT: “braço poderoso”; NTLH: “forte braço direito”), enquanto BV usa “braço do seu poder” — construção menos natural em pt-BR contemporâneo. — revisão de forma sem alteração de sentido (ER-0019). PRO-1: os 6 pronomes de 3ª pessoa (“sua mão”, “sua força”, “seu trigo”, “seus inimigos”, “seu vinho”, “seu trabalho”) têm referentes claros — os dois primeiros referem-se ao SENHOR, os demais ao povo (paradigma “você”, §3). NTLH e NVIPT empregam a mesma estratégia pronominal sem ambiguidade. Falso-positivo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,10 +141,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
