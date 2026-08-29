@@ -14,6 +14,7 @@
    "texto_bv_revisto": "Josué convocou todo Israel — seus anciãos, chefes, juízes e oficiais — e lhes disse: “Eu envelheci e estou avançado em idade.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RAT-1 (ratio 0.65) é falso-positivo: a BV é concisa e cobre o sentido completo — 'Eu envelheci e estou avançado em idade' já transmite idade avançada sem necessidade do apêndice 'de idade muito avançada' que ARA/NVIPT adicionam. Omissão deliberada de redundância em português.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -21,6 +22,7 @@
    "texto_bv_revisto": "Vocês viram tudo o que o SENHOR, seu Deus, fez com todas estas nações diante de vocês, pois o SENHOR, seu Deus, é quem luta por vocês.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 ('senhor deus'): a repetição de 'SENHOR, seu Deus' reflete fórmula hebraica intencional (YHWH Eloheikem duplicado) — preservada como fidelidade ao original. 'É quem luta por vocês' é natural em pt-BR contemporâneo.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -35,6 +37,7 @@
    "texto_bv_revisto": "O SENHOR, seu Deus, expulsará essas nações de diante de vocês e as desalojará. Então vocês tomarão posse da terra delas, como o SENHOR, seu Deus, lhes prometeu.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1: 'SENHOR, seu Deus' duplicado reflete fórmula hebraica (YHWH Eloheikem 2×). PRO-1: a densidade pronominal é intrínseca ao hebraico e a BV já a reduziu em relação à literal. Texto natural em pt-BR.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -60,10 +63,17 @@
   },
   {
    "osis": "Josh.23.9",
-   "texto_bv_revisto": "O SENHOR expulsou de diante de vocês nações grandes e poderosas. Quanto a vocês, ninguém conseguiu resistir diante de vocês até hoje.",
-   "mudancas": [],
+   "texto_bv_revisto": "O SENHOR expulsou de diante de vocês nações grandes e poderosas. Quanto a vocês, ninguém conseguiu resistir a vocês até hoje.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "resistir diante de vocês",
+     "depois": "resistir a vocês",
+     "motivo": "Evita repetição de 'diante de vocês' na mesma frase curta (RED-1). NTLH ('resistir a vocês') e NVIPT ('resistir a vocês') usam a regência natural do verbo 'resistir' + 'a'. Primeiro 'diante de vocês' é espacial (preservado); segundo é objeto de 'resistir' — regência direta 'a' é mais natural em pt-BR."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Josh.23.10",
@@ -88,10 +98,18 @@
   },
   {
    "osis": "Josh.23.13",
-   "texto_bv_revisto": "saibam com certeza que o SENHOR, seu Deus, não continuará expulsando estas nações de diante de vocês. Elas se tornarão laço e armadilha para vocês, açoite nos flancos e espinhos nos olhos, até que vocês desapareçam desta boa terra que o SENHOR, seu Deus, lhes deu.",
-   "mudancas": [],
+   "texto_bv_revisto": "saibam com certeza que o SENHOR, seu Deus, não continuará expulsando estas nações de diante de vocês. Elas se tornarão laço e armadilha para vocês, açoite nas costas e espinhos nos olhos, até que vocês desapareçam desta boa terra que o SENHOR, seu Deus, lhes deu.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "açoite nos flancos",
+     "depois": "açoite nas costas",
+     "motivo": "EDITORIAL §1.4 (consistência lexical/naturalidade): NTLH usa 'chicotes nas costas' e NVIPT usa 'chicote em suas costas'. 'Flancos' é termo técnico/anatômico pouco natural em pt-BR contemporâneo neste contexto de castigo corporal. 'Costas' é o lexema das traduções modernas e soa mais natural."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "justificativa": "RED-1 ('senhor deus' 2×) preservado como fórmula hebraica intencional. PRO-1: densidade pronominal reflete o hebraico; BV já reduziu em relação à literal.",
+   "veredito": "REVISADO"
   },
   {
    "osis": "Josh.23.14",
@@ -105,6 +123,7 @@
    "texto_bv_revisto": "Assim como se cumpriu para vocês toda boa palavra que o SENHOR, seu Deus, lhes falou, o SENHOR fará vir sobre vocês toda palavra de calamidade, até eliminar vocês desta boa terra que ele lhes deu.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 ('voces palavra'): a repetição de 'palavra' (3× no contexto dos vv. 14-15) reflete o hebraico דָּבָר repetido — fórmula retórica intencional de contraste entre 'boa palavra' e 'palavra de calamidade'. PRO-1: densidade pronominal é intrínseca ao hebraico.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -112,6 +131,7 @@
    "texto_bv_revisto": "Isso acontecerá quando vocês violarem a aliança do SENHOR, seu Deus, cuja observância ele lhes ordenou, e forem servir outros deuses e se prostrarem diante deles. Então a ira do SENHOR se acenderá contra vocês, e vocês desaparecerão rapidamente da boa terra que ele lhes deu.”",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 (6 pronomes): todos justificados pela estrutura hebraica — a sequência de orações condicionais e consequência exige referência pronominal repetida. 'Cuja observância ele lhes ordenou' é formal mas natural em pt-BR.",
    "veredito": "SEM_ALTERACAO"
   }
  ]
