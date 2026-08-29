@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Jer.25.1-38"
   },
-  "texto_bv": "eis que envio e convoco todas as famílias do norte, diz o SENHOR, e a Nabucodonosor, rei da Babilônia, meu servo; eu os trarei contra esta terra, contra os seus moradores e contra todas estas nações ao redor. Eu os destinarei à destruição total e farei deles objeto de espanto, de assobio e de ruínas perpétuas.",
+  "texto_bv": "envio e convoco todas as famílias do norte, diz o SENHOR, e a Nabucodonosor, rei da Babilônia, meu servo; eu os trarei contra esta terra, contra os seus moradores e contra todas estas nações ao redor. Eu os destinarei à destruição total e farei deles objeto de espanto, de assobio e de ruínas perpétuas.",
   "traducao_literal": "Eis-me enviando, e tomarei todas as famílias do norte, oráculo do SENHOR, e a Nabucodonosor rei de Babel, meu servo, e os farei vir sobre a terra, esta, e sobre os moradores dela, e sobre todas as nações, estas, ao redor; e os destinarei à destruição, e os porei para espanto e para assobio e para ruínas de eternidade.",
   "termos_originais": [
     {
@@ -184,6 +184,13 @@
       "escolha": "manter 'meu servo' sem suavização",
       "justificativa": "TEOLOGIA §2 proíbe suavizar dificuldades do original; título teológico chocante (cf. Jr 27:6; 43:10) preservado tal como está.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eis que envio e convoco → envio e convoco",
+      "justificativa": "normalização do calque 'eis que' (§6.2/ER-0013); NTLH e NVIPT eliminam o dêitico; a força profética é carregada pelo presente verbal — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -199,10 +206,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
