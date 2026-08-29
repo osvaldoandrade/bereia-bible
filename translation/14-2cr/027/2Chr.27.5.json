@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "2Chr.27.1-9"
   },
-  "texto_bv": "Jotão guerreou contra o rei dos filhos de Amom e prevaleceu sobre eles. Naquele ano, os filhos de Amom lhe deram cem talentos de prata, dez mil coros de trigo e dez mil de cevada. Os filhos de Amom repetiram essa entrega no segundo e no terceiro ano.",
+  "texto_bv": "Jotão guerreou contra o rei dos amonitas e prevaleceu sobre eles. Naquele ano, os amonitas lhe deram cem talentos de prata, dez mil coros de trigo e dez mil de cevada. Os amonitas repetiram essa entrega no segundo e no terceiro ano.",
   "traducao_literal": "E ele guerreou com o rei dos filhos de Amom e fortaleceu-se sobre eles; e deram-lhe os filhos de Amom, naquele ano, cem talentos de prata, e dez mil coros de trigo, e cevada, dez mil. Isto fizeram voltar para ele os filhos de Amom no segundo ano e no terceiro.",
   "termos_originais": [
     {
@@ -198,6 +198,13 @@
           "motivo": "Omitiria o segundo e o terceiro anos."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "filhos de Amom → amonitas",
+      "justificativa": "consistência lexical (§1.4/ER-0019 v2) — a expressão ‘filhos de Amom’ repetia-se quatro vezes no mesmo verso; NTLH/ARA/NVIPT usam o gentílico consolidado ‘amonitas’, mais natural em pt-BR contemporâneo. Aplicado em todas as ocorrências do verso (EDITORIAL §1.2-tabela: naturalidade). — revisão de forma sem alteração de sentido (ER-0019). RED-1 flagrou a repetição de ‘filhos de Amom’ (4×). O gentílico ‘amonitas’ é equivalente semântico consolidado em pt-BR (ARA e NVIPT o usam em todas as ocorrências); a mudança elimina a redundância pesada sem alterar o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -215,10 +222,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
