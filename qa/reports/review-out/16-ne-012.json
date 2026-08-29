@@ -56,6 +56,7 @@
       "texto_bv_revisto": "E os levitas — Jesua, Binui, Cadmiel, Serebias, Judá e Matanias — estavam encarregados das ações de graças, ele e seus irmãos.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "O pronome \"ele\" em aparente desacordo de número com o sujeito coletivo \"os levitas\" reflete a sintaxe do original hebraico, que destaca o líder (Jesua ou Matanias) seguido de seus irmãos. NTLH/NVIPT reestruturam livremente; a BV preserva a ambiguidade do original. Mudança para corrigir a concordância exigiria decidir o referente (sentido).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -70,6 +71,7 @@
       "texto_bv_revisto": "Jesua gerou Joiaquim; Joiaquim gerou Eliasibe; e Eliasibe gerou Joiada.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A repetição tripla de \"gerou\" espelha a fórmula genealógica do original (verbo wayyiqtol repetido). NTLH varia para \"foi pai de\"; a BV mantém o paralelismo formular — redundância intencional do original, não defeito (§1.4/c).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -77,6 +79,7 @@
       "texto_bv_revisto": "E Joiada gerou Jônatas, e Jônatas gerou Jadua.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Fórmula genealógica repetitiva intencional (mesmo padrão de 12.10).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -105,6 +108,7 @@
       "texto_bv_revisto": "de Harim, Adna; de Meraiote, Helcai;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 sobre \"helcai\": nome próprio hebraico, sem problema vocálico em português. ARA e NVIPT também grafam \"Helcai\". Falso-positivo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -119,6 +123,7 @@
       "texto_bv_revisto": "de Abias, Zicri; de Miniamim, de Moadias, Piltai;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 sobre \"piltai\": nome próprio, grafia consolidada na tradição Almeida (ARA idem). Falso-positivo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -133,6 +138,7 @@
       "texto_bv_revisto": "E de Joiaribe, Matenai; de Jedaías, Uzi;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 sobre \"matenai\": nome próprio, ARA também grafa \"Matenai\". Falso-positivo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -140,6 +146,7 @@
       "texto_bv_revisto": "de Salai, Calai; de Amoque, Éber;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 sobre \"calai, salai\": nomes próprios, ARA também grafa \"Salai, Calai\". NVIPT diverge com \"Héber\" (BV e ARA usam \"Éber\"), mas é variação legítima de transliteração, não arcaísmo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -165,17 +172,31 @@
     },
     {
       "osis": "Neh.12.24",
-      "texto_bv_revisto": "E os chefes dos levitas eram Hasabias, Serebias e Jesua, filho de Cadmiel, com seus irmãos diante deles, para louvar e dar graças, conforme o mandamento de Davi, homem de Deus, turno correspondente a turno.",
-      "mudancas": [],
+      "texto_bv_revisto": "E os chefes dos levitas eram Hasabias, Serebias e Jesua, filho de Cadmiel, com seus irmãos diante deles, para louvar e dar graças, conforme o mandamento de Davi, homem de Deus, turma em frente a turma.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "turno correspondente a turno",
+          "depois": "turma em frente a turma",
+          "motivo": "Expressão \"turno correspondente a turno\" soa artificial em pt-BR contemporâneo; ARA usa \"turma contra turma\" e NVIPT \"um grupo respondia ao outro\". Substituição mantém a fórmula de alternância do original (mishmar neged mishmar) com linguagem mais natural, preservando o paralelismo litúrgico."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Neh.12.25",
-      "texto_bv_revisto": "Matanias, Bacbuquias, Obadias, Mesulão, Talmom e Acube eram guardas, porteiros que faziam a guarda dos depósitos junto às portas.",
-      "mudancas": [],
+      "texto_bv_revisto": "Matanias, Bacbuquias, Obadias, Mesulão, Talmom e Acube eram porteiros e guardavam os depósitos junto às portas.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "eram guardas, porteiros que faziam a guarda dos depósitos junto às portas",
+          "depois": "eram porteiros e guardavam os depósitos junto às portas",
+          "motivo": "Redundância interna: \"guardas...faziam a guarda\" repete a mesma raiz sem razão estilística (o original não repete). Correção preserva sentido (porter + vigilância dos depósitos) e alinha com ARA/NVIPT, que evitam a redundância."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Neh.12.26",
@@ -214,10 +235,17 @@
     },
     {
       "osis": "Neh.12.31",
-      "texto_bv_revisto": "Eu fiz subir os líderes de Judá sobre o muro e organizei dois grandes coros de ação de graças; e um cortejo foi para a direita, sobre o muro, em direção à porta do Esterco.",
-      "mudancas": [],
+      "texto_bv_revisto": "Eu fiz subir os líderes de Judá ao alto do muro e organizei dois grandes coros de ação de graças; e um cortejo foi para a direita, sobre o muro, em direção à porta do Esterco.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "sobre o muro e organizei",
+          "depois": "ao alto do muro e organizei",
+          "motivo": "RED-1: \"sobre o muro\" aparece duas vezes no verso (subida + percurso). Primeira ocorrência varia para \"ao alto do muro\" (como NVIPT) para distinguir o ato de subir ao topo do muro do caminhar sobre ele. ARA também repete \"sobre o muro\"; a variação melhora a fluidez sem alterar sentido."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Neh.12.32",
@@ -245,6 +273,7 @@
       "texto_bv_revisto": "e dos filhos dos sacerdotes, com trombetas: Zacarias, filho de Jônatas, filho de Semaías, filho de Matanias, filho de Micaías, filho de Zacur, filho de Asafe;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A cadeia patronímica repete \"filho de\" seis vezes — fórmula genealógica intencional do original. NVIPT varia com \"neto/bisneto\", mas a repetição é marca estilística da tradição (ARA também repete \"filho de\"). Mantida por fidelidade à fórmula.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -252,6 +281,7 @@
       "texto_bv_revisto": "e seus irmãos Semaías, Azareel, Milalai, Gilalai, Maai, Natanael, Judá e Hanani, com os instrumentos musicais de Davi, homem de Deus; e o escriba Esdras ia à frente deles.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 sobre \"gilalai, maai, milalai\": nomes próprios hebraicos sem problema vocálico em português. ARA grafa \"Milalai, Gilalai, Maai\"; NVIPT idem. Falso-positivo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -273,6 +303,7 @@
       "texto_bv_revisto": "e por cima da porta de Efraim, e da porta Velha, e da porta dos Peixes, e da torre de Hananel, e da torre dos Cem, até a porta das Ovelhas; e pararam na porta da Guarda.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "O \"e\" repetido na lista de portas espelha o waw paratático do original, marcando progressão do cortejo. ARA mantém o padrão; NVIPT/NTLH condensam. Fórmula discursiva intencional — mantida.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -287,6 +318,7 @@
       "texto_bv_revisto": "e os sacerdotes Eliaquim, Maaseias, Miniamim, Micaías, Elioenai, Zacarias e Hananias, com trombetas;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado VOS-1 sobre \"elioenai\": nome próprio hebraico, ARA e NVIPT também grafam \"Elioenai\". Falso-positivo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -301,27 +333,28 @@
       "texto_bv_revisto": "Naquele dia ofereceram grandes sacrifícios e se alegraram, porque Deus os tinha alegrado com grande alegria; e também as mulheres e as crianças se alegraram; e a alegria de Jerusalém foi ouvida de longe.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado PAS-1 (peso 1): \"foi ouvida\" é passiva, mas aceitável em pt-BR; o sujeito \"a alegria\" é metonímia do som do júbilo (uso bíblico consolidado). ARA resolve com reflexiva (\"se fez ouvir\"); NTLH/NVIPT explicitam \"o barulho/os sons da alegria\". Mudar o sujeito para \"o som da alegria\" seria adição (MATERIAL). Mantido como está, alinhado com a literalidade da BV.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Neh.12.44",
       "texto_bv_revisto": "Naquele dia, homens foram designados sobre as câmaras para os tesouros, as contribuições, as primícias e os dízimos, a fim de recolherem neles, dos campos das cidades, as porções da lei para os sacerdotes e os levitas. Pois a alegria de Judá estava nos sacerdotes e nos levitas que ali serviam.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "levitas; pois a alegria",
-          "depois": "levitas. Pois a alegria",
-          "motivo": "LEN-1 — divisão de sentença com 51 palavras (limiar §1.3: 40); ponto final na fronteira causal marcada por 'pois', sem perda sintática nem alteração de sentido; RED-1 ('sacerdotes levitas') é fórmula intencional do original (paralelismo entre cláusula de designação e cláusula de alegria)"
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Achado RED-1 \"sacerdotes levitas\": falso-positivo — \"sacerdotes e levitas\" são dois grupos distintos no judaísmo do Segundo Templo, não redundância. A repetição de \"sacerdotes...levitas\" no capítulo inteiro é exigência do conteúdo (listas separadas).",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Neh.12.45",
       "texto_bv_revisto": "Assim guardaram o encargo de seu Deus e o encargo da purificação — os cantores e os porteiros também —, conforme o mandamento de Davi e de Salomão, seu filho.",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "\"encargo de seu Deus...encargo da purificação\" soa artificial em pt-BR contemporâneo; ARA usa \"preceitos\" e NVIPT \"culto/ritual\", mais naturais.",
+          "evidencia": "Hebraico mishmeret pode ser vertido como \"preceito\", \"observância\" ou \"ritual\"; a BV optou pelo calque \"encargo\". Mudança exigiria reinterpretação semântica leve (MATERIAL se mexer no primeiro \"encargo de seu Deus\" — poderia perder a noção de obrigação pessoal). Deferido para revisão futura com consulta ao léxico."
+        }
+      ],
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -334,16 +367,10 @@
     {
       "osis": "Neh.12.47",
       "texto_bv_revisto": "E todo o Israel, nos dias de Zorobabel e nos dias de Neemias, dava as porções dos cantores e dos porteiros, a porção de cada dia. E separava as ofertas consagradas para os levitas, e os levitas as separavam para os filhos de Arão.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "dia; e separava as ofertas",
-          "depois": "dia. E separava as ofertas",
-          "motivo": "LEN-1 — divisão de sentença com 44 palavras (limiar §1.3: 40); 'e' coordenativo inicia nova oração independente, sem perda sintática nem alteração de sentido"
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "\"porção...porção\" e \"separava...separavam\" espelham repetições formulares do original (davar she-beyomo + qodesh/qodashim). ARA mantém estrutura similar. Mantido por fidelidade à fórmula.",
+      "veredito": "SEM_ALTERACAO"
     }
   ]
 }
