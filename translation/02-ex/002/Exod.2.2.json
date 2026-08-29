@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Exod.2.1-25"
   },
-  "texto_bv": "E a mulher concebeu, e deu à luz um filho; e, vendo que ele era formoso, escondeu-o três meses.",
+  "texto_bv": "A mulher concebeu e deu à luz um filho; vendo que ele era formoso, escondeu-o três meses.",
   "traducao_literal": "E concebeu a mulher e deu à luz um filho; e viu-o que bom ele, e o escondeu três meses.",
   "termos_originais": [
     {
@@ -78,6 +78,13 @@
       "escolha": "vendo que ele era formoso",
       "justificativa": "כִּי־טוֹב 'que era bom/belo' evoca a fórmula criacional de Gn 1:4ss; a mãe vê no filho algo digno de ser preservado. 'Formoso' capta o juízo estético-providencial.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E a mulher concebeu, e deu à luz um filho; e, vendo que ele era formoso, escondeu-o três meses. → A mulher concebeu e deu à luz um filho; vendo que ele era formoso, escondeu-o três meses.",
+      "justificativa": "Remoção de 'E' inicial e do 'e' antes de 'vendo' (calque paratático do waw, §6.2/ER-0013); pontuação mais fluida. — revisão de forma sem alteração de sentido (ER-0019). NTLH/ARA/NVIPT omitem o 'E' inicial; 'formoso' mantido pois ARA também o emprega e não é arcaísmo funcionalmente morto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -89,10 +96,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
