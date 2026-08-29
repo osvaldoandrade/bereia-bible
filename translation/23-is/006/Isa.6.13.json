@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Isa.6.1-13"
   },
-  "texto_bv": "e, ainda que reste nela um décimo, este também será consumido; mas, como o terebinto e o carvalho, que ao serem derrubados deixam o toco, a sua cepa será semente santa.”",
+  "texto_bv": "e, ainda que reste nela um décimo, este também será consumido; mas, como o terebinto e o carvalho, que ao serem derrubados deixam o toco, o seu toco será semente santa.”",
   "traducao_literal": "E ainda nela um décimo, e voltará, e será para consumir; como o terebinto e como o carvalho, que no derrubar, um toco neles: semente santa é o seu toco.",
   "termos_originais": [
     {
@@ -110,6 +110,13 @@
       "escolha": "Não resolvido; ambiguidade preservada no publicado com pronome ambíguo 'a sua cepa'.",
       "justificativa": "Ambas as leituras (remanescente da terra ou remanescente da décima parte do povo) são gramaticalmente possíveis e teologicamente relevantes (remanescente messiânico); TEOLOGIA §1.4 exige preservar ambiguidade quando o original a comporta.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a sua cepa será semente santa. → o seu toco será semente santa.",
+      "justificativa": "Consistência lexical intra-verso (§1.4): o hebraico usa a mesma palavra מַצֶּבֶת (toco/tronco) duas vezes no verso; a BV traduz por “toco” na primeira ocorrência e “cepa” na segunda, criando variação desnecessária. ARA usa “toco” em ambas; NVIPT usa “tronco” em ambas. Normalizado para “toco” (lexema já presente no verso e consistente com ARA). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -126,10 +133,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

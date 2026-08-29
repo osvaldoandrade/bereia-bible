@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Isa.2.1-22"
   },
-  "texto_bv": "Muitos povos irão e dirão: \"Vinde, subamos ao monte do SENHOR, à casa do Deus de Jacó, para que ele nos ensine os seus caminhos e andemos nas suas veredas\"; porque de Sião sairá a lei, e de Jerusalém, a palavra do SENHOR.",
+  "texto_bv": "Muitos povos irão e dirão: \"Venham, subamos ao monte do SENHOR, à casa do Deus de Jacó, para que ele nos ensine os seus caminhos e andemos nas suas veredas\". Porque de Sião sairá a lei, e de Jerusalém, a palavra do SENHOR.",
   "traducao_literal": "E irão povos muitos, e dirão: Vinde, e subamos ao monte do SENHOR, à casa do Deus de Jacó, e ele nos ensinará dos seus caminhos, e andaremos nas suas veredas; porque de Sião sairá lei, e a palavra do SENHOR de Jerusalém.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
           "motivo": "mais próxima da raiz, mas rompe com o uso consolidado e dificultaria a concordância terminológica no restante do corpus profético"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vinde, subamos → Venham, subamos | veredas\"; porque → veredas\". Porque",
+      "justificativa": "Discurso humano↔humano (povos entre si); paradigma você/vocês (§3/D-0003). NTLH e NVIPT usam \"venham\"/\"Vamos\"; ARA preserva vós arcaico. | Sentença com 43 palavras (LEN-1, §1.3); divisão no limite entre discurso direto e explicação causal, sem perda sintática. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -154,10 +161,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
