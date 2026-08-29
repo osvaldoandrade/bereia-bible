@@ -6,7 +6,14 @@
    "osis": "1Kgs.22.1",
    "texto_bv_revisto": "Arã e Israel permaneceram três anos sem guerra entre si.",
    "mudancas": [],
-   "objecoes": [],
+   "objecoes": [
+    {
+     "gravidade": "EDITORIAL",
+     "problema": "BV usa “Arã” onde NTLH/ARA/NVIPT convergem em “Síria”. EDITORIAL §8 pede grafia consolidada em português; “Síria” é a forma corrente no pt-BR bíblico e secular. “Arã” é transliteração do hebraico, não grafia consolidada.",
+     "evidencia": "ARA: “a Síria e Israel”; NTLH: “Israel e a Síria”; NVIPT: “a Síria e Israel”. Ocorre em todo o capítulo (vv1,3,4,8,11,20,29,31,35). Decisão de escopo global — requer adjudicação do mantenedor."
+    }
+   ],
+   "justificativa": "NTLH/ARA/NVIPT convergem em “Síria” (forma consolidada pt-BR); BV usa “Arã” (transliteração heb.). Mudança registrada como objeção EDITORIAL por ser convenção de escopo global (§8), não decisão por capítulo.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -133,6 +140,7 @@
    "texto_bv_revisto": "Micaías disse: “Portanto, ouça a palavra do SENHOR: vi o SENHOR sentado em seu trono, e todo o exército dos céus estava em pé junto dele, à sua direita e à sua esquerda.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 (4 pronomes 3ª pessoa): falso positivo. Todos os pronomes (“seu trono”, “junto dele”, “sua direita”, “sua esquerda”) referem-se inequivocamente ao SENHOR, único antecedente possível no contexto da visão. Referências (ARA/NVIPT) usam a mesma estrutura pronominal sem ambiguidade.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -158,10 +166,18 @@
   },
   {
    "osis": "1Kgs.22.23",
-   "texto_bv_revisto": "Agora, eis que o SENHOR pôs um espírito de mentira na boca de todos estes seus profetas, e o SENHOR falou calamidade contra você.”",
-   "mudancas": [],
+   "texto_bv_revisto": "Agora o SENHOR pôs um espírito de mentira na boca de todos estes seus profetas, e o SENHOR falou calamidade contra você.”",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Agora, eis que o SENHOR pôs",
+     "depois": "Agora o SENHOR pôs",
+     "motivo": "CAL-2: “eis que” é calque paratático de הִנֵּה que soa artificial em pt-BR contemporâneo. NTLH e NVIPT omitem; ARA mantém por ser mais formal. Normalização conforme §6.2/ER-0013 — o dêitico perde força neste pronunciamento profético onde “Agora” já ancora temporalmente."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "justificativa": "CAL-2 adjudicado: “eis que” removido. NTLH parafraseia (“O senhor está vendo agora”), NVIPT omite, só ARA mantém. Em pt-BR contemporâneo, “Agora” supre a função dêitica sem o arcaísmo.",
+   "veredito": "REVISADO"
   },
   {
    "osis": "1Kgs.22.24",
@@ -172,10 +188,18 @@
   },
   {
    "osis": "1Kgs.22.25",
-   "texto_bv_revisto": "Micaías respondeu: “Eis que você verá naquele dia, quando entrar de aposento em aposento para se esconder.”",
-   "mudancas": [],
+   "texto_bv_revisto": "Micaías respondeu: “Você verá naquele dia, quando entrar de aposento em aposento para se esconder.”",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Eis que você verá naquele dia",
+     "depois": "Você verá naquele dia",
+     "motivo": "CAL-2: “eis que” é calque de הִנֵּה artificial em pt-BR. NTLH e NVIPT omitem; só ARA mantém. Normalização conforme §6.2/ER-0013."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "justificativa": "CAL-2 adjudicado: mesmo critério do v23. NTLH (“Você descobrirá isso quando”) e NVIPT (“Você descobrirá no dia em que”) dispensam o dêitico; ARA mantém por registro formal. BV normaliza para naturalidade.",
+   "veredito": "REVISADO"
   },
   {
    "osis": "1Kgs.22.26",
@@ -294,6 +318,7 @@
    "texto_bv_revisto": "Josafá tinha trinta e cinco anos quando começou a reinar e reinou vinte e cinco anos em Jerusalém. Sua mãe se chamava Azuba, filha de Sili.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 (“cinco anos”): falso positivo do marcador estático. “Trinta e cinco” e “vinte e cinco” são numerais distintos que compartilham o componente “cinco” por coincidência do sistema numérico — não é redundância textual.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -308,6 +333,7 @@
    "texto_bv_revisto": "Contudo, os lugares altos não foram removidos; o povo ainda sacrificava e fazia ofertas fumegar nos lugares altos.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 (“lugares altos” repetido): a repetição é fiel ao original hebraico, que reitera o termo (הַבָּמוֹת...בַּבָּמוֹת). Per EDITORIAL §4/regra 4 do prompt: repetir o que o original repete é fidelidade. NTLH evita com pronome (“neles”), mas a BV preserva a repetição intencional da fonte.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -357,6 +383,7 @@
    "texto_bv_revisto": "Josafá descansou com seus antepassados e foi sepultado com seus antepassados na Cidade de Davi, seu antepassado. Seu filho Jeorão reinou em seu lugar.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 (5 pronomes 3ª pessoa): falso positivo. Todos os possessivos referem-se a Josafá (vv1,2,4,5) ou a Davi (v3) — antecedentes inequívocos. A tríplice repetição de “antepassados” reflete fielmente o hebraico (אֲבוֹתָיו...אֲבוֹתָיו...אָבִיו); per EDITORIAL §4/regra 4, é fidelidade à fonte.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -364,6 +391,7 @@
    "texto_bv_revisto": "Acazias, filho de Acabe, começou a reinar sobre Israel, em Samaria, no décimo sétimo ano de Josafá, rei de Judá, e reinou dois anos sobre Israel.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 (“sobre Israel” repetido): a dupla ocorrência é fórmula de acessão real do hebraico, repetindo o escopo geográfico. BV preserva fielmente a estrutura formular da fonte. NTLH evita com “em Samaria” na segunda menção, mas a BV opta pela fidelidade à repetição original.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -371,6 +399,7 @@
    "texto_bv_revisto": "Ele fez o que era mau aos olhos do SENHOR e andou no caminho de seu pai, no caminho de sua mãe e no caminho de Jeroboão, filho de Nebate, que fez Israel pecar.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 (“caminho” repetido 3×): paralelismo triplo intencional do hebraico (בְּדֶרֶךְ...בְּדֶרֶךְ...בְּדֶרֶךְ). A BV preserva a fórmula de paralelismo sinonímico — repetir o que o original repete é fidelidade (EDITORIAL §4/regra 4). NTLH colapsa em lista; NVIPT reduz a 2×; BV mantém a estrutura trinitária da fonte.",
    "veredito": "SEM_ALTERACAO"
   },
   {
