@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Exod.9.1-35"
   },
-  "texto_bv": "E se tornará pó miúdo sobre toda a terra do Egito, e se tornará úlceras que arrebentarão em bolhas, nos homens e no gado, por toda a terra do Egito.",
+  "texto_bv": "E se tornará pó miúdo sobre toda a terra do Egito, e produzirá úlceras que arrebentarão em bolhas, nos homens e no gado, por toda a terra do Egito.",
   "traducao_literal": "E tornar-se-á em pó sobre toda a terra do Egito, e será sobre o homem e sobre o animal em úlcera que floresce em bolhas em toda a terra do Egito.",
   "termos_originais": [
     {
@@ -104,6 +104,13 @@
       "justificativa": "mesóclise vedada (§1.2) e arcaísmo 'tornar-se em' (§1.2); próclise por atração de 'e' | arcaísmo 'tornar-se em' (§1.2) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "se tornará úlceras → produzirá úlceras",
+      "justificativa": "correção de concordância: verbo no singular com complemento no plural (sujeito implícito 'cinza' é singular); 'produzirá' preserva o sentido de causação — revisão de forma sem alteração de sentido (ER-0019). RED-1: a repetição de 'terra do Egito' espelha o original hebraico e é igualmente mantida pela ARA; fidelidade à fonte, não redundância espúria.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -116,9 +123,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
