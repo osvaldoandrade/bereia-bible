@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "1Kgs.10.1-29"
   },
-  "texto_bv": "Também a frota de Hirão, que trazia ouro de Ofir, trouxe de Ofir grande quantidade de madeira de almugue e pedras preciosas.",
+  "texto_bv": "Também a frota de Hirão, que trazia ouro de Ofir, trouxe de lá grande quantidade de madeira de almugue e pedras preciosas.",
   "traducao_literal": "E também a frota de Hirão, que carregou ouro de Ofir, trouxe de Ofir madeiras de almugue, muito, muito, e pedra preciosa.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
           "motivo": "É identificação tradicional, mas não segura para o lexema raro."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "trouxe de Ofir grande quantidade → trouxe de lá grande quantidade",
+      "justificativa": "Eliminação de repetição não-formular de “de Ofir” no mesmo verso (§1.3 fluidez); o antecedente é inequívoco. — revisão de forma sem alteração de sentido (ER-0019). O original repete “Ofir” duas vezes no mesmo verso; a repetição não é formular (não é paralelismo nem refrão). NTLH e NVIPT usam pronome (“de lá”); ARA omite a segunda menção. A BV agora segue a prática contemporânea sem perda de clareza.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -111,10 +118,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
