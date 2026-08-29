@@ -7,6 +7,7 @@
       "texto_bv_revisto": "Ame o SENHOR, seu Deus, e cumpra sempre o que ele requer, bem como seus estatutos, suas ordenanças e seus mandamentos.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado PRO-1 é falso-positivo: os 5 pronomes de 3ª pessoa referem-se a Deus com antecedente claro (“SENHOR, seu Deus”); em pt-BR, possessivo de 3ª pessoa para 2ª (“seu Deus”) é padrão. Sem divergência material das referências.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -21,14 +22,22 @@
       "texto_bv_revisto": "nem os sinais e os feitos que realizou no Egito contra Faraó, rei do Egito, e contra toda a sua terra;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado RED-1 (“Egito” repetido) reflete o original hebraico (“no meio do Egito, a Faraó, rei do Egito”); ARA também repete. Fórmula descritiva do original, não redundância defeituosa.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Deut.11.4",
-      "texto_bv_revisto": "nem o que fez ao exército egípcio, a seus cavalos e carros: quando eles perseguiam vocês, fez as águas do mar de Juncos passarem sobre eles, e o SENHOR os destruiu até o dia de hoje;",
-      "mudancas": [],
+      "texto_bv_revisto": "nem o que fez ao exército egípcio, a seus cavalos e carros: quando eles perseguiam vocês, fez as águas do mar de Juncos os cobrirem, e o SENHOR os destruiu até o dia de hoje;",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "fez as águas do mar de Juncos passarem sobre eles",
+          "depois": "fez as águas do mar de Juncos os cobrirem",
+          "motivo": "Fluidez: “passarem sobre” soa ambíguo em pt-BR (sugere atravessar por cima, não submergir); NTLH usa “os cobrissem e afogassem”, NVIPT “os surpreendeu com as águas”; “cobrirem” é mais natural e claro."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Deut.11.5",
@@ -40,16 +49,9 @@
     {
       "osis": "Deut.11.6",
       "texto_bv_revisto": "nem o que fez a Datã e Abirão — ambos filhos de Eliabe, que era filho de Rúben. A terra abriu a boca e os engoliu, junto com suas famílias, suas tendas e tudo o que os acompanhava, no meio de todo o Israel.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Rúben —, quando a terra",
-          "depois": "Rúben. A terra",
-          "motivo": "LEN-1: sentença de 44 palavras dividida em duas; o original permite a cisão sem perda sintática (EDITORIAL §1.3)"
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Deut.11.7",
@@ -60,24 +62,39 @@
     },
     {
       "osis": "Deut.11.8",
-      "texto_bv_revisto": "Cumpram todo o mandamento que hoje ordeno a você, para que vocês ganhem força, entrem na terra para a qual estão atravessando e tomem posse dela,",
-      "mudancas": [],
+      "texto_bv_revisto": "Cumpram todo o mandamento que hoje ordeno a vocês, para que vocês ganhem força, entrem na terra para a qual estão atravessando e tomem posse dela,",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "que hoje ordeno a você, para que vocês ganhem força, entrem na terra para a qual estão atravessando",
+          "depois": "que hoje ordeno a vocês, para que vocês ganhem força, entrem na terra para a qual estão atravessando",
+          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): “a você” (sg) conflita com “vocês” (pl) e o imperativo plural “Cumpram”; normalizado para “a vocês”, alinhando com NVIPT “lhes estou dando” e NTLH “estou dando a vocês”."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Deut.11.9",
       "texto_bv_revisto": "e para que prolonguem seus dias na terra que o SENHOR jurou a seus pais que daria a eles e a seus descendentes, uma terra que mana leite e mel.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado PRO-1 é falso-positivo: “seus pais/descendentes” são possessivos de 3ª pessoa referindo-se a “vocês”, padrão em pt-BR; NVIPT usa “seus antepassados e aos descendentes deles”, confirmando o paradigma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Deut.11.10",
-      "texto_bv_revisto": "A terra em que você está entrando para tomar posse é diferente da terra do Egito, de onde vocês saíram. Lá você semeava e conduzia a água com o pé, como numa horta.",
-      "mudancas": [],
+      "texto_bv_revisto": "A terra em que vocês estão entrando para tomar posse é diferente da terra do Egito, de onde vocês saíram. Lá vocês semeavam e conduziam a água com o pé, como numa horta.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "Lá você semeava e conduzia a água com o pé",
+          "depois": "Lá vocês semeavam e conduziam a água com o pé",
+          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): “você semeava e conduzia” (sg) conflita com “vocês estão entrando” e “vocês saíram” (pl) no mesmo verso; normalizado para “vocês semeavam e conduziam”, coerente com NTLH “vocês precisavam” e NVIPT “vocês… plantavam”."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Deut.11.11",
@@ -91,6 +108,7 @@
       "texto_bv_revisto": "É uma terra da qual o SENHOR, seu Deus, cuida. Os olhos do SENHOR, seu Deus, estão continuamente sobre ela, desde o começo até o fim do ano.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Achado RED-1 (“SENHOR, seu Deus” repetido) reflete o original hebraico, que repete “YHWH teu Deus” duas vezes; ARA e NVIPT também repetem. Fórmula intencional do original, mantida (§4 do prompt: repetir o que o original repete é fidelidade).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -98,6 +116,7 @@
       "texto_bv_revisto": "Se vocês obedecerem cuidadosamente aos meus mandamentos que hoje lhes ordeno, amando o SENHOR, o Deus de vocês, e servindo-o com todo o coração e com toda a vida,",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "BV usa “vida” para nephesh onde NTLH/ARA/NVIPT usam “alma”; “vida” é glosa legítima e consistente da BV para nephesh (não é arcaísmo nem erro de forma). Apesar da divergência lexical, a escolha é defensável e não exige mudança de forma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -105,14 +124,22 @@
       "texto_bv_revisto": "eu darei à terra de vocês a chuva no tempo certo, a chuva temporã e a chuva serôdia; você recolherá seu cereal, seu vinho novo e seu azeite.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "“Temporã/serôdia” são termos técnicos bíblicos consagrados; ARA e NVIPT também usam “temporã e serôdia”. Não são arcaísmos mortos (EDITORIAL §1.2 não os lista). NTLH moderniza para “outono/primavera” mas a BV segue a tradição Almeida, aceitável.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Deut.11.15",
-      "texto_bv_revisto": "Eu darei vegetação em seu campo para os seus animais; você comerá e ficará satisfeito.",
-      "mudancas": [],
+      "texto_bv_revisto": "Eu darei pasto em seu campo para o seu gado; você comerá e ficará satisfeito.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "Eu darei vegetação em seu campo para os seus animais",
+          "depois": "Eu darei pasto em seu campo para o seu gado",
+          "motivo": "Lexema mais natural (§1.4): “vegetação” soa genérico/botânico; NTLH usa “pastos”, ARA “erva”, NVIPT “pasto” — “pasto” converge. “Animais” é muito amplo; NTLH usa “gado”, NVIPT “rebanhos”; “gado” é o lexema natural no contexto agrícola."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Deut.11.16",
@@ -133,6 +160,7 @@
       "texto_bv_revisto": "Mantenham estas minhas palavras no coração e na vida de vocês. Amarrem-nas como sinal na mão e façam delas sinais frontais entre os olhos.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "BV usa “vida” para nephesh onde NTLH/ARA usam “alma” e NVIPT usa “mente”; escolha legítima e consistente da BV (ver 11.13). “Sinais frontais” segue a tradição ARA; sem divergência que exija mudança de forma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -144,10 +172,17 @@
     },
     {
       "osis": "Deut.11.20",
-      "texto_bv_revisto": "Escreva-as nos batentes de sua casa e em seus portões,",
-      "mudancas": [],
+      "texto_bv_revisto": "Escrevam-nas nos batentes de sua casa e em seus portões,",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "Escreva-as nos batentes de sua casa",
+          "depois": "Escrevam-nas nos batentes de sua casa",
+          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): “Escreva” (sg) conflita com o plural usado nos versos adjacentes (“Ensinem” 11.19, “Mantenham” 11.18); normalizado para “Escrevam” (pl), coerente com NTLH “escrevam” e NVIPT “Escrevam-nas”."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Deut.11.21",
@@ -186,10 +221,17 @@
     },
     {
       "osis": "Deut.11.26",
-      "texto_bv_revisto": "Veja: hoje ponho diante de vocês uma bênção e uma maldição.",
-      "mudancas": [],
+      "texto_bv_revisto": "Vejam: hoje ponho diante de vocês uma bênção e uma maldição.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "Veja: hoje ponho",
+          "depois": "Vejam: hoje ponho",
+          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): imperativo “Veja” (sg) conflita com o plural predominante no capítulo e com “diante de vocês” (pl) no mesmo verso; normalizado para “Vejam”, coerente com ARA “Vede” (pl) e NVIPT “Prestem atenção” (pl)."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Deut.11.27",
@@ -207,16 +249,24 @@
     },
     {
       "osis": "Deut.11.29",
-      "texto_bv_revisto": "Quando o SENHOR, seu Deus, levar você à terra em que está entrando para tomar posse, você porá sobre o monte Gerizim a bênção e, sobre o monte Ebal, a maldição.",
-      "mudancas": [],
+      "texto_bv_revisto": "Quando o SENHOR, o Deus de vocês, os levar à terra em que estão entrando para tomar posse, vocês pronunciarão sobre o monte Gerizim a bênção e, sobre o monte Ebal, a maldição.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "levar você à terra em que está entrando para tomar posse, você porá",
+          "depois": "os levar à terra em que estão entrando para tomar posse, vocês pronunciarão",
+          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): “levar você”, “está entrando” e “você porá” (sg) conflitam com o plural do capítulo inteiro e das referências (NTLH “os levar/vocês anunciarão”, NVIPT “os tiver levado/vocês terão que proclamar”); normalizado para “os levar/estão entrando/vocês pronunciarão”. “Pronunciarão” também é mais preciso que “porá” (ARA usa “pronunciarás”, NTLH “anunciarão”)."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "Deut.11.30",
       "texto_bv_revisto": "Não estão eles do outro lado do Jordão, além da estrada do poente, na terra dos cananeus que vivem na Arabá, diante de Gilgal, perto dos terebintos de Moré?",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "BV usa “terebintos” onde ARA/NVIPT usam “carvalhos”; ambos traduzem ‘elah (terebinto é a espécie botanicamente correta, carvalho é tradução tradicional). Escolha lexical legítima, não arcaísmo. NTLH paráfraseia como “árvores sagradas”.",
       "veredito": "SEM_ALTERACAO"
     },
     {
