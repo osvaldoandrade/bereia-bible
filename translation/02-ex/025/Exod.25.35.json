@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "Exod.25.1-40"
   },
-  "texto_bv": "Haverá um botão debaixo de dois braços que saem dele; outro botão debaixo de dois outros braços que saem dele; e ainda outro botão debaixo de dois outros braços que saem dele — assim se fará com os seis braços que saem do candelabro.",
+  "texto_bv": "Haverá um botão debaixo de dois braços que saem dele; outro botão debaixo de dois outros braços que saem dele; e ainda outro botão debaixo de dois outros braços que saem dele. Assim se fará com os seis braços que saem do candelabro.",
   "traducao_literal": "E um botão debaixo dos dois braços dele, e um botão debaixo dos dois braços dele, e um botão debaixo dos dois braços dele, para os seis braços, os que saem do candelabro.",
   "termos_originais": [
     {
@@ -126,6 +126,13 @@
       "justificativa": "Achado RED-1 flagrou 'botao debaixo; bracos saem; debaixo dois' como redundância, mas trata-se de paralelismo tríplice do original hebraico (três cláusulas idênticas para os seis braços); a repetição é fidelidade, não defeito. — evidência: Literal preserva a repetição tripla: 'um botão debaixo dos dois braços dele' × 3. A manutenção é obrigatória por EDITORIAL §4. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "do candelabro. — assim → do candelabro. Assim",
+      "justificativa": "LEN-1: sentença original com 43 palavras dividida em duas (32 + 11 palavras) por troca do travessão por ponto final, conforme EDITORIAL §1.3 (sentenças > 40 palavras). A repetição tripla (“botão debaixo de dois braços” × 3) é fórmula paralelística do original e é preservada; apenas a cláusula-resumo é separada para aliviar a extensão. — revisão de forma sem alteração de sentido (ER-0019). Achado RED-1 (“botao debaixo; bracos saem”) é falso-positivo: a tripla repetição é fórmula intencional do original (3 pares de braços, cada um com seu botão), igualmente preservada em ARA. A correção LEN-1 apenas melhora a pontuação, sem eliminar a repetição.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -138,9 +145,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
