@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Isa.8.1-23"
   },
-  "texto_bv": "por isso, eis que o Senhor está trazendo sobre eles as águas do Rio, poderosas e abundantes: o rei da Assíria e toda a sua glória. Ele subirá sobre todos os seus canais e transbordará todas as suas margens;",
+  "texto_bv": "por isso, o Senhor está trazendo sobre eles as águas do Rio, poderosas e abundantes: o rei da Assíria e toda a sua glória. Ele subirá sobre todos os seus canais e transbordará todas as suas margens;",
   "traducao_literal": "E por isso, eis que Senhor faz subir sobre eles as águas do Rio, as fortes e as muitas, o rei da Assíria e toda a sua glória; e subirá sobre todos os seus canais, e irá sobre todas as suas margens.",
   "termos_originais": [
     {
@@ -143,6 +143,20 @@
           "motivo": "Deixaria ambígua a relação entre \"águas do Rio\" e \"rei da Assíria\", sugerindo lista solta em vez de identificação."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "por isso, eis que o Senhor está trazendo → por isso, o Senhor está trazendo",
+      "justificativa": "Normalização de calque ‘eis que’ (§6.2/ER-0013); NTLH e NVIPT não empregam o dêitico neste contexto, e o ‘por isso’ já exerce a função conectiva. — revisão de forma sem alteração de sentido (ER-0019). CAL-2: ‘eis que’ removido (normalização de calque conforme §6.2). PRO-1: falso-positivo — os cinco pronomes (‘eles’, ‘sua’, ‘seus’, ‘suas’, ‘Ele’) têm antecedentes claros no contexto imediato (‘este povo’ v.6, ‘rei da Assíria’, ‘Rio’).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "por isso, eis que o Senhor está trazendo → por isso, o Senhor está trazendo",
+      "justificativa": "Normalização de calque ‘eis que’ (§6.2/ER-0013); NTLH e NVIPT não empregam o dêitico neste contexto, e o ‘por isso’ já exerce a função conectiva. — revisão de forma sem alteração de sentido (ER-0019). CAL-2: ‘eis que’ removido (normalização de calque conforme §6.2). PRO-1: falso-positivo — os cinco pronomes (‘eles’, ‘sua’, ‘seus’, ‘suas’, ‘Ele’) têm antecedentes claros no contexto imediato (‘este povo’ v.6, ‘rei da Assíria’, ‘Rio’).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -156,10 +170,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
