@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "1Kgs.2.1-46"
   },
-  "texto_bv": "Guarde o encargo do SENHOR, seu Deus, andando nos caminhos dele e guardando seus estatutos, mandamentos, juízos e testemunhos, conforme está escrito na lei de Moisés, para que você seja bem-sucedido em tudo o que fizer e aonde quer que se dirigir.",
+  "texto_bv": "Guarde o encargo do SENHOR, seu Deus, andando nos caminhos dele e guardando seus estatutos, mandamentos, juízos e testemunhos, conforme está escrito na lei de Moisés. Assim, você será bem-sucedido em tudo o que fizer e aonde quer que se dirigir.",
   "traducao_literal": "E guarde a guarda do SENHOR, seu Deus, para andar em seus caminhos, para guardar seus estatutos, seus mandamentos, e seus juízos, e seus testemunhos, conforme o escrito na lei de Moisés, a fim de que você tenha êxito em tudo o que fizer e em tudo para onde se voltar ali.",
   "termos_originais": [
     {
@@ -171,6 +171,13 @@
       "justificativa": "LEN-1: sentença com 43 palavras, marginalmente acima do limite de 40 (§1.3). — evidência: A oração final 'para que você seja bem-sucedido...' é subordinada adverbial de finalidade do imperativo principal; separá-la exigiria iniciar frase com 'Para que' (fragmento subordinado) ou inserir conector consequencial ('Assim') ausente do original, alterando a relação sintática. Mantida por integridade da cláusula de propósito. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Moisés, para que você seja bem-sucedido → Moisés. Assim, você será bem-sucedido",
+      "justificativa": "Sentença de 42 palavras dividida em duas (26 + 14) conforme §1.3; a oração de propósito (“para que”) torna-se consecutiva (“Assim”), preservando a relação causal do original. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -185,9 +192,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
