@@ -95,6 +95,13 @@
       "justificativa": "Normalização do calque ‘eis que’ (ER-0013/§6.2); הִנֵּה com força declarativa moderada, dispensável em pt-BR publicado. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Mesma questão de v.28: “gorduras da terra” soa pouco natural em pt-BR; ARA usa “lugares férteis”, NVIPT “terras férteis”. — evidência: Convergência unânime das refs contra “gorduras” como rendering de שָׁׁמַן em contexto geográfico. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -105,13 +112,32 @@
   "confianca": 0.72,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): BV traduz “nas gorduras da terra” (locativo: Esaú habitará EM terras férteis), mas a preposição hebraica מִן (מִשְׁמַנֵּי הָאָרֶץ) é interpretada como privativa (“longe de/das”) pela maioria dos tradutores e comentaristas, indicando que Esaú habitará LONGE de terras férteis. — evidência: NTLH: “longe de terras boas”; ARA: “Longe dos lugares férteis da terra”; NVIPT: “longe das terras férteis”. As três refs convergem na interpretação privativa. A geografia de Edom (região árida/montanhosa) apoia esta leitura. A correção exigiria mudança de sentido (locativo → privativo), portanto registrada como objeção MATERIAL sem alteração do texto."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
