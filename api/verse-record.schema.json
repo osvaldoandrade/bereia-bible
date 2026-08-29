@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://bereia.org/schemas/verse-record/1",
   "title": "Registro de versículo — Bereia Version (BV)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Registro auditável de um versículo da BV. Toda decisão textual deve ser rastreável até a fonte pinada em sources/manifest.json. Versionamento: file-per-major — este $id cobre todo o major 1; bumps minor são aditivos e atualizam a anotação 'version'; breaking change cria …/verse-record/2. Horizonte de compatibilidade: leitores DEVEM aceitar o major corrente e o anterior (N e N-1); registros em N-2 são migrados antes da retirada do schema N-2. Campos pt-BR ASCII-only. Mapeamento nominal vs. especificação do projeto: variantes→variantes_textuais, confidence→confianca, alternativas_rejeitadas aninhado em decisoes[]; ver ADR-0001.",
   "type": "object",
   "additionalProperties": false,
@@ -139,7 +139,19 @@
         "prompts_versao": { "type": "string" },
         "regras_versao": { "type": "string" },
         "lexico_versao": { "type": "string" },
-        "modelo": { "type": "string", "description": "Modelo de linguagem usado no ciclo (ex.: claude-fable-5)" }
+        "modelo": { "type": "string", "description": "Modelo de linguagem usado no ciclo (ex.: claude-fable-5)" },
+        "refs_pt_bolls": {
+          "type": "object",
+          "description": "Referências PT-BR usadas no ciclo de revisão editorial (NTLH/ARA/NVIPT via bolls.life — fair use editorial, não redistribuível)",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "fonte": { "type": "string" },
+              "sha256": { "type": "string" },
+              "uso": { "type": "string" }
+            }
+          }
+        }
       }
     }
   }
