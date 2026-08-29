@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Num.17.1-28"
   },
-  "texto_bv": "Os incensários desses homens cujo pecado lhes custou a própria vida se tornarão chapas batidas para revestir o altar. Porque os homens os apresentaram diante do SENHOR, tornaram-se sagrados e servirão de sinal para os israelitas.",
+  "texto_bv": "Os incensários desses homens cujo pecado lhes custou a própria vida se tornarão chapas batidas para revestir o altar. Porque os homens os apresentaram diante do SENHOR, tornaram-se sagrados e servirão de sinal para os israelitas.”",
   "traducao_literal": "Os incensários destes pecadores contra suas vidas; e farão a eles lâminas batidas de chapas, revestimento para o altar, porque apresentaram a eles diante de YHWH e tornaram-se sagrados; e serão por sinal para os filhos de Israel.",
   "termos_originais": [
     {
@@ -179,6 +179,13 @@
       "justificativa": "Conversão de passiva (PAS-1) para voz ativa; preservação do sentido original. | Conversão de passiva (PAS-1) para voz ativa com agente explícito; “como” causal substituído por “porque” para maior clareza sintática. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "israelitas. → israelitas.”",
+      "justificativa": "Adição de aspa curva de fechamento; continuidade do discurso direto divino aberto em 17.2 (ER-0004). — revisão de forma sem alteração de sentido (ER-0019). Referências em versificação diferente; aspa de fechamento adicionada para consistência com o padrão de aspas por unidade de discurso da BV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -198,9 +205,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
