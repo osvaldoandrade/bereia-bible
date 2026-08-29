@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "E encherão as tuas casas, e as casas de todos os teus servos, e as casas de todos os egípcios. E encherão, como nunca teus pais nem os pais de teus pais viram, desde o dia em que estiveram na terra até o dia de hoje. E virou-se, e saiu da presença de Faraó.",
+  "texto_bv": "E encherão as suas casas, e as casas de todos os seus servos, e as casas de todos os egípcios. E encherão, como nunca seus pais nem os pais de seus pais viram, desde o dia em que estiveram na terra até o dia de hoje. E virou-se, e saiu da presença de Faraó.",
   "traducao_literal": "e encher-se-ão as tuas casas e as casas de todos os teus servos e as casas de todo o Egito, o que não viram teus pais e os pais de teus pais desde o dia de estarem sobre o solo até o dia este. E virou-se e saiu de com Faraó.",
   "termos_originais": [
     {
@@ -144,6 +144,20 @@
       "justificativa": "LEN-1 (sentença de 45 palavras): dividida em duas após 'egípcios' para ficar abaixo de 40 palavras; 'até ao' normalizado para 'até o' (AO90). Repetição tripla de 'casas' e dupla de 'pais' mantidas (fidelidade ao original). — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tuas casas → suas casas | teus servos → seus servos | teus pais → seus pais | dos teus pais → dos seus pais",
+      "justificativa": "D-0003: possessivo tu→você | D-0003: possessivo tu→você | D-0003: possessivo tu→você | D-0003: possessivo tu→você — revisão de forma sem alteração de sentido (ER-0019). RED-1 'teus pais' é falso positivo: a repetição 'pais…pais de seus pais' espelha a fórmula geracional hebraica (אבתיך ואבות אבתיך), mantida por ARA.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Sujeito de 'virou-se, e saiu' ambíguo — poderia referir-se aos gafanhotos (sujeito da oração anterior) em vez de Moisés. — evidência: NTLH ('Moisés disse isso e saiu') e NVIPT ('Moisés virou as costas e saiu') explicitam o sujeito. ARA mantém implícito como a BV. Recomenda-se explicitar 'Moisés' em revisão futura. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -156,9 +170,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
