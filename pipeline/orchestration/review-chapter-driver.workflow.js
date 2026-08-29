@@ -20,6 +20,7 @@ export const meta = {
   phases: [{ title: 'Revisar', detail: 'até 16 threads; um agente por capítulo hot, comparação guiada por NTLH/ARA/NVIPT' }],
 }
 const REPO = '/Users/ova/GolandProjects/bereia-bible'
+const MODEL = 'qwen3.7-max'
 let A = args || {}
 if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = {} } }
 const CHAPTERS = (A.chapters || []).slice(0, 16)
@@ -49,7 +50,7 @@ async function reviewChapter(ch) {
     'Para cada verso: (1) adjudique os achados da triagem; (2) COMPARE com as referências NTLH/ARA/NVIPT — se as 3 divergem da BV em palavra-chave, investigar arcaísmo/inconsistência (ver EDITORIAL §1.2-tabela e §1.4); (3) aplique correção de forma OU mantenha o texto com justificativa adequada (fórmula intencional, achado falso-positivo, etc.) OU registre objeção (MATERIAL se a correção exigiria mudar sentido; EDITORIAL se for melhoria que você opta por não aplicar agora, com problema+evidência). Versículo sem achado E sem divergência das refs: mantenha como está (SEM_ALTERACAO).\n' +
     'Escreva o JSON de saída COMPLETO no arquivo ' + out + ' usando a ferramenta Write, no formato definido no prompt canônico v1.2: { "book_dir": "' + ch.book_dir + '", "chapter": ' + ch.chapter + ', "versos": [ { osis, texto_bv_revisto, mudancas, objecoes, justificativa (obrigatório quando há achado OU divergência das refs e veredito é SEM_ALTERACAO), veredito } ... ] } com TODOS os versículos do digest, na mesma ordem.\n' +
     'Depois de escrever o arquivo, retorne APENAS o resumo: { book_dir: "' + ch.book_dir + '", chapter: ' + ch.chapter + ', revisados: <nº de versos com mudancas aplicadas>, sem_alteracao: <nº de versos mantidos>, objecoes_materiais: <nº de objeções MATERIAL> }.',
-    { label: 'rev:' + ch.book_dir + '/' + pad, phase: 'Revisar', schema: SUMMARY })
+    { label: 'rev:' + ch.book_dir + '/' + pad, phase: 'Revisar', schema: SUMMARY, model: MODEL })
   return summary || { book_dir: ch.book_dir, chapter: ch.chapter, revisados: 0, sem_alteracao: 0, objecoes_materiais: 0 }
 }
 
