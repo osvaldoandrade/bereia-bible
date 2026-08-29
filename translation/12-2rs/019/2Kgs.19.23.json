@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "2Kgs.19.1-37"
   },
-  "texto_bv": "Por meio de seus mensageiros você insultou o Senhor\ne disse: ‘Com a multidão dos meus carros,\neu subi às alturas dos montes,\naos confins do Líbano.\nCortarei a altura de seus cedros,\no melhor de seus ciprestes;\nchegarei à morada de sua extremidade,\nà floresta de seu campo fértil.",
+  "texto_bv": "Por meio de seus mensageiros você insultou o Senhor\ne disse: ‘Com a multidão dos meus carros,\neu subi às alturas dos montes,\naos confins do Líbano.\nCortarei a altura de seus cedros,\no melhor de seus ciprestes;\nchegarei à sua morada mais distante,\nà floresta de seu campo fértil.",
   "traducao_literal": "Pela mão de seus mensageiros insultou o Senhor\ne disse: ‘Com o carro de meu carro,\neu subi à altura dos montes,\nàs extremidades do Líbano;\ne cortarei a altura de seus cedros,\no escolhido de seus ciprestes;\ne chegarei à morada de sua extremidade,\nà floresta de seu Carmelo.",
   "termos_originais": [
     {
@@ -176,6 +176,13 @@
           "motivo": "Acrescentaria ‘monte’ e uma identificação geográfica não expressa."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "à morada de sua extremidade → à sua morada mais distante",
+      "justificativa": "Naturalização de expressão calqueada do hebraico (‘morada de sua extremidade' = qets + melunah). NTLH usa ‘lugares mais distantes', ARA ‘mais distante pousada', NVIPT ‘regiões mais remotas' — todas formulações mais naturais em pt-BR. §1.4/§6.2. — revisão de forma sem alteração de sentido (ER-0019). ‘Morada de sua extremidade' é calque literal do hebraico que soa artificial em pt-BR. As três referências usam formulações equivalentes (‘mais distante', ‘mais remota'). A mudança preserva o sentido (o ponto mais remoto) com expressão mais natural. PRO-1 é falso positivo — os possessivos ‘seus/sua' são formas corretas do paradigma ‘você' (§3).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -190,10 +197,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

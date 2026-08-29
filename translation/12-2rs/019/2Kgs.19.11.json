@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "2Kgs.19.1-37"
   },
-  "texto_bv": "Eis que você ouviu o que os reis da Assíria fizeram a todas as terras, destinando-as à destruição. E você será livrado?",
+  "texto_bv": "Você ouviu o que os reis da Assíria fizeram a todas as terras, destinando-as à destruição. E você será livrado?",
   "traducao_literal": "Eis que você ouviu o que fizeram os reis da Assíria a todas as terras, destinando-as à destruição; e você será livrado?",
   "termos_originais": [
     {
@@ -88,6 +88,13 @@
           "motivo": "Enfraqueceria a intensidade destrutiva do verbo."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que você ouviu → Você ouviu",
+      "justificativa": "Normalização do calque ‘eis que' (הִנֵּה) conforme §6.2/ER-0013; NTLH e NVIPT eliminam o dêitico. Soa artificial em pt-BR contemporâneo neste contexto interrogativo. — revisão de forma sem alteração de sentido (ER-0019). O ‘Eis que' (hinneh) aqui tem força demonstrativa, mas em contexto de pergunta retórica soa traduzido. NTLH usa ‘Você já ouviu' e NVIPT usa ‘Com certeza você ouviu', normalizando o calque. ARA mantém.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -99,10 +106,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

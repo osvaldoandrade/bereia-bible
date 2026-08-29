@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "2Kgs.19.1-37"
   },
-  "texto_bv": "Naquela noite, o anjo do SENHOR saiu e feriu, no acampamento da Assíria, cento e oitenta e cinco mil. Quando se levantaram cedo pela manhã, eis que todos eram cadáveres, mortos.",
+  "texto_bv": "Naquela noite, o anjo do SENHOR saiu e feriu, no acampamento da Assíria, cento e oitenta e cinco mil. Quando se levantaram cedo pela manhã, todos eram cadáveres, mortos.",
   "traducao_literal": "E aconteceu naquela noite: saiu o anjo do SENHOR e feriu no acampamento da Assíria cento e oitenta e cinco mil; e levantaram-se cedo pela manhã, e eis que todos eles eram cadáveres mortos.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eis que todos eram → todos eram",
+      "justificativa": "Normalização do calque ‘eis que' (וְהִנֵּה) conforme §6.2/ER-0013; NTLH e NVIPT eliminam o dêitico narrativo. A ordem verbal (‘todos eram cadáveres') preserva a revelação dramática sem o calque. — revisão de forma sem alteração de sentido (ER-0019). O ‘eis que' narrativo (vehinneh) marca a descoberta dramática, mas soa artificial em pt-BR contemporâneo. NTLH reformula (‘os que sobraram viram os corpos') e NVIPT usa ‘o lugar estava repleto de cadáveres'. A simples remoção mantém o impacto narrativo pela ordem da frase.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "O sujeito plural de ‘levantaram-se cedo’ não é expresso; o verso passa diretamente desse despertar à visão de todos os mortos.",
@@ -120,10 +128,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
