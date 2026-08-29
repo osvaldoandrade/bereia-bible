@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Isa.23.1-18"
   },
-  "texto_bv": "E o seu comércio e o seu salário de prostituta serão consagrados ao SENHOR; não serão armazenados nem entesourados, pois o seu comércio será para os que habitam diante do SENHOR, para comerem até se fartarem e para terem roupas duráveis.",
+  "texto_bv": "E o seu comércio e o seu salário de prostituta serão consagrados ao SENHOR; não serão armazenados nem entesourados. Pois o seu comércio será para os que habitam diante do SENHOR, para comerem até se fartarem e para terem roupas duráveis.",
   "traducao_literal": "E será o seu comércio e o seu salário santidade ao SENHOR; não será armazenado nem entesourado; porque para os que habitam diante do SENHOR será o seu comércio, para comerem até fartar-se e para cobertura durável.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
           "motivo": "sugere erroneamente objetos usados/velhos, invertendo o sentido positivo do termo"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "entesourados, pois o seu → entesourados. Pois o seu",
+      "justificativa": "Divisão de sentença com 41 palavras (§1.3/LEN-1), criando duas frases abaixo de 25 palavras cada. Conectivo “pois” preservado no início da segunda frase para manter a relação causal do כִּי original. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 resolvido com divisão no limite da oração causal. VOS-1 é falso positivo (“duráveis” é adjetivo, não forma de vós). PAS-1 mantido: as passivas (“serão consagrados”, “serão armazenados”) são naturais em pt-BR com agente implícito divino. “Roupas duráveis” diverge das refs (“finas”/“esplêndida”), mas é interpretação legítima do hebraico מִכְסֶה (cobertura); mudança para “finas” alteraria o atributo (durabilidade → qualidade), configurando objeção MATERIAL — não aplicada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -142,10 +149,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

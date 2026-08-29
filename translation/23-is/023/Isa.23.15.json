@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Isa.23.1-18"
   },
-  "texto_bv": "E acontecerá, naquele dia, que Tiro será esquecida por setenta anos, como os dias de um único rei; ao fim de setenta anos, será para Tiro conforme a canção da prostituta.",
+  "texto_bv": "Naquele dia, Tiro será esquecida por setenta anos, como os dias de um único rei; ao fim de setenta anos, será para Tiro conforme a canção da prostituta.",
   "traducao_literal": "E acontecerá, naquele dia, que Tiro será esquecida setenta anos, como os dias de um rei; ao fim de setenta anos será para Tiro como a canção da prostituta.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "o texto não nomeia nenhum rei; seria importar informação externa"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E acontecerá, naquele dia, que Tiro → Naquele dia, Tiro",
+      "justificativa": "Normalização de calque paratático (§6.2/ER-0013); as três referências (ARA “Naquele dia”, NTLH “Está chegando o tempo”, NVIPT “Naquele tempo”) simplificam a fórmula וְהָיָה בַּיּוֹם הַהוּא. RED-1 (“setenta anos” ×2) é falso positivo: a repetição é paralelismo intencional do original hebraico. — revisão de forma sem alteração de sentido (ER-0019). RED-1 adjudicado como falso positivo — a repetição de “setenta anos” espelha o paralelismo do original. Calque “E acontecerá, naquele dia, que” normalizado conforme §6.2/ER-0013, alinhando com a simplificação unânime das referências.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -121,10 +128,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
