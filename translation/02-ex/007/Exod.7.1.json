@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "Então disse o SENHOR a Moisés: Eis que te tenho posto por deus sobre Faraó, e Arão, teu irmão, será o teu profeta.",
+  "texto_bv": "Então disse o SENHOR a Moisés: Eis que te tenho posto como deus sobre Faraó, e Arão, teu irmão, será o teu profeta.",
   "traducao_literal": "E disse YHWH a Moisés: Vê, dei-te por deus para Faraó, e Arão, teu irmão, será o teu profeta.",
   "termos_originais": [
     {
@@ -78,6 +78,13 @@
       "escolha": "te tenho posto por deus sobre Faraó",
       "justificativa": "אֱלֹהִים em sentido funcional: Moisés estará para Faraó 'como deus' (a autoridade de quem fala a palavra divina), e Arão como profeta que a transmite (cf. 4:16). Não é apoteose; a BV grafa 'deus' em minúscula.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "posto por deus → posto como deus",
+      "justificativa": "Preposição 'como' é mais natural em pt-BR para expressar papel/função; ARA usa 'como Deus a Faraó'. NTLH parafraseia ('como Deus para o rei') e NVIPT diverge estruturalmente, mas ambas confirmam que 'por deus' soa menos natural que 'como deus' em pt-BR contemporâneo. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2: 'Eis que' mantido como marcador discursivo divino intencional — ARA também preserva 'Eis que te tenho posto'. Quanto a 'por deus'→'como deus': duas das três referências (ARA e NTLH) usam 'como', confirmando que 'por' soa menos natural neste contexto. O minúsculo em 'deus' é correto: Moisés ocupa papel funcional de deus perante Faraó, não é o Deus verdadeiro.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -89,10 +96,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
