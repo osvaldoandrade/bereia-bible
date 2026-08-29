@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "2Kgs.25.1-30"
   },
-  "texto_bv": "Da cidade, tomou um oficial que supervisionava os homens de guerra; cinco homens dos que viam a face do rei e que foram encontrados na cidade; o escriba, comandante do exército, que alistava o povo da terra; e sessenta homens do povo da terra que foram encontrados na cidade.",
+  "texto_bv": "Da cidade, tomou um oficial que supervisionava os homens de guerra, cinco homens dos que viam a face do rei e que foram encontrados na cidade, o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
   "traducao_literal": "E da cidade tomou um oficial, um, que era encarregado sobre os homens da guerra, e cinco homens dos que viam a face do rei, que foram encontrados na cidade, e o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
   "termos_originais": [
     {
@@ -177,7 +177,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Da cidade, tomou um oficial que supervisionava os homens de guerra; cinco homens dos que viam a face do rei e que foram encontrados na cidade; o escriba, comandante do exército, que alistava o povo da terra; e sessenta homens do povo da terra que foram encontrados na cidade. → Da cidade, tomou um oficial que supervisionava os homens de guerra, cinco homens dos que viam a face do rei e que foram encontrados na cidade, o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
+      "justificativa": "LEN-1: sentença de 49 palavras; unificação da lista em uma única frase com vírgulas (em vez de ponto-e-vírgula) reduz a fragmentação artificial. RED-1: \"que foram encontrados na cidade\" eliminado na última ocorrência (substituído por \"encontrados na cidade\") para remover repetição pleonástica sem perda semântica. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "סָרִיס pode designar eunuco ou oficial da corte; BV e literal usam ‘oficial’ sem excluir a outra leitura."
@@ -189,10 +197,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

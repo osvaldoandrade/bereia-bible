@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "2Kgs.25.1-30"
   },
-  "texto_bv": "Todos os comandantes das tropas, eles e os homens, ouviram que o rei da Babilônia havia colocado Gedalias no cargo e foram até Gedalias, em Mispá: Ismael, filho de Netanias; Joanã, filho de Careá; Seraías, filho de Tanumete, o netofatita; Jaazanias, filho do maacatita; eles e seus homens.",
+  "texto_bv": "Todos os comandantes das tropas e seus homens ouviram que o rei da Babilônia havia colocado Gedalias no cargo e foram até Gedalias, em Mispá: Ismael, filho de Netanias; Joanã, filho de Careá; Seraías, filho de Tanumete, o netofatita; Jaazanias, filho do maacatita; eles e seus homens.",
   "traducao_literal": "E ouviram todos os comandantes das tropas, eles e os homens, que colocou o rei da Babilônia Gedalias; e vieram a Gedalias, a Mispá: Ismael, filho de Netanias, e Joanã, filho de Careá, e Seraías, filho de Tanumete, o netofatita, e Jaazanias, filho do maacatita, eles e seus homens.",
   "termos_originais": [
     {
@@ -167,7 +167,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Todos os comandantes das tropas, eles e os homens, ouviram que o rei da Babilônia havia colocado Gedalias no cargo e foram até Gedalias, em Mispá: Ismael, filho de Netanias; Joanã, filho de Careá; Seraías, filho de Tanumete, o netofatita; Jaazanias, filho do maacatita; eles e seus homens. → Todos os comandantes das tropas e seus homens ouviram que o rei da Babilônia havia colocado Gedalias no cargo e foram até Gedalias, em Mispá: Ismael, filho de Netanias; Joanã, filho de Careá; Seraías, filho de Tanumete, o netofatita; Jaazanias, filho do maacatita; eles e seus homens.",
+      "justificativa": "RED-1: \"eles e os homens\" na primeira ocorrência é pleonasmo (o original repete a fórmula no final da lista como fecho, não no início). Removido o primeiro para clareza; mantido o fecho final \"eles e seus homens\" que é fórmula de encerramento intencional. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "havia",
     "no cargo"
@@ -182,10 +190,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

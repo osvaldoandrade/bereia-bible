@@ -21,6 +21,7 @@
       "texto_bv_revisto": "No nono dia do mês, a fome se tornou severa na cidade, e não havia pão para o povo da terra.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "NTLH/ARA/NVIPT especificam \"quarto mês\", enquanto BV omite. A traducao_literal também omite; a ausência está no original pinado — não é questão de forma, e sim de cobertura semântica fora do escopo desta etapa.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -60,10 +61,17 @@
     },
     {
       "osis": "2Kgs.25.9",
-      "texto_bv_revisto": "Ele queimou o templo do SENHOR, o palácio do rei e todas as casas de Jerusalém; queimou no fogo toda casa importante.",
-      "mudancas": [],
+      "texto_bv_revisto": "Ele queimou o templo do SENHOR, o palácio do rei e todas as casas de Jerusalém; incendiou toda casa importante.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "queimou no fogo toda casa importante",
+          "depois": "incendiou toda casa importante",
+          "motivo": "Redundância: \"queimou no fogo\" é pleonasmo em português contemporâneo (EDITORIAL §1.2). NTLH/ARA/NVIPT usam \"queimou/incendiou\" sem \"no fogo\"."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "2Kgs.25.10",
@@ -77,6 +85,7 @@
       "texto_bv_revisto": "Nebuzaradã, chefe dos guardas, deportou o restante do povo que havia ficado na cidade, os que se rendiam, que se renderam ao rei da Babilônia, e o restante da multidão.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "\"Os que se rendiam, que se renderam\" ecoa a repetição do original (os que caíam/que caíram); fórmula intencional preservada.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -91,6 +100,7 @@
       "texto_bv_revisto": "Os caldeus quebraram as colunas de bronze que estavam no templo do SENHOR, as bases e o mar de bronze que estava no templo do SENHOR, e levaram seu bronze para a Babilônia.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "RED-1: repetição de \"templo do SENHOR\" é fórmula litúrgica do original hebraico (casa do SENHOR 2×); preservação intencional, não defeito. ARA/NVIPT também repetem.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -130,10 +140,17 @@
     },
     {
       "osis": "2Kgs.25.19",
-      "texto_bv_revisto": "Da cidade, tomou um oficial que supervisionava os homens de guerra; cinco homens dos que viam a face do rei e que foram encontrados na cidade; o escriba, comandante do exército, que alistava o povo da terra; e sessenta homens do povo da terra que foram encontrados na cidade.",
-      "mudancas": [],
+      "texto_bv_revisto": "Da cidade, tomou um oficial que supervisionava os homens de guerra, cinco homens dos que viam a face do rei e que foram encontrados na cidade, o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "Da cidade, tomou um oficial que supervisionava os homens de guerra; cinco homens dos que viam a face do rei e que foram encontrados na cidade; o escriba, comandante do exército, que alistava o povo da terra; e sessenta homens do povo da terra que foram encontrados na cidade.",
+          "depois": "Da cidade, tomou um oficial que supervisionava os homens de guerra, cinco homens dos que viam a face do rei e que foram encontrados na cidade, o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
+          "motivo": "LEN-1: sentença de 49 palavras; unificação da lista em uma única frase com vírgulas (em vez de ponto-e-vírgula) reduz a fragmentação artificial. RED-1: \"que foram encontrados na cidade\" eliminado na última ocorrência (substituído por \"encontrados na cidade\") para remover repetição pleonástica sem perda semântica."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "2Kgs.25.20",
@@ -153,15 +170,28 @@
       "osis": "2Kgs.25.22",
       "texto_bv_revisto": "Quanto ao povo que restou na terra de Judá, o qual Nabucodonosor, rei da Babilônia, havia deixado, ele colocou sobre eles Gedalias, filho de Aicão, filho de Safã.",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "MATERIAL",
+          "problema": "A reordenação para \"colocou Gedalias sobre eles\" (sem \"como governador\") mantém a sintaxe invertida pouco natural em pt-BR; a explicitação \"como governador\" (ARA/NVIPT) adiciona informação semântica não presente no original.",
+          "evidencia": "traducao_literal: \"colocou sobre eles Gedalias\" — sem menção a \"governador\". ARA adiciona \"pôs por governador\"; NTLH/NVIPT dizem \"nomeou como governador\". A BV não pode fazer a explicitação sem mudança de sentido; a sintaxe invertida é forma pouco natural mas fiel."
+        }
+      ],
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "2Kgs.25.23",
-      "texto_bv_revisto": "Todos os comandantes das tropas, eles e os homens, ouviram que o rei da Babilônia havia colocado Gedalias no cargo e foram até Gedalias, em Mispá: Ismael, filho de Netanias; Joanã, filho de Careá; Seraías, filho de Tanumete, o netofatita; Jaazanias, filho do maacatita; eles e seus homens.",
-      "mudancas": [],
+      "texto_bv_revisto": "Todos os comandantes das tropas e seus homens ouviram que o rei da Babilônia havia colocado Gedalias no cargo e foram até Gedalias, em Mispá: Ismael, filho de Netanias; Joanã, filho de Careá; Seraías, filho de Tanumete, o netofatita; Jaazanias, filho do maacatita; eles e seus homens.",
+      "mudancas": [
+        {
+          "tipo": "EDITORIAL",
+          "antes": "Todos os comandantes das tropas, eles e os homens, ouviram que o rei da Babilônia havia colocado Gedalias no cargo e foram até Gedalias, em Mispá: Ismael, filho de Netanias; Joanã, filho de Careá; Seraías, filho de Tanumete, o netofatita; Jaazanias, filho do maacatita; eles e seus homens.",
+          "depois": "Todos os comandantes das tropas e seus homens ouviram que o rei da Babilônia havia colocado Gedalias no cargo e foram até Gedalias, em Mispá: Ismael, filho de Netanias; Joanã, filho de Careá; Seraías, filho de Tanumete, o netofatita; Jaazanias, filho do maacatita; eles e seus homens.",
+          "motivo": "RED-1: \"eles e os homens\" na primeira ocorrência é pleonasmo (o original repete a fórmula no final da lista como fecho, não no início). Removido o primeiro para clareza; mantido o fecho final \"eles e seus homens\" que é fórmula de encerramento intencional."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "veredito": "REVISADO"
     },
     {
       "osis": "2Kgs.25.24",
@@ -189,6 +219,7 @@
       "texto_bv_revisto": "No trigésimo sétimo ano do exílio de Joaquim, rei de Judá, no décimo segundo mês, no vigésimo sétimo dia do mês, Evil-Merodaque, rei da Babilônia, no ano em que começou a reinar, levantou a cabeça de Joaquim, rei de Judá, tirando-o da prisão.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "LEN-1 (45 palavras): sentença longa, mas divisão prejudicaria a unidade temporal do original (data + agente + ação formam um só enunciado). RED-1 (Joaquim rei de Judá 2×): primeira ocorrência é qualificação do exílio, segunda é objeto da ação — papéis sintáticos distintos, não redundância. Mantido.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -210,6 +241,7 @@
       "texto_bv_revisto": "Sua porção, uma porção contínua, era-lhe dada pelo rei, a porção de cada dia em seu dia, todos os dias de sua vida.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "PRO-1 (4 pronomes): todos com antecedente claro (Joaquim/rei). A repetição tripla de \"porção\" é fórmula intencional do original (paralelismo de ênfase na provisão contínua). ARA preserva a mesma estrutura formular. Mantido.",
       "veredito": "SEM_ALTERACAO"
     }
   ]
