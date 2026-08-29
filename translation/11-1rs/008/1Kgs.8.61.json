@@ -7,7 +7,7 @@
     "versiculo": 61,
     "pericope": "1Kgs.8.1-66"
   },
-  "texto_bv": "E seja o coração de vocês inteiro com o SENHOR, nosso Deus, para andar em seus estatutos e guardar seus mandamentos, como neste dia.”",
+  "texto_bv": "E seja o coração de vocês íntegro com o SENHOR, nosso Deus, para andar em seus estatutos e guardar seus mandamentos, como neste dia.”",
   "traducao_literal": "E seja o coração de vocês completo com o SENHOR, nosso Deus, para andar em seus estatutos e para guardar seus mandamentos, como este dia.”",
   "termos_originais": [
     {
@@ -72,7 +72,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "inteiro → íntegro",
+      "justificativa": "Naturalidade léxica (§1.4): “coração inteiro” soa literal demais em pt-BR contemporâneo; “coração íntegro” é o lexema preferido por NVIPT e aproxima-se do sentido de שָׁלֵם (completo, sem divisão). ARA usa “perfeito”; NTLH parafraseia. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "שָׁלֵם descreve o coração como inteiro, completo ou plenamente dedicado; ‘inteiro’ preserva a imagem sem substituir por impecabilidade."
@@ -84,10 +92,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

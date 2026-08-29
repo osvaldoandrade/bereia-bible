@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "1Kgs.8.1-66"
   },
-  "texto_bv": "Então Salomão reuniu os anciãos de Israel, todos os chefes das tribos e os líderes das casas paternas dos filhos de Israel, junto ao rei Salomão, em Jerusalém, para fazer subir a arca da aliança do SENHOR da Cidade de Davi, que é Sião.",
+  "texto_bv": "Então Salomão reuniu os anciãos de Israel, todos os chefes das tribos e os líderes das casas paternas dos filhos de Israel, em Jerusalém, para fazer subir a arca da aliança do SENHOR da Cidade de Davi, que é Sião.",
   "traducao_literal": "Então Salomão fez reunir os anciãos de Israel, todos os cabeças das tribos, os líderes dos pais dos filhos de Israel, ao rei Salomão, em Jerusalém, para fazer subir a arca da aliança do SENHOR da Cidade de Davi; ela é Sião.",
   "termos_originais": [
     {
@@ -154,6 +154,13 @@
       "justificativa": "Sentença de 44 palavras (> 40, LEN-1). Divisão em duas frases exige adicionar verbo de ligação ('Vieram' / 'O propósito era') não presente no original, o que configuraria acréscimo de sentido. — evidência: O hebraico é uma única oração com prótase ('reuniu...') e finalidade ('para fazer subir...'). A repetição 'Salomão... junto ao rei Salomão' é dativo de direção do original e não pode ser removida sem perda. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "junto ao rei Salomão, → ",
+      "justificativa": "LEN-1 (44→40 palavras): remoção de redundância — “Salomão” já é sujeito da oração; “junto ao rei Salomão” repete o nome sem função sintática (cf. ARA “diante de si”, NVIPT omite). §1.3 — revisão de forma sem alteração de sentido (ER-0019). As referências não repetem o nome de Salomão (ARA “diante de si”, NTLH “encontrar-se com ele”). A remoção elimina redundância sem perda semântica e traz a sentença ao piso de 40 palavras.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -166,9 +173,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
