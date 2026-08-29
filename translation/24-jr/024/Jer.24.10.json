@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Jer.24.1-10"
   },
-  "texto_bv": "Enviarei contra eles a espada, a fome e a peste, até que sejam consumidos de sobre a terra que dei a eles e aos pais deles.",
+  "texto_bv": "Enviarei contra eles a espada, a fome e a peste, até que sejam consumidos de sobre a terra que dei a eles e a seus pais.",
   "traducao_literal": "E enviarei contra eles a espada, a fome, e a peste, até seu acabar de sobre a terra que dei a eles e a seus pais.",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
           "motivo": "soaria tecnicamente correto, mas quebraria a naturalidade e a consistência com o uso de 'terra' para אֶרֶץ nos versículos anteriores do mesmo oráculo"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "aos pais deles → a seus pais",
+      "justificativa": "§1.4 — NTLH/ARA/NVIPT convergem em possessivo ('seus pais'/'seus antepassados'); BV com 'pais deles' é menos fluida; correção de forma sem alteração de sentido — revisão de forma sem alteração de sentido (ER-0019). NTLH/ARA/NVIPT usam possessivo ('a seus pais' ARA; 'aos seus antepassados' NTLH/NVIPT). BV com 'aos pais deles' é a única que repete pronome oblíquo; substituição por possessivo é mais fluida e mantém o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -116,10 +123,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

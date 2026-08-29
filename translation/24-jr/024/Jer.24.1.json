@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Jer.24.1-10"
   },
-  "texto_bv": "O SENHOR me mostrou, e eis dois cestos de figos postos diante do templo do SENHOR, depois que Nabucodonosor, rei da Babilônia, exilou de Jerusalém Jeconias, filho de Jeoaquim, rei de Judá, os líderes de Judá, os artesãos e os ferreiros, e os levou para a Babilônia.",
+  "texto_bv": "O SENHOR me mostrou dois cestos de figos postos diante do templo do SENHOR. Isso aconteceu depois que Nabucodonosor, rei da Babilônia, exilou de Jerusalém Jeconias, filho de Jeoaquim, rei de Judá, os líderes de Judá, os artesãos e os ferreiros, e os levou para a Babilônia.",
   "traducao_literal": "Fez-me ver o SENHOR, e eis dois cestos de figos postos diante do templo do SENHOR, depois do exilar de Nabucodonosor, rei de Babilônia, a Jeconias filho de Jeoaquim rei de Judá, e aos líderes de Judá, e ao artesão, e ao ferreiro, de Jerusalém; e trouxe-os a Babilônia.",
   "termos_originais": [
     {
@@ -204,6 +204,13 @@
           "motivo": "viável, mas menos natural em prosa corrida; reservado para contextos militares"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "me mostrou, e eis dois cestos de figos postos diante do templo do SENHOR, depois que → me mostrou dois cestos de figos postos diante do templo do SENHOR. Isso aconteceu depois que",
+      "justificativa": "LEN-1 (47 palavras divididas em duas sentenças de ~12 e ~33 palavras); remoção do calque paratático 'eis' (§6.2/ER-0013); ARA divide a sentença no mesmo ponto ('Sucedeu isso depois que...') — revisão de forma sem alteração de sentido (ER-0019). Sentença de 47 palavras dividida em duas: a visão propriamente dita e o contexto histórico-temporal. O 'eis' (הִנֵּה) é dêitico que, inserido em sentença longa, soava artificial em pt-BR; removido conforme §6.2. ARA também separa em duas sentenças ('Fez-me ver... Sucedeu isso depois que...').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -217,10 +224,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
