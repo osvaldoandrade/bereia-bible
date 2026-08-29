@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Ruth.2.1-23"
   },
-  "texto_bv": "Noemi disse à nora: “Que o SENHOR abençoe esse homem! O SENHOR não abandonou sua lealdade para com os vivos e os mortos.” E acrescentou: “Esse homem é nosso parente próximo; é um dos nossos resgatadores.”",
+  "texto_bv": "Noemi disse à nora: “Que o SENHOR o abençoe! O SENHOR não abandonou sua lealdade para com os vivos e os mortos.” E acrescentou: “Esse homem é nosso parente próximo; é um dos nossos resgatadores.”",
   "traducao_literal": "E disse Noemi à sua nora: “Bendito ele para SENHOR, que não abandonou sua lealdade com os vivos e com os mortos.” E disse a ela Noemi: “Próximo a nós o homem; de nossos resgatadores ele.”",
   "termos_originais": [
     {
@@ -152,6 +152,13 @@
           "motivo": "Inverte parentesco e função."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Que o SENHOR abençoe esse homem! → Que o SENHOR o abençoe!",
+      "justificativa": "RED-1: remove repetição de 'esse homem' no mesmo discurso de Noemi (aparecia 2×). Alinha com ARA ('Bendito seja ele') e NVIPT ('Seja ele abençoado'), que usam pronome na primeira referência e reservam o demonstrativo+nome para a segunda, onde Noemi identifica o parentesco. O referente (Boaz, mencionado em v.19) é inequívoco. — revisão de forma sem alteração de sentido (ER-0019). RED-1 sinalizou 'esse homem' repetido duas vezes no discurso de Noemi. O hebraico usa 'hu' (pronome) na bênção e 'haish' (o homem) na identificação — BV homogeneizava ambos como 'esse homem'. A correção preserva o peso da identificação ('Esse homem é nosso parente') e pronominaliza a bênção, eliminando a redundância.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -175,10 +182,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a816b3de20d7aa282d6406161b0e41800bd3ba757e7c4598adce30642d48e98e",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
