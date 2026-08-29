@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Isa.18.1-7"
   },
-  "texto_bv": "Que envia embaixadores pelo mar, em barcos de papiro sobre a face das águas: vão, mensageiros velozes, a uma nação alta e de pele lisa, a um povo temido por toda parte, a uma nação poderosa e conquistadora, cuja terra os rios dividem.",
+  "texto_bv": "Que envia embaixadores pelo mar, em barcos de papiro sobre a face das águas. Vão, mensageiros velozes, a uma nação alta e de pele lisa, a um povo temido por toda parte, a uma nação poderosa e conquistadora, cuja terra os rios dividem.",
   "traducao_literal": "A que envia no mar embaixadores, e em vasos de junco sobre a face das águas — ide, mensageiros ligeiros, a nação prolongada e depilada, a povo terrível desde ele e além; nação de linha-linha e pisoteio, que despedaçaram rios a sua terra.",
   "termos_originais": [
     {
@@ -211,6 +211,13 @@
           "motivo": "apaga a distinção lexical hebraica presente no mesmo verso"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "águas: vão → águas. Vão",
+      "justificativa": "divisão de sentença longa (LEN-1, 43 palavras; §1.3) — ponto em vez de dois-pontos para separar a oração relativa da imperativa, reduzindo cada sentença a menos de 40 palavras — revisão de forma sem alteração de sentido (ER-0019). LEN-1 resolvido com divisão em duas sentenças (<30 e <25 palavras). A divergência parcial das referências (NTLH reestrutura livremente; NVIPT usa “emissários” e “pele macia”; ARA usa “junco” vs “papiro”) reflete escolhas estilísticas legítimas — BV usa “papiro” como NVIPT, “embaixadores” como ARA, e “pele lisa” é contemporâneo e natural.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -225,10 +232,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
