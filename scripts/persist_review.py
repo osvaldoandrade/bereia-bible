@@ -34,8 +34,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST_PATH = os.path.join(ROOT, "sources", "manifest.json")
 LEXICON_PATH = os.path.join(ROOT, "lexicon", "lexicon.json")
 
-PROMPTS_VERSAO = "1.2.2"   # review-chapter-driver + revisor-editorial-draft.md v1.1.1
-REGRAS_VERSAO = "1.1.0"    # pipeline/rules/EDITORIAL.md et al.
+PROMPTS_VERSAO = "1.2.3"   # review-chapter-driver v2 + revisor-editorial-draft.md v1.2.0
+REGRAS_VERSAO = "1.2.0"    # pipeline/rules/EDITORIAL.md v1.2.0 (§1.2-tabela, §1.4 consistência lexical)
 
 
 def file_sha256(path):
@@ -116,6 +116,21 @@ def repin_fontes(rec, modelo):
     fontes["lexico_versao"] = lexicon_version()
     fontes["modelo"] = modelo
     fontes["manifest_sha256"] = file_sha256(MANIFEST_PATH)
+    # ER-0019 v2: track PT-BR references used in the review cycle (bolls.life
+    # local copies). These are NOT redistributed; used only as editorial
+    # comparison input. Sources are gitignored per sources/pt-bolls/NOTICE.md.
+    refs_dir = os.path.join(ROOT, "sources", "pt-bolls")
+    refs_meta = {}
+    for v in ("NTLH", "ARA", "NVIPT"):
+        path = os.path.join(refs_dir, "%s.json" % v)
+        if os.path.isfile(path):
+            refs_meta[v] = {
+                "fonte": "bolls.life",
+                "sha256": file_sha256(path),
+                "uso": "editorial-reference-only",
+            }
+    if refs_meta:
+        fontes["refs_pt_bolls"] = refs_meta
     rec["fontes"] = fontes
 
 
@@ -127,7 +142,24 @@ def apply_chapter(out, records, modelo):
         path, rec = records[osis]
         mudancas = v.get("mudancas", []) or []
         objecoes = v.get("objecoes", []) or []
+        justificativa = (v.get("justificativa") or "").strip()
         if not mudancas and not objecoes:
+            # ER-0019 v2: SEM_ALTERACAO with agent justification is recorded
+            # in decisoes so the rationale is auditable even when no change
+            # is applied (e.g., "NTLH/ARA/NVIPT use X but BV is correct
+            # because of intentional formula Y").
+            if justificativa:
+                rec.setdefault("decisoes", []).append({
+                    "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+                    "escolha": "texto mantido",
+                    "justificativa": justificativa + " (ER-0019 v2).",
+                    "alternativas_rejeitadas": [],
+                    "diretriz_ref": "ER-0019",
+                })
+                repin_fontes(rec, modelo)
+                with open(path, "w", encoding="utf-8") as f:
+                    json.dump(rec, f, ensure_ascii=False, indent=2)
+                    f.write("\n")
             continue
         if mudancas:
             rec["texto_bv"] = v["texto_bv_revisto"]
@@ -135,11 +167,12 @@ def apply_chapter(out, records, modelo):
                 "%s → %s" % (m.get("antes", ""), m.get("depois", ""))
                 for m in mudancas)
             motivo = " | ".join(str(m.get("motivo", "")) for m in mudancas)
+            just_agent = (" " + justificativa) if justificativa else ""
             rec.setdefault("decisoes", []).append({
                 "questao": "Revisão editorial do texto_bv",
                 "escolha": escolha,
                 "justificativa": motivo + " — revisão de forma sem alteração "
-                                 "de sentido (ER-0019).",
+                                 "de sentido (ER-0019)." + just_agent,
                 "alternativas_rejeitadas": [],
                 "diretriz_ref": "ER-0019",
             })

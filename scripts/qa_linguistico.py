@@ -22,10 +22,15 @@ Outputs:
   qa/reports/hotspots.md                    human-readable summary
   qa/reports/review-input/<book>-<cap>.json compact digest per hot chapter
 
+Digest schema v2 (with --refs): each verse entry carries an additional
+`referencias` field with parallel PT-BR texts from NTLH, ARA, NVIPT so the
+review agent can compare the BV against a naturalness baseline.
+
 Usage:
   python3 scripts/qa_linguistico.py [-records translation/] [-threshold 8]
       [-out qa/reports/hotspots.json] [-md qa/reports/hotspots.md]
       [-digest-dir qa/reports/review-input]
+      [-refs sources/pt-bolls]
 
 Zero third-party deps.
 """
@@ -238,7 +243,43 @@ def scan(records_dir, threshold):
     return chapters, totals
 
 
-def write_reports(out_path, md_path, digest_dir, chapters, totals, threshold):
+def load_references(refs_dir):
+    """Load NTLH/ARA/NVIPT reference texts from refs_dir.
+
+    Returns dict {version: {osis_book: {chapter: {verse: text}}}} or None if
+    refs_dir is None/empty. Missing files are skipped silently (the digest
+    will have an empty "referencias" for verses without a match).
+    """
+    if not refs_dir:
+        return None
+    refs = {}
+    for version in ("NTLH", "ARA", "NVIPT"):
+        path = os.path.join(refs_dir, f"{version}.json")
+        if not os.path.isfile(path):
+            print(f"aviso: referência não encontrada: {path}", file=sys.stderr)
+            continue
+        with open(path, encoding="utf-8") as f:
+            refs[version] = json.load(f)
+    return refs or None
+
+
+def _lookup_refs(refs, osis_book, chapter, verse):
+    """Return {version: text} for one verse. Empty dict if no match."""
+    if not refs:
+        return {}
+    out = {}
+    for version, data in refs.items():
+        try:
+            text = data[osis_book][chapter][verse]
+            if text:
+                out[version] = text
+        except (KeyError, TypeError):
+            pass
+    return out
+
+
+def write_reports(out_path, md_path, digest_dir, chapters, totals, threshold,
+                  refs=None):
     hot = sorted(((k, r) for k, r in chapters.items() if r["hot"]),
                  key=lambda kr: (-kr[1]["score"], kr[0]))
     com_achados = [r for r in chapters.values() if r["versos_com_achados"]]
@@ -264,9 +305,22 @@ def write_reports(out_path, md_path, digest_dir, chapters, totals, threshold):
     if digest_dir:
         os.makedirs(digest_dir, exist_ok=True)
         for (book_dir, chap), r in hot:
+            versos = r["todos"]
+            if refs:
+                # Derive the OSIS book abbreviation from the first verse's
+                # osis (e.g. "Gen.1.14" -> "Gen").
+                versos = []
+                for v in r["todos"]:
+                    osis = v["osis"]
+                    osis_book = osis.split(".")[0] if "." in osis else ""
+                    entry = dict(v)
+                    entry["referencias"] = _lookup_refs(refs, osis_book,
+                                                        str(chap),
+                                                        osis.split(".")[-1])
+                    versos.append(entry)
             digest = {"livro_dir": book_dir, "capitulo": chap,
                       "livro": r["livro"], "score": r["score"],
-                      "versos": r["todos"]}
+                      "versos": versos}
             name = "%s-%03d.json" % (book_dir, chap)
             with open(os.path.join(digest_dir, name), "w",
                       encoding="utf-8") as f:
@@ -319,10 +373,17 @@ def main(argv=None):
                                                  "hotspots.md"))
     ap.add_argument("-digest-dir", default=os.path.join(
         ROOT, "qa", "reports", "review-input"))
+    ap.add_argument("-refs", default=None, metavar="REFS_DIR",
+                    help="directory with NTLH/ARA/NVIPT.json (e.g. "
+                         "sources/pt-bolls). Enables digest schema v2 "
+                         "(parallel PT-BR references per verse).")
     args = ap.parse_args(argv)
+    refs = load_references(args.refs)
+    if refs:
+        print("referências PT-BR carregadas: %s" % ", ".join(sorted(refs)))
     chapters, totals = scan(args.records, args.threshold)
     hot = write_reports(args.out, args.md, args.digest_dir, chapters,
-                        totals, args.threshold)
+                        totals, args.threshold, refs=refs)
     print("versos DRAFT varridos: %d (com achados: %d)" % (
         totals["versos"], totals["versos_com_achados"]))
     print("capítulos com achados: %d; hot (score >= %d): %d" % (
