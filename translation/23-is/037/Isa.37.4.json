@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Isa.37.1-38"
   },
-  "texto_bv": "Talvez o SENHOR, seu Deus, ouça as palavras do Rabsaqué, que o rei da Assíria, seu senhor, enviou para insultar o Deus vivo, e repreenda as palavras que o SENHOR, seu Deus, ouviu; então eleve uma oração pelo remanescente que ainda resta.",
+  "texto_bv": "Talvez o SENHOR, seu Deus, ouça as palavras do Rabsaqué, que o rei da Assíria, seu senhor, enviou para insultar o Deus vivo, e repreenda as palavras que o SENHOR, seu Deus, ouviu. Então eleve uma oração pelo remanescente que ainda resta.",
   "traducao_literal": "Talvez ouça o SENHOR teu Deus as palavras do Rab-Saqué, que enviou o rei da Assíria, seu senhor, para insultar Deus vivo, e repreenda pelas palavras que ouviu o SENHOR teu Deus; e levanta oração por trás do remanescente que se acha.",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
       "escolha": "'seu Deus' (você)",
       "justificativa": "D-0003: discurso humano-humano usa você/vocês; 'tu' reservado à oração dirigida a Deus (vv.16-20).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ouviu; então → ouviu. Então",
+      "justificativa": "Divisão de sentença com 42 palavras (§1.3); ponto final separa a possibilidade (Talvez… ouça e repreenda) do pedido consequente (Então eleve), sem perda sintática. — revisão de forma sem alteração de sentido (ER-0019). RED-1 (“senhor deus”): falso positivo — “SENHOR, seu Deus” repete-se porque o original hebraico repete a fórmula YHWH Elohekha; “seu senhor” refere-se ao rei da Assíria (adon distinto). Repetição fiel ao original, não redundância espúria.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -177,10 +184,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
