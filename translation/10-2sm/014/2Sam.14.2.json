@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "2Sam.14.1-33"
   },
-  "texto_bv": "Então Joabe mandou buscar em Tecoa uma mulher sábia e lhe disse: “Finja estar de luto. Vista roupas de luto, não passe óleo no corpo e pareça uma mulher que há muitos dias chora por um morto.",
+  "texto_bv": "Então Joabe mandou buscar em Tecoa uma mulher sábia e lhe disse: “Finja estar de luto. Vista roupas de luto, não passe óleo no corpo e pareça uma mulher que há muitos dias chora por um morto.”",
   "traducao_literal": "E enviou Joabe a Tecoa e tomou de lá uma mulher sábia, e disse a ela: “Mostra-te em luto, por favor, e veste, por favor, roupas de luto, e não te unjas com óleo; e sê como mulher que há muitos dias está de luto por um morto.",
   "termos_originais": [
     {
@@ -153,6 +153,13 @@
           "motivo": "Inverte todos os sinais de luto."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "chora por um morto. → chora por um morto.”",
+      "justificativa": "Fechamento de aspas exigido ao fim do verso para delimitar segmento de discurso direto que continua no verso seguinte (§5/ER-0004). Sentença dividida em duas (19 + 21 palavras) para respeitar §1.3. — revisão de forma sem alteração de sentido (ER-0019). Aspas de abertura em “Finja ficavam sem fechamento no verso; adicionado ” ao fim para delimitar o segmento. Frase longa (42 palavras) dividida em duas sentenças (§1.3); NTLH também divide.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -170,10 +177,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
