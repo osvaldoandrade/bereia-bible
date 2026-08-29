@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Jer.19.1-15"
   },
-  "texto_bv": "E os farei comer a carne de seus filhos e a carne de suas filhas, e comerão, cada um, a carne do seu próximo, no cerco e na angústia com que os apertarem os seus inimigos e os que buscam a sua vida.’",
+  "texto_bv": "E os farei comer a carne de seus filhos e a carne de suas filhas. Cada um comerá a carne do seu próximo, no cerco e na angústia com que os apertarem os seus inimigos e os que buscam a sua vida.’",
   "traducao_literal": "E farei comer a eles a carne de seus filhos e a carne de suas filhas; e cada homem a carne de seu próximo comerão, no cerco e na angústia com que os apertarão seus inimigos e os que buscam a alma deles.",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
       "escolha": "'comerão, cada um,' (verbo plural com aposto distributivo)",
       "justificativa": "אִישׁ funciona como distributivo ('cada um') com o verbo no plural (יֹאכֵלוּ); a estrutura hebraica é normalizada para o português no publicado, mas o calque de ordem é preservado na literal.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "filhas, e comerão, cada um, a carne → filhas. Cada um comerá a carne",
+      "justificativa": "divisão de sentença com 43 palavras (§1.3/LEN-1); pronomes de 3ª pessoa mantidos por fidelidade ao original (PRO-1 não se aplica). — revisão de forma sem alteração de sentido (ER-0019). LEN-1: sentença de 43 palavras dividida em duas. PRO-1: os pronomes de 3ª pessoa são fiéis ao hebraico e têm antecedente claro (o povo de Judá/Jerusalém).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -124,10 +131,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

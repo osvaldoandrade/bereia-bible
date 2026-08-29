@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Jer.19.1-15"
   },
-  "texto_bv": "E esvaziarei o conselho de Judá e de Jerusalém neste lugar, e os farei cair à espada diante dos seus inimigos e pela mão dos que buscam a sua vida, e darei os seus cadáveres por comida às aves do céu e aos animais da terra.",
+  "texto_bv": "E esvaziarei o conselho de Judá e de Jerusalém neste lugar, e os farei cair à espada diante dos seus inimigos e pela mão dos que buscam a sua vida. Darei os seus cadáveres por comida às aves do céu e aos animais da terra.",
   "traducao_literal": "E esvaziarei o conselho de Judá e Jerusalém no lugar o-este; e os farei cair pela espada diante de seus inimigos, e pela mão dos que buscam a alma deles; e darei o cadáver deles por comida para a ave dos céus e para o animal da terra.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
           "motivo": "gloss usual em outras versões, mas perde o jogo de palavras com o vaso que estrutura todo o capítulo."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vida, e darei → vida. Darei",
+      "justificativa": "divisão de sentença com 46 palavras (§1.3/LEN-1); ARA faz a mesma divisão no terceiro membro coordenado. — revisão de forma sem alteração de sentido (ER-0019). LEN-1: sentença de 46 palavras dividida em duas, seguindo a mesma segmentação da ARA (ponto após o segundo membro coordenado).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -144,10 +151,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
