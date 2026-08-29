@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Chr.5.1-14"
   },
-  "texto_bv": "Quando os que tocavam trombetas e os cantores se uniram para fazer ouvir uma só voz, louvando e agradecendo ao SENHOR, e quando levantaram a voz com as trombetas, os címbalos e os instrumentos de canto, louvaram o SENHOR: “Pois ele é bom, pois seu amor leal dura para sempre.” Então a casa, a casa do SENHOR, encheu-se de uma nuvem.",
+  "texto_bv": "Os que tocavam trombetas e os cantores se uniram para fazer ouvir uma só voz, louvando e agradecendo ao SENHOR. E, quando levantaram a voz com as trombetas, os címbalos e os instrumentos de canto, louvaram o SENHOR: “Pois ele é bom, pois seu amor leal dura para sempre.” Então a casa, a casa do SENHOR, encheu-se de uma nuvem.",
   "traducao_literal": "E aconteceu, como um só, aos que tocavam trombetas e aos cantores, fazer ouvir uma só voz, para louvar e para agradecer ao SENHOR; e ao levantarem a voz com as trombetas, e com os címbalos, e com os instrumentos do canto, e ao louvarem ao SENHOR: “Pois é bom, pois para sempre o seu amor leal”; e a casa se encheu de uma nuvem, a casa do SENHOR.",
   "termos_originais": [
     {
@@ -201,6 +201,13 @@
           "motivo": "Embora fluente, eliminaria uma repetição explícita que o pedido source-first exige preservar."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Quando os que tocavam trombetas e os cantores se uniram para fazer ouvir uma só voz, louvando e agradecendo ao SENHOR, e quando levantaram a voz → Os que tocavam trombetas e os cantores se uniram para fazer ouvir uma só voz, louvando e agradecendo ao SENHOR. E, quando levantaram a voz",
+      "justificativa": "Divisão de sentença com >40 palavras (LEN-1, EDITORIAL §1.3): o primeiro “Quando” subordinado é convertido em oração principal, e o segundo “e quando” inicia nova sentença com “E, quando”, reduzindo o período a segmentos legíveis sem perda de sentido. O “então” conclusivo (wayyehi) é preservado na terceira sentença. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -218,10 +225,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "ef45d0d7d0b20eac8fe8ff96f63b6e0fc0c0a6c17a947eccbc50422121a34fc3",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
