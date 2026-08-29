@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Job.2.1-13"
   },
-  "texto_bv": "Certo dia, os filhos de Deus vieram apresentar-se diante do SENHOR, e também o acusador veio entre eles apresentar-se diante do SENHOR.",
+  "texto_bv": "Certo dia, os filhos de Deus vieram apresentar-se diante do SENHOR, e o acusador também veio entre eles para se apresentar.",
   "traducao_literal": "E foi o dia, e vieram os filhos de Deus para se apresentarem diante do SENHOR; e veio também o satanás no meio deles para se apresentar diante do SENHOR.",
   "termos_originais": [
     {
@@ -102,6 +102,13 @@
           "motivo": "a distinção maiúscula/minúscula é sutil demais para comunicar ao leitor comum que se trata de um título, não de um nome; a tradução pelo sentido comunica melhor o ofício."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e também o acusador veio entre eles apresentar-se diante do SENHOR. → e o acusador também veio entre eles para se apresentar.",
+      "justificativa": "RED-1: eliminação da repetição de “apresentar-se diante do SENHOR” (informação já estabelecida na primeira oração); normalização da posição de “também” para pós-sujeito (NTLH/NVIPT: “Satanás também veio”). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -115,10 +122,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
