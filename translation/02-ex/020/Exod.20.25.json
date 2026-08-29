@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Exod.20.1-26"
   },
-  "texto_bv": "E se me fizeres um altar de pedras, não o farás de pedras lavradas; se sobre ele levantares o teu buril, profaná-lo-ás.",
+  "texto_bv": "E se me fizerem um altar de pedras, não o façam de pedras lavradas; se sobre ele levantarem o seu buril, o profanarão.",
   "traducao_literal": "E se um altar de pedras fizeres para mim, não as construirás de pedra cortada, porque a tua espada moveste sobre ela, e a profanaste.",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E se me fizeres um altar de pedras, não o farás de pedras lavradas; se sobre ele levantares o teu buril, profaná-lo-ás. → E se me fizerem um altar de pedras, não o façam de pedras lavradas; se sobre ele levantarem o seu buril, o profanarão.",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): discurso Deus→humano não-formular deve usar você/vocês (fizere s→fizerem, farás→façam, levantares→levantarem, teu→seu). Mesóclise “profaná-lo-ás” eliminada (§1.2-tabela: mesóclise é arcaísmo em pt-BR contemporâneo) → “o profanarão”. NTLH e NVIPT usam “vocês” (2/3 refs). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Pedra não lavrada (sem ferro/ferramenta) — o culto não depende da técnica humana; a intervenção do 'buril' (arma) profana o sagrado. Simplicidade que exclui a vanglória. YHWH implícito.",
@@ -92,10 +100,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

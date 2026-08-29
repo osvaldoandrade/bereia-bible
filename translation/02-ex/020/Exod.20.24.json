@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Exod.20.1-26"
   },
-  "texto_bv": "Um altar de terra me farás, e sobre ele sacrificarás os teus holocaustos, e as tuas ofertas pacíficas, as tuas ovelhas, e as tuas vacas. Em todo o lugar onde eu fizer celebrar a memória do meu nome, virei a ti, e te abençoarei.",
+  "texto_bv": "Façam um altar de terra para mim, e sobre ele sacrifiquem os seus holocaustos e as suas ofertas pacíficas, as suas ovelhas e as suas vacas. Em todo o lugar onde eu fizer celebrar a memória do meu nome, virei a vocês e os abençoarei.",
   "traducao_literal": "Um altar de terra farás para mim, e sacrificarás sobre ele os teus holocaustos e os teus sacrifícios pacíficos, o teu rebanho e o teu gado; em todo o lugar em que eu fizer lembrar o meu nome, virei a ti e te abençoarei.",
   "termos_originais": [
     {
@@ -140,6 +140,20 @@
       "justificativa": "Divisão de sentença com 44 palavras em duas sentenças menores (§1.3, LEN-1) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Um altar de terra me farás, e sobre ele sacrificarás os teus holocaustos, e as tuas ofertas pacíficas, as tuas ovelhas, e as tuas vacas. Em todo o lugar onde eu fizer celebrar a memória do meu nome, virei a ti, e te abençoarei. → Façam um altar de terra para mim, e sobre ele sacrifiquem os seus holocaustos e as suas ofertas pacíficas, as suas ovelhas e as suas vacas. Em todo o lugar onde eu fizer celebrar a memória do meu nome, virei a vocês e os abençoarei.",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): discurso Deus→humano não-formular (instruções sobre altar, pós-mandamentos) deve usar você/vocês. NTLH e NVIPT usam “vocês” (2/3 refs); BV usava “tu”. Também eliminada parataxe excessiva (“e” repetido na lista). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "“Vacas” para heb. בָּקָר (baqar, gado/bois) — NTLH, ARA e NVIPT usam “bois”. “Vacas” (fêmeas) é menos preciso que “bois” (genérico). — evidência: NTLH: “seus bois”; ARA: “teus bois”; NVIPT: “seus bois”. 3/3 refs convergem em “bois”. BV é a única com “vacas”. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -152,9 +166,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
