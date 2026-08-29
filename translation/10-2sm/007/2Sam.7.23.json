@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "2Sam.7.1-29"
   },
-  "texto_bv": "E quem é como teu povo, como Israel, única nação na terra, a quem Deus foi resgatar para si como povo? Para fazer para si um nome, ele realizou em favor de vocês esta grandeza e coisas temíveis por sua terra, diante de seu povo, que você resgatou para si do Egito — nações e seus deuses.",
+  "texto_bv": "E quem é como teu povo, como Israel, única nação na terra, a quem tu foste resgatar para ti como povo? Para fazer para ti um nome, tu realizaste em favor deles esta grandeza e coisas temíveis por tua terra, diante de teu povo, que tu resgataste para ti do Egito — nações e seus deuses.",
   "traducao_literal": "E quem é como teu povo, como Israel, nação uma na terra, a quem foram Deus resgatar para ele por povo, e pôr para ele nome, e fazer para vocês a grandeza e coisas temíveis para tua terra, de diante de teu povo, que resgataste para ti do Egito, nações e seus deuses?",
   "termos_originais": [
     {
@@ -174,6 +174,13 @@
       "justificativa": "LEN-1: sentença de 55 palavras dividida em duas após o ponto natural de fechamento da oração relativa (‘como povo’). Segunda sentença com sujeito explícito ‘ele’ (Deus) e verbo finito ‘realizou’; ‘tua terra’→‘sua terra’ e ‘resgataste para ti’→‘você resgatou para si’ mantêm referência a Deus em paradigma tu coerente. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a quem Deus foi resgatar para si como povo? Para fazer para si um nome, ele realizou → a quem tu foste resgatar para ti como povo? Para fazer para ti um nome, tu realizaste | em favor de vocês → em favor deles | por sua terra, diante de seu povo, que você resgatou para si → por tua terra, diante de teu povo, que tu resgataste para ti",
+      "justificativa": "Normalização do paradigma §3/D-0003: na oração a Deus, o endereço é tu (não 3ª pessoa narrativa). ARA/NVIPT usam “tu” consistentemente neste verso. | Israel é referente (3ª pessoa), não interlocutor, na oração de Davi a Deus. NTLH/ARA/NVIPT empregam 3ª pessoa para Israel neste contexto (“por eles”, “a seu favor”). | Normalização do paradigma §3/D-0003: possessivos e verbo referentes a Deus na oração usam 2ª pessoa (tu/teu/ti). O heb. tem לְאַרְצְךָ e מִפְּנֵי עַמְּךָ (2ª masc. sg.). ARA/NVIPT usam “tua terra”/“teu povo”/“tu resgataste”. — revisão de forma sem alteração de sentido (ER-0019). PRO-1: a BV original misturava 3ª pessoa narrativa (“Deus”, “ele”) e 2ª pessoa (“você”) para Deus dentro da mesma oração, além de usar “vocês” (2ª pl.) para Israel que é referente, não interlocutor. Normalizado para tu consistente na oração a Deus e 3ª pessoa para Israel, alinhando com ARA/NVIPT.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -190,9 +197,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
