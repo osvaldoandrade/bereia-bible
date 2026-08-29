@@ -119,13 +119,32 @@
   "confianca": 0.7,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): A expressão “roubo com a oferta queimada” (gezel be-olah) é obscura ao leitor contemporâneo e diverge das três referências: NTLH (“roubo e o crime”), ARA (“roubo e toda injustiça”), NVIPT (“roubo e toda maldade”). As três interpretações entendem o termo como transgressão genérica, não como referência cultual literal a oferta queimada. — evidência: ARA, NVIPT e NTLH convergem em interpretar o segundo elemento como injustiça/maldade/crime. A BV é a única entre as quatro traduções a preservar a leitura literal “oferta queimada” (olah). Qualquer correção para alinhar com as referências exigiria decisão exegética sobre a interpretação do termo hebraico, o que ultrapassa o escopo editorial."
+  ],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
