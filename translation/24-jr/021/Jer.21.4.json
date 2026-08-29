@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Jer.21.1-14"
   },
-  "texto_bv": "Assim diz o SENHOR, Deus de Israel: eis que eu faço recuar as armas de guerra que estão nas mãos de vocês, com as quais vocês lutam contra o rei da Babilônia e contra os caldeus que os cercam do lado de fora da muralha; e eu as ajuntarei no meio desta cidade.",
+  "texto_bv": "Assim diz o SENHOR, Deus de Israel: eis que eu faço recuar as armas de guerra que estão nas mãos de vocês, com as quais vocês lutam contra o rei da Babilônia e contra os caldeus que os cercam do lado de fora da muralha. Eu as ajuntarei no meio desta cidade.",
   "traducao_literal": "Assim disse SENHOR, Deus de Israel: eis-me fazendo recuar as armas da guerra que estão em mão de vocês, que vocês guerreiam com elas com o rei de Babilônia e com os caldeus, os que cercam sobre vocês de fora ao muro; e ajuntarei elas para dentro da cidade, esta.",
   "termos_originais": [
     {
@@ -204,6 +204,13 @@
           "motivo": "mais genérico, perde a conotação de fortificação militar"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "muralha; e eu → muralha. Eu",
+      "justificativa": "§1.3: divisão de sentença longa (53 palavras) em duas sentenças independentes; resolução de LEN-1. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 flagged: 'eis que' (hinneh) em oráculo divino é fórmula dêitica com força introdutória de anúncio profético solene. ARA preserva. Manutenção é fidelidade ao gênero profético, não calque artificial.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -217,10 +224,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
