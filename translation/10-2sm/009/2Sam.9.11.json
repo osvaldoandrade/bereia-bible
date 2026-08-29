@@ -157,13 +157,32 @@
   "confianca": 0.55,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): Atribuição de fala divergente: a BV atribui a segunda oração (“Quanto a Mefibosete, ele comerá à minha mesa, tal qual um dos filhos do rei”) a Ziba (tudo dentro das mesmas aspas). A ARA insere “Disse o rei:” antes de “Quanto a Mefibosete”, atribuindo a segunda parte a Davi. A NTLH também a interpreta como fala de Davi (“Daí em diante Mefibosete passou a comer junto com o rei”). — evidência: A traducao_literal do digest mantém tudo sob aspas de Ziba (“…assim fará teu servo; e Mefibosete come sobre minha mesa…”), sem quebra de falante. O TM não contém marca explícita de mudança de falante neste verso. A BV segue a leitura literal, enquanto ARA/NTLH adotam interpretação editorial distinta. Objeção MATERIAL registrada; texto não alterado (objeção bloqueia promoção)."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
