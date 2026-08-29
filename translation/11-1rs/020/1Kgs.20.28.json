@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "1Kgs.20.1-43"
   },
-  "texto_bv": "O homem de Deus se aproximou do rei de Israel e disse: “Assim disse o SENHOR: ‘Visto que Aram disse: “O SENHOR é Deus dos montes, mas não é Deus dos vales”, entregarei toda esta grande multidão em sua mão, e vocês saberão que eu sou o SENHOR.’”",
+  "texto_bv": "O homem de Deus se aproximou do rei de Israel e disse: “Assim disse o SENHOR: ‘Visto que Aram disse: “O SENHOR é Deus dos montes, mas não é Deus dos vales”, entregarei toda esta grande multidão em sua mão. Vocês saberão que eu sou o SENHOR.’”",
   "traducao_literal": "E aproximou-se o homem de Deus, e disse ao rei de Israel, e disse: “Assim disse o SENHOR: ‘Visto que disseram Aram: “Deus dos montes é o SENHOR, e não Deus dos vales ele”, darei toda esta grande multidão em sua mão, e saberão que eu sou o SENHOR.’”",
   "termos_originais": [
     {
@@ -195,6 +195,13 @@
       "justificativa": "Sentença de 48 palavras (LEN-1). A moldura narrativa (‘O homem de Deus se aproximou… e disse’, 12 palavras) somada ao oráculo divino (36 palavras) forma período longo. — evidência: O oráculo é unidade retórica coesa (estrutura causal ‘visto que… entregarei… e saberão’); dividi-lo prejudicaria a unidade profética. Separar a moldura em duas orações (‘…aproximou-se… Disse:’) é possível mas empobrece a fluidez narrativa. Melhoria optativa, não aplicada. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "em sua mão, e vocês saberão que eu sou o SENHOR. → em sua mão. Vocês saberão que eu sou o SENHOR.",
+      "justificativa": "Sentença de 48 palavras (LEN-1, §1.3): divisão após a cláusula principal do oráculo profético, reduzindo a extensão sem perda sintática. O waw consecutivo é absorvido pela pontuação forte; a relação consecutiva é inferida pelo contexto. — revisão de forma sem alteração de sentido (ER-0019). RED-1 (“disse” 2×): a primeira ocorrência pertence à narrativa (“o homem de Deus… disse”), a segunda à fórmula profética (“Assim disse o SENHOR”) — estruturas distintas, não redundância.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -207,9 +214,26 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "qwen3.7-max",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
