@@ -62,6 +62,13 @@
           "motivo": "reservado para אֱוִיל noutros versículos do capítulo, quebraria a distinção lexical"
         }
       ]
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "As três referências (NTLH \"tolo\", ARA \"insensato\", NVIPT \"tolo\") divergem de \"bruto\", mas a traducao_literal já fixa \"bruto\" (heb. ba'ar, sentido de estupidez brutesca/animal), refletindo escolha lexical de tradução já consolidada, não arcaísmo nem inconsistência de forma; alterar exigiria mudar a traducao_literal, fora do escopo desta revisão. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -73,10 +80,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
