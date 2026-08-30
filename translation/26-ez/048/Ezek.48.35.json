@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "Ezek.48.1-35"
   },
-  "texto_bv": "O perímetro total será de dezoito mil côvados. E o nome da cidade, desde aquele dia, será: \"O SENHOR está ali.\"",
+  "texto_bv": "O perímetro total será de dezoito mil côvados. E o nome da cidade, desde aquele dia, será: “O SENHOR está ali.”",
   "traducao_literal": "Ao-redor, dezoito mil; e-nome-de a-cidade, de-dia, SENHOR ali.",
   "termos_originais": [
     {
@@ -68,6 +68,13 @@
           "motivo": "o packet não fornece controle de transliteração para nomes compostos; a tradução por sentido é mais transparente e evita cunhar um topônimo não testemunhado na convenção do projeto (EDITORIAL §8-9)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "será: \"O SENHOR está ali.\" → será: “O SENHOR está ali.”",
+      "justificativa": "Aspas retas normalizadas para aspas duplas curvas (ER-0004 / EDITORIAL §5), padrão tipográfico da BV; NTLH usa aspas curvas no mesmo trecho. — revisão de forma sem alteração de sentido (ER-0019). RAT-1 é artefato da contagem (literal extremamente compacta: 'Ao-redor, dezoito mil; e-nome-de a-cidade, de-dia, SENHOR ali'); o texto é natural e já dividido em dois períodos. Única correção: aspas retas → curvas (ER-0004).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -81,10 +88,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

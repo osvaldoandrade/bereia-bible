@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Ezek.48.1-35"
   },
-  "texto_bv": "E, ao longo da fronteira de Judá, do lado oriental ao lado ocidental, estará a porção que vocês separarão: vinte e cinco mil côvados de largura, e o comprimento será como um dos quinhões, do lado oriental ao lado ocidental; e o santuário estará no meio dela.",
+  "texto_bv": "E, ao longo da fronteira de Judá, do lado oriental ao lado ocidental, estará a porção que vocês separarão: vinte e cinco mil côvados de largura, e o comprimento será como um dos quinhões, do lado oriental ao lado ocidental. E o santuário estará no meio dela.",
   "traducao_literal": "E-sobre fronteira-de Judá, de-lado-de leste até-lado-de mar, será a-porção que separareis: vinte-e-cinco mil, largura; e-comprimento, como-um de-os-quinhões, de-lado-de leste até-lado-de mar; e-será o-santuário em-seu-meio.",
   "termos_originais": [
     {
@@ -173,6 +173,13 @@
           "motivo": "importaria reconstrução exegética não codificada no texto-fonte"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ocidental; e o santuário estará no meio dela. → ocidental. E o santuário estará no meio dela.",
+      "justificativa": "LEN-1: sentença de 47 palavras; divisão no ponto-e-vírgula já existente, sem perda sintática nem adição de sentido (EDITORIAL §1.3). ARA também isola 'O santuário estará no meio dela' como período próprio. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 resolvido pela divisão no ponto-e-vírgula final. RED-1 ('do lado oriental ao lado ocidental' 2x) espelha a dupla ocorrência na literal — repetição do original mantida por fidelidade. RAT-1 é artefato da contagem hifenizada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -188,10 +195,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
