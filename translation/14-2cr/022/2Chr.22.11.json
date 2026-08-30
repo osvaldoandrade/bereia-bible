@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "2Chr.22.1-12"
   },
-  "texto_bv": "Jeosabeate, filha do rei, tomou Joás, filho de Acazias, e o retirou às escondidas do meio dos filhos do rei que estavam sendo mortos. Ela o colocou, juntamente com sua ama de leite, no quarto dos leitos. Jeosabeate, filha do rei Jeorão e esposa do sacerdote Joiada, escondeu-o de Atalia, pois ela era irmã de Acazias; e Atalia não o matou.",
+  "texto_bv": "Jeosabeate, filha do rei, tomou Joás, filho de Acazias, e o retirou às escondidas do meio dos filhos do rei que estavam sendo mortos. Ela o colocou, juntamente com sua ama de leite, no quarto dos leitos. Jeosabeate, filha do rei Jeorão, esposa do sacerdote Joiada e irmã de Acazias, escondeu-o de Atalia; e Atalia não o matou.",
   "traducao_literal": "E tomou Jeosabeate, filha do rei, Joás, filho de Acazias, e o furtou do meio dos filhos do rei que estavam sendo mortos; e colocou-o e sua ama de leite no quarto dos leitos. E escondeu-o Jeosabeate, filha do rei Jeorão, mulher de Joiada, o sacerdote, da presença de Atalia, pois ela era irmã de Acazias; e não o fez morrer.",
   "termos_originais": [
     {
@@ -223,6 +223,13 @@
           "motivo": "Apagaria a repetição formular do nome e enfraqueceria a identificação que acompanha o segundo verbo de ocultar."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Jeosabeate, filha do rei Jeorão e esposa do sacerdote Joiada, escondeu-o de Atalia, pois ela era irmã de Acazias; e Atalia não o matou. → Jeosabeate, filha do rei Jeorão, esposa do sacerdote Joiada e irmã de Acazias, escondeu-o de Atalia; e Atalia não o matou.",
+      "justificativa": "Referência pronominal ambígua corrigida (cheque item 5): em “pois ela era irmã de Acazias”, o pronome “ela” fica adjacente a “Atalia” e pode ser lido como referindo-se a ela, quando é Jeosabeate quem é irmã de Acazias. O dado foi movido para o rol de apostos que já identifica Jeosabeate, eliminando o pronome ambíguo sem perda de conteúdo. Mesma reordenação feita por ARA e NVIPT (“...mulher do sacerdote Jeoiada e irmã de Acazias, o escondeu de Atalia...”). — revisão de forma sem alteração de sentido (ER-0019). RED-1 sinaliza a repetição de “Jeosabeate, filha do rei” no início de duas frases do verso; é fórmula narrativa de reidentificação do sujeito ao acrescentar informação nova (o casamento com Joiada), mantida por ARA e NVIPT, que repetem a mesma estrutura (“Jeosabeate, filha do rei [Jeorão]” duas vezes) — preservada como fidelidade ao original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -240,10 +247,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

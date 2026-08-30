@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "2Chr.22.1-12"
   },
-  "texto_bv": "Jorão voltou a Jezreel para se recuperar dos ferimentos que lhe infligiram em Ramá, enquanto lutava contra Hazael, rei de Arã. Azarias, filho de Jeorão, rei de Judá, desceu para visitar Jeorão, filho de Acabe, em Jezreel, pois este estava doente.",
+  "texto_bv": "Jorão voltou a Jezreel para se recuperar dos ferimentos que lhe infligiram em Ramá, enquanto lutava contra Hazael, rei de Arã. Azarias, filho de Jeorão, rei de Judá, desceu para visitar Jorão, filho de Acabe, em Jezreel, pois este estava doente.",
   "traducao_literal": "E voltou para curar-se em Jezreel por causa dos ferimentos com que o feriram em Ramá, em seu lutar com Hazael, rei de Arã; e Azarias, filho de Jeorão, rei de Judá, desceu para ver Jeorão, filho de Acabe, em Jezreel, pois doente ele.",
   "termos_originais": [
     {
@@ -167,6 +167,13 @@
           "motivo": "Eliminaria a alternância lexical explícita."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "desceu para visitar Jeorão, filho de Acabe → desceu para visitar Jorão, filho de Acabe",
+      "justificativa": "Mesma normalização de nomeação de 2Cr 22.5: “Jorão” (filho de Acabe, rei de Israel) vs. “Jeorão” (rei de Judá). Este verso já abre com “Jorão voltou a Jezreel” para a mesma pessoa; a segunda menção usava a forma trocada. Confirmado por NTLH/ARA/NVIPT, que usam “Jorão” nos dois pontos, e pela tradução paralela do corpus BV em 2Rs 8.29. — revisão de forma sem alteração de sentido (ER-0019). As três referências chamam o rei de Judá de “Acazias” neste ponto, enquanto a BV (seguindo a traducao_literal) traz “Azarias”. O TM de 2Crônicas 22.6 tem de fato עֲזַרְיָהוּ (Azarias) — uma crux textual conhecida, diferente da leitura de 2Rs 8.29 (אֲחַזְיָהוּ, Acazias), que o próprio corpus BV traduz como “Acazias” nesse paralelo. NTLH/ARA/NVIPT harmonizam com 2Reis; a BV preserva a leitura do TM de Crônicas para auditabilidade ao original pinado. Substituir por “Acazias” mudaria o conteúdo (escolha de tradição textual), o que está fora do escopo desta revisão de forma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -184,10 +191,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
