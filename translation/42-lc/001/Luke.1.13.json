@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Luke.1.1-80"
   },
-  "texto_bv": "Mas o anjo lhe disse: \"Não temas, Zacarias, porque a tua súplica foi ouvida. Isabel, tua mulher, dará à luz um filho, e lhe porás o nome de João.\"",
+  "texto_bv": "Mas o anjo lhe disse: \"Não tenha medo, Zacarias, porque a sua súplica foi ouvida. Isabel, sua mulher, dará à luz um filho, e você lhe porá o nome de João.\"",
   "traducao_literal": "Mas disse-lhe o anjo: Não temas, Zacarias, porque foi ouvida a tua súplica, e Isabel, tua mulher, dará à luz um filho para ti, e chamarás o nome dele João;",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
           "motivo": "soa artificial em português contemporâneo; a estrutura semítica é preservada na traducao_literal."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas o anjo lhe disse: \"Não temas, Zacarias, porque a tua súplica foi ouvida. Isabel, tua mulher, dará à luz um filho, e lhe porás o nome de João.\" → Mas o anjo lhe disse: \"Não tenha medo, Zacarias, porque a sua súplica foi ouvida. Isabel, sua mulher, dará à luz um filho, e você lhe porá o nome de João.\"",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (D-0003/§3): discurso de anjo/Deus a humano usa você/vocês, não tu — 'temas/tua/porás' (tu) → 'tenha medo/sua/você...porá' (você), coerente com o restante do capítulo e com precedente já registrado em Lc 2:10-12 (decisão 'segunda pessoa no discurso do anjo'). NTLH e NVIPT já usam 'você/sua' neste verso; só ARA preserva 'tu' (registro tradicional). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -174,10 +181,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
