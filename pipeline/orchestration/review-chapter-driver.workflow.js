@@ -20,9 +20,11 @@ export const meta = {
   phases: [{ title: 'Revisar', detail: 'até 16 threads; um agente por capítulo hot, comparação guiada por NTLH/ARA/NVIPT' }],
 }
 const REPO = '/Users/ova/GolandProjects/bereia-bible'
-const MODEL = 'qwen3.7-max'
 let A = args || {}
 if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = {} } }
+// Reviewer model is provenance-bearing: whatever runs here must equal the
+// -modelo passed to scripts/ship_review_batch.py (ER-0010 re-pin of `fontes`).
+const MODEL = A.model || 'sonnet'
 const CHAPTERS = (A.chapters || []).slice(0, 16)
 
 const S = { type: 'string' }
