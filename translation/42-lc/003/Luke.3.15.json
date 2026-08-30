@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Luke.3.1-38"
   },
-  "texto_bv": "Estando o povo em expectativa, e ponderando todos em seus corações se, porventura, João seria o Cristo,",
+  "texto_bv": "Estando o povo em expectativa, e ponderando todos em seus corações se, acaso, João seria o Cristo,",
   "traducao_literal": "Estando em expectativa o povo, e refletindo todos em seus corações a respeito de João, se seria ele o Cristo,",
   "termos_originais": [
     {
@@ -112,7 +112,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "se, porventura, João seria o Cristo → se, acaso, João seria o Cristo",
+      "justificativa": "Achado ARC-1: 'porventura' é arcaísmo funcionalmente morto (EDITORIAL §1.2-tabela: porventura → acaso/talvez). NVIPT já usa 'acaso' no mesmo trecho ('se acaso João não seria o Cristo'); NTLH evita a construção com 'talvez'. Apenas ARA mantém 'porventura' (tradução mais tradicional). Substituição pontual sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). Achado ARC-1 confirmado e corrigido (ver mudancas): 'porventura' substituído por 'acaso', alinhando com NVIPT e eliminando arcaísmo listado em EDITORIAL §1.2.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Genitivo absoluto duplo (Προσδοκῶντος/διαλογιζομένων) introduzindo a resposta de João em 3.16; μή ποτε + optativo marca dúvida indireta.",
@@ -122,10 +130,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
