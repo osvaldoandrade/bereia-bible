@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Ps.83.1-19"
   },
-  "texto_bv": "Disseram: “Vinde, exterminemo-los, para que deixem de ser nação, e o nome de Israel não seja mais lembrado.”",
+  "texto_bv": "Disseram: “Venham, exterminemo-los, para que deixem de ser nação, e o nome de Israel não seja mais lembrado.”",
   "traducao_literal": "Disseram: Ide, e exterminemo-los, de nação; e não seja lembrado nome de Israel mais.",
   "termos_originais": [
     {
@@ -79,6 +79,13 @@
           "motivo": "leitura partitiva é gramaticalmente possível, mas menos natural com נכחד + מן neste contexto de aniquilação total"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vinde → Venham",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): discurso humano↔humano usa você/vocês; 'Vinde' é imperativo de vós, indevido nesta fala dos inimigos entre si. NTLH e NVIPT usam 'Venham' na mesma fala; ARA mantém a forma tradicional 'Vinde', mas a norma vinculante do projeto exige vocês/você fora de oração a Deus. — revisão de forma sem alteração de sentido (ER-0019). Único ponto do capítulo com forma de vós fora de oração a Deus; corrigido isoladamente porque é discurso humano↔humano (os conspiradores falando entre si), não uma oração — todas as demais 2ªs pessoas do capítulo são 'tu' dirigido a Deus e permanecem corretas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -92,10 +99,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
