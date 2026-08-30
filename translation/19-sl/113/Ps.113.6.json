@@ -43,6 +43,13 @@
           "motivo": "colide com o uso padrão de 'ver' + objeto direto sem preposição em português"
         }
       ]
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "As três referências (NTLH, ARA, NVIPT) convergem em 'se inclina', divergindo da BV ('se abaixa') — pelo piso de naturalidade (EDITORIAL §1.4/regra zero item 1), essa convergência normalmente indica defeito de forma na BV. Investigado: o hebraico emprega aqui a raiz שפל (shafal, 'ser baixo/humilhar-se'), antônimo direto das raízes רום/גבה (rum/gavah, 'ser alto/exaltar-se') dos vv.4-5, que a BV verteu como 'elevado'/'se eleva'. A escolha de 'abaixa' preserva esse contraste antonímico proposital do original (alto↔baixo) — nenhuma das três referências reproduz esse par no nível lexical, pois nenhuma delas usa um verbo de 'elevar-se' equivalente nos vv.4-5. 'Abaixa' não é arcaísmo nem imprecisão; é palavra corrente em português contemporâneo. Manter preserva fidelidade estrutural ao original (regra 4 — paralelismo mantido), portanto SEM_ALTERACAO apesar da convergência das referências. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -56,10 +63,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
