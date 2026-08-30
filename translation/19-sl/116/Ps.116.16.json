@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Ps.116.1-19"
   },
-  "texto_bv": "Ah, SENHOR, eu sou teu servo, filho da tua serva; tu soltaste as minhas amarras.",
+  "texto_bv": "Ah, SENHOR, eu sou teu servo; eu sou teu servo, filho da tua serva; tu soltaste as minhas amarras.",
   "traducao_literal": "Ah, SENHOR, porque eu, teu servo; eu, teu servo, filho da tua serva — soltaste as minhas amarras.",
   "termos_originais": [
     {
@@ -84,6 +84,13 @@
       "escolha": "Tradução literal, sem paráfrase",
       "justificativa": "Idiomatismo hebraico de status de servo nascido na casa do senhor (devoção herdada); mantido sem expansão interpretativa (TEOLOGIA §2).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eu sou teu servo, filho da tua serva; → eu sou teu servo; eu sou teu servo, filho da tua serva;",
+      "justificativa": "Restaura a repetição formular “eu, teu servo” presente na traducao_literal e no hebraico (אֲנִי־עַבְדְּךָ duplicado), preservada por ARA (“sou teu servo; sou teu servo”) e NVIPT (“sou teu servo, Sim, sou teu servo”); o texto publicado havia condensado uma ênfase retórica intencional do original (checklist item 4 / ER-0013: repetição do original é fidelidade, não redundância a eliminar). — revisão de forma sem alteração de sentido (ER-0019). Mantida a interjeição “Ah” (equivalente legítimo de אָנָּה, distinto de “Ó” em NTLH/ARA) por ser escolha estilística já consistente com 116:4; a única mudança de forma foi restaurar a repetição “eu, teu servo”.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -97,10 +104,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
