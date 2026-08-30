@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Hos.14.1-10"
   },
-  "texto_bv": "Levem convosco palavras e voltem ao SENHOR; digam a ele: “Perdoa toda a iniquidade e aceita o que é bom, e ofereceremos os novilhos dos nossos lábios.”",
+  "texto_bv": "Levem consigo palavras e voltem ao SENHOR; digam a ele: “Perdoa toda a iniquidade e aceita o que é bom, e ofereceremos os novilhos dos nossos lábios.”",
   "traducao_literal": "Tomai convosco palavras e voltai ao SENHOR; dizei a ele: 'Toda a iniquidade tira, e toma o bem; e pagaremos os touros dos nossos lábios.'",
   "termos_originais": [
     {
@@ -109,6 +109,13 @@
           "motivo": "o packet pinado (OSHB) não registra variantes_fonte para este verso; sem aparato no packet, o tradutor não introduz leitura não pinada"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Levem convosco palavras → Levem consigo palavras",
+      "justificativa": "Paradigma de 2ª pessoa (D-0003/§3, checklist item 10): o capítulo usa você/vocês (cf. Hos.14.2 'Volte... você tropeçou'); 'convosco' é resquício isolado do paradigma vós, incompatível com o imperativo 'Levem' (vocês) na mesma oração. Normalizado para 'consigo' (reflexivo formal compatível com vocês), sem alterar o sentido ('tragam consigo as palavras'). — revisão de forma sem alteração de sentido (ER-0019). A referência bruta anexada a este verso no digest corresponde, por deslocamento de versificação (ver nota em Hos.14.1), a Os 14.4. A comparação correta é com a referência anexada a Hos.14.2: ARA mantém 'Tomai convosco palavras' (estilo próprio da ARA, que usa vós consistentemente em todo o texto — não é paradigma misto), enquanto NTLH e NVIPT reestruturam a frase evitando o pronome ('Preparem o que vão dizer'). Isso confirma que, no paradigma você/vocês adotado pela BV, o 'convosco' isolado era incoerente com o resto do capítulo e foi corrigido para 'consigo'.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -120,10 +127,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
