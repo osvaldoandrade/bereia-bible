@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Lam.3.1-66"
   },
-  "texto_bv": "Que ele se assente sozinho e se cale, pois o jugo pesa sobre ele.",
+  "texto_bv": "Sente-se sozinho e cale-se, pois o jugo pesa sobre ele.",
   "traducao_literal": "Sente-se sozinho e cale-se, pois lançou sobre ele.",
   "termos_originais": [
     {
@@ -42,7 +42,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Que ele se assente sozinho e se cale → Sente-se sozinho e cale-se",
+      "justificativa": "RAT-1 (ratio 1.75): a perífrase 'Que ele se assente...se cale' introduz verbosidade evitável e quebra o paralelismo jussivo direto dos versos vizinhos (3.29 'Ponha a boca no pó', 3.30 'Ofereça a face'); normalizada para a forma jussiva direta 'Sente-se...cale-se', que reproduz a traducao_literal ('Sente-se sozinho e cale-se') e restaura a consistência de forma verbal na tricolon 3.28-30 (EDITORIAL §1.3/§1.4), sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). Achado RAT-1 (ratio 1.75) confirmado: a construção com 'Que ele...' era mais longa que o necessário e destoava do jussivo direto usado nos vv. 29-30 (e no próprio literal deste verso). Corrigido para 'Sente-se...cale-se', mantendo intacto o complemento 'pois o jugo pesa sobre ele' (explicitação de sujeito já presente na BV, equivalente à que ARA faz com 'Deus o pôs' e NVIPT com 'o Senhor o pôs' para a mesma elipse hebraica).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "o jugo (sujeito elíptico de נָטַל, retomado de 3:27)"
   ],
@@ -54,10 +62,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
