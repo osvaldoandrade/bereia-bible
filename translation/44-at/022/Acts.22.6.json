@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Acts.22.1-30"
   },
-  "texto_bv": "Aconteceu que, quando eu ia chegando perto de Damasco, por volta do meio-dia, de repente uma grande luz do céu brilhou ao redor de mim,",
+  "texto_bv": "Quando eu ia chegando perto de Damasco, por volta do meio-dia, de repente uma grande luz do céu brilhou ao redor de mim,",
   "traducao_literal": "Aconteceu-me, indo eu e aproximando-me de Damasco, por volta do meio-dia, subitamente, do céu, brilhar ao redor luz suficiente ao redor de mim,",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
           "motivo": "tradução literal do lexema soa como se houvesse um propósito medido de luz, sentido ausente no idiomatismo grego"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Aconteceu que, quando eu ia chegando perto de Damasco, por volta do meio-dia, de repente uma grande luz do céu brilhou ao redor de mim, → Quando eu ia chegando perto de Damasco, por volta do meio-dia, de repente uma grande luz do céu brilhou ao redor de mim,",
+      "justificativa": "Calque paratático 'aconteceu que' (§6.2/ER-0013) normalizado. A oração temporal 'quando eu ia chegando' já introduz a circunstância sem necessidade do calque. NTLH e NVIPT também omitem a estrutura. — revisão de forma sem alteração de sentido (ER-0019). CAL-1 flagrado. ARA mantém o calque ('Aconteceu, porém, que'), mas NTLH e NVIPT o eliminam. A remoção preserva todos os elementos semânticos (aproximação, meio-dia, súbito, luz) e melhora a fluidez.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,10 +136,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
