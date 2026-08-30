@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "2Cor.10.1-18"
   },
-  "texto_bv": "pois dizem: \"as cartas são pesadas e fortes, mas a presença pessoal é fraca, e a palavra, desprezível.\"",
+  "texto_bv": "pois dizem: “as cartas são pesadas e fortes, mas a presença pessoal é fraca, e a palavra, desprezível.”",
   "traducao_literal": "que as cartas, de um lado, diz, [são] pesadas e fortes, mas a presença do corpo [é] fraca e a palavra [é] desprezível.",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "escolha": "aspas duplas curvas em torno da citação",
       "justificativa": "φησίν introduz claramente uma citação de terceiros, exigindo marcação de discurso direto conforme a regra editorial",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois dizem: \"as cartas são pesadas e fortes, mas a presença pessoal é fraca, e a palavra, desprezível.\" → pois dizem: “as cartas são pesadas e fortes, mas a presença pessoal é fraca, e a palavra, desprezível.”",
+      "justificativa": "Aspas retas convertidas em aspas duplas curvas para discurso direto, conforme EDITORIAL §5. — revisão de forma sem alteração de sentido (ER-0019). Aspas retas corrigidas para aspas duplas curvas (EDITORIAL §5). Quanto ao léxico, as três referências variam entre si para o primeiro adjetivo (“graves” ARA, “duras” NVIPT, “severas” NTLH); “pesadas” é tradução natural e corrente em português (“palavras pesadas”) e mais literal ao grego — mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -134,10 +141,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
