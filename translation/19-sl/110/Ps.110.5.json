@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Ps.110.1-7"
   },
-  "texto_bv": "O Senhor está à tua direita; ele esmagará reis no dia da sua ira.",
+  "texto_bv": "O Senhor está à sua direita; ele esmagará reis no dia da ira dele.",
   "traducao_literal": "Senhor à tua direita; esmagou reis no dia da sua ira.",
   "termos_originais": [
     {
@@ -69,6 +69,13 @@
           "motivo": "Gramaticalmente possível, mas quebra a coerência do oráculo como promessa que se desenrola ao longo dos vv.1-7."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "à tua direita → à sua direita | no dia da sua ira → no dia da ira dele",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (EDITORIAL §3/D-0003; prompt canônico item 10): o oráculo do SENHOR e a fala do salmista dirigidos a um humano (“meu senhor”, o rei) usam você/vocês, não tu/teu — mesma normalização já aplicada ao Salmo 2 (Sl 2.7-9), estrutura idêntica de oráculo régio messiânico. | Após tu→você, “sua” colidiria com dois referentes na mesma frase (o rei endereçado e “ele”=o Senhor); “dele” preserva o referente original (a ira do Senhor) sem ambiguidade (checklist item 5, prompt canônico). NTLH resolve a mesma colisão reformulando para “no dia em que se irar”. — revisão de forma sem alteração de sentido (ER-0019). Paradigma tu→você normalizado; ajuste adicional em “sua ira”→“ira dele” evita ambiguidade referencial introduzida pela própria normalização (ver motivo da mudança), sem alterar o sentido (continua a ira do Senhor).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -85,10 +92,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
