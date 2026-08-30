@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Ezek.6.1-14"
   },
-  "texto_bv": "Saberão que eu sou o SENHOR quando os seus mortos estiverem no meio dos seus ídolos, ao redor dos seus altares, sobre toda colina alta, em todos os cumes dos montes, debaixo de toda árvore viçosa e debaixo de todo terebinto frondoso — lugar onde ofereceram aroma agradável a todos os seus ídolos.",
+  "texto_bv": "Saberão que eu sou o SENHOR quando os seus mortos estiverem no meio dos seus ídolos e ao redor dos seus altares. Estarão também sobre toda colina alta, em todos os cumes dos montes, debaixo de toda árvore viçosa e debaixo de todo terebinto frondoso — lugar onde ofereceram aroma agradável a todos os seus ídolos.",
   "traducao_literal": "E sabereis que eu [sou] SENHOR, ao-serem mortos-deles no-meio-de ídolos-deles, ao-redor-de altares-deles, sobre toda colina alta, em todos cumes-de os-montes, e debaixo-de toda árvore viçosa, e debaixo-de todo terebinto frondoso, lugar onde deram ali aroma-de aplacamento para todos ídolos-deles.",
   "termos_originais": [
     {
@@ -201,6 +201,13 @@
       "justificativa": "LEN-1: sentença de 52 palavras acima do limite de 40 (EDITORIAL §1.3) — evidência: O comprimento é inerente à enumeração locativa do original (colina, cumes, árvore viçosa, terebinto frondoso), governada por uma única cláusula temporal ('quando os seus mortos estiverem'). A cláusula relativa final ('lugar onde ofereceram') é aposto identificador ligado a toda a cadeia locativa. Dividir exigiria adicionar demonstrativo ('Nesses lugares') ou cópula não presente no original, ultrapassando mudança de forma. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Saberão que eu sou o SENHOR quando os seus mortos estiverem no meio dos seus ídolos, ao redor dos seus altares, sobre toda colina alta, em todos os cumes dos montes, debaixo de toda árvore viçosa e debaixo de todo terebinto frondoso — lugar onde ofereceram aroma agradável a todos os seus ídolos. → Saberão que eu sou o SENHOR quando os seus mortos estiverem no meio dos seus ídolos e ao redor dos seus altares. Estarão também sobre toda colina alta, em todos os cumes dos montes, debaixo de toda árvore viçosa e debaixo de todo terebinto frondoso — lugar onde ofereceram aroma agradável a todos os seus ídolos.",
+      "justificativa": "Sentença de 52 palavras (LEN-1, EDITORIAL §1.3) dividida após os dois primeiros locativos, suprindo o verbo elidido 'estarão' (mesmo predicado de 'estiverem') para manter a lista de lugares gramatical sem adicionar conteúdo novo — mesma técnica aplicada em Ezek.6.9. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 (52 palavras) resolvido com a divisão acima. PRO-1 ('seus') segue o mapeamento vosso→seu (D-0003); não é defeito de forma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -214,10 +221,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
