@@ -1,0 +1,128 @@
+{
+ "book_dir": "30-am",
+ "chapter": 6,
+ "versos": [
+  {
+   "osis": "Amos.6.1",
+   "texto_bv_revisto": "Ai dos que estão tranquilos em Sião e dos que confiam no monte de Samaria, os notáveis da principal das nações, a quem vem a casa de Israel!",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Achado VOS-1 (“notáveis”) é falso positivo do detector mecânico: a regex casa o sufixo ‘-áveis’ de qualquer palavra, e ‘notáveis’ é adjetivo substantivado (“os notáveis” = os dignitários), não forma verbal de ‘vós’ — não há paradigma vós neste verso. ARA (“homens notáveis”) e NVIPT (“homens notáveis”) confirmam a mesma base lexical; ‘notáveis’ não é arcaísmo nem inconsistência.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.2",
+   "texto_bv_revisto": "Passem a Calné e vejam; dali vão à grande Hamate, e desçam a Gate dos filisteus: são vocês melhores do que esses reinos? É maior o território deles do que o de vocês?",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "vão a Hamate, a grande, e desçam",
+     "depois": "vão à grande Hamate, e desçam",
+     "motivo": "Normalização de ordem substantivo+adjetivo pós-posto (calque da ordem hebraica, preservada na traducao_literal: “a Hamate a grande”) para a ordem natural do português adjetivo+substantivo. Regra zero: as três referências convergem nessa ordem (ARA “à grande Hamate”; NVIPT “à grande Hamate” — via ‘até a’; NTLH “a grande cidade de Hamate”). Sem alteração de sentido (EDITORIAL §6.2/ER-0013)."
+    }
+   ],
+   "objecoes": [],
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Amos.6.3",
+   "texto_bv_revisto": "Os que afastam o dia mau — mas vocês fazem chegar perto o assento da violência.",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Sem achado ativo. A mudança de sujeito de 3ª pessoa (“Os que afastam”) para 2ª pessoa (“vocês fazem chegar”) no mesmo verso reflete um giro gramatical já presente no hebraico (particípio 3ª pessoa → verbo 2ª pessoa na traducao_literal: “os que afastam...e fazeis chegar”) — fórmula intencional, mantida (regra 4). ARA usa “assento da violência”, quase idêntico à BV, confirmando a escolha lexical.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.4",
+   "texto_bv_revisto": "os que se deitam em camas de marfim e se espalham sobre os seus divãs, e comem cordeiros do rebanho e bezerros do meio do curral de engorda.",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Sem achado ativo. ‘Se espalham sobre os seus divãs’ diverge de ARA (“se estendem”) e NVIPT (“se espreguiçam”), mas as referências também divergem entre si — variação estilística legítima (regra zero, condição 2), sem indício de arcaísmo. ‘Espalhar-se’ é registro contemporâneo e mantém a conotação pejorativa do contexto (luxo/indolência).",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.5",
+   "texto_bv_revisto": "os que dedilham a harpa e, como Davi, inventam para si instrumentos musicais.",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Sem achado ativo. ‘Harpa’ diverge de ARA/NVIPT (“lira”/“liras”), mas NTLH também usa ‘harpas’ — não há convergência unânime das três referências contra a BV, logo é variação lexical legítima (regra zero, condição 2), sem entrada no lexicon.json que imponha um termo único.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.6",
+   "texto_bv_revisto": "os que bebem vinho em taças e se ungem com o melhor dos óleos, e não se afligem com a ruína de José.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.7",
+   "texto_bv_revisto": "Portanto, agora irão para o exílio à frente dos exilados, e cessará o banquete dos que se espalham nos divãs.",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Sem achado ativo. ‘À frente dos exilados’ já normaliza o calque ‘à cabeça de’ da traducao_literal (ER-0013). ‘Cessará o banquete’ (singular) diverge de ARA/NVIPT (plural ‘festins/banquetes’), mas coincide com o número da traducao_literal (“o banquete”) — mantido por fidelidade à forma do original, não é arcaísmo.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.8",
+   "texto_bv_revisto": "O Senhor DEUS jurou por si mesmo — diz o SENHOR, Deus dos Exércitos: “Eu abomino a soberba de Jacó e odeio os seus palácios; entregarei a cidade e tudo o que nela há.”",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Achado RED-1 (“senhor deus”) é falso positivo: o verso contém duas fórmulas de nome divino distintas e corretas por NOMES-DIVINOS.md — ‘Senhor DEUS’ (Adonai YHWH) e ‘SENHOR, Deus dos Exércitos’ (YHWH Elohei Tsevaot), não uma redundância. O bigrama mecânico não distingue as duas fórmulas. Mesma fórmula dupla se repete em Amos.6.14 (consistência §1.4).",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.9",
+   "texto_bv_revisto": "E, se dez homens restarem numa só casa, morrerão.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.10",
+   "texto_bv_revisto": "Então o parente do morto — aquele que o cremará — o levantará para tirar os ossos de casa, e dirá ao que estiver no fundo da casa: “Ainda há alguém com você?” E ele dirá: “Ninguém.” Então dirá: “Silêncio! Pois não se deve mencionar o nome do SENHOR.”",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Sem achado ativo. A leitura apositiva ‘o parente do morto — aquele que o cremará —’ (um único referente) é confirmada por ARA (“o parente de alguém, aquele que o queima”) e NVIPT (“um parente que tiver que queimar os corpos”) — não há divergência das referências quanto a essa estrutura. Elipse suprida em ‘com você’ (EDITORIAL §4, agramatical sem sujeito explícito em português).",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.11",
+   "texto_bv_revisto": "Pois eis que o SENHOR ordena, e ferirá a casa grande em pedaços, e a casa pequena em fendas.",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Achado CAL-2 (‘eis que’) adjudicado como fórmula intencional, mantida: introduz oráculo de juízo em par estrutural com Amos.6.14 (“Pois eis que...” nos dois versos), marcando o dêitico com força retórica. ARA mantém ‘eis que’ no mesmo ponto (“Pois eis que o Senhor ordena”); NTLH/NVIPT eliminam por serem traduções mais parafrásticas — divergência não unânime, e a retenção preserva o paralelismo entre os dois oráculos do capítulo (regra 4).",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.12",
+   "texto_bv_revisto": "Acaso correm os cavalos sobre a rocha? Ara-se ali com bois? Pois vocês transformaram a justiça em veneno, e o fruto da retidão em absinto.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Correm os cavalos sobre a rocha?",
+     "depois": "Acaso correm os cavalos sobre a rocha?",
+     "motivo": "Restaurada a partícula interrogativa retórica ‘acaso’, presente na traducao_literal (“Acaso correm sobre a rocha cavalos?”) e nas três referências (NTLH “Por acaso, podem os cavalos...”; ARA “Acaso correrão cavalos...”; NVIPT “Acaso correm os cavalos...”). Regra zero, condição 1: convergência unânime das referências contra a BV; sem partícula, a pergunta perdia o tom retórico-incrédulo do original, sem razão estilística documentada."
+    }
+   ],
+   "objecoes": [],
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Amos.6.13",
+   "texto_bv_revisto": "os que se alegram com Lo-Debar, os que dizem: “Não foi com a nossa força que tomamos Carnaim para nós?”",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Sem achado ativo. A BV mantém os topônimos ‘Lo-Debar’/’Carnaim’ (como NVIPT, com notas de rodapé para o trocadilho), enquanto ARA opta por traduzir o trocadilho (“vos alegrais de nada”) e perde o nome de lugar — as referências não convergem entre si, é escolha de tradução legítima e já estabelecida (não é matéria de forma).",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Amos.6.14",
+   "texto_bv_revisto": "Pois eis que eu levanto contra vocês, casa de Israel — diz o SENHOR, Deus dos Exércitos — uma nação; e ela oprimirá vocês desde a entrada de Hamate até o ribeiro da Arabá.",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Achado CAL-2 (‘eis que’) adjudicado como fórmula intencional, mantida — par estrutural com Amos.6.11 (ambos os oráculos do capítulo abrem com “Pois eis que...”). ARA mantém ‘eis que’ no mesmo ponto (“Pois eis que eu levantarei contra vós”). Paradigma de 2ª pessoa já correto: ‘vocês’ (Deus→humano, §3/D-0003), coerente com Amos.6.2/6.3.",
+   "veredito": "SEM_ALTERACAO"
+  }
+ ]
+}
