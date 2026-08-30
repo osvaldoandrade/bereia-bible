@@ -7,7 +7,7 @@
     "versiculo": 51,
     "pericope": "Luke.2.1-52"
   },
-  "texto_bv": "Ele desceu com eles e foi para Nazaré, e era submisso a eles. E sua mãe guardava todas essas coisas em seu coração.",
+  "texto_bv": "Jesus desceu com eles e foi para Nazaré, e era-lhes submisso. E sua mãe guardava todas essas coisas em seu coração.",
   "traducao_literal": "E desceu com eles e veio para Nazaré, e era submisso a eles; e a mãe dele guardava todas as palavras, essas, no coração dela.",
   "termos_originais": [
     {
@@ -132,7 +132,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele desceu com eles → Jesus desceu com eles | era submisso a eles → era-lhes submisso",
+      "justificativa": "Sujeito explicitado ('Jesus') no início do período para reduzir a cadeia de pronomes de 3ª pessoa (achado PRO-1) e eliminar ambiguidade referencial inicial de 'ele'; o nome já é conhecido do capítulo (Luke.2.43). | Clítico dativo 'lhes' substitui 'a eles', reduzindo a repetição pronominal (achado PRO-1); construção equivalente à de ARA ('era-lhes sujeito') e NVIPT ('era-lhes obediente'). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (5 pronomes de 3ª pessoa) confirmado: o período acumulava 'Ele/eles/eles/sua/seu' sem necessidade. Normalizado explicitando o sujeito e substituindo 'a eles' por 'lhes', reduzindo a cadeia pronominal sem alterar o sentido; ARA e NVIPT já preferem a construção com clítico dativo neste verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Retorno a Nazaré; retoma o motivo de 2:19 (Maria guardando as coisas no coração), fechando um inclusio do capítulo.",
@@ -142,10 +150,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

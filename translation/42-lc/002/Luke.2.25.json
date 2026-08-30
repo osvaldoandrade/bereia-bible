@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Luke.2.1-52"
   },
-  "texto_bv": "E eis que havia em Jerusalém um homem chamado Simeão; este homem era justo e piedoso, esperando a consolação de Israel, e o Espírito Santo estava sobre ele.",
+  "texto_bv": "Havia em Jerusalém um homem chamado Simeão; este homem era justo e piedoso, esperando a consolação de Israel, e o Espírito Santo estava sobre ele.",
   "traducao_literal": "E eis, homem havia em Jerusalém, a quem o nome [era] Simeão, e o homem este, justo e piedoso, esperando a consolação de Israel, e Espírito havia Santo sobre ele;",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E eis que havia em Jerusalém um homem chamado Simeão; → Havia em Jerusalém um homem chamado Simeão;",
+      "justificativa": "Calque 'e eis que' (grego kaì idoú) de abertura de cena normalizado; a função aqui é apresentar um novo personagem, não marcar ênfase dramática. NTLH e NVIPT dispensam o marcador e ARA o substitui por 'Ora' (EDITORIAL §6.2; achado CAL-2). — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2 ('eis que') confirmado: função de apresentação narrativa de personagem, não de ênfase; as três referências dispensam a forma 'eis que' (NTLH e NVIPT sem marcador, ARA com 'Ora'). Normalizado para prosa corrida contemporânea.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Introdução da personagem de Simeão.",
@@ -152,10 +160,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
