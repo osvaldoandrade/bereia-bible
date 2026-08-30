@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Matt.22.1-46"
   },
-  "texto_bv": "E enviaram-lhe os discípulos deles, com os herodianos, dizendo: Mestre, sabemos que você é verdadeiro e que ensina o caminho de Deus segundo a verdade, e que não se importa com a opinião de ninguém, pois não faz acepção de pessoas.",
+  "texto_bv": "E enviaram-lhe os discípulos deles, com os herodianos, dizendo: Mestre, sabemos que você é verdadeiro e que ensina o caminho de Deus segundo a verdade. Você não se importa com a opinião de ninguém, pois não faz acepção de pessoas.",
   "traducao_literal": "E enviam a ele os discípulos deles com os herodianos, dizendo: Mestre, sabemos que verdadeiro és e o caminho de Deus em verdade ensinas, e não te importa acerca de ninguém, pois não olhas para rosto de homens;",
   "termos_originais": [
     {
@@ -198,6 +198,13 @@
           "motivo": "reservado à oração dirigida a Deus"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": ", e que não se importa com a opinião de ninguém, pois não faz acepção de pessoas. → . Você não se importa com a opinião de ninguém, pois não faz acepção de pessoas.",
+      "justificativa": "LEN-1: sentenca de 41 palavras dividida em duas oracoes independentes no ponto de menor coesao sintatica ('...segundo a verdade.' / 'Voce nao se importa...'), sem perda de conteudo nem de sentido (EDITORIAL 1.3). — revisão de forma sem alteração de sentido (ER-0019). LEN-1 corrigido por divisao da sentenca (ver mudancas). Quanto a 'nao faz acepcao de pessoas': as tres referencias divergem para linguagem de 'aparencia' (NTLH: 'nem julga pela aparencia'; ARA: 'nao olhas a aparencia dos homens'; NVIPT: 'nao te prendes a aparencia dos homens'), mas 'acepcao de pessoas' e idiotismo biblico vivo em portugues contemporaneo (ex.: 'sem acepcao de pessoas' em editais/concursos, Atos 10.34), nao arcaismo morto listado em EDITORIAL 1.2 -- mantido por ser tradução idiomática corrente e consistente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -209,10 +216,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

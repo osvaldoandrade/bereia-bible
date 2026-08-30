@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Matt.22.1-46"
   },
-  "texto_bv": "Enviou de novo outros servos, dizendo: “Digam aos convidados: ‘Eis que já preparei o meu banquete; os meus touros e animais cevados já foram abatidos, e tudo está pronto; venham às bodas.’”",
+  "texto_bv": "Enviou de novo outros servos, dizendo: “Digam aos convidados: ‘Já preparei o meu banquete; os meus touros e animais cevados já foram abatidos, e tudo está pronto; venham às bodas.’”",
   "traducao_literal": "De novo enviou outros servos, dizendo: Dizei aos que foram chamados: Eis que o meu almoço preparei, os meus touros e os animais cevados, mortos, e tudo pronto; vinde às bodas.",
   "termos_originais": [
     {
@@ -158,6 +158,13 @@
           "motivo": "arcaizante, forma de vós morta no uso corrente"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que já preparei o meu banquete → Já preparei o meu banquete",
+      "justificativa": "CAL-2: 'eis que' e calque paratatico (heb./gr. idou) que soa artificial nesta fala direta isolada (nao e refrao repetido no capitulo); NTLH e NVIPT omitem o marcador nesta passagem, preservando o sentido sem ele; normalizado conforme EDITORIAL secao 6.2 / item 2 do prompt canonico. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2 adjudicado: 'eis que' removido por ser calque paratatico isolado (nao formula repetida), com apoio de 2/3 referencias (NTLH, NVIPT) que tambem o omitem; ARA mantem, mas a maioria aponta naturalidade sem o marcador.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -169,10 +176,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

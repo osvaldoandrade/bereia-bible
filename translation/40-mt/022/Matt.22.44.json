@@ -7,7 +7,7 @@
     "versiculo": 44,
     "pericope": "Matt.22.1-46"
   },
-  "texto_bv": "“Disse o SENHOR ao meu Senhor: ‘Assenta-te à minha direita, até que eu ponha os teus inimigos debaixo dos teus pés’”?",
+  "texto_bv": "“Disse o SENHOR ao meu Senhor: ‘Assente-se à minha direita, até que eu ponha os seus inimigos debaixo dos seus pés’”?",
   "traducao_literal": "Disse o SENHOR ao Senhor de mim: Assenta-te à direita de mim, até que eu ponha os inimigos de ti debaixo dos pés de ti?",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
           "motivo": "mais natural isoladamente, mas contraria a pontuação da fonte pinada"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Assenta-te à minha direita, até que eu ponha os teus inimigos debaixo dos teus pés → Assente-se à minha direita, até que eu ponha os seus inimigos debaixo dos seus pés",
+      "justificativa": "Paradigma de 2a pessoa (secao 3/D-0003): fala do SENHOR (Deus) dirigida a 'meu Senhor' (o Davidico/Messias) e Deus-humano, logo usa voce, nao tu -- esta era a unica ocorrencia de forma 'tu' remanescente no capitulo, destoando do restante que ja usa voce/vocês (cf. vv.12,16-19,21,29,31,37,42); normalizado para coerencia do capitulo inteiro (item 10 do prompt canonico). NTLH ja usa 'seus' neste verso. — revisão de forma sem alteração de sentido (ER-0019). Mudanca aplicada para coerencia de paradigma (ver mudancas); nao e citacao liturgica fixa que a tradicao preserve em vos (excecao do item 10), e sim resquicio isolado de 'tu' junto de um capitulo majoritariamente em voce/voces.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -142,10 +149,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
