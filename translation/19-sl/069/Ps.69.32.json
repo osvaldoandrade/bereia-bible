@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Ps.69.1-37"
   },
-  "texto_bv": "E isso agradará mais ao SENHOR do que um touro novilho, com chifres e casco fendido.",
+  "texto_bv": "E isso agradará mais ao SENHOR do que um boi novilho, com chifres e casco fendido.",
   "traducao_literal": "E será bom para o SENHOR mais que boi novilho, que tem chifre, que tem casco fendido.",
   "termos_originais": [
     {
@@ -53,6 +53,13 @@
           "motivo": "introduz disjunção ('ou') ausente do hebraico, que justapõe os dois substantivos em aposição"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "um touro novilho → um boi novilho",
+      "justificativa": "“Touro novilho” combina dois termos de idade contraditórios (touro = macho adulto; novilho = macho jovem), soando incoerente em português. A traducao_literal já registra “boi novilho”, par nominal duplicado que corresponde ao hebraico (“boi, touro”, reforçando o valor do animal sacrificial) sem a contradição de idade; a própria ARA usa “boi” neste versículo (“do que um boi, ou um novilho”). Ajuste de forma, alinhando texto_bv à traducao_literal já pinada, sem alterar o sentido do versículo (EDITORIAL §1.4). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -64,10 +71,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
