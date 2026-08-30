@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "John.21.1-25"
   },
-  "texto_bv": "Jesus lhe disse outra vez, pela segunda vez: “Simão, filho de João, você me ama?” Ele lhe disse: “Sim, Senhor, você sabe que eu o amo.” Jesus lhe disse: “Pastoreie as minhas ovelhas.”",
+  "texto_bv": "Jesus lhe perguntou pela segunda vez: “Simão, filho de João, você me ama?” Ele lhe respondeu: “Sim, Senhor, você sabe que eu o amo.” Jesus lhe disse: “Pastoreie as minhas ovelhas.”",
   "traducao_literal": "Diz-lhe outra vez, segunda vez: Simão [filho] de João, amas-me? Diz-lhe: Sim, Senhor, tu sabes que te estimo. Diz-lhe: Pastoreia as minhas ovelhas.",
   "termos_originais": [
     {
@@ -127,7 +127,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Jesus lhe disse outra vez, pela segunda vez: → Jesus lhe perguntou pela segunda vez: | Ele lhe disse: “Sim, Senhor → Ele lhe respondeu: “Sim, Senhor",
+      "justificativa": "RED-1: eliminação de redundância (“outra vez” + “pela segunda vez” expressam o mesmo); o grego tem apenas “segunda vez” (τὸ δεύτερον). Variação do verbo para “perguntou”. | RED-1: variação do verbo dicendi para “respondeu” na réplica de Pedro. — revisão de forma sem alteração de sentido (ER-0019). RED-1 (repetição de “disse”, 3×) e PRO-1 (pronomes de 3ª pessoa, todos com antecedente claro — falso-positivo). A redundância “outra vez, pela segunda vez” é defeito (grego tem apenas “segunda vez”); ARA simplifica para “Tornou a perguntar-lhe”, NVIPT para “Novamente Jesus disse”.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "filho"
   ],
@@ -139,10 +147,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

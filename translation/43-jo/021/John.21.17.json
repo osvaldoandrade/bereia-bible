@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "John.21.1-25"
   },
-  "texto_bv": "Jesus lhe disse pela terceira vez: “Simão, filho de João, você me ama?” Pedro ficou triste porque Jesus lhe perguntou pela terceira vez: “Você me ama?” E ele lhe disse: “Senhor, você sabe tudo; você sabe que eu o amo.” Jesus lhe disse: “Apascente as minhas ovelhas.”",
+  "texto_bv": "Jesus lhe perguntou pela terceira vez: “Simão, filho de João, você me ama?” Pedro ficou triste porque Jesus lhe perguntou pela terceira vez: “Você me ama?” E ele lhe respondeu: “Senhor, você sabe tudo; você sabe que eu o amo.” Jesus lhe declarou: “Apascente as minhas ovelhas.”",
   "traducao_literal": "Diz-lhe a terceira vez: Simão [filho] de João, tens afeição por mim? Entristeceu-se Pedro porque lhe disse a terceira vez: Tens afeição por mim? E disse-lhe: Senhor, tu sabes tudo, tu conheces que te estimo. Diz-lhe Jesus: Apascenta as minhas ovelhas.",
   "termos_originais": [
     {
@@ -208,6 +208,13 @@
           "motivo": "introduziria matiz técnico ('reconhecer' como saber por evidência) que soa artificial em português corrente e não é exigido pelo grego"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Jesus lhe disse pela terceira vez: → Jesus lhe perguntou pela terceira vez: | Jesus lhe perguntou pela terceira vez: “Você me ama?” → Jesus lhe fez aquela terceira pergunta: “Você me ama?” | E ele lhe disse: “Senhor → E ele lhe respondeu: “Senhor | Jesus lhe disse: “Apascente as minhas ovelhas.” → Jesus lhe declarou: “Apascente as minhas ovelhas.”",
+      "justificativa": "RED-1: variação do verbo dicendi para “perguntou” quando a fala é interrogativa. | RED-1: eliminação de repetição de “pela terceira vez” (2× no verso); reformulação nominal preserva o sentido e alinha com ARA (“por lhe ter perguntado pela terceira vez”). | RED-1: variação do verbo dicendi para “respondeu” na réplica de Pedro. | RED-1: variação do verbo dicendi no mandato final, evitando quarto “disse” no verso. — revisão de forma sem alteração de sentido (ER-0019). RED-1 (4× “disse” + 2× “pela terceira vez”) e PRO-1 (falso-positivo — todos os pronomes com antecedente claro). O “você sabe” 2× na fala de Pedro reflete o grego (οἶδας + γινώσκεις, dois verbos distintos para “saber”); mantido como fórmula intencional, conforme ARA/NVIPT também repetem “sabes”.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -221,10 +228,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
