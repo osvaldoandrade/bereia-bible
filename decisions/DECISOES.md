@@ -268,6 +268,38 @@ Ver `docs/domain/governanca/glossary.md`.
   (aspas curvas emitidas retas sem escape; edições não registradas em
   mudancas — estas são descartadas, o texto é reconstruído só com as mudancas
   registradas) levaram o prompt canônico a v1.1.1; `prompts_versao` 1.2.2.
+- **v2 (2026-08-29, 42ea172e)**: comparação guiada. O digest passa a carregar as
+  referências paralelas NTLH/ARA/NVIPT por versículo (`scripts/qa_linguistico.py
+  -refs`, schema v2) e o revisor deve confrontá-las antes de concluir
+  SEM_ALTERACAO — divergência das três referências em palavra-chave exige
+  investigar arcaísmo/inconsistência (EDITORIAL §1.2-tabela, §1.4). As
+  referências são de uso editorial local e não são commitadas (.gitignore;
+  NOTICE.md). Prompt canônico v1.2.0; processo PIPELINE.md v1.2.0.
+- **v3 (2026-08-29/30)**: escopo estendido do recorte por score para **a Bíblia
+  inteira**. A triagem roda com `threshold 0` e os 1189 capítulos tornam-se
+  elegíveis, não apenas os 506 hot-spots com score >= 8 — o score deixa de ser
+  porta de entrada e vira apenas ordenação. Motivo: o recorte por marcador
+  mecânico não captura arcaísmo/inconsistência que só a comparação com as
+  referências (v2) revela, e essa comparação não existia quando o limiar foi
+  fixado. Digests commitados em `qa/reports/review-input/` (entrada exata lida
+  por cada agente).
+- Modelo do ciclo v3 é **proveniência**, não configuração: o driver deixou de
+  fixar `MODEL` no código (`args.model`, default sonnet) porque a constante
+  fazia o valor gravado em `fontes` divergir do modelo que de fato executou.
+  Lotes de 2026-08-30 gravam `claude-sonnet-5`.
+- Execução v3 (parcial): 867/1189 capítulos com revisão (72,9%) em 2026-08-30;
+  322 pendentes a partir de Pv 13. Os lotes de 2026-08-30 (Sl 67 → Pv 12, 80
+  capítulos, 80 agentes, 0 erros) somaram 72 versos revisados e 12 objeções
+  MATERIAIS.
+- Reincidência do wart de **edição não registrada** com sonnet (Sl 79.1: a
+  sobrescrição "Salmo de Asafe." foi apagada sob veredito SEM_ALTERACAO). O
+  guard de `ship_review_batch.py` abortou o lote antes de qualquer escrita e o
+  texto do registro foi restaurado. Confirma a política: o texto é reconstruído
+  só a partir de `mudancas`; o que o agente escreve em `texto_bv_revisto` sem
+  registrar é descartado, nunca persistido.
+- Lacuna conhecida (F-0018): 94 capítulos foram revisados antes do v2 e portanto
+  **sem** comparação com NTLH/ARA/NVIPT. Re-revisão v3 desses capítulos fica
+  para depois de fechar a cobertura dos que nunca foram revisados.
 
 ---
 
@@ -291,6 +323,9 @@ Ver `docs/domain/governanca/glossary.md`.
   já sanado por F-0015); a revisão automática não rodou (hang). DRAFT não é publicável;
   consenso pleno + revisão ocorrem na promoção.
 - F-0017: driver de workflow recebe `args` como string JSON — o script faz JSON.parse defensivo.
+- F-0018: 94 capítulos revisados no ER-0019 antes do v2 não passaram pela comparação
+  guiada NTLH/ARA/NVIPT. Re-revisar sob o prompt v1.2.0 depois de fechar a cobertura
+  dos 322 capítulos ainda sem revisão. Dono: mantenedor.
 - F-0009: `internal/schemavalidate` — rejeitar keyword desconhecida no schema (guarda
   contra subvalidação silenciosa se um schema evoluir para oneOf/$ref/maxLength);
   tornar a lista "NOT supported" exaustiva por construção. Dono: mantenedor.
