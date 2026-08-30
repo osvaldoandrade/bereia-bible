@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "2Chr.9.1-31"
   },
-  "texto_bv": "Bendito seja o SENHOR, seu Deus, que se agradou de você, para pôr você sobre seu trono como rei para o SENHOR, seu Deus. Por causa do amor de seu Deus por Israel, a fim de estabelecê-lo para sempre, ele pôs você sobre eles como rei, para exercer justiça e retidão.”",
+  "texto_bv": "Bendito seja o SENHOR, seu Deus, que se agradou de você, para pôr você sobre o trono dele como rei para o SENHOR, seu Deus. Por causa do amor de seu Deus por Israel, a fim de estabelecê-lo para sempre, ele pôs você sobre eles como rei, para exercer justiça e retidão.”",
   "traducao_literal": "Seja o SENHOR, seu Deus, bendito, o qual se agradou de você, para colocar você sobre seu trono como rei para o SENHOR, seu Deus; no amar de seu Deus a Israel, para fazê-lo permanecer para sempre, e colocou você sobre eles como rei, para fazer julgamento e justiça.”",
   "termos_originais": [
     {
@@ -161,6 +161,13 @@
         }
       ],
       "diretriz_ref": "ER-0003"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sobre seu trono → sobre o trono dele",
+      "justificativa": "Desambiguação pronominal (cheque 5): 'seu trono' é ambíguo entre 'seu' = de você (o rei) e 'seu' = do SENHOR. O motivo teológico do livro de Crônicas (cf. 1Cr 29.23, 'Salomão assentou-se no trono do SENHOR') indica que o referente é o trono do SENHOR, não um trono próprio do rei; NVIPT confirma explicitamente com 'no trono dele' (=de Deus). A mudança explicita o antecedente correto sem alterar o sentido já presente na traducao_literal. — revisão de forma sem alteração de sentido (ER-0019). RED-1 ('SENHOR, seu Deus' e 'você sobre' repetidos): a traducao_literal repete a fórmula 'o SENHOR, seu Deus' duas vezes, e ARA e NVIPT preservam repetição doxológica análoga ('Senhor teu Deus... Senhor teu Deus'/'pelo Senhor, pelo teu Deus') — fórmula intencional de bênção, mantida (cheque 2/4). PRO-1: dos 6 pronomes de 3ª pessoa, apenas 'seu trono' era genuinamente ambíguo (ver mudancas); os demais ('ele', 'eles', '-lo', 'seu Deus' subsequentes) têm antecedentes claros pelo contexto imediato.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -177,10 +184,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2684b500479b9a7c731402edec8866cd33e1d25de2b90e4730b2c6f1e97df12b",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

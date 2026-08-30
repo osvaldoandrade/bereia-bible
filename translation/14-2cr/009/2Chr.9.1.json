@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "2Chr.9.1-31"
   },
-  "texto_bv": "A rainha de Sabá ouviu a fama de Salomão. Ela veio a Jerusalém para pôr Salomão à prova com enigmas, acompanhada por uma comitiva muito numerosa e por camelos que carregavam especiarias, ouro em abundância e pedras preciosas. Ela veio a Salomão e falou com ele sobre tudo o que estava em seu coração.",
+  "texto_bv": "A rainha de Sabá ouviu a fama de Salomão. Ela veio a Jerusalém para pôr Salomão à prova com enigmas, acompanhada por uma comitiva muito numerosa e por camelos que carregavam especiarias, ouro em abundância e pedras preciosas. Ela veio a Salomão e falou com ele sobre tudo o que estava no coração dela.",
   "traducao_literal": "E a rainha de Sabá ouviu o relato de Salomão, e veio para pôr Salomão à prova com enigmas em Jerusalém, com uma força muito pesada e camelos carregando especiarias, e ouro em abundância, e pedra preciosa; e veio a Salomão e falou com ele tudo o que estava com seu coração.",
   "termos_originais": [
     {
@@ -200,6 +200,13 @@
         }
       ],
       "diretriz_ref": "ER-0013"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "estava em seu coração → estava no coração dela",
+      "justificativa": "Desambiguação pronominal (cheque 5): 'seu coração' é ambíguo entre Salomão e a rainha nesta oração ('falou com ele sobre tudo o que estava em seu coração'). O referente pretendido é a rainha (ela veio com tudo o que tinha em mente), confirmado por NTLH ('todas as perguntas que pôde imaginar') e NVIPT ('tinha em mente'), que evitam a ambiguidade reformulando. A mudança apenas explicita o antecedente já correto, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). PRO-1 conta 4 pronomes de 3ª pessoa; três têm antecedente claro por contexto imediato ('Ela' referindo-se à rainha nas duas ocorrências, 'ele' referindo-se a Salomão, nome citado na oração anterior). Apenas 'seu coração' era ambíguo e foi corrigido (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -218,10 +225,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2684b500479b9a7c731402edec8866cd33e1d25de2b90e4730b2c6f1e97df12b",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
