@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Ps.72.1-20"
   },
-  "texto_bv": "Temer-te-ão enquanto durar o sol, e diante da lua, por todas as gerações.",
+  "texto_bv": "Te temerão enquanto durar o sol, e diante da lua, por todas as gerações.",
   "traducao_literal": "Temer-te-ão com o sol, e diante da lua, geração de gerações.",
   "termos_originais": [
     {
@@ -62,6 +62,13 @@
           "motivo": "conjectura crítico-textual bem conhecida, mas fora do escopo: o packet pinado (OSHB) não registra variantes_fonte aqui"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Temer-te-ão → Te temerão",
+      "justificativa": "Mesóclise (\"Temer-te-ão\") é forma morta em pt-BR contemporâneo (EDITORIAL §1.2-tabela); substituída por próclise (\"Te temerão\"), preservando pessoa gramatical, tempo verbal e sentido. — revisão de forma sem alteração de sentido (ER-0019). As três referências reformulam o verso em 3ª pessoa (\"Viva ele...\", \"Que ele perdure...\"), diluindo o apóstrofe direto ao rei presente no hebraico e na traducao_literal (\"Temer-te-ão\"); manter a 2ª pessoa preserva o sentido, evitando alterar a traducao_literal. A mudança aplicada corrige apenas a mesóclise, sem tocar pessoa gramatical.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -77,10 +84,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
