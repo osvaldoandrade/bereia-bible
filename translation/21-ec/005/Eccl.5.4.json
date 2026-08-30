@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Eccl.5.1-19"
   },
-  "texto_bv": "É melhor não fazer voto nenhum do que fazer voto e não cumprir.",
+  "texto_bv": "É melhor não fazer voto nenhum do que fazê-lo e não cumprir.",
   "traducao_literal": "Melhor que você não vote do que você votar e não pagar.",
   "termos_originais": [
     {
@@ -58,6 +58,13 @@
           "motivo": "Também válido; optou-se pelo infinitivo por soar mais proverbial em português."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fazer voto e não cumprir → fazê-lo e não cumprir",
+      "justificativa": "RED-1 (peso 2): repetição integral do sintagma \"fazer voto\" na mesma frase. O hebraico repete apenas o verbo simples (נדר), preservado na traducao_literal (\"não vote... votar\"); a perífrase portuguesa \"fazer voto\" repetida por inteiro soa mais pesada que a repetição verbal do original. Substituição pelo pronome anafórico \"fazê-lo\" mantém intacto o paralelismo antitético (\"melhor não X do que X e não Y\") sem alterar o sentido. Confirmado pelas 3 referências alinhadas (verso 5: NTLH \"prometer\"/\"promessa\", ARA repete só o verbo \"votes/votares\", NVIPT elide o objeto na segunda oração) — nenhuma repete o sintagma nominal completo. — revisão de forma sem alteração de sentido (ER-0019). O campo referencias deste digest está desalinhado em uma posição: Eclesiastes 5 na BV (base OSHB/TM) inicia uma unidade de sentido antes da fronteira 4.17/5.1 usada por NTLH/ARA/NVIPT, então o conteúdo de texto_bv(N) corresponde ao conteúdo de referencias do verso (N+1) do próprio digest, não ao referencias(N) anexado a este registro. Usei o alinhamento correto (referencias do verso seguinte) para a comparação guiada. Alinhado com o verso 5 das referências (\"Melhor é que não votes do que votares e não pagares\"). Achado RED-1 confirmado pela comparação: a repetição do sintagma nominal \"fazer voto\" é mais pesada em português do que a repetição do verbo simples que o original faz (e que a traducao_literal preserva); corrigida via pronome anafórico, preservando integralmente o paralelismo e o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -69,10 +76,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
