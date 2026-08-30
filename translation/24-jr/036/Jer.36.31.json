@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "Jer.36.1-32"
   },
-  "texto_bv": "Eu castigarei nele, na sua descendência e nos seus servos a iniquidade deles; e trarei sobre eles, sobre os habitantes de Jerusalém e sobre os homens de Judá todo o mal que falei contra eles; mas eles não ouviram.",
+  "texto_bv": "Eu castigarei nele, na sua descendência e nos seus servos, a iniquidade deles; e trarei sobre eles, sobre os habitantes de Jerusalém e sobre os homens de Judá todo o mal que falei contra eles; mas eles não ouviram.",
   "traducao_literal": "E castigarei sobre ele e sobre a sua descendência e sobre os seus servos a iniquidade deles; e trarei sobre eles e sobre os habitantes de Jerusalém e sobre o homem de Judá todo o mal que falei a eles, e não ouviram.",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
       "justificativa": "PRO-1 flagrou 6 pronomes de 3ª pessoa como ambíguos, mas a referência é clara pelo contexto: 'nele' = Jeoiaquim (v.30); 'sua descendência / seus servos' = dele; 'deles / eles' = o grupo mencionado (descendência, servos, habitantes, homens de Judá). O original hebraico emprega a mesma densidade pronominal. — evidência: traducao_literal: 'sobre ele e sobre a sua descendência e sobre os seus servos a iniquidade deles; e trarei sobre eles e sobre os habitantes de Jerusalém e sobre o homem de Judá todo o mal que falei a eles, e não ouviram' — mesma cadeia pronominal. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nos seus servos a iniquidade deles → nos seus servos, a iniquidade deles",
+      "justificativa": "Vírgula para isolar o objeto direto deslocado (\"a iniquidade deles\") após os três adjuntos locativos antepostos (nele / na sua descendência / nos seus servos), evitando leitura truncada; não altera ordem de palavras nem sentido (EDITORIAL §6.1, pontuação conforme sintaxe portuguesa). — revisão de forma sem alteração de sentido (ER-0019). PRO-1 (6 pronomes de 3ª pessoa) decorre dos sufixos pronominais do hebraico, todos com antecedente claro (Jeoiaquim, nomeado nos vv. 29-30); ARA e NVIPT mantêm a mesma estrutura em 3ª pessoa (a NTLH migra para 2ª pessoa como opção parafrástica isolada, não evidência de defeito). Pronomes mantidos; adicionada apenas a vírgula acima para clareza sintática.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -152,10 +159,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

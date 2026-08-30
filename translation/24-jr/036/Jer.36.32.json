@@ -176,6 +176,13 @@
       "justificativa": "PAS-1 flagrou 2 construções passivas, mas 'foram acrescentadas' é passiva legítima com agente indeterminado (o original não especifica quem acrescentou); a outra construção ('tinha queimado') é ativa. Conversão para ativa exigiria inventar sujeito não presente no original. — evidência: traducao_literal: 'e ainda foi acrescentado sobre elas palavras muitas como estas' — passiva sem agente no original. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "PAS-1 (\"2 construções passivas\") — na revisão manual há apenas 1 passiva genuína no texto_bv (\"foram acrescentadas\"), que verte o nifal hebraico (voz impessoal do original, sem agente expresso); a ARA usa construção pronominal equivalente (\"se lhes acrescentaram\") e a NVIPT mantém a mesma passiva (\"que foram acrescentadas\"). Passiva legítima, não desnecessária — mantida (EDITORIAL regra 6); \"tinha queimado\" é pretérito mais-que-perfeito composto ativo, não uma segunda passiva. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -187,10 +194,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

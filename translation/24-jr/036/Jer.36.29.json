@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Jer.36.1-32"
   },
-  "texto_bv": "A respeito de Jeoiaquim, rei de Judá, você dirá: \"Assim diz o SENHOR: Você queimou este rolo, dizendo: 'Por que você escreveu nele que o rei da Babilônia certamente viria, destruiria esta terra e acabaria nela com homens e animais?'\"",
+  "texto_bv": "A respeito de Jeoiaquim, rei de Judá, você dirá: \"Assim diz o SENHOR: Você queimou este rolo, dizendo: 'Por que você escreveu nele que o rei da Babilônia certamente virá, destruirá esta terra e acabará nela com homens e animais?'\"",
   "traducao_literal": "E sobre Jeoiaquim, rei de Judá, dirás: \"Assim disse o SENHOR: Tu queimaste este rolo, dizendo: 'Por que escreveste sobre ele, dizendo: Vir virá o rei da Babilônia e destruirá esta terra e fará cessar dela homem e animal?'\"",
   "termos_originais": [
     {
@@ -179,6 +179,13 @@
       "escolha": "'certamente viria'.",
       "justificativa": "Ênfase de certeza; a duplicação verbal do calque fica reservada à traducao_literal (ER-0013).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "certamente viria, destruiria esta terra e acabaria nela com homens e animais? → certamente virá, destruirá esta terra e acabará nela com homens e animais?",
+      "justificativa": "Consecutio temporum: o trecho está entre aspas simples como citação direta da pergunta retórica; citação direta pede futuro do presente, não futuro do pretérito (que marca discurso indireto). A traducao_literal já usa \"virá...destruirá...fará cessar\" (futuro), e as três referências (NTLH, ARA, NVIPT) mantêm futuro na mesma citação — o condicional da BV destoava do próprio registro pinado e do piso de naturalidade (EDITORIAL §1.4). — revisão de forma sem alteração de sentido (ER-0019). As três referências (NTLH, ARA, NVIPT) e a própria traducao_literal convergem no futuro do presente dentro da citação direta; o futuro do pretérito da BV era inconsistência de tempo verbal, não opção estilística documentada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -190,10 +197,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
