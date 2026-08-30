@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Rev.18.1-24"
   },
-  "texto_bv": "E nunca mais será ouvida em você voz de citaristas, músicos, flautistas e trombetistas; e nenhum artífice de arte alguma será achado em você; e nunca mais será ouvida em você voz de moinho;",
+  "texto_bv": "E nunca mais será ouvida em você voz de citaristas, músicos, flautistas e trombetistas; e nenhum artífice de arte alguma nunca mais será achado em você; e nunca mais será ouvida em você voz de moinho;",
   "traducao_literal": "e voz de citaristas e de músicos e de flautistas e de trombetistas não será ouvida em você mais, e todo artífice de toda arte não será achado em você mais, e voz de moinho não será ouvida em você mais,",
   "termos_originais": [
     {
@@ -213,6 +213,13 @@
           "motivo": "quebra a uniformidade de φωνή na tríade do verso"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e nenhum artífice de arte alguma será achado em você; → e nenhum artífice de arte alguma nunca mais será achado em você;",
+      "justificativa": "Restaura o marcador ‘nunca mais’ ausente no ramo do meio da tríplice anáfora do original (Ap 18:22 repete oὐ mὴ...ἔτι três vezes); a traducao_literal ('não será ouvida em você mais' / 'não será achado em você mais' / 'não será ouvida em você mais') e as três referências (NTLH 'nunca mais será encontrado'; ARA 'se achará mais'; NVIPT 'Nunca mais se achará') mantêm o marcador nos três ramos — a BV o omitia só no ramo do meio, quebrando a fórmula (EDITORIAL §1.4 / regra 4 do prompt canônico). — revisão de forma sem alteração de sentido (ER-0019). RED-1 sinalizou a repetição de ‘nunca mais’/‘ouvida’/‘você’, mas essa é a tríplice anáfora intencional do original, confirmada pela traducao_literal e por NTLH/ARA/NVIPT (fórmula 'não/nunca mais será X em você' repetida nos três ramos). O defeito real era a AUSÊNCIA do marcador no ramo do meio ('será achado' sem 'nunca mais'), quebrando a fórmula; a correção restaura o marcador que faltava, alinhando com a literal e as três referências. PAS-1 (3 passivas) é falso positivo pelo mesmo motivo do v.21: passivas idênticas na literal e nas referências.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -224,10 +231,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
