@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Rev.4.1-11"
   },
-  "texto_bv": "E do trono saíam relâmpagos, vozes e trovões; e diante do trono ardiam sete lâmpadas de fogo, que são os sete Espíritos de Deus;",
+  "texto_bv": "E do trono saíam relâmpagos, vozes e trovões; e diante do trono ardiam sete lâmpadas de fogo, que são os sete espíritos de Deus;",
   "traducao_literal": "E do trono saem relâmpagos e vozes e trovões; e sete lâmpadas de fogo ardendo diante do trono, as quais são os sete Espíritos de Deus;",
   "termos_originais": [
     {
@@ -159,6 +159,13 @@
           "motivo": "gramaticalmente possível; ambiguidade documentada e preservada em ambiguidades_preservadas"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sete Espíritos de Deus → sete espíritos de Deus",
+      "justificativa": "EDITORIAL §10: maiúscula em 'Espírito' exige decisão exegética documentada no registro do versículo, inexistente aqui; as três referências (NTLH, ARA, NVIPT) convergem em minúscula para 'sete espíritos de Deus', confirmando que o padrão (minúscula) se aplica neste caso. — revisão de forma sem alteração de sentido (ER-0019). Comparação guiada com as referências (regra zero v1.2): as três convergem em minúscula onde a BV usava maiúscula sem decisão exegética documentada; normalizado para o padrão de §10.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -172,10 +179,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
