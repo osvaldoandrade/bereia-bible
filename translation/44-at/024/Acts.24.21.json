@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Acts.24.1-27"
   },
-  "texto_bv": "a não ser esta única declaração que bradei, estando no meio deles: 'É por causa da ressurreição dos mortos que hoje sou julgado diante de vós.'\"",
+  "texto_bv": "a não ser esta única declaração que bradei, estando no meio deles: 'É por causa da ressurreição dos mortos que hoje sou julgado diante de vocês.'",
   "traducao_literal": "a não ser a respeito desta única voz que clamei, estando de pé entre eles: A respeito da ressurreição dos mortos eu sou julgado hoje diante de vós.",
   "termos_originais": [
     {
@@ -122,6 +122,13 @@
           "motivo": "aceitável, porém 'declaração' comunica melhor o ato de fala formal em contexto judicial"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "diante de vós → diante de vocês",
+      "justificativa": "Normalização do paradigma vós→vocês (§3/D-0003); discurso humano↔humano (Paulo ao Sinédrio). NTLH e NVIPT usam \"vocês\"; ARA mantém \"vós\" (arcaico per §1.2-tabela). — revisão de forma sem alteração de sentido (ER-0019). Achado VOS-1 (\"vós\") em discurso de Paulo ao Sinédrio — fala humana dirigida a humanos. §3/D-0003 prescreve você/vocês. Normalizado para \"vocês\" em consonância com NTLH/NVIPT.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -133,10 +140,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
