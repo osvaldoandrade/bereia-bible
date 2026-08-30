@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Prov.16.1-33"
   },
-  "texto_bv": "Melhor é o paciente do que o poderoso, e quem domina o seu espírito, do que aquele que toma uma cidade.",
+  "texto_bv": "Melhor é o paciente do que o valente, e quem domina o seu espírito, do que aquele que toma uma cidade.",
   "traducao_literal": "Bom longo de narinas mais que valente; e o que governa seu espírito mais que o que toma cidade.",
   "termos_originais": [
     {
@@ -63,6 +63,13 @@
           "motivo": "arcaísmo pouco vivo no registro contemporâneo (EDITORIAL §1.2)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "poderoso → valente",
+      "justificativa": "Consistência lexical com a traducao_literal (\"mais que valente\") e com as referências: NTLH e ARA usam \"valente\", NVIPT usa \"guerreiro\" — as três convergem no sentido marcial/de vigor físico do heb. gibbor, enquanto \"poderoso\" desvia para a ideia de poder/autoridade, gerando imprecisão lexical (EDITORIAL §1.4). — revisão de forma sem alteração de sentido (ER-0019). As três referências e a própria traducao_literal deste verso usam \"valente\"/\"guerreiro\"; \"poderoso\" era a exceção isolada. Corrigido para \"valente\" — troca de sinônimo próximo, sem alteração de sentido do provérbio (paciência vale mais que força/coragem marcial).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -74,10 +81,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
