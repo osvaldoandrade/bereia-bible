@@ -97,6 +97,13 @@
           "motivo": "restringe o sentido a um único antecedente lexical, quando o hebraico permite leitura mais ampla"
         }
       ]
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Possível inconsistência lexical intra-capítulo entre \"líderes\" (8.4) e \"príncipes\" (8.10) para conceito da mesma raiz hebraica שׂרר (sar/príncipe). — evidência: traducao_literal de 8.4 usa \"fizeram príncipes\" (H8323, verbo denominativo) e a de 8.10 usa \"rei dos príncipes\" (H8269, substantivo); ARA mantém \"príncipes\" nos dois versos (\"constituíram príncipes\" / \"rei dos príncipes\"), enquanto a BV varia (\"líderes\" / \"príncipes\"). Como são lemas diferentes (verbo vs. substantivo, ainda que cognatos), e NVIPT também usa \"líderes\" em 8.4, optei por não forçar a normalização agora — registrando para avaliação futura conforme EDITORIAL §1.4. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -110,10 +117,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
