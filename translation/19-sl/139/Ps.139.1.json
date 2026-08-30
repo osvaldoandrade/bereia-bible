@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Ps.139.1-24"
   },
-  "texto_bv": "Ao regente. De Davi. Salmo. SENHOR, tu me sondaste e me conheceste.",
+  "texto_bv": "Ao regente. De Davi. Salmo. SENHOR, tu me sondas e me conheces.",
   "traducao_literal": "Ao dirigente; de Davi; salmo. SENHOR, sondaste-me, e soubeste.",
   "termos_originais": [
     {
@@ -64,6 +64,13 @@
           "motivo": "apaga a marca de ato inaugural que o par perfeito+wayyiqtol sinaliza no v.1, antes da elaboração gnômica que começa no v.2."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "SENHOR, tu me sondaste e me conheceste. → SENHOR, tu me sondas e me conheces.",
+      "justificativa": "Harmonização de tempo verbal: o mesmo verbo hebraico (sondar/conhecer, aspecto qatal gnômico) é vertido no presente do indicativo em todo o restante do capítulo (v.2 'conheces/entendes', v.3 'esquadrinhas', v.4 'conheces', v.5 'cercas/pões'); o pretérito perfeito isolado no v.1 cria paradigma temporal misto dentro do mesmo capítulo (EDITORIAL §1.4). As três referências convergem no presente (NTLH 'examinas/conheces', ARA 'sondas/conheces', NVIPT 'sondas/conheces'). A traducao_literal preserva o perfeito hebraico intacto (ER-0013); o sentido — conhecimento pleno e contínuo de Deus — não é alterado. — revisão de forma sem alteração de sentido (ER-0019). Correção de forma: consistência gramatical intra-capítulo (EDITORIAL §1.4) e piso de naturalidade das três referências (EDITORIAL §1.4/piso de naturalidade); nenhuma mudança de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -77,10 +84,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
