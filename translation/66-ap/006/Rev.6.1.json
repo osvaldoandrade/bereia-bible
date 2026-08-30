@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Rev.6.1-17"
   },
-  "texto_bv": "Vi quando o Cordeiro abriu um dos sete selos, e ouvi um dos quatro seres viventes dizer, com voz como de trovão: “Vem!”",
+  "texto_bv": "Vi quando o Cordeiro abriu um dos sete selos, e ouvi um dos quatro seres viventes dizer, com voz como de trovão: “Venha!”",
   "traducao_literal": "E eu vi quando o Cordeiro abriu um dos sete selos, e eu ouvi um dos quatro seres viventes, dizendo como com voz de trovão: Vem.",
   "termos_originais": [
     {
@@ -168,6 +168,13 @@
           "motivo": "importaria uma leitura ausente da fonte pinada; violaria a autoridade textual definida em ER-0018"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "“Vem!” → “Venha!”",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003, item 10): o chamado do ser vivente ao cavaleiro não é oração dirigida a Deus, logo usa você/vocês, não tu. ‘Vem’ (tu) destoa do padrão já aplicado no próprio capítulo (6.16 ‘Caiam…escondam’, vocês) e em Ap 4.1 (‘Suba aqui’); NTLH e NVIPT usam ‘Venha!’ nas quatro ocorrências (6.1,3,5,7). — revisão de forma sem alteração de sentido (ER-0019). Normalização coerente do capítulo inteiro (mesma fórmula em 6.1, 6.3, 6.5, 6.7): tu→você, pois não é discurso de oração a Deus (§3/D-0003).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -181,10 +188,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
