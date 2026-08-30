@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Ezek.21.1-37"
   },
-  "texto_bv": "Clama e uiva, filho do homem, porque ela está contra o meu povo, ela está contra todos os príncipes de Israel. Estão entregues à espada, junto com o meu povo; portanto, bate na coxa.",
+  "texto_bv": "Clama e uiva, filho do homem, porque ela está contra o meu povo, contra todos os príncipes de Israel. Estão entregues à espada, junto com o meu povo; portanto, bate na coxa.",
   "traducao_literal": "Clama e uiva, filho de homem, porque ela esteve contra povo-meu, ela contra todos príncipes de Israel; entregues-ao-terror de espada foram, com povo-meu; portanto, bate para coxa.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
           "motivo": "Sentido de מָגוֹר como 'lugar de peregrinação' (raiz גור) é filologicamente possível mas semanticamente menos ajustado ao tom de terror do lamento."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ela está contra o meu povo, ela está contra todos os príncipes de Israel → ela está contra o meu povo, contra todos os príncipes de Israel",
+      "justificativa": "Regra 4 do prompt canônico: repetir o que o original NÃO repete é defeito. A traducao_literal mostra elipse do verbo na segunda oração ('ela contra todos príncipes', sem verbo repetido) — zeugma hebraico comum. A BV duplicava 'está', criando redundância (RED-1) ausente do original; a referência ARA corretamente mapeada confirma a elipse: 'ela será contra o meu povo, contra todos os príncipes de Israel' (verbo não repetido). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -146,10 +153,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

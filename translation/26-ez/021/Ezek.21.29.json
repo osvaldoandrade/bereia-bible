@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Ezek.21.1-37"
   },
-  "texto_bv": "Portanto, assim diz o Senhor DEUS: Porque fizeram lembrar a sua iniquidade, ao serem reveladas as suas transgressões, de modo que aparecem os seus pecados em todos os seus atos — porque foram lembrados —, pela mão serão apanhados.",
+  "texto_bv": "Portanto, assim diz o Senhor DEUS: Porque vocês fizeram lembrar a sua iniquidade, ao serem reveladas as suas transgressões, de modo que aparecem os seus pecados em todos os seus atos — porque vocês foram lembrados —, pela mão serão apanhados.",
   "traducao_literal": "Portanto assim disse Senhor DEUS: porquanto fazerdes-lembrar iniquidade-vossa, em ser-revelado transgressões-vossas, para ser-visto pecados-vossos em todos atos-vossos; porquanto ser-lembrados-vós, na palma sereis-apanhados.",
   "termos_originais": [
     {
@@ -109,6 +109,13 @@
       "justificativa": "Normalização do paradigma vós→vocês (§3/D-0003) — pretérito perfeito, 2ª→3ª pessoa do plural. | Normalização do paradigma vós→vocês (§3/D-0003) — possessivo de 2ª→3ª pessoa do plural. | Normalização do paradigma vós→vocês (§3/D-0003) — possessivo de 2ª→3ª pessoa do plural. | Normalização do paradigma vós→vocês (§3/D-0003) — possessivo de 2ª→3ª pessoa do plural. | Normalização do paradigma vós→vocês (§3/D-0003) — possessivo de 2ª→3ª pessoa do plural. | Normalização do paradigma vós→vocês (§3/D-0003) — pretérito perfeito passivo, 2ª→3ª pessoa do plural. | Normalização do paradigma vós→vocês (§3/D-0003) — futuro passivo, 2ª→3ª pessoa do plural. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Porque fizeram lembrar → Porque vocês fizeram lembrar | — porque foram lembrados — → — porque vocês foram lembrados —",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): a traducao_literal está inteiramente em 2ª pessoa do plural ('fazerdes', 'vós', 'sereis'), e as três referências convergem em discurso de 2ª pessoa (NTLH e NVIPT 'vocês'; ARA 'vós'). Um ciclo de revisão anterior já havia tentado normalizar o paradigma vós→vocês neste verso, mas o resultado ficou em 3ª pessoa ambígua ('fizeram' = eles, não vocês, pois a flexão verbal de 'vocês' e 'eles' é idêntica em português); explicitar o pronome 'vocês' corrige a ambiguidade sem acrescentar conteúdo novo ao sentido. | Mesma correção de paradigma (§3/D-0003), nesta oração coordenada, coerente com o restante do verso e com a convergência das referências (NTLH/NVIPT 'vocês'). — revisão de forma sem alteração de sentido (ER-0019). Achados RAT-1/PRO-1/PAS-1: a extensão e a carga pronominal são inerentes à complexidade sintática do hebraico (a referência ARA, de extensão comparável, confirma); as passivas ('serem reveladas', 'foram lembrados', 'serão apanhados') refletem formas passivas reais do original (nifal/pual), não evitáveis sem mudar o sentido — mantidas como estão. A única mudança aplicada foi explicitar o pronome 'vocês', corrigindo uma ambiguidade de pessoa gramatical (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -120,10 +127,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
