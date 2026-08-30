@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Rom.5.1-21"
   },
-  "texto_bv": "Mas não é assim como a transgressão, assim também é o dom gratuito; pois, se pela transgressão de um só, muitos morreram, muito mais a graça de Deus e o dom, pela graça de um só homem, Jesus Cristo, transbordaram para muitos.",
+  "texto_bv": "Mas não é assim como a transgressão, assim também é o dom gratuito. Pois, se pela transgressão de um só muitos morreram, muito mais a graça de Deus e o dom pela graça de um só homem, Jesus Cristo, transbordaram para muitos.",
   "traducao_literal": "Mas não como a transgressão, assim também o dom gratuito; se, pois, pela transgressão do um só, os muitos morreram, muito mais a graça de Deus e a dádiva em graça, a do um só homem Jesus Cristo, para os muitos transbordou.",
   "termos_originais": [
     {
@@ -239,6 +239,13 @@
       "escolha": "suprir 'é' duas vezes",
       "justificativa": "Oração nominal grega sem cópula; o português exige o verbo suprido (EDITORIAL §4).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas não é assim como a transgressão, assim também é o dom gratuito; pois, se pela transgressão de um só, muitos morreram, muito mais a graça de Deus e o dom, pela graça de um só homem, Jesus Cristo, transbordaram para muitos. → Mas não é assim como a transgressão, assim também é o dom gratuito. Pois, se pela transgressão de um só muitos morreram, muito mais a graça de Deus e o dom pela graça de um só homem, Jesus Cristo, transbordaram para muitos.",
+      "justificativa": "Divisão de sentença com 42 palavras em duas (17 + 24), conforme §1.3 (> 40 palavras). Ponto final após “dom gratuito” substituindo ponto-e-vírgula; “Pois” inicia oração explicativa autônoma. Removidas vírgulas após “um só” e em torno de “pela graça de um só homem” (incisos curtos sem necessidade de isolamento). — revisão de forma sem alteração de sentido (ER-0019). LEN-1: sentença original com 42 palavras excedia o limite de §1.3. Divisão no ponto-e-vírgula existente, que já marcava fronteira retórica natural (contraste “não é assim… pois se…”). ARA/NVIPT também mantêm unidade longa, mas o grego de Paulo permite a segmentação sem perda sintática. Sentido integralmente preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -253,10 +260,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
