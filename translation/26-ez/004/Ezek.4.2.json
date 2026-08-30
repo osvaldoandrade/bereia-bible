@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Ezek.4.1-17"
   },
-  "texto_bv": "Ponha cerco contra ela, construa baluarte contra ela, levante rampa de cerco contra ela, arme acampamentos contra ela e disponha aríetes ao redor dela.",
+  "texto_bv": "Ponha cerco contra ela, construa baluarte, levante rampa de cerco, arme acampamentos e disponha aríetes ao redor dela.",
   "traducao_literal": "E darás sobre ela cerco, e construirás sobre ela baluarte, e derramarás sobre ela rampa, e darás sobre ela acampamentos, e põe sobre ela aríetes ao redor.",
   "termos_originais": [
     {
@@ -125,6 +125,13 @@
           "motivo": "sentido do homógrafo errado, descartado pelo próprio lema"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ponha cerco contra ela, construa baluarte contra ela, levante rampa de cerco contra ela, arme acampamentos contra ela e disponha aríetes ao redor dela. → Ponha cerco contra ela, construa baluarte, levante rampa de cerco, arme acampamentos e disponha aríetes ao redor dela.",
+      "justificativa": "RED-1 (\"cerco contra\") + PRO-1 (5 pronomes de 3ª pessoa): a repetição de \"contra ela\"/\"dela\" em cada cláusula é calque estrutural do hebraico (עָלֶיהָ repetido; ER-0013), artificial em português corrido — elidido nas cláusulas intermediárias, mantendo o alvo (a cidade) claro pela primeira e pela última ocorrência. Aproxima do padrão de NVIPT, que reduz a mesma repetição; não altera as cinco ações do cerco nem o sentido. — revisão de forma sem alteração de sentido (ER-0019). Achados RED-1/PRO-1 confirmados: a repetição de \"contra ela\" 4× + \"dela\" era calque estrutural do original, não fórmula retórica intencional (não é refrão/paralelismo semântico, apenas repetição sintática do mesmo complemento) — normalizada conforme ER-0013/doutrina do calque.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -136,10 +143,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
