@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Matt.8.1-34"
   },
-  "texto_bv": "Disse-lhe: “Eu, indo, o curarei.”",
+  "texto_bv": "Disse-lhe: “Eu irei e o curarei.”",
   "traducao_literal": "Diz a ele: Eu, tendo vindo, curarei a ele.",
   "termos_originais": [
     {
@@ -42,7 +42,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eu, indo, o curarei. → Eu irei e o curarei.",
+      "justificativa": "Gerúndio anteposto ('indo') soa como calque do particípio grego ἐλθὼν; NTLH ('Eu vou lá curá-lo'), ARA ('Eu irei, e o curarei') e NVIPT ('Eu irei curá-lo') convergem no futuro perifrástico com 'irei'. Normalizado para 'irei e o curarei' — mais natural em pt-BR, resolve a compressão excessiva apontada por RAT-1, sem alterar o sentido (Jesus irá até lá e curará o servo). — revisão de forma sem alteração de sentido (ER-0019). RAT-1 indicava compressão excessiva pelo uso do gerúndio no lugar do futuro perifrástico esperado; corrigido para alinhar com as três referências (todas usam 'irei'), sem mudança de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Ἐγὼ fronteado e enfático, preservado com pronome explícito 'Eu'; pontuação da fonte pinada (ponto final, não interrogação) mantida — sentença declarativa, não pergunta retórica.",
@@ -52,10 +60,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
