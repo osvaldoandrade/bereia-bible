@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Prov.30.1-33"
   },
-  "texto_bv": "Quatro coisas há na terra que são pequenas, mas são sabiíssimas:",
+  "texto_bv": "Quatro coisas há na terra que são pequenas, mas são muito sábias:",
   "traducao_literal": "Quatro, eles, pequenos da terra, e eles sábios, tornados sábios.",
   "termos_originais": [
     {
@@ -58,6 +58,13 @@
           "motivo": "perífrase menos econômica que o superlativo sintético."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas são sabiíssimas → mas são muito sábias",
+      "justificativa": "'Sabiíssimas' é superlativo sintético de formação duvidosa (o superlativo erudito consagrado de 'sábio' é 'sapientíssimo'; 'sabiíssimo' não é forma dicionarizada corrente e soa artificial). As três referências evitam o sintético e preferem construção analítica (NTLH 'espertas'; ARA 'extremamente sábias'; NVIPT 'muito sábias'). Troca por 'muito sábias' mantém o grau superlativo com naturalidade contemporânea (EDITORIAL §1.1 piso de naturalidade). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -72,10 +79,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
