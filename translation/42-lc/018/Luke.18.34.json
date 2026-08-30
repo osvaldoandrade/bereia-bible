@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Luke.18.1-43"
   },
-  "texto_bv": "Mas eles não entenderam nada disso; essa palavra lhes era oculta, e eles não percebiam o que estava sendo dito.",
+  "texto_bv": "Mas eles não entenderam nada disso; essa palavra lhes era oculta, e eles não percebiam o que se dizia.",
   "traducao_literal": "E eles nada disto entenderam, e esta palavra estava escondida deles, e não conheciam as coisas ditas.",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o que estava sendo dito → o que se dizia",
+      "justificativa": "Passiva desnecessária (checklist item 6/EDITORIAL §1: 'passivas onde o português pede ativa'). A perífrase progressiva 'estava sendo dito' soa como calque do inglês; as três referências usam construção ativa ('do que lhes dizia' / 'do que Jesus estava falando' / 'do que ele estava falando'). Substituído pelo passivo pronominal 'se dizia', idiomático em pt-BR e semanticamente idêntico, sem necessidade de introduzir agente explícito não presente no original. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "O agente de κεκρυμμένον ('oculto') não é especificado — pode ser Deus (passivo divino, ocultação providencial) ou simplesmente a limitação cognitiva dos discípulos; a BV preserva a voz passiva sem resolver o agente."
@@ -114,10 +122,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
