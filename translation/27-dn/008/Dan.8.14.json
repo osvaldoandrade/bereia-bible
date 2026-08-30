@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Dan.8.1-27"
   },
-  "texto_bv": "E ele me disse: \"Até duas mil e trezentas tardes e manhãs; então o santuário será restabelecido em seu direito.\"",
+  "texto_bv": "E ele me disse: “Até duas mil e trezentas tardes e manhãs; então o santuário será restabelecido em seu direito.”",
   "traducao_literal": "E disse a-mim: até tarde manhã duas-mil e-três centenas; e será-vindicado santuário.",
   "termos_originais": [
     {
@@ -88,6 +88,13 @@
           "motivo": "soa estranho em português aplicado a um lugar/edifício; preferiu-se perífrase equivalente"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"Até duas mil e trezentas tardes e manhãs; então o santuário será restabelecido em seu direito.\" → “Até duas mil e trezentas tardes e manhãs; então o santuário será restabelecido em seu direito.”",
+      "justificativa": "Aspas retas do discurso direto substituídas por aspas duplas curvas (EDITORIAL §5/ER-0004). — revisão de forma sem alteração de sentido (ER-0019). RAT-1: a razão 20/12 decorre dos numerais por extenso (§7) e da sintaxe portuguesa; extensão igual à ARA. 'será restabelecido em seu direito' verte 'será-vindicado' (nitsdaq) — escolha semântica do DRAFT, não tocada (as próprias referências divergem: purificado/reconsagrado). Correção aplicada: aspas curvas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -101,10 +108,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
