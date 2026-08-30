@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Eph.1.1-23"
   },
-  "texto_bv": "iluminando os olhos do coração de vocês, para que vocês saibam qual é a esperança do seu chamado, qual é a riqueza da glória de sua herança nos santos,",
+  "texto_bv": "iluminando os olhos do coração de vocês, para que vocês saibam qual é a esperança do chamado dele, qual é a riqueza da glória da herança dele nos santos,",
   "traducao_literal": "havendo sido iluminados os olhos do coração de vós, para saberdes vós qual é a esperança do chamado dele, qual a riqueza da glória da herança dele nos santos,",
   "termos_originais": [
     {
@@ -152,7 +152,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a esperança do seu chamado → a esperança do chamado dele | a riqueza da glória de sua herança nos santos → a riqueza da glória da herança dele nos santos",
+      "justificativa": "Desambiguação pronominal (EDITORIAL, cheque 5): na frase, ‘vocês’ é mencionado duas vezes imediatamente antes de ‘seu’, e como ‘seu/sua’ serve tanto à 3ª pessoa (dele) quanto à 2ª pessoa formal (de você/vocês), ‘seu chamado’ pode ser lido como ‘o chamado de vocês’ em vez de ‘o chamado que vem dele [Deus]’, sentido que a traducao_literal desambigua com ‘dele’. Corrigido para ‘dele’ sem alterar o sentido, apenas explicitando o referente já presente na traducao_literal; NVIPT também desambigua este trecho por outra via (‘a esperança para a qual ele os chamou’). | Mesma desambiguação pronominal do item anterior, mesma oração: a traducao_literal traz ‘herança dele’ (referindo-se a Deus, não a ‘vocês’). NVIPT confirma a leitura com ‘herança dele nos santos’. Corrigido para eliminar a ambiguidade entre 3ª pessoa e o ‘seu’ de tratamento (você/vocês) introduzida pelo paradigma de 2ª pessoa (D-0003). — revisão de forma sem alteração de sentido (ER-0019). Ambiguidade pronominal genuína criada pela convivência do paradigma você/vocês (D-0003) com o ‘seu/sua’ de 3ª pessoa na mesma oração; a traducao_literal já resolve com ‘dele’ em ambos os casos, então a correção apenas explicita um referente que já estava correto no sentido, sem tocar em conteúdo teológico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "continuação do período iniciado em 1:17; πεφωτισμένους (particípio perfeito passivo) concorda com τοὺς ὀφθαλμούς, não com ὑμᾶς — construção de acusativo mantida na literal, normalizada como gerúndio no publicado.",
@@ -162,10 +170,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
