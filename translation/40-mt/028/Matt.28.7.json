@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Matt.28.1-20"
   },
-  "texto_bv": "\"Vão depressa e digam aos discípulos dele que ele ressuscitou dentre os mortos. Eis que ele vai adiante de vocês para a Galileia; lá vocês o verão. Eis que eu já lhes disse.\"",
+  "texto_bv": "\"Vão depressa e digam aos discípulos dele que ressuscitou dentre os mortos. Ele vai adiante de vocês para a Galileia; lá vocês o verão. Eis que eu já lhes disse.\"",
   "traducao_literal": "E, tendo ido depressa, digam aos discípulos dele que foi ressuscitado dentre os mortos; e eis que vai adiante de vocês para a Galileia, ali vocês o verão. Eis, eu disse a vocês.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
           "motivo": "correto conforme EDITORIAL §5 para citação-dentro-de-citação, mas aqui o conteúdo não é uma fala verbatim distinta, e sim o próprio recado a transmitir"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que ele ressuscitou dentre os mortos → que ressuscitou dentre os mortos | Eis que ele vai adiante de vocês para a Galileia → Ele vai adiante de vocês para a Galileia",
+      "justificativa": "PRO-1 — pronome-sujeito redundante removido; o verbo ‘ressuscitou’ (3ª pessoa singular) já identifica o sujeito sem ambiguidade (antecedente único: Jesus), reduzindo o excesso de pronomes de 3ª pessoa apontado pela triagem (EDITORIAL §1 item 5). Cf. ARA: ‘que ressurgiu dos mortos’ (sem pronome-sujeito). | CAL-2 — ‘eis que’ normalizado nesta ocorrência: promessa relatada sobre encontro futuro, sem evento visível ou dramático imediato (§6.2/ER-0013: calque paratático artificial). NTLH (‘e vai adiante de vocês’) e NVIPT (‘está indo adiante de vocês’) dispensam o marcador; apenas a ARA mantém ‘e eis que vai’. O pronome ‘ele’ foi mantido para evitar homografia entre a 3ª pessoa do indicativo (‘ele vai’) e o imperativo de 2ª pessoa (‘vai!’). — revisão de forma sem alteração de sentido (ER-0019). Achados CAL-2 (2×) e PRO-1 adjudicados verso a verso: o primeiro ‘eis que’ (promessa futura relatada) foi normalizado por não marcar evento dramático imediato, alinhado a NTLH/NVIPT; o segundo ‘eis que’ (‘eu já lhes disse’) foi mantido por fechar a fala do anjo com força retórica solene, preservado pela ARA e funcionalmente equivalente ao ‘Notem que’ da NVIPT. O pronome-sujeito redundante antes de ‘ressuscitou’ foi removido; o pronome antes de ‘vai’ foi mantido para evitar ambiguidade com o imperativo homógrafo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -159,10 +166,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
