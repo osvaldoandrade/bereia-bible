@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Zeph.3.1-20"
   },
-  "texto_bv": "Portanto, esperem por mim — declara o SENHOR — até o dia em que eu me levante para o despojo; porque a minha decisão é ajuntar nações, reunir reinos, para derramar sobre eles a minha indignação, todo o furor da minha ira; porque, pelo fogo do meu zelo, toda a terra será consumida.",
+  "texto_bv": "Portanto, esperem por mim — declara o SENHOR — até o dia em que eu me levante para o despojo. Porque a minha decisão é ajuntar nações, reunir reinos, para derramar sobre eles a minha indignação, todo o furor da minha ira. Porque, pelo fogo do meu zelo, toda a terra será consumida.",
   "traducao_literal": "Esperai por mim — oráculo do SENHOR — até o dia do meu levantar para o despojo; porque meu juízo: ajuntar nações, reunir reinos, para derramar sobre eles minha indignação, toda a ira do meu nariz; porque no fogo do meu zelo será consumida toda a terra.",
   "termos_originais": [
     {
@@ -153,6 +153,13 @@
           "motivo": "leitura tradicional difundida em versões que vocalizam/lematizam de modo distinto do lema pinado nesta fonte; rejeitada por não corresponder ao lema OSHB do packet"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Portanto, esperem por mim — declara o SENHOR — até o dia em que eu me levante para o despojo; porque a minha decisão é ajuntar nações, reunir reinos, para derramar sobre eles a minha indignação, todo o furor da minha ira; porque, pelo fogo do meu zelo, toda a terra será consumida. → Portanto, esperem por mim — declara o SENHOR — até o dia em que eu me levante para o despojo. Porque a minha decisão é ajuntar nações, reunir reinos, para derramar sobre eles a minha indignação, todo o furor da minha ira. Porque, pelo fogo do meu zelo, toda a terra será consumida.",
+      "justificativa": "LEN-1 (sentença de 51 palavras, EDITORIAL §1.3): divisão em três sentenças nas junções causais já marcadas por ponto-e-vírgula no original (‘porque’), sem perda sintática nem adição de sentido. NVIPT e NTLH também segmentam em sentenças menores nos mesmos pontos. — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 confirmado (51 palavras); dividido em 3 sentenças nas fronteiras causais (‘porque’) já presentes como orações no original, preservando integralmente o conteúdo. Apoiado por NVIPT e NTLH, que também segmentam o versículo em múltiplas sentenças.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -164,10 +171,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Zeph.3.1-20"
   },
-  "texto_bv": "O SENHOR, seu Deus, está no meio de você, poderoso para salvar. Ele se alegrará por você com alegria; ele se aquietará em seu amor; ele exultará por você com cânticos.",
+  "texto_bv": "O SENHOR, seu Deus, está no meio de você, poderoso para salvar. Ele se alegrará por você com alegria; se aquietará em seu amor; exultará por você com cânticos.",
   "traducao_literal": "O SENHOR teu Deus no meio de ti, poderoso, salvará; ele se alegrará sobre ti com alegria; ele se calará em seu amor; ele exultará sobre ti com júbilo.",
   "termos_originais": [
     {
@@ -88,6 +88,13 @@
           "motivo": "leitura difundida, mas menos aderente à morfologia intransitiva do Hifil neste verso; preservada como leitura alternativa possível"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele se aquietará em seu amor → se aquietará em seu amor | ele exultará por você com cânticos → exultará por você com cânticos",
+      "justificativa": "PRO-1 (5 pronomes de 3ª pessoa): pronome ‘ele’ redundante na segunda oração de uma série paralela cujo sujeito (O SENHOR) já foi retomado na oração anterior; português permite sujeito oculto. Alinha com ARA, que usa ‘ele’ apenas na primeira oração da série. | Mesma razão — redução de pronome de 3ª pessoa redundante na terceira oração paralela, mantendo clareza (o verbo já indica a pessoa). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 confirmado (5 pronomes); reduzido de 3 para 1 ocorrência de ‘ele’ nas três orações paralelas de ação (alegrará/aquietará/exultará), mantendo o primeiro ‘ele’ para reafirmar o sujeito, como faz ARA. Sentido e paralelismo integralmente preservados.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -101,10 +108,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Zeph.3.1-20"
   },
-  "texto_bv": "Naquele dia, você não se envergonhará de todos os seus atos com que se rebelou contra mim, porque então eu removerei do meio de você os que se exultam com arrogância, e você nunca mais se exaltará no meu monte santo.",
+  "texto_bv": "Naquele dia, você não se envergonhará de todos os seus atos com que se rebelou contra mim, porque então eu removerei do meio de você os que se exultam com arrogância. Você nunca mais se exaltará no meu monte santo.",
   "traducao_literal": "Naquele dia não te envergonharás de todos os teus feitos com que transgrediste contra mim; porque então removerei do meio de ti os exultantes da tua soberba; e não tornarás a te exaltar mais no meu monte santo.",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os que se exultam com arrogância, e você nunca mais se exaltará no meu monte santo. → os que se exultam com arrogância. Você nunca mais se exaltará no meu monte santo.",
+      "justificativa": "LEN-1 (sentença de 41 palavras, EDITORIAL §1.3): divisão em duas sentenças no conectivo ‘e’, sem perda de conteúdo. NVIPT segmenta no mesmo ponto (‘...em seu orgulho. Nunca mais vocês serão altivos...’). — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 confirmado; sentença dividida em duas na conjunção ‘e’, apoiada pela segmentação equivalente em NVIPT. Conteúdo e paradigma ‘você’ preservados integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Discurso dirigido a Jerusalém personificada (2fs), anunciando a remoção da elite arrogante e o fim da soberba da cidade.",
@@ -127,10 +135,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

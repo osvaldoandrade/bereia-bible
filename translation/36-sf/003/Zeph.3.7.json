@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Zeph.3.1-20"
   },
-  "texto_bv": "Eu disse: 'Certamente me temerás, aceitarás correção' — para que a sua morada não fosse destruída, conforme tudo o que eu decretei contra ela. Mas eles se apressaram em corromper todos os seus atos.",
+  "texto_bv": "Eu disse: 'Certamente me temerá, aceitará correção' — para que a sua morada não fosse destruída, conforme tudo o que eu decretei contra ela. Mas eles se apressaram em corromper todos os seus atos.",
   "traducao_literal": "Eu disse: apenas me temerás, tomarás correção; e não seria cortada sua morada — tudo quanto determinei sobre ela. Mas cedo se levantaram, corromperam toda a sua conduta.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
           "motivo": "tradução física do idiotismo, que perde o sentido adverbial de urgência/prontidão"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Certamente me temerás, aceitarás correção → Certamente me temerá, aceitará correção",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003, item 10 do prompt canônico): o capítulo usa ‘você’ para o mesmo referente (a cidade) em 3.11, 3.12, 3.15 e 3.17. As formas ‘temerás/aceitarás’ (conjugação de ‘tu’) destoavam do paradigma coerente ‘você’, inclusive dentro do próprio versículo, que já usa ‘sua morada’ (possessivo compatível com ‘você’). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (4 pronomes de 3ª pessoa: sua/ela/eles/seus) avaliado como não-defeituoso: densidade comparável à de ARA (‘sua... dela... eles... suas’), com antecedentes distintos e claros (a cidade vs. seus habitantes) — mantido. A mudança aplicada foi de paradigma de 2ª pessoa (temerás/aceitarás → temerá/aceitará), não relacionada ao PRO-1, mas necessária para coerência do paradigma você/vocês no capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -137,10 +144,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
