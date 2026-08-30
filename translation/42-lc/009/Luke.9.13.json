@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Luke.9.1-62"
   },
-  "texto_bv": "Mas ele lhes disse: \"Deem vocês mesmos a eles de comer.\" Eles responderam: \"Não temos mais do que cinco pães e dois peixes, a não ser que vamos comprar alimento para todo este povo.\"",
+  "texto_bv": "Mas ele lhes disse: \"Deem vocês mesmos de comer a eles.\" Eles responderam: \"Não temos mais do que cinco pães e dois peixes, a não ser que vamos comprar alimento para todo este povo.\"",
   "traducao_literal": "E disse a eles: Dai vós a eles de comer. E eles disseram: Não temos mais que cinco pães e dois peixes, a menos que, indo nós, compremos para todo este povo alimentos.",
   "termos_originais": [
     {
@@ -179,6 +179,13 @@
       "justificativa": "Remoção de \"nós mesmos\" redundante com o sujeito já explícito na desinência verbal e no contexto; o original não enfatiza com pronome reflexivo neste ponto. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Deem vocês mesmos a eles de comer. → Deem vocês mesmos de comer a eles.",
+      "justificativa": "Fluidez (EDITORIAL §1.3): reordenação restaura a locução 'dar de comer a alguém', que a ordem anterior fragmentava ('a eles de comer'). Ênfase de 'vocês mesmos' e sentido preservados. — revisão de forma sem alteração de sentido (ER-0019). PRO-1 (4 pronomes de 3ª pessoa): falso positivo — os referentes são inequívocos pela alternância do diálogo (Jesus × discípulos), como nas três referências. A única edição aplicada é reordenação de fluidez.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -190,10 +197,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
