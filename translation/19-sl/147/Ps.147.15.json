@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Ps.147.1-20"
   },
-  "texto_bv": "Ele envia o seu mandado à terra; com rapidez corre a sua palavra.",
+  "texto_bv": "Ele envia a sua palavra à terra; com rapidez corre a sua palavra.",
   "traducao_literal": "O que envia sua palavra [à] terra; até rapidez corre sua palavra.",
   "termos_originais": [
     {
@@ -58,6 +58,13 @@
           "motivo": "apaga a distinção lexical hebraica e cria inconsistência ao reaproveitar o mesmo termo português para dois hebraicos diferentes sem necessidade"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele envia o seu mandado à terra → Ele envia a sua palavra à terra",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): a traducao_literal repete “palavra” duas vezes neste verso (fórmula intencional — cheque item 4, fidelidade a repetições do original) e o mesmo termo é vertido “palavra” nos vv. 18 e 19; “mandado” quebra a repetição do original, diverge da própria traducao_literal deste verso e carrega, em português contemporâneo, conotação jurídica (mandado judicial) alheia ao registro do salmo. — revisão de forma sem alteração de sentido (ER-0019). Ajuste de consistência lexical com a traducao_literal e com os vv. 18-19, restaurando a repetição formular “palavra…palavra” presente no literal e ausente do texto anterior.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -69,10 +76,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
