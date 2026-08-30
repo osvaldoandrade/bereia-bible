@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Luke.11.1-54"
   },
-  "texto_bv": "Aconteceu que, estando ele orando em certo lugar, quando terminou, um dos discípulos lhe disse: \"Senhor, ensina-nos a orar, assim como João também ensinou os seus discípulos.\"",
+  "texto_bv": "Estando ele orando em certo lugar, quando terminou, um dos discípulos lhe disse: \"Senhor, ensina-nos a orar, assim como João também ensinou os seus discípulos.\"",
   "traducao_literal": "E aconteceu, no estar ele em certo lugar orando, quando cessou, disse um dos discípulos dele a ele: Senhor, ensina-nos a orar, como também João ensinou os discípulos dele.",
   "termos_originais": [
     {
@@ -173,6 +173,13 @@
           "motivo": "soa artificial em português, prejudica leitura em voz alta/TTS"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Aconteceu que, estando ele orando em certo lugar, quando terminou, um dos discípulos lhe disse: → Estando ele orando em certo lugar, quando terminou, um dos discípulos lhe disse:",
+      "justificativa": "Calque paratático 'aconteceu que' (CAL-1, decalque do grego καὶ ἐγένετο) normalizado por EDITORIAL §6.2/ER-0013. O mesmo padrão já foi normalizado no restante do capítulo (cf. 11.14 'Quando o demônio saiu...' e 11.27 'Enquanto ele dizia isso...', ambos sem o calque) — mantê-lo só em 11.1 quebraria a consistência interna. NTLH/ARA/NVIPT também evitam essa construção. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -184,10 +191,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Luke.11.1-54"
   },
-  "texto_bv": "Enquanto ele dizia isso, uma mulher no meio da multidão levantou a voz e lhe disse: \"Bendito o ventre que o carregou e os seios que o amamentaram!\"",
+  "texto_bv": "Enquanto ele dizia isso, uma mulher no meio da multidão levantou a voz e lhe disse: \"Bem-aventurado o ventre que o carregou e os seios que o amamentaram!\"",
   "traducao_literal": "Aconteceu, no dizer ele estas coisas, levantando a voz uma mulher da multidão, disse-lhe: Bendito o ventre que te carregou e os seios que mamaste.",
   "termos_originais": [
     {
@@ -153,6 +153,20 @@
           "motivo": "ER-0003 distingue pelo gênero do discurso (oração litúrgica), não pela identidade teológica do interlocutor"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Bendito o ventre que o carregou e os seios que o amamentaram! → Bem-aventurado o ventre que o carregou e os seios que o amamentaram!",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): o grego μακάριος/μακαρία ocorre em 11.27 e 11.28 formando eco retórico intencional (11.28 abre com 'μενοῦν' = 'antes/pelo contrário', contrastando com o uso da mulher em 11.27); a BV usava 'Bendito' (v.27) e 'bem-aventurados' (v.28) para o mesmo termo grego. NTLH/NVIPT usam 'feliz/felizes' nos dois versos e ARA usa 'bem-aventurado/bem-aventurados' nos dois — nenhuma referência usa 'bendito'. Normalizado para 'Bem-aventurado', alinhando com o v.28 e com ARA. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Uso da 3ª pessoa ('que o carregou'/'que o amamentaram') em vez da 2ª pessoa presente no grego (σε/ἐθήλασας — discurso dirigido diretamente a Jesus). — evidência: A traducao_literal usa 2ª pessoa ('que te carregou'... 'que mamaste'); ARA ('te trouxe'/'te amamentaste') e NVIPT ('te deu à luz'/'te amamentou') preservam a 2ª pessoa; apenas NTLH usa 3ª pessoa como a BV. Restaurar a 2ª pessoa tocaria a moldura pragmática do enunciado (quem é o interlocutor direto da exclamação), não apenas a forma — por isso não foi alterado nesta revisão editorial; fica registrado para eventual revisão de tradução. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -164,10 +178,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
