@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Acts.13.1-52"
   },
-  "texto_bv": "Havia em Antioquia, na igreja local, profetas e mestres: Barnabé, Simeão chamado Níger, Lúcio de Cirene, Manaém, que fora criado com Herodes o tetrarca, e Saulo.",
+  "texto_bv": "Havia em Antioquia, na igreja local, profetas e mestres: Barnabé, Simeão chamado Níger, Lúcio de Cirene, Manaém, que tinha sido criado com Herodes o tetrarca, e Saulo.",
   "traducao_literal": "Havia, e, em Antioquia, segundo a igreja que ali existia, profetas e mestres: tanto Barnabé, e Simeão o chamado Níger, e Lúcio o cireneu, quanto Manaém, de Herodes o tetrarca companheiro de criação, e Saulo.",
   "termos_originais": [
     {
@@ -189,6 +189,13 @@
           "motivo": "arcaísmo pouco compreendido fora de registro erudito"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que fora criado → que tinha sido criado",
+      "justificativa": "mais-que-perfeito sintético (§1.2-tabela: substituir por pretérito composto) — revisão de forma sem alteração de sentido (ER-0019). \"fora\" é mais-que-perfeito sintético, arcaísmo funcionalmente morto conforme §1.2-tabela. NTLH usa \"havia sido\"; substituído por \"tinha sido\" (pretérito composto).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -202,10 +209,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
