@@ -185,6 +185,6 @@ pelo finalizador, não só os que mudam texto.
 | 2026-08-23 | Piloto (Gn 24, Êx 12, Mc 4) | 17 vv revisados, 1 objeção MATERIAL (Gen.24.7, texto mantido); commit fc329f7f/6410e600/662e0158; achado: paradigma vós → marcador VOS-1 + prompt v1.1.0 |
 | 2026-08-29 | v2 — comparação guiada NTLH/ARA/NVIPT no digest (42ea172e) | prompt canônico v1.2.0; divergência das 3 referências passa a exigir justificativa |
 | 2026-08-29 | v3 — triagem com threshold 0 (c10da4c3) | escopo passa de 506 hot-spots para os 1189 capítulos da Bíblia |
-| 2026-08-30 | Lotes Sl 67 → Pv 12 (80 capítulos, sonnet) | 72 vv revisados, 12 objeções MATERIAIS, 0 erros de agente; cobertura 867/1189 (72,9%) |
+| 2026-08-30 | **Ciclo v3 encerrado** — Sl 67 → Ap 22 (402 capítulos, 26 lotes, sonnet) | 742 vv revisados, 89 objeções MATERIAIS, 402 agentes / 0 erros; **cobertura 1189/1189 (100%)** |
 
 

@@ -292,10 +292,17 @@ Ver `docs/domain/governanca/glossary.md`.
   porque o valor estivesse errado, mas porque proveniência hardcoded diverge em
   silêncio assim que o alias de modelos muda — foi o que ocorreu quando qwen
   saiu do alias (2026-08-30). Parametrizado, o valor acompanha a execução real.
-- Execução v3 (parcial): 867/1189 capítulos com revisão (72,9%) em 2026-08-30;
-  322 pendentes a partir de Pv 13. Os lotes de 2026-08-30 (Sl 67 → Pv 12, 80
-  capítulos, 80 agentes, 0 erros) somaram 72 versos revisados e 12 objeções
-  MATERIAIS.
+- Execução v3 **COMPLETA em 2026-08-30**: 1189/1189 capítulos com revisão
+  editorial persistida — cobertura de 100% da Bíblia, AT e NT. A sessão de
+  2026-08-30 processou 402 capítulos (Sl 67 → Ap 22) em 26 lotes de até 16
+  agentes paralelos, modelo `claude-sonnet-5`: **402 agentes, 0 erros, 0
+  resultados vazios**. Total do dia: 742 versos revisados e 89 objeções
+  MATERIAIS registradas.
+- Estado ao fim do ciclo: 31155 registros, 194 com `objecoes_nao_resolvidas`
+  não-vazio (0,62%). Todos permanecem DRAFT — a objeção MATERIAL bloqueia
+  APPROVED por construção (bvcheck/F-0011), e a promoção continua exigindo
+  consenso pleno + QA de contaminação. A revisão editorial **não** promove
+  status; ela só normaliza forma.
 - Reincidência do wart de **edição não registrada** com sonnet (Sl 79.1: a
   sobrescrição "Salmo de Asafe." foi apagada sob veredito SEM_ALTERACAO). O
   guard de `ship_review_batch.py` abortou o lote antes de qualquer escrita e o
