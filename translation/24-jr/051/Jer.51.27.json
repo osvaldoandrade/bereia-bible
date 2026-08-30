@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Jer.51.1-64"
   },
-  "texto_bv": "Levantem um estandarte na terra; toquem a trombeta entre as nações; convoquem para a guerra contra ela as nações; convoquem contra ela os reinos de Ararate, Mini e Asquenaz; nomeiem contra ela um comandante; façam subir cavalos como gafanhotos eriçados.",
+  "texto_bv": "Levantem um estandarte na terra; toquem a trombeta entre as nações; preparem para a guerra contra ela as nações; convoquem contra ela os reinos de Ararate, Mini e Asquenaz; nomeiem contra ela um comandante; façam subir cavalos como gafanhotos eriçados.",
   "traducao_literal": "Levantem estandarte na terra; toquem trombeta entre as nações; consagrem contra ela nações; façam ouvir contra ela os reinos de Ararate, Mini e Asquenaz; ordenem contra ela um oficial; façam subir cavalo como gafanhoto eriçado.",
   "termos_originais": [
     {
@@ -144,6 +144,13 @@
           "motivo": "registro mais arcaizante/técnico em português corrente, sem ganho de precisão sobre 'comandante'"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "convoquem para a guerra contra ela as nações → preparem para a guerra contra ela as nações",
+      "justificativa": "O hebraico emprega dois verbos distintos nesta linha (um de preparo/consagração para a guerra e outro de convocação/anúncio), confirmados pela traducao_literal (“consagrem” / “façam ouvir”); a BV colapsava ambos em “convoquem”, criando repetição que o original não tem (RED-1). NTLH/ARA/NVIPT usam “preparar” para o primeiro verbo; harmonizado também com o refrão paralelo do v.28 (EDITORIAL §1.4). — revisão de forma sem alteração de sentido (ER-0019). RED-1 (“nações...convoquem” repetido): o hebraico usa dois verbos distintos (um de preparo/consagração e outro de convocação/anúncio), confirmados pela traducao_literal (“consagrem”/“façam ouvir”); a BV colapsava ambos em “convoquem”, repetição que o original não tem. Corrigido o primeiro verbo para “preparem”, alinhado a NTLH/ARA/NVIPT (as três usam “preparar” aqui) e harmonizado com o refrão paralelo do v.28 (EDITORIAL §1.4).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -155,10 +162,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
