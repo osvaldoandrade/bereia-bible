@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Ps.76.1-13"
   },
-  "texto_bv": "Os valentes de coração foram despojados; adormeceram o seu sono, e nenhum dos guerreiros encontrou as próprias mãos.",
+  "texto_bv": "Os valentes de coração foram despojados; adormeceram o seu sono, e nenhum dos guerreiros conseguiu usar as próprias mãos.",
   "traducao_literal": "Foram despojados os fortes de coração; dormiram seu sono; e não encontraram todos os homens de força suas mãos.",
   "termos_originais": [
     {
@@ -89,6 +89,13 @@
           "motivo": "perderia a imagem concreta que o português comporta sem estranhamento"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nenhum dos guerreiros encontrou as próprias mãos → nenhum dos guerreiros conseguiu usar as próprias mãos",
+      "justificativa": "Normalização de calque idiomático (ER-0013/EDITORIAL §6.2): a traducao_literal preserva o idiotismo hebraico ('não encontraram... suas mãos', força/uso das mãos); NTLH, ARA e NVIPT convergem funcionalmente em evitar esse calque, parafraseando como perda de capacidade de usar as mãos ('pôde usar as mãos', 'foi capaz de erguer as mãos', 'não tiveram forças'). 'Encontrar as mãos' soa opaco em português contemporâneo fora do conhecimento da locução bíblica tradicional; a forma revisada preserva a imagem das mãos e o sentido exato (perda de força/uso), sem alterar o conteúdo semântico. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -104,10 +111,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
