@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Ps.58.1-12"
   },
-  "texto_bv": "Que se derretam como água e se escoem; quando ele arma o arco, que suas flechas fiquem embotadas.",
+  "texto_bv": "Que se derretam como água e se escoem; quando armarem o arco, que suas flechas fiquem embotadas.",
   "traducao_literal": "Que se derretam como água, que se vão; que ele retese sua flecha, como que sejam cortadas.",
   "termos_originais": [
     {
@@ -79,6 +79,13 @@
           "motivo": "gera discordância de número com o verbo plural, o que soaria como erro gramatical em português"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "quando ele arma o arco, que suas flechas fiquem embotadas → quando armarem o arco, que suas flechas fiquem embotadas",
+      "justificativa": "Inconsistência de número pronominal dentro do verso: v.7 usa plural (\"deles\"), mas v.8 mudava para singular \"ele arma\" com \"suas flechas\" ambíguo. O heb. tem singular, mas a BV já adotara paradigma plural no v.7; a consistência intra-perícope (§1.4) exige manter o plural. — revisão de forma sem alteração de sentido (ER-0019). O pronome \"suas\" em \"suas flechas\" ficava ambíguo com sujeito singular \"ele\" (poderia referir-se a Deus ou aos ímpios). Com o antecedente plural dos versos adjacentes (\"deles\" v.7, \"sejam\" v.9), o plural \"armarem\" resolve a ambiguidade e mantém consistência pronominal (§1.4/ER-0019). NVIPT também usa plural (\"empunharem o arco, caiam… suas flechas\").",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -92,10 +99,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
