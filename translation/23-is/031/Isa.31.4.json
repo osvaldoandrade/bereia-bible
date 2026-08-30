@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Isa.31.1-9"
   },
-  "texto_bv": "Porque assim me disse o SENHOR: Como o leão, ou o leão novo, ruge sobre a sua presa — e ainda que se convoque contra ele todo um bando de pastores, ele não se apavora com a voz deles, nem se abate com o seu tumulto —, assim descerá o SENHOR dos Exércitos para combater no monte Sião e na sua colina.",
+  "texto_bv": "Porque assim me disse o SENHOR: Como o leão, ou o leão novo, ruge sobre a sua presa. Ainda que se convoque contra ele todo um bando de pastores, ele não se apavora com a voz deles, nem se abate com o seu tumulto. Assim descerá o SENHOR dos Exércitos para combater no monte Sião e na sua colina.",
   "traducao_literal": "Porque assim disse o SENHOR a mim: como ruge o leão, e o leão novo, sobre a sua presa, que se convoca contra ele plenitude de pastores, da voz deles não se apavora, e do tumulto deles não se abate; assim descerá o SENHOR dos Exércitos para guerrear sobre o monte Sião e sobre a sua colina.",
   "termos_originais": [
     {
@@ -198,6 +198,13 @@
           "motivo": "suaviza a preposição além do que o hebraico lexicalmente garante"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "presa — e ainda que se convoque contra ele todo um bando de pastores, ele não se apavora com a voz deles, nem se abate com o seu tumulto —, assim descerá → presa. Ainda que se convoque contra ele todo um bando de pastores, ele não se apavora com a voz deles, nem se abate com o seu tumulto. Assim descerá",
+      "justificativa": "Divisão da sentença de 60 palavras (LEN-1, EDITORIAL §1.3) em três orações independentes, aproveitando a pausa retórica 'como… assim' — a mesma técnica usada pela NTLH neste verso ('…mesmo que sejam muitos e gritem bem alto. Assim também eu…'); apenas repontuação, nenhuma palavra acrescentada ou removida. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 (60 palavras) resolvido por divisão em três sentenças no ponto retórico como/assim, sem perda sintática nem adição de sentido. PRO-1 (6 pronomes de 3ª pessoa) avaliado como falso-positivo: todos têm antecedente inequívoco no contexto imediato ('ele'/'seu' remetem ao leão; 'deles' aos pastores; 'sua colina' ao SENHOR dos Exércitos), uso normal de símile poético — mantidos sem alteração.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -213,10 +220,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
