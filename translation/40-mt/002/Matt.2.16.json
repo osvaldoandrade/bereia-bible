@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Matt.2.1-23"
   },
-  "texto_bv": "Então Herodes, vendo que fora enganado pelos magos, encolerizou-se sobremaneira; e mandou matar todos os meninos de Belém e de toda a sua região, de dois anos para baixo, conforme o tempo que apurara com exatidão junto dos magos.",
+  "texto_bv": "Então Herodes, vendo que tinha sido enganado pelos magos, encolerizou-se sobremaneira; e mandou matar todos os meninos de Belém e de toda a sua região, de dois anos para baixo, conforme o tempo que tinha apurado com exatidão junto dos magos.",
   "traducao_literal": "Então Herodes, tendo visto que foi enganado pelos magos, irou-se sobremodo, e tendo enviado, matou todos os meninos em Belém e em todos os seus territórios, de dois anos e abaixo, segundo o tempo que apurara com exatidão da parte dos magos.",
   "termos_originais": [
     {
@@ -219,6 +219,13 @@
           "motivo": "mais literal, mas 'enviando' sem objeto expresso soa incompleto em português; preferido o causativo natural"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vendo que fora enganado pelos magos → vendo que tinha sido enganado pelos magos | o tempo que apurara com exatidão → o tempo que tinha apurado com exatidão",
+      "justificativa": "Mais-que-perfeito sintético arcaico (EDITORIAL §1.2-tabela); NTLH (“haviam enganado”) e NVIPT (“havia sido enganado”) já usam forma composta; substituído sem mudança de sentido. | Mesmo padrão arcaico (“apurara”, mais-que-perfeito sintético); normalizado para composto por consistência lexical intracapítulo (§1.4) com a correção anterior no mesmo versículo. — revisão de forma sem alteração de sentido (ER-0019). “encolerizou-se sobremaneira” diverge das três referências (raiva/irou-se/furioso), mas cada uma escolhe um lexema diferente entre si — variação inerente à tradução do verbo grego, não convergência das três contra a BV; mantido por não constar da tabela de arcaísmos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -232,10 +239,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
