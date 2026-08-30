@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Matt.15.1-39"
   },
-  "texto_bv": "Mas ele não lhe respondeu palavra alguma. Os discípulos se aproximaram e lhe rogavam: “Mande-a embora, pois ela vem gritando atrás de nós.”",
+  "texto_bv": "Mas Jesus não lhe respondeu palavra alguma. Os discípulos se aproximaram e lhe rogavam: “Mande-a embora, pois ela vem gritando atrás de nós.”",
   "traducao_literal": "Ele, porém, não lhe respondeu palavra. E, aproximando-se, os discípulos dele lhe rogavam, dizendo: Despede-a, porque grita atrás de nós.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
       "escolha": "'mande' (registro você) no publicado; 'despede' (tu) na literal",
       "justificativa": "mesma norma D-0003 aplicada em 15:12/15:15.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas ele não lhe respondeu palavra alguma. Os discípulos se aproximaram e lhe rogavam: “Mande-a embora, pois ela vem gritando atrás de nós.” → Mas Jesus não lhe respondeu palavra alguma. Os discípulos se aproximaram e lhe rogavam: “Mande-a embora, pois ela vem gritando atrás de nós.”",
+      "justificativa": "PRO-1 (excesso de pronomes de 3ª pessoa): o 'ele' inicial trocava de referente logo após a fala da mulher (v.22) sem retomar o sujeito. Substituído por 'Jesus' para reduzir a cadeia pronominal e eliminar a ambiguidade de referente, alinhado a NTLH ('Mas Jesus não respondeu nada') e NVIPT ('Mas Jesus não lhe respondeu palavra'). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,10 +136,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
