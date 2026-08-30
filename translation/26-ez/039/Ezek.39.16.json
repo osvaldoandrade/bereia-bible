@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Ezek.39.1-29"
   },
-  "texto_bv": "Também ali haverá uma cidade chamada Hamonah. Assim purificarão a terra.",
+  "texto_bv": "Também ali haverá uma cidade chamada Hamona. Assim purificarão a terra.",
   "traducao_literal": "E também o nome da cidade: Hamonah. E purificarão a terra.",
   "termos_originais": [
     {
@@ -42,7 +42,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Hamonah → Hamona",
+      "justificativa": "Transliteração inconsistente com a ortografia portuguesa: nenhuma palavra do português corrente termina em 'h' mudo (padrão de transliteração inglesa, cf. NIV 'Hamonah'). ARA grafa 'Hamona' e NVIPT 'Hamoná'; forma consolidada em português alinhada com EDITORIAL §8/§9 (grafia consolidada, transliteração simplificada sem elementos estranhos ao português). — revisão de forma sem alteração de sentido (ER-0019). Não flagrado pela triagem estática (é questão de grafia de nome próprio, fora dos marcadores mecânicos), mas identificado via Regra Zero: ARA e NVIPT divergem da grafia 'Hamonah' da BV, ambas sem o 'h' final. Corrigido para 'Hamona', mantendo a raiz e o sentido ('multidão') intactos — traducao_literal não é afetada (mantém 'Hamonah' apenas como nota informativa do nome, não é reescrita).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "haverá (verbo suprido pela elipse nominal do hebraico, que apenas justapõe 'nome da cidade: Hamonah')"
   ],
@@ -54,10 +62,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
