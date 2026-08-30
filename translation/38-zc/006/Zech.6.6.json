@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Zech.6.1-15"
   },
-  "texto_bv": "O carro dos cavalos pretos sai para a terra do norte; o dos brancos saiu atrás dele; e o dos malhados saiu para a terra do sul.",
+  "texto_bv": "O carro dos cavalos pretos sai para a terra do norte; o dos brancos sai atrás dele; e o dos malhados sai para a terra do sul.",
   "traducao_literal": "Que nele os cavalos, os pretos, saindo para a terra do norte; e os brancos saíram atrás deles; e os malhados saíram para a terra do sul.",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
           "motivo": "mais fluido, mas apaga a distinção aspectual intencional do TM"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o dos brancos saiu atrás dele → o dos brancos sai atrás dele | e o dos malhados saiu para a terra do sul → e o dos malhados sai para a terra do sul",
+      "justificativa": "Uniformização de tempo verbal (§1.4/piso de naturalidade): a BV misturava presente ('sai') com pretérito ('saiu', 2×) numa mesma enumeração paralela; NTLH/ARA/NVIPT usam tempo uniforme (presente) nas três orações. | Mesma uniformização de tempo verbal da mudança anterior, terceira oração da série. — revisão de forma sem alteração de sentido (ER-0019). Sem achado da triagem; as três referências convergem em tempo verbal uniforme (presente) para a lista dos três carros, enquanto a BV misturava presente e pretérito na mesma frase — corrigido por consistência (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -132,10 +139,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
