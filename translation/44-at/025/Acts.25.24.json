@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Acts.25.1-27"
   },
-  "texto_bv": "E Festo disse: \"Rei Agripa e todos os homens aqui presentes conosco, vocês veem este homem a respeito de quem toda a multidão dos judeus me procurou, tanto em Jerusalém como aqui, clamando que ele não deveria viver mais.\"",
+  "texto_bv": "E Festo disse: \"Rei Agripa e todos os homens aqui presentes conosco, vocês vejam este homem a respeito de quem toda a multidão dos judeus me procurou, tanto em Jerusalém como aqui, clamando que ele não deveria viver mais.\"",
   "traducao_literal": "E diz Festo: Rei Agripa e todos os homens presentes conosco, vedes este a respeito de quem toda a multidão dos judeus me abordou, tanto em Jerusalém como aqui, clamando não convir a ele viver ainda mais.",
   "termos_originais": [
     {
@@ -199,6 +199,13 @@
       "escolha": "'que ele não deveria viver mais'",
       "justificativa": "A dupla negação grega (μὴ...μηκέτι) é enfática, não gramaticalmente cumulativa; o publicado normaliza para uma única negação natural em português, preservando a ênfase na literal.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vocês vedes este homem → vocês vejam este homem",
+      "justificativa": "D-0003/§3: 'vedes' é forma do paradigma vós (2ª pessoa plural arcaica); normalizado para 'vejam' (3ª pessoa plural do paradigma vocês), coerente com o uso de 'vocês' no mesmo vocativo. — revisão de forma sem alteração de sentido (ER-0019). O vocativo dirige-se a 'Rei Agripa e todos os homens' com 'vocês' (paradigma §3), mas o verbo 'vedes' pertencia ao paradigma vós — paradigma misto no mesmo vocativo. Normalizado para 'vejam' (vocês), coerente com ARA/NVIPT que usam 'vedes/vejam' e com o padrão §3 do capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -210,10 +217,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
