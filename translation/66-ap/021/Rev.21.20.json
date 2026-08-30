@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Rev.21.1-27"
   },
-  "texto_bv": "O quinto, de sardônica; o sexto, de sárdio; o sétimo, de crisólito; o oitavo, de berilo; o nono, de topázio; o décimo, de crisópraso; o undécimo, de jacinto; o décimo segundo, de ametista.",
+  "texto_bv": "O quinto, de sardônica; o sexto, de sárdio; o sétimo, de crisólito; o oitavo, de berilo; o nono, de topázio; o décimo, de crisópraso; o undécimo, de jacinto; o duodécimo, de ametista.",
   "traducao_literal": "o quinto, sardônica; o sexto, sárdio; o sétimo, crisólito; o oitavo, berilo; o nono, topázio; o décimo, crisópraso; o undécimo, jacinto; o décimo segundo, ametista.",
   "termos_originais": [
     {
@@ -147,6 +147,13 @@
           "motivo": "raro em uso corrente; \"décimo segundo\" é transparente"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o décimo segundo, de ametista → o duodécimo, de ametista",
+      "justificativa": "Consistência de forma ordinal intra-versículo (EDITORIAL §1.4): a lista usa 'undécimo' (11º, forma culta) para a penúltima pedra, mas quebra o padrão em 'décimo segundo' (12º, forma composta) para a última. Normalizado para 'duodécimo', paralelo a 'undécimo' e alinhado com a ARA ('o undécimo... o duodécimo'). Mudança apenas de forma; a pedra e a posição numérica permanecem idênticas. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -160,10 +167,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
