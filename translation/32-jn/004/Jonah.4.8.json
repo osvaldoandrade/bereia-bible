@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Jonah.4.1-11"
   },
-  "texto_bv": "E aconteceu que, quando o sol nasceu, Deus preparou um vento oriental abrasador; o sol bateu na cabeça de Jonas, e ele desfaleceu. Então pediu a própria morte, e disse: \"A minha morte é melhor do que a minha vida.\"",
+  "texto_bv": "Quando o sol nasceu, Deus preparou um vento oriental abrasador; o sol bateu na cabeça de Jonas, e ele desfaleceu. Então pediu a própria morte, e disse: \"A minha morte é melhor do que viver.\"",
   "traducao_literal": "E aconteceu, ao nascer o sol, e preparou Deus um vento leste abrasador, e feriu o sol sobre a cabeça de Jonas, e desfaleceu, e pediu sua alma para morrer, e disse: boa é minha morte mais que minha vida.",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
       "escolha": "Repetir a mesma tradução de 4:3 ('a minha morte é melhor do que a minha vida').",
       "justificativa": "Refrão intencional do autor — o mesmo lamento de morte, agora motivado pelo calor físico, não mais pela salvação de Nínive; a consistência lexical marca o eco entre os dois versículos.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, quando o sol nasceu, Deus preparou → Quando o sol nasceu, Deus preparou | A minha morte é melhor do que a minha vida. → A minha morte é melhor do que viver.",
+      "justificativa": "CAL-1: calque paratático 'e aconteceu que' (heb. wayehi, marcador narrativo de transição temporal) soa artificial em PT-BR contemporâneo; NTLH ('Depois que o sol nasceu...') e NVIPT ('Ao nascer do sol...') também omitem a fórmula introdutória (EDITORIAL §6.2, doutrina do calque ER-0013). ARA mantém 'E aconteceu que', mas a maioria das referências e a naturalidade em português justificam a normalização. | Consistência lexical/formular (§1.4): o refrão de Jonas repete-se verbatim no hebraico em 4.3 e 4.8; ajustado para permanecer idêntico à correção já aplicada em Jn 4.3 (RED-1). NTLH e ARA também repetem a fórmula 'morrer...viver' de modo idêntico nos dois versículos. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -152,10 +159,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
