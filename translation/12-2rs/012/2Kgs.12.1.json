@@ -49,7 +49,15 @@
       "impacto_na_traducao": "Nenhuma alteração textual."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "texto mantido — objeção improcedente",
+      "justificativa": "A objeção descreve um fato real, mas ele é divergência de VERSIFICAÇÃO entre tradições, não erro da BV. O OSHB/TM segmenta 2Rs 11 com 20 versos e 2Rs 12 com 22 (conferido no XML pinado sources/oshb/2Kgs.xml); a tradição inglesa (KJV/WEB) e as versões pt (ARA/NVIPT/NTLH) põem esta oração em 11:21 e numeram o capítulo 12 com 21 versos. Daí o deslocamento sistemático de um verso que a objeção observa (BV v1 = refs 11:21; BV v2 = refs 12:1; … BV v22 = refs 12:21). A BV segue a numeração da sua autoridade textual pinada, e a regra de cobertura OSIS (ER-0017: nenhum verso inventado, omitido ou renumerado) proíbe reindexar o capítulo para a numeração inglesa. O conteúdo de cada verso está correto em relação ao OSHB; nenhuma alteração de texto cabe aqui. Evidência do original: בֶּן שֶׁבַע שָׁנִים יְהוֹאָשׁ בְּמָלְכוֹ (H1121 + H7651 + H8141 + H3060 + H4427) — o OSHB pinado traz exatamente esta oração como 2Kgs.12.1, e o texto_bv a verte com fidelidade integral: 'filho de sete anos era Jeoás ao reinar' = 'Jeoás tinha sete anos quando começou a reinar'. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): Desalinhamento de numeração versícula: o conteúdo da BV neste v1 corresponde apenas à parte final do v1 das referências (idade de Joás). O restante do v1 das refs (sétimo ano de Jeú, 40 anos, mãe Zíbia) aparece no v2 da BV. Deslocamento de um verso atravessa o capítulo inteiro. — evidência: BV v1 = refs v1b; BV v2 = refs v1; BV v3 = refs v2; padrão se repete até v22. Provável divergência de segmentação entre o OSHB pinado e as edições das referências. || Objeção MATERIAL (revisão ER-0019): Desalinhamento de numeração versícula: o conteúdo da BV neste v1 corresponde apenas à parte final do v1 das referências (idade de Joás). O restante do v1 das refs (sétimo ano de Jeú, 40 anos, mãe Zíbia) aparece no v2 da BV. Deslocamento de um verso atravessa o capítulo inteiro. — evidência: BV v1 = refs v1b; BV v2 = refs v1; BV v3 = refs v2; padrão se repete até v22. Provável divergência de segmentação entre o OSHB pinado e as edições das referências. Nota textual: Controles desalinhados por versificação, não por variante: KJV 12:1 e WEB 12:1 ('In the seventh year of Jehu…') correspondem ao hebraico 12:2, e o conteúdo do hebraico 12:1 aparece na KJV como 11:21 ('Seven years old was Jehoash when he began to reign'). KJV e WEB concordam entre si; por não estarem no mesmo versículo que a BV, não foram usados como evidência de sentido (regra de versificação do prompt v1.1.0). O mapeamento OSHB 12:1-22 ↔ inglês 11:21 + 12:1-21 vale para o capítulo inteiro. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0020"
+    }
+  ],
   "palavras_supridas": [
     "tinha",
     "quando começou a"
@@ -59,17 +67,13 @@
   "confianca": 0.76,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): Desalinhamento de numeração versícula: o conteúdo da BV neste v1 corresponde apenas à parte final do v1 das referências (idade de Joás). O restante do v1 das refs (sétimo ano de Jeú, 40 anos, mãe Zíbia) aparece no v2 da BV. Deslocamento de um verso atravessa o capítulo inteiro. — evidência: BV v1 = refs v1b; BV v2 = refs v1; BV v3 = refs v2; padrão se repete até v22. Provável divergência de segmentação entre o OSHB pinado e as edições das referências.",
-    "Objeção MATERIAL (revisão ER-0019): Desalinhamento de numeração versícula: o conteúdo da BV neste v1 corresponde apenas à parte final do v1 das referências (idade de Joás). O restante do v1 das refs (sétimo ano de Jeú, 40 anos, mãe Zíbia) aparece no v2 da BV. Deslocamento de um verso atravessa o capítulo inteiro. — evidência: BV v1 = refs v1b; BV v2 = refs v1; BV v3 = refs v2; padrão se repete até v22. Provável divergência de segmentação entre o OSHB pinado e as edições das referências."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.3.1",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "2Kgs.21.1-26"
   },
-  "texto_bv": "Alguém sepultou Amon em sua sepultura, no jardim de Uzá. Josias, seu filho, reinou em seu lugar.",
+  "texto_bv": "Amon foi sepultado em sua sepultura, no jardim de Uzá. Josias, seu filho, reinou em seu lugar.",
   "traducao_literal": "E sepultou-o em sua sepultura, no jardim de Uzá; e reinou Josias, seu filho, em seu lugar.",
   "termos_originais": [
     {
@@ -69,7 +69,15 @@
       "impacto_na_traducao": "Sem impacto na tradução."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "Alguém sepultou Amon em sua sepultura → Amon foi sepultado em sua sepultura",
+      "justificativa": "Objeção procedente. Evidência do original: וַיִּקְבֹּר (H6912, qal wayyiqtol 3ms) + אֹתוֹ (H853 com sufixo 3ms) — verbo ativo na 3ª pessoa do singular sem sujeito expresso no verso: construção impessoal hebraica de valor passivo ('sepultou-se-o' = 'ele foi sepultado'). Não há no TM nenhum constituinte que corresponda a 'Alguém'; o sujeito indefinido singular é adição da BV, não do original. A objeção procede: a morfologia confirma o impessoal sem agente, e KJV (baseline de sentido) e WEB concordam entre si na passiva sem agente explícito — não há variante textual em jogo. 'Alguém sepultou' afirma um agente que o hebraico deixa indeterminado; a passiva 'foi sepultado' preserva exatamente essa indeterminação. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): BV introduz sujeito explícito “Alguém” que não existe no hebraico (construção impessoal). NTLH usa passiva (“foi sepultado”), ARA plural impessoal (“o puseram”), NVIPT passiva (“foi sepultado”). A adição altera a estrutura narrativa e introduz agente não presente no original. — evidência: Hebraico: wayyiqtol impessoal 3ms sem sujeito expresso; todas as três referências evitam agente explícito. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0020"
+    }
+  ],
   "palavras_supridas": [
     "Alguém",
     "Amon"
@@ -81,16 +89,13 @@
   "confianca": 0.7,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): BV introduz sujeito explícito “Alguém” que não existe no hebraico (construção impessoal). NTLH usa passiva (“foi sepultado”), ARA plural impessoal (“o puseram”), NVIPT passiva (“foi sepultado”). A adição altera a estrutura narrativa e introduz agente não presente no original. — evidência: Hebraico: wayyiqtol impessoal 3ms sem sujeito expresso; todas as três referências evitam agente explícito."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.3.1",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "1Chr.18.1-17"
   },
-  "texto_bv": "Davi capturou dele mil carros, sete mil cavaleiros e vinte mil soldados a pé. Davi inutilizou todos os carros, mas deixou cem deles.",
+  "texto_bv": "Davi capturou dele mil carros, sete mil cavaleiros e vinte mil soldados a pé. Davi jarretou os cavalos de todos os carros, mas deixou cem carros.",
   "traducao_literal": "E capturou Davi dele mil carros, e sete mil cavaleiros, e vinte mil homens de pé; e cortou Davi todo o conjunto de carros, e deixou dele cem carros.",
   "termos_originais": [
     {
@@ -143,10 +143,18 @@
           "motivo": "Introduz narrador participante sem apoio sintático ou contextual."
         }
       ]
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "inutilizou todos os carros → jarretou os cavalos de todos os carros | deixou cem deles → deixou cem carros",
+      "justificativa": "Objeção procedente. Evidência do original: וַיְעַקֵּר דָּוִיד אֶת־כָּל־הָרֶכֶב (H6131 'jarretar' Piel wayyiqtol + H7393 'carro/carruagem') — o verbo עָקַר no Piel denota cortar os jarretes de animais (Js 11:6,9 com cavalos como objeto), de modo que o objeto real do jarretamento são os cavalos que puxam os carros, com רֶכֶב em metonímia; וַיּוֹתֵר מִמֶּנּוּ מֵאָה רָכֶב (H3498 Hifil + H3967 + H7393) — 'deixou dele cem carros', isto é, reservou cavalos para cem carros. A objeção procede: não se jarreta um carro, jarreta-se o cavalo. KJV (baseline de sentido) e WEB concordam entre si — 'chariot horses' — logo não há variante textual; NTLH/ARA/NVIPT convergem no mesmo sentido. A correção também restaura a consistência interna do cânon BV, pois o paralelo 2Sm 8:4 já traz 'jarretou os cavalos de todos os carros, mas deixou cem carros'. Os vizinhos (v.3 Hadadezer/Hadarezer, v.5 sírios de Damasco) confirmam o alinhamento de versificação dos controles. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): BV diz que Davi \"inutilizou todos os carros\" e \"deixou cem deles\"; o hebraico e as três referências indicam que foram os CAVALOS dos carros que foram aleijados, e que Davi reservou cavalos para cem carros (NTLH: \"ficou com cavalos suficientes para puxarem cem carros de guerra e aleijou os outros\"; ARA: \"jarretou todos os cavalos dos carros; porém reservou deles para cem carros\"; NVIPT: \"levou cem cavalos de carros de guerra, e aleijou todos os outros\"). — evidência: NTLH/ARA/NVIPT convergem: objeto da aleijamento = cavalos, não carros. Corrige-lo exigiria reescrever a estrutura com adição de \"cavalos\" ausente no texto BV atual — mudança de conteúdo, não de forma. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [
-    "soldados — explicita o referente humano de “homens a pé”"
+    "soldados — explicita o referente humano de “homens a pé”",
+    "cavalos"
   ],
   "ambiguidades_preservadas": [
     "A técnica física usada para inutilizar a força de carros não é nomeada na fonte; a literal conserva “cortou”."
@@ -155,16 +163,13 @@
   "confianca": 0.67,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): BV diz que Davi \"inutilizou todos os carros\" e \"deixou cem deles\"; o hebraico e as três referências indicam que foram os CAVALOS dos carros que foram aleijados, e que Davi reservou cavalos para cem carros (NTLH: \"ficou com cavalos suficientes para puxarem cem carros de guerra e aleijou os outros\"; ARA: \"jarretou todos os cavalos dos carros; porém reservou deles para cem carros\"; NVIPT: \"levou cem cavalos de carros de guerra, e aleijou todos os outros\"). — evidência: NTLH/ARA/NVIPT convergem: objeto da aleijamento = cavalos, não carros. Corrige-lo exigiria reescrever a estrutura com adição de \"cavalos\" ausente no texto BV atual — mudança de conteúdo, não de forma."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.3.1",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

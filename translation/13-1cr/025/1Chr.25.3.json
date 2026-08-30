@@ -124,6 +124,13 @@
       "escolha": "Ligar o particípio a Jedutum, o pai, e manter lira, agradecimento e louvor.",
       "justificativa": "O particípio singular masculino segue imediatamente Jedutum; os filhos estão sob sua direção.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "texto mantido — objeção improcedente",
+      "justificativa": "A BV reproduz fielmente a autoridade textual pinada: cinco nomes + numeral 'seis'. KJV e WEB — baseline de sentido e segundo controle, ambos alinhados pelo conteúdo (vizinhos v.2 Asafe, v.4 Hemã) — concordam entre si e com o TM, trazendo os mesmos cinco nomes e 'six'. NTLH e NVIPT seguem a LXX e alguns manuscritos hebraicos que suprem 'Simei' para harmonizar a soma; é emenda versional, não leitura do TM. A leitura difícil do TM é internamente coerente: Simei aparece em 1Cr 25.17 como cabeça da décima sorte, e o numeral 'seis' do v.3 já o pressupõe na contagem dos filhos de Jedutum. Adicionar 'Simei' ou alterar o numeral importaria leitura não atestada na base pinada, o que o pipeline veda. A BV está correta; a objeção parte das versões, não do original. Evidência do original: גְּדַלְיָהוּ (H1436), וּצְרִי (H6874), וִישַׁעְיָהוּ (H3470), חֲשַׁבְיָהוּ (H2811), וּמַתִּתְיָהוּ (H4993), שִׁשָּׁה (H8337) — o TM pinado (OSHB/WLC) traz exatamente cinco nomes seguidos do numeral 'seis'; שִׁמְעִי (H8096, Simei) não consta em termos_originais deste versículo. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O texto lista cinco nomes (Gedalias, Zeri, Isaías, Hasabias, Matitias) mas diz \"seis\". NTLH e NVIPT incluem \"Simei\" como sexto nome; ARA também omite Simei e mantém \"seis\". — evidência: Variante textual: o TM (base do OSHB) traz apenas cinco nomes com o numeral \"seis\"; LXX e alguns MSS hebraicos incluem Simei. Qualquer correção — adicionar nome ou alterar numeral — exige mudança de conteúdo, não de forma. Nota textual: Variante conhecida: LXX (Σεμεϊ) e alguns MSS hebraicos inserem Simei como sexto nome; o TM tem apenas cinco nomes com o numeral 'seis'. KJV (TR/Ben Chayyim) e WEB (base crítica) coincidem aqui com o TM — a divergência é apenas das versões pt que adotam a emenda, não entre os controles. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [
@@ -136,16 +143,13 @@
   "confianca": 0.54,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O texto lista cinco nomes (Gedalias, Zeri, Isaías, Hasabias, Matitias) mas diz \"seis\". NTLH e NVIPT incluem \"Simei\" como sexto nome; ARA também omite Simei e mantém \"seis\". — evidência: Variante textual: o TM (base do OSHB) traz apenas cinco nomes com o numeral \"seis\"; LXX e alguns MSS hebraicos incluem Simei. Qualquer correção — adicionar nome ou alterar numeral — exige mudança de conteúdo, não de forma."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.3.1",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
