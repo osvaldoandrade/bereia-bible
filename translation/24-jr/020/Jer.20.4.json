@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Jer.20.1-18"
   },
-  "texto_bv": "Pois assim diz o SENHOR: \"Eis que eu farei de você um terror para si mesmo e para todos os seus amigos; eles cairão pela espada de seus inimigos, e os seus olhos verão isso. Entregarei todo o Judá na mão do rei da Babilônia, que os levará cativos para a Babilônia e os matará à espada.\"",
+  "texto_bv": "Pois assim diz o SENHOR: \"Eis que eu farei de você um terror para si mesmo e para todos os seus amigos; eles cairão pela espada dos inimigos deles, e os seus olhos verão isso. Entregarei todo o Judá na mão do rei da Babilônia, que os levará cativos para a Babilônia e os matará à espada.\"",
   "traducao_literal": "Porque assim disse o SENHOR: Eis que eu te dou para terror, para ti e para todos os teus amigos; e cairão pela espada dos inimigos deles, e teus olhos vendo; e todo o Judá darei na mão do rei da Babilônia, e os levará cativos à Babilônia, e os ferirá à espada.",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
           "motivo": "sugere entrega passiva a uma força externa, quando o sentido é 'eu farei de ti [a fonte de] terror'"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eles cairão pela espada de seus inimigos → eles cairão pela espada dos inimigos deles",
+      "justificativa": "PRO-1: 'seus' repetia o possessivo já usado para 'seus amigos' (2ª pessoa, referente a Pasur), criando ambiguidade sobre se os inimigos eram de Pasur ou dos amigos dele. 'Dos inimigos deles' desambiguiza a referência de 3ª pessoa, seguindo a solução da NTLH ('inimigos deles'). — revisão de forma sem alteração de sentido (ER-0019). Achados adjudicados: CAL-2 ('eis que') mantido — é a fórmula profética intencional (hinneh) que marca com força a declaração solene de julgamento divino; a ARA preserva a mesma fórmula ('Eis que farei de ti...'), então não é calque artificial mas dêitico funcional (ver EDITORIAL item 2 / regra dura de fórmulas intencionais). PRO-1 corrigido conforme mudança registrada acima.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -179,10 +186,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
