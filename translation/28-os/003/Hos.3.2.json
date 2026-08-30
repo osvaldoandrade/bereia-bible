@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Hos.3.1-5"
   },
-  "texto_bv": "E eu a comprei para mim por quinze peças de prata e um ômer e um letec de cevada.",
+  "texto_bv": "E eu a comprei para mim por quinze peças de prata e um hômer e um letec de cevada.",
   "traducao_literal": "E comprei-a para mim por quinze de prata, e ômer de cevada e letec de cevada.",
   "termos_originais": [
     {
@@ -90,6 +90,13 @@
           "motivo": "proibido por EDITORIAL §7"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ômer → hômer",
+      "justificativa": "Consistência de transliteração (EDITORIAL §1.4/§11): a palavra hebraica aqui é חֹמֶר (lema H2563), a mesma usada em Num.11.32, Lev.27.16 e Isa.5.10, onde a BV grafa 'hômer' com h inicial para distingui-la de עֹמֶר ('gômer', medida bem menor de Êx 16.32-33). A referência ARA também grafa 'hômer' neste mesmo verso (Hos.3.2). 'Ômer' sem h é inconsistência de transliteração dentro do próprio corpus BV. — revisão de forma sem alteração de sentido (ER-0019). Mudança puramente ortográfica/transliteração (não altera sentido nem a decisão já registrada de manter as medidas antigas no texto, conforme EDITORIAL §7): apenas alinha a grafia de חֹמֶר com o padrão já fixado em outros livros e com a referência ARA para este mesmo verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -103,10 +110,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
