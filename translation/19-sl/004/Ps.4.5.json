@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Ps.4.1-9"
   },
-  "texto_bv": "Tremam, e não pequem; falem no coração de vocês, em sua cama, e fiquem quietos. Selá.",
+  "texto_bv": "Tremam, e não pequem; reflitam no coração de vocês, em sua cama, e fiquem quietos. Selá.",
   "traducao_literal": "Tremei e não pequeis; dizei no coração de vocês, sobre a cama de vocês, e calai-vos. Selá.",
   "termos_originais": [
     {
@@ -68,6 +68,13 @@
           "motivo": "depende da LXX/citação neotestamentária, não do valor lexical hebraico direto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "falem → reflitam",
+      "justificativa": "Naturalidade pt-BR (§1.1/§1.4): o hebraico אמרו בלבב (“dizei no coração”) é idiomático para meditação silenciosa interna, não fala audível. “Falem no coração” soa literal demais em pt-BR; “reflitam” capta o sentido idiomático e alinha com NTLH (“examinem a sua própria consciência”) e NVIPT (“reflitam”). — revisão de forma sem alteração de sentido (ER-0019). A expressão “falar no coração” não é idiomática em pt-BR para meditação silenciosa. NTLH verte como “examinem a sua própria consciência” e NVIPT como “reflitam”; “reflitam” preserva o sentido de deliberação interna com naturalidade contemporânea.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -81,10 +88,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
