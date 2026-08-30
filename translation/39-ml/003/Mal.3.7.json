@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Mal.3.1-24"
   },
-  "texto_bv": "Desde os dias dos seus pais vocês se desviaram dos meus estatutos e não os guardaram. Voltem para mim, e eu voltarei para vocês, diz o SENHOR dos Exércitos. Mas vocês dizem: \"Em que devemos voltar?\"",
+  "texto_bv": "Desde os dias dos seus pais vocês se desviaram dos meus estatutos e não os guardaram. Voltem para mim, e eu voltarei para vocês, diz o SENHOR dos Exércitos. Mas vocês dizem: “Em que devemos voltar?”",
   "traducao_literal": "Desde os dias de seus pais vocês se desviaram dos meus estatutos e não guardaram. Voltem a mim, e eu voltarei a vocês — disse SENHOR dos Exércitos. E vocês disseram: Em que voltaremos?",
   "termos_originais": [
     {
@@ -92,7 +92,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas vocês dizem: \"Em que devemos voltar?\" → Mas vocês dizem: “Em que devemos voltar?”",
+      "justificativa": "EDITORIAL §5 / ER-0004: discurso direto com aspas duplas curvas; o DRAFT trazia aspas retas. — revisão de forma sem alteração de sentido (ER-0019). Fora da tipografia das aspas, o verso converge com NVIPT ('Desde o tempo dos seus antepassados... Voltem para mim e eu voltarei para vocês'); paradigma você/vocês já conforme §3/D-0003.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Chamado ao arrependimento com promessa recíproca ('voltem... e eu voltarei'), seguido pela primeira das réplicas retóricas do povo que estruturam o restante do capítulo.",
@@ -102,10 +110,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
