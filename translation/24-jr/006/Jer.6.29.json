@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Jer.6.1-30"
   },
-  "texto_bv": "O fole sopra furiosamente; o chumbo é consumido pelo fogo; em vão o fundidor continua a refinar, pois os maus não são separados.",
+  "texto_bv": "O fole sopra furiosamente; o chumbo se consome no fogo; em vão o fundidor continua a refinar, pois os maus não são separados.",
   "traducao_literal": "Ficou-abrasado fole, do-seu-fogo chumbo; em-vão refinar refinou, e-maus não foram-arrancados.",
   "termos_originais": [
     {
@@ -73,6 +73,13 @@
           "motivo": "o packet não oferece campo de aparato para este item; optou-se por leitura coerente ao invés de lacuna"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o chumbo é consumido pelo fogo → o chumbo se consome no fogo",
+      "justificativa": "Passiva desnecessária (PAS-1; EDITORIAL — cheque-sempre item 6, “passivas desnecessárias onde o português pede ativa”): ‘é consumido pelo fogo’ convertido para reflexivo de voz média, mais idiomático em pt-BR contemporâneo e alinhado a ARA (‘o chumbo se consumiu com o fogo’). Sentido preservado integralmente; traducao_literal não é alterada. — revisão de forma sem alteração de sentido (ER-0019). A segunda passiva flagrada por PAS-1 (“os maus não são separados”) foi mantida: é construção natural e corrente em pt-BR, também presente na NVIPT (“os ímpios não são expurgados”); após a correção da primeira passiva, não há mais sobrecarga (< 2 passivas). RAT-1 (proporção alta, 2.30) reflete a natureza telegráfica e elíptica do literal poético (“Ficou-abrasado fole, do-seu-fogo chumbo”), sem defeito de forma; a leitura “sopra furiosamente” é apoiada pela NVIPT (“O fole sopra com força”), tradição interpretativa distinta de ARA (“se queimou”) para a mesma raiz hebraica ambígua — decisão de conteúdo já fixada no DRAFT, fora do escopo desta revisão de forma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -86,10 +93,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
