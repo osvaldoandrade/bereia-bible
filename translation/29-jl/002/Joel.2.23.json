@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Joel.2.1-27"
   },
-  "texto_bv": "E vocês, filhos de Sião, regozijem-se e alegrem-se no SENHOR, Deus de vocês, porque ele lhes deu a chuva de outono em justa medida; e fez descer para vocês chuva — a de outono e a de primavera — como antes.",
+  "texto_bv": "E vocês, filhos de Sião, regozijem-se e alegrem-se no SENHOR, Deus de vocês, porque ele lhes deu a chuva de outono em justa medida. E fez descer para vocês chuva — a de outono e a de primavera — como antes.",
   "traducao_literal": "E filhos de Sião, regozijai-vos e alegrai-vos no SENHOR, Deus de vocês; porque deu para vocês o moreh, para justiça; e fez descer para vocês chuva, moreh e malqosh, no primeiro [tempo].",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
           "motivo": "o contexto imediato (chuva de outono e de primavera) apoia fortemente o sentido meteorológico; a leitura messiânica depende de tradição de recepção posterior, não da sintaxe"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "em justa medida; e fez descer → em justa medida. E fez descer",
+      "justificativa": "Achado LEN-1 (sentença de 41 palavras, §1.3): divisão no ponto-e-vírgula já existente, sem perda sintática nem adição de conteúdo, reduzindo a maior oração resultante para 24 palavras. — revisão de forma sem alteração de sentido (ER-0019). Achado RED-1 ('chuva outono') é fidelidade, não defeito: a traducao_literal mostra o hebraico repetindo o termo 'moreh' (chuva de outono) — uma vez isolado, depois emparelhado com 'malqosh' (chuva de primavera) — e as três referências reproduzem a mesma repetição ('chuva'/'temporã' duas vezes na ARA; 'chuvas de outono' duas vezes na NVIPT), confirmando que o padrão pertence ao original (EDITORIAL item 4: repetir o que o original repete é fidelidade). Mantida a repetição; achado LEN-1 endereçado via divisão de sentença (ver mudanças).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -126,10 +133,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
