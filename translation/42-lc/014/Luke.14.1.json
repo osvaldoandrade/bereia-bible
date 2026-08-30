@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Luke.14.1-35"
   },
-  "texto_bv": "Aconteceu que, ao entrar ele num sábado na casa de um dos líderes dos fariseus para comer, eles o observavam atentamente.",
+  "texto_bv": "Ao entrar ele num sábado na casa de um dos líderes dos fariseus para comer, eles o observavam atentamente.",
   "traducao_literal": "E aconteceu, ao entrar ele na casa de um dos chefes dos fariseus, em sábado, para comer pão, que eles estavam observando-o.",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
           "motivo": "soa artificial em português contemporâneo fora de contexto ritual explícito"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Aconteceu que, ao entrar ele num sábado na casa de um dos líderes dos fariseus para comer, eles o observavam atentamente. → Ao entrar ele num sábado na casa de um dos líderes dos fariseus para comer, eles o observavam atentamente.",
+      "justificativa": "CAL-1: calque paratático \"Aconteceu que\" (καὶ ἐγένετο) normalizado (EDITORIAL §6.2/ER-0013). NTLH, ARA e NVIPT convergem em dispensar a fórmula introdutória, recastando com particípio/gerúndio; tratamento consistente com o já aplicado ao mesmo calque em Lc 1.41, Lc 6.1, Lc 6.12 e Mt 9.10. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-1 confirmado e corrigido: as três referências dispensam \"aconteceu que\" nesta abertura de cena, e a remoção não altera o sentido da oração temporal.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -139,10 +146,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

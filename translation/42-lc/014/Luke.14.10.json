@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Luke.14.1-35"
   },
-  "texto_bv": "Mas, quando você for convidado, vá e sente-se no último lugar, para que, quando vier aquele que o convidou, lhe diga: \"Amigo, suba mais para cima\"; então você terá honra diante de todos os que estão à mesa com você.",
+  "texto_bv": "Mas, quando você for convidado, vá e sente-se no último lugar, para que, quando vier aquele que o convidou, lhe diga: \"Amigo, suba mais para cima.\" Então você terá honra diante de todos os que estão à mesa com você.",
   "traducao_literal": "Mas, quando fores convidado, indo, reclina-te no último lugar, para que, quando vier o que te convidou, te diga: Amigo, sobe mais acima; então te será glória diante de todos os que estão reclinados contigo.",
   "termos_originais": [
     {
@@ -168,6 +168,13 @@
           "motivo": "δόξα é polissêmico; forçar glosa única apagaria a distinção contextual entre honra social e glória divina"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas, quando você for convidado, vá e sente-se no último lugar, para que, quando vier aquele que o convidou, lhe diga: \"Amigo, suba mais para cima\"; então você terá honra diante de todos os que estão à mesa com você. → Mas, quando você for convidado, vá e sente-se no último lugar, para que, quando vier aquele que o convidou, lhe diga: \"Amigo, suba mais para cima.\" Então você terá honra diante de todos os que estão à mesa com você.",
+      "justificativa": "LEN-1 (41 palavras, EDITORIAL §1.3): sentença dividida em duas após a fala citada (\"...para cima.\"); a oração final (\"então você terá honra...\") passa a sentença independente, sem perda sintática nem semântica. Divisão análoga à já presente na ARA no mesmo ponto (\"...para cima. Então terás honra...\"). — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 confirmado e corrigido por divisão em ponto final, sem reformulação lexical; a ARA já apresenta a mesma quebra de sentença neste verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -179,10 +186,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
