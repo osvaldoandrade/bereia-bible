@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Nah.3.1-19"
   },
-  "texto_bv": "E acontecerá que todo aquele que vir você fugirá de você e dirá: \"Nínive está destruída! Quem a lamentará?\" De onde buscarei consoladores para você?",
+  "texto_bv": "E acontecerá que todo aquele que vir você fugirá de você e dirá: “Nínive está destruída! Quem a lamentará?” De onde buscarei consoladores para você?",
   "traducao_literal": "E será: todo o que te vir fugirá de ti, e dirá: \"Destruída está Nínive; quem se lamentará por ela?\" De onde buscarei para ti consoladores?",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
           "motivo": "também gramaticalmente possível no hebraico (retórica de apóstrofe), mas menos econômica; preservada como ambiguidade"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"Nínive está destruída! Quem a lamentará?\" → “Nínive está destruída! Quem a lamentará?”",
+      "justificativa": "EDITORIAL §5: discurso direto usa aspas duplas curvas (“ ”); o digest trazia aspas retas (\" \") nesta citação isolada do capítulo. — revisão de forma sem alteração de sentido (ER-0019). Corrigido apenas o glifo das aspas (reta→curva, §5). Quanto a ‘E acontecerá que’ (calque de וְהָיָה, fórmula profundamente formular de consequência em textos proféticos): NTLH/NVIPT omitem, mas ARA preserva estrutura análoga (‘E há de ser’); não é calque morto/artificial em português contemporâneo e marca a transição retórica com força — mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -111,10 +118,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
