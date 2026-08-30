@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Dan.12.1-13"
   },
-  "texto_bv": "E eu ouvi o homem vestido de linho, que estava acima das águas do rio, quando levantou a mão direita e a mão esquerda ao céu e jurou por aquele que vive eternamente: \"Será por um tempo, tempos e metade de um tempo; e, quando se acabar de despedaçar o poder do povo santo, todas estas coisas se cumprirão.\"",
+  "texto_bv": "E eu ouvi o homem vestido de linho, que estava acima das águas do rio, quando levantou a mão direita e a mão esquerda ao céu e jurou por aquele que vive eternamente: \"Será por um tempo, tempos e metade de um tempo. Quando se acabar de despedaçar o poder do povo santo, todas estas coisas se cumprirão.\"",
   "traducao_literal": "E ouvi eu o homem, vestido dos linhos, que por cima das águas do rio, e levantou a sua direita e a sua esquerda aos céus e jurou pelo que vive eternamente: que para tempo, tempos e metade, e ao se acabar de despedaçar a mão do povo santo, se cumprirão todas estas coisas.",
   "termos_originais": [
     {
@@ -191,6 +191,13 @@
       "escolha": "'um tempo, tempos e metade de um tempo'",
       "justificativa": "Tradução padrão e transparente da fórmula numérica hebraica (singular, plural, e metade), preservando a ambiguidade proposital sobre a duração exata.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Será por um tempo, tempos e metade de um tempo; e, quando se acabar de despedaçar o poder do povo santo, todas estas coisas se cumprirão. → Será por um tempo, tempos e metade de um tempo. Quando se acabar de despedaçar o poder do povo santo, todas estas coisas se cumprirão.",
+      "justificativa": "LEN-1: sentença de 59 palavras (§1.3). Dividido o ';  e, quando' em '. Quando', exatamente no ponto em que ARA ('...metade de um tempo. E quando tiverem acabado...') e NVIPT ('...tempo, tempos e meio tempo. Quando o poder...') também segmentam em duas orações independentes, sem perda sintática nem adição de sentido. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 (59 palavras): dividida a sentença no ponto de junção 'tempo; e, quando' → 'tempo. Quando', local onde ARA e NVIPT independentemente também quebram a frase em duas orações, confirmando que a divisão não força a sintaxe nem altera o sentido. O trecho de enquadramento ('E eu ouvi o homem... jurou... eternamente:') não pôde ser dividido por preceder discurso direto introduzido por dois-pontos (EDITORIAL §5).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -206,10 +213,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
