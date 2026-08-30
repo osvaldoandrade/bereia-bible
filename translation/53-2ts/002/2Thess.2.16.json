@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "2Thess.2.1-17"
   },
-  "texto_bv": "Que o próprio Senhor nosso Jesus Cristo, e Deus, nosso Pai, que nos amou e nos deu, pela graça, consolo eterno e boa esperança,",
+  "texto_bv": "Que nosso próprio Senhor Jesus Cristo, e Deus, nosso Pai, que nos amou e nos deu, pela graça, consolo eterno e boa esperança,",
   "traducao_literal": "O próprio, porém, Senhor de nós, Jesus Cristo, e Deus o Pai de nós, o tendo amado a nós e tendo dado consolação eterna e esperança boa em graça,",
   "termos_originais": [
     {
@@ -159,6 +159,13 @@
           "motivo": "desloca para admoestação, sentido secundário menos apropriado ao contexto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Que o próprio Senhor nosso Jesus Cristo, → Que nosso próprio Senhor Jesus Cristo,",
+      "justificativa": "Ordem 'Senhor nosso' é calque da ordem grega (Κύριος ἡμῶν) mantida na traducao_literal ('Senhor de nós'); no texto publicado soa artificial e é INCONSISTENTE com a ordem natural 'nosso Senhor Jesus Cristo' usada no restante do capítulo (2.1 e 2.14, mesma expressão) — normalizado por consistência lexical intra-capítulo (EDITORIAL §1.4) e naturalidade (§1.1), sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). Reordenação puramente formal para uniformizar com 2.1/2.14, onde a mesma expressão grega já aparece na ordem natural 'nosso Senhor Jesus Cristo'; a traducao_literal preserva a ordem original do grego, conforme ER-0013.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -172,10 +179,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
