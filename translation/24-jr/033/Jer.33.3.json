@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Jer.33.1-26"
   },
-  "texto_bv": "Clama a mim, e eu te responderei, e te contarei coisas grandes e ocultas que tu não conheces.",
+  "texto_bv": "Clame a mim, e eu lhe responderei, e lhe contarei coisas grandes e ocultas que você não conhece.",
   "traducao_literal": "Clama a-mim, e-responderei-te, e-anunciarei a-ti coisas-grandes e-fortificadas, não conheceste-as.",
   "termos_originais": [
     {
@@ -81,6 +81,13 @@
       "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): o verso emprega \"te\" (2.ª pessoa: \"te responderei\", \"te contarei\"); o pronome \"você\" cria paradigma misto dentro do mesmo verso. Normalizado para \"tu\" com conjugação correspondente (\"conheces\"), coerente com o \"te\" já presente. Discurso Deus→humano emprega você/vocês no capítulo, mas aqui o \"te\" já instalado exige consistência interna do verso. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Clama → Clame | eu te responderei → eu lhe responderei | te contarei → lhe contarei | tu não conheces → você não conhece",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003): discurso Deus→humano (Jeremias) usa você/vocês, não tu. Imperativo tu \"Clama\" → você \"Clame\". | Normalização do paradigma de 2ª pessoa (§3/D-0003): pronome oblíquo tu \"te\" → você \"lhe\". | Normalização do paradigma de 2ª pessoa (§3/D-0003): pronome oblíquo tu \"te\" → você \"lhe\". | Normalização do paradigma de 2ª pessoa (§3/D-0003): pronome/conjugação tu \"tu não conheces\" → você \"você não conhece\". — revisão de forma sem alteração de sentido (ER-0019). Achado RAT-1 (ratio 2.00) é falso positivo por expansão natural da literal telegráfica. Mais relevante: este verso é o único do capítulo em que Deus se dirige a Jeremias usando o paradigma tu/te; em Jer.33.24, a mesma situação de fala (Deus→Jeremias, 2ª singular) já emprega você (\"Você não viu...\"). Isso cria paradigma misto dentro do mesmo tipo de discurso — item 10 do prompt canônico exige normalização coerente. NTLH (\"se você me chamar... que você não conhece\") e NVIPT (\"Clame a mim... que você não conhece\") confirmam você; apenas ARA preserva tu (tradição Almeida). Normalizado para você/lhe, alinhando com Jer.33.24 e com D-0003.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -92,10 +99,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
