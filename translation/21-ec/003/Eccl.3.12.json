@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Eccl.3.1-22"
   },
-  "texto_bv": "Sei que não há nada bom para o homem, senão alegrar-se e fazer o bem em sua vida.",
+  "texto_bv": "Sei que não há nada melhor para o homem do que alegrar-se e fazer o bem em sua vida.",
   "traducao_literal": "Sei que não há bem neles, senão alegrar-se e fazer o bem em sua vida.",
   "termos_originais": [
     {
@@ -84,6 +84,13 @@
           "motivo": "soaria como erro de concordância em português, não como estilo intencional"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "não há nada bom para o homem, senão alegrar-se e fazer o bem em sua vida → não há nada melhor para o homem do que alegrar-se e fazer o bem em sua vida",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): a mesma construção idiomática hebraica (literalmente 'não há bem, senão...', confirmada pela traducao_literal deste verso e de Eccl.3.22) recebe em 3.22 a solução 'não há nada melhor... do que' na própria BV. ARA e NVIPT também usam 'melhor' nos dois versos. Normalizado 3.12 para 'melhor'/'do que', alinhando com 3.22 e com as referências. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -97,10 +104,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
