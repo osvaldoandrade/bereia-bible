@@ -79,6 +79,13 @@
       "justificativa": "PAS-1: as duas construções passivas (“será quebrada”, “será enxaguado”) são naturais neste contexto legal-instrucional, onde o agente da ação é genérico. NTLH/ARA/NVIPT também empregam passivas no mesmo trecho (“deverá ser quebrado”/“será quebrada”/“será lavado”). Não há agente claro que justifique voz ativa. (ER-0019 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "texto mantido — objeção improcedente",
+      "justificativa": "A objeção bloqueava uma conversão passiva→ativa cogitada na revisão editorial (marcador PAS-1), que exigiria suprir um agente ('quem quebra? quem enxagua?') inexistente no original. O diagnóstico linguístico da objeção está correto, mas nenhuma mudança procede: o texto publicado da BV nunca sofreu essa conversão — 'será quebrada' e 'será enxaguado' preservam exatamente as duas formas Nifal impessoais do hebraico, alinhadas à traducao_literal, à KJV ('shall be broken … shall be rinsed in water', baseline de sentido) e à WEB ('shall be broken; … shall be rinsed in water'). Controles conferidos pelo conteúdo contra os vizinhos 11 e 13: mesmo versículo, sem deslocamento. A passiva impessoal permanece; a objeção é encerrada sem alteração do texto. Evidência do original: יִשָּׁבֵר (H7665, HVNi3ms — Nifal imperfeito 3ms, 'será quebrado') e יִשָּׁטֵף (H7857, HVNi3ms — Nifal imperfeito 3ms, 'será enxaguado'): duas passivas impessoais, sem agente codificado no hebraico. A morfologia Nifal é a voz passiva do original, não uma escolha estilística da tradução. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): Conversão de passivas para ativa exigiria especificar agente (quem quebra? quem enxagua?) não presente no original hebraico, que emprega passiva impessoal típica de texto prescritivo. — evidência: traducao_literal: 'será quebrado... será enxaguado' — sem sujeito agente explícito; adição de sujeito (3ª pessoa plural indeterminada ou 2ª pessoa) alteraria sentido ao introduzir agente não codificado. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [],
@@ -87,16 +94,13 @@
   "confianca": 0.79,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): Conversão de passivas para ativa exigiria especificar agente (quem quebra? quem enxagua?) não presente no original hebraico, que emprega passiva impessoal típica de texto prescritivo. — evidência: traducao_literal: 'será quebrado... será enxaguado' — sem sujeito agente explícito; adição de sujeito (3ª pessoa plural indeterminada ou 2ª pessoa) alteraria sentido ao introduzir agente não codificado."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.3.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

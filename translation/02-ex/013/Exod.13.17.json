@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Exod.13.1-22"
   },
-  "texto_bv": "Quando Faraó deixou ir o povo, Deus não os levou pelo caminho da terra dos filisteus, que estava mais perto; porque Deus disse: Para que o povo não se arrependa, vendo a guerra, e volte ao Egito.",
+  "texto_bv": "Quando Faraó deixou ir o povo, Deus não os levou pelo caminho da terra dos filisteus, embora fosse mais perto; porque Deus disse: Para que o povo não se arrependa, vendo a guerra, e volte ao Egito.",
   "traducao_literal": "E aconteceu, quando deixou ir Faraó o povo, que não os guiou Deus pelo caminho da terra dos filisteus, porque perto ele; porque disse Deus: Para que não se arrependa o povo no seu ver guerra, e voltem ao Egito.",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
       "justificativa": "Normalização de calque paratático (§6.2/ER-0013, CAL-1): 'E aconteceu que' é tradução servil de וַיְהִי כִי; aspecto temporal preservado por 'Quando'. Contribui para LEN-1 (41→37 palavras). | Remoção de arcaísmo (§1.2, ARC-1): 'porventura' é funcionalmente morto em pt-BR contemporâneo; sentido preventivo ('para que...não') já expresso pela construção sem o advérbio. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "que estava mais perto → embora fosse mais perto",
+      "justificativa": "Objeção procedente. Evidência do original: כִּי קָרוֹב הוּא — כִּי (H3588, HC: conjunção subordinativa, jamais pronome relativo) + קָרוֹב (H7138, adjetivo 'perto') + הוּא (H1931). A morfologia exclui a leitura relativa: só אֲשֶׁר introduziria 'que estava mais perto'. O valor concessivo de כִּי é bem atestado e é a leitura de ambos os controles ingleses. A objeção procede: a BV era a única a dissolver a conjunção em oração relativa, apagando a relação lógica que o original codifica. KJV e WEB concordam entre si ('although that was near') — não há variante textual em jogo; a divergência é puramente de tradução da conjunção. A traducao_literal ('porque perto ele') registra a leitura causal do tradutor original e permanece intocada; no texto publicado prevalece o baseline concessivo da KJV, confirmado pela WEB e pelas três referências pt-BR. Alinhamento de versificação conferido pelo conteúdo dos vizinhos (v16 sinal na mão/frontais; v18 deserto do mar Vermelho). Objeções fechadas: Objeção MATERIAL (revisão ER-0019): 'que estava mais perto' traduz o hebraico כִּי קָרוֹב הוּא como oração relativa, mas o original tem valor concessivo ('embora fosse mais perto'); a correção exigiria inserção de marcador concessivo (mudança de relação lógica, não apenas de forma) — evidência: NTLH 'embora fosse o mais curto', ARA 'se bem que fosse mais perto', NVIPT 'embora este fosse o caminho mais curto' — todas as três referências explicitam a concessão; BV é a única que mantém relativa (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [],
@@ -147,16 +154,13 @@
   "confianca": 0.76,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): 'que estava mais perto' traduz o hebraico כִּי קָרוֹב הוּא como oração relativa, mas o original tem valor concessivo ('embora fosse mais perto'); a correção exigiria inserção de marcador concessivo (mudança de relação lógica, não apenas de forma) — evidência: NTLH 'embora fosse o mais curto', ARA 'se bem que fosse mais perto', NVIPT 'embora este fosse o caminho mais curto' — todas as três referências explicitam a concessão; BV é a única que mantém relativa"
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.3.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
