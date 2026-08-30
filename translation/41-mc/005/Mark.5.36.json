@@ -7,7 +7,7 @@
     "versiculo": 36,
     "pericope": "Mark.5.1-43"
   },
-  "texto_bv": "Mas Jesus, ouvindo o que fora dito, disse ao chefe da sinagoga: “Não tenha medo; apenas creia.”",
+  "texto_bv": "Mas Jesus, ouvindo o que tinha sido dito, disse ao chefe da sinagoga: “Não tenha medo; apenas creia.”",
   "traducao_literal": "Jesus, porém, tendo ouvido a palavra sendo falada, diz ao chefe de sinagoga: Não temas, somente crê.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
           "motivo": "sentido também atestado do lexema, mas menos coerente com a resposta imediata e compassiva de Jesus ao chefe da sinagoga; mantido como leitura alternativa possível, não como erro"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ouvindo o que fora dito, disse ao chefe da sinagoga: → ouvindo o que tinha sido dito, disse ao chefe da sinagoga:",
+      "justificativa": "Mais-que-perfeito sintético ('fora dito') é arcaísmo funcionalmente morto (EDITORIAL §1.2-tabela); nenhuma das três referências o emprega nesta cláusula. — revisão de forma sem alteração de sentido (ER-0019). Nenhuma das três referências emprega o mais-que-perfeito sintético aqui (NTLH parafraseia, ARA usa particípio, NVIPT usa pretérito simples); 'fora dito' é a mesma classe de arcaísmo de EDITORIAL §1.2 ('fizera/nascera/viera'). Normalizado para 'tinha sido dito' no texto publicado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -106,10 +113,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

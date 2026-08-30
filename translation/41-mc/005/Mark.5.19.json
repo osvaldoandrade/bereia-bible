@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Mark.5.1-43"
   },
-  "texto_bv": "Mas ele não permitiu, e lhe disse: “Vá para casa, para os seus, e anuncie a eles quanto o Senhor tem feito por você e como teve misericórdia de você.”",
+  "texto_bv": "Mas Jesus não permitiu, e lhe disse: “Vá para casa, para os seus, e anuncie a eles quanto o Senhor tem feito por você e como teve misericórdia de você.”",
   "traducao_literal": "E não permitiu a ele, mas diz a ele: Vai para a tua casa, para os teus, e anuncia a eles quantas coisas o Senhor te fez e teve misericórdia de ti.",
   "termos_originais": [
     {
@@ -142,7 +142,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas ele não permitiu, e lhe disse: → Mas Jesus não permitiu, e lhe disse:",
+      "justificativa": "Achado PRO-1: 'ele' inicial compete com o antecedente mais próximo ('o que tinha sido endemoninhado', sujeito da oração anterior); NTLH/ARA/NVIPT convergem em nomear 'Jesus' neste ponto (item 5, referência pronominal inequívoca). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (4 pronomes de 3ª pessoa) confirmado no pronome inicial 'ele', que concorre com o antecedente mais próximo ('o que tinha sido endemoninhado'). NTLH, ARA e NVIPT convergem em nomear explicitamente 'Jesus' neste ponto; adotada a mesma solução para eliminar a ambiguidade (item 5), sem alterar o sentido. Os demais pronomes ('lhe', 'seus', 'a eles') permanecem, pois seus antecedentes são inequívocos no próprio verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "ὁ Κύριος pode apontar tanto para Jesus (confirmado retrospectivamente por 5:20, que identifica 'ὁ Ἰησοῦς' fazendo o mesmo relato) quanto ecoar, no ouvido do leitor, o título usado para YHWH no AT grego — a BV mantém 'Senhor', preservando a ambiguidade cristológica sem decidi-la no texto"
@@ -154,10 +162,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
