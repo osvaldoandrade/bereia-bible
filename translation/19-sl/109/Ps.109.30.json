@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Ps.109.1-31"
   },
-  "texto_bv": "Darei muitas graças ao SENHOR com a minha boca; louvá-lo-ei em meio à multidão.",
+  "texto_bv": "Darei muitas graças ao SENHOR com a minha boca; eu o louvarei em meio à multidão.",
   "traducao_literal": "Darei graças ao SENHOR muito com a minha boca; e no meio de muitos o louvarei.",
   "termos_originais": [
     {
@@ -47,7 +47,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "louvá-lo-ei em meio à multidão → eu o louvarei em meio à multidão",
+      "justificativa": "Mesóclise (EDITORIAL §1.2-tabela): 'louvá-lo-ei' soa artificial em pt-BR contemporâneo. Substituído por próclise com sujeito explícito ('eu o louvarei'), mantendo tempo verbal (futuro), pessoa e sentido; NVIPT confirma a forma proclítica ('eu o louvarei'). — revisão de forma sem alteração de sentido (ER-0019). Mesóclise identificada por checagem própria (não flagrada pela triagem estática): item 1 do checklist do prompt canônico exige verificar mesóclise sempre. Corrigida para próclise, alinhada à NVIPT.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Voto de louvor público, fórmula de conclusão típica do lamento individual que se resolve em ação de graças.",
@@ -57,10 +65,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
