@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Mark.15.1-47"
   },
-  "texto_bv": "Pilatos o interrogou de novo: \"Você não responde nada? Veja quantas coisas eles alegam contra você.\"",
+  "texto_bv": "Pilatos o interrogou de novo: “Você não responde nada? Veja quantas coisas eles alegam contra você.”",
   "traducao_literal": "Pilatos, porém, de novo o interrogava, dizendo: Não respondes nada? Vê quantas coisas te acusam.",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Pilatos o interrogou de novo: \"Você não responde nada? Veja quantas coisas eles alegam contra você.\" → Pilatos o interrogou de novo: “Você não responde nada? Veja quantas coisas eles alegam contra você.”",
+      "justificativa": "Aspas retas convertidas para aspas duplas curvas em discurso direto, conforme EDITORIAL §5; o digest trazia aspas retas por lapso mecânico no texto publicado. — revisão de forma sem alteração de sentido (ER-0019). NTLH e NVIPT convergem com a BV em “você”; apenas ARA usa “tu/respondes” (registro tradicional de Almeida) — consistente com D-0003, não é defeito.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "ἴδε, interjeição imperativa ('eis, vê'), vertida 'veja' para manter o registro de interpelação direta; κατηγοροῦσιν retomado como 'alegam' para evitar repetição mecânica de 'acusar' do v.3.",
@@ -92,10 +100,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
