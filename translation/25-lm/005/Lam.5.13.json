@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Lam.5.1-22"
   },
-  "texto_bv": "Os rapazes carregaram o fardo da mó; os meninos vacilaram sob a carga da lenha.",
+  "texto_bv": "Os rapazes carregaram o fardo da mó; os meninos tropeçaram sob a carga da lenha.",
   "traducao_literal": "Rapazes, moagem, carregaram; e meninos, com a lenha, tropeçaram.",
   "termos_originais": [
     {
@@ -53,6 +53,13 @@
           "motivo": "muda a estrutura verbal (נָשָׂאוּ é 'carregar', não 'moer')"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os meninos vacilaram sob a carga da lenha → os meninos tropeçaram sob a carga da lenha",
+      "justificativa": "A traducao_literal registra \"tropeçaram\", e as três referências convergem no sentido de tropeço físico (NTLH \"tropeçam\"; ARA \"tropeçaram\"; NVIPT \"cambaleiam\"). \"Vacilar\" no português contemporâneo tende ao sentido de hesitação/erro, divergindo do sentido já fixado no literal. Ajuste lexical de forma para realinhar com o literal e as referências (Regra Zero / EDITORIAL §1.4). — revisão de forma sem alteração de sentido (ER-0019). Achado RAT-1 (ratio 1.67) adjudicado: o acréscimo \"fardo da\" (antes de \"mó\") forma paralelismo sinonímico intencional com \"carga da lenha\" na segunda oração — palavra suprida para clareza (EDITORIAL §4), compatível com ARA (\"levaram a mó\"). Não configura verbosidade indevida; mantido além da correção lexical registrada em mudancas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -67,10 +74,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
