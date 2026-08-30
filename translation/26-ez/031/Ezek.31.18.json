@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Ezek.31.1-18"
   },
-  "texto_bv": "A quem te comparas assim, em glória e em grandeza, entre as árvores do Éden? Mas serás derrubado com as árvores do Éden à terra profunda; no meio dos incircuncisos jazerás, com os mortos à espada. Esse é Faraó, e toda a sua multidão — declara o Senhor DEUS.",
+  "texto_bv": "A quem você se compara assim, em glória e em grandeza, entre as árvores do Éden? Mas você será derrubado com as árvores do Éden à terra profunda; no meio dos incircuncisos você jazerá, com os mortos à espada. Esse é Faraó, e toda a sua multidão — declara o Senhor DEUS.",
   "traducao_literal": "A quem te assemelhaste assim, em glória e em grandeza, entre as árvores do Éden? E serás feito descer, com as árvores do Éden, à terra debaixo; no meio dos incircuncisos jazerás, com os traspassados da espada; ele, Faraó, e toda a sua multidão — declaração do Senhor DEUS.",
   "termos_originais": [
     {
@@ -171,6 +171,13 @@
       "justificativa": "Paradigma de 2ª pessoa: forma verbal de tu (comparas) em discurso Deus→humano onde §3/D-0003 prescreve você — evidência: 'A quem te comparas assim' — verbo na 2ª pessoa do singular (tu); §3 prescreve você para discurso divino; normalização coordenada do capítulo inteiro pendente (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "A quem te comparas assim → A quem você se compara assim | Mas serás derrubado → Mas você será derrubado | incircuncisos jazerás → incircuncisos você jazerá",
+      "justificativa": "Paradigma de 2a pessoa (par.3/D-0003): normalizacao tu->voce coerente com vv. 2 e 10 (prompt item 10); NVIPT usa voce no mesmo verso ('comparar-se a voce... voce tambem sera derrubado'). | Paradigma de 2a pessoa (par.3/D-0003): normalizacao tu->voce coerente no capitulo. | Paradigma de 2a pessoa (par.3/D-0003): normalizacao tu->voce coerente no capitulo; mantida a ordem com adjunto fronteado do original ('no meio dos incircuncisos... jazera'). — revisão de forma sem alteração de sentido (ER-0019). RED-1 ('arvores do Eden' 2x) e repeticao do proprio original (a literal traz o sintagma duas vezes) e ARA, NVIPT e NTLH tambem a repetem — fidelidade mantida (regra 4 do prompt). As mudancas aplicadas sao apenas de paradigma de 2a pessoa (tu->voce), sem tocar na repeticao formular.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -182,10 +189,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

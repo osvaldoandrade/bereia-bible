@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Ezek.31.1-18"
   },
-  "texto_bv": "Filho do homem, dize a Faraó, rei do Egito, e à sua multidão: A quem te comparas em tua grandeza?",
+  "texto_bv": "Filho do homem, diga a Faraó, rei do Egito, e à sua multidão: A quem você se compara em sua grandeza?",
   "traducao_literal": "Filho de homem, dize a Faraó, rei do Egito, e à sua multidão: A quem te assemelhaste em tua grandeza?",
   "termos_originais": [
     {
@@ -95,6 +95,13 @@
       "justificativa": "Paradigma de 2ª pessoa: forma verbal de tu (comparas) em discurso Deus→humano onde §3/D-0003 prescreve você — evidência: 'A quem te comparas em tua grandeza?' — verbo na 2ª pessoa do singular (tu); §3 prescreve você para discurso divino; normalização coordenada do capítulo inteiro pendente (tu→você não coberto pela instrução de normalização vós→você do item 10) (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dize a Faraó → diga a Faraó | A quem te comparas em tua grandeza? → A quem você se compara em sua grandeza?",
+      "justificativa": "Paradigma de 2a pessoa (EDITORIAL par.3/D-0003): discurso Deus->humano usa voce; imperativo alinhado ao bloco dos oraculos contra o Egito (Ez 29.2, 30.2, 32.2: 'profetize e diga'). NTLH e NVIPT usam 'diga'. | Paradigma de 2a pessoa (par.3/D-0003): normalizacao tu->voce coerente no capitulo inteiro (prompt item 10); Ez 29-32 ja se dirige a Farao com voce ('Eis que estou contra voce, farao', Ez 29.3; 'Voce foi comparado', Ez 32.2). NVIPT: 'Quem e comparavel a voce'. — revisão de forma sem alteração de sentido (ER-0019). O capitulo emprega o paradigma tu em discurso Deus->humano (via profeta, a Farao), onde par.3/D-0003 pede voce; os capitulos vizinhos do mesmo bloco (Ez 29, 30, 32) ja usam voce. Normalizado o capitulo inteiro (vv. 2, 10, 18). 'Farao' maiusculo mantido: convencao dominante do corpus (Exodo 115x) e da ARA.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -106,10 +113,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
