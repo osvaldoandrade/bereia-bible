@@ -7,7 +7,7 @@
     "versiculo": 36,
     "pericope": "Ezek.16.1-63"
   },
-  "texto_bv": "Assim diz o Senhor DEUS: Porque a sua lascívia foi derramada e a sua nudez foi exposta nas suas prostituições com os seus amantes, e por causa de todos os ídolos das suas abominações e do sangue dos seus filhos que você deu a eles. Por isso, ajuntarei todos os seus amantes, com quem você teve prazer, e todos os que você amou, junto com todos os que você odiou; eu os ajuntarei contra você de todos os lados, exporei a sua nudez diante deles, e eles verão toda a sua nudez.",
+  "texto_bv": "Assim diz o Senhor DEUS: Porque a sua lascívia foi derramada e a sua nudez foi exposta nas suas prostituições com os seus amantes, e por causa de todos os ídolos das suas abominações e do sangue dos seus filhos que você deu a eles;",
   "traducao_literal": "Assim disse Senhor DEUS: porque foi derramado teu bronze, e foi revelada tua nudez em tuas prostituições sobre teus amantes, e sobre todos os ídolos de tuas abominações, e como os sangues de teus filhos que deste a eles,",
   "termos_originais": [
     {
@@ -135,6 +135,13 @@
       "justificativa": "Divisão de sentença com 47 palavras (§1.3) na junção causa-consequência; remoção do calque 'eis que' (§6.2/ER-0013); substituição de 'portanto' por 'Por isso' para conexão anafórica natural na segunda frase. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e do sangue dos seus filhos que você deu a eles. Por isso, ajuntarei todos os seus amantes, com quem você teve prazer, e todos os que você amou, junto com todos os que você odiou; eu os ajuntarei contra você de todos os lados, exporei a sua nudez diante deles, e eles verão toda a sua nudez. → e do sangue dos seus filhos que você deu a eles;",
+      "justificativa": "Remoção de duplicação de conteúdo: a oração final repetia integralmente o v.37 (mesmo texto, com 'Por isso' em vez de 'Portanto'), duplicação ausente na traducao_literal (que termina em vírgula, sem essa oração) — o conteúdo pertence só ao v.37. Repetição que o original não faz é defeito (regra 4), corrigida; resolve também LEN-1 (sentença de 47 palavras) e RAT-1 (ratio 2.36). Sentido integralmente preservado (o conteúdo permanece no v.37). — revisão de forma sem alteração de sentido (ER-0019). Achados LEN-1 (sentença de 47 palavras) e RAT-1 (ratio 92/39) apontavam o mesmo problema: a oração final 'Por isso, ajuntarei todos os seus amantes... verão toda a sua nudez' duplica integralmente o conteúdo do v.37 (confirmado pela traducao_literal, que termina em vírgula, sem essa oração — ela pertence só ao v.37). Repetição que o original não faz é defeito, não fórmula (regra 4); removida, com pontuação ajustada para ponto e vírgula, preservando a continuidade sintática para o v.37. Nenhum sentido é perdido: o conteúdo permanece integralmente expresso no v.37. O PRO-1 remanescente no texto revisado é falso positivo (possessivos de 2ª pessoa, referente claro).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -146,10 +153,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
