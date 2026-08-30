@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Isa.15.1-9"
   },
-  "texto_bv": "Hesbom e Eleale gritam; até Jaas se ouve sua voz. Por isso os armados de Moabe clamam; sua alma treme dentro dele.",
+  "texto_bv": "Hesbom e Eleale gritam; até Jaas se ouve sua voz. Por isso os armados de Moabe clamam; sua alma treme dentro deles.",
   "traducao_literal": "E gritou Hesbom e Eleale; até Jaas foi ouvida voz deles; por isso os cingidos/armados de Moabe gritarão, alma dele tremeu para ele.",
   "termos_originais": [
     {
@@ -120,6 +120,13 @@
           "motivo": "agramatical/opaco em português; o dativo ético hebraico não tem equivalente sintático direto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sua alma treme dentro dele. → sua alma treme dentro deles.",
+      "justificativa": "Concordância de número: o antecedente \"os armados de Moabe\" é plural, mas o pronome \"dele\" estava no singular. ARA (\"estremece-lhes a alma\") e NVIPT (\"o coração deles treme\") usam forma plural para o mesmo referente, confirmando a inconsistência. Correção puramente gramatical (referência pronominal inequívoca), sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). Achado ausente na triagem mecânica; a divergência apareceu na comparação com as referências (concordância pronominal), motivando a correção registrada em mudancas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -131,10 +138,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
