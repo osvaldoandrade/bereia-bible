@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Rev.22.1-21"
   },
-  "texto_bv": "No meio da sua praça e do rio, de um lado e do outro, estava a árvore da vida, que produz doze frutos e dá o seu fruto a cada mês; e as folhas da árvore são para a cura das nações.",
+  "texto_bv": "No meio da sua praça e do rio, de um lado e do outro, estava a árvore da vida, que produz doze frutos e dá o seu fruto a cada mês. E as folhas da árvore são para a cura das nações.",
   "traducao_literal": "No meio da praça dela e do rio, de um lado e do outro, árvore da vida fazendo frutos doze, segundo cada mês dando o fruto dela, e as folhas da árvore para cura das nações.",
   "termos_originais": [
     {
@@ -216,6 +216,13 @@
           "motivo": "Sentido paulino estranho ao contexto da nova Jerusalém."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a cada mês; e as folhas da árvore são para a cura das nações. → a cada mês. E as folhas da árvore são para a cura das nações.",
+      "justificativa": "Divisão da sentença de 42 palavras (LEN-1/§1.3) no ponto-e-vírgula já existente, separando as duas orações independentes sem perda sintática nem adição de sentido. — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 confirmado (42 palavras). A sentença já tinha um ponto-e-vírgula demarcando duas orações independentes; convertê-lo em ponto final (com maiúscula em 'E') reduz ambas as partes a menos de 40 palavras sem alterar o conteúdo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -233,10 +240,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
