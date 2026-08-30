@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "John.5.1-47"
   },
-  "texto_bv": "Jesus, então, respondeu e lhes disse: \"Em verdade, em verdade, eu digo a vocês: o Filho não pode fazer nada de si mesmo, a não ser o que vir o Pai fazer; pois tudo o que o Pai faz, isso também o Filho faz igualmente.\"",
+  "texto_bv": "Jesus, então, respondeu e lhes disse: \"Em verdade, em verdade, eu digo a vocês: o Filho não pode fazer nada de si mesmo, a não ser o que vir o Pai fazer. Pois tudo o que o Pai faz, isso também o Filho faz igualmente.\"",
   "traducao_literal": "Respondeu, pois, Jesus e dizia-lhes: Amém, amém digo a vocês, não pode o Filho fazer de si mesmo nada, se não algo vir o Pai fazendo; pois o que quer que aquele faça, isso também o Filho igualmente faz.",
   "termos_originais": [
     {
@@ -219,6 +219,13 @@
           "motivo": "preservado na traducao_literal; no texto publicado a explicitação evita ambiguidade referencial que o português tolera pior que o grego"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fazer; pois tudo → fazer. Pois tudo",
+      "justificativa": "EDITORIAL §1.3 / achado LEN-1 (sentença de 45 palavras): divisão em duas orações no nexo lógico já presente (\"pois\"), sem remover, acrescentar ou reordenar qualquer palavra — só troca de ; por . e maiúscula inicial. — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 confirmado (45 palavras). A sentença comporta divisão natural exatamente no conectivo \"pois\", que já expressa a relação causal explicativa da oração seguinte; dividir em duas orações não altera sintaxe nem sentido, apenas legibilidade.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -230,10 +237,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
