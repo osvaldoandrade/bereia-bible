@@ -7,7 +7,7 @@
     "versiculo": 45,
     "pericope": "Luke.7.1-50"
   },
-  "texto_bv": "\"Você não me deu ósculo de saudação; mas ela, desde que entrei, não parou de beijar os meus pés.\"",
+  "texto_bv": "\"Você não me deu beijo de saudação; mas ela, desde que entrei, não parou de beijar os meus pés.\"",
   "traducao_literal": "Beijo a-mim não deste; mas esta, desde-que entrei, não cessou beijando os meus pés.",
   "termos_originais": [
     {
@@ -87,7 +87,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ósculo de saudação → beijo de saudação",
+      "justificativa": "'Ósculo' é termo latinizante pouco corrente no registro contemporâneo; NTLH ('beijou') e NVIPT ('beijo') usam a forma comum, só ARA mantém 'ósculo'. Substituído por 'beijo de saudação', preservando a colocação idiomática sem alterar o sentido (piso de naturalidade, EDITORIAL §1.1.4). — revisão de forma sem alteração de sentido (ER-0019). Sem achado da triagem, mas a comparação com as referências mostrou 2 de 3 preferindo 'beijo' a 'ósculo'; normalizado para o termo mais natural em pt-BR contemporâneo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "φίλημα (beijo de saudação, costume social da época) mantido como 'ósculo de saudação' para marcar o registro do costume; οὐ διέλειπεν καταφιλοῦσα (perífrase 'não cessava beijando') preservada como ação contínua e reiterada.",
@@ -97,10 +105,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
