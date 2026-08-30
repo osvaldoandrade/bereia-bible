@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Hos.2.1-25"
   },
-  "texto_bv": "E farei para eles, naquele dia, uma aliança com os animais do campo, com as aves do céu e os répteis da terra; e quebrarei o arco, a espada e a guerra, tirando-os da terra, e os farei repousar em segurança.",
+  "texto_bv": "E farei para eles, naquele dia, uma aliança com os animais do campo, com as aves do céu e os répteis da terra. E quebrarei o arco, a espada e a guerra, tirando-os da terra, e os farei repousar em segurança.",
   "traducao_literal": "E cortarei para eles uma aliança, naquele dia, com o animal do campo e com a ave dos céus e o réptil da terra; e arco e espada e guerra quebrarei, [tirando-os] da terra; e os farei deitar em segurança.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "escolha": "Normalizar para S-V-O no publicado (ER-0013); preservar o fronteamento triplo na traducao_literal.",
       "justificativa": "Calque de ordem enfático no hebraico (lista fronteada), soaria artificial mantido tal qual em português corrido.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "com as aves do céu e os répteis da terra; e quebrarei o arco, → com as aves do céu e os répteis da terra. E quebrarei o arco,",
+      "justificativa": "LEN-1: sentença de 42 palavras. Divisão em duas orações independentes no ponto de coordenação (;), sem perda sintática nem semântica (EDITORIAL §1.3). — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 adjudicado com a divisão indicada. As referências NTLH/ARA/NVIPT deste digest estão deslocadas em +2 versos em relação ao osis (Oseias 1-2 tem numeração hebraica/BV != numeração-padrão NTLH/ARA/NVIPT: o conteúdo das referências de Hos.2.N corresponde ao texto-padrão de Hos.2.N+2). Não usei o texto das referências para comparação lexical direta neste verso por não corresponderem ao mesmo conteúdo; avaliação feita pelas regras gerais de EDITORIAL.md.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -140,10 +147,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

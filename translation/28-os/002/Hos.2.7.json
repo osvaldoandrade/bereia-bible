@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Hos.2.1-25"
   },
-  "texto_bv": "Pois a mãe deles se prostituiu; a que os gerou agiu de modo vergonhoso; pois disse: \"Irei atrás dos meus amantes, que me dão o meu pão e a minha água, a minha lã e o meu linho, o meu azeite e a minha bebida\".",
+  "texto_bv": "Pois a mãe deles se prostituiu; a que os gerou agiu de modo vergonhoso. Pois disse: “Irei atrás dos meus amantes, que me dão o meu pão e a minha água, a minha lã e o meu linho, o meu azeite e a minha bebida”.",
   "traducao_literal": "Porque se prostituiu a mãe deles, agiu vergonhosamente a que os concebeu; porque disse: 'Irei atrás dos meus amantes, os que dão o meu pão e as minhas águas, a minha lã e o meu linho, o meu óleo e a minha bebida.'",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "sentido reflexivo mais fraco que o Hifil hebraico carrega no contexto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a que os gerou agiu de modo vergonhoso; pois disse: → a que os gerou agiu de modo vergonhoso. Pois disse:",
+      "justificativa": "LEN-1: sentença de 45 palavras. O primeiro ';' (entre as duas orações do paralelismo sinonímico “a mãe... se prostituiu / a que os gerou agiu vergonhosamente”) é mantido, preservando a fórmula paralela do original; o segundo ';' vira ponto, isolando a introdução da fala em sentença própria, sem perda sintática (EDITORIAL §1.3). — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 adjudicado com a divisão indicada; o paralelismo sinonímico das duas primeiras orações foi preservado (EDITORIAL 'cheque sempre' item 4). As referências NTLH/ARA/NVIPT deste digest estão deslocadas em +2 versos em relação ao osis (Oseias 1-2 tem numeração hebraica/BV != numeração-padrão NTLH/ARA/NVIPT: o conteúdo das referências de Hos.2.N corresponde ao texto-padrão de Hos.2.N+2). Não usei o texto das referências para comparação lexical direta neste verso por não corresponderem ao mesmo conteúdo; avaliação feita pelas regras gerais de EDITORIAL.md.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,10 +126,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
