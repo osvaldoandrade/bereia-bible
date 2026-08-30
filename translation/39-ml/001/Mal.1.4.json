@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Mal.1.1-14"
   },
-  "texto_bv": "Ainda que Edom diga: \"Fomos arruinados, mas voltaremos e reconstruiremos as ruínas\", assim diz o SENHOR dos Exércitos: \"Eles construirão, mas eu derrubarei; e chamarão a eles de território da impiedade, e de povo contra quem o SENHOR está irado para sempre.\"",
+  "texto_bv": "Ainda que Edom diga: \"Fomos arruinados, mas voltaremos e reconstruiremos as ruínas\", assim diz o SENHOR dos Exércitos: \"Eles construirão, mas eu derrubarei. E chamarão a eles de território da impiedade, e de povo contra quem o SENHOR está irado para sempre.\"",
   "traducao_literal": "Porque diz Edom: Fomos empobrecidos, mas voltaremos e edificaremos as ruínas — assim disse SENHOR dos Exércitos: Eles edificarão, e eu derrubarei; e chamarão a eles território de maldade, e o povo que se indignou SENHOR contra até eternidade.",
   "termos_originais": [
     {
@@ -173,6 +173,13 @@
       "escolha": "minúscula, sem aspas, tratando as duas descrições como aposição coordenada ao objeto de קָרְאוּ",
       "justificativa": "Mesma fórmula קרא ל de Gn 1 (ER-0012: minúscula sem aspas); aqui a nomeação é dupla (território e povo), preservada como aposição coordenada.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eles construirão, mas eu derrubarei; e chamarão a eles → Eles construirão, mas eu derrubarei. E chamarão a eles",
+      "justificativa": "LEN-1: sentença de 42 palavras. Dividida no ponto de coordenação (waw) já presente no texto — \";e\" vira \". E\" — sem perda sintática nem acréscimo de sentido (EDITORIAL §1.3). — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 (42 palavras) corrigido por divisão mecânica no limite de coordenação existente, preservando a citação e a atribuição de fala.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -184,10 +191,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
