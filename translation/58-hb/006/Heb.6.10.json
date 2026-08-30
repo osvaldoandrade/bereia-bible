@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Heb.6.1-20"
   },
-  "texto_bv": "Porque Deus não é injusto, a ponto de esquecer o trabalho de vocês e o amor que demonstraram pelo seu nome, servindo os santos, como ainda servem.",
+  "texto_bv": "Porque Deus não é injusto, a ponto de esquecer o trabalho de vocês e o amor que demonstraram pelo nome dele, servindo os santos, como ainda servem.",
   "traducao_literal": "Pois não injusto [é] Deus para esquecer o trabalho de vocês e o amor que demonstraram para o nome dele, tendo servido aos santos e servindo.",
   "termos_originais": [
     {
@@ -138,6 +138,13 @@
           "motivo": "reservado à traducao_literal; no publicado a repetição soa redundante"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o amor que demonstraram pelo seu nome → o amor que demonstraram pelo nome dele",
+      "justificativa": "Referência pronominal inequívoca (EDITORIAL cheque 5): 'seu' é ambíguo entre 'de vocês' e 'de Deus' logo após o sujeito gramatical 'vocês'. A traducao_literal já usa 'para o nome dele', e NTLH ('lhe')/NVIPT ('ele') explicitam o referente (Deus); ARA repete a ambiguidade com 'seu'. Troca de forma apenas, sem alterar o sentido já fixado na literal. — revisão de forma sem alteração de sentido (ER-0019). Correção pontual de clareza pronominal, apoiada pela traducao_literal ('para o nome dele') e por 2 das 3 referências (NTLH/NVIPT) que explicitam o referente como Deus, evitando leitura de que o louvor seria ao 'próprio nome' de vocês.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -151,10 +158,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
