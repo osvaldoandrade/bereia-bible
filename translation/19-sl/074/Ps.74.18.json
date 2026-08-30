@@ -57,7 +57,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "NTLH/ARA/NVIPT usam construção de 2ª pessoa (“te afrontou”/“zombam de ti”), enquanto a BV nomeia “o SENHOR” em 3ª pessoa; a BV preserva aqui o hebraico, que nomeia YHWH explicitamente mesmo em discurso dirigido a Deus (recurso retórico do saltério) e corresponde à traducao_literal — mudar para “ti” alteraria a política de nomes divinos, não é ajuste de forma. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Retorno ao pedido de lembrança: o inimigo escarneceu do SENHOR e um povo insensato blasfemou do seu nome. Nota-se o uso do tetragrama יְהוָה neste verso, ocorrência rara em meio ao uso predominante de אֱלֹהִים no salmo (traço do chamado 'saltério elohístico', Sl 42-83); tradução conforme ER-0002/NOMES-DIVINOS.md (YHWH → SENHOR).",
@@ -67,10 +75,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
