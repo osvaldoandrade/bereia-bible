@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Prov.25.1-28"
   },
-  "texto_bv": "pois é melhor que te digam: \"Sobe aqui\", do que seres rebaixado diante de um nobre a quem os teus olhos já viram.",
+  "texto_bv": "pois é melhor que lhe digam: \"Suba aqui\", do que ser rebaixado diante de um nobre a quem os seus olhos já viram.",
   "traducao_literal": "Porque bom dizer-te: sobe aqui, do que rebaixar-te diante de nobre que viram teus olhos.",
   "termos_originais": [
     {
@@ -83,6 +83,13 @@
           "motivo": "exigiria fundir texto de dois osis distintos, vedado pela granularidade do packet"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois é melhor que te digam: \"Sobe aqui\", do que seres rebaixado diante de um nobre a quem os teus olhos já viram. → pois é melhor que lhe digam: \"Suba aqui\", do que ser rebaixado diante de um nobre a quem os seus olhos já viram.",
+      "justificativa": "Normalização do paradigma pronominal de tu para você (§3/D-0003): te→lhe, Sobe→Suba, seres→ser, teus→seus. NVIPT já usa “Suba para cá!”, corroborando o imperativo em você. — revisão de forma sem alteração de sentido (ER-0019). A divergência estrutural com ARA/NVIPT (que anexam “o que os teus olhos viram” ao início do v.8) reflete uma tradição de versificação/interpretação diferente da adotada pela BV, não um defeito de forma; a traducao_literal confirma a segmentação atual do verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -99,10 +106,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
