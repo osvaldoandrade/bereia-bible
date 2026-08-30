@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "2Chr.29.1-36"
   },
-  "texto_bv": "Abateram os touros; os sacerdotes receberam o sangue e o aspergiram contra o altar. Abateram os carneiros e aspergiram o sangue contra o altar; abateram os cordeiros e aspergiram o sangue contra o altar.",
+  "texto_bv": "Abateram os touros; os sacerdotes receberam o sangue e o aspergiram sobre o altar. Abateram os carneiros e aspergiram o sangue sobre o altar; abateram os cordeiros e aspergiram o sangue sobre o altar.",
   "traducao_literal": "E abateram o gado, e receberam os sacerdotes o sangue, e aspergiram em direção ao altar; e abateram os carneiros, e aspergiram o sangue em direção ao altar; e abateram os cordeiros, e aspergiram o sangue em direção ao altar.",
   "termos_originais": [
     {
@@ -117,6 +117,13 @@
           "motivo": "Apagaria a repetição para carneiros e cordeiros."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e o aspergiram contra o altar → e o aspergiram sobre o altar | aspergiram o sangue contra o altar; abateram os cordeiros → aspergiram o sangue sobre o altar; abateram os cordeiros | aspergiram o sangue contra o altar. → aspergiram o sangue sobre o altar.",
+      "justificativa": "Consistência lexical com o restante do corpus (Êx 24.6; 29.16,20; Lv 1.5; 3.2,8,13; 8.19,24,30; 9.12,18; 16.19; Nm 18.17; 2Rs 16.13), que usa sempre “sobre o altar” para o gesto ritual de aspersão de sangue; Lv.3.2 registra decisão explícita rejeitando o sentido adversativo de “contra”. ARA/NVIPT também usam “sobre”. Gesto ritual preservado (sangue aplicado ao altar); apenas a preposição muda. | Mesma correção de consistência lexical da preposição (ver 1/3), segunda ocorrência do verso (carneiros). | Mesma correção de consistência lexical da preposição (ver 1/3), terceira ocorrência do verso (cordeiros). — revisão de forma sem alteração de sentido (ER-0019). RED-1 sinaliza os três segmentos paralelos “abateram X e aspergiram o sangue ... o altar”; a traducao_literal repete a mesma estrutura 3× (touros/carneiros/cordeiros), refletindo paralelismo intencional do hebraico — mantido por fidelidade (regra 4). A única correção aplicada foi a preposição “contra”→“sobre”, por consistência lexical com o resto do corpus e com ARA/NVIPT.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -132,10 +139,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
