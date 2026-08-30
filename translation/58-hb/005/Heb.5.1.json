@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Heb.5.1-14"
   },
-  "texto_bv": "Pois todo sumo sacerdote, tomado dentre os homens, é constituído em favor dos homens naquilo que se refere a Deus, para que ofereça ofertas e sacrifícios pelos pecados,",
+  "texto_bv": "Pois todo sumo sacerdote, tomado dentre os homens, é constituído em favor dos homens naquilo que se refere a Deus, para que ofereça dons e sacrifícios pelos pecados,",
   "traducao_literal": "Todo pois sumo-sacerdote dentre homens sendo-tomado em-favor-de homens é-constituído as-coisas-para-o Deus, para-que ofereça dons e-também sacrifícios por pecados,",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
           "motivo": "soa arcaico e ambíguo em português contemporâneo"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ofereça ofertas e sacrifícios pelos pecados → ofereça dons e sacrifícios pelos pecados",
+      "justificativa": "Consistência lexical intra-livro (EDITORIAL §1.4): o mesmo grego δῶρά τε καὶ θυσίας é vertido 'dons e sacrifícios' em Heb.8.3 e Heb.9.9; a BV usava 'ofertas' apenas neste verso. ARA confirma 'dons e sacrifícios' aqui; o precedente interno do próprio livro (2 ocorrências) prevalece sobre a variante isolada. — revisão de forma sem alteração de sentido (ER-0019). NVIPT diverge com 'ofertas' (igual à BV antiga), mas ARA converge com o padrão interno já fixado em Heb.8.3/9.9 ('dons'); normalizou-se para o lexema majoritário do livro para a mesma expressão grega.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -152,10 +159,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
