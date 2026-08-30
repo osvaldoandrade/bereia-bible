@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Rev.15.1-8"
   },
-  "texto_bv": "E os sete anjos que têm as sete pragas saíram do santuário, vestidos de linho puro e resplandecente, e cingidos ao redor do peito com cintos de ouro.",
+  "texto_bv": "E os sete anjos que tinham as sete pragas saíram do santuário, vestidos de linho puro e resplandecente, e cingidos ao redor do peito com cintos de ouro.",
   "traducao_literal": "E saíram os sete anjos, os que têm as sete pragas, do santuário, vestidos de linho puro e resplandecente, e cingidos ao redor dos peitos com cintos de ouro.",
   "termos_originais": [
     {
@@ -180,6 +180,13 @@
           "motivo": "'faixa' introduziria peça diferente da ζώνη usada em 1:13, quebrando o paralelo intra-livro"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que têm as sete pragas → que tinham as sete pragas",
+      "justificativa": "Concordância de tempos verbais (sequência lógica) com o narrativo em passado \"saíram\": a oração relativa descreve um estado concomitante à ação passada, não uma verdade atemporal, então o presente \"têm\" soa deslocado. ARA e NTLH usam \"tinham\"; NVIPT evita o verbo (\"com as sete pragas\"). Sem mudança de sentido — mesma referência às pragas que os anjos carregam. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -193,10 +200,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
