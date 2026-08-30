@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Rev.1.1-20"
   },
-  "texto_bv": "dizendo: “O que vês, escreve em um livro e envia-o às sete igrejas: a Éfeso, a Esmirna, a Pérgamo, a Tiatira, a Sardes, a Filadélfia e a Laodiceia.”",
+  "texto_bv": "dizendo: “O que você vê, escreva em um livro e envie-o às sete igrejas: a Éfeso, a Esmirna, a Pérgamo, a Tiatira, a Sardes, a Filadélfia e a Laodiceia.”",
   "traducao_literal": "dizendo: O que vês, escreve em livro e envia às sete igrejas: a Éfeso e a Esmirna e a Pérgamo e a Tiatira e a Sardes e a Filadélfia e a Laodiceia.",
   "termos_originais": [
     {
@@ -173,6 +173,13 @@
       "escolha": "'dizendo' abre v.11 como continuação sintática de v.10",
       "justificativa": "A divisão em versículos é posterior ao texto grego; v.11 continua a oração de v.10 ('a voz... dizendo'), tratada como unidade de sentido através da fronteira do versículo.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O que vês, escreve em um livro e envia-o às sete igrejas → O que você vê, escreva em um livro e envie-o às sete igrejas",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): fala do Cristo glorificado a João (ser humano) usa você/vocês, não tu. Conjugações de tu (vês, escreve, envia-o) não foram flagradas pela triagem (marcador VOS-1 não capta tu sem 'vós' explícito — lacuna já registrada em ER-0019/F-0018); identificado por comparação com NTLH/NVIPT, que usam 'você vê'/'escreva'/'envie'. Normalizado em conjunto com Ap 1.17,19,20 (mesmo bloco de discurso direto). — revisão de forma sem alteração de sentido (ER-0019). Sem achado ativo da triagem para este verso; mudança motivada pela comparação com as referências (ver campo mudancas) revelando paradigma de 2ª pessoa incoerente com D-0003.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -186,10 +193,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
