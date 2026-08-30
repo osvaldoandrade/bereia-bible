@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Dan.1.1-21"
   },
-  "texto_bv": "\"Ponha à prova os seus servos durante dez dias, por favor: que nos deem legumes para comer e água para beber.",
+  "texto_bv": "“Ponha à prova os seus servos durante dez dias, por favor: que nos deem legumes para comer e água para beber.",
   "traducao_literal": "\"Ponha à prova, por favor, os seus servos, dez dias; e que deem para nós dos legumes, e comamos; e água, e bebamos.",
   "termos_originais": [
     {
@@ -77,7 +77,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"Ponha à prova os seus servos durante dez dias, por favor: que nos deem legumes para comer e água para beber. → “Ponha à prova os seus servos durante dez dias, por favor: que nos deem legumes para comer e água para beber.",
+      "justificativa": "EDITORIAL §5: abertura de discurso direto deve usar aspa dupla curva de abertura (“); o registro trazia aspa reta. A fala de Daniel continua e fecha em Dan.1.13. Correção puramente tipográfica. — revisão de forma sem alteração de sentido (ER-0019). Sem achados de triagem e sem divergência de sentido frente às referências; a única mudança é a normalização da aspa reta de abertura para curva conforme EDITORIAL §5 (fala contínua até Dan.1.13).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Proposta de Daniel ao despenseiro: um teste de dez dias com dieta vegetariana e água.",
@@ -87,10 +95,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
