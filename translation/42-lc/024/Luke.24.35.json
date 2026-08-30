@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "Luke.24.1-53"
   },
-  "texto_bv": "E eles contavam o que acontecera no caminho, e como ele se dera a conhecer a eles no partir do pão.",
+  "texto_bv": "E eles contavam o que tinha acontecido no caminho, e como ele se havia dado a conhecer a eles no partir do pão.",
   "traducao_literal": "E eles narravam as coisas no caminho, e como foi conhecido a eles no partir do pão.",
   "termos_originais": [
     {
@@ -92,7 +92,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o que acontecera no caminho → o que tinha acontecido no caminho | ele se dera a conhecer → ele se havia dado a conhecer",
+      "justificativa": "ARC-1 — mais-que-perfeito sintético (“acontecera”) substituído pela forma composta corrente, EDITORIAL §1.2-tabela. Mesma categoria de arcaísmo do achado “dera” neste verso; NTLH (“havia acontecido”) e NVIPT (“tinha acontecido”) já usam a forma composta. | ARC-1 — mais-que-perfeito sintético (“dera”) substituído pela forma composta, EDITORIAL §1.2-tabela (\"fizera, nascera, viera\" → \"tinha feito, havia nascido\"). NTLH usa perífrase equivalente (“tinham reconhecido”); só a ARA preserva a forma sintética (“se lhes fizera conhecer”). — revisão de forma sem alteração de sentido (ER-0019). Achado ARC-1 (“dera”) adjudicado, e a mesma correção estendida a “acontecera” no mesmo verso por ser a mesma categoria de arcaísmo (mais-que-perfeito sintético, EDITORIAL §1.2-tabela). NTLH e NVIPT usam formas compostas para ambos; apenas a ARA preserva o sintético.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "ἐγνώσθη, passivo, \"foi conhecido/deu-se a conhecer\"; κλάσει τοῦ ἄρτου, \"partir do pão\", expressão técnica da narrativa.",
@@ -102,10 +110,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

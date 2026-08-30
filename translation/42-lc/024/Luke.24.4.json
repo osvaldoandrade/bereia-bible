@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Luke.24.1-53"
   },
-  "texto_bv": "E aconteceu que, estando elas perplexas quanto a isso, eis que dois homens apareceram diante delas em vestes resplandecentes.",
+  "texto_bv": "Estando elas perplexas quanto a isso, dois homens apareceram diante delas em vestes resplandecentes.",
   "traducao_literal": "E aconteceu, estando elas perplexas acerca disto, e eis que dois homens puseram-se diante delas em veste relampejante.",
   "termos_originais": [
     {
@@ -97,7 +97,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, estando → Estando | isso, eis que dois homens → isso, dois homens",
+      "justificativa": "CAL-1 — normalização do calque paratático “e aconteceu que” (ἐγένετο) conforme EDITORIAL §6.2/ER-0013, mesmo tratamento já aplicado em Lc 9.18/28/29/33/37/51 e Mt 9.10/28.7; a oração gerundial “estando elas perplexas” já introduz a cena sem o marcador. Nenhuma das três referências usa “aconteceu que” aqui (NTLH: “e não sabiam o que pensar”; ARA: “E, estando elas perplexas…”; NVIPT: “Ficaram perplexas…”). | CAL-2 — remoção do calque paratático “eis que” (ἰδού): trata-se de abertura de cena narrativa (dois homens aparecem), não da fórmula solene “eis que eu…” de discurso direto que o revisor preserva em outros capítulos (cf. Mt 10.16/23.34/28.20, Lc 10.3). NTLH usa “De repente” e NVIPT dispensa o marcador; só a ARA o mantém. — revisão de forma sem alteração de sentido (ER-0019). Achados CAL-1 e CAL-2 adjudicados: ambos são calques paratáticos de abertura de cena, sem força dêitica excepcional (diferente da fórmula “eis que eu” de discurso direto solene, mantida alhures). NTLH e NVIPT dispensam os dois marcadores; a normalização preserva integralmente o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "καὶ ἐγένετο ἐν τῷ + infinitivo é fórmula narrativa lucana; ἐσθῆτι ἀστραπτούσῃ, \"veste que relampeja\", vertido \"vestes resplandecentes\".",
@@ -107,10 +115,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

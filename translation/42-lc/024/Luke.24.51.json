@@ -7,7 +7,7 @@
     "versiculo": 51,
     "pericope": "Luke.24.1-53"
   },
-  "texto_bv": "E aconteceu que, enquanto os abençoava, ele se separou deles e foi elevado ao céu.",
+  "texto_bv": "Enquanto os abençoava, ele se separou deles e foi elevado ao céu.",
   "traducao_literal": "E aconteceu, abençoando ele a eles, apartou-se deles e foi levado para o céu.",
   "termos_originais": [
     {
@@ -103,7 +103,15 @@
       "impacto_na_traducao": "determina se Lucas narra a ascensão explicitamente no Evangelho (texto mais longo) ou a deixa implícita, reservando o relato pleno para At 1:9-11 (texto mais curto)."
     }
   ],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, enquanto → Enquanto",
+      "justificativa": "CAL-1 — normalização do calque paratático “e aconteceu que” (ἐγένετο), EDITORIAL §6.2/ER-0013, mesmo tratamento de Lc 9.18/28/29/33/37/51; a conjunção temporal já introduz a cena. NTLH (“Enquanto os estava abençoando…”) e NVIPT (“Estando ainda a abençoá-los…”) dispensam o marcador; só a ARA o preserva por tradição Almeida. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-1 adjudicado: dois terços das referências (NTLH, NVIPT) dispensam “aconteceu que”; a ARA o preserva por tradição.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "διέστη, \"apartou-se/separou-se\"; ἀνεφέρετο, imperfeito passivo, \"estava sendo levado/foi elevado\", vertido conforme a fonte pinada, com aparato registrado.",
@@ -113,10 +121,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
