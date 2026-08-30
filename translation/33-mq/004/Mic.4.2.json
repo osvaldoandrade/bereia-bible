@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Mic.4.1-14"
   },
-  "texto_bv": "Muitas nações virão e dirão: 'Venham, subamos ao monte do SENHOR, à casa do Deus de Jacó, para que ele nos ensine os seus caminhos e andemos nas suas veredas.' Porque de Sião sairá a lei, e de Jerusalém sairá a palavra do SENHOR.",
+  "texto_bv": "Muitas nações virão e dirão: “Venham, subamos ao monte do SENHOR, à casa do Deus de Jacó, para que ele nos ensine os seus caminhos e andemos nas suas veredas.” Porque de Sião sairá a lei, e de Jerusalém sairá a palavra do SENHOR.",
   "traducao_literal": "E irão muitas nações e dirão: 'Vinde e subamos ao monte do SENHOR e à casa do Deus de Jacó, e ele nos ensinará dos seus caminhos, e andemos nas suas veredas'; porque de Sião sairá lei, e a palavra do SENHOR, de Jerusalém.",
   "termos_originais": [
     {
@@ -171,6 +171,13 @@
       "escolha": "Normalizar para S-V no publicado: 'Muitas nações virão'.",
       "justificativa": "ER-0011.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dirão: 'Venham, subamos ao monte do SENHOR, à casa do Deus de Jacó, para que ele nos ensine os seus caminhos e andemos nas suas veredas.' Porque → dirão: “Venham, subamos ao monte do SENHOR, à casa do Deus de Jacó, para que ele nos ensine os seus caminhos e andemos nas suas veredas.” Porque",
+      "justificativa": "EDITORIAL §5 — discurso direto de primeiro nível (introduzido por dois-pontos após 'dirão') deve usar aspas duplas curvas (“ ”); o digest trazia aspas simples retas ('...'), que a regra reserva para citação aninhada. Corrigido para “ ”. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 marca 44 palavras para o verso, mas o texto já está pontuado em duas sentenças independentes (a citação com 30 palavras + 'Porque de Sião...' com 14 palavras), estrutura que a NVIPT também adota (fala citada / 'Pois a lei virá de Sião...'); nenhuma sentença isolada ultrapassa 40 palavras, então nenhuma divisão adicional é necessária — achado é falso positivo (a triagem conta o verso inteiro, não por sentença). Também corrigidas as aspas retas do discurso direto para aspas duplas curvas (EDITORIAL §5).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -184,10 +191,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
