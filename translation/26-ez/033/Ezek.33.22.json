@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Ezek.33.1-33"
   },
-  "texto_bv": "A mão do SENHOR esteve sobre mim à tarde, antes de o fugitivo chegar, e ele abriu a minha boca, até que ele veio a mim pela manhã. A minha boca se abriu, e eu não fiquei mais mudo.",
+  "texto_bv": "A mão do SENHOR esteve sobre mim à tarde, antes de o fugitivo chegar, e ele abriu a minha boca, até que este veio a mim pela manhã. A minha boca se abriu, e eu não fiquei mais mudo.",
   "traducao_literal": "E-mão-de-SENHOR esteve sobre-mim à-tarde, antes-de vir o-fugitivo, e-abriu minha-boca, até-vir a-mim pela-manhã, e-abriu-se minha-boca e-não emudeci mais.",
   "termos_originais": [
     {
@@ -130,6 +130,13 @@
       "justificativa": "Doutrina do calque (§6.2/ER-0013): 'E' inicial sem função discursiva forte removido; a sequência temporal já é marcada por 'à tarde' e 'pela manhã'. | LEN-1: sentença de 41 palavras dividida em duas para respeitar §1.3 (> 40 palavras); RED-1 mitigado ao separar as duas menções de 'boca' em frases distintas. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "até que ele veio a mim pela manhã → até que este veio a mim pela manhã",
+      "justificativa": "Referencia pronominal ambigua: na mesma sentenca, o primeiro 'ele' e o SENHOR e o segundo 'ele' e o fugitivo; 'este' aponta inequivocamente para o fugitivo, sem repetir substantivo que o original nao repete. — revisão de forma sem alteração de sentido (ER-0019). RED-1 ('minha boca'): a repeticao 'abriu a minha boca... A minha boca se abriu' esta no original (literal repete 'minha-boca') — fidelidade, mantida. RAT-1 e artefato do ratio.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -143,10 +150,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

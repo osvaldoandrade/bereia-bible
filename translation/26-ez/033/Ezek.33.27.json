@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Ezek.33.1-33"
   },
-  "texto_bv": "Assim lhes dirá: Assim diz o Senhor DEUS: Tão certo como eu vivo, os que estão nas ruínas cairão pela espada; os que estão sobre a face do campo, eu os darei à fera para devorá-los. E os que estão nas fortalezas e nas cavernas morrerão pela peste.",
+  "texto_bv": "Assim lhes diga: Assim diz o Senhor DEUS: Tão certo como eu vivo, os que estão nas ruínas cairão pela espada; os que estão no campo aberto, eu os darei à fera para devorá-los. E os que estão nas fortalezas e nas cavernas morrerão pela peste.",
   "traducao_literal": "assim dirás a-eles: assim disse Senhor DEUS: vivo eu, se-não que os-que em-ruínas pela-espada cairão, e-os-que sobre-face-do-campo à-fera dei-o para-comê-lo, e-os-que em-fortalezas e-em-cavernas pela-peste morrerão.",
   "termos_originais": [
     {
@@ -160,6 +160,13 @@
       "justificativa": "LEN-1: sentença de 49 palavras dividida em duas para respeitar §1.3 (> 40 palavras); a tríade de juízos (espada / fera / peste) preserva o paralelismo em dois períodos. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Assim lhes dirá: → Assim lhes diga: | os que estão sobre a face do campo → os que estão no campo aberto",
+      "justificativa": "Consistencia intra-capitulo (EDITORIAL par.1.4): o mesmo hebraico 'diras' e vertido como imperativo 'diga' nos vv. 2, 10, 11 e 25; 'dirá' sem sujeito explicito le-se como 3a pessoa, criando ambiguidade. | Calque de construto hebraico ('face do campo') artificial em pt-BR; ER-0013/EDITORIAL par.6.2 mandam normalizar no texto publicado (a literal preserva o calque). ARA usa 'no campo aberto'; NTLH/NVIPT usam 'no campo'. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -171,10 +178,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

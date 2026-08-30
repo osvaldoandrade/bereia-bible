@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Ezek.33.1-33"
   },
-  "texto_bv": "Quando eu disser ao justo: 'Certamente viverás', e ele confiar na sua justiça e praticar injustiça, nenhuma de todas as suas obras de justiça será lembrada; pela injustiça que praticou, por ela morrerá.",
+  "texto_bv": "Quando eu disser ao justo: 'Você certamente viverá', e ele confiar na sua justiça e praticar injustiça, nenhuma de todas as suas obras de justiça será lembrada; pela injustiça que praticou, por ela morrerá.",
   "traducao_literal": "Em-meu-dizer ao-justo: viver viverá, e-ele confiou em-sua-justiça e-fez injustiça, toda-sua-justiça não serão-lembradas, e-em-sua-injustiça que fez, nela morrerá.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "escolha": "עָוֶל → injustiça, distinto de עָוֹן → iniquidade",
       "justificativa": "duas raízes hebraicas distintas para o mal moral, mantidas com glosas distintas no capítulo.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Certamente viverás → Você certamente viverá",
+      "justificativa": "Paradigma de 2a pessoa (EDITORIAL par.3/D-0003): discurso de Deus a humano usa você; coerente com a normalizacao dos vv. 8 e 14 e com Ezek 3.18. — revisão de forma sem alteração de sentido (ER-0019). PRO-1: pronomes com referente unico (o justo); a fronteacao 'pela injustica que praticou, por ela morrera' espelha o original e a ARA ('nessa morrera').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -137,10 +144,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
