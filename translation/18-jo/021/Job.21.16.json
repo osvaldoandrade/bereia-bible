@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Job.21.1-34"
   },
-  "texto_bv": "Eis que o bem-estar deles não está nas mãos deles; o conselho dos ímpios está longe de mim.",
+  "texto_bv": "O bem-estar deles não está nas mãos deles; o conselho dos ímpios está longe de mim.",
   "traducao_literal": "Eis que não [está] na mão deles o bem deles; o conselho dos ímpios longe está de mim.",
   "termos_originais": [
     {
@@ -58,6 +58,13 @@
       "escolha": "Manter tradução neutra ('o bem-estar deles não está nas mãos deles'), preservando a ambiguidade de quem fala e o que isso implica",
       "justificativa": "TEOLOGIA §1.5: quando o original é ambíguo entre leituras, a BV preserva a ambiguidade em vez de decidir por paráfrase.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que o bem-estar → O bem-estar",
+      "justificativa": "Normalização de calque paratático 'eis que' (CAL-2, §6.2/ER-0013), seguindo o padrão já adotado no mesmo livro (ex.: Job 9:19, 13:1, 24:5, 40:4, 40:16, 40:23): NTLH e NVIPT dispensam o dêitico aqui ('Mas...'); a força argumentativa sobrevive na afirmação direta. — revisão de forma sem alteração de sentido (ER-0019). Remoção do calque conforme convenção já estabelecida no restante do livro; sem mudança de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -71,10 +78,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Job.21.1-34"
   },
-  "texto_bv": "Suportem-me, e eu falarei; depois que eu tiver falado, então zombe.",
+  "texto_bv": "Suportem-me, e eu falarei; depois que eu tiver falado, então zombem.",
   "traducao_literal": "Suportai-me, e eu falarei; e depois de eu falar, zomba.",
   "termos_originais": [
     {
@@ -53,6 +53,13 @@
           "motivo": "apaga uma distinção gramatical real do hebraico, possivelmente dirigida a um interlocutor específico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "então zombe. → então zombem.",
+      "justificativa": "Concordância de número: o imperativo deve concordar com o vocativo plural já estabelecido em 'Suportem-me' (vocês); 'zombe' é singular e cria paradigma misto dentro do mesmo verso. NTLH, ARA e NVIPT mantêm a 2ª pessoa plural de forma coerente do início ao fim do verso (zombar/zombai/poderão zombar), confirmando que a forma correta é 'zombem'. — revisão de forma sem alteração de sentido (ER-0019). Ajuste de concordância verbal (não altera sentido): o sujeito continua sendo o mesmo grupo de amigos de Jó em todo o verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -66,10 +73,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

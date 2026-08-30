@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Job.21.1-34"
   },
-  "texto_bv": "Pois vocês dizem: \"Onde está a casa do príncipe? E onde está a tenda em que habitavam os ímpios?\"",
+  "texto_bv": "Pois vocês dizem: ‘Onde está a casa do príncipe? E onde a tenda em que habitavam os ímpios?’",
   "traducao_literal": "Pois dizeis: Onde [está] a casa do príncipe? E onde [está] a tenda das moradas dos ímpios?",
   "termos_originais": [
     {
@@ -68,6 +68,13 @@
           "motivo": "cadeia genitiva dupla soa pesada em português; a oração relativa é mais idiomática"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"Onde está a casa do príncipe? E onde está a tenda em que habitavam os ímpios?\" → ‘Onde está a casa do príncipe? E onde a tenda em que habitavam os ímpios?’",
+      "justificativa": "RED-1 (remoção da repetição verbal 'está...está', com elipse do verbo na segunda oração conforme ARA 'e onde a tenda em que morava o ímpio' e NVIPT '‘Onde a tenda dos ímpios?’') combinada com normalização de aspas (EDITORIAL §5): citação dentro do discurso já aberto de Jó usa aspas simples curvas, não aspas retas duplas — padrão já adotado em Job 3:3, 8:18, 9:12, 9:27, 11:4 e 32:7. — revisão de forma sem alteração de sentido (ER-0019). Remoção de redundância verbal e normalização de aspas; sentido e paralelismo de 'onde' preservados.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -81,10 +88,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
