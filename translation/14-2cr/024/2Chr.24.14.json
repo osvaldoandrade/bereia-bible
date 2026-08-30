@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "2Chr.24.1-27"
   },
-  "texto_bv": "Quando terminaram, trouxeram o restante do dinheiro diante do rei e de Joiada; com ele, foram feitos utensílios para a casa do SENHOR: utensílios para o serviço e para apresentar ofertas, tigelas e utensílios de ouro e prata. E ofereciam holocaustos continuamente na casa do SENHOR durante todos os dias de Joiada.",
+  "texto_bv": "Quando terminaram, trouxeram o restante do dinheiro diante do rei e de Joiada; com ele, foram feitos utensílios para a casa do SENHOR: utensílios para o serviço e para os holocaustos, tigelas e utensílios de ouro e prata. E ofereciam holocaustos continuamente na casa do SENHOR durante todos os dias de Joiada.",
   "traducao_literal": "E, ao completarem, fizeram vir diante do rei e de Joiada o restante do dinheiro; e fez dele utensílios para a casa do SENHOR, utensílios de serviço e de fazer subir, e tigelas, e utensílios de ouro e prata. E estavam fazendo subir holocaustos na casa do SENHOR continuamente todos os dias de Joiada.",
   "termos_originais": [
     {
@@ -167,6 +167,13 @@
           "motivo": "Ignoraria a função cultual do infinitivo no inventário."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "utensílios para o serviço e para apresentar ofertas → utensílios para o serviço e para os holocaustos",
+      "justificativa": "Consistência lexical intra-verso (EDITORIAL §1.4): a traducao_literal usa \"fazer subir\" tanto para estes utensílios quanto, na frase seguinte, para \"fazendo subir holocaustos\" — mesmo termo hebraico subjacente. A BV variava entre \"apresentar ofertas\" (genérico) e \"holocaustos\" (específico) no mesmo verso; ARA e NVIPT usam \"holocaustos\" nas duas ocorrências, NTLH usa \"sacrifícios\" nas duas — as três referências convergem em repetir o mesmo lexema, confirmando que a variação da BV era inconsistência. — revisão de forma sem alteração de sentido (ER-0019). RED-1 sinaliza \"casa do SENHOR\" repetida 2x no verso, mantida por refletir a mesma repetição da traducao_literal e o refrão temático do capítulo; ARA e NVIPT também repetem o termo. Além disso, corrigida a inconsistência lexical entre \"apresentar ofertas\" e \"holocaustos\" no mesmo verso (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -185,10 +192,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
