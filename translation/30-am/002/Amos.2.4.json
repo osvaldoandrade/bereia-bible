@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Amos.2.1-16"
   },
-  "texto_bv": "Assim diz o SENHOR: “Por três transgressões de Judá, e por quatro, não vou revogar o castigo, porque rejeitaram a lei do SENHOR e não guardaram os seus preceitos; e as mentiras deles os desviaram, as quais os pais deles seguiram.",
+  "texto_bv": "Assim diz o SENHOR: “Por três transgressões de Judá, e por quatro, não vou revogar o castigo, porque rejeitaram a lei do SENHOR e não guardaram os seus preceitos. E as mentiras deles os desviaram, as quais os pais deles seguiram.",
   "traducao_literal": "Assim disse SENHOR: sobre três transgressões de Judá e sobre quatro não o farei voltar; sobre rejeitarem eles a lei do SENHOR, e os estatutos dele não guardaram; e fizeram-nos errar as mentiras deles, que andaram os pais deles atrás delas.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
           "motivo": "importaria leitura interpretativa não obrigatória pela gramática (TEOLOGIA §1.3)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "preceitos; e as mentiras → preceitos. E as mentiras",
+      "justificativa": "Divisão de sentença de 41 palavras (achado LEN-1, EDITORIAL §1.3) em duas orações, no ponto de quebra sintático já marcado por ponto-e-vírgula no original (mesma fronteira da traducao_literal); sem perda de sentido ou de estrutura. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 flagra sentença de 41 palavras; dividida em duas orações no ponto-e-vírgula já presente no original, sem alterar sentido. Comparação com NTLH/ARA/NVIPT não indica arcaísmo adicional no verso; a fórmula “não vou revogar o castigo” é mantida por consistência lexical intra-capítulo com Amos.2.1 e Amos.2.6 (EDITORIAL §1.4).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -161,10 +168,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
