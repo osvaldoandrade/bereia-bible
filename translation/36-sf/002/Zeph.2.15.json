@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Zeph.2.1-15"
   },
-  "texto_bv": "Esta é a cidade exultante, que habitava em segurança, que dizia em seu coração: \"Eu sou, e não há mais ninguém além de mim.\" Como ela se tornou uma desolação, um covil para animais selvagens! Todo aquele que passar perto dela zombará e acenará com a mão.",
+  "texto_bv": "Esta é a cidade exultante, que habitava em segurança, que dizia em seu coração: \"Eu sou, e não há mais ninguém além de mim.\" Como ela se tornou uma desolação, um covil para animais selvagens! Todo aquele que passar perto dela zombará e agitará a mão.",
   "traducao_literal": "Esta a cidade exultante, a que habita em segurança, a que diz em seu coração: eu, e não há mais além de mim! Como se tornou para desolação, lugar de deitar-se para animal selvagem! Todo o que passar sobre ela assobiará, agitará a mão dele.",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
           "motivo": "preservaria ambiguidade, mas o gesto conjunto tem valor idiomático consolidado de escárnio, tornando a explicitação mais clara"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Todo aquele que passar perto dela zombará e acenará com a mão. → Todo aquele que passar perto dela zombará e agitará a mão.",
+      "justificativa": "O verbo “acenar” sugere gesto amistoso (saudação) em português contemporâneo, mas o gesto do original é de escárnio (traducao_literal: “assobiará, agitará a mão dele”). ARA usa “meneará” e NVIPT “sacodem os punhos”, ambos reforçando o gesto de desdém, não de saudação. Ajuste de forma para o verbo já registrado na traducao_literal, sem alterar o sentido do gesto de zombaria. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -152,10 +159,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
