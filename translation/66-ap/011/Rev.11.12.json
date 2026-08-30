@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Rev.11.1-19"
   },
-  "texto_bv": "E elas ouviram uma grande voz do céu, que lhes dizia: “Subi para cá”; e subiram ao céu na nuvem, e os seus inimigos as viram.",
+  "texto_bv": "E elas ouviram uma grande voz do céu, que lhes dizia: “Subam para cá”; e subiram ao céu na nuvem, e os seus inimigos as viram.",
   "traducao_literal": "E ouviram voz grande do céu, dizendo-lhes: Subi para cá; e subiram ao céu na nuvem, e os contemplaram os inimigos delas.",
   "termos_originais": [
     {
@@ -137,7 +137,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "“Subi para cá” → “Subam para cá”",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003, item 10): voz do céu (discurso não-orante, Deus/anjo→humanos) usa vocês, não vós; imperativo vós 'Subi' normalizado para 'Subam', coerente com a normalização de Rev.11.1 no mesmo capítulo. NTLH ('Subam aqui!') e NVIPT ('Subam para cá') já usam a forma vocês; ARA mantém o vós arcaico. — revisão de forma sem alteração de sentido (ER-0019). Achado ausente para este verso (marcador VOS-1 não captura vós isolado fora de padrão verbal -eis/-ai), mas o capítulo precisa de paradigma coerente de 2ª pessoa (regra 10): normalizado junto com Rev.11.1.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Ascensão das testemunhas ao céu numa nuvem, testemunhada pelos inimigos; texto do Nestle 1904 pinado traz ἤκουσαν (3ª pl.), seguido sem adjudicação de variante (o packet não trouxe aparato para este verso).",
@@ -147,10 +155,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
