@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Luke.8.1-56"
   },
-  "texto_bv": "e Joana, mulher de Cuza, administrador de Herodes, e Susana, e muitas outras, que as serviam com os seus próprios bens.",
+  "texto_bv": "e Joana, mulher de Cuza, administrador de Herodes, e Susana, e muitas outras, que os serviam com os seus próprios bens.",
   "traducao_literal": "e Joana mulher de Cuza administrador de Herodes, e Susana, e outras muitas, as quais serviam a eles a partir dos bens-existentes a elas.",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
           "motivo": "termo técnico-jurídico romano que pode sugerir cargo formal específico não atestado com precisão pelo lexema"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que as serviam com os seus próprios bens. → que os serviam com os seus próprios bens.",
+      "justificativa": "Erro de concordância pronominal: 'as' (fem.) não tem antecedente lógico coerente (as próprias mulheres), quando o sentido é 'serviam a eles' (Jesus e os doze, masc.), conforme traducao_literal ('serviam a eles') e as três referências (ARA/NVIPT usam 'os'/'-los' para o mesmo referente masculino). Correção de referência pronominal (EDITORIAL, 'Cheque sempre' item 5), sem alteração de sentido — restaura a leitura correta já presente na literal. — revisão de forma sem alteração de sentido (ER-0019). Divergência das referências (ARA/NVIPT usam pronome masculino) expôs erro de concordância pronominal na BV; corrigido conforme literal.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -126,10 +133,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

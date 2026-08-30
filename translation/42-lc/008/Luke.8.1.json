@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Luke.8.1-56"
   },
-  "texto_bv": "E aconteceu, em seguida, que ele passava por cidade e aldeia, pregando e anunciando as boas novas do reino de Deus; e os doze estavam com ele,",
+  "texto_bv": "Em seguida, ele passava por cidade e aldeia, pregando e anunciando as boas novas do reino de Deus; e os doze estavam com ele,",
   "traducao_literal": "E aconteceu, no seguinte: e ele mesmo ia através de cidade e aldeia, pregando e evangelizando o reino de Deus, e os doze com ele,",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
           "motivo": "insere um substantivo temporal específico que καθεξῆς não contém; o advérbio é mais genérico ('em ordem, a seguir')"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu, em seguida, que ele passava por cidade e aldeia, pregando e anunciando as boas novas do reino de Deus; e os doze estavam com ele, → Em seguida, ele passava por cidade e aldeia, pregando e anunciando as boas novas do reino de Deus; e os doze estavam com ele,",
+      "justificativa": "Calque paratático 'e aconteceu que' (grego kai egeneto) normalizado por soar artificial em pt-BR (EDITORIAL §6.2/ER-0013, item 2 do 'Cheque sempre'); NTLH/ARA/NVIPT convergem em abrir sem esse calque, e o próprio capítulo já normaliza a mesma construção grega em Lc 8.22 ('Ora, em certo dia, ele entrou...'), tornando a manutenção em 8.1 uma inconsistência intra-capítulo (EDITORIAL §1.4). Sentido integralmente preservado; traducao_literal mantém o calque para auditoria. — revisão de forma sem alteração de sentido (ER-0019). Sem achado da triagem, mas as três referências divergem convergentemente do calque 'e aconteceu que'; ver motivo da mudança.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -156,10 +163,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

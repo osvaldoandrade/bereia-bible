@@ -7,7 +7,7 @@
     "versiculo": 55,
     "pericope": "Luke.8.1-56"
   },
-  "texto_bv": "E o espírito dela voltou, e ela se levantou imediatamente; e ele ordenou que lhe dessem de comer.",
+  "texto_bv": "E o espírito dela voltou, e ela se levantou imediatamente; e Jesus ordenou que lhe dessem de comer.",
   "traducao_literal": "E voltou o espírito dela, e levantou-se imediatamente, e ordenou a-ela ser-dado comer.",
   "termos_originais": [
     {
@@ -77,7 +77,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e ele ordenou que lhe dessem de comer. → e Jesus ordenou que lhe dessem de comer.",
+      "justificativa": "Pronome 'ele' substituído pelo referente explícito 'Jesus' para eliminar ambiguidade referencial (EDITORIAL 'Cheque sempre' item 5); as três referências (NTLH/ARA/NVIPT) fazem a mesma explicitação nesta mesma oração, confirmando o achado PRO-1 (4 pronomes de 3ª pessoa). Sentido inalterado — o referente já era Jesus. — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (4 pronomes de 3ª pessoa) confirmado pela convergência das três referências, que substituem 'ele' por 'Jesus' explicitamente nesta oração; corrigido para clareza referencial.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "τὸ πνεῦμα αὐτῆς vertido 'espírito' em minúscula (EDITORIAL §10): referente é o princípio vital humano da menina, não o Espírito Santo, sem base lexical ou contextual para maiúscula.",
@@ -87,10 +95,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
