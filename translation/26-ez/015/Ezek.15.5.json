@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Ezek.15.1-8"
   },
-  "texto_bv": "Eis que, quando estava inteiro, não se fazia dele obra alguma; quanto menos agora, que o fogo o consumiu e ele ficou chamuscado, seria feito ainda dele alguma obra!",
+  "texto_bv": "Eis que, quando estava inteiro, não se fazia dele obra alguma; quanto menos agora, que o fogo o consumiu e ele ficou chamuscado, seria feito ainda dele alguma obra?",
   "traducao_literal": "Eis, no seu ser íntegro, não se fazia para obra; quanto mais quando fogo o consumiu, e foi chamuscado, e se fará ainda para obra?",
   "termos_originais": [
     {
@@ -104,6 +104,13 @@
           "motivo": "sem marcador interrogativo hebraico próprio, soaria como pergunta nova e desconectada em vez de conclusão do argumento."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "seria feito ainda dele alguma obra! → seria feito ainda dele alguma obra?",
+      "justificativa": "Pontuação (§6.1): a traducao_literal termina em interrogação ('e se fará ainda para obra?'), e os vv. 3-4 do texto publicado também fecham a mesma série de perguntas retóricas do argumento a fortiori. O ponto de exclamação quebrava essa cadeia paralela sem base no original; restaurado o ponto de interrogação para manter a coerência da série. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 ('eis que') mantido pelo mesmo motivo do v.4: anáfora retórica intencional do argumento a fortiori, fidelidade à repetição formular do original (regra 4). A única mudança aplicada é a pontuação final, registrada em mudancas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -115,10 +122,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
