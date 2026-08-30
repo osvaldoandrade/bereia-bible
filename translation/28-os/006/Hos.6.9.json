@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Hos.6.1-11"
   },
-  "texto_bv": "E, como bandidos que ficam à espreita de um homem, assim é a companhia dos sacerdotes: matam no caminho para Siquém, pois cometem depravação.",
+  "texto_bv": "Como bandidos que ficam à espreita de um homem, assim é a companhia dos sacerdotes: matam no caminho para Siquém, pois cometem depravação.",
   "traducao_literal": "E como o esperar à espreita de homem [por] tropas, companhia de sacerdotes; caminho assassinam a Siquém, porque depravação fizeram.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
           "motivo": "menos preciso quanto à premeditação implícita no termo"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E, como bandidos que ficam à espreita de um homem, → Como bandidos que ficam à espreita de um homem,",
+      "justificativa": "Doutrina do calque (EDITORIAL §6.2): waw paratático inicial normalizado; NTLH, ARA e NVIPT também iniciam a oração sem conjunção, e a vírgula após 'E' soava artificial. — revisão de forma sem alteração de sentido (ER-0019). Conjunção inicial de calque removida por não ter correspondente nas três referências e por soar artificial em português contemporâneo (comparativo 'como' já introduz a oração sem necessidade de conjunção aditiva prévia).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -106,10 +113,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
