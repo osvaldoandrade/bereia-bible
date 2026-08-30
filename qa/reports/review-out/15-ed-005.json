@@ -21,7 +21,8 @@
    "texto_bv_revisto": "Naquele tempo, Tatenai, governador da região Além do Rio, veio até os judeus com Setar-Bozenai e os colegas deles, e eles lhes diziam: “Quem deu a vocês ordem para construir esta casa e concluir esta estrutura?”",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "Achado VOS-1 (“bozenai, tatenai”) é falso positivo: o detector de forma “vós” reconhece a terminação “-ai” (guardai, fazei), mas aqui “Tatenai” e “Setar-Bozenai” são nomes próprios persas transliterados, não verbos no paradigma vós. O verso já usa “vocês” (D-0003) corretamente, mesmo onde a ARA usa “vos”."
   },
   {
    "osis": "Ezra.5.4",
@@ -42,7 +43,8 @@
    "texto_bv_revisto": "Esta é a cópia da carta que Tatenai, governador da região Além do Rio, Setar-Bozenai e seus colegas, os afarsaquitas da região Além do Rio, enviaram ao rei Dario.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "Achado VOS-1 (“bozenai, tatenai”) é o mesmo falso positivo do v.3 (nomes próprios terminados em “-ai” confundidos com forma vós). Achado RED-1 (“região Além do Rio” repetida): a repetição identifica separadamente o título de Tatenai e a filiação dos afarsaquitas — a traducao_literal repete “Além do Rio” do mesmo modo, e ARA (“a oeste do Rio”/“deste lado do Rio”) e NVIPT (“a oeste do Eufrates” duas vezes) preservam a mesma duplicação. É estrutura do original, não defeito de forma."
   },
   {
    "osis": "Ezra.5.7",
@@ -55,8 +57,15 @@
    "osis": "Ezra.5.8",
    "texto_bv_revisto": "Saiba o rei que fomos à província de Judá, à casa do grande Deus. Ela está sendo construída com pedras maciças, e madeira está sendo colocada nas paredes. Essa obra está sendo feita com diligência e progride nas mãos deles.",
    "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "objecoes": [
+    {
+     "gravidade": "EDITORIAL",
+     "problema": "Repetição tripla de “está sendo” no mesmo verso pode soar redundante em português contemporâneo.",
+     "evidencia": "ARA varia a construção (“se edifica”, “está sendo posta”, “vai-se fazendo”) e NVIPT também varia (“está reconstruindo”, “colocando”, “está sendo executada”); apenas NTLH repete como a BV. Não aplicado agora porque a traducao_literal preserva o mesmo padrão triplo, e variar a construção poderia sugerir nuance de aspecto verbal ausente no original."
+    }
+   ],
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "Achado RED-1 (“está sendo”) aponta repetição tripla da perífrase passiva. A traducao_literal mantém o mesmo padrão triplo (particípio + auxiliar), espelhando a construção aramaica de relatório oficial, e a NTLH também repete “está sendo” três vezes no mesmo verso. Mantido por fidelidade à formulação do original; registrada objeção EDITORIAL abaixo como possível variação lexical futura (ex.: “está sendo posta”, como em ARA), não aplicada agora para não romper o paralelismo com a traducao_literal."
   },
   {
    "osis": "Ezra.5.9",
@@ -91,14 +100,16 @@
    "texto_bv_revisto": "Contudo, no primeiro ano de Ciro, rei da Babilônia, o rei Ciro deu ordem para que esta casa de Deus fosse reconstruída.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "Duas das três referências (NTLH, NVIPT) evitam repetir “Ciro”/“rei” na mesma frase, mas a ARA preserva a repetição integral (“no primeiro ano de Ciro, rei de Babilônia, o rei Ciro baixou decreto”), assim como a traducao_literal (“Ciro, rei da Babilônia... Ciro, o rei”). A repetição do nome e título é convenção de registro oficial (restabelecer o sujeito completo ao abrir a cláusula do decreto) e é preservada por fidelidade à estrutura do original."
   },
   {
    "osis": "Ezra.5.14",
    "texto_bv_revisto": "Além disso, os utensílios de ouro e prata da casa de Deus, que Nabucodonosor havia tirado do templo que estava em Jerusalém e levado para o templo da Babilônia, o rei Ciro os tirou do templo da Babilônia. Eles foram entregues a um homem chamado Sesbazar, a quem Ciro havia nomeado governador.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "Achado RED-1 (“templo babilônia”) aponta repetição de “templo da Babilônia”. A traducao_literal repete “do templo que na Babilônia” do mesmo modo, e tanto ARA (“levado para o templo de Babilônia... tirou do templo de Babilônia”) quanto NVIPT (“templo da Babilônia... levara para o templo da Babilônia”) preservam a mesma duplicação — cadeia de custódia legal dos utensílios. Mantido por fidelidade; apenas a NTLH (paráfrase livre) evita a repetição."
   },
   {
    "osis": "Ezra.5.15",
