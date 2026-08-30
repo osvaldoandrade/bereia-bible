@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "1Pet.4.1-19"
   },
-  "texto_bv": "Se alguém fala, que fale como quem transmite os oráculos de Deus; se alguém serve, que sirva pela força que Deus supre; para que em todas as coisas Deus seja glorificado por meio de Jesus Cristo, a quem pertencem a glória e o poder para todo o sempre. Amém.",
+  "texto_bv": "Se alguém fala, que fale como quem transmite os oráculos de Deus; se alguém serve, que sirva pela força que Deus supre. Para que em todas as coisas Deus seja glorificado por meio de Jesus Cristo, a quem pertencem a glória e o poder para todo o sempre. Amém.",
   "traducao_literal": "Se alguém fala, como oráculos de Deus; se alguém serve, como a partir de força que supre Deus; para que em todas as coisas seja glorificado Deus por meio de Jesus Cristo, ao qual é a glória e o domínio pelos séculos dos séculos; amém.",
   "termos_originais": [
     {
@@ -230,6 +230,13 @@
           "motivo": "calque tradicional válido, mantido na traducao_literal; no publicado optou-se pela forma mais corrente em prosa"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Deus supre; para que em todas as coisas → Deus supre. Para que em todas as coisas",
+      "justificativa": "Sentença de 48 palavras (achado LEN-1, EDITORIAL §1.3). Dividida exatamente no ponto de coordenação já existente (ponto e vírgula → ponto final, com maiúscula em \"Para\"), sem suprimir nem acrescentar nenhuma palavra e sem perda sintática: as duas orações imperativas coordenadas (\"se alguém fala... se alguém serve...\") formam o primeiro período, e a oração final (\"para que... Amém\") passa a período autônomo, recurso estilístico comum em prosa formal contemporânea. — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 (sentença de 48 palavras) corrigido por divisão em dois períodos no ponto e vírgula já existente antes de \"para que\", sem adicionar conteúdo. O termo \"oráculos de Deus\" foi mantido: a ARA usa a mesma palavra (\"entregando oráculos de Deus\"); NTLH e NVIPT preferem \"a palavra de Deus\", mas não há convergência unânime das três referências contra a BV, e \"oráculos\" é termo técnico-teológico corrente, não arcaísmo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -244,10 +251,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
