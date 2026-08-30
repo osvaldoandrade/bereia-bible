@@ -109,6 +109,13 @@
           "motivo": "'ferrugem' sugere oxidação metálica, imagem estranha ao fenômeno agrícola descrito por יֵרָקוֹן"
         }
       ]
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "PRO-1 (4 pronomes de 3ª pessoa): falso positivo — 'seus/suas' (jardins, vinhas, figueiras, oliveiras) são possessivos de 2ª pessoa concordando com 'vocês' ('você/vocês' flexiona morfologicamente como 3ª pessoa em português, mas a referência ao destinatário do discurso é inequívoca); não há ambiguidade referencial real (cheque-sempre item 5). Quanto às referências: ARA e NVIPT usam 'ferrugem' onde a BV usa 'mofo' (יֵרָקוֹן), mas NTLH não usa nenhum dos dois termos técnicos ('pragas nas plantas'); não há convergência das três, e a escolha é terminológica/agrícola já registrada na tradução, não arcaísmo. Nenhuma mudança aplicada. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -120,10 +127,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
