@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Ezek.24.1-27"
   },
-  "texto_bv": "E tu, filho do homem: no dia em que eu lhes tirar a fortaleza, o gozo do seu esplendor, a delícia dos seus olhos e o anseio da sua alma, os seus filhos e as suas filhas,",
+  "texto_bv": "“E tu, filho do homem: no dia em que eu lhes tirar a fortaleza, o gozo do seu esplendor, a delícia dos seus olhos e o anseio da sua alma, os seus filhos e as suas filhas,",
   "traducao_literal": "E tu, filho de homem, acaso não no dia de eu tomar deles a fortaleza deles, o gozo do esplendor deles, a delícia dos olhos deles e o anseio da alma deles, os filhos deles e as filhas deles —",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
           "motivo": "sintaticamente correto e preservado na literal, mas produziria período de leitura difícil em voz alta no publicado"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E tu, filho do homem: → “E tu, filho do homem:",
+      "justificativa": "Correção de pareamento de aspas (EDITORIAL §5/§6.1): esta fala direta de Deus a Ezequiel fecha com aspas duplas curvas ao final do v.27 ('...eu sou o SENHOR.”') sem abertura correspondente; adicionada a abertura “ no início do v.25, no mesmo padrão usado pelo capítulo para discurso direto Deus→Ezequiel (cf. v.2, v.16). NVIPT também abre aspas neste ponto. — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (6 pronomes de 3ª pessoa): mantido — ao contrário dos vv.21-24 (discurso direto de Deus à casa de Israel, corrigido nesta revisão para 'vocês'), o v.25 abre um novo ato de fala de Deus a Ezequiel ('tu, filho do homem', 2ª singular) falando sobre a casa de Israel na 3ª pessoa. A traducao_literal confirma 'deles' nas seis ocorrências, e ARA ('lhes/seu/seus') e NVIPT ('deles/sua/seus') mantêm igualmente 3ª pessoa. Referente claro (casa de Israel) e fiel ao original; sem ambiguidade — apenas a lacuna de aspas foi corrigida (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -131,10 +138,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

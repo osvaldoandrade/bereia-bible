@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Ezek.24.1-27"
   },
-  "texto_bv": "Fala à casa de Israel: ‘Assim diz o Senhor DEUS: Eis que profano o meu santuário, o orgulho da sua força, a delícia dos seus olhos e a ternura da sua alma. E os seus filhos e as suas filhas que deixaram cairão à espada.",
+  "texto_bv": "Fala à casa de Israel: ‘Assim diz o Senhor DEUS: Eis que profano o meu santuário, o orgulho da força de vocês, a delícia dos olhos de vocês e a ternura da alma de vocês. E os filhos e as filhas de vocês que deixaram cairão à espada.",
   "traducao_literal": "Dize à casa de Israel: assim disse o Senhor DEUS: eis-me profanando o meu santuário, orgulho da força de vós, delícia dos olhos de vós, e compaixão da alma de vós; e os filhos de vós e as filhas de vós que deixastes, à espada cairão.",
   "termos_originais": [
     {
@@ -145,6 +145,13 @@
       "justificativa": "Normalização vós→vocês, §3/D-0003 | Normalização vós→vocês, §3/D-0003 | Normalização vós→vocês (§3/D-0003) + divisão de sentença >40 palavras (§1.3/LEN-1) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "da sua força → da força de vocês | dos seus olhos → dos olhos de vocês | da sua alma → da alma de vocês | os seus filhos e as suas filhas → os filhos e as filhas de vocês",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): traducao_literal traz 'força de vós' (2ª pl.), e as referências confirmam endereçamento direto (ARA 'vosso'; NTLH/NVIPT 'vocês'). A normalização vós→vocês de ciclo anterior (ER-0019 v1) resultou em 3ª pessoa ambígua ('sua'), corrigida agora para a forma explícita 'de vocês'. | Mesmo ajuste do paradigma de 2ª pessoa (§3/D-0003) — ver motivo acima; literal 'olhos de vós', referências convergem em endereçamento direto. | Mesmo ajuste do paradigma de 2ª pessoa (§3/D-0003) — ver motivo acima; literal 'alma de vós', referências convergem em endereçamento direto. | Mesmo ajuste do paradigma de 2ª pessoa (§3/D-0003); literal 'filhos de vós e filhas de vós', NVIPT usa 'os filhos e as filhas que vocês deixaram'. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2 ('eis que'): mantido — traduz הִנְנִי + particípio, marca dêitica de iminência da ação divina; consistente com o mesmo padrão no v.16 (§1.4). Achado PRO-1 (5 pronomes de 3ª pessoa): os pronomes ('sua/seus') referiam-se à casa de Israel, mas o discurso (introduzido por 'Fala à casa de Israel') é endereçamento direto de Deus a humanos em número plural, que pelo paradigma vigente (§3/D-0003) usa 'vocês' — confirmado pela traducao_literal ('de vós', 2ª pl.) e pelas três referências (ARA 'vosso'; NTLH/NVIPT 'vocês' explícito). A 3ª pessoa ambígua foi corrigida para a forma explícita 'de vocês' (ver mudancas), eliminando a leitura de discurso indireto que a versão anterior (ER-0019 v1) introduziu inadvertidamente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -156,10 +163,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
