@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Zech.10.1-12"
   },
-  "texto_bv": "Pedi chuva ao SENHOR no tempo da chuva serôdia; o SENHOR faz os relâmpagos e lhes dará chuva torrencial, a cada um, plantas no campo.",
+  "texto_bv": "Peçam chuva ao SENHOR no tempo da chuva serôdia; o SENHOR faz os relâmpagos e lhes dará chuva torrencial e, a cada um, plantas no campo.",
   "traducao_literal": "Pedi do SENHOR chuva no tempo da chuva serôdia; o SENHOR faz relâmpagos; e chuva de temporal dará a eles, a cada homem, erva no campo.",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
           "motivo": "apaga a distinção semântica de intensidade presente no par מָטָר/גֶּשֶׁם"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Pedi → Peçam | chuva torrencial, a cada um, plantas no campo. → chuva torrencial e, a cada um, plantas no campo.",
+      "justificativa": "Paradigma de 2ª pessoa (EDITORIAL §3/D-0003): 'Pedi' é imperativo de vós; o discurso é exortação do profeta ao povo para que ore a Deus (humano→humano), não a própria oração dirigida a Deus — usa-se vocês. Normalizado para 'Peçam', conforme NTLH ('Peçam a Deus...'). | Pontuação conforme a sintaxe portuguesa (EDITORIAL §6.1): a justaposição só por vírgula entre os dois objetos do verbo 'dará' dificultava a leitura; inserida a conjunção 'e' para marcar o segundo item, alinhando com a estrutura de ARA/NVIPT, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). 'Chuva serôdia' foi mantido: embora NTLH/NVIPT parafraseiem como 'chuva da primavera', a ARA emprega exatamente o mesmo termo técnico-agrícola da BV; não consta na tabela de arcaísmos mortos (EDITORIAL §1.2), então não é caso de substituição.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -126,10 +133,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
