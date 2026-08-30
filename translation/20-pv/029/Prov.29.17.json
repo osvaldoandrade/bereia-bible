@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Prov.29.1-27"
   },
-  "texto_bv": "Discipline o seu filho, e ele lhe dará descanso; e dará delícias à sua alma.",
+  "texto_bv": "Discipline o seu filho, e ele lhe dará descanso; e lhe dará delícias na alma.",
   "traducao_literal": "Discipline seu filho, e ele lhe dará descanso; e dará delícias para sua alma.",
   "termos_originais": [
     {
@@ -53,6 +53,13 @@
           "motivo": "reservado ao discurso orante dirigido a Deus (D-0003), não ao discurso sapiencial entre humanos"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e dará delícias à sua alma → e lhe dará delícias na alma",
+      "justificativa": "Cheque #5 (referência pronominal inequívoca) / achado PRO-1: 'sua alma' podia ser lido como referindo-se a 'ele' (o filho, antecedente mais próximo) em vez do pai. Substituído por construção de dativo de posse ('lhe...na alma'), que mantém o mesmo referente (o pai, conforme לְנַפְשֶׁךָ = 'para você mesmo') sem ambiguidade e sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (excesso de pronomes de 3ª pessoa) procede: a proximidade de 'ele' e 'sua' criava referência ambígua. O registro de tradução confirma que לְנַפְשֶׁךָ significa 'para você mesmo' (o pai que disciplina), o mesmo referente de 'lhe' na oração anterior — por isso a correção usa 'lhe' novamente em vez de 'sua', eliminando a ambiguidade sem mudar quem é o beneficiário da frase.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -64,10 +71,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
