@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Ps.71.1-24"
   },
-  "texto_bv": "Farás crescer ainda mais a minha grandeza, e te voltarás para me consolar.",
+  "texto_bv": "Farás crescer a minha grandeza, e te voltarás para me consolar.",
   "traducao_literal": "Aumentarás minha grandeza, e voltarás, consolar-me-ás.",
   "termos_originais": [
     {
@@ -43,6 +43,13 @@
           "motivo": "quebraria a continuidade com os imperfeitos de expectativa do v.20, que não são formalmente imperativos."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Farás crescer ainda mais a minha grandeza → Farás crescer a minha grandeza",
+      "justificativa": "RAT-1: redundância — 'crescer' já expressa aumento; o intensificador 'ainda mais' duplicava a ênfase sem correspondência na traducao_literal ('Aumentarás minha grandeza') nem nas referências (ARA 'Aumentarás', NVIPT/NTLH sem duplo intensificador), inflando desnecessariamente o verso. — revisão de forma sem alteração de sentido (ER-0019). RAT-1 (ratio 2.17) confirmado: a expansão vinha do intensificador redundante 'ainda mais' somado à perífrase 'farás crescer'. Removido o intensificador; mantida a perífrase 'farás crescer' (equivalente natural a 'aumentarás') e a forma sem mesóclise 'te voltarás para me consolar', que já corrige adequadamente a mesóclise do literal ('consolar-me-ás') sem necessidade de nova intervenção.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -54,10 +61,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
