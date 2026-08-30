@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Isa.26.1-21"
   },
-  "texto_bv": "Porque eis que o SENHOR sai do seu lugar para punir a iniquidade dos habitantes da terra contra eles; e a terra revelará o seu sangue e não mais encobrirá os seus assassinados.",
+  "texto_bv": "Porque eis que o SENHOR sai do seu lugar para punir os habitantes da terra por causa da sua iniquidade; e a terra revelará o seu sangue e não mais encobrirá os seus assassinados.",
   "traducao_literal": "Porque eis, SENHOR sai de seu lugar, para punir iniquidade do habitante da terra sobre ele; e revelará a terra o seu sangue, e não encobrirá mais sobre os seus mortos-assassinados.",
   "termos_originais": [
     {
@@ -107,7 +107,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para punir a iniquidade dos habitantes da terra contra eles → para punir os habitantes da terra por causa da sua iniquidade",
+      "justificativa": "Achado PRO-1 (4 pronomes de 3ª pessoa): a construção “a iniquidade dos habitantes da terra contra eles” é ambígua — “eles” parece reintroduzir os próprios habitantes como alvo de uma iniquidade alheia, quando o sentido é que a punição recai sobre eles por causa da própria iniquidade (lit. “sobre ele”). As três referências convergem para a reestruturação “punir os moradores/habitantes da terra por causa da sua iniquidade” (ARA, NVIPT) / “por causa dos seus pecados” (NTLH) — reestruturação de forma que elimina a ambiguidade pronominal sem alterar o sentido (Deus pune os habitantes da terra por sua iniquidade). — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2 (“eis que”) mantido: o dêitico hebraico (hinê) marca com força a irrupção da ação divina neste anúncio profético; a ARA preserva “eis que” e a NVIPT usa marcador equivalente (“Vejam!”), confirmando que a força deítica deve ser preservada — só a NTLH a omite. Mantido sem alteração nesse ponto; o achado PRO-1 foi tratado separadamente (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "לִפְקֹד עֲוֹן 'visitar/punir a iniquidade'; imagem judicial de Deus saindo para ajustar contas com a terra pelo sangue derramado.",
@@ -117,10 +125,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
