@@ -98,6 +98,13 @@
           "motivo": "aplicaria a convenção do Tetragrama hebraico a um texto grego do NT que não o cita diretamente, extrapolando a política NOMES-DIVINOS"
         }
       ]
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "NTLH e NVIPT modernizam a citação da Lei para o imperativo em “você” (“não jure… cumpra”), enquanto ARA mantém a 2ª pessoa singular “tu” (jurarás/cumprirás), como a BV. A BV emprega deliberadamente o registro “tu” singular nas citações do Decálogo/Lei mosaica (5:21, 27, 33, 38, 43) para distingui-las do discurso direto de Jesus aos discípulos (que já usa vocês em todo o restante do capítulo) — mesmo padrão de “Não matarás”/“Não adulterarás”, consolidado na tradição bíblica em português. Não é o paradigma “vós” plural que §3/D-0003 manda normalizar (item 10), e sim citação de mandamento em singular; mantido por consistência interna do capítulo. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -109,10 +116,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

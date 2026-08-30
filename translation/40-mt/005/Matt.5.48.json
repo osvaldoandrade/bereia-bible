@@ -7,7 +7,7 @@
     "versiculo": 48,
     "pericope": "Matt.5.1-48"
   },
-  "texto_bv": "Portanto, sejam vocês perfeitos, como o Pai de vocês celestial é perfeito.",
+  "texto_bv": "Portanto, sejam vocês perfeitos, como o Pai celestial de vocês é perfeito.",
   "traducao_literal": "Sereis vós, pois, perfeitos, como o vosso Pai celestial é perfeito.",
   "termos_originais": [
     {
@@ -78,6 +78,13 @@
       "escolha": "'perfeito' (equivalente lexical direto)",
       "justificativa": "τέλειος carrega em grego a ideia de completude/inteireza, não apenas ausência de falha no sentido moderno; a BV mantém a glosa direta 'perfeito' (TEOLOGIA §2, tradução por valor lexical, sem concordismo), deixando a nuance de inteireza para nota exegética futura, não para expansão do texto (TEOLOGIA §2, proibição de importar exegese para o texto).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o Pai de vocês celestial → o Pai celestial de vocês",
+      "justificativa": "Ordem de palavras: o adjetivo “celestial” deve ficar imediatamente após o substantivo que modifica (“Pai”), não separado pela locução possessiva “de vocês” (substituta de “vosso”, D-0003). “Pai de vocês celestial” soa artificial/ambíguo em português; “Pai celestial de vocês” é natural e alinha com NVIPT (“Pai celestial de vocês”) e com a adjacência adjetivo-substantivo de ARA (“vosso Pai celestial”). Sentido preservado; traducao_literal não é alterada. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -89,10 +96,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
