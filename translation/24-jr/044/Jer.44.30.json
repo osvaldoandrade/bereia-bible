@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Jer.44.1-30"
   },
-  "texto_bv": "Assim diz o SENHOR: Eis que entrego o faraó Hófra, rei do Egito, nas mãos dos seus inimigos e nas mãos dos que buscam a sua morte, assim como entreguei Zedequias, rei de Judá, nas mãos de Nabucodonosor, rei da Babilônia, seu inimigo, que buscava a sua morte.”",
+  "texto_bv": "Assim diz o SENHOR: Eis que entrego o faraó Hófra, rei do Egito, nas mãos dos seus inimigos e nas mãos dos que buscam a sua morte. Assim entreguei Zedequias, rei de Judá, nas mãos de Nabucodonosor, rei da Babilônia, seu inimigo, que buscava a sua morte.”",
   "traducao_literal": "Assim disse SENHOR: eis-me dando o Faraó Hófra, rei do Egito, na mão dos seus inimigos e na mão dos que buscam a sua alma, como dei Zedequias, rei de Judá, na mão de Nabucodonosor, rei da Babilônia, seu inimigo e o que busca a sua alma.",
   "termos_originais": [
     {
@@ -192,6 +192,13 @@
       "justificativa": "Sentença com 48 palavras (LEN-1). A estrutura comparativa 'assim como' (כַּאֲשֶׁר) exige oração única: a segunda metade é subordinada comparativa dependente da principal. Dividir criaria fragmento sintático ('Assim como entreguei Zedequias...' sem oração principal). — evidência: O hebraico constrói a comparação numa única sentença; 'assim como' introduz cláusula subordinada que não sobrevive como frase independente em pt-BR sem adição de oração principal (mudança de sentido). (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nas mãos dos que buscam a sua morte, assim como entreguei Zedequias, rei de Judá, → nas mãos dos que buscam a sua morte. Assim entreguei Zedequias, rei de Judá,",
+      "justificativa": "EDITORIAL §1.3 — sentença de 48 palavras (LEN-1); dividida transformando a comparativa “assim como” em duas orações independentes ligadas por “Assim” (equivalente a “da mesma forma”), sem perda do sentido comparativo nem de conteúdo. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 (“eis que”): mantido pela mesma razão dos vv. 11, 26 e 27 — fórmula solene recorrente (הִנְנִי) que fecha o capítulo com o quarto e último oráculo introduzido dessa forma; a ARA mantém “Eis que” no mesmo versículo. PRO-1 (4 pronomes: “seus”, “sua” ×2, “seu”): todos com antecedente imediato e inequívoco (Hófra e seus perseguidores; Zedequias e Nabucodonosor), sem ambiguidade real.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -203,10 +210,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

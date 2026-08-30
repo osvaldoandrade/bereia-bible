@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Jer.44.1-30"
   },
-  "texto_bv": "E tomarei o remanescente de Judá — os que decidiram ir para a terra do Egito e ali morar. Na terra do Egito, todos serão consumidos: cairão pela espada e serão consumidos pela fome, do menor ao maior; morrerão pela espada e pela fome, e se tornarão objeto de imprecação, de desolação, de maldição e de opróbrio.",
+  "texto_bv": "E tomarei o remanescente de Judá — os que decidiram ir para a terra do Egito e ali morar. Na terra do Egito, todos perecerão: cairão pela espada, e a fome os consumirá, do menor ao maior; morrerão pela espada e pela fome, e se tornarão objeto de imprecação, de desolação, de maldição e de opróbrio.",
   "traducao_literal": "E tomarei o remanescente de Judá que puseram a sua face para vir à terra do Egito para peregrinar ali; e se consumirão todos, na terra do Egito cairão, pela espada, pela fome se consumirão, do pequeno até o grande, pela espada e pela fome morrerão; e serão por imprecação, por desolação e por maldição e por opróbrio.",
   "termos_originais": [
     {
@@ -189,6 +189,13 @@
           "motivo": "prejudicaria leitura em voz alta/TTS conforme EDITORIAL §1.3"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "todos serão consumidos: cairão pela espada e serão consumidos pela fome → todos perecerão: cairão pela espada, e a fome os consumirá",
+      "justificativa": "EDITORIAL regra 6 — passivas desnecessárias (PAS-1, 2 ocorrências) substituídas por voz ativa (“perecerão”, “a fome os consumirá”), sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). RED-1 (“pela espada; pela fome”): a repetição do par “espada/fome” é figura retórica característica de Jeremias para enfatizar a totalidade do juízo, preservada também pela ARA e pela NVIPT (ambas repetem o par duas vezes); mantida por fidelidade. PAS-1 corrigido trocando as duas passivas por voz ativa.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -200,10 +207,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

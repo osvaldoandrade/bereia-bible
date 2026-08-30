@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "Jer.44.1-30"
   },
-  "texto_bv": "Portanto, ouçam a palavra do SENHOR, todo o Judá que habita na terra do Egito. Eis que jurei pelo meu grande nome, diz o SENHOR, que o meu nome nunca mais será invocado pela boca de nenhum homem de Judá em toda a terra do Egito, dizendo: 'Vive o Senhor DEUS.'",
+  "texto_bv": "Portanto, ouçam a palavra do SENHOR, todo o Judá que habita na terra do Egito. Eis que jurei pelo meu grande nome, diz o SENHOR, que o meu nome nunca mais será invocado pela boca de nenhum homem de Judá em toda a terra do Egito, dizendo: ‘Vive o Senhor DEUS.’",
   "traducao_literal": "Portanto ouvi a palavra de SENHOR, todo o Judá, os que habitam na terra do Egito: eis-me jurei pelo meu nome grande, disse SENHOR, se ainda será meu nome chamado na boca de todo homem de Judá, dizendo: vive Senhor DEUS, em toda a terra do Egito.",
   "termos_originais": [
     {
@@ -191,6 +191,13 @@
       "justificativa": "Divisão de sentença longa (51 palavras, LEN-1) em duas no limite entre o chamado à atenção (imperativo) e o conteúdo do anúncio divino. O 'Eis que' (הִנְנִי, deictic com força) inicia nova frase com clareza contextual; a conexão com 'ouçam' sobrevive ao ponto. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dizendo: 'Vive o Senhor DEUS.' → dizendo: ‘Vive o Senhor DEUS.’",
+      "justificativa": "EDITORIAL §5 — citação dentro de citação usa aspas simples curvas (‘…’), não retas; uniformiza com o v.25 do mesmo capítulo. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 (“eis que”) e RED-1 (“terra do Egito”): ambos mantidos por fidelidade — “eis que” é a mesma fórmula solene recorrente do capítulo (vv. 11, 27, 30; ver justificativa do v.11); a repetição de “terra do Egito” reproduz o refrão geográfico insistente do oráculo hebraico, também presente na ARA (“na terra do Egito... em toda a terra do Egito”).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -202,10 +209,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
