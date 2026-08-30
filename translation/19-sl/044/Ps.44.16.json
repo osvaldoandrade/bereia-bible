@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Ps.44.1-27"
   },
-  "texto_bv": "O dia todo a minha vergonha está diante de mim, e a confusão do meu rosto me cobre.",
+  "texto_bv": "O dia todo a minha humilhação está diante de mim, e a vergonha do meu rosto me cobre.",
   "traducao_literal": "Todo-o-dia minha-vergonha diante-de-mim, e vergonha-de meu-rosto cobriu-me.",
   "termos_originais": [
     {
@@ -53,6 +53,13 @@
       "escolha": "Presente: 'me cobre'",
       "justificativa": "O perfeito hebraico aqui expressa estado presente resultante (perfeito estativo), coerente com o presente נֶגְדִּי ('diante de mim') do primeiro colo; a literal preserva a forma verbal perfectiva.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vergonha → humilhação | confusão → vergonha",
+      "justificativa": "Evitar repetição de 'vergonha' no mesmo verso após a correção de 'confusão' → 'vergonha'. O heb. חרפה (reprovação/desgraça) é bem vertido por 'humilhação'. §1.4 consistência: duas palavras hebraicas distintas (חרפה e כלמה) devem produzir dois lexemas portugueses distintos. | 'Confusão' no sentido de 'vergonha/desgraça' é acepção datada em pt-BR contemporâneo (Houaiss: 'desus.'); leitor moderno lê 'confusão' como perplexidade/desordem, não como vergonha. As três referências (NTLH/ARA/NVIPT) usam 'vergonha' para o heb. כלמה. Correção de forma — o sentido pretendido (vergonha) é preservado com lexema inequívoco. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -64,10 +71,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
