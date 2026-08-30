@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "2Cor.11.1-33"
   },
-  "texto_bv": "Quisera que vocês me suportassem um pouco na insensatez; mas vocês de fato me suportam.",
+  "texto_bv": "Eu gostaria que vocês me suportassem um pouco na insensatez; mas vocês de fato me suportam.",
   "traducao_literal": "Quisera suportásseis a mim um pouco de insensatez; mas também suportais a mim.",
   "termos_originais": [
     {
@@ -73,6 +73,13 @@
           "motivo": "força um imperativo que a morfologia grega não distingue aqui; menos direta que o indicativo."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Quisera que vocês me suportassem → Eu gostaria que vocês me suportassem",
+      "justificativa": "Arcaísmo funcionalmente morto (EDITORIAL §1.2, categoria mais-que-perfeito sintético): “quisera” com valor desiderativo soa artificial em pt-BR contemporâneo. Achado ARC-1 confirmado; NTLH usa “gostaria”, ARA mantém “oxalá”, NVIPT usa “espero que” — nenhuma referência preserva a forma sintética. Substituição não altera o sentido de pedido/desejo do original. — revisão de forma sem alteração de sentido (ER-0019). Achado ARC-1 (“quisera”) confirmado como arcaísmo; corrigido para “Eu gostaria”, mais próximo da referência NTLH e mais natural em português contemporâneo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -88,10 +95,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
