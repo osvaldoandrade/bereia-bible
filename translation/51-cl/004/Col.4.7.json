@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Col.4.1-18"
   },
-  "texto_bv": "Tíquico, o irmão amado, fiel servo e conservo no Senhor, dará a vocês notícias de tudo o que se passa comigo.",
+  "texto_bv": "Tíquico, o irmão amado, fiel servo e conservo no Senhor, dará a vocês notícias de tudo o que se passa comigo,",
   "traducao_literal": "As coisas quanto a mim, todas, fará conhecer a vós Tíquico, o amado irmão e fiel servo e conservo no Senhor,",
   "termos_originais": [
     {
@@ -120,6 +120,13 @@
       "escolha": "\"conservo\"",
       "justificativa": "Precedente já fixado no corpus em Mt 18:28: marca a igualdade de posição de servidão entre Tíquico e Paulo, ambos servos/escravos do mesmo Senhor.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que se passa comigo. → que se passa comigo,",
+      "justificativa": "Pontuação (§6.1): o ponto final rompe o período que continua no v.8 ('a quem enviei a vocês...', oração relativa cujo antecedente é 'Tíquico'), deixando o v.8 como fragmento iniciado por pronome relativo sem antecedente na própria sentença. A vírgula restaura a sintaxe portuguesa, alinhando com a estrutura de período único da ARA (vv.7-9). Sentido preservado integralmente. — revisão de forma sem alteração de sentido (ER-0019). ARA e NVIPT preferem 'ministro'/'cooperador' onde a BV usa 'servo'/'conservo' para o mesmo colaborador; porém 'servo' é termo corrente em português atual (evita a leitura de 'ministro' como cargo eclesiástico/político formal) e 'conservo' acompanha a própria opção da ARA, não constando na tabela de arcaísmos §1.2. A divergência é de escolha lexical/teológica (diakonos), fora do escopo de revisão de forma; a única correção aplicada neste verso foi a pontuação já registrada em 'mudancas'.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -131,10 +138,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
