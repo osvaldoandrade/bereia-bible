@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Gal.2.1-21"
   },
-  "texto_bv": "sabendo, porém, que o homem não é justificado pelas obras da lei, mas mediante a fé em Jesus Cristo, também nós cremos em Cristo Jesus, para sermos justificados pela fé em Cristo, e não pelas obras da lei; porque pelas obras da lei nenhuma carne será justificada.",
+  "texto_bv": "sabendo, porém, que o homem não é justificado pelas obras da lei, mas mediante a fé em Jesus Cristo, também nós cremos em Cristo Jesus, para sermos justificados pela fé em Cristo, e não pelas obras da lei. Pois pelas obras da lei nenhuma carne será justificada.",
   "traducao_literal": "sabendo, porém, que não é justificado o homem por obras de lei, se não por meio de fé de Jesus Cristo, também nós em Cristo Jesus cremos, para que fôssemos justificados por fé de Cristo e não por obras de lei; porque por obras de lei não será justificada toda carne.",
   "termos_originais": [
     {
@@ -230,6 +230,13 @@
       "escolha": "segui o func_morph (passiva): 'não é justificado'",
       "justificativa": "sentido passivo evidente no contexto (o homem é justificado por Deus, não por si mesmo), consistente com a leitura já adotada em Rom.3.24/3.28",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e não pelas obras da lei; porque pelas obras da lei nenhuma carne será justificada. → e não pelas obras da lei. Pois pelas obras da lei nenhuma carne será justificada.",
+      "justificativa": "Divisão de sentença de 47 palavras (LEN-1, §1.3) no ponto e vírgula já existente, convertendo-o em ponto final; troca de 'porque' por 'pois' como conectivo de abertura de sentença (mais natural em início de período que 'porque'), sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). RED-1 ('pelas obras [da lei]', 3 ocorrências) e PAS-1 (2 passivas: 'não é justificado', 'será justificada') avaliados e mantidos: a traducao_literal confirma a tríplice repetição de 'obras de lei' no original grego (ἔργων νόμου), uma fórmula retórica intencional de Paulo (fidelidade, regra 4); as passivas espelham o grego δικαιοῦται/δικαιωθήσεται e são preservadas também por ARA e NVIPT (referências mais formais), enquanto só a NTLH opta por ativa — confirmando que a passiva é a escolha majoritária e correta aqui.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -243,10 +250,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

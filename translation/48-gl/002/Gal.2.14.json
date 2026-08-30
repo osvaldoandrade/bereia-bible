@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Gal.2.1-21"
   },
-  "texto_bv": "Mas, quando vi que eles não andavam corretamente em relação à verdade do evangelho, eu disse a Cefas, diante de todos: \"Se você, sendo judeu, vive como gentio, e não como judeu, como pode obrigar os gentios a viver como judeus?\"",
+  "texto_bv": "Mas, quando vi que eles não andavam corretamente em relação à verdade do evangelho, eu disse a Cefas, diante de todos: “Se você, sendo judeu, vive como gentio, e não como judeu, como pode obrigar os gentios a viver como judeus?”",
   "traducao_literal": "Mas, quando vi que não andavam retamente em relação à verdade do evangelho, eu disse a Cefas diante de todos: 'Se tu, sendo judeu, vives à maneira dos gentios e não à maneira dos judeus, como obrigas os gentios a judaizar?'",
   "termos_originais": [
     {
@@ -190,6 +190,13 @@
           "motivo": "posição minoritária, mas defensável; preservada como ambiguidade, não descartada"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eu disse a Cefas, diante de todos: \"Se você, sendo judeu, vive como gentio, e não como judeu, como pode obrigar os gentios a viver como judeus?\" → eu disse a Cefas, diante de todos: “Se você, sendo judeu, vive como gentio, e não como judeu, como pode obrigar os gentios a viver como judeus?”",
+      "justificativa": "Padronização de aspas de discurso direto para aspas duplas curvas “ ”, conforme EDITORIAL §5 (o registro trazia aspas retas indevidas). — revisão de forma sem alteração de sentido (ER-0019). LEN-1 (41 palavras) avaliado: o período soma a oração narrativa (moldura) mais a pergunta citada; EDITORIAL §5 exige que o discurso direto seja introduzido por dois-pontos (não por ponto final), então não há ponto de divisão que preserve a citação intacta sem violar essa convenção. Mantido, com a correção de aspas aplicada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -205,10 +212,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

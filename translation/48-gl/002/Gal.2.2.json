@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Gal.2.1-21"
   },
-  "texto_bv": "Subi por causa de uma revelação e expus a eles o evangelho que prego entre os gentios — em particular, porém, aos que eram tidos por importantes — para que, de algum modo, eu não estivesse correndo ou não tivesse corrido em vão.",
+  "texto_bv": "Subi por causa de uma revelação. Expus a eles o evangelho que prego entre os gentios — em particular, porém, aos que eram tidos por importantes — para que, de algum modo, eu não estivesse correndo ou não tivesse corrido em vão.",
   "traducao_literal": "Subi, porém, segundo revelação; e expus a eles o evangelho que eu prego entre os gentios, mas em particular aos que eram tidos por importantes, para que de algum modo eu não estivesse correndo ou tivesse corrido, em vão.",
   "termos_originais": [
     {
@@ -159,6 +159,13 @@
       "escolha": "'para que...eu não estivesse correndo ou não tivesse corrido, em vão' — preservando os dois tempos verbais",
       "justificativa": "a mudança de aspecto (presente contínuo depois aoristo) é construção paulina difícil; a BV mantém os dois verbos em vez de nivelar num só tempo",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Subi por causa de uma revelação e expus a eles o evangelho que prego entre os gentios — em particular, porém, aos que eram tidos por importantes — para que, de algum modo, eu não estivesse correndo ou não tivesse corrido em vão. → Subi por causa de uma revelação. Expus a eles o evangelho que prego entre os gentios — em particular, porém, aos que eram tidos por importantes — para que, de algum modo, eu não estivesse correndo ou não tivesse corrido em vão.",
+      "justificativa": "Divisão de sentença de 41 palavras (LEN-1, §1.3) em duas orações independentes no ponto em que a traducao_literal já marca fronteira com ponto e vírgula ('subi... revelação; e expus...'); nenhum conteúdo é adicionado ou perdido. — revisão de forma sem alteração de sentido (ER-0019). NTLH e NVIPT também fragmentam este período em unidades menores; a divisão apenas normaliza a pontuação, sem alterar o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -173,10 +180,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
