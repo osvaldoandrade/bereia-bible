@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Heb.2.1-18"
   },
-  "texto_bv": "todas as coisas sujeitaste debaixo dos seus pés.\" Pois, ao sujeitar-lhe todas as coisas, ele nada deixou que não lhe fosse sujeito. Mas agora ainda não vemos que todas as coisas lhe estejam sujeitas;",
+  "texto_bv": "todas as coisas sujeitaste debaixo dos seus pés.\" Pois, ao sujeitar-lhe todas as coisas, nada deixou que não lhe fosse sujeito. Mas agora ainda não vemos que todas as coisas lhe estejam sujeitas;",
   "traducao_literal": "Todas as coisas sujeitaste debaixo dos pés dele. Pois no sujeitar a ele as todas as coisas, nada deixou a ele não sujeito. Agora, porém, ainda não vemos a ele as todas as coisas tendo sido sujeitas;",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
           "motivo": "o vocabulário e a lógica argumentativa (πάντα repetido, νῦν δὲ οὔπω) são do autor, não do salmo"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Pois, ao sujeitar-lhe todas as coisas, ele nada deixou que não lhe fosse sujeito. → Pois, ao sujeitar-lhe todas as coisas, nada deixou que não lhe fosse sujeito.",
+      "justificativa": "Redução de pronome de 3ª pessoa redundante (verbo 'deixou' já indica o sujeito por concordância) — responde ao achado PRO-1 (5 pronomes de 3ª pessoa), sem alterar o sentido. O referente permanece inequívoco (o mesmo sujeito de toda a passagem); a densidade pronominal resultante (4) fica equivalente à de ARA/NVIPT para o mesmo trecho. — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 sinalizou 5 pronomes de 3ª pessoa; todos têm o mesmo antecedente claro (não há ambiguidade referencial, cf. regra 5), então não é caso de reescrever a frase — apenas eliminei uma ocorrência redundante ('ele') cuja função já é cumprida pela conjugação verbal, alinhando a densidade pronominal à de ARA/NVIPT (4 ocorrências).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -161,10 +168,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
