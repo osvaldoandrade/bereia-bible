@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Ps.95.1-11"
   },
-  "texto_bv": "Vinde, cantemos com júbilo ao SENHOR; aclamemos a rocha da nossa salvação.",
+  "texto_bv": "Venham, cantemos com júbilo ao SENHOR; aclamemos a rocha da nossa salvação.",
   "traducao_literal": "Ide, cantemos-com-júbilo ao SENHOR, aclamemos à rocha de nossa salvação.",
   "termos_originais": [
     {
@@ -64,6 +64,13 @@
           "motivo": "dissolve a imagem concreta em glosa abstrata sem suporte lexical para o desvio."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vinde → Venham",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003, item 10): o capítulo já usa 'vocês' em Ps.95.7-8; 'Vinde' (imperativo vós) cria paradigma misto dentro do mesmo capítulo. Discurso humano-a-humano (convocação à adoração), não oração dirigida a Deus, portanto usa o paradigma vocês/venham. — revisão de forma sem alteração de sentido (ER-0019). NTLH ('Venham todos') e NVIPT ('Venham!') confirmam que 'venham' soa natural em português contemporâneo para esta convocação; ARA mantém 'Vinde' por seguir integralmente o paradigma vós em toda a tradução, que não é o paradigma adotado pela BV (D-0003).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -75,10 +82,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
