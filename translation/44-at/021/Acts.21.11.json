@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Acts.21.1-40"
   },
-  "texto_bv": "Ele veio a nós, tomou o cinto de Paulo, amarrou os próprios pés e as mãos e disse: \"Isto diz o Espírito Santo: 'Assim os judeus amarrarão, em Jerusalém, o homem a quem pertence este cinto, e o entregarão nas mãos dos gentios.'\"",
+  "texto_bv": "Ele veio a nós, tomou o cinto de Paulo, amarrou os próprios pés e as mãos e disse: “Isto diz o Espírito Santo: ‘Assim os judeus amarrarão, em Jerusalém, o homem a quem pertence este cinto, e o entregarão nas mãos dos gentios.’”",
   "traducao_literal": "e havendo vindo a nós e havendo tomado o cinto de Paulo, havendo amarrado os próprios pés e as mãos, disse: 'Isto diz o Espírito Santo: o homem de quem é este cinto, assim o amarrarão em Jerusalém os judeus e o entregarão nas mãos dos gentios.'",
   "termos_originais": [
     {
@@ -228,6 +228,13 @@
       "escolha": "aspas duplas para a fala de Ágabo, aspas simples para o oráculo do Espírito citado por ele",
       "justificativa": "EDITORIAL §5: citação dentro de citação recebe aspas simples; a fórmula 'Isto diz o Espírito Santo' introduz um segundo nível de discurso direto dentro da fala narrada de Ágabo.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e disse: \"Isto diz o Espírito Santo: 'Assim os judeus amarrarão, em Jerusalém, o homem a quem pertence este cinto, e o entregarão nas mãos dos gentios.'\" → e disse: “Isto diz o Espírito Santo: ‘Assim os judeus amarrarão, em Jerusalém, o homem a quem pertence este cinto, e o entregarão nas mãos dos gentios.’” | Ele veio a nós, tomou o cinto de Paulo, amarrou os próprios pés e as mãos e disse: “Isto diz o Espírito Santo: ‘Assim os judeus amarrarão, em Jerusalém, o homem a quem pertence este cinto, e o entregarão nas mãos dos gentios.’” → Ele veio a nós, tomou o cinto de Paulo, amarrou os próprios pés e as mãos. E disse: “Isto diz o Espírito Santo: ‘Assim os judeus amarrarão, em Jerusalém, o homem a quem pertence este cinto, e o entregarão nas mãos dos gentios.’”",
+      "justificativa": "§5/ER-0004: aspas internas retas ('...') normalizadas para aspas simples curvas (‘...’), conforme regra de citação dentro de citação. | LEN-1 (43 palavras): sentença dividida em duas após ‘mãos’, inserindo ponto e ‘E’ para retomar a sequência narrativa. Cada frase resultante tem ≤ 22 palavras (§1.3). — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 (43 palavras) resolvido com divisão de sentença; aspas internas retas corrigidas para curvas conforme §5/ER-0004. A divisão preserva integralmente o sentido da ação profética de Ágabo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -239,10 +246,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
