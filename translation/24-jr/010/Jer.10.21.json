@@ -109,13 +109,32 @@
   "confianca": 0.75,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): O hifil hebraico de “sakal” admite tanto ‘agir com prudência/sabedoria’ quanto ‘prosperar/ter êxito’. A BV escolheu o sentido de maneira (“não agiram com sabedoria”), enquanto as três referências convergem no sentido de resultado (“não prosperaram/fracassaram”). Alinhar à referência mudaria o campo semântico da afirmação (de ‘como agiram’ para ‘o que obtiveram’), o que excede correção de forma. — evidência: NTLH: “foi por isso que elas fracassaram”; ARA: “por isso não prosperaram”; NVIPT: “por isso não prosperam”."
+  ],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
