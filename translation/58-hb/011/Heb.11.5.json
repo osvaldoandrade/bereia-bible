@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Heb.11.1-40"
   },
-  "texto_bv": "Pela fé Enoque foi trasladado, de modo que não viu a morte, e não foi encontrado, porque Deus o trasladara. Pois, antes de ser trasladado, obteve bom testemunho de que agradara a Deus.",
+  "texto_bv": "Pela fé Enoque foi trasladado, de modo que não viu a morte, e não foi encontrado, porque Deus o havia trasladado. Pois, antes de ser trasladado, obteve bom testemunho de que havia agradado a Deus.",
   "traducao_literal": "Pela fé Enoque foi trasladado do não ver morte, e não era encontrado, porque o trasladou Deus; pois antes da translação tem sido testemunhado ter agradado a Deus.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
       "escolha": "'trasladar'",
       "justificativa": "termo consolidado em português para a remoção de Enoque (cf. Gn 5:24 LXX μετέθηκεν), preferido a paráfrases como 'levar/arrebatar' por manter a raiz lexical constante nas três ocorrências do verso.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "porque Deus o trasladara → porque Deus o havia trasladado | que agradara a Deus → que havia agradado a Deus",
+      "justificativa": "Mais-que-perfeito sintético (EDITORIAL §1.2-tabela) substituído por composto; NTLH ('havia levado') e NVIPT ('havia arrebatado') já usam a forma composta — só ARA preserva o sintético arcaico. | Mesmo motivo — mais-que-perfeito sintético → composto, alinhado a NTLH ('já havia agradado') e NVIPT ('tinha agradado'). — revisão de forma sem alteração de sentido (ER-0019). PAS-1 (2 passivas) é falso positivo: 'foi trasladado' e 'não foi encontrado' reproduzem a voz passiva do grego (μετετέθη) e são preservadas também por NTLH/ARA/NVIPT — mantidas. Corrigidos, porém, dois mais-que-perfeitos sintéticos ('trasladara', 'agradara'), arcaísmo tabelado em EDITORIAL §1.2.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -144,10 +151,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
