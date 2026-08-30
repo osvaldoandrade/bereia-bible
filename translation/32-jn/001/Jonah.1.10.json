@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Jonah.1.1-16"
   },
-  "texto_bv": "Então os homens ficaram tomados de grande temor, e lhe disseram: \"O que foi isso que você fez?!\" — pois os homens sabiam que ele estava fugindo de diante do SENHOR, porque ele lhes tinha contado.",
+  "texto_bv": "Então os homens ficaram tomados de grande temor, e lhe disseram: “O que foi isso que você fez?!” — pois os homens sabiam que Jonas estava fugindo de diante do SENHOR, porque ele lhes tinha contado.",
   "traducao_literal": "E temeram os homens um grande temor, e disseram a ele: \"Que é isto que você fez?!\" — porque sabiam os homens que de diante do SENHOR ele estava fugindo, porque tinha contado a eles.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "escolha": "Manter tradução idêntica \"de diante do SENHOR\" para preservar o fio temático da fuga.",
       "justificativa": "Consistência com a decisão do v.3 (inclusio da fuga).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois os homens sabiam que ele estava fugindo de diante do SENHOR, porque ele lhes tinha contado → pois os homens sabiam que Jonas estava fugindo de diante do SENHOR, porque ele lhes tinha contado",
+      "justificativa": "PRO-1: o verso concentrava 4 pronomes de 3ª pessoa (lhe/ele/lhes/ele); embora o antecedente fosse recuperável pelo contexto, a densidade prejudicava a fluidez. Explicitando “Jonas” na primeira ocorrência (mantendo o segundo “ele”, já ancorado) reduz a carga pronominal sem alterar o sentido, seguindo o mesmo recurso de nomeação explícita que a NVIPT usa neste ponto (“Jonas estava fugindo do Senhor”). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (4 pronomes de 3ª pessoa) adjudicado: o antecedente já era gramaticalmente inequívoco (único referente masculino singular é Jonas; “lhes” só pode remeter aos homens, plural), mas a densidade pronominal foi reduzida por clareza, nomeando Jonas uma vez — solução também adotada pela NVIPT neste verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -137,10 +144,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
