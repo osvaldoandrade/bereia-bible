@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Zech.3.1-10"
   },
-  "texto_bv": "E ele respondeu e disse aos que estavam diante dele: “Tirem dele as roupas sujas.” E disse a Josué: “Veja, removi de você a sua iniquidade, e eu vestirei você de vestes festivas.”",
+  "texto_bv": "E ele respondeu e disse aos que estavam diante dele: “Tirem as roupas sujas de Josué.” E disse a Josué: “Veja, removi de você a sua iniquidade, e eu vestirei você de vestes festivas.”",
   "traducao_literal": "E respondeu e disse aos que estavam em pé diante dele, dizendo: Tirai as roupas sujas de sobre ele. E disse a ele: Vê, fiz passar de sobre ti a tua iniquidade, e vestir-te-ei vestes de festa.",
   "termos_originais": [
     {
@@ -122,6 +122,13 @@
           "motivo": "registro coloquial demais para o tom do oráculo"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Tirem dele as roupas sujas. → Tirem as roupas sujas de Josué.",
+      "justificativa": "PRO-1: referência pronominal ambígua — “dele” na oração anterior (“diante dele”) refere-se ao anjo, e o “dele” seguinte (“Tirem dele”) refere-se a Josué; dois antecedentes distintos em sequência imediata (regra 5). Nomear “Josué” explicitamente resolve a ambiguidade sem alterar o sentido, alinhado à prática de NTLH (“a roupa de Josué”) e NVIPT (que também nomeia o sujeito “O anjo” para evitar a mesma ambiguidade). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (4 pronomes de 3ª pessoa) confirmado: cadeia “ele...dele...dele” trocava de referente (anjo → Josué) sem clareza; corrigido nomeando “Josué” (ver mudancas). O “sua” em “de você a sua iniquidade” é lido corretamente como 2ª pessoa (retoma “você” imediatamente anterior) e não precisa de ajuste.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -137,10 +144,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
