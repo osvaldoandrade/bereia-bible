@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Ezek.7.1-27"
   },
-  "texto_bv": "Eis o dia! Eis que chegou! Chegou o destino; brotou a vara; floresceu a arrogância.",
+  "texto_bv": "Eis o dia! Eis que chegou! Chegou o destino; brotou a vara; floresceu a soberba.",
   "traducao_literal": "Eis o dia, eis vem; saiu o destino, brotou a vara, floresceu a soberba.",
   "termos_originais": [
     {
@@ -79,6 +79,13 @@
           "motivo": "conota realeza/autoridade, ausente do contexto de opressão violenta"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "floresceu a arrogância. → floresceu a soberba.",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): a traducao_literal usa 'soberba' tanto em 7.10 quanto em 7.24 (mesmo termo original), mas o texto publicado variava para 'arrogância' em 7.10 enquanto mantinha 'soberba' em 7.24, sem razão estilística. A ARA também usa 'soberba' nos dois versos. Normalizado para o lexema majoritário do capítulo. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 flagra 'eis que', mesmo refrão intencional dos vv. 5-6 (ver justificativa de 7.5) — mantido. Além disso, a comparação com as referências (regra zero) revelou inconsistência lexical entre 7.10 e 7.24 para o mesmo termo da traducao_literal ('soberba'); corrigido conforme mudancas acima.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -90,10 +97,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
