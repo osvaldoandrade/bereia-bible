@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Rev.12.1-18"
   },
-  "texto_bv": "E a terra socorreu a mulher; abriu a sua boca e engoliu o rio que o dragão lançara da sua boca.",
+  "texto_bv": "E a terra socorreu a mulher; abriu a sua boca e engoliu o rio que o dragão tinha lançado da sua boca.",
   "traducao_literal": "E socorreu a terra a mulher, e abriu a terra a boca dela e engoliu o rio que lançou o dragão da boca dele.",
   "termos_originais": [
     {
@@ -170,6 +170,13 @@
           "motivo": "perde a anterioridade em relação a 'engoliu'"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o rio que o dragão lançara da sua boca → o rio que o dragão tinha lançado da sua boca",
+      "justificativa": "\"Lançara\" é mais-que-perfeito sintético funcionalmente morto (mesma categoria de \"fizera\"/\"nascera\", EDITORIAL §1.2-tabela, cheque item 1), não flagrado pela triagem mas coberto pelo cheque obrigatório. A traducao_literal já usa pretérito simples (\"lançou\"); \"tinha lançado\" preserva a nuance sem o arcaísmo. NTLH usa forma composta análoga (\"tinha saído\"). — revisão de forma sem alteração de sentido (ER-0019). Sem achado listado pela triagem para este verso; correção por cheque obrigatório de arcaísmo (item 1). ARA/NVIPT preservam formas sintéticas (\"lançara\"/\"fizera\"), mas a política da BV (§1.2) não abre exceção fora de fórmula litúrgica consolidada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -181,10 +188,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

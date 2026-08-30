@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Rev.12.1-18"
   },
-  "texto_bv": "E, quando o dragão viu que fora lançado sobre a terra, perseguiu a mulher que dera à luz o filho varão.",
+  "texto_bv": "E, quando o dragão viu que tinha sido lançado sobre a terra, perseguiu a mulher que tinha dado à luz o filho varão.",
   "traducao_literal": "E quando viu o dragão que foi lançado sobre a terra, perseguiu a mulher, a qual deu à luz o varão.",
   "termos_originais": [
     {
@@ -125,6 +125,13 @@
       "escolha": "'que' no publicado; a literal preserva 'a qual'.",
       "justificativa": "Normalização do relativo (ER-0013); ὅστις auditável via lema.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "quando o dragão viu que fora lançado sobre a terra → quando o dragão viu que tinha sido lançado sobre a terra | a mulher que dera à luz o filho varão → a mulher que tinha dado à luz o filho varão",
+      "justificativa": "Mais-que-perfeito sintético (\"fora\") substituído por pretérito composto, mesma categoria de arcaísmo do achado ARC-1 neste verso (EDITORIAL §1.2-tabela, cheque item 1); NTLH usa a mesma forma composta (\"tinha sido jogado\"). | Achado ARC-1: mais-que-perfeito sintético (\"dera\") substituído por pretérito composto, conforme EDITORIAL §1.2-tabela; NTLH usa a mesma forma composta (\"tinha dado à luz\"). — revisão de forma sem alteração de sentido (ER-0019). Achado ARC-1 (\"dera\"). Corrigidas as duas ocorrências de mais-que-perfeito sintético do verso (\"fora\" e \"dera\") pelo mesmo motivo — a triagem flagrou só a segunda, mas ambas pertencem à mesma categoria de arcaísmo (cheque item 1). ARA e NVIPT preservam formas sintéticas, mas a política editorial da BV (§1.2) não abre exceção aqui; NTLH confirma as formas compostas escolhidas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -138,10 +145,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
