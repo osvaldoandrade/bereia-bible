@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "1Pet.2.1-25"
   },
-  "texto_bv": "como livres, e não tendo a liberdade como capa da maldade, mas como servos de Deus.",
+  "texto_bv": "como livres, e não tendo a liberdade como capa da malícia, mas como servos de Deus.",
   "traducao_literal": "como livres, e não como capa tendo da maldade a liberdade, mas como de Deus servos.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
           "motivo": "mais preciso sociologicamente (δοῦλος = escravo), mas 'servos de Deus' é a convenção teológica consolidada; preservar para revisão futura em ciclo de consenso"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "capa da maldade → capa da malícia",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): o mesmo termo grego κακία, traduzido 'malícia' em 1Pe 2.1, aparece aqui vertido 'maldade' sem razão estilística documentada. ARA mantém 'malícia' nos dois versos ('toda a malícia' em 2.1 e 'capa da malícia' em 2.16), confirmando a normalização; sentido preservado (sinônimos). — revisão de forma sem alteração de sentido (ER-0019). Verificado com as referências: ARA usa 'malícia' também aqui, alinhado ao mesmo termo grego κακία de 2.1. NTLH e NVIPT parafraseiam ('encobrir o mal' / 'desculpa para fazer o mal'), sem impor a variação. Normalizado para consistência interna do capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -109,10 +116,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
