@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Dan.2.1-49"
   },
-  "texto_bv": "No segundo ano do reinado de Nabucodonosor, Nabucodonosor teve sonhos, seu espírito se perturbou, e o sono fugiu dele.",
+  "texto_bv": "No segundo ano do reinado de Nabucodonosor, ele teve sonhos, seu espírito se perturbou, e o sono fugiu dele.",
   "traducao_literal": "E-no-ano dois do-reinado-de Nabucodonosor, sonhou Nabucodonosor sonhos; e-perturbou-se seu-espírito, e-seu-sono foi sobre-ele.",
   "termos_originais": [
     {
@@ -83,6 +83,13 @@
           "motivo": "leitura literal simétrica com 'espírito perturbado', mas redundante e menos apoiada pela tradição exegética e pelo desenrolar da narrativa"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "de Nabucodonosor, Nabucodonosor teve sonhos → de Nabucodonosor, ele teve sonhos",
+      "justificativa": "Repetição formular de sujeito do hebraico, redundante em português (ER-0013 item 2, condensável no texto publicado); NTLH/ARA/NVIPT evitam o nome duplicado. A repetição permanece na traducao_literal. — revisão de forma sem alteração de sentido (ER-0019). Sem achado ativo, mas as três referências evitam a repetição imediata do nome próprio, que soa defeituosa em pt-BR; condensação autorizada por ER-0013.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -98,10 +105,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
