@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Prov.19.1-29"
   },
-  "texto_bv": "O homem de grande ira arcará com a pena; pois, se o livrares uma vez, terás de fazê-lo de novo.",
+  "texto_bv": "O homem de grande ira arcará com a pena; pois, se você o livrar uma vez, terá de fazê-lo de novo.",
   "traducao_literal": "[Grande?]-de-ira levará castigo; porque, se livrares, ainda acrescentarás.",
   "termos_originais": [
     {
@@ -68,6 +68,13 @@
           "motivo": "Tornaria o versículo ininteligível no tier DRAFT; o sentido tradicional é suficientemente consensual para uma tradução provisória, com a ressalva registrada."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "se o livrares uma vez, terás de fazê-lo de novo → se você o livrar uma vez, terá de fazê-lo de novo",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): 'livrares/terás' (tu) inconsistia com o paradigma você/vocês já adotado no capítulo (cf. Prov.19.20); pronome 'você' explicitado para evitar ambiguidade de referência (item 5). — revisão de forma sem alteração de sentido (ER-0019). Paradigma de 2ª pessoa normalizado para você/vocês, alinhado a Prov.19.20 e a NTLH/NVIPT, que também usam 'você' neste verso. Quanto ao achado RAT-1 (ratio 2,50): a extensão é necessária para completar a elipse do literal ('ainda acrescentarás' exige objeto explícito, 'fazê-lo de novo'); ARA e NVIPT têm extensão comparável à da BV, confirmando que não há redundância a cortar.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -81,10 +88,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

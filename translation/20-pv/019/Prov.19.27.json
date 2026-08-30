@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Prov.19.1-29"
   },
-  "texto_bv": "Filho meu, se deixares de ouvir a instrução, te desviarás das palavras do conhecimento.",
+  "texto_bv": "Filho meu, se você deixar de ouvir a instrução, se desviará das palavras do conhecimento.",
   "traducao_literal": "Cessa, filho meu, de ouvir disciplina, para te desviares das palavras de conhecimento.",
   "termos_originais": [
     {
@@ -58,6 +58,13 @@
           "motivo": "Lido ao pé da letra em português soa como instrução literal para o filho abandonar a sabedoria, sentido oposto ao restante do capítulo e do livro; preterido por criar contradição teológica não sustentada pela leitura irônica tradicional."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "se deixares de ouvir a instrução, te desviarás das palavras do conhecimento → se você deixar de ouvir a instrução, se desviará das palavras do conhecimento",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): 'deixares/te desviarás' (tu) normalizado para você/vocês, coerente com o restante do capítulo (cf. Prov.19.20) e com NTLH/NVIPT, que também usam 'você' neste verso. — revisão de forma sem alteração de sentido (ER-0019). Correção de consistência de paradigma de 2ª pessoa (item 10 do prompt canônico); discurso humano (pai/mestre ao filho) usa você/vocês, não tu.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -73,10 +80,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
