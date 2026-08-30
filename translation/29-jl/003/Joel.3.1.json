@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Joel.3.1-5"
   },
-  "texto_bv": "Depois disso, acontecerá: derramarei o meu Espírito sobre toda a carne. Seus filhos e suas filhas profetizarão, seus idosos sonharão sonhos, seus jovens verão visões.",
+  "texto_bv": "Depois disso, acontecerá: derramarei o meu Espírito sobre toda a carne. Os filhos e as filhas de vocês profetizarão, os idosos de vocês sonharão sonhos, os jovens de vocês verão visões.",
   "traducao_literal": "E será depois disto: derramarei o meu espírito sobre toda a carne, e profetizarão os filhos de vocês e as filhas de vocês; os idosos de vocês, sonhos sonharão; os jovens de vocês, visões verão.",
   "termos_originais": [
     {
@@ -146,6 +146,13 @@
           "motivo": "descartaria conteúdo lexical do verbo introdutório sem justificativa de agramaticalidade"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Seus filhos e suas filhas profetizarão, seus idosos sonharão sonhos, seus jovens verão visões. → Os filhos e as filhas de vocês profetizarão, os idosos de vocês sonharão sonhos, os jovens de vocês verão visões.",
+      "justificativa": "Achado PRO-1 (4 pronomes de 3ª pessoa 'seus/suas'): a forma é ambígua entre 2ª pessoa (vocês) e 3ª pessoa; traducao_literal confirma 2ª pessoa ('filhos de vocês', 'idosos de vocês', 'jovens de vocês'). Substituição por 'de vocês' desambigua a referência pronominal (EDITORIAL, cheque 5) sem alterar o sentido, mantendo o paradigma Deus→humano em você/vocês (§3/D-0003). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 confirmado e corrigido (ver mudancas). As referências fornecidas para este verso (NTLH/ARA/NVIPT) não correspondem ao mesmo texto: tratam da reunião das nações no vale de Josafá, que é Joel 3 na versificação padrão (= Joel 4 hebraico/massorético), enquanto a BV usa a versificação massorética em que Joel 3.1 = Joel 2.28 na numeração padrão ('derramarei o meu Espírito sobre toda a carne', citado em Atos 2). É um descompasso de versificação no digest, não uma divergência de tradução; desconsiderado na comparação guiada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -157,10 +164,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
