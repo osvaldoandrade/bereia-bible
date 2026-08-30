@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gal.3.1-29"
   },
-  "texto_bv": "Pois todos os que são das obras da lei estão debaixo de maldição, porque está escrito: “Maldito todo aquele que não permanece em tudo o que está escrito no livro da lei, para praticá-lo.”",
+  "texto_bv": "Pois todos os que são das obras da lei estão debaixo de maldição, porque está escrito: “Maldito todo aquele que não permanece em tudo o que se encontra escrito no livro da lei, para praticá-lo.”",
   "traducao_literal": "Pois quantos de obras de lei são, sob maldição estão; está escrito, pois, que: Maldito todo o que não permanece em todas as coisas escritas no livro da lei, para praticar elas.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
           "motivo": "funciona, mas 'praticar' capta melhor o sentido de obediência ativa aos mandamentos presente em ποιέω aqui"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "está escrito no livro da lei → se encontra escrito no livro da lei",
+      "justificativa": "Correção de redundância interna (achado RED-1): 'está escrito' repete-se duas vezes no mesmo verso (fórmula introdutória da citação + referência interna ao livro da lei). Variar a segunda ocorrência remove a repetição desnecessária sem alterar o sentido, seguindo o padrão de ARA ('estão escritas') e NVIPT ('escritas'), que evitam a duplicação exata do verbo. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -174,10 +181,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
