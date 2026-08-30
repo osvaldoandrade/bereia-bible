@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Matt.9.1-38"
   },
-  "texto_bv": "E eis que lhe traziam um paralítico deitado numa maca. Vendo a fé deles, Jesus disse ao paralítico: “Tenha bom ânimo, filho; seus pecados são perdoados.”",
+  "texto_bv": "Traziam-lhe um paralítico deitado numa maca. Vendo a fé deles, Jesus disse ao paralítico: “Tenha bom ânimo, filho; seus pecados são perdoados.”",
   "traducao_literal": "E eis que traziam a ele um paralítico lançado sobre uma maca. E, vendo Jesus a fé deles, disse ao paralítico: “Tenha bom ânimo, filho; são perdoados os seus pecados.”",
   "termos_originais": [
     {
@@ -155,6 +155,13 @@
       "escolha": "você/vocês em todo o discurso de Jesus a indivíduos ou grupos",
       "justificativa": "EDITORIAL §3 (D-0003): discurso de Deus/Jesus para humanos usa você/vocês; reservado 'tu' para oração dirigida a Deus.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E eis que lhe traziam um paralítico → Traziam-lhe um paralítico",
+      "justificativa": "Normalização do calque paratático “eis que” (CAL-2, ἰδού), EDITORIAL §6.2/ER-0013: função de mera abertura de cena narrativa (alguém traz um doente a Jesus), sem carga dêitica excepcional. NTLH (“Então algumas pessoas trouxeram”) e NVIPT (“Alguns homens trouxeram-lhe”) omitem a partícula; só ARA a preserva por tradição Almeida. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 adjudicado como calque paratático comum (não fórmula de força dêitica excepcional); removido conforme piso de naturalidade (§1.4), alinhando com 2 das 3 referências.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -168,10 +175,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

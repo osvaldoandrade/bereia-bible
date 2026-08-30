@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Matt.9.1-38"
   },
-  "texto_bv": "Enquanto ele lhes dizia isso, eis que um chefe se aproximou e se prostrou diante dele, dizendo: “Minha filha acaba de morrer; mas venha, ponha a sua mão sobre ela, e ela viverá.”",
+  "texto_bv": "Enquanto ele lhes dizia isso, um chefe se aproximou e se prostrou diante dele, dizendo: “Minha filha acaba de morrer; mas venha, ponha a sua mão sobre ela, e ela viverá.”",
   "traducao_literal": "Falando ele estas coisas a eles, eis que um chefe, tendo se aproximado, prostrava-se diante dele, dizendo: “A minha filha agora morreu; mas, vindo, ponha a sua mão sobre ela, e ela viverá.”",
   "termos_originais": [
     {
@@ -147,7 +147,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "isso, eis que um chefe se aproximou → isso, um chefe se aproximou",
+      "justificativa": "Remoção do calque paratático “eis que” (CAL-2, ἰδού), EDITORIAL §6.2/ER-0013: redundante com a oração temporal “Enquanto ele lhes dizia isso”, que já introduz a cena (dupla marcação temporal). NTLH e NVIPT omitem a partícula. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 removido por redundância com a oração temporal já presente. PRO-1 (6 pronomes de 3ª pessoa) adjudicado como falso-positivo: “ele”/“dele” referem-se a Jesus, “sua” à mão de Jesus (fala dirigida a ele), e as duas ocorrências de “ela” à filha — todos com antecedente inequívoco no próprio período. Quanto a “um chefe”: as três referências acrescentam “da sinagoga”, mas o grego de Mateus (ἄρχων, sem qualificador) não o especifica — detalhe importado de Marcos/Lucas; a traducao_literal confirma “um chefe” sem qualificador, então a BV é mantida fiel à fonte pinada de Mateus.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "ἄρχων ('chefe/autoridade') não é qualificado como 'da sinagoga' aqui, diferente de Mc 5:22; a identificação não é inserida no texto",
@@ -160,10 +168,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

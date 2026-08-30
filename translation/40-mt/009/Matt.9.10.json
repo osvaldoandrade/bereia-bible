@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Matt.9.1-38"
   },
-  "texto_bv": "E aconteceu que, estando ele reclinado à mesa na casa, muitos publicanos e pecadores vieram e se reclinaram com Jesus e os seus discípulos.",
+  "texto_bv": "Estando ele reclinado à mesa na casa, muitos publicanos e pecadores vieram e se reclinaram com Jesus e os seus discípulos.",
   "traducao_literal": "E aconteceu, estando ele reclinado na casa, e eis que muitos publicanos e pecadores, tendo vindo, reclinavam-se com Jesus e os discípulos dele.",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
           "motivo": "correto mas rompe com a terminologia consolidada e soa anacrônico no registro bíblico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, estando ele reclinado à mesa na casa, → Estando ele reclinado à mesa na casa,",
+      "justificativa": "Normalização do calque paratático “aconteceu que” (CAL-1, ἐγένετο), EDITORIAL §6.2/ER-0013: a própria oração temporal (“estando ele reclinado”) já introduz a cena, tornando o marcador redundante. NTLH e NVIPT dispensam a fórmula; tratamento consistente com o já aplicado a este mesmo calque em outros capítulos do NT revisados (ex.: Mc 4.4, Lc 9.18/28/29/33/37/51, At 9.37/11.26/14.1/16.16/22.6/22.17/28.8). — revisão de forma sem alteração de sentido (ER-0019). CAL-1 adjudicado como calque paratático de ἐγένετο, sem força dêitica excepcional; removido conforme piso de naturalidade (§1.4) e precedente consolidado no corpus para este mesmo marcador.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -150,10 +157,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
