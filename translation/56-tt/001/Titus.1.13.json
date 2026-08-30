@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Titus.1.1-16"
   },
-  "texto_bv": "Esse testemunho é verdadeiro. Por essa razão, repreende-os severamente, para que sejam sãos na fé,",
+  "texto_bv": "Esse testemunho é verdadeiro. Por essa razão, repreenda-os severamente, para que sejam sãos na fé,",
   "traducao_literal": "esse testemunho é verdadeiro. Por essa causa repreende-os severamente, para-que sejam-sãos na fé,",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
           "motivo": "sinônimo válido, mas rompe a consistência lexical com 'sã doutrina' do v.9"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "repreende-os → repreenda-os",
+      "justificativa": "Imperativo de 2ª pessoa do singular (tu, 'repreende') normalizado para a forma de você ('repreenda'), paradigma §3/D-0003, coordenado com a normalização do v.5 no mesmo capítulo. A NVIPT usa 'repreenda-os', confirmando naturalidade da forma. — revisão de forma sem alteração de sentido (ER-0019). Continuação da normalização de paradigma do capítulo iniciada no v.5 (item 10 do prompt canônico): o discurso de Paulo a Tito é humano↔humano, o que exige você, não tu. A NVIPT confirma 'repreenda-os' como forma natural em português contemporâneo; a ARA mantém 'repreende-os' por preservar registro mais formal/arcaizante, o que não vincula a BV, que já adota o paradigma você no capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -114,10 +121,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

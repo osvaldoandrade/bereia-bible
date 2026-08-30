@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Titus.1.1-16"
   },
-  "texto_bv": "Por esta razão te deixei em Creta, para que pusesses em ordem o que ainda faltava e constituísses anciãos em cada cidade, como eu te ordenei,",
+  "texto_bv": "Por esta razão o deixei em Creta, para que pusesse em ordem o que ainda faltava e constituísse anciãos em cada cidade, como eu lhe ordenei,",
   "traducao_literal": "Disto por-causa deixei-te em Creta, para-que as-coisas-que-faltam corrijas, e constituas segundo cidade anciãos, como eu a-ti ordenei,",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
           "motivo": "transliteração que já presume um ofício eclesiástico consolidado, não codificado diretamente no lexema grego"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "te deixei → o deixei | pusesses → pusesse | constituísses → constituísse | te ordenei → lhe ordenei",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003, item 10): discurso humano↔humano (Paulo→Tito) usa você/vocês, não tu. Pronome oblíquo acusativo de 2ª pessoa (tu, 'te') normalizado para 'o' (você/ele), coerente com o padrão já aplicado em 1Tm 1.3 ('te exortei'→'o exortei') para a mesma relação. | Pretérito imperfeito do subjuntivo de 2ª pessoa do singular (tu, 'pusesses') normalizado para a forma de 3ª pessoa usada com você ('pusesse'), paradigma §3/D-0003. | Pretérito imperfeito do subjuntivo de 2ª pessoa do singular (tu, 'constituísses') normalizado para a forma de você ('constituísse'), paradigma §3/D-0003. | Pronome oblíquo dativo de 2ª pessoa (tu, 'te') normalizado para 'lhe' (você), paradigma §3/D-0003; mantém a regência de 'ordenar a alguém' (cf. traducao_literal 'a-ti ordenei'), mesmo padrão de 1Tm 1.18 ('te confio'→'lhe confio'). — revisão de forma sem alteração de sentido (ER-0019). O capítulo emprega formas de 'tu' dirigidas a Tito (te deixei, pusesses, constituísses, te ordenei aqui; repreende-os no v.13) em discurso humano↔humano, ao qual §3/D-0003 prescreve você/vocês, não tu (Tito não é Deus, e o texto não é oração). Normalização coordenada do capítulo inteiro (item 10 do prompt canônico), coerente com o precedente já aplicado em 1Tm 1.3/1.18 e 1Tm 3.14-15 para a mesma relação Paulo→destinatário individual. A traducao_literal permanece inalterada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,10 +136,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
