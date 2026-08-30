@@ -7,7 +7,7 @@
     "versiculo": 36,
     "pericope": "Luke.5.1-39"
   },
-  "texto_bv": "Ele lhes contou também uma parábola: “Ninguém corta um pedaço de uma roupa nova para remendar uma roupa velha; do contrário, rasgará a roupa nova, e o remendo tirado dela não combinará com a velha.”",
+  "texto_bv": "Ele lhes contou também uma parábola: “Ninguém corta um pedaço de uma roupa nova para remendar uma roupa velha; do contrário, rasgará a nova, e o remendo tirado dela não combinará com a velha.”",
   "traducao_literal": "E dizia também uma parábola a eles: que ninguém, tendo rasgado remendo de roupa nova, o põe sobre roupa velha; se não, também a nova rasgará, e com a velha não combinará o remendo, o da nova.",
   "termos_originais": [
     {
@@ -198,6 +198,13 @@
           "motivo": "Apagaria o detalhe específico de que se trata de uma roupa (ἱμάτιον) já confeccionada sendo cortada, dado próprio de Lucas."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "do contrário, rasgará a roupa nova, e o remendo tirado dela não combinará com a velha. → do contrário, rasgará a nova, e o remendo tirado dela não combinará com a velha.",
+      "justificativa": "RED-1: repetição de 'roupa nova' na segunda menção não corresponde ao original grego, que usa elipse (τὸ καινόν, 'a nova') — mesmo padrão já refletido na traducao_literal ('também a nova rasgará'). Corrigido para eco anafórico natural em pt-BR ('a nova'), eliminando redundância que o original não tem (regra 4 do prompt canônico; EDITORIAL §1.4). ARA faz a mesma elipse ('rasgará o novo'). — revisão de forma sem alteração de sentido (ER-0019). Achado RED-1 confirmado. A repetição integral de 'roupa nova' na segunda menção não está no original (que elide para τὸ καινόν, refletido na traducao_literal como 'a nova'); corrigida para eco anafórico, removendo redundância que o original não tem (regra 4). NTLH e NVIPT repetem a expressão cheia, mas a ARA e a traducao_literal confirmam a elipse do original — seguida aqui por fidelidade.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -209,10 +216,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

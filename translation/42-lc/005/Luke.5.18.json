@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Luke.5.1-39"
   },
-  "texto_bv": "E eis que uns homens traziam num leito um homem paralítico, e procuravam levá-lo para dentro e colocá-lo diante de Jesus.",
+  "texto_bv": "Uns homens traziam num leito um homem paralítico, e procuravam levá-lo para dentro e colocá-lo diante de Jesus.",
   "traducao_literal": "E eis homens trazendo sobre um leito um homem que estava paralítico, e procuravam trazê-lo para dentro e pô-lo diante dele.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
       "escolha": "'leito' para κλίνη, 'maca' para κλινίδιον.",
       "justificativa": "O grego varia o substantivo (forma plena depois diminutiva); a tradução preserva a variação lexical em vez de nivelar tudo como 'maca' ou 'leito'.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E eis que uns homens traziam num leito um homem paralítico, e procuravam levá-lo para dentro e colocá-lo diante de Jesus. → Uns homens traziam num leito um homem paralítico, e procuravam levá-lo para dentro e colocá-lo diante de Jesus.",
+      "justificativa": "CAL-2: calque 'eis que' (idoú) normalizado por soar artificial em texto corrido (EDITORIAL §6.2); mesmo idoú grego já foi normalizado para 'havia ali' em Lc 5:12 no mesmo capítulo — mantém-se a consistência interna. NTLH e NVIPT também omitem o calque; apenas ARA o preserva (escolha de estilo mais literal). — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2 confirmado ('eis que' = idoú grego). Normalizado porque, neste ponto da narrativa, o idoú apenas introduz personagens novos — mesma função já normalizada em Lc 5:12 no mesmo capítulo ('havia ali um homem'); manter 'eis que' aqui criaria inconsistência interna de tratamento do mesmo recurso narrativo. NTLH e NVIPT omitem o calque; ARA o preserva (divergência de estilo, não de fidelidade — registrada mas não seguida, por consistência intra-capítulo).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,10 +126,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
