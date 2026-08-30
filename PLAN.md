@@ -186,5 +186,6 @@ pelo finalizador, não só os que mudam texto.
 | 2026-08-29 | v2 — comparação guiada NTLH/ARA/NVIPT no digest (42ea172e) | prompt canônico v1.2.0; divergência das 3 referências passa a exigir justificativa |
 | 2026-08-29 | v3 — triagem com threshold 0 (c10da4c3) | escopo passa de 506 hot-spots para os 1189 capítulos da Bíblia |
 | 2026-08-30 | **Ciclo v3 encerrado** — Sl 67 → Ap 22 (402 capítulos, 26 lotes, sonnet) | 742 vv revisados, 89 objeções MATERIAIS, 402 agentes / 0 erros; **cobertura 1189/1189 (100%)** |
+| 2026-08-30 | **F-0018 encerrado** — re-revisão dos 94 capítulos pré-v2 (6 lotes; sonnet nos 1–4, fable nos 5–6) | 285 vv revisados, 28 objeções MATERIAIS, 94 agentes / 0 erros; comparação guiada agora em 1189/1189 |
 
 

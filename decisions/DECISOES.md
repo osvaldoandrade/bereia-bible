@@ -309,9 +309,17 @@ Ver `docs/domain/governanca/glossary.md`.
   texto do registro foi restaurado. Confirma a política: o texto é reconstruído
   só a partir de `mudancas`; o que o agente escreve em `texto_bv_revisto` sem
   registrar é descartado, nunca persistido.
-- Lacuna conhecida (F-0018): 94 capítulos foram revisados antes do v2 e portanto
-  **sem** comparação com NTLH/ARA/NVIPT. Re-revisão v3 desses capítulos fica
-  para depois de fechar a cobertura dos que nunca foram revisados.
+- **F-0018 RESOLVIDO em 2026-08-30**: os 94 capítulos revisados antes do v2
+  passaram pela re-revisão sob o prompt v1.2.0, em 6 lotes (94 agentes, 0 erros).
+  Resultado: **285 versos revisados e 28 objeções MATERIAIS** — densidade de
+  ~3,0 versos/capítulo contra ~1,8 da primeira passada v3, confirmando que a
+  comparação guiada NTLH/ARA/NVIPT encontra o que o marcador mecânico não vê
+  (Ez 26: 15 revisões em 21 versos; Jr 49: 12; Dn 3: 9). Nenhum capítulo do
+  cânon permanece sem comparação guiada.
+- Modelos do F-0018 (proveniência por lote, verificada nos journals de agente):
+  lotes 1–4 em `claude-sonnet-5`; lotes 5–6 em `claude-fable-5` (troca pedida
+  pelo mantenedor a meio caminho). Os registros gravam o modelo que de fato
+  produziu cada texto — a divisão é intencional, não um defeito.
 
 ---
 
@@ -335,9 +343,9 @@ Ver `docs/domain/governanca/glossary.md`.
   já sanado por F-0015); a revisão automática não rodou (hang). DRAFT não é publicável;
   consenso pleno + revisão ocorrem na promoção.
 - F-0017: driver de workflow recebe `args` como string JSON — o script faz JSON.parse defensivo.
-- F-0018: 94 capítulos revisados no ER-0019 antes do v2 não passaram pela comparação
-  guiada NTLH/ARA/NVIPT. Re-revisar sob o prompt v1.2.0 depois de fechar a cobertura
-  dos 322 capítulos ainda sem revisão. Dono: mantenedor.
+- F-0018: **RESOLVIDO em 2026-08-30** — os 94 capítulos pré-v2 foram re-revistos sob o
+  prompt v1.2.0 (285 vv revisados, 28 objeções MATERIAIS). Cobertura da comparação
+  guiada: 1189/1189.
 - F-0009: `internal/schemavalidate` — rejeitar keyword desconhecida no schema (guarda
   contra subvalidação silenciosa se um schema evoluir para oneOf/$ref/maxLength);
   tornar a lista "NOT supported" exaustiva por construção. Dono: mantenedor.
