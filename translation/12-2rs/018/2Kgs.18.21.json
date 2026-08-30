@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "2Kgs.18.1-37"
   },
-  "texto_bv": "Eis que você confia para si nesse apoio de cana quebrada, o Egito, que entra na palma da mão de quem se apoia nela e a perfura. Assim é Faraó, rei do Egito, para todos os que confiam nele.",
+  "texto_bv": "Você confia para si nesse apoio de cana quebrada, o Egito, que entra na palma da mão de quem se apoia nela e a perfura. Assim é Faraó, rei do Egito, para todos os que confiam nele.",
   "traducao_literal": "Agora, eis que confiou para você neste apoio de cana esmagada, no Egito, sobre o qual, se um homem se apoiar, ela entrará em sua palma e a perfurará; assim é Faraó, rei do Egito, para todos os que confiam nele.",
   "termos_originais": [
     {
@@ -137,7 +137,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eis que você confia para si nesse apoio de cana quebrada, o Egito, que entra na palma da mão de quem se apoia nela e a perfura. Assim é Faraó, rei do Egito, para todos os que confiam nele. → Você confia para si nesse apoio de cana quebrada, o Egito, que entra na palma da mão de quem se apoia nela e a perfura. Assim é Faraó, rei do Egito, para todos os que confiam nele.",
+      "justificativa": "Achado CAL-2 (“eis que”): calque paratático do hebraico (hinnēh) sem força dêitica na sequência discursiva — introduz uma afirmação, não um evento narrativo súbito. Nenhuma das três referências (NTLH, ARA, NVIPT) verte o marcador. Normalizado por soar artificial no publicado (EDITORIAL §6.2/ER-0013). — revisão de forma sem alteração de sentido (ER-0019). Corrigido: “Eis que” removido; ver mudancas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "A confiança, a cana quebrada, Egito, a palma perfurada, Faraó e todos os que confiam nele foram preservados.",
@@ -147,10 +155,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
