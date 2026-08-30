@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Ezek.40.1-49"
   },
-  "texto_bv": "E o homem me disse: “Filho do homem, veja com seus olhos, ouça com seus ouvidos e ponha seu coração em tudo o que eu mostro a você, pois foi para que eu lhe mostrasse que você foi trazido até aqui. Anuncie à casa de Israel tudo o que você vê.”",
+  "texto_bv": "E o homem me disse: “Filho do homem, veja com seus olhos, ouça com seus ouvidos e ponha seu coração em tudo o que eu mostro a você. Pois foi para que eu lhe mostrasse que você foi trazido até aqui. Anuncie à casa de Israel tudo o que você vê.”",
   "traducao_literal": "E falou a mim o homem: filho de homem, vê com teus olhos e com teus ouvidos ouve, e põe teu coração para tudo que eu mostro a ti; porque para que eu te mostrasse foste trazido aqui. Anuncia tudo que tu vês à casa de Israel.",
   "termos_originais": [
     {
@@ -168,6 +168,13 @@
           "motivo": "aplicaria o registro litúrgico a uma fala que não é oração"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mostro a você, pois foi para que → mostro a você. Pois foi para que",
+      "justificativa": "LEN-1/EDITORIAL §1.3: sentença de 41 palavras dividida no conector causal, sem perda sintática nem mudança de sentido. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 procedente: divisão no conector causal resolve o período de 41 palavras (§1.3). PRO-1 falso-positivo: 'seus/lhe/você' são formas de 2ª pessoa do paradigma você (D-0003), com referentes inequívocos; a tríade de imperativos (veja, ouça, ponha) espelha o original e foi mantida.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -179,10 +186,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
