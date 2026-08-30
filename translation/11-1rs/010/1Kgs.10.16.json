@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "1Kgs.10.1-29"
   },
-  "texto_bv": "O rei Salomão fez duzentos escudos grandes de ouro batido; seiscentas unidades de ouro eram empregadas em cada escudo.",
+  "texto_bv": "O rei Salomão fez duzentos escudos grandes de ouro batido; seiscentos siclos de ouro eram empregados em cada escudo.",
   "traducao_literal": "E fez o rei Salomão duzentos escudos grandes de ouro batido; seiscentos de ouro subiam sobre o único escudo.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
           "motivo": "Acrescenta uma unidade não codificada no texto-fonte."
         }
       ]
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "seiscentas unidades de ouro eram empregadas → seiscentos siclos de ouro eram empregados",
+      "justificativa": "Objeção procedente. Evidência do original: שֵׁשׁ מֵא֣וֹת זָהָ֔ב (H8337 + H3967 + H2091) — 'seiscentos de ouro': o numeral aparece sem o substantivo de unidade, elipse convencional de שֶׁקֶל (H8255) nas fórmulas de peso do hebraico bíblico (cf. 2Sm 18:12 אֶלֶף כֶּסֶף; Gn 45:22 שְׁלֹשׁ מֵאוֹת כֶּסֶף). A unidade subentendida pelo sistema de pesos é o siclo, como leem KJV e WEB ('six hundred shekels of gold'). A objeção procede: em contexto de peso de ouro aplicado a um escudo, 'unidades' não denota nada e a alternativa neutra do corpus ('peças') sugeriria moeda cunhada, anacrônica e inadequada a peso. KJV e WEB convergem em 'shekels' — sem divergência textual entre os controles. A conversão métrica da NVIPT permanece proibida no texto (EDITORIAL §7). Objeções fechadas: Objeção MATERIAL (revisão ER-0019): “seiscentas unidades de ouro” é vago em português — o hebraico traz número sem unidade explícita (siclos subentendidos pelo contexto). — evidência: ARA explicita “seiscentos siclos de ouro”; NVIPT converte para “três quilos e seiscentos gramas”. Corrigir na BV exige adicionar informação de medida não explícita no texto-fonte. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [
@@ -104,16 +111,13 @@
   "confianca": 0.72,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): “seiscentas unidades de ouro” é vago em português — o hebraico traz número sem unidade explícita (siclos subentendidos pelo contexto). — evidência: ARA explicita “seiscentos siclos de ouro”; NVIPT converte para “três quilos e seiscentos gramas”. Corrigir na BV exige adicionar informação de medida não explícita no texto-fonte."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.3.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
