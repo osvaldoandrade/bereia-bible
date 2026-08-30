@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Acts.19.1-40"
   },
-  "texto_bv": "Enquanto Apolo estava em Corinto, aconteceu que Paulo, tendo atravessado as regiões mais altas do interior, chegou a Éfeso e encontrou alguns discípulos.",
+  "texto_bv": "Enquanto Apolo estava em Corinto, Paulo, tendo atravessado as regiões mais altas do interior, chegou a Éfeso e encontrou alguns discípulos.",
   "traducao_literal": "Aconteceu, e, no estar Apolo em Corinto, vir Paulo — tendo atravessado as partes mais altas — a Éfeso e encontrar alguns discípulos,",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
           "motivo": "ambíguo em português, sugere hierarquia e não geografia"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "aconteceu que Paulo, tendo atravessado → Paulo, tendo atravessado",
+      "justificativa": "Remoção do calque paratático “aconteceu que” (§6.2/ER-0013); NTLH e NVIPT omitem a fórmula, ARA mantém (“sucedeu que”) com registro arcaizante. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -153,10 +160,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
