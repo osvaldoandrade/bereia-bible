@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Mic.6.1-16"
   },
-  "texto_bv": "Guardam-se os estatutos de Onri, e todas as obras da casa de Acabe; e vós andastes nos conselhos deles, para que eu fizesse de ti um espanto, e dos seus habitantes um assobio; e vós levareis o opróbrio do meu povo.",
+  "texto_bv": "Guardam-se os estatutos de Onri, e todas as obras da casa de Acabe; e vocês andaram nos conselhos deles, para que eu fizesse de você um espanto, e dos seus habitantes um assobio. E vocês levarão o opróbrio do meu povo.",
   "traducao_literal": "E guarda-se os estatutos de Onri, e toda obra da casa de Acabe; e andastes nos conselhos deles; para eu dar-te por espanto, e os seus habitantes por assobio; e o opróbrio do meu povo levareis.",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
           "motivo": "apagaria a alternância presente no texto-fonte, contrária à doutrina do calque (ER-0013)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e vós andastes nos conselhos deles → e vocês andaram nos conselhos deles | de ti um espanto → de você um espanto | ; e vós levareis o opróbrio do meu povo. → . E vocês levarão o opróbrio do meu povo.",
+      "justificativa": "Achado VOS-1: 'vós andastes' (plural, dirigido aos habitantes) normalizado para 'vocês andaram' (§3/D-0003, item 10). | 'ti' (singular, dirigido à cidade personificada) normalizado para 'você', preservando a distinção singular/plural do original (EDITORIAL §3) em relação ao 'vocês' plural do mesmo verso. | Achado VOS-1 ('levareis, vós'): conjugação e pronome de 'vós' normalizados para 'vocês levarão'. Achado LEN-1 (sentença de 42 palavras, §1.3): o ';' antes da última oração coordenada foi convertido em ponto final, dividindo a sentença em duas (33 e 8 palavras) no ponto de junção paratática já marcado por ';' no original, sem perda sintática nem de sentido — mesmo ponto de quebra usado pela ARA, que também separa esta oração em sentença própria. — revisão de forma sem alteração de sentido (ER-0019). Achados VOS-1 e LEN-1 tratados: 'vós andastes'/'vós levareis' (plural, dirigido aos habitantes) normalizados para 'vocês' (§3/D-0003, item 10); 'de ti' (singular, dirigido à cidade personificada) normalizado para 'você', preservando a distinção singular/plural do original (EDITORIAL §3). Sentença de 42 palavras dividida em duas no ponto de junção já marcado por ';' no original (33 + 8 palavras), sem perda sintática — mesmo ponto de quebra usado pela ARA (§1.3).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -132,10 +139,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
