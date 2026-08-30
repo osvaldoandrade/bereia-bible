@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Matt.26.1-75"
   },
-  "texto_bv": "pois os pobres vocês sempre têm com vocês, mas a mim vocês não têm sempre.",
+  "texto_bv": "pois os pobres vocês sempre têm consigo, mas a mim vocês nem sempre têm.",
   "traducao_literal": "sempre, pois, os pobres tendes convosco, a mim, porém, não sempre tendes;",
   "termos_originais": [
     {
@@ -72,7 +72,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "têm com vocês, → têm consigo, | vocês não têm sempre. → vocês nem sempre têm.",
+      "justificativa": "RED-1: repetição do pronome 'vocês' sem correspondência no original (μεθ' ἑαυτῶν é reflexivo, não duplica o pronome). Substituição pelo reflexivo 'consigo' remove a redundância preservando o referente; alinha com NVIPT ('vocês sempre terão consigo'). EDITORIAL regra 4 (redundância que o original não repete é defeito). | Ordem do advérbio de frequência naturalizada: 'não têm sempre' é calque de ordem; pt-BR contemporâneo prefere 'nem sempre têm', convergente com ARA ('nem sempre me tendes') e NVIPT ('nem sempre terão'). EDITORIAL §1.4 (piso de naturalidade). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "'Convosco' evitado por ser resíduo de 2ª pessoa arcaica (EDITORIAL §1.2); vertido 'com vocês'.",
@@ -82,10 +90,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
