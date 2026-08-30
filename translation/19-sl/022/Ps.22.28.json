@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Ps.22.1-32"
   },
-  "texto_bv": "Lembrar-se-ão e se voltarão ao SENHOR todos os confins da terra; e diante de ti se prostrarão todas as famílias das nações.",
+  "texto_bv": "Todos os confins da terra se lembrarão e se voltarão ao SENHOR; e diante de ti se prostrarão todas as famílias das nações.",
   "traducao_literal": "Lembrarão e voltarão ao SENHOR todos os confins da terra, e se prostrarão diante de ti todas as famílias das nações.",
   "termos_originais": [
     {
@@ -72,7 +72,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Lembrar-se-ão e se voltarão ao SENHOR todos os confins da terra → Todos os confins da terra se lembrarão e se voltarão ao SENHOR",
+      "justificativa": "Mesóclise (EDITORIAL §1.2): “Lembrar-se-ão” substituída por próclise com reestruturação para ordem S-V. NTLH, ARA e NVIPT convergem em ordem S-V (“Todos os confins/limites da terra se lembrarão”). — revisão de forma sem alteração de sentido (ER-0019). A mesóclise “Lembrar-se-ão” é arcaísmo vedado por EDITORIAL §1.2. A reestruturação para S-V com próclise alinha com as três referências (NTLH/ARA/NVIPT usam “todos os confins/limites da terra se lembrarão”). O “diante de ti” (2ª pessoa, dirigindo-se a Deus) é mais fiel ao TM (לְפָנֶיךָ, 2ms) que ARA/NVIPT (“diante dele”, 3ª pessoa); mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "Mudança de pessoa no mesmo verso (3ª 'ao SENHOR', depois 2ª 'diante de ti') preservada."
@@ -84,10 +92,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
