@@ -7,7 +7,7 @@
     "versiculo": 38,
     "pericope": "Ps.105.1-45"
   },
-  "texto_bv": "O Egito se alegrou com a saída deles, porque o temor deles tinha caído sobre eles.",
+  "texto_bv": "O Egito se alegrou com a saída deles, porque o temor deles tinha caído sobre ele.",
   "traducao_literal": "Alegrou-se Egito em-sua-saída; porque caiu seu-temor sobre-eles.",
   "termos_originais": [
     {
@@ -47,7 +47,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O Egito se alegrou com a saída deles, porque o temor deles tinha caído sobre eles. → O Egito se alegrou com a saída deles, porque o temor deles tinha caído sobre ele.",
+      "justificativa": "Referência pronominal inequívoca (EDITORIAL, cheque #5): 'eles' final criava ambiguidade com 'deles' anterior (dois grupos distintos: egípcios e israelitas, ambos plurais). ARA resolve com pronome singular retomando 'Egito' ('o temor deles o dominara'); adotado o mesmo recurso. — revisão de forma sem alteração de sentido (ER-0019). 'sobre eles' (plural) confundia-se com 'deles' anterior (referentes distintos — israelitas vs. egípcios). ARA usa pronome singular ('o dominara') para retomar 'Egito'; NTLH/NVIPT nomeiam explicitamente os grupos. O ajuste mínimo (eles→ele) resolve a ambiguidade sem alterar o sentido: o temor causado pelos israelitas caiu sobre o Egito.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "Perfeito com נָפַל em valor de mais-que-perfeito (o temor precedendo a saída).",
@@ -57,10 +65,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
