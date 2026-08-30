@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Eccl.6.1-12"
   },
-  "texto_bv": "Se um homem gerar cem filhos e viver muitos anos — por mais numerosos que sejam os dias dos seus anos —, mas sua alma não se sacia de bens, e nem sequer tem sepultura, eu disse: o natimorto é melhor do que ele.",
+  "texto_bv": "Se um homem gerar cem filhos e viver muitos anos — por mais numerosos que sejam os dias dos seus anos —, mas sua alma não se sacia de bens, e nem sequer tem sepultura. Eu disse: o natimorto é melhor do que ele.",
   "traducao_literal": "Se gerar um homem cem, e anos muitos viver, e muitos, que sejam os dias dos seus anos, e sua alma não se sacia do bem, e também sepultura não houve para ele — eu disse: bom mais do que ele o abortivo.",
   "termos_originais": [
     {
@@ -170,6 +170,13 @@
           "motivo": "em pt-BR corrente sugere primariamente o ato voluntário, não o feto morto ao nascer, sentido do hebraico"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sepultura, eu disse: o natimorto → sepultura. Eu disse: o natimorto",
+      "justificativa": "EDITORIAL §1.3: sentença de 42 palavras (achado LEN-1) dividida em duas, no ponto em que o original fecha a prótase condicional e abre a fala do autor (\"eu disse\"), sem perda sintática nem acréscimo de sentido. — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 (42 palavras) adjudicado com divisão da sentença após \"sepultura\", isolando \"Eu disse: o natimorto é melhor do que ele\" como frase própria — mesma solução de divisão que NTLH e NVIPT adotam para este verso. \"natimorto\" (vs. \"aborto\" na ARA, \"criança que nasce morta\" na NTLH/NVIPT) é termo contemporâneo e preciso, sem ambiguidade com aborto induzido; mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -183,10 +190,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
