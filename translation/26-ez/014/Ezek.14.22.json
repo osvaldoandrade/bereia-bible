@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Ezek.14.1-23"
   },
-  "texto_bv": "Contudo, eis que restará nela um remanescente que escapará — filhos e filhas que serão levados para fora. Eis que eles virão a vocês, e vocês verão o caminho deles e os seus feitos, e se consolarão quanto ao mal que trouxe sobre Jerusalém, quanto a tudo o que trouxe sobre ela.",
+  "texto_bv": "Contudo, restará nela um remanescente que escapará — filhos e filhas que serão levados para fora. Eles virão a vocês, e vocês verão o caminho deles e os seus feitos, e se consolarão quanto ao mal que trouxe sobre Jerusalém, quanto a tudo o que trouxe sobre ela.",
   "traducao_literal": "E eis que restará nela um remanescente, os que são levados para fora, filhos e filhas; eis que eles saem para vós, e vereis o caminho deles e os seus atos, e vos consolareis quanto ao mal que trouxe sobre Jerusalém, tudo quanto trouxe sobre ela.",
   "termos_originais": [
     {
@@ -176,6 +176,13 @@
       "justificativa": "Paradigma vós→vocês em discurso Deus→humano (§3/D-0003) | Paradigma vós→vocês (§3/D-0003); sujeito explícito para clareza na mudança de paradigma | Paradigma vós→vocês (§3/D-0003) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Contudo, eis que restará → Contudo, restará | Eis que eles virão a vocês → Eles virão a vocês",
+      "justificativa": "CAL-2: calque paratático 'eis que' duplicado no mesmo verso (2×); NTLH, ARA e NVIPT convergem em não usar 'eis que' neste trecho. Primeira ocorrência normalizada — 'Contudo' já marca a virada discursiva, dispensando o dêitico duplicado (EDITORIAL §6.2 / prompt item 2). | CAL-2: segunda ocorrência de 'eis que' no mesmo verso, redundante com a primeira; removida pelo mesmo motivo, mantendo o dêitico apenas onde marca força no restante do capítulo (não há outra ocorrência a preservar). — revisão de forma sem alteração de sentido (ER-0019). Achados adjudicados: CAL-2 (2× 'eis que') corrigido — as três referências dispensam o dêitico neste verso, confirmando calque artificial. RED-1 ('trouxe sobre' repetido) é FIDELIDADE, não defeito: a traducao_literal já repete a estrutura ('trouxe sobre Jerusalém ... trouxe sobre ela') e a ARA preserva a mesma duplicação quase literalmente ('trouxe sobre Jerusalém, até de tudo o que trouxe sobre ela') — paralelismo hebraico intencional (EDITORIAL, regra 4 do prompt canônico), mantido. PRO-1 (4 pronomes de 3ª pessoa: 'eles/deles/seus') é falso positivo — antecedente único e claro ('um remanescente ... filhos e filhas').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -191,10 +198,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

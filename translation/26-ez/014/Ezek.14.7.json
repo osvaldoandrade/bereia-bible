@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Ezek.14.1-23"
   },
-  "texto_bv": "Porque todo homem da casa de Israel, e também o estrangeiro que peregrinar em Israel, que se apartar de mim, fizer subir os seus ídolos ao coração, puser diante de si o tropeço da sua iniquidade e vier ao profeta para me consultar, eu, o SENHOR, lhe responderei por mim mesmo.",
+  "texto_bv": "Porque todo homem da casa de Israel, e também o estrangeiro que peregrinar em Israel, que se apartar de mim, fizer subir os seus ídolos ao coração, puser diante de si o tropeço da sua iniquidade e vier ao profeta para me consultar. Eu, o SENHOR, lhe responderei por mim mesmo.",
   "traducao_literal": "Porque homem homem da casa de Israel, e do estrangeiro que peregrinar em Israel, e se apartar de atrás de mim, e fizer subir os seus ídolos a seu coração, e o tropeço da sua iniquidade puser diante do seu rosto, e vier ao profeta para consultar por ele a mim — eu, YHWH, serei respondido a ele por mim.",
   "termos_originais": [
     {
@@ -197,6 +197,13 @@
       "justificativa": "Sentença com 51 palavras (limiar §1.3: 40) — evidência: A divisão quebraria a unidade retórica do oráculo condicional (prótase relativa + apódose divina); manutenção preserva a estrutura profética. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para me consultar, eu, o SENHOR, lhe responderei → para me consultar. Eu, o SENHOR, lhe responderei",
+      "justificativa": "LEN-1: sentença de 51 palavras (EDITORIAL §1.3); dividida na fronteira prótase/apódose (mesmo ponto de corte de 14.4). A prótase resultante (43 palavras) permanece pouco acima do teto porque é uma única cadeia de orações relativas com sujeito comum ('todo homem ... que se apartar ... fizer subir ... puser ... e vier'); fragmentá-la mais exigiria repetir o sujeito de forma não sancionada pelo original, que também apresenta essa cadeia como período único. — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 (51 palavras) adjudicado com divisão na fronteira condicional. Divisão adicional da prótase não é viável sem duplicar o sujeito além do que o original permite.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -210,10 +217,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
