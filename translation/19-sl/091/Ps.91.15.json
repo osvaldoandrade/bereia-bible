@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Ps.91.1-16"
   },
-  "texto_bv": "Ele me invocará, e eu o responderei; estarei com ele na angústia, eu o resgatarei e o honrarei.",
+  "texto_bv": "Ele me invocará, e eu lhe responderei; estarei com ele na angústia, eu o resgatarei e o honrarei.",
   "traducao_literal": "Invocar-me-á, e responder-lhe-ei; com ele eu na angústia; resgatá-lo-ei e honrá-lo-ei.",
   "termos_originais": [
     {
@@ -47,7 +47,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eu o responderei → eu lhe responderei",
+      "justificativa": "Regência verbal: 'responder a alguém' pede objeto indireto ('lhe'), não direto ('o'). A própria traducao_literal usa o dativo ('responder-lhe-ei'), assim como ARA ('lhe responderei') e NVIPT ('lhe darei resposta'). — revisão de forma sem alteração de sentido (ER-0019). RAT-1 (18/11 palavras) decorre da conversão das formas mesoclíticas da traducao_literal ('invocar-me-á', 'responder-lhe-ei', 'resgatá-lo-ei', 'honrá-lo-ei') em construções analíticas com pronome proclítico, exigida por EDITORIAL §1.2 (mesóclise soa artificial em pt-BR contemporâneo); não é verbosidade a corrigir. Também corrigida a regência de 'responder' (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "estarei (verbo elíptico da cláusula nominal עִמּוֹ־אָנֹכִי בְצָרָה, lit. 'com ele, eu, na angústia', agramatical em português sem cópula)"
   ],
@@ -59,10 +67,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

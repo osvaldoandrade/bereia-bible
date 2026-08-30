@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Ps.91.1-16"
   },
-  "texto_bv": "Com suas penas, ele te cobrirá, e debaixo de suas asas você se abrigará; a fidelidade dele é escudo e broquel.",
+  "texto_bv": "Com suas penas, ele o cobrirá, e debaixo de suas asas você se abrigará; a fidelidade dele é escudo e broquel.",
   "traducao_literal": "Com pena dele cobrirá para ti, e debaixo de asas dele te abrigarás; escudo e broquel, fidelidade dele.",
   "termos_originais": [
     {
@@ -74,6 +74,13 @@
       "escolha": "suprir 'é' ('a fidelidade dele é escudo e broquel')",
       "justificativa": "A cláusula verbless do hebraico exige cópula para gramaticalidade em português; verbo suprido não recebe itálico, conforme EDITORIAL §4.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele te cobrirá → ele o cobrirá",
+      "justificativa": "Mesmo ajuste de paradigma do v.3 (§3/D-0003, item 10): 'te' (paradigma tu) misturado com 'você' na mesma frase ('…você se abrigará'). Normalizado para 'o', igualando NTLH ('Ele o cobrirá') e NVIPT ('Ele o cobrirá'). — revisão de forma sem alteração de sentido (ER-0019). PRO-1 (4 pronomes de 3ª pessoa: 'suas', 'ele', 'suas', 'dele') tem antecedente único e inequívoco ('ele' = SENHOR/Todo-Poderoso, estabelecido nos vv.1-3); não há ambiguidade referencial a corrigir — achado falso-positivo quanto à clareza. Corrigido apenas o paradigma pronominal (te→o, ver mudancas). Mantido 'escudo e broquel': a traducao_literal já preserva os dois termos, refletindo o dupleto hebraico (tsinnah/magen, dois tipos de escudo); a ARA mantém a mesma dupla, e a simplificação da NVIPT ('escudo protetor') perderia essa distinção do original — não consta em EDITORIAL §1.2 como arcaísmo, e sua manutenção preserva fidelidade.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -89,10 +96,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

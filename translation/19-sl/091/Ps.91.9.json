@@ -68,13 +68,32 @@
   "confianca": 0.58,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): O pronome de 1ª pessoa 'meu' em '…meu refúgio…' quebra a concordância de pessoa da oração, cujo sujeito é 'você' (2ª pessoa). As três referências usam consistentemente 2ª pessoa na mesma posição (ARA 'teu refúgio', NTLH 'seu protetor', NVIPT 'seu refúgio'). Corrigir para 'seu refúgio' exigiria resolver, a favor de uma leitura específica, o crux gramatical de Sl 91.9 (mudança de interlocutor no hebraico: se o 'meu' é testemunho pessoal do salmista ecoando o v.2 — leitura também adotada por traduções que tratam o trecho como discurso citado, tipo 'se você disser: o SENHOR é meu refúgio' — ou resíduo textual a normalizar). Isso ultrapassa correção de forma e exigiria decisão exegética. — evidência: traducao_literal preserva o sufixo hebraico de 1ª pessoa em 'machsi' ('tu, SENHOR, meu refúgio'); ARA/NTLH/NVIPT convergem em 2ª pessoa na mesma posição do verso."
+  ],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
