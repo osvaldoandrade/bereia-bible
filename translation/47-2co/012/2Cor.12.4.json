@@ -104,6 +104,13 @@
           "motivo": "em português contemporâneo pode ser lido como masculino específico, o que o grego não codifica"
         }
       ]
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "Achado PAS-1 (2 construções passivas) é falso-positivo: \"foi arrebatado\" e \"não é permitido ... pronunciar\" reproduzem o passivo divino do grego (sujeito agente é Deus, não nomeado, força teológica do original) e são confirmadas por ARA (\"foi arrebatado ao paraíso ... não é lícito ao homem referir\") e NVIPT (\"foi arrebatado ... não é permitido falar\") — ambas as referências disponíveis mantêm a mesma estrutura passiva, não há alternativa ativa mais natural sem inserir um agente que o original omite. Consistente também com o passivo \"foi arrebatado\" já usado em 2Cor.12.2-3. Quanto à maiúscula em \"Paraíso\": ARA e NVIPT grafam \"paraíso\" minúsculo, mas mantemos a maiúscula da BV como convenção de nome próprio para o lugar transcendente (análogo a outros topônimos celestiais); não há regra em EDITORIAL.md que proíba essa grafia, ao contrário do caso de \"Espírito\" (§10), então não alteramos. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -115,10 +122,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

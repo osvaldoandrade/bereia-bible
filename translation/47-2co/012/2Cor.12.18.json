@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "2Cor.12.1-21"
   },
-  "texto_bv": "Roguei a Tito e enviei com ele o irmão; acaso Tito explorou vocês? Não andamos pelo mesmo Espírito? Não andamos nas mesmas pegadas?",
+  "texto_bv": "Roguei a Tito e enviei com ele o irmão; acaso Tito explorou vocês? Não andamos pelo mesmo espírito? Não andamos nas mesmas pegadas?",
   "traducao_literal": "Roguei a Tito e enviei junto o irmão; acaso vos explorou Tito? Não no mesmo Espírito andamos? Não nas mesmas pegadas?",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
           "motivo": "gramaticalmente possível, mas menos provável dado o idioma paulino técnico recorrente no corpus"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não andamos pelo mesmo Espírito? → Não andamos pelo mesmo espírito?",
+      "justificativa": "EDITORIAL §10: 'Espírito' só recebe maiúscula quando o registro do versículo documenta decisão exegética (TEOLOGIA.md §4); caso contrário, minúscula. Não há decisão documentada para este versículo. As três referências (NTLH, ARA: 'no mesmo espírito', NVIPT: 'no mesmo espírito') convergem em minúscula — o grego pneuma aqui é ambíguo entre disposição/atitude compartilhada e referência ao Espírito Santo; sem adjudicação exegética registrada, aplica-se o padrão minúsculo (regra zero / EDITORIAL §1.4 piso de naturalidade). — revisão de forma sem alteração de sentido (ER-0019). Divergência das três referências (todas em minúscula) motivou a correção: por padrão (EDITORIAL §10), 'espírito' é minúsculo salvo decisão exegética documentada no registro do versículo, que não consta aqui. traducao_literal não foi alterada (preserva a maiúscula original de trabalho); apenas o texto publicado foi normalizado, sem mudança de sentido — o mesmo lexema grego permanece traduzido da mesma forma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -131,10 +138,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
