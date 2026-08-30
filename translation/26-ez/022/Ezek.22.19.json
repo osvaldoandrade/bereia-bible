@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Ezek.22.1-31"
   },
-  "texto_bv": "Portanto, assim diz o Senhor DEUS: Porque todos vocês se tornaram escória, portanto eis que eu vou reunir vocês no meio de Jerusalém.",
+  "texto_bv": "Portanto, assim diz o Senhor DEUS: Porque todos vocês se tornaram escória, por isso eis que eu vou reunir vocês no meio de Jerusalém.",
   "traducao_literal": "Por isso, assim disse Senhor DEUS: porque foram, todos vocês, para escórias; por isso eis-me ajuntando a vocês para o meio de Jerusalém.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
       "escolha": "'eis que eu vou reunir' (futuro certo/iminente)",
       "justificativa": "A construção הִנְנִי + particípio expressa ação divina certa e iminente, tradicionalmente vertida como futuro próximo.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Portanto, assim diz o Senhor DEUS: Porque todos vocês se tornaram escória, portanto eis que eu vou reunir vocês no meio de Jerusalém. → Portanto, assim diz o Senhor DEUS: Porque todos vocês se tornaram escória, por isso eis que eu vou reunir vocês no meio de Jerusalém.",
+      "justificativa": "A repetição idêntica de 'portanto...portanto' soa redundante em português; variada para 'portanto...por isso' (como faz a ARA: 'Portanto...por isso'), preservando a estrutura causal dupla do original — também presente na traducao_literal ('por isso... por isso') — sem apagar a repetição intencional (EDITORIAL regra 4) nem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2 ('eis que') mantido: dêitico com força retórica, preservado também pela ARA ('eis que eu vos ajuntarei'). Além disso, a repetição literal de 'portanto' foi variada lexicalmente para 'por isso' (mudança registrada em mudancas), evitando redundância sonora sem eliminar a estrutura causal dupla do hebraico, também visível na traducao_literal e na ARA.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -109,10 +116,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
