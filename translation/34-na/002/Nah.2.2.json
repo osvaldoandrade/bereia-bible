@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Nah.2.1-14"
   },
-  "texto_bv": "Subiu contra você um destruidor. Guarde a fortaleza, vigie o caminho, fortaleça os lombos, reúna toda a força!",
+  "texto_bv": "Um destruidor subiu contra você. Guarde a fortaleza, vigie o caminho, fortaleça os lombos, reúna toda a força!",
   "traducao_literal": "Subiu o destruidor sobre a tua face; guarda a fortificação, vigia o caminho, fortalece os lombos, esforça a força muito.",
   "termos_originais": [
     {
@@ -99,6 +99,13 @@
           "motivo": "leitura possível, mas menos natural com o imperativo נָצוֹר ('guardar/vigiar algo', normalmente objeto concreto a proteger)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Subiu contra você um destruidor. → Um destruidor subiu contra você.",
+      "justificativa": "Ordem verbo-sujeito (V-S) soa arcaica/pouco natural em pt-BR contemporâneo; ER-0011 exige ordem S-V uniforme no texto publicado (a ordem hebraica é preservada na traducao_literal, ER-0013); NTLH, ARA e NVIPT convergem em S-V ('O destruidor sobe/avança contra você/ti') — piso de naturalidade (EDITORIAL §1.4). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -112,10 +119,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
