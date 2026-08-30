@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "2Chr.20.1-37"
   },
-  "texto_bv": "Os levitas dentre os filhos dos coatitas e dentre os filhos dos coraítas se levantaram para louvar o SENHOR, Deus de Israel, com voz muito alta.",
+  "texto_bv": "Os levitas dentre os filhos dos coatitas e dos coraítas se levantaram para louvar o SENHOR, Deus de Israel, com voz muito alta.",
   "traducao_literal": "E levantaram-se os levitas dentre os filhos dos coatitas e dentre os filhos dos coraítas para louvar ao SENHOR, Deus de Israel, com voz grande, para cima.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
           "motivo": "Desligaria o advérbio do louvor vocal."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Os levitas dentre os filhos dos coatitas e dentre os filhos dos coraítas se levantaram para louvar o SENHOR, Deus de Israel, com voz muito alta. → Os levitas dentre os filhos dos coatitas e dos coraítas se levantaram para louvar o SENHOR, Deus de Israel, com voz muito alta.",
+      "justificativa": "Redundância interna (achado RED-1): repetir 'dentre os filhos' para os dois grupos soa artificial em português; elidir o segundo preserva o sentido, pois ambos os grupos continuam regidos por 'filhos de'. NTLH e NVIPT também evitam repetir o núcleo. — revisão de forma sem alteração de sentido (ER-0019). Achado RED-1 confirmado como redundância de forma; corrigido por elisão coordenativa padrão do português, sem perda de conteúdo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -109,10 +116,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

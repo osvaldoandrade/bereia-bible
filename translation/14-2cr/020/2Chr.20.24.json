@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "2Chr.20.1-37"
   },
-  "texto_bv": "Quando Judá chegou ao mirante que dá para o deserto, voltou-se para a multidão: eis que eram cadáveres caídos por terra, e não havia sobrevivente.",
+  "texto_bv": "Quando Judá chegou ao mirante que dá para o deserto, voltou-se para a multidão: eram cadáveres caídos por terra, e não havia sobrevivente.",
   "traducao_literal": "E Judá veio ao mirante para o deserto, e viraram-se para a multidão; e eis que eles, cadáveres caídos para a terra, e não há sobrevivente.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
           "motivo": "Inverteria o agente do olhar e contraditaria a condição de cadáveres."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Quando Judá chegou ao mirante que dá para o deserto, voltou-se para a multidão: eis que eram cadáveres caídos por terra, e não havia sobrevivente. → Quando Judá chegou ao mirante que dá para o deserto, voltou-se para a multidão: eram cadáveres caídos por terra, e não havia sobrevivente.",
+      "justificativa": "Calque 'eis que' normalizado (mesmo critério de 2Chr.20.16, achado CAL-2). NTLH e NVIPT dispensam o marcador; o dois-pontos já introduz a constatação. Sentido preservado. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2 ('eis que') confirmado como calque dispensável; corrigido por consistência com 2Chr.20.16 e com a maioria das referências.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -108,10 +115,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

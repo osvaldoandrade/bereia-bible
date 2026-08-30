@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "2Chr.20.1-37"
   },
-  "texto_bv": "O restante dos atos de Josafá, os primeiros e os últimos, está escrito nos relatos de Jeú, filho de Hanani, que foi incluído no livro dos reis de Israel.",
+  "texto_bv": "O restante dos atos de Josafá, os primeiros e os últimos, está escrito nos relatos de Jeú, filho de Hanani, incluídos no livro dos reis de Israel.",
   "traducao_literal": "E o restante das palavras de Josafá, as primeiras e as últimas, eis que elas escritas nas palavras de Jeú, filho de Hanani, que foi feito subir sobre livro dos reis de Israel.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "Introduziria autor e objeto não codificados."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "está escrito nos relatos de Jeú, filho de Hanani, que foi incluído no livro dos reis de Israel. → está escrito nos relatos de Jeú, filho de Hanani, incluídos no livro dos reis de Israel.",
+      "justificativa": "Referência pronominal ambígua (§EDITORIAL cheque 5): 'que foi incluído' (singular) sugeria concordar com 'Jeú', quando o sentido (confirmado por ARA/NVIPT: os relatos/atos 'inseridos'/'incluídos' no livro dos reis) é que os RELATOS foram incorporados ao livro. Particípio 'incluídos' (plural) concorda com 'relatos' e elimina a ambiguidade, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). Ambiguidade de referência pronominal identificada por leitura; ARA ('estão inseridas no livro dos reis') e NVIPT ('incluídos nos registros históricos') confirmam que o antecedente é 'os relatos', não 'Jeú'. Corrigido por concordância/clareza, sentido preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -124,10 +131,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
