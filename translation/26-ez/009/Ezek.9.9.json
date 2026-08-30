@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Ezek.9.1-11"
   },
-  "texto_bv": "Ele me disse: “A iniquidade da casa de Israel e de Judá é extremamente grande; a terra se encheu de sangue, e a cidade se encheu de perversão. Pois dizem: ‘O SENHOR abandonou a terra; o SENHOR não vê.’”",
+  "texto_bv": "Ele me disse: “A iniquidade da casa de Israel e de Judá é extremamente grande; a terra se encheu de sangue, e a cidade se encheu de injustiça. Pois dizem: ‘O SENHOR abandonou a terra; o SENHOR não vê.’”",
   "traducao_literal": "E disse a mim: iniquidade da casa de Israel e Judá grande muitíssimo, e encheu-se a terra de sangues, e a cidade encheu-se de perversão; porque disseram: abandonou SENHOR a terra, e não há SENHOR vendo.",
   "termos_originais": [
     {
@@ -147,6 +147,13 @@
           "motivo": "sem apoio lexical direto na raiz; conflaria com חָמָס, termo hebraico distinto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "perversão → injustiça",
+      "justificativa": "Piso de naturalidade (EDITORIAL §1.1.4): ARA e NVIPT convergem em 'injustiça' para o mesmo termo hebraico (a cidade cheia de injustiça, paralelo a 'sangue' — violência/injustiça social); mesmo a tradição mais formal (ARA) não usa 'perversão' neste verso. 'injustiça' é o lexema mais natural e mais amplamente atestado nas referências, sem alterar o referente (corrupção moral/violenta que enche a cidade). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -160,10 +167,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
