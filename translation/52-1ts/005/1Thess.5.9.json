@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "1Thess.5.1-28"
   },
-  "texto_bv": "porque Deus não nos destinou para a ira, mas para a obtenção da salvação, por meio do nosso Senhor Jesus Cristo,",
+  "texto_bv": "porque Deus não nos destinou para a ira, mas para alcançarmos a salvação, por meio do nosso Senhor Jesus Cristo,",
   "traducao_literal": "porque não nos pôs Deus para ira, mas para obtenção de salvação, por meio do Senhor nosso Jesus Cristo,",
   "termos_originais": [
     {
@@ -102,7 +102,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas para a obtenção da salvação → mas para alcançarmos a salvação",
+      "justificativa": "Piso de naturalidade (EDITORIAL §1.4/1.1): NTLH ('para nos dar a salvação'), ARA ('para alcançarmos a salvação') e NVIPT ('para recebermos a salvação') convergem em construção verbal na 1ª pessoa do plural, enquanto a BV nominalizava a ideia ('para a obtenção da salvação'), soando mais burocrático que o registro epistolar do capítulo. A forma verbal preserva o sentido idêntico (mesmo referente: alcançar a salvação) e alinha com ARA. — revisão de forma sem alteração de sentido (ER-0019). Correção puramente de forma (nominalização → construção verbal), sem alteração de sentido; ver motivo em mudancas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "ἔθετο (aoristo médio de τίθημι) traduzido 'destinou/pôs'; περιποίησις = obtenção/aquisição, não simples dádiva passiva. κύριος → Senhor (NOMES-DIVINOS).",
@@ -112,10 +120,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
