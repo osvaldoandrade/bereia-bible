@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Hos.11.1-11"
   },
-  "texto_bv": "Eu os atraía com cordas humanas, com laços de amor; fui para eles como os que levantam o jugo de sobre as queixadas, e me inclinava a ele e o alimentava.",
+  "texto_bv": "Eu os atraía com cordas humanas, com laços de amor; fui para eles como os que levantam o jugo de sobre as suas queixadas, e me inclinava a ele e o alimentava.",
   "traducao_literal": "Com cordas de homem eu os puxava, com cordas de amor; e fui para eles como os que levantam jugo sobre queixadas deles; e inclinei-me a ele, alimentei.",
   "termos_originais": [
     {
@@ -104,6 +104,13 @@
           "motivo": "inverteria o tom de alívio para o de imposição, destoando do contexto imediato de ternura"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "de sobre as queixadas → de sobre as suas queixadas",
+      "justificativa": "Clareza de referência pronominal (EDITORIAL §1, regra 5): sem determinante possessivo fica implícito de quem são as queixadas. A traducao_literal traz 'queixadas deles' e a ARA usa 'suas queixadas'; o acréscimo de 'suas' (referindo-se a 'eles', já introduzido na oração) recupera a posse presente no original sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). NVIPT diverge ao usar 'pescoço' em vez de 'queixadas', mas ARA e a traducao_literal ('queixadas deles') confirmam o lexema da BV; a correção aplicada foi apenas o determinante possessivo, não o lexema em si.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -117,10 +124,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
