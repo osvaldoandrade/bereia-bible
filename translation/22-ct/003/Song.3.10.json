@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Song.3.1-11"
   },
-  "texto_bv": "Suas colunas ele fez de prata, seu encosto de ouro, seu assento de púrpura; seu interior, forrado de amor, pelas filhas de Jerusalém.",
+  "texto_bv": "Suas colunas fez de prata, seu encosto de ouro, seu assento de púrpura; seu interior, forrado de amor, pelas filhas de Jerusalém.",
   "traducao_literal": "Suas colunas fez de prata, seu encosto — ouro, seu assento — púrpura; seu interior, revestido de amor, das filhas de Jerusalém.",
   "termos_originais": [
     {
@@ -94,6 +94,13 @@
           "motivo": "remete a piso/chão, estranho para o interior de uma liteira, embora seja o sentido literal da raiz רצף"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Suas colunas ele fez de prata, → Suas colunas fez de prata,",
+      "justificativa": "Regra 5 (referência pronominal inequívoca) + achado PRO-1 (5 pronomes de 3ª pessoa): o pronome-sujeito 'ele' era redundante — o sujeito (rei Salomão) já está estabelecido no verso anterior (3.9) — e competia ambiguamente com a cadeia de possessivos 'seu/sua', que se referem à liteira, não a Salomão. A elisão do sujeito é natural em português (pro-drop) e iguala a estrutura à traducao_literal, que já omite o pronome. Sentido preservado integralmente. — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (5 pronomes de 3ª pessoa) adjudicado: removido o 'ele' redundante que duplicava o sujeito e criava concorrência de referente com os possessivos 'seu/sua' (liteira). Os demais quatro possessivos ('suas', 'seu' x3) foram mantidos porque têm antecedente inequívoco (a liteira, descrita no verso anterior) e reproduzem fidedignamente a enumeração paralela do original (colunas/encosto/assento/interior), que ARA e NVIPT também preservam com repetição semelhante.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -108,10 +115,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
