@@ -7,7 +7,7 @@
     "versiculo": 37,
     "pericope": "Matt.23.1-39"
   },
-  "texto_bv": "Jerusalém, Jerusalém, que mata os profetas e apedreja os que lhe são enviados! Quantas vezes eu quis reunir os teus filhos, como a galinha reúne os seus filhotes debaixo das asas, mas vocês não quiseram!",
+  "texto_bv": "Jerusalém, Jerusalém, que mata os profetas e apedreja os que lhe são enviados! Quantas vezes eu quis reunir os seus filhos, como a galinha reúne os seus filhotes debaixo das asas, mas vocês não quiseram!",
   "traducao_literal": "Jerusalém, Jerusalém, a que mata os profetas e apedreja os que lhe são enviados, quantas vezes quis eu reunir os teus filhos, à maneira que a galinha reúne os seus filhotes debaixo das asas, e não quisestes!",
   "termos_originais": [
     {
@@ -189,6 +189,13 @@
           "motivo": "registro coloquial demais para o tom solene do lamento"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os teus filhos → os seus filhos",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003, item 10 do prompt canônico): discurso de Jesus a Jerusalém (apóstrofe retórica, não oração dirigida a Deus) usa você/vocês; 'teus' era a única forma do paradigma tu remanescente em todo o texto_bv do capítulo (conferido integralmente), destoando do restante já normalizado ('vocês', 'seus', 'de vocês' em todos os demais versos). A distinção singular (cidade, gr. σου genitivo singular) / plural (habitantes, gr. ἠθελήσατε, 2ª pl.) do original é preservada via você (sg.) × vocês (pl.), conforme §3, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -200,10 +207,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
