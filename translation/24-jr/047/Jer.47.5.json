@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Jer.47.1-7"
   },
-  "texto_bv": "A calvície chegou a Gaza; Ashkelon foi silenciada, o resto do seu vale. Até quando você se lacerará?",
+  "texto_bv": "A calvície chegou a Gaza; Ascalom foi silenciada, o resto do seu vale. Até quando você se lacerará?",
   "traducao_literal": "Veio calvície a Gaza; foi destruída/silenciada Ashkelon, resto do seu vale; até quando te lacerarás?",
   "termos_originais": [
     {
@@ -89,6 +89,13 @@
           "motivo": "mais vago, perde a referência ao rito específico de autolaceração em luto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ashkelon foi silenciada → Ascalom foi silenciada",
+      "justificativa": "Grafia consolidada do nome próprio (EDITORIAL §8): a forma já estabelecida no corpus BV para esta cidade filisteia é “Ascalom” (cf. Zeph.2.7, Judg.14.19, Zech.9.5, já publicados), não a transliteração inglesa “Ashkelon”. NVIPT usa “Ascalom”; ARA e NTLH usam “Asquelom” — nenhuma referência mantém a forma anglicizada. Padronizado para consistência intra-corpus. — revisão de forma sem alteração de sentido (ER-0019). Paradigma de 2ª pessoa (§3/D-0003) já correto: “você se lacerará” é discurso do profeta/SENHOR dirigido ao remanescente filisteu (Deus/profeta→humano), não oração a Deus — “você” é a forma exigida. Quanto a “foi silenciada”: ARA usa “foi desarraigada” (imagem distinta), mas NTLH (“estão calados”) e NVIPT (“está calada”) convergem com o sentido de silêncio da BV; a passiva reflete a ação sofrida pela cidade e não é dispensável. Mudança aplicada limitada à grafia do topônimo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -102,10 +109,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
