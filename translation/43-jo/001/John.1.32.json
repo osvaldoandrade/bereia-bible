@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "John.1.1-51"
   },
-  "texto_bv": "E João testemunhou, dizendo: \"Vi o Espírito descer do céu como pomba, e ele permaneceu sobre ele.\"",
+  "texto_bv": "E João testemunhou, dizendo: \"Vi o Espírito descer do céu como pomba, e permaneceu sobre ele.\"",
   "traducao_literal": "E testemunhou João, dizendo: Tenho contemplado o Espírito descendo como pomba do céu, e permaneceu sobre ele.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "O contexto imediato (descida em forma de pomba, permanecendo sobre Jesus) desambigua o referente como o Espírito divino, sem a polissemia de Gn 1.2 (espírito/vento/sopro); maiúscula documentada por decisão exegética."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e ele permaneceu sobre ele. → e permaneceu sobre ele.",
+      "justificativa": "Pronome-sujeito \"ele\" (referindo-se ao Espírito) é redundante — a própria traducao_literal (\"descendo...e permaneceu sobre ele\") e as três referências (NTLH, ARA, NVIPT) omitem esse pronome, usando construção com infinitivo/verbo sem sujeito explícito. Removida a redundância que criava a sequência \"ele...sobre ele\" com dois antecedentes distintos (Espírito, Jesus); o antecedente do verbo \"permaneceu\" continua inequívoco pela concordância na 3ª pessoa do singular, retomando \"o Espírito\" da oração anterior. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,10 +126,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

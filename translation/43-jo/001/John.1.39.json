@@ -7,7 +7,7 @@
     "versiculo": 39,
     "pericope": "John.1.1-51"
   },
-  "texto_bv": "Ele lhes disse: \"Venham e vejam.\" Foram, então, e viram onde ele estava hospedado, e ficaram com ele naquele dia; era cerca da hora décima.",
+  "texto_bv": "Disse-lhes: \"Venham e vejam.\" Foram, então, e viram onde estava hospedado, e ficaram com ele naquele dia; era cerca da hora décima.",
   "traducao_literal": "Diz-lhes: Vinde e vereis. Foram, então, e viram onde permanece, e com ele permaneceram naquele dia; era hora como décima.",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele lhes disse: \"Venham e vejam.\" → Disse-lhes: \"Venham e vejam.\" | onde ele estava hospedado → onde estava hospedado",
+      "justificativa": "Achado PRO-1 (4 pronomes de 3ª pessoa no versículo). Remoção do pronome-sujeito explícito \"Ele\" — redundante, já que a conjugação de \"disse\" (3ª pessoa singular) mantém o antecedente (Jesus) inequívoco a partir do contexto imediato de 1.38. A própria traducao_literal usa a forma sem pronome (\"Diz-lhes\"); ARA usa a construção equivalente \"Respondeu-lhes\". | Achado PRO-1: segunda redução de pronome redundante no mesmo versículo. O sujeito da oração (\"ele\" = Jesus) permanece claro pela 3ª pessoa do singular do verbo \"estava\", em contraste com o sujeito plural \"viram\" (os discípulos) da oração anterior — sem ambiguidade. ARA emprega a mesma solução (\"viram onde pousava\", sem pronome explícito). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 confirmado e corrigido (ver mudancas): 4 pronomes de 3ª pessoa no versículo; reduzidos para 2 sem perda de clareza referencial, alinhando com a solução já usada pela ARA.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "'Hora décima' (contagem antiga a partir do nascer do sol) mantida sem conversão ao relógio moderno no texto (EDITORIAL §7, por analogia às medidas antigas).",
@@ -132,10 +140,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

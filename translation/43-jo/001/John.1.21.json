@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "John.1.1-51"
   },
-  "texto_bv": "E lhe perguntaram: \"Então, quê? Você é Elias?\" E ele diz: \"Não sou.\" \"Você é o profeta?\" E respondeu: \"Não.\"",
+  "texto_bv": "E lhe perguntaram: \"Então, quê? Você é Elias?\" E ele disse: \"Não sou.\" \"Você é o profeta?\" E respondeu: \"Não.\"",
   "traducao_literal": "E perguntaram a ele: Que então? Tu és Elias? E diz: Não sou. O profeta és tu? E respondeu: Não.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
           "motivo": "O hebraico/grego não codifica recurso gráfico de maiúscula; tratamento uniforme com minúscula para títulos/categorias segue o espírito de ER-0012."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E ele diz: \"Não sou.\" → E ele disse: \"Não sou.\"",
+      "justificativa": "Normalização de tempo verbal: o presente histórico \"diz\" quebra a consistência com o restante da narrativa deste capítulo, que normaliza sistematicamente o presente histórico grego para o pretérito em todas as outras ocorrências análogas (cf. 1.41, 1.43, 1.45, 1.46, 1.47, 1.48, onde \"diz\"/\"encontra\" do grego viram \"disse\"/\"encontrou\"). As três referências (NTLH, ARA, NVIPT) também usam pretérito neste versículo. Sentido inalterado. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,10 +136,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
