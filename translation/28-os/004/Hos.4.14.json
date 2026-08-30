@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Hos.4.1-19"
   },
-  "texto_bv": "Eu não castigarei as suas filhas por se prostituírem, nem as suas noras por cometerem adultério, porque os próprios homens se retiram à parte com as prostitutas, e sacrificam com as prostitutas de templo; e um povo sem entendimento será arruinado.",
+  "texto_bv": "Eu não castigarei as suas filhas por se prostituírem, nem as suas noras por cometerem adultério, porque os próprios homens se retiram à parte com as prostitutas, e sacrificam com as prostitutas de templo. Um povo sem entendimento será arruinado.",
   "traducao_literal": "Não visitarei sobre as filhas de vocês porque se prostituem, e sobre as noras de vocês porque adulteram; porque eles com as prostitutas se separam à parte, e com as consagradas sacrificam; e povo que não entende será derrubado.",
   "termos_originais": [
     {
@@ -150,6 +150,13 @@
           "motivo": "sentido possível, mas mais fraco que a gravidade de julgamento do contexto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "; e um povo sem entendimento será arruinado. → . Um povo sem entendimento será arruinado.",
+      "justificativa": "Sentença de 41 palavras (achado LEN-1, EDITORIAL §1.3): dividida no ponto e vírgula que já isola uma oração independente na traducao_literal ('e povo que não entende será derrubado'), sem perda sintática nem adição de sentido — cf. NVIPT, que também destaca essa cláusula final como unidade à parte. — revisão de forma sem alteração de sentido (ER-0019). Além da divisão da sentença longa (LEN-1), as referências não convergem em outra alternativa lexical; nenhuma outra mudança de forma aplicada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -163,10 +170,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
