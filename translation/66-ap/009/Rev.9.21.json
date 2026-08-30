@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Rev.9.1-21"
   },
-  "texto_bv": "e não se arrependeram dos seus assassinatos, nem das suas feitiçarias, nem da sua prostituição, nem dos seus furtos.",
+  "texto_bv": "E não se arrependeram dos seus assassinatos, nem das suas feitiçarias, nem da sua prostituição, nem dos seus furtos.",
   "traducao_literal": "e nao arrependeram-se a-partir-dos-assassinatos deles nem a-partir-das-feiticarias deles nem a-partir-da-prostituicao deles nem a-partir-dos-furtos deles.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
           "motivo": "descolaria o termo, neste capitulo, da rede lexical que o livro desenvolve em torno de porneia/porne mais adiante; escolha registrada para revisao de consistencia futura"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e não se arrependeram dos seus assassinatos → E não se arrependeram dos seus assassinatos",
+      "justificativa": "Consequência do fechamento de frase em 9.20 (vírgula → ponto): a nova frase inicia com maiúscula (EDITORIAL §6.1). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (4 pronomes de 3ª pessoa: seus/suas/sua/seus): reproduz fielmente a anáfora do grego (αὐτῶν repetido 4×, um por substantivo da lista) — fórmula de enumeração intencional, mantida por fidelidade (regra 4); NTLH, ARA e NVIPT reproduzem a mesma densidade pronominal (4 possessivos cada). A única alteração aplicada foi a maiúscula inicial, decorrente do fechamento de frase em 9.20.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -144,10 +151,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Rev.9.1-21"
   },
-  "texto_bv": "E os demais dos homens, que não foram mortos por estas pragas, não se arrependeram das obras das suas mãos, isto é, de adorar os demônios e os ídolos de ouro, de prata, de bronze, de pedra e de madeira, que não podem ver, nem ouvir, nem andar,",
+  "texto_bv": "E os demais dos homens, que não foram mortos por estas pragas, não se arrependeram das obras das suas mãos, isto é, de adorar os demônios e os ídolos de ouro, de prata, de bronze, de pedra e de madeira, que não podem ver, nem ouvir, nem andar.",
   "traducao_literal": "E os demais dos-homens, os-quais nao foram-mortos em-estas pragas, nem arrependeram-se a-partir-das obras das-maos deles, para-que nao adorem os demonios e os idolos os de-ouro e os de-prata e os de-bronze e os de-pedra e os de-madeira, os-quais nem ver podem nem ouvir nem andar,",
   "termos_originais": [
     {
@@ -273,6 +273,13 @@
           "motivo": "gera leitura logicamente incoerente — o texto ja pressupoe que eles continuam adorando idolos; a leitura final estrita contradiz o contexto imediato"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nem andar, → nem andar.",
+      "justificativa": "Fechamento de frase no limite gramatical correto (LEN-1/§1.3, §6.1): a oração relativa 'que não podem ver, nem ouvir, nem andar' está sintaticamente completa. NTLH, ARA e NVIPT fecham a frase neste ponto em vez de prosseguir com vírgula para o v.21, cujo verbo ('não se arrependeram') é retomado de forma independente no grego (μετενόησαν repetido). — revisão de forma sem alteração de sentido (ER-0019). Achado LEN-1 (48 palavras). Dividir a sentença internamente exigiria inserir um verbo ausente no original (ex.: 'continuaram a'), o que seria adição de sentido — não aplicado. Correção possível e aplicada: a vírgula final foi trocada por ponto, fechando a oração no limite gramatical correto, como fazem as três referências.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -288,10 +295,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
