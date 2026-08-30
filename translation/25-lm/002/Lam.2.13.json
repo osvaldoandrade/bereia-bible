@@ -139,6 +139,13 @@
           "motivo": "produziria leitura ambígua (\"a que comparo-te, a filha de Jerusalém\" pareceria resposta, não endereçamento)"
         }
       ]
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "RAT-1 (ratio 2.25) é expansão natural (série de perguntas retóricas). \"sarará\" diverge de ARA (\"curar\") e NVIPT (\"curá-la\"), mas não é arcaísmo funcionalmente morto (não consta em §1.2-tabela; segue em uso corrente, ex. \"a ferida sarou\") — divergência parcial (2/3, já que NTLH é paráfrase livre sem equivalente lexical) tratada como escolha estilística legítima, não defeito. Endereçamento em \"tu\" à \"filha de Jerusalém/Sião\" (apóstrofe poética a entidade personificada, não interlocutor humano literal nem oração a Deus) mantido: não há forma \"vós\" a normalizar (item 10 do prompt não se aplica); trocar para \"você\" quebraria a coerência de registro com a oração a Deus que fecha o capítulo (vv.20-22, também em \"tu\"), fragmentando o poema. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -152,10 +159,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
