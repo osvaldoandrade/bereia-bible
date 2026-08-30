@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Heb.4.1-16"
   },
-  "texto_bv": "Pois não temos um sumo sacerdote que não possa compadecer-se das nossas fraquezas, mas um que foi tentado em tudo, à semelhança de nós, mas sem pecado.",
+  "texto_bv": "Pois não temos um sumo sacerdote que não possa compadecer-se das nossas fraquezas, mas um que foi tentado em tudo, à semelhança de nós, porém sem pecado.",
   "traducao_literal": "Pois não temos sumo sacerdote não podendo compadecer-se das fraquezas de nós, mas tentado segundo tudo, segundo semelhança, sem pecado.",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "escolha": "Leitura tradicional: 'à semelhança de nós, [porém] sem pecado' — a semelhança é total, exceto quanto ao pecado.",
       "justificativa": "Leitura sintática majoritária, mais coerente com o argumento (Cristo plenamente humano e solidário, mas sem pecado).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas um que foi tentado em tudo, à semelhança de nós, mas sem pecado. → mas um que foi tentado em tudo, à semelhança de nós, porém sem pecado.",
+      "justificativa": "Repetição de “mas” duas vezes na mesma frase é redundância que o original não apresenta (o grego usa conectivos distintos para os dois contrastes); ARA e NVIPT também variam o conectivo (porém/mas sim) em vez de repeti-lo. Troca do segundo “mas” por “porém” elimina a repetição sem alterar o sentido (EDITORIAL, cheque 4). — revisão de forma sem alteração de sentido (ER-0019). Correção pontual de redundância de conectivo (sem achado ativo da triagem), sem mudança de sentido; o texto permanece fiel à traducao_literal.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -132,10 +139,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
