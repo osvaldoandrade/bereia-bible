@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Isa.66.1-24"
   },
-  "texto_bv": "Quem mata um boi é como quem mata um homem; quem sacrifica um cordeiro é como quem quebra o pescoço de um cão; quem oferece uma oferta de cereal é como quem oferece sangue de porco; quem queima incenso como memorial é como quem bendiz um ídolo. Eles mesmos escolheram os seus próprios caminhos, e a sua alma se deleita nas suas abominações.",
+  "texto_bv": "Quem degola um boi é como quem mata um homem. Quem sacrifica um cordeiro é como quem quebra o pescoço de um cão. Quem oferece uma oferta de cereal é como quem oferece sangue de porco. Quem queima incenso como memorial é como quem bendiz um ídolo. Eles mesmos escolheram os seus próprios caminhos, e a sua alma se deleita nas suas abominações.",
   "traducao_literal": "O que degola o boi, o que mata um homem; o que sacrifica o cordeiro, o que quebra o pescoço de um cão; o que oferece oferta de cereal, sangue de porco; o que faz memorial de incenso, o que bendiz iniquidade — também eles escolheram os seus caminhos, e a sua alma tem prazer nas suas abominações.",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
           "motivo": "abstrai demais um contexto que é claramente ritual e concreto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Quem mata um boi é como quem mata um homem; quem sacrifica um cordeiro é como quem quebra o pescoço de um cão; quem oferece uma oferta de cereal é como quem oferece sangue de porco; quem queima incenso como memorial é como quem bendiz um ídolo. → Quem degola um boi é como quem mata um homem. Quem sacrifica um cordeiro é como quem quebra o pescoço de um cão. Quem oferece uma oferta de cereal é como quem oferece sangue de porco. Quem queima incenso como memorial é como quem bendiz um ídolo.",
+      "justificativa": "LEN-1: sentença de 47 palavras dividida em quatro orações independentes (§1.3), sem perda sintática — cada cláusula 'quem X é como quem Y' já é gramaticalmente completa. RED-1: 'mata' usado duas vezes (boi e homem) onde o original distingue os verbos (traducao_literal: 'degola' para o boi, 'mata' para o homem); restaurada a distinção com 'degola', preservando o sentido e eliminando repetição que o original não tem (regra 4). A repetição 'oferece...oferece' foi mantida por refletir elipse do próprio original (mesmo verbo rege dois objetos) — fidelidade, não defeito. — revisão de forma sem alteração de sentido (ER-0019). Achados adjudicados: LEN-1 resolvido com divisão de sentença sem alteração de conteúdo; RED-1 parcialmente corrigido ('mata'→'degola' no boi, restaurando distinção do original) e parcialmente mantido ('oferece...oferece', elipse do original); PRO-1 (pronomes de 3ª pessoa 'eles/seus/sua') é falso positivo — todos remetem claramente ao mesmo grupo de sujeitos descrito nas orações anteriores, sem ambiguidade.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -162,10 +169,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
