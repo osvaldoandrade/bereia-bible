@@ -114,6 +114,13 @@
       "escolha": "suprir 'meu' também em 'cântico' ('minha força e o meu cântico')",
       "justificativa": "ER-0006: elipse suprida apenas quando o português fica agramatical sem isso — 'força e cântico' soa incompleto sem possessivo explícito nos dois membros.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "RED-1 ('minha salvação' repetida): a traducao_literal já repete 'salvação' no início e no fim ('Deus [é] minha salvação' ... 'foi para mim por salvação'), formando inclusio poético que cita o refrão de Êxodo 15.2/Salmo 118.14; as três referências preservam a mesma repetição ('minha salvação'/'meu Salvador' em ambas as pontas), confirmando que é fórmula intencional do original, não defeito — mantida por EDITORIAL item 4 (repetir o que o original repete é fidelidade). CAL-2 ('eis que'): abre a declaração triunfal traduzindo o dêitico hebraico hinneh com força enfática (marca a virada do lamento para o louvor); ARA mantém 'Eis que' no mesmo ponto e a traducao_literal já registra 'Eis' isolado — dêitico com força retórica, não calque artificial (EDITORIAL §6.2), por isso mantido. A duplicação 'o SENHOR, o SENHOR' também é formulaica (Yah YHWH no original) e corresponde ao 'o Senhor, sim o Senhor' da ARA — preservada. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -130,10 +137,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
