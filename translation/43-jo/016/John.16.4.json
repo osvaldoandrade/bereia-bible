@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "John.16.1-33"
   },
-  "texto_bv": "Mas eu lhes falei estas coisas para que, quando chegar a hora delas, vocês se lembrem de que eu lhes disse isso. Eu não lhes disse isso desde o princípio, porque eu estava com vocês.",
+  "texto_bv": "Mas eu lhes falei estas coisas para que, quando chegar a hora, vocês se lembrem de que eu os avisei. Eu não lhes disse isso desde o princípio, porque eu estava com vocês.",
   "traducao_literal": "Mas estas coisas tenho falado a vós, para que, quando vier a hora delas, vos lembreis delas, que eu disse a vós. Mas estas coisas, desde o princípio, não disse a vós, porque estava convosco.",
   "termos_originais": [
     {
@@ -158,6 +158,13 @@
           "motivo": "torna redundante a cláusula 'quando chegar a hora delas', que exige um referente distinto (a hora da perseguição, não das palavras)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "quando chegar a hora delas → quando chegar a hora | lhes disse isso → os avisei",
+      "justificativa": "RED-1: 'delas' redundante — 'a hora' já remete às coisas mencionadas; elipse natural em pt-BR. | RED-1/PRO-1: evita repetição de 'disse isso' no mesmo período e reduz densidade pronominal de 3ª pessoa. NTLH usa 'os tinha avisado', confirmando a solução. — revisão de forma sem alteração de sentido (ER-0019). Achados RED-1 (redundância 'disse isso' 2× no período) e PRO-1 (excesso de pronomes) resolvidos com elipse de 'delas' e substituição de 'lhes disse isso' por 'os avisei'. NTLH usa 'os tinha avisado'; a BV agora converge com a solução das referências.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -169,10 +176,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
