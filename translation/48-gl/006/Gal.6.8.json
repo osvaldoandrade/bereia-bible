@@ -143,6 +143,13 @@
           "motivo": "contradiria a grafia da fonte pinada e o paralelismo antitético σάρξ/Πνεῦμα típico da carta."
         }
       ]
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "O achado RED-1 ('quem semeia') sinaliza a repetição da estrutura 'quem semeia X, do X colherá Y', mas essa repetição é fórmula intencional do original: a traducao_literal confirma o paralelismo antitético grego ('o que semeia para a carne dele mesmo... mas o que semeia para o Espírito, do Espírito colherá vida eterna'), reproduzido também por ARA e NVIPT com a mesma simetria ('quem semeia... do... colherá/ceifará'). Repetir o que o original repete é fidelidade (regra 4 do prompt canônico) — mantido sem alteração. (ER-0019 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -154,10 +161,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
