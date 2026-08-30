@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Rev.16.1-21"
   },
-  "texto_bv": "E houve relâmpagos, vozes e trovões, e aconteceu um grande terremoto, como nunca houve desde que o homem existe sobre a terra; um terremoto tão grande assim.",
+  "texto_bv": "E houve relâmpagos, vozes e trovões, e aconteceu um grande terremoto, como nunca houve desde que o homem existe sobre a terra, um terremoto tão grande assim.",
   "traducao_literal": "E houve relâmpagos e vozes e trovões, e terremoto aconteceu grande, qual não aconteceu desde que homem aconteceu sobre a terra, tão grande terremoto assim tão grande.",
   "termos_originais": [
     {
@@ -174,6 +174,13 @@
           "motivo": "Perde o ênfase de encerramento."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sobre a terra; um terremoto tão grande assim. → sobre a terra, um terremoto tão grande assim.",
+      "justificativa": "Pontuação (§6.1): o ponto e vírgula antecedia um sintagma nominal sem verbo finito ('um terremoto tão grande assim'), uso indevido — ponto e vírgula liga orações independentes. Trocado por vírgula, preservando o aposto e a repetição enfática intencional do original (duplicação 'tão grande...tão grande' do grego), sem alterar sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -188,10 +195,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

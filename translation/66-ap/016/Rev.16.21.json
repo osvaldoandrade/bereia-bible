@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Rev.16.1-21"
   },
-  "texto_bv": "E desce do céu sobre os homens um grande granizo, do peso de um talento; e os homens blasfemaram contra Deus por causa da praga do granizo, porque a sua praga é muito grande.",
+  "texto_bv": "E desceu do céu sobre os homens um grande granizo, do peso de um talento; e os homens blasfemaram contra Deus por causa da praga do granizo, porque a sua praga é muito grande.",
   "traducao_literal": "E granizo grande como de talento desce do céu sobre os homens; e os homens blasfemaram o Deus por causa da praga do granizo, porque grande é a praga dela muito.",
   "termos_originais": [
     {
@@ -210,6 +210,13 @@
           "motivo": "Possível, mas 'muito' mantém o registro neutro."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E desce do céu → E desceu do céu",
+      "justificativa": "Consistência de tempo verbal: todo o capítulo narra em pretérito (derramou, houve, vi...); só este verso usava presente histórico ('desce'), quebrando a uniformidade narrativa. Corrigido para pretérito, alinhado às três referências. Evento narrado inalterado. — revisão de forma sem alteração de sentido (ER-0019). Mantido 'talento' (§7: medidas antigas preservadas no texto; NTLH/NVIPT convertem para quilos, mas conversão pertence a nota, não ao texto). Mantido o presente em 'é muito grande': é comentário gnômico do narrador (não ação narrada), presente também na traducao_literal ('grande é a praga dela'); as três referências usam passado ('era'/'fora') por escolha estilística, não por exigência gramatical.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -225,10 +232,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
