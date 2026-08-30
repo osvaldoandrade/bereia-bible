@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Ezek.29.1-21"
   },
-  "texto_bv": "Portanto, assim diz o Senhor DEUS: Eis que dou a Nabucodonosor, rei da Babilônia, a terra do Egito; ele levará a sua riqueza, tomará o seu despojo e saqueará o seu saque; e isso será o pagamento para o seu exército.",
+  "texto_bv": "Portanto, assim diz o Senhor DEUS: Eis que dou a Nabucodonosor, rei da Babilônia, a terra do Egito. Ele levará a sua riqueza, tomará o seu despojo e saqueará o seu saque; e isso será o pagamento para o seu exército.",
   "traducao_literal": "Portanto, assim disse o Senhor YHWH: Eis-me dando a Nabucodonosor, rei da Babilônia, a terra do Egito; e levantará a sua multidão, e saqueará o seu saque, e despojará o seu despojo; e será recompensa para o seu exército.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
           "motivo": "soaria como erro de tradução mecânica em português, não como intensificação retórica"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a terra do Egito; ele levará → a terra do Egito. Ele levará",
+      "justificativa": "Sentença de 41 palavras (LEN-1, EDITORIAL §1.3); divisão após a primeira oração independente, sem perda sintática nem semântica — mesmo padrão de quebra adotado pela NVIPT. — revisão de forma sem alteração de sentido (ER-0019). CAL-2 ('eis que') mantido por integrar a mesma fórmula de anúncio já consolidada neste capítulo (vv. 3, 8, 10) e no corpus de Ezequiel — regra 4. PRO-1 (5 pronomes de 3ª pessoa) tem antecedente único e claro (Nabucodonosor/seu exército), sem ambiguidade a corrigir. LEN-1 (sentença de 41 palavras) foi corrigido dividindo a oração em duas (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -144,10 +151,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

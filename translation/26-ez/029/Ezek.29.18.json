@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Ezek.29.1-21"
   },
-  "texto_bv": "Filho do homem, Nabucodonosor, rei da Babilônia, fez o seu exército prestar um grande serviço contra Tiro: toda cabeça ficou calva e todo ombro esfolado; mas não houve pagamento para ele nem para o seu exército, de Tiro, pelo serviço que prestou contra ela.",
+  "texto_bv": "Filho do homem, Nabucodonosor, rei da Babilônia, fez o seu exército prestar um grande serviço contra Tiro: toda cabeça ficou calva e todo ombro esfolado. Mas não houve pagamento para ele nem para o seu exército, de Tiro, pelo serviço que prestou contra ela.",
   "traducao_literal": "Filho de homem, Nabucodonosor, rei da Babilônia, fez servir o seu exército serviço grande contra Tiro: toda cabeça calva e todo ombro esfolado; e recompensa não houve para ele e para o seu exército, de Tiro, pelo serviço que serviu contra ela.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
       "escolha": "\"Nabucodonosor\", \"Babilônia\", \"Tiro\"",
       "justificativa": "Grafia já consolidada e usada no corpus (Jer.24.1; Jer.25.22).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "esfolado; mas não houve → esfolado. Mas não houve",
+      "justificativa": "Sentença de 44 palavras (LEN-1, EDITORIAL §1.3); divisão em duas orações independentes no ponto de junção adversativa, sem perda sintática nem semântica — mesmo padrão de quebra adotado pela NVIPT, que também separa com ponto antes de 'Contudo'. — revisão de forma sem alteração de sentido (ER-0019). PRO-1 sinaliza 4 pronomes de 3ª pessoa ('seu' x2, 'ele', 'ela'), mas todos têm antecedente único e inequívoco (o exército de Nabucodonosor e a cidade de Tiro), sem ambiguidade — mantidos sem alteração. LEN-1 (sentença de 44 palavras) foi corrigido dividindo a oração em duas (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -174,10 +181,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
