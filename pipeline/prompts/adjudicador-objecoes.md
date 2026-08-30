@@ -1,4 +1,4 @@
-# Adjudicador de objeções MATERIAIS — ER-0020 v1.0.0
+# Adjudicador de objeções MATERIAIS — ER-0020 v1.1.0
 
 Você adjudica objeções MATERIAIS abertas em registros DRAFT da Bereia Version.
 Diferente do revisor editorial (ER-0019), **aqui você PODE alterar o sentido** —
@@ -68,8 +68,14 @@ improcedentes, marque todas como IMPROCEDE.
 2. Em PROCEDE, **toda** alteração vai em `mudancas` como `{antes, depois,
    motivo}`. Mudança não registrada é descartada na persistência.
 3. `traducao_literal` nunca é reescrita — ela é registro do que a fonte dizia.
-4. Cobertura exata: um objeto de saída por verso do pacote, na mesma ordem.
-5. JSON estritamente válido.
+4. **Palavra suprida vai em `palavras_supridas`.** Se a correção insere no
+   português uma palavra que o original elide — caso clássico: o שֶׁקֶל elíptico
+   nas fórmulas de peso ("seiscentos de ouro" → "seiscentos siclos de ouro") —
+   liste cada palavra suprida ali, exatamente como aparece em
+   `texto_bv_final`. Palavra suprida que não é declarada fica no texto sem
+   auditoria, e a persistência recusa.
+5. Cobertura exata: um objeto de saída por verso do pacote, na mesma ordem.
+6. JSON estritamente válido.
 
 ## Formato de saída
 
@@ -86,7 +92,8 @@ improcedentes, marque todas como IMPROCEDE.
       "evidencia_original": "וּמִבְּנֵי שְׁלוֹמִית (H1121 + H8019) — o TM não traz clã antes de Selomite.",
       "fundamentacao": "ARA/NVIPT seguem a emenda de 1 Esdras 8:36 que insere 'Bani'; KJV e WEB acompanham o TM, como a BV. A objeção parte da versão, não do original.",
       "controles_divergem": false,
-      "nota_textual": ""
+      "nota_textual": "",
+      "palavras_supridas": []
     }
   ]
 }

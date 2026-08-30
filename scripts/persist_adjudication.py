@@ -18,6 +18,9 @@ Guards enforced mechanically, all chapters validated BEFORE any write:
   * PROCEDE additionally requires `evidencia_original` (the Hebrew/Greek term
     that carries the decision) — no meaning change without original-language
     evidence;
+  * words the adjudicator had to supply (Hebrew ellipsis, e.g. the elided
+    `sheqel` in weight formulas) are appended to `palavras_supridas`, so a
+    supplied word never sits in texto_bv unaudited;
   * IMPROCEDE / INCONCLUSIVA must leave texto_bv byte-identical;
   * PROCEDE and IMPROCEDE close the objection; INCONCLUSIVA keeps it open;
   * every outcome is logged in `decisoes` with diretriz_ref ER-0020;
@@ -36,7 +39,7 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PROMPTS_VERSAO = "1.3.0"   # + adjudicador-objecoes.md v1.0.0 (ER-0020)
+PROMPTS_VERSAO = "1.3.1"   # + adjudicador-objecoes.md v1.1.0 (ER-0020)
 VERDICTS = ("PROCEDE", "IMPROCEDE", "INCONCLUSIVA")
 
 
@@ -129,6 +132,16 @@ def validate_chapter(out, packet, records):
         if not (v.get("evidencia_original") or "").strip():
             errors.append("%s: PROCEDE exige evidencia_original (termo do "
                           "hebraico/grego)" % osis)
+        supridas = v.get("palavras_supridas") or []
+        if not isinstance(supridas, list) or any(
+                not isinstance(w, str) for w in supridas):
+            errors.append("%s: palavras_supridas deve ser lista de strings"
+                          % osis)
+        else:
+            for w in supridas:
+                if w not in final:
+                    errors.append("%s: palavra suprida %r não aparece no "
+                                  "texto final" % (osis, w))
         rebuilt = apply_mudancas(current, mudancas)
         if rebuilt is None:
             errors.append("%s: mudanca não casa com o texto armazenado" % osis)
@@ -157,6 +170,10 @@ def apply_chapter(out, records, modelo):
 
         if verdict == "PROCEDE":
             rec["texto_bv"] = v["texto_bv_final"]
+            for w in (v.get("palavras_supridas") or []):
+                supridas = rec.setdefault("palavras_supridas", [])
+                if w not in supridas:
+                    supridas.append(w)
             escolha = " | ".join("%s → %s" % (m.get("antes", ""),
                                               m.get("depois", ""))
                                  for m in v["mudancas"])

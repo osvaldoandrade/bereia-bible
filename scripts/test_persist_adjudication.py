@@ -141,6 +141,36 @@ class PersistAdjudicationTests(unittest.TestCase):
         self.assertEqual("ER-0020", saved["decisoes"][-1]["diretriz_ref"])
         self.assertEqual("claude-fable-5", saved["fontes"]["modelo"])
 
+    def test_supplied_word_must_appear_in_final_text(self):
+        osis = "Tst.1.1"
+        recs = self.records(osis, make_record(osis, "seiscentos de ouro"))
+        v = out_verse(
+            osis, "PROCEDE", "seiscentos siclos de ouro",
+            mudancas=[{"antes": "seiscentos de", "depois":
+                       "seiscentos siclos de", "motivo": "elipse"}],
+            evidencia="H8255 sheqel elíptico")
+        v["palavras_supridas"] = ["dracmas"]
+        errs = adj.validate_chapter(
+            {"versos": [v]}, packet(osis, "seiscentos de ouro"), recs)
+        self.assertTrue(any("não aparece no texto final" in e for e in errs))
+
+    def test_supplied_word_is_recorded(self):
+        osis = "Tst.1.1"
+        recs = self.records(osis, make_record(osis, "seiscentos de ouro"))
+        v = out_verse(
+            osis, "PROCEDE", "seiscentos siclos de ouro",
+            mudancas=[{"antes": "seiscentos de", "depois":
+                       "seiscentos siclos de", "motivo": "elipse"}],
+            evidencia="H8255 sheqel elíptico")
+        v["palavras_supridas"] = ["siclos"]
+        out = {"book_dir": "99-tt", "chapter": 1, "versos": [v]}
+        self.assertEqual([], adj.validate_chapter(
+            out, packet(osis, "seiscentos de ouro"), recs))
+        adj.apply_chapter(out, recs, "claude-fable-5")
+        with open(recs[osis][0], encoding="utf-8") as f:
+            saved = json.load(f)
+        self.assertIn("siclos", saved["palavras_supridas"])
+
     # ---- status / precondition guards ---------------------------------
     def test_non_draft_is_refused(self):
         osis = "Tst.1.1"
