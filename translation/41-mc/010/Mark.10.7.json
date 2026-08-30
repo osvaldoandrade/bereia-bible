@@ -73,6 +73,13 @@
           "motivo": "inseriria texto ausente da autoridade textual pinada; violaria a proibição de harmonização (TEOLOGIA §2)"
         }
       ]
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Aspas simples retas (') na citação interna de Gênesis (v.7 abre, v.8 fecha), quando o padrão do corpus para citação-dentro-de-citação usa aspas simples curvas (‘ ’); além disso, todas as 37 aspas duplas de discurso direto deste capítulo usam o caractere reto (\") em vez de curvo (“ ”), diferente da convenção de boa parte do corpus (ex.: Gênesis) e de metade dos capítulos de Marcos. — evidência: Verificação mecânica: Mark.10.7/10.8 usam ' (0x27) em vez de ‘ ’ (U+2018/2019); todo o 41-mc-010.json usa \" (U+0022) nas 37 aspas duplas, enquanto qa/reports/review-input/01-gn-*.json e os capítulos 41-mc-001/003/005/008/009/012/014/016 usam “ ” (U+201C/201D). Corrigir só este capítulo deixaria as aspas simples curvas destoando das duplas retas dentro do mesmo texto; a correção correta é um passo mecânico corpus-wide, fora do escopo desta revisão de hot-spots. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -86,10 +93,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -1,0 +1,418 @@
+{
+ "book_dir": "41-mc",
+ "chapter": 10,
+ "versos": [
+  {
+   "osis": "Mark.10.1",
+   "texto_bv_revisto": "Dali, Jesus partiu e foi para a região da Judeia e além do Jordão; e as multidões se reuniram de novo junto a ele; e, como costumava, tornou a ensiná-las.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.2",
+   "texto_bv_revisto": "Fariseus se aproximaram e, pondo-o à prova, lhe perguntaram: \"É lícito a um homem divorciar-se de sua mulher?\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.3",
+   "texto_bv_revisto": "Ele respondeu: \"O que Moisés ordenou a vocês?\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.4",
+   "texto_bv_revisto": "Eles disseram: \"Moisés permitiu escrever certidão de divórcio e mandar embora.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.5",
+   "texto_bv_revisto": "Jesus lhes disse: \"Foi pela dureza do coração de vocês que ele escreveu para vocês este mandamento.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.6",
+   "texto_bv_revisto": "Mas, desde o princípio da criação, Deus os fez macho e fêmea.",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "As três referências (NTLH, ARA, NVIPT) trazem ‘homem e mulher’ para ἄρσεν καὶ θῆλυ, enquanto a BV usa “macho e fêmea”. Mantido: a BV preserva a distinção lexical grega da LXX de Gn 1.27 (ἄρσεν/θῆλυ, diferente de ἀνήρ/γυνή), decisão de conteúdo/exegese sobre o par lexical do original — trocar por “homem e mulher” mudaria o registro semântico da citação, não é mera correção de forma. “Macho” e “fêmea” são palavras correntes em português contemporâneo, sem arcaísmo.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.7",
+   "texto_bv_revisto": "'Por isso, o homem deixará seu pai e sua mãe,",
+   "mudancas": [],
+   "objecoes": [
+    {
+     "gravidade": "EDITORIAL",
+     "problema": "Aspas simples retas (') na citação interna de Gênesis (v.7 abre, v.8 fecha), quando o padrão do corpus para citação-dentro-de-citação usa aspas simples curvas (‘ ’); além disso, todas as 37 aspas duplas de discurso direto deste capítulo usam o caractere reto (\") em vez de curvo (“ ”), diferente da convenção de boa parte do corpus (ex.: Gênesis) e de metade dos capítulos de Marcos.",
+     "evidencia": "Verificação mecânica: Mark.10.7/10.8 usam ' (0x27) em vez de ‘ ’ (U+2018/2019); todo o 41-mc-010.json usa \" (U+0022) nas 37 aspas duplas, enquanto qa/reports/review-input/01-gn-*.json e os capítulos 41-mc-001/003/005/008/009/012/014/016 usam “ ” (U+201C/201D). Corrigir só este capítulo deixaria as aspas simples curvas destoando das duplas retas dentro do mesmo texto; a correção correta é um passo mecânico corpus-wide, fora do escopo desta revisão de hot-spots."
+    }
+   ],
+   "justificativa": "Nenhum achado ou divergência de conteúdo neste verso; a única observação é tipográfica (aspas retas), registrada como objecão EDITORIAL para correção futura coordenada em todo o corpus, não aplicada agora para não fragmentar o estilo tipográfico do capítulo.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.8",
+   "texto_bv_revisto": "e os dois se tornarão uma só carne.' Assim, eles já não são dois, mas uma só carne.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.9",
+   "texto_bv_revisto": "Portanto, o que Deus uniu, o homem não separe.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.10",
+   "texto_bv_revisto": "Em casa, os discípulos voltaram a perguntar-lhe sobre isso.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.11",
+   "texto_bv_revisto": "Ele lhes disse: \"Quem se divorciar de sua mulher e se casar com outra, comete adultério contra ela;",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Achado PRO-1 (4 pron. de 3ª pessoa: Ele/lhes/sua/ela). Falso positivo: os referentes são inequívocos pelo contexto imediato (Ele=Jesus, lhes=discípulos, sua/ela=a mulher do homem em questão); as três referências usam densidade pronominal equivalente sem ambiguidade. Nenhuma correção necessária.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.12",
+   "texto_bv_revisto": "e, se ela se divorciar de seu marido e se casar com outro, comete adultério.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.13",
+   "texto_bv_revisto": "Traziam-lhe crianças para que as tocasse, mas os discípulos os repreendiam.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.14",
+   "texto_bv_revisto": "Vendo isso, Jesus se indignou e lhes disse: \"Deixem as crianças virem a mim, não as impeçam; pois o reino de Deus pertence aos que são como elas.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.15",
+   "texto_bv_revisto": "\"Em verdade eu lhes digo: quem não receber o reino de Deus como uma criança, de forma alguma entrará nele.\"",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Em verdade eu lhes digo:",
+     "depois": "\"Em verdade eu lhes digo:",
+     "motivo": "Aspas de discurso direto órfãs (EDITORIAL §5/§6.1): o v.14 fecha uma citação completa (\"...são como elas.\"), mas a fala de Jesus continua ininterrupta no v.15, que já trazia a aspa de fechamento sem a abertura correspondente. Adicionada a aspa de abertura para balancear a pontuação, sem alterar o texto."
+    }
+   ],
+   "objecoes": [],
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Mark.10.16",
+   "texto_bv_revisto": "E, tomando-as nos braços, ele as abençoava, impondo as mãos sobre elas.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.17",
+   "texto_bv_revisto": "Quando ele estava saindo para o caminho, um homem correu e se ajoelhou diante dele, e lhe perguntou: \"Bom Mestre, que farei para herdar a vida eterna?\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.18",
+   "texto_bv_revisto": "Jesus lhe disse: \"Por que você me chama de bom? Ninguém é bom, a não ser um só: Deus.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.19",
+   "texto_bv_revisto": "\"Você conhece os mandamentos: não mate; não adultere; não furte; não dê falso testemunho; não defraude; honre o seu pai e a sua mãe.\"",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Você conhece os mandamentos:",
+     "depois": "\"Você conhece os mandamentos:",
+     "motivo": "Aspas de discurso direto órfãs (EDITORIAL §5/§6.1): o v.18 fecha uma citação completa (\"...Deus.\"), mas a fala de Jesus continua ininterrupta no v.19, que já trazia a aspa de fechamento sem a abertura correspondente. Adicionada a aspa de abertura para balancear a pontuação, sem alterar o texto."
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "não matarás; não adulterarás; não furtarás; não darás falso testemunho; não defraudarás; honra o seu pai e a sua mãe.",
+     "depois": "não mate; não adultere; não furte; não dê falso testemunho; não defraude; honre o seu pai e a sua mãe.",
+     "motivo": "Paradigma de 2ª pessoa misto (§3/D-0003): a citação dos mandamentos usava verbos na conjugação de ‘tu’ (matarás, adulterarás...) ao lado de possessivos já normalizados para ‘você’ (seu pai, sua mãe); o restante do capítulo usa consistentemente você/vocês (discurso de Jesus a humano). Normalizado para o imperativo negativo de você (mate, adultere, furte, dê, defraude, honre), eliminando o paradigma misto sem alterar o sentido do mandamento."
+    }
+   ],
+   "objecoes": [],
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Mark.10.20",
+   "texto_bv_revisto": "Ele lhe disse: \"Mestre, tudo isso eu guardei desde a minha juventude.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.21",
+   "texto_bv_revisto": "Jesus, olhando para ele, o amou e lhe disse: \"Uma coisa lhe falta: vá, venda tudo o que você tem e dê aos pobres, e você terá um tesouro no céu; depois, venha e siga-me.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.22",
+   "texto_bv_revisto": "Ele, porém, entristecido com essa palavra, retirou-se triste, pois tinha muitas propriedades.",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "As três referências usam 'bens'/'riquezas' (ou paráfrase) onde a BV usa 'propriedades'. Mantido: o grego usa aqui κτήματα (posses/propriedades), termo distinto de χρήματα ('riquezas') empregado no v.23 — a BV preserva essa distinção lexical do original entre os dois versículos vizinhos (§1.4), que se perderia se 'propriedades' fosse trocado só para convergir com as referências.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.23",
+   "texto_bv_revisto": "Jesus olhou ao redor e disse aos seus discípulos: \"Como será difícil, para os que têm riquezas, entrar no reino de Deus!\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.24",
+   "texto_bv_revisto": "Os discípulos se espantaram com essas palavras. Mas Jesus, respondendo de novo, lhes disse: \"Filhos, como é difícil entrar no reino de Deus!",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.25",
+   "texto_bv_revisto": "É mais fácil um camelo passar pelo fundo de uma agulha do que um rico entrar no reino de Deus.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.26",
+   "texto_bv_revisto": "Eles ficaram ainda mais espantados e diziam entre si: \"Então, quem pode ser salvo?\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.27",
+   "texto_bv_revisto": "Jesus olhou para eles e disse: \"Para os homens é impossível, mas não para Deus; pois para Deus todas as coisas são possíveis.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.28",
+   "texto_bv_revisto": "Pedro começou a lhe dizer: \"Nós deixamos tudo e o seguimos.\"",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Eis que nós deixamos tudo e o seguimos.",
+     "depois": "Nós deixamos tudo e o seguimos.",
+     "motivo": "Calque paratático do dêitico grego ἰδού ('eis que') soa artificial introduzindo fala direta coloquial de Pedro; normalizado por remoção, preservando a força assertiva pela ordem direta da frase (doutrina do calque, EDITORIAL §6.2; achado CAL-2). NVIPT também omite o deêtico neste versículo."
+    }
+   ],
+   "objecoes": [],
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Mark.10.29",
+   "texto_bv_revisto": "Jesus disse: \"Em verdade eu lhes digo: não há ninguém que tenha deixado casa, ou irmãos, ou irmãs, ou mãe, ou pai, ou filhos, ou terras, por minha causa e por causa do evangelho,",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.30",
+   "texto_bv_revisto": "sem que receba cem vezes mais, agora, neste tempo, casas, irmãos, irmãs, mães, filhos e terras, com perseguições — e, na era vindoura, a vida eterna.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.31",
+   "texto_bv_revisto": "Mas muitos que são primeiros serão últimos, e os últimos serão primeiros.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.32",
+   "texto_bv_revisto": "Eles estavam no caminho, subindo para Jerusalém, e Jesus ia à frente deles; e ficaram espantados, e os que o seguiam tinham medo. E, tomando de novo consigo os doze, ele começou a lhes dizer o que estava para lhe acontecer:",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Achado PRO-1 (6 pron. de 3ª pessoa). Falso positivo: apesar da densidade, cada pronome (deles/o/ele/lhes/lhe) tem antecedente claro pelo contexto narrativo (o grupo de seguidores vs. Jesus); reduzir os pronomes exigiria acrescentar substantivos que o original não repete. Nenhuma correção necessária.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.33",
+   "texto_bv_revisto": "\"Estamos subindo para Jerusalém, e o Filho do Homem será entregue aos principais sacerdotes e aos escribas; eles o condenarão à morte e o entregarão aos gentios,",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "\"Eis que estamos subindo para Jerusalém,",
+     "depois": "\"Estamos subindo para Jerusalém,",
+     "motivo": "Mesmo calque paratático do ἰδού (achado CAL-2), agora no anuncio solene de Jesus; normalizado por consistência com a mesma decisão do v.28 dentro do capítulo (EDITORIAL §1.4/§6.2). NVIPT também omite o deêtico neste versículo."
+    }
+   ],
+   "objecoes": [],
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Mark.10.34",
+   "texto_bv_revisto": "e escarnecerão dele, cuspirão nele, o açoitarão e o matarão; e, depois de três dias, ele ressuscitará.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.35",
+   "texto_bv_revisto": "Tiago e João, os filhos de Zebedeu, aproximaram-se dele e lhe disseram: \"Mestre, queremos que você nos faça o que pedirmos.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.36",
+   "texto_bv_revisto": "Ele lhes disse: \"O que vocês querem que eu lhes faça?\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.37",
+   "texto_bv_revisto": "Eles lhe disseram: \"Conceda-nos que nos sentemos na sua glória, um à sua direita e outro à sua esquerda.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Achado PRO-1 (5 pron. de 3ª pessoa: Eles/lhe/sua×3). Falso positivo: todos os referentes são inequívocos (Eles=Tiago e João; lhe/sua=Jesus), consistente com o padrão das três referências para o mesmo verso. Nenhuma correção necessária.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.38",
+   "texto_bv_revisto": "Jesus lhes disse: \"Vocês não sabem o que estão pedindo. Podem vocês beber o cálice que eu bebo, ou ser batizados com o batismo com que eu sou batizado?\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.39",
+   "texto_bv_revisto": "Eles lhe disseram: \"Podemos.\" Jesus lhes disse: \"O cálice que eu bebo, vocês beberão, e com o batismo com que eu sou batizado, vocês serão batizados;",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.40",
+   "texto_bv_revisto": "mas sentar-se à minha direita ou à minha esquerda não é meu para dar; é para aqueles a quem isso foi preparado.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.41",
+   "texto_bv_revisto": "Ao ouvirem isso, os dez começaram a se indignar contra Tiago e João.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.42",
+   "texto_bv_revisto": "Jesus os chamou e lhes disse: \"Vocês sabem que os que são considerados governantes das nações as dominam, e os grandes delas exercem autoridade sobre elas.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.43",
+   "texto_bv_revisto": "Mas não é assim entre vocês; antes, quem quiser tornar-se grande entre vocês será servo de vocês,",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "Achado RED-1 ('entre vocês' repetido). Fidelidade, não defeito: o grego repete ἐν ὑμῖν duas vezes e ὑμῶν uma terceira, paralelismo intencional de Marcos ('não é assim entre vocês... entre vocês... servo de vocês'); ARA e NVIPT preservam a mesma repetição (só NTLH parafraseia sem repetir). Mantido por fórmula intencional do original (regra 4 do prompt canônico).",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.44",
+   "texto_bv_revisto": "e quem quiser ser o primeiro entre vocês será escravo de todos;",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.45",
+   "texto_bv_revisto": "pois também o Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.46",
+   "texto_bv_revisto": "Chegaram a Jericó. E, quando ele estava saindo de Jericó com os seus discípulos e uma grande multidão, o filho de Timeu, Bartimeu, um mendigo cego, estava sentado à beira do caminho.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.47",
+   "texto_bv_revisto": "Quando ouviu que era Jesus, o Nazareno, ele começou a clamar: \"Filho de Davi, Jesus, tenha misericórdia de mim!\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.48",
+   "texto_bv_revisto": "Muitos o repreendiam para que se calasse, mas ele clamava ainda mais: \"Filho de Davi, tenha misericórdia de mim!\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.49",
+   "texto_bv_revisto": "Jesus parou e disse: \"Chamem-no.\" Eles chamaram o cego, dizendo-lhe: \"Tenha bom ânimo! Levante-se, ele está chamando você.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.50",
+   "texto_bv_revisto": "Ele, jogando fora a sua capa, levantou-se de um salto e foi até Jesus.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.51",
+   "texto_bv_revisto": "Jesus lhe perguntou: \"O que você quer que eu lhe faça?\" O cego lhe disse: \"Raboni, que eu volte a ver.\"",
+   "mudancas": [],
+   "objecoes": [],
+   "justificativa": "As três referências traduzem Ῥαββουνί por 'Mestre', divergindo da transliteração da BV ('Raboni'). Mantido: Raboni é termo raro (só aqui e Jo 20.16), distinto de Ῥαββί ('Rabi'/'Mestre', usado alhures em Marcos); a BV já preserva essa distinção de forma consistente entre texto_bv e traducao_literal. Substituir por 'Mestre' apagaria uma distinção lexical do original — decisão de conteúdo/terminologia fora do escopo desta revisão de forma.",
+   "veredito": "SEM_ALTERACAO"
+  },
+  {
+   "osis": "Mark.10.52",
+   "texto_bv_revisto": "Jesus lhe disse: \"Vá, a sua fé o curou.\" E imediatamente ele voltou a ver e passou a segui-lo pelo caminho.",
+   "mudancas": [],
+   "objecoes": [],
+   "veredito": "SEM_ALTERACAO"
+  }
+ ]
+}
