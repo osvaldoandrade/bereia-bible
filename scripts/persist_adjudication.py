@@ -23,6 +23,11 @@ Guards enforced mechanically, all chapters validated BEFORE any write:
     supplied word never sits in texto_bv unaudited;
   * IMPROCEDE / INCONCLUSIVA must leave texto_bv byte-identical;
   * PROCEDE and IMPROCEDE close the objection; INCONCLUSIVA keeps it open;
+  * `-final` (maintainer's call, 2026-08-30) refuses INCONCLUSIVA outright:
+    every objection must come back decided. A rejected-but-defensible reading
+    declared in `leitura_rejeitada` is appended to `ambiguidades_preservadas`,
+    so forcing a decision narrows the text without erasing the crux from the
+    record;
   * every outcome is logged in `decisoes` with diretriz_ref ER-0020;
   * `fontes` re-pinned for the cycle (ER-0010).
 
@@ -39,7 +44,7 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PROMPTS_VERSAO = "1.3.1"   # + adjudicador-objecoes.md v1.1.0 (ER-0020)
+PROMPTS_VERSAO = "1.4.0"   # + adjudicador-objecoes.md v2.0.0 (ER-0020, modo final)
 VERDICTS = ("PROCEDE", "IMPROCEDE", "INCONCLUSIVA")
 
 
@@ -70,7 +75,7 @@ def apply_mudancas(text, mudancas):
     return text
 
 
-def validate_chapter(out, packet, records):
+def validate_chapter(out, packet, records, final=False):
     """Return list of error strings for one adjudication-out chapter."""
     errors = []
     want = [v["osis"] for v in packet["versos"]]
@@ -97,6 +102,10 @@ def validate_chapter(out, packet, records):
         verdict = str(v.get("veredito", "")).upper()
         if verdict not in VERDICTS:
             errors.append("%s: veredito inválido %r" % (osis, v.get("veredito")))
+            continue
+        if final and verdict == "INCONCLUSIVA":
+            errors.append("%s: modo final não aceita INCONCLUSIVA — a objeção "
+                          "tem de sair decidida" % osis)
             continue
 
         current = rec.get("texto_bv", "")
@@ -166,7 +175,13 @@ def apply_chapter(out, records, modelo):
         evid = (v.get("evidencia_original") or "").strip()
         fund = (v.get("fundamentacao") or "").strip()
         nota = (v.get("nota_textual") or "").strip()
+        rejeitada = (v.get("leitura_rejeitada") or "").strip()
         sufixo = (" Nota textual: " + nota) if nota else ""
+        if rejeitada:
+            ambig = rec.setdefault("ambiguidades_preservadas", [])
+            marcada = "Leitura descartada na adjudicação ER-0020: " + rejeitada
+            if marcada not in ambig:
+                ambig.append(marcada)
 
         if verdict == "PROCEDE":
             rec["texto_bv"] = v["texto_bv_final"]
@@ -185,7 +200,7 @@ def apply_chapter(out, records, modelo):
                                  + " Objeções fechadas: "
                                  + " || ".join(abertas) + sufixo
                                  + " (ER-0020, controles KJV/WEB).",
-                "alternativas_rejeitadas": [],
+                "alternativas_rejeitadas": ([rejeitada] if rejeitada else []),
                 "diretriz_ref": "ER-0020",
             })
             _close_objections(rec)
@@ -199,7 +214,7 @@ def apply_chapter(out, records, modelo):
                                  + " Objeções fechadas: "
                                  + " || ".join(abertas) + sufixo
                                  + " (ER-0020, controles KJV/WEB).",
-                "alternativas_rejeitadas": [],
+                "alternativas_rejeitadas": ([rejeitada] if rejeitada else []),
                 "diretriz_ref": "ER-0020",
             })
             _close_objections(rec)
@@ -212,7 +227,7 @@ def apply_chapter(out, records, modelo):
                                  + (" Evidência do original: " + evid
                                     if evid else "") + sufixo
                                  + " Objeção mantida aberta (ER-0020).",
-                "alternativas_rejeitadas": [],
+                "alternativas_rejeitadas": ([rejeitada] if rejeitada else []),
                 "diretriz_ref": "ER-0020",
             })
             inconclusiva += 1
@@ -230,6 +245,8 @@ def main(argv=None):
     ap.add_argument("out_files", nargs="+")
     ap.add_argument("-modelo", default=os.environ.get("BV_MODEL",
                                                       "claude-fable-5"))
+    ap.add_argument("-final", action="store_true",
+                    help="recusa INCONCLUSIVA: toda objeção sai decidida")
     args = ap.parse_args(argv)
 
     staged = []
@@ -242,7 +259,7 @@ def main(argv=None):
         chap_dir = os.path.join(ROOT, "translation", out["book_dir"],
                                 "%03d" % int(out["chapter"]))
         records, _ = review.load_chapter_records(chap_dir)
-        errors = validate_chapter(out, packet, records)
+        errors = validate_chapter(out, packet, records, final=args.final)
         if errors:
             print("ERROS em %s:" % path)
             for e in errors:

@@ -1,6 +1,6 @@
 # ADR-0005 — Adjudicação de objeções MATERIAIS com a KJV como baseline de sentido
 
-Data: 2026-08-30 · Status: ACEITO · Tier: T3 · Institui: ER-0020
+Data: 2026-08-30 · Status: ACEITO (emendado no mesmo dia, §5) · Tier: T3 · Institui: ER-0020
 
 ## Contexto
 
@@ -62,13 +62,44 @@ partes de Êxodo). O pacote entrega, junto de cada verso de controle, os
 conteúdo antes de usar o controle como evidência. Desalinhamento vira
 `nota_textual`, não vira decisão.
 
-### 5. INCONCLUSIVA é veredito de primeira classe
+### 5. INCONCLUSIVA — e a emenda do modo `final`
 
-Nem toda objeção deve ser fechada por máquina. Quando a evidência não decide,
-quando a escolha é confessionalmente carregada, ou quando os controles estão
-desalinhados, o veredito é INCONCLUSIVA: o texto não muda e **a objeção
-permanece aberta**, seguindo bloqueando APPROVED e aguardando o mantenedor.
-Palpite persistido é pior que objeção aberta.
+Redação original: nem toda objeção deve ser fechada por máquina; quando a
+evidência não decide, o veredito é INCONCLUSIVA, o texto não muda e a objeção
+permanece aberta aguardando o mantenedor.
+
+**Emenda (2026-08-30, decisão do mantenedor):** a primeira rodada devolveu as
+escaladas e o mantenedor determinou que o adjudicador **decida**, sem
+escapatória. Institui-se o modo `final`, em que INCONCLUSIVA é recusada
+mecanicamente (`persist_adjudication.py -final`).
+
+O modo final retira o direito de não decidir; **não** afrouxa a evidência:
+
+- PROCEDE segue exigindo `evidencia_original`. Original que não sustenta a
+  correção resulta em IMPROCEDE, nunca em PROCEDE por desencargo.
+- A barreira ao Textus Receptus continua: KJV divergindo da WEB resolve-se pela
+  base pinada.
+- **Crux decidido é crux documentado.** A leitura defensável que a decisão
+  descarta vai em `leitura_rejeitada` e é persistida em
+  `ambiguidades_preservadas` do registro, além de `alternativas_rejeitadas` na
+  decisão. O texto passa a dizer uma coisa só; o registro continua sabendo que
+  havia duas. Sem isso, forçar decisão apagaria a ambiguidade do original — o
+  oposto do que o programa existe para preservar.
+- Objeção que é trava de governança (tier DRAFT, paradigma de 2ª pessoa) e não
+  reivindicação semântica resulta em IMPROCEDE, declarando que a questão é de
+  processo.
+- Desempate declarado: morfologia pinada > leitura que KJV e WEB sustentam
+  juntas > texto atual da BV (ônus da prova é de quem objeta).
+
+O verso escalado volta ao adjudicador **com o próprio raciocínio da escalada
+anterior no pacote** (`inconclusiva_anterior`): ele decide com mais informação
+do que tinha na primeira passada, não com menos.
+
+Risco assumido e registrado: decisão de crux por agente, sem ratificação humana
+prévia. Mitigação: evidência obrigatória, leitura descartada preservada,
+status permanece DRAFT, commit por lote (`git revert`), e
+`scripts/review_queue.py -secao procede` lista para o mantenedor todo verso cujo
+sentido mudou.
 
 ### 6. Escopo de uso da KJV no manifest
 
@@ -84,8 +115,9 @@ continue dizendo a verdade sobre como a fonte é usada.
   por: evidência do original obrigatória, reconstrução do texto a partir de
   `mudancas` (edição não registrada é recusada), DRAFT-only, e commit por
   capítulo (rollback = `git revert`).
-- O que sobrar como INCONCLUSIVA é o backlog humano real, agora menor e
-  qualificado.
+- Com o modo `final` (§5), nenhuma objeção sobra por indecisão: o backlog
+  humano deixa de existir como fila e passa a ser revisão a posteriori dos
+  vereditos, via `scripts/review_queue.py`.
 - Status permanece **DRAFT** em todos os casos: adjudicar objeção não promove
   verso. A FSM segue intacta.
 
@@ -96,5 +128,7 @@ continue dizendo a verdade sobre como a fonte é usada.
 - **KJV como autoridade textual** — violaria a restrição nº 1 (justificável pelo
   original) e importaria o Textus Receptus por via indireta.
 - **Adjudicação 100% humana** — é o estado atual; 241 objeções não avançaram.
-- **Fechar toda objeção obrigatoriamente** — produziria decisão fabricada nos
-  casos genuinamente indecidíveis. Daí INCONCLUSIVA.
+- **Fechar toda objeção obrigatoriamente** — rejeitada na redação original por
+  produzir decisão fabricada nos casos indecidíveis; **revertida pela emenda do
+  §5**, com a mitigação de que a leitura descartada é preservada em
+  `ambiguidades_preservadas` em vez de sumir.

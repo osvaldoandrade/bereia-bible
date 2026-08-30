@@ -171,6 +171,36 @@ class PersistAdjudicationTests(unittest.TestCase):
             saved = json.load(f)
         self.assertIn("siclos", saved["palavras_supridas"])
 
+    # ---- modo final ---------------------------------------------------
+    def test_final_mode_refuses_inconclusiva(self):
+        osis = "Tst.1.1"
+        recs = self.records(osis, make_record(osis, "a"))
+        out = {"versos": [out_verse(osis, "INCONCLUSIVA", "a", fund="dúvida")]}
+        errs = adj.validate_chapter(out, packet(osis, "a"), recs, final=True)
+        self.assertTrue(any("não aceita INCONCLUSIVA" in e for e in errs))
+        # o mesmo veredito segue válido no modo normal
+        self.assertEqual([], adj.validate_chapter(
+            out, packet(osis, "a"), recs, final=False))
+
+    def test_rejected_reading_is_preserved(self):
+        osis = "Tst.1.1"
+        recs = self.records(osis, make_record(osis, "nas gorduras"))
+        v = out_verse(
+            osis, "PROCEDE", "das gorduras",
+            mudancas=[{"antes": "nas", "depois": "das", "motivo": "partitivo"}],
+            evidencia="min- partitivo em H4924")
+        v["leitura_rejeitada"] = "leitura privativa 'longe das gorduras'"
+        out = {"book_dir": "99-tt", "chapter": 1, "versos": [v]}
+        self.assertEqual([], adj.validate_chapter(
+            out, packet(osis, "nas gorduras"), recs, final=True))
+        adj.apply_chapter(out, recs, "claude-fable-5")
+        with open(recs[osis][0], encoding="utf-8") as f:
+            saved = json.load(f)
+        self.assertTrue(any("privativa" in a for a in
+                            saved["ambiguidades_preservadas"]))
+        self.assertEqual(["leitura privativa 'longe das gorduras'"],
+                         saved["decisoes"][-1]["alternativas_rejeitadas"])
+
     # ---- status / precondition guards ---------------------------------
     def test_non_draft_is_refused(self):
         osis = "Tst.1.1"

@@ -93,6 +93,13 @@ def collect():
                 if not objs:
                     continue
                 osis = fn[:-5]
+                # Rodada anterior escalou este verso? Devolve o raciocínio ao
+                # adjudicador — no modo final ele decide COM a própria hesitação
+                # à vista, o que é estritamente mais informação.
+                escalado = [d.get("justificativa", "")
+                            for d in (rec.get("decisoes") or [])
+                            if d.get("diretriz_ref") == "ER-0020"
+                            and "inconclusiva" in d.get("escolha", "")]
                 verse_nr = int(osis.rsplit(".", 1)[1])
                 versos.append({
                     "osis": osis,
@@ -101,6 +108,7 @@ def collect():
                     "traducao_literal": rec.get("traducao_literal"),
                     "termos_originais": rec.get("termos_originais") or [],
                     "objecoes": objs,
+                    "inconclusiva_anterior": escalado,
                     "controles": {
                         name: control_slice(ctl, book_nr, int(cap), verse_nr)
                         for name, ctl in controls.items()},
