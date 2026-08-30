@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Eph.5.1-33"
   },
-  "texto_bv": "discernindo o que é agradável ao Senhor),",
+  "texto_bv": "discernindo o que é agradável ao Senhor,",
   "traducao_literal": "provando o que é bem agradável ao Senhor) —",
   "termos_originais": [
     {
@@ -42,7 +42,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "discernindo o que é agradável ao Senhor), → discernindo o que é agradável ao Senhor,",
+      "justificativa": "Pontuação (EDITORIAL §6.1): parêntese do inciso \"(pois o fruto da luz...)\" já se fecha no v.9; o \")\" ao final do v.10 ficava órfão (sem abertura correspondente), quebrando a sintaxe de parênteses entre os dois versículos. ARA confirma a mesma estrutura — parêntese fechado só no v.9, e o particípio \"provando/discernindo\" do v.10 seguindo sem parênteses, em continuidade com \"andai como filhos da luz\" do v.8. Remoção do \")\" órfão não altera sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "δοκιμάζοντες, particípio que continua a cadeia de exortações iniciada em περιπατεῖτε (v.8); fecha o parêntese aberto no v.9.",
@@ -52,10 +60,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
