@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Ezek.45.1-25"
   },
-  "texto_bv": "Da terra, ele terá propriedade em Israel. E os meus príncipes não oprimirão mais o meu povo; e a terra darão à casa de Israel, segundo as suas tribos.",
+  "texto_bv": "Da terra, ele terá propriedade em Israel. E os meus príncipes não oprimirão mais o meu povo; e darão a terra à casa de Israel, segundo as suas tribos.",
   "traducao_literal": "Para-a-terra será-para-ele para-propriedade em-Israel; e-não oprimirão mais meus-príncipes o-meu-povo; e-a-terra darão para-casa-de Israel para-suas-tribos.",
   "termos_originais": [
     {
@@ -109,6 +109,13 @@
       "escolha": "manter 'o meu povo', preservando a antecipação da voz divina",
       "justificativa": "TEOLOGIA §2: não suavizar nem harmonizar; o texto já fala na 1ª pessoa de YHWH antes da fórmula introdutória formal do v.9.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e a terra darão à casa de Israel → e darão a terra à casa de Israel",
+      "justificativa": "Objeto anteposto ao verbo ('a terra darão') soa arcaizante em pt-BR contemporâneo; ordem direta natural sem mudança de sentido (EDITORIAL §1; cf. ARA 'distribuirão a terra', NVIPT ordem direta). A ordem do original permanece auditável na traducao_literal. — revisão de forma sem alteração de sentido (ER-0019). RAT-1 mecânico (glosas hifenizadas). Mantida a fronteação inicial 'Da terra', que é gramatical e espelha a ênfase do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,10 +129,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
