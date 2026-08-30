@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Isa.25.1-12"
   },
-  "texto_bv": "Ele estenderá as mãos no meio dele, como o nadador as estende para nadar; e abaterá o seu orgulho, apesar da destreza das suas mãos.",
+  "texto_bv": "Moabe estenderá as mãos no meio dele, como o nadador as estende para nadar; e abaterá o seu orgulho, apesar da destreza das suas mãos.",
   "traducao_literal": "E estenderá as mãos no seu meio, como estende o nadador para nadar; e abaterá o seu orgulho com as ciladas das suas mãos.",
   "termos_originais": [
     {
@@ -83,6 +83,20 @@
           "motivo": "não corresponde ao campo semântico de nenhuma das duas raízes propostas para o hapax"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele estenderá as mãos → Moabe estenderá as mãos",
+      "justificativa": "Referência pronominal ambígua (regra 5): \"Ele\", no início do verso, podia remeter tanto a \"SENHOR\" (sujeito masculino da oração imediatamente anterior, \"a mão do SENHOR repousará\") quanto a \"Moabe\" (agente real da ação de estender as mãos, conforme a traducao_literal). NVIPT explicita o mesmo antecedente (\"Ali Moabe estenderá as mãos\"); antecedente correto explicitado para eliminar a ambiguidade. — revisão de forma sem alteração de sentido (ER-0019). O achado PRO-1 (4 pronomes de 3ª pessoa) procede parcialmente: \"Ele\" era o pronome mais problemático, por poder ser confundido com \"SENHOR\" da oração anterior; corrigido explicitando \"Moabe\", o antecedente real. Os demais pronomes (\"dele\", \"seu\", \"suas\") têm antecedentes recuperáveis do contexto imediato (o monte de esterco de Isa.25.10; o próprio Moabe) e não foram alterados. A ambiguidade de sujeito em \"abaterá\" é anterior ao original — a traducao_literal também a preserva — e sua resolução exigiria acréscimo interpretativo; registrada como objeção EDITORIAL em vez de corrigida.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "O sujeito implícito de \"abaterá o seu orgulho\" permanece ambíguo: pela continuidade sintática pode ler-se como o próprio Moabe abatendo seu orgulho, quando o sentido pretendido — à luz do paralelo em NVIPT — é o SENHOR abatendo o orgulho de Moabe. — evidência: NVIPT torna o sujeito explícito: \"mas o Senhor abaterá o seu orgulho, apesar da habilidade das suas mãos\". A traducao_literal do verso também omite o sujeito (\"abaterá o seu orgulho com as ciladas das suas mãos\"), de modo que explicitar \"o SENHOR\" aqui exigiria acréscimo interpretativo fora do escopo desta revisão de forma — registrado para eventual ratificação futura, não corrigido agora. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -96,10 +110,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
