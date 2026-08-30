@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Ps.107.1-43"
   },
-  "texto_bv": "Então clamaram ao SENHOR na sua angústia, e ele os tirou das suas aflições.",
+  "texto_bv": "Então clamaram ao SENHOR na sua angústia, e ele os livrou das suas aflições.",
   "traducao_literal": "E clamaram ao SENHOR no aperto para eles; e das suas aflições os tirou.",
   "termos_originais": [
     {
@@ -47,7 +47,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e ele os tirou das suas aflições → e ele os livrou das suas aflições",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): mesma correção de Ps.107.13/19 — refrão idêntico no hebraico (v.6,13,19,28), normalizado para 'livrou' (forma da 1ª ocorrência, v.6). NTLH usa 'livrava' e ARA usa 'livra' (mesma raiz) nas quatro ocorrências; só a NVIPT varia como a BV variava (livrou/salvou/salvou/tirou). — revisão de forma sem alteração de sentido (ER-0019). Refrão idêntico no hebraico (v.6,13,19,28); normalizado para 'livrou' por consistência lexical intra-capítulo, apoiado por NTLH/ARA (raiz 'livrar' nas quatro ocorrências).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "Então (retomada da sequência narrativa)"
   ],
@@ -59,10 +67,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
