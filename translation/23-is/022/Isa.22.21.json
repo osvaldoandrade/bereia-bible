@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Isa.22.1-25"
   },
-  "texto_bv": "E vestirei nele a sua túnica, e o cingirei com o seu cinto, e darei o seu domínio nas mãos dele; e ele será como pai para os moradores de Jerusalém e para a casa de Judá.",
+  "texto_bv": "E vestirei nele a túnica de Sebna, e o cingirei com o mesmo cinto, e darei o mesmo domínio nas mãos dele; e ele será como pai para os moradores de Jerusalém e para a casa de Judá.",
   "traducao_literal": "E o vestirei com a tua túnica, e o teu cinto o fortalecerei, e o teu domínio darei na mão dele; e será por pai ao morador de Jerusalém e à casa de Judá.",
   "termos_originais": [
     {
@@ -88,6 +88,13 @@
           "motivo": "Expansão interpretativa além do que o texto lexicalmente exige (TEOLOGIA §2, proibição de importar exegese ao texto)."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a sua túnica, e o cingirei com o seu cinto, e darei o seu domínio → a túnica de Sebna, e o cingirei com o mesmo cinto, e darei o mesmo domínio",
+      "justificativa": "Referência pronominal inequívoca (cheque item 5): ‘sua/seu’ tinha antecedente ambíguo entre Eliaquim (antecedente mais próximo, ‘nele’) e Sebna (real possuidor da túnica/cinto/domínio, conforme a traducao_literal ‘a tua túnica’/‘o teu domínio’, 2ª pessoa endereçada a Sebna). O nome ‘Sebna’ foi explicitado na primeira ocorrência e ‘o mesmo’ usado nas seguintes, eliminando a ambiguidade sem alterar o sentido (a autoridade transferida continua sendo a de Sebna). — revisão de forma sem alteração de sentido (ER-0019). PRO-1 flags 5 pronomes de 3ª pessoa. A ambiguidade de ‘sua/seu’ (Eliaquim vs. Sebna) é real: NTLH (‘o cinto que você usava’, ‘a autoridade que você tinha’) e NVIPT (‘o manto que pertencia a você’, ‘a autoridade que você exercia’) resolvem a mesma ambiguidade acrescentando cláusulas explícitas apontando para Sebna. A BV foi ajustada nomeando ‘Sebna’ explicitamente e usando ‘o mesmo cinto/domínio’ a seguir, reduzindo os pronomes ambíguos sem mudar o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -101,10 +108,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
