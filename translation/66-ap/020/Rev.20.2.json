@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Rev.20.1-15"
   },
-  "texto_bv": "E agarrou o dragão, a antiga serpente, que é o Diabo e Satanás, e o prendeu por mil anos.",
+  "texto_bv": "E agarrou o dragão, a antiga serpente, que é o Diabo e Satanás, e o amarrou por mil anos.",
   "traducao_literal": "E agarrou o dragão, a serpente, a antiga, que é Diabo e o Satanás, e o amarrou mil anos.",
   "termos_originais": [
     {
@@ -155,6 +155,13 @@
           "motivo": "algarismos vedados em texto corrido (EDITORIAL §7)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e o prendeu por mil anos → e o amarrou por mil anos",
+      "justificativa": "Consistência lexical com a própria traducao_literal ('amarrou') e convergência de NTLH/ARA/NVIPT ('amarrou'/'acorrentou'); 'prendeu' é impreciso para a ação de atar com a grande corrente já mencionada no v.1 (regra zero do prompt canônico / EDITORIAL §1.4). Não altera o sentido: ambos descrevem a mesma restrição de Satanás por mil anos. — revisão de forma sem alteração de sentido (ER-0019). As três referências e a traducao_literal convergem em 'amarrou/acorrentou'; a BV publicada havia se afastado sem razão estilística documentada — corrigido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -168,10 +175,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
