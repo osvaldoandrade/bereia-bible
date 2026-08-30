@@ -21,14 +21,16 @@
    "texto_bv_revisto": "Elas se prostituíram no Egito; desde a juventude se prostituíram ali: ali foram apertados os seus seios, e ali foram apalpados os mamilos da sua virgindade.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "Achado PAS-1 (2 passivas) não indica defeito aqui: o agente (os egípcios) só é nomeado no v.8, e a passiva sem agente é a solução natural do português para essa lacuna. ARA ('foram apertados... foram apalpados') e NVIPT ('foram acariciados... foram afagados') também usam construção passiva no mesmo trecho, confirmando que a forma da BV está adequada."
   },
   {
    "osis": "Ezek.23.4",
    "texto_bv_revisto": "Os nomes delas eram Aolá, a mais velha, e Aolibá, sua irmã. Elas se tornaram minhas e geraram filhos e filhas. Os nomes delas eram: Samaria é Aolá, e Jerusalém é Aolibá.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "RED-1 ('nomes delas' 2x) reproduz repetição intencional do original: a traducao_literal repete 'e os nomes delas' duas vezes, marcando primeiro a nomeação pessoal e depois a nomeação simbólica (fórmula preservável, EDITORIAL regra 4); a ARA mantém a mesma repetição ('seus nomes... quanto aos seus nomes'). PRO-1 (4 pronomes de 3ª pessoa) não gera ambiguidade: há só duas mulheres em jogo e os antecedentes são claros."
   },
   {
    "osis": "Ezek.23.5",
@@ -42,21 +44,24 @@
    "texto_bv_revisto": "Homens vestidos de azul, governadores e oficiais, todos jovens desejáveis, cavaleiros montados em cavalos.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "VOS-1 é falso positivo do marcador mecânico: a terminação '-áveis' de 'desejáveis' coincide com o regex do paradigma 'vós' (ex. 'sois', 'fazei'), mas é um adjetivo comum do português contemporâneo — o capítulo não emprega 'vós' em nenhum ponto. Mantido também por consistência lexical com os vv. 12 e 23, que usam o mesmo termo para a mesma expressão hebraica (EDITORIAL §1.4)."
   },
   {
    "osis": "Ezek.23.7",
    "texto_bv_revisto": "Ela entregou as suas prostituições a eles, à fina flor dos assírios, todos eles; e com tudo o que cobiçou, contaminou-se com todos os ídolos deles.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "PRO-1 (5 pronomes de 3ª pessoa) sem ambiguidade real: 'ela' remete sempre a Aolá e 'eles/deles' aos assírios, únicos referentes do verso."
   },
   {
    "osis": "Ezek.23.8",
    "texto_bv_revisto": "Ela não abandonou as suas prostituições do Egito, porque os egípcios se deitaram com ela na sua juventude, manusearam os mamilos da sua virgindade e derramaram sobre ela a prostituição deles.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "PRO-1 (7 pronomes de 3ª pessoa): apesar da densidade, os antecedentes são inequívocos — 'ela/sua' remete a Aolá e 'eles/deles' aos egípcios, sem outros referentes concorrentes no verso."
   },
   {
    "osis": "Ezek.23.9",
@@ -70,28 +75,44 @@
    "texto_bv_revisto": "Eles descobriram a nudez dela; tomaram os filhos e as filhas dela, e a ela mataram à espada. Ela se tornou um nome entre as mulheres, e executaram julgamentos contra ela.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "PRO-1 (6 pronomes) sem ambiguidade: 'eles/deles' referem-se aos assírios e 'ela/dela' a Aolá, únicos referentes. Quanto à divergência de referência ('nome' na BV/literal vs. 'provérbio' em ARA e NVIPT — NTLH parafraseia de forma totalmente diferente, não convergindo com as outras duas): 'nome' preserva literalmente o idiomatismo hebraico (שם), já mantido assim na traducao_literal; trocá-lo por 'provérbio' agregaria uma leitura interpretativa (conotação de 'exemplo/advertência moral') que a BV não afirma explicitamente — mantido por fidelidade ao original, não por descuido de forma."
   },
   {
    "osis": "Ezek.23.11",
-   "texto_bv_revisto": "A irmã dela, Aolibá, viu isso e corrompeu a sua cobiça mais do que ela, e as suas prostituições foram piores do que as prostituições da irmã dela.",
-   "mudancas": [],
+   "texto_bv_revisto": "A irmã dela, Aolibá, viu isso e corrompeu a sua cobiça mais do que ela, e as suas prostituições foram piores do que as prostituições da irmã.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "as prostituições da irmã dela.",
+     "depois": "as prostituições da irmã.",
+     "motivo": "Referência pronominal ambígua (achado PRO-1): dentro da mesma frase, 'dela' já havia remetido a Aolá na abertura ('A irmã dela, Aolibá') e o sujeito passa a ser Aolibá nas orações seguintes; o 'dela' final é redundante (a literal também tem 'da irmã dela', mas a BV pode normalizar calques de possessivo repetido, ER-0013/EDITORIAL regra 5) e sua remoção elimina a leitura ambígua sem alterar o sentido."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Ezek.23.12",
    "texto_bv_revisto": "Ela cobiçou os assírios: governadores e oficiais que lhe eram próximos, vestidos com esplendor, cavaleiros montados em cavalos, todos jovens desejáveis.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "VOS-1 é falso positivo pela mesma razão do v.6 ('-áveis' de 'desejáveis' casa com o regex de 'vós', mas é adjetivo comum). Mantido por consistência lexical com os vv. 6 e 23 (EDITORIAL §1.4)."
   },
   {
    "osis": "Ezek.23.13",
-   "texto_bv_revisto": "Então eu vi que ela se contaminara: as duas seguiam um só caminho.",
-   "mudancas": [],
+   "texto_bv_revisto": "Então eu vi que ela tinha se contaminado: as duas seguiam um só caminho.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "se contaminara",
+     "depois": "tinha se contaminado",
+     "motivo": "Arcaísmo funcionalmente morto (EDITORIAL §1.2): mais-que-perfeito sintético ('contaminara') substituído pelo composto ('tinha se contaminado'). Confirmado pela comparação guiada: a ARA, tradução mais formal, já usa aqui a forma composta ('se tinha contaminado'), e nenhuma das três referências emprega a forma sintética."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Ezek.23.14",
@@ -119,14 +140,16 @@
    "texto_bv_revisto": "Os babilônios vieram a ela para o leito de amores; contaminaram-na com a prostituição deles, e ela se contaminou com eles. Então a alma dela sentiu repulsa deles.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "PRO-1 (6 pronomes) sem ambiguidade: o gênero distingue os referentes com clareza — 'ela/dela' (Aolibá, singular feminino) e 'eles/deles' (babilônios, plural masculino) não se confundem no verso."
   },
   {
    "osis": "Ezek.23.18",
    "texto_bv_revisto": "Ela expôs as suas prostituições e expôs a sua nudez; e a minha alma sentiu repulsa dela, assim como a minha alma tinha sentido repulsa da irmã dela.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "RED-1 ('minha alma' 2x) reproduz repetição formular também presente na traducao_literal ('a minha alma se alienou... assim como se alienara a minha alma') e no paralelismo comparativo com a irmã (v.11) — mantida por fidelidade (EDITORIAL regra 4); a ARA emprega a mesma repetição ('a minha alma se alienou... assim como já se alienara a minha alma'), confirmando que não é defeito. PRO-1 (5 pronomes): único referente feminino no verso é Aolibá, sem ambiguidade."
   },
   {
    "osis": "Ezek.23.19",
@@ -154,41 +177,32 @@
    "texto_bv_revisto": "Portanto, Aolibá, assim diz o Senhor DEUS: \"Eis que eu suscito contra você os seus amantes, aqueles de quem você sentiu repulsa, e os trarei contra você de todos os lados.\"",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "RED-1 ('contra você' 2x) é repetição retórica intencional do oráculo de julgamento, presente também na traducao_literal e replicada pela ARA ('contra ti... de todos os lados') — mantida por fidelidade (EDITORIAL regra 4). CAL-2 ('eis que'): fórmula de autoapresentação divina (הִנְנִי) com dêitico forte marcando a iminência da ação de Deus; a ARA também a mantém aqui ('Eis que eu suscitarei') — preservada conforme EDITORIAL regra 2 (calque mantido quando o original marca o dêitico com força)."
   },
   {
    "osis": "Ezek.23.23",
    "texto_bv_revisto": "os babilônios e todos os caldeus, Pecode, Soa e Coa, e todos os assírios com eles: jovens desejáveis, governadores e oficiais, todos eles, capitães e homens notáveis, cavaleiros montados em cavalos, todos eles.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "VOS-1 é falso positivo pela mesma razão dos vv. 6 e 12 ('-áveis' de 'desejáveis'/'notáveis' casa com o regex de 'vós', mas são adjetivos comuns do português corrente). Mantido por consistência lexical intra-capítulo (EDITORIAL §1.4)."
   },
   {
    "osis": "Ezek.23.24",
    "texto_bv_revisto": "Virão contra você com armamento, carros e rodas de guerra, e com uma multidão de povos; porão contra você, ao redor, escudo grande, escudo pequeno e capacete. Porei diante deles o julgamento, e eles a julgarão segundo os seus próprios juízos.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "RED-1 ('contra você' 2x) é repetição retórica intencional do oráculo de julgamento (mesmo padrão dos vv. 22 e 25) — presente na traducao_literal ('contra você... contra você ao redor') e replicada pela ARA ('contra ti... em redor') — mantida por fidelidade (EDITORIAL regra 4)."
   },
   {
    "osis": "Ezek.23.25",
    "texto_bv_revisto": "Eu voltarei o meu ciúme contra você, e eles agirão contra você com fúria. Cortarão o seu nariz e os seus ouvidos, e o que restar de você cairá à espada. Tomarão os seus filhos e as suas filhas, e o que restar de você será devorado pelo fogo.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "com fúria: cortarão",
-     "depois": "com fúria. Cortarão",
-     "motivo": "divisão de sentença de 49 palavras (§1.3/LEN-1); ponto final no limite sintático marcado pelos dois-pontos do original"
-    },
-    {
-     "tipo": "EDITORIAL",
-     "antes": "à espada; tomarão",
-     "depois": "à espada. Tomarão",
-     "motivo": "divisão de sentença de 49 palavras (§1.3/LEN-1); ponto final no limite sintático marcado pelo ponto-e-vírgula do original"
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "RED-1 ('contra você'; 'restar você', 2x cada) reproduz o refrão formular do oráculo de julgamento (mesmo padrão dos vv. 22 e 24), também presente na traducao_literal ('o remanescente seu... o remanescente seu') e replicado pela ARA ('o que te ficar de resto... o que em ti ficar') — mantido por fidelidade. PRO-1 (5 pronomes): todos os possessivos remetem a 'você' (Aolibá) e 'eles' aos agressores, sem ambiguidade."
   },
   {
    "osis": "Ezek.23.26",
@@ -209,14 +223,16 @@
    "texto_bv_revisto": "Porque assim diz o Senhor DEUS: \"Eis que eu entrego você na mão daqueles que você odiou, na mão daqueles de quem você sentiu repulsa.\"",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "CAL-2 ('eis que'): mesma fórmula de autoapresentação divina (הִנְנִי) do v.22, dêitico forte também mantido pela ARA ('Eis que te entrego') — preservado conforme EDITORIAL regra 2."
   },
   {
    "osis": "Ezek.23.29",
    "texto_bv_revisto": "Eles agirão contra você com ódio: tomarão tudo o que você conquistou com esforço, e a deixarão nua e despida. E será exposta a nudez das suas prostituições, a sua depravação e as suas fornicações.",
    "mudancas": [],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "SEM_ALTERACAO",
+   "justificativa": "PRO-1 (4 pronomes) sem ambiguidade: todos remetem a 'você' (Aolibá) e 'eles' aos agressores. Quanto à tríade 'prostituições / depravação / fornicações': a ARA também emprega três termos distintos no mesmo trecho ('prostituição', 'luxúria', 'devassidões'), o que sugere variação legítima entre formas nominais aparentadas do hebraico, e não mera inconsistência de forma — mantido sem alteração para não presumir uma decisão de sentido fora do escopo editorial (EDITORIAL §1.4-c)."
   },
   {
    "osis": "Ezek.23.30",
@@ -269,10 +285,17 @@
   },
   {
    "osis": "Ezek.23.37",
-   "texto_bv_revisto": "Porque elas adulteraram, e há sangue nas suas mãos: adulteraram com os seus ídolos, e até os filhos que geraram para mim entregaram a eles, para servirem de alimento.",
-   "mudancas": [],
+   "texto_bv_revisto": "Porque elas adulteraram, e há sangue nas suas mãos: adulteraram com os seus ídolos, e até os filhos que geraram para mim entregaram aos ídolos, para servirem de alimento.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "entregaram a eles, para servirem de alimento.",
+     "depois": "entregaram aos ídolos, para servirem de alimento.",
+     "motivo": "Referência pronominal ambígua (achado PRO-1): 'a eles' fica entre dois antecedentes plurais masculinos possíveis ('os filhos', objeto direto imediatamente anterior, e 'seus ídolos', mencionado antes) — explicitar 'aos ídolos' remove a ambiguidade sem alterar o sentido. A NVIPT resolve o mesmo trecho da mesma forma, repetindo 'ídolos' em vez de usar pronome."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Ezek.23.38",
