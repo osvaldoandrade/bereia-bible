@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Amos.7.1-17"
   },
-  "texto_bv": "E aconteceu que, quando os gafanhotos acabaram de comer a vegetação da terra, eu disse: “Senhor DEUS, perdoa, eu peço! Como Jacó vai se levantar? Ele é pequeno.”",
+  "texto_bv": "Quando os gafanhotos acabaram de comer a vegetação da terra, eu disse: “Senhor DEUS, perdoa, eu peço! Como Jacó vai se levantar? Ele é pequeno.”",
   "traducao_literal": "E foi: se acabou de comer a vegetação da terra, e eu disse: “Senhor DEUS, perdoa, peço; quem se levantará, Jacó? Pois pequeno ele é.”",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "escolha": "explicitar 'os gafanhotos' como sujeito",
       "justificativa": "O sujeito retoma גֹּבַי do v.1 (masculino singular coletivo); a oração fica agramatical em português sem sujeito explícito.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu que, quando os gafanhotos acabaram de comer a vegetação da terra, eu disse: → Quando os gafanhotos acabaram de comer a vegetação da terra, eu disse:",
+      "justificativa": "Calque paratático 'e aconteceu que' (CAL-1) normalizado — ao contrário de 'eis que' (que se repete como fórmula em 7.1/7.4/7.7), esta construção é isolada no capítulo, sem função formular. As três referências (NTLH, ARA, NVIPT) descartam a fórmula literal e introduzem a oração diretamente com 'quando'/'depois que'. EDITORIAL §6.2 / ER-0013. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-1 confirmado como calque sem função formular no capítulo; as 3 referências convergem em abandonar a construção literal 'e aconteceu que'. Normalizado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -133,10 +140,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
