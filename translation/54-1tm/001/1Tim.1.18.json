@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "1Tim.1.1-20"
   },
-  "texto_bv": "Esta ordem eu te confio, filho Timóteo, conforme as profecias que precederam a teu respeito, para que, apoiado nelas, combatas o bom combate,",
+  "texto_bv": "Esta ordem eu lhe confio, filho Timóteo, conforme as profecias que precederam a seu respeito, para que, apoiado nelas, combata o bom combate,",
   "traducao_literal": "Esta a ordem confio a ti, filho Timóteo, segundo as precedentes sobre ti profecias, para que milites por elas a boa milícia,",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "escolha": "ordem",
       "justificativa": "Consistência terminológica intracapitular (mesma glosa de v.3 e v.5).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eu te confio → eu lhe confio | a teu respeito → a seu respeito | combatas → combata",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): pronome oblíquo dativo 'te' (tu) → 'lhe' (você), coerente com a normalização do capítulo iniciada no v.3 (item 10 do prompt canônico). | Possessivo de 2ª pessoa (tu) 'teu' → 'seu' (você), paradigma §3/D-0003. | Presente do subjuntivo de 2ª pessoa (tu, 'combatas') normalizado para a forma de você/3ª pessoa ('combata'), paradigma §3/D-0003, item 10. — revisão de forma sem alteração de sentido (ER-0019). Continuação da normalização de paradigma iniciada no v.3: discurso de Paulo a Timóteo é humano↔humano, portanto você/vocês (§3/D-0003), não tu. Aplicada de forma coerente com o restante do capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -140,10 +147,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

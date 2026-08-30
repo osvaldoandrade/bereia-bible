@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "1Tim.1.1-20"
   },
-  "texto_bv": "Como te exortei, ao partir para a Macedônia, a permaneceres em Éfeso, para que ordenasses a alguns que não ensinassem outra doutrina,",
+  "texto_bv": "Como o exortei, ao partir para a Macedônia, a permanecer em Éfeso, para que ordenasse a alguns que não ensinassem outra doutrina,",
   "traducao_literal": "Como roguei a ti permanecer em Éfeso, indo eu para a Macedônia, para que ordenasses a alguns não ensinar diferentemente",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "preservado na traducao_literal; soa artificial no texto publicado"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "te exortei → o exortei | a permaneceres → a permanecer | ordenasses → ordenasse",
+      "justificativa": "Paradigma de 2ª pessoa (§3/D-0003): discurso humano↔humano (Paulo→Timóteo) usa você/vocês, não tu. Pronome oblíquo acusativo 'te' (tu) → 'o' (você/ele). NTLH endereça Timóteo diretamente em 'você' neste mesmo trecho ('Peço que você continue...'). | Infinitivo pessoal de 2ª pessoa do singular (tu, 'permaneceres') normalizado para infinitivo impessoal, compatível com o paradigma você (§3/D-0003). | Pretérito imperfeito do subjuntivo de 2ª pessoa (tu, 'ordenasses') normalizado para a forma de 3ª pessoa usada com você ('ordenasse'), conforme paradigma do capítulo (§3/D-0003, item 10 do prompt canônico). — revisão de forma sem alteração de sentido (ER-0019). O capítulo emprega formas de 'tu' (te exortei, permaneceres, ordenasses; e adiante 'te confio', 'teu', 'combatas' no v.18) para o discurso de Paulo a Timóteo — discurso humano↔humano, ao qual §3/D-0003 prescreve você/vocês, não tu. Normalização coordenada de todo o capítulo (item 10 do prompt canônico), aplicada de forma coerente neste e no v.18. traducao_literal não é alterada (mantém o gloss literal 'a ti').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -121,10 +128,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
