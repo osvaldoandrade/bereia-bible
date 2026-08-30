@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "Hanamel, filho de meu tio, veio a mim ao pátio da guarda, conforme a palavra do SENHOR. Ele me disse: \"Compre, por favor, o meu campo que está em Anatote, na terra de Benjamim, pois seu é o direito de herança, e sua é a resgate; compre-o para si.\" Então percebi que aquilo era a palavra do SENHOR.",
+  "texto_bv": "Hanamel, filho de meu tio, veio a mim ao pátio da guarda, conforme a palavra do SENHOR. Ele me disse: \"Compre, por favor, o meu campo que está em Anatote, na terra de Benjamim, pois seu é o direito de herança, e seu é o resgate; compre-o para si.\" Então percebi que aquilo era a palavra do SENHOR.",
   "traducao_literal": "E veio a mim Hanamel, filho do meu tio, conforme a palavra do SENHOR, ao pátio da guarda, e disse a mim: Compra, por favor, o meu campo que [está] em Anatote, que [está] na terra de Benjamim, pois teu [é] o direito da herança e tua [é] a resgate; compra para ti. E eu soube que a palavra do SENHOR [era] ela.",
   "termos_originais": [
     {
@@ -189,6 +189,13 @@
       "justificativa": "Remoção de waw inicial não-discursivo (ER-0013); divisão de sentença longa (LEN-1, §1.3) e reordenação para fluidez. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e sua é a resgate → e seu é o resgate",
+      "justificativa": "Concordância de gênero: 'resgate' é substantivo masculino em português ('o resgate'); o texto publicado tinha 'sua...a resgate' por arrasto do gênero feminino do hebraico גְּאֻלָּה presente na traducao_literal ('tua [é] a resgate'). Correção puramente gramatical (EDITORIAL §1, AO90), sem alteração de sentido; a traducao_literal não foi tocada (regra dura 3). — revisão de forma sem alteração de sentido (ER-0019). RED-1 ('palavra do SENHOR' ×2): repetição intencional do original — inclusio que abre ('conforme a palavra do SENHOR') e fecha ('percebi que aquilo era a palavra do SENHOR') o versículo, confirmada pela traducao_literal; a ARA reproduz a mesma moldura ('segundo a palavra do Senhor... Então entendi que isto era a palavra do Senhor'). Fidelidade à ênfase retórica do original (regra 4) — mantida sem alteração. Corrigida apenas a concordância de gênero em 'resgate' (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -202,10 +209,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

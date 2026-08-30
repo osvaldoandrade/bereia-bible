@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "Então tomei o documento da compra — o selado, conforme o mandamento e os estatutos, e o aberto —",
+  "texto_bv": "Então tomei o documento da compra — o selado, com os termos e as condições, e o aberto —",
   "traducao_literal": "E tomei o documento da compra, o selado — o mandamento e os estatutos — e o aberto.",
   "termos_originais": [
     {
@@ -73,6 +73,13 @@
           "motivo": "sem referente concreto no texto; a leitura como norma legal do procedimento é sintaticamente mais econômica"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "conforme o mandamento e os estatutos → com os termos e as condições",
+      "justificativa": "Piso de naturalidade (EDITORIAL §1.4/ER-0019 v2): as três referências (NTLH: 'tinha o contrato e as condições'; ARA: 'que continha os termos e as condições'; NVIPT: 'com os termos e condições da compra') convergem em descrever o conteúdo do documento selado como 'termos e condições', enquanto a BV usava 'conforme o mandamento e os estatutos', com a preposição 'conforme' sugerindo erroneamente que a cópia foi feita 'de acordo com' uma lei externa, quando o sentido é que a cópia continha as cláusulas do próprio negócio (cf. traducao_literal, aposição descritiva: 'o selado — o mandamento e os estatutos — e o aberto'). Ajuste de forma para o idiomatismo jurídico consolidado, sem mudança de referente. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -86,10 +93,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
