@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "1Pet.1.1-25"
   },
-  "texto_bv": "A eles foi revelado que não estavam servindo a si mesmos, mas a vocês, nessas coisas que agora lhes foram anunciadas por meio dos que lhes pregaram o evangelho, pelo Espírito Santo enviado do céu — coisas que até os anjos anseiam contemplar de perto.",
+  "texto_bv": "A eles foi revelado que não estavam servindo a si mesmos, mas a vocês, nessas coisas que agora lhes foram anunciadas por meio dos que lhes pregaram o evangelho, pelo Espírito Santo enviado do céu. São coisas que até os anjos anseiam contemplar de perto.",
   "traducao_literal": "aos quais foi revelado que não a si mesmos, mas a vocês, serviam essas coisas, as quais agora foram anunciadas a vocês por meio dos que evangelizaram vocês em Espírito Santo enviado do céu, para as quais desejam os anjos debruçar-se.",
   "termos_originais": [
     {
@@ -169,6 +169,13 @@
       "escolha": "'contemplar de perto' no publicado; 'debruçar-se' preservado na literal (ER-0013)",
       "justificativa": "mesmo verbo de Jo 20:5,11 (debruçar-se sobre o sepulcro vazio); a imagem de curiosidade reverente dos anjos fica auditável na camada literal.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pelo Espírito Santo enviado do céu — coisas que até os anjos anseiam contemplar de perto. → pelo Espírito Santo enviado do céu. São coisas que até os anjos anseiam contemplar de perto.",
+      "justificativa": "LEN-1: sentença de 44 palavras dividida em duas orações no ponto do travessão, sem perda sintática nem adição de sentido (EDITORIAL §1.3); travessão substituído por ponto final com retomada anafórica \"São coisas que\". — revisão de forma sem alteração de sentido (ER-0019). PAS-1 (2 construções passivas: \"foi revelado\", \"foram anunciadas\") mantidas — ambas trazem agente/complemento agente expresso (\"por meio dos que...\") ou são passivo divino próprio do gênero epistolar; converter para ativa exigiria suprir agente (\"Deus\") ausente no grego, o que extrapola forma. ARA e NVIPT preservam construção equivalente. Passiva legítima, não \"desnecessária\" (EDITORIAL regra 6).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -180,10 +187,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
