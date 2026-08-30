@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Acts.10.1-48"
   },
-  "texto_bv": "Ele, fixando os olhos nele e ficando atemorizado, disse: \"O que é, Senhor?\" E ele lhe disse: \"Suas orações e suas esmolas subiram como memorial diante de Deus.\"",
+  "texto_bv": "Ele, fixando os olhos nele e ficando atemorizado, disse: \"O que é, Senhor?\" E o anjo lhe disse: \"Suas orações e suas esmolas subiram como memorial diante de Deus.\"",
   "traducao_literal": "Ele, porém, tendo fixado os olhos nele e tendo se tornado atemorizado, disse: O que é, Senhor? Disse, porém, a ele: As orações tuas e as esmolas tuas subiram para memorial diante de Deus.",
   "termos_originais": [
     {
@@ -158,6 +158,13 @@
           "motivo": "a política do projeto fixa κύριος→Senhor (maiúscula) para o NT sem exceção mecânica; desvio exigiria adjudicação própria"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E ele lhe disse: → E o anjo lhe disse:",
+      "justificativa": "referência pronominal inequívoca — segundo \"ele\" no verso refere-se ao anjo, não a Cornélio; PRO-1 com 5 pronomes de 3ª pessoa; EDITORIAL §1.5 — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 adjudicado: segundo \"ele\" substituído por \"o anjo\" para eliminar ambiguidade referencial, já que o primeiro \"Ele\" no verso é Cornélio e o segundo é o anjo. NTLH explicita \"O anjo respondeu\"; ARA usa \"O anjo respondeu-lhe\". Mudança de forma sem perda de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -171,10 +178,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
