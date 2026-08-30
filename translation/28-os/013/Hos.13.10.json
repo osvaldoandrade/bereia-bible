@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Hos.13.1-15"
   },
-  "texto_bv": "Onde está agora o seu rei, para que ele o salve em todas as suas cidades? E os seus juízes, dos quais você disse: 'Dê-me um rei e príncipes'?",
+  "texto_bv": "Onde está agora o seu rei, para que ele o salve em todas as suas cidades? E os seus juízes, dos quais você disse: “Dê-me um rei e príncipes”?",
   "traducao_literal": "Onde está teu rei, pois, e que ele te salve em todas as tuas cidades? E teus juízes, dos quais disseste: dá-me rei e príncipes.",
   "termos_originais": [
     {
@@ -88,6 +88,13 @@
           "motivo": "conflita com a etiqueta morfológica HTi (partícula, não verbo) da fonte pinada"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "'Dê-me um rei e príncipes'? → “Dê-me um rei e príncipes”?",
+      "justificativa": "Discurso direto introduzido por dois-pontos deve usar aspas duplas curvas, não aspas simples retas (EDITORIAL §5); correção puramente tipográfica, sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (4 pronomes de 3ª pessoa) é falso-positivo mecânico: “seu/sua/suas” concordam com “você” conforme o paradigma D-0003 (você toma possessivos de 3ª pessoa em português), e “ele” refere-se inequivocamente a “o rei”, antecedente imediato. A NVIPT emprega exatamente o mesmo esquema pronominal (“seu rei... salvá-lo... suas cidades... você pediu”), confirmando que a construção é natural e não ambígua.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -103,10 +110,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
