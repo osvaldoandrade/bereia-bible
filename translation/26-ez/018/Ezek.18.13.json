@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Ezek.18.1-32"
   },
-  "texto_bv": "empresta com juros e cobra lucro — e viveria? Não viverá! Praticou todas estas abominações; certamente morrerá; o seu sangue estará sobre ele.",
+  "texto_bv": "empresta com juros e cobra lucro — e viverá? Não viverá! Praticou todas estas abominações; certamente morrerá; o seu sangue estará sobre ele.",
   "traducao_literal": "com juros deu, e lucro tomou; e viverá? Não viverá! Todas estas abominações fez; morrer, morrerá; seu sangue, sobre ele estará.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
           "motivo": "contradiria a negação explícita 'לֹא יִחְיֶה' na sequência imediata."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e viveria? → e viverá?",
+      "justificativa": "Uniformização do tempo verbal da pergunta retórica com a resposta imediata ('Não viverá!') e com o paralelo interno de Ez 18.24 ('viverá ele?'); a traducao_literal traz futuro em ambos os polos ('e viverá? Não viverá!') e a ARA mantém a mesma simetria ('porventura viverá ele? Não viverá!'). Correção gramatical de tempo verbal; sentido inalterado. — revisão de forma sem alteração de sentido (ER-0019). Sem achado da triagem, mas a comparação com o paralelo interno (v.24) e com a ARA revelou quebra da fórmula pergunta-resposta pelo uso do condicional 'viveria' onde o restante do capítulo usa futuro. Corrigido para preservar a fórmula retumbante repetida no capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,10 +126,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
