@@ -180,6 +180,13 @@
           "motivo": "Quebraria artificialmente a frase participial única."
         }
       ]
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Possível divergência lexical de fidelidade entre 'assentados sobre a terra' (BV) e 'habitam sobre/na terra' (ARA/NVIPT) para o mesmo trecho grego. — evidência: ARA: 'aos que habitam sobre a terra'; NVIPT: 'aos que habitam na terra'; NTLH parafraseia como 'povos da terra'. A traducao_literal da BV também registra 'estão assentados', sugerindo que a escolha está ligada ao termo grego de origem (possível particípio de 'sentar-se' em vez do κατοικέω/'habitar' do refrão paralelo em outras passagens do Apocalipse) e não a um lapso estilístico isolado. Recomenda-se checagem de fidelidade ao termo grego em revisão futura. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -191,10 +198,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
