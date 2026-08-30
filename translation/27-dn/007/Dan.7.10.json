@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Dan.7.1-28"
   },
-  "texto_bv": "Um rio de fogo corria e saía de diante dele; mil milhares o serviam, e miríades de miríades estavam diante dele; o tribunal se assentou, e os livros foram abertos.",
+  "texto_bv": "Um rio de fogo corria e saía de diante dele; milhares de milhares o serviam, e miríades de miríades estavam diante dele; o tribunal se assentou, e os livros foram abertos.",
   "traducao_literal": "Rio de fogo fluía e saía de diante dele; mil milhares o serviam, e miríade de miríades diante dele se levantavam; o juízo assentou-se, e livros foram abertos.",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
           "motivo": "soaria como ação pontual em vez de postura de assembleia; preservado apenas na traducao_literal"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mil milhares o serviam → milhares de milhares o serviam",
+      "justificativa": "'Mil milhares' é calque numérico do aramaico; ARA e NVIPT usam 'milhares de milhares', forma idiomática em pt-BR para o mesmo número hiperbólico, paralela a 'miríades de miríades' no mesmo verso. A traducao_literal preserva o calque (ER-0013; EDITORIAL §6.2). — revisão de forma sem alteração de sentido (ER-0019). 'O tribunal se assentou' mantido: consistente com o v. 26 da própria BV (§1.4) e alinhado a NVIPT.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -124,10 +131,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

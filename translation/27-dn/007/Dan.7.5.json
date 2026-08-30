@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Dan.7.1-28"
   },
-  "texto_bv": "E eis outro animal, o segundo, semelhante a um urso; foi posto de pé de um lado, com três costelas na boca, entre os dentes; e assim lhe diziam: \"Levanta-te, devora muita carne!\"",
+  "texto_bv": "E eis outro animal, o segundo, semelhante a um urso; foi posto de pé de um lado, com três costelas na boca, entre os dentes; e assim lhe diziam: \"Levante-se, devore muita carne!\"",
   "traducao_literal": "E eis animal outro, segundo, semelhante a um urso, e para um lado foi posto de pé, e três costelas em sua boca, entre os dentes dela; e assim diziam a ela: Levanta-te, come carne muita.",
   "termos_originais": [
     {
@@ -117,7 +117,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Levanta-te, devora muita carne! → Levante-se, devore muita carne!",
+      "justificativa": "Paradigma de 2ª pessoa (EDITORIAL §3 / D-0003): discurso comum usa você — 'tu' fica reservado à oração dirigida a Deus, o que não é o caso; NVIPT verte 'Levante-se e coma'. É a única fala em 2ª pessoa do capítulo, logo a normalização é coerente no capítulo inteiro (item 10 do prompt canônico). — revisão de forma sem alteração de sentido (ER-0019). 'E eis' mantido: deitico visionário do original, fórmula estrutural do capítulo (ver v. 2). A passiva 'foi posto de pé' é do original e as referências a mantêm.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "וְלִשְׂטַר־חַד הֳקִמַת: 'posto de pé de um lado' pode indicar postura assimétrica (erguido sobre um dos lados/patas) — imagem preservada sem resolver o detalhe postural exato."
@@ -129,10 +137,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
