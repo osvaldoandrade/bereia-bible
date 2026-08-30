@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Ezek.46.1-24"
   },
-  "texto_bv": "Quando o príncipe fizer ao SENHOR uma oferta voluntária — holocausto ou ofertas pacíficas, como oferta voluntária —, abrirá para ele o portão que dá para o oriente; ele fará o seu holocausto e as suas ofertas pacíficas como faz no dia de sábado; depois sairá, e o portão se fechará depois que ele sair.",
+  "texto_bv": "Quando o príncipe fizer ao SENHOR uma oferta voluntária — holocausto ou ofertas pacíficas, como oferta voluntária —, o portão que dá para o oriente será aberto para ele. Ele fará o seu holocausto e as suas ofertas pacíficas como faz no dia de sábado; então sairá, e o portão se fechará depois que ele sair.",
   "traducao_literal": "E quando fizer o príncipe oferta voluntária, holocausto ou ofertas pacíficas, oferta voluntária, ao SENHOR, abrir-se-á para ele o portão que dá para o oriente; e fará o seu holocausto e as suas ofertas pacíficas como faz no dia do sábado; e sairá; e se fechará o portão depois de sair ele.",
   "termos_originais": [
     {
@@ -180,6 +180,13 @@
       "justificativa": "Passiva analítica no lugar de ativa com sujeito elíptico ambíguo — deixa claro que o portão é objeto (não o príncipe quem abre); clareza de referência. — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "abrirá para ele o portão que dá para o oriente; ele fará → o portão que dá para o oriente será aberto para ele. Ele fará | no dia de sábado; depois sairá → no dia de sábado; então sairá",
+      "justificativa": "\"Abrirá para ele o portão\" deixa o sujeito ambíguo (lê-se como se o príncipe abrisse); a literal tem passiva (\"abrir-se-á\") — \"será aberto para ele\" como NTLH/NVIPT, evitando a mesóclise da ARA (§1.2-tabela). O ponto no lugar do ponto e vírgula divide a sentença de 53 palavras (LEN-1/§1.3). | Evitar o eco \"depois … depois que ele sair\" na mesma sentença: o primeiro \"depois\" é conectivo suprido (não está no original); ARA/NVIPT usam \"Então sairá\". — revisão de forma sem alteração de sentido (ER-0019). RED-1 adjudicado: \"oferta voluntária\" 2× e o par holocausto/ofertas pacíficas espelham a repetição formular do hebraico (nedabah 2×) — mantidos (cheque 4; ARA repete igual). PRO-1: referentes claros (o príncipe).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -193,10 +200,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

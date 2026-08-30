@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Ezek.46.1-24"
   },
-  "texto_bv": "Ele me disse: “Este é o lugar onde os sacerdotes cozerão a oferta pela culpa e a oferta pelo pecado, e onde assarão a oferta de cereais, para não terem de levá-las ao átrio exterior e santificar o povo com elas.”",
+  "texto_bv": "Ele me disse: “Este é o lugar onde os sacerdotes cozinharão a oferta pela culpa e a oferta pelo pecado, e onde assarão a oferta de cereais, para não terem de levá-las ao átrio exterior e santificar o povo com elas.”",
   "traducao_literal": "E me disse: Este é o lugar onde cozerão ali os sacerdotes a oferta pela culpa e a oferta pelo pecado; onde assarão a oferta de cereais; para não tirar para o átrio exterior, para santificar o povo.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
           "motivo": "inverteria o sentido da oração final, que é regida por לְבִלְתִּי estendido a ambos os infinitivos (הוֹצִיא e קַדֵּשׁ)"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os sacerdotes cozerão → os sacerdotes cozinharão",
+      "justificativa": "Consistência lexical intra-capítulo (§1.4): o mesmo verbo hebraico (bashal) aparece como \"cozinham\"/\"cozinheiros\" no v.24; NTLH e NVIPT usam \"cozinhar\" nos dois versos. \"Cozinhar\" também evita a homofonia cozer/coser em leitura em voz alta (cheque 7). — revisão de forma sem alteração de sentido (ER-0019). LEN-1 (42 palavras) adjudicado: período de duas relativas coordenadas + oração final dentro de citação; dividir exigiria repetir \"este é o lugar onde\" (adição de texto). A ARA mantém período único equivalente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -156,10 +163,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
