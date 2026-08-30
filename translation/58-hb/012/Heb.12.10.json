@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Heb.12.1-29"
   },
-  "texto_bv": "Pois eles, por poucos dias, nos disciplinavam segundo lhes parecia bem; mas ele nos disciplina para o nosso proveito, a fim de que participemos da sua santidade.",
+  "texto_bv": "Pois eles, por poucos dias, nos disciplinavam segundo lhes parecia bem; mas Deus nos disciplina para o nosso proveito, a fim de que participemos da sua santidade.",
   "traducao_literal": "Pois eles, por poucos dias, segundo o que lhes parecia, disciplinavam; mas ele, para o proveito, para participarmos da sua santidade.",
   "termos_originais": [
     {
@@ -122,7 +122,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas ele nos disciplina → mas Deus nos disciplina",
+      "justificativa": "Achado PRO-1 (4 pronomes de 3ª pessoa): \"eles\"/\"lhes\" (os pais) e \"ele\"/\"sua\" (Deus) alternam no mesmo período sem antecedente nominal explícito para o segundo referente (EDITORIAL regra 5, referência pronominal inequívoca). NTLH e NVIPT explicitam \"Deus\" no lugar do pronome; ARA usa o demonstrativo \"este\" para o mesmo fim. Convergência das três referências confirma a necessidade de desambiguação. O referente já era Deus (implícito por \"Pai dos espíritos\", v.9); a troca não altera o sentido, apenas o explicita. — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 investigado e adjudicado: troca de \"ele\" por \"Deus\" para desambiguar a retomada pronominal, alinhado às três referências (ver motivo em mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [
     "disciplina (verbo elidido na segunda oração do grego, suprido para completar o sentido em português)"
   ],
@@ -134,10 +142,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
