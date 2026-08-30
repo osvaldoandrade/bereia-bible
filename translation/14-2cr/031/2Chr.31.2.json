@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "2Chr.31.1-21"
   },
-  "texto_bv": "Ezequias estabeleceu as divisões dos sacerdotes e dos levitas segundo suas respectivas divisões, cada um conforme seu serviço, tanto sacerdotes como levitas, para os holocaustos e as ofertas de comunhão, para servir, dar graças e louvar nos portões dos acampamentos do SENHOR.",
+  "texto_bv": "Ezequias estabeleceu as divisões dos sacerdotes e dos levitas segundo suas respectivas divisões, cada um conforme seu serviço, tanto sacerdotes como levitas. Isso era para os holocaustos e as ofertas de comunhão, para servir, dar graças e louvar nos portões dos acampamentos do SENHOR.",
   "traducao_literal": "E fez ficar Ezequias as divisões dos sacerdotes e dos levitas sobre suas divisões, cada homem conforme a boca de seu serviço, para os sacerdotes e para os levitas, para holocausto e para ofertas de comunhão, para servir, e para dar graças, e para louvar nos portões dos acampamentos do SENHOR.",
   "termos_originais": [
     {
@@ -135,6 +135,13 @@
       "justificativa": "Sentença com 42 palavras (limiar §1.3: 40). — evidência: LEN-1. Período flui naturalmente em português; divisão artificial prejudicaria a coesão da lista de atribuições. Repetição “tanto sacerdotes como levitas” é fidelidade ao original (RED-1: falso positivo). (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tanto sacerdotes como levitas, para os holocaustos → tanto sacerdotes como levitas. Isso era para os holocaustos",
+      "justificativa": "LEN-1: sentença de 42 palavras dividida em duas orações independentes (EDITORIAL §1.3), trocando a vírgula por ponto e retomando com 'Isso' — sem perda sintática nem adição de sentido. — revisão de forma sem alteração de sentido (ER-0019). LEN-1 corrigido dividindo a sentença de 42 palavras em duas (ver mudancas). RED-1 ('sacerdotes...levitas' repetido) é fórmula do próprio original: a traducao_literal replica a mesma estrutura ('para os sacerdotes e para os levitas') e a ARA mantém a mesma redundância ('tanto os sacerdotes como os levitas'); mantida como fidelidade (EDITORIAL regra 4), não é defeito de forma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -150,10 +157,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "2Chr.31.1-21"
   },
-  "texto_bv": "O registro genealógico incluía todas as suas crianças, suas mulheres, seus filhos e suas filhas, toda a assembleia, pois, em sua fidelidade, eles se consagravam como santos.",
+  "texto_bv": "O registro genealógico incluía todas as suas crianças, suas mulheres, seus filhos e suas filhas, toda a assembleia, pois, em sua fidelidade, os sacerdotes e os levitas se consagravam como santos.",
   "traducao_literal": "E para registrar-se por genealogia com todas as suas crianças, suas mulheres, seus filhos e suas filhas, para toda a assembleia, porque em sua fidelidade santificavam-se como santidade.",
   "termos_originais": [
     {
@@ -83,6 +83,13 @@
           "motivo": "Mudaria o Hitpael reflexivo em ação transitiva e inventaria objeto."
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "em sua fidelidade, eles se consagravam como santos. → em sua fidelidade, os sacerdotes e os levitas se consagravam como santos.",
+      "justificativa": "PRO-1: o pronome 'eles' tinha antecedente ambíguo dentro do próprio período (o substantivo plural mais próximo é 'suas filhas'/'assembleia', não o sujeito real); explicitado o sujeito com base no que já está estabelecido em 2Cr 31:17 ('Os sacerdotes... e os levitas'), sem acrescentar conteúdo novo (EDITORIAL regra 5). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 (6 pronomes de 3ª pessoa) revisado: os cinco possessivos ('suas crianças', 'suas mulheres', 'seus filhos', 'suas filhas', 'sua fidelidade') são inequívocos e foram mantidos; apenas o pronome 'eles', de antecedente ambíguo, foi trocado pelo sujeito explícito 'os sacerdotes e os levitas' (ver mudancas). A decisão é apoiada pelas referências: NTLH e NVIPT também reintroduzem o sujeito explícito ('Os sacerdotes e os levitas') em vez de um pronome nesse ponto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -101,10 +108,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
