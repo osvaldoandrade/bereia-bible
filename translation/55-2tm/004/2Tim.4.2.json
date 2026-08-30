@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "2Tim.4.1-22"
   },
-  "texto_bv": "Prega a palavra, insiste a tempo e fora de tempo, reprova, repreende, exorta, com toda paciência e ensino.",
+  "texto_bv": "Pregue a palavra, insista a tempo e fora de tempo, reprove, repreenda, exorte, com toda paciência e ensino.",
   "traducao_literal": "Prega a palavra, insiste a tempo e fora de tempo, reprova, repreende, exorta, em toda paciência e ensino.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
           "motivo": "apaga a distinção lexical que o grego marca com três verbos diferentes"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Prega a palavra, insiste a tempo e fora de tempo, reprova, repreende, exorta, com toda paciência e ensino. → Pregue a palavra, insista a tempo e fora de tempo, reprove, repreenda, exorte, com toda paciência e ensino.",
+      "justificativa": "Normalização do paradigma de 2ª pessoa (§3/D-0003, item 10): o capítulo é discurso humano-humano (Paulo a Timóteo) e usa consistentemente o imperativo de 'você' nos demais versos (4.5 seja/suporte/faça/cumpra; 4.9 e 4.21 procure; 4.11 e 4.13 traga; 4.15 guarde-se; 4.19 saúde). Este verso estava isolado no paradigma 'tu' (prega/insiste/reprova/repreende/exorta), criando paradigma misto no capítulo. Normalizado para 'você' (pregue/insista/reprove/repreenda/exorte), alinhado também com NTLH e NVIPT, que já usam essa forma neste verso. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -104,10 +111,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
