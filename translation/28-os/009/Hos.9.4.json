@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Hos.9.1-17"
   },
-  "texto_bv": "Não derramarão vinho ao SENHOR, e seus sacrifícios não lhe serão agradáveis; serão para eles como pão de pranteantes: todos os que dele comerem se contaminarão. Pois o pão deles será para o seu próprio sustento; não entrará na casa do SENHOR.",
+  "texto_bv": "Não derramarão vinho ao SENHOR, e seus sacrifícios não lhe serão agradáveis; serão para eles como pão de pranteadores: todos os que dele comerem se contaminarão. Pois o pão deles será para o seu próprio sustento; não entrará na casa do SENHOR.",
   "traducao_literal": "Não derramarão ao SENHOR vinho, e não serão agradáveis a ele os sacrifícios deles; como pão de pranteantes serão para eles, todo o que come dele se contaminará; porque o pão deles para a alma deles, não entrará na casa do SENHOR.",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
           "motivo": "perde a referência técnica ao pão do rito de luto"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pranteantes → pranteadores",
+      "justificativa": "'pranteantes' é forma isolada no corpus (as demais ocorrências do conceito usam 'pranteadores/pranteadoras': Ecl 12.5, Jr 9.16, Jó 29.25); ARA e NVIPT também usam 'pranteadores' neste verso. Normalizado por consistência lexical (EDITORIAL §1.4) e piso de naturalidade, sem alteração de sentido (mesmo referente: os que choram os mortos). — revisão de forma sem alteração de sentido (ER-0019). VOS-1 é falso positivo: 'agradáveis' é adjetivo (sufixo -áveis casado mecanicamente pelo regex), não forma verbal do paradigma vós — o capítulo não usa 'vós' em nenhum ponto. PRO-1 (6 pronomes de 3ª pessoa): todos remetem claramente a 'eles' (o povo) e ao seu 'pão'/'sacrifícios', sem ambiguidade de antecedente; não exige reescrita. Corrigido apenas 'pranteantes'→'pranteadores' (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -152,10 +159,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
