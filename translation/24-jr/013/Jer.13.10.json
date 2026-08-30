@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Jer.13.1-27"
   },
-  "texto_bv": "Este povo mau, que se recusa a ouvir as minhas palavras, que anda na dureza do seu coração e vai atrás de outros deuses para servi-los e adorá-los — este povo se tornará como este cinto, que não serve para nada.",
+  "texto_bv": "Este povo mau, que se recusa a ouvir as minhas palavras, que anda na dureza do seu coração e vai atrás de outros deuses para servi-los e adorá-los, se tornará como este cinto, que não serve para nada.",
   "traducao_literal": "O-povo o-este o-mau, os-que-se-recusam a-ouvir palavras-minhas, os-que-andam na-obstinação-de coração-deles, e-andaram atrás deuses outros para-servi-los e-para-prostrar-se a-eles; e-seja como-o-cinto o-este que não presta para-tudo.",
   "termos_originais": [
     {
@@ -154,6 +154,13 @@
           "motivo": "sinônimo válido, mas rompe a consistência com o restante do livro"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Este povo mau, que se recusa a ouvir as minhas palavras, que anda na dureza do seu coração e vai atrás de outros deuses para servi-los e adorá-los — este povo se tornará como este cinto, que não serve para nada. → Este povo mau, que se recusa a ouvir as minhas palavras, que anda na dureza do seu coração e vai atrás de outros deuses para servi-los e adorá-los, se tornará como este cinto, que não serve para nada.",
+      "justificativa": "Remoção do travessão resumptivo e da repetição “este povo” (RED-1): o literal não repete o sujeito (retoma com o verbo elíptico “seja”), então a repetição da BV era defeito, não fórmula (Cheque item 4). Reduz a sentença de 42 para 38 palavras (LEN-1/§1.3) sem perda sintática nem semântica. — revisão de forma sem alteração de sentido (ER-0019). RAT-1 natural. LEN-1 (42 palavras) e RED-1 (“este povo” repetido) resolvidos juntos: o literal não repete o sujeito (retoma com o verbo elíptico “seja”), então a repetição da BV era defeito, não fórmula (Cheque item 4); a remoção do travessão resumptivo reduz a sentença a 38 palavras sem perda sintática nem semântica (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -165,10 +172,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
