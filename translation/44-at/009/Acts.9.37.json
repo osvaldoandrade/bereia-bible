@@ -7,7 +7,7 @@
     "versiculo": 37,
     "pericope": "Acts.9.1-43"
   },
-  "texto_bv": "Aconteceu que, naqueles dias, ela adoeceu e morreu. Depois de lavá-la, colocaram-na num quarto no andar de cima.",
+  "texto_bv": "Naqueles dias, ela adoeceu e morreu. Depois de lavá-la, colocaram-na num quarto no andar de cima.",
   "traducao_literal": "e aconteceu, naqueles dias, tendo adoecido ela, morrer; e, tendo-a lavado, puseram-na num cenáculo.",
   "termos_originais": [
     {
@@ -82,7 +82,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Aconteceu que, naqueles dias, ela adoeceu e morreu. → Naqueles dias, ela adoeceu e morreu.",
+      "justificativa": "normalização de calque paratático 'aconteceu que' (ἐγένετο δέ) conforme ER-0013/EDITORIAL §6.2 — NTLH e NVIPT também eliminam o calque — revisão de forma sem alteração de sentido (ER-0019). CAL-1: 'Aconteceu que' é calque de ἐγένετο δέ, normalizado no texto publicado conforme ER-0013. NTLH ('Naqueles dias Dorcas ficou doente e morreu') e NVIPT ('Naqueles dias ela ficou doente e morreu') eliminam o calque; ARA o mantém ('aconteceu naqueles dias que'). A BV publicada alinha-se com NTLH/NVIPT, preservando o calque apenas na traducao_literal.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "ὑπερῷον ('cenáculo, aposento superior') vertido 'quarto no andar de cima' para naturalidade contemporânea, mantendo 'cenáculo' disponível como termo técnico na literal.",
@@ -92,10 +100,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "modelo": "qwen3.7-max",
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
