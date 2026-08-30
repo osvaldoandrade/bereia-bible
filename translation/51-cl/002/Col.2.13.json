@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Col.2.1-23"
   },
-  "texto_bv": "E vocês, que estavam mortos em suas transgressões e na incircuncisão da carne de vocês, ele os vivificou com ele, perdoando-nos todas as transgressões,",
+  "texto_bv": "E vocês, que estavam mortos em suas transgressões e na incircuncisão da carne de vocês, Deus os vivificou com ele, perdoando-nos todas as transgressões,",
   "traducao_literal": "E vocês, estando mortos nas transgressões e na incircuncisão da carne de vocês, vivificou juntamente vocês com ele, tendo perdoado a nós todas as transgressões,",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
           "motivo": "apagaria a inclusão retórica de Paulo entre os perdoados"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele os vivificou com ele → Deus os vivificou com ele",
+      "justificativa": "Referência pronominal ambígua (EDITORIAL §1 item 5): o sujeito elíptico 'ele' e o 'com ele' subsequente (=Cristo) geravam dois 'ele' com referentes distintos na mesma oração. O sujeito é Deus, já estabelecido no v.12 ('...operação de Deus, que o ressuscitou dos mortos'); explicitar 'Deus' remove a ambiguidade sem acrescentar conteúdo novo. NTLH e NVIPT também nomeiam 'Deus' explicitamente neste ponto. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -139,10 +146,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
