@@ -283,10 +283,15 @@ Ver `docs/domain/governanca/glossary.md`.
   referências (v2) revela, e essa comparação não existia quando o limiar foi
   fixado. Digests commitados em `qa/reports/review-input/` (entrada exata lida
   por cada agente).
-- Modelo do ciclo v3 é **proveniência**, não configuração: o driver deixou de
-  fixar `MODEL` no código (`args.model`, default sonnet) porque a constante
-  fazia o valor gravado em `fontes` divergir do modelo que de fato executou.
-  Lotes de 2026-08-30 gravam `claude-sonnet-5`.
+- Modelo do ciclo é **proveniência**, não configuração. Verificado nos journals
+  de agente: os lotes de 2026-08-29 rodaram de fato em `qwen3.7-max` e os de
+  2026-08-30 em `claude-sonnet-5` — os dois valores gravados em `fontes` estão
+  corretos e **não devem ser reescritos**; o registro diz qual modelo produziu
+  aquele texto, não qual modelo o programa usa hoje.
+  O driver deixou de fixar `MODEL` no código (`args.model`, default sonnet) não
+  porque o valor estivesse errado, mas porque proveniência hardcoded diverge em
+  silêncio assim que o alias de modelos muda — foi o que ocorreu quando qwen
+  saiu do alias (2026-08-30). Parametrizado, o valor acompanha a execução real.
 - Execução v3 (parcial): 867/1189 capítulos com revisão (72,9%) em 2026-08-30;
   322 pendentes a partir de Pv 13. Os lotes de 2026-08-30 (Sl 67 → Pv 12, 80
   capítulos, 80 agentes, 0 erros) somaram 72 versos revisados e 12 objeções
