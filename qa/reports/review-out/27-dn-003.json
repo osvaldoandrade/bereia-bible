@@ -4,30 +4,51 @@
  "versos": [
   {
    "osis": "Dan.3.1",
-   "texto_bv_revisto": "O rei Nabucodonosor fez uma estátua de ouro, de sessenta côvados de altura e seis côvados de largura, e a erigiu na planície de Dura, na província da Babilônia.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Dan.3.2",
-   "texto_bv_revisto": "O rei Nabucodonosor mandou reunir os sátrapas, os prefeitos, os governadores, os conselheiros, os tesoureiros, os juízes, os magistrados e todas as autoridades da província, para virem à dedicação da estátua que o rei Nabucodonosor tinha erigido.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Dan.3.3",
-   "texto_bv_revisto": "Então se reuniram os sátrapas, os prefeitos, os governadores, os conselheiros, os tesoureiros, os juízes, os magistrados e todas as autoridades da província para a dedicação da estátua que o rei Nabucodonosor tinha erigido. Eles ficaram de pé diante da estátua que Nabucodonosor tinha erigido.",
+   "texto_bv_revisto": "O rei Nabucodonosor fez uma estátua de ouro, de sessenta côvados de altura e seis côvados de largura, e a levantou na planície de Dura, na província da Babilônia.",
    "mudancas": [
     {
      "tipo": "EDITORIAL",
-     "antes": "tinha erigido, e ficaram de pé",
-     "depois": "tinha erigido. Eles ficaram de pé",
-     "motivo": "divisão de período longo (LEN-1, 45 palavras) em duas frases independentes; RED-1 é falso-positivo — o original repete a referência à estátua (fidelidade, §4 do prompt); PAS-1 é falso-positivo — não há passivas nas orações"
+     "antes": "e a erigiu na planície",
+     "depois": "e a levantou na planície",
+     "motivo": "Consistência lexical intra-capítulo (EDITORIAL §1.4): o mesmo verbo aramaico (haqem) é vertido \"levantar\" em 3.5,7,12,14,18 e na traducao_literal; \"erigir\" em 3.1-3 é variação sem razão estilística. ARA usa \"levantou-a\"; NVIPT \"ergueu\"."
     }
    ],
    "objecoes": [],
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Dan.3.2",
+   "texto_bv_revisto": "O rei Nabucodonosor mandou reunir os sátrapas, os prefeitos, os governadores, os conselheiros, os tesoureiros, os juízes, os magistrados e todas as autoridades da província, para virem à dedicação da estátua que o rei Nabucodonosor tinha levantado.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "tinha erigido",
+     "depois": "tinha levantado",
+     "motivo": "Consistência lexical intra-capítulo (EDITORIAL §1.4): normalização para o lexema majoritário \"levantar\" (3.5,7,12,14,18 e traducao_literal), mesmo verbo aramaico de 3.1."
+    }
+   ],
+   "objecoes": [],
+   "veredito": "REVISADO"
+  },
+  {
+   "osis": "Dan.3.3",
+   "texto_bv_revisto": "Então se reuniram os sátrapas, os prefeitos, os governadores, os conselheiros, os tesoureiros, os juízes, os magistrados e todas as autoridades da província para a dedicação da estátua que o rei Nabucodonosor tinha levantado. Eles ficaram de pé diante da estátua que Nabucodonosor tinha levantado.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "que o rei Nabucodonosor tinha erigido. Eles",
+     "depois": "que o rei Nabucodonosor tinha levantado. Eles",
+     "motivo": "Consistência lexical intra-capítulo (EDITORIAL §1.4): normalização erigir→levantar, alinhando com 3.5,7,12,14,18 e com a traducao_literal."
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "diante da estátua que Nabucodonosor tinha erigido.",
+     "depois": "diante da estátua que Nabucodonosor tinha levantado.",
+     "motivo": "Consistência lexical intra-capítulo (EDITORIAL §1.4): segunda ocorrência do mesmo verbo no verso, normalizada junto para não criar variação interna."
+    }
+   ],
+   "objecoes": [],
+   "justificativa": "RED-1: a repetição \"estátua que Nabucodonosor tinha levantado\" (2x) é do original — a traducao_literal a repete nas duas orações; repetir o que o original repete é fidelidade, e ARA/NVIPT que a condensam fazem escolha própria. PAS-1 é falso positivo: \"se reuniram\" e \"ficaram de pé\" não são passivas. Única correção aplicada: consistência lexical erigir→levantado.",
    "veredito": "REVISADO"
   },
   {
@@ -35,6 +56,7 @@
    "texto_bv_revisto": "E o arauto clamava em alta voz: \"A vocês se ordena, ó povos, nações e línguas,",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "As referências usam perfectivo (\"clamou\", \"proclamou\"), mas a BV segue o particípio durativo da traducao_literal (\"clamava\"); mudar o aspecto alteraria nuance do original. \"vocês\" em vez do \"vós\" da ARA segue §3/D-0003. \"arauto\" coincide com NVIPT.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -42,6 +64,7 @@
    "texto_bv_revisto": "no momento em que ouvirem o som da trombeta, da flauta, da cítara, da harpa, do saltério, da gaita de foles e de toda espécie de música, vocês deverão prostrar-se e adorar a estátua de ouro que o rei Nabucodonosor levantou.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "LEN-1 (42 palavras): o comprimento deriva da lista formular de instrumentos do original, repetida em 3.5,7,10,15 — fórmula intencional mantida (regra dura 2). A estrutura subordinada temporal + principal não admite divisão sem perda sintática; ARA e NVIPT também vertem em período único.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -56,6 +79,7 @@
    "texto_bv_revisto": "Por isso, assim que todos os povos ouviram o som da trombeta, da flauta, da cítara, da harpa e do saltério e de toda espécie de música, todos os povos, nações e línguas se prostraram e adoraram a estátua de ouro que o rei Nabucodonosor tinha levantado.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "LEN-1 (47 palavras): o comprimento vem da lista formular de instrumentos e da repetição \"todos os povos\" — ambas do original (a traducao_literal as tem); ARA verte igualmente em um único período de extensão comparável. Dividir exigiria reestruturar a subordinada \"assim que\", com perda sintática.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -63,20 +87,29 @@
    "texto_bv_revisto": "Por isso, naquele mesmo momento, alguns homens caldeus se aproximaram e denunciaram maliciosamente os judeus.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "As referências vertem apenas \"acusaram/denunciaram\", mas \"maliciosamente\" traduz a força do idioma aramaico da literal (\"comeram os pedaços deles\" = caluniar); removê-lo para alinhar às referências seria mudança de sentido, não de forma.",
    "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Dan.3.9",
-   "texto_bv_revisto": "Eles responderam e disseram ao rei Nabucodonosor: \"Ó rei, viva para sempre!\"",
-   "mudancas": [],
+   "texto_bv_revisto": "Eles disseram ao rei Nabucodonosor: \"Ó rei, viva para sempre!\"",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Eles responderam e disseram ao rei Nabucodonosor:",
+     "depois": "Eles disseram ao rei Nabucodonosor:",
+     "motivo": "Calque paratático aramaico (anah + amar) sem fala anterior a responder — artificial em pt-BR (§6.2/ER-0013; a literal preserva o par). A própria BV já o normaliza em 3.13,19,24,26; NTLH/ARA/NVIPT vertem apenas \"disseram/dizendo\"."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Dan.3.10",
    "texto_bv_revisto": "\"Você, ó rei, decretou que toda pessoa que ouvisse o som da trombeta, da flauta, da cítara, da harpa, do saltério, da gaita de foles e de toda espécie de música se prostrasse e adorasse a estátua de ouro.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "ARA/NVIPT usam \"tu\" e NTLH \"o senhor\", mas a BV usa \"você\" conforme §3/D-0003 (discurso humano→humano); divergência de paradigma é decisão vinculante, não defeito. Lista de instrumentos é fórmula do original mantida.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -91,6 +124,7 @@
    "texto_bv_revisto": "Há homens judeus a quem você designou sobre os negócios da província da Babilônia: Sadraque, Mesaque e Abede-Nego. Esses homens, ó rei, não têm dado atenção a você: não servem aos seus deuses nem adoram a estátua de ouro que você levantou.\"",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "Divergência com as referências é só de paradigma de tratamento (tu/o senhor vs você) — a BV segue §3/D-0003. Estrutura e léxico coincidem com ARA (\"negócios da província\", \"levantaste\"). Texto natural; sem arcaísmo.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -102,24 +136,39 @@
   },
   {
    "osis": "Dan.3.14",
-   "texto_bv_revisto": "Nabucodonosor respondeu e disse a eles: \"É verdade, Sadraque, Mesaque e Abede-Nego, que vocês não servem aos meus deuses nem adoram a estátua de ouro que eu levantei?",
-   "mudancas": [],
+   "texto_bv_revisto": "Nabucodonosor disse a eles: \"É verdade, Sadraque, Mesaque e Abede-Nego, que vocês não servem aos meus deuses nem adoram a estátua de ouro que eu levantei?",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Nabucodonosor respondeu e disse a eles:",
+     "depois": "Nabucodonosor disse a eles:",
+     "motivo": "Calque paratático aramaico (anah + amar): o rei inicia a fala, não responde — o par soa artificial em pt-BR (§6.2/ER-0013; literal preserva). BV já normaliza o mesmo par em 3.13,19,24,26; NTLH \"lhes disse\", NVIPT \"lhes disse\"."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Dan.3.15",
    "texto_bv_revisto": "Agora, se vocês estiverem prontos para, no momento em que ouvirem o som da trombeta, da flauta, da cítara, da harpa, do saltério, da gaita de foles e de toda espécie de música, se prostrarem e adorarem a estátua que eu fiz, está bem. Mas, se não adorarem, vocês serão imediatamente lançados dentro de uma fornalha de fogo ardente; e que deus há que possa livrá-los da minha mão?\"",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "LEN-1 (44 palavras): o período condicional carrega a lista formular de instrumentos do original (4ª ocorrência: 3.5,7,10,15) — fórmula intencional mantida. O verso já está dividido em três períodos; a primeira condicional não admite divisão adicional sem quebrar a prótase/apódose. ARA verte igualmente em período único mais longo.",
    "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Dan.3.16",
-   "texto_bv_revisto": "Sadraque, Mesaque e Abede-Nego responderam e disseram ao rei Nabucodonosor: \"Não precisamos responder a você sobre este assunto.",
-   "mudancas": [],
+   "texto_bv_revisto": "Sadraque, Mesaque e Abede-Nego responderam ao rei Nabucodonosor: \"Não precisamos responder a você sobre este assunto.",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "responderam e disseram ao rei Nabucodonosor:",
+     "depois": "responderam ao rei Nabucodonosor:",
+     "motivo": "Calque paratático aramaico (anah + amar): aqui há resposta real, então \"responderam\" fica e o \"e disseram\" redundante cai (§6.2/ER-0013; literal preserva o par). NVIPT: \"responderam ao rei\"; BV já normaliza o par em 3.13,19,24,26."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Dan.3.17",
@@ -130,10 +179,17 @@
   },
   {
    "osis": "Dan.3.18",
-   "texto_bv_revisto": "Mas, se ele não nos livrar, saiba, ó rei, que não serviremos aos seus deuses nem adoraremos a estátua de ouro que o senhor levantou.\"",
-   "mudancas": [],
+   "texto_bv_revisto": "Mas, se ele não nos livrar, saiba, ó rei, que não serviremos aos seus deuses nem adoraremos a estátua de ouro que você levantou.\"",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "a estátua de ouro que o senhor levantou.",
+     "depois": "a estátua de ouro que você levantou.",
+     "motivo": "Coerência do paradigma de 2ª pessoa (§3/D-0003, item 10 do prompt): o mesmo discurso dos três jovens ao rei usa \"você/seus/sua\" em 3.12,16,17; \"o senhor\" isolado em 3.18 cria paradigma misto, pior que qualquer dos dois puros."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Dan.3.19",
@@ -161,6 +217,7 @@
    "texto_bv_revisto": "Por isso, porque a ordem do rei era urgente e a fornalha estava extremamente quente, a chama do fogo matou os homens que levaram Sadraque, Mesaque e Abede-Nego até a fornalha.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "As três referências reestruturam a causal de formas distintas entre si (\"tão urgente... que\"); a BV segue a estrutura causal da literal (\"Por isso, porque...\"), gramatical e legível em voz alta — divergência de estilo, não defeito de forma.",
    "veredito": "SEM_ALTERACAO"
   },
   {
@@ -175,69 +232,66 @@
    "texto_bv_revisto": "Então o rei Nabucodonosor ficou espantado e se levantou depressa. Ele perguntou aos seus nobres: \"Não lançamos três homens amarrados dentro do fogo?\" Eles responderam ao rei: \"Certamente, ó rei.\"",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "As referências usam \"conselheiros\" onde a BV usa \"nobres\", seguindo a traducao_literal; trocar o lexema seria decisão semântica sobre o cargo aramaico, não correção de forma. Os pares \"respondeu e disse\" já vêm normalizados neste verso.",
    "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Dan.3.25",
-   "texto_bv_revisto": "Ele respondeu e disse: \"Vejam! Eu vejo quatro homens soltos, andando livres dentro do fogo, e não há nenhum dano neles; e a aparência do quarto é semelhante a um filho dos deuses.\"",
-   "mudancas": [],
+   "texto_bv_revisto": "Ele respondeu: \"Vejam! Eu vejo quatro homens soltos, andando dentro do fogo, e não há nenhum dano neles; e a aparência do quarto é semelhante a um filho dos deuses.\"",
+   "mudancas": [
+    {
+     "tipo": "EDITORIAL",
+     "antes": "Ele respondeu e disse:",
+     "depois": "Ele respondeu:",
+     "motivo": "Calque paratático aramaico (anah + amar): há resposta real aos nobres, então \"respondeu\" fica e o \"e disse\" redundante cai (§6.2/ER-0013; literal preserva o par). ARA: \"Disse ele\"; BV já normaliza o par em 3.13,19,24,26."
+    },
+    {
+     "tipo": "EDITORIAL",
+     "antes": "andando livres dentro do fogo",
+     "depois": "andando dentro do fogo",
+     "motivo": "Redundância que o original não tem: \"livres\" duplica \"soltos\" e não corresponde a nada na traducao_literal (\"soltos, andando no meio do fogo\"). Repetir o que o original não repete é defeito (checklist 4); nenhuma referência traz o par duplicado."
+    }
+   ],
    "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
+   "veredito": "REVISADO"
   },
   {
    "osis": "Dan.3.26",
    "texto_bv_revisto": "Então Nabucodonosor se aproximou da porta da fornalha de fogo ardente e disse: \"Sadraque, Mesaque e Abede-Nego, servos do Deus Altíssimo, saiam e venham!\" Então Sadraque, Mesaque e Abede-Nego saíram do meio do fogo.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "RED-1 falso positivo: a repetição dos três nomes (no vocativo e na narração da saída) é do original — a traducao_literal os repete nas duas frases, e ARA/NVIPT também repetem. Repetir o que o original repete é fidelidade (regra dura 2).",
    "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Dan.3.27",
    "texto_bv_revisto": "Os sátrapas, os prefeitos, os governadores e os nobres do rei se reuniram e viram que o fogo não tinha tido nenhum poder sobre os corpos desses homens. O cabelo da cabeça deles não se queimou, as suas capas não se alteraram, e nem sequer cheiro de fogo havia neles.",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "desses homens: o cabelo",
-     "depois": "desses homens. O cabelo",
-     "motivo": "divisão de período longo (LEN-1, 50 palavras); dois-pontos convertido em ponto-final para separar a constatação geral da enumeração de detalhes"
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Dan.3.28",
-   "texto_bv_revisto": "Nabucodonosor respondeu e disse: \"Bendito seja o Deus de Sadraque, Mesaque e Abede-Nego, que enviou o seu anjo e livrou os seus servos que confiaram nele. Eles desobedeceram à ordem do rei e entregaram os seus corpos, para não servirem nem adorarem nenhum outro deus além do seu próprio Deus.",
+   "texto_bv_revisto": "Nabucodonosor disse: \"Bendito seja o Deus de Sadraque, Mesaque e Abede-Nego, que enviou o seu anjo e livrou os seus servos que confiaram nele. Eles desobedeceram à ordem do rei e entregaram os seus corpos, para não servirem nem adorarem nenhum outro deus além do seu próprio Deus.",
    "mudancas": [
     {
      "tipo": "EDITORIAL",
-     "antes": "nele, e que desobedeceram",
-     "depois": "nele. Eles desobedeceram",
-     "motivo": "divisão de período longo (LEN-1, 52 palavras); relativa coordenada convertida em oração independente com sujeito explícito, preservando o sentido; PRO-1 é falso-positivo — antecedentes inequívocos (Deus, servos)"
-    },
-    {
-     "tipo": "EDITORIAL",
-     "antes": "desobedeceram a ordem",
-     "depois": "desobedeceram à ordem",
-     "motivo": "crase obrigatória: desobedecer (regência a) + a ordem (artigo feminino) = à ordem (AO90, §1.1)"
+     "antes": "Nabucodonosor respondeu e disse:",
+     "depois": "Nabucodonosor disse:",
+     "motivo": "Calque paratático aramaico (anah + amar) sem fala anterior a responder — exclamação inicial do rei (§6.2/ER-0013; literal preserva o par). NVIPT: \"Disse então Nabucodonosor\"; BV já normaliza o par em 3.13,19,24,26."
     }
    ],
    "objecoes": [],
+   "justificativa": "PRO-1 falso positivo: os possessivos têm antecedentes inequívocos (\"seu anjo\"/\"seus servos\" → Deus; \"Eles\"/\"seus corpos\"/\"seu próprio Deus\" → os três servos); a densidade pronominal reflete a do original. Única correção aplicada: normalização do calque \"respondeu e disse\".",
    "veredito": "REVISADO"
   },
   {
    "osis": "Dan.3.29",
    "texto_bv_revisto": "Por mim, portanto, é decretado que todo povo, nação e língua que disser algo indevido contra o Deus de Sadraque, Mesaque e Abede-Nego seja despedaçado, e a sua casa se torne um montão de escombros. Porque não há nenhum outro deus que possa livrar dessa maneira.\"",
-   "mudancas": [
-    {
-     "tipo": "EDITORIAL",
-     "antes": "escombros; porque",
-     "depois": "escombros. Porque",
-     "motivo": "divisão de período longo (LEN-1, 47 palavras); ponto-final em lugar de ponto e vírgula para separar o decreto da sua justificação; PAS-1 é falso-positivo — passivas são naturais na fórmula de decreto (é decretado, seja despedaçado)"
-    }
-   ],
+   "mudancas": [],
    "objecoes": [],
-   "veredito": "REVISADO"
+   "justificativa": "PAS-1: as passivas (\"é decretado\", \"seja despedaçado\") reproduzem a fórmula oficial de decreto do original (literal: \"por mim é posto decreto\") e são as mesmas de ARA (\"é feito um decreto... seja despedaçado\") e NVIPT (\"seja despedaçado\"); a ativa mudaria o registro do edito real. Mantidas.",
+   "veredito": "SEM_ALTERACAO"
   },
   {
    "osis": "Dan.3.30",
@@ -265,6 +319,7 @@
    "texto_bv_revisto": "Quão grandes são os seus sinais! E quão poderosas são as suas maravilhas! O seu reino é um reino eterno, e o seu domínio permanece de geração em geração.",
    "mudancas": [],
    "objecoes": [],
+   "justificativa": "PRO-1 falso positivo: os quatro possessivos retomam \"o Deus Altíssimo\" (3.32) em paralelismo poético que espelha exatamente a traducao_literal; referência inequívoca e fórmula do original mantida (regra dura 2). Sem referências paralelas para este verso (versificação aramaica).",
    "veredito": "SEM_ALTERACAO"
   }
  ]

@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Dan.3.1-33"
   },
-  "texto_bv": "Nabucodonosor respondeu e disse: \"Bendito seja o Deus de Sadraque, Mesaque e Abede-Nego, que enviou o seu anjo e livrou os seus servos que confiaram nele. Eles desobedeceram à ordem do rei e entregaram os seus corpos, para não servirem nem adorarem nenhum outro deus além do seu próprio Deus.",
+  "texto_bv": "Nabucodonosor disse: \"Bendito seja o Deus de Sadraque, Mesaque e Abede-Nego, que enviou o seu anjo e livrou os seus servos que confiaram nele. Eles desobedeceram à ordem do rei e entregaram os seus corpos, para não servirem nem adorarem nenhum outro deus além do seu próprio Deus.",
   "traducao_literal": "Respondeu Nabucodonosor e disse: bendito o Deus deles, de Sadraque, Mesaque e Abede-Nego, que enviou o seu mensageiro e livrou os seus servos que confiaram nele; e a palavra do rei mudaram, e entregaram os seus corpos, para que não servissem e não se prostrassem a nenhum deus, senão ao Deus deles.",
   "termos_originais": [
     {
@@ -197,6 +197,13 @@
       "justificativa": "divisão de período longo (LEN-1, 52 palavras); relativa coordenada convertida em oração independente com sujeito explícito, preservando o sentido; PRO-1 é falso-positivo — antecedentes inequívocos (Deus, servos) | crase obrigatória: desobedecer (regência a) + a ordem (artigo feminino) = à ordem (AO90, §1.1) — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Nabucodonosor respondeu e disse: → Nabucodonosor disse:",
+      "justificativa": "Calque paratático aramaico (anah + amar) sem fala anterior a responder — exclamação inicial do rei (§6.2/ER-0013; literal preserva o par). NVIPT: \"Disse então Nabucodonosor\"; BV já normaliza o par em 3.13,19,24,26. — revisão de forma sem alteração de sentido (ER-0019). PRO-1 falso positivo: os possessivos têm antecedentes inequívocos (\"seu anjo\"/\"seus servos\" → Deus; \"Eles\"/\"seus corpos\"/\"seu próprio Deus\" → os três servos); a densidade pronominal reflete a do original. Única correção aplicada: normalização do calque \"respondeu e disse\".",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -210,10 +217,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
