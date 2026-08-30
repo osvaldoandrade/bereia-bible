@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Rev.5.1-14"
   },
-  "texto_bv": "E um dos anciãos me disse: “Não chores; eis que venceu o Leão da tribo de Judá, a Raiz de Davi, para abrir o livro e os seus sete selos.”",
+  "texto_bv": "E um dos anciãos me disse: “Não chore; eis que venceu o Leão da tribo de Judá, a Raiz de Davi, para abrir o livro e os seus sete selos.”",
   "traducao_literal": "E um dentre os anciãos diz a mim: Não chores; eis venceu o Leão, o da tribo de Judá, a Raiz de Davi, abrir o livro e os sete selos dele.",
   "termos_originais": [
     {
@@ -179,6 +179,13 @@
           "motivo": "apagaria o estatuto de título cristológico que a capitalização da fonte já sinaliza"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não chores → Não chore",
+      "justificativa": "Paradigma de 2ª pessoa (EDITORIAL §3/D-0003): discurso humano↔humano (ancião falando a João) usa você/vocês; a forma 'tu' (chores) é reservada a oração/salmo dirigido a Deus. Ajuste do imperativo negativo para 'você', alinhado a NTLH/NVIPT. — revisão de forma sem alteração de sentido (ER-0019). Achado CAL-2 ('eis que') adjudicado como dêitico intencional, não calque artificial: introduz a revelação solene do ancião ('olhe, venceu o Leão...'), preservado também por ARA e NVIPT ('Eis que o Leão...'); NTLH modernizou para 'Olhe!' mantendo a mesma força retórica, sem eliminar o dêitico. Mantido conforme item 4/EDITORIAL §6.2 (marca o dêitico com força). Separadamente, corrigido 'chores'→'chore' por violar o paradigma de 2ª pessoa (§3/D-0003) em discurso humano↔humano.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -192,10 +199,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
