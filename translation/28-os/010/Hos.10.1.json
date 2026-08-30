@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Hos.10.1-15"
   },
-  "texto_bv": "Israel é uma videira viçosa, que produz fruto para si mesmo. Quanto mais abundante o seu fruto, mais altares ele multiplicou; quanto melhor a sua terra, mais colunas sagradas eles aperfeiçoaram.",
+  "texto_bv": "Israel é uma videira viçosa, que produz fruto para si mesmo. Quanto mais abundante o seu fruto, mais altares multiplicou; quanto melhor a sua terra, mais colunas sagradas aperfeiçoaram.",
   "traducao_literal": "Videira viçosa [é] Israel, fruto ele produz para si; conforme a abundância do seu fruto, multiplicou os altares; conforme o bem da sua terra, aperfeiçoaram colunas.",
   "termos_originais": [
     {
@@ -110,6 +110,13 @@
       "escolha": "normalizado para S-V no publicado ('Israel é...')",
       "justificativa": "Doutrina do calque ER-0013: a ordem original (predicado-sujeito) é preservada na literal; o publicado normaliza para naturalidade.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mais altares ele multiplicou → mais altares multiplicou | mais colunas sagradas eles aperfeiçoaram → mais colunas sagradas aperfeiçoaram",
+      "justificativa": "Pronome de 3ª pessoa redundante (achado PRO-1): o antecedente 'Israel' já está estabelecido e o verbo mantém a pessoa/número por conjugação (sujeito nulo), como fazem ARA e NVIPT, que não usam pronome explícito nesta cláusula (EDITORIAL §1.1/naturalidade). | Mesma razão: pronome 'eles' redundante (achado PRO-1); a mudança de número do verbo (singular 'multiplicou' > plural 'aperfeiçoaram') already comunica a alternância do original sem precisar de pronomes explícitos, alinhando com ARA ('multiplicou os altares... fizeram belas colunas'). — revisão de forma sem alteração de sentido (ER-0019). Achado PRO-1 sinalizava 4 pronomes de 3ª pessoa; dois deles ('ele', 'eles') eram redundantes e foram removidos, harmonizando a cláusula com o padrão sem-pronome já usado na primeira oração do verso ('que produz fruto para si mesmo') e com ARA/NVIPT, que tampouco explicitam pronome nessas cláusulas. A alternância singular/plural do verbo (multiplicou/aperfeiçoaram), fiel ao hebraico, foi preservada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -126,10 +133,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Hos.10.1-15"
   },
-  "texto_bv": "Levantar-se-á um tumulto entre o seu povo, e todas as suas fortalezas serão devastadas, como a devastação de Salmã contra Bete-Arbel, no dia da batalha, quando a mãe foi despedaçada com os filhos.",
+  "texto_bv": "Um tumulto se levantará entre o seu povo, e todas as suas fortalezas serão devastadas, como a devastação de Salmã contra Bete-Arbel, no dia da batalha, quando a mãe foi despedaçada com os filhos.",
   "traducao_literal": "E levantar-se-á tumulto entre o teu povo, e todas as tuas fortalezas serão devastadas, como a devastação de Salmã [contra] Bete-Arbel, no dia de guerra; mãe sobre filhos foi despedaçada.",
   "termos_originais": [
     {
@@ -109,6 +109,13 @@
       "escolha": "'a mãe foi despedaçada com os filhos'",
       "justificativa": "Preservação da dureza da imagem sem suavização (TEOLOGIA §2, proibição de suavizar dificuldades do original).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Levantar-se-á um tumulto entre o seu povo → Um tumulto se levantará entre o seu povo",
+      "justificativa": "Mesóclise ('levantar-se-á') soa artificial em pt-BR contemporâneo (EDITORIAL §1.2-tabela); reordenado para próclise natural, antepondo o sujeito ('um tumulto se levantará'), seguindo o padrão de ARA ('entre o teu povo se levantará tumulto') e NVIPT ('o fragor da batalha se levantará'), que também evitam a mesóclise. — revisão de forma sem alteração de sentido (ER-0019). Achado PAS-1 (2 construções passivas: 'serão devastadas', 'foi despedaçada') reflete a voz passiva do próprio hebraico (formas nifal/pual, sem agente expresso), fielmente preservada também por ARA e NVIPT ('serão destruídas'/'foi despedaçada'/'foram... estraçalhadas'); manter a voz passiva é fidelidade ao original, não defeito de forma — nenhuma mudança foi aplicada a essas passivas. A única correção feita foi a mesóclise inicial, tratada em 'mudancas'.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,10 +129,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
