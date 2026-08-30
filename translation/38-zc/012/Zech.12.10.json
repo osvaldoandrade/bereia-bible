@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Zech.12.1-14"
   },
-  "texto_bv": "E derramarei sobre a casa de Davi e sobre os habitantes de Jerusalém um espírito de graça e de súplicas; e olharão para mim, a quem traspassaram; e pranteá-lo-ão como quem chora por um filho único, e chorarão amargamente por ele como quem chora amargamente por um primogênito.",
+  "texto_bv": "E derramarei sobre a casa de Davi e sobre os habitantes de Jerusalém um espírito de graça e de súplicas; e olharão para mim, a quem traspassaram. E pranteá-lo-ão como quem chora por um filho único, e chorarão amargamente por ele como quem chora amargamente por um primogênito.",
   "traducao_literal": "E derramarei sobre a casa de Davi e sobre o habitante de Jerusalém espírito de graça e de súplicas; e olharão para mim, a quem traspassaram; e prantearão sobre ele como pranto sobre o único; e amargurar-se-ão sobre ele como amargurar sobre o primogênito.",
   "termos_originais": [
     {
@@ -170,6 +170,13 @@
           "motivo": "'chorarão amargamente' comunica melhor a imagem em português natural, mantendo 'amargurar-se-ão' na traducao_literal"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "traspassaram; e pranteá-lo-ão → traspassaram. E pranteá-lo-ão",
+      "justificativa": "Sentença de 50 palavras (LEN-1, EDITORIAL §1.3) dividida em duas orações independentes; ponto e vírgula substituído por ponto final e maiúscula entre a segunda e a terceira oração coordenada, sem alterar sintaxe nem sentido. — revisão de forma sem alteração de sentido (ER-0019). Achados LEN-1 (50 palavras, corrigido acima) e RED-1 ('quem chora'). RED-1 mantido: a dupla comparação ('como quem chora por um filho único... como quem chora amargamente por um primogênito') reproduz o paralelismo sinonímico do hebraico (סָפְדוּ/וְהָמֵר sobre יָחִיד/בְּכוֹר); NTLH, ARA e NVIPT preservam a mesma estrutura duplicada 'como quem chora/lamenta', confirmando fórmula intencional, não redundância.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -185,10 +192,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
