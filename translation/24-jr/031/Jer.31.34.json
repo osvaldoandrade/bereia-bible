@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Jer.31.1-40"
   },
-  "texto_bv": "“E não ensinarão mais cada um ao seu próximo, e cada um ao seu irmão, dizendo: ‘Conheçam o SENHOR’; porque todos eles me conhecerão, do menor deles até o maior” — oráculo do SENHOR. “Porque eu perdoarei a iniquidade deles, e do pecado deles não mais me lembrarei.”",
+  "texto_bv": "“E não ensinarão mais cada um ao seu próximo, e cada um ao seu irmão, dizendo: ‘Conheçam o SENHOR’; porque todos eles me conhecerão, do menor deles até o maior” — oráculo do SENHOR. “Pois eu perdoarei a iniquidade deles, e do pecado deles não mais me lembrarei.”",
   "traducao_literal": "E não ensinarão mais, cada um ao seu próximo e cada um ao seu irmão, dizendo: conhecei o SENHOR; porque todos eles me conhecerão, desde o pequeno deles até o grande deles, oráculo de SENHOR; porque perdoarei a iniquidade deles, e do pecado deles não me lembrarei mais.",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
       "justificativa": "LEN-1: sentença com 47 palavras dividida em duas (§1.3); ponto final no lugar do segundo travessão do parêntese oracular, separando a cláusula causal final em sentença própria — revisão de forma sem alteração de sentido (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Porque eu perdoarei a iniquidade deles → Pois eu perdoarei a iniquidade deles",
+      "justificativa": "Pontuação/sintaxe (EDITORIAL §6.1): sentença nova iniciada por “Porque” logo após ponto final (RED-1) soa como calque; “Pois” é a opção normativa em pt-BR para retomar a causalidade em nova sentença, como faz a ARA na mesma articulação. Sentido causal preservado integralmente. — revisão de forma sem alteração de sentido (ER-0019). RED-1: a sequência “oráculo do SENHOR. Porque eu perdoarei” inicia nova sentença com a conjunção causal “Porque” sem oração antecedente na mesma frase — desvio de sintaxe normativa (EDITORIAL §6.1); a ARA evita o mesmo problema usando “pois” na articulação equivalente. Corrigido “Porque”→“Pois” no início da sentença; troca lexical mínima que preserva integralmente o sentido causal. PRO-1: os 6 pronomes de 3ª pessoa (“seu” 2x, “eles”, “deles” 3x) têm antecedente único e claro (“cada um”/“a casa de Israel e de Judá” do v.33) e espelham os sufixos pronominais repetidos do hebraico — mantidos sem alteração.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -175,10 +182,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
