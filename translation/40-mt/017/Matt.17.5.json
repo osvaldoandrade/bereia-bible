@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Matt.17.1-27"
   },
-  "texto_bv": "Enquanto ele ainda falava, eis que uma nuvem luminosa os cobriu com a sua sombra e, eis que, uma voz vinda da nuvem disse: “Este é o meu Filho amado, em quem me agrado. Ouçam-no.”",
+  "texto_bv": "Enquanto ele ainda falava, eis que uma nuvem luminosa os cobriu com a sua sombra, e eis que uma voz vinda da nuvem disse: “Este é o meu Filho amado, em quem me agrado. Ouçam-no.”",
   "traducao_literal": "Ainda ele falando, eis que uma nuvem luminosa os cobriu com sua sombra, e eis que uma voz da nuvem, dizendo: Este é o meu Filho amado, em quem me agradei; ouvi a ele.",
   "termos_originais": [
     {
@@ -159,6 +159,13 @@
       "escolha": "'ouçam-no' no publicado",
       "justificativa": "imperativo dirigido aos discípulos, registro você/vocês; literal preserva 'ouvi a ele'",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sombra e, eis que, uma voz → sombra, e eis que uma voz",
+      "justificativa": "Pontuação artificial isolava a segunda ocorrência de 'eis que' entre vírgulas sem função sintática; corrigido para 'e eis que + oração', com vírgula apenas na fronteira das duas orações coordenadas (EDITORIAL §6.1). — revisão de forma sem alteração de sentido (ER-0019). O grego repete ἰδού duas vezes (nuvem e voz) — paralelismo intencional do original, preservado na traducao_literal; ARA mantém a primeira ocorrência, NTLH/NVIPT omitem ambas por fluência. Mantidas as duas ocorrências de 'eis que' por fidelidade à duplicação formular (regra 4 do prompt canônico); corrigida apenas a pontuação, sem alterar léxico ou sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -170,10 +177,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Matt.17.1-27"
   },
-  "texto_bv": "Ele respondeu: “Sim.” E, quando ele chegou em casa, Jesus se adiantou e perguntou: “O que você acha, Simão? De quem os reis da terra cobram taxas ou tributo: dos seus próprios filhos, ou dos estranhos?”",
+  "texto_bv": "Ele respondeu: “Sim.” E, quando Pedro chegou em casa, Jesus se adiantou e perguntou: “O que você acha, Simão? De quem os reis da terra cobram taxas ou tributo: dos seus próprios filhos, ou dos estranhos?”",
   "traducao_literal": "Diz: Sim. E tendo entrado na casa, antecipou-se a ele Jesus, dizendo: Que te parece, Simão? os reis da terra de quem recebem taxas ou tributo? dos filhos deles ou dos estranhos?",
   "termos_originais": [
     {
@@ -199,6 +199,13 @@
       "escolha": "'o que você acha' (ER-0003)",
       "justificativa": "discurso humano-humano; literal preserva 'que te parece'",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "quando ele chegou em casa → quando Pedro chegou em casa",
+      "justificativa": "NTLH, ARA e NVIPT nomeiam 'Pedro' explicitamente neste ponto para evitar a leitura momentânea de 'ele' como referindo-se a Jesus (mencionado logo em seguida como sujeito de 'se adiantou'); explicitado o referente (regra 5). — revisão de forma sem alteração de sentido (ER-0019). As três referências nomeiam 'Pedro' explicitamente na cláusula 'quando... chegou em casa', evitando que o leitor hesite entre Pedro e Jesus (sujeito da oração seguinte). O primeiro 'Ele respondeu: Sim' foi mantido, pois o antecedente é inequívoco pelo contexto imediato (pergunta feita a Pedro no verso anterior) e apenas NTLH o explicita ali.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -210,10 +217,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

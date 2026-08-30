@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Matt.17.1-27"
   },
-  "texto_bv": "E Jesus repreendeu-o, e o demônio saiu dele, e o menino ficou curado desde aquela hora.",
+  "texto_bv": "E Jesus repreendeu o demônio, e ele saiu do menino, e este ficou curado desde aquela hora.",
   "traducao_literal": "E repreendeu-o Jesus, e saiu dele o demônio, e foi curado o menino desde aquela hora.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
           "motivo": "resolveria a ambiguidade sintática do original antes da hora, antecipando informação que o texto grego só dá na oração seguinte"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "repreendeu-o, e o demônio saiu dele, → repreendeu o demônio, e ele saiu do menino, | e o menino ficou curado desde aquela hora. → e este ficou curado desde aquela hora.",
+      "justificativa": "O clítico 'repreendeu-o' era ambíguo entre o demônio e o menino; NTLH, ARA e NVIPT convergem em explicitar 'o demônio' como quem foi repreendido. Explicitado o referente e ajustada a cadeia pronominal seguinte. | Evita repetir 'o menino' duas vezes em cláusulas adjacentes logo após a explicitação de 'o demônio'; 'este' retoma 'o menino' sem ambiguidade (regra 5). — revisão de forma sem alteração de sentido (ER-0019). NTLH, ARA e NVIPT convergem em nomear 'o demônio' como objeto da repreensão — a BV usava o clítico ambíguo 'repreendeu-o'. Ajustado para explicitar o referente e resolver a cadeia pronominal ('ele'/'este'), sem alterar os fatos narrados (repreensão do demônio, saída do menino, cura do menino).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -131,10 +138,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
