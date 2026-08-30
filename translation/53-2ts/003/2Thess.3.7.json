@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "2Thess.3.1-18"
   },
-  "texto_bv": "Pois vocês mesmos sabem como devem nos imitar, porque não agimos de modo desordenado entre vocês,",
+  "texto_bv": "Pois vocês mesmos sabem como devem nos imitar, porque não agimos desordenadamente entre vocês,",
   "traducao_literal": "pois vocês mesmos sabem como é necessário imitar-nos, que não agimos desordenadamente entre vocês,",
   "termos_originais": [
     {
@@ -72,7 +72,15 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "não agimos de modo desordenado entre vocês → não agimos desordenadamente entre vocês",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): o mesmo termo grego (ἀτάκτως) é vertido 'desordenadamente' em 3.6 ('anda desordenadamente') e 3.11 ('vivem desordenadamente'); só 3.7 usava a perífrase 'de modo desordenado', sem razão estilística (não é paralelismo nem ênfase). Normalizado para o lexema majoritário do capítulo, que já constava na traducao_literal deste verso ('não agimos desordenadamente entre vocês,') e converge com ARA ('não nos portamos desordenadamente entre vós'). — revisão de forma sem alteração de sentido (ER-0019). Mudança de forma pura (perífrase adjetival → advérbio), sem alteração de sentido; alinha 3.7 aos demais usos do mesmo termo no capítulo e à traducao_literal já registrada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    }
+  ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [],
   "justificativa": "ἀτακτέω (verbo da mesma raiz de ἀτάκτως) mantido com a mesma glosa-base 'desordenado' para consistência terminológica no capítulo.",
@@ -82,10 +90,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
