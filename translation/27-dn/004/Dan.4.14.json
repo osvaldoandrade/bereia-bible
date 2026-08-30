@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Dan.4.1-34"
   },
-  "texto_bv": "Esta é a sentença por decreto dos vigilantes, e esta é a decisão pela ordem dos santos, a fim de que os viventes saibam que o Altíssimo domina sobre o reino dos homens, e o dá a quem quiser, e sobre ele estabelece o mais humilde dos homens.",
+  "texto_bv": "Esta é a sentença por decreto dos vigilantes, e esta é a decisão pela ordem dos santos, a fim de que os viventes saibam que o Altíssimo domina sobre o reino dos homens. Ele o dá a quem quiser, e sobre ele estabelece o mais humilde dos homens.",
   "traducao_literal": "Por decreto dos vigilantes, a sentença; e por ordem dos santos, a decisão; até o propósito de que saibam os viventes que domina o Altíssimo no reino dos homens, e a quem quiser o dá, e o mais humilde dos homens levanta sobre ele.",
   "termos_originais": [
     {
@@ -145,6 +145,13 @@
       "justificativa": "Sentença de 48 palavras (LEN-1), acima do limite de 40 (§1.3). — evidência: O paralelismo intencional aramáico «Esta é a sentença... e esta é a decisão...» não pode ser quebrado sem perda da fórmula; a oração final «a fim de que...» é cláusula de propósito dependente — separá-la com ponto produziria fragmento agramatical no registro formal-neutro. Mantido íntegro; eventual redução exigiria reescrita que compromete o paralelismo. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "domina sobre o reino dos homens, e o dá a quem quiser, e sobre ele estabelece o mais humilde dos homens. → domina sobre o reino dos homens. Ele o dá a quem quiser, e sobre ele estabelece o mais humilde dos homens.",
+      "justificativa": "EDITORIAL §1.3: sentença de 48 palavras (LEN-1) dividida em duas no mesmo ponto em que a NTLH alinhada divide ('...domina todos os reinos do mundo. Ele dá esses reinos a quem quer...'); apenas o sujeito 'Ele' é explicitado pelo português, sem adição de sentido. — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -158,10 +165,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-fable-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
