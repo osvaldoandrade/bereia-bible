@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "2Pet.1.1-21"
   },
-  "texto_bv": "Pois ele recebeu de Deus Pai honra e glória, quando lhe foi dirigida, pela Glória Majestosa, uma voz como esta: \"Este é o meu Filho amado, em quem me agradei\" —",
+  "texto_bv": "Pois ele recebeu de Deus Pai honra e glória, quando lhe foi dirigida, pela Glória Majestosa, uma voz como esta: “Este é o meu Filho amado, em quem me agradei” —",
   "traducao_literal": "Pois, tendo recebido da parte de Deus Pai honra e glória, tal voz lhe tendo sido trazida pela magnificente glória: \"O Filho meu, o amado meu, este é, em quem eu me agradei\" —",
   "termos_originais": [
     {
@@ -174,6 +174,20 @@
           "motivo": "gramaticalmente possível, mas menos natural como sujeito de ἐνεχθείσης; a leitura predominante trata a expressão como designação do próprio Deus"
         }
       ]
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"Este é o meu Filho amado, em quem me agradei\" → “Este é o meu Filho amado, em quem me agradei”",
+      "justificativa": "Discurso direto deve usar aspas duplas curvas (EDITORIAL §5); o versículo trazia aspas retas escapadas, inconsistente com o restante do corpus do NT (ex.: 1Pe 1.16 usa “…”). Correção tipográfica pura, sem alteração de palavras. — revisão de forma sem alteração de sentido (ER-0019). Divergência de tempo verbal: as três referências usam presente (“me comprazo”/“me agrado”/parafraseado), a BV usa pretérito (“me agradei”) coerente com o aoristo grego e com a própria traducao_literal. Mantido por fidelidade gramatical; inconsistência cross-livro registrada em objecão EDITORIAL para revisão futura dedicada. A única mudança aplicada aqui foi tipográfica (aspas retas → curvas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Inconsistência de tempo verbal na fórmula citada da voz do Pai (“em quem me agrado/agradei”) entre livros do corpus BV, ao lado de divergência das três referências. — evidência: Mt 3.17 e Mt 17.5 (BV) usam presente (“me agrado”); Lc 3.22 e este versículo (2Pe 1.17) usam pretérito (“me agradei”) para a mesma fórmula grega (eudókēsa, aoristo). NTLH, ARA e NVIPT usam presente nas três referências deste versículo. A forma da BV aqui ('me agradei') é gramaticalmente fiel ao aoristo e coincide com a traducao_literal; recomenda-se harmonização inter-livros em revisão dedicada, fora do escopo deste capítulo. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -187,10 +201,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
