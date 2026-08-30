@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Isa.32.1-20"
   },
-  "texto_bv": "Pois o tolo fala tolice, e seu coração pratica maldade, para agir com impiedade e falar contra o SENHOR o que é errado, para deixar vazia a alma do faminto e fazer faltar a bebida do sedento.",
+  "texto_bv": "Pois o tolo fala tolice, e seu coração pratica maldade, para agir com impiedade e falar o que é errado contra o SENHOR, para deixar vazia a alma do faminto e fazer faltar a bebida do sedento.",
   "traducao_literal": "Porque o tolo fala tolice, e seu coração faz iniquidade, para fazer impiedade e para falar contra o SENHOR erro, para esvaziar a alma do faminto; e a bebida do sedento fará faltar.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "escolha": "SENHOR",
       "justificativa": "Aplicação direta de NOMES-DIVINOS.md v1.0.0 (ER-0002): YHWH → SENHOR.",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "falar contra o SENHOR o que é errado → falar o que é errado contra o SENHOR",
+      "justificativa": "Reordenação sintática (verbo-objeto-complemento) para leitura mais natural em pt-BR; ARA (“proferir mentiras contra o Senhor”) e NVIPT (“espalha mentiras sobre o Senhor”) convergem nessa ordem objeto+complemento. Sentido idêntico ao original; EDITORIAL §1 (fluência, leitura confortável). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -135,10 +142,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
