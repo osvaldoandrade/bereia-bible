@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Gen.16.1-16"
   },
-  "texto_bv": "E o Anjo do SENHOR lhe disse: “Eis que você está grávida e dará à luz um filho e chamará o seu nome Ismael, porque o SENHOR ouviu a sua aflição.”",
+  "texto_bv": "E o Anjo do SENHOR lhe disse: “Eis que você está grávida e dará à luz um filho e o chamará de Ismael, porque o SENHOR ouviu a sua aflição.",
   "traducao_literal": "E disse-lhe o Anjo do SENHOR: “Eis-te concebendo, e darás à luz um filho, e chamarás o seu nome Ismael, porque ouviu o SENHOR à tua aflição.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e chamará o seu nome Ismael → e o chamará de Ismael | ouviu a sua aflição.” → ouviu a sua aflição.",
+      "justificativa": "duplo acusativo de קָרָא שֵׁם calcado (“chamar o nome dele Ismael” não é regência do português contemporâneo); a nomeação segue o padrão “chamar X de Y” já fixado em ER-0012; sentido idêntico, com a forma hebraica preservada na traducao_literal | a fala do Anjo continua em 16.12, que já traz a aspa de fechamento; fechar aqui deixava 16.12 com aspa órfã — a convenção da BV mantém a citação aberta em fala plurivers (cf. Gn 17.1–2 na janela) — revisão de forma sem alteração de sentido (ER-0019). O calque de nomeação vira o padrão contemporâneo sem perda (a literal guarda “chamarás o seu nome Ismael”), e a aspa de fechamento migra logicamente para 16.12, onde a fala do Anjo de fato termina. O jogo etimológico Ismael ↔ “o SENHOR ouviu” (יִשְׁמָעֵאל / שָׁמַע) permanece visível. Sentido confere com a KJV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -135,11 +142,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

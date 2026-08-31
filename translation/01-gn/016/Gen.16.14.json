@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Gen.16.1-16"
   },
-  "texto_bv": "Por isso se chamou aquele poço Beer-Laai-Roi; ele está entre Cades e Berede.",
+  "texto_bv": "Por isso aquele poço se chamou Beer-Laai-Roi; ele está entre Cades e Berede.",
   "traducao_literal": "Por isso chamou-se ao poço Beer-Laai-Roi; eis entre Cades e Berede.",
   "termos_originais": [
     {
@@ -104,6 +104,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Por isso se chamou aquele poço Beer-Laai-Roi → Por isso aquele poço se chamou Beer-Laai-Roi",
+      "justificativa": "ordem V-S calcada do hebraico (קָרָא לַבְּאֵר); a ordem S-V uniforme do publicado (ER-0011) desfaz o tropeço de leitura e o sujeito anteposto prepara a retomada “ele” na oração seguinte — revisão de forma sem alteração de sentido (ER-0019). Reordenação S-V da oração com se apassivador, sem tocar o sentido; a coesão com “ele está entre Cades e Berede” melhora, pois o pronome retoma o sujeito recém-estabelecido. O הִנֵּה final já fora vertido como afirmação simples (“ele está”) — decisão anterior mantida, com o marcador preservado na literal.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -115,11 +122,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

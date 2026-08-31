@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Gen.16.1-16"
   },
-  "texto_bv": "Então Sarai disse a Abrão: “Sobre você seja a minha afronta; eu pus a minha serva no seu seio, e vendo ela que concebeu, tornei-me desprezível aos seus olhos; o SENHOR julgue entre mim e você.”",
+  "texto_bv": "Então Sarai disse a Abrão: “Sobre você seja a minha afronta; eu pus a minha serva no seu seio, e vendo ela que havia concebido, tornei-me desprezível aos olhos dela; o SENHOR julgue entre mim e você.”",
   "traducao_literal": "E disse Sarai a Abrão: “A minha violência sobre ti; eu dei a minha serva no teu seio, e viu que concebeu, e tornei-me leve aos seus olhos; julgue o SENHOR entre mim e ti.”",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vendo ela que concebeu → vendo ela que havia concebido | aos seus olhos → aos olhos dela",
+      "justificativa": "mesma fórmula hebraica de 16.4 (וַתֵּרֶא כִּי הָרָתָה); a anterioridade pede o mais-que-perfeito composto e a repetição formular deve soar idêntica nos dois versos (EDITORIAL §1.4) | na mesma fala, “seu” já refere a 2ª pessoa (“no seu seio” = de você, Abrão); o sufixo hebraico de בְּעֵינֶיהָ é 3ª feminina singular (a serva) — “dela” desfaz a ambiguidade de referente — revisão de forma sem alteração de sentido (ER-0019). Duas correções de coesão sem tocar o sentido: a fórmula repetida de 16.4 volta a soar idêntica, e o possessivo ambíguo entre 2ª e 3ª pessoa vira “dela”, exatamente o que o hebraico marca. A inversão enfática “Sobre você seja a minha afronta” foi mantida: a oração nominal exclamativa חֲמָסִי עָלֶיךָ carrega ênfase que o português preserva pela anteposição (KJV: “My wrong be upon thee”).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -139,11 +146,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

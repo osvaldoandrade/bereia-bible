@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Gen.16.1-16"
   },
-  "texto_bv": "E Agar deu à luz um filho a Abrão; e Abrão chamou o nome do seu filho, que Agar havia dado à luz, Ismael.",
+  "texto_bv": "E Agar deu à luz um filho a Abrão; e Abrão chamou de Ismael o seu filho, que Agar havia dado à luz.",
   "traducao_literal": "E deu à luz Agar a Abrão um filho; e chamou Abrão o nome do seu filho, que deu à luz Agar, Ismael.",
   "termos_originais": [
     {
@@ -100,6 +100,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "chamou o nome do seu filho, que Agar havia dado à luz, Ismael → chamou de Ismael o seu filho, que Agar havia dado à luz",
+      "justificativa": "duplo acusativo de קָרָא שֵׁם calcado; “chamar X de Y” é o padrão de nomeação contemporâneo (ER-0012) e alinha com a correção de 16.11 (§1.4); o nome anteposto evita que “de Ismael” fique solto depois da oração relativa — revisão de forma sem alteração de sentido (ER-0019). Mesma normalização de nomeação aplicada em 16.11, mantendo a consistência intra-capítulo (§1.4); a literal preserva “chamou … o nome do seu filho … Ismael”. A repetição “deu à luz … havia dado à luz” espelha o duplo יָלְדָה do hebraico — repetição formular preservada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -111,11 +118,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

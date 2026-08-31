@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Gen.16.1-16"
   },
-  "texto_bv": "E ela chamou o nome do SENHOR, que lhe falava: “Tu és o Deus que me vê”; pois disse: “Não tenho eu também aqui visto após aquele que me vê?”",
+  "texto_bv": "E ela chamou o nome do SENHOR, que lhe falava: “Tu és o Deus que me vê”; pois disse: “Não vi eu também aqui após aquele que me vê?”",
   "traducao_literal": "E chamou o nome do SENHOR, o que falava a ela: “Tu és El Roi (Deus que me vê)”; porque disse: “Também aqui vi após aquele que me vê?”",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não tenho eu também aqui visto → Não vi eu também aqui",
+      "justificativa": "o pretérito composto do pt-BR (“tenho visto”) tem valor iterativo/durativo — calque do perfeito inglês da KJV (“Have I … looked”); o perfeito hebraico רָאִיתִי, evento único, pede o pretérito perfeito simples “vi” — revisão de forma sem alteração de sentido (ER-0019). Corrigido apenas o aspecto verbal do crux final; “vi … após aquele que me vê” permanece intacto — a obscuridade é do próprio hebraico (הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי) e não cabe resolvê-la aqui. “Chamou o nome do SENHOR” foi mantido: o nome dado é a predicação citada (“Tu és o Deus que me vê”), e normalizar a regência exigiria reestruturar a relação nome↔fala — semitismo funcional deste verso, distinto de 16.11/15, onde o nome é item simples e a normalização é limpa. O tratamento em tu (“Tu és”) segue D-0003 (fala dirigida a Deus).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -132,11 +139,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
