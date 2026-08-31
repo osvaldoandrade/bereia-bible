@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Gen.10.1-32"
   },
-  "texto_bv": "E Cuxe gerou Ninrode; este começou a ser poderoso na terra.",
+  "texto_bv": "E Cuxe gerou a Ninrode; este começou a ser poderoso na terra.",
   "traducao_literal": "E Cuxe gerou Ninrode; ele começou a ser poderoso na terra.",
   "termos_originais": [
     {
@@ -89,6 +89,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "gerou Ninrode → gerou a Ninrode",
+      "justificativa": "Uniformiza a regência de 'gerar' com objeto direto preposicionado diante de nome próprio pessoal, padrão majoritário do capítulo (vv. 15, 24, 26); o hebraico marca o objeto com אֶת em todas essas ocorrências, e a alternância dentro do mesmo capítulo é defeito de coesão (EDITORIAL §1.4, por analogia). — revisão de forma sem alteração de sentido (ER-0019). 'este começou' usa demonstrativo proximal correto para o referente mais próximo (Ninrode). Registrada objeção EDITORIAL sobre a política corpus-wide do 'a' preposicional com 'gerar'.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "O corpus alterna 'gerou X' e 'gerou a X' sem regra registrada: Gn 5 inteiro e Gn 11.12-24 sem o 'a'; Gn 4.18, Gn 10.15-26 e Gn 11.10-11, 26-27 com o 'a'. A uniformização feita aqui resolve só o intra-capítulo; a inconsistência entre capítulos pede decisão global (ER) aplicada em cadeia nas genealogias. — evidência: Gn 5.9 'gerou Enos' vs Gn 4.18 'gerou a Meujael'; Gn 11.12 'gerou Salá' vs Gn 11.10 'gerou a Arfaxade' — mesmo verbo, mesmo אֶת no hebraico. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -100,11 +114,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
