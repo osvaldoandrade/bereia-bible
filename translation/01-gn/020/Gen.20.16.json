@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Gen.20.1-18"
   },
-  "texto_bv": "E a Sara disse: “Dei mil peças de prata a seu irmão; ele lhe é por véu dos olhos para todos os que estão com você; e assim você foi justificada diante de todos.”",
+  "texto_bv": "E a Sara ele disse: “Dei mil peças de prata a seu irmão; ele lhe serve de véu dos olhos para todos os que estão com você; e assim você foi justificada diante de todos.”",
   "traducao_literal": "E a Sara disse: “Eis que dei mil de prata a teu irmão; eis que ele para ti por cobertura de olhos para todos os que contigo; e com todos, e justificada.”",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E a Sara disse: → E a Sara ele disse: | ele lhe é por véu dos olhos → ele lhe serve de véu dos olhos",
+      "justificativa": "Sem sujeito expresso, “a Sara” lê-se como sujeito (“E a Sara disse”) — falso referente: quem fala é Abimeleque (וּלְשָׂרָה אָמַר, dativo frontado + verbo 3ms; KJV “And unto Sarah he said”). “Ele” desfaz a ambiguidade preservando a topicalização, no padrão já usado em Gn 3.17 (“E ao homem ele disse”). | Lamed predicativo vertido “ser por” é calque arcaizante; “servir de” expressa a mesma predicação de função e já é o padrão do corpus (Gn 1.29; 9.3; 49.13). — revisão de forma sem alteração de sentido (ER-0019). Quem fala é Abimeleque (וּלְשָׂרָה אָמַר); sem “ele”, Sara virava sujeito aparente. “Justificada” (וְנֹכָחַת, nifal de יכח) diverge da KJV (“reproved”), mas é leitura de sentido já adjudicada e compatível com a morfologia pinada — não é defeito de forma; mantida. “Mil peças de prata” conserva o suprimento consagrado de אֶלֶף כֶּסֶף.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -136,11 +143,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
