@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Gen.25.1-34"
   },
-  "texto_bv": "Mas aos filhos das concubinas que Abraão tinha, deu Abraão presentes, e, ainda em vida, os separou de Isaque, seu filho, enviando-os ao oriente, para a terra oriental.",
+  "texto_bv": "Mas aos filhos das concubinas que tinha, Abraão deu presentes, e, ainda em vida, os separou de Isaque, seu filho, enviando-os ao oriente, para a terra oriental.",
   "traducao_literal": "E aos filhos das concubinas que de Abraão, deu Abraão presentes, e os enviou de sobre Isaque, seu filho, ainda ele vivo, para o oriente, à terra do oriente.",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que Abraão tinha, deu Abraão presentes → que tinha, Abraão deu presentes",
+      "justificativa": "Repetição formular do sujeito calcada do hebraico ('...que de Abraão, deu Abraão...'); o português retoma por elipse na oração relativa e mantém o nome no verbo principal, restaurando a ordem S-V do texto publicado (ER-0011; ER-0013 item 2). Sentido intacto. — revisão de forma sem alteração de sentido (ER-0019). Corrigida a repetição formular do sujeito ('...que Abraão tinha, deu Abraão...'), calque do hebraico, com restauração da ordem S-V (ER-0011). 'Mas' inicial mantido: verte o contraste do waw diante do v. 5 (KJV 'But'). Demais elementos ('ainda em vida', 'enviando-os ao oriente') já normalizados e corretos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,10 +129,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

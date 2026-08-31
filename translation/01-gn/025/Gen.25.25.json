@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Gen.25.1-34"
   },
-  "texto_bv": "E saiu o primeiro, ruivo, todo ele como uma manta de pelos; e chamaram o seu nome Esaú.",
+  "texto_bv": "E saiu o primeiro, ruivo, todo ele como uma manta de pelos; e o chamaram de Esaú.",
   "traducao_literal": "E saiu o primeiro, ruivo, todo ele como um manto de pelo; e chamaram o seu nome Esaú.",
   "termos_originais": [
     {
@@ -71,6 +71,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e chamaram o seu nome Esaú → e o chamaram de Esaú",
+      "justificativa": "Calque sintático de וַיִּקְרְאוּ שְׁמוֹ ('chamaram o seu nome'); em português nomeia-se a pessoa, não o nome. Fórmula 'chamar X de y' (ER-0012), alinhada ao já aprovado 'foi chamado Jacó' (25.26); o plural do hebraico ('chamaram') é preservado e o conteúdo de שֵׁם permanece no idiomatismo de nomeação. — revisão de forma sem alteração de sentido (ER-0019). Normalizado o calque de nomeação ('chamaram o seu nome' → 'o chamaram de', ER-0012), o que também alinha o verso à fórmula já usada em 25.26. 'E saiu o primeiro' mantido: inversão presentativa nativa do português (verbo inacusativo, referente novo), não alvo de ER-0011. 'Manta de pelos' decisão lexical a montante.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "A fórmula calcada 'chamou/chamaram o seu nome PN' persiste em dezenas de ocorrências fora deste capítulo; a normalização aplicada aqui precisa ser estendida em cadeia aos demais capítulos para não fragmentar o padrão do corpus — decisão que ultrapassa o escopo deste verso. — evidência: grep no corpus translation/: 70x 'chamou o seu nome', 5x 'se chamou o seu nome', 2x 'chamaram o seu nome', contra 42x 'foi chamado', 4x 'o chamou de', 1x 'o chamaram de', 3x 'deu-lhe o nome' — o corpus já está misto; propor fórmula única ('chamar de', ER-0012, ou passiva 'foi chamado'). (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -82,10 +96,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
