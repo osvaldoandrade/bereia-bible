@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Gen.12.1-20"
   },
-  "texto_bv": "E ele fez bem a Abrão por causa dela; e ele teve ovelhas, e vacas, e jumentos, e servos, e servas, e jumentas, e camelos.",
+  "texto_bv": "E ele tratou bem a Abrão por causa dela; e Abrão teve ovelhas, e vacas, e jumentos, e servos, e servas, e jumentas, e camelos.",
   "traducao_literal": "E a Abrão fez bem por causa dela; e houve para ele ovelhas e vacas, e jumentos, e servos, e servas, e jumentas, e camelos.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E ele fez bem a Abrão → E ele tratou bem a Abrão | e ele teve ovelhas → e Abrão teve ovelhas",
+      "justificativa": "הֵיטִיב לְ e \"tratar bem alguem\"; \"fazer bem a alguem\" em pt-BR contemporaneo le-se como \"fazer-lhe bem (a saude)\" — calque que desloca o sentido natural da frase. \"tratou bem\" e a regencia idiomatica exata. | Dois \"ele\" seguidos com referentes distintos: o primeiro e Farao, o segundo e Abrao — mas a continuidade pronominal do portugues faz o leitor recuperar Farao, invertendo quem recebeu os bens. O hebraico topicaliza וּלְאַבְרָם (Abrao fronteado): quem passa a ter rebanhos e Abrao. Retomada nominal desfaz a ambiguidade sem tocar no sentido. — revisão de forma sem alteração de sentido (ER-0019). O primeiro \"ele\" (Farao) fica: e o unico referente masculino recuperavel de 12.15 e nomea-lo tambem seria redundante. A enumeracao \"e vacas, e jumentos, e servos...\" reproduz a lista com waw do hebraico — formula mantida.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -104,11 +111,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
