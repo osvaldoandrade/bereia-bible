@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Gen.18.1-33"
   },
-  "texto_bv": "E Abraão e Sara eram já velhos, e avançados em idade; e a Sara já tinha cessado o costume das mulheres.",
+  "texto_bv": "E Abraão e Sara eram já velhos e avançados em idade; e o costume das mulheres já tinha cessado para Sara.",
   "traducao_literal": "E Abraão e Sara velhos, entrados nos dias; cessara de haver para Sara o caminho como as mulheres.",
   "termos_originais": [
     {
@@ -90,6 +90,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eram já velhos, e avançados em idade → eram já velhos e avançados em idade | e a Sara já tinha cessado o costume das mulheres → e o costume das mulheres já tinha cessado para Sara",
+      "justificativa": "Vírgula indevida entre predicativos coordenados pela conjunção e. | No hebraico o sujeito de חָדַל é “o costume” (אֹרַח) e לְשָׂרָה é dativo; o dativo fronteado “a Sara” induz a leitura de Sara como sujeito de um “cessar” transitivo. Ordem sujeito-verbo com o dativo posposto desfaz o garden path sem tocar no sentido. — revisão de forma sem alteração de sentido (ER-0019). Mais-que-perfeito composto (“tinha cessado”) conforme EDITORIAL §1.2-tabela. Sentido idêntico ao literal e à KJV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -101,11 +108,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

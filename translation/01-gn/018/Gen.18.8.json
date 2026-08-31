@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Gen.18.1-33"
   },
-  "texto_bv": "E tomou manteiga e leite, e o bezerro que tinha preparado, e pôs tudo diante deles; e ele estava em pé junto a eles debaixo da árvore, e comeram.",
+  "texto_bv": "E tomou manteiga e leite, e o bezerro que tinha preparado, e pôs tudo diante deles; e ele estava em pé junto a eles debaixo da árvore, e eles comeram.",
   "traducao_literal": "E tomou manteiga e leite, e o filho de gado que fez, e deu diante deles; e ele estando de pé sobre eles debaixo da árvore, e comeram.",
   "termos_originais": [
     {
@@ -115,6 +115,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "debaixo da árvore, e comeram. → debaixo da árvore, e eles comeram.",
+      "justificativa": "Troca de sujeito: de “ele” (Abraão, singular, em pé servindo) para os três homens; o pronome expresso desfaz a leitura que incluiria Abraão entre os que comeram — no hebraico a morfologia 3mp (וַיֹּאכֵלוּ) marca a troca. — revisão de forma sem alteração de sentido (ER-0019). “manteiga” (חֶמְאָה) e “tinha preparado” são escolhas do DRAFT coerentes com o v.7; “tudo” já supria o objeto que o português pede.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -126,11 +133,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
