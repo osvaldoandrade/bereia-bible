@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Gen.22.1-24"
   },
-  "texto_bv": "E Abraão levantou-se de madrugada, e albardou o seu jumento, e tomou consigo dois dos seus moços e Isaque, seu filho; e rachou lenha para o holocausto, e foi ao lugar que Deus lhe tinha dito.",
+  "texto_bv": "E Abraão levantou-se de madrugada, albardou o seu jumento e tomou consigo dois dos seus moços e Isaque, seu filho; rachou lenha para o holocausto e foi ao lugar que Deus lhe tinha dito.",
   "traducao_literal": "E madrugou Abraão pela manhã, e albardou o seu jumento, e tomou os seus dois moços com ele, e a Isaque, seu filho; e rachou lenhas de holocausto, e levantou-se e foi ao lugar que lhe disse o Deus.",
   "termos_originais": [
     {
@@ -165,6 +165,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "de madrugada, e albardou o seu jumento, e tomou consigo → de madrugada, albardou o seu jumento e tomou consigo | seu filho; e rachou lenha para o holocausto, e foi → seu filho; rachou lenha para o holocausto e foi",
+      "justificativa": "Polissíndeto do waw consecutivo ('e... e... e...') com sujeito único; o português coordena a série com vírgulas e um só 'e' final (ER-0013). Nenhuma ação é omitida ou reordenada. | Continuação da mesma cadeia de waw: após o ponto e vírgula, o 'e' de retomada é dispensável e o par final fica 'rachou... e foi'. A sequência integral permanece na traducao_literal. — revisão de forma sem alteração de sentido (ER-0019). O 'E' inicial é mantido: a sequência narrativa retoma diretamente a ordem de 22.2 (ER-0013 §1). 'Levantou-se de madrugada' já verte bem o hishkim babboqer; 'albardou' é o termo próprio para o jumento de carga e não consta da tabela de arcaísmos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -176,11 +183,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

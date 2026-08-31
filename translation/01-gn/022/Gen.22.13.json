@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Gen.22.1-24"
   },
-  "texto_bv": "E Abraão levantou os olhos, e olhou, e eis atrás de si um carneiro preso pelos chifres num arbusto; e foi Abraão, e tomou o carneiro, e ofereceu-o em holocausto, em lugar de seu filho.",
+  "texto_bv": "E Abraão levantou os olhos e olhou, e eis atrás de si um carneiro preso pelos chifres num arbusto; e Abraão foi, tomou o carneiro e ofereceu-o em holocausto, em lugar de seu filho.",
   "traducao_literal": "E levantou Abraão os seus olhos, e viu, e eis um carneiro atrás, preso no emaranhado pelos seus chifres; e foi Abraão, e tomou o carneiro, e o fez subir em holocausto em lugar de seu filho.",
   "termos_originais": [
     {
@@ -144,6 +144,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "levantou os olhos, e olhou, e eis → levantou os olhos e olhou, e eis | e foi Abraão, e tomou o carneiro, e ofereceu-o → e Abraão foi, tomou o carneiro e ofereceu-o",
+      "justificativa": "Vírgula desnecessária no par 'levantou... e olhou' (mesmo sujeito); a vírgula antes de 'e eis' fica, marcando a entrada da fórmula presentativa הִנֵּה. | Ordem S-V (ER-0011) e redução do polissíndeto do waw na série de mesmo sujeito; as três ações permanecem na mesma ordem. — revisão de forma sem alteração de sentido (ER-0019). 'E eis' mantido: fórmula presentativa intencional do original. A dupla menção de 'Abraão' espelha a repetição do nome no hebraico (2x אַבְרָהָם) e articula os dois movimentos do verso. 'Num arbusto' para סְּבַךְ é a escolha adjudicada (literal: 'no emaranhado').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -155,11 +162,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

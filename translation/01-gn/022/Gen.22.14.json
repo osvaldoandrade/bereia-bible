@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Gen.22.1-24"
   },
-  "texto_bv": "E chamou Abraão o nome daquele lugar: O-SENHOR-Proverá; como se diz até o dia de hoje: “No monte do SENHOR se proverá.”",
+  "texto_bv": "E Abraão chamou aquele lugar de O-SENHOR-Proverá; como se diz até o dia de hoje: “No monte do SENHOR se proverá.”",
   "traducao_literal": "E chamou Abraão o nome do lugar aquele: YHWH-yireh (O SENHOR verá/proverá); que se diz hoje: “No monte do SENHOR se verá/proverá.”",
   "termos_originais": [
     {
@@ -109,6 +109,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E chamou Abraão o nome daquele lugar: O-SENHOR-Proverá; → E Abraão chamou aquele lugar de O-SENHOR-Proverá;",
+      "justificativa": "Ordem S-V (ER-0011) e fórmula de nomeação 'chamou X de y' (ER-0012, mesma sintaxe de 'chamou a luz de dia'); 'chamou o nome de' é calque de קרא שם que o português não sustenta ('chamar' um nome em vez de chamar o lugar). O substantivo שֵׁם permanece visível na traducao_literal (ER-0013), e H7121 segue vertido por 'chamar' (§1.4, cf. 22.11 e 22.15). — revisão de forma sem alteração de sentido (ER-0019). O nome 'O-SENHOR-Proverá' e o dito etiológico 'No monte do SENHOR se proverá' preservam o jogo yireh/yeraeh registrado na literal ('verá/proverá'); próclise 'se proverá' correta após o adverbial. 'Até o dia de hoje' é a expansão idiomática já adjudicada de הַיּוֹם.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,11 +129,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
