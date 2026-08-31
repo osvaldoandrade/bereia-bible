@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Job.10.1-22"
   },
-  "texto_bv": "Se eu pequei, tu me vigiaste; e da minha iniquidade não me absolverás.",
+  "texto_bv": "Se eu pecar, tu me vigias; e da minha iniquidade não me absolverás.",
   "traducao_literal": "Se pequei, guardaste-me; e da minha iniquidade não me inocentarás.",
   "termos_originais": [
     {
@@ -53,23 +53,31 @@
           "motivo": "esconderia a ironia contextual, soando como proteção, e não como vigilância punitiva"
         }
       ]
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "Se eu pequei → Se eu pecar | tu me vigiaste → tu me vigias",
+      "justificativa": "Objeção procedente. Evidência do original: אִם חָטָאתִי וּשְׁמַרְתָּנִי וּמֵעֲוֺנִי לֹא תְנַקֵּנִי — prótase אִם (H518) + qatal חָטָאתִי (H2398, HVqp1cs), apódose em weqatal וּשְׁמַרְתָּנִי (c/H8104, HVqq2ms) e yiqtol תְנַקֵּנִי (H5352, HVpi2ms). A sequência qatal condicional + weqatal + yiqtol marca condição geral/hipotética ('se eu pecar, tu me vigias… não me absolverás'), não fato passado; fato consumado pediria apódose em qatal ou wayyiqtol, não weqatal. A objeção procede. A morfologia pinada decide: o weqatal na apódose (HVqq2ms) e o imperfeito final (HVpi2ms) dão à condicional força geral/futura, e o versículo seguinte (Jó 10:15) continua a mesma cadeia de condicionais gerais, que 'Se eu pequei' romperia. KJV (baseline de sentido) e WEB convergem na leitura hipotética ('If I sin, then thou markest me / then you mark me'), sem divergência textual entre si; ARA acompanha ('Se eu pecar, tu me observas'). Mantidos o paradigma tu (discurso de Jó dirigido a Deus, D-0003/EDITORIAL §3) e as escolhas lexicais da BV (vigiar, absolver); 'não me absolverás' permanece no futuro, conforme o yiqtol e ambos os controles ('thou wilt not acquit me' / 'You will not acquit me'). Objeções fechadas: Objeção MATERIAL (revisão ER-0019): BV lê \"Se eu pequei\" (pretérito perfeito do indicativo — fato consumado), enquanto ARA tem \"Se eu pecar\" (futuro do subjuntivo — hipótese) e NVIPT tem \"Se eu pecasse\" (imperfeito do subjuntivo — condição contrafactual). A diferença de tempo verbal altera a natureza da condição: fato passado vs. hipótese. — evidência: ARA: \"Se eu pecar, tu me observas\"; NVIPT: \"Se eu pecasse, me estarias observando\". A traducao_literal da BV também usa pretérito (\"Se pequei, guardaste-me\"), mas as três referências convergem em leitura hipotética. A correção exigiria mudar o tempo verbal e, portanto, o sentido — bloqueado como objeção MATERIAL. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "Leitura de fato consumado 'Se eu pequei, tu me vigiaste' (qatal como pretérito real, como está na traducao_literal); perde porque a apódose em weqatal (HVqq2ms) + yiqtol (HVpi2ms) marca condição geral, e KJV e WEB sustentam juntas a leitura hipotética, em paralelo com as condicionais de Jó 10:15. Também rejeitada a contrafactual da NVIPT ('Se eu pecasse, me estarias observando'): o irrealis hebraico usaria לוּ, não אִם + weqatal."
+      ],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: Leitura de fato consumado 'Se eu pequei, tu me vigiaste' (qatal como pretérito real, como está na traducao_literal); perde porque a apódose em weqatal (HVqq2ms) + yiqtol (HVpi2ms) marca condição geral, e KJV e WEB sustentam juntas a leitura hipotética, em paralelo com as condicionais de Jó 10:15. Também rejeitada a contrafactual da NVIPT ('Se eu pecasse, me estarias observando'): o irrealis hebraico usaria לוּ, não אִם + weqatal."
+  ],
   "justificativa": "נקה (Piel) 'declarar inocente/absolver', mantido tecnicamente distinto de 'perdoar'.",
   "confianca": 0.75,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): BV lê \"Se eu pequei\" (pretérito perfeito do indicativo — fato consumado), enquanto ARA tem \"Se eu pecar\" (futuro do subjuntivo — hipótese) e NVIPT tem \"Se eu pecasse\" (imperfeito do subjuntivo — condição contrafactual). A diferença de tempo verbal altera a natureza da condição: fato passado vs. hipótese. — evidência: ARA: \"Se eu pecar, tu me observas\"; NVIPT: \"Se eu pecasse, me estarias observando\". A traducao_literal da BV também usa pretérito (\"Se pequei, guardaste-me\"), mas as três referências convergem em leitura hipotética. A correção exigiria mudar o tempo verbal e, portanto, o sentido — bloqueado como objeção MATERIAL."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

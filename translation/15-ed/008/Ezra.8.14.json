@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Ezra.8.1-36"
   },
-  "texto_bv": "dos filhos de Bigvai, Utai e Zacur, e com ele setenta homens.",
+  "texto_bv": "dos filhos de Bigvai, Utai e Zabude, e com ele setenta homens.",
   "traducao_literal": "e dos filhos de Bigvai: Utai e Zacur, e com ele setenta, os homens.",
   "termos_originais": [
     {
@@ -74,25 +74,32 @@
           "motivo": "Apagaria o singular morfológico do texto pinado."
         }
       ]
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "Zacur → Zabude",
+      "justificativa": "Objeção procedente. Evidência do original: וזבוד (lemma c/2072, HC/Np) — o termo pinado é o ketiv Zabbud (H2072), não o qere Zaccur (H2139). A morfologia pinada decide: o nome do texto-fonte da BV é Zabude. A objeção procede: BV e traducao_literal trazem “Zacur” (qere), mas a autoridade textual do registro pinou o ketiv זבוד/H2072, e os dois controles ingleses (KJV “Zabbud”, WEB “Zabbud”) o acompanham, assim como ARA/NVIPT (“Zabude”). O “com ele” permanece: וְעִמּוֹ é Sp3ms na morfologia pinada (KJV/WEB “with them” suavizam para o plural dos dois nomes, sem base morfológica pinada). Objeções fechadas: Objeção MATERIAL (revisão ER-0019): Divergência de nome próprio não verificável sem consulta ao hebraico — evidência: BV: \"Zacur\"; ARA: \"Zabude\"; NVIPT: \"Zabude\". Se forem pessoas diferentes, há erro de nome na BV. A traducao_literal também tem \"Zacur\", indicando que a fonte da BV continha esse nome. Nota textual: Caso ketiv/qere: ketiv וזבוד (Zabbud), qere וְזַכּוּר (Zacur). O packet pinou o ketiv com lemma H2072; a correção segue a base pinada. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "Leitura do qere וְזַכּוּר “Zacur” (H2139), seguida por NIV/NRSV e pelo tradutor original da BV; perde porque os termos_originais pinados trazem a superfície ketiv וזבוד com lemma H2072 e ambos os controles ingleses (KJV/WEB “Zabbud”) sustentam o ketiv."
+      ],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
-    "O referente singular de ‘com ele’ após dois nomes pode ser o representante principal Utai ou o último nome; não é resolvido."
+    "O referente singular de ‘com ele’ após dois nomes pode ser o representante principal Utai ou o último nome; não é resolvido.",
+    "Leitura descartada na adjudicação ER-0020: Leitura do qere וְזַכּוּר “Zacur” (H2139), seguida por NIV/NRSV e pelo tradutor original da BV; perde porque os termos_originais pinados trazem a superfície ketiv וזבוד com lemma H2072 e ambos os controles ingleses (KJV/WEB “Zabbud”) sustentam o ketiv."
   ],
   "justificativa": "Os dois nomes seguem o qere; o pronome singular e o total setenta são preservados.",
   "confianca": 0.72,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): Divergência de nome próprio não verificável sem consulta ao hebraico — evidência: BV: \"Zacur\"; ARA: \"Zabude\"; NVIPT: \"Zabude\". Se forem pessoas diferentes, há erro de nome na BV. A traducao_literal também tem \"Zacur\", indicando que a fonte da BV continha esse nome."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
