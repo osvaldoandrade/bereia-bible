@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gen.15.1-21"
   },
-  "texto_bv": "E ele tomou todos estes, e os partiu pelo meio, e pôs cada parte uma em frente da outra; mas as aves não partiu.",
+  "texto_bv": "E ele tomou todos estes, e os partiu pelo meio, e pôs cada parte em frente da outra; mas não partiu as aves.",
   "traducao_literal": "E tomou para si todos estes, e os partiu ao meio, e deu cada sua parte ao encontro da sua companheira; e as aves não partiu.",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e pôs cada parte uma em frente da outra → e pôs cada parte em frente da outra | mas as aves não partiu → mas não partiu as aves",
+      "justificativa": "Duplicação do distributivo (“cada parte” + “uma… da outra”), calque do idiomatismo אִישׁ… רֵעֵהוּ via KJV (“each piece one against another”); em português o distributivo pede só “cada parte… da outra”. Sentido intacto. | Objeto fronteado sem retomada clítica (calque da ordem וְאֶת‐הַצִּפֹּר לֹא בָתָר): o leitor parseia “as aves” como sujeito e “partiu” vira falso erro de concordância (ou lê ‘as aves não partiram’, de partir = ir embora). ER-0013 normaliza o fronteamento no publicado; a adversativa “mas” e o sentido permanecem. — revisão de forma sem alteração de sentido (ER-0019). Duas normalizações de calque sintático, ambas só de forma; a cadeia “e… e…” restante é sequência narrativa legítima. “Todos estes” tem antecedente imediato no v. 9 (a lista de animais) e permanece.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,10 +129,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
