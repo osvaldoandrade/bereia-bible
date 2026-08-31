@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Gen.11.1-32"
   },
-  "texto_bv": "E o SENHOR disse: “Eis que o povo é um, e todos têm uma só língua; e isto é o que começam a fazer; e agora nada os impedirá de tudo o que intentarem fazer.",
+  "texto_bv": "E o SENHOR disse: “Eis que o povo é um, e todos têm uma só língua; e isto é o que começam a fazer; e agora nada os impedirá de fazer tudo o que intentarem.",
   "traducao_literal": "E disse o SENHOR: “Eis um povo, e uma língua para todos eles, e este o seu começar a fazer; e agora nada lhes será impossível, tudo o que planejarem fazer.",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nada os impedirá de tudo o que intentarem fazer → nada os impedirá de fazer tudo o que intentarem",
+      "justificativa": "\"Impedir alguém de\" pede núcleo verbal (infinitivo/oração de ação); \"impedirá de tudo o que intentarem fazer\" deixava o complemento sem núcleo, calcando a sintaxe de לֹא־יִבָּצֵר מֵהֶם כֹּל אֲשֶׁר יָזְמוּ לַעֲשׂוֹת. A proposição é a mesma (nada do que planejarem lhes será vedado; cf. KJV \"nothing will be restrained from them, which they have imagined to do\"). — revisão de forma sem alteração de sentido (ER-0019). Mantido \"Eis que\" (הֵן): dêitico vivo em registro formal, não listado como arcaísmo em EDITORIAL §1.2; introduz a avaliação divina como na KJV (\"Behold\"). Mantido o presente \"começam\" (infinitivo construto הַחִלָּם, \"o seu começar\"): a fala divina observa o ato em curso. A aspa aberta não fecha aqui porque a fala continua no v. 7.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -139,11 +146,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
