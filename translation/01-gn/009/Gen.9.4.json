@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Gen.9.1-29"
   },
-  "texto_bv": "Mas a carne com a sua vida, o seu sangue, não comam.",
+  "texto_bv": "Mas não comam a carne com a sua vida, o seu sangue.",
   "traducao_literal": "Somente carne na sua vida, o seu sangue, não comereis.",
   "termos_originais": [
     {
@@ -81,6 +81,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas a carne com a sua vida, o seu sangue, não comam. → Mas não comam a carne com a sua vida, o seu sangue.",
+      "justificativa": "Ordem OV verbo-final do hebraico (בָּשָׂר… לֹא תֹאכֵלוּ) mantida como topicalização com dupla aposição antes do verbo — o leitor tropeça em dois sintagmas nominais antes de achar o predicado. O português pede verbo antes do objeto; a restrição de אַךְ já está em “Mas” e a aposição “o seu sangue” (= a sua vida) permanece intacta. — revisão de forma sem alteração de sentido (ER-0019). Reordenação puramente sintática: todos os constituintes e a aposição vida/sangue do hebraico permanecem; nenhuma palavra entra ou sai.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -92,11 +99,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
