@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Prov.27.1-27"
   },
-  "texto_bv": "Como um pássaro que foge do seu ninho, assim é o homem que foge do seu lugar.",
+  "texto_bv": "Como um pássaro que vagueia longe do seu ninho, assim é o homem que vagueia longe do seu lugar.",
   "traducao_literal": "Como pássaro que vagueia do seu ninho, assim homem que vagueia do seu lugar.",
   "termos_originais": [
     {
@@ -52,24 +52,34 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
-  "palavras_supridas": [
-    "é (verbo de ligação suprido na comparação nominal 'assim é o homem')"
+  "decisoes": [
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "que foge do seu ninho → que vagueia longe do seu ninho | que foge do seu lugar → que vagueia longe do seu lugar",
+      "justificativa": "Objeção procedente. Evidência do original: נוֹדֶדֶת e נוֹדֵד — particípio Qal de נדד (H5074), 'vaguear, andar errante'. O ponto do provérbio é o deslocamento errante (pássaro fora do ninho, homem fora do seu lugar), não a fuga de um perigo; quando נדד significa 'fugir' (Is 21:15) o contexto traz a ameaça explícita, ausente aqui. מִן (H4480) marca apenas o ponto de partida da errância. KJV 'as a bird that wandereth from her nest... a man that wandereth from his place' e WEB 'wanders... wanders' sustentam juntas a leitura de errância. A objeção procede: 'foge' implica escape de perigo que nem a morfologia nem os controles sustentam. KJV (baseline de sentido) e WEB concordam entre si em 'wander', a traducao_literal da BV já dizia 'vagueia' e as referências pt (ARA, NVIPT) convergem no mesmo lexema. Corrigido para 'vagueia' nas duas ocorrências, preservando a repetição do particípio do original. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): BV traduz o heb. נודד (nadad, “vaguear, perambular”) como “foge”, que implica escape de perigo. ARA e NVIPT usam “vagueia”; NTLH parafraseia como “longe de”. O sentido primário de נודד é errância sem destino, não fuga. — evidência: ARA: “ave que vagueia longe do seu ninho… homem que anda vagueando”; NVIPT: “ave que vagueia… homem que vagueia”; NTLH: “pessoa longe de casa… pássaro longe do ninho”. Nenhuma referência usa “fugir”. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "Leitura 'foge' (נדד como fuga, atestada em contextos de ameaça como Is 21:15 e Is 10:31); perde porque Pv 27:8 não traz perigo no contexto, o paralelo homem/pássaro descreve deslocamento errante do próprio lugar, e KJV e WEB sustentam juntas 'wander'."
+      ],
+      "diretriz_ref": "ER-0020"
+    }
   ],
-  "ambiguidades_preservadas": [],
+  "palavras_supridas": [
+    "é (verbo de ligação suprido na comparação nominal 'assim é o homem')",
+    "longe"
+  ],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: Leitura 'foge' (נדד como fuga, atestada em contextos de ameaça como Is 21:15 e Is 10:31); perde porque Pv 27:8 não traz perigo no contexto, o paralelo homem/pássaro descreve deslocamento errante do próprio lugar, e KJV e WEB sustentam juntas 'wander'."
+  ],
   "justificativa": "Símile sobre o desenraizamento; נוֹדֵד repetido nos dois membros (pássaro/homem), preservado com o mesmo verbo português nos dois lados.",
   "confianca": 0.8,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): BV traduz o heb. נודד (nadad, “vaguear, perambular”) como “foge”, que implica escape de perigo. ARA e NVIPT usam “vagueia”; NTLH parafraseia como “longe de”. O sentido primário de נודד é errância sem destino, não fuga. — evidência: ARA: “ave que vagueia longe do seu ninho… homem que anda vagueando”; NVIPT: “ave que vagueia… homem que vagueia”; NTLH: “pessoa longe de casa… pássaro longe do ninho”. Nenhuma referência usa “fugir”."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
