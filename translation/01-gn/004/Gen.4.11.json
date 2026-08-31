@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Gen.4.1-26"
   },
-  "texto_bv": "E agora, maldito é você, afastado do solo que abriu a sua boca para receber da sua mão o sangue do seu irmão.",
+  "texto_bv": "E agora, maldito é você, afastado do solo que abriu a boca para receber da sua mão o sangue do seu irmão.",
   "traducao_literal": "E agora, maldito és tu, do solo que abriu a sua boca para tomar os sangues do teu irmão da tua mão.",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que abriu a sua boca → que abriu a boca",
+      "justificativa": "Três possessivos em sequência alternavam referente (solo → você → você); com parte do corpo o português usa artigo definido — “abriu a boca” desfaz a leitura errada “a boca de você” sem tocar o sentido (a boca é do solo, como no hebraico פִּיהָ). — revisão de forma sem alteração de sentido (ER-0019). “Afastado do solo” para o מִן ambíguo (ablativo/privativo) é decisão de sentido preexistente e fica intocada; o ajuste é só o artigo definido com parte do corpo, desfazendo referente errado do possessivo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -116,11 +123,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gen.4.1-26"
   },
-  "texto_bv": "E Deus disse: “O que você fez? A voz do sangue do seu irmão clama a mim desde o solo.",
+  "texto_bv": "E o SENHOR disse: “O que você fez? A voz do sangue do seu irmão clama a mim desde o solo.",
   "traducao_literal": "E disse: “Que fizeste? A voz dos sangues do teu irmão clamam a mim desde o solo.",
   "termos_originais": [
     {
@@ -94,6 +94,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E Deus disse: → E o SENHOR disse:",
+      "justificativa": "וַיֹּאמֶר não traz sujeito expresso (termos_originais: apenas c/559); o falante da cadeia dialógica é o SENHOR, nomeado nos vv. 9 e 15, e YHWH governa toda a narrativa (vv. 3, 4, 6, 9, 13, 15, 16). O suprimento “Deus” injetava o nome divino de outro registro no meio da cadeia e quebrava a coesão referencial; “ele” seria pior, pois o “E ele disse” do v. 9 refere Caim. O referente não muda — muda só a palavra suprida. — revisão de forma sem alteração de sentido (ER-0019). Trocada apenas a palavra suprida do sujeito, para manter a cadeia referencial YHWH→SENHOR do diálogo (vv. 9, 13, 15). O singular “sangue… clama” gramaticaliza o plural hebraico (דְּמֵי… צֹעֲקִים), preservado na literal — concordância portuguesa correta.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -105,11 +112,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
