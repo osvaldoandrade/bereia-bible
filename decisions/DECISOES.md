@@ -358,6 +358,35 @@ Ver `docs/domain/governanca/glossary.md`.
   verso. A FSM segue intacta e a promoção continua exigindo consenso pleno +
   QA de contaminação.
 
+## ER-0021 — Promoção do cânon a APPROVED por determinação do mantenedor
+
+- Data: 2026-08-31 · Escopo: programa · Origem: determinação do mantenedor ·
+  Status: **EXECUTADA**
+- Decisão: os 31155 registros passam de DRAFT a APPROVED. O mantenedor aprovou
+  integralmente os ciclos ER-0019 (revisão editorial de 1189/1189 capítulos) e
+  ER-0020 (adjudicação de 241/241 objeções MATERIAIS) e determinou a promoção,
+  dispensando o caminho ordinário DRAFT→REVIEW por consenso pleno + QA de
+  contaminação. A ratificação humana que a FSM exige para APPROVED é esta
+  entrada.
+- Execução: `scripts/promote_status.py`, em duas transições
+  (DRAFT→REVIEW→APPROVED), gravando em cada registro a autoridade que autorizou
+  o movimento. 0 registros bloqueados — nenhum tinha objeção aberta, porque o
+  ER-0020 já as havia zerado.
+- Correção de pipeline que a promoção expôs: `scripts/qa_linguistico.py` filtrava
+  registros por `status == DRAFT` no código. Com o cânon promovido a triagem
+  passou a varrer **zero** versos — a superfície de QA ficava cega exatamente
+  quando o texto vira publicável. O filtro passou a ser parâmetro (`-status`,
+  default = todos): triagem é sobre o texto, não sobre o estado em que o texto
+  está estacionado.
+- Guarda que permanece: `promote_status.py` recusa promover a APPROVED um verso
+  com `objecoes_nao_resolvidas` não vazio (F-0011). Não é trava de processo, é
+  de coerência — "tem objeção pendente" e "é publicável" não podem ser ambos
+  verdadeiros no mesmo registro. `-force` sobrepõe e grava a sobreposição.
+- Nota de auditoria herdada: `fontes.manifest_sha256` continua notacional
+  (F-0007/registro do bootstrap) e o QA de contaminação (`bvqa`) não foi
+  executado sobre o texto revisto — permanecem como follow-ups, agora sobre
+  corpus APPROVED.
+
 ---
 
 ## Follow-ups abertos

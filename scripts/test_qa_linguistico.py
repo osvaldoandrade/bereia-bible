@@ -138,13 +138,18 @@ class ScanRollupTests(unittest.TestCase):
                 (3, "Gen.3.1", "E aconteceu que algo houve", "DRAFT"),
                 (4, "Gen.4.1", "e o mar tornou-se em seco", "APPROVED"),
             ])
+            # default: varre todo estado — a triagem é sobre o texto
             chapters, totals = qa.scan(tmp, threshold=3)
-            self.assertEqual(totals["versos"], 3)  # APPROVED skipped
+            self.assertEqual(totals["versos"], 4)
+            self.assertIn(("01-gn", 4), chapters)
             self.assertIn(("01-gn", 2), chapters)
             self.assertEqual(chapters[("01-gn", 2)]["score"], 3)
             self.assertTrue(chapters[("01-gn", 2)]["hot"])
             self.assertFalse(chapters[("01-gn", 3)]["hot"])
-            self.assertNotIn(("01-gn", 4), chapters)
+            # com filtro explícito, o estado é respeitado
+            chapters_d, totals_d = qa.scan(tmp, threshold=3, status="DRAFT")
+            self.assertEqual(totals_d["versos"], 3)
+            self.assertNotIn(("01-gn", 4), chapters_d)
 
     def test_digest_traz_todos_os_versos_do_capitulo(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -172,8 +177,14 @@ class ScanRollupTests(unittest.TestCase):
     def test_corpus_real_smoke(self):
         # structural assertions only: marker content of specific verses
         # changes as editorial review cycles land (ER-0019)
+        # sem filtro de status: a triagem é sobre o TEXTO, e o corpus inteiro
+        # foi promovido a APPROVED em 2026-08-31 (ER-0021)
         chapters, totals = qa.scan(str(ROOT / "translation"), threshold=8)
         self.assertGreater(totals["versos"], 31000)
+        # o filtro por estado continua funcionando quando pedido
+        _, so_draft = qa.scan(str(ROOT / "translation"), threshold=8,
+                              status="DRAFT")
+        self.assertEqual(0, so_draft["versos"])
         gen24 = chapters.get(("01-gn", 24))
         self.assertIsNotNone(gen24)
         verso_15 = [v for v in gen24["todos"] if v["osis"] == "Gen.24.15"]

@@ -81,10 +81,18 @@ flowchart TD
 | De | Para | Gatilho | Efeito |
 |---|---|---|---|
 | — | DRAFT | packet processado, registro emitido sem ciclo completo | registro gravado |
-| DRAFT | REVIEW | ciclo de consenso completo + QA de contaminação executado | registro atualizado |
+| DRAFT | REVIEW | ciclo de consenso completo + QA de contaminação executado, **ou determinação registrada do mantenedor** | registro atualizado |
 | REVIEW | APPROVED | ratificação humana registrada em `decisions/DECISOES.md` | texto publicável |
 | APPROVED | REVIEW | **somente** diff + justificativa + novo ciclo multiagente completo | reabre auditoria |
 | qualquer | qualquer outra | — | **transição ilegal; rejeitar** |
+
+A transição é executada por `scripts/promote_status.py`, que grava em cada
+registro a autoridade que a autorizou (`diretriz_ref: ER-0021`). O mantenedor é
+a autoridade da FSM: a pré-condição de processo é o caminho ordinário, não uma
+trava sobre ele. A única recusa mecânica que resta é de **incoerência**, não de
+processo — promover a APPROVED um verso com `objecoes_nao_resolvidas` aberto
+(F-0011), porque "tem objeção pendente" e "é publicável" não podem ser ambos
+verdadeiros; `-force` sobrepõe e grava a sobreposição no próprio registro.
 
 Estados terminais não existem: APPROVED é estável, não imutável — mas só reabre
 pela transição auditada acima. Registros nunca são apagados, apenas versionados via git.

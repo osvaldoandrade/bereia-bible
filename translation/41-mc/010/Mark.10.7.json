@@ -80,6 +80,20 @@
       "justificativa": "Aspas simples retas (') na citação interna de Gênesis (v.7 abre, v.8 fecha), quando o padrão do corpus para citação-dentro-de-citação usa aspas simples curvas (‘ ’); além disso, todas as 37 aspas duplas de discurso direto deste capítulo usam o caractere reto (\") em vez de curvo (“ ”), diferente da convenção de boa parte do corpus (ex.: Gênesis) e de metade dos capítulos de Marcos. — evidência: Verificação mecânica: Mark.10.7/10.8 usam ' (0x27) em vez de ‘ ’ (U+2018/2019); todo o 41-mc-010.json usa \" (U+0022) nas 37 aspas duplas, enquanto qa/reports/review-input/01-gn-*.json e os capítulos 41-mc-001/003/005/008/009/012/014/016 usam “ ” (U+201C/201D). Corrigir só este capítulo deixaria as aspas simples curvas destoando das duplas retas dentro do mesmo texto; a correção correta é um passo mecânico corpus-wide, fora do escopo desta revisão de hot-spots. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Transição de status DRAFT → REVIEW",
+      "escolha": "REVIEW",
+      "justificativa": "Autoridade: Determinação do mantenedor (Osvaldo Andrade), 2026-08-31: aprovação integral dos ciclos ER-0019 e ER-0020",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Transição de status REVIEW → APPROVED",
+      "escolha": "APPROVED",
+      "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0021"
     }
   ],
   "palavras_supridas": [],
@@ -88,7 +102,7 @@
   ],
   "justificativa": "Abre citação de Gn 2:24 dentro da fala de Jesus (citação dentro de citação, EDITORIAL §5, aspas simples); fecha em 10:8.",
   "confianca": 0.72,
-  "status": "DRAFT",
+  "status": "APPROVED",
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {

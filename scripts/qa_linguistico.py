@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Static linguistic hot-spot triage over DRAFT verse records (ER-0019).
+"""Static linguistic hot-spot triage over verse records (ER-0019).
 
-Scans translation/*/*/*.json records with status DRAFT and flags verses whose
+Scans translation/*/*/*.json records and flags verses whose
 texto_bv shows mechanical signs of EDITORIAL.md violations or translationese:
 
   ARC-1  dead archaisms (EDITORIAL §1.2)                       weight 3
@@ -195,9 +195,15 @@ def chapter_key(path):
     return book_dir, int(cap_dir)
 
 
-def scan(records_dir, threshold):
+def scan(records_dir, threshold, status=None):
     """Scan records; return (chapters, totals) where chapters maps
-    (book_dir, chapter) -> row dict; totals has corpus-wide marker counts."""
+    (book_dir, chapter) -> row dict; totals has corpus-wide marker counts.
+
+    `status` restricts the sweep to one FSM state; None (the default) sweeps
+    every record. The triage was born DRAFT-only because ER-0019 only ever ran
+    on the DRAFT tier, but hardcoding that made the whole QA surface go blind
+    the moment the corpus was promoted — the scan returned zero verses. Triage
+    is about the TEXT, not about the state the text is parked in."""
     chapters = {}
     totals = {"versos": 0, "versos_com_achados": 0,
               "por_marcador": {m: 0 for m in MARKER_WEIGHT}}
@@ -211,7 +217,7 @@ def scan(records_dir, threshold):
                     rec = json.load(f)
             except (json.JSONDecodeError, OSError):
                 continue
-            if rec.get("status") != "DRAFT":
+            if status is not None and rec.get("status") != status:
                 continue
             totals["versos"] += 1
             text = rec.get("texto_bv", "")
@@ -230,7 +236,7 @@ def scan(records_dir, threshold):
                 row["score"] += sum(fi["peso"] for fi in findings)
                 for fi in findings:
                     totals["por_marcador"][fi["id"]] += 1
-            # the digest carries EVERY DRAFT verse of the chapter so the
+            # the digest carries EVERY scanned verse of the chapter so the
             # review agent's output can satisfy ER-0019's exact OSIS coverage
             row["todos"].append({
                 "osis": rec.get("referencia", {}).get("osis", fn[:-5]),
@@ -332,7 +338,7 @@ def write_reports(out_path, md_path, digest_dir, chapters, totals, threshold,
             "# Hot-spots linguísticos — triagem estática (ER-0019)",
             "",
             "- Threshold: score ≥ %d por capítulo" % threshold,
-            "- Versos DRAFT varridos: %d; com achados: %d (%.1f%%)" % (
+            "- Versos varridos: %d; com achados: %d (%.1f%%)" % (
                 totals["versos"], totals["versos_com_achados"],
                 100 * totals["versos_com_achados"] / max(totals["versos"], 1)),
             "- Capítulos varridos: %d; com achados: %d; hot: %d" % (
@@ -367,6 +373,9 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("-records", default=os.path.join(ROOT, "translation"))
     ap.add_argument("-threshold", type=int, default=8)
+    ap.add_argument("-status", default=None, choices=["DRAFT", "REVIEW",
+                                                      "APPROVED"],
+                    help="restringe a um estado da FSM (default: todos)")
     ap.add_argument("-out", default=os.path.join(ROOT, "qa", "reports",
                                                   "hotspots.json"))
     ap.add_argument("-md", default=os.path.join(ROOT, "qa", "reports",
@@ -381,10 +390,10 @@ def main(argv=None):
     refs = load_references(args.refs)
     if refs:
         print("referências PT-BR carregadas: %s" % ", ".join(sorted(refs)))
-    chapters, totals = scan(args.records, args.threshold)
+    chapters, totals = scan(args.records, args.threshold, status=args.status)
     hot = write_reports(args.out, args.md, args.digest_dir, chapters,
                         totals, args.threshold, refs=refs)
-    print("versos DRAFT varridos: %d (com achados: %d)" % (
+    print("versos varridos: %d (com achados: %d)" % (
         totals["versos"], totals["versos_com_achados"]))
     print("capítulos com achados: %d; hot (score >= %d): %d" % (
         sum(1 for r in chapters.values() if r["versos_com_achados"]),
