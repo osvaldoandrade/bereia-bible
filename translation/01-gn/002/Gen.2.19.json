@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Gen.2.1-25"
   },
-  "texto_bv": "E o SENHOR Deus formou do solo todo animal do campo e toda ave dos céus, e os trouxe ao homem para ver como lhes chamaria. E tudo o que o homem chamou a cada ser vivente, esse é o seu nome.",
+  "texto_bv": "E o SENHOR Deus formou do solo todo animal do campo e toda ave dos céus, e os trouxe ao homem para ver como os chamaria. E todo nome que o homem deu a cada ser vivente, esse é o seu nome.",
   "traducao_literal": "E formou o SENHOR Deus do solo todo animal do campo e toda ave dos céus, e trouxe-os ao homem para ver como lhe chamaria; e tudo o que lhe chamou o homem, ser vivente, esse é o seu nome.",
   "termos_originais": [
     {
@@ -184,6 +184,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "como lhes chamaria → como os chamaria | E tudo o que o homem chamou a cada ser vivente, esse é o seu nome. → E todo nome que o homem deu a cada ser vivente, esse é o seu nome.",
+      "justificativa": "'Chamar' no sentido de nomear é transitivo direto no pt-BR culto ('como os chamaria'); a regência dativa 'chamar-lhes' é traço lusitano/arcaizante. O plural distributivo (o hebraico tem לוֹ singular, cada um) já era a suavização persistida, conferida com a KJV ('what he would call them'). | O casus pendens hebraico (וְכֹל אֲשֶׁר יִקְרָא־לוֹ ... הוּא שְׁמוֹ) calcado em 'tudo o que o homem chamou a cada ser vivente' produz regência opaca em pt-BR; 'todo nome que o homem deu' desfaz o calque com a mesma extensão de sentido (KJV 'whatsoever Adam called every living creature, that was the name thereof') e alinha com 'deu nomes' do v.20. — revisão de forma sem alteração de sentido (ER-0019). O presente 'esse é o seu nome' verte a frase nominal hebraica (הוּא שְׁמוֹ) como a literal e vale como presente gnômico — mantido. A retomada 'esse' após o antecedente deslocado é o recurso legítimo do português para o pendens do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -195,10 +202,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

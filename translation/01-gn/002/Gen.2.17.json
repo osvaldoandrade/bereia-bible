@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Gen.2.1-25"
   },
-  "texto_bv": "mas da árvore do conhecimento do bem e do mal, dela não comerás; porque no dia em que dela comeres, certamente morrerás.”",
+  "texto_bv": "mas da árvore do conhecimento do bem e do mal, dela não comerá; porque no dia em que dela comer, certamente morrerá.”",
   "traducao_literal": "mas da árvore do conhecimento do bem e do mal, não comerás dela; porque no dia do teu comer dela, morrer morrerás.”",
   "termos_originais": [
     {
@@ -109,6 +109,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dela não comerás → dela não comerá | dela comeres, certamente morrerás → dela comer, certamente morrerá",
+      "justificativa": "Continuação da mesma fala do v.16, normalizada ao paradigma você (EDITORIAL §3/D-0003); descontinuidade de tratamento dentro da fala seria pior defeito de coesão. | Mesma normalização de tratamento (tu → você) na subordinada temporal (futuro do subjuntivo 'comer') e na apódose ('morrerá'); número singular do hebraico preservado. — revisão de forma sem alteração de sentido (ER-0019). O deslocamento 'da árvore..., dela não comerá' preserva a topicalização enfática do hebraico (com retomada de מִמֶּנּוּ); 'certamente morrerá' verte o infinitivo absoluto מוֹת תָּמוּת como já persistido (KJV 'thou shalt surely die').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,11 +129,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
