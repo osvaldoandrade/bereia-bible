@@ -321,6 +321,43 @@ Ver `docs/domain/governanca/glossary.md`.
   pelo mantenedor a meio caminho). Os registros gravam o modelo que de fato
   produziu cada texto — a divisão é intencional, não um defeito.
 
+## ER-0020 — Adjudicação das objeções MATERIAIS (ADR-0005)
+
+- Data: 2026-08-30 · Escopo: programa · Origem: determinação do mantenedor ·
+  Status: **CONCLUÍDA**
+- Problema: o ER-0019 fechou a revisão editorial dos 1189 capítulos deixando
+  241 objeções MATERIAIS abertas em 222 registros. Por construção o revisor não
+  podia resolvê-las (escopo = forma), e enquanto abertas elas bloqueavam
+  APPROVED (F-0011) e travavam a promoção DRAFT→REVIEW.
+- Decisão: etapa própria de adjudicação, com poder de alterar sentido mas só em
+  verso que já carregue objeção aberta; **KJV como baseline de sentido**
+  (determinação do mantenedor) e WEB como segundo controle; autoridade textual
+  permanece em `termos_originais` (WLC/OSHB, Nestle 1904). Detalhes e riscos em
+  docs/adr/0005-adjudicacao-objecoes-materiais.md.
+- Modo `final` (emenda do mesmo dia): INCONCLUSIVA proibida — toda objeção sai
+  decidida. A trava que torna isso auditável: a leitura defensável descartada
+  vai para `ambiguidades_preservadas` e `alternativas_rejeitadas`.
+- **Resultado: 241/241 objeções resolvidas — zero abertas em 31155 registros.**
+  227 decisões ER-0020 gravadas: 101 procedentes (sentido corrigido) e
+  121 improcedentes (texto mantido). 160 registros ganharam leitura rejeitada
+  preservada — a decisão estreitou o texto sem apagar o crux.
+- A barreira ao Textus Receptus segurou. Caso de prova: At 7.46, onde KJV e WEB
+  concordam ENTRE SI em θεῷ Ἰακώβ (bizantino/TR) contra o οἴκῳ Ἰακώβ do
+  Nestle 1904 pinado — o adjudicador registrou que ali os controles não servem
+  como evidência e votou IMPROCEDE. Mesma recusa em At 13.20 (450 anos do TR) e
+  Jo 17.20 (particípio futuro πιστευσόντων). Nenhuma leitura TR entrou no texto.
+- Achados de peso: Jo 8.25 não vertia dez palavras do original
+  (Ἔλεγον οὖν αὐτῷ Σὺ τίς εἶ; εἶπεν αὐτοῖς ὁ Ἰησοῦς) — omissão, não escolha;
+  2Sm 9.11 tinha pontuação que fazia שֻׁלְחָנִי ser a mesa de Ziba, contra o
+  referente de Davi nos vv. 7 e 10; Gn 27.39 vertia מִן como locativo ("nas"),
+  e a correção adotada ("das") não é a que a objeção pedia (privativa "longe
+  das"), registrada como rejeitada.
+- Modelos (proveniência verificada nos journals): lotes normais 1–3 e todos os
+  lotes do modo final em `claude-fable-5`.
+- Status permanece **DRAFT** em todo o cânon: adjudicar objeção não promove
+  verso. A FSM segue intacta e a promoção continua exigindo consenso pleno +
+  QA de contaminação.
+
 ---
 
 ## Follow-ups abertos
