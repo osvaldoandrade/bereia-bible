@@ -21,6 +21,11 @@ Guards enforced mechanically, all chapters validated BEFORE any write:
   * words the adjudicator had to supply (Hebrew ellipsis, e.g. the elided
     `sheqel` in weight formulas) are appended to `palavras_supridas`, so a
     supplied word never sits in texto_bv unaudited;
+  * PROCEDE must also RECONCILE the entries already in `palavras_supridas`:
+    rewriting the text can delete or reinflect a word declared by an earlier
+    cycle, leaving the record claiming a suprimento that is no longer there.
+    Entries whose head no longer occurs in the new text must be dropped or
+    replaced via `palavras_supridas_removidas`, never left dangling;
   * IMPROCEDE / INCONCLUSIVA must leave texto_bv byte-identical;
   * PROCEDE and IMPROCEDE close the objection; INCONCLUSIVA keeps it open;
   * `-final` (maintainer's call, 2026-08-30) refuses INCONCLUSIVA outright:
@@ -62,6 +67,19 @@ review = _load_persist_review()
 def packet_path(book_dir, chapter):
     return os.path.join(ROOT, "qa", "reports", "adjudication-input",
                         "%s-%03d.json" % (book_dir, int(chapter)))
+
+
+def supplied_head(entry):
+    """Head word of a `palavras_supridas` entry.
+
+    The project's convention is `<palavra> — <justificativa>` (also `(nota)`
+    and `"palavra", <justificativa>`), not a bare token, so validation must
+    look at the head only.
+    """
+    head = entry
+    for sep in (" — ", " (", ", "):
+        head = head.split(sep)[0]
+    return head.strip().strip("'\u2018\u2019\u201c\u201d\"")
 
 
 def apply_mudancas(text, mudancas):
@@ -148,9 +166,22 @@ def validate_chapter(out, packet, records, final=False):
                           % osis)
         else:
             for w in supridas:
-                if w not in final:
+                if supplied_head(w).lower() not in final.lower():
                     errors.append("%s: palavra suprida %r não aparece no "
                                   "texto final" % (osis, w))
+        # Reconciliação: entrada declarada num ciclo anterior pode ter sido
+        # apagada ou reflexionada pela correção. Deixá-la é afirmar um
+        # suprimento que não está mais no texto.
+        removidas = v.get("palavras_supridas_removidas") or []
+        for e in (rec.get("palavras_supridas") or []):
+            if supplied_head(e).lower() in final.lower():
+                continue
+            if e in removidas:
+                continue
+            errors.append("%s: entrada de palavras_supridas %r ficou órfã "
+                          "após a correção — declare-a em "
+                          "palavras_supridas_removidas ou substitua-a"
+                          % (osis, supplied_head(e)))
         rebuilt = apply_mudancas(current, mudancas)
         if rebuilt is None:
             errors.append("%s: mudanca não casa com o texto armazenado" % osis)
@@ -185,6 +216,10 @@ def apply_chapter(out, records, modelo):
 
         if verdict == "PROCEDE":
             rec["texto_bv"] = v["texto_bv_final"]
+            for e in (v.get("palavras_supridas_removidas") or []):
+                atuais = rec.get("palavras_supridas") or []
+                if e in atuais:
+                    atuais.remove(e)
             for w in (v.get("palavras_supridas") or []):
                 supridas = rec.setdefault("palavras_supridas", [])
                 if w not in supridas:

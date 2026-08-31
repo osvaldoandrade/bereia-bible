@@ -171,6 +171,49 @@ class PersistAdjudicationTests(unittest.TestCase):
             saved = json.load(f)
         self.assertIn("siclos", saved["palavras_supridas"])
 
+    # ---- reconciliação de palavras_supridas ---------------------------
+    def test_orphaned_supplied_entry_is_refused(self):
+        osis = "Tst.1.1"
+        rec = make_record(osis, "seiscentas unidades de ouro")
+        rec["palavras_supridas"] = ["unidades"]
+        recs = self.records(osis, rec)
+        v = out_verse(
+            osis, "PROCEDE", "seiscentos siclos de ouro",
+            mudancas=[{"antes": "seiscentas unidades", "depois":
+                       "seiscentos siclos", "motivo": "elipse de sheqel"}],
+            evidencia="H8255")
+        errs = adj.validate_chapter(
+            {"versos": [v]}, packet(osis, "seiscentas unidades de ouro"), recs)
+        self.assertTrue(any("ficou órfã" in e for e in errs))
+
+    def test_orphaned_entry_can_be_declared_removed(self):
+        osis = "Tst.1.1"
+        rec = make_record(osis, "seiscentas unidades de ouro")
+        rec["palavras_supridas"] = ["unidades"]
+        recs = self.records(osis, rec)
+        v = out_verse(
+            osis, "PROCEDE", "seiscentos siclos de ouro",
+            mudancas=[{"antes": "seiscentas unidades", "depois":
+                       "seiscentos siclos", "motivo": "elipse de sheqel"}],
+            evidencia="H8255")
+        v["palavras_supridas"] = ["siclos"]
+        v["palavras_supridas_removidas"] = ["unidades"]
+        out = {"book_dir": "99-tt", "chapter": 1, "versos": [v]}
+        self.assertEqual([], adj.validate_chapter(
+            out, packet(osis, "seiscentas unidades de ouro"), recs))
+        adj.apply_chapter(out, recs, "claude-fable-5")
+        with open(recs[osis][0], encoding="utf-8") as f:
+            saved = json.load(f)
+        self.assertEqual(["siclos"], saved["palavras_supridas"])
+
+    def test_annotated_entry_head_is_matched(self):
+        # convenção do projeto: "<palavra> — <justificativa>"
+        self.assertEqual("o", adj.supplied_head("o — artigo definido em 'No'"))
+        self.assertEqual("de", adj.supplied_head("de (2×)"))
+        self.assertEqual("está", adj.supplied_head("'está' (cópula)"))
+        self.assertEqual("mulher", adj.supplied_head(
+            "\u201cmulher\u201d, núcleo nominal suprido da forma feminina"))
+
     # ---- modo final ---------------------------------------------------
     def test_final_mode_refuses_inconclusiva(self):
         osis = "Tst.1.1"

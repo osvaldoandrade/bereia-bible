@@ -380,11 +380,16 @@ Ver `docs/domain/governanca/glossary.md`.
   já sanado por F-0015); a revisão automática não rodou (hang). DRAFT não é publicável;
   consenso pleno + revisão ocorrem na promoção.
 - F-0017: driver de workflow recebe `args` como string JSON — o script faz JSON.parse defensivo.
-- F-0019: nos lotes 1–2 do ER-0020 (adjudicação), palavras supridas pela correção
-  entraram no `texto_bv` sem passar por `palavras_supridas` — Êx 4.25 ("com ele"),
-  1Rs 10.16 e 10.29 ("siclos", elipse de שֶׁקֶל). O prompt v1.1.0 e o persistidor
-  passaram a exigir a declaração, com guarda mecânica; falta o backfill desses
-  versos. Dono: mantenedor.
+- F-0019: **RESOLVIDO em 2026-08-31.** Tinha duas faces, e a segunda só apareceu na
+  varredura do backfill: (a) palavra suprida pela correção entrava no `texto_bv` sem
+  ser declarada (Êx 4.25 "com ele"; 1Rs 10.16/29 "siclos"); (b) pior, reescrever o
+  texto deixava **órfã** a entrada declarada num ciclo anterior — 9 registros
+  afirmavam suprimento que não estava mais lá ("unidades" depois de virar "siclos",
+  "Alguém" depois da voz passiva, "entre" depois de virar "sobre"). O persistidor
+  passou a recusar entrada órfã e aceita `palavras_supridas_removidas`; os 9
+  registros foram reconciliados. `supplied_head()` respeita a convenção do projeto
+  (`palavra — justificativa`, `palavra (nota)`, `"palavra", justificativa`), que a
+  primeira versão da guarda tratava como token nu.
 - F-0018: **RESOLVIDO em 2026-08-30** — os 94 capítulos pré-v2 foram re-revistos sob o
   prompt v1.2.0 (285 vv revisados, 28 objeções MATERIAIS). Cobertura da comparação
   guiada: 1189/1189.
