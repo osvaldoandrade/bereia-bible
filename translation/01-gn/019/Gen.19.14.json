@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Gen.19.1-38"
   },
-  "texto_bv": "Então saiu Ló, e falou a seus genros, os que haviam de casar com suas filhas, e disse: “Levantem-se, saiam deste lugar, porque o SENHOR vai destruir a cidade.” Mas ele pareceu aos olhos de seus genros como quem zombava.",
+  "texto_bv": "Então Ló saiu, e falou a seus genros, os que haviam de casar com suas filhas, e disse: “Levantem-se, saiam deste lugar, porque o SENHOR vai destruir a cidade.” Mas, aos olhos de seus genros, ele era como quem zombava.",
   "traducao_literal": "E saiu Ló, e falou a seus genros, os que tomavam as suas filhas, e disse: “Levantai-vos, saí deste lugar, porque destruindo o SENHOR a cidade.” E foi como um que zombava aos olhos de seus genros.",
   "termos_originais": [
     {
@@ -150,6 +150,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então saiu Ló, e falou → Então Ló saiu, e falou | Mas ele pareceu aos olhos de seus genros como quem zombava. → Mas, aos olhos de seus genros, ele era como quem zombava.",
+      "justificativa": "Ordem V-S do wayyiqtol (וַיֵּצֵא לוֹט); ER-0011 fixa ordem sujeito-verbo em todos os wayyiqtol do texto publicado — a ordem hebraica permanece na traducao_literal. | “parecer como” é pleonástico (parecer já é ‘ser como’) e “pareceu... como quem zombava” trava a leitura. O hebraico diz וַיְהִי כִמְצַחֵק, “era como quem zombava” — a correção aproxima o publicado da própria traducao_literal. — revisão de forma sem alteração de sentido (ER-0019). Aplicada a ordem S-V de ER-0011 ao wayyiqtol inicial e desfeito o pleonasmo “pareceu... como”, aproximando o publicado da literal (“era como quem zombava”). Imperativos “Levantem-se, saiam” com ênclise correta em início de fala.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -161,11 +168,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

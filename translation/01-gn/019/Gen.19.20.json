@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Gen.19.1-38"
   },
-  "texto_bv": "Veja, aquela cidade está perto; posso fugir para lá, e é pequena; ah! deixe-me escapar para lá (não é pequena?), para que viva a minha alma.”",
+  "texto_bv": "Veja, aquela cidade está perto; posso fugir para lá, e é pequena; ah, deixe-me escapar para lá (não é pequena?), para que viva a minha alma.”",
   "traducao_literal": "Eis, ora, a cidade esta próxima para fugir para lá, e ela pequena; escape, ora, para lá — não pequena ela? — e viva a minha alma.”",
   "termos_originais": [
     {
@@ -125,6 +125,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ah! deixe-me → ah, deixe-me",
+      "justificativa": "Ponto de exclamação seguido de minúscula no meio do período é anômalo; a interjeição integra-se à oração com vírgula (“ah, deixe-me escapar”), sem mudar a força do rogo. — revisão de forma sem alteração de sentido (ER-0019). Ajustada apenas a pontuação da interjeição. “aquela cidade” para הַזֹּאת é dêixis já adjudicada (Ló aponta Zoar ao longe); “para que viva a minha alma” conserva o semitismo נַפְשִׁי em paralelo com o v. 19; parêntese retórico “(não é pequena?)” é do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -136,11 +143,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

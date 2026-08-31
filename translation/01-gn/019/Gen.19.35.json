@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "Gen.19.1-38"
   },
-  "texto_bv": "E deram de beber vinho a seu pai também naquela noite; e levantou-se a mais nova, e deitou-se com ele; e ele não percebeu quando ela se deitou, nem quando se levantou.",
+  "texto_bv": "E deram de beber vinho a seu pai também naquela noite; e a mais nova levantou-se, e deitou-se com ele; e ele não percebeu quando ela se deitou, nem quando se levantou.",
   "traducao_literal": "E deram de beber também naquela noite a seu pai vinho; e levantou-se a mais jovem e deitou-se com ele; e não soube no seu deitar-se e no seu levantar-se.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e levantou-se a mais nova, e deitou-se → e a mais nova levantou-se, e deitou-se",
+      "justificativa": "Ordem V-S do wayyiqtol (וַתָּקָם הַצְּעִירָה); ER-0011 fixa ordem sujeito-verbo no publicado — a ordem hebraica permanece na traducao_literal. — revisão de forma sem alteração de sentido (ER-0019). Aplicada a ordem S-V de ER-0011 ao wayyiqtol. O restante repete deliberadamente o v. 33 (mesma fórmula hebraica, וְלֹא־יָדַע בְּשִׁכְבָהּ וּבְקֻמָהּ) — a repetição é o texto, não vício.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,11 +126,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
