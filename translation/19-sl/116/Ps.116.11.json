@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Ps.116.1-19"
   },
-  "texto_bv": "Eu disse, em meu desespero: “Todo homem é mentiroso.”",
+  "texto_bv": "Eu disse, em minha precipitação: “Todo homem é mentiroso.”",
   "traducao_literal": "Eu disse, na minha pressa: todo o homem mentiroso.",
   "termos_originais": [
     {
@@ -59,25 +59,33 @@
       "escolha": "Suprir 'é'",
       "justificativa": "Exigência gramatical do português (ER-0006).",
       "alternativas_rejeitadas": []
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "em meu desespero → em minha precipitação",
+      "justificativa": "Objeção procedente. Evidência do original: בְחָפְזִי (H2648, morfologia HR/Vqc/Sp1cs — preposição בְּ + infinitivo construto qal de חפז + sufixo 1cs). חפז significa apressar-se em alarme, fugir às pressas, precipitar-se (Dt 20:3; 2Sm 4:4; Sl 31:23, mesma fórmula בְחָפְזִי); o campo semântico é pressa/pânico, nunca desespero/desalento. KJV e WEB: 'in my haste'. A objeção procede: 'desespero' (desalento) importa um estado emocional que חפז não codifica; o salmista qualifica o juízo 'todo homem é mentiroso' como dito às pressas, precipitadamente — e não como grito de desesperança. 'Precipitação' conserva a pressa com o matiz de juízo apressado que o contexto pede, em pt-BR natural (ARA idêntica). Observação de consistência (EDITORIAL §1.4, fora deste pacote): Sl 31:23 verte a mesma fórmula בְחָפְזִי como 'em meu desespero' e merece o mesmo reparo em ciclo próprio. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): A BV usa “desespero” onde a traducao_literal e as referências apontam para pressa/precipitação/pânico (heb. חפז), não para desalento. — evidência: traducao_literal: “na minha pressa”; ARA: “na minha precipitação”; NVIPT: “Em pânico”; NTLH: “sem pensar”. “Desespero” (desalento) e “pressa/pânico” (afobação, alarme) não são sinônimos; corrigir mudaria o sentido, por isso registro objeção em vez de alterar o texto. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "'Em pânico' (NVIPT) — חפז também carrega o matiz de alarme/susto (Dt 20:3); perde porque KJV e WEB sustentam juntas 'haste' (pressa) e a camada literal registra 'na minha pressa': 'precipitação' preserva a pressa e o caráter apressado do juízo, enquanto 'pânico' apagaria a pressa em favor só do susto."
+      ],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [
     "é (cópula ausente na oração nominal 'todo homem mentiroso')"
   ],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: 'Em pânico' (NVIPT) — חפז também carrega o matiz de alarme/susto (Dt 20:3); perde porque KJV e WEB sustentam juntas 'haste' (pressa) e a camada literal registra 'na minha pressa': 'precipitação' preserva a pressa e o caráter apressado do juízo, enquanto 'pânico' apagaria a pressa em favor só do susto."
+  ],
   "justificativa": "Confissão retrospectiva de um pensamento de desespero, citado em discurso direto (ER-0004). Verso citado por Paulo em Rm 3:4 (via LXX).",
   "confianca": 0.75,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): A BV usa “desespero” onde a traducao_literal e as referências apontam para pressa/precipitação/pânico (heb. חפז), não para desalento. — evidência: traducao_literal: “na minha pressa”; ARA: “na minha precipitação”; NVIPT: “Em pânico”; NTLH: “sem pensar”. “Desespero” (desalento) e “pressa/pânico” (afobação, alarme) não são sinônimos; corrigir mudaria o sentido, por isso registro objeção em vez de alterar o texto."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

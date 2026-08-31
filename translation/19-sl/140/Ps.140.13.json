@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Ps.140.1-14"
   },
-  "texto_bv": "Sabes que o SENHOR fará justiça ao aflito, juízo aos necessitados.",
+  "texto_bv": "Sei que o SENHOR fará justiça ao aflito, juízo aos necessitados.",
   "traducao_literal": "Sabes que fará o SENHOR causa de aflito, juízo de necessitados.",
   "termos_originais": [
     {
@@ -63,25 +63,32 @@
           "motivo": "exigiria destoar da morfologia 2ms fornecida pela fonte pinada, sem variante registrada no packet que a sustente"
         }
       ]
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "Sabes que o SENHOR fará justiça ao aflito, juízo aos necessitados. → Sei que o SENHOR fará justiça ao aflito, juízo aos necessitados.",
+      "justificativa": "Objeção procedente. Evidência do original: OSHB Ps.140.13: <w type=\"x-ketiv\" lemma=\"3045\" morph=\"HVqp2ms\">ידעת</w> com <rdg type=\"x-qere\"><w lemma=\"3045\" morph=\"HVqp1cs\">יָדַ֗עְתִּי</w></rdg>. O Qere יָדַעְתִּי (H3045, Qal perfeito 1ª comum singular) é a leitura vocalizada da tradição massorética pinada — 'eu sei'. O Ketiv aparece sem vogais: os massoretas não o vocalizaram para leitura. O pacote extraiu somente o Ketiv em termos_originais, mas a base pinada carrega as duas leituras e a vocalização decide pela 1ª pessoa. A objeção tem razão e o original a sustenta. A prática padrão de tradução do TM segue o Qere salvo razão forte em contrário; aqui a vocalização pinada, o baseline de sentido (KJV, 'I know that the LORD will maintain the cause of the afflicted') e o segundo controle (WEB, 'I know that Yahweh will maintain the cause of the afflicted') convergem na 1ª pessoa. A traducao_literal permanece intacta como registro do que o tradutor entendeu (regra dura 3); a correção incide apenas no texto publicado. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O verbo “Sabes” (2ª pessoa, dirigido a Deus: “Tu sabes que o SENHOR fará...”) diverge da leitura padrão do Texto Massorético (יָדַעְתִּי, ‘yada’ti’ = ‘eu sei’, 1ª pessoa, o salmista falando), unanimemente refletida por NTLH (“eu sei que tu defendes...”), ARA (“Sei que o Senhor manterá...”) e NVIPT (“Sei que o Senhor defenderá...”). — evidência: BV/traducao_literal: “Sabes que fará o SENHOR causa de aflito” (2ª pessoa) vs. NTLH “Ó SENHOR Deus, eu sei que tu defendes o direito dos pobres e a causa dos necessitados”; ARA “Sei que o Senhor manterá a causa do aflito, e o direito do necessitado”; NVIPT “Sei que o Senhor defenderá a causa do necessitado e fará justiça aos pobres” (todas em 1ª pessoa). Corrigir exigiria trocar o sujeito do verbo (de ‘tu [SENHOR] sabes’ para ‘eu [salmista] sei’) e reescrever a traducao_literal, o que é mudança de sentido/sujeito gramatical, fora do escopo de uma revisão somente de forma. Registrado para adjudicação de conteúdo; texto mantido inalterado. Nota textual: Versificação: o v.13 hebraico corresponde ao v.12 inglês (sobrescrição do Salmo desloca em um). O campo texto dos controles trazia o v.13 inglês (= v.14 hebraico, 'Surely the righteous shall give thanks...'); o alinhamento correto foi confirmado pelo conteúdo de vizinhos['12'] em KJV e WEB, e pelo próprio OSHB, que anota KJV:Ps.140.12 neste verso. Variante interna do TM: Ketiv ידעת (2ms) / Qere יָדַעְתִּי (1cs); a BV adota o Qere. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "Leitura do Ketiv ידעת como yada'ta (2ª masculina singular, dirigida a Deus): 'Sabes que o SENHOR fará justiça ao aflito' — defensável como texto consonantal e como lectio difficilior. Perde porque o Ketiv está sem vocalização no XML pinado (a vocalização massorética pertence ao Qere de 1cs), e porque KJV e WEB sustentam juntas a 1ª pessoa, acompanhadas por ARA, NVIPT e NTLH."
+      ],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
-    "a pessoa gramatical do verbo ידעת (2ms 'tu sabes', conforme a fonte pinada, vs. 1cs tradicional 'eu sei', predominante nas versões de referência) é uma divergência textual conhecida"
+    "a pessoa gramatical do verbo ידעת (2ms 'tu sabes', conforme a fonte pinada, vs. 1cs tradicional 'eu sei', predominante nas versões de referência) é uma divergência textual conhecida",
+    "Leitura descartada na adjudicação ER-0020: Leitura do Ketiv ידעת como yada'ta (2ª masculina singular, dirigida a Deus): 'Sabes que o SENHOR fará justiça ao aflito' — defensável como texto consonantal e como lectio difficilior. Perde porque o Ketiv está sem vocalização no XML pinado (a vocalização massorética pertence ao Qere de 1cs), e porque KJV e WEB sustentam juntas a 1ª pessoa, acompanhadas por ARA, NVIPT e NTLH."
   ],
   "justificativa": "Verso-charneira: da imprecação (vv.9-12) para a confiança final (v.14); mantém o endereçamento a Deus.",
   "confianca": 0.55,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O verbo “Sabes” (2ª pessoa, dirigido a Deus: “Tu sabes que o SENHOR fará...”) diverge da leitura padrão do Texto Massorético (יָדַעְתִּי, ‘yada’ti’ = ‘eu sei’, 1ª pessoa, o salmista falando), unanimemente refletida por NTLH (“eu sei que tu defendes...”), ARA (“Sei que o Senhor manterá...”) e NVIPT (“Sei que o Senhor defenderá...”). — evidência: BV/traducao_literal: “Sabes que fará o SENHOR causa de aflito” (2ª pessoa) vs. NTLH “Ó SENHOR Deus, eu sei que tu defendes o direito dos pobres e a causa dos necessitados”; ARA “Sei que o Senhor manterá a causa do aflito, e o direito do necessitado”; NVIPT “Sei que o Senhor defenderá a causa do necessitado e fará justiça aos pobres” (todas em 1ª pessoa). Corrigir exigiria trocar o sujeito do verbo (de ‘tu [SENHOR] sabes’ para ‘eu [salmista] sei’) e reescrever a traducao_literal, o que é mudança de sentido/sujeito gramatical, fora do escopo de uma revisão somente de forma. Registrado para adjudicação de conteúdo; texto mantido inalterado."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
