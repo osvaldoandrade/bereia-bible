@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Gen.21.1-34"
   },
-  "texto_bv": "E Deus disse a Abraão: “Não lhe pareça mau aos olhos por causa do moço e por causa da sua serva; em tudo o que Sara lhe disser, ouça a sua voz; porque em Isaque será chamada a sua descendência.",
+  "texto_bv": "E Deus disse a Abraão: “Não pareça mau aos seus olhos por causa do moço e por causa da sua serva; em tudo o que Sara lhe disser, ouça a sua voz; porque em Isaque será chamada a sua descendência.",
   "traducao_literal": "E disse Deus a Abraão: “Não seja mau aos teus olhos por causa do moço e por causa da tua serva; tudo o que te disser Sara, ouve à sua voz; porque em Isaque será chamada para ti semente.",
   "termos_originais": [
     {
@@ -166,6 +166,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não lhe pareça mau aos olhos → Não pareça mau aos seus olhos",
+      "justificativa": "cruzamento de duas construções — \"não lhe pareça mau\" e \"não pareça mau aos seus olhos\" — duplicava o dativo (lhe + aos olhos) e deixava \"olhos\" sem o possessivo que o português exige; o hebraico traz sufixo de 2ª pessoa (בְּעֵינֶיךָ, \"aos teus olhos\"), vertido \"aos seus olhos\" no paradigma você (D-0003) — revisão de forma sem alteração de sentido (ER-0019). A fala de Deus segue em você (D-0003: Deus→humano). A aspa não fecha porque o discurso continua no v. 13, padrão do capítulo para fala que atravessa versículos. \"Será chamada a sua descendência\" verte o nifal יִקָּרֵא com sujeito posposto, ordem natural da passiva portuguesa. Sentido confere com a KJV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -177,11 +184,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

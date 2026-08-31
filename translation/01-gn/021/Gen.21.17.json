@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Gen.21.1-34"
   },
-  "texto_bv": "E Deus ouviu a voz do menino; e o Anjo de Deus, desde os céus, chamou a Agar, e disse-lhe: “O que você tem, Agar? Não tema, porque Deus ouviu a voz do menino desde o lugar onde está.",
+  "texto_bv": "E Deus ouviu a voz do menino; e o Anjo de Deus, desde os céus, chamou a Agar, e disse-lhe: “O que você tem, Agar? Não tema, porque Deus ouviu a voz do menino desde o lugar onde ele está.",
   "traducao_literal": "E ouviu Deus a voz do menino; e chamou o Anjo de Deus a Agar desde os céus, e disse-lhe: “Que tens, Agar? Não temas, porque ouviu Deus à voz do menino no lugar onde ele ali.",
   "termos_originais": [
     {
@@ -180,6 +180,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "desde o lugar onde está → desde o lugar onde ele está",
+      "justificativa": "sujeito nulo de \"está\" era ambíguo entre o menino e a interlocutora Agar dentro da mesma fala; o hebraico explicita o pronome (בַּאֲשֶׁר הוּא־שָׁם, \"onde ele está\"), então \"ele\" desfaz a ambiguidade sem acrescentar nada ao sentido — revisão de forma sem alteração de sentido (ER-0019). Fala do Anjo em você (D-0003). A aspa não fecha porque o discurso continua no v. 18. A repetição \"Deus ouviu a voz do menino\" (narrador e Anjo) reproduz o duplo שָׁמַע אֱלֹהִים אֶת־קוֹל הַנַּעַר do original — mantida. Sentido confere com a KJV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -191,11 +198,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

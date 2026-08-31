@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Gen.21.1-34"
   },
-  "texto_bv": "E Sara viu que o filho de Agar, a egípcia, que ela tinha dado à luz a Abraão, zombava.",
+  "texto_bv": "E Sara viu que o filho de Agar, a egípcia, que ela tinha dado a Abraão, zombava.",
   "traducao_literal": "E viu Sara o filho de Agar, a egípcia, que deu à luz a Abraão, escarnecendo.",
   "termos_originais": [
     {
@@ -105,6 +105,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que ela tinha dado à luz a Abraão → que ela tinha dado a Abraão",
+      "justificativa": "\"dar à luz a X\" lê-se em português como \"parir X\" — a sequência \"dado à luz a Abraão\" produzia a leitura falsa de que Agar teria dado à luz Abraão; \"dar um filho a alguém\" é o idioma que o próprio capítulo já usa para יָלַד + לְ (vv. 2 e 7, §1.4), e o referente do filho permanece intacto — revisão de forma sem alteração de sentido (ER-0019). O antecedente de \"ela\" (Agar, o sintagma imediatamente anterior) é inequívoco. \"Zombava\" verte o particípio מְצַחֵק (durativo), no imperfeito correto; o eco com o nome Isaque (mesma raiz צחק) se perde em qualquer tradução e fica documentado na literal. Sentido confere com a KJV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -118,11 +125,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
