@@ -6,7 +6,10 @@ The review agent changes FORM only, never meaning (EDITORIAL.md scope). This
 script enforces the hard guards mechanically:
 
   * exact OSIS coverage — no invented, omitted or renumbered verse;
-  * records must be DRAFT (REVIEW/APPROVED are never rewritten);
+  * records must be in the cycle's status scope (`-status`, default DRAFT).
+    ER-0022 revisa o cânon já APPROVED, então o escopo passou a ser
+    parâmetro: fixá-lo em DRAFT tornava o revisor inútil no momento em que o
+    texto vira publicável — que é justamente quando revisar mais importa;
   * a verse carrying a MATERIAL objection keeps its texto_bv unchanged;
   * a verse without mudancas keeps its texto_bv unchanged;
   * each applied change is logged in `decisoes` (diretriz_ref ER-0019);
@@ -48,8 +51,8 @@ def lexicon_version():
         return json.load(f).get("versao", "unknown")
 
 
-def load_chapter_records(chapter_dir):
-    """Return ({osis: (path, record)} all files, {osis: ...} DRAFT-only)."""
+def load_chapter_records(chapter_dir, status="DRAFT"):
+    """Return ({osis: (path, record)} all files, {osis: ...} within scope)."""
     records = {}
     for fn in sorted(os.listdir(chapter_dir)):
         if not fn.endswith(".json"):
@@ -58,24 +61,24 @@ def load_chapter_records(chapter_dir):
         with open(path, encoding="utf-8") as f:
             records[fn[:-5]] = (path, json.load(f))
     scope = {osis: pr for osis, pr in records.items()
-             if pr[1].get("status") == "DRAFT"}
+             if pr[1].get("status") == status}
     return records, scope
 
 
-def validate_chapter(out, records, scope):
+def validate_chapter(out, records, scope, status="DRAFT"):
     """Return list of error strings for one review-out chapter."""
     errors = []
     out_osis = [v.get("osis") for v in out.get("versos", [])]
     missing = sorted(set(scope) - set(out_osis))
     extra = sorted(set(out_osis) - set(records))
     if missing:
-        errors.append("versos DRAFT ausentes da saída: %s"
+        errors.append("versos do escopo ausentes da saída: %s"
                       % ",".join(missing[:8]))
     if extra:
         errors.append("versos inventados na saída: %s" % ",".join(extra[:8]))
     for osis in sorted(set(out_osis) & (set(records) - set(scope))):
-        errors.append("%s: status %s não é DRAFT (recusado)"
-                      % (osis, records[osis][1].get("status")))
+        errors.append("%s: status %s fora do escopo %s (recusado)"
+                      % (osis, records[osis][1].get("status"), status))
     if len(out_osis) != len(set(out_osis)):
         errors.append("osis duplicado na saída")
     for v in out.get("versos", []):
@@ -207,6 +210,9 @@ def main(argv=None):
     ap.add_argument("out_files", nargs="+")
     ap.add_argument("-modelo", default=os.environ.get("BV_MODEL",
                                                        "claude-sonnet-5"))
+    ap.add_argument("-status", default="DRAFT",
+                    choices=["DRAFT", "REVIEW", "APPROVED"],
+                    help="estado dos registros que este ciclo revisa")
     args = ap.parse_args(argv)
 
     outs = []
@@ -216,8 +222,8 @@ def main(argv=None):
         book_dir = out["book_dir"]
         chap_dir = os.path.join(ROOT, "translation", book_dir,
                                 "%03d" % int(out["chapter"]))
-        records, scope = load_chapter_records(chap_dir)
-        errors = validate_chapter(out, records, scope)
+        records, scope = load_chapter_records(chap_dir, args.status)
+        errors = validate_chapter(out, records, scope, args.status)
         if errors:
             print("ERROS em %s:" % path)
             for e in errors:

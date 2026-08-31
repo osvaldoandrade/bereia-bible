@@ -32,6 +32,7 @@ import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATUS_SCOPE = "DRAFT"   # sobrescrito por -status em main()
 
 
 def load_script(name):
@@ -101,7 +102,7 @@ def regen_noop(book_dir, chap):
             continue
         with open(os.path.join(chap_dir, fn), encoding="utf-8") as f:
             rec = json.load(f)
-        if rec.get("status") != "DRAFT":
+        if rec.get("status") != STATUS_SCOPE:
             continue
         versos.append({"osis": fn[:-5], "texto_bv_revisto": rec["texto_bv"],
                        "mudancas": [], "objecoes": [],
@@ -216,7 +217,7 @@ def regen_block_from_record(chunk, book, chap):
                             osis + ".json")
     with open(rec_path, encoding="utf-8") as f:
         rec = json.load(f)
-    if rec.get("status") != "DRAFT":
+    if rec.get("status") != STATUS_SCOPE:
         return None
     return {"osis": osis, "texto_bv_revisto": rec["texto_bv"],
             "mudancas": [], "objecoes": [], "veredito": "SEM_ALTERACAO"}
@@ -285,10 +286,16 @@ def main(argv=None):
     ap.add_argument("-modelo", default=os.environ.get("BV_MODEL",
                                                        "claude-sonnet-5"))
     ap.add_argument("-no-push", action="store_true")
+    ap.add_argument("-status", default="DRAFT",
+                    choices=["DRAFT", "REVIEW", "APPROVED"],
+                    help="estado dos registros que este ciclo revisa "
+                         "(ER-0022 revisa o cânon APPROVED)")
     ap.add_argument("--regen-noop", action="append", default=[],
                     metavar="BOOK_DIR/CHAP")
     ap.add_argument("--recover", action="append", default=[], metavar="FILE")
     args = ap.parse_args(argv)
+    global STATUS_SCOPE
+    STATUS_SCOPE = args.status
 
     for spec in args.regen_noop:
         book_dir, chap = spec.split("/")
@@ -323,8 +330,9 @@ def main(argv=None):
     for path in args.out_files:
         with open(path, encoding="utf-8") as f:
             out = json.load(f)
-        records, scope = persist.load_chapter_records(chapter_dir(out))
-        errors = persist.validate_chapter(out, records, scope)
+        records, scope = persist.load_chapter_records(chapter_dir(out),
+                                                       args.status)
+        errors = persist.validate_chapter(out, records, scope, args.status)
         if errors:
             print("ERROS em %s:" % path)
             for e in errors:

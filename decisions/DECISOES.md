@@ -387,6 +387,34 @@ Ver `docs/domain/governanca/glossary.md`.
   executado sobre o texto revisto — permanecem como follow-ups, agora sobre
   corpus APPROVED.
 
+## ER-0022 — Revisão gramatical e de coesão do Antigo Testamento
+
+- Data: 2026-08-31 · Escopo: AT (livros 1–39) · Origem: determinação do
+  mantenedor · Status: EM EXECUÇÃO
+- Regra que governa a etapa: **fidelidade às Escrituras é o teto; norma culta e
+  coesão são o piso.** Colidindo, a fidelidade vence e vira objeção MATERIAL —
+  nunca o contrário. Na maioria dos casos não há colisão: o defeito é calque
+  sintático, regência, concordância ou pronome sem antecedente.
+- Novidade de processo — **janela de contexto**. O digest passa a trazer, por
+  verso, N versos anteriores e posteriores em ordem de leitura, **cruzando
+  fronteira de capítulo**. Motivo: a BV foi redigida um capítulo por vez, então
+  as costuras de coesão estão exatamente nas emendas entre capítulos, e uma
+  janela que parasse na borda seria cega justamente ali. Coesão não é julgável
+  em verso isolado — antecedente pronominal, cadeia temporal, conectivo e
+  continuidade de sujeito vivem entre versos.
+- **KJV como controle de sentido** (mesma escolha do ER-0020): serve para
+  conferir se a BV entendeu a mesma coisa, não para ditar estilo — o inglês de
+  1611 não é modelo de português de 2026. Divergindo da morfologia pinada, a
+  morfologia vence.
+- Correção de pipeline que a etapa exigiu: `persist_review.py` e
+  `ship_review_batch.py` fixavam `status == DRAFT` no código. Como o cânon foi
+  promovido a APPROVED (ER-0021), o revisor não persistiria nada. O escopo
+  virou parâmetro (`-status`, default DRAFT). Fixar o estado tornava o revisor
+  inútil no momento em que o texto vira publicável — que é quando revisar mais
+  importa.
+- Escopo mecânico: 929 capítulos, 23213 versículos, janela ±2.
+- Modelo: `claude-fable-5`.
+
 ---
 
 ## Follow-ups abertos

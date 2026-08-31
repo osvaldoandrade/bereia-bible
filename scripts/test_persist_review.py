@@ -162,7 +162,7 @@ class PersistReviewTests(unittest.TestCase):
              "objecoes": [], "veredito": "SEM_ALTERACAO"},
         ])
         errors = persist.validate_chapter(out_bad, records, scope)
-        self.assertTrue(any("não é DRAFT" in e for e in errors))
+        self.assertTrue(any("fora do escopo DRAFT" in e for e in errors))
 
     def test_material_objection_lands_in_objecoes_nao_resolvidas(self):
         self.write_records([("Tt.1.1", "a", "DRAFT")])
@@ -181,6 +181,38 @@ class PersistReviewTests(unittest.TestCase):
         self.assertEqual(rec["texto_bv"], "a")
         self.assertEqual(len(rec["objecoes_nao_resolvidas"]), 1)
         self.assertIn("MATERIAL", rec["objecoes_nao_resolvidas"][0])
+
+
+class StatusScopeTests(unittest.TestCase):
+    """ER-0022 revisa o cânon APPROVED; o escopo tem de ser parâmetro."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.chap = os.path.join(self.tmp.name, "translation", "99-tt", "001")
+        os.makedirs(self.chap)
+
+    def _write(self, osis, status):
+        path = os.path.join(self.chap, osis + ".json")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(make_record(osis, "texto", status=status), f,
+                      ensure_ascii=False)
+        return path
+
+    def test_approved_scope_admits_approved_record(self):
+        self._write("Tst.1.1", "APPROVED")
+        records, scope = persist.load_chapter_records(self.chap, "APPROVED")
+        self.assertIn("Tst.1.1", scope)
+        out = {"versos": [{"osis": "Tst.1.1", "texto_bv_revisto": "texto",
+                           "mudancas": [], "objecoes": [],
+                           "veredito": "SEM_ALTERACAO"}]}
+        self.assertEqual([], persist.validate_chapter(out, records, scope,
+                                                      "APPROVED"))
+
+    def test_draft_record_is_out_of_approved_scope(self):
+        self._write("Tst.1.1", "DRAFT")
+        records, scope = persist.load_chapter_records(self.chap, "APPROVED")
+        self.assertEqual({}, scope)
 
 
 if __name__ == "__main__":
