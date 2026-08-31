@@ -56,6 +56,29 @@ def chapter_dir(out):
                         "%03d" % int(out["chapter"]))
 
 
+def normalize_objection_severity(out):
+    """Agent wart (ER-0022): objections emitted with `tipo` instead of
+    `gravidade`.
+
+    Both carry the same MATERIAL/EDITORIAL value — `tipo` is the key used for
+    the *mudanca* classification, and the agent reaches for it by analogy. The
+    content is unambiguous, so the key is renamed rather than the whole chapter
+    rejected. An objection carrying neither key is left alone and the
+    persistence guard refuses it, as it should.
+    """
+    fixed = 0
+    for v in out.get("versos", []):
+        for o in (v.get("objecoes") or []):
+            if o.get("gravidade"):
+                continue
+            alias = str(o.get("tipo", "")).upper()
+            if alias in ("MATERIAL", "EDITORIAL"):
+                o["gravidade"] = alias
+                o.pop("tipo", None)
+                fixed += 1
+    return fixed
+
+
 def repair_quote_swaps(out):
     """Revert quote-only diffs on no-mudanca verses: quote-style swaps and
     the boundary-quote wart (agent adds/drops an opening or closing quote
@@ -313,12 +336,16 @@ def main(argv=None):
         except json.JSONDecodeError as e:
             print("MALFORMED (manual): %s — %s" % (path, e))
             return 1
+        sev = normalize_objection_severity(out)
+        if sev:
+            print("%s: %d objeção(ões) com `tipo` normalizada(s) para "
+                  "`gravidade`" % (os.path.basename(path), sev))
         fixed, bad = repair_quote_swaps(out)
         if bad:
             print("NON-QUOTE diff without mudancas (manual): %s — %s"
                   % (path, ",".join(bad)))
             return 1
-        if fixed:
+        if fixed or sev:
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(out, f, ensure_ascii=False, indent=1)
                 f.write("\n")

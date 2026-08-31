@@ -86,7 +86,11 @@ some corrigir sem tocar em uma vírgula do sentido.
    persistência, e o texto é reconstruído só a partir do que você registrou.
 4. Cobertura exata: um objeto de saída por verso do digest, na mesma ordem.
 5. Verso com objeção MATERIAL tem `texto_bv_revisto` **idêntico** à entrada.
-6. Você vê o contexto para **julgar**, mas só edita o verso corrente. Se a
+6. Cada objeção é um objeto `{"gravidade", "problema", "evidencia"}`, e
+   `gravidade` é exatamente `"MATERIAL"` ou `"EDITORIAL"`. O campo chama-se
+   **`gravidade`**, não `tipo` — `tipo` é a classificação da *mudança*, outra
+   coisa. Objeção sem `gravidade` é recusada na persistência.
+7. Você vê o contexto para **julgar**, mas só edita o verso corrente. Se a
    correção exigir mexer no vizinho, registre objeção EDITORIAL dizendo qual.
 
 ## Formato de saída
@@ -106,6 +110,16 @@ some corrigir sem tocar em uma vírgula do sentido.
       "objecoes": [],
       "justificativa": "…",
       "veredito": "REVISADO"
+    },
+    {
+      "osis": "Gen.2.7",
+      "texto_bv_revisto": "… (idêntico à entrada quando há objeção MATERIAL)",
+      "mudancas": [],
+      "objecoes": [
+        {"gravidade": "MATERIAL", "problema": "…", "evidencia": "…"}
+      ],
+      "justificativa": "…",
+      "veredito": "SEM_ALTERACAO"
     }
   ]
 }
