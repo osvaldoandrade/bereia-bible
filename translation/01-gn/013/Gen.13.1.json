@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Gen.13.1-18"
   },
-  "texto_bv": "E subiu Abrão do Egito para o Neguebe, ele e a sua mulher, e tudo o que tinha, e Ló com ele.",
+  "texto_bv": "E Abrão subiu do Egito para o Neguebe, ele e a sua mulher, e tudo o que tinha, e Ló com ele.",
   "traducao_literal": "E subiu Abrão do Egito, ele e a sua mulher, e tudo o que era dele, e Ló com ele, para o Neguebe.",
   "termos_originais": [
     {
@@ -81,6 +81,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E subiu Abrão do Egito → E Abrão subiu do Egito",
+      "justificativa": "Ordem V-S calcada do wayyiqtol hebraico (וַיַּעַל אַבְרָם); ER-0011 fixa ordem sujeito-verbo uniforme em todos os wayyiqtol do texto publicado. A ordem V-S do original permanece na traducao_literal. Sentido intacto. — revisão de forma sem alteração de sentido (ER-0019). A aposição polissindética “ele e a sua mulher, e tudo o que tinha, e Ló com ele” foi mantida: espelha a lista apositiva do hebraico (הוּא וְאִשְׁתּוֹ וְכָל־אֲשֶׁר־לוֹ וְלוֹט עִמּוֹ) e lê-se naturalmente como enumeração de comitiva; a KJV tem a mesma estrutura. O “E” inicial é wayyiqtol narrativo retomando 12.20, vertido conforme ER-0013.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -92,10 +99,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
