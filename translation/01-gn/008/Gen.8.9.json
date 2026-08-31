@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Gen.8.1-22"
   },
-  "texto_bv": "Mas a pomba não achou onde pousar a planta do pé, e voltou a ele para a arca, porque as águas estavam sobre a face de toda a terra. Ele estendeu a mão, e a tomou, e a recolheu consigo na arca.",
+  "texto_bv": "Mas a pomba não achou onde pousar a planta do pé, e voltou a ele, para a arca, porque as águas estavam sobre a face de toda a terra. Ele estendeu a mão, e a tomou, e a recolheu consigo na arca.",
   "traducao_literal": "E não achou a pomba repouso para a planta do seu pé, e voltou a ele para a arca, porque águas sobre a face de toda a terra; e estendeu a sua mão e a tomou, e a fez vir a si para a arca.",
   "termos_originais": [
     {
@@ -153,6 +153,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e voltou a ele para a arca → e voltou a ele, para a arca",
+      "justificativa": "o duplo complemento direcional de אֵלָיו אֶל־הַתֵּבָה empilha 'a ele' e 'para a arca' sem pausa; a vírgula marca o segundo termo como especificação do primeiro, como no hebraico, e desfaz a leitura em cadeia na voz alta — revisão de forma sem alteração de sentido (ER-0019). 'Ele' (Noé) sem ambiguidade: único referente masculino da sequência — a pomba é retomada pelos clíticos femininos 'a'. 'Sobre a face de toda a terra' é semitismo consagrado (פְּנֵי), mantido. Polissíndeto final ('e a tomou, e a recolheu') espelha a cadeia de waw.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -164,10 +171,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

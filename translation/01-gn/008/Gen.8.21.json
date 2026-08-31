@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Gen.8.1-22"
   },
-  "texto_bv": "E o SENHOR sentiu o aroma suave e disse no seu coração: “Não tornarei a amaldiçoar o solo por causa do homem, porque a inclinação do coração do homem é má desde a sua mocidade. Nem tornarei a ferir todo vivente, como fiz.”",
+  "texto_bv": "E o SENHOR sentiu o aroma suave e disse no seu coração: “Não tornarei a amaldiçoar o solo por causa do homem, porque a inclinação do coração do homem é má desde a sua mocidade. Nem tornarei a ferir todo vivente, como fiz.",
   "traducao_literal": "E cheirou o SENHOR o aroma da suavidade, e disse o SENHOR ao seu coração: “Não continuarei a amaldiçoar mais o solo por causa do homem, porque a inclinação do coração do homem é má desde a sua mocidade; e não continuarei mais a ferir todo vivente, conforme fiz.",
   "termos_originais": [
     {
@@ -229,6 +229,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "como fiz.” → como fiz.",
+      "justificativa": "a fala do SENHOR prossegue em 8.22, que já traz o fechamento; a convenção do corpus abre aspas uma vez e fecha só no fim do discurso (cf. 8.16–17 e Gen.9.1) — o fechamento aqui deixava o par desequilibrado: dois fechamentos para uma única abertura — revisão de forma sem alteração de sentido (ER-0019). Paralelo 'Não tornarei... Nem tornarei' espelha לֹא אֹסִף... וְלֹא אֹסִף e foi mantido; 'disse no seu coração' é idiomatismo consagrado; 'mocidade' é literário vivo (cf. ARA), não arcaísmo morto da tabela §1.2. Período longo já dividido por ponto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -242,11 +249,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

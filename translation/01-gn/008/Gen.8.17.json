@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Gen.8.1-22"
   },
-  "texto_bv": "Faça sair com você todos os animais que estão com você, de toda carne, aves, e gado, e todo réptil que rasteja sobre a terra; e povoem a terra, e frutifiquem, e se multipliquem sobre a terra.”",
+  "texto_bv": "Faça sair com você todos os animais que estão com você, de toda carne, aves, e gado, e todo réptil que rasteja sobre a terra; e que povoem a terra, e frutifiquem, e se multipliquem sobre a terra.”",
   "traducao_literal": "Todo o animal que contigo, de toda carne, na ave e no gado e em todo réptil que rasteja sobre a terra, faze sair contigo; e enxameiem na terra, e frutifiquem e se multipliquem sobre a terra.”",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e povoem a terra → e que povoem a terra",
+      "justificativa": "sem marca de 3ª pessoa, 'povoem/frutifiquem/multipliquem' lê-se como imperativo dirigido a vocês (Noé e família — exatamente os verbos de Gen.9.1); o hebraico (וְשָׁרְצוּ, weqatal 3cp) refere os animais; 'e que' marca o jussivo de 3ª pessoa e desfaz a ambiguidade de referente sem subordinar o que o hebraico coordena — revisão de forma sem alteração de sentido (ER-0019). Duplo 'com você' espelha אִתְּךָ 2× no hebraico; enumeração polissindética conforme o estilo do capítulo; 'povoem' para שׁרץ é decisão de sentido de ciclo anterior, não tocada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -160,11 +167,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
