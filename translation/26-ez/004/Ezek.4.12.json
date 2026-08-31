@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Ezek.4.1-17"
   },
-  "texto_bv": "Você comerá um bolo de cevada; e o cozerá sobre esterco humano, à vista deles.",
+  "texto_bv": "Você comerá um bolo de cevada; e o assará sobre esterco humano, à vista deles.",
   "traducao_literal": "E bolo de cevadas comê-lo-ás; e ela, sobre excrementos de saída de o homem cozê-la-ás diante dos olhos deles.",
   "termos_originais": [
     {
@@ -68,23 +68,31 @@
           "motivo": "soaria artificial e repetitivo em português corrente"
         }
       ]
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "e o cozerá sobre esterco humano → e o assará sobre esterco humano",
+      "justificativa": "Objeção procedente. Evidência do original: תְּעֻגֶ֖נָה (lemma H5746, HVqi2ms/Sp3fs) — qal imperfeito 2ms com sufixo 3fs, verbo denominativo de עֻגָה (H5692, 'bolo assado sobre pedras/brasas'), que abre o próprio verso em וְעֻגַ֥ת שְׂעֹרִ֖ים. O hebraico faz eco lexical bolo→assar-como-bolo: a ação é assar em calor seco, com בְּגֶֽלְלֵי צֵאַת הָאָדָם (H1561 + H6627) como combustível. KJV 'bake' e WEB 'bake' confirmam o baseline de sentido. A objeção procede quanto ao texto publicado: 'cozer' sugere primariamente cocção úmida/fervura, incompatível com o denominativo de עֻגָה. A traducao_literal, também citada na objeção, permanece intocada por regra dura (registro do que a fonte dizia). Alinhamento dos controles confirmado pelo conteúdo (bolo de cevada, esterco, à vista deles; vizinhos 11 e 13 batem) — sem deslocamento de versificação. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): traducao_literal usa \"cozer\" (fervura) para a preparação do pão sobre esterco, mas as três referências convergem em \"assar\" (calor seco: ARA \"assarás\", NVIPT \"asse-o\", NTLH \"assará o pão\") — método de cocção diferente do hebraico provavelmente denota \"assar\", não \"cozer\". — evidência: ARA: \"à vista deles a assarás sobre o excremento humano\"; NVIPT: \"asse-o à vista do povo, usando fezes humanas como combustível\"; NTLH: \"assará o pão nas brasas\". BV/traducao_literal: \"cozê-la-ás\". Corrigir mudaria o verbo/sentido da ação descrita (fervura × assamento), excedendo o escopo de forma desta revisão. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "'Cozer' no sentido lato de 'preparar pelo calor' (uso genérico atestado em pt-europeu e em registro antigo) — perde porque em pt-BR contemporâneo 'cozer' evoca fervura/cocção úmida, enquanto a morfologia pinada (H5746 denominativo de H5692) e os dois controles ingleses ('bake') apontam calor seco; ARA/NVIPT/NTLH convergem em 'assar'."
+      ],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: 'Cozer' no sentido lato de 'preparar pelo calor' (uso genérico atestado em pt-europeu e em registro antigo) — perde porque em pt-BR contemporâneo 'cozer' evoca fervura/cocção úmida, enquanto a morfologia pinada (H5746 denominativo de H5692) e os dois controles ingleses ('bake') apontam calor seco; ARA/NVIPT/NTLH convergem em 'assar'."
+  ],
   "justificativa": "Ordem de cozinhar o pão sobre combustível de esterco humano, à vista do povo — elemento chocante do sinal-ato, não suavizado (TEOLOGIA §2).",
   "confianca": 0.76,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): traducao_literal usa \"cozer\" (fervura) para a preparação do pão sobre esterco, mas as três referências convergem em \"assar\" (calor seco: ARA \"assarás\", NVIPT \"asse-o\", NTLH \"assará o pão\") — método de cocção diferente do hebraico provavelmente denota \"assar\", não \"cozer\". — evidência: ARA: \"à vista deles a assarás sobre o excremento humano\"; NVIPT: \"asse-o à vista do povo, usando fezes humanas como combustível\"; NTLH: \"assará o pão nas brasas\". BV/traducao_literal: \"cozê-la-ás\". Corrigir mudaria o verbo/sentido da ação descrita (fervura × assamento), excedendo o escopo de forma desta revisão."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

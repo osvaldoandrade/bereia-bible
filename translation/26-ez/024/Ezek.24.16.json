@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Ezek.24.1-27"
   },
-  "texto_bv": "“Filho do homem, eis que tiro de ti a delícia dos teus olhos com uma praga; não te lamentarás, nem chorarás, e não te correrão as lágrimas.",
+  "texto_bv": "“Filho do homem, eis que tiro de ti a delícia dos teus olhos com um golpe; não te lamentarás, nem chorarás, e não te correrão as lágrimas.",
   "traducao_literal": "Filho de homem, eis-me tirando de ti a delícia dos teus olhos com golpe; e não te lamentarás e não chorarás, e não virá a tua lágrima.",
   "termos_originais": [
     {
@@ -92,22 +92,33 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
-  "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "decisoes": [
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "com uma praga → com um golpe",
+      "justificativa": "Objeção procedente. Evidência do original: bemaggephah (H4046 maggephah, morfologia HR/Ncfsa: preposicao b + substantivo feminino singular absoluto), nomen derivado de nagaph (H5062) 'golpear, ferir'. O lemma cobre tanto 'golpe' quanto 'praga/mortandade', e o contexto decide: o v.18 narra a morte subita de uma unica pessoa ('a tarde morreu minha mulher'), nao uma pestilencia coletiva. KJV 'with a stroke' e WEB 'with a stroke' concordam entre si e com a traducao_literal da propria BV ('com golpe'). A morfologia pinada sustenta a objecao. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): \"praga\" diverge da traducao_literal (\"golpe\") e das três referências, que convergem em \"golpe\" (um golpe único e súbito, não uma aflição/moléstia). — evidência: traducao_literal: 'com golpe'; NTLH: 'com um só golpe'; ARA: 'dum golpe'; NVIPT: 'com um único golpe'. Nota textual: Alinhamento de versificacao confirmado pelo conteudo dos vizinhos (v.15: formula 'veio a mim a palavra do SENHOR'; v.17: luto proibido, turbante e sandalias). Nenhuma divergencia KJV x WEB no versiculo. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "'praga/pestilencia', sentido frequente de maggephah (H4046) em contextos de mortandade coletiva (Nm 14:37; 1Sm 6:4; Zc 14:12); perde porque aqui o referente e a morte subita de uma unica pessoa na mesma tarde (v.18) e porque KJV, WEB e a traducao_literal convergem em 'golpe' (stroke) — o aspecto de golpe unico e desferido por Deus, nao o de epidemia."
+      ],
+      "diretriz_ref": "ER-0020"
+    }
+  ],
+  "palavras_supridas": [
+    "um"
+  ],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: 'praga/pestilencia', sentido frequente de maggephah (H4046) em contextos de mortandade coletiva (Nm 14:37; 1Sm 6:4; Zc 14:12); perde porque aqui o referente e a morte subita de uma unica pessoa na mesma tarde (v.18) e porque KJV, WEB e a traducao_literal convergem em 'golpe' (stroke) — o aspecto de golpe unico e desferido por Deus, nao o de epidemia."
+  ],
   "justificativa": "Anúncio da morte iminente da esposa de Ezequiel ('a delícia dos teus olhos'), com proibição do luto costumeiro — sinal profético para o povo.",
   "confianca": 0.78,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): \"praga\" diverge da traducao_literal (\"golpe\") e das três referências, que convergem em \"golpe\" (um golpe único e súbito, não uma aflição/moléstia). — evidência: traducao_literal: 'com golpe'; NTLH: 'com um só golpe'; ARA: 'dum golpe'; NVIPT: 'com um único golpe'."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Ezek.47.1-23"
   },
-  "texto_bv": "Assim diz o Senhor DEUS: “Esta é a fronteira segundo a qual vocês repartirão a terra em herança para as doze tribos de Israel: a José caberão porções.”",
+  "texto_bv": "Assim diz o Senhor DEUS: “Esta é a fronteira segundo a qual vocês repartirão a terra em herança para as doze tribos de Israel: a José caberão duas porções.”",
   "traducao_literal": "Assim disse o Senhor DEUS: esta [é] a fronteira segundo a qual herdareis a terra, para as doze tribos de Israel; José, porções.",
   "termos_originais": [
     {
@@ -109,27 +109,35 @@
           "motivo": "acrescentaria um número não expresso no hebraico deste versículo, mesmo sendo a leitura tradicional"
         }
       ]
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "a José caberão porções → a José caberão duas porções",
+      "justificativa": "Objeção procedente. Evidência do original: יוֹסֵף חֲבָלִים (H3130 + H2256a, HNcbpa) — 'José, porções', plural de חֶבֶל ('corda de medir; quinhão') em cláusula verbless elíptica. O plural em contexto de repartição entre doze tribos com Levi excluído da terra (Ez 44:28) denota as duas porções concretizadas em Ez 48:4-5 (Manassés e Efraim, uma porção cada); o consonantal חבלים admite a vocalização dual חֲבָלַיִם ('duas porções'). O numeral é elidido pelo hebraico e suprido na tradução, declarado em palavras_supridas. A objeção é reivindicação semântica legítima e o original a sustenta. Controles alinhados por conteúdo (v.12 rio/árvores, v.14 juramento aos pais) e concordes entre si — KJV 'Joseph shall have two portions', WEB idem —, logo não há variante textual. Pelo critério de desempate: a morfologia plural pinada comporta as duas leituras; empatada a morfologia, vence a leitura que KJV e WEB sustentam juntas ('duas porções'), que também é a das referências pt (NTLH/ARA/NVIPT) citadas na objeção. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): Possível omissão do numeral 'duas' (porções) para José: NTLH/ARA/NVIPT convergem em indicar 'duas partes/porções', ausentes na traducao_literal e no texto_bv. — evidência: traducao_literal: 'José, porções' (sem numeral); NTLH: 'a tribo de José receberá duas partes'; ARA: 'José terá duas partes'; NVIPT: 'com duas porções para José'. Corrigir exigiria acrescentar conteúdo numérico ausente na camada literal pinada — mudança de sentido, fora do escopo de revisão de forma; requer verificação de fidelidade ao hebraico antes de qualquer ajuste no texto_bv. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "Plural indeterminado 'porções' sem numeral, aderindo estritamente à vocalização massorética plural de חֲבָלִים (HNcbpa, não dual); perde porque a aritmética do próprio esquema de Ezequiel (doze territórios com Levi excluído; Ez 48:4-5 dá uma porção a Manassés e uma a Efraim) fixa o número em dois, KJV e WEB suprem o numeral em uníssono, e o consonantal חבלים admite a vocalização dual חֲבָלַיִם."
+      ],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [
-    "caberão (verbo suprido para a oração nominal 'José, porções')"
+    "caberão (verbo suprido para a oração nominal 'José, porções')",
+    "duas"
   ],
   "ambiguidades_preservadas": [
-    "Número exato de 'porções' de José não é especificado no texto hebraico deste versículo, embora a tradição (Efraim/Manassés) entenda como porção dupla"
+    "Número exato de 'porções' de José não é especificado no texto hebraico deste versículo, embora a tradição (Efraim/Manassés) entenda como porção dupla",
+    "Leitura descartada na adjudicação ER-0020: Plural indeterminado 'porções' sem numeral, aderindo estritamente à vocalização massorética plural de חֲבָלִים (HNcbpa, não dual); perde porque a aritmética do próprio esquema de Ezequiel (doze territórios com Levi excluído; Ez 48:4-5 dá uma porção a Manassés e uma a Efraim) fixa o número em dois, KJV e WEB suprem o numeral em uníssono, e o consonantal חבלים admite a vocalização dual חֲבָלַיִם."
   ],
   "justificativa": "Fórmula introdutória ('assim diz o Senhor DEUS') abrindo a seção da distribuição territorial entre as tribos.",
   "confianca": 0.73,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): Possível omissão do numeral 'duas' (porções) para José: NTLH/ARA/NVIPT convergem em indicar 'duas partes/porções', ausentes na traducao_literal e no texto_bv. — evidência: traducao_literal: 'José, porções' (sem numeral); NTLH: 'a tribo de José receberá duas partes'; ARA: 'José terá duas partes'; NVIPT: 'com duas porções para José'. Corrigir exigiria acrescentar conteúdo numérico ausente na camada literal pinada — mudança de sentido, fora do escopo de revisão de forma; requer verificação de fidelidade ao hebraico antes de qualquer ajuste no texto_bv."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

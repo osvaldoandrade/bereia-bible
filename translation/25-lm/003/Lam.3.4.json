@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Lam.3.1-66"
   },
-  "texto_bv": "Ele consumiu minha carne e minha pele; quebrou meus ossos.",
+  "texto_bv": "Ele fez envelhecer minha carne e minha pele; quebrou meus ossos.",
   "traducao_literal": "Consumiu minha carne e minha pele, quebrou meus ossos.",
   "termos_originais": [
     {
@@ -37,24 +37,33 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "consumiu → fez envelhecer",
+      "justificativa": "Objeção procedente. Evidência do original: בִּלָּ֤ה (H1086, morfologia HVpp3ms — piel perfeito 3ms de בָּלָה balah, 'gastar-se, envelhecer'). O qal descreve o desgaste de roupa e corpo (Dt 8:4; Gn 18:12); o piel aqui e fatitivo: 'fez gastar / fez envelhecer' a carne e a pele. KJV 'My flesh and my skin hath he made old' e WEB 'has he made old' — os dois controles, alinhados por conteudo (carne, pele, ossos), confirmam o sentido fatitivo de envelhecimento/desgaste, nao o de consumo. A objecao tem razao contra o original: o campo semantico de H1086 e o desgaste progressivo (roupa, corpo que envelhece), nao a devoracao. 'Consumiu' desloca a metafora do poeta — o corpo gasto como veste — para destruicao por fogo/devoracao. Baseline KJV e segundo controle WEB concordam entre si ('made old'), afastando hipotese de variante textual; a morfologia pinada decide pelo fatitivo. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O verbo 'consumiu' diverge do verbo 'envelhecer', usado de forma convergente por NTLH, ARA e NVIPT para o mesmo verbo hebraico. — evidência: NTLH: \"Deus fez envelhecer a minha carne e a minha pele\"; ARA: \"Fez envelhecer a minha carne e a minha pele\"; NVIPT: \"Fez que a minha pele e a minha carne envelhecessem\". A traducao_literal ancora \"Consumiu minha carne e minha pele\". (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "Leitura 'fez definhar/consumiu' (linha ESV 'waste away', NASB), que toma o piel de balah como desgaste ate a exaustao da carne; perde porque a imagem nuclear de H1086 e o envelhecimento/desgaste da veste (Dt 8:4), os dois controles ingleses traduzem 'made old' e NTLH/ARA/NVIPT convergem em 'envelhecer' — o desgaste extremo fica implicito no contexto sem precisar do verbo 'consumir'."
+      ],
+      "diretriz_ref": "ER-0020"
+    }
+  ],
   "palavras_supridas": [
     "ele"
   ],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: Leitura 'fez definhar/consumiu' (linha ESV 'waste away', NASB), que toma o piel de balah como desgaste ate a exaustao da carne; perde porque a imagem nuclear de H1086 e o envelhecimento/desgaste da veste (Dt 8:4), os dois controles ingleses traduzem 'made old' e NTLH/ARA/NVIPT convergem em 'envelhecer' — o desgaste extremo fica implicito no contexto sem precisar do verbo 'consumir'."
+  ],
   "justificativa": "Continuação da série de qatal descrevendo o sofrimento físico infligido.",
   "confianca": 0.78,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O verbo 'consumiu' diverge do verbo 'envelhecer', usado de forma convergente por NTLH, ARA e NVIPT para o mesmo verbo hebraico. — evidência: NTLH: \"Deus fez envelhecer a minha carne e a minha pele\"; ARA: \"Fez envelhecer a minha carne e a minha pele\"; NVIPT: \"Fez que a minha pele e a minha carne envelhecessem\". A traducao_literal ancora \"Consumiu minha carne e minha pele\"."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "claude-fable-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
