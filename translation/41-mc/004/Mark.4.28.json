@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Mark.4.1-41"
   },
-  "texto_bv": "A terra produz fruto por si mesma: primeiro a erva, depois a espiga, depois o grão maduro na espiga.",
+  "texto_bv": "A terra produz fruto por si mesma: primeiro a erva, depois a espiga, depois o grão cheio na espiga.",
   "traducao_literal": "Por si mesma a terra dá fruto, primeiro erva, depois espiga, depois pleno trigo na espiga.",
   "termos_originais": [
     {
@@ -82,19 +82,28 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "depois o grão maduro na espiga → depois o grão cheio na espiga",
+      "justificativa": "Objeção procedente. Evidência do original: πλήρης σῖτος ἐν τῷ στάχυϊ — πλήρης (G4134, A-NSM), 'cheio/pleno', qualificando σῖτος (G4621, N-NSM), 'trigo/grão'. O adjetivo descreve a plenitude do grão na espiga, não seu estágio de maturação; KJV 'the full corn in the ear' e WEB 'the full grain in the ear' sustentam a mesma leitura. A objeção procede: 'maduro' é glosa interpretativa que antecipa o v.29; o texto pinado diz 'cheio'. Morfologia, os dois controles e as três referências pt-BR (ARA/NVIPT 'grão cheio', NTLH 'grãos que enchem a espiga') apontam na mesma direção. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): “grão maduro” verte πλήρης (“pleno/cheio”) por interpretação; a correção para “grão cheio” — convergência de NTLH/ARA/NVIPT e da traducao_literal (“pleno trigo na espiga”) — é ajuste semântico (maduro ≠ cheio), fora do escopo da revisão de forma. — evidência: traducao_literal: “depois pleno trigo na espiga”; ARA e NVIPT: “grão cheio na espiga”; NTLH: “grãos que enchem a espiga” — as três referências convergem em “cheio/encher” contra “maduro”. Nota textual: O Nestle 1904 pinado lê πλήρης σῖτος (nominativo, A-NSM/N-NSM); parte da tradição manuscrita traz πλήρη σῖτον (acusativo). A diferença é sintática e não afeta o sentido 'grão cheio'. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "'Grão maduro' como equivalência dinâmica (o grão cheio é o grão que atingiu a maturidade); perde porque a morfologia pinada de πλήρης (G4134) codifica plenitude, não maturação, e a ideia de 'pronto para a colheita' pertence ao v.29, onde o original a expressa com outro vocabulário."
+      ],
+      "diretriz_ref": "ER-0020"
+    }
+  ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: 'Grão maduro' como equivalência dinâmica (o grão cheio é o grão que atingiu a maturidade); perde porque a morfologia pinada de πλήρης (G4134) codifica plenitude, não maturação, e a ideia de 'pronto para a colheita' pertence ao v.29, onde o original a expressa com outro vocabulário."
+  ],
   "justificativa": "αὐτομάτη ('por si mesma, espontaneamente') mantido; sequência tríplice de crescimento preservada.",
   "confianca": 0.77,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): “grão maduro” verte πλήρης (“pleno/cheio”) por interpretação; a correção para “grão cheio” — convergência de NTLH/ARA/NVIPT e da traducao_literal (“pleno trigo na espiga”) — é ajuste semântico (maduro ≠ cheio), fora do escopo da revisão de forma. — evidência: traducao_literal: “depois pleno trigo na espiga”; ARA e NVIPT: “grão cheio na espiga”; NTLH: “grãos que enchem a espiga” — as três referências convergem em “cheio/encher” contra “maduro”."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-fable-5",

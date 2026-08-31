@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Mark.4.1-41"
   },
-  "texto_bv": "E disse-lhes: \"Por acaso a lâmpada vem para ser posta debaixo do módio, ou debaixo da cama? Não é para ser posta sobre o candeeiro?\"",
+  "texto_bv": "E disse-lhes: \"Por acaso a lâmpada vem para ser posta debaixo do módio, ou debaixo da cama? Não é para ser posta sobre o velador?\"",
   "traducao_literal": "E dizia a eles: Por acaso vem a lâmpada para que debaixo do módio seja posta, ou debaixo da cama? Não para que sobre o candeeiro seja posta?",
   "termos_originais": [
     {
@@ -142,20 +142,28 @@
           "motivo": "medida agrária portuguesa sem tradição firme na BV"
         }
       ]
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "Não é para ser posta sobre o candeeiro? → Não é para ser posta sobre o velador?",
+      "justificativa": "Objeção procedente. Evidência do original: ἐπὶ τὴν λυχνίαν τεθῇ — λυχνίαν (λυχνία, G3087, N-ASF), o suporte/pedestal de lâmpada, em oposição deliberada a ὁ λύχνος (G3088, N-NSM), a lâmpada, no mesmo verso. KJV 'set on a candlestick' e WEB 'put on a stand' confirmam o suporte como referente. A objeção é reivindicação semântica legítima: o verso opõe dois lexemas gregos (λύχνος × λυχνία) e a BV vertia ambos por termos que em pt-BR pertencem ao mesmo campo referencial de 'aparelho de iluminação', colapsando a oposição. KJV e WEB sustentam juntas a leitura de suporte. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): “candeeiro” designa em pt-BR o próprio aparelho de iluminação, não o suporte; λυχνία é o suporte/velador de lâmpada, e “a lâmpada … posta sobre o candeeiro” fica referencialmente confusa. Corrigir (p.ex. para “velador”, como ARA) trocaria o referente do lexema — correção semântica vedada à revisão de forma, e a traducao_literal usa o mesmo “candeeiro”. — evidência: traducao_literal: “Não para que sobre o candeeiro seja posta?”; ARA “velador”; NTLH “lugar próprio”; NVIPT “lugar apropriado” — nenhuma referência usa “candeeiro” para λυχνία. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "Tradução funcional 'lugar próprio/apropriado' (NTLH/NVIPT) para λυχνία; perde porque apaga o referente concreto do lexema (o suporte de lâmpada) que a morfologia pinada e os dois controles (KJV 'candlestick', WEB 'stand') preservam — a BV privilegia a equivalência formal auditável."
+      ],
+      "diretriz_ref": "ER-0020"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: Tradução funcional 'lugar próprio/apropriado' (NTLH/NVIPT) para λυχνία; perde porque apaga o referente concreto do lexema (o suporte de lâmpada) que a morfologia pinada e os dois controles (KJV 'candlestick', WEB 'stand') preservam — a BV privilegia a equivalência formal auditável."
+  ],
   "justificativa": "Ditado proverbial sobre a lâmpada; μήτι espera resposta negativa.",
   "confianca": 0.75,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): “candeeiro” designa em pt-BR o próprio aparelho de iluminação, não o suporte; λυχνία é o suporte/velador de lâmpada, e “a lâmpada … posta sobre o candeeiro” fica referencialmente confusa. Corrigir (p.ex. para “velador”, como ARA) trocaria o referente do lexema — correção semântica vedada à revisão de forma, e a traducao_literal usa o mesmo “candeeiro”. — evidência: traducao_literal: “Não para que sobre o candeeiro seja posta?”; ARA “velador”; NTLH “lugar próprio”; NVIPT “lugar apropriado” — nenhuma referência usa “candeeiro” para λυχνία."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-fable-5",

@@ -77,22 +77,31 @@
     }
   ],
   "variantes_textuais": [],
-  "decisoes": [],
+  "decisoes": [
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+      "escolha": "texto mantido — objeção improcedente",
+      "justificativa": "A objeção inverte a situação textual. Ela afirma que o Nestle 1904 traz θεῷ e que a BV seguiria o Textus Receptus com οἴκῳ — é o contrário: a leitura θεῷ Ἰακώβ ('Deus de Jacó') é a da tradição bizantina e do TR (daí KJV 'the God of Jacob' e as versões pt NTLH/ARA/NVIPT), enquanto o texto crítico — inclusive o Nestle 1904 pinado por ER-0018, verificado no CSV do manifest — traz οἴκῳ Ἰακώβ ('casa de Jacó'), leitura dos manuscritos mais antigos (P74, א*, B, D). A BV segue fielmente a autoridade textual pinada. KJV e WEB concordam entre si em 'God of Jacob', mas ambas repousam aqui na variante bizantina/TR; pela hierarquia de autoridade, a morfologia de termos_originais vence os dois controles. Importar θεῷ seria justamente importar leitura TR para o texto_bv, o que está barrado. A objeção é textual, não semântica, e não se sustenta contra a base pinada. Evidência do original: τῷ οἴκῳ Ἰακώβ — οἴκῳ (lemma οἶκος, G3624, N-DSM) na base pinada Nestle 1904 (sources/nestle1904/Nestle1904.csv, Acts 7:46). O dativo é de οἶκος, 'casa', não de θεός, 'Deus'. A morfologia pinada sustenta exatamente a leitura da BV: 'habitação para a casa de Jacó'. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): BV lê ‘casa de Jacó’ onde as três referências (NTLH, ARA, NVIPT) convergem em ‘Deus de Jacó’ (τῷ θεῷ Ἰακώβ no texto crítico Nestle). BV parece seguir variante do Textus Receptus (τῷ οἴκῳ Ἰακώβ), divergindo da base textual Nestle 1904 (ER-0018). — evidência: NTLH: ‘casa para o Deus de Jacó’; ARA: ‘habitação para o Deus de Jacó’; NVIPT: ‘habitação para o Deus de Jacó’. Todas as três referências leem ‘Deus’; BV é a única com ‘casa’. A autoridade textual do NT é o Nestle 1904 (ER-0018), que traz θεῷ (Deus), não οἴκῳ (casa). Nota textual: Variante textual clássica em At 7:46: οἴκῳ Ἰακώβ (P74, א*, B, D, H; texto crítico — WH, Nestle 1904, NA) vs. θεῷ Ἰακώβ (א², A, C, E, tradição bizantina, TR). KJV e WEB concordam entre si na variante θεῷ ('the God of Jacob'), divergindo ambas da base pinada da BV — aqui os controles não servem como evidência de sentido, pois seguem outra base textual. οἴκῳ é a lectio difficilior (o v.47, 'Salomão lhe edificou uma casa', explica a correção escribal para θεῷ). Alinhamento de versificação conferido pelo conteúdo: KJV v.46 fala de Davi achando graça e pedindo morada, mesmo versículo. (ER-0020, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        "Leitura θεῷ Ἰακώβ — 'uma habitação para o Deus de Jacó' —, sustentada pela tradição bizantina/TR e adotada por KJV, WEB, NTLH, ARA e NVIPT; harmoniza com Sl 132:5 ('uma habitação para o Poderoso de Jacó'). Perde porque a autoridade textual do NT da BV é o Nestle 1904 pinado (ER-0018), que traz οἴκῳ (G3624), leitura dos testemunhos mais antigos e lectio difficilior; a hierarquia de autoridade veda importar a variante TR/bizantina para o texto_bv."
+      ],
+      "diretriz_ref": "ER-0020"
+    }
+  ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0020: Leitura θεῷ Ἰακώβ — 'uma habitação para o Deus de Jacó' —, sustentada pela tradição bizantina/TR e adotada por KJV, WEB, NTLH, ARA e NVIPT; harmoniza com Sl 132:5 ('uma habitação para o Poderoso de Jacó'). Perde porque a autoridade textual do NT da BV é o Nestle 1904 pinado (ER-0018), que traz οἴκῳ (G3624), leitura dos testemunhos mais antigos e lectio difficilior; a hierarquia de autoridade veda importar a variante TR/bizantina para o texto_bv."
+  ],
   "justificativa": "Desejo de Davi de construir uma habitação para Deus (2Sm 7:1-2).",
   "confianca": 0.78,
   "status": "DRAFT",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): BV lê ‘casa de Jacó’ onde as três referências (NTLH, ARA, NVIPT) convergem em ‘Deus de Jacó’ (τῷ θεῷ Ἰακώβ no texto crítico Nestle). BV parece seguir variante do Textus Receptus (τῷ οἴκῳ Ἰακώβ), divergindo da base textual Nestle 1904 (ER-0018). — evidência: NTLH: ‘casa para o Deus de Jacó’; ARA: ‘habitação para o Deus de Jacó’; NVIPT: ‘habitação para o Deus de Jacó’. Todas as três referências leem ‘Deus’; BV é a única com ‘casa’. A autoridade textual do NT é o Nestle 1904 (ER-0018), que traz θεῷ (Deus), não οἴκῳ (casa)."
-  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.3",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
