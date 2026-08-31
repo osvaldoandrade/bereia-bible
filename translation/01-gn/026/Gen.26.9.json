@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Gen.26.1-35"
   },
-  "texto_bv": "Então Abimeleque chamou Isaque e disse: “Eis que ela é sua mulher; como, pois, você disse: ‘É minha irmã’?” E Isaque lhe disse: “Porque eu dizia: para que eu não morra por causa dela.”",
+  "texto_bv": "Então Abimeleque chamou Isaque e disse: “Eis que ela é sua mulher; como, pois, você disse: ‘É minha irmã’?” E Isaque lhe disse: “Porque eu disse: para que eu não morra por causa dela.”",
   "traducao_literal": "E chamou Abimeleque a Isaque, e disse: “Somente, eis tua mulher ela; e como disseste ‘minha irmã ela’?” E disse-lhe Isaque: “Porque disse: para que eu não morra por causa dela.”",
   "termos_originais": [
     {
@@ -140,6 +140,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Porque eu dizia: → Porque eu disse:",
+      "justificativa": "Quebra de cadeia temporal: Abimeleque pergunta no perfeito (“você disse”) e a resposta caía no imperfeito (“eu dizia”) sem motivo; o hebraico tem qatal (אָמַרְתִּי, perfeito) — “eu disse” alinha tempo e fidelidade. — revisão de forma sem alteração de sentido (ER-0019). “Eis que” em fala de Abimeleque verte הִנֵּה presentativo — semitismo funcional mantido; a cadeia “disse… disse… disse” espelha אמר 4× no verso. Citação interna em aspas simples conforme EDITORIAL §5.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -151,11 +158,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

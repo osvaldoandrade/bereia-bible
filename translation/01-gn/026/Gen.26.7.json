@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Gen.26.1-35"
   },
-  "texto_bv": "E os homens daquele lugar perguntaram acerca de sua mulher; e ele disse: “É minha irmã”, porque temia dizer: “É minha mulher”, para que os homens do lugar não o matassem por causa de Rebeca. Ele temia isso porque era formosa à vista.",
+  "texto_bv": "E os homens daquele lugar perguntaram acerca de sua mulher; e ele disse: “É minha irmã”, porque temia dizer: “É minha mulher”, para que os homens do lugar não o matassem por causa de Rebeca. Ele temia isso porque ela era formosa à vista.",
   "traducao_literal": "E perguntaram os homens do lugar por sua mulher; e disse: “Minha irmã ela”, porque temeu dizer “minha mulher”, para que não me matem os homens do lugar por causa de Rebeca, porque boa de aparência ela.",
   "termos_originais": [
     {
@@ -145,6 +145,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele temia isso porque era formosa à vista. → Ele temia isso porque ela era formosa à vista.",
+      "justificativa": "O sujeito de “era formosa” muda de referente (de Isaque para Rebeca) sem marca; só a flexão de gênero desfazia a leitura truncada. O hebraico tem o pronome explícito (הִיא, “boa de aparência ela”) — “ela” recupera o original e a coesão. — revisão de forma sem alteração de sentido (ER-0019). Mantida a repetição “os homens daquele lugar… os homens do lugar” (אַנְשֵׁי הַמָּקוֹם 2× no hebraico); a passagem ao discurso indireto em “não o matassem” é decisão de etapa anterior. “Formosa à vista” (טוֹבַת מַרְאֶה) é legível e fiel.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -156,11 +163,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
