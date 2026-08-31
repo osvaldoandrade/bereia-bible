@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Gen.17.1-27"
   },
-  "texto_bv": "E o de oito dias será circuncidado entre vocês, todo macho nas suas gerações: o nascido em casa, e o comprado por dinheiro a qualquer estrangeiro, que não for da sua descendência.",
+  "texto_bv": "E o menino de oito dias será circuncidado entre vocês, todo macho nas suas gerações: o nascido em casa, e o comprado por dinheiro a qualquer estrangeiro, que não for da sua descendência.",
   "traducao_literal": "E o filho de oito dias circuncidar-se entre vós, todo macho para as vossas gerações, o nascido de casa e o comprado de prata de todo filho de estrangeiro, que não da tua semente ele.",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E o de oito dias → E o menino de oito dias",
+      "justificativa": "Elipse do núcleo nominal ('o de oito dias') trava a leitura em início de período — elipse que o português não sustenta bem aqui; o hebraico traz o substantivo (וּבֶן־שְׁמֹנַת יָמִים, 'filho de oito dias', cf. traducao_literal), suprido como 'menino' sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). Mantida a regência 'comprado... a qualquer estrangeiro' (proveniência, norma culta 'comprar a alguém', cf. KJV 'bought with money of any stranger'); no contexto de aquisição de servos a leitura benefactiva é inviável, e a mesma regência retorna no v. 27 — coesão interna preservada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -139,10 +146,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
