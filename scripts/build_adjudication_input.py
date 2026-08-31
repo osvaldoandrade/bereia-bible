@@ -125,6 +125,15 @@ def main(argv=None):
 
     os.makedirs(args.out, exist_ok=True)
     chapters = collect()
+    # O diretório de pacotes espelha o conjunto ABERTO. Capítulo cujas objeções
+    # foram todas adjudicadas deixa de ter pacote — sem isso um pacote obsoleto
+    # seria reprocessado e o persistidor recusaria o capítulo inteiro.
+    keep = {"%s-%03d.json" % (b, c) for b, c, _ in chapters}
+    stale = 0
+    for fn in os.listdir(args.out):
+        if fn.endswith(".json") and fn not in keep:
+            os.remove(os.path.join(args.out, fn))
+            stale += 1
     total = 0
     for book_dir, cap, versos in chapters:
         total += sum(len(v["objecoes"]) for v in versos)
@@ -133,9 +142,10 @@ def main(argv=None):
             json.dump({"book_dir": book_dir, "chapter": cap,
                        "versos": versos}, f, ensure_ascii=False, indent=2)
             f.write("\n")
-    print("%d capítulos, %d versos, %d objeções -> %s"
+    print("%d capítulos, %d versos, %d objeções (%d pacotes obsoletos "
+          "removidos) -> %s"
           % (len(chapters), sum(len(v) for _, _, v in chapters), total,
-             args.out))
+             stale, args.out))
 
 
 if __name__ == "__main__":
