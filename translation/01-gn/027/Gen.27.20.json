@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Gen.27.1-46"
   },
-  "texto_bv": "Então disse Isaque a seu filho: “Como é que a achaste tão depressa, filho meu?” E ele disse: “Porque o SENHOR, teu Deus, a fez encontrar diante de mim.”",
+  "texto_bv": "Então Isaque disse a seu filho: “Como é que a achaste tão depressa, filho meu?” E ele disse: “Porque o SENHOR, teu Deus, a fez vir diante de mim.”",
   "traducao_literal": "E disse Isaque a seu filho: “Que é isto, apressaste-te a achar, meu filho?” E disse: “Porque fez encontrar o SENHOR, teu Deus, diante de mim.”",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então disse Isaque a seu filho: → Então Isaque disse a seu filho: | a fez encontrar diante de mim → a fez vir diante de mim",
+      "justificativa": "ordem V-S do wayyiqtol normalizada para S-V no texto publicado (ER-0011); a ordem original permanece na traducao_literal | “fazer encontrar” fica sem regência recuperável em português (quem encontra o quê?); “fez vir diante de mim” preserva o causativo hifil de הִקְרָה e o sintagma לְפָנָי (“diante de mim”), no mesmo sentido da KJV (“brought it to me”) — revisão de forma sem alteração de sentido (ER-0019). “Como é que” é interrogativa enfática legítima no registro formal-neutro; o clítico “a” tem antecedente “caça” (v.19), recuperável na janela.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,11 +126,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

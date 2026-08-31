@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Gen.27.1-46"
   },
-  "texto_bv": "E disse-lhe sua mãe: “Sobre mim caia a tua maldição, filho meu; somente obedece à minha voz, e vai, traze-mos.”",
+  "texto_bv": "E sua mãe disse-lhe: “Sobre mim caia a tua maldição, filho meu; somente ouve a minha voz, e vai, traze-mos.”",
   "traducao_literal": "E disse-lhe sua mãe: “Sobre mim a tua maldição, meu filho; somente ouve à minha voz, e vai, toma para mim.”",
   "termos_originais": [
     {
@@ -86,6 +86,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E disse-lhe sua mãe: → E sua mãe disse-lhe: | somente obedece à minha voz → somente ouve a minha voz",
+      "justificativa": "ordem V-S do wayyiqtol normalizada para S-V no texto publicado (ER-0011); a ordem original permanece na traducao_literal | o mesmo idioma hebraico שְׁמַע בְּקֹלִי é vertido “ouve a minha voz” nos vv.8 e 43; normalização para o lexema majoritário do capítulo (EDITORIAL §1.4) — revisão de forma sem alteração de sentido (ER-0019). “Sobre mim caia a tua maldição” mantém a ordem enfática do hebraico com o verbo suprido já registrado; “traze-mos” coerente com o registro do capítulo (objeção no v.3).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -97,10 +104,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
