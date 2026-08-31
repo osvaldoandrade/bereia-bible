@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Gen.3.1-24"
   },
-  "texto_bv": "No suor do seu rosto você comerá o seu pão, até que volte ao solo, pois dele você foi tirado; porque você é pó, e ao pó voltará.”",
+  "texto_bv": "No suor do seu rosto você comerá o seu pão, até que volte ao solo, pois dele você foi tomado; porque você é pó, e ao pó voltará.”",
   "traducao_literal": "No suor das tuas narinas comerás pão, até o teu voltar ao solo, porque dele foste tomado; porque pó tu és, e ao pó voltarás.”",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois dele você foi tirado → pois dele você foi tomado",
+      "justificativa": "Mesmo lemma לקח (H3947) em Gn 2.23 (“do homem foi tomada”), 3.19 e 3.23 (“havia sido tomado”); a BV variava “tirado”/“tomado” dentro do capítulo sem motivo. Normalizado para o majoritário “tomado” (EDITORIAL §1.4), preservando o eco formular tomado-de que liga 2.23, 3.19 e 3.23. — revisão de forma sem alteração de sentido (ER-0019). Normalização lexical laqach→“tomado” (§1.4); mantidos “No suor do seu rosto” (adjudicado para af, cf. KJV “face”; a literal guarda “narinas”) e o par formular “você é pó, e ao pó voltará” — repetição intencional do original. Dupla causal “pois… porque…” espelha o ki… ki… hebraico sem contradição lógica.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -140,11 +147,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
