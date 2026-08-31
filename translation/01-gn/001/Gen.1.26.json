@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "Gen.1.14-31"
   },
-  "texto_bv": "E Deus disse: “Façamos o ser humano à nossa imagem, conforme a nossa semelhança. Dominem sobre os peixes do mar, sobre as aves dos céus, sobre os animais domésticos, sobre toda a terra e sobre todo réptil que rasteja sobre a terra.”",
+  "texto_bv": "E Deus disse: “Façamos o ser humano à nossa imagem, conforme a nossa semelhança. Dominem os peixes do mar, as aves dos céus, os animais domésticos, toda a terra e tudo o que rasteja sobre a terra.”",
   "traducao_literal": "E disse Deus: Façamos homem em nossa imagem, conforme nossa semelhança; e dominem sobre o peixe do mar, e sobre a ave dos céus, e sobre o animal doméstico, e sobre toda a terra, e sobre todo o rastejante que rasteja sobre a terra.",
   "termos_originais": [
     {
@@ -337,6 +337,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Dominem sobre os peixes do mar, sobre as aves dos céus, sobre os animais domésticos, sobre toda a terra e sobre todo → Dominem os peixes do mar, as aves dos céus, os animais domésticos, toda a terra e tudo | réptil que rasteja sobre a terra → o que rasteja sobre a terra",
+      "justificativa": "O v28 verte a mesma construção רדה + ב (fraseado hebraico quase idêntico) com objeto direto ('dominem os peixes do mar, as aves dos céus…'); 'dominar' transitivo direto é a regência contemporânea, e a série com seis 'sobre' era calque distributivo de ב pesado para leitura em voz alta (§1.3; ER-0013). | רֶמֶשׂ é vertido 'rastejante(s)'/'o que rasteja' em todo o capítulo (vv. 24, 25, 30); 'réptil' era a ocorrência isolada (§1.4) e, em pt-BR contemporâneo, estreita o sentido para a classe taxonômica, que o hebraico não codifica. — revisão de forma sem alteração de sentido (ER-0019). Duas normalizações de forma que aumentam a coesão com o v28 e com os vv. 24-25/30 sem tocar no sentido: dominar segue com os mesmos cinco domínios, e 'tudo o que rasteja sobre a terra' diz exatamente כָּל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ (a figura cognata permanece na traducao_literal). O plural 'Dominem' após 'o ser humano' preserva וְיִרְדּוּ — é o próprio hebraico que passa ao plural.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -356,11 +363,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

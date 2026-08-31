@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Gen.1.14-31"
   },
-  "texto_bv": "E Deus disse: “Haja luminares no firmamento dos céus para separar o dia da noite; e sejam para sinais, para tempos determinados, para dias e anos",
+  "texto_bv": "E Deus disse: “Haja luminares no firmamento dos céus para separar o dia da noite; e sejam para sinais, para tempos determinados, para dias e anos,",
   "traducao_literal": "E disse Deus: “Haja luzeiros no firmamento dos céus para separar entre o dia e entre a noite; e serão para sinais e para tempos determinados e para dias e anos",
   "termos_originais": [
     {
@@ -355,6 +355,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para dias e anos → para dias e anos,",
+      "justificativa": "O período continua no v15 ('e sejam luminares…'); sem sinal no fim do verso, a leitura corrida emenda 'anos' em 'e sejam'. O v17 já usa vírgula de continuação na mesma situação. — revisão de forma sem alteração de sentido (ER-0019). Apenas pontuação de fronteira de verso — o conteúdo não muda. 'Luminares' conforme EDITORIAL §1.2-tabela (luzeiros→luminares, Gn 1.14-16); 'Haja luminares' com haver existencial invariável está correto; o polissíndeto do hebraico ('e para… e para…') já fora normalizado em enumeração com vírgulas (ER-0013).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -371,11 +378,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
