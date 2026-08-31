@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Gen.23.1-20"
   },
-  "texto_bv": "“Estrangeiro e peregrino sou eu entre vocês; deem-me uma sepultura em possessão entre vocês, para que eu sepulte o meu morto de diante de mim.”",
+  "texto_bv": "“Estrangeiro e peregrino sou eu entre vocês; deem-me uma possessão de sepultura entre vocês, para que eu sepulte o meu morto de diante de mim.”",
   "traducao_literal": "“Peregrino e morador sou eu convosco; dai-me possessão de sepultura convosco, e sepultarei o meu morto de diante de mim.”",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "uma sepultura em possessão → uma possessão de sepultura",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): o mesmo sintagma אֲחֻזַּת קֶבֶר aparece em vv.4, 9 e 20 e a BV o vertia de três formas ('sepultura em possessão', 'posse de sepultura', 'possessão de sepultura'). Normalizado para 'possessão de sepultura' (v.20, traducao_literal e KJV 'possession of a buryingplace'), que restaura o núcleo do construto (אֲחֻזָּה, 'possessão'). — revisão de forma sem alteração de sentido (ER-0019). Frontamento do predicativo 'Estrangeiro e peregrino sou eu' mantido: espelha a ênfase do original (גֵּר וְתוֹשָׁב אָנֹכִי) e é ordem expressiva legítima em português. A repetição 'entre vocês ... entre vocês' reproduz o duplo עִמָּכֶם do hebraico. Tratamento 'vocês/deem-me' correto para discurso humano plural (D-0003).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,11 +129,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Gen.23.1-20"
   },
-  "texto_bv": "“Ouve-nos, senhor meu: tu és príncipe de Deus entre nós; sepulta o teu morto na melhor das nossas sepulturas; nenhum de nós te vedará a sua sepultura, para sepultares o teu morto.”",
+  "texto_bv": "“Ouça-nos, meu senhor: você é príncipe de Deus entre nós; sepulte o seu morto na melhor das nossas sepulturas; nenhum de nós lhe vedará a própria sepultura, para que você sepulte o seu morto.”",
   "traducao_literal": "“Ouve-nos, meu senhor, príncipe de Deus tu no meio de nós; no escol das nossas sepulturas sepulta o teu morto; homem de nós a sua sepultura não te vedará de sepultar o teu morto.”",
   "termos_originais": [
     {
@@ -144,6 +144,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "senhor meu → meu senhor | Ouve-nos → Ouça-nos | tu és príncipe → você é príncipe | sepulta o teu morto na melhor → sepulte o seu morto na melhor | te vedará a sua sepultura → lhe vedará a própria sepultura | para sepultares o teu morto → para que você sepulte o seu morto",
+      "justificativa": "Possessivo posposto no vocativo é ordem arcaizante da linhagem Almeida; o pt-BR contemporâneo antepõe ('meu senhor'), como na traducao_literal (אֲדֹנִי) e na costura imediata com Gn 24 ('Beba, meu senhor'). | Discurso entre humanos usa o paradigma você (EDITORIAL §3/D-0003); normalização coordenada de todo o diálogo do capítulo, que destoava de Gn 21 e Gn 24 (a janela mostra Gn 24.2 'Ponha agora a sua mão', já em você). | Mesma normalização de tratamento tu→você (D-0003), preservando o singular do hebraico (אַתָּה, 2ms). | Imperativo e possessivo do paradigma você (D-0003), coerentes com o restante da fala. | Tratamento tu→você ('te'→'lhe') e desambiguação do possessivo: no paradigma você, 'a sua sepultura' colidiria com o 'seu morto' do interlocutor; קִבְרוֹ é 'a sepultura dele mesmo' (o que veda), e 'a própria' fixa esse referente sem ambiguidade — a leitura já era essa no texto de partida. | Infinitivo flexionado de 2ª sg pertence ao paradigma tu; no paradigma você o sujeito explícito evita ler 'nenhum de nós' como sujeito da final (מִקְּבֹר מֵתֶךָ, 'de sepultar o teu morto'). — revisão de forma sem alteração de sentido (ER-0019). Normalização do tratamento humano→humano para você (D-0003), que o capítulo inteiro violava contra a prática dos capítulos vizinhos. Mantido o semitismo 'príncipe de Deus' (נְשִׂיא אֱלֹהִים): a KJV interpreta ('a mighty prince'), mas a BV conserva a construção do original — fidelidade é o teto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -155,11 +162,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
