@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Exod.1.1-22"
   },
-  "texto_bv": "E os filhos de Israel foram fecundos, e aumentaram muito, e multiplicaram-se, e foram fortalecidos grandemente; e a terra se encheu deles.",
+  "texto_bv": "E os filhos de Israel foram fecundos, aumentaram muito, multiplicaram-se e se fortaleceram grandemente; e a terra se encheu deles.",
   "traducao_literal": "E os filhos de Israel frutificaram e enxamearam e multiplicaram-se e robusteceram-se em muito muito; e encheu-se a terra deles.",
   "termos_originais": [
     {
@@ -94,6 +94,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "foram fecundos, e aumentaram muito, e multiplicaram-se, e → foram fecundos, aumentaram muito, multiplicaram-se e | foram fortalecidos grandemente → se fortaleceram grandemente",
+      "justificativa": "Cadeia de waw consecutivo vertida em polissíndeto “e… e… e…”; o português narrativo coordena a série de quatro verbos com vírgulas e um único “e” final, sem perder nenhum verbo do original. | וַיַּעַצְמוּ é qal ativo-intransitivo (morfologia pinada HC/Vqw3mp: “tornaram-se fortes”, cf. camada literal “robusteceram-se” e KJV “waxed mighty”); a passiva “foram fortalecidos” sugeria agente externo que o hebraico não marca. A forma pronominal também harmoniza com “se fortaleceu” de 1.20 (mesmo lemma 6105, §1.4). — revisão de forma sem alteração de sentido (ER-0019). Série de quatro verbos preservada integralmente; apenas a costura sintática foi aportuguesada e a voz alinhada à morfologia pinada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -105,11 +112,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

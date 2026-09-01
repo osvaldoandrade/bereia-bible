@@ -7,7 +7,7 @@
       "texto_bv_revisto": "E estes são os nomes dos filhos de Israel que entraram no Egito com Jacó; cada um entrou com a sua casa:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "BV usa \"casa\" onde NTLH/ARA/NVIPT usam \"família\". \"Casa\" no sentido de casa familiar (Heb. bet) é português contemporâneo corrente — não é arcaísmo nem inconsistência; preserva a metonímia hebraica que \"família\" explicita.",
+      "justificativa": "O “E” inicial verte o waw de abertura (וְאֵלֶּה), que liga Êxodo ao final de Gênesis — conectivo intencional, não vício. A repetição entraram/entrou espelha הַבָּאִים…בָּאוּ do original; os dois-pontos introduzem corretamente a lista de 1.2-4.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -15,6 +15,7 @@
       "texto_bv_revisto": "Rúben, Simeão, Levi e Judá;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Lista onomástica; grafia dos nomes e pontuação seriada (ponto e vírgula entre os grupos de 1.2-4) corretas.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -22,6 +23,7 @@
       "texto_bv_revisto": "Issacar, Zebulom e Benjamim;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Lista onomástica; sem defeito de forma. Confere com a KJV (Issachar, Zebulun, Benjamin).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -29,6 +31,7 @@
       "texto_bv_revisto": "Dã e Naftali, Gade e Aser.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Os pares “Dã e Naftali, Gade e Aser” reproduzem o agrupamento do hebraico (waw entre os membros de cada par); ponto final fecha a lista corretamente.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -36,7 +39,7 @@
       "texto_bv_revisto": "E todas as almas que descenderam de Jacó eram setenta almas; José, porém, já estava no Egito.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A repetição de \"almas\" (NTLH usa \"pessoas\"; ARA/NVIPT omitem a segunda ocorrência) reflete fielmente a dupla ocorrência de nefesh no hebraico. \"Alma\" no sentido de pessoa é português bíblico corrente, não arcaísmo.",
+      "justificativa": "A repetição “almas… almas” espelha נֶפֶשׁ…נָפֶשׁ do original (também na KJV: souls…souls) — formular, mantida. “Descender de” tem regência correta; “porém… já” verte a circunstância que a KJV também entende (for Joseph was in Egypt already).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -44,49 +47,100 @@
       "texto_bv_revisto": "E morreu José, e todos os seus irmãos, e toda aquela geração.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Polissíndeto breve mantido: enumeração solene de três mortes que espelha a cadência do original (também na KJV). O verbo anteposto no singular concorda com o núcleo mais próximo (José), construção sancionada pela norma culta com sujeito composto posposto.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.1.7",
-      "texto_bv_revisto": "E os filhos de Israel foram fecundos, e aumentaram muito, e multiplicaram-se, e foram fortalecidos grandemente; e a terra se encheu deles.",
-      "mudancas": [],
+      "texto_bv_revisto": "E os filhos de Israel foram fecundos, aumentaram muito, multiplicaram-se e se fortaleceram grandemente; e a terra se encheu deles.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "foram fecundos, e aumentaram muito, e multiplicaram-se, e",
+          "depois": "foram fecundos, aumentaram muito, multiplicaram-se e",
+          "motivo": "Cadeia de waw consecutivo vertida em polissíndeto “e… e… e…”; o português narrativo coordena a série de quatro verbos com vírgulas e um único “e” final, sem perder nenhum verbo do original."
+        },
+        {
+          "tipo": "coesao",
+          "antes": "foram fortalecidos grandemente",
+          "depois": "se fortaleceram grandemente",
+          "motivo": "וַיַּעַצְמוּ é qal ativo-intransitivo (morfologia pinada HC/Vqw3mp: “tornaram-se fortes”, cf. camada literal “robusteceram-se” e KJV “waxed mighty”); a passiva “foram fortalecidos” sugeria agente externo que o hebraico não marca. A forma pronominal também harmoniza com “se fortaleceu” de 1.20 (mesmo lemma 6105, §1.4)."
+        }
+      ],
       "objecoes": [],
-      "justificativa": "BV usa \"foram fecundos\" onde NTLH usa \"tiveram muitos filhos\" e ARA \"frutificaram\"; \"fecundo\" é vocabulário pt-BR contemporâneo, não arcaísmo. A sequência de quatro verbos reflete a quádruplice expansão verbal do hebraico; a parataxe com \"e\" é fórmula narrativa intencional do original.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Série de quatro verbos preservada integralmente; apenas a costura sintática foi aportuguesada e a voz alinhada à morfologia pinada.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.1.8",
-      "texto_bv_revisto": "Depois levantou-se sobre o Egito um novo rei, que não conhecera a José.",
-      "mudancas": [],
+      "texto_bv_revisto": "Depois levantou-se sobre o Egito um novo rei, que não tinha conhecido a José.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "que não conhecera a José",
+          "depois": "que não tinha conhecido a José",
+          "motivo": "EDITORIAL.md: mais-que-perfeito sintético substituído pelo composto fora de fórmula litúrgica. A anterioridade (o rei surge depois da morte de José, 1.6) permanece intacta; o objeto direto preposicionado “a José”, legítimo na norma culta e no registro bíblico, foi mantido."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Depois levantou-se” não é ênclise em início absoluto de oração e é aceito pela norma após adverbial sem pausa; mantido.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.1.9",
       "texto_bv_revisto": "E disse ao seu povo: Vejam que o povo dos filhos de Israel é mais numeroso e mais forte do que nós.",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "Discurso direto sem aspas duplas curvas: a norma editorial prescreve dois-pontos + aspas, mas todo o capítulo (1.9-10, 1.16, 1.18, 1.19, 1.22) e a BV aprovada circundante (cf. contexto de Êx 2) usam apenas dois-pontos + maiúscula.",
+          "evidencia": "“E disse ao seu povo: Vejam…” — aplicar aspas só aqui quebraria a consistência da cadeia de capítulos, e a fala de 1.9 continua em 1.10, exigindo coordenação entre versos; requer decisão do mantenedor e aplicação global, não pontual."
+        }
+      ],
+      "justificativa": "“Vejam que” verte הִנֵּה sem o arcaísmo “eis que”; o comparativo “mais numeroso e mais forte do que nós” está correto e entende o mesmo que a KJV (more and mightier than we). Sujeito elíptico de “disse” recuperável em 1.8 (o novo rei).",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.1.10",
-      "texto_bv_revisto": "Venham, usemos de astúcia para com ele, para que não se multiplique; e aconteça que, vindo guerra, ele também se ajunte com os nossos inimigos, e peleje contra nós, e suba da terra.",
-      "mudancas": [],
+      "texto_bv_revisto": "Venham, usemos de astúcia para com ele, para que não se multiplique e não aconteça que, vindo guerra, ele também se ajunte com os nossos inimigos, peleje contra nós e suba da terra.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "para que não se multiplique; e aconteça que",
+          "depois": "para que não se multiplique e não aconteça que",
+          "motivo": "Escopo de פֶּן (“para que não”): o ponto e vírgula desligava “e aconteça” da negação, permitindo ler a guerra e a fuga como desejadas pelos egípcios — o contrário do original. A negação explícita apenas torna visível o alcance que פֶּן já tem sobre toda a cadeia (KJV: “lest they multiply, and it come to pass, that… they join”)."
+        },
+        {
+          "tipo": "calque",
+          "antes": "se ajunte com os nossos inimigos, e peleje contra nós, e suba da terra",
+          "depois": "se ajunte com os nossos inimigos, peleje contra nós e suba da terra",
+          "motivo": "Cadeia de waw vertida em polissíndeto; o português coordena os três subjuntivos com um único “e” final, mantendo todos os verbos."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Suba da terra” mantido literal (heb. וְעָלָה מִן־הָאָרֶץ), como na camada literal e na KJV; “ele” singular coletivo (o povo) segue a cadeia iniciada em 1.9 e continuada em 1.11-12.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.1.11",
       "texto_bv_revisto": "E puseram sobre ele feitores de obras, para o afligirem com as suas cargas; e edificaram a Faraó cidades-celeiros, Pitom e Ramessés.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "“Sobre ele” mantém o singular coletivo do hebraico (עָלָיו), coeso com 1.9-12. “Para o afligirem” tem próclise e infinitivo flexionado corretos (sujeito: os feitores). O dativo “a Faraó” (heb. לְפַרְעֹה) é regência clássica legítima e inequívoca com o objeto direto expresso; “cidades-celeiros” é a pluralização consagrada no uso bíblico brasileiro.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.1.12",
       "texto_bv_revisto": "Mas quanto mais o afligiam, mais se multiplicava e mais crescia; de maneira que se enfadavam por causa dos filhos de Israel.",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "“Se enfadavam” (קוּץ, lemma 6973) subdimensiona o matiz de pavor/asco do verbo; a própria camada literal traz “tinham pavor” (mesma construção קוץ מִפְּנֵי de Nm 22:3).",
+          "evidencia": "A leitura branda tem respaldo na KJV (“were grieved”) e na tradição (ARC “se enfadavam”), então a BV entendeu o mesmo que a baseline; trocar por “tinham pavor” mexeria em decisão lexical vigente — registrado para o mantenedor, sem alteração."
+        }
+      ],
+      "justificativa": "A correlação “quanto mais… mais… mais” verte com precisão כַּאֲשֶׁר…כֵּן…וְכֵן; sujeitos elípticos (egípcios / povo, no singular coletivo “o”) recuperáveis pela cadeia de 1.10-11.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -94,62 +148,118 @@
       "texto_bv_revisto": "E os egípcios faziam servir os filhos de Israel com dureza;",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "“Faziam servir” verte o causativo hifil (וַיַּעֲבִדוּ) no imperfeito durativo que abre o quadro contínuo fechado em 1.14 (“era com dureza”); “com dureza” para פֶרֶךְ é consistente com 1.14 (mesmo lemma 6531, §1.4). Ponto e vírgula correto: o período continua no verso seguinte.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.1.14",
-      "texto_bv_revisto": "e amarguraram-lhes a vida com dura servidão, em barro e em tijolos, e com todo o trabalho no campo; todo o seu serviço, em que os faziam servir, era com dureza.",
-      "mudancas": [],
+      "texto_bv_revisto": "e amarguravam-lhes a vida com dura servidão, em barro e em tijolos, e com todo o trabalho no campo; todo o seu serviço, em que os faziam servir, era com dureza.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "e amarguraram-lhes a vida",
+          "depois": "e amarguravam-lhes a vida",
+          "motivo": "Cadeia temporal: o período aberto em 1.13 com imperfeito durativo (“faziam servir”) prossegue neste verso e fecha com “era com dureza” e “os faziam servir”, todos no imperfeito; o perfeito “amarguraram” alternava sem motivo — no original é a mesma sequência contínua de wayyiqtol."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Ênclise após “e” (“amarguravam-lhes”) correta; a redundância “serviço… faziam servir… com dureza” reproduz o cognato enfático do hebraico (עֲבֹדָה…עָבְדוּ…בְּפָרֶךְ) e foi mantida.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.1.15",
       "texto_bv_revisto": "E o rei do Egito falou às parteiras das hebreias, das quais uma se chamava Sifrá, e a outra Puá,",
       "mudancas": [],
-      "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "objecoes": [
+        {
+          "gravidade": "MATERIAL",
+          "problema": "“Parteiras das hebreias” lê מְיַלְּדֹת como regente de genitivo (parteiras a serviço das mulheres hebreias, possivelmente egípcias), mas a morfologia pinada marca הָעִבְרִיֹּת como adjetivo gentílico articulado (HTd/Ngfpa) em concordância atributiva com לַמְיַלְּדֹת — “as parteiras hebreias”. Corrigir a forma mudaria a nacionalidade das parteiras, isto é, o sentido; o texto fica intacto.",
+          "evidencia": "A dupla articulação (lamed com artigo em לַמְיַלְּדֹת + artigo em הָעִבְרִיֹּת) exclui cadeia construta, que não admitiria artigo no regente. Camada literal: “às parteiras hebreias”; KJV: “the Hebrew midwives”. A BV diverge da morfologia pinada e da baseline no mesmo ponto."
+        }
+      ],
+      "justificativa": "Texto mantido idêntico por força da objeção MATERIAL. No restante, a elipse “e a outra [se chamava] Puá” é sustentada pelo português; “falou” (1.15) + “disse” (1.16) espelha o duplo וַיֹּאמֶר do original.",
+      "veredito": "OBJECAO_MATERIAL"
     },
     {
       "osis": "Exod.1.16",
-      "texto_bv_revisto": "e disse: Quando ajudarem no parto as hebreias, e as virem sobre os assentos, se for filho, matem-no; mas se for filha, então viva.",
-      "mudancas": [],
+      "texto_bv_revisto": "e disse: Quando ajudarem as hebreias no parto e as virem sobre os assentos, se for filho, matem-no; mas se for filha, então viva.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "Quando ajudarem no parto as hebreias, e as virem",
+          "depois": "Quando ajudarem as hebreias no parto e as virem",
+          "motivo": "O objeto posposto ao adjunto (“ajudarem no parto as hebreias”) criava leitura ambígua — “as hebreias” podia parsear-se como sujeito de “ajudarem”. Objeto junto ao verbo segue inclusive a ordem do hebraico (בְּיַלֶּדְכֶן אֶת־הָעִבְרִיּוֹת); removida também a vírgula desnecessária entre coordenadas de mesmo sujeito."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Matem-no” (ênclise no imperativo) correto; “então viva” preserva a 3ª pessoa do original (וָחָיָה, “e ela viverá”), deliberadamente distinta da ordem de 2ª pessoa de 1.22 (“deixem viver”). Plural “vocês” implícito mantém o 2fp hebraico.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.1.17",
-      "texto_bv_revisto": "As parteiras, porém, temeram a Deus, e não fizeram como o rei do Egito lhes tinha dito, antes conservavam os meninos com vida.",
-      "mudancas": [],
+      "texto_bv_revisto": "As parteiras, porém, temeram a Deus, e não fizeram como o rei do Egito lhes tinha dito, antes deixavam viver os meninos.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "antes conservavam os meninos com vida",
+          "depois": "antes deixavam viver os meninos",
+          "motivo": "Consistência lexical intra-capítulo (§1.4): o piel de חיה (lemma 2421) é vertido “deixar viver” em 1.18 e 1.22, leitura majoritária do capítulo; e 1.18 cita verbatim o ato deste verso (וַתְּחַיֶּיןָ אֶת־הַיְלָדִים idêntico nos dois versos) — o eco entre a ação e a acusação de Faraó exige o mesmo lexema. Imperfeito durativo mantido."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Lhes tinha dito” já usa o mais-que-perfeito composto conforme a norma; o adversativo clássico “antes” (= pelo contrário) é da norma culta e foi mantido.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.1.18",
-      "texto_bv_revisto": "Então o rei do Egito chamou as parteiras, e disse-lhes: Por que fizeram isto, que deixaram viver os meninos?",
-      "mudancas": [],
+      "texto_bv_revisto": "Então o rei do Egito chamou as parteiras, e disse-lhes: Por que fizeram isto e deixaram viver os meninos?",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "Por que fizeram isto, que deixaram viver os meninos?",
+          "depois": "Por que fizeram isto e deixaram viver os meninos?",
+          "motivo": "O “que” explicativo apoiado em “isto” é construção arcaizante de leitura truncada para o leitor atual; o hebraico coordena com waw (עֲשִׂיתֶן הַדָּבָר הַזֶּה וַתְּחַיֶּיןָ — KJV: “done this thing, and have saved”), e o “e” restitui exatamente essa coordenação."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Fizeram… deixaram” no plural “vocês” preserva o 2fp do original; “deixaram viver os meninos” ecoa agora, verbo a verbo, o ato registrado em 1.17 (mesma locução hebraica).",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.1.19",
       "texto_bv_revisto": "E as parteiras disseram a Faraó: É que as mulheres hebreias não são como as egípcias; porque são vigorosas, e já têm dado à luz antes que a parteira chegue a elas.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "“É que” verte o כִּי causal de abertura de resposta em fala natural; o perfeito composto iterativo “já têm dado à luz” traduz com precisão o habitual do original (KJV: “are delivered ere the midwives come”), e “a parteira” singular preserva הַמְיַלֶּדֶת. Pontuação clássica “; porque” mantida por coerência com o estilo do capítulo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.1.20",
-      "texto_bv_revisto": "E Deus fez bem às parteiras; e o povo se aumentou, e se fortaleceu muito.",
-      "mudancas": [],
+      "texto_bv_revisto": "E Deus fez bem às parteiras; e o povo se multiplicou e se fortaleceu muito.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "o povo se aumentou",
+          "depois": "o povo se multiplicou",
+          "motivo": "Consistência lexical intra-capítulo (§1.4): o lemma 7235 (רבה) é vertido “multiplicar(-se)” em 1.7, 1.10 e 1.12 — leitura majoritária; “aumentar” já serve a שרץ em 1.7 (“aumentaram muito”), e o pronominal “aumentar-se” não é da norma contemporânea."
+        },
+        {
+          "tipo": "pontuacao",
+          "antes": "se multiplicou, e se fortaleceu muito",
+          "depois": "se multiplicou e se fortaleceu muito",
+          "motivo": "Coordenação curta de mesmo sujeito dispensa a vírgula antes de “e”; desfaz o resquício do polissíndeto do waw."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Se fortaleceu” mantido: mesmo lemma 6105 de 1.7, agora harmonizado com “se fortaleceram” daquele verso. Nomes divinos conforme a política pinada (אֱלֹהִים → Deus).",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.1.21",
       "texto_bv_revisto": "E, como as parteiras temeram a Deus, ele lhes estabeleceu casas.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A subordinação causal “E, como…” já resolve o calque “E aconteceu que” (וַיְהִי כִּי) sem perda de sentido. “Ele” minúsculo referente a Deus segue a norma; “lhes” neutraliza sem dano o masculino לָהֶם do original aplicado às parteiras (crux conhecida; KJV “made them houses”).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -157,6 +267,7 @@
       "texto_bv_revisto": "Então ordenou Faraó a todo o seu povo, dizendo: A todo o filho que nascer, lancem no rio, mas a toda a filha deixem viver.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A topicalização “A todo o filho que nascer, lancem…” preserva o casus pendens enfático do hebraico (כָּל־הַבֵּן הַיִּלּוֹד…תַּשְׁלִיכֻהוּ), com objeto direto preposicionado da norma clássica e paralelismo exato com “a toda a filha deixem viver” — estrutura intencional do original, mantida. “Deixem viver” verte o 2mp תְּחַיּוּן, consistente com 1.17-18 (§1.4).",
       "veredito": "SEM_ALTERACAO"
     }
   ]
