@@ -7,7 +7,7 @@
     "versiculo": 54,
     "pericope": "Judg.9.1-57"
   },
-  "texto_bv": "Imediatamente Abimeleque chamou o jovem que carregava suas armas e ordenou: “Puxe sua espada e mate-me, para que não digam a meu respeito: ‘Uma mulher o matou.’” Seu escudeiro o atravessou, e ele morreu.",
+  "texto_bv": "Imediatamente Abimeleque chamou o jovem que carregava as armas dele e ordenou: “Puxe sua espada e mate-me, para que não digam a meu respeito: ‘Uma mulher o matou.’” Seu escudeiro o atravessou, e ele morreu.",
   "traducao_literal": "E chamou depressa ao jovem, carregador dos utensílios dele, e disse a ele: “Desembainha tua espada e faze-me morrer, para que não digam de mim: ‘Uma mulher matou a ele.’” E perfurou a ele o jovem dele, e morreu.",
   "termos_originais": [
     {
@@ -139,6 +139,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o jovem que carregava suas armas → o jovem que carregava as armas dele",
+      "justificativa": "'suas' é ambíguo entre o sujeito da oração relativa ('o jovem') e o sujeito da oração matriz ('Abimeleque'), padrão clássico de ambiguidade do possessivo 'seu/sua' em português; 'dele' retoma inequivocamente Abimeleque, como o hebraico explícito (כֵּלָיו — 'os utensílios dele'). — revisão de forma sem alteração de sentido (ER-0022). Corrigido pronome possessivo ambíguo (ver mudanças).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -154,11 +161,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

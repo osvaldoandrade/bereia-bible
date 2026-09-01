@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Judg.9.1-57"
   },
-  "texto_bv": "mas hoje vocês se levantaram contra a casa de meu pai, mataram seus setenta filhos sobre uma única pedra e fizeram Abimeleque, filho de sua serva, rei sobre os cidadãos de Siquém, porque ele é irmão de vocês—",
+  "texto_bv": "mas hoje vocês se levantaram contra a casa de meu pai, mataram os setenta filhos dele sobre uma única pedra e fizeram Abimeleque, filho da serva dele, rei sobre os cidadãos de Siquém, porque ele é irmão de vocês—",
   "traducao_literal": "e vós vos levantastes contra a casa de meu pai hoje, e matastes os filhos dele, setenta homens, sobre uma pedra, uma; e fizestes reinar Abimeleque, filho da serva dele, sobre os senhores de Siquém, porque vosso irmão ele—",
   "termos_originais": [
     {
@@ -162,6 +162,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mataram seus setenta filhos sobre uma única pedra → mataram os setenta filhos dele sobre uma única pedra | filho de sua serva → filho da serva dele",
+      "justificativa": "'seus' concorda gramaticalmente também com o sujeito 'vocês' da oração, criando ambiguidade referencial; 'dele' retoma inequivocamente 'meu pai' (Jerubaal), como o sufixo hebraico explícito (בָּנָיו). | mesma ambiguidade de 'sua' entre o sujeito 'vocês' e 'meu pai'; 'dele' desfaz a ambiguidade e corresponde ao sufixo hebraico explícito, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Corrigido pronome possessivo ambíguo (ver mudanças).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -173,10 +180,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "448ce31dc22d0af840bbe830aa95cc30ad7ec314593818fa8db7542d8acf68fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
