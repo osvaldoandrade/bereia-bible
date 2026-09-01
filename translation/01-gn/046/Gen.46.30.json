@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Gen.46.1-34"
   },
-  "texto_bv": "E disse Israel a José: Morra eu agora, já que tenho visto o seu rosto, pois você ainda vive.",
+  "texto_bv": "E Israel disse a José: Morra eu agora, já que vi o seu rosto, pois você ainda vive.",
   "traducao_literal": "E disse Israel a José: Morra eu esta vez, depois de ver eu a tua face, porque ainda tu vivo.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E disse Israel a José → E Israel disse a José | já que tenho visto o seu rosto → já que vi o seu rosto",
+      "justificativa": "Ordem V-S calcada do wayyiqtol (וַיֹּאמֶר יִשְׂרָאֵל); ER-0011 fixa S-V uniforme, inclusive na fórmula de fala; a ordem original permanece na traducao_literal. | O pretérito perfeito composto do pt-BR (“tenho visto”) denota ação iterativa/durativa, não o evento único do infinitivo construto רְאוֹתִי (“depois de ver eu a tua face”, literal); é herança da tradição Almeida/KJV (“I have seen”) com valor aspectual indevido em português contemporâneo. “Vi” diz o mesmo evento, uma vez. — revisão de forma sem alteração de sentido (ER-0019). “Morra eu agora” conserva o subjuntivo optativo que verte אָמוּתָה (coortativo) — inversão estilística legítima e viva na oração desiderativa.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -109,11 +116,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

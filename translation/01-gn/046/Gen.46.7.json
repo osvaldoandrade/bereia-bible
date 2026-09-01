@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Gen.46.1-34"
   },
-  "texto_bv": "os seus filhos, e os filhos de seus filhos com ele, as suas filhas, e as filhas de seus filhos, e toda a sua descendência levou consigo ao Egito.",
+  "texto_bv": "os seus filhos e os filhos de seus filhos com ele, as suas filhas e as filhas de seus filhos, e toda a sua descendência ele levou consigo ao Egito.",
   "traducao_literal": "os seus filhos e os filhos de seus filhos com ele, as suas filhas e as filhas de seus filhos, e toda a sua semente trouxe consigo ao Egito.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os seus filhos, e os filhos de seus filhos → os seus filhos e os filhos de seus filhos | as suas filhas, e as filhas de seus filhos → as suas filhas e as filhas de seus filhos | e toda a sua descendência levou consigo → e toda a sua descendência ele levou consigo",
+      "justificativa": "Vírgula indevida dentro do par coordenado “filhos e filhos de filhos”; a própria traducao_literal não a tem, e o inciso “com ele” já delimita o par. | Mesmo caso do par anterior: vírgula + “e” dentro do par “filhas e filhas de filhos” é resíduo do polissíndeto (ER-0013 §6.2). | Com o verbo ao fim (calque da ordem hebraica, objeto fronteado), “toda a sua descendência” lia-se como sujeito de “levou”. O sujeito explícito “ele” (Jacó, v. 6) desfaz o equívoco e mantém a topicalização enfática do original. — revisão de forma sem alteração de sentido (ER-0019). O verso é continuação sintática do v. 6 (por isso a inicial minúscula); a enumeração em pares (filhos/netos, filhas/netas) espelha o hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -104,11 +111,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Gen.46.1-34"
   },
-  "texto_bv": "Eu descerei com você ao Egito, e certamente também o farei tornar a subir; e José porá a sua mão sobre os seus olhos.",
+  "texto_bv": "Eu descerei com você ao Egito, e certamente também o farei tornar a subir; e José porá a mão sobre os seus olhos.",
   "traducao_literal": "Eu descerei contigo ao Egito, e eu te farei subir também, subindo; e José porá a sua mão sobre os teus olhos.",
   "termos_originais": [
     {
@@ -104,6 +104,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e José porá a sua mão sobre os seus olhos → e José porá a mão sobre os seus olhos",
+      "justificativa": "Com o paradigma você, “a sua mão… os seus olhos” empilha dois possessivos de referentes distintos (a mão é de José; os olhos, de Jacó). A posse do próprio sujeito dispensa o possessivo em português (“porá a mão”), deixando “os seus olhos” univocamente com o interlocutor, como no hebraico (יָדוֹ 3ms × עֵינֶיךָ 2ms). — revisão de forma sem alteração de sentido (ER-0019). “Certamente também o farei tornar a subir” verte o infinitivo absoluto עָלֹה + hifil (KJV “I will also surely bring thee up again”); a perífrase é pesada mas fiel e gramatical — simplificá-la sacrificaria a ênfase marcada do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -115,11 +122,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
