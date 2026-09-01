@@ -98,6 +98,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "\"Farás\" (tu) destoa do tratamento você da mesma fala (Exod.26.36 \"Fará\"; Exod.27.20 \"Você ordenará\") e do próprio verso, que já usa formas de você (\"lhe foi mostrado\"); a normalização \"Farás\" → \"Fará\", aplicada nos vv. 1-6 e 9, foi retida aqui porque verso com objeção MATERIAL fica idêntico à entrada. Aplicar quando a objeção for resolvida. — evidência: Mistura interna do verso: \"Farás\" (tu) + \"lhe\" (você) + \"vocês\"; janela em você: Exod.26.36-37, Exod.27.20, Exod.28.1-2. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -111,14 +118,16 @@
   "confianca": 0.74,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): \"assim vocês o farão\" fixa em 2ª pessoa do plural o que a morfologia pinada dá como 3ª do plural (יַעֲשׂוּ, Vqi3mp: \"assim farão\", eles — os artífices/israelitas); corrigir a pessoa mudaria o sentido, então o texto permanece intacto. — evidência: termos_originais: יַעֲשֽׂוּ HVqi3mp; traducao_literal: \"assim farão\"; KJV: \"so shall they make it\" — o conteúdo dos vizinhos confirma o mesmo versículo."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
