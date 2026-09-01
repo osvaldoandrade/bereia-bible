@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Gen.48.1-22"
   },
-  "texto_bv": "Vendo José que o pai dele punha a mão direita sobre a cabeça de Efraim, isso foi mau aos seus olhos. Tomou a mão do pai, para a transpor de sobre a cabeça de Efraim para a de Manassés.",
+  "texto_bv": "José viu que o pai dele punha a mão direita sobre a cabeça de Efraim, e isso foi mau aos seus olhos. Tomou a mão do pai, para a transpor da cabeça de Efraim para a de Manassés.",
   "traducao_literal": "E viu José que punha o seu pai a mão da sua direita sobre a cabeça de Efraim, e foi mau aos seus olhos; e sustentou a mão de seu pai para a fazer desviar de sobre a cabeça de Efraim para a cabeça de Manassés.",
   "termos_originais": [
     {
@@ -155,6 +155,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vendo José que o pai dele punha a mão direita sobre a cabeça de Efraim, isso foi mau aos seus olhos. → José viu que o pai dele punha a mão direita sobre a cabeça de Efraim, e isso foi mau aos seus olhos. | de sobre a cabeça de Efraim para a de Manassés. → da cabeça de Efraim para a de Manassés.",
+      "justificativa": "A reduzida de gerúndio com sujeito próprio deixava a principal ancorada em \"isso\" (anacoluto: \"Vendo José…, isso foi mau\"); a coordenação refaz a cadeia narrativa sem tocar no conteúdo, e o idiomatismo \"foi mau aos seus olhos\" (וַיֵּרַע בְּעֵינָיו) é preservado. | \"De sobre\" decalca מֵעַל; o português diz \"transpor da cabeça… para a\". — revisão de forma sem alteração de sentido (ER-0019). \"o pai dele\" mantido — evita colisão com os \"seus\" do contexto; \"Tomou a mão do pai\" segue com José como tópico, sem ambiguidade.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -166,11 +173,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

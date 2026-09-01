@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Gen.48.1-22"
   },
-  "texto_bv": "E disse Israel a José: Eu morro; mas Deus será com vocês, e lhes fará tornar à terra de seus pais.",
+  "texto_bv": "E Israel disse a José: “Eu morro; mas Deus estará com vocês, e os fará voltar à terra de seus pais.",
   "traducao_literal": "E disse Israel a José: Eis que eu morrendo; e será Deus convosco, e vos fará voltar à terra dos vossos pais.",
   "termos_originais": [
     {
@@ -115,6 +115,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E disse Israel a José: → E Israel disse a José: | Eu morro; mas → “Eu morro; mas | Deus será com vocês → Deus estará com vocês | e lhes fará tornar à terra de seus pais. → e os fará voltar à terra de seus pais.",
+      "justificativa": "Ordem V-S do wayyiqtol normalizada para S-V no texto publicado (ER-0011); a ordem original permanece na traducao_literal. | Abertura do discurso direto em aspas duplas curvas (ER-0004/EDITORIAL §5); a fala continua no v. 22, onde o fechamento é registrado. | \"Ser com\" decalca וְהָיָה עִם; acompanhamento pede \"estar\" em português (\"estará com vocês\"). | O clítico do causativo é acusativo — אֶתְכֶם vem marcado com אֵת: \"os fará voltar\", não \"lhes\"; e \"tornar\" por \"voltar\" é acepção arcaizante (EDITORIAL §1.2) — הֵשִׁיב é hifil de שׁוּב, \"fazer voltar\". — revisão de forma sem alteração de sentido (ER-0019). \"Eu morro\" verte o particípio מֵת com presente dramático, adjudicação vigente (cf. ARA); o הִנֵּה não vertido segue ER-0013; \"seus pais\" concorda com o paradigma vocês.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -126,11 +133,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
