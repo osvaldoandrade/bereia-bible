@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Deut.5.1-33"
   },
-  "texto_bv": "mas o sétimo dia é sábado dedicado ao SENHOR, seu Deus. Não faça trabalho algum — nem você, nem seu filho ou sua filha, nem seu servo ou sua serva, nem seu boi, seu jumento ou qualquer outro animal, nem o estrangeiro residente que vive em suas cidades. Para que tanto seu servo quanto sua serva descansem como você.",
+  "texto_bv": "mas o sétimo dia é sábado dedicado ao SENHOR, seu Deus. Não faça trabalho algum — nem você, nem seu filho ou sua filha, nem seu servo ou sua serva, nem seu boi, seu jumento ou qualquer outro animal, nem o estrangeiro residente que vive em suas cidades — para que tanto seu servo quanto sua serva descansem como você.",
   "traducao_literal": "E o sétimo dia é sábado para YHWH, teu Deus; não farás qualquer trabalho, tu, e teu filho, e tua filha, e teu servo, e tua serva, e teu boi, e teu jumento, e todo o teu animal, e teu estrangeiro residente que está em teus portões, para que descanse teu servo e tua serva como tu.",
   "termos_originais": [
     {
@@ -200,6 +200,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nem o estrangeiro residente que vive em suas cidades. Para que tanto seu servo quanto sua serva descansem como você. → nem o estrangeiro residente que vive em suas cidades — para que tanto seu servo quanto sua serva descansem como você.",
+      "justificativa": "‘Para que’ introduz oração subordinada final e não pode formar sentença independente após ponto final (agramatical em português); fechei o inciso enumerativo aberto pelo primeiro travessão e conectei a oração final a ele, sem alterar o sentido nem inventar relação lógica que o hebraico não marque — o TM tem esse trecho como uma única frase (לְמַעַן יָנוּחַ). — revisão de forma sem alteração de sentido (ER-0022). Correção de fragmento de frase: a oração final introduzida por ‘para que’ estava isolada como sentença própria, o que a norma culta não permite; unida por travessão ao período anterior, preservando integralmente o conteúdo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -220,11 +227,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
