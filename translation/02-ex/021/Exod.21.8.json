@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Exod.21.1-37"
   },
-  "texto_bv": "Se ela desagradar ao seu senhor, que se havia comprometido com ela, então ele permitirá que seja resgatada; não a poderá vender a um povo estranho, usando deslealdade com ela.",
+  "texto_bv": "Se ela desagradar ao seu senhor, que se havia comprometido com ela, então ele permitirá que seja resgatada; não a poderá vender a um povo estrangeiro, usando de deslealdade com ela.",
   "traducao_literal": "Se má aos olhos do seu senhor, que a designou para si, e a fará resgatar; a um povo estrangeiro não dominará para a vender, no seu trair a ela.",
   "termos_originais": [
     {
@@ -108,6 +108,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a um povo estranho → a um povo estrangeiro | usando deslealdade com ela → usando de deslealdade com ela",
+      "justificativa": "נָכְרִי (5237) = estrangeiro, como na camada literal; “estranho” no português contemporâneo significa “esquisito” — falso amigo do uso clássico (lexema realinhado à literal, §1.4). | Com substantivo abstrato de conduta, o idiomático é “usar de” (usar de deslealdade, usar de violência). — revisão de forma sem alteração de sentido (ER-0019). Colocação “não a poderá vender” correta (próclise atraída pela negação); regência “desagradar ao seu senhor” correta.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "A morfologia pinada traz o ketiv לא (lemma 3808, HTn: “que NÃO a designou”); a BV traduz o qere לוֹ (“que a designou para si”), com KJV, LXX e a tradição. — evidência: termos_originais: “לא” 3808/HTn vs. traducao_literal “que a designou para si” e KJV “who hath betrothed her to himself”. Decisão texto-crítica presumivelmente registrada — não altero o sentido; anoto como nota textual. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,11 +133,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

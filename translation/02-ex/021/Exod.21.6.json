@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Exod.21.1-37"
   },
-  "texto_bv": "então o seu senhor o levará aos juízes, e o fará chegar à porta, ou ao umbral, e o seu senhor lhe furará a orelha com uma sovela; e ele o servirá para sempre.",
+  "texto_bv": "então o seu senhor o levará aos juízes, e o fará chegar à porta ou ao umbral, e o seu senhor lhe furará a orelha com uma sovela; e ele o servirá para sempre.",
   "traducao_literal": "e o fará chegar o seu senhor a Deus, e o fará chegar à porta ou à ombreira, e furará o seu senhor a sua orelha com a sovela, e servi-lo-á para sempre.",
   "termos_originais": [
     {
@@ -129,6 +129,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "à porta, ou ao umbral, e → à porta ou ao umbral, e",
+      "justificativa": "Vírgula indevida entre alternativas curtas coordenadas por “ou”. — revisão de forma sem alteração de sentido (ER-0019). Repetição de “o seu senhor” espelha אֲדֹנָיו duas vezes no verso — mantida; a variação “levará”/“fará chegar” para o mesmo lemma 5066 evita eco imediato e é legítima. A mesóclise da camada literal (“servi-lo-á”) já está evitada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "הָאֱלֹהִים (d/430) é “Deus” na camada literal (“o fará chegar a Deus”); a BV segue a interpretação “juízes” (KJV/Targum). — evidência: termos_originais: הָאֱלֹהִים, lemma d/430; traducao_literal: “a Deus”; KJV: “unto the judges”. Escolha exegética presumivelmente decidida — não reverto; registro para conferência em DECISOES. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -140,11 +154,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
