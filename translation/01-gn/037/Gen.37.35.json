@@ -134,6 +134,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "A abertura 'E levantaram-se todos os seus filhos...' está em ordem V-S e a etapa vem normalizando esses wayyiqtol para S-V (ER-0011), mas o verso carrega objeção MATERIAL e o texto deve permanecer idêntico neste ciclo; a inversão fica para depois da adjudicação. — evidência: Regra dura 5 desta etapa (verso com objeção MATERIAL mantém texto idêntico); mesma conduta adotada em Gen.32.32 no ciclo anterior. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -142,14 +149,16 @@
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): Na fala de Jacó, 'a meu filho' foi reanexado como objeto de 'pranteando', mas no hebraico אֶל־בְּנִי é complemento de direção de אֵרֵד ('descerei AO meu filho'), e אָבֵל é adjetivo predicativo sem objeto ('enlutado'). O texto publicado diz 'descerei chorando meu filho até a sepultura'; o original diz 'descerei ao meu filho, de luto, ao Sheol' — Jacó espera encontrar o filho na morte, e essa direção se perdeu. Reordenar para restaurá-la ('Descerei a meu filho, pranteando, até à sepultura', como a ARA) muda o sentido do texto publicado, o que está fora da alçada da revisão de forma. — evidência: termos_originais: אֵרֵד (3381, Vqi1cs) seguido de אֶל (413, preposição) + בְּנִי ('meu filho'), com אָבֵל (57, adjetivo msa) e שְׁאֹלָה (7585, com he diretivo) fechando a oração; traducao_literal: 'Porque descerei ao meu filho, pranteando, ao Sheol'; KJV: 'For I will go down into the grave unto my son mourning'; ARA: 'Chorando, descerei a meu filho até à sepultura'."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

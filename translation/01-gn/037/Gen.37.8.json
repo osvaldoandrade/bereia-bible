@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Gen.37.1-36"
   },
-  "texto_bv": "Então lhe disseram os seus irmãos: Você reinará, de fato, sobre nós? Dominará, de fato, sobre nós? E o odiaram ainda mais, por causa dos seus sonhos e das suas palavras.",
+  "texto_bv": "Então os seus irmãos lhe disseram: Você reinará, de fato, sobre nós? Dominará, de fato, sobre nós? E o odiaram ainda mais, por causa dos seus sonhos e das suas palavras.",
   "traducao_literal": "E disseram a ele os seus irmãos: Reinar reinarás sobre nós? Se dominar dominarás sobre nós? E acrescentaram ainda odiá-lo, por causa dos seus sonhos e por causa das suas palavras.",
   "termos_originais": [
     {
@@ -130,6 +130,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então lhe disseram os seus irmãos: → Então os seus irmãos lhe disseram:",
+      "justificativa": "Ordem V-S do wayyiqtol calcada no português; ER-0011 fixa S-V uniforme no texto publicado, inclusive na fórmula de fala. A ordem hebraica permanece na traducao_literal (ER-0013). — revisão de forma sem alteração de sentido (ER-0019). Os dois 'de fato' vertem os infinitivos absolutos הֲמָלֹךְ תִּמְלֹךְ / מָשׁוֹל תִּמְשֹׁל em paralelismo — repeticao intencional do original, mantida. Tratamento 'voce' singular dos irmaos a Jose coerente com D-0003 e com o v. 10.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -141,11 +148,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

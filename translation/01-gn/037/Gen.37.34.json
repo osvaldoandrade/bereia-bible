@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Gen.37.1-36"
   },
-  "texto_bv": "Então Jacó rasgou as suas vestes, e pôs saco sobre os seus lombos, e pôs-se de luto por seu filho muitos dias.",
+  "texto_bv": "Então Jacó rasgou as suas vestes, e pôs saco sobre os seus lombos, e guardou luto por seu filho muitos dias.",
   "traducao_literal": "E rasgou Jacó as suas vestes, e pôs saco nos seus lombos, e enlutou-se por seu filho dias muitos.",
   "termos_originais": [
     {
@@ -81,6 +81,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e pôs-se de luto por seu filho muitos dias → e guardou luto por seu filho muitos dias",
+      "justificativa": "Eco cacofônico 'pôs saco... e pôs-se de luto' criado só pelo português: o hebraico usa verbos distintos (וַיָּשֶׂם 'pôs' e וַיִּתְאַבֵּל 'enlutou-se'). 'Guardar luto' é idiomatismo vivo que desfaz a repetição e conserva o valor durativo com 'muitos dias'; o sentido não muda. — revisão de forma sem alteração de sentido (ER-0019). 'Rasgou as suas vestes' retoma a formula do v. 29 (mesma glosa, §1.4). 'Saco' e 'lombos' sao os termos consagrados de שַׂק e מָתְנַיִם no portugues biblico — semitismo de luto mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -92,10 +99,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
