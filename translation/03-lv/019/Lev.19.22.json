@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Lev.19.1-37"
   },
-  "texto_bv": "Com o carneiro da oferta de reparação, o sacerdote fará expiação por ele diante do SENHOR, pelo pecado que cometeu; e ele será perdoado dele.",
+  "texto_bv": "Com o carneiro da oferta de reparação, o sacerdote fará expiação por ele diante do SENHOR, pelo pecado que cometeu; e ele será perdoado desse pecado.",
   "traducao_literal": "E fará expiação por ele o sacerdote, com o carneiro da reparação, diante de YHWH, por seu pecado que pecou; e será perdoado a ele, de seu pecado que pecou.",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e ele será perdoado dele. → e ele será perdoado desse pecado.",
+      "justificativa": "O pronome \"dele\" tinha antecedente ambíguo: por proximidade sintática, o leitor tende a associá-lo a \"ele\" (o próprio sujeito da oração, o homem), o que produz leitura absurda (\"perdoado de si mesmo\"); o referente real é \"o pecado que cometeu\", dois sintagmas antes. Substituição do pronome pelo sintagma nominal explícito elimina a ambiguidade sem alterar o sentido (cf. hebraico: וְנִסְלַח לוֹ מֵחַטָּאתוֹ אֲשֶׁר חָטָא, \"e lhe será perdoado o pecado que cometeu\"). — revisão de forma sem alteração de sentido (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -139,11 +146,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
