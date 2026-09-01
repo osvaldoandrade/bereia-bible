@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Gen.38.1-30"
   },
-  "texto_bv": "E perguntou aos homens daquele lugar, dizendo: “Onde está a prostituta cultual que estava em Enaim, junto ao caminho?” E disseram: “Aqui não esteve prostituta alguma”.",
+  "texto_bv": "E perguntou aos homens daquele lugar, dizendo: “Onde está a prostituta cultual que estava em Enaim, junto ao caminho?” E disseram: “Aqui não esteve prostituta cultual alguma”.",
   "traducao_literal": "E perguntou aos homens do lugar dela, dizendo: Onde a consagrada, ela em Enaim, sobre o caminho? E disseram: Não houve neste lugar consagrada.",
   "termos_originais": [
     {
@@ -131,6 +131,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Aqui não esteve prostituta alguma → Aqui não esteve prostituta cultual alguma",
+      "justificativa": "A resposta repete קְדֵשָׁה, o mesmo lexema da pergunta, vertido ali 'prostituta cultual'; e o v. 22 cita esta mesma resposta com 'prostituta cultual alguma'. Consistência lexical intra-capítulo (EDITORIAL §1.4) e coerência entre a fala e a sua citação. — revisão de forma sem alteração de sentido (ER-0019). Com o v. 20 revisto ('este'), o sujeito elíptico de 'perguntou' lê-se sem tropeço como o adulamita. 'Junto ao caminho' verte עַל־הַדָּרֶךְ e serve de âncora para a uniformização feita no v. 14.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "'Aos homens daquele lugar' segue a suavização consagrada da tradição (KJV 'the men of that place'), mas a morfologia pinada tem מְקֹמָהּ com sufixo 3fs — 'do lugar dela', como conserva a traducao_literal. Alinhar o publicado ao sufixo seria mudança de sentido, fora do escopo desta etapa; fica anotado como nota textual. — evidência: termos_originais: מְקֹמָהּ [lemma 4725; HNcmsc/Sp3fs]; traducao_literal: 'E perguntou aos homens do lugar dela'. O referente contextual (o lugar onde ela estivera, Enaim) coincide, o que explica a suavização — mas o sufixo existe no hebraico pinado. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -144,11 +158,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Gen.38.1-30"
   },
-  "texto_bv": "E ainda deu à luz outro filho, e chamou o seu nome Selá; e Judá estava em Quezibe quando ela o deu à luz.",
+  "texto_bv": "E ainda deu à luz outro filho, e o chamou de Selá; e Judá estava em Quezibe quando ela o deu à luz.",
   "traducao_literal": "E acrescentou ainda, e deu à luz um filho, e chamou o seu nome Selá; e ele estava em Quezibe no seu dar à luz a ele.",
   "termos_originais": [
     {
@@ -86,6 +86,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e chamou o seu nome Selá → e o chamou de Selá",
+      "justificativa": "Mesmo calque de קָרָא שֵׁם dos vv. 3-4; normalizado para 'chamou X de y' (ER-0012/ER-0013). O sujeito elíptico continua 'ela' (וַתִּקְרָא, 3fs). — revisão de forma sem alteração de sentido (ER-0019). 'Judá' no segundo período é clarificação suprida de ciclo anterior para o וְהָיָה 3ms ('e ele estava em Quezibe') — mantida, pois desfaz ambiguidade real com o recém-nascido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -97,10 +104,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

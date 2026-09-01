@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Gen.38.1-30"
   },
-  "texto_bv": "E sucedeu que, ao dar à luz, um pôs para fora a mão; e a parteira a tomou, e atou em sua mão um fio de escarlata, dizendo: “Este saiu primeiro”.",
+  "texto_bv": "E, quando ela dava à luz, um pôs para fora a mão; e a parteira a tomou, e atou na mão dele um fio de escarlate, dizendo: “Este saiu primeiro”.",
   "traducao_literal": "E aconteceu, no seu dar à luz, que um deu a mão; e tomou a parteira, e atou sobre a sua mão um escarlate, dizendo: Este saiu primeiro.",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E sucedeu que, ao dar à luz, um pôs → E, quando ela dava à luz, um pôs | atou em sua mão um fio → atou na mão dele um fio | um fio de escarlata → um fio de escarlate",
+      "justificativa": "'Sucedeu que' decalca a moldura וַיְהִי (EDITORIAL §6.2/ER-0013 — precedente Gn 30.41); além disso, 'ao dar à luz' sem sujeito expresso emprestava o sujeito da principal ('um'), quando o infinitivo construto בְלִדְתָּהּ tem sufixo 3fs (ela). O imperfeito 'dava' guarda o valor durativo do construto. | 'Sua' ficava ambíguo entre a parteira (sujeito imediato) e a criança; o sufixo 3ms de יָדוֹ aponta a criança — 'dele' desfaz a ambiguidade. | 'Escarlata' é variante lexical envelhecida (EDITORIAL §1.2); o corpus da BV usa 'escarlate' de forma amplamente majoritária — normalizado, também no v. 30. — revisão de forma sem alteração de sentido (ER-0019). 'Um pôs para fora a mão' com 'um' partitivo apoia-se em 'gêmeos' do v. 27 — coesão em dia; 'a tomou' retoma 'a mão' sem ambiguidade.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -114,11 +121,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

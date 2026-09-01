@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Gen.38.1-30"
   },
-  "texto_bv": "Mas, ao recolher ele a mão, saiu o seu irmão! E ela disse: “Como você rompeu sobre si uma brecha!” E chamou-se o seu nome Perez.",
+  "texto_bv": "Mas, ao recolher ele a mão, saiu o seu irmão! E ela disse: “Como você rompeu sobre si uma brecha!” E foi chamado Perez.",
   "traducao_literal": "E aconteceu, como fazer voltar ele a sua mão, e eis que saiu o seu irmão; e disse: Como rompeste sobre ti uma brecha! E chamou o seu nome Perez.",
   "termos_originais": [
     {
@@ -116,6 +116,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E chamou-se o seu nome Perez. → E foi chamado Perez.",
+      "justificativa": "Calque de קָרָא שְׁמוֹ com passiva sintética ('o seu nome chamou-se Perez'): em português chama-se a pessoa, não o nome — mesma normalização de Gn 25.30 ('foi chamado Edom') e 31.48. O 3ms indefinido וַיִּקְרָא já fora lido como impessoal/passivo pela BV; a passiva analítica preserva essa leitura. — revisão de forma sem alteração de sentido (ER-0019). 'Ao recolher ele a mão' — infinitivo com sujeito posposto, correto na norma culta e necessário para marcar a troca de referente. 'Saiu o seu irmão' é inversão apresentativa nativa com inacusativo (precedente Gn 25.25-26); a exclamação verte o וְהִנֵּה de surpresa. 'Como você rompeu sobre si uma brecha!' preserva o objeto cognato (פָּרַצְתָּ... פָּרֶץ) e o jogo etimológico com o nome Perez — fórmula intencional, não se toca.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -127,11 +134,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
