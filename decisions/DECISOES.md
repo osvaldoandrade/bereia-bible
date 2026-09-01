@@ -427,6 +427,15 @@ Ver `docs/domain/governanca/glossary.md`.
   marginal. O contrato de saída e as guardas do ship não mudaram; a
   destilação referencia revisor-gramatical.md v1.0.0 e EDITORIAL.md v1.2.0 e
   deve ser re-destilada se eles mudarem.
+- Correção de proveniência (a partir de Gn 49): `ship_review_batch.py` fixava
+  no código a diretriz da mensagem de commit (`ER-0019`), porque foi escrito
+  para aquela etapa. O rótulo virou parâmetro (`-er`, default `ER-0019`) e
+  este ciclo ship a com `-er ER-0022`. Consequência registrada e **não
+  reescrita**: Gn 33-48 é conteúdo ER-0022 já pushado sob mensagens
+  `(ER-0019)` — o conteúdo do `review-out` (campo `justificativa`, vereditos
+  gramaticais) e o `fontes.modelo` do registro são a proveniência real
+  desses capítulos; a mensagem de commit, ali, mente. Gn 1-16 e 17-32, que
+  foram commitados à mão, trazem o rótulo certo.
 
 ---
 

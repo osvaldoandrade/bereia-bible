@@ -19,7 +19,11 @@ first; EDITORIAL objections in the malformed file are lost).
 
 Usage:
   python3 scripts/ship_review_batch.py qa/reports/review-out/<files>... \
-      -modelo qwen3.7-max [-no-push] [--regen-noop 24-jr/13 ...]
+      -modelo qwen3.7-max [-er ER-0022] [-no-push] [--regen-noop 24-jr/13 ...]
+
+The -er label goes into the commit message and is the provenance of the
+batch: it must name the directive that actually produced the review-out
+files, not the one this script was first written for.
 
 Zero third-party deps.
 """
@@ -309,6 +313,10 @@ def main(argv=None):
     ap.add_argument("-modelo", default=os.environ.get("BV_MODEL",
                                                        "claude-sonnet-5"))
     ap.add_argument("-no-push", action="store_true")
+    ap.add_argument("-er", default="ER-0019", metavar="ER-NNNN",
+                    help="diretriz que este lote executa; entra na mensagem "
+                         "de commit como proveniência (ER-0022 = revisão "
+                         "gramatical do AT)")
     ap.add_argument("-status", default="DRAFT",
                     choices=["DRAFT", "REVIEW", "APPROVED"],
                     help="estado dos registros que este ciclo revisa "
@@ -387,8 +395,8 @@ def main(argv=None):
             continue
         code = osis_book_code(chapter_dir(out))
         name = book_names.get(code, code or book_dir)
-        msg = "fix(translation): editorial review of %s %d hot-spots (ER-0019)" % (
-            name, chap)
+        msg = "fix(translation): editorial review of %s %d hot-spots (%s)" % (
+            name, chap, args.er)
         commit = run(["git", "commit", "-q", "-m", msg])
         if commit.returncode != 0:
             print("COMMIT FAIL %s:\n%s%s"
