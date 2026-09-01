@@ -4,66 +4,84 @@
   "versos": [
     {
       "osis": "Exod.6.1",
-      "texto_bv_revisto": "Então disse o SENHOR a Moisés: Agora verás o que hei de fazer a Faraó; porque por uma mão poderosa os deixará ir, e por uma mão poderosa os expulsará da sua terra.",
-      "mudancas": [],
-      "objecoes": [],
-      "justificativa": "Sem achado. Divergência da NVIPT (\"minha mão poderosa\", 1ª pessoa) vs BV/ARA (\"uma mão poderosa\", 3ª pessoa) reflete interpretação distinta do idiomatismo hebraico; a BV segue a leitura da ARA. Sem problema de forma que exija correção.",
-      "veredito": "SEM_ALTERACAO"
+      "texto_bv_revisto": "Então disse o SENHOR a Moisés: Agora você verá o que hei de fazer a Faraó; porque por uma mão poderosa os deixará ir, e por uma mão poderosa os expulsará da sua terra.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "Agora verás",
+          "depois": "Agora você verá",
+          "motivo": "Descontinuidade de tratamento: fala de Deus a humano usa você (EDITORIAL.md), e o próprio capítulo já emprega você nas falas de Deus a Moisés (vv. 6, 11, 29) e em Ex 7.2; singular do hebraico (tirʼeh, 2ms) preservado."
+        }
+      ],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "EDITORIAL.md v1.2.0 prescreve discurso direto com dois-pontos + aspas duplas curvas, mas todo o capítulo (vv. 1, 2, 6, 11, 12, 26, 29, 30) e os vizinhos da janela (Ex 5.22-23; 7.1-2) usam apenas dois-pontos, sem aspas. Aplicar aspas só neste verso criaria inconsistência; a adoção exige mudança em cadeia de capítulos e decisão de projeto.",
+          "evidencia": "Nenhum verso do digest nem do contexto exibe aspas em discurso direto; o padrão sem aspas é sistêmico no corpus recebido."
+        }
+      ],
+      "justificativa": "Ajuste de tratamento para o padrão você já vigente no capítulo; a repetição “por uma mão poderosa... por uma mão poderosa” é paralelismo do original (beyad chazaqah duas vezes) e foi mantida.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.6.2",
-      "texto_bv_revisto": "Falou mais Deus a Moisés, e disse-lhe: Eu sou o SENHOR.",
-      "mudancas": [],
+      "texto_bv_revisto": "E falou Deus a Moisés, e disse-lhe: Eu sou o SENHOR.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "Falou mais Deus a Moisés, e disse-lhe:",
+          "depois": "E falou Deus a Moisés, e disse-lhe:",
+          "motivo": "“Falou mais” é decalque da tradição ARC para o waw inicial: “mais” não tem correspondente no hebraico (vaydabber = e falou) e soa truncado hoje; normalizado para “E falou”, padrão do próprio capítulo (v. 10)."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Elohim → Deus conforme política pinada; sentido idêntico ao hebraico e à KJV (And God spake unto Moses).",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.6.3",
-      "texto_bv_revisto": "E eu apareci a Abraão, a Isaque, e a Jacó, como o Deus Todo-Poderoso; mas pelo meu nome, o SENHOR, não lhes fui conhecido.",
-      "mudancas": [],
+      "texto_bv_revisto": "E eu apareci a Abraão, a Isaque e a Jacó, como o Deus Todo-Poderoso; mas pelo meu nome, o SENHOR, não lhes fui conhecido.",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "a Abraão, a Isaque, e a Jacó,",
+          "depois": "a Abraão, a Isaque e a Jacó,",
+          "motivo": "Vírgula antes de “e” em enumeração simples contraria a pontuação do português; a sintaxe portuguesa rege a vírgula, não o acento massorético."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“El Shaddai” → “Deus Todo-Poderoso” e a leitura “pelo meu nome... não lhes fui conhecido” são decisões da camada de tradução aprovada (mesmo entendimento da KJV); não tocadas.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.6.4",
       "texto_bv_revisto": "E também estabeleci a minha aliança com eles, para dar-lhes a terra de Canaã, a terra das suas peregrinações, na qual foram peregrinos.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "o meu concerto",
-          "depois": "a minha aliança",
-          "motivo": "Arcaísmo (§1.2 não-exaustivo): \"concerto\" no sentido de \"pacto/aliança\" é funcionalmente morto em pt-BR contemporâneo (Houaiss: antigo); NTLH e NVIPT usam \"aliança\", ARA usa \"pacto\" — divergência unânime das refs (§1.4). Ajuste de gênero (concerto→aliança: masc.→fem.) reflete em \"o meu\"→\"a minha\"."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Correto e coeso; a repetição “peregrinações... peregrinos” reproduz a figura etimológica do hebraico (megureihem... garu) e é intencional; “com eles” tem antecedente claro (Abraão, Isaque e Jacó, v. 3).",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.5",
       "texto_bv_revisto": "E também tenho ouvido o gemido dos filhos de Israel, aos quais os egípcios escravizam, e me lembrei da minha aliança.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "do meu concerto",
-          "depois": "da minha aliança",
-          "motivo": "Mesmo arcaísmo de 6.4: \"concerto\" → \"aliança\" para consistência intra-capítulo (§1.4) e alinhamento com NTLH/NVIPT."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "“Tenho ouvido... me lembrei” não é quebra sem motivo: o composto marca o ouvir durativo (gemido contínuo, particípio maʻavidim ao fundo) e o simples marca o lembrar pontual (wayyiqtol vaʼezkor). “Aos quais os egípcios escravizam” é objeto direto preposicionado com referente humano, construção legítima no registro; próclise “e me lembrei” correta.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.6",
-      "texto_bv_revisto": "Portanto diga aos filhos de Israel: Eu sou o SENHOR, e tirarei vocês de debaixo das cargas dos egípcios, e livrarei vocês da servidão deles, e resgatarei vocês com braço estendido e com grandes juízos.",
+      "texto_bv_revisto": "Portanto, diga aos filhos de Israel: Eu sou o SENHOR, e tirarei vocês de debaixo das cargas dos egípcios, e livrarei vocês da servidão deles, e resgatarei vocês com braço estendido e com grandes juízos.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "dize",
-          "depois": "diga",
-          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): Deus→Moisés = você; imperativo de tu (\"dize\") normalizado para imperativo de você (\"diga\"). O verso já usa \"vocês\" (3×) para Deus→povo, confirmando paradigma você/vocês."
+          "tipo": "pontuacao",
+          "antes": "Portanto diga",
+          "depois": "Portanto, diga",
+          "motivo": "Conectivo conclusivo deslocado para a abertura do período pede vírgula na norma culta (cf. “como, pois,” no v. 12 do mesmo capítulo)."
         }
       ],
       "objecoes": [],
+      "justificativa": "O polissíndeto “e tirarei... e livrarei... e resgatarei” foi mantido: é a cadeia solene de promessas de redenção (vv. 6-8), fórmula intencional do original, não vício de calque.",
       "veredito": "REVISADO"
     },
     {
@@ -71,84 +89,75 @@
       "texto_bv_revisto": "E tomarei vocês por meu povo, e serei o Deus de vocês; e vocês saberão que eu sou o SENHOR, o Deus de vocês, que tiro vocês de debaixo das cargas dos egípcios.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "RED-1 (\"deus voces\") é falso-positivo: a repetição de \"Deus de vocês\" e dos pronomes \"vocês\" (5×) reflete a fórmula da aliança no original hebraico, que repete a relação pactual. Item 4: repetir o que o original repete é fidelidade. NTLH parafraseia mas ARA mantém a repetição. Fórmula intencional mantida.",
+      "justificativa": "A repetição “o Deus de vocês” e o encadeamento com “e” reproduzem a fórmula de aliança do hebraico (lachem lelohim... eloheichem) e a cadeia de promessas dos vv. 6-8; presente “que tiro” espelha o particípio hammotsi. Fórmula intencional mantida.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.8",
       "texto_bv_revisto": "E levarei vocês à terra que jurei dar a Abraão, a Isaque e a Jacó; e a darei a vocês por herança, eu, o SENHOR.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "pela qual levantei a minha mão, que a daria a Abraão, a Isaque, e a Jacó",
-          "depois": "que jurei dar a Abraão, a Isaque e a Jacó",
-          "motivo": "Desdobramento de idiomatismo hebraico (\"levantar a mão\" = jurar) — opaco para o leitor pt-BR contemporâneo; NTLH/ARA/NVIPT desdobram unanimemente (§6.2/ER-0013: publicado normaliza calques artificiais). Remoção de vírgula antes de \"e\" em enumeração simples (AO90). Traducao_literal preserva o idiomatismo para auditoria."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "“Que jurei dar” verte o idiomatismo “levantei a minha mão” na camada aprovada (mesmo entendimento da KJV: I did swear); decisão de tradução, não de gramática. “A darei” retoma “a terra” sem ambiguidade; fecho “eu, o SENHOR” espelha ani YHWH.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.9",
-      "texto_bv_revisto": "Deste modo falou Moisés aos filhos de Israel, mas eles não ouviram a Moisés, por causa da angústia de espírito e da dura servidão.",
-      "mudancas": [],
+      "texto_bv_revisto": "Deste modo falou Moisés aos filhos de Israel, mas eles não o ouviram, por causa da angústia de espírito e da dura servidão.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "mas eles não ouviram a Moisés,",
+          "depois": "mas eles não o ouviram,",
+          "motivo": "Repetição do nome onde o português retoma por pronome: “Moisés” acabou de ser sujeito da oração anterior e “o” o recupera sem ambiguidade (“eles” = filhos de Israel); a repetição do hebraico aqui é estilo narrativo comum, não fórmula."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Retomada pronominal melhora a coesão sem tocar o sentido; “angústia de espírito” (qotser ruach) e “dura servidão” conferem com o hebraico e com a KJV.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.6.10",
       "texto_bv_revisto": "E falou o SENHOR a Moisés, dizendo:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sem achado. Ordem V-S (\"falou o SENHOR\") é fórmula introdutória de discurso direto consolidada na tradição bíblica pt-BR; ER-0013/§6.2 permite manutenção quando o original marca o dêitico com força. ARA mantém a mesma construção.",
+      "justificativa": "Fórmula introdutória consolidada (vaydabber YHWH el-Moshe lemor); “dizendo:” reflete lemor e o padrão do corpus.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.11",
       "texto_bv_revisto": "Vá, fale a Faraó, rei do Egito, que deixe sair os filhos de Israel da sua terra.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Vai, fala",
-          "depois": "Vá, fale",
-          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): imperativos de tu (\"Vai, fala\") normalizados para imperativos de você (\"Vá, fale\"). NTLH e NVIPT usam \"Vá\" (você); ARA usa \"Vai\" (tu, paradigma antigo)."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Imperativos em você (Vá, fale) consistentes com o tratamento do capítulo; “da sua terra” tem antecedente recuperável no referente imediatamente anterior (Faraó, rei do Egito), como no hebraico (meʼartso) e na KJV (out of his land).",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.12",
       "texto_bv_revisto": "Moisés, porém, falou perante o SENHOR, dizendo: Os filhos de Israel não me ouviram; como, pois, me ouvirá Faraó? Além disso, eu sou incircunciso de lábios.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Eis que os filhos de Israel",
-          "depois": "Os filhos de Israel",
-          "motivo": "CAL-2: calque de הִנֵּה (hinneh) — \"Eis que\" soa artificial em pt-BR contemporâneo fora de contexto litúrgico; neste discurso de lamento/frustração de Moisés, o dêitico não tem força suficiente para justificar manutenção. NTLH e NVIPT removem. Traducao_literal preserva o hinneh para auditoria."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Correto e coeso; “incircunciso de lábios” é semitismo com carga teológica e não se toca; “Além disso” verte o waw aditivo de vaʼani na camada aprovada; próclise “não me ouviram” e “como, pois, me ouvirá” corretas.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.13",
-      "texto_bv_revisto": "Todavia o SENHOR falou a Moisés e a Arão e deu-lhes ordem quanto aos filhos de Israel e quanto a Faraó, rei do Egito, para tirar os israelitas da terra do Egito.",
+      "texto_bv_revisto": "Todavia, o SENHOR falou a Moisés e a Arão e deu-lhes ordem quanto aos filhos de Israel e quanto a Faraó, rei do Egito, para tirar os filhos de Israel da terra do Egito.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "e deu-lhes ordem para os filhos de Israel, e para Faraó",
-          "depois": "e deu-lhes ordem quanto aos filhos de Israel e quanto a Faraó",
-          "motivo": "Fluidez: preposição \"quanto a\" é mais natural que \"para\" neste contexto de ordem/instrução dirigida a terceiros. Remoção de vírgula antes de \"e\" em coordenação simples (AO90)."
+          "tipo": "pontuacao",
+          "antes": "Todavia o SENHOR falou",
+          "depois": "Todavia, o SENHOR falou",
+          "motivo": "Conectivo adversativo em abertura de período pede vírgula na norma culta."
         },
         {
-          "tipo": "EDITORIAL",
-          "antes": "para tirar os filhos de Israel",
-          "depois": "para tirar os israelitas",
-          "motivo": "RED-1: variação lexical para evitar repetição mecânica de \"filhos de Israel\" (2× em curto espaço); NTLH e NVIPT usam \"israelitas\" como variação. §1.4: consistência lexical não exige repetição do mesmo lexema quando o original repete por fórmula, não por retórica."
+          "tipo": "coesao",
+          "antes": "para tirar os israelitas da terra do Egito",
+          "depois": "para tirar os filhos de Israel da terra do Egito",
+          "motivo": "Consistência lexical intra-capítulo (§1.4): o mesmo sintagma hebraico benei Yisrael é vertido “filhos de Israel” no próprio verso e em todo o capítulo (vv. 5, 6, 9, 11, 12, 26, 27); a variação “israelitas” é isolada e sem razão de registro, e o hebraico repete benei Yisrael duas vezes no verso."
         }
       ],
       "objecoes": [],
+      "justificativa": "Normalização para o lexema majoritário do capítulo e vírgula do conectivo; nada do sentido alterado (mesma leitura da KJV).",
       "veredito": "REVISADO"
     },
     {
@@ -156,6 +165,7 @@
       "texto_bv_revisto": "Estes são os cabeças das casas de seus pais: os filhos de Rúben, o primogênito de Israel: Enoque, Palu, Hezrom e Carmi; estas são as famílias de Rúben.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Os dois-pontos duplos são convenção do gênero genealógico (cabeçalho da lista + introdução dos nomes) e mantêm a sintaxe clara; “os cabeças” (masculino) é a forma correta para chefes. Sem alteração.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -163,6 +173,7 @@
       "texto_bv_revisto": "E os filhos de Simeão: Jemuel, Jamim, Oade, Jaquim, Zoar e Saul, filho de uma cananeia; estas são as famílias de Simeão.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Enumeração já em assíndeto natural do português (o hebraico coordena com waw a cada nome); “filho de uma cananeia” verte o artigo hebraico de gentílico com indefinido, mesma leitura da KJV, decisão da camada aprovada.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -170,6 +181,7 @@
       "texto_bv_revisto": "E estes são os nomes dos filhos de Levi, segundo as suas gerações: Gérson, Coate e Merari; e os anos da vida de Levi foram cento e trinta e sete anos.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Numeral por extenso conforme a norma; fórmula genealógica (“e os anos da vida de X foram...”) consistente com os vv. 18 e 20.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -177,6 +189,7 @@
       "texto_bv_revisto": "Os filhos de Gérson: Libni e Simei, segundo as suas famílias.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto e coeso; “segundo as suas famílias” verte lemishpechotam de forma consistente com o capítulo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -184,6 +197,7 @@
       "texto_bv_revisto": "E os filhos de Coate: Anrão, Izar, Hebrom e Uziel; e os anos da vida de Coate foram cento e trinta e três anos.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Fórmula genealógica consistente com os vv. 16 e 20; numeral por extenso conforme a norma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -191,6 +205,7 @@
       "texto_bv_revisto": "E os filhos de Merari: Mali e Musi; estas são as famílias de Levi, segundo as suas gerações.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "“Famílias de Levi” para halevi (gentílico com artigo) é a leitura da camada aprovada, idêntica à da KJV (families of Levi); fórmula de fechamento consistente com os vv. 14 e 15.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -198,20 +213,15 @@
       "texto_bv_revisto": "E Anrão tomou por mulher a Joquebede, sua tia, e ela lhe deu à luz Arão e Moisés; e os anos da vida de Anrão foram cento e trinta e sete anos.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "“Tomou por mulher a Joquebede” usa objeto direto preposicionado com nome próprio de pessoa, construção legítima no registro; “deu à luz Arão” sem preposição é a regência correta; numeral por extenso conforme a norma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.21",
       "texto_bv_revisto": "E os filhos de Izar: Coré, Nefegue e Zicri.",
       "mudancas": [],
-      "objecoes": [
-        {
-          "gravidade": "EDITORIAL",
-          "problema": "Transliteração \"Coré\" diverge unanimemente das referências: NTLH, ARA e NVIPT usam \"Corá\" para קֹרַח (Qorach). A BV é consistente internamente (6.24: \"Coré\", \"coreítas\"), mas a forma \"Corá\" é a tradição consolidada em pt-BR (Almeida).",
-          "evidencia": "NTLH: Corá; ARA: Corá; NVIPT: Corá. BV: Coré. §1.4: divergência unânime das refs exige investigação; §8 (nomes próprios): grafia consolidada na tradição Almeida."
-        }
-      ],
-      "justificativa": "Sem achado da triagem. A divergência unânime das refs (\"Corá\" vs BV \"Coré\") é registrada como objeção EDITORIAL — a correção exige verificação com o lexicon e decisão sobre transliteração de nomes próprios sem tradição unificada. Texto mantido por coerência interna (6.24: \"coreítas\").",
+      "objecoes": [],
+      "justificativa": "Correto; enumeração em assíndeto natural do português para a coordenação com waw do hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -219,6 +229,7 @@
       "texto_bv_revisto": "E os filhos de Uziel: Misael, Elzafã e Sitri.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto; mesmo padrão de lista do v. 21.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -226,6 +237,7 @@
       "texto_bv_revisto": "E Arão tomou por mulher a Eliseba, filha de Aminadabe, irmã de Naassom; e ela lhe deu à luz Nadabe, Abiú, Eleazar e Itamar.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Paralelo exato ao v. 20 (mesma construção aprovada); apostos “filha de Aminadabe, irmã de Naassom” bem pontuados; regência de “dar à luz” correta.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -233,7 +245,7 @@
       "texto_bv_revisto": "E os filhos de Coré: Assir, Elcana e Abiasafe; estas são as famílias dos coreítas.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sem achado. \"Coreítas\" deriva de \"Coré\" (6.21) — consistência interna mantida. ARA/NVIPT usam \"coraítas\" (derivado de \"Corá\"); a divergência é consequência da transliteração do nome-base, registrada como objeção EDITORIAL em 6.21.",
+      "justificativa": "“Dos coreítas” verte o gentílico coletivo haqqorchi (singular com artigo) por plural, leitura da camada aprovada, idêntica à da KJV (the Korhites).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -241,6 +253,7 @@
       "texto_bv_revisto": "E Eleazar, filho de Arão, tomou para si por mulher uma das filhas de Putiel, e ela lhe deu à luz Fineias; estes são os cabeças dos pais dos levitas, segundo as suas famílias.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto e coeso; “tomou para si” verte o lo dativo do hebraico; fórmula de fechamento genealógico consistente com o v. 14.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -248,6 +261,7 @@
       "texto_bv_revisto": "Estes são Arão e Moisés, aos quais o SENHOR disse: Tirem os filhos de Israel da terra do Egito, segundo os seus exércitos.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "“Estes são” acomoda o singular enfático hu do hebraico à concordância do português (decisão da camada aprovada, mesma leitura da KJV); imperativo plural “Tirem” espelha hotsiʼu (2mp) no tratamento vocês.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -255,6 +269,7 @@
       "texto_bv_revisto": "Estes são os que falaram a Faraó, rei do Egito, para tirar do Egito os filhos de Israel; estes são Moisés e Arão.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A moldura “Estes são... estes são” reproduz o quiasmo enfático do hebraico com o v. 26 (Arão e Moisés / Moisés e Arão); repetição intencional do original, mantida.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -262,41 +277,24 @@
       "texto_bv_revisto": "Naquele dia em que o SENHOR falou a Moisés na terra do Egito,",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "O calque “E aconteceu que” (vayehi) já foi resolvido na camada aprovada; a oração temporal fica em suspenso e se completa no v. 29, como no hebraico; vírgula final correta para o encadeamento.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.29",
       "texto_bv_revisto": "o SENHOR falou a Moisés, dizendo: Eu sou o SENHOR; diga a Faraó, rei do Egito, tudo quanto eu lhe digo.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "dize",
-          "depois": "diga",
-          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): imperativo de tu normalizado para imperativo de você. NTLH e NVIPT usam \"Diga\"; ARA usa \"dize\" (paradigma antigo)."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "eu te digo",
-          "depois": "eu lhe digo",
-          "motivo": "Paradigma de 2ª pessoa (§3/D-0003): pronome oblíquo de tu (\"te\") normalizado para pronome oblíquo de você (\"lhe\"). Consistência com \"diga\" no mesmo verso."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "A repetição “o SENHOR falou a Moisés” é a retomada resumptiva do hebraico após a oração temporal do v. 28 (vayehi beyom dibber... vaydabber), estrutura intencional mantida; minúscula inicial correta na continuação do período; presente “digo” espelha o particípio dover.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.6.30",
       "texto_bv_revisto": "Então disse Moisés perante o SENHOR: Eu sou incircunciso de lábios; como, pois, Faraó me ouvirá?",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Eis que eu sou incircunciso",
-          "depois": "Eu sou incircunciso",
-          "motivo": "CAL-2: calque de הִנֵּה (hinneh) — \"Eis que\" soa artificial em pt-BR contemporâneo neste contexto de autodepreciação/lamento. NTLH e NVIPT removem; ARA mantém (paradigma antigo). Traducao_literal preserva o hinneh para auditoria."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Eco deliberado do v. 12 (inclusio da objeção de Moisés); a leve variação de ordem (“Faraó me ouvirá” vs. “me ouvirá Faraó”) espelha a variação do próprio hebraico (yishmaʻeni Farʻoh no v. 12; yishmaʻ elai Parʻoh aqui); “incircunciso de lábios” é semitismo teológico mantido.",
+      "veredito": "SEM_ALTERACAO"
     }
   ]
 }
