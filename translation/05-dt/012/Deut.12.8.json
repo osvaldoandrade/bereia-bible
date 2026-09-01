@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Deut.12.1-31"
   },
-  "texto_bv": "Não façam como fazemos aqui hoje, cada um fazendo tudo o que considera correto.",
+  "texto_bv": "Não façam como fazemos aqui hoje, cada um fazendo tudo o que é correto aos próprios olhos.",
   "traducao_literal": "Não farão conforme tudo o que nós estamos fazendo aqui hoje, cada homem tudo o que é correto aos olhos dele.",
   "termos_originais": [
     {
@@ -97,6 +97,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "cada um fazendo tudo o que considera correto. → cada um fazendo tudo o que é correto aos próprios olhos.",
+      "justificativa": "Consistência lexical intra-capítulo (§1.4): o mesmo idiomatismo hebraico הַיָּשָׁר בְּעֵינָיו / בְּעֵינֵי יְהוָה ('reto/correto aos olhos de') aparece três vezes no capítulo (v.8, v.25, v.28) e é preservado literalmente em v.25 e v.28 ('correto aos olhos do SENHOR'); em v.8 foi parafraseado como 'considera correto', quebrando sem motivo o paralelismo estruturante do capítulo entre 'o que é reto aos PRÓPRIOS olhos' (cada um por si, condenado) e 'o que é reto aos olhos do SENHOR' (padrão divino, louvado). Normalizado para o lexema majoritário do capítulo, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Corrigida a forma para restaurar o paralelismo lexical com v.25/v.28; sentido inalterado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -111,10 +118,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
