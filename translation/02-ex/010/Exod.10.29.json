@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "E Moisés disse: Você disse bem; eu nunca mais verei o seu rosto.",
+  "texto_bv": "E Moisés disse: Você falou bem; eu nunca mais verei o seu rosto.",
   "traducao_literal": "E disse Moisés: Bem falaste; não continuarei mais a ver a tua face.",
   "termos_originais": [
     {
@@ -78,6 +78,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E Moisés disse: Você disse bem → E Moisés disse: Você falou bem",
+      "justificativa": "Desfaz o eco “disse: Você disse” e distingue os lemas do original — וַיֹּאמֶר (dizer) e דִּבַּרְתָּ (falar), como na camada literal (“Bem falaste”). — revisão de forma sem alteração de sentido (ER-0019). “Nunca mais verei o seu rosto” verte לֹא־אֹסִף עוֹד רְאוֹת com registro “você” coerente com toda a cena; fecho do diálogo alinhado à KJV (“I will see thy face again no more”).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -89,11 +96,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

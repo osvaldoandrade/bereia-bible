@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "E Moisés disse: Havemos de ir com os nossos jovens e com os nossos velhos, com os nossos filhos e com as nossas filhas, com as nossas ovelhas e com os nossos bois. Porque temos de celebrar uma festa ao SENHOR.",
+  "texto_bv": "E Moisés disse: Havemos de ir com os nossos jovens e com os nossos velhos, com os nossos filhos e com as nossas filhas, com as nossas ovelhas e com os nossos bois, porque temos de celebrar uma festa ao SENHOR.",
   "traducao_literal": "E disse Moisés: Nos nossos jovens e nos nossos anciãos iremos; nos nossos filhos e nas nossas filhas, no nosso rebanho e no nosso gado iremos, porque festa de YHWH para nós.",
   "termos_originais": [
     {
@@ -110,6 +110,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "com os nossos bois. Porque temos de celebrar uma festa ao SENHOR. → com os nossos bois, porque temos de celebrar uma festa ao SENHOR.",
+      "justificativa": "Período iniciado por “Porque” órfão; o כִּי subordina a causa diretamente à oração anterior, e a fusão fica dentro do limite de extensão (38 palavras). — revisão de forma sem alteração de sentido (ER-0019). O polissíndeto “com... e com...” reproduz a enumeração enfática do original (cada item leva bet) e foi mantido; um único “Havemos de ir” pelo duplo נֵלֵךְ é elipse que o português sustenta bem.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -121,11 +128,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

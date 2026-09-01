@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "Então ele lhes disse: O SENHOR esteja com vocês, se é que eu deixarei vocês e seus filhos irem! Vejam que há mal diante de vocês.",
+  "texto_bv": "Então ele lhes disse: O SENHOR esteja com vocês, se é que eu deixarei vocês e suas crianças irem! Vejam que há mal diante de vocês.",
   "traducao_literal": "E disse a eles: Seja assim YHWH convosco, conforme eu vos deixar ir e às vossas crianças! Vede que mal diante das vossas faces.",
   "termos_originais": [
     {
@@ -120,6 +120,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eu deixarei vocês e seus filhos irem → eu deixarei vocês e suas crianças irem",
+      "justificativa": "Consistência lexical intra-capítulo (§1.4): טַף é vertido “crianças” em 10.24 e na camada literal de ambos os versos; “filhos” colidia com בֵּן, já mapeado para “filho” no v. 2. — revisão de forma sem alteração de sentido (ER-0019). “Ele” retoma Faraó pela alternância do diálogo (v. 9 fala Moisés) e o conteúdo sarcástico da fala desfaz qualquer dúvida; a ironia “O SENHOR esteja com vocês, se é que...” corresponde a יְהִי כֵן... כַּאֲשֶׁר (KJV “Let the Lord be so with you, as...”).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -131,11 +138,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

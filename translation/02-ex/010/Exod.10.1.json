@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "E disse o SENHOR a Moisés: Vá a Faraó, porque tenho endurecido o seu coração, e o coração dos seus servos, para eu mostrar estes meus sinais no meio deles,",
+  "texto_bv": "E disse o SENHOR a Moisés: Vá a Faraó, porque tenho endurecido o seu coração e o coração dos seus servos, para eu mostrar estes meus sinais no meio deles,",
   "traducao_literal": "E disse YHWH a Moisés: Vem a Faraó, porque eu endureci o seu coração e o coração dos seus servos, para eu pôr estes meus sinais no meio dele,",
   "termos_originais": [
     {
@@ -133,6 +133,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tenho endurecido o seu coração, e o coração dos seus servos, para eu mostrar → tenho endurecido o seu coração e o coração dos seus servos, para eu mostrar",
+      "justificativa": "Vírgula entre objetos diretos coordenados por “e” contraria a sintaxe do português; a pausa vinha do ritmo massorético, que informa mas não obriga. — revisão de forma sem alteração de sentido (ER-0019). Mantidos: a abertura “E disse” (parataxe isolada, não cadeia — o corpus abre capítulos assim, cf. Ex 11.1 no contexto); “tenho endurecido”, perfeito composto adequado aos endurecimentos reiterados (cf. 9.34-35); “mostrar” para שִׁתִי segue a leitura da KJV (“shew”); “no meio deles” verte o sufixo coletivo 3ms de בְּקִרְבּוֹ pelo plural (Faraó e seus servos), equivalência corrente do coletivo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "O discurso direto em todo o capítulo usa apenas dois-pontos, sem as aspas duplas curvas que a norma editorial prevê para introduzir fala. — evidência: Padrão uniforme em 10.1-29 e nos capítulos vizinhos da janela (cf. 9.35 e 11.1 no contexto); aplicar aspas somente aqui quebraria a cadeia de capítulos — exige decisão tipográfica global, fora do alcance da revisão verso a verso. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -144,11 +158,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

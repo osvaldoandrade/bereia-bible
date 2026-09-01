@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "Agora, pois, peço que perdoe o meu pecado só esta vez, e que orem ao SENHOR Deus de vocês, que tire de mim somente esta morte.",
+  "texto_bv": "Agora, pois, peço que perdoe o meu pecado só esta vez e que orem ao SENHOR Deus de vocês, para que ele tire de mim somente esta morte.",
   "traducao_literal": "E agora, perdoa, por favor, o meu pecado somente esta vez, e orai a YHWH, vosso Deus, e afaste de sobre mim somente esta morte.",
   "termos_originais": [
     {
@@ -115,6 +115,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ao SENHOR Deus de vocês, que tire de mim somente esta morte → ao SENHOR Deus de vocês, para que ele tire de mim somente esta morte | só esta vez, e que orem → só esta vez e que orem",
+      "justificativa": "“Que tire” podia ler-se como relativa presa a “SENHOR”; וְיָסֵר é jussivo de finalidade (KJV “that he may take away”), e “ele” explicita o sujeito divino (minúscula conforme a norma). | Vírgula entre completivas coordenadas por “e” regidas pelo mesmo “peço”. — revisão de forma sem alteração de sentido (ER-0019). A alternância “perdoe” (singular, שָׂא 2ms, a Moisés) / “orem” (plural, וְהַעְתִּירוּ 2mp) foi preservada — a distinção de número do original é obrigatória; “só... somente” verte os distintos אַךְ e רַק.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -126,11 +133,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Exod.10.1-29"
   },
-  "texto_bv": "E encherão as suas casas, e as casas de todos os seus servos, e as casas de todos os egípcios. E encherão, como nunca seus pais nem os pais de seus pais viram, desde o dia em que estiveram na terra até o dia de hoje. E virou-se, e saiu da presença de Faraó.",
+  "texto_bv": "E encherão as suas casas, e as casas de todos os seus servos, e as casas de todos os egípcios, como nunca seus pais nem os pais de seus pais viram, desde o dia em que estiveram na terra até o dia de hoje. E Moisés virou-se e saiu da presença de Faraó.",
   "traducao_literal": "e encher-se-ão as tuas casas e as casas de todos os teus servos e as casas de todo o Egito, o que não viram teus pais e os pais de teus pais desde o dia de estarem sobre o solo até o dia este. E virou-se e saiu de com Faraó.",
   "termos_originais": [
     {
@@ -172,6 +172,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e as casas de todos os egípcios. E encherão, como nunca seus pais → e as casas de todos os egípcios, como nunca seus pais | E virou-se, e saiu da presença de Faraó. → E Moisés virou-se e saiu da presença de Faraó.",
+      "justificativa": "O segundo “E encherão” não existe no hebraico — אֲשֶׁר לֹא רָאוּ liga-se diretamente à oração anterior — e ficava sem complemento; a fusão elimina o verbo duplicado sem inventar relação que o original não marca. | Sujeito 3ms (וַיִּפֶן) após falantes no plural (v. 3, “disseram”) ficava irrecuperável; o próprio capítulo explicita “Moisés” no caso idêntico de 10.18. Retirada também a vírgula entre verbos coordenados de mesmo sujeito. — revisão de forma sem alteração de sentido (ER-0019). O período resultante (44 palavras) foi mantido: reparti-lo obrigaria a recriar o verbo duplicado ou a inventar nexo que o encadeamento relativo do hebraico não marca; as vírgulas da lista “e as casas... e as casas” ficam pelo polissíndeto do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -183,11 +190,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
