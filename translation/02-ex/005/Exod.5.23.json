@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Exod.5.1-23"
   },
-  "texto_bv": "Porque desde que entrei a Faraó, para falar em teu nome, ele tem maltratado a este povo; e de nenhuma sorte livraste o teu povo.",
+  "texto_bv": "Porque, desde que entrei à presença de Faraó para falar em teu nome, ele tem maltratado este povo; e de modo algum livraste o teu povo.",
   "traducao_literal": "E desde que vim a Faraó para falar no teu nome, fez mal a este povo; e livrar não livraste o teu povo.",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "desde que entrei a Faraó, para falar em teu nome, → desde que entrei à presença de Faraó para falar em teu nome, | Porque desde que → Porque, desde que | ele tem maltratado a este povo; → ele tem maltratado este povo; | e de nenhuma sorte livraste o teu povo. → e de modo algum livraste o teu povo.",
+      "justificativa": "“Entrar a + pessoa” decalca בָּאתִי אֶל; “entrar à presença de” é a regência portuguesa para ir ter com alguém (cf. correção paralela em 5.20); caiu também a vírgula que separava a finalidade do verbo. | Vírgula abrindo a oração adverbial intercalada entre “Porque” e a oração principal. | “Maltratar” é transitivo direto; o “a” acusativo diante de “este povo” não é o uso bíblico reservado a nome próprio ou divino (contraste com “fizeste mal a este povo” em 5.22, que é dativo legítimo). | “De nenhuma sorte” é locução arcaica; “de modo algum” mantém a ênfase do infinitivo absoluto הַצֵּל לֹא הִצַּלְתָּ (KJV “neither hast thou delivered thy people at all”). — revisão de forma sem alteração de sentido (ER-0019). Tratamento tu mantido na oração a Deus (“teu nome... livraste... o teu povo”); “tem maltratado” conserva o aspecto durativo desde a vinda a Faraó (KJV “he hath done evil to this people”).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -114,11 +121,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

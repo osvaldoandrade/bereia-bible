@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Exod.5.1-23"
   },
-  "texto_bv": "E depois foram Moisés e Arão, e disseram a Faraó: Assim diz o SENHOR, o Deus de Israel: Deixe ir o meu povo, para que me celebre uma festa no deserto.",
+  "texto_bv": "Depois disso, Moisés e Arão foram e disseram a Faraó: Assim diz o SENHOR, o Deus de Israel: Deixe ir o meu povo, para que me celebre uma festa no deserto.",
   "traducao_literal": "E depois vieram Moisés e Arão e disseram a Faraó: Assim disse YHWH, o Deus de Israel: Deixa ir o meu povo, e celebrem-me festa no deserto.",
   "termos_originais": [
     {
@@ -123,6 +123,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E depois foram Moisés e Arão, e disseram a Faraó: → Depois disso, Moisés e Arão foram e disseram a Faraó:",
+      "justificativa": "וְאַחַר abre o verso como marcador temporal; “E depois... , e...” é calque do waw — o português narrativo antepõe o adjunto, mantém a ordem sujeito-verbo e dispensa a vírgula antes do segundo “e”. — revisão de forma sem alteração de sentido (ER-0019). Correção apenas de forma no conectivo; conteúdo confere com a morfologia pinada (בָּאוּ... וַיֹּאמְרוּ) e com a KJV. “Deixe ir” mantém o imperativo você dirigido a Faraó; “me celebre” concorda com o coletivo “o meu povo”.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "O discurso direto em todo o capítulo usa apenas dois-pontos, sem as aspas duplas curvas previstas na norma editorial; aplicar a norma aqui exigiria mudança em cadeia no capítulo inteiro e no restante do corpus, o que ultrapassa o verso corrente. — evidência: Todos os versos do capítulo e da janela (Exod.4.30–6.2) seguem o padrão dois-pontos sem aspas, inclusive citação dentro de citação (5.8, 5.10). (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,11 +148,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

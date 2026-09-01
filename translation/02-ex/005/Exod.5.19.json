@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Exod.5.1-23"
   },
-  "texto_bv": "Então os oficiais dos filhos de Israel viram-se em aflição, porquanto se dizia: Nada diminuirão dos seus tijolos, da tarefa de cada dia.",
+  "texto_bv": "Então os oficiais dos filhos de Israel viram-se em aflição, pois se dizia: Nada diminuirão dos seus tijolos, da tarefa de cada dia.",
   "traducao_literal": "E viram os oficiais dos filhos de Israel a eles em mal, dizendo: Não diminuireis dos vossos tijolos, a palavra do dia no seu dia.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "porquanto se dizia: → pois se dizia:",
+      "justificativa": "“Porquanto” é conectivo arcaizante para o registro formal-neutro contemporâneo; “pois” mantém o mesmo valor causal sem tocar o conteúdo. — revisão de forma sem alteração de sentido (ER-0019). “Da tarefa de cada dia” consistente com 5.13 para דְּבַר־יוֹם בְּיוֹמוֹ; “diminuirão” = vocês, coerente com a fala citada de 5.8; ênclise “viram-se” correta após o sujeito.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -109,10 +116,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
