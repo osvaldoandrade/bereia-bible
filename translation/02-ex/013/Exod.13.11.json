@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Exod.13.1-22"
   },
-  "texto_bv": "Quando o SENHOR o houver introduzido na terra do cananeu, como jurou a você e a seus pais, quando lhe houver dado,",
+  "texto_bv": "Quando o SENHOR o houver introduzido na terra do cananeu, como jurou a você e a seus pais, quando a houver dado a você,",
   "traducao_literal": "E será, quando te fizer vir YHWH à terra do cananeu, conforme jurou a ti e aos teus pais, e a der a ti,",
   "termos_originais": [
     {
@@ -105,6 +105,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "quando lhe houver dado, → quando a houver dado a você,",
+      "justificativa": "Elipse que o português não sustenta: וּנְתָנָהּ traz sufixo objeto 3fs («a terra»); sem o clítico «a», «dar» fica sem complemento e «lhe» sem função clara. O clítico devolve o objeto e «a você» mantém o destinatário (לָךְ). — revisão de forma sem alteração de sentido (ER-0019). O clítico «a» retoma «terra», presente no próprio verso; o período continua em 13.12, como no original; «o houver introduzido» segue a convenção de 13.5.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -116,11 +123,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

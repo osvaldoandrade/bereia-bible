@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Exod.13.1-22"
   },
-  "texto_bv": "E lhe será por sinal sobre a sua mão, e por memorial entre os seus olhos, para que a lei do SENHOR esteja na sua boca; porquanto com mão forte o SENHOR o tirou do Egito.",
+  "texto_bv": "E será para você por sinal sobre a sua mão, e por memorial entre os seus olhos, para que a lei do SENHOR esteja na sua boca; porque com mão forte o SENHOR o tirou do Egito.",
   "traducao_literal": "E será para ti por sinal sobre a tua mão e por memorial entre os teus olhos, para que esteja a lei de YHWH na tua boca; porque com força de mão fez sair-te YHWH do Egito.",
   "termos_originais": [
     {
@@ -146,6 +146,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E lhe será → E será para você | porquanto com mão forte → porque com mão forte",
+      "justificativa": "Após «seu filho» em 13.8, «lhe» fica ambíguo entre o destinatário e o filho — e arrastaria «sua mão / seus olhos / sua boca» para o referente errado. O hebraico aponta o destinatário (לְךָ, sufixos 2ms); «para você» explicita, na ordem da camada literal («E será para ti por sinal»). | «porquanto» é conectivo datado para o registro contemporâneo; a mesma fórmula (כִּי בְּחֹזֶק יָד) usa «porque» em 13.16 — normalização de registro e de fórmula. — revisão de forma sem alteração de sentido (ER-0019). Com «para você» explícito, «o tirou» e os possessivos ficam ancorados no destinatário certo, como no hebraico, desfazendo a leitura possível «ao filho» vinda de 13.8.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -157,11 +164,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

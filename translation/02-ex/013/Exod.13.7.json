@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Exod.13.1-22"
   },
-  "texto_bv": "Sete dias se comerão pães ázimos, e o levedado não se verá com você, nem ainda fermento será visto em todo o seu território.",
+  "texto_bv": "Sete dias se comerão pães ázimos, e o levedado não se verá com você, nem fermento se verá em todo o seu território.",
   "traducao_literal": "Ázimos se comerão os sete dias, e não se verá para ti levedado, e não se verá para ti fermento em todo o teu território.",
   "termos_originais": [
     {
@@ -115,6 +115,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "nem ainda fermento → nem fermento | fermento será visto → fermento se verá",
+      "justificativa": "«nem ainda» é fórmula herdada da tradição de Almeida e lê-se como «nem sequer», intensificação que o hebraico não marca — וְלֹא יֵרָאֶה é negação simples, paralela à anterior. | O hebraico repete o mesmo verbo na mesma forma (יֵרָאֶה... יֵרָאֶה); a segunda ocorrência estava em passiva analítica distinta sem motivo — normalizada para a passiva pronominal da primeira, restaurando o paralelismo (§1.4). — revisão de forma sem alteração de sentido (ER-0019). Concordância «se comerão pães ázimos» correta; o לְךָ da segunda cláusula fica absorvido por «seu território», que mantém a referência de segunda pessoa.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -126,11 +133,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

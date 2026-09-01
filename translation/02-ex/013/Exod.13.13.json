@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Exod.13.1-22"
   },
-  "texto_bv": "Mas todo o primogênito do jumento resgatará com um cordeiro; e, se não o resgatar, lhe quebrará a cerviz; mas todo o primogênito do homem entre seus filhos resgatará.",
+  "texto_bv": "Mas todo o primogênito do jumento você resgatará com um cordeiro; e, se não o resgatar, lhe quebrará a cerviz; mas todo o primogênito do homem entre seus filhos você resgatará.",
   "traducao_literal": "E todo o que abre de jumento resgatarás com um cordeiro; e se não resgatares, e quebrar-lhe-ás a nuca; e todo o primogênito do homem entre os teus filhos resgatarás.",
   "termos_originais": [
     {
@@ -116,6 +116,27 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas todo o primogênito do jumento resgatará → Mas todo o primogênito do jumento você resgatará | entre seus filhos resgatará → entre seus filhos você resgatará",
+      "justificativa": "Objeto anteposto (calcado em כָל פֶּטֶר חֲמֹר תִּפְדֶּה) com verbo em forma de terceira pessoa: sem sujeito expresso, a leitura default toma «todo o primogênito» como sujeito. «você» explícito desfaz a ambiguidade preservando a ordem enfática do hebraico. | Mesma ambiguidade sujeito/objeto da primeira cláusula; a solução acompanha o paralelo 13.15, que usa sujeito expresso («eu resgato»). — revisão de forma sem alteração de sentido (ER-0019). «lhe quebrará» com próclise é a alternativa prescrita à mesóclise clássica (quebrar-lhe-á); a ordem objeto-verbo do hebraico foi preservada, agora sem ambiguidade de sujeito.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "O lemma 6363 (פֶּטֶר), vertido «o que abre/abrir a madre» em 13.2, 13.12 e 13.15, aparece aqui (פֶּטֶר חֲמֹר) e em 13.12b (פֶּטֶר שֶׁגֶר) como «primogênito», neutralizando a distinção com בְּכוֹר (1060), que a KJV preserva (firstling × firstborn). — evidência: 13.13 abre com וְכָל פֶּטֶר חֲמֹר mas a BV traz «todo o primogênito do jumento», idêntico ao «primogênito» que verte בְּכוֹר na sequência; harmonizar exigiria decisão de léxico e mudanças coordenadas em 13.12 — não aplicada. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "«cerviz» é datado; a camada literal usa «nuca» (עֹרֶף em וַעֲרַפְתּוֹ). — evidência: traducao_literal «quebrar-lhe-ás a nuca»; a troca aqui poderia colidir com fórmulas consagradas do corpus («dura cerviz») e com o léxico pinado — não aplicada sem decisão de léxico. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -127,11 +148,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
