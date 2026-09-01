@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Exod.3.1-22"
   },
-  "texto_bv": "E apareceu-lhe o Anjo do SENHOR numa chama de fogo, do meio de uma sarça; e Moisés olhou, e a sarça ardia no fogo, mas não se consumia.",
+  "texto_bv": "Apareceu-lhe o Anjo do SENHOR numa chama de fogo, do meio de uma sarça; Moisés olhou, e a sarça ardia no fogo, mas não se consumia.",
   "traducao_literal": "E apareceu o Anjo de YHWH a ele numa chama de fogo do meio da sarça; e viu, e eis a sarça ardendo no fogo, e a sarça não sendo consumida.",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E apareceu-lhe o Anjo do SENHOR → Apareceu-lhe o Anjo do SENHOR | ; e Moisés olhou → ; Moisés olhou",
+      "justificativa": "E inicial de waw consecutivo removido; mantida a ordem verbo-sujeito do hebraico, com ênclise correta em verbo que abre o período. | Terceiro elo da cadeia de waw; após ponto e vírgula o conectivo é dispensável em português. — revisão de forma sem alteração de sentido (ER-0019). וְהִנֵּה sem calque (eis que) conforme a política; YHWH → SENHOR conforme a tabela pinada; a explicitação do sujeito Moisés (hebraico só וַיַּרְא) já era do texto aprovado e desfaz ambiguidade com o Anjo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -132,11 +139,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

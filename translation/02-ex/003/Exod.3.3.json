@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Exod.3.1-22"
   },
-  "texto_bv": "Então Moisés disse: Agora me virarei para lá, e verei esta grande visão, por que a sarça não se queima.",
+  "texto_bv": "Então Moisés disse: Agora me virarei para lá e verei esta grande visão, por que a sarça não se queima.",
   "traducao_literal": "E disse Moisés: Vou-me desviar agora e verei esta visão grande, por que não se queima a sarça.",
   "termos_originais": [
     {
@@ -91,6 +91,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para lá, e verei → para lá e verei",
+      "justificativa": "Coordenadas com o mesmo sujeito não pedem vírgula antes de e; o atnach informa, não obriga vírgula. — revisão de forma sem alteração de sentido (ER-0019). Cohortativo אָסֻרָה נָּא bem vertido (Agora me virarei); próclise correta após advérbio; por que interrogativo indireto grafado corretamente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Discurso direto introduzido por dois-pontos sem aspas duplas curvas, contra a norma de EDITORIAL.md (dois-pontos + aspas). — evidência: Todo o capítulo (vv. 3, 5, 6, 7, 10, 13...) e os vizinhos de Exod 2 e 4 exibidos no contexto seguem a mesma convenção sem aspas; aplicar aspas só neste verso quebraria a consistência — a correção exigiria mudança em cadeia de capítulos, fora do mandato verso a verso. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -102,10 +116,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

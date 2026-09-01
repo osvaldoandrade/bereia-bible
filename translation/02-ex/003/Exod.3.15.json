@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Exod.3.1-22"
   },
-  "texto_bv": "E Deus disse mais a Moisés: Assim dirá aos filhos de Israel: O SENHOR, o Deus de seus pais, o Deus de Abraão, o Deus de Isaque, e o Deus de Jacó, me enviou a vocês. Este é o meu nome eternamente, e este é o meu memorial de geração em geração.",
+  "texto_bv": "E Deus disse mais a Moisés: Assim dirá aos filhos de Israel: O SENHOR, o Deus de seus pais, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó, me enviou a vocês. Este é o meu nome eternamente, e este é o meu memorial de geração em geração.",
   "traducao_literal": "E disse ainda Deus a Moisés: Assim dirás aos filhos de Israel: YHWH, o Deus de vossos pais, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó, enviou-me a vós; este o meu nome para sempre, e este o meu memorial para geração de geração.",
   "termos_originais": [
     {
@@ -191,6 +191,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o Deus de Isaque, e o Deus de Jacó, me enviou → o Deus de Isaque e o Deus de Jacó, me enviou",
+      "justificativa": "Enumeração sem vírgula antes do e final, alinhada à correção do v. 6; a vírgula seguinte permanece por fechar o aposto iniciado em o Deus de seus pais. — revisão de forma sem alteração de sentido (ER-0019). Aqui disse mais tem base no hebraico (עוֹד); o paralelismo Este é o meu nome / este é o meu memorial reflete זֶה שְּׁמִי / זֶה זִכְרִי e fica; de geração em geração verte לְדֹר דֹּר adequadamente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -202,11 +209,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
