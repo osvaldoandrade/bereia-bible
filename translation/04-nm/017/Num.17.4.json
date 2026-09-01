@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Num.17.1-28"
   },
-  "texto_bv": "O sacerdote Eleazar pegou os incensários de bronze que os homens consumidos pelo fogo haviam apresentado, e eles foram martelados para revestir o altar.",
+  "texto_bv": "O sacerdote Eleazar pegou os incensários de bronze que os homens consumidos pelo fogo haviam apresentado, e os incensários foram martelados para revestir o altar.",
   "traducao_literal": "E tomou Eleazar, o sacerdote, os incensários de bronze que apresentaram os queimados, e martelaram a eles como revestimento para o altar.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e eles foram martelados para revestir o altar. → e os incensários foram martelados para revestir o altar.",
+      "justificativa": "'eles' ficava ambíguo entre dois antecedentes plurais possíveis na mesma oração ('os incensários de bronze' e 'os homens consumidos pelo fogo'); substituído pelo sintagma nominal para eliminar a ambiguidade referencial, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão pronominal (pronome com dois referentes plurais candidatos); demais regências e concordâncias corretas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -124,11 +131,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
