@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Lev.22.1-33"
   },
-  "texto_bv": "“Instrua Arão e seus filhos a se afastarem das dádivas sagradas que os israelitas dedicam a mim, para que não desonrem meu nome santo. Eu sou o SENHOR.",
+  "texto_bv": "“Instrua Arão e seus filhos a se afastarem das coisas sagradas que os israelitas dedicam a mim, para que não desonrem meu nome santo. Eu sou o SENHOR.",
   "traducao_literal": "Fala a Arão e aos filhos dele, e que se separem das coisas sagradas dos filhos de Israel, e não profanem o nome de minha santidade, as quais eles santificam para mim; eu sou YHWH.",
   "termos_originais": [
     {
@@ -152,6 +152,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "das dádivas sagradas que os israelitas dedicam a mim → das coisas sagradas que os israelitas dedicam a mim",
+      "justificativa": "Consistência lexical intra-capítulo (§1.4): o mesmo lemma hebraico קֳדָשִׁים/6944 é vertido como 'coisas sagradas' na maioria das ocorrências do capítulo (vv.3,4,7,12,15,16), inclusive na própria tradução literal deste verso ('as coisas sagradas dos filhos de Israel'); 'dádivas sagradas' é variação isolada sem motivo semântico distinto (não há jogo de palavras nem registro exigido pelo contexto), normalizada para o lexema majoritário. — revisão de forma sem alteração de sentido (ER-0019). Corrigida variação lexical isolada; regência ('afastarem-se de') e demais estruturas já estavam corretas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -165,10 +172,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
