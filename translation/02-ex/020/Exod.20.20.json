@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Exod.20.1-26"
   },
-  "texto_bv": "E disse Moisés ao povo: Não temam; porque Deus veio para provar vocês, e para que o seu temor esteja diante de vocês, a fim de que não pequem.",
+  "texto_bv": "E disse Moisés ao povo: Não temam; porque Deus veio para provar vocês, e para que o temor dele esteja diante de vocês, a fim de que não pequem.",
   "traducao_literal": "E disse Moisés ao povo: Não temais, porque para vos provar veio Deus, e para que seja o seu temor sobre as vossas faces, para que não pequeis.",
   "termos_originais": [
     {
@@ -135,6 +135,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o seu temor → o temor dele",
+      "justificativa": "Com 'vocês' na mesma oração, 'seu' seria lido como 2ª pessoa ('temor de vocês'); o hebraico tem יִרְאָתוֹ, 'o temor dele' (de Deus). 'dele' desfaz a ambiguidade entre os dois referentes sem repetir o nome; minúscula conforme a política de pronomes referentes a Deus. — revisão de forma sem alteração de sentido (ER-0019). O plural 'temam/vocês/pequem' confere com o 2mp do hebraico (תִּירָאוּ, אֶתְכֶם, פְּנֵיכֶם, תֶחֱטָאוּ); 'provar' no sentido de 'pôr à prova' (נסה) é consagrado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -146,11 +153,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

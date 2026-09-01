@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Exod.20.1-26"
   },
-  "texto_bv": "Não cobiçarás a casa do teu próximo, não cobiçarás a mulher do teu próximo, nem o seu servo, nem a sua serva, nem o seu boi, nem o seu jumento, nem coisa alguma do teu próximo.",
+  "texto_bv": "Não cobiçarás a casa do teu próximo; não cobiçarás a mulher do teu próximo, nem o seu servo, nem a sua serva, nem o seu boi, nem o seu jumento, nem coisa alguma do teu próximo.",
   "traducao_literal": "Não cobiçarás a casa do teu próximo; não cobiçarás a mulher do teu próximo, e o seu servo e a sua serva, e o seu boi e o seu jumento, e tudo o que do teu próximo.",
   "termos_originais": [
     {
@@ -114,6 +114,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a casa do teu próximo, não cobiçarás → a casa do teu próximo; não cobiçarás",
+      "justificativa": "Ponto e vírgula entre as duas orações coordenadas assindéticas (dois לֹא תַחְמֹד), evitando vírgula entre orações independentes numa sentença que já usa vírgulas na enumeração; a própria tradução literal pontua com ponto e vírgula aqui. — revisão de forma sem alteração de sentido (ER-0019). A repetição de 'não cobiçarás' é o texto (dois לֹא תַחְמֹד no original) e foi preservada; enumeração com 'nem' correta.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -125,11 +132,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Exod.20.1-26"
   },
-  "texto_bv": "E todo o povo viu os trovões, e os relâmpagos, e o sonido da trombeta, e o monte fumegando; e o povo, vendo isso, retirou-se e pôs-se de longe.",
+  "texto_bv": "E todo o povo viu os trovões, os relâmpagos, o som da trombeta e o monte fumegando; e o povo, vendo isso, retirou-se e pôs-se de longe.",
   "traducao_literal": "E todo o povo vendo os trovões e as tochas e a voz do chifre e o monte fumegando; e viu o povo, e tremeram, e ficaram de pé de longe.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "viu os trovões, e os relâmpagos, e o sonido da trombeta, e o monte fumegando → viu os trovões, os relâmpagos, o sonido da trombeta e o monte fumegando | o sonido da trombeta → o som da trombeta",
+      "justificativa": "Polissíndeto do waw em enumeração narrativa; o português enumera com vírgulas e 'e' apenas antes do último item. Nenhum item foi alterado ou reordenado. | 'sonido' é arcaísmo; EDITORIAL.md pede português brasileiro contemporâneo. קוֹל (6963) = 'som/voz'; o mesmo lemma em הַקּוֹלֹת permanece como 'trovões' por exigência do contexto (§1.4, registro distinto). — revisão de forma sem alteração de sentido (ER-0019). Mantida a repetição 'o povo... o povo', que espelha o original (הָעָם duas vezes) e reancora o sujeito após a enumeração longa; 'retirou-se e pôs-se de longe' é rendição consagrada de וַיָּנֻעוּ וַיַּעַמְדוּ מֵרָחֹק, com concordância coletiva no singular mantida de forma consistente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,11 +141,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
