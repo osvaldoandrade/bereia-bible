@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Josh.9.1-27"
   },
-  "texto_bv": "Quando todos os reis que estavam a oeste do Jordão — na região montanhosa, na Sefelá e ao longo de toda a costa do mar Grande, na direção do Líbano — souberam disso — isto é, os reis dos hititas, dos amorreus, dos cananeus, dos ferezeus, dos heveus e dos jebuseus. Eram eles:",
+  "texto_bv": "Quando todos os reis que estavam a oeste do Jordão — na região montanhosa, na Sefelá e ao longo de toda a costa do mar Grande, na direção do Líbano — souberam disso — isto é, os reis dos hititas, dos amorreus, dos cananeus, dos ferezeus, dos heveus e dos jebuseus,",
   "traducao_literal": "E aconteceu, ao ouvirem todos os reis que estavam do outro lado do Jordão, na montanha, e na baixada, e em toda a costa do mar Grande, diante do Líbano: o hitita, e o amorreu, o cananeu, o ferezeu, o heveu e o jebuseu,",
   "termos_originais": [
     {
@@ -169,6 +169,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dos ferezeus, dos heveus e dos jebuseus. Eram eles: → dos ferezeus, dos heveus e dos jebuseus,",
+      "justificativa": "o verso é a oração \"quando\" (subordinada) cuja principal só vem no v.2 (\"eles se reuniram...\"); a apposição \"isto é, os reis dos hititas...jebuseus\" já identifica \"todos os reis\", e o fragmento final \". Eram eles:\" duplicava essa apposição e fechava com dois-pontos que não introduz lista nenhuma dentro do verso — o texto que segue no v.2 é oração independente com sujeito próprio, não uma enumeração. Removido o fragmento redundante e trocado o ponto final por vírgula, preservando a mesma continuação para o v.2 sem alterar o sentido nem tocar no verso seguinte. — revisão de forma sem alteração de sentido (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -187,11 +194,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
