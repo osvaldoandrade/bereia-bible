@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "Quando Arão falou a toda a congregação dos filhos de Israel, e eles olharam para o deserto, a glória do SENHOR apareceu na nuvem.",
+  "texto_bv": "Quando Arão falou a toda a congregação dos filhos de Israel, eles olharam para o deserto, e a glória do SENHOR apareceu na nuvem.",
   "traducao_literal": "E aconteceu, como falar Arão a toda a assembleia dos filhos de Israel, que se viraram ao deserto, e eis que a glória de YHWH apareceu na nuvem.",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e eles olharam para o deserto, a glória do SENHOR apareceu na nuvem → eles olharam para o deserto, e a glória do SENHOR apareceu na nuvem",
+      "justificativa": "O 'e' herdado do waw (וַיִּפְנוּ) dentro do período subordinado gerava anacoluto ('Quando A, e B, C'); a coordenação foi realinhada à cadeia narrativa do hebraico: viraram-se ao deserto E a glória apareceu (cf. KJV 'they looked toward the wilderness, and… the glory… appeared'). Nenhuma relação lógica acrescentada. — revisão de forma sem alteração de sentido (ER-0019). 'olharam' para וַיִּפְנוּ e a omissão de הִנֵּה são escolhas tradutórias aprovadas; não tocadas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -124,10 +131,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "Ele lhes disse: Isto é o que o SENHOR tem dito: Amanhã é repouso, o santo sábado do SENHOR. O que vocês quiserem cozer no forno, cozam; o que quiserem cozer em água, cozam em água. Tudo o que sobrar, guardem para amanhã.",
+  "texto_bv": "Ele lhes disse: Isto é o que o SENHOR falou: Amanhã é repouso, o santo sábado do SENHOR. O que vocês quiserem cozer no forno, cozam; o que quiserem cozer em água, cozam em água. Tudo o que sobrar, guardem para amanhã.",
   "traducao_literal": "E disse a eles: Isto o que falou YHWH: Repouso, sábado de santidade para YHWH amanhã; o que assareis, assai, e o que cozereis, cozei; e todo o excedente, deixai para vós em guarda até a manhã.",
   "termos_originais": [
     {
@@ -181,6 +181,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Isto é o que o SENHOR tem dito → Isto é o que o SENHOR falou",
+      "justificativa": "דִּבֶּר (lemma 1696) é vertido por 'falar' no capítulo (vv. 11-12) — normalização §1.4; o pretérito composto iterativo 'tem dito' destoa do perfeito único do hebraico e criava eco imediato com 'Ele lhes disse'. — revisão de forma sem alteração de sentido (ER-0019). 'para amanhã' correto na fala (dêixis do discurso direto, cf. 'Amanhã é repouso'); a repetição de 'cozer' foi registrada como objeção editorial por depender de decisão lexical.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "O hebraico distingue אפה ('assar') de בשל ('cozinhar'); a BV usa 'cozer' para ambos, diferenciando apenas pelos adjuntos ('no forno'/'em água'), o que aplaina a distinção e gera repetição pesada ('cozer… cozam; cozer em água, cozam em água'). A melhoria ('o que quiserem assar, assem; o que quiserem cozinhar, cozinhem') tocaria escolha lexical vigente, acima da alçada gramatical. — evidência: traducao_literal: 'o que assareis, assai, e o que cozereis, cozei'; KJV: 'bake that which ye will bake… seethe that ye will seethe'. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -192,11 +206,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

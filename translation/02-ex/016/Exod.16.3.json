@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Exod.16.1-36"
   },
-  "texto_bv": "E disseram-lhes os filhos de Israel: Quem nos dera termos morrido pela mão do SENHOR na terra do Egito, quando estávamos sentados junto às panelas de carne, quando comíamos pão até fartar! Porque vocês nos tiraram a este deserto, para matarem de fome a toda esta multidão.",
+  "texto_bv": "E disseram-lhes os filhos de Israel: Quem nos dera termos morrido pela mão do SENHOR na terra do Egito, quando estávamos sentados junto às panelas de carne, quando comíamos pão até fartar! Porque vocês nos tiraram para este deserto, para matarem de fome a toda esta multidão.",
   "traducao_literal": "E disseram a eles os filhos de Israel: Quem dera o nosso morrer pela mão de YHWH na terra do Egito, no nosso estar sentados junto à panela da carne, no nosso comer pão à saciedade! Porque nos fizestes sair a este deserto para matar toda esta assembleia com fome.",
   "termos_originais": [
     {
@@ -190,6 +190,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "vocês nos tiraram a este deserto → vocês nos tiraram para este deserto",
+      "justificativa": "'tirar' com destino pede 'para' na norma contemporânea; o 'a' decalca אֶל (הוֹצֵאתֶם אֹתָנוּ אֶל־הַמִּדְבָּר) e trava a leitura. Sentido intacto (cf. KJV 'brought us forth into this wilderness'). — revisão de forma sem alteração de sentido (ER-0019). Mantidos o objeto direto preposicionado 'a toda esta multidão' (licenciado pela norma culta com 'todo' e eco do אֶת hebraico) e o infinitivo flexionado 'matarem' (sujeito 'vocês'). Formato de discurso direto sem aspas registrado como objeção editorial de alcance capitular.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "EDITORIAL.md prescreve discurso direto com dois-pontos + aspas duplas curvas, mas todo o capítulo (e os vizinhos aprovados de Gênesis–Êxodo na janela) usa apenas dois-pontos, sem aspas. Aplicar aspas só neste verso quebraria a consistência da cadeia de capítulos; a adequação exige decisão global (DECISOES.md). — evidência: Padrão idêntico em 16.4, 16.9 (citação aninhada com dois-pontos duplos), 16.15, 16.23, 16.25, 16.32; mesmo formato nos contextos aprovados de 15.26-27. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -201,11 +215,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
