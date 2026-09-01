@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Josh.24.1-33"
   },
-  "texto_bv": "Os ossos de José, trazidos do Egito pelos filhos de Israel, receberam sepultamento em Siquém. O local era uma porção de campo pela qual Jacó pagara cem qesitas aos filhos de Hamor; Hamor era pai de Siquém. Desse conjunto resultou uma herança para os filhos de José.",
+  "texto_bv": "Os ossos de José, trazidos do Egito pelos filhos de Israel, receberam sepultamento em Siquém. O local era uma porção de campo pela qual Jacó havia pago cem qesitas aos filhos de Hamor; Hamor era pai de Siquém. Desse conjunto resultou uma herança para os filhos de José.",
   "traducao_literal": "E os ossos de José, que fizeram subir os filhos de Israel do Egito, sepultaram em Siquém, na parcela do campo que comprou Jacó da mão dos filhos de Hamor, pai de Siquém, por cem quesitas; e foram para os filhos de José por herança.",
   "termos_originais": [
     {
@@ -201,6 +201,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pela qual Jacó pagara cem qesitas aos filhos de Hamor → pela qual Jacó havia pago cem qesitas aos filhos de Hamor",
+      "justificativa": "Mais-que-perfeito sintético ('pagara') é arcaísmo proibido pela norma editorial (EDITORIAL.md v1.2.0), que exige a forma composta ('tinha/havia pago'), salvo fórmula litúrgica consolidada — não é o caso aqui. Substituição não altera o sentido nem a relação temporal (compra anterior ao sepultamento). — revisão de forma sem alteração de sentido (ER-0022). Paráfrase 'Desse conjunto resultou uma herança' resolve com naturalidade a ambiguidade de número do sujeito hebraico (וַיִּֽהְיוּ, plural, referindo-se ao conjunto ossos+campo) sem introduzir erro; único ajuste necessário foi o mais-que-perfeito sintético.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -218,10 +225,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

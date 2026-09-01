@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Josh.24.1-33"
   },
-  "texto_bv": "Enviei vespas à frente de vocês, e elas expulsaram de diante de vocês os dois reis amorreus. Isso não aconteceu pela espada de você nem pelo arco de você.",
+  "texto_bv": "Enviei vespas à frente de vocês, e elas expulsaram de diante de vocês os dois reis amorreus. Isso não aconteceu pela espada nem pelo arco de você.",
   "traducao_literal": "E enviei diante de vós a vespa, e expulsou a eles de diante de vós, os dois reis do amorreu; não por tua espada e não por teu arco.",
   "termos_originais": [
     {
@@ -141,6 +141,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Isso não aconteceu pela espada de você nem pelo arco de você. → Isso não aconteceu pela espada nem pelo arco de você.",
+      "justificativa": "Repetição desnecessária de 'de você' em cada substantivo coordenado, onde o português retoma por complemento compartilhado ao final (mesmo padrão já usado em 24.19, 'as transgressões nem os pecados de vocês'). Mantém-se 'de você' — e não 'sua/seu' — porque o hebraico muda para 2ª pessoa singular (בְחַרְבְּךָ/בְקַשְׁתֶּךָ) dentro do discurso dirigido a 'vocês' no plural, e 'seu/sua' apagaria essa distinção de número exigida pela norma editorial. — revisão de forma sem alteração de sentido (ER-0022). Ajuste de economia sintática que preserva a mudança deliberada para singular do hebraico (te-la codificado por 'de você', não 'seu/sua', evitando colisão com 'os dois reis amorreus').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -157,10 +164,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "44f6139dd4742f201c85538fe3729b85f5263c59751a7d052b78e023383ac789",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
