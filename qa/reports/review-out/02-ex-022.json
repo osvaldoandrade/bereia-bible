@@ -1,238 +1,354 @@
 {
- "book_dir": "02-ex",
- "chapter": 22,
- "versos": [
-  {
-   "osis": "Exod.22.1",
-   "texto_bv_revisto": "Se o ladrão for encontrado a arrombar uma casa, e for ferido de modo que morra, quem o feriu não será culpado do sangue.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.2",
-   "texto_bv_revisto": "Mas se já havia sol sobre ele, quem o feriu será culpado do sangue; o ladrão fará restituição total; se nada tiver, será vendido pelo seu furto.",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "Achado PAS-1 é falso-positivo: as duas construções passivas ('será vendido', 'será culpado') são necessárias — o ladrão é vendido por outrem, ninguém 'é' culpado ativamente; ARA e NVIPT também usam passivas equivalentes ('será réu de sangue', 'será vendido'). Quanto à divergência das referências ('sol houver saído' ARA, 'nascer do sol' NVIPT, 'durante o dia' NTLH vs. 'já havia sol sobre ele' BV), a formulação da BV, embora mais próxima do hebraico, é compreensível e preserva a imagem original do sol sobre o indivíduo; não constitui arcaísmo funcionalmente morto.",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.3",
-   "texto_bv_revisto": "Se o furto for achado vivo na sua mão, seja boi, ou jumento, ou ovelha, pagará o dobro.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.4",
-   "texto_bv_revisto": "Se alguém fizer pastar o seu animal num campo ou numa vinha, e soltá-lo para comer no campo de outro, do melhor do seu campo e do melhor da sua vinha fará a restituição.",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "Achado RED-1 ('campo melhor') é falso-positivo: a repetição de 'do melhor do seu campo e do melhor da sua vinha' espelha a estrutura do hebraico, que menciona separadamente o melhor de cada propriedade como garantia de restituição integral. ARA mantém a mesma repetição ('do melhor do seu próprio campo e do melhor da sua própria vinha'). A redundância é fidelidade ao original, não defeito.",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.5",
-   "texto_bv_revisto": "Se irromper um fogo, e pegar nos espinhos, e destruir a meda de trigo, ou a seara, ou o campo, aquele que acendeu o fogo pagará totalmente o queimado.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.6",
-   "texto_bv_revisto": "Se alguém der ao seu próximo dinheiro, ou objetos, a guardar, e isso for furtado da casa daquele homem, se o ladrão se achar, pagará o dobro.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.7",
-   "texto_bv_revisto": "Se o ladrão não se achar, então o dono da casa se chegará aos juízes, para se verificar se não pôs a sua mão nos bens do seu próximo.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.8",
-   "texto_bv_revisto": "Em todo o negócio fraudulento, seja sobre boi, sobre jumento, sobre ovelha, sobre veste ou sobre qualquer coisa perdida, de que uma parte diga: “Isto é meu”, a causa de ambos virá perante os juízes. Aquele a quem os juízes condenarem pagará o dobro ao seu próximo.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.9",
-   "texto_bv_revisto": "Se alguém der ao seu próximo a guardar um jumento, ou boi, ou ovelha, ou outro animal qualquer, e este morrer, ou for aleijado, ou desgarrado, sem que ninguém o veja,",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.10",
-   "texto_bv_revisto": "então haverá juramento do SENHOR entre ambos, de que não pôs a sua mão nos bens do seu próximo; e o seu dono o aceitará, e o outro não fará restituição.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.11",
-   "texto_bv_revisto": "Mas se lhe tiver sido furtado, pagará ao seu dono.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.12",
-   "texto_bv_revisto": "Porém se lhe tiver sido dilacerado, trá-lo-á em testemunho disso, e não pagará o dilacerado.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.13",
-   "texto_bv_revisto": "E se alguém pedir emprestado a seu próximo algum animal, e este ficar aleijado ou morrer, não estando presente o seu dono, pagará totalmente.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.14",
-   "texto_bv_revisto": "Se o seu dono estiver presente, não fará restituição; se tiver sido alugado, o preço do aluguel cobrirá a perda.",
-   "mudancas": [
+  "book_dir": "02-ex",
+  "chapter": 22,
+  "versos": [
     {
-     "tipo": "EDITORIAL",
-     "antes": "esteve presente",
-     "depois": "estiver presente",
-     "motivo": "Adequação ao gênero textual de lei casuística: o futuro do subjuntivo ('estiver') é a conjugação padrão em orações condicionais normativas; o pretérito perfeito ('esteve') soa como descrição de fato passado, não como hipótese legal. ARA e NVIPT convergem em 'estiver presente'."
+      "osis": "Exod.22.1",
+      "texto_bv_revisto": "Se o ladrão for encontrado arrombando uma casa, e for ferido de modo que morra, quem o feriu não será culpado do sangue.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "encontrado a arrombar uma casa",
+          "depois": "encontrado arrombando uma casa",
+          "motivo": "«a + infinitivo» com valor progressivo é construção de matriz lusitana; o português brasileiro contemporâneo pede gerúndio (registro pt-BR da norma editorial)."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Correção apenas de forma; sentido conferido contra בַּמַּחְתֶּרֶת יִמָּצֵא הַגַּנָּב e contra a KJV 22:2 — a versificação inglesa está deslocada em uma unidade neste trecho, conferida pelo conteúdo dos vizinhos.",
+      "veredito": "REVISADO"
     },
     {
-     "tipo": "EDITORIAL",
-     "antes": "se foi alugado",
-     "depois": "se tiver sido alugado",
-     "motivo": "Correção de tempo verbal em oração condicional: 'se foi alugado' (pretérito perfeito do indicativo) confunde condição com constatação; 'se tiver sido alugado' (futuro composto do subjuntivo) é o padrão para hipótese legal, convergindo com ARA ('se tiver sido alugado') e NVIPT ('Se o animal tiver sido alugado')."
+      "osis": "Exod.22.2",
+      "texto_bv_revisto": "Mas se já houver sol sobre ele, quem o feriu será culpado do sangue; o ladrão fará restituição total; se nada tiver, será vendido pelo seu furto.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "Mas se já havia sol sobre ele",
+          "depois": "Mas se já houver sol sobre ele",
+          "motivo": "Quebra de cadeia modal: as próteses vizinhas (vv. 1 e 3) estão no futuro do subjuntivo; o pretérito imperfeito do indicativo destoa do período hipotético da lei casuística."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Só o modo verbal foi ajustado; «haver sol» preserva a leitura de זָרְחָה הַשֶּׁמֶשׁ (KJV 22:3: “If the sun be risen upon him”).",
+      "veredito": "REVISADO"
     },
     {
-     "tipo": "EDITORIAL",
-     "antes": "cobre a perda",
-     "depois": "cobrirá a perda",
-     "motivo": "Consistência temporal: a primeira oração usa futuro ('não fará restituição'); a segunda deve manter o mesmo tempo ('cobrirá'), convergindo com ARA ('responderá') e NVIPT ('cobrirá')."
+      "osis": "Exod.22.3",
+      "texto_bv_revisto": "Se o furto for achado vivo na sua mão, seja boi, ou jumento, ou ovelha, pagará o dobro.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "«ou» repetido espelha o polissíndeto מִשּׁוֹר עַד־חֲמוֹר עַד־שֶׂה e foi mantido como fórmula do original; o possessivo «na sua mão» recupera «o ladrão» do v. 2 sem ambiguidade.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.4",
+      "texto_bv_revisto": "Se alguém fizer pastar o seu animal num campo ou numa vinha, e o soltar para comer no campo de outro, do melhor do seu campo e do melhor da sua vinha fará a restituição.",
+      "mudancas": [
+        {
+          "tipo": "colocacao",
+          "antes": "e soltá-lo para comer",
+          "depois": "e o soltar para comer",
+          "motivo": "Oração subordinada regida por «se» exige próclise também no segundo verbo coordenado da prótese (norma culta brasileira)."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas colocação pronominal; a estrutura interpretativa aprovada do verso (cf. KJV 22:5) não foi tocada.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.5",
+      "texto_bv_revisto": "Se irromper um fogo, pegar nos espinhos e destruir a meda de trigo, ou a seara, ou o campo, aquele que acendeu o fogo pagará totalmente o queimado.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "Se irromper um fogo, e pegar nos espinhos, e destruir a meda de trigo",
+          "depois": "Se irromper um fogo, pegar nos espinhos e destruir a meda de trigo",
+          "motivo": "Cadeia de waw vertida em «e... e...»; o português coordena os três verbos da prótese sem repetir a conjunção. O «ou» repetido (אוֹ... אוֹ) foi preservado como polissíndeto do original."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Correção da cadeia de conectivos apenas; «pagará totalmente» mantém o infinitivo absoluto שַׁלֵּם יְשַׁלֵּם como no v. 13.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.6",
+      "texto_bv_revisto": "Se alguém der ao seu próximo dinheiro ou objetos a guardar, e isso for furtado da casa daquele homem, se o ladrão se achar, pagará o dobro.",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "dinheiro, ou objetos, a guardar",
+          "depois": "dinheiro ou objetos a guardar",
+          "motivo": "Vírgulas separando dois itens unidos por «ou» (כֶּסֶף אוֹ כֵלִים) e isolando «a guardar» não têm apoio na sintaxe do português; o acento massorético não obriga vírgula."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "«dar a guardar» é construção portuguesa legítima (mantida também no v. 9); o pronominal passivo «se achar» foi conservado em paralelo com «não se achar» do v. 7.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.7",
+      "texto_bv_revisto": "Se o ladrão não se achar, então o dono da casa se chegará aos juízes, para se verificar se não pôs a sua mão nos bens do seu próximo.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "«aos juízes» para הָאֱלֹהִים segue a decisão interpretativa vigente deste bloco (assim também a KJV 22:8, “unto the judges”); gramática e coesão em ordem, com o passivo «achar-se» em par com o v. 6.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.8",
+      "texto_bv_revisto": "Em todo o negócio fraudulento, seja sobre boi, sobre jumento, sobre ovelha, sobre veste ou sobre qualquer coisa perdida, de que uma parte diga: “Isto é meu”, a causa de ambos virá perante os juízes. Aquele a quem os juízes condenarem pagará o dobro ao seu próximo.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "A enumeração com «sobre» repetido espelha עַל... עַל do original e foi mantida; discurso direto já em dois-pontos com aspas curvas; período já dividido em duas sentenças, ambas dentro do limite de extensão.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.9",
+      "texto_bv_revisto": "Se alguém der ao seu próximo a guardar um jumento, ou boi, ou ovelha, ou outro animal qualquer, e este morrer, ou for aleijado, ou desgarrado, sem que ninguém o veja,",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "«ou» repetido espelha אוֹ... אוֹ; a elipse de «for» em «ou desgarrado» é sustentada pelo português; «este» desfaz a ambiguidade entre o animal e o próximo; a vírgula final marca a continuação no v. 10, como no original.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.10",
+      "texto_bv_revisto": "então haverá juramento do SENHOR entre ambos, de que não pôs a sua mão nos bens do seu próximo; e o seu dono o aceitará, e o outro não fará restituição.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "YHWH → SENHOR conforme a política pinada; o sujeito elíptico de «não pôs» (o depositário) é recuperável pelo quadro jurídico, como no hebraico; «o» em «o aceitará» retoma «juramento» sem concorrente na janela.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.11",
+      "texto_bv_revisto": "Mas se lhe tiver sido furtado, pagará ao seu dono.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "«lhe» dativo verte מֵעִמּוֹ («de junto dele») e o sujeito elíptico segue contínuo desde os vv. 9–10; forma correta e coesa.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.12",
+      "texto_bv_revisto": "Porém se lhe tiver sido dilacerado, o trará em testemunho disso, e não pagará o dilacerado.",
+      "mudancas": [
+        {
+          "tipo": "colocacao",
+          "antes": "trá-lo-á em testemunho disso",
+          "depois": "o trará em testemunho disso",
+          "motivo": "Mesóclise é vedada pela norma editorial; próclise conforme a colocação pronominal brasileira."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Somente a colocação pronominal foi corrigida; «o dilacerado» conserva הַטְּרֵפָה, em consonância com «carne despedaçada» (טְרֵפָה) do v. 30.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.13",
+      "texto_bv_revisto": "E se alguém pedir emprestado ao seu próximo algum animal, e este ficar aleijado ou morrer, não estando presente o seu dono, pagará totalmente.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "pedir emprestado a seu próximo",
+          "depois": "pedir emprestado ao seu próximo",
+          "motivo": "Uniformização com «ao seu próximo» dos vv. 6 e 9 — mesma fórmula no mesmo capítulo (consistência intra-capítulo, §1.4)."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "«ficar aleijado» mantém para נִשְׁבַּר o mesmo lexema do v. 9 («for aleijado»); «pagará totalmente» conserva o infinitivo absoluto como no v. 5.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.14",
+      "texto_bv_revisto": "Se o seu dono estiver presente, não fará restituição; se tiver sido alugado, o preço do aluguel cobrirá a perda.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "A alternância «pagará»/«fará restituição» para שִׁלֵּם no capítulo é condicionada pela sintaxe (com ou sem objeto expresso) e foi mantida; a segunda metade segue a leitura interpretativa aprovada de בָּא בִּשְׂכָרוֹ (KJV 22:15: “it came for his hire”).",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.15",
+      "texto_bv_revisto": "E se alguém seduzir uma virgem que não esteja desposada, e se deitar com ela, certamente pagará o dote por ela, para que seja sua mulher.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "que não estava desposada",
+          "depois": "que não esteja desposada",
+          "motivo": "Período hipotético no futuro do subjuntivo; o imperfeito do indicativo na relativa quebra a cadeia modal da lei casuística (mesmo defeito corrigido no v. 2)."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Só o modo verbal da relativa; «certamente pagará o dote» conserva o infinitivo absoluto מָהֹר יִמְהָרֶנָּה na leitura aprovada.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.16",
+      "texto_bv_revisto": "Se o pai dela recusar inteiramente dá-la a ele, pagará o dinheiro conforme o dote das virgens.",
+      "mudancas": [
+        {
+          "tipo": "colocacao",
+          "antes": "inteiramente recusar dá-la",
+          "depois": "recusar inteiramente dá-la",
+          "motivo": "Advérbio intensificador anteposto ao verbo decalca a ordem do infinitivo absoluto (מָאֵן יְמָאֵן; KJV “utterly refuse”); a posposição é a ordem natural do português."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas a posição do advérbio; «dá-la» com ênclise ao infinitivo está correto.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.17",
+      "texto_bv_revisto": "Não deixe a feiticeira viver.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "Imperativo singular «deixe» preserva o 2ms de תְחַיֶּה (Deus a cada israelita: «você», conforme a norma de tratamento); forma correta.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.18",
+      "texto_bv_revisto": "Todo aquele que se deitar com animal certamente morrerá.",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "com animal, certamente morrerá",
+          "depois": "com animal certamente morrerá",
+          "motivo": "Vírgula entre sujeito e predicado não tem apoio na sintaxe do português; a pausa massorética não obriga vírgula."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "«certamente morrerá» conserva o infinitivo absoluto מוֹת יוּמָת na fórmula já aprovada.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.19",
+      "texto_bv_revisto": "Aquele que sacrificar aos deuses, e não só ao SENHOR, será destruído.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "A incisa «e não só ao SENHOR» condensa בִּלְתִּי לַיהוָה לְבַדּוֹ; sentido conferido pela KJV 22:20 (“save unto the Lord only”). Estrutura aprovada mantida; YHWH → SENHOR conforme a política pinada.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.20",
+      "texto_bv_revisto": "Não aflija o estrangeiro nem o oprima, pois vocês foram estrangeiros na terra do Egito.",
+      "mudancas": [],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "«afligir» traduz aqui תוֹנֶה (lemma 3238, ינה), mas o mesmo lexema português também verte עִנָּה (lemma 6031 b) nos vv. 21–22, apagando no capítulo a distinção entre os dois verbos hebraicos; um distintivo como «maltratar» para ינה resolveria, mas a escolha cabe ao léxico pinado, não a este revisor.",
+          "evidencia": "v. 20: תוֹנֶה (3238) → «aflija»; vv. 21–22: תְעַנּוּן/תְעַנֶּה (6031 b) → «aflijam»/«afligirem»."
+        }
+      ],
+      "justificativa": "Gramática e coesão em ordem; a alternância singular («aflija», 2ms תוֹנֶה) / plural («vocês foram», 2mp הֱיִיתֶם) reproduz o próprio hebraico e foi preservada, conforme a norma de manter a distinção de número do original.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.21",
+      "texto_bv_revisto": "Não aflijam nenhuma viúva nem órfão.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "Plural «aflijam» preserva o 2mp de תְעַנּוּן; «nenhuma... nem» cobre כָּל... וְ sob negação, sem defeito de forma.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.22",
+      "texto_bv_revisto": "Se de alguma maneira vocês os afligirem, e eles clamarem a mim, certamente ouvirei o seu clamor;",
+      "mudancas": [],
+      "objecoes": [
+        {
+          "gravidade": "MATERIAL",
+          "problema": "O hebraico está no singular — «se afligires a ele» (2ms com sufixo 3ms) e «se ele clamar... o seu clamor» (3ms) —, mas a BV pluraliza sujeito e objeto («vocês os afligirem, e eles clamarem»), apagando a distinção singular/plural que a norma manda sempre preservar; restaurar o número exigiria retraduzir o verso, o que muda o sentido e está fora do alcance da revisão de forma.",
+          "evidencia": "תְעַנֶּה (HVpi2ms), אֹתוֹ (HTo/Sp3ms), יִצְעַק (HVqi3ms), צַעֲקָתוֹ (HNcfsc/Sp3ms); a própria KJV 22:23 mantém o sujeito singular (“If thou afflict them in any wise”)."
+        }
+      ],
+      "justificativa": "Texto mantido idêntico por força da objeção MATERIAL; a forma portuguesa em si é correta e coesa com os vv. 21 e 23.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.23",
+      "texto_bv_revisto": "e a minha ira se acenderá, e os matarei à espada; as mulheres de vocês ficarão viúvas, e os filhos de vocês, órfãos.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "matarei à espada; e as mulheres de vocês",
+          "depois": "matarei à espada; as mulheres de vocês",
+          "motivo": "Cadeia de waw vertida em «e... e... e»; o ponto e vírgula já marca a sequência consecutiva, dispensando a terceira conjunção."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "«de vocês» substitui o proscrito «vosso» conforme a norma; a elipse «e os filhos de vocês, órfãos», com vírgula pelo verbo elidido, é boa sintaxe portuguesa e espelha o paralelismo do original.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.24",
+      "texto_bv_revisto": "Se você emprestar dinheiro ao meu povo, ao pobre que está com você, não aja com ele como usurário; não lhe imponha juros.",
+      "mudancas": [],
+      "objecoes": [
+        {
+          "gravidade": "MATERIAL",
+          "problema": "A última ordem do verso está no plural no hebraico — «não poreis sobre ele juros» (2mp) —, mas a BV a mantém no singular («não lhe imponha»), nivelando a passagem de «tu» a «vós» interna ao próprio verso; corrigir a concordância com a morfologia pinada exigiria alterar o número do destinatário, decisão de tradução e não de forma.",
+          "evidencia": "תְשִׂימוּן (HVqi2mp/Sn) contra תַּלְוֶה (HVhi2ms) no mesmo verso: o hebraico muda de número e a BV apaga essa mudança."
+        }
+      ],
+      "justificativa": "Texto mantido idêntico por força da objeção MATERIAL; regência e colocação («não lhe imponha») estão corretas no português.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.25",
+      "texto_bv_revisto": "Se você tomar em penhor a veste do seu próximo, devolva-a antes do pôr do sol;",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "«devolva-a» está correto: imperativo afirmativo pede ênclise e o pronome não abre a oração; «antes do pôr do sol» verte עַד־בֹּא הַשֶּׁמֶשׁ sem calque; a vírgula final marca a continuação no v. 26.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.26",
+      "texto_bv_revisto": "porque é a única cobertura, é a veste para a sua pele; em que se deitaria? Será, pois, que, quando clamar a mim, eu o ouvirei, porque sou misericordioso.",
+      "mudancas": [
+        {
+          "tipo": "regencia",
+          "antes": "é a veste da sua pele",
+          "depois": "é a veste para a sua pele",
+          "motivo": "«veste da sua pele» sugere matéria (veste feita de pele); o lamed de לְעֹרוֹ marca destinação — «para a sua pele», como na tradução literal e na KJV 22:27 (“his raiment for his skin”)."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas a preposição, que restaura a leitura correta já presente na camada literal; o sujeito elíptico de «quando clamar» (o próximo) é recuperável a partir do v. 25.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.22.27",
+      "texto_bv_revisto": "Não amaldiçoe os juízes, nem maldiga o príncipe do seu povo.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "«os juízes» para אֱלֹהִים segue a mesma decisão interpretativa vigente dos vv. 7–8 (assim também a tradição da KJV neste bloco); os lemas distintos קלל/ארר conservam verbos distintos («amaldiçoar»/«maldizer»).",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.28",
+      "texto_bv_revisto": "Não tarde em trazer as suas ofertas da sua ceifa e do seu lagar; o primogênito dos seus filhos você me dará.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "«tardar em + infinitivo» é regência correta; a expansão «as suas ofertas da sua ceifa e do seu lagar» para מְלֵאָה/דֶּמַע é a leitura interpretativa aprovada (cf. KJV 22:29); próclise «me dará» conforme a norma brasileira.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.29",
+      "texto_bv_revisto": "Faça o mesmo com os seus bois e com as suas ovelhas; sete dias estará com a mãe, e no oitavo dia você o dará a mim.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "O sujeito elíptico de «estará» (o primogênito do animal) espelha a elipse do próprio hebraico e é recuperável por «Faça o mesmo» encadeado ao v. 28; numerais por extenso e artigo por possessivo («com a mãe» para אִמּוֹ) conforme o uso português.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Exod.22.30",
+      "texto_bv_revisto": "E sejam para mim homens santos; portanto não comam carne despedaçada no campo pelas feras; lancem-na aos cães.",
+      "mudancas": [],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "Descontinuidade de tratamento na fronteira do capítulo: Êxodo 22 conduz o discurso divino em «você/vocês», mas Êxodo 23.1–2, continuação da mesma fala, está em «tu» («Não admitirás», «não porás a tua mão», «Não seguirás»); harmonizar exige editar o capítulo 23, fora do alcance deste verso.",
+          "evidencia": "contexto.posteriores: Exod.23.1 «Não admitirás falso rumor; não porás a tua mão com o ímpio...» contra Exod.22.30 «sejam... não comam... lancem»."
+        }
+      ],
+      "justificativa": "«lancem-na» com ênclise correta no imperativo afirmativo; «aos cães» generaliza o singular genérico לַכֶּלֶב como já faz a KJV 22:31 (“to the dogs”); plural «sejam/comam/lancem» preserva o 2mp do original.",
+      "veredito": "SEM_ALTERACAO"
     }
-   ],
-   "objecoes": [],
-   "veredito": "REVISADO"
-  },
-  {
-   "osis": "Exod.22.15",
-   "texto_bv_revisto": "E se alguém seduzir uma virgem que não estava desposada, e se deitar com ela, certamente pagará o dote por ela, para que seja sua mulher.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.16",
-   "texto_bv_revisto": "Se o pai dela inteiramente recusar dá-la a ele, pagará o dinheiro conforme o dote das virgens.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.17",
-   "texto_bv_revisto": "Não deixe a feiticeira viver.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.18",
-   "texto_bv_revisto": "Todo aquele que se deitar com animal, certamente morrerá.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.19",
-   "texto_bv_revisto": "Aquele que sacrificar aos deuses, e não só ao SENHOR, será destruído.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.20",
-   "texto_bv_revisto": "Não aflija o estrangeiro nem o oprima, pois vocês foram estrangeiros na terra do Egito.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.21",
-   "texto_bv_revisto": "Não aflijam nenhuma viúva nem órfão.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.22",
-   "texto_bv_revisto": "Se de alguma maneira vocês os afligirem, e eles clamarem a mim, certamente ouvirei o seu clamor;",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.23",
-   "texto_bv_revisto": "e a minha ira se acenderá, e os matarei à espada; e as mulheres de vocês ficarão viúvas, e os filhos de vocês, órfãos.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.24",
-   "texto_bv_revisto": "Se você emprestar dinheiro ao meu povo, ao pobre que está com você, não aja com ele como usurário; não lhe imponha juros.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.25",
-   "texto_bv_revisto": "Se você tomar em penhor a veste do seu próximo, devolva-a antes do pôr do sol;",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.26",
-   "texto_bv_revisto": "porque é a única cobertura, é a veste da sua pele; em que se deitaria? Será, pois, que, quando clamar a mim, eu o ouvirei, porque sou misericordioso.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.27",
-   "texto_bv_revisto": "Não amaldiçoe os juízes, nem maldiga o príncipe do seu povo.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.28",
-   "texto_bv_revisto": "Não tarde em trazer as suas ofertas da sua ceifa e do seu lagar; o primogênito dos seus filhos você me dará.",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "Achado PRO-1 (4 pronomes de 3ª pessoa) é falso-positivo: os possessivos 'suas/sua/seu/seus' são morfologicamente de 3ª pessoa mas funcionalmente de 2ª pessoa formal (você), com antecedente inequívoco — o interlocutor divino (confirmado por 'você me dará' no mesmo verso). ARA mantém a mesma densidade de possessivos ('tua ceifa', 'teus lagares', 'teus filhos'). Não há ambiguidade referencial.",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.29",
-   "texto_bv_revisto": "Faça o mesmo com os seus bois e com as suas ovelhas; sete dias estará com a mãe, e no oitavo dia você o dará a mim.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Exod.22.30",
-   "texto_bv_revisto": "E sejam para mim homens santos; portanto não comam carne despedaçada no campo pelas feras; lancem-na aos cães.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  }
- ]
+  ]
 }
