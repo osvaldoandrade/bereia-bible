@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Gen.36.1-43"
   },
-  "texto_bv": "E Timna era concubina de Elifaz, filho de Esaú, e deu à luz a Elifaz Amaleque. Estes são os filhos de Ada, mulher de Esaú.",
+  "texto_bv": "E Timna era concubina de Elifaz, filho de Esaú, e deu à luz Amaleque a Elifaz. Estes são os filhos de Ada, mulher de Esaú.",
   "traducao_literal": "E Timna foi concubina de Elifaz, filho de Esaú, e deu à luz a Elifaz a Amaleque. Estes os filhos de Ada, mulher de Esaú.",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "deu à luz a Elifaz Amaleque → deu à luz Amaleque a Elifaz",
+      "justificativa": "Mesma ambiguidade de 36.4: a ordem dativo-objeto calcada do hebraico (וַתֵּלֶד לֶאֱלִיפַז אֶת־עֲמָלֵק) faz 'deu à luz a Elifaz' parsear como se Elifaz fosse o nascido. A ordem objeto-dativo desfaz a leitura errada; sentido intacto, ordem original preservada na traducao_literal (ER-0013). — revisão de forma sem alteração de sentido (ER-0019). Correção coordenada com 36.4 e 36.14. 'Era concubina' (imperfeito descritivo para o qatal de fundo הָיְתָה) mantido; 'Estes são os filhos de Ada' fica no presente porque o hebraico aqui é oração nominal sem הָיוּ — a alternância com o 'foram' de 36.13 espelha o original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -130,11 +137,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

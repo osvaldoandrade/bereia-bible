@@ -69,13 +69,32 @@
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): O publicado grafa 'Disã', mas o hebraico pinado traz דִּשֹׁן (lemma 1787), que o próprio capítulo verte 'Disom' (36.21, 36.30); 'Disã' é a glosa de דִּישָׁן (lemma 1789: 36.21, 26, 28, 30). Como está, o verso nomeia o irmão errado — o filho de Aná é o homônimo do tio Disom, não Disã. Corrigir o nome próprio muda o referente, ou seja, o conteúdo — fora do alcance da revisão de forma. — evidência: termos_originais de 36.25: דִּשֹׁ֑ן, lemma 1787; convenção intra-capítulo: 1787 → 'Disom' (36.21, 36.30) e 1789 → 'Disã' (36.26, 36.28, 36.30); KJV 36.25 'Dishon' confirma o referente. EDITORIAL §1.4 (consistência intra-capítulo) aponta o defeito, mas a correção é de sentido, não de forma."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
