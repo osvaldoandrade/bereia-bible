@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Josh.7.1-26"
   },
-  "texto_bv": "Josué tomou Acã, filho de Zerá, a prata, o manto, a barra de ouro, os filhos e as filhas de Acã, seu boi, seu jumento, seu rebanho, sua tenda e tudo o que lhe pertencia. Todo Israel estava com Josué e os levaram ao vale de Acor.",
+  "texto_bv": "Josué tomou Acã, filho de Zerá, a prata, o manto, a barra de ouro, os filhos e as filhas de Acã, seu boi, seu jumento, seu rebanho, sua tenda e tudo o que lhe pertencia. Todo Israel estava com Josué, e eles os levaram ao vale de Acor.",
   "traducao_literal": "E tomou Josué Acã, filho de Zerá, e a prata, e o manto, e a língua do ouro, e os filhos dele, e as filhas dele, e o boi dele, e o jumento dele, e o rebanho dele, e a tenda dele, e todo o que era para ele, e todo Israel com ele; e fizeram subir a eles ao vale de Acor.",
   "termos_originais": [
     {
@@ -269,6 +269,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Todo Israel estava com Josué e os levaram ao vale de Acor. → Todo Israel estava com Josué, e eles os levaram ao vale de Acor.",
+      "justificativa": "\"Todo Israel\" pede concordância singular (\"estava\"); o verbo seguinte \"levaram\" está no plural sem sujeito explícito que o justifique, gerando choque de concordância. Inserir \"eles\" (retomando Josué e todo Israel juntos, sujeito plural no hebraico de וַיַּעֲלוּ) resolve o choque sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção de forma: explicita o sujeito plural (\"eles\") antes do segundo verbo, resolvendo o choque de concordância entre \"Todo Israel estava\" (singular) e \"levaram\" (plural) sem alterar o sentido — o hebraico já usa verbo plural (וַיַּעֲלוּ) para a ação conjunta de Josué e todo o Israel.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -284,11 +291,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

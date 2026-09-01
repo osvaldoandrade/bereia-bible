@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Josh.7.1-26"
   },
-  "texto_bv": "Entre os despojos, vi um manto valioso de Sinar, uma quantidade de prata que pesava duzentos siclos e uma peça alongada de ouro, com cinquenta siclos de peso. Cobicei esses objetos e os tomei para mim. Eles estão enterrados no solo, dentro da minha tenda; a prata ficou debaixo do manto.”",
+  "texto_bv": "Entre os despojos, vi um manto valioso de Sinar, uma quantidade de prata que pesava duzentos siclos e uma peça alongada de ouro, com cinquenta siclos de peso. Cobicei esses objetos e os tomei para mim. Eles estão enterrados no solo, dentro da minha tenda; a prata estava debaixo do manto.”",
   "traducao_literal": "E vi no despojo um manto de Sinar, um, bom, e duzentos siclos de prata, e uma língua de ouro, uma, cinquenta siclos seu peso; e cobicei-os, e tomei-os, e eis que eles escondidos na terra, no meio da minha tenda, e a prata debaixo dela.”",
   "termos_originais": [
     {
@@ -256,6 +256,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a prata ficou debaixo do manto → a prata estava debaixo do manto",
+      "justificativa": "Harmoniza o tempo verbal com \"Eles estão enterrados\" (mesma descrição simultânea do esconderijo); a oração hebraica correspondente (וְהַכֶּסֶף תַּחְתֶּיהָ) é nominal, sem verbo, valor de presente/estado — \"ficou\" (pretérito, sentido de conclusão) quebra a cadeia temporal sem motivo no original. — revisão de forma sem alteração de sentido (ER-0022). Correção de forma: harmoniza o tempo verbal do segundo membro da descrição do esconderijo com o primeiro, e aproxima-se mais literalmente da oração nominal do hebraico (sem verbo, valor de presente).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -279,11 +286,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
