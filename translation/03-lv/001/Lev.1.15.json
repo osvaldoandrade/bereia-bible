@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Lev.1.1-17"
   },
-  "texto_bv": "O sacerdote levará a ave ao altar, retirará a cabeça e a fará queimar sobre o altar; depois deixará o sangue escorrer pela parede do altar.",
+  "texto_bv": "O sacerdote apresentará a ave ao altar, retirará a cabeça e a fará queimar sobre o altar; depois deixará o sangue escorrer pela parede do altar.",
   "traducao_literal": "E o fará aproximar o sacerdote ao altar, e arrancará sua cabeça, e a fará fumegar rumo ao altar; e será espremido seu sangue sobre a parede do altar.",
   "termos_originais": [
     {
@@ -130,6 +130,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O sacerdote levará a ave ao altar, retirará a cabeça e a fará queimar sobre o altar; depois deixará o sangue escorrer pela parede do altar. → O sacerdote apresentará a ave ao altar, retirará a cabeça e a fará queimar sobre o altar; depois deixará o sangue escorrer pela parede do altar.",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): o mesmo lemma הִקְרִיב/7126 é vertido por 'apresentar' em outras sete ocorrências do capítulo (vv.2,3,10,13,14), inclusive com a mesma regência 'apresentar + a/à + lugar' (v.3 'apresentará à entrada da tenda'); 'levará' rompia essa cadeia sem motivo de registro ou paralelismo. — revisão de forma sem alteração de sentido (ER-0019). Substituído 'levará' por 'apresentará' para manter o mesmo lexema do restante do capítulo para הִקְרִיב, sem alterar o sentido (o sacerdote conduz a ave até o altar).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -147,10 +154,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

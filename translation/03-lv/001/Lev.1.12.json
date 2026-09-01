@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Lev.1.1-17"
   },
-  "texto_bv": "O ofertante dividirá o animal, incluindo a cabeça e a gordura. O sacerdote disporá as partes sobre a lenha que arde no altar.",
+  "texto_bv": "O ofertante cortará o animal em pedaços, incluindo a cabeça e a gordura. O sacerdote disporá as partes sobre a lenha que arde no altar.",
   "traducao_literal": "E o cortará segundo seus pedaços, e sua cabeça, e sua gordura; e ordenará o sacerdote a eles sobre as lenhas que estão sobre o fogo que está sobre o altar.",
   "termos_originais": [
     {
@@ -138,6 +138,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O ofertante dividirá o animal, incluindo a cabeça e a gordura. → O ofertante cortará o animal em pedaços, incluindo a cabeça e a gordura.",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): o mesmo lemma נתח/5408 (cortar em pedaços) é vertido no v.6 por 'cortará ... em pedaços', e seu cognato נְתָחִים/5409 aparece como substantivo 'pedaços' no v.8; 'dividirá' rompia essa cadeia lexical sem motivo de registro ou paralelismo com o original. — revisão de forma sem alteração de sentido (ER-0019). Corrigida a variação lexical injustificada do verbo que traduz נתח (ver mudanças), sem alterar o sentido. Mantido 'as partes' na segunda oração: no hebraico esse trecho usa o pronome אֹתָם (não repete o substantivo נְתָחִים), de modo que um termo-resumo em português é fiel à economia do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -154,10 +161,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
