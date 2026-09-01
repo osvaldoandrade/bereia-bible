@@ -7,7 +7,7 @@
     "versiculo": 38,
     "pericope": "Gen.42.1-38"
   },
-  "texto_bv": "Ele porém disse: Não descerá meu filho com vocês; porque o seu irmão é morto, e só ele ficou; se lhe suceder alguma desgraça no caminho por onde forem, vocês farão descer as minhas cãs com tristeza à sepultura.",
+  "texto_bv": "Ele, porém, disse: Não descerá meu filho com vocês; porque o seu irmão está morto, e só ele ficou; se lhe suceder alguma desgraça no caminho por onde forem, vocês farão descer as minhas cãs com tristeza à sepultura.",
   "traducao_literal": "E disse: Não descerá o meu filho convosco; porque o seu irmão morreu, e ele sozinho restou; e o encontrará desgraça no caminho em que ireis, e fareis descer as minhas cãs com dor ao Sheol.",
   "termos_originais": [
     {
@@ -156,6 +156,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele porém disse: → Ele, porém, disse: | porque o seu irmão é morto, → porque o seu irmão está morto,",
+      "justificativa": "Conectivo adversativo deslocado para dentro da oração pede o par de vírgulas pela norma culta. | “Ser morto” estativo é arcaísmo funcionalmente morto (EDITORIAL §1.2): o leitor de hoje lê “é morto” como passiva (“é assassinado”), risco real de leitura errada; מֵת é qatal estativo — “está morto” diz exatamente isso, sem tocar no sentido. — revisão de forma sem alteração de sentido (ER-0019). “Não descerá meu filho com vocês” é inversão nativa de inacusativo dentro da fala, com a recusa em posição enfática (לֹא יֵרֵד בְּנִי) — fora do alvo de ER-0011; “cãs” é literário vivo para שֵׂיבָה (ARA idem; sem convergência das três referências contra a BV); “à sepultura” para שְׁאוֹלָה é adjudicação preexistente — a traducao_literal guarda “Sheol”; 39 palavras, segmentadas por ponto e vírgula.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Gen.44.20 repete a mesma construção no reconto de Judá (“cujo irmão é morto; e só ele ficou da mãe dele”), eco deliberado desta fala de Jacó; a normalização “está morto” aplicada aqui pede a mesma correção lá para o eco não se desalinhar — verso fora do alcance deste capítulo. — evidência: qa/reports/grammar-input/01-gn-044.json, Gen.44.20: “Temos um pai já velho, e um filho da sua velhice, o mais novo, cujo irmão é morto; e só ele ficou da mãe dele, e o pai o ama.” — mesmo מֵת estativo do pinado. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -167,11 +181,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

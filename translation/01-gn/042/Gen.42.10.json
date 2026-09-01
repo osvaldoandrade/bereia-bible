@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gen.42.1-38"
   },
-  "texto_bv": "E eles lhe disseram: Não, senhor meu; mas seus servos vieram para comprar mantimento.",
+  "texto_bv": "E eles lhe disseram: Não, meu senhor; mas seus servos vieram para comprar mantimento.",
   "traducao_literal": "E disseram a ele: Não, meu senhor; e os teus servos vieram para comprar comida.",
   "termos_originais": [
     {
@@ -73,6 +73,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não, senhor meu; → Não, meu senhor;",
+      "justificativa": "Possessivo posposto no vocativo é ordem arcaizante da linhagem Almeida; o pt-BR contemporâneo antepõe (“meu senhor”), como na traducao_literal (אֲדֹנִי) e na correção homóloga já aplicada em Gn 23.6/11/15 — e em costura com Gn 44.20 (“ao meu senhor”). — revisão de forma sem alteração de sentido (ER-0019). “seus servos” em 3ª pessoa deferencial verte עֲבָדֶיךָ no paradigma você do capítulo, consistente com vv.11 e 13.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -84,11 +91,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
