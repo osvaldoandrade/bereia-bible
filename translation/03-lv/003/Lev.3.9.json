@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Lev.3.1-17"
   },
-  "texto_bv": "Para a oferta queimada ao SENHOR, retirará da oferta pacífica a gordura do animal: a cauda gorda inteira, removida rente à espinha dorsal, além da gordura que envolve as vísceras e de toda a que adere a elas;",
+  "texto_bv": "Para a oferta queimada ao SENHOR, retirará da oferta pacífica a gordura do animal: a cauda gorda inteira, removida rente à espinha dorsal, além da gordura que envolve as vísceras e de toda a gordura aderida a elas;",
   "traducao_literal": "E apresentará, do sacrifício das ofertas de paz, oferta de fogo para YHWH: a gordura dele, a cauda gorda inteira; em frente à espinha dorsal a removerá; e a gordura, a que cobre as entranhas, e toda a gordura que está sobre as entranhas;",
   "termos_originais": [
     {
@@ -151,6 +151,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e de toda a que adere a elas → e de toda a gordura aderida a elas",
+      "justificativa": "Consistência lexical intra-capítulo: a mesma construção hebraica (חֵלֶב אֲשֶׁר עַל הַקֶּרֶב, \"gordura que está sobre as entranhas\") aparece idêntica em Lv 3.3 e 3.14, ambas fixadas como \"toda a gordura aderida a elas\"; aqui a forma verbal \"adere\" quebrava o padrão sem motivo (não há paralelismo nem registro distinto que a justifique) — normalizada ao lexema majoritário do capítulo, conforme §1.4. — revisão de forma sem alteração de sentido (ER-0019). Correção de forma aplicada (consistência lexical de \"aderida a\"); inconsistência do verbo regente (\"retirará\" vs. \"apresentará\") registrada como objeção editorial por exigir reestruturação da frase, não mera correção de forma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "O verbo principal do versículo, no hebraico הִקְרִיב (lemma 7126, hif'il de קרב, \"apresentar\"), o mesmo verbo que abre Lv 3.3 e 3.14, foi traduzido aqui como \"retirará\" em vez de \"apresentará\", trocando o predicado central de apresentação por remoção e quebrando a consistência lexical do lemma dentro do capítulo. — evidência: traducao_literal: \"E apresentará, do sacrifício das ofertas de paz, oferta de fogo para YHWH: a gordura dele, a cauda gorda inteira...\"; texto_bv: \"Para a oferta queimada ao SENHOR, retirará da oferta pacífica a gordura do animal...\"; cf. Lv 3.3 \"ele apresentará ao SENHOR uma oferta queimada\" e Lv 3.14 \"apresentará do animal a gordura...\", mesmo lemma 7126 vertido como \"apresentar\" em ambos. Corrigir isso exigiria reescrever o predicado principal da frase — mudança que ultrapassa forma e toca a estratégia de tradução já aprovada —, por isso registrado como objeção e não como correção própria. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -169,10 +183,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
