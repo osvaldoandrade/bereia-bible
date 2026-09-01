@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Mas se a família for pequena para um cordeiro, então tome um com o seu vizinho, o mais próximo da sua casa, conforme o número das pessoas; conforme ao comer de cada um, farão a conta sobre o cordeiro.",
+  "texto_bv": "Mas se a família for pequena para um cordeiro, então tome um com o seu vizinho, o mais próximo da sua casa, conforme o número das pessoas; conforme o comer de cada um, farão a conta sobre o cordeiro.",
   "traducao_literal": "E se for pouca a casa para ser de um cordeiro, e tome ele e o seu vizinho, o próximo à sua casa, no número das almas; cada um conforme a boca do seu comer contareis sobre o cordeiro.",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "conforme ao comer de cada um → conforme o comer de cada um",
+      "justificativa": "“conforme” pede complemento direto na norma culta (como já ocorre em “conforme o número das pessoas” no mesmo verso); “conforme ao” é arcaísmo de regência sem valor semântico. — revisão de forma sem alteração de sentido (ER-0019). O singular “tome” espelha וְלָקַח (Vqq3ms); “pessoas” para נְפָשֹׁת é variação motivada (contagem de pessoas) frente à fórmula de karet com “alma” em v15/19.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -139,10 +146,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

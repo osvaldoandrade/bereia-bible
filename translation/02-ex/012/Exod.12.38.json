@@ -7,7 +7,7 @@
     "versiculo": 38,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "E subiu também com eles uma grande mistura de gente, e ovelhas, e vacas, uma grande quantidade de gado.",
+  "texto_bv": "E subiu também com eles uma grande mistura de gente, e ovelhas e vacas, uma grande quantidade de gado.",
   "traducao_literal": "E também uma mistura numerosa subiu com eles, e rebanho e gado, gado pesado muito.",
   "termos_originais": [
     {
@@ -82,6 +82,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e ovelhas, e vacas, uma grande quantidade de gado → e ovelhas e vacas, uma grande quantidade de gado",
+      "justificativa": "Vírgula entre dois nomes coordenados por “e” era calque do polissíndeto hebraico; a vírgula restante passa a isolar apenas a aposição final (“uma grande quantidade de gado”). — revisão de forma sem alteração de sentido (ER-0019). Concordância de “subiu” com o sujeito mais próximo, em posição anteposta, é aceita pela norma culta.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Lemma 6629 (צֹאן) aparece no capítulo como “cordeiros” (v21), “rebanhos” (v32) e “ovelhas” (v38); lemma 1241 (בָּקָר) como “gado” (v32, após revisão) e “vacas” (v38). O §1.4 pediria normalização, mas ela atravessaria três versos com escolhas interpretativas aprovadas (v21 “cordeiros” é leitura contextual de צאן para a páscoa) — opto por não aplicar no verso corrente. — evidência: v21 “tomem cordeiros”, v32 “os seus rebanhos e o seu gado”, v38 “ovelhas e vacas”; traducao_literal de v38: “rebanho e gado”. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -93,10 +107,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

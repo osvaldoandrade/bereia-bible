@@ -7,7 +7,7 @@
     "versiculo": 43,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Disse mais o SENHOR a Moisés e a Arão: Esta é a ordenança da páscoa; nenhum filho de estrangeiro comerá dela.",
+  "texto_bv": "Disse ainda o SENHOR a Moisés e a Arão: Este é o estatuto da páscoa; nenhum filho de estrangeiro comerá dela.",
   "traducao_literal": "E disse YHWH a Moisés e a Arão: Este o estatuto da páscoa: todo o filho de estrangeiro não comerá nela.",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Disse mais o SENHOR → Disse ainda o SENHOR | Esta é a ordenança da páscoa → Este é o estatuto da páscoa",
+      "justificativa": "O aditivo pós-verbal “mais” (= ainda) é arcaizante; “ainda” cumpre a mesma função de retomada no registro contemporâneo. O conectivo é acréscimo da BV (o hebraico traz apenas וַיֹּאמֶר), portanto a troca não toca o original. | Lemma 2708 (חֻקַּת) é vertido como “estatuto” em v14 e v17; “ordenança” aqui era variação sem razão — normalizado ao lexema majoritário do capítulo (§1.4). — revisão de forma sem alteração de sentido (ER-0019). “nenhum filho de estrangeiro comerá dela” converte corretamente a negação hebraica כָּל... לֹא.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -114,11 +121,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

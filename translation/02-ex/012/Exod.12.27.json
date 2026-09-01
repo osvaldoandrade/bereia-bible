@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Então dirão: Este é o sacrifício da páscoa ao SENHOR, que passou as casas dos filhos de Israel no Egito, quando feriu os egípcios, e livrou as nossas casas. Então o povo inclinou-se, e adorou.",
+  "texto_bv": "Então dirão: Este é o sacrifício da páscoa ao SENHOR, que passou por cima das casas dos filhos de Israel no Egito, quando feriu os egípcios, e livrou as nossas casas. E o povo inclinou-se, e adorou.",
   "traducao_literal": "E direis: Sacrifício de páscoa ele para YHWH, que passou por cima das casas dos filhos de Israel no Egito, no seu ferir o Egito, e as nossas casas livrou. E inclinou-se o povo e prostrou-se.",
   "termos_originais": [
     {
@@ -138,6 +138,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que passou as casas dos filhos de Israel → que passou por cima das casas dos filhos de Israel | Então o povo inclinou-se, e adorou. → E o povo inclinou-se, e adorou.",
+      "justificativa": "“passar as casas” é ambíguo (atravessar/visitar); פָּסַח é poupar/saltar por cima — normalizado com v13 e v23 para o mesmo lemma 6452 (§1.4), conforme a traducao_literal (“passou por cima das casas”). | Dois períodos seguidos abertos por “Então” (“Então dirão... Então o povo...”); o segundo corresponde ao wayyiqtol simples וַיִּקֹּד — “E” desfaz a repetição e cola no hebraico. — revisão de forma sem alteração de sentido (ER-0019). Vírgula em “inclinou-se, e adorou” mantida pelo padrão de pontuação do capítulo (v7, v14).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -149,11 +156,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

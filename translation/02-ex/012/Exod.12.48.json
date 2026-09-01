@@ -7,7 +7,7 @@
     "versiculo": 48,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Porém, se algum estrangeiro se hospedar com você e quiser celebrar a páscoa ao SENHOR, seja-lhe circuncidado todo o homem, e então chegará a celebrá-la, e será como o natural da terra; mas nenhum incircunciso comerá dela.",
+  "texto_bv": "Porém, se algum estrangeiro se hospedar com você e quiser celebrar a páscoa ao SENHOR, seja-lhe circuncidado todo o homem, e então se chegará para celebrá-la, e será como o natural da terra; mas nenhum incircunciso comerá dela.",
   "traducao_literal": "E quando peregrinar contigo um peregrino, e fizer páscoa para YHWH, circuncide-se para ele todo o macho, e então se aproximará para fazê-la, e será como o natural da terra; e todo o incircunciso não comerá nela.",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e então chegará a celebrá-la → e então se chegará para celebrá-la",
+      "justificativa": "“chegar a + infinitivo” lê-se como auxiliar aspectual (“acabará celebrando”), não como o aproximar-se cúltico de יִקְרַב; “chegar-se para” preserva o mesmo verbo com o sentido de aproximação (traducao_literal: “se aproximará para fazê-la”). — revisão de forma sem alteração de sentido (ER-0019). O singular “com você” preserva אִתְּךָ (2ms) — distinção de número mantida; “todo o homem” para זָכָר é variação motivada frente a v5 (“macho” aplicado a pessoas destoaria do registro).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -160,11 +167,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

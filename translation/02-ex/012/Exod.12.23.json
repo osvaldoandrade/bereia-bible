@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Porque o SENHOR passará para ferir os egípcios; mas quando vir o sangue na verga da porta, e em ambas as ombreiras, o SENHOR passará aquela porta, e não deixará entrar o destruidor nas suas casas, para feri-los.",
+  "texto_bv": "Porque o SENHOR passará para ferir os egípcios; mas quando vir o sangue na verga da porta, e em ambas as ombreiras, o SENHOR passará por cima daquela porta, e não deixará entrar o destruidor nas suas casas, para feri-los.",
   "traducao_literal": "E passará YHWH para ferir o Egito, e verá o sangue sobre a verga e sobre as duas ombreiras, e passará por cima YHWH sobre a entrada, e não deixará o destruidor vir às vossas casas para ferir.",
   "termos_originais": [
     {
@@ -173,6 +173,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o SENHOR passará aquela porta → o SENHOR passará por cima daquela porta",
+      "justificativa": "“passar a porta” lê-se naturalmente como atravessá-la/entrar — o oposto de פָּסַח (poupar, saltar por cima). Harmoniza com v13 (“passarei por cima de vocês”) para o mesmo lemma 6452 (§1.4) e desfaz a colisão com o primeiro “passará” (עָבַר, lemma 5674), verbo hebraico distinto. — revisão de forma sem alteração de sentido (ER-0019). Demonstrativo “aquela” (pela dêixe do artigo hebraico) mantido, conforme escolha aprovada; “feri-los” = ferir vocês, correto para o tratamento em “vocês”.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -184,11 +191,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
