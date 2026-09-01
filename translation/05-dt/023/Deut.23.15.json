@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Deut.23.1-26"
   },
-  "texto_bv": "Pois o SENHOR, seu Deus, percorre o seu acampamento para livrar você e entregar seus inimigos a você. Por isso, o acampamento deve ser santo, para que ele não veja em seu meio nada indecente e se afaste de você.",
+  "texto_bv": "Pois o SENHOR, seu Deus, percorre o seu acampamento para livrar você e entregar seus inimigos a você. Por isso, o acampamento deve ser santo, para que o SENHOR não veja em seu meio nada indecente e se afaste de você.",
   "traducao_literal": "Porque YHWH, teu Deus, anda de um lado para outro no meio do teu acampamento, para livrar-te e para dar teus inimigos diante de ti; e será teu acampamento santo, e não verá em ti nudez de coisa, e voltará de detrás de ti.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Por isso, o acampamento deve ser santo, para que ele não veja em seu meio nada indecente e se afaste de você. → Por isso, o acampamento deve ser santo, para que o SENHOR não veja em seu meio nada indecente e se afaste de você.",
+      "justificativa": "No hebraico este é um único período (encadeado por waw), de modo que \"YHWH teu Deus\" permanece sujeito claro até o fim. A divisão em duas frases do BV insere \"o acampamento\" como sujeito sintático da oração imediatamente anterior, tornando \"ele\" ambíguo entre esse antecedente mais próximo (que não pode \"ver\" nem \"se afastar\") e o SENHOR, mencionado uma frase antes. Substituição do pronome pelo sintagma nominal elimina a ambiguidade sem alterar o sentido (§ coesão, pronome sem antecedente recuperável). — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão referencial; sentido idêntico ao original preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -181,11 +188,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
