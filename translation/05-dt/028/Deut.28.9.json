@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Deut.28.1-69"
   },
-  "texto_bv": "O SENHOR estabelecerá você como seu povo santo, conforme lhe jurou, se você guardar os mandamentos do SENHOR, seu Deus, e andar nos caminhos dele.",
+  "texto_bv": "O SENHOR estabelecerá você como seu próprio povo santo, conforme lhe jurou, se você guardar os mandamentos do SENHOR, seu Deus, e andar nos caminhos dele.",
   "traducao_literal": "YHWH te estabelecerá para ele como povo santo, conforme jurou a ti, quando guardares os mandamentos de YHWH, teu Deus, e andares nos caminhos dele.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O SENHOR estabelecerá você como seu povo santo → O SENHOR estabelecerá você como seu próprio povo santo",
+      "justificativa": "O hebraico traz sufixo reflexivo em לוֹ (\"para si mesmo/para ele\"): YHWH estabelece você como povo santo DELE (seu próprio), não \"seu\" no sentido de pertencer a você. Como \"seu/sua\" é usado em todo o capítulo como possessivo de \"você\" (seu Deus, sua terra, seus filhos), \"seu povo santo\" fica ambíguo entre os dois referentes. \"Próprio\" desambiguiza, mantendo o sentido reflexivo do hebraico sem alterá-lo. — revisão de forma sem alteração de sentido (ER-0022). Corrigida ambiguidade pronominal: \"seu\" poderia ser lido como possessivo de \"você\" (padrão do capítulo) em vez de reflexivo referente a SENHOR, invertendo o sentido de לוֹ no hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -135,11 +142,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
