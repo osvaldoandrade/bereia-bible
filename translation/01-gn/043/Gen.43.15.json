@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Gen.43.1-34"
   },
-  "texto_bv": "E tomaram os homens aquele presente, e tomaram o dobro do dinheiro em suas mãos, e a Benjamim; e levantaram-se, e desceram ao Egito, e apresentaram-se diante de José.",
+  "texto_bv": "E os homens tomaram aquele presente, e tomaram o dobro do dinheiro em suas mãos, e a Benjamim; levantaram-se, desceram ao Egito e apresentaram-se diante de José.",
   "traducao_literal": "E tomaram os homens o presente este, e o dobro da prata tomaram na sua mão, e a Benjamim; e levantaram-se e desceram ao Egito, e ficaram de pé diante de José.",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E tomaram os homens aquele presente → E os homens tomaram aquele presente | e levantaram-se, e desceram ao Egito, e apresentaram-se diante de José. → levantaram-se, desceram ao Egito e apresentaram-se diante de José.",
+      "justificativa": "Ordem V-S do wayyiqtol (וַיִּקְחוּ הָאֲנָשִׁים) carregada ao publicado; ER-0011 fixa ordem S-V uniforme, com a ordem hebraica preservada na traducao_literal. | Cadeia de waw consecutivo vertida em polissíndeto 'e... e... e...'; o português narrativo coordena com vírgulas e um único 'e' final (ER-0013). — revisão de forma sem alteração de sentido (ER-0019). S-V por ER-0011 e cadeia final enxugada por ER-0013; o duplo 'tomaram' permanece porque o próprio hebraico repete o verbo (וַיִּקְחוּ... לָקְחוּ), e 'a Benjamim' mantém o objeto direto preposicionado de pessoa usado no capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,10 +129,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
