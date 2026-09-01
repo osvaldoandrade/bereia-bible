@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Deut.10.1-22"
   },
-  "texto_bv": "E agora, Israel, o que o SENHOR, seu Deus, pede de você? Apenas que tema o SENHOR, seu Deus, ande em todos os seus caminhos, ame-o e sirva ao SENHOR, seu Deus, de todo o coração e de toda a alma,",
+  "texto_bv": "E agora, Israel, o que o SENHOR, seu Deus, pede de você? Apenas que tema o SENHOR, seu Deus, ande em todos os caminhos dele, ame-o e sirva ao SENHOR, seu Deus, de todo o coração e de toda a alma,",
   "traducao_literal": "E agora, Israel, o que YHWH, seu Deus, pede de você, senão temer YHWH, seu Deus, andar em todos os caminhos dele, e amar a ele, e servir YHWH, seu Deus, com todo o seu coração e com toda a sua alma?",
   "termos_originais": [
     {
@@ -204,6 +204,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ande em todos os seus caminhos → ande em todos os caminhos dele",
+      "justificativa": "'Seus' logo após 'seu Deus' (2ª pessoa, 'seu' = de você) fica ambíguo entre 'os caminhos de você' e 'os caminhos do SENHOR'. A troca por 'dele' desambigua, preservando o sufixo 3ms hebraico (דְּרָכָיו, 'os caminhos dele') sem alterar o sentido — mesma solução de desambiguação já usada em outros versos do capítulo (ex.: v.15 'deles', v.17 'de vocês'). — revisão de forma sem alteração de sentido (ER-0022). A repetição de 'o SENHOR, seu Deus' após 'ame-o' foi mantida: é fórmula deuteronômica recorrente ('amar/servir o SENHOR, seu Deus, de todo o coração e de toda a alma'), não defeito de coesão a corrigir.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -223,11 +230,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
