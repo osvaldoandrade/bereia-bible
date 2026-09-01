@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Gen.49.1-33"
   },
-  "texto_bv": "Depois ordenou-lhes, e disse-lhes: Eu me congrego ao meu povo; sepultem-me com meus pais, na cova que está no campo de Efrom, o heteu,",
+  "texto_bv": "Depois ordenou-lhes e disse-lhes: Eu me congrego ao meu povo; sepultem-me com meus pais, na cova que está no campo de Efrom, o heteu,",
   "traducao_literal": "E ordenou-os, e disse a eles: Eu sendo reunido ao meu povo; sepultai-me para os meus pais, para a caverna que no campo de Efrom, o heteu,",
   "termos_originais": [
     {
@@ -123,6 +123,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ordenou-lhes, e disse-lhes → ordenou-lhes e disse-lhes",
+      "justificativa": "Orações coordenadas de mesmo sujeito, par formular ordenar/dizer; vírgula dispensável. — revisão de forma sem alteração de sentido (ER-0019). Ênclises corretas após Depois e no imperativo sepultem-me. Eu me congrego (presente de iminência) verte o particípio nifal נֶאֱסָף e mantém o mesmo lexema de foi congregado no v. 33 (lemma 622). Com meus pais segue a KJV (with my fathers); cova para מְעָרָה é consistente com o v. 30.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Discurso direto sem as aspas duplas curvas prescritas por EDITORIAL.md, como no v. 1. — evidência: A fala atravessa os vv. 29-32 e o padrão sem aspas é o de todo o corpus na janela; aplicar aqui isoladamente quebraria a consistência — mudança em cadeia, registrada e não aplicada. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,10 +148,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

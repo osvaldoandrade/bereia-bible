@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Gen.49.1-33"
   },
-  "texto_bv": "E Jacó chamou a seus filhos, e disse: Ajuntem-se, e anunciarei a vocês o que lhes há de acontecer nos dias vindouros.",
+  "texto_bv": "Jacó chamou os seus filhos e disse: Ajuntem-se, e anunciarei a vocês o que lhes há de acontecer nos dias vindouros.",
   "traducao_literal": "E chamou Jacó aos seus filhos, e disse: Ajuntai-vos, e anunciarei a vós o que vos encontrará no fim dos dias.",
   "termos_originais": [
     {
@@ -114,6 +114,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E Jacó chamou → Jacó chamou | chamou a seus filhos, e disse → chamou os seus filhos e disse",
+      "justificativa": "Waw consecutivo inicial (וַיִּקְרָא) vertido em E de abertura é calque; o português narrativo abre sem conectivo. | Chamar é transitivo direto no português contemporâneo (o a espelhava אֶל); vírgula entre orações coordenadas de mesmo sujeito removida. — revisão de forma sem alteração de sentido (ER-0019). Ajuntem-se com ênclise é a forma correta do imperativo em abertura de fala; lhes retoma a vocês pela norma do tratamento você. Nos dias vindouros para בְּאַחֲרִית הַיָּמִים está na faixa aprovada (KJV: in the last days).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Discurso direto introduzido só por dois-pontos, sem as aspas duplas curvas que EDITORIAL.md v1.2.0 prescreve. — evidência: A fala de Jacó abre aqui e atravessa os vv. 2-27; todo o corpus visível na janela (Gn 48.21, 49.29) segue o mesmo padrão sem aspas. Aplicar aspas exigiria mudança em cadeia de versos e capítulos, fora do escopo por verso. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -125,10 +139,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
