@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Deut.31.1-30"
   },
-  "texto_bv": "Sejam fortes e corajosos. Não tenham medo nem tremam diante deles, pois o SENHOR, seu Deus, é quem vai com vocês; ele não deixará vocês sem apoio nem os abandonará.”",
+  "texto_bv": "Sejam fortes e corajosos. Não tenham medo nem tremam diante deles, pois o SENHOR, seu Deus, é quem vai com vocês; ele não os deixará sem apoio nem os abandonará.”",
   "traducao_literal": "Sejam fortes e sejam firmes; não temam e não se apavorem diante deles, pois o SENHOR, seu Deus, ele é o que vai com você; não o deixará frouxo e não o abandonará.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele não deixará vocês sem apoio nem os abandonará. → ele não os deixará sem apoio nem os abandonará.",
+      "justificativa": "O par de verbos coordenados misturava pronome tônico ('vocês') no primeiro e clítico ('os') no segundo para o mesmo referente. Padronizado para o clítico 'os' nos dois verbos, espelhando a construção gêmea de Dt 31.8 ('não o deixará... nem o abandonará'), sem alterar sentido, pessoa ou número. — revisão de forma sem alteração de sentido (ER-0022). Correção pontual de paralelismo pronominal; restante do verso já coeso e fiel.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -164,11 +171,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
