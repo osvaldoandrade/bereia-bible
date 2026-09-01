@@ -7,7 +7,7 @@
     "versiculo": 52,
     "pericope": "Num.33.1-56"
   },
-  "texto_bv": "expulsem de diante de vocês todos os habitantes da terra; destruam todas as suas pedras com figuras, destruam todas as suas imagens de metal fundido e arrasem todos os seus lugares altos.",
+  "texto_bv": "expulsem de diante de vocês todos os habitantes da terra; destruam todas as pedras com figuras deles, destruam todas as imagens de metal fundido deles e arrasem todos os lugares altos deles.",
   "traducao_literal": "E expulsareis todos os habitantes da terra de diante de vocês; e fareis perecer todas as suas pedras com figuras, e todas as imagens fundidas deles fareis perecer, e todos os lugares altos deles destruireis.",
   "termos_originais": [
     {
@@ -158,6 +158,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "destruam todas as suas pedras com figuras → destruam todas as pedras com figuras deles | destruam todas as suas imagens de metal fundido → destruam todas as imagens de metal fundido deles | arrasem todos os seus lugares altos → arrasem todos os lugares altos deles",
+      "justificativa": "‘suas’ fica ambíguo entre ‘de vocês’ (sujeito do imperativo) e ‘dos habitantes da terra’ (objeto da oração anterior); o sufixo hebraico (מַשְׂכִּיֹּתָם, 3mp) marca 3ª pessoa, referente aos habitantes — ‘deles’ remove a ambiguidade sem alterar o sentido. | mesma ambiguidade pronominal do item anterior; sufixo מַסֵּכֹתָם também é 3mp (dos habitantes), não de ‘vocês’. | mesma ambiguidade pronominal; sufixo בָּמֹתָם é 3mp (dos habitantes), não de ‘vocês’. — revisão de forma sem alteração de sentido (ER-0022). Corrigida ambiguidade pronominal: ‘suas/seus’ podia ser lido como pertencendo a ‘vocês’ (sujeito dos imperativos) em vez dos habitantes da terra, cujos objetos de culto são o antecedente correto conforme os sufixos hebraicos 3mp.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -171,11 +178,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
