@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "'nas tuas maos' apaga a mudanca de numero do hebraico בְּיֶדְכֶם ('na mao de voces', 2mp) — distincao singular/plural que a norma manda preservar. — evidência: morfologia HR/Ncbsc/Sp2mp; traducao_literal 'na vossa mao'; ajuste depende da politica vigente para alternancia de numero (DECISOES.md) — nao aplicado. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -136,14 +143,16 @@
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): 'para que os lances' apresenta como finalidade o que o hebraico marca como coordenacao consecutiva: וְגֵרַשְׁתָּמוֹ e weqatal 2ms ('e tu os expulsaras'). Corrigir o conectivo mudaria a estrutura logica do periodo, portanto o texto nao e alterado. — evidência: morfologia HC/Vpq2ms/Sp3mp; traducao_literal 'e os expulsaras de diante de ti'; KJV 'and thou shalt drive them out before thee'."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
