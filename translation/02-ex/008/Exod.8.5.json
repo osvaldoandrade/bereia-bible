@@ -129,6 +129,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Melhorias de forma retidas porque o verso porta objeção MATERIAL e o texto deve permanecer idêntico: (a) “quando é que hei de orar” → “quando hei de orar” — a clivagem “é que” é coloquial para o registro formal-neutro; (b) “e só ficarão” → “e somente ficarão” — §1.4, רַק (7535) é vertido por “somente” em 8.7, 8.24 e 8.25. — evidência: EDITORIAL.md, registro formal-neutro; ocorrências majoritárias de “somente” para רַק no próprio capítulo. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -137,14 +144,16 @@
   "confianca": 0.72,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): לְהַכְרִית (lemma 3772, “exterminar, cortar fora”) está vertido como “tirar”, suavizando o verbo e apagando a intensificação retórica de Moisés frente ao וְיָסֵר (“afaste”, lemma 5493) de Faraó em 8.4 — no hebraico Moisés responde com verbo mais forte, na BV os dois falam igual. Corrigir exigiria trocar o verbo, mudança de sentido vedada a esta revisão. — evidência: traducao_literal: “para exterminar as rãs”; KJV correspondente (8.9): “to destroy the frogs”; lemma distinto do de 8.4."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

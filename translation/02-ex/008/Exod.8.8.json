@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Exod.8.1-28"
   },
-  "texto_bv": "Então Moisés e Arão saíram de Faraó; e Moisés clamou ao SENHOR por causa das rãs que tinha posto sobre Faraó.",
+  "texto_bv": "Então Moisés e Arão saíram da presença de Faraó; e Moisés clamou ao SENHOR por causa das rãs que ele tinha posto sobre Faraó.",
   "traducao_literal": "E saiu Moisés e Arão de com Faraó; e clamou Moisés a YHWH por causa das rãs que pôs a Faraó.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "saíram de Faraó → saíram da presença de Faraó | das rãs que tinha posto → das rãs que ele tinha posto",
+      "justificativa": "מֵעִם é preposição composta, “de junto de”; “sair de Faraó” calca a forma e, em português, lê-se como sair de dentro da pessoa. “Da presença de” é o equivalente idiomático consagrado, sem acréscimo de sentido. | O sujeito nulo de “tinha posto” era recuperado por default como “Moisés” (sujeito da matriz), contra o sentido: שָׂם é 3ms com referente YHWH (KJV correspondente, 8.12: “which he had brought against Pharaoh”). O pronome “ele” aponta para “o SENHOR”, antecedente imediato, sem explicitar mais do que o hebraico, que também usa apenas a morfologia verbal. — revisão de forma sem alteração de sentido (ER-0019). Mais-que-perfeito composto “tinha posto” conforme a norma; “por causa de” verte bem עַל־דְּבַר.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,11 +126,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

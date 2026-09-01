@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Exod.8.1-28"
   },
-  "texto_bv": "E Faraó chamou a Moisés e a Arão, e disse: Peçam ao SENHOR que tire as rãs de mim e do meu povo; então deixarei ir o povo, para que sacrifiquem ao SENHOR.",
+  "texto_bv": "E Faraó chamou a Moisés e a Arão, e disse: Orem ao SENHOR para que retire as rãs de mim e do meu povo; então deixarei ir o povo, para que sacrifiquem ao SENHOR.",
   "traducao_literal": "E chamou Faraó a Moisés e a Arão, e disse: Orai a YHWH, e afaste as rãs de mim e do meu povo; e deixarei ir o povo, e sacrificarão a YHWH.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Peçam ao SENHOR que → Orem ao SENHOR para que | tire as rãs → retire as rãs",
+      "justificativa": "Consistência lexical intra-capítulo (§1.4): o lemma 6279 (עתר) é vertido por “orar” em 8.5, 8.24, 8.25 e 8.26; normalizado o único “pedir” do capítulo para o lexema majoritário, com “para que” exigido pela regência de “orar”. | Consistência lexical intra-capítulo (§1.4): o lemma 5493 (סור) é vertido por “retirar(-se)” em 8.25 e 8.27; a normalização unifica a cadeia pedido–promessa–cumprimento e desfaz a colisão com “tirar” de 8.5, que ali verte outro lemma (3772). — revisão de forma sem alteração de sentido (ER-0019). Sentido conferido com a KJV correspondente (8.8, “Intreat the Lord, that he may take away the frogs”); “chamou a Moisés e a Arão” mantém o objeto direto preposicionado, construção legítima do registro bíblico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,10 +136,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
