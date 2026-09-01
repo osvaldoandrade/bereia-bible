@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "EDITORIAL.md prescreve discurso direto com dois-pontos + aspas duplas curvas; este capítulo (vv. 2-7, 9, 14-16), como toda a janela e os capítulos vizinhos, grafa o discurso direto só com dois-pontos, sem aspas. Aplicar aspas apenas neste capítulo quebraria a consistência do corpus — exige mudança em cadeia de capítulos e decisão do mantenedor. — evidência: texto_bv de Exod.17.2 ('e disseram: Dê-nos água...') e todos os versos da janela (Exod.16.35 a Exod.18.2) uniformemente sem aspas no discurso direto. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -136,13 +143,32 @@
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): 'Dê-nos água' está no singular (você), mas o imperativo hebraico é 2ª pessoa do PLURAL; a norma exige preservar sempre a distinção singular/plural do original. Corrigir para 'Deem-nos' alteraria a estrutura de interlocução (quem é destinatário do pedido), o que ultrapassa a revisão de forma; o texto permanece inalterado. — evidência: termos_originais: תְּנוּ, lemma 5414, morfologia HVqv2mp; traducao_literal: 'Dai-nos água e beberemos'. Contraste: as falas de Moisés no mesmo verso vertem corretamente os plurais תְּרִיבוּן/תְּנַסּוּן (2mp) como 'contendem'/'tentam'."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

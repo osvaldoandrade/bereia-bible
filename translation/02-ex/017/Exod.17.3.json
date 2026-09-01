@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Exod.17.1-16"
   },
-  "texto_bv": "Tendo, pois, ali o povo sede de água, o povo murmurou contra Moisés, e disse: Por que nos fez subir do Egito, para nos matar de sede, a nós e aos nossos filhos e ao nosso rebanho?",
+  "texto_bv": "Tendo, pois, ali o povo sede de água, murmurou contra Moisés, e disse: Por que nos fez subir do Egito, para nos matar de sede, a nós e aos nossos filhos e ao nosso rebanho?",
   "traducao_literal": "E teve sede ali o povo por água, e murmurou o povo contra Moisés, e disse: Por que isto nos fizeste subir do Egito, para matar a mim e aos meus filhos e ao meu gado com a sede?",
   "termos_originais": [
     {
@@ -140,6 +140,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sede de água, o povo murmurou contra Moisés → sede de água, murmurou contra Moisés",
+      "justificativa": "Repetição do sintagma nominal 'o povo' já expresso como sujeito da oração anterior; o português retoma por elipse do sujeito sem perda de sentido (regra 4). A repetição de הָעָם é padrão narrativo hebraico, não fórmula intencional; a camada literal a preserva. — revisão de forma sem alteração de sentido (ER-0019). 'a nós e aos nossos filhos e ao nosso rebanho' verte os sufixos hebraicos de 1ª pessoa do singular coletiva (אֹתִי, בָּנַי, מִקְנַי — 'a mim, aos meus filhos, ao meu gado') como fala coletiva do povo, em linha com a KJV ('us and our children and our cattle'); o entendimento confere e a camada literal preserva o singular. 'nos fez subir' (você) corresponde a הֶעֱלִיתָ 2ms dirigido a Moisés.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -151,11 +158,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

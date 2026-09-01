@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Exod.17.1-16"
   },
-  "texto_bv": "E acontecia que, quando Moisés levantava a sua mão, Israel prevalecia; mas quando ele abaixava a sua mão, Amaleque prevalecia.",
+  "texto_bv": "Quando Moisés levantava a sua mão, Israel prevalecia; mas quando ele abaixava a sua mão, Amaleque prevalecia.",
   "traducao_literal": "E era, conforme levantava Moisés a sua mão, e prevalecia Israel; e conforme fazia descer a sua mão, e prevalecia Amaleque.",
   "termos_originais": [
     {
@@ -92,6 +92,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E acontecia que, quando Moisés levantava → Quando Moisés levantava",
+      "justificativa": "וְהָיָה é marcador discursivo do hebraico sem conteúdo semântico; 'E acontecia que' é calque sintático (regra 1). A oração temporal com imperfeito do indicativo já expressa sozinha o valor iterativo; nada do sentido se perde. — revisão de forma sem alteração de sentido (ER-0019). Imperfeitos do indicativo ('levantava', 'prevalecia', 'abaixava') mantêm o aspecto iterativo dos imperfeitos hebraicos (יָרִים/יָנִיחַ); 'ele' explícito desfaz a ambiguidade de referente com 'Israel'; a repetição de 'a sua mão' espelha יָדוֹ repetido no original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -103,10 +110,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
