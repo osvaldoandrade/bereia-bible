@@ -7,7 +7,7 @@
     "versiculo": 36,
     "pericope": "Deut.2.1-37"
   },
-  "texto_bv": "Nenhuma cidade conseguiu resistir a nós, desde Aroer, situada na margem do ribeiro de Arnom, e a cidade no vale, até Gileade. O SENHOR, nosso Deus, colocou todas sob nosso domínio.",
+  "texto_bv": "Nenhuma cidade conseguiu resistir a nós, desde Aroer, situada na margem do ribeiro de Arnom, e a cidade no ribeiro, até Gileade. O SENHOR, nosso Deus, colocou todas sob nosso domínio.",
   "traducao_literal": "Desde Aroer, que está na margem do ribeiro de Arnom, e a cidade que está no ribeiro, e até Gileade, não houve cidade que fosse alta demais para nós; todas deu YHWH, nosso Deus, diante de nós.",
   "termos_originais": [
     {
@@ -174,6 +174,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e a cidade no vale, até Gileade. → e a cidade no ribeiro, até Gileade.",
+      "justificativa": "\"vale\" quebra a consistência lexical intracapítulo: o mesmo lemma hebraico נַחַל (5158) já fora vertido como \"ribeiro\" na mesma oração (\"ribeiro de Arnom\") e em todo o capítulo (2.13, 2.14, 2.24, 2.37); normalizado para o lexema majoritário \"ribeiro\", conforme §1.4. — revisão de forma sem alteração de sentido (ER-0022). Normalizada a consistência lexical intracapítulo para o lemma נַחַל (nachal), vertido como \"ribeiro\" em todas as demais ocorrências do capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -194,10 +201,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
