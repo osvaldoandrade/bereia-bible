@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Josh.5.1-15"
   },
-  "texto_bv": "Todos os reis amorreus situados a oeste do Jordão e todos os reis cananeus junto ao mar souberam que o SENHOR tinha feito as águas do Jordão secarem diante dos filhos de Israel, até nós concluirmos a travessia. Por causa dos filhos de Israel, o coração deles se derreteu, e eles perderam todo o ânimo.",
+  "texto_bv": "Todos os reis amorreus situados a oeste do Jordão e todos os reis cananeus junto ao mar souberam que o SENHOR tinha feito as águas do Jordão secarem diante dos filhos de Israel, até nós concluirmos a travessia. O coração deles se derreteu, e eles perderam todo o ânimo por causa dos filhos de Israel.",
   "traducao_literal": "E aconteceu, ao ouvirem todos os reis do amorreu que estavam no lado do Jordão em direção ao mar, e todos os reis do cananeu que estavam junto ao mar, aquilo que secou SENHOR as águas do Jordão diante dos filhos de Israel até nós atravessarmos, derreteu-se o coração deles, e não houve mais neles espírito diante dos filhos de Israel.",
   "termos_originais": [
     {
@@ -271,6 +271,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Por causa dos filhos de Israel, o coração deles se derreteu, e eles perderam todo o ânimo. → O coração deles se derreteu, e eles perderam todo o ânimo por causa dos filhos de Israel.",
+      "justificativa": "O pronome 'deles' ficava adjacente a 'dos filhos de Israel', criando ambiguidade referencial (o antecedente pretendido é 'os reis', não 'os filhos de Israel'). A oração causal foi movida para o final, alinhando-se à ordem do hebraico (מִפְּנֵי בְּנֵי יִשְׂרָאֵל ao final da cláusula, conforme a traducao_literal: '...diante dos filhos de Israel') e eliminando a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Mantida a mudança de pessoa gramatical ('até nós concluirmos a travessia'), que preserva no português a peculiaridade textual do hebraico (עַד־עברנו, 'até nós atravessarmos'), também presente na KJV ('until we were passed over'); não é erro de coesão a corrigir, é traço autêntico do texto-fonte.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -288,11 +295,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
