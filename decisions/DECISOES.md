@@ -414,6 +414,19 @@ Ver `docs/domain/governanca/glossary.md`.
   importa.
 - Escopo mecânico: 929 capítulos, 23213 versículos, janela ±2.
 - Modelo: `claude-fable-5`.
+- Correção de custo (driver v2, a partir de Gn 41): o driver v1 mandava cada
+  agente reler ~60 KB de regras por capítulo (DECISOES.md + lexicon.json +
+  EDITORIAL.md + prompt canônico) num loop agêntico aberto — ~400-600 KB de
+  transcript por capítulo. O v2
+  (`pipeline/orchestration/grammar-review-driver-v2.workflow.js`) embute as
+  regras destiladas no prompt e fixa o orçamento de ferramentas: 1 Read
+  (digest) + 1 Write (saída) + no máximo 1 validação de JSON. Dúvida que
+  exigiria consultar DECISOES.md/léxico vira objeção EDITORIAL, não leitura.
+  Medido em Gn 41 (maior digest do AT, 197 KB): 113k tokens totais, transcript
+  de 288 KB dos quais ~197 KB são o próprio digest — o overhead virou
+  marginal. O contrato de saída e as guardas do ship não mudaram; a
+  destilação referencia revisor-gramatical.md v1.0.0 e EDITORIAL.md v1.2.0 e
+  deve ser re-destilada se eles mudarem.
 
 ---
 
