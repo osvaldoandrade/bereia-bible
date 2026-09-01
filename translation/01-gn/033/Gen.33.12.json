@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Gen.33.1-20"
   },
-  "texto_bv": "E disse Esaú: “Partamos, e caminhemos; eu irei adiante de ti.”",
+  "texto_bv": "E disse Esaú: “Partamos e caminhemos; eu irei adiante de você.”",
   "traducao_literal": "E disse: “Partamos e vamos, e irei defronte de ti.”",
   "termos_originais": [
     {
@@ -51,6 +51,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "“Partamos, e caminhemos; → “Partamos e caminhemos; | eu irei adiante de ti. → eu irei adiante de você.",
+      "justificativa": "Vírgula indevida entre volitivos coordenados de mesmo sujeito (mesmo ajuste de 32.9). | D-0003: você no discurso entre humanos, em normalização coordenada do capítulo. — revisão de forma sem alteração de sentido (ER-0019). Os dois coortativos e o imperfeito ('Partamos e caminhemos; eu irei') preservam a estrutura volitiva do hebraico (נִסְעָה וְנֵלֵכָה וְאֵלְכָה); 'adiante de você' verte לְנֶגְדֶּךָ como a KJV ('before thee').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -62,10 +69,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

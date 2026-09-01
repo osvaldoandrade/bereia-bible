@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gen.33.1-20"
   },
-  "texto_bv": "E disse Jacó: “Não, peço-te; se agora achei graça aos teus olhos, aceita o meu presente da minha mão; porquanto tenho visto o teu rosto, como se tivesse visto o rosto de Deus, e te agradaste de mim.",
+  "texto_bv": "E disse Jacó: “Não, peço-lhe; se agora achei graça aos seus olhos, aceite o meu presente da minha mão; porquanto vi o seu rosto, como se tivesse visto o rosto de Deus, e você se agradou de mim.",
   "traducao_literal": "E disse Jacó: “Não, ora, se, ora, achei graça aos teus olhos, e tomarás o meu presente da minha mão; porque por isso vi a tua face como ver a face de Deus, e te agradaste de mim.",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não, peço-te; se agora achei graça aos teus olhos, aceita o meu presente → Não, peço-lhe; se agora achei graça aos seus olhos, aceite o meu presente | porquanto tenho visto o teu rosto → porquanto vi o seu rosto | e te agradaste de mim → e você se agradou de mim",
+      "justificativa": "D-0003: você no discurso entre humanos; o imperativo passa a 3ª pessoa ('aceite') em concordância com o novo tratamento (precedente Gen.30.14, 'peço-te' → 'peço-lhe'). | O pretérito perfeito composto pt-BR tem valor iterativo/durativo ('tenho visto' = venho vendo), que não corresponde ao qatal pontual רָאִיתִי — o encontro é único; o composto decalcava o perfect da tradição inglesa ('I have seen'). Possessivo ajustado ao tratamento (D-0003). | D-0003: você no discurso entre humanos; 'se agradou' fecha a cadeia temporal em perfeito simples ('achei... vi... se agradou'). — revisão de forma sem alteração de sentido (ER-0019). 'Como se tivesse visto o rosto de Deus' fica: eco intencional de Peniel (32.31, 'vi a Deus face a face'), não vício de redação. 'Porquanto' mantido como conectivo causal formal vivo (prática dos capítulos já revisados, Gn 18.15, 22.16, 26.5). O período fica no limite de extensão, mas os dois pontos e vírgula já o segmentam; dividi-lo quebraria o encadeamento causal do כִּי עַל־כֵּן.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -160,11 +167,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

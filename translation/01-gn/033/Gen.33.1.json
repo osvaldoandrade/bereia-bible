@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Gen.33.1-20"
   },
-  "texto_bv": "E levantou Jacó os olhos, e olhou, e viu que Esaú vinha chegando, e quatrocentos homens com ele. Então repartiu os filhos entre Lia, e Raquel, e as duas servas.",
+  "texto_bv": "E levantou Jacó os olhos, e olhou, e viu que Esaú vinha chegando, e quatrocentos homens com ele. Então repartiu os filhos entre Lia, Raquel e as duas servas.",
   "traducao_literal": "E levantou Jacó os seus olhos, e viu, e eis Esaú vindo, e com ele quatrocentos homens; e dividiu os filhos sobre Lia e sobre Raquel e sobre as duas servas.",
   "termos_originais": [
     {
@@ -138,6 +138,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "entre Lia, e Raquel, e as duas servas → entre Lia, Raquel e as duas servas",
+      "justificativa": "Polissíndeto do waw ordinário de coordenação (עַל־לֵאָה וְעַל־רָחֵל וְעַל) decalcado como 'e... e...' com vírgulas arcaizantes; a enumeração portuguesa liga os itens por vírgula e um único 'e' (ER-0013 §6.2). O calque integral permanece na traducao_literal. — revisão de forma sem alteração de sentido (ER-0019). A cadeia 'e olhou, e viu que Esaú vinha chegando' fica: é o ritmo do wayyiqtol, já normalizado pelo ER-0019 (o 'eis que' virou 'viu que'), e a elipse final 'e quatrocentos homens com ele' é natural e paralela à de 32.7. O polissíndeto da enumeração final não é fórmula intencional — é o waw ordinário — e foi normalizado. Controles KJV deste capítulo alinhados verso a verso (sem o deslocamento de Gn 32).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "ER-0011 prescreve ordem S-V uniforme nos wayyiqtol do texto publicado, mas o capítulo mantém V-S pervasivo ('E levantou Jacó', v. 1; 'Então chegaram as servas', v. 6; 'E disse Esaú', vv. 8, 12, 15; 'Assim voltou Esaú', v. 16; 'E chegou Jacó', v. 18), como os capítulos vizinhos 29-32. — evidência: Aplicar ER-0011 isoladamente em Gn 33 criaria descontinuidade com os vizinhos já revisados que conservam o mesmo V-S; a normalização precisa ser em cadeia, sob coordenação da diretriz, não verso a verso neste ciclo (mesma objeção registrada em Gen.30.6). (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -149,11 +163,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

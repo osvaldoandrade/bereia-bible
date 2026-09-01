@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Gen.33.1-20"
   },
-  "texto_bv": "Mas Esaú disse: “Tenho bastante, meu irmão; seja para ti o que tens.”",
+  "texto_bv": "Mas Esaú disse: “Tenho bastante, meu irmão; seja para você o que é seu.”",
   "traducao_literal": "E disse Esaú: “Há para mim muito, meu irmão; seja para ti o que é teu.”",
   "termos_originais": [
     {
@@ -76,6 +76,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "seja para ti o que tens → seja para você o que é seu",
+      "justificativa": "D-0003: você no discurso entre humanos. 'O que é seu' acompanha a traducao_literal ('o que é teu', יְהִי לְךָ אֲשֶׁר־לָךְ) e evita o 'o que tem' sem sujeito claro que a troca de pessoa criaria. — revisão de forma sem alteração de sentido (ER-0019). 'Tenho bastante' verte bem יֶשׁ־לִי רָב (KJV 'I have enough'); 'Mas' adversativo mantido — verte a recusa cortês frente à oferta de v. 8; vocativo 'meu irmão' bem pontuado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -87,10 +94,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
