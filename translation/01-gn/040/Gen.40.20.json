@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Gen.40.1-23"
   },
-  "texto_bv": "E aconteceu, ao terceiro dia, o dia do aniversário de Faraó, que ele fez um banquete a todos os seus servos; e levantou a cabeça do copeiro-mor, e a cabeça do padeiro-mor, no meio dos seus servos.",
+  "texto_bv": "Ao terceiro dia, o dia do aniversário de Faraó, ele fez um banquete a todos os seus servos; e levantou a cabeça do copeiro-mor, e a cabeça do padeiro-mor, no meio dos seus servos.",
   "traducao_literal": "E aconteceu, no dia terceiro, dia do nascimento de Faraó, que fez um banquete para todos os seus servos; e levantou a cabeça do chefe dos copeiros e a cabeça do chefe dos padeiros no meio dos seus servos.",
   "termos_originais": [
     {
@@ -136,6 +136,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E aconteceu, ao terceiro dia, o dia do aniversário de Faraó, que ele fez → Ao terceiro dia, o dia do aniversário de Faraó, ele fez",
+      "justificativa": "Moldura וַיְהִי ... 'E aconteceu ... que' é calque; a locução temporal com aposição abre o período sozinha (ER-0013; mesmo tratamento de 40.1 e de Gen.22.1 neste ciclo). — revisão de forma sem alteração de sentido (ER-0019). 'Ele' recupera Faraó, nomeado na aposição imediatamente anterior. A repetição 'a cabeça do ... e a cabeça do ...' e 'seus servos' 2× espelha o hebraico (רֹאשׁ 2×, עֲבָדָיו 2×) e sustenta o desfecho do trocadilho de 40.13/40.19; mantida.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -147,10 +154,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Gen.40.1-23"
   },
-  "texto_bv": "Vendo então o padeiro-mor que havia interpretado bem, disse a José: Eu também sonhei, e eis que três cestos de pão branco estavam sobre a minha cabeça;",
+  "texto_bv": "Vendo então o padeiro-mor que José havia interpretado bem, disse-lhe: “Eu também sonhei, e eis que três cestos de pão branco estavam sobre a minha cabeça;",
   "traducao_literal": "E viu o chefe dos padeiros que interpretou bem, e disse a José: Também eu, no meu sonho, e eis três cestos de pão branco sobre a minha cabeça;",
   "termos_originais": [
     {
@@ -134,6 +134,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que havia interpretado bem, disse a José: → que José havia interpretado bem, disse-lhe: | disse-lhe: Eu também sonhei → disse-lhe: “Eu também sonhei",
+      "justificativa": "Sujeito nulo ambíguo: em 'Vendo o padeiro-mor que havia interpretado bem', a leitura sintática preferencial atribui a interpretação ao próprio padeiro-mor, mas o referente é José (כִּי טוֹב פָּתָר, sujeito contextual). Explicitar 'José' na subordinada e retomá-lo por clítico em 'disse-lhe' desfaz a ambiguidade sem acrescentar nem repetir o nome. | Abertura do discurso direto que se estende até 40.17; ER-0004/EDITORIAL §5 (fechamento registrado em 40.17). — revisão de forma sem alteração de sentido (ER-0019). 'Eu também sonhei, e eis que' é a resolução já adjudicada do elíptico אַף־אֲנִי בַּחֲלוֹמִי; 'cestos de pão branco' para סַלֵּי חֹרִי é decisão de sentido aprovada, fora do escopo desta revisão.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -145,11 +152,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

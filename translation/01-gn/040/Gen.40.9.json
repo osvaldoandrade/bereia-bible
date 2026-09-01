@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Gen.40.1-23"
   },
-  "texto_bv": "Então contou o copeiro-mor o seu sonho a José, e disse-lhe: Em meu sonho, eis que havia uma videira diante de mim;",
+  "texto_bv": "Então o copeiro-mor contou o seu sonho a José, e disse-lhe: “Em meu sonho, eis que havia uma videira diante de mim;",
   "traducao_literal": "E contou o chefe dos copeiros o seu sonho a José, e disse a ele: No meu sonho, e eis uma videira diante de mim;",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então contou o copeiro-mor o seu sonho a José → Então o copeiro-mor contou o seu sonho a José | disse-lhe: Em meu sonho → disse-lhe: “Em meu sonho",
+      "justificativa": "Ordem V-S calcada do wayyiqtol וַיְסַפֵּר; ER-0011 fixa ordem sujeito-verbo uniforme no publicado. | Abertura do discurso direto que se estende até 40.11; ER-0004/EDITORIAL §5 exigem aspas duplas curvas (fechamento registrado em 40.11). — revisão de forma sem alteração de sentido (ER-0019). 'Eis que' verte וְהִנֵּה na dêixis vívida do relato de sonho e é mantido (mesma solução em 40.16). O ponto e vírgula final sustenta a continuação do período em 40.10.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -104,11 +111,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

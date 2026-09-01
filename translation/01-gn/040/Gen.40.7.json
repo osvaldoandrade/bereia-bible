@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Gen.40.1-23"
   },
-  "texto_bv": "Então perguntou aos oficiais de Faraó, que com ele estavam na prisão da casa de seu senhor, dizendo: Por que estão os seus rostos tão tristes hoje?",
+  "texto_bv": "Então perguntou aos oficiais de Faraó, que com ele estavam na prisão da casa de seu senhor, dizendo: “Por que estão os seus rostos tão tristes hoje?”",
   "traducao_literal": "E perguntou aos eunucos de Faraó, que com ele em guarda na casa de seu senhor, dizendo: Por que os vossos rostos maus hoje?",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "dizendo: Por que estão os seus rostos tão tristes hoje? → dizendo: “Por que estão os seus rostos tão tristes hoje?”",
+      "justificativa": "Discurso direto sem aspas; ER-0004/EDITORIAL §5 exigem dois-pontos + aspas duplas curvas, convenção já aplicada no restante do corpus (cf. Gn 32, 38, 39). — revisão de forma sem alteração de sentido (ER-0019). Sujeito nulo de 'perguntou' recupera José em 40.6 sem ambiguidade. A fórmula 'dizendo:' (לֵאמֹר) é mantida por consistência com o corpus. Pergunta em você/vocês ('os seus rostos') conforme D-0003.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -114,10 +121,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

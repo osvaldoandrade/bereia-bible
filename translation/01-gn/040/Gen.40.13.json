@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Gen.40.1-23"
   },
-  "texto_bv": "dentro de três dias Faraó levantará a cabeça dele, e o restituirá ao seu ofício; e dará o copo de Faraó na mão dele, conforme o costume anterior, quando era o seu copeiro.",
+  "texto_bv": "dentro de três dias Faraó levantará a cabeça dele, e o restituirá ao seu ofício; e você dará o copo de Faraó na mão dele, conforme o costume anterior, quando era o seu copeiro.",
   "traducao_literal": "Em ainda três dias levantará Faraó a tua cabeça, e te fará voltar sobre o teu posto; e darás o copo de Faraó na sua mão, conforme o costume anterior, quando eras o seu copeiro.",
   "termos_originais": [
     {
@@ -141,6 +141,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "; e dará o copo de Faraó → ; e você dará o copo de Faraó",
+      "justificativa": "Mudança de sujeito não marcada: depois de 'Faraó levantará ... e o restituirá', 'e dará' lê Faraó como sujeito, mas o hebraico וְנָתַתָּ é 2ª pessoa (o copeiro). Explicitar 'você' (paradigma D-0003) desfaz a ambiguidade sem tocar no sentido; o 'você' verte a morfologia 2ms do próprio verbo, não é palavra suprida. — revisão de forma sem alteração de sentido (ER-0019). Aplicada apenas a explicitação do sujeito 'você' exigida pela morfologia 2ms de וְנָתַתָּ; 'na mão dele' (= de Faraó, cf. בְּיָדוֹ e KJV 'into his hand') fica correto com o novo sujeito explícito. A escolha 'a cabeça dele' é decisão ER-0019 registrada — discordância vai como objeção EDITORIAL, sem alteração.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "'Levantará a cabeça dele' refere-se ao interlocutor (o copeiro) por 'dele', quebrando a cadeia de tratamento da fala (40.14 retoma o interlocutor por 'lembre-se', 'lhe') e desfazendo o paralelismo com 40.19 ('levantará a sua cabeça de sobre você'), do qual depende o trocadilho נשׂא ראשׁ que o próprio registro declara querer preservar ('A BV mantém a expressão idêntica para preservar o duplo sentido'). — evidência: Registro de Gen.40.13: decisão ER-0019 trocou 'a sua cabeça' por 'a cabeça dele' para evitar ambiguidade com Faraó sujeito. Não reverto decisão registrada por conta própria; proponho para adjudicação futura 'levantará a sua cabeça' como em 40.19 — o seguinte 'e o restituirá ao seu ofício' já ancora a leitura no copeiro. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -152,11 +166,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
