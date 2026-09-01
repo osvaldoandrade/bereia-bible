@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Lev.11.1-47"
   },
-  "texto_bv": "Todo alimento que poderia ser comido ficará impuro se água desse recipiente cair sobre ele; e toda bebida que poderia ser bebida ficará impura se estiver em tal recipiente.",
+  "texto_bv": "Todo alimento que pode ser comido ficará impuro se água desse recipiente cair sobre ele; e toda bebida que pode ser bebida ficará impura se estiver em tal recipiente.",
   "traducao_literal": "De todo alimento que será comido, sobre o qual vier água, ficará impuro; e toda bebida que será bebida, em todo utensílio, ficará impura.",
   "termos_originais": [
     {
@@ -121,6 +121,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Todo alimento que poderia ser comido ficará impuro se água desse recipiente cair sobre ele; e toda bebida que poderia ser bebida ficará impura se estiver em tal recipiente. → Todo alimento que pode ser comido ficará impuro se água desse recipiente cair sobre ele; e toda bebida que pode ser bebida ficará impura se estiver em tal recipiente.",
+      "justificativa": "O condicional 'poderia' introduz nuance hipotética ausente do hebraico (Nifal imperfeito genérico, יֵאָכֵל/יִשָּׁתֶה) e da KJV ('may be eaten/drunk'); quebra sem motivo a cadeia verbal do capítulo, que usa sempre presente/futuro do indicativo para afirmações genéricas equivalentes ('pode/poderá comer'). Corrigido para presente do indicativo, sentido preservado. — revisão de forma sem alteração de sentido (ER-0019). 'poderia ser comido/bebida' (condicional) introduz uma nuance hipotética ausente do hebraico (יֵאָכֵל/יִשָּׁתֶה, Nifal imperfeito de sentido genérico/deôntico, 'que se come'/'é comível') e da KJV ('which may be eaten/drunk', presente genérico). O restante do capítulo usa sempre indicativo presente/futuro para esse tipo de afirmação genérica ('pode/poderá comer', 'deverá ser'), nunca o condicional; a forma condicional quebra essa cadeia verbal sem motivo no original. Corrigido para o presente do indicativo, sem alterar o sentido (alimento/bebida que É comível, não que 'poderia ser' comido sob alguma condição).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -137,10 +144,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
