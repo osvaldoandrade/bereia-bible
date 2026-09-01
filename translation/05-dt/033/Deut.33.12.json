@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Deut.33.1-29"
   },
-  "texto_bv": "A respeito de Benjamim, ele disse:\n“O amado do SENHOR habitará seguro junto a ele;\nele o cobrirá durante todo o dia\ne habitará entre seus ombros.”",
+  "texto_bv": "A respeito de Benjamim, ele disse:\n“O amado do SENHOR habitará seguro junto a ele;\nele o cobrirá durante todo o dia,\ne Benjamim habitará entre os ombros dele.”",
   "traducao_literal": "Para Benjamim disse:\nO amado de YHWH habitará em segurança sobre ele;\ncobrindo sobre ele todo o dia,\ne entre os ombros dele habitou.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele o cobrirá durante todo o dia\ne habitará entre seus ombros.” → ele o cobrirá durante todo o dia,\ne Benjamim habitará entre os ombros dele.”",
+      "justificativa": "Na 3ª oração, o sujeito elidido de 'habitará' seguiria por padrão o sujeito da oração anterior ('ele' = SENHOR), invertendo a imagem: o texto passaria a dizer que o SENHOR habita entre os ombros de Benjamim. A tradução literal marca a reversão do sujeito para Benjamim ao trocar o particípio 'cobrindo' (SENHOR) pelo verbo finito 'habitou' (Benjamim) no fecho do verso — distinção que se perde ao encadear três orações finitas com 'e'. Retomada por nome próprio ('Benjamim') e 'dele' (SENHOR) resolve a ambiguidade de referente sem alterar o sentido já fixado pela camada literal. — revisão de forma sem alteração de sentido (ER-0022). Ajuste de retomada pronominal ambígua entre dois referentes de 3ª pessoa; conteúdo proposicional inalterado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -166,11 +173,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
