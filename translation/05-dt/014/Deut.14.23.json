@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Deut.14.1-29"
   },
-  "texto_bv": "Diante do SENHOR, seu Deus, no lugar que ele escolher para ali fazer habitar seu nome, vocês comerão o dízimo de seu cereal, de seu vinho novo e de seu azeite, e os primogênitos de seu gado e de seu rebanho, para que aprendam a temer o SENHOR, seu Deus, todos os dias.",
+  "texto_bv": "Diante do SENHOR, seu Deus, no lugar que ele escolher para ali fazer habitar seu nome, vocês comerão o dízimo de seu cereal, de seu vinho novo e de seu azeite, e os primogênitos de seu gado e de seu rebanho. Isso é para que aprendam a temer o SENHOR, seu Deus, todos os dias.",
   "traducao_literal": "E comerás diante de YHWH, teu Deus, no lugar que escolher para fazer habitar seu nome ali, o dízimo de teu cereal, teu vinho novo e teu azeite, e os primogênitos de teu gado e de teu rebanho, para que aprendas a temer YHWH, teu Deus, todos os dias.",
   "termos_originais": [
     {
@@ -191,6 +191,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e os primogênitos de seu gado e de seu rebanho, para que aprendam a temer o SENHOR, seu Deus, todos os dias. → e os primogênitos de seu gado e de seu rebanho. Isso é para que aprendam a temer o SENHOR, seu Deus, todos os dias.",
+      "justificativa": "Sentença com cerca de 53 palavras (acima do limite de ~40, §5); quebrada em duas, com 'Isso é' retomando anaforicamente o ato de comer o dízimo descrito antes, preservando intacta a relação de finalidade ('para que') marcada por לְמַ֣עַן no original — nenhuma relação lógica nova foi introduzida. — revisão de forma sem alteração de sentido (ER-0022). Verso longo quebrado em duas orações sem alterar o sentido nem a relação de finalidade do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -208,11 +215,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
