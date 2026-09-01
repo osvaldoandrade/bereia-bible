@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Gen.50.1-26"
   },
-  "texto_bv": "pois os seus filhos o levaram à terra de Canaã, e o sepultaram na cova do campo de Macpela, que Abraão havia comprado com o campo, por herança de sepultura, a Efrom, o heteu, defronte de Manre.",
+  "texto_bv": "pois os seus filhos o levaram à terra de Canaã, e o sepultaram na cova do campo de Macpela, que Abraão havia comprado com o campo, por herança de sepultura, de Efrom, o heteu, defronte de Manre.",
   "traducao_literal": "e carregaram-no os seus filhos à terra de Canaã, e sepultaram-no na caverna do campo de Macpela, que comprou Abraão, o campo, por possessão de sepultura, de Efrom, o heteu, sobre a face de Manre.",
   "termos_originais": [
     {
@@ -155,6 +155,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "por herança de sepultura, a Efrom, o heteu → por herança de sepultura, de Efrom, o heteu",
+      "justificativa": "\"comprar a alguém\" é regência clássica ambígua no português contemporâneo (pode ser lida como \"comprar para alguém\"); o hebraico מֵאֵת עֶפְרֹן marca procedência (\"de Efrom\", assim na tradução literal), e \"de\" elimina a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). \"que Abraão havia comprado com o campo\" segue a estrutura do original (KJV \"which Abraham bought with the field\"); \"havia comprado\" é o composto conforme a norma; mantidos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -166,11 +173,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

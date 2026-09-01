@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Gen.50.1-26"
   },
-  "texto_bv": "Meu pai me fez jurar, dizendo: Estou prestes a morrer; no meu sepulcro, que cavei para mim na terra de Canaã, ali me sepultará. Agora, pois, deixe-me subir, por favor, para que sepulte a meu pai; então voltarei.",
+  "texto_bv": "Meu pai me fez jurar, dizendo: Estou prestes a morrer; no meu sepulcro, que cavei para mim na terra de Canaã, ali me sepultará. Agora, pois, deixe-me subir, por favor, para que eu sepulte a meu pai; então voltarei.",
   "traducao_literal": "O meu pai fez-me jurar, dizendo: Eis que eu morrendo; no meu sepulcro que cavei para mim na terra de Canaã, ali me sepultarás. E agora, suba eu, por favor, e sepulte o meu pai, e voltarei.",
   "termos_originais": [
     {
@@ -138,6 +138,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para que sepulte a meu pai → para que eu sepulte a meu pai",
+      "justificativa": "Sem sujeito expresso, \"sepulte\" pode ser lido como imperativo de terceira pessoa dirigido ao interlocutor (como em 50.6, \"Suba e sepulte seu pai\"); o hebraico traz coortativo de 1ª pessoa (וְאֶקְבְּרָה, \"e sepulte eu\"), e o \"eu\" desfaz a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0019). \"ali me sepultará\" preserva o imperativo de 2ª pessoa do singular (תִּקְבְּרֵנִי) no registro de \"você\"; \"Estou prestes a morrer\" para הִנֵּה אָנֹכִי מֵת é a solução aprovada; mantidos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -149,11 +156,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

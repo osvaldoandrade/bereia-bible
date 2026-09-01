@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Gen.50.1-26"
   },
-  "texto_bv": "como também toda a casa de José, e seus irmãos, e a casa de seu pai; somente deixaram na terra de Gósen os seus meninos, e as suas ovelhas, e as suas vacas.",
+  "texto_bv": "como também toda a casa de José, seus irmãos e a casa de seu pai; somente deixaram na terra de Gósen os seus meninos, as suas ovelhas e as suas vacas.",
   "traducao_literal": "e toda a casa de José, e os seus irmãos, e a casa de seu pai; somente as suas crianças e o seu rebanho e o seu gado deixaram na terra de Gósen.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "toda a casa de José, e seus irmãos, e a casa de seu pai → toda a casa de José, seus irmãos e a casa de seu pai | os seus meninos, e as suas ovelhas, e as suas vacas → os seus meninos, as suas ovelhas e as suas vacas",
+      "justificativa": "Enumeração com waw repetido diante de cada membro; o português coordena com vírgulas e \"e\" apenas antes do último membro, sem alterar itens nem ordem. | Mesma cadeia de waw na segunda enumeração (טַפָּם וְצֹאנָם וּבְקָרָם); coordenação portuguesa padrão, itens e ordem intactos. — revisão de forma sem alteração de sentido (ER-0019). Itens das duas enumerações conferidos contra o hebraico e a KJV; nada foi acrescentado nem omitido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -109,11 +116,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
