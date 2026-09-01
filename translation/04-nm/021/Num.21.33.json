@@ -7,7 +7,7 @@
     "versiculo": 33,
     "pericope": "Num.21.1-35"
   },
-  "texto_bv": "Depois eles mudaram de direção e subiram pelo caminho de Basã. Ogue, rei de Basã, saiu ao encontro deles com todo o seu povo, para combatê-los em Edrei.",
+  "texto_bv": "Depois os israelitas mudaram de direção e subiram pelo caminho de Basã. Ogue, rei de Basã, saiu ao encontro deles com todo o seu povo, para combatê-los em Edrei.",
   "traducao_literal": "E voltaram-se e subiram pelo caminho de Basã; e saiu Ogue, rei de Basã, ao encontro deles, ele e todo o seu povo, para a guerra, em Edrei.",
   "termos_originais": [
     {
@@ -122,6 +122,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Depois eles mudaram de direção e subiram pelo caminho de Basã. → Depois os israelitas mudaram de direção e subiram pelo caminho de Basã.",
+      "justificativa": "O pronome 'eles' tinha como antecedente sintático mais próximo 'os amorreus' (verso 32, que acabaram de ser expulsos), e não Israel, sujeito lógico da marcha rumo a Basã; a substituição pelo sujeito explícito remove a ambiguidade e mantém coerentes as retomadas por 'deles' e 'combatê-los' no restante do próprio verso. — revisão de forma sem alteração de sentido (ER-0022). Ajuste pontual de coesão: sujeito explicitado para eliminar ambiguidade pronominal com 'os amorreus', substantivo plural mais próximo no verso anterior; nada mais foi alterado no verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -135,10 +142,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "2f7296cb4fd26333abe16c03087c14defcb5f386cf653874bb832d504428cf9e",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
