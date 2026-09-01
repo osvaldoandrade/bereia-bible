@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Gen.45.1-28"
   },
-  "texto_bv": "E eis que os olhos de vocês veem, e os olhos de meu irmão Benjamim, que é a minha boca que fala a vocês.",
+  "texto_bv": "E eis que os olhos de vocês, e os olhos de meu irmão Benjamim, veem que é a minha boca que fala a vocês.",
   "traducao_literal": "E eis que os vossos olhos veem, e os olhos do meu irmão Benjamim, que a minha boca a que fala a vós.",
   "termos_originais": [
     {
@@ -90,6 +90,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os olhos de vocês veem, e os olhos de meu irmão Benjamim, que é a minha boca → os olhos de vocês, e os olhos de meu irmão Benjamim, veem que é a minha boca",
+      "justificativa": "No hebraico o segundo sujeito vem como acréscimo depois do verbo (וְעֵינֵי אָחִי בִנְיָמִין) e o כִּי introduz a completiva de “veem”; na ordem anterior, “que é a minha boca” lia-se como oração relativa de “Benjamim”. Reunir os dois sujeitos antes de “veem” desfaz a ambiguidade sem alterar a proposição. — revisão de forma sem alteração de sentido (ER-0019). “E eis que” foi mantido: aqui הִנֵּה é dêitico dentro da fala (José aponta para a evidência presente), uso legítimo e não calque narrativo. Verso segue dentro da fala aos irmãos aberta em 45.4.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -101,11 +108,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

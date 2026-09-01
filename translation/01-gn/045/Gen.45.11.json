@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Gen.45.1-28"
   },
-  "texto_bv": "E ali sustentarei você, porque ainda haverá cinco anos de fome, para que não pereça de pobreza, você e a sua casa, e tudo o que você tem.",
+  "texto_bv": "E ali sustentarei você, porque ainda haverá cinco anos de fome, para que não pereça de pobreza, você e a sua casa, e tudo o que você tem.’",
   "traducao_literal": "E sustentar-te-ei ali, porque ainda cinco anos de fome; para que não empobreças, tu e a tua casa e tudo o que é teu.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "você e a sua casa, e tudo o que você tem. → você e a sua casa, e tudo o que você tem.’",
+      "justificativa": "Fechamento da citação interna (mensagem ao pai) aberta em 45.9: em 45.12 José volta a dirigir-se aos irmãos (“os olhos de vocês”), fora da mensagem. — revisão de forma sem alteração de sentido (ER-0019). “Sustentarei você” evita a mesóclise da literal (“sustentar-te-ei”), vedada pelo EDITORIAL §1.2; “para que não pereça…, você e a sua casa, e tudo o que você tem” traz sujeito composto posposto com concordância pelo núcleo mais próximo, admitida pela norma e espelhando o verbo singular hebraico (תִּוָּרֵשׁ 2ms).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,10 +126,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
