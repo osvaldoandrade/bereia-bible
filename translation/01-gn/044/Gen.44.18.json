@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Gen.44.1-34"
   },
-  "texto_bv": "Então Judá se aproximou dele e disse: — Ai, senhor meu, deixe, peço-lhe, o seu servo dizer uma palavra aos ouvidos do meu senhor. Não se acenda a ira do meu senhor contra mim, porque o senhor é como Faraó.",
+  "texto_bv": "Então Judá se aproximou dele e disse: Ai, senhor meu, deixe, peço-lhe, o seu servo dizer uma palavra aos ouvidos do meu senhor. Não se acenda a ira do meu senhor contra mim, porque o senhor é como Faraó.",
   "traducao_literal": "E aproximou-se a ele Judá e disse: Por favor, meu senhor, fale, por favor, o teu servo uma palavra aos ouvidos do meu senhor, e não se acenda a tua ira contra o teu servo, porque tu como Faraó.",
   "termos_originais": [
     {
@@ -135,6 +135,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e disse: — Ai, senhor meu → e disse: Ai, senhor meu",
+      "justificativa": "Travessão em discurso direto é vedado (ER-0004/EDITORIAL §5) e este é o único do capítulo — todos os demais discursos entram por dois-pontos. Remoção restaura a convenção do próprio capítulo. — revisão de forma sem alteração de sentido (ER-0019). \"Ai, senhor meu\" mantido: verte a partícula de súplica בִּי na tradição de Almeida (ARC \"Ai! senhor meu\") — interjeição de rogo, não de lamento; a traducao_literal guarda o valor pleno (\"Por favor, meu senhor\"). A mistura de 2ª cortês (\"deixe\", \"o senhor\") com a deferência em 3ª (\"aos ouvidos do meu senhor\") é a retórica do próprio original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "בְּעַבְדֶּךָ (\"contra o teu servo\") está vertido como \"contra mim\", quebrando a autodesignação deferencial \"o seu servo\" que estrutura todo o discurso de Judá (vv. 18, 24, 27, 30, 32, 33). — evidência: termos_originais: בְּעַבְדֶּךָ (b/5650, HR/Ncmsc/Sp2ms); KJV \"let not thine anger burn against thy servant\". O referente é o mesmo (Judá), portanto não há erro de sentido; restaurar a fórmula (\"contra o seu servo\") reverteria escolha lexical aprovada em ciclo anterior e excede o escopo de forma desta etapa. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -146,11 +160,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

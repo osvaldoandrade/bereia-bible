@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Gen.44.1-34"
   },
-  "texto_bv": "E a minha taça, a taça de prata, porá na boca do saco do mais novo, com o dinheiro do seu trigo. E ele fez conforme a palavra que José havia dito.",
+  "texto_bv": "E a minha taça, a taça de prata, você porá na boca do saco do mais novo, com o dinheiro do seu trigo. E ele fez conforme a palavra que José havia dito.",
   "traducao_literal": "E o meu cálice, o cálice de prata, porás na boca do saco do pequeno, e a prata do seu cereal. E fez conforme a palavra de José que falou.",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a taça de prata, porá na boca do saco do mais novo → a taça de prata, você porá na boca do saco do mais novo",
+      "justificativa": "O futuro sem sujeito expresso, vindo logo após os imperativos do v. 1 (\"Encha... ponha\"), lê-se como 3ª pessoa (\"ele porá\") e deixa o leitor sem referente. O hebraico תָּשִׂים é 2ms (yiqtol volitivo); no paradigma você (D-0003) o sujeito explícito desfaz a ambiguidade sem tocar no objeto fronteado, que espelha a ênfase do original (וְאֶת־גְּבִיעִי... fronteado). — revisão de forma sem alteração de sentido (ER-0019). Só se explicitou o sujeito da 2ª pessoa; o fronteamento enfático do objeto e a coordenação \"com o dinheiro do seu trigo\" (וְאֵת כֶּסֶף שִׁבְרוֹ) permanecem como adjudicados. \"havia dito\" é o pretérito composto que a EDITORIAL §1.2 prescreve no lugar do mais-que-perfeito sintético.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -124,10 +131,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
