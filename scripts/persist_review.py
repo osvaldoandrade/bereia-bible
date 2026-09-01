@@ -137,8 +137,16 @@ def repin_fontes(rec, modelo):
     rec["fontes"] = fontes
 
 
-def apply_chapter(out, records, modelo):
-    """Mutate + rewrite changed records. Return (revised, objections)."""
+def apply_chapter(out, records, modelo, er="ER-0019"):
+    """Mutate + rewrite changed records. Return (revised, objections).
+
+    `er` is the directive this batch executes — provenance recorded verbatim
+    in every decisoes[].diretriz_ref this call writes. Defaults to ER-0019
+    (the directive this function was first written for) so callers that
+    don't pass it keep their current behavior; ER-0022 batches must pass
+    "ER-0022" explicitly or their records misreport which review produced
+    them.
+    """
     revised = objections = 0
     for v in out.get("versos", []):
         osis = v["osis"]
@@ -147,17 +155,17 @@ def apply_chapter(out, records, modelo):
         objecoes = v.get("objecoes", []) or []
         justificativa = (v.get("justificativa") or "").strip()
         if not mudancas and not objecoes:
-            # ER-0019 v2: SEM_ALTERACAO with agent justification is recorded
-            # in decisoes so the rationale is auditable even when no change
-            # is applied (e.g., "NTLH/ARA/NVIPT use X but BV is correct
-            # because of intentional formula Y").
+            # SEM_ALTERACAO with agent justification is recorded in decisoes
+            # so the rationale is auditable even when no change is applied
+            # (e.g., "NTLH/ARA/NVIPT use X but BV is correct because of
+            # intentional formula Y").
             if justificativa:
                 rec.setdefault("decisoes", []).append({
-                    "questao": "Manutenção do texto_bv (revisão ER-0019 v2)",
+                    "questao": "Manutenção do texto_bv (revisão %s v2)" % er,
                     "escolha": "texto mantido",
-                    "justificativa": justificativa + " (ER-0019 v2).",
+                    "justificativa": justificativa + " (%s v2)." % er,
                     "alternativas_rejeitadas": [],
-                    "diretriz_ref": "ER-0019",
+                    "diretriz_ref": er,
                 })
                 repin_fontes(rec, modelo)
                 with open(path, "w", encoding="utf-8") as f:
@@ -175,9 +183,9 @@ def apply_chapter(out, records, modelo):
                 "questao": "Revisão editorial do texto_bv",
                 "escolha": escolha,
                 "justificativa": motivo + " — revisão de forma sem alteração "
-                                 "de sentido (ER-0019)." + just_agent,
+                                 "de sentido (%s)." % er + just_agent,
                 "alternativas_rejeitadas": [],
-                "diretriz_ref": "ER-0019",
+                "diretriz_ref": er,
             })
             revised += 1
         for o in objecoes:
@@ -186,17 +194,17 @@ def apply_chapter(out, records, modelo):
             evid = str(o.get("evidencia", ""))
             if grav == "MATERIAL":
                 rec.setdefault("objecoes_nao_resolvidas", []).append(
-                    "Objeção MATERIAL (revisão ER-0019): %s — evidência: %s"
-                    % (problema, evid))
+                    "Objeção MATERIAL (revisão %s): %s — evidência: %s"
+                    % (er, problema, evid))
                 objections += 1
             else:  # EDITORIAL: registrada, não bloqueia
                 rec.setdefault("decisoes", []).append({
                     "questao": "Objeção editorial não aplicada",
                     "escolha": "texto mantido",
                     "justificativa": problema + " — evidência: " + evid
-                                     + " (ER-0019).",
+                                     + " (%s)." % er,
                     "alternativas_rejeitadas": [],
-                    "diretriz_ref": "ER-0019",
+                    "diretriz_ref": er,
                 })
         repin_fontes(rec, modelo)
         with open(path, "w", encoding="utf-8") as f:
@@ -213,6 +221,9 @@ def main(argv=None):
     ap.add_argument("-status", default="DRAFT",
                     choices=["DRAFT", "REVIEW", "APPROVED"],
                     help="estado dos registros que este ciclo revisa")
+    ap.add_argument("-er", default="ER-0019", metavar="ER-NNNN",
+                    help="diretriz que este lote executa; grava em "
+                         "decisoes[].diretriz_ref de cada registro tocado")
     args = ap.parse_args(argv)
 
     outs = []
@@ -233,7 +244,7 @@ def main(argv=None):
 
     total_revised = total_objections = 0
     for path, out, scope in outs:
-        revised, objections = apply_chapter(out, scope, args.modelo)
+        revised, objections = apply_chapter(out, scope, args.modelo, args.er)
         total_revised += revised
         total_objections += objections
         print("%s: %d versos revisados, %d objeções MATERIAIS"

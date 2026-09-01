@@ -378,7 +378,8 @@ def main(argv=None):
     # 3) apply + bvcheck + commit per chapter
     total_revised = total_obj = 0
     for path, out, scope in outs:
-        revised, objections = persist.apply_chapter(out, scope, args.modelo)
+        revised, objections = persist.apply_chapter(out, scope, args.modelo,
+                                                     args.er)
         total_revised += revised
         total_obj += objections
         book_dir, chap = out["book_dir"], int(out["chapter"])

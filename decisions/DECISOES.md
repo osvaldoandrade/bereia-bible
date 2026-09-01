@@ -436,6 +436,25 @@ Ver `docs/domain/governanca/glossary.md`.
   gramaticais) e o `fontes.modelo` do registro são a proveniência real
   desses capítulos; a mensagem de commit, ali, mente. Gn 1-16 e 17-32, que
   foram commitados à mão, trazem o rótulo certo.
+- Segunda correção de proveniência, mais profunda (a partir de Lv 7):
+  `persist_review.py:apply_chapter` também fixava `ER-0019` no código, e não
+  só na mensagem de commit — em `decisoes[].diretriz_ref` de CADA registro de
+  versículo tocado, e no texto de `justificativa`/`objecoes_nao_resolvidas`.
+  Ganhou o mesmo parâmetro (`-er` no `main()` de `persist_review.py`, default
+  `ER-0019`; `ship_review_batch.py` repassa `args.er`). **Não reescrito**:
+  todo registro de versículo já shipado sob ER-0022 até este fix (Gn 49-50,
+  Ex 1-40, Lv 1-22) carrega `diretriz_ref: "ER-0019"` embutido em
+  `decisoes[]`, apesar de a revisão real ser ER-0022. Proveniência
+  verdadeira desses registros: `fontes.modelo` (correto) + o `review-out`
+  correspondente em `qa/reports/review-out/` (correto) + a mensagem de
+  commit a partir de Gn 49 (correta, `-er` já existia para o commit desde a
+  correção anterior). Só o campo interno `diretriz_ref` mente, e só até
+  Lv 6.
+- Modelo trocado de `claude-fable-5` para `claude-sonnet-5` a partir de
+  Ex 31 (créditos de fable esgotados na conta) — mesmo par autorizado em
+  [[revisao-er0019-usar-sonnet]]. Confirmado por leitura do journal
+  (`agent-*.jsonl`, campo `message.model`) antes de cada persist a partir
+  daqui, não só do `meta.json` do driver.
 
 ---
 
