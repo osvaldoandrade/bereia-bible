@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Gen.34.1-31"
   },
-  "texto_bv": "E Hamor falou com eles, dizendo: “A alma de Siquém, meu filho, está enamorada da filha de vocês; deem-na a ele, peço a vocês, por mulher.”",
+  "texto_bv": "E Hamor falou com eles, dizendo: “A alma de Siquém, meu filho, está enamorada da filha de vocês; deem-na a ele por mulher, peço a vocês.",
   "traducao_literal": "E falou Hamor com eles, dizendo: “Siquém, meu filho, desejou a sua alma pela vossa filha; dai-a, ora, a ele por mulher.",
   "termos_originais": [
     {
@@ -110,6 +110,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "deem-na a ele, peço a vocês, por mulher → deem-na a ele por mulher, peço a vocês | peço a vocês.” → peço a vocês.",
+      "justificativa": "A partícula de cortesia נָא, vertida \"peço a vocês\", estava encravada entre \"a ele\" e \"por mulher\", espelhando a posição hebraica (תְּנוּ נָא) e deixando \"por mulher\" solto no fim do pedido; deslocada para o fecho, o pedido fica íntegro e nada muda de sentido. | A fala de Hamor continua por 34.9-10 (imperativos de 2ª pessoa do plural dirigidos à família de Jacó: \"aparentem-se\", \"deem-nos\", \"habitem\") e fecha em 34.10 (\"...adquiram propriedades.”\"); o fechamento precoce das aspas em 34.8 deixava órfã a aspa final de 34.10. Aspas rebalanceadas conforme ER-0004; a aspa de abertura fica aqui, o fecho fica em 34.10. — revisão de forma sem alteração de sentido (ER-0019). A fórmula da alma que deseja (חָשְׁקָה נַפְשׁוֹ, \"está enamorada\") é semitismo intencional já mantido na revisão ER-0019 — preservada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -121,11 +128,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

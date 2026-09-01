@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Gen.34.1-31"
   },
-  "texto_bv": "E todos os seus bens, e todos os seus meninos, e as suas mulheres, levaram cativos e saquearam, e tudo o que havia nas casas.",
+  "texto_bv": "E levaram cativos e saquearam todos os seus bens, e todos os seus meninos, e as suas mulheres, e tudo o que havia nas casas.",
   "traducao_literal": "E todo o seu haver, e todas as suas crianças, e as suas mulheres, cativaram e saquearam, e tudo o que na casa.",
   "termos_originais": [
     {
@@ -103,6 +103,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E todos os seus bens, e todos os seus meninos, e as suas mulheres, levaram cativos e saquearam, e tudo o que havia nas casas. → E levaram cativos e saquearam todos os seus bens, e todos os seus meninos, e as suas mulheres, e tudo o que havia nas casas.",
+      "justificativa": "Mesmo calque de fronteamento de 34.28, agravado pelo objeto pendurado após os verbos (\"e tudo o que havia nas casas\"); a anteposição dos dois verbos cobre exatamente a mesma lista de objetos que já cobriam — o zeugma do original (שָׁבוּ וַיָּבֹזּוּ sobre bens, crianças e mulheres) fica intacto, sem redistribuir objeto a verbo. Fronteação preservada na traducao_literal (ER-0013). — revisão de forma sem alteração de sentido (ER-0019). Como em 34.28, só a ordem muda; nenhuma atribuição de objeto a verbo é decidida — a aspereza de \"levar cativos\" reger também os bens é do próprio hebraico e permanece.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -114,11 +121,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

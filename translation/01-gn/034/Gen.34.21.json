@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Gen.34.1-31"
   },
-  "texto_bv": "“Estes homens são pacíficos para conosco; portanto habitem na terra, e negociem nela, pois a terra é bastante larga para eles; tomemos por mulheres as suas filhas, e demos-lhes as nossas filhas.",
+  "texto_bv": "“Estes homens são pacíficos para conosco; portanto, que habitem na terra e negociem nela, pois a terra é bastante espaçosa para eles; tomemos por mulheres as suas filhas, e demos-lhes as nossas filhas.",
   "traducao_literal": "“Os homens estes pacíficos eles conosco; e habitem na terra e negociem-na, e a terra, eis larga de mãos diante deles; as suas filhas tomaremos para nós por mulheres, e as nossas filhas daremos a eles.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "portanto habitem na terra, e negociem nela → portanto, que habitem na terra e negociem nela | bastante larga → bastante espaçosa",
+      "justificativa": "Sem o \"que\", os subjuntivos \"habitem/negociem\" leem-se como imperativos dirigidos aos ouvintes (os homens da cidade); o hebraico é jussivo de 3ª pessoa (וְיֵשְׁבוּ... וְיִסְחֲרוּ — \"que eles habitem\", KJV \"let them dwell\"). O \"que\" marca a 3ª pessoa e desfaz a ambiguidade de referente sem tocar no sentido; a vírgula entre os dois jussivos coordenados sob o mesmo \"que\" cai. | רַחֲבַת־יָדַיִם (\"ampla de mãos\") pede o eixo da amplidão/espaço; \"larga\" em pt-BR contemporâneo mede largura física de objeto ou via e trava a leitura aplicado a uma terra — calque semântico pelo eixo errado de dimensão. A imagem literal permanece na traducao_literal (\"larga de mãos\"). — revisão de forma sem alteração de sentido (ER-0019). \"Para conosco\" é forma do registro formal vivo, mantida; os coortativos \"tomemos... demos\" espelham os volitivos hebraicos; período de 32 palavras segmentado por ponto e vírgula — dentro do limite.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -159,10 +166,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

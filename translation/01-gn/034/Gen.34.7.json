@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Gen.34.1-31"
   },
-  "texto_bv": "E vindo os filhos de Jacó do campo, ouvindo isto, indignaram-se os homens, e iraram-se muito, porque Siquém havia praticado uma insensatez em Israel, deitando-se com a filha de Jacó, o que se não devia fazer.",
+  "texto_bv": "E os filhos de Jacó vieram do campo quando ouviram isto; e os homens se indignaram e se iraram muito, porque Siquém havia praticado uma insensatez em Israel, deitando-se com a filha de Jacó, o que não se devia fazer.",
   "traducao_literal": "E os filhos de Jacó vieram do campo, ao seu ouvir, e entristeceram-se os homens, e acendeu-se-lhes muito, porque insensatez fez em Israel, ao deitar-se com a filha de Jacó, e assim não se faz.",
   "termos_originais": [
     {
@@ -154,6 +154,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E vindo os filhos de Jacó do campo, ouvindo isto, → E os filhos de Jacó vieram do campo quando ouviram isto; | indignaram-se os homens, e iraram-se muito → e os homens se indignaram e se iraram muito | o que se não devia fazer → o que não se devia fazer",
+      "justificativa": "Gerúndios empilhados (\"vindo... ouvindo...\") calcam o infinitivo construto כְּשָׁמְעָם e deixam o período sem verbo finito até \"indignaram-se\"; a oração temporal \"quando ouviram isto\" é a sintaxe portuguesa do mesmo conteúdo (KJV \"came out of the field when they heard it\"). | Ordem V-S calcada dos wayyiqtol (וַיִּתְעַצְּבוּ הָאֲנָשִׁים); ER-0011 fixa S-V; com sujeito expresso, próclise natural; conectivo \"e\" mantém a cadeia narrativa. | A interpolação \"se não devia\" é colocação arcaizante da linhagem Almeida; a norma culta contemporânea antepõe a negação ao clítico (\"não se devia\"). — revisão de forma sem alteração de sentido (ER-0019). Período de ~36 palavras mantido inteiro: as orações são todas do original e o ponto e vírgula o segmenta; \"praticado uma insensatez em Israel\" (נְבָלָה עָשָׂה בְיִשְׂרָאֵל) e o fecho gnômico \"o que não se devia fazer\" (וְכֵן לֹא יֵעָשֶׂה) preservados.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -165,11 +172,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

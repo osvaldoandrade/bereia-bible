@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Gen.34.1-31"
   },
-  "texto_bv": "E deram ouvidos a Hamor e a Siquém, seu filho, todos os que saíam pela porta da sua cidade; e foi circuncidado todo macho, de todos os que saíam pela porta da sua cidade.",
+  "texto_bv": "E todos os que saíam pela porta da sua cidade deram ouvidos a Hamor e a Siquém, seu filho; e foi circuncidado todo macho, de todos os que saíam pela porta da sua cidade.",
   "traducao_literal": "E ouviram a Hamor e a Siquém, seu filho, todos os que saíam pela porta da sua cidade; e circuncidaram todo macho, todos os que saíam pela porta da sua cidade.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E deram ouvidos a Hamor e a Siquém, seu filho, todos os que saíam pela porta da sua cidade; → E todos os que saíam pela porta da sua cidade deram ouvidos a Hamor e a Siquém, seu filho;",
+      "justificativa": "Ordem V-S com sujeito longo posposto (וַיִּשְׁמְעוּ... כָּל־יֹצְאֵי שַׁעַר עִירוֹ) calcada do hebraico; ER-0011 fixa S-V uniforme no publicado; a ordem original permanece na traducao_literal. — revisão de forma sem alteração de sentido (ER-0019). A repetição integral \"todos os que saíam pela porta da sua cidade\" é formular no hebraico (2x no verso) e delimita o alcance do ato — mantida; \"deram ouvidos\" para שׁמע אֶל é idiomatismo consagrado; a passiva \"foi circuncidado todo macho\" verte o nifal וַיִּמֹּלוּ.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,11 +136,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

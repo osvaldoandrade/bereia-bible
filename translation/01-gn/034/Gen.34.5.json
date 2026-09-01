@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Gen.34.1-31"
   },
-  "texto_bv": "E Jacó ouviu que Siquém havia contaminado a sua filha Diná; mas os seus filhos estavam no campo com o gado; e calou-se Jacó até que eles viessem.",
+  "texto_bv": "E Jacó ouviu que Siquém havia contaminado a sua filha Diná; mas os seus filhos estavam no campo com o gado; e Jacó se calou até que eles viessem.",
   "traducao_literal": "E Jacó ouviu que profanou a Diná, sua filha; e os seus filhos estavam com o seu gado no campo; e calou-se Jacó até o seu vir.",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e calou-se Jacó até que eles viessem. → e Jacó se calou até que eles viessem.",
+      "justificativa": "Ordem V-S calcada do hebraico (וְהֶחֱרִשׁ יַעֲקֹב); ER-0011 fixa S-V no publicado; com o sujeito expresso, a próclise é a colocação natural do pt-BR. — revisão de forma sem alteração de sentido (ER-0019). A repetição do nome \"Jacó\" é necessária — o sujeito interveniente (\"os seus filhos\") a exige; \"mas\" verte o waw disjuntivo circunstancial de וּבָנָיו conforme ER-0013; \"havia contaminado\" já normalizado no ciclo ER-0019.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -124,11 +131,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
