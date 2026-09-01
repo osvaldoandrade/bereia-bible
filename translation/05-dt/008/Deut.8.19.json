@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Deut.8.1-20"
   },
-  "texto_bv": "Mas, se vocês realmente se esquecerem do SENHOR, seu Deus, seguir outros deuses, servi-los e curvar-se diante deles, hoje testemunho contra vocês que certamente perecerão.",
+  "texto_bv": "Mas, se vocês realmente se esquecerem do SENHOR, seu Deus, seguirem outros deuses, servirem-nos e curvarem-se diante deles, hoje testemunho contra vocês que certamente perecerão.",
   "traducao_literal": "E acontecerá: se esquecer, você se esquecer de YHWH, seu Deus, e andar atrás de outros deuses, e servir a eles, e curvar-se a eles, testemunho contra vocês hoje que perecer, vocês perecerão.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "se vocês realmente se esquecerem do SENHOR, seu Deus, seguir outros deuses, servi-los e curvar-se diante deles → se vocês realmente se esquecerem do SENHOR, seu Deus, seguirem outros deuses, servirem-nos e curvarem-se diante deles",
+      "justificativa": "Os quatro verbos formam uma única série condicional regida por 'se' com sujeito plural 'vocês' (refletindo a cadeia de weqatal do hebraico: וְהָלַכְתָּ...וַעֲבַדְתָּם...וְהִשְׁתַּחֲוִיתָ, continuação da prótase). 'esquecerem' já estava corretamente flexionado no plural, mas 'seguir', 'servi-los' e 'curvar-se' ficaram no infinitivo impessoal, quebrando a concordância verbal da série e destoando do padrão do próprio capítulo (cf. v.20 'por não obedecerem'). Ajustado o infinitivo pessoal para concordar em número com 'vocês', mantendo os mesmos pronomes clíticos (apenas com a nasalização exigida por 'servirem' → 'servirem-nos'). — revisão de forma sem alteração de sentido (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -174,11 +181,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
