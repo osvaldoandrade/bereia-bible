@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Lev.20.1-27"
   },
-  "texto_bv": "Se alguém adulterar com a esposa de outro, isto é, com a esposa do seu próximo, o adúltero e a adúltera deverão ser executados.",
+  "texto_bv": "Se alguém adulterar com a esposa de outro, isto é, com a esposa do seu próximo, o adúltero e a adúltera certamente serão mortos.",
   "traducao_literal": "E um homem que adulterar com a mulher de um homem, que adulterar com a mulher de seu próximo, morrer certamente será morto o adúltero e a adúltera.",
   "termos_originais": [
     {
@@ -119,6 +119,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o adúltero e a adúltera deverão ser executados. → o adúltero e a adúltera certamente serão mortos.",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL §1.4): a fórmula hebraica מוֹת יוּמַת/יוּמְתוּ (infinitivo absoluto + Hofal, 'shall surely be put to death' na KJV) ocorre 9x no capítulo e é vertida uniformemente como 'certamente será/serão morto(s)' em todas as outras ocorrências (vv.2,9,11,12,13,15,16,27); só o v.10 destoava com 'deverão ser executados', sem paralelismo nem registro distinto que justifique a variação. Normalizado para o lexema majoritário do capítulo. — revisão de forma sem alteração de sentido (ER-0019). Normalizada a fórmula de pena capital para o lexema majoritário do capítulo, sem alterar o sentido (execução = morte).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -133,11 +140,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
