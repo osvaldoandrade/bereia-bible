@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Gen.35.1-29"
   },
-  "texto_bv": "E levantemo-nos, e subamos a Betel; e ali farei um altar ao Deus que me respondeu no dia da minha angústia, e que foi comigo no caminho que trilhei.”",
+  "texto_bv": "E levantemo-nos e subamos a Betel; e ali farei um altar ao Deus que me respondeu no dia da minha angústia, e que foi comigo no caminho que trilhei.”",
   "traducao_literal": "E levantemo-nos e subamos a Betel; e farei ali um altar ao Deus que me respondeu no dia da minha angústia, e foi comigo no caminho que andei.”",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E levantemo-nos, e subamos → E levantemo-nos e subamos",
+      "justificativa": "Vírgula indevida no par coordenado de exortativos (cf. Gen.32.9); os coortativos hebraicos (וְנָקוּמָה וְנַעֲלֶה) formam um único movimento — 'levantemo-nos e subamos'. — revisão de forma sem alteração de sentido (ER-0019). O fechamento de aspas sem abertura neste verso é correto após a correção do v. 2: a fala abre no v. 2 e fecha aqui (padrão do corpus). Exortativos em 1ª pessoa do plural espelham os coortativos hebraicos; 'trilhei' para הָלָכְתִּי é escolha lexical já assentada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -122,10 +129,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

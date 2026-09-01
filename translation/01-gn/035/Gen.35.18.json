@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Gen.35.1-29"
   },
-  "texto_bv": "Saindo-se-lhe a alma (porque morreu), chamou o seu nome Benoni; mas seu pai chamou-lhe Benjamim.",
+  "texto_bv": "Ao sair-lhe a alma (porque morreu), ela o chamou de Benoni; mas seu pai o chamou de Benjamim.",
   "traducao_literal": "E aconteceu que, no sair a sua alma, porque morreu, e chamou o seu nome Benoni; e seu pai chamou-lhe Benjamim.",
   "termos_originais": [
     {
@@ -116,6 +116,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Saindo-se-lhe a alma → Ao sair-lhe a alma | chamou o seu nome Benoni → ela o chamou de Benoni | seu pai chamou-lhe Benjamim → seu pai o chamou de Benjamim",
+      "justificativa": "O infinitivo construto בְּצֵאת נַפְשָׁהּ fora vertido em gerúndio com acúmulo de clíticos ('saindo-se-lhe'), construção estranha à norma; 'ao + infinitivo' é a oração temporal portuguesa correspondente, mantendo o semitismo 'sair a alma'. | Hebraísmo קרא שם ('chamou o seu nome X') normalizado para 'chamar de' (precedente Gen.32.3); o sujeito 'ela' explícito reancora a referência (Raquel) após o parêntese '(porque morreu)', e o clítico 'o' retoma 'este filho' do v. 17. | Regência arcaica 'chamar-lhe X'; norma contemporânea 'chamar alguém de X' (precedente Gen.31.47), em paralelo com a primeira nomeação do verso. — revisão de forma sem alteração de sentido (ER-0019). 'Sair a alma' mantido como semitismo com carga própria (a נֶפֶשׁ que sai = morrer), apenas re-sintaxado; 'mas' verte o contraste entre os dois atos de nomeação, como na KJV ('but his father called him Benjamin').",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,11 +136,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
