@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Judg.1.1-36"
   },
-  "texto_bv": "O homem lhes mostrou a entrada da cidade. Eles passaram a cidade ao fio da espada, mas deixaram o homem e toda a sua família partir.",
+  "texto_bv": "O homem lhes mostrou a entrada da cidade. Eles passaram a cidade ao fio da espada, mas deixaram o homem e toda a família dele partir.",
   "traducao_literal": "E mostrou-lhes a entrada da cidade, e feriram a cidade à boca da espada; e o homem e toda a família dele enviaram.",
   "termos_originais": [
     {
@@ -131,6 +131,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas deixaram o homem e toda a sua família partir. → mas deixaram o homem e toda a família dele partir.",
+      "justificativa": "Possessivo 'sua' ambíguo entre o sujeito da oração ('Eles', os israelitas) e o objeto ('o homem'); a leitura pretendida — a família do homem poupado — é a mesma do literal ('a família dele') e da KJV ('his family'). Substituído por 'dele', que desambiguiza sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção pontual de possessivo ambíguo; demais trechos do verso corretos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -144,10 +151,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "448ce31dc22d0af840bbe830aa95cc30ad7ec314593818fa8db7542d8acf68fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
