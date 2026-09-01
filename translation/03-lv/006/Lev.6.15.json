@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Lev.6.1-23"
   },
-  "texto_bv": "O sacerdote dentre os filhos de Arão que for ungido para sucedê-lo preparará essa oferta. É um estatuto perpétuo para o SENHOR: ela será inteiramente queimada.",
+  "texto_bv": "O sacerdote dentre os filhos de Arão que for ungido para lhe suceder preparará essa oferta. É um estatuto perpétuo para o SENHOR: ela será inteiramente queimada.",
   "traducao_literal": "E o sacerdote, o ungido em seu lugar dentre seus filhos, fará a ela; estatuto perpétuo para YHWH; inteiramente será feita fumegar.",
   "termos_originais": [
     {
@@ -96,6 +96,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que for ungido para sucedê-lo preparará essa oferta. → que for ungido para lhe suceder preparará essa oferta.",
+      "justificativa": "\"Suceder\" no sentido de substituir em cargo é transitivo indireto (rege \"a\"): \"suceder a alguém\"/\"suceder-lhe\", não \"sucedê-lo\". Corrigido o pronome clítico de acusativo para dativo, mesmo referente (Arão), sentido preservado. — revisão de forma sem alteração de sentido (ER-0019). Corrigida regência de \"suceder\" (VTI, rege \"a\"): \"sucedê-lo\" (clítico acusativo) trocado por \"lhe suceder\" (clítico dativo), preservando o referente (Arão) e o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -113,10 +120,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
