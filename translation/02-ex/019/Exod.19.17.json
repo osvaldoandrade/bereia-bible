@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "E Moisés levou o povo fora do arraial ao encontro de Deus; e puseram-se ao pé do monte.",
+  "texto_bv": "E Moisés levou o povo para fora do arraial ao encontro de Deus; e puseram-se ao pé do monte.",
   "traducao_literal": "E fez sair Moisés o povo ao encontro de Deus, do acampamento, e ficaram de pé na parte de baixo do monte.",
   "termos_originais": [
     {
@@ -81,6 +81,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "levou o povo fora do arraial → levou o povo para fora do arraial",
+      "justificativa": "“Levar”, com sentido de deslocamento, pede “para fora de”; “levou... fora do arraial” decalca “brought forth... out of the camp” e soa truncado na norma culta. — revisão de forma sem alteração de sentido (ER-0019). “puseram-se” plural após “o povo” espelha o 3mp hebraico (וַיִּתְיַצְּבוּ); ênclise após “e” é admitida no registro formal, e “ao pé do monte” verte bem בְּתַחְתִּית.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -92,10 +99,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "a89a122f983e9953398176492f7dcc53debf80ebf072e5f5841113a51a2c824d",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

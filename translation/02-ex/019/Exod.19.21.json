@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "E o SENHOR disse a Moisés: Desça, advirta o povo que não traspasse o limite para ver o SENHOR, e muitos deles pereçam.",
+  "texto_bv": "E o SENHOR disse a Moisés: Desça, advirta o povo para que não traspasse o limite a fim de ver o SENHOR, e muitos deles pereçam.",
   "traducao_literal": "E disse YHWH a Moisés: Desce, adverte ao povo, para que não irrompam a YHWH para ver, e caiam dele muitos.",
   "termos_originais": [
     {
@@ -108,6 +108,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "advirta o povo que não traspasse o limite para ver o SENHOR → advirta o povo para que não traspasse o limite a fim de ver o SENHOR",
+      "justificativa": "“Advertir” com oração final pede o conectivo expresso: “para que não” verte exatamente פֶּן (“para que não irrompam”); “a fim de ver” evita o choque “para que... para ver” sem mudar a finalidade. — revisão de forma sem alteração de sentido (ER-0019). “o povo... traspasse” no singular é concordância gramatical portuguesa; “e muitos deles pereçam” continua sob o escopo de “para que não”, como o פֶּן hebraico e a KJV (“lest... and many of them perish”). Deus falando de si em 3ª pessoa (“ver o SENHOR”) espelha o original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "“traspassar” cobre aqui הרס (“romper/irromper o limite”, também no v.24) e, no v.13, ירה (“ser traspassado”, flechado): dois lemas distintos com o mesmo verbo no capítulo, com risco de o leitor unir as duas ideias. — evidência: יֶהֶרְסוּ (2040) nos vv.21 e 24 contra יִיָּרֶה (3384 b) no v.13; distinguir (p. ex., “romper o limite”) é escolha lexical que afeta os vv.21 e 24 em bloco e cabe ao léxico, não à revisão de forma. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -119,10 +133,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
