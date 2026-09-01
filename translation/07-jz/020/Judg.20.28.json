@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Judg.20.1-48"
   },
-  "texto_bv": "Naquele tempo, quem permanecia diante da arca era Fineias, filho de Eleazar e neto de Arão. Eles perguntaram: “Devo mais uma vez entrar em combate com os filhos de Benjamim, meu irmão, ou devo cessar?” O SENHOR declarou: “Subam, pois amanhã eu o entregarei nas suas mãos.”",
+  "texto_bv": "Naquele tempo, quem permanecia diante da arca era Fineias, filho de Eleazar e neto de Arão. Os filhos de Israel perguntaram: “Devo mais uma vez entrar em combate com os filhos de Benjamim, meu irmão, ou devo cessar?” O SENHOR declarou: “Subam, pois amanhã eu o entregarei nas suas mãos.”",
   "traducao_literal": "e Fineias, filho de Eleazar, filho de Arão, estava de pé diante dele naqueles dias, dizendo: “Acrescentarei ainda sair à guerra com os filhos de Benjamim, meu irmão, ou cessarei?” E disse o SENHOR: “Subam, porque amanhã o darei em tua mão.”",
   "termos_originais": [
     {
@@ -183,6 +183,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eles perguntaram: → Os filhos de Israel perguntaram:",
+      "justificativa": "O pronome \"Eles\" não tem antecedente plural recuperável na oração imediatamente anterior, que menciona apenas Fineias (singular); o antecedente real, \"os filhos de Israel\", está no v. 27, separado por todo o parêntese sobre a arca e Fineias. Explicitar o sujeito resolve a ambiguidade referencial sem alterar o conteúdo da fala nem tocar no verso vizinho. — revisão de forma sem alteração de sentido (ER-0022). Ambiguidade de retomada pronominal corrigida (ver mudancas).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -196,11 +203,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
