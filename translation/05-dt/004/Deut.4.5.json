@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Deut.4.1-49"
   },
-  "texto_bv": "Vejam: eu ensinei a vocês estatutos e ordenações, conforme o SENHOR, meu Deus, me ordenou, para que os cumpram na terra em que vocês estão entrando para tomar posse dela.",
+  "texto_bv": "Veja: eu ensinei a vocês estatutos e ordenações, conforme o SENHOR, meu Deus, me ordenou, para que os cumpram na terra em que vocês estão entrando para tomar posse dela.",
   "traducao_literal": "Vê: ensinei vocês estatutos e ordenações, conforme me ordenou YHWH, meu Deus, para fazer assim no meio da terra à qual vocês estão entrando para possuí-la.",
   "termos_originais": [
     {
@@ -127,6 +127,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Vejam: → Veja:",
+      "justificativa": "רְאֵ֣ה é imperativo 2ms (singular), confirmado pela traducao_literal ('Vê'); o mesmo padrão do v.1 ('Ouça, Israel...') preserva o singular do hebraico ainda quando o restante do verso segue em 'vocês' (2mp). 'Vejam' rompia essa distinção de número sem motivo textual, além de destoar do tratamento dado à construção idêntica no v.1 do mesmo capítulo. — revisão de forma sem alteração de sentido (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -140,10 +147,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
