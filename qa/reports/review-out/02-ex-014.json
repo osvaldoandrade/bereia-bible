@@ -6,49 +6,87 @@
       "osis": "Exod.14.1",
       "texto_bv_revisto": "E falou o SENHOR a Moisés, dizendo:",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "Discurso direto sem aspas duplas curvas em todo o capítulo (EDITORIAL.md pede dois-pontos + aspas): a fala introduzida aqui estende-se pelos vv. 2-4, e o padrão repete-se nos vv. 3, 5, 11-12, 13-14, 15-16, 25 e 26.",
+          "evidencia": "A fala de Deus abre no v. 2 e fecha no v. 4 sem marcas; aplicar aspas exigiria mudança em cadeia de versos e alinhamento com o padrão dos capítulos vizinhos, que seguem a mesma convenção sem aspas."
+        }
+      ],
+      "justificativa": "O “E” inicial foi mantido: o capítulo continua a cena de Ex 13.21-22 sem quebra narrativa (waw consecutivo de continuação), e “falou…, dizendo:” é fórmula fixa de introdução de fala (וַיְדַבֵּר… לֵאמֹר). Sentido idêntico ao da KJV.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.2",
       "texto_bv_revisto": "Fale aos filhos de Israel que voltem e acampem diante de Pi-Hairote, entre Migdol e o mar, diante de Baal-Zefom; em frente dele acamparão junto ao mar.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Fala",
-          "depois": "Fale",
-          "motivo": "Paradigma §3/D-0003: Deus→humano (Moisés) exige você; imperativo tu (fala) normalizado para imperativo você (fale). NTLH e NVIPT usam “Diga” (você); ARA usa “Fala” (tu, arcaizante)."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Correto e coeso. A repetição de “diante de” espelha o duplo לִפְנֵי do hebraico (fórmula locativa, não vício). “Acamparão” acomoda sem marca a 2ª pessoa do plural do hebraico (תַחֲנוּ, 2mp) no tratamento por vocês, mantendo a distinção de número. Tratamento por você (Deus a Moisés) conforme a norma.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.3",
-      "texto_bv_revisto": "Então Faraó dirá dos filhos de Israel: Estão embaraçados na terra, o deserto os encerrou.",
-      "mudancas": [],
+      "texto_bv_revisto": "Então Faraó dirá dos filhos de Israel: Estão embaraçados na terra; o deserto os encerrou.",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "Estão embaraçados na terra, o deserto os encerrou.",
+          "depois": "Estão embaraçados na terra; o deserto os encerrou.",
+          "motivo": "Vírgula ligando duas orações independentes (comma splice); o ponto e vírgula marca a justaposição assindética do hebraico (נְבֻכִים הֵם בָּאָרֶץ / סָגַר עֲלֵיהֶם הַמִּדְבָּר) sem inventar conectivo."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Dirá dos filhos de Israel” (dizer de = a respeito de) é regência correta e corresponde à KJV “will say of”. “Embaraçados” cobre נְבֻכִים (KJV “entangled”).",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.4",
-      "texto_bv_revisto": "E eu endurecerei o coração de Faraó, para que os persiga, e serei glorificado em Faraó, e em todo o seu exército, e saberão os egípcios que eu sou o SENHOR. E eles fizeram assim.",
-      "mudancas": [],
+      "texto_bv_revisto": "E eu endurecerei o coração de Faraó, para que os persiga, e serei glorificado em Faraó e em todo o seu exército, e saberão os egípcios que eu sou o SENHOR. E eles fizeram assim.",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "e serei glorificado em Faraó, e em todo o seu exército,",
+          "depois": "e serei glorificado em Faraó e em todo o seu exército,",
+          "motivo": "Vírgula indevida entre complementos coordenados do mesmo verbo (“glorificado em X e em Y”); o v. 17 já traz o mesmo par sem vírgula — uniformização intra-capítulo."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Para que os persiga” é a leitura final consagrada do weqatal וְרָדַף (KJV “that he shall follow”). A ordem verbo-sujeito “saberão os egípcios” é inversão gramatical do registro bíblico e foi mantida.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.5",
-      "texto_bv_revisto": "E sendo anunciado ao rei do Egito que o povo fugia, mudou-se o coração de Faraó e dos seus servos contra o povo, e disseram: Por que fizemos isto, deixando ir a Israel do nosso serviço?",
-      "mudancas": [],
+      "texto_bv_revisto": "Quando foi anunciado ao rei do Egito que o povo fugia, voltou-se o coração de Faraó e dos seus servos contra o povo, e disseram: Por que fizemos isto, deixando Israel sair do nosso serviço?",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "E sendo anunciado ao rei do Egito que o povo fugia,",
+          "depois": "Quando foi anunciado ao rei do Egito que o povo fugia,",
+          "motivo": "Gerúndio absoluto arcaizante decalcado da sequência waw + passiva (וַיֻּגַּד); a subordinação temporal é a construção portuguesa natural e não acrescenta relação que o próprio gerúndio já não implicasse."
+        },
+        {
+          "tipo": "regencia",
+          "antes": "mudou-se o coração de Faraó e dos seus servos contra o povo",
+          "depois": "voltou-se o coração de Faraó e dos seus servos contra o povo",
+          "motivo": "“Mudar-se contra” não é regência portuguesa; “voltar-se contra” é a colocação idiomática e corresponde a וַיֵּהָפֵךְ… אֶל (literal “virou-se… contra”; KJV “was turned against”)."
+        },
+        {
+          "tipo": "regencia",
+          "antes": "deixando ir a Israel do nosso serviço",
+          "depois": "deixando Israel sair do nosso serviço",
+          "motivo": "Removido o “a” acusativo arcaico diante de objeto direto; “ir do nosso serviço” (origem sem destino) é regência anômala — “sair de” expressa a origem מֵעָבְדֵנוּ (KJV “go from serving us”) sem alterar o sentido de soltura."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "O sujeito de “disseram” (Faraó e os seus servos) permanece recuperável pelos possessivos, como no hebraico.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.6",
       "texto_bv_revisto": "E aprontou o seu carro, e tomou consigo o seu povo.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Sujeito implícito (Faraó) recuperável: nomeado no v. 5, e a morfologia singular de “aprontou” desfaz qualquer confusão com o plural “disseram”. O hebraico também deixa o sujeito implícito (וַיֶּאְסֹר); explicitá-lo seria acréscimo desnecessário.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -56,75 +94,87 @@
       "texto_bv_revisto": "E tomou seiscentos carros escolhidos, e todos os carros do Egito, e capitães sobre todos eles.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Polissíndeto mantido de propósito: cada “e” espelha um waw do hebraico (וְכֹל… וְשָׁלִשִׁם) e a enumeração enfática é gramatical em português. Numeral por extenso conforme a norma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.8",
-      "texto_bv_revisto": "Porque o SENHOR endureceu o coração de Faraó, rei do Egito, que perseguisse aos filhos de Israel; porém os filhos de Israel saíram com alta mão.",
-      "mudancas": [],
-      "objecoes": [],
-      "justificativa": "RED-1 (filhos israel 2×): falso positivo — a expressão “filhos de Israel” (bne Yisrael) aparece 2× no original hebraico e é repetida como fórmula idiomática; ARA também repete 2×. “Com alta mão” (yad ramah): expressão idiomática do original preservada como metáfora; ARA verte “afoitamente”, NVIPT “triumfantemente”, NTLH “de maneira vitoriosa” (todas abstraem a imagem), mas a BV preserva a metáfora concreta — escolha estilística legítima; a traducao_literal conserva a mesma imagem.",
-      "veredito": "SEM_ALTERACAO"
+      "texto_bv_revisto": "Porque o SENHOR endureceu o coração de Faraó, rei do Egito, para que perseguisse os filhos de Israel; porém os filhos de Israel saíram com alta mão.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "que perseguisse aos filhos de Israel",
+          "depois": "para que perseguisse os filhos de Israel",
+          "motivo": "Oração final introduzida por “que” simples é arcaizante; “para que” alinha com o v. 4 (“para que os persiga”), que verte a mesma estrutura (רדף após endurecimento) — consistência intra-capítulo."
+        },
+        {
+          "tipo": "regencia",
+          "antes": "perseguisse aos filhos de Israel",
+          "depois": "perseguisse os filhos de Israel",
+          "motivo": "Perseguir é transitivo direto; o “a” acusativo é arcaísmo sintático (cf. v. 9, “perseguiram-nos”, sem preposição)."
+        }
+      ],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "“Com alta mão” é calque opaco de בְּיָד רָמָה para o leitor atual; a camada literal dá “com mão erguida”, mais transparente e igualmente fiel.",
+          "evidencia": "traducao_literal: “saindo com mão erguida”; KJV “with an high hand”. Não aplicado por poder colidir com escolha pinada do léxico para a expressão — decisão remetida ao mantenedor."
+        }
+      ],
+      "justificativa": "“Porque” inicial mantido: leitura explicativa legítima do waw (o v. 8 explica a perseguição dos vv. 6-7), dentro da variação de conectivo que a própria BV pratica no capítulo (Então, Porém, Assim). A repetição de “os filhos de Israel” espelha o hebraico (בְנֵי יִשְׂרָאֵל 2×).",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.9",
       "texto_bv_revisto": "E os egípcios perseguiram-nos, todos os cavalos e carros de Faraó, e os seus cavaleiros, e o seu exército, e alcançaram-nos acampados junto ao mar, perto de Pi-Hairote, diante de Baal-Zefom.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto: ênclise legítima após sujeito expresso (“perseguiram-nos”, “alcançaram-nos”); a aposição enumerativa com polissíndeto espelha os waws do hebraico. “Perseguir” consistente com o lema רדף no capítulo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.10",
-      "texto_bv_revisto": "E aproximando-se Faraó, os filhos de Israel levantaram os seus olhos, e eis que os egípcios vinham atrás deles, e temeram muito; então os filhos de Israel clamaram ao SENHOR.",
-      "mudancas": [],
-      "objecoes": [],
-      "justificativa": "RED-1 (filhos israel 2×): falso positivo — repetição presente no original hebraico; ARA também repete 2×. CAL-2 (“eis que”): o hebraico hinneh (הִנֵּה) tem força dêitica forte neste contexto — marca a percepção súbita dos israelitas ao avistar o exército egípcio. ARA mantém “eis que”; a preservação do dêitico é legítima conforme §6.2 (calque com força funcional).",
-      "veredito": "SEM_ALTERACAO"
-    },
-    {
-      "osis": "Exod.14.11",
-      "texto_bv_revisto": "E disseram a Moisés: Não havia sepulcros no Egito, para você nos tirar de lá, para que morramos neste deserto? Por que você nos fez isto, tirando-nos do Egito?",
+      "texto_bv_revisto": "E aproximando-se Faraó, os filhos de Israel levantaram os seus olhos, e eis que os egípcios vinham atrás deles. Então os filhos de Israel temeram muito e clamaram ao SENHOR.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "para nos tirares de lá",
-          "depois": "para você nos tirar de lá",
-          "motivo": "Paradigma §3/D-0003: discurso humano→humano (israelitas→Moisés) exige você; infinitivo flexionado na 2ª pessoa tu (tirares) normalizado para construção com sujeito “você”. NTLH e NVIPT usam “você”."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Por que nos fizeste isto",
-          "depois": "Por que você nos fez isto",
-          "motivo": "Paradigma §3/D-0003: pretérito na 2ª pessoa tu (fizeste) normalizado para 3ª pessoa (fez) com sujeito “você”. NTLH e NVIPT usam “você”."
+          "tipo": "coesao",
+          "antes": "e eis que os egípcios vinham atrás deles, e temeram muito; então os filhos de Israel clamaram ao SENHOR.",
+          "depois": "e eis que os egípcios vinham atrás deles. Então os filhos de Israel temeram muito e clamaram ao SENHOR.",
+          "motivo": "“Temeram” sem sujeito expresso lia-se com “os egípcios” (sujeito mais próximo), invertendo o sentido; o sujeito explícito foi antecipado para o par “temeram e clamaram”, o período foi quebrado desfazendo a cadeia “e… e…”, e a dupla menção hebraica de בְנֵי יִשְׂרָאֵל no verso foi preservada (2× antes, 2× depois)."
         }
       ],
       "objecoes": [],
+      "justificativa": "“E eis que” mantido: traduz וְהִנֵּה, marcador de percepção do original, não calque vazio. O gerúndio inicial (“aproximando-se Faraó”) é absoluto gramatical e corresponde a וּפַרְעֹה הִקְרִיב.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.14.11",
+      "texto_bv_revisto": "E disseram a Moisés: Não havia sepulcros no Egito, para você nos tirar de lá para morrermos neste deserto? Por que você nos fez isto, tirando-nos do Egito?",
+      "mudancas": [
+        {
+          "tipo": "concordancia",
+          "antes": "para você nos tirar de lá, para que morramos neste deserto?",
+          "depois": "para você nos tirar de lá para morrermos neste deserto?",
+          "motivo": "Após “havia”/“tirar” (passado), o presente do subjuntivo “morramos” quebra a correlação temporal; o infinitivo pessoal (לָמוּת, “para morrer”) resolve a consecutio e elimina a vírgula que fragmentava a pergunta retórica."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Tratamento por você (povo a Moisés) consistente com o v. 12; próclise “nos fez” e ênclise “tirando-nos” conforme a norma.",
       "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.12",
-      "texto_bv_revisto": "Não é esta a palavra que lhe falamos no Egito, dizendo: Deixe-nos, que sirvamos aos egípcios? Pois teria sido melhor para nós servir aos egípcios do que morrermos no deserto.",
+      "texto_bv_revisto": "Não é esta a palavra que lhe falamos no Egito, dizendo: Deixe-nos, que sirvamos aos egípcios? Pois teria sido melhor para nós servir aos egípcios do que morrer no deserto.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "que te falamos",
-          "depois": "que lhe falamos",
-          "motivo": "Paradigma §3/D-0003: pronome oblíquo “te” (tu) normalizado para “lhe” (você) em discurso humano→humano. NTLH usa “lhe dissemos”; NVIPT “lhe tínhamos dito”."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Deixa-nos",
-          "depois": "Deixe-nos",
-          "motivo": "Paradigma §3/D-0003: imperativo tu (deixa) normalizado para imperativo você (deixe). NTLH “deixasse”; NVIPT “Deixe-nos”."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Pois melhor nos fora servir aos egípcios, do que",
-          "depois": "Pois teria sido melhor para nós servir aos egípcios do que",
-          "motivo": "Arcaísmo §1.2-tabela: mais-que-perfeito sintético “fora” substituído por pretérito composto “teria sido melhor para nós”. NTLH “é melhor ser escravo”; NVIPT “Antes ser escravos” — todas as refs evitam o mqp sintético."
+          "tipo": "concordancia",
+          "antes": "servir aos egípcios do que morrermos no deserto",
+          "depois": "servir aos egípcios do que morrer no deserto",
+          "motivo": "Paralelismo dos infinitivos comparados (“melhor para nós servir… do que morrer”): a flexão em apenas um dos polos quebrava a simetria e é dispensável com o referente já marcado por “para nós” (hebraico: dois infinitivos, עֲבֹד… מִמֻּתֵנוּ)."
         }
       ],
       "objecoes": [],
+      "justificativa": "“Deixe-nos, que sirvamos” preserva a estrutura dupla do hebraico (חֲדַל מִמֶּנּוּ וְנַעַבְדָה); “servir a” é regência legítima.",
       "veredito": "REVISADO"
     },
     {
@@ -132,6 +182,7 @@
       "texto_bv_revisto": "Moisés, porém, disse ao povo: Não tenham medo; fiquem quietos e vejam o livramento do SENHOR, que hoje ele fará por vocês; porque os egípcios que vocês viram hoje, nunca mais os verão.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A topicalização com pronome resuntivo (“os egípcios que vocês viram hoje, nunca mais os verão”) espelha o casus pendens do hebraico (אֲשֶׁר רְאִיתֶם… לֹא תֹסִיפוּ לִרְאֹתָם) e é construção enfática legítima em português. Tratamento por vocês (Moisés ao povo) correto.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -139,60 +190,44 @@
       "texto_bv_revisto": "O SENHOR pelejará por vocês, e vocês se calarão.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto e coeso; próclise após sujeito expresso, contraste pronominal (וְאַתֶּם) preservado.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.15",
       "texto_bv_revisto": "Então disse o SENHOR a Moisés: Por que você clama a mim? Diga aos filhos de Israel que marchem.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Por que clamas a mim?",
-          "depois": "Por que você clama a mim?",
-          "motivo": "Paradigma §3/D-0003: Deus→humano (Moisés) exige você; presente na 2ª pessoa tu (clamas) normalizado para 3ª pessoa com sujeito “você”. NTLH e NVIPT usam “você”."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Dize aos filhos",
-          "depois": "Diga aos filhos",
-          "motivo": "Paradigma §3/D-0003: imperativo tu (dize) normalizado para imperativo você (diga). NTLH e NVIPT usam “Diga”."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Correto: “clamar a” com pronome tônico, ordem verbo-sujeito legítima no registro, tratamento por você (Deus a Moisés) consistente com os vv. 2 e 16.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.16",
-      "texto_bv_revisto": "E você levante a sua vara, e estenda a sua mão sobre o mar, e fenda-o, para que os filhos de Israel passem pelo meio do mar em seco.",
+      "texto_bv_revisto": "E você, levante a sua vara, e estenda a sua mão sobre o mar, e fenda-o, para que os filhos de Israel passem pelo meio do mar em seco.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "E tu, levanta a tua vara",
-          "depois": "E você levante a sua vara",
-          "motivo": "Paradigma §3/D-0003: pronome tu e imperativo (levanta) normalizados para você (levante); possessivo “tua” → “sua”. NTLH “Levante o bastão”; NVIPT “Erga a sua vara”."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "e estende a tua mão",
-          "depois": "e estenda a sua mão",
-          "motivo": "Paradigma §3/D-0003: imperativo tu (estende) → você (estenda); possessivo “tua” → “sua”."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "e fende-o",
-          "depois": "e fenda-o",
-          "motivo": "Paradigma §3/D-0003: imperativo tu (fende) → você (fenda)."
+          "tipo": "pontuacao",
+          "antes": "E você levante a sua vara,",
+          "depois": "E você, levante a sua vara,",
+          "motivo": "Sem a vírgula, “você levante” lia-se como subjuntivo jussivo; a vírgula marca o pronome enfático do hebraico (וְאַתָּה, “e tu”) seguido de imperativo, como na KJV (“But lift thou up”)."
         }
       ],
       "objecoes": [],
+      "justificativa": "Ênclise “fenda-o” obrigatória com imperativo afirmativo; a série coordenada com “e” espelha os waws do original.",
       "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.17",
       "texto_bv_revisto": "E endurecerei o coração dos egípcios, para que entrem atrás deles; e serei glorificado em Faraó e em todo o seu exército, nos seus carros e nos seus cavaleiros.",
       "mudancas": [],
-      "objecoes": [],
-      "justificativa": "PRO-1 (4 pronomes de 3ª pessoa): falso positivo — todos os pronomes têm antecedente claro: “deles” = israelitas (contexto do verso anterior), “seu” (3×) = Faraó (nomeado no mesmo verso). A referência pronominal é inequívoca; os pronomes são necessários e não podem ser eliminados sem perda de clareza.",
+      "objecoes": [
+        {
+          "gravidade": "MATERIAL",
+          "problema": "A ênfase pronominal do hebraico foi omitida: וַאֲנִי הִנְנִי מְחַזֵּק (“e eu, eis que eu endureço”) marca contraste enfático com o “e você” do v. 16, mas a BV traz apenas “E endurecerei”. Restaurar a ênfase (“E eu, eis que endurecerei”) exigiria acrescentar conteúdo, o que ultrapassa a revisão de forma.",
+          "evidencia": "termos_originais: וַאֲנִי (HC/Pp1cs) + הִנְנִי (HTm/Sp1cs); traducao_literal: “E eu, eis-me endurecendo”; KJV: “And I, behold, I will harden”. O v. 4 traz “E eu endurecerei” justamente onde o hebraico NÃO tem o pronome — a ênfase ficou invertida entre os dois versos."
+        }
+      ],
+      "justificativa": "Texto mantido idêntico por força da objeção material; a gramática do verso em si está correta.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -200,98 +235,161 @@
       "texto_bv_revisto": "E os egípcios saberão que eu sou o SENHOR, quando for glorificado em Faraó, nos seus carros e nos seus cavaleiros.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto; o sujeito de “for glorificado” (eu) é recuperável de “eu sou o SENHOR” na mesma sentença, como no infinitivo hebraico com sufixo (בְּהִכָּבְדִי).",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.19",
-      "texto_bv_revisto": "Então o anjo de Deus, que ia adiante do exército de Israel, se retirou, e passou para trás deles; também a coluna de nuvem se retirou de diante deles, e se pôs atrás deles.",
-      "mudancas": [],
+      "texto_bv_revisto": "Então o anjo de Deus, que ia adiante do campo de Israel, se retirou, e passou para trás deles; também a coluna de nuvem se retirou de diante deles, e se pôs atrás deles.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "que ia adiante do exército de Israel",
+          "depois": "que ia adiante do campo de Israel",
+          "motivo": "Consistência lexical intra-capítulo (§1.4): o lema מַחֲנֶה (4264) é vertido “campo” nos vv. 20 (2×) e 24 (2×) — lexema majoritário; “exército” fica reservado a חַיִל (2428, vv. 4, 9, 17, 28), desfazendo a colisão de dois lemas num só lexema. KJV: “camp of Israel”."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Próclises e ênclises conforme a norma; a repetição estrutural das duas retiradas (anjo / coluna) espelha o duplo וַיִּסַּע do hebraico.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.20",
       "texto_bv_revisto": "E ia entre o campo dos egípcios e o campo de Israel; e a nuvem era escuridão para aqueles, mas para estes esclarecia a noite; de maneira que em toda a noite não se aproximaram uns dos outros.",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "“Esclarecia a noite” usa “esclarecer” no sentido físico arcaizante (tornar claro); para o leitor atual o verbo significa “explicar”. “Iluminava a noite” seria mais claro e igualmente fiel a וַיָּאֶר (lema 215).",
+          "evidencia": "Ex 13.21 (contexto imediato do capítulo anterior) verte o mesmo lema 215 por “iluminar” (“para os iluminar”); a harmonização é inter-capítulos, fora do alcance desta passada, e a escolha lexical remete ao léxico vigente."
+        }
+      ],
+      "justificativa": "Os demonstrativos “para aqueles… para estes” são a leitura formal consagrada (KJV: “to them… to these”) — a BV entendeu o mesmo que a baseline. Sujeito implícito (a coluna/o anjo) recuperável do v. 19. Gramática correta.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.21",
-      "texto_bv_revisto": "Então Moisés estendeu a sua mão sobre o mar, e o SENHOR fez retirar o mar por um forte vento oriental toda aquela noite; e o mar se tornou terra seca, e as águas foram partidas.",
-      "mudancas": [],
+      "texto_bv_revisto": "Então Moisés estendeu a sua mão sobre o mar, e o SENHOR fez retirar o mar por um forte vento oriental toda aquela noite; e o mar se tornou terra seca, e as águas se fenderam.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "e as águas foram partidas",
+          "depois": "e as águas se fenderam",
+          "motivo": "Consistência lexical intra-capítulo (§1.4): o lema בקע (1234) é “fender” no v. 16 (“fenda-o”); manter o mesmo lexema preserva o eco ordem-cumprimento que o hebraico marca com a mesma raiz, e a forma pronominal corresponde ao nifal וַיִּבָּקְעוּ (literal: “fenderam-se as águas”)."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Toda aquela noite” corresponde à leitura da KJV (“all that night”); “fez retirar” verte o hifil וַיּוֹלֶךְ com agente divino.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.22",
       "texto_bv_revisto": "E os filhos de Israel entraram pelo meio do mar em seco; e as águas foram-lhes como muro à sua direita e à sua esquerda.",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "MATERIAL",
+          "problema": "“Como muro” converte em símile a metáfora nominal do hebraico: וְהַמַּיִם לָהֶם חֹמָה diz que as águas ERAM para eles muro, sem partícula comparativa. Corrigir (“foram-lhes um muro”) alteraria o sentido figurado do texto aprovado, portanto o texto não muda.",
+          "evidencia": "termos_originais: חֹמָה (HNcfsa) sem כְּ comparativo; traducao_literal: “as águas para eles muro”; KJV: “the waters were a wall unto them”. O mesmo ocorre no v. 29."
+        }
+      ],
+      "justificativa": "Texto mantido idêntico por força da objeção material; ênclise “foram-lhes” e crases corretas.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.23",
-      "texto_bv_revisto": "E os egípcios seguiram-nos, e entraram atrás deles todos os cavalos de Faraó, os seus carros e os seus cavaleiros, até ao meio do mar.",
-      "mudancas": [],
-      "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
-    },
-    {
-      "osis": "Exod.14.24",
-      "texto_bv_revisto": "Na vigília da manhã, o SENHOR, na coluna de fogo e da nuvem, viu o campo dos egípcios e alvoroçou o campo dos egípcios.",
-      "mudancas": [],
-      "objecoes": [],
-      "justificativa": "RED-1 (campo egipcios 2×): repetição intencional do original hebraico (machaneh Mitzrayim repetido 2× como sujeito e objeto da ação divina). ARA também repete “campo dos egípcios” 2×. A preservação da repetição é fidelidade ao original conforme as regras de redundância (§4: repetir o que o original repete é fidelidade).",
-      "veredito": "SEM_ALTERACAO"
-    },
-    {
-      "osis": "Exod.14.25",
-      "texto_bv_revisto": "E tirou-lhes as rodas dos seus carros, e dificultosamente os governavam. Então disseram os egípcios: Fujamos de diante de Israel, porque o SENHOR peleja por eles contra os egípcios.",
+      "texto_bv_revisto": "E os egípcios perseguiram-nos, e entraram atrás deles todos os cavalos de Faraó, os seus carros e os seus cavaleiros, até o meio do mar.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "Fujamos da face de Israel",
-          "depois": "Fujamos de diante de Israel",
-          "motivo": "Calque §6.2/ER-0013: “da face de” é calque do hebraico mipne (מִפְּנֵי) que soa artificial em pt-BR contemporâneo. A traducao_literal já verte “de diante de”; ARA “de diante de Israel”; NVIPT “dos israelitas”. Normalizado para a forma natural “de diante de”."
+          "tipo": "coesao",
+          "antes": "E os egípcios seguiram-nos,",
+          "depois": "E os egípcios perseguiram-nos,",
+          "motivo": "Consistência lexical intra-capítulo (§1.4): o lema רדף (7291) é “perseguir” nos vv. 4, 8 e 9; “seguir” aqui era variação sem motivo e afrouxava a cadeia da perseguição."
+        },
+        {
+          "tipo": "regencia",
+          "antes": "até ao meio do mar",
+          "depois": "até o meio do mar",
+          "motivo": "A combinação “até ao” é lusitana; o português brasileiro contemporâneo do registro da BV usa “até o” (EDITORIAL, pt-BR)."
         }
       ],
       "objecoes": [],
+      "justificativa": "Ênclise após sujeito expresso correta; a aposição enumerativa espelha o hebraico.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.14.24",
+      "texto_bv_revisto": "Na vigília da manhã, o SENHOR, na coluna de fogo e de nuvem, viu o campo dos egípcios e alvoroçou o campo dos egípcios.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "na coluna de fogo e da nuvem",
+          "depois": "na coluna de fogo e de nuvem",
+          "motivo": "Complementos assimétricos (“de fogo” / “da nuvem”) sugeriam dois referentes distintos; o hebraico coordena os dois substantivos sem artigo (בְּעַמּוּד אֵשׁ וְעָנָן) — uma só coluna de fogo e nuvem."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "A repetição de “o campo dos egípcios” foi mantida: o hebraico repete מַחֲנֵה מִצְרַיִם duas vezes (repetição formular). O verso já elimina corretamente o calque “E aconteceu que” (וַיְהִי).",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Exod.14.25",
+      "texto_bv_revisto": "E tirou-lhes as rodas dos seus carros, e com dificuldade os governavam. Então disseram os egípcios: Fujamos de diante de Israel, porque o SENHOR peleja por eles contra os egípcios.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "e dificultosamente os governavam.",
+          "depois": "e com dificuldade os governavam.",
+          "motivo": "“Dificultosamente” é advérbio arcaizante que trava a leitura em voz alta; “com dificuldade” verte בִּכְבֵדֻת no registro contemporâneo exigido pela norma editorial, sem tocar no sentido."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "“Contra os egípcios” na boca dos próprios egípcios foi mantido: o hebraico traz בְּמִצְרָיִם (contra o Egito) e a KJV o mesmo (“against the Egyptians”). O sujeito de “governavam” (os egípcios) é recuperável pelo “lhes” e confirmado na sentença seguinte. “Peleja” consistente com לחם do v. 14.",
       "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.26",
       "texto_bv_revisto": "E disse o SENHOR a Moisés: Estenda a sua mão sobre o mar, para que as águas voltem sobre os egípcios, sobre os seus carros e sobre os seus cavaleiros.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Estende a tua mão",
-          "depois": "Estenda a sua mão",
-          "motivo": "Paradigma §3/D-0003: Deus→humano (Moisés) exige você; imperativo tu (estende) normalizado para imperativo você (estenda); possessivo “tua” → “sua”. NTLH “Estenda a mão”; NVIPT “Estenda a mão”."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Correto; imperativo no tratamento por você (Deus a Moisés), consistente com os vv. 2, 15 e 16; “voltar” consistente com o lema שוב no capítulo.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.27",
-      "texto_bv_revisto": "Então Moisés estendeu a sua mão sobre o mar, e o mar retornou à sua força ao amanhecer, e os egípcios, ao fugirem, foram de encontro a ele; e o SENHOR derrubou os egípcios no meio do mar.",
-      "mudancas": [],
+      "texto_bv_revisto": "Então Moisés estendeu a sua mão sobre o mar, e o mar voltou à sua força ao amanhecer, e os egípcios, ao fugirem, foram de encontro a ele; e o SENHOR derrubou os egípcios no meio do mar.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "e o mar retornou à sua força",
+          "depois": "e o mar voltou à sua força",
+          "motivo": "Consistência lexical intra-capítulo (§1.4): o lema שוב (7725) é “voltar” nos vv. 2, 26 e 28; “retornou” era variação isolada sem motivo."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "“Foram de encontro a ele” está correto no sentido de colisão (os egípcios fugiram contra o mar que voltava, לִקְרָאתוֹ) — não confundir com “ao encontro de”. Crase em “à sua força” correta.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.14.28",
       "texto_bv_revisto": "Porque as águas, voltando, cobriram os carros e os cavaleiros de todo o exército de Faraó, que os haviam seguido no mar; nem sequer um deles ficou.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "“Porque” mantido como leitura explicativa do waw (o verso explica o “derrubou” do v. 27), dentro da variação de conectivo praticada pela BV. O pronome “os” (= os filhos de Israel) reproduz o sufixo pronominal do hebraico (אַחֲרֵיהֶם) e é recuperável pela cadeia narrativa dos vv. 22-23. “Haviam seguido” verte הַבָּאִים אַחֲרֵי (vir atrás, lema 935), não רדף — sem conflito com a normalização do v. 23.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.29",
       "texto_bv_revisto": "Mas os filhos de Israel caminharam em seco pelo meio do mar; e as águas foram-lhes como muro à sua direita e à sua esquerda.",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "MATERIAL",
+          "problema": "“Como muro” converte em símile a metáfora nominal do hebraico (וְהַמַּיִם לָהֶם חֹמָה, “as águas eram para eles muro”), como no v. 22; a correção alteraria o sentido figurado, portanto o texto não muda.",
+          "evidencia": "termos_originais: חֹמָה sem כְּ comparativo; traducao_literal: “as águas para eles muro”; KJV: “the waters were a wall unto them”. A repetição integral da cláusula em relação ao v. 22 é refrão do próprio original e foi corretamente preservada."
+        }
+      ],
+      "justificativa": "Texto mantido idêntico por força da objeção material; “Mas” verte adequadamente o waw adversativo de contraste com o v. 28 (KJV “But”).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -299,21 +397,16 @@
       "texto_bv_revisto": "Assim o SENHOR salvou Israel naquele dia da mão dos egípcios; e Israel viu os egípcios mortos na praia do mar.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto e coeso; “da mão dos egípcios” preserva o semitismo מִיַּד com carga consagrada; a repetição de “Israel” espelha o hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.14.31",
       "texto_bv_revisto": "Israel viu a grande obra que o SENHOR havia feito aos egípcios; e o povo temeu ao SENHOR, e creu no SENHOR e em Moisés, seu servo.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "e creram no SENHOR",
-          "depois": "e creu no SENHOR",
-          "motivo": "Concordância nominal: o sujeito é “o povo” (coletivo singular), que rege “temeu” (singular); o verbo coordenado deve manter concordância — “creu” (singular) em vez de “creram” (plural). ARA usa “creu” (singular)."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "“A grande obra” por הַיָּד הַגְּדֹלָה segue a mesma leitura da KJV (“that great work”) — decisão da camada de sentido aprovada, não defeito de forma. “Temeu ao SENHOR” mantém a regência consagrada do registro religioso (temor ao SENHOR). Mais-que-perfeito composto (“havia feito”) conforme a norma. A tripla repetição de “o SENHOR” espelha o hebraico (יהוה 3×).",
+      "veredito": "SEM_ALTERACAO"
     }
   ]
 }

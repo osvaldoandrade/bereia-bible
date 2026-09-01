@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Exod.14.1-31"
   },
-  "texto_bv": "Porque o SENHOR endureceu o coração de Faraó, rei do Egito, que perseguisse aos filhos de Israel; porém os filhos de Israel saíram com alta mão.",
+  "texto_bv": "Porque o SENHOR endureceu o coração de Faraó, rei do Egito, para que perseguisse os filhos de Israel; porém os filhos de Israel saíram com alta mão.",
   "traducao_literal": "E endureceu YHWH o coração de Faraó, rei do Egito, e perseguiu atrás dos filhos de Israel; e os filhos de Israel saindo com mão erguida.",
   "termos_originais": [
     {
@@ -113,6 +113,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que perseguisse aos filhos de Israel → para que perseguisse os filhos de Israel | perseguisse aos filhos de Israel → perseguisse os filhos de Israel",
+      "justificativa": "Oração final introduzida por “que” simples é arcaizante; “para que” alinha com o v. 4 (“para que os persiga”), que verte a mesma estrutura (רדף após endurecimento) — consistência intra-capítulo. | Perseguir é transitivo direto; o “a” acusativo é arcaísmo sintático (cf. v. 9, “perseguiram-nos”, sem preposição). — revisão de forma sem alteração de sentido (ER-0019). “Porque” inicial mantido: leitura explicativa legítima do waw (o v. 8 explica a perseguição dos vv. 6-7), dentro da variação de conectivo que a própria BV pratica no capítulo (Então, Porém, Assim). A repetição de “os filhos de Israel” espelha o hebraico (בְנֵי יִשְׂרָאֵל 2×).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "“Com alta mão” é calque opaco de בְּיָד רָמָה para o leitor atual; a camada literal dá “com mão erguida”, mais transparente e igualmente fiel. — evidência: traducao_literal: “saindo com mão erguida”; KJV “with an high hand”. Não aplicado por poder colidir com escolha pinada do léxico para a expressão — decisão remetida ao mantenedor. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -124,11 +138,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

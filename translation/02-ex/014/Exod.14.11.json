@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Exod.14.1-31"
   },
-  "texto_bv": "E disseram a Moisés: Não havia sepulcros no Egito, para você nos tirar de lá, para que morramos neste deserto? Por que você nos fez isto, tirando-nos do Egito?",
+  "texto_bv": "E disseram a Moisés: Não havia sepulcros no Egito, para você nos tirar de lá para morrermos neste deserto? Por que você nos fez isto, tirando-nos do Egito?",
   "traducao_literal": "E disseram a Moisés: Acaso por não haver sepulcros no Egito nos tomaste para morrer no deserto? Que isto fizeste conosco, para nos fazer sair do Egito?",
   "termos_originais": [
     {
@@ -113,6 +113,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para você nos tirar de lá, para que morramos neste deserto? → para você nos tirar de lá para morrermos neste deserto?",
+      "justificativa": "Após “havia”/“tirar” (passado), o presente do subjuntivo “morramos” quebra a correlação temporal; o infinitivo pessoal (לָמוּת, “para morrer”) resolve a consecutio e elimina a vírgula que fragmentava a pergunta retórica. — revisão de forma sem alteração de sentido (ER-0019). Tratamento por você (povo a Moisés) consistente com o v. 12; próclise “nos fez” e ênclise “tirando-nos” conforme a norma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -124,11 +131,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
