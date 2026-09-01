@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Exod.2.1-25"
   },
-  "texto_bv": "A filha de Faraó disse-lhe: Vai. A moça foi e chamou a mãe do menino.",
+  "texto_bv": "A filha de Faraó disse-lhe: Vá. A moça foi e chamou a mãe do menino.",
   "traducao_literal": "E disse a ela a filha de Faraó: Vai. E foi a jovem, e chamou a mãe do menino.",
   "termos_originais": [
     {
@@ -88,6 +88,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "disse-lhe: Vai. → disse-lhe: Vá.",
+      "justificativa": "Descontinuidade de tratamento no diálogo: a irmã fala com 'você' no v. 7, e a resposta vinha na forma 'tu' ('Vai'); norma pede você entre humanos — imperativo singular de לֵכִי preservado no singular 'Vá'. — revisão de forma sem alteração de sentido (ER-0019). Só o tratamento foi alinhado; 'A moça' para הָעַלְמָה e a ênclise em 'disse-lhe' estão corretos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -99,11 +106,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

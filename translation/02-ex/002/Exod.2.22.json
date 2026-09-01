@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Exod.2.1-25"
   },
-  "texto_bv": "E ela deu à luz um filho, e ele chamou o seu nome Gérson, porque disse: Peregrino fui em terra estrangeira.",
+  "texto_bv": "Ela deu à luz um filho, e ele chamou o seu nome Gérson, porque disse: Peregrino fui em terra estrangeira.",
   "traducao_literal": "E deu à luz um filho, e chamou o seu nome Gérson, porque disse: Peregrino fui em terra estrangeira.",
   "termos_originais": [
     {
@@ -99,6 +99,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E ela deu à luz um filho → Ela deu à luz um filho",
+      "justificativa": "Waw consecutivo inicial sem função aditiva em português; capítulo normalizado sem 'E' inicial (cf. vv. 4 e 16). — revisão de forma sem alteração de sentido (ER-0019). 'Peregrino fui' mantém a inversão que sustenta a etiologia גֵּר/גֵּרְשֹׁם — intencional, não vício. Nota textual: o 'him' da KJV ('bare him a son') não está na morfologia pinada (וַתֵּלֶד בֵּן, sem לוֹ); a BV segue o hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "'ele chamou o seu nome Gérson' repete o calque da fórmula de nomeação קָרָא שְׁמוֹ (ver objeção no v. 10). — evidência: Mesma fórmula em Exod.2.10 e ao longo de Gênesis; correção local quebraria a consistência entre capítulos — decisão de corpus pendente. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -110,11 +124,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

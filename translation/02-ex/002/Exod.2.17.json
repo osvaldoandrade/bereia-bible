@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Exod.2.1-25"
   },
-  "texto_bv": "Os pastores vieram e as expulsaram dali; Moisés, porém, se levantou, as defendeu e deu de beber ao rebanho delas.",
+  "texto_bv": "Os pastores vieram e as expulsaram dali; Moisés, porém, levantou-se, defendeu-as e deu de beber ao rebanho delas.",
   "traducao_literal": "E vieram os pastores e as expulsaram; e levantou-se Moisés e as salvou, e deu de beber ao rebanho delas.",
   "termos_originais": [
     {
@@ -78,6 +78,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Moisés, porém, se levantou → Moisés, porém, levantou-se | se levantou, as defendeu e deu de beber → levantou-se, defendeu-as e deu de beber",
+      "justificativa": "Ênclise após o sujeito e a intercalada 'porém' segue a norma culta e o padrão do próprio capítulo ('postou-se', 'assentou-se', 'lembrou-se'). | Pronome átono não abre membro coordenado após pausa ('as defendeu'); ênclise pela norma culta, sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0019). 'defendeu' para וַיּוֹשִׁעָן (3467) e 'livrou' para הִצִּיל no v. 19 (5337) vertem lemas distintos com lexemas distintos — consistência correta; 'dali' é explicitação mínima já aprovada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -89,11 +96,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

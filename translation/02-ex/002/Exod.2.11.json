@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Exod.2.1-25"
   },
-  "texto_bv": "Aconteceu, naqueles dias, que Moisés, já adulto, saiu a seus irmãos e viu as suas cargas; e viu um egípcio ferindo um hebreu, um dos seus irmãos.",
+  "texto_bv": "Aconteceu, naqueles dias, que Moisés, já adulto, saiu ao encontro de seus irmãos e viu as suas cargas; e viu um egípcio ferindo um hebreu, um dos seus irmãos.",
   "traducao_literal": "E aconteceu, nos dias aqueles, que cresceu Moisés e saiu aos seus irmãos, e viu nas suas cargas; e viu um homem egípcio ferindo um homem hebreu, dos seus irmãos.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "saiu a seus irmãos → saiu ao encontro de seus irmãos",
+      "justificativa": "'Sair a + pessoa' em português contemporâneo lê-se primeiro como 'parecer-se com' (o filho saiu ao pai); a regência idiomática para o direcional אֶל é 'ao encontro de' — sentido de movimento preservado. — revisão de forma sem alteração de sentido (ER-0019). A dupla ocorrência de 'viu' espelha o וַיַּרְא repetido do hebraico e foi mantida; a moldura 'Aconteceu, naqueles dias, que', já sem o waw inicial, é equivalente aceito de וַיְהִי no registro formal-neutro.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,11 +136,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

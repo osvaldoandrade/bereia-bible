@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Exod.2.1-25"
   },
-  "texto_bv": "A filha de Faraó disse-lhe: Leva este menino e crie-o para mim, e eu lhe darei o seu salário. A mulher tomou o menino e o criou.",
+  "texto_bv": "A filha de Faraó disse-lhe: Leve este menino e crie-o para mim, e eu lhe darei o seu salário. A mulher tomou o menino e o criou.",
   "traducao_literal": "E disse a ela a filha de Faraó: Faze ir este menino e amamenta-o para mim, e eu darei o teu salário. E tomou a mulher o menino e o amamentou.",
   "termos_originais": [
     {
@@ -123,6 +123,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Leva este menino e crie-o para mim → Leve este menino e crie-o para mim",
+      "justificativa": "Mistura de tratamento na mesma fala: 'Leva' (tu) destoava de 'crie-o', 'lhe' e 'seu' (você); uniformizado em 'você' conforme a norma, singular do original preservado. — revisão de forma sem alteração de sentido (ER-0019). Corrigido apenas o tratamento dentro da fala; a escolha 'criar' para o verbo de amamentar fica mantida e ressalvada em objeção.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "הֵינִקִהוּ/וַתְּנִיקֵהוּ (amamentar, 3243/5134) traduzidos como 'crie-o'/'o criou', apagando que a mãe é contratada como ama de leite. — evidência: traducao_literal: 'amamenta-o para mim... e o amamentou'; KJV: 'nurse it for me... and nursed it'. Escolha consistente com o v. 7 — se for decisão do léxico, manter; caso contrário, revisar em conjunto (vv. 7 e 9). Não aplico por exigir consulta. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,11 +148,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
