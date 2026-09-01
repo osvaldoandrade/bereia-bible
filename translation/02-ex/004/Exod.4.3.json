@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Exod.4.1-31"
   },
-  "texto_bv": "E ele disse: Lance-a na terra. Moisés a lançou na terra, e ela se transformou em cobra; e Moisés fugia dela.",
+  "texto_bv": "E ele disse: Lance-a na terra. Moisés a lançou na terra, e ela se transformou em cobra; e Moisés fugiu dela.",
   "traducao_literal": "E disse: Lança-o à terra. E lançou-o à terra, e tornou-se em serpente; e fugiu Moisés de diante dela.",
   "termos_originais": [
     {
@@ -90,6 +90,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e Moisés fugia dela → e Moisés fugiu dela",
+      "justificativa": "וַיָּנָס é wayyiqtol perfectivo (HC/Vqw3ms) na cadeia narrativa 'lançou... transformou-se... fugiu'; o imperfeito 'fugia' quebrava a cadeia temporal sem apoio no original (KJV: 'fled'). — revisão de forma sem alteração de sentido (ER-0019). A explicitação 'Moisés a lançou' (sujeito implícito no hebraico) é do texto aprovado e desfaz ambiguidade com 'ele disse' (= o SENHOR); mantida. A repetição de 'Moisés' na última oração está no próprio hebraico (וַיָּנָס מֹשֶׁה).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -101,11 +108,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

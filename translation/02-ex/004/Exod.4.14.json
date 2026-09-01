@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Exod.4.1-31"
   },
-  "texto_bv": "Então se acendeu a ira do SENHOR contra Moisés, e disse: Não é Arão, o levita, seu irmão? Eu sei que ele falará muito bem; e eis que ele também sai ao seu encontro; e, ao ver você, se alegrará no seu coração.",
+  "texto_bv": "Então se acendeu a ira do SENHOR contra Moisés, e ele disse: Não é Arão, o levita, seu irmão? Eu sei que ele falará muito bem; e eis que ele também sai ao seu encontro; e, ao ver você, se alegrará no seu coração.",
   "traducao_literal": "E acendeu-se a ira de YHWH contra Moisés, e disse: Não é Arão, o levita, teu irmão? Sei que falar falará ele; e também eis que ele saindo ao teu encontro, e ver-te-á e se alegrará no seu coração.",
   "termos_originais": [
     {
@@ -150,6 +150,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "contra Moisés, e disse: → contra Moisés, e ele disse:",
+      "justificativa": "O sujeito de 'disse' é o SENHOR, mas o sujeito gramatical mais próximo é 'a ira' — referente irrecuperável sem apoio; 'ele' explicita o sujeito já implícito em וַיֹּאמֶר sem repetir o nome divino. — revisão de forma sem alteração de sentido (ER-0019). 'Falará muito bem' verte o infinitivo absoluto דַבֵּר יְדַבֵּר (escolha aprovada; cf. KJV 'can speak well'). Em 'se alegrará no seu coração', a leitura reflexiva default resolve o possessivo (בְּלִבּוֹ, o coração de Arão); mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -161,11 +168,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

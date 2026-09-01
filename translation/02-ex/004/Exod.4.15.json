@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Exod.4.1-31"
   },
-  "texto_bv": "E você lhe falará, e porá as palavras na sua boca; e eu serei com a sua boca e com a dele, ensinando vocês o que hão de fazer.",
+  "texto_bv": "E você lhe falará, e porá as palavras na boca dele; e eu estarei com a sua boca e com a dele, e ensinarei a vocês o que hão de fazer.",
   "traducao_literal": "E falarás a ele, e porás as palavras na sua boca; e eu estarei com a tua boca e com a boca dele, e ensinar-vos-ei o que fareis.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e porá as palavras na sua boca → e porá as palavras na boca dele | e eu serei com a sua boca → e eu estarei com a sua boca | ensinando vocês o que hão de fazer → e ensinarei a vocês o que hão de fazer",
+      "justificativa": "בְּפִיו é 3ms (a boca de Arão); com sujeito 'você', 'na sua boca' lê-se como a boca do próprio interlocutor. 'A boca dele' usa o recurso que o verso já emprega ('com a sua boca e com a dele'). | אֶהְיֶה עִם = presença/companhia: 'estar com' (cf. traducao_literal 'eu estarei'); harmoniza com 4.12 revisto. | וְהוֹרֵיתִי é weqatal finito (HC/Vhq1cs) coordenado — 'e ensinarei', não gerúndio; e 'ensinar algo a alguém' pede preposição ('a vocês'), como em 4.12 ('lhe ensinarei'). — revisão de forma sem alteração de sentido (ER-0019). Distinção de número preservada: 'vocês' verte os plurais אֶתְכֶם/תַּעֲשׂוּן (2mp) diante dos singulares anteriores.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -129,10 +136,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

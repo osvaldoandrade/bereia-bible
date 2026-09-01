@@ -4,30 +4,46 @@
   "versos": [
     {
       "osis": "Exod.4.1",
-      "texto_bv_revisto": "Então respondeu Moisés, e disse: Mas eis que não me crerão, nem ouvirão a minha voz, porque dirão: O SENHOR não apareceu a você.",
-      "mudancas": [],
-      "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "texto_bv_revisto": "Então respondeu Moisés, e disse: Mas eis que não crerão em mim, nem ouvirão a minha voz, porque dirão: O SENHOR não apareceu a você.",
+      "mudancas": [
+        {
+          "tipo": "regencia",
+          "antes": "não me crerão",
+          "depois": "não crerão em mim",
+          "motivo": "'Crer' pede a preposição 'em' na norma contemporânea (hebraico יַאֲמִינוּ לִי, crer + לְ); harmoniza com 4.8 ('crerem em você')."
+        }
+      ],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "Discurso direto introduzido só por dois-pontos, sem aspas duplas curvas, em todo o capítulo — divergência da norma editorial de discurso direto.",
+          "evidencia": "A convenção é idêntica em toda a janela (Ex 3.21-22, 4.2-31, 5.1): nenhum verso do corpus vizinho usa aspas. Aplicá-las apenas neste capítulo quebraria a cadeia de capítulos; adequação é decisão de cadeia, remetida ao mantenedor."
+        }
+      ],
+      "justificativa": "Fórmula dupla 'respondeu... e disse' (וַיַּעַן... וַיֹּאמֶר) mantida: são dois verbos no original. Só a regência de 'crer' foi normalizada, sem tocar o sentido.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.2",
       "texto_bv_revisto": "E o SENHOR disse-lhe: Que é isso na sua mão? E ele disse: Uma vara.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto e coeso. 'Vara' é o lexema do capítulo para מַטֶּה (4.2, 4.4, 4.17, 4.20); ênclise em 'disse-lhe' após sujeito expresso é regular; o 'E' inicial reflete o waw narrativo, estilo do corpus.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.3",
-      "texto_bv_revisto": "E ele disse: Lance-a na terra. Moisés a lançou na terra, e ela se transformou em cobra; e Moisés fugia dela.",
+      "texto_bv_revisto": "E ele disse: Lance-a na terra. Moisés a lançou na terra, e ela se transformou em cobra; e Moisés fugiu dela.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "Ele a lançou na terra",
-          "depois": "Moisés a lançou na terra",
-          "motivo": "Substituição de pronome ambíguo por sujeito explícito (EDITORIAL §1.5, referência pronominal inequívoca). 'Ele' após fala do SENHOR poderia referir-se a Deus; NTLH e NVIPT nomeiam 'Moisés' explicitamente."
+          "tipo": "coesao",
+          "antes": "e Moisés fugia dela",
+          "depois": "e Moisés fugiu dela",
+          "motivo": "וַיָּנָס é wayyiqtol perfectivo (HC/Vqw3ms) na cadeia narrativa 'lançou... transformou-se... fugiu'; o imperfeito 'fugia' quebrava a cadeia temporal sem apoio no original (KJV: 'fled')."
         }
       ],
       "objecoes": [],
+      "justificativa": "A explicitação 'Moisés a lançou' (sujeito implícito no hebraico) é do texto aprovado e desfaz ambiguidade com 'ele disse' (= o SENHOR); mantida. A repetição de 'Moisés' na última oração está no próprio hebraico (וַיָּנָס מֹשֶׁה).",
       "veredito": "REVISADO"
     },
     {
@@ -35,48 +51,89 @@
       "texto_bv_revisto": "Então disse o SENHOR a Moisés: Estenda a sua mão e pegue-a pela cauda. Ele estendeu a sua mão e a pegou, e ela se transformou em vara na sua mão.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Imperativos em 'você' (Deus para Moisés) conforme a política; 'pegue-a' recupera 'cobra' de 4.3 sem ambiguidade. 'Na sua mão' por בְּכַפּוֹ ('palma') é escolha lexical do texto aprovado; mantida.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.5",
-      "texto_bv_revisto": "Para que creiam que o SENHOR apareceu a você, o Deus de seus pais, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó.",
-      "mudancas": [],
+      "texto_bv_revisto": "Para que creiam que o SENHOR, o Deus de seus pais, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó, apareceu a você.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "que o SENHOR apareceu a você, o Deus de seus pais, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó",
+          "depois": "que o SENHOR, o Deus de seus pais, o Deus de Abraão, o Deus de Isaque e o Deus de Jacó, apareceu a você",
+          "motivo": "O aposto אֱלֹהֵי אֲבֹתָם qualifica יְהוָה; separado do núcleo pelo verbo, parecia apor-se a 'você'. Reposicionado junto de 'o SENHOR', como no hebraico e na KJV ('the Lord God of their fathers... hath appeared unto thee')."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "'Seus pais' = dos israelitas (אֲבֹתָם, 3mp), recuperável pelo sujeito de 'creiam'. Nenhum conteúdo alterado, apenas a ordem que ancorava mal o aposto.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.6",
       "texto_bv_revisto": "E disse-lhe mais o SENHOR: Meta agora a sua mão no seu seio. E meteu a mão no seio; e quando a tirou, eis que a sua mão estava leprosa, branca como a neve.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Ênclise após a conjunção 'e' ('E disse-lhe') é legítima; 'agora' verte נָא. 'Branca como a neve' é explicitação consolidada do texto aprovado para מְצֹרַעַת כַּשָּׁלֶג (a comparação com a neve implica brancura; cf. KJV 'leprous as snow'); não é defeito de forma, mantida.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.7",
-      "texto_bv_revisto": "E disse: Volte a meter a sua mão no seu seio. E tornou a meter a mão no seio; e quando a tirou do seio, eis que havia se tornado como a sua carne.",
-      "mudancas": [],
+      "texto_bv_revisto": "E disse: Volte a meter a sua mão no seu seio. E voltou a meter a mão no seio; e quando a tirou do seio, eis que se havia tornado como a sua carne.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "E tornou a meter a mão no seio",
+          "depois": "E voltou a meter a mão no seio",
+          "motivo": "Consistência lexical intra-capítulo (§1.4): o lemma שׁוּב (7725) é vertido por 'voltar' em todo o capítulo (4.7a 'Volte', 4.18, 4.19, 4.20, 4.21); a variação 'tornou a' não marca jogo de palavras e apagava o eco ordem-execução do original (הָשֵׁב / וַיָּשֶׁב)."
+        },
+        {
+          "tipo": "colocacao",
+          "antes": "eis que havia se tornado",
+          "depois": "eis que se havia tornado",
+          "motivo": "'Que' atrai a próclise; na norma culta o pronome não fica solto entre auxiliar e particípio."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "'Se havia tornado como a sua carne' (שָׁבָה, 'voltou') conserva o sentido de restauração do texto aprovado; ajustei apenas colocação pronominal e consistência lexical.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.8",
-      "texto_bv_revisto": "E acontecerá que, se eles não crerem em você, nem ouvirem a voz do primeiro sinal, crerão à voz do derradeiro sinal.",
-      "mudancas": [],
+      "texto_bv_revisto": "E acontecerá que, se eles não crerem em você, nem ouvirem a voz do primeiro sinal, crerão na voz do derradeiro sinal.",
+      "mudancas": [
+        {
+          "tipo": "regencia",
+          "antes": "crerão à voz do derradeiro sinal",
+          "depois": "crerão na voz do derradeiro sinal",
+          "motivo": "'Crer' pede 'em' na norma contemporânea (cf. 'crerem em você' no mesmo verso e 4.1 revisto); 'crer a' é regência arcaica."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "'E acontecerá que' verte וְהָיָה preditivo em fala divina — asserção com conteúdo ('e será'), não mero marcador narrativo; mantido. 'Derradeiro' é formal e não consta da lista de arcaísmos proscritos; mantido.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.9",
-      "texto_bv_revisto": "E se acontecer que ainda não creiam a estes dois sinais nem ouçam a sua voz, você tomará das águas do rio e as derramará na terra seca. E as águas que você tomar do rio se transformarão em sangue sobre a terra seca.",
-      "mudancas": [],
+      "texto_bv_revisto": "E acontecerá que, se ainda não crerem nestes dois sinais, nem ouvirem a sua voz, você tomará das águas do rio e as derramará na terra seca. E as águas que você tomar do rio se transformarão em sangue sobre a terra seca.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "E se acontecer que ainda não creiam a estes dois sinais nem ouçam a sua voz",
+          "depois": "E acontecerá que, se ainda não crerem nestes dois sinais, nem ouvirem a sua voz",
+          "motivo": "O hebraico repete exatamente a abertura de 4.8 (וְהָיָה אִם־לֹא יַאֲמִינוּ): restaurei o paralelismo com a mesma moldura 'E acontecerá que, se'; a prótase vai para o futuro do subjuntivo, forma canônica da condicional ('se acontecer que + presente do subjuntivo' é travado); e a regência de 'crer' passa de 'a' para 'em' ('nestes dois sinais'), como em 4.1 e 4.8."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "'Rio' para הַיְאֹר (o Nilo), 'ainda' para גַּם e 'terra seca' para os dois substantivos distintos יַבָּשָׁה/יַבֶּשֶׁת são escolhas do texto aprovado; mantidas. Nenhum conteúdo alterado.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.10",
       "texto_bv_revisto": "Então disse Moisés ao SENHOR: Ah, Senhor! Eu não sou homem eloquente, nem de ontem nem de anteontem, nem ainda desde que tens falado ao teu servo; porque sou pesado de boca e pesado de língua.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Ah, Senhor!' segue a política de nomes (אֲדֹנָי → Senhor). Registro 'tu' (tens, teu) em fala de Moisés dirigida a Deus, coerente com 4.13. Semitismos formulares mantidos de propósito: 'nem de ontem nem de anteontem' e 'pesado de boca e pesado de língua'.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -84,43 +141,80 @@
       "texto_bv_revisto": "E disse-lhe o SENHOR: Quem fez a boca do homem? Ou quem fez o mudo, ou o surdo, ou o que vê, ou o cego? Não sou eu, o SENHOR?",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A cadeia de 'ou' espelha o polissíndeto אוֹ do original — paralelismo intencional, não vício. 'Fez' unifica שׂים nas duas perguntas (consistência lexical). Correto e coeso.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.12",
-      "texto_bv_revisto": "Agora, pois, vá, e eu serei com a sua boca, e lhe ensinarei o que há de falar.",
-      "mudancas": [],
+      "texto_bv_revisto": "Agora, pois, vá, e eu estarei com a sua boca, e lhe ensinarei o que há de falar.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "e eu serei com a sua boca",
+          "depois": "e eu estarei com a sua boca",
+          "motivo": "אֶהְיֶה עִם exprime presença/companhia: o português exige 'estar com' — 'ser com' é calque de היה; a própria traducao_literal traz 'eu estarei com a tua boca'."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "'Agora, pois' varia bem o conectivo de וְעַתָּה; em 'o que há de falar' o sujeito 'você' é recuperável. Conteúdo intacto.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.13",
       "texto_bv_revisto": "Ele, porém, disse: Ah, Senhor! Envia, peço-te, pela mão daquele a quem hás de enviar.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Tautologia formulaiça intencional do original hebraico (fórmula retórica de evasão de Moisés), preservada também na ARA. NTLH e NVIPT simplificam, mas a repetição carrega peso retórico.",
+      "justificativa": "'Ele, porém, disse' varia o conectivo com correção. Registro 'tu' (Envia, peço-te, hás de enviar) em fala dirigida a Deus, coerente com 4.10. 'Pela mão daquele a quem hás de enviar' verte בְּיַד־תִּשְׁלָח com sintaxe correta.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.14",
-      "texto_bv_revisto": "Então se acendeu a ira do SENHOR contra Moisés, e disse: Não é Arão, o levita, seu irmão? Eu sei que ele falará muito bem; e eis que ele também sai ao seu encontro; e, ao ver você, se alegrará no seu coração.",
-      "mudancas": [],
+      "texto_bv_revisto": "Então se acendeu a ira do SENHOR contra Moisés, e ele disse: Não é Arão, o levita, seu irmão? Eu sei que ele falará muito bem; e eis que ele também sai ao seu encontro; e, ao ver você, se alegrará no seu coração.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "contra Moisés, e disse:",
+          "depois": "contra Moisés, e ele disse:",
+          "motivo": "O sujeito de 'disse' é o SENHOR, mas o sujeito gramatical mais próximo é 'a ira' — referente irrecuperável sem apoio; 'ele' explicita o sujeito já implícito em וַיֹּאמֶר sem repetir o nome divino."
+        }
+      ],
       "objecoes": [],
-      "justificativa": "'Eis que' mantido como marcador discursivo formulaiço do hebraico הִנֵּה, presente em toda a narrativa do capítulo (4.1, 4.6, 4.7, 4.23). ARA também preserva em todos esses contextos. A BV mantém consistência interna.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "'Falará muito bem' verte o infinitivo absoluto דַבֵּר יְדַבֵּר (escolha aprovada; cf. KJV 'can speak well'). Em 'se alegrará no seu coração', a leitura reflexiva default resolve o possessivo (בְּלִבּוֹ, o coração de Arão); mantido.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.15",
-      "texto_bv_revisto": "E você lhe falará, e porá as palavras na sua boca; e eu serei com a sua boca e com a dele, ensinando vocês o que hão de fazer.",
-      "mudancas": [],
+      "texto_bv_revisto": "E você lhe falará, e porá as palavras na boca dele; e eu estarei com a sua boca e com a dele, e ensinarei a vocês o que hão de fazer.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "e porá as palavras na sua boca",
+          "depois": "e porá as palavras na boca dele",
+          "motivo": "בְּפִיו é 3ms (a boca de Arão); com sujeito 'você', 'na sua boca' lê-se como a boca do próprio interlocutor. 'A boca dele' usa o recurso que o verso já emprega ('com a sua boca e com a dele')."
+        },
+        {
+          "tipo": "calque",
+          "antes": "e eu serei com a sua boca",
+          "depois": "e eu estarei com a sua boca",
+          "motivo": "אֶהְיֶה עִם = presença/companhia: 'estar com' (cf. traducao_literal 'eu estarei'); harmoniza com 4.12 revisto."
+        },
+        {
+          "tipo": "regencia",
+          "antes": "ensinando vocês o que hão de fazer",
+          "depois": "e ensinarei a vocês o que hão de fazer",
+          "motivo": "וְהוֹרֵיתִי é weqatal finito (HC/Vhq1cs) coordenado — 'e ensinarei', não gerúndio; e 'ensinar algo a alguém' pede preposição ('a vocês'), como em 4.12 ('lhe ensinarei')."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Distinção de número preservada: 'vocês' verte os plurais אֶתְכֶם/תַּעֲשׂוּן (2mp) diante dos singulares anteriores.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.16",
       "texto_bv_revisto": "E ele falará por você ao povo; e acontecerá que ele lhe será por boca, e você lhe será por Deus.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Ele lhe será por boca, e você lhe será por Deus' conserva o semitismo teológico e o paralelismo especular do original (הוּא יִהְיֶה־לְּךָ לְפֶה וְאַתָּה תִּהְיֶה־לּוֹ לֵאלֹהִים); os dois 'lhe' de referentes distintos são desambiguados pelo próprio paralelismo. 'E acontecerá que' verte וְהָיָה preditivo, como em 4.8.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -128,6 +222,7 @@
       "texto_bv_revisto": "Tome, pois, esta vara na sua mão, com que fará os sinais.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Tome, pois' subordina bem o waw; 'com que fará os sinais' é relativa correta ('que' preposicionado com antecedente de coisa). 'Vara' e 'sinais' seguem os lexemas do capítulo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -135,6 +230,7 @@
       "texto_bv_revisto": "Então foi Moisés, e voltou para Jetro, seu sogro, e disse-lhe: Deixe-me ir, por favor, e voltar a meus irmãos, que estão no Egito, para ver se ainda vivem. Disse, pois, Jetro a Moisés: Vá em paz.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Registro 'você' entre humanos ('Deixe-me ir', 'Vá em paz') correto; conectivos variados ('Então', 'pois') sem calque. A normalização 'Jetro' para as duas formas do hebraico (יֶתֶר / יִתְרוֹ) é decisão onomástica do texto aprovado; mantida.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -142,27 +238,23 @@
       "texto_bv_revisto": "Disse também o SENHOR a Moisés em Midiã: Vá, volte para o Egito; porque morreram todos os que buscavam a sua morte.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Disse também' varia o conectivo do waw. 'Buscavam a sua morte' é a versão aprovada do idiomatismo בקשׁ נפשׁ ('buscar a alma' = atentar contra a vida); escolha de tradução, não defeito de forma. Imperativos duplos 'Vá, volte' espelham לֵךְ שֻׁב.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.20",
       "texto_bv_revisto": "Tomou, pois, Moisés a sua mulher e os seus filhos, e os fez montar sobre um jumento, e voltou à terra do Egito; e Moisés tomou a vara de Deus na sua mão.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "e os levou sobre um jumento",
-          "depois": "e os fez montar sobre um jumento",
-          "motivo": "Hebraico usa causativo (רִכֵּב, hiphil de rkb: 'fez montar'); BV 'levou' é inespecífico e pode sugerir que Moisés os carregou. ARA 'fez montar' e traducao_literal 'fê-los cavalgar' confirmam a estrutura causativa. NTLH também explicita."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "'Tomou, pois' subordina o waw; a dupla menção de 'Moisés' está no próprio hebraico. 'Um jumento' para הַחֲמֹר (artigo definido genérico no original) é escolha do texto aprovado (cf. KJV 'an ass'); mantida.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.21",
       "texto_bv_revisto": "E disse o SENHOR a Moisés: Quando voltar ao Egito, atente para fazer diante de Faraó todas as maravilhas que tenho posto na sua mão; mas eu endurecerei o seu coração, para que não deixe ir o povo.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Atente para fazer' verte legitimamente רְאֵה + weqatal; 'tenho posto' é resultativo aceitável para שַׂמְתִּי. 'Para que não deixe ir' lê o waw de וְלֹא יְשַׁלַּח como finalidade/resultado, em acordo com a KJV ('that he shall not let the people go') — entendimento conferido, mantido. Sentença longa porém articulada, abaixo do limite.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -170,6 +262,7 @@
       "texto_bv_revisto": "Então diga a Faraó: Assim diz o SENHOR: Israel é meu filho, meu primogênito.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Assim diz o SENHOR' é a fórmula consagrada do mensageiro para כֹּה אָמַר (perfeito performativo); mantida. A aposição 'meu filho, meu primogênito' espelha a ordem enfática do hebraico.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -177,47 +270,80 @@
       "texto_bv_revisto": "E eu lhe tenho dito: Deixe ir o meu filho, para que me sirva; mas você recusou deixá-lo ir; eis que eu matarei o seu filho, o seu primogênito.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Tenho dito' verte וָאֹמַר como demanda vigente (escolha do texto aprovado); registro 'você' para Faraó correto. Nota textual: a KJV lê condicional ('and if thou refuse'), mas a morfologia pinada traz וַתְּמָאֵן wayyiqtol indicativo ('você recusou') — a BV segue a morfologia, que prevalece.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.24",
-      "texto_bv_revisto": "E aconteceu no caminho, numa estalagem, que o SENHOR o encontrou, e o quis matar.",
-      "mudancas": [],
+      "texto_bv_revisto": "E no caminho, numa estalagem, o SENHOR o encontrou e o quis matar.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "E aconteceu no caminho, numa estalagem, que o SENHOR o encontrou, e o quis matar.",
+          "depois": "E no caminho, numa estalagem, o SENHOR o encontrou e o quis matar.",
+          "motivo": "וַיְהִי narrativo é marcador discursivo vazio; a moldura 'aconteceu... que' com locativos intercalados é calque sintático. Todo o conteúdo (caminho, estalagem, encontro, intento de matar) permanece; o waw inicial fica no 'E'."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "O objeto 'o' (Moisés, presumivelmente) conserva a mesma indeterminação do sufixo em וַיִּפְגְּשֵׁהוּ; não explicitei. Caso distinto de 4.8/4.9, onde וְהָיָה preditivo em fala divina tem conteúdo assertivo e foi mantido.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.25",
-      "texto_bv_revisto": "Então Zípora tomou uma pedra aguda, e circuncidou o prepúcio de seu filho, e o lançou a seus pés, e disse: Certamente me é um esposo de sangue.",
-      "mudancas": [],
-      "objecoes": [
+      "texto_bv_revisto": "Então Zípora tomou uma pedra aguda, e cortou o prepúcio de seu filho, e com ele tocou os seus pés, e disse: Certamente você me é um esposo de sangue.",
+      "mudancas": [
         {
-          "gravidade": "MATERIAL",
-          "problema": "BV usa 'lançou' (arremessar, jogar longe) onde a traducao_literal, NTLH e NVIPT usam 'tocou' (Heb. נגע, naga — tocar). ARA também usa 'lançando-o', mas o sentido original do verbo é 'tocar'. A correção para 'tocou' alteraria o sentido descritivo da ação de Zípora (de arremesso para contato).",
-          "evidencia": "traducao_literal: 'tocou aos seus pés'; NTLH: 'com ele tocou o pé de Moisés'; NVIPT: 'tocou os pés de Moisés'; ARA: 'lançando-o aos pés' (também diverge do literal)."
+          "tipo": "coesao",
+          "antes": "e circuncidou o prepúcio de seu filho",
+          "depois": "e cortou o prepúcio de seu filho",
+          "motivo": "וַתִּכְרֹת (כרת, 3772) = 'cortou' (cf. traducao_literal); 'circuncidar' tem por objeto a pessoa, não o prepúcio — 'circuncidou o prepúcio' é cruzamento de construções. 'Cortou o prepúcio' diz exatamente o que o hebraico diz."
+        },
+        {
+          "tipo": "coesao",
+          "antes": "Certamente me é um esposo de sangue.",
+          "depois": "Certamente você me é um esposo de sangue.",
+          "motivo": "O hebraico tem pronome sujeito explícito אַתָּה ('tu és para mim'); sem sujeito, 'me é' fica sem referente e soa impessoal. 'Você' verte o pronome expresso no registro humano-humano do capítulo."
         }
       ],
-      "veredito": "SEM_ALTERACAO"
+      "objecoes": [],
+      "justificativa": "'Pedra aguda' para צֹר (sílex) e 'os seus pés' com referente indeterminado (como no hebraico לְרַגְלָיו) são do texto aprovado; mantidos. 'Sangue' no singular para דָּמִים idem.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.26",
       "texto_bv_revisto": "E desviou-se dele. Então ela disse: Esposo de sangue, por causa da circuncisão.",
       "mudancas": [],
-      "objecoes": [],
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "O sujeito de 'desviou-se' (o SENHOR) está a dois versos de distância (4.24) e, no intervalo, os sujeitos são Zípora e 'esposo de sangue' — coesão frágil para o leitor.",
+          "evidencia": "וַיִּרֶף מִמֶּנּוּ também deixa o sujeito implícito no hebraico; explicitar 'o SENHOR' resolveria a coesão, mas seria explicitação além do original — decisão de tradução reservada ao mantenedor, não correção de forma."
+        }
+      ],
+      "justificativa": "'Desviou-se dele' para רפה ('soltou, desistiu') é a escolha aprovada; 'por causa da circuncisão' para o plural לַמּוּלֹת idem. Ênclise após 'E' é legítima.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.27",
-      "texto_bv_revisto": "Disse o SENHOR a Arão: Vá ao deserto, ao encontro de Moisés. E ele foi, e encontrou-o no monte de Deus, e o beijou.",
-      "mudancas": [],
+      "texto_bv_revisto": "Disse o SENHOR a Arão: Vá ao deserto, ao encontro de Moisés. E ele foi, e o encontrou no monte de Deus, e o beijou.",
+      "mudancas": [
+        {
+          "tipo": "colocacao",
+          "antes": "e encontrou-o no monte de Deus, e o beijou",
+          "depois": "e o encontrou no monte de Deus, e o beijou",
+          "motivo": "Colocação uniformizada na sequência coordenada: o capítulo usa próclise medial após 'e' ('e a pegou' 4.4, 'e os fez montar' 4.20, 'e o quis matar' 4.24, 'e o beijou' aqui); a ênclise isolada em 'encontrou-o' destoava dentro da mesma frase."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "A ordem 'Vá ao deserto, ao encontro de Moisés' reordena naturalmente o hebraico; conteúdo intacto — apenas a colocação pronominal foi harmonizada.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.4.28",
       "texto_bv_revisto": "E anunciou Moisés a Arão todas as palavras do SENHOR, com que o havia enviado, e todos os sinais que lhe havia mandado.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Com que o havia enviado' lê אֲשֶׁר שְׁלָחוֹ como instrumental ('as palavras com que'); a KJV lê 'who had sent him' — ambas cabem no hebraico, divergência interpretativa já resolvida no texto aprovado, não defeito de forma. Mais-que-perfeito composto conforme a norma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -225,6 +351,7 @@
       "texto_bv_revisto": "Então foram Moisés e Arão, e ajuntaram todos os anciãos dos filhos de Israel.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Foram' no plural é a concordância que o português exige para o sujeito composto (o hebraico traz וַיֵּלֶךְ singular; ajuste já presente no texto aprovado, cf. traducao_literal 'E foi'). 'Ajuntaram' é formal e corrente na prosa bíblica; não proscrito.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -232,14 +359,23 @@
       "texto_bv_revisto": "E Arão falou todas as palavras que o SENHOR havia falado a Moisés, e fez os sinais aos olhos do povo.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A repetição 'falou... havia falado' espelha דִּבֶּר... דִּבֶּר do original; 'aos olhos do povo' é semitismo consagrado (לְעֵינֵי). Anterioridade correta no mais-que-perfeito composto.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Exod.4.31",
-      "texto_bv_revisto": "E o povo creu; e quando ouviram que o SENHOR visitava aos filhos de Israel, e que via a sua aflição, inclinaram-se, e adoraram.",
-      "mudancas": [],
+      "texto_bv_revisto": "E o povo creu; e quando ouviram que o SENHOR havia visitado os filhos de Israel, e que havia visto a sua aflição, inclinaram-se, e adoraram.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "quando ouviram que o SENHOR visitava aos filhos de Israel, e que via a sua aflição",
+          "depois": "quando ouviram que o SENHOR havia visitado os filhos de Israel, e que havia visto a sua aflição",
+          "motivo": "פָקַד e רָאָה são qatal perfectivos (Vqp3ms) — fatos consumados anteriores a 'ouviram' (KJV: 'had visited... had looked'); o imperfeito 'visitava/via' quebrava a cadeia temporal. Ajustada também a regência: 'visitar' é transitivo direto ('os filhos', sem a preposição 'a')."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "A alternância 'o povo creu' (singular) / 'ouviram' (plural) reproduz a silepse do próprio hebraico (וַיַּאֲמֵן sg, וַיִּשְׁמְעוּ pl); mantida. 'Adoraram' para הִשְׁתַּחֲוָה é o lexema do texto aprovado.",
+      "veredito": "REVISADO"
     }
   ]
 }

@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Exod.4.1-31"
   },
-  "texto_bv": "Então Zípora tomou uma pedra aguda, e circuncidou o prepúcio de seu filho, e com ele tocou os seus pés, e disse: Certamente me é um esposo de sangue.",
+  "texto_bv": "Então Zípora tomou uma pedra aguda, e cortou o prepúcio de seu filho, e com ele tocou os seus pés, e disse: Certamente você me é um esposo de sangue.",
   "traducao_literal": "E tomou Zípora um sílex, e cortou o prepúcio do seu filho, e tocou aos seus pés, e disse: Porque esposo de sangues tu para mim.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e circuncidou o prepúcio de seu filho → e cortou o prepúcio de seu filho | Certamente me é um esposo de sangue. → Certamente você me é um esposo de sangue.",
+      "justificativa": "וַתִּכְרֹת (כרת, 3772) = 'cortou' (cf. traducao_literal); 'circuncidar' tem por objeto a pessoa, não o prepúcio — 'circuncidou o prepúcio' é cruzamento de construções. 'Cortou o prepúcio' diz exatamente o que o hebraico diz. | O hebraico tem pronome sujeito explícito אַתָּה ('tu és para mim'); sem sujeito, 'me é' fica sem referente e soa impessoal. 'Você' verte o pronome expresso no registro humano-humano do capítulo. — revisão de forma sem alteração de sentido (ER-0019). 'Pedra aguda' para צֹר (sílex) e 'os seus pés' com referente indeterminado (como no hebraico לְרַגְלָיו) são do texto aprovado; mantidos. 'Sangue' no singular para דָּמִים idem.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -148,7 +155,7 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.3.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-fable-5",
