@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Gen.47.1-31"
   },
-  "texto_bv": "José veio, anunciou a Faraó e disse: Meu pai e meus irmãos, com as suas ovelhas e os seus bois, e tudo o que têm, chegaram da terra de Canaã; e estão na terra de Gósen.",
+  "texto_bv": "José veio, anunciou a Faraó e disse: Meu pai e meus irmãos, com as suas ovelhas, os seus bois e tudo o que têm, chegaram da terra de Canaã; e estão na terra de Gósen.",
   "traducao_literal": "E veio José e anunciou a Faraó, e disse: O meu pai e os meus irmãos, e o seu rebanho e o seu gado e tudo o que é deles, vieram da terra de Canaã; e eis que eles na terra de Gósen.",
   "termos_originais": [
     {
@@ -123,6 +123,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "com as suas ovelhas e os seus bois, e tudo o que têm, → com as suas ovelhas, os seus bois e tudo o que têm,",
+      "justificativa": "Os três itens (ovelhas, bois, tudo o que têm) formam o mesmo comitativo que o hebraico coordena como co-sujeitos de בָּאוּ; a série em português pede vírgulas com 'e' só antes do último membro — a pontuação anterior deixava 'e tudo o que têm' solto entre o adjunto e o verbo, sugerindo um membro à parte. — revisão de forma sem alteração de sentido (ER-0019). Série do adjunto 'com…' normalizada; mantido o fecho 'e estão na terra de Gósen', que verte וְהִנָּם sem o calque 'eis que' (ER-0013). Coesão com Gn 46.34 (Gósen, gado) preservada; KJV confere o mesmo sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Todo o discurso direto do capítulo (vv. 1, 3-6, 8-9, 15-16, 18-19, 23-25, 29-31) é introduzido por dois-pontos sem as aspas duplas curvas exigidas por ER-0004/EDITORIAL §5. — evidência: Gn 48.1, vizinho imediato na janela, já usa a marcação (“Seu pai está enfermo”); a fala de Jacó cruza a fronteira dos vv. 29-30 e o padrão sem aspas vem de Gn 46 (46.33-34 na janela também sem aspas) — a correção exige aplicação coordenada em cadeia de capítulos, fora do alcance da edição por verso. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,11 +148,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

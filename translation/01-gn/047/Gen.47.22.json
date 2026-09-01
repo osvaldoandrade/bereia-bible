@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Gen.47.1-31"
   },
-  "texto_bv": "Somente a terra dos sacerdotes não comprou, porque os sacerdotes tinham porção de Faraó, e eles comiam a sua porção que Faraó lhes dava; por isso não venderam a sua terra.",
+  "texto_bv": "Somente a terra dos sacerdotes não comprou, porque os sacerdotes tinham porção da parte de Faraó, e comiam a porção que Faraó lhes dava; por isso não venderam a sua terra.",
   "traducao_literal": "Somente a terra dos sacerdotes não comprou, porque estatuto para os sacerdotes de com Faraó, e comiam o seu estatuto que deu a eles Faraó; por isso não venderam a sua terra.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tinham porção de Faraó → tinham porção da parte de Faraó | e eles comiam a sua porção que Faraó lhes dava → e comiam a porção que Faraó lhes dava",
+      "justificativa": "מֵאֵת marca procedência ('de junto de'), não posse; 'porção de Faraó' lia-se como porção pertencente a Faraó — exatamente o referente errado. 'Da parte de' desfaz a ambiguidade sem alterar o sentido. | Sujeito contínuo (os sacerdotes) dispensa 'eles'; o possessivo diante de relativa restritiva era redundante — 'que Faraó lhes dava' já identifica a porção, e 'lhes' conserva o valor do sufixo de חֻקָּם. — revisão de forma sem alteração de sentido (ER-0019). Objeto fronteado 'Somente a terra dos sacerdotes não comprou' mantido: topicalização legítima que espelha רַק אַדְמַת הַכֹּהֲנִים, sem ambiguidade real de sujeito (só José compra no trecho).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -159,11 +166,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

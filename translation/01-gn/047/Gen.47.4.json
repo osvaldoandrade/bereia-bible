@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Gen.47.1-31"
   },
-  "texto_bv": "Disseram mais a Faraó: Viemos para peregrinar nesta terra; porque não há pasto para as ovelhas dos seus servos, pois a fome é grave na terra de Canaã; agora, pois, habitem os seus servos na terra de Gósen.",
+  "texto_bv": "Disseram ainda a Faraó: Viemos para peregrinar nesta terra; porque não há pasto para as ovelhas dos seus servos, pois a fome é grave na terra de Canaã; agora, pois, habitem os seus servos na terra de Gósen.",
   "traducao_literal": "E disseram a Faraó: Para peregrinar na terra viemos, porque não há pasto para o rebanho que é dos teus servos, porque pesada a fome na terra de Canaã; e agora, habitem, por favor, os teus servos na terra de Gósen.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Disseram mais a Faraó: → Disseram ainda a Faraó:",
+      "justificativa": "'Dizer mais' é fórmula da tradição Almeida (cf. KJV 'said moreover'); o hebraico traz apenas וַיֹּאמְרוּ, e o aditivo natural do pt-BR para a segunda fala é 'ainda' (mesmo tratamento dado em Gn 20.10 neste ciclo). — revisão de forma sem alteração de sentido (ER-0019). Inversão volitiva 'habitem os seus servos' mantida: verte o jussivo יֵשְׁבוּ, e a ordem V-S é a natural do desiderativo português — ER-0011 rege o wayyiqtol narrativo, não o volitivo. Nota: a partícula נָא ('por favor') do original não está vertida no publicado; restituí-la acrescentaria conteúdo, o que excede a revisão de forma — fica anotado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -159,10 +166,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.1",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
