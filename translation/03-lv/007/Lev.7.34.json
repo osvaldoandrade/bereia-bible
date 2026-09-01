@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Lev.7.1-38"
   },
-  "texto_bv": "Dos sacrifícios das ofertas pacíficas dos filhos de Israel, tomei o peito da oferta movida e a coxa da oferta elevada. Dei essas duas porções ao sacerdote Arão e a seus filhos como estatuto perpétuo da parte dos israelitas.",
+  "texto_bv": "Dos sacrifícios das ofertas pacíficas dos filhos de Israel, tomei o peito da oferta movida e a coxa da oferta elevada. Dei essas duas porções ao sacerdote Arão e a seus filhos como estatuto perpétuo da parte dos filhos de Israel.",
   "traducao_literal": "Pois o peito do movimento e a coxa da porção elevada tomei da parte dos filhos de Israel, dos sacrifícios das ofertas de paz deles; e dei a eles para Arão, o sacerdote, e para os filhos dele, por estatuto de eternidade, da parte dos filhos de Israel.",
   "termos_originais": [
     {
@@ -171,6 +171,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "como estatuto perpétuo da parte dos israelitas. → como estatuto perpétuo da parte dos filhos de Israel.",
+      "justificativa": "O lemma 1121a+3478 (\"filhos de Israel\", בְּנֵי יִשְׂרָאֵל) é vertido consistentemente como \"filhos de Israel\" em todo o capítulo (vv.23, 29, 34a, 36, 38); a variação para \"israelitas\" nesta segunda ocorrência do verso quebra a consistência lexical intracapitular (EDITORIAL.md §1.4) e desfaz o inclusio intencional do hebraico, que repete literalmente \"da parte dos filhos de Israel\" no início e no fim do período (מֵאֵת בְּנֵי יִשְׂרָאֵל ... מֵאֵת בְּנֵי יִשְׂרָאֵל). Normalizado para o lexema majoritário do capítulo. — revisão de forma sem alteração de sentido (ER-0019). \"essas duas porções\" retoma corretamente \"o peito da oferta movida e a coxa da oferta elevada\" da oração anterior — boa coesão preservada. Corrigida apenas a variação lexical \"israelitas\"→\"filhos de Israel\" (ver mudanças).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -184,10 +191,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "6479f6dfaaee46f815308ee7ce84fd3277d1e0c730ad3cce50ac70e484b2d790",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
