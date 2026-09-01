@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Deut.15.1-23"
   },
-  "texto_bv": "Tenha cuidado para não acolher no coração esta ideia perversa: “O sétimo ano, o ano da remissão, está próximo”, e então olhar com má vontade para seu irmão pobre e não lhe dar nada. Ele clamará ao SENHOR contra você, e você incorrerá em pecado.",
+  "texto_bv": "Tenha cuidado para não acolher no coração esta ideia perversa: “O sétimo ano, o ano da remissão, está próximo”, nem olhar com má vontade para seu irmão pobre, nem deixar de lhe dar algo. Ele clamará ao SENHOR contra você, e você incorrerá em pecado.",
   "traducao_literal": "Guarde-se para que não haja palavra com seu coração perversa, dizendo: Aproximou-se o ano do sete, o ano da remissão; e seja mau seu olho contra seu irmão, o pobre, e não dê a ele; e ele clame contra você a YHWH, e haja em você pecado.",
   "termos_originais": [
     {
@@ -196,6 +196,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Tenha cuidado para não acolher no coração esta ideia perversa: “O sétimo ano, o ano da remissão, está próximo”, e então olhar com má vontade para seu irmão pobre e não lhe dar nada. → Tenha cuidado para não acolher no coração esta ideia perversa: “O sétimo ano, o ano da remissão, está próximo”, nem olhar com má vontade para seu irmão pobre, nem deixar de lhe dar algo.",
+      "justificativa": "O פֶּן hebraico (\"para que não\") rege as três orações (não haver o pensamento, não ficar mau o olho, não deixar de dar); na forma anterior, a negação de \"para não\" só alcançava \"acolher\" — \"e então olhar com má vontade\" ficava sem negação, lendo-se como se o cuidado fosse PARA olhar com má vontade, e o \"e não lhe dar nada\" final criava dupla negação sob o mesmo \"para não\" (equivalendo a \"para dar\"). A cadeia \"nem... nem...\" distribui a negação corretamente pelas três orações, sem alterar o conteúdo. — revisão de forma sem alteração de sentido (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -216,10 +223,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "14fc8c336b2517025460b6cedd8c5eebf278f263051763e3fc3f27b288e23a1b",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
