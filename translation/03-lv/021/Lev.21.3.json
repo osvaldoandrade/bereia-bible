@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Lev.21.1-24"
   },
-  "texto_bv": "e por sua irmã virgem, que lhe é próxima e ainda não tiver se casado. Por ela, ele poderá tornar-se impuro.",
+  "texto_bv": "e por sua irmã virgem, que lhe é próxima e ainda não se casou. Por ela, ele poderá tornar-se impuro.",
   "traducao_literal": "E por sua irmã, a virgem próxima a ele, que não foi para um homem; por ela se tornará impuro.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que lhe é próxima e ainda não tiver se casado → que lhe é próxima e ainda não se casou",
+      "justificativa": "Quebra na cadeia verbal: indicativo presente ('é') coordenado com subjuntivo futuro ('tiver se casado') na mesma oração relativa, referindo-se a um referente definido (a irmã específica) — o subjuntivo futuro é próprio de condições genéricas/indeterminadas, não de um fato atual sobre pessoa determinada. Corrigido para indicativo perfeito, coerente com 'é' e mais próximo do perfeito hebraico הָיְתָה ('não foi [dada] a um homem'); sentido inalterado. — revisão de forma sem alteração de sentido (ER-0019). Correção de forma (concordância modo-temporal); o conteúdo proposicional (a irmã virgem ainda não se casou) permanece idêntico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [
@@ -116,11 +123,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
