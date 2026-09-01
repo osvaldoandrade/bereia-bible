@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "E os peixes, que estão no rio, morrerão, e o rio cheirará mal; e os egípcios vão se cansar, procurando beber água do rio.",
+  "texto_bv": "E os peixes que estão no rio morrerão, e o rio cheirará mal; e os egípcios se cansarão, procurando beber água do rio.",
   "traducao_literal": "E o peixe que no Nilo morrerá, e federá o Nilo, e cansar-se-ão os egípcios de beber água do Nilo.",
   "termos_originais": [
     {
@@ -100,6 +100,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E os peixes, que estão no rio, morrerão → E os peixes que estão no rio morrerão | os egípcios vão se cansar → os egípcios se cansarão",
+      "justificativa": "A relativa é restritiva (הַדָּגָה אֲשֶׁר בַּיְאֹר, 'o peixe que está no Nilo'); as vírgulas a tornavam explicativa, alterando a leitura — a pontuação segue a sintaxe, não os acentos. | Perífrase 'vão se cansar' destoa do registro e quebra a cadeia de futuros sintéticos do verso ('morrerão', 'cheirará'); וְנִלְאוּ é futuro simples. — revisão de forma sem alteração de sentido (ER-0019). 'Procurando beber' é a leitura interpretativa aprovada da camada para לִשְׁתּוֹת (cansar-se-ão de beber; KJV 'shall lothe to drink'); o plural idiomático 'os peixes' para o coletivo הַדָּגָה é decisão vigente e foi mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -111,7 +118,7 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.3.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-fable-5",

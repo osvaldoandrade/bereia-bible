@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "E diga-lhe: O SENHOR, o Deus dos hebreus, me enviou a ti, dizendo: Deixa ir o meu povo, para que me sirva no deserto; porém veja que até agora não tem ouvido.",
+  "texto_bv": "E diga-lhe: O SENHOR, o Deus dos hebreus, me enviou a você, dizendo: Deixe ir o meu povo, para que me sirva no deserto; porém veja que até agora você não tem ouvido.",
   "traducao_literal": "E dirás a ele: YHWH, o Deus dos hebreus, enviou-me a ti, dizendo: Deixa ir o meu povo, e servir-me-á no deserto; e eis que não ouviste até aqui.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "me enviou a ti → me enviou a você | Deixa ir o meu povo → Deixe ir o meu povo | até agora não tem ouvido → até agora você não tem ouvido",
+      "justificativa": "Descontinuidade de tratamento na mesma fala: o próprio verso segue com 'veja' (você); fala de humano (Moisés) a humano (Faraó) usa você pela política de segunda pessoa; singular preservado (אֵלֶיךָ, 2ms). | Mesma fala mistura imperativo de tu ('Deixa') com você ('veja'); a ordem de Deus a Faraó segue a política Deus→humano = você, consistente com 7.27 ('se você recusar') na mensagem paralela. | Sujeito de 'não tem ouvido' ficava recuperável só por inferência (podia ler-se 'o povo'); o hebraico é 2ms (שָׁמַעְתָּ) — explicitação desfaz a ambiguidade. — revisão de forma sem alteração de sentido (ER-0019). Pretérito perfeito composto 'não tem ouvido' verte bem o perfeito com עַד־כֹּה ('até aqui'); próclise 'me enviou' após sujeito é padrão brasileiro culto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,10 +141,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-fable-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

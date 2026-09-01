@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "E todos os egípcios cavaram poços junto ao rio, para beber água; porquanto não podiam beber da água do rio.",
+  "texto_bv": "E todos os egípcios cavaram poços junto ao rio, para beber água; porque não podiam beber da água do rio.",
   "traducao_literal": "E cavaram todos os egípcios ao redor do Nilo água para beber, porque não podiam beber das águas do Nilo.",
   "termos_originais": [
     {
@@ -98,6 +98,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "porquanto não podiam → porque não podiam",
+      "justificativa": "'Porquanto' é conectivo datado; 'porque' verte כִּי causal no registro formal-neutro contemporâneo sem perda. — revisão de forma sem alteração de sentido (ER-0019). 'Poços' explicita o objeto implícito de 'cavar' conforme a camada aprovada; 'junto ao rio' para סְבִיבֹת é a solução idiomática consagrada em português para este verso; 'da água' (partitivo) reflete מִמֵּימֵי, distinto de 7.18/7.21 no original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -109,11 +116,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "Disse mais o SENHOR a Moisés: Diga a Arão: Tome a sua vara, e estenda a sua mão sobre as águas do Egito, sobre os seus rios, sobre os seus canais, sobre os seus tanques e sobre todo o ajuntamento das suas águas, para que se tornem sangue. E haja sangue por toda a terra do Egito, tanto nos vasos de madeira como nos de pedra.",
+  "texto_bv": "Disse ainda o SENHOR a Moisés: Diga a Arão: Tome a sua vara, e estenda a sua mão sobre as águas do Egito, sobre os seus rios, sobre os seus canais, sobre os seus tanques e sobre todo o ajuntamento das suas águas, para que se tornem sangue; e haja sangue por toda a terra do Egito, tanto nos vasos de madeira como nos de pedra.",
   "traducao_literal": "E disse YHWH a Moisés: Dize a Arão: Toma o teu cajado e estende a tua mão sobre as águas do Egito, sobre os seus rios, sobre os seus canais, e sobre os seus açudes, e sobre todo o ajuntamento das suas águas, e tornar-se-ão em sangue; e haverá sangue em toda a terra do Egito, e nas madeiras e nas pedras.",
   "termos_originais": [
     {
@@ -205,6 +205,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Disse mais o SENHOR → Disse ainda o SENHOR | para que se tornem sangue. E haja sangue → para que se tornem sangue; e haja sangue",
+      "justificativa": "'Disse mais' é conectivo datado (eco de Almeida) para o waw simples; 'ainda' cumpre a mesma função aditiva no registro contemporâneo. | O subjuntivo 'haja' continua o escopo final de 'para que' (sequência volitiva do hebraico: וְיִהְיוּ... וְהָיָה); separado por ponto ficava sintaticamente órfão. Ponto e vírgula preserva a dependência sem inventar relação nova. — revisão de forma sem alteração de sentido (ER-0019). A série enumerativa longa espelha o original e é escandida com clareza; quebrá-la inventaria estrutura. 'Canais' para o plural de 2975 ao lado de 'rio' (o Nilo, singular determinado) é variação motivada, consistente com 8.1 no contexto; 'vasos de madeira/pedra' é a leitura aprovada da camada. 'Ajuntamento das suas águas' segue o léxico consagrado do corpus para מִקְוֵה.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -216,11 +223,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

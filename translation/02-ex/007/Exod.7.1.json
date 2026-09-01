@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "Então disse o SENHOR a Moisés: Eis que te tenho posto como deus sobre Faraó, e Arão, teu irmão, será o teu profeta.",
+  "texto_bv": "Então disse o SENHOR a Moisés: Eis que tenho posto você como deus sobre Faraó, e Arão, seu irmão, será o seu profeta.",
   "traducao_literal": "E disse YHWH a Moisés: Vê, dei-te por deus para Faraó, e Arão, teu irmão, será o teu profeta.",
   "termos_originais": [
     {
@@ -99,6 +99,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "te tenho posto → tenho posto você | Arão, teu irmão → Arão, seu irmão | o teu profeta → o seu profeta",
+      "justificativa": "Descontinuidade de tratamento na mesma fala: o verso seguinte (7.2), continuação direta do discurso, usa você ('Você falará... seu irmão'); política de segunda pessoa manda você de Deus para humanos, singular preservado (נְתַתִּיךָ, sufixo 2ms). | Alinhamento de tratamento com 7.2 ('Arão, seu irmão') na mesma fala divina. | Mesmo ajuste de tratamento tu→você; singular do original preservado (נְבִיאֶךָ, 2ms). — revisão de forma sem alteração de sentido (ER-0019). Correção restrita ao tratamento (tu→você) para coesão com 7.2 e com a política de segunda pessoa; 'Eis que' para רְאֵה é escolha aprovada da camada (KJV 'See') e foi mantida. 'Sobre Faraó' para לְפַרְעֹה é decisão de tradução aprovada, não defeito de forma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "O discurso direto usa apenas dois-pontos, sem as aspas duplas curvas previstas pela norma editorial. — evidência: Padrão uniforme em todo o capítulo e nos vizinhos (Ex 6.29-30; 8.1 no contexto); introduzir aspas só aqui criaria descontinuidade — a adoção exige passada em cadeia sobre o livro inteiro. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -110,11 +124,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
