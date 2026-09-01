@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Exod.24.1-18"
   },
-  "texto_bv": "Moisés veio e contou ao povo todas as palavras do SENHOR e todas as ordenanças; então todo o povo respondeu a uma voz e disseram: Todas as palavras que o SENHOR falou faremos.",
+  "texto_bv": "Moisés veio e contou ao povo todas as palavras do SENHOR e todas as ordenanças; então todo o povo respondeu a uma só voz e disse: Todas as palavras que o SENHOR falou faremos.",
   "traducao_literal": "E veio Moisés e contou ao povo todas as palavras de YHWH e todas as sentenças; e respondeu todo o povo com uma voz, e disseram: Todas as palavras que falou YHWH faremos.",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "respondeu a uma voz → respondeu a uma só voz | e disseram: Todas as palavras → e disse: Todas as palavras",
+      "justificativa": "קוֹל אֶחָד é adjunto adverbial (com uma só voz); sem o reforço, responder a uma voz convida à leitura errada de objeto indireto (responder a alguém). O só apenas explicita o numeral אֶחָד, sem alterar o sentido. | O hebraico alterna singular (וַיַּעַן) e plural ad sensum (וַיֹּאמְרוּ) com o mesmo sujeito כָּל־הָעָם; na mesma coordenação o português exige concordância uniforme com o coletivo singular. — revisão de forma sem alteração de sentido (ER-0019). Concordância uniformizada com o coletivo e ambiguidade de regência desfeita; a anteposição do objeto na resposta do povo (Todas as palavras... faremos) foi mantida por espelhar a ênfase do hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -159,11 +166,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

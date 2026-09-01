@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Exod.24.1-18"
   },
-  "texto_bv": "E tomou o livro da aliança, e o leu aos ouvidos do povo, e eles disseram: Tudo o que o SENHOR tem falado faremos, e obedeceremos.",
+  "texto_bv": "E tomou o livro da aliança, e o leu aos ouvidos do povo, e eles disseram: Tudo o que o SENHOR falou faremos, e obedeceremos.",
   "traducao_literal": "E tomou o livro do pacto e leu aos ouvidos do povo, e disseram: Tudo o que falou YHWH faremos e ouviremos.",
   "termos_originais": [
     {
@@ -104,6 +104,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que o SENHOR tem falado faremos → que o SENHOR falou faremos",
+      "justificativa": "Mesmo perfeito דִּבֶּר da fórmula idêntica em 24.3 (falou); o composto tem falado sugere ação iterativa em curso que o original não marca e quebra a coesão da fórmula de aliança repetida no capítulo. — revisão de forma sem alteração de sentido (ER-0019). Tempo verbal alinhado ao perfeito hebraico e à fórmula de 24.3; sujeito implícito de tomou recuperável (Moisés, desde o v. 6); aos ouvidos do povo é idiomático em português.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -115,11 +122,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

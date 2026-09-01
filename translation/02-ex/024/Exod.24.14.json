@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Exod.24.1-18"
   },
-  "texto_bv": "E disse aos anciãos: Esperem por nós aqui, até que tornemos a vocês; Arão e Hur estão com vocês; quem tiver alguma causa, se chegue a eles.",
+  "texto_bv": "E disse aos anciãos: Esperem por nós aqui, até que tornemos a vocês; Arão e Hur estão com vocês; quem tiver alguma causa se chegue a eles.",
   "traducao_literal": "E aos anciãos disse: Assentai-vos para nós aqui, até que voltemos a vós; e eis que Arão e Hur convosco; quem tiver questões, aproxime-se a eles.",
   "termos_originais": [
     {
@@ -135,6 +135,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "quem tiver alguma causa, se chegue a eles. → quem tiver alguma causa se chegue a eles.",
+      "justificativa": "Vírgula entre o sujeito oracional (quem tiver alguma causa) e o seu verbo (se chegue) é proscrita pela norma culta; a supressão não toca o sentido. — revisão de forma sem alteração de sentido (ER-0019). Vírgula entre sujeito e verbo suprimida; Esperem por nós já verte שְׁבוּ לָנוּ sem calque; se chegue consistente com 24.2 para נגשׁ; tratamento vocês uniforme na fala.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "tornemos (tornar = voltar) é registro datado; voltemos seria mais natural ao leitor contemporâneo, mas a troca é lexical, fora dos tipos desta etapa, e pede padronização em cadeia, pois o verbo recorre em fórmulas semelhantes noutros capítulos. — evidência: A camada literal traz voltemos para נָשׁוּב (7725); tornar nesse sentido não consta da lista de arcaísmos proibidos, por isso não foi corrigido de ofício. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -146,11 +160,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
