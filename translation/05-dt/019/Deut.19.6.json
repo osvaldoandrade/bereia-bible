@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Deut.19.1-21"
   },
-  "texto_bv": "Isso evitará que o vingador do sangue persiga o homicida com o coração inflamado, alcance-o por ser longo o caminho e lhe tire a vida, embora não mereça sentença de morte, pois não tinha ódio anterior contra a vítima.",
+  "texto_bv": "Isso evitará que o vingador do sangue, com o coração inflamado, persiga o homicida, alcance-o por ser longo o caminho e lhe tire a vida, embora não mereça sentença de morte, pois não tinha ódio anterior contra a vítima.",
   "traducao_literal": "Para que não persiga o resgatador do sangue atrás daquele que mata, porque se aquecerá seu coração, e o alcance, porque será grande o caminho, e o golpeie na vida, mas para ele não há sentença de morte, porque ele não odiava a ele desde ontem, anteontem.",
   "termos_originais": [
     {
@@ -193,6 +193,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o vingador do sangue persiga o homicida com o coração inflamado, → o vingador do sangue, com o coração inflamado, persiga o homicida,",
+      "justificativa": "O adjunto 'com o coração inflamado' ficava adjacente a 'o homicida', sugerindo por proximidade que o coração inflamado seria do homicida perseguido. No hebraico (כִּי יֵחַם לְבָבוֹ) o sujeito de 'coração aquecido' é o vingador do sangue, que persegue — confirmado pela lógica do texto (é a ira do vingador que motiva a perseguição) e pela KJV ('while his heart is hot' junto de 'the avenger... pursue'). Reposicionar o adjunto junto de seu referente correto elimina a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção de ambiguidade referencial por posição do adjunto adverbial; sentido integralmente preservado e conforme termos_originais/KJV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -211,11 +218,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
