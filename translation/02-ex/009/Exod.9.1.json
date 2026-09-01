@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Exod.9.1-35"
   },
-  "texto_bv": "E disse o SENHOR a Moisés: Vá a Faraó, e diga-lhe: Assim diz o SENHOR, o Deus dos hebreus: Deixe ir o meu povo, para que me sirva.",
+  "texto_bv": "Então disse o SENHOR a Moisés: Vá a Faraó, e diga-lhe: Assim diz o SENHOR, o Deus dos hebreus: Deixe ir o meu povo, para que me sirva.",
   "traducao_literal": "E disse YHWH a Moisés: Vem a Faraó, e falarás a ele: Assim disse YHWH, o Deus dos hebreus: Deixa ir o meu povo, e servir-me-á.",
   "termos_originais": [
     {
@@ -123,6 +123,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E disse o SENHOR a Moisés: → Então disse o SENHOR a Moisés:",
+      "justificativa": "Waw consecutivo (וַיֹּאמֶר) aberto com “E” isolado destoa da fórmula introdutória que o próprio capítulo já usa (vv. 8, 13, 22, 27: “Então disse”); “Então” verte a sequência narrativa sem acrescentar relação lógica que o hebraico não marque. — revisão de forma sem alteração de sentido (ER-0019). Refrão “Assim diz o SENHOR, o Deus dos hebreus: Deixe ir o meu povo, para que me sirva” mantido idêntico ao v. 13 (fórmula do ciclo das pragas); “sirva” no singular é concordância da norma culta com o coletivo “povo”, ainda que o hebraico tenha 3mp (וְיַעַבְדֻנִי).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Discurso direto introduzido por dois-pontos sem aspas duplas curvas, diferentemente da norma editorial de discurso direto. — evidência: Todo o capítulo (e a convenção observada no livro) usa dois-pontos sem aspas; aplicar aspas verso a verso criaria inconsistência em cadeia de capítulos — exige decisão registrada (EDITORIAL.md/DECISOES.md), não correção local. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -134,11 +148,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

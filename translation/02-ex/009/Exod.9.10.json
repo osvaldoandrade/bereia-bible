@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Exod.9.1-35"
   },
-  "texto_bv": "E tomaram a cinza do forno, e puseram-se diante de Faraó, e Moisés a espalhou para o céu; e surgiram úlceras que arrebentavam em bolhas nos homens e no gado.",
+  "texto_bv": "E tomaram a cinza do forno, puseram-se diante de Faraó, e Moisés a espalhou para o céu; e surgiram úlceras que arrebentavam em bolhas nos homens e no gado.",
   "traducao_literal": "E tomaram a fuligem do forno e ficaram diante de Faraó, e lançou-a Moisés para os céus; e houve úlcera de bolhas florescendo no homem e no animal.",
   "termos_originais": [
     {
@@ -125,6 +125,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E tomaram a cinza do forno, e puseram-se diante de Faraó, → E tomaram a cinza do forno, puseram-se diante de Faraó,",
+      "justificativa": "Cadeia de waw consecutivo vertida em “e... e... e... e”; o português coordena as duas primeiras ações do mesmo sujeito por justaposição, sem perda da sequência. — revisão de forma sem alteração de sentido (ER-0019). “puseram-se” com ênclise em posição não inicial correta; “a espalhou” próclise com sujeito anteposto, correta.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -136,11 +143,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
