@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gen.39.1-23"
   },
-  "texto_bv": "Falando ela a José dia após dia, ele não lhe dava ouvidos, para se deitar com ela, nem para estar com ela.",
+  "texto_bv": "Falando ela a José dia após dia, ele não lhe dava ouvidos, nem para se deitar com ela, nem para estar com ela.",
   "traducao_literal": "E aconteceu, como falar ela a José dia dia, que não a ouvia, para deitar-se junto dela, para estar com ela.",
   "termos_originais": [
     {
@@ -105,6 +105,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "não lhe dava ouvidos, para se deitar com ela, nem para estar com ela → não lhe dava ouvidos, nem para se deitar com ela, nem para estar com ela",
+      "justificativa": "a primeira infinitiva solta após vírgula era legível como finalidade de 'não dava ouvidos' ('não a ouvia a fim de se deitar com ela'), o contrário do sentido; o correlato 'nem... nem' explicita que as duas infinitivas são o conteúdo recusado, como na KJV ('to lie by her, or to be with her'), sem inventar relação que o hebraico não marca — revisão de forma sem alteração de sentido (ER-0019). O calque 'E aconteceu' já foi normalizado (gerúndio 'Falando ela'). A correção elimina uma ambiguidade de leitura real usando apenas conectivo correlato — forma pura, sentido intacto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -116,11 +123,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
