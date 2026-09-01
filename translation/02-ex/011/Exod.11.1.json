@@ -148,6 +148,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "EDITORIAL.md v1.2.0 pede discurso direto com dois-pontos + aspas duplas curvas, mas o capítulo inteiro usa apenas dois-pontos sem aspas, tal como os vizinhos da janela (Exod.10.28–29, Exod.12.1). Aplicar aspas isoladamente neste capítulo quebraria a consistência da cadeia de capítulos; exige aplicação em lote na obra, não correção verso a verso. — evidência: texto_bv dos versos 1, 2, 4–9 deste capítulo e contexto.anteriores/posteriores, todos sem aspas no discurso direto. (ER-0019).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -156,14 +163,16 @@
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0019): O hebraico traz אֶתְכֶם (2ª pessoa do plural, 'vocês') duas vezes — 'depois deixará VOCÊS irem daqui' e 'expulsará VOCÊS daqui' — mas a BV verte ambas em 3ª pessoa ('os deixará ir', 'os expulsará'), deslocando o destinatário da fala de 'vocês' (Moisés e o povo, interlocutores de YHWH) para um 'eles' sem antecedente na própria fala. A correção coesiva exigiria restaurar a 2ª pessoa, o que muda o sentido do texto atual — fora do mandato desta revisão; o texto não foi alterado. — evidência: termos_originais: אֶתְכֶם, lemma 853, morfologia HTo/Sp2mp (duas ocorrências); traducao_literal: 'vos deixará ir daqui... expulsar expulsará a vós daqui'; KJV: 'afterwards he will let you go hence: when he shall let you go, he shall surely thrust you out hence altogether'."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

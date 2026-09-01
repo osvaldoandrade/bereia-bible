@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Exod.11.1-10"
   },
-  "texto_bv": "Então todos estes seus servos descerão a mim, e se inclinarão diante de mim, dizendo: Saia você, e todo o povo que segue as suas pisadas; e depois eu sairei. E saiu da presença de Faraó ardendo em ira.",
+  "texto_bv": "Então todos estes seus servos descerão a mim e se inclinarão diante de mim, dizendo: Saia você e todo o povo que segue as suas pisadas; e depois eu sairei. E saiu da presença de Faraó ardendo em ira.",
   "traducao_literal": "E descerão todos os teus servos, estes, a mim, e prostrar-se-ão a mim, dizendo: Sai tu e todo o povo que aos teus pés; e depois disto sairei. E saiu de com Faraó no ardor de ira.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "descerão a mim, e se inclinarão diante de mim → descerão a mim e se inclinarão diante de mim | Saia você, e todo o povo que segue as suas pisadas → Saia você e todo o povo que segue as suas pisadas",
+      "justificativa": "Vírgula indevida antes de 'e' entre verbos coordenados com o mesmo sujeito ('todos estes seus servos'). | Vírgula indevida entre os núcleos do sujeito composto posposto do mesmo imperativo ('você e todo o povo'); a concordância com o núcleo mais próximo ('Saia') é legítima com sujeito posposto. — revisão de forma sem alteração de sentido (ER-0019). O sujeito elíptico de 'E saiu' (Moisés) é recuperável: 'da presença de Faraó' exclui Faraó como sujeito e Moisés é o falante desde o v. 4 — elipse mantida, sem inserir nome que o hebraico não traz. 'Que segue as suas pisadas' para אֲשֶׁר בְּרַגְלֶיךָ é solução consolidada (KJV 'that follow thee'). Registro você entre humanos (servos a Moisés; Moisés a Faraó em 'estes seus servos') correto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -154,11 +161,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

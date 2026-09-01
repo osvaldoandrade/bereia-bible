@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Exod.11.1-10"
   },
-  "texto_bv": "E o SENHOR deu graça ao povo aos olhos dos egípcios; também o homem Moisés era muito grande na terra do Egito, aos olhos dos servos de Faraó, e aos olhos do povo.",
+  "texto_bv": "E o SENHOR deu graça ao povo aos olhos dos egípcios; também o homem Moisés era muito grande na terra do Egito, aos olhos dos servos de Faraó e aos olhos do povo.",
   "traducao_literal": "E deu YHWH a graça do povo aos olhos do Egito; também o homem Moisés, grande muito na terra do Egito, aos olhos dos servos de Faraó e aos olhos do povo.",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "aos olhos dos servos de Faraó, e aos olhos do povo. → aos olhos dos servos de Faraó e aos olhos do povo.",
+      "justificativa": "Vírgula indevida antes de 'e' coordenando dois adjuntos curtos e paralelos; a norma culta não a admite aqui e a pontuação segue a sintaxe do português, não os acentos massoréticos. — revisão de forma sem alteração de sentido (ER-0019). Apenas pontuação; ordem e sentido preservados. 'Egípcios' é correto para מִצְרָיִם aqui (lemma 4713, gentílico), em contraste com 'terra do Egito' (4714) no mesmo verso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0019"
     }
   ],
   "palavras_supridas": [],
@@ -139,11 +146,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-fable-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
