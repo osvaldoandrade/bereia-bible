@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "1Sam.8.1-22"
   },
-  "texto_bv": "Samuel comunicou ao povo que lhe solicitava um rei tudo o que o SENHOR havia declarado.",
+  "texto_bv": "Samuel comunicou ao povo, que lhe solicitava um rei, tudo o que o SENHOR havia declarado.",
   "traducao_literal": "E disse Samuel todas as palavras do SENHOR ao povo, os que pediam da parte dele um rei.",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Samuel comunicou ao povo que lhe solicitava um rei tudo o que o SENHOR havia declarado. → Samuel comunicou ao povo, que lhe solicitava um rei, tudo o que o SENHOR havia declarado.",
+      "justificativa": "Sem vírgulas, 'que lhe solicitava um rei' pode ser lida momentaneamente como o conteúdo comunicado (complemento de 'comunicou'), forçando reanálise só ao chegar em 'tudo o que o SENHOR havia declarado'. As vírgulas isolam a oração relativa explicativa sobre 'povo', deixando clara desde o início a estrutura da frase, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção de pontuação para desfazer ambiguidade de encaixe sintático (leitura de jardim), mantendo integralmente o conteúdo do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -125,10 +132,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
