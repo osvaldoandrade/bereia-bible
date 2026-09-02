@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "2Sam.12.1-31"
   },
-  "texto_bv": "No sétimo dia, o menino morreu. Os servos de Davi tiveram medo de lhe contar que o menino havia morrido, pois diziam: “Enquanto o menino estava vivo, falamos com ele, e ele não deu ouvidos à nossa voz. Como lhe diremos que o menino morreu? Ele poderá fazer algum mal.”",
+  "texto_bv": "No sétimo dia, o menino morreu. Os servos de Davi tiveram medo de lhe contar que o menino havia morrido, pois diziam: “Enquanto o menino estava vivo, falamos com ele, e ele não deu ouvidos à nossa voz. Como lhe diremos que o menino morreu? Davi poderá fazer algum mal.”",
   "traducao_literal": "E aconteceu no dia sétimo, e morreu o menino; e temeram os servos de Davi declarar a ele que morreu o menino, pois disseram: “Eis que, ao estar o menino vivo, falamos a ele e não ouviu nossa voz; e como diremos a ele: ‘Morreu o menino’? E fará mal.”",
   "termos_originais": [
     {
@@ -199,6 +199,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Como lhe diremos que o menino morreu? Ele poderá fazer algum mal. → Como lhe diremos que o menino morreu? Davi poderá fazer algum mal.",
+      "justificativa": "O pronome 'Ele' ficava ambíguo entre 'o menino' (sujeito retomado duas vezes na frase imediatamente anterior) e Davi (o real referente, destinatário implícito em 'lhe diremos'); explicitado o nome para eliminar a ambiguidade referencial, sem alterar o sentido do hebraico (sujeito implícito de וְעָשָׂה רָעָה é Davi, confirmado pelo contexto e pela KJV: 'how will he then vex himself'). — revisão de forma sem alteração de sentido (ER-0022). Pronome ambíguo entre dois referentes possíveis ('o menino' e Davi) substituído por 'Davi' para eliminar a ambiguidade, preservando o sentido do hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -215,11 +222,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -175,14 +175,16 @@
   "confianca": 0.73,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0022): O trecho 'ela deu à luz um filho e lhe deu o nome Salomão' atribui a Bate-Seba (sujeito elíptico 'ela', mantido da oração anterior) a ação de nomear o filho. Porém a morfologia hebraica pinada do verbo de nomear é 3ª pessoa masculino singular ('e ele chamou'), o que exclui gramaticalmente Bate-Seba como sujeito; o referente masculino coerente com o contexto é Davi, confirmado pela KJV ('and he called his name Solomon'). Corrigir o sujeito de 'ela' para 'ele/Davi' mudaria o que o versículo afirma (quem deu o nome), não apenas a forma — por isso o texto não foi alterado. — evidência: termos_originais: palavra \"ויקרא\", lemma c/7121, morfologia HC/Vqw3ms (Qal wayyiqtol 3ª masc. sing., 'e ele chamou'); controles.kjv.texto: \"and he called his name Solomon\" (sujeito masculino singular); a traducao_literal traz 'ela chamou seu nome Salomão', divergindo da morfologia pinada."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
