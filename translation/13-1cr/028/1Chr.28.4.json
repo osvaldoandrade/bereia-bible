@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "1Chr.28.1-21"
   },
-  "texto_bv": "Contudo, o SENHOR, Deus de Israel, escolheu-me dentre toda a casa de meu pai para ser rei sobre Israel para sempre. Pois escolheu Judá para líder; da casa de Judá, a casa de meu pai; e, dentre os filhos de meu pai, agradou-se de mim para me fazer rei sobre todo o Israel.",
+  "texto_bv": "Contudo, o SENHOR, Deus de Israel, escolheu-me dentre toda a casa de meu pai para ser rei sobre Israel para sempre. Pois escolheu Judá para líder; da casa de Judá, escolheu a casa de meu pai; e, dentre os filhos de meu pai, agradou-se de mim para me fazer rei sobre todo o Israel.",
   "traducao_literal": "E escolheu o SENHOR, Deus de Israel, a mim, dentre toda a casa de meu pai, para ser rei sobre Israel para sempre; pois em Judá escolheu para dirigente, e na casa de Judá, a casa de meu pai, e entre os filhos de meu pai, em mim teve prazer para fazer reinar sobre todo Israel.",
   "termos_originais": [
     {
@@ -195,6 +195,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Pois escolheu Judá para líder; da casa de Judá, a casa de meu pai; e, dentre os filhos de meu pai, agradou-se de mim para me fazer rei sobre todo o Israel. → Pois escolheu Judá para líder; da casa de Judá, escolheu a casa de meu pai; e, dentre os filhos de meu pai, agradou-se de mim para me fazer rei sobre todo o Israel.",
+      "justificativa": "Elipse do verbo regente (\"escolheu\") entre orações separadas por ponto e vírgula, que o português não sustenta sem prejuízo à clareza — \"da casa de Judá, a casa de meu pai\" ficava sem predicado próprio. Verbo recuperado do mesmo lema hebraico bāḥar (977), já presente na oração anterior; nenhum conteúdo foi acrescentado. — revisão de forma sem alteração de sentido (ER-0022). Correção pontual de elipse verbal para restaurar a clareza sintática entre as três orações coordenadas; sentido preservado integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -210,11 +217,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
