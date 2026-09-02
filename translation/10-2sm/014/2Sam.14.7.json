@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "2Sam.14.1-33"
   },
-  "texto_bv": "Agora todo o clã se levantou contra sua serva e exige: ‘Entregue quem matou o irmão, para que o matemos pela vida do irmão que ele tirou; também destruiremos o herdeiro.’ Assim apagarão a única brasa que me restou e não deixarão ao meu marido nome nem descendência sobre a face da terra.”",
+  "texto_bv": "Agora todo o clã se levantou contra sua serva e exigiu: ‘Entregue quem matou o irmão, para que o matemos pela vida do irmão que ele tirou; também destruiremos o herdeiro.’ Assim apagarão a única brasa que me restou e não deixarão ao meu marido nome nem descendência sobre a face da terra.”",
   "traducao_literal": "E eis que se levantou toda a família contra tua serva, e disseram: “Dá aquele que golpeou seu irmão, e o mataremos pela vida de seu irmão que matou, e destruiremos também o herdeiro”; e apagarão minha brasa que restou, para não pôr para meu marido nome e remanescente sobre a face do solo.”",
   "termos_originais": [
     {
@@ -218,6 +218,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e exige: ‘Entregue → e exigiu: ‘Entregue",
+      "justificativa": "Quebra da cadeia temporal sem motivo: \"se levantou\" (passado) seguido de \"exige\" (presente) destoa do padrão do capítulo, em que todo verbo introdutório de fala está no pretérito (perguntou, respondeu, declarou, insistiu, pediu, disse...). Harmonizado para \"exigiu\", sem alterar o conteúdo da exigência citada. — revisão de forma sem alteração de sentido (ER-0022). Fechamento de aspas ao final corresponde à abertura de 14.5, corretamente encerrada aqui antes do verso 14.8.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -240,10 +247,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
