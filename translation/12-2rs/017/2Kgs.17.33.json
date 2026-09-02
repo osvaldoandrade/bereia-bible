@@ -7,7 +7,7 @@
     "versiculo": 33,
     "pericope": "2Kgs.17.1-41"
   },
-  "texto_bv": "Temiam o SENHOR e serviam seus próprios deuses, conforme o costume das nações que haviam sido deportadas de lá.",
+  "texto_bv": "Temiam o SENHOR e serviam seus próprios deuses, conforme o costume das nações de onde haviam sido deportados.",
   "traducao_literal": "O SENHOR tornaram-se temendo, e seus deuses tornaram-se servindo, conforme o costume das nações que os exilaram de lá.",
   "termos_originais": [
     {
@@ -96,6 +96,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "conforme o costume das nações que haviam sido deportadas de lá. → conforme o costume das nações de onde haviam sido deportados.",
+      "justificativa": "'que haviam sido deportadas' atribuía gramaticalmente a deportação às próprias nações de origem, o que não corresponde ao hebraico (הִגְלוּ אֹתָם, 'as nações... exilaram-nos') nem à tradução literal ('que os exilaram'); a correção devolve o papel de deportado ao sujeito do período (o povo transplantado), mantendo 'nações' como origem geográfica. — revisão de forma sem alteração de sentido (ER-0022). 'que haviam sido deportadas' atribuía a deportação às próprias nações de origem, o que não corresponde ao hebraico (הִגְלוּ אֹתָם, sujeito 'as nações', objeto 'a eles/o povo') nem à tradução literal ('que os exilaram'); corrigido para 'de onde haviam sido deportados', que devolve o papel de deportado ao sujeito do período (o povo transplantado) e mantém 'nações' como origem geográfica, sem alterar o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -112,10 +119,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
