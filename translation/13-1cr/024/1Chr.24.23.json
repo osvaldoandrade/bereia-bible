@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "1Chr.24.1-31"
   },
-  "texto_bv": "E os filhos: Jerias; Amarias, o segundo; Jaaziel, o terceiro; e Jecameão, o quarto.",
+  "texto_bv": "Os filhos: Jerias; Amarias, o segundo; Jaaziel, o terceiro; e Jecameão, o quarto.",
   "traducao_literal": "E filhos: Jerias; Amarias, o segundo; Jaaziel, o terceiro; Jecameão, o quarto.",
   "termos_originais": [
     {
@@ -84,6 +84,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E os filhos: Jerias; → Os filhos: Jerias;",
+      "justificativa": "O 'ו' inicial (וּבְנָי) é aqui apenas o conector de continuidade da lista genealógica, sem valor de waw consecutivo verbal; todos os demais cabeçalhos do capítulo (vv.1-7, 20) já dispensam o 'E' de abertura. Manter o 'E' só aqui quebra a consistência de forma estabelecida no próprio capítulo. — revisão de forma sem alteração de sentido (ER-0022). O verso não nomeia de quem são estes 'filhos' (falta 'de Hebrom' — presente na KJV como acréscimo interpretativo, mas ausente tanto no hebraico pinado quanto na camada literal). A lacuna é do próprio texto hebraico (cf. 1Cr 23.19, onde Hebrom aparece), não um defeito de forma da BV; preservá-la é fidelidade ao original, não erro de coesão a corrigir.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -97,11 +104,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
