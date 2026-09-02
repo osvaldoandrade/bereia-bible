@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "1Sam.12.1-25"
   },
-  "texto_bv": "Agora, apresentem-se, e entrarei em juízo com vocês diante do SENHOR a respeito de todos os atos de justiça que o SENHOR realizou por vocês e por seus antepassados.",
+  "texto_bv": "Agora, fiquem de pé, e entrarei em juízo com vocês diante do SENHOR a respeito de todos os atos de justiça que o SENHOR realizou por vocês e por seus antepassados.",
   "traducao_literal": "E agora, coloquem-se de pé, e entrarei em juízo com vocês diante do SENHOR acerca de todas as justiças do SENHOR que fez com vocês e com seus pais.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "apresentem-se → fiquem de pé",
+      "justificativa": "O mesmo lemma hebraico הִתְיַצְּבוּ (Strong 3320, hitpael imperativo 2mp, morfologia HVtv2mp) reaparece idêntico em 1Sam.12.16, onde a BV traduz ‘Fiquem de pé’ — rendição também mais próxima da própria camada literal deste verso (‘coloquem-se de pé’). ‘Apresentem-se’ divergia sem razão contextual real, já que os dois versos são exortações paralelas de Samuel iniciadas por ‘agora’ (וְעַתָּה/גַּם עַתָּה); normalizado para o lexema majoritário do capítulo conforme §1.4 (consistência lexical intra-capítulo). — revisão de forma sem alteração de sentido (ER-0022). Correção pontual de consistência lexical: o mesmo verbo hitpael que aparece no v.16 recebe agora o mesmo equivalente português, preservando o eco retórico das duas exortações de Samuel. Regência (‘entrarei em juízo com vocês diante do SENHOR’) e concordância do restante do período permanecem inalteradas e corretas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -136,10 +143,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
