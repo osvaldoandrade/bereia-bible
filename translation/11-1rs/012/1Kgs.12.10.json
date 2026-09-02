@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "1Kgs.12.1-33"
   },
-  "texto_bv": "Os jovens que tinham crescido com ele lhe disseram: “A este povo que falou a você: ‘Seu pai tornou pesado o nosso jugo, mas você, alivie-o de sobre nós’. Então diga a eles: ‘Meu dedo mínimo é mais grosso que a cintura do rei.’”",
+  "texto_bv": "Os jovens que tinham crescido com ele lhe disseram: “Diga a este povo que falou a você: ‘Seu pai tornou pesado o nosso jugo, mas você, alivie-o de sobre nós’. Então diga a eles: ‘Meu dedo mínimo é mais grosso que a cintura de meu pai.",
   "traducao_literal": "E falaram a ele os jovens que cresceram com ele, dizendo: “Assim você dirá a este povo que falou a você, dizendo: ‘Seu pai tornou pesado o nosso jugo, e você, torne leve de sobre nós’; assim falará a eles: ‘Meu pequeno é mais grosso que os quadris de meu pai.",
   "termos_originais": [
     {
@@ -196,6 +196,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "“A este povo que falou a você: ‘Seu pai tornou pesado o nosso jugo, mas você, alivie-o de sobre nós’. → “Diga a este povo que falou a você: ‘Seu pai tornou pesado o nosso jugo, mas você, alivie-o de sobre nós’. | Meu dedo mínimo é mais grosso que a cintura do rei. → Meu dedo mínimo é mais grosso que a cintura de meu pai. | que a cintura do rei.’” → que a cintura de meu pai.",
+      "justificativa": "A primeira oração do conselho dos jovens não tinha núcleo verbal — ‘A este povo que falou a você:’ é apenas um sintagma preposicionado, elipse que o português não sustenta como oração autônoma encerrada em ponto final. O hebraico traz verbo explícito e paralelo às duas instruções: כֹּֽה תֹאמַ֣ר לָעָ֣ם הַזֶּ֗ה... / כֹּ֚ה תְּדַבֵּ֣ר אֲלֵיהֶ֔ם (‘assim dirás a este povo... assim falarás a eles’). Acrescentado ‘Diga’ para restaurar o paralelismo bimembre e dar núcleo verbal à primeira instrução, espelhando a segunda (já vertida como ‘diga a eles’). | No contexto imediato (vv.6, 13, 28...) ‘o rei’ refere-se sistematicamente a Roboão, o destinatário desta própria fala — usar ‘o rei’ aqui cria ambiguidade referencial com o próprio Roboão. O referente pretendido é Salomão, pai de Roboão, conforme o sufixo pronominal hebraico אָבִי (‘meu pai’, 1cs) em מִמָּתְנֵ֥י אָבִֽי — mantém a primeira pessoa do discurso citado (as palavras que Roboão deve dizer) e elimina a ambiguidade. | As aspas de fechamento (simples e duplas) estavam colocadas ao final do v.10, mas o discurso citado (a fala que os jovens propõem a Roboão) continua sem interrupção no v.11 (‘Agora, meu pai impôs sobre vocês...’, que não abre nova citação) e só se encerra ao final do v.11 (‘...com escorpiões.’”’). Fechar as aspas aqui deixava o v.11 com fechamento de citação órfão, sem abertura correspondente. Removido o fechamento prematuro para manter a citação aberta até o real término no v.11. — revisão de forma sem alteração de sentido (ER-0022). Corrigidas: (1) elipse verbal insustentável na primeira instrução dos jovens, suprindo ‘Diga’ em paralelo à segunda instrução já presente no texto; (2) ambiguidade referencial de ‘o rei’ (Roboão vs. Salomão), restaurada a primeira pessoa ‘meu pai’ fiel ao sufixo hebraico; (3) fechamento de aspas precoce que deixava o v.11 com aspas de fechamento órfãs — a citação passa a fechar corretamente só ao fim do v.11. Nenhuma mudança de sentido: mesmo referente (Salomão) e mesmo conteúdo da fala proposta.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -212,11 +219,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

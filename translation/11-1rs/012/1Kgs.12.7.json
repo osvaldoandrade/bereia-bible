@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "1Kgs.12.1-33"
   },
-  "texto_bv": "Eles lhe disseram: “Se hoje você for servo deste povo, os servir, lhes responder e lhes disser palavras boas, eles serão servos de vocês todos os dias.”",
+  "texto_bv": "Eles lhe disseram: “Se hoje você for servo deste povo, os servir, lhes responder e lhes disser palavras boas, eles serão servos de você todos os dias.”",
   "traducao_literal": "E falaram a ele, dizendo: “Se hoje você for servo deste povo, e os servir, e lhes responder, e falar a eles palavras boas, então serão seus servos todos os dias.”",
   "termos_originais": [
     {
@@ -189,6 +189,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eles serão servos de vocês todos os dias. → eles serão servos de você todos os dias.",
+      "justificativa": "Toda a fala dos anciãos trata Roboão na segunda pessoa do singular (‘você for’, ‘os servir’, ‘lhes responder’, ‘lhes disser’); a troca para ‘vocês’ no fecho quebra a continuidade de tratamento dentro da mesma fala e diverge do sufixo pronominal hebraico לְךָ (2ms, singular) em וְהָי֥וּ לְךָ֛ עֲבָדִ֖ים — o KJV também mantém o singular (‘thy servants’). — revisão de forma sem alteração de sentido (ER-0022). Corrigida descontinuidade de tratamento (você/vocês) dentro da mesma fala, alinhando ao sufixo pronominal 2ms do hebraico e ao controle KJV (‘thy servants’). Correção de forma; sentido inalterado (mesmo referente, Roboão).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -202,11 +209,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
