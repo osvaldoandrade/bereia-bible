@@ -82,6 +82,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Descompasso de número entre o pronome plural 'Estes' e o predicativo singular 'o pai de Etã'. A causa é a elipse do hebraico (וְאֵלֶּה אֲבִי עֵיטָם), que justapõe 'estes' a 'pai de Etã' sem verbo e sem 'filhos de'. Resolver de fato o descompasso (inserir 'filhos do' ou 'do', como fazem ESV/NASB/KJV) é decisão lexical/exegética sobre um crux textual conhecido, não mera forma — prefiro sinalizar a decidir por conta própria. — evidência: termos_originais: אֵ֨לֶּה֙ (428, Pdxcp, plural) justaposto a אֲבִ֣י עֵיטָ֔ם (1, Ncmsc, singular construto), sem verbo nem בְּנֵי ('filhos'); KJV contorna o mesmo problema inserindo preposição: 'these were OF the father of Etam'; traducao_literal preserva a mesma justaposição sem verbo ('E estes, pai de Etã'). (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -98,10 +105,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "35c559d51dd5988cea1f6cec9e2c286894b2abc1913be45baab13cd3051eba0c",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
