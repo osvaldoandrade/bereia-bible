@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "2Sam.21.1-22"
   },
-  "texto_bv": "Os gibeonitas responderam: “Não temos questão de prata ou ouro com Saul e sua casa, nem cabe a nós matar alguém em Israel.” Davi perguntou: “O que vocês disserem, eu farei por vocês.”",
+  "texto_bv": "Os gibeonitas responderam: “Não temos questão de prata ou ouro com Saul e sua casa, nem cabe a nós matar alguém em Israel.” Davi respondeu: “O que vocês disserem, eu farei por vocês.”",
   "traducao_literal": "E disseram a ele os gibeonitas: “Não há para nós prata e ouro com Saul e com sua casa, e não há para nós homem para fazer morrer em Israel.” E disse: “O que vós dizeis, farei para vós.”",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Davi perguntou: “O que vocês disserem, eu farei por vocês.” → Davi respondeu: “O que vocês disserem, eu farei por vocês.”",
+      "justificativa": "O verbo introdutório “perguntou” exige que a fala citada seja uma pergunta, mas “O que vocês disserem, eu farei por vocês” é uma promessa declarativa (pontuada com ponto, não interrogação), correspondente ao hebraico וַיֹּאמֶר (“disse”, não “perguntou”) e ao KJV “And he said”. “Respondeu” corrige a incoerência entre verbo dicendi e o tipo de enunciado, mantendo o mesmo conteúdo prometido e alinhando-se ao padrão já usado no v.6 (“O rei respondeu”). — revisão de forma sem alteração de sentido (ER-0022). Corrigida incoerência entre o verbo introdutório de fala e o enunciado declarativo que o segue; conteúdo da promessa de Davi preservado integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -176,10 +183,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
