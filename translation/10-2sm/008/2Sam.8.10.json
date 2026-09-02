@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "2Sam.8.1-18"
   },
-  "texto_bv": "Toí enviou seu filho Jorão ao rei Davi para saudá-lo e felicitá-lo por ter guerreado contra Hadadezer e o derrotado, pois Hadadezer vivia em guerra com Toí. Jorão levou consigo objetos de prata, de ouro e de bronze.",
+  "texto_bv": "Toí enviou seu filho Jorão ao rei Davi para saudá-lo e felicitá-lo por ter guerreado contra Hadadezer e tê-lo derrotado, pois Hadadezer vivia em guerra com Toí. Jorão levou consigo objetos de prata, de ouro e de bronze.",
   "traducao_literal": "E enviou Toí Jorão, seu filho, ao rei Davi, para perguntar-lhe pela paz e para abençoá-lo por ter lutado contra Hadadezer e tê-lo ferido, pois homem de guerras de Toí era Hadadezer; e em sua mão havia utensílios de prata, utensílios de ouro e utensílios de bronze.",
   "termos_originais": [
     {
@@ -207,6 +207,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "por ter guerreado contra Hadadezer e o derrotado → por ter guerreado contra Hadadezer e tê-lo derrotado",
+      "justificativa": "O clítico \"o\" não pode se apoiar sozinho num particípio (\"derrotado\") sem o auxiliar \"ter\"; a norma culta exige repetir o auxiliar em contração com o pronome (\"tê-lo derrotado\"), como em \"ter guerreado ... e tê-lo derrotado\". Correção de colocação pronominal, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Após a correção de colocação pronominal, o restante do verso está correto: \"saudá-lo\"/\"felicitá-lo\" para \"perguntar-lhe pela paz\"/\"abençoá-lo\" é glosa idiomática já firmada (equivalente a \"cumprimentar\"/\"parabenizar\" após vitória militar), e \"consigo\" retoma Jorão sem ambiguidade.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -226,10 +233,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
