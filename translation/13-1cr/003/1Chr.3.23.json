@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "1Chr.3.1-24"
   },
-  "texto_bv": "E o filho de Nearias: Elioenai, Ezequias e Azricão: três.",
+  "texto_bv": "O filho de Nearias: Elioenai, Ezequias e Azricão: três.",
   "traducao_literal": "E filho de Nearias: Elioenai, e Ezequias, e Azricão: três.",
   "termos_originais": [
     {
@@ -81,6 +81,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E o filho de Nearias: Elioenai, Ezequias e Azricão: três. → O filho de Nearias: Elioenai, Ezequias e Azricão: três.",
+      "justificativa": "Mesmo caso do v.21: o 'E' inicial calca o waw hebraico (וּבֶן); normalizado para o padrão majoritário do capítulo, que abre os cabeçalhos genealógicos apenas com o artigo definido ('O filho de Salomão...', 'Os filhos de Josias...', etc.), sem o conector. — revisão de forma sem alteração de sentido (ER-0022). Ajuste apenas do conector inicial; lista de nomes preservada sem alteração de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -94,11 +101,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
