@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "1Sam.16.1-23"
   },
-  "texto_bv": "Samuel fez o que o SENHOR havia ordenado e chegou a Belém. Os anciãos da cidade foram encontrá-lo tremendo e perguntaram: “Sua chegada é de paz?”",
+  "texto_bv": "Samuel fez o que o SENHOR havia ordenado e chegou a Belém. Tremendo, os anciãos da cidade foram encontrá-lo e perguntaram: “Sua chegada é de paz?”",
   "traducao_literal": "E fez Samuel o que falou o SENHOR, e veio a Belém; e tremeram os anciãos da cidade ao encontro dele, e disse: “Paz é tua vinda?”",
   "termos_originais": [
     {
@@ -128,6 +128,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Os anciãos da cidade foram encontrá-lo tremendo e perguntaram → Tremendo, os anciãos da cidade foram encontrá-lo e perguntaram",
+      "justificativa": "Em português, 'verbo + clítico + gerúndio' (encontrá-lo tremendo) tende a atribuir o gerúndio ao objeto (como em 'encontrei-o chorando'), o que faria o leitor entender que era Samuel quem tremia. O hebraico (וַיֶּחֶרְד֞וּ) e a KJV ('the elders of the town trembled') atribuem o tremor aos anciãos, sujeito da oração. Deslocar 'tremendo' para o início, junto do sujeito, elimina a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Corrigida ambiguidade referencial do gerúndio 'tremendo'; demais aspectos (KJV, extensão, concordância) corretos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -146,10 +153,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

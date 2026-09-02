@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "1Sam.16.1-23"
   },
-  "texto_bv": "Mas o SENHOR disse a Samuel: “Não olhe para a aparência dele nem para sua grande altura, porque eu o rejeitei. O SENHOR não vê como o ser humano vê: o ser humano vê o que está diante dos olhos, mas o SENHOR vê o coração.”",
+  "texto_bv": "Mas o SENHOR disse a Samuel: “Não olhe para a aparência dele nem para a grande altura dele, porque eu o rejeitei. O SENHOR não vê como o ser humano vê: o ser humano vê o que está diante dos olhos, mas o SENHOR vê o coração.”",
   "traducao_literal": "E disse o SENHOR a Samuel: “Não olhes para sua aparência e para a altura de sua estatura, pois o rejeitei; pois não como o que vê o ser humano, porque o ser humano vê para os olhos, e o SENHOR vê para o coração.”",
   "termos_originais": [
     {
@@ -180,6 +180,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não olhe para a aparência dele nem para sua grande altura → Não olhe para a aparência dele nem para a grande altura dele",
+      "justificativa": "Na mesma oração, 'dele' já foi usado para marcar o referente (Eliabe); trocar em seguida para 'sua' reintroduz a ambiguidade que o próprio texto acabara de evitar, pois 'sua' pode remeter tanto a 'você' (Samuel, destinatário da ordem) quanto a 'ele' (Eliabe). O hebraico usa o mesmo sufixo de 3ª pessoa nas duas ocorrências (מַרְאֵהוּ / קוֹמָתוֹ); uniformizar para 'dele' mantém a referência única sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Corrigida inconsistência pronominal que reabria ambiguidade de referente; paralelismo antitético do restante do verso (o ser humano vê.../o SENHOR vê...) é fórmula do original e foi mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -199,11 +206,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
