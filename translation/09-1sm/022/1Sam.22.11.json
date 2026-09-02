@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "1Sam.22.1-23"
   },
-  "texto_bv": "Por ordem do rei, foram chamados o sacerdote Aimeleque, filho de Aitube, e os demais sacerdotes de Nobe pertencentes à sua casa paterna. O grupo inteiro apresentou-se ao rei.",
+  "texto_bv": "Por ordem do rei, foram chamados o sacerdote Aimeleque, filho de Aitube, e os demais sacerdotes de Nobe pertencentes à família de seu pai. O grupo inteiro apresentou-se ao rei.",
   "traducao_literal": "E enviou o rei para chamar Aimeleque, filho de Aitube, o sacerdote, e toda a casa de seu pai, os sacerdotes que estavam em Nobe; e vieram todos ao rei.",
   "termos_originais": [
     {
@@ -136,6 +136,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sua casa paterna → família de seu pai",
+      "justificativa": "Consistência lexical intra-capítulo: בֵּית אָב é vertido como 'família de seu/meu pai' em 1Sam.22.1, 22.15, 22.16 e 22.22; 'casa paterna' era variação isolada, sem jogo de palavras, paralelismo ou registro distinto que a justifique. Normalizado para o lexema majoritário do capítulo (EDITORIAL.md §1.4), sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0022). Verso corrigido apenas por consistência lexical intra-capítulo; o sentido (sacerdotes pertencentes à casa/família de Aimeleque) é preservado integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -156,10 +163,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -149,13 +149,32 @@
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0022): 'נִצָּב עַל' (particípio nifal + preposição 'sobre') indica posição de chefia/supervisão ('posto sobre, encarregado de'), não mera copresença entre pares. A texto_bv traduz 'que estava entre os servos de Saul', o que rebaixa Doeg a um dos servos comuns, quando o hebraico e a própria camada literal da BV indicam que ele estava posto EM AUTORIDADE sobre os servos de Saul. Corrigir a preposição/verbo mudaria o sentido do texto atual (de par para superior hierárquico), por isso fica registrado como objeção, sem alteração do texto. — evidência: traducao_literal: 'e ele estava posto sobre os servos de Saul'; KJV: 'which was set over the servants of Saul' — ambas as fontes de controle apontam posição de chefia ('sobre'), não de mera participação ('entre')."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
