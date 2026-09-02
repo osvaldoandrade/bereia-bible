@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "1Sam.11.1-15"
   },
-  "texto_bv": "Todo o povo foi a Gilgal e ali fizeram Saul rei diante do SENHOR. Também ofereceram sacrifícios de ofertas pacíficas diante do SENHOR. Saul e todos os homens de Israel se alegraram intensamente.",
+  "texto_bv": "Todo o povo foi a Gilgal e ali fez Saul rei diante do SENHOR. Também ofereceu sacrifícios de ofertas pacíficas diante do SENHOR. Saul e todos os homens de Israel se alegraram intensamente.",
   "traducao_literal": "E foi todo o povo a Gilgal, e fizeram reinar ali Saul diante do SENHOR, em Gilgal; e sacrificaram ali sacrifícios de ofertas pacíficas diante do SENHOR; e alegrou-se ali Saul e todos os homens de Israel até muito.",
   "termos_originais": [
     {
@@ -188,6 +188,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ali fizeram Saul rei diante do SENHOR → ali fez Saul rei diante do SENHOR | Também ofereceram sacrifícios de ofertas pacíficas diante do SENHOR. → Também ofereceu sacrifícios de ofertas pacíficas diante do SENHOR.",
+      "justificativa": "\"Todo o povo\" é sujeito coletivo singular; o verbo \"fizeram\" (plural) quebrava a concordância com \"foi\", já no singular, na mesma cadeia referencial. Norma culta pede consistência de número para o mesmo sujeito (não altera quem praticou a ação). | Mesmo sujeito coletivo singular (\"todo o povo\") do período anterior; normalizado para o singular por consistência de concordância ao longo da cadeia referencial. — revisão de forma sem alteração de sentido (ER-0022). Corrigida a concordância verbal: \"todo o povo\" é sujeito coletivo singular, e os verbos \"fizeram\"/\"ofereceram\" foram normalizados para \"fez\"/\"ofereceu\", alinhando-os ao verbo \"foi\" já presente na mesma cadeia, sem alterar quem praticou as ações. O verbo final \"se alegraram\" permanece no plural corretamente, pois concorda com o sujeito composto \"Saul e todos os homens de Israel\".",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -199,11 +206,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
