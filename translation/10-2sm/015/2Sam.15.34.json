@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "2Sam.15.1-37"
   },
-  "texto_bv": "Mas, se você voltar à cidade e disser a Absalão: ‘Serei teu servo, ó rei. Fui servo de teu pai no passado, e agora sou teu servo’, assim frustrará para mim o conselho de Aitofel.",
+  "texto_bv": "Mas, se você voltar à cidade e disser a Absalão: ‘Serei seu servo, ó rei. Fui servo de seu pai no passado, e agora sou seu servo’, assim frustrará para mim o conselho de Aitofel.",
   "traducao_literal": "E se à cidade voltar e disser a Absalão: “Teu servo eu, ó rei, serei; servo de teu pai eu desde então, e agora eu sou teu servo”; e anulará para mim o conselho de Aitofel.",
   "termos_originais": [
     {
@@ -162,6 +162,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "‘Serei teu servo, ó rei. Fui servo de teu pai no passado, e agora sou teu servo’ → ‘Serei seu servo, ó rei. Fui servo de seu pai no passado, e agora sou seu servo’",
+      "justificativa": "Fala de Husai a Absalão é diálogo humano-humano (você/seu); as três ocorrências de 'teu' destoavam da própria abertura do versículo, que já emprega 'você' ('se você voltar'), e do padrão fixado em 2Sm 15:21 para a mesma construção עַבְדְּךָ. — revisão de forma sem alteração de sentido (ER-0022). Corrigido tratamento de 2ª pessoa (teu→seu, 3 ocorrências) para conformidade com a norma editorial e coerência com 'você' já usado no início do próprio versículo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -179,10 +186,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
