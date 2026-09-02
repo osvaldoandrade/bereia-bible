@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "1Sam.26.1-25"
   },
-  "texto_bv": "“Agora, por favor, ouça meu senhor, o rei, as palavras de seu servo. Se foi o SENHOR quem o incitou contra mim, que ele aceite uma oferta; mas, se foram seres humanos, sejam eles malditos diante do SENHOR, pois hoje me expulsaram para que eu não tenha parte na herança do SENHOR, dizendo: ‘Vá servir a outros deuses!’”",
+  "texto_bv": "“Agora, por favor, ouça meu senhor, o rei, as palavras de seu servo. Se foi o SENHOR quem o incitou contra mim, que ele aceite uma oferta. Mas, se foram seres humanos, sejam eles malditos diante do SENHOR, pois hoje me expulsaram para que eu não tenha parte na herança do SENHOR, dizendo: ‘Vá servir a outros deuses!’”",
   "traducao_literal": "E agora ouça, por favor, meu senhor, o rei, as palavras de seu servo. Se o SENHOR te incitou contra mim, cheire ele uma oferta; e se filhos do homem, malditos eles diante do SENHOR, porque expulsaram-me hoje de apegar-me na herança do SENHOR, dizendo: “Vai, serve deuses outros.”",
   "termos_originais": [
     {
@@ -223,6 +223,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que ele aceite uma oferta; mas, se foram seres humanos, → que ele aceite uma oferta. Mas, se foram seres humanos,",
+      "justificativa": "Sentença com cerca de 45 palavras após o ponto-e-vírgula; quebrada em duas orações no próprio limite contrastivo já marcado por 'mas', sem inventar relação lógica nova ao hebraico (§1.5). — revisão de forma sem alteração de sentido (ER-0022). Fora a quebra de extensão registrada em mudancas, tratamento e pronomes corretos; 'ele' referente ao SENHOR mantido em minúscula.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -241,11 +248,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
