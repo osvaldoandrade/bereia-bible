@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Chr.2.1-17"
   },
-  "texto_bv": "“Ele é filho de uma mulher das filhas de Dã, e seu pai é um homem tírio. Ele sabe trabalhar com ouro, prata, bronze, ferro, pedras, madeira, púrpura, azul, linho fino e carmesim, gravar toda gravura e projetar todo projeto que lhe seja dado. Ele trabalhará junto com seus homens habilidosos e com os homens peritos de meu senhor Davi, seu pai.”",
+  "texto_bv": "“Ele é filho de uma mulher das filhas de Dã, e seu pai é um homem tírio. Ele sabe trabalhar com ouro, prata, bronze, ferro, pedras, madeira, púrpura, azul, linho fino e carmesim, gravar toda gravura e projetar todo projeto que lhe seja dado. Ele trabalhará junto com os homens habilidosos que estão com você e com os homens habilidosos de meu senhor Davi, seu pai.”",
   "traducao_literal": "“Filho de uma mulher das filhas de Dã, e seu pai, homem tírio; conhecedor para fazer no ouro e na prata, no bronze, no ferro, nas pedras e nas madeiras, na púrpura, no azul, no linho fino e no carmesim, e para gravar toda gravura e para planejar todo projeto que lhe seja dado, com seus sábios e os sábios de meu senhor Davi, seu pai.”",
   "termos_originais": [
     {
@@ -264,6 +264,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele trabalhará junto com seus homens habilidosos e com os homens peritos de meu senhor Davi, seu pai.” → Ele trabalhará junto com os homens habilidosos que estão com você e com os homens habilidosos de meu senhor Davi, seu pai.”",
+      "justificativa": "'seus homens habilidosos' ficava colado ao sujeito da oração ('Ele' = Hurão-Abi), levando o leitor a entender que os homens seriam dele; o sufixo hebraico חֲכָמֶיךָ (2ms) indica que são os homens habilidosos do destinatário Salomão, não de Hurão-Abi. Explicitar 'que estão com você' remove a ambiguidade sem mudar o sentido. Também normalizado 'peritos' para 'habilidosos' (mesmo lemma hebraico 2450 já usado nos vv.6 e 12), conforme a regra de consistência lexical intracapítulo (§1.4); o hebraico repete a mesma palavra (חֲכָמֶיךָ/חַכְמֵי) de propósito, ligando os dois grupos de artesãos. — revisão de forma sem alteração de sentido (ER-0022). Corrigida ambiguidade de referente pronominal e normalizado o lexema para consistência intracapítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -283,11 +290,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
