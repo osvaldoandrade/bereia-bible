@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "1Kgs.2.1-46"
   },
-  "texto_bv": "O SENHOR fará o sangue dele voltar sobre sua própria cabeça, porque ele atacou dois homens mais justos e melhores do que ele e os matou à espada, sem que meu pai Davi soubesse. Abner, filho de Ner, comandante do exército de Israel, e Amasa, filho de Jeter, comandante do exército de Judá.",
+  "texto_bv": "O SENHOR fará o sangue dele voltar sobre sua própria cabeça, porque ele atacou dois homens mais justos e melhores do que ele e os matou à espada, sem que meu pai Davi soubesse. Eram eles Abner, filho de Ner, comandante do exército de Israel, e Amasa, filho de Jeter, comandante do exército de Judá.",
   "traducao_literal": "E fará voltar o SENHOR o sangue dele sobre sua cabeça, porque ele atingiu dois homens justos e bons mais do que ele, e os matou pela espada, e meu pai Davi não soube: Abner, filho de Ner, comandante do exército de Israel, e Amasa, filho de Jeter, comandante do exército de Judá.",
   "termos_originais": [
     {
@@ -216,6 +216,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O SENHOR fará o sangue dele voltar sobre sua própria cabeça, porque ele atacou dois homens mais justos e melhores do que ele e os matou à espada, sem que meu pai Davi soubesse. Abner, filho de Ner, comandante do exército de Israel, e Amasa, filho de Jeter, comandante do exército de Judá. → O SENHOR fará o sangue dele voltar sobre sua própria cabeça, porque ele atacou dois homens mais justos e melhores do que ele e os matou à espada, sem que meu pai Davi soubesse. Eram eles Abner, filho de Ner, comandante do exército de Israel, e Amasa, filho de Jeter, comandante do exército de Judá.",
+      "justificativa": "Sentença com ~53 palavras cujo aposto explicativo (\"Abner... e Amasa...\") ficava sem verbo após o ponto final, um fragmento. Inserido \"Eram eles\", cópula mínima que só explicita a identificação elíptica já presente na aposição nominal hebraica (equivalente ao \"to wit\" da KJV), sem introduzir relação lógica nova; a quebra em duas orações permanece dentro do limite de extensão. — revisão de forma sem alteração de sentido (ER-0022). Aposto explicativo (\"Abner... e Amasa...\") vinha separado por ponto final como fragmento sem verbo, e a sentença somava ~53 palavras. Corrigido: mantida a quebra em duas orações, mas inserido \"Eram eles\" para suprir o verbo elidido do aposto hebraico (equivalente ao \"to wit\" da KJV), sem acrescentar relação lógica nova.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -230,11 +237,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
