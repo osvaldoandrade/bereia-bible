@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Chr.7.1-22"
   },
-  "texto_bv": "Se eu fechar os céus e não houver chuva, e se eu ordenar ao gafanhoto que devore a terra, e se eu enviar peste entre meu povo;",
+  "texto_bv": "Se eu fechar os céus e não houver chuva, ou se eu ordenar ao gafanhoto que devore a terra, ou se eu enviar peste entre meu povo;",
   "traducao_literal": "Eis que eu feche os céus e não haja chuva, e eis que eu ordene sobre o gafanhoto para comer a terra, e se eu enviar peste em meu povo;",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Se eu fechar os céus e não houver chuva, e se eu ordenar ao gafanhoto que devore a terra, e se eu enviar peste entre meu povo; → Se eu fechar os céus e não houver chuva, ou se eu ordenar ao gafanhoto que devore a terra, ou se eu enviar peste entre meu povo;",
+      "justificativa": "O hebraico articula os três cenários com הֵן...וְהֵן...וְאִם, padrão disjuntivo ('seja...seja...ou'), confirmado pela KJV ('if...or if...or if'). O conectivo 'e' repetido sugeria condição conjunta simultânea; corrigido para 'ou se' nas duas últimas orações, preservando o conteúdo de cada cláusula e alinhando o conectivo à relação lógica do original. — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão: conectivo disjuntivo restituído entre os três cenários hipotéticos, sem alterar o conteúdo de nenhum deles.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -137,11 +144,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
