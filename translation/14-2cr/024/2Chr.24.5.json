@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "2Chr.24.1-27"
   },
-  "texto_bv": "Ele reuniu os sacerdotes e os levitas e lhes disse: “Saiam às cidades de Judá e recolham de todo o Israel dinheiro para restaurar a casa de seu Deus de ano em ano. E vocês, apressem-se nessa tarefa.” Mas os levitas não se apressaram.",
+  "texto_bv": "Ele reuniu os sacerdotes e os levitas e lhes disse: “Saiam às cidades de Judá e recolham de todo o Israel dinheiro para fortalecer a casa de seu Deus de ano em ano. E vocês, apressem-se nessa tarefa.” Mas os levitas não se apressaram.",
   "traducao_literal": "E reuniu os sacerdotes e os levitas, e disse a eles: “Saiam às cidades de Judá e recolham de todo Israel prata para fortalecer a casa do Deus de vocês, de cada ano em ano; e vocês apressarão para a coisa.” E não se apressaram os levitas.",
   "termos_originais": [
     {
@@ -171,6 +171,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "recolham de todo o Israel dinheiro para restaurar a casa de seu Deus de ano em ano → recolham de todo o Israel dinheiro para fortalecer a casa de seu Deus de ano em ano",
+      "justificativa": "Consistência lexical intra-capítulo (EDITORIAL.md §1.4): o verbo hebraico לְחַזֵּק (lemma 2388, \"fortalecer\") aqui foi vertido como \"restaurar\", mas o mesmo lemma no v.12 foi vertido como \"fortalecer\". Normalizado para \"fortalecer\", que preserva a distinção do original entre חדש/\"renovar\" (vv.4 e 12) e חזק/\"fortalecer\" (vv.5 e 12); \"restaurar\" colidia com o campo semântico já ocupado por \"renovar\". — revisão de forma sem alteração de sentido (ER-0022). Fala direta com dois-pontos e aspas curvas corretas; discurso muda de imperativo geral para vocativo enfático (\"E vocês, apressem-se\"), o que reflete o אַתֶּם emático do hebraico, não é erro. Único ajuste foi lexical, registrado em mudancas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -184,11 +191,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
