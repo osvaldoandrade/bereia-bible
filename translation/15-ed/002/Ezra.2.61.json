@@ -7,7 +7,7 @@
     "versiculo": 61,
     "pericope": "Ezra.2.1-70"
   },
-  "texto_bv": "Entre os descendentes dos sacerdotes estavam os descendentes de Habaías, de Hacoz e de Barzilai. O ancestral destes havia tomado como esposa uma das filhas de Barzilai, o gileadita, e passou a ser chamado pelo nome da família delas.",
+  "texto_bv": "Entre os descendentes dos sacerdotes estavam os descendentes de Habaías, de Hacoz e de Barzilai. O ancestral deste último havia tomado como esposa uma das filhas de Barzilai, o gileadita, e passou a ser chamado pelo nome da família delas.",
   "traducao_literal": "E dos filhos dos sacerdotes: filhos de Habaías, filhos de Hacoz, filhos de Barzilai, o qual tomou das filhas de Barzilai, o gileadita, uma mulher e foi chamado pelo nome delas.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O ancestral destes havia tomado → O ancestral deste último havia tomado",
+      "justificativa": "'destes' fica ambíguo, podendo remeter aos três grupos citados (Habaías, Hacoz e Barzilai), quando no hebraico a oração relativa (אֲשֶׁר) liga-se apenas à linhagem de Barzilai, cujo fundador tomou o nome da família da esposa; 'deste último' fixa um antecedente único e recuperável, sem alterar o conteúdo. — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão pronominal; conteúdo preservado — ver mudanças.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -147,11 +154,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
