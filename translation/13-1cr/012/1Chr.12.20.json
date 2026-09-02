@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "1Chr.12.1-41"
   },
-  "texto_bv": "Alguns de Manassés passaram para o lado de Davi quando ele foi com os filisteus contra Saul para a batalha. Eles, porém, não os ajudaram, pois os governantes dos filisteus, depois de deliberar, mandaram Davi embora, dizendo: “À custa de nossas cabeças, ele passará para seu senhor, Saul.”",
+  "texto_bv": "Alguns de Manassés passaram para o lado de Davi quando ele foi com os filisteus contra Saul para a batalha. Eles, porém, não ajudaram os filisteus, pois os governantes deles, depois de deliberar, mandaram Davi embora, dizendo: “À custa de nossas cabeças, ele passará para seu senhor, Saul.”",
   "traducao_literal": "E de Manassés caíram sobre Davi, quando ele veio com os filisteus contra Saul para a guerra; e não os ajudaram, pois, por conselho, enviaram-no os governantes dos filisteus, dizendo: “Com nossas cabeças ele cairá para seus senhores, Saul.”",
   "termos_originais": [
     {
@@ -193,6 +193,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eles, porém, não os ajudaram, pois os governantes dos filisteus, depois de deliberar, mandaram Davi embora → Eles, porém, não ajudaram os filisteus, pois os governantes deles, depois de deliberar, mandaram Davi embora",
+      "justificativa": "O pronome 'os' em 'não os ajudaram' ficava ambíguo entre dois referentes plurais possíveis (os manassitas do sujeito 'Eles' vs. 'os filisteus', mencionados apenas dentro de uma oração subordinada distante). Explicitei o objeto ('os filisteus') e, para não repetir o nome logo em seguida, troquei a segunda ocorrência por 'deles', agora com antecedente imediato e inequívoco. Sentido preservado: quem não ajudou os filisteus foram os homens de Manassés/Davi. — revisão de forma sem alteração de sentido (ER-0022). Verbo 'passará' para נָפַל mantém a mesma opção lexical usada em 'passaram' no início do verso e no v.21, atendendo à consistência lexical intracapítulo (§1.4). 'Seu senhor, Saul' verte corretamente o plural de majestade אֲדֹנָיו como singular.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -213,11 +220,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
