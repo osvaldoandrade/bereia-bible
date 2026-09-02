@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "2Kgs.1.1-18"
   },
-  "texto_bv": "Elias falou ao rei: “Assim diz o SENHOR: Já que você enviou mensageiros para consultar Baal-Zebube, deus de Ecrom, é por não haver Deus em Israel cuja palavra consultar? Por isso, você não descerá da cama em que subiu, pois certamente morrerá.””",
+  "texto_bv": "Elias falou ao rei: “Assim diz o SENHOR: Já que você enviou mensageiros para consultar Baal-Zebube, deus de Ecrom, é por não haver Deus em Israel cuja palavra consultar? Por isso, você não descerá da cama em que subiu, pois certamente morrerá.”",
   "traducao_literal": "E falou a ele: “Assim disse o SENHOR: Visto que você enviou mensageiros para consultar Baal-Zebube, deus de Ecrom, é por não haver Deus em Israel para consultar em sua palavra? Por isso, a cama à qual você subiu ali, não descerá dela, pois morrer, morrerá.”",
   "termos_originais": [
     {
@@ -206,6 +206,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "...pois certamente morrerá.”” → ...pois certamente morrerá.”",
+      "justificativa": "Havia duas aspas duplas de fechamento seguidas sem correspondência: a fala de Elias ao rei é uma citação de um único nível (sem discurso aninhado), aberta com uma única aspa dupla no início do verso; basta um fechamento ao final. — revisão de forma sem alteração de sentido (ER-0022). Fidelidade preservada: nenhuma palavra de conteúdo foi alterada, apenas a duplicação indevida da aspa de fechamento.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -222,11 +229,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

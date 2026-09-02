@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "2Kgs.1.1-18"
   },
-  "texto_bv": "O rei enviou a Elias um capitão de cinquenta com seus cinquenta homens. O capitão subiu até Elias e ele estava sentado no topo do monte. O capitão lhe disse: “Homem de Deus, o rei disse: ‘Desça!’”",
+  "texto_bv": "O rei enviou a Elias um capitão de cinquenta com seus cinquenta homens. O capitão subiu até Elias, que estava sentado no topo do monte. O capitão lhe disse: “Homem de Deus, o rei disse: ‘Desça!’”",
   "traducao_literal": "E enviou a ele um capitão de cinquenta e seus cinquenta; e subiu até ele, e eis que estava sentado sobre a cabeça do monte; e falou a ele: “Homem de Deus, o rei falou: ‘Desça!’”",
   "termos_originais": [
     {
@@ -146,6 +146,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O capitão subiu até Elias e ele estava sentado no topo do monte. → O capitão subiu até Elias, que estava sentado no topo do monte.",
+      "justificativa": "O pronome 'ele' ficava ambíguo entre 'o capitão' (sujeito da oração anterior) e 'Elias' (seu objeto), podendo sugerir que era o capitão quem estava sentado. O hebraico (וְהִנֵּה יֹשֵׁב, 'e eis que estava sentado') e a KJV ('and, behold, he sat on the top of an hill', referindo-se a Elias, a quem o capitão subiu ao encontro) deixam claro que é Elias quem está sentado no monte. A oração relativa 'que' amarra o referente a Elias sem ambiguidade, sem acrescentar nem retirar informação do original. — revisão de forma sem alteração de sentido (ER-0022). Fidelidade preservada: nenhuma palavra de conteúdo foi alterada, apenas a amarração pronominal.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -162,11 +169,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
