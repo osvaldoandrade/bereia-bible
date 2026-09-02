@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Ezra.8.1-36"
   },
-  "texto_bv": "Pois tive vergonha de pedir ao rei tropas e cavaleiros para nos ajudarem contra o inimigo no caminho. Tínhamos dito ao rei: “A mão de nosso Deus está sobre todos os que o buscam, para o bem; mas seu poder e sua ira estão contra todos os que o abandonam.”",
+  "texto_bv": "Pois tive vergonha de pedir ao rei tropas e cavaleiros para nos ajudarem contra o inimigo no caminho. Isso porque tínhamos dito ao rei: “A mão de nosso Deus está sobre todos os que o buscam, para o bem; mas seu poder e sua ira estão contra todos os que o abandonam.”",
   "traducao_literal": "Pois tive vergonha de pedir do rei exército e cavaleiros para ajudar-nos do inimigo no caminho, porque dissemos ao rei: “A mão de nosso Deus [está] sobre todos os que o buscam para bem, e seu poder e sua ira sobre todos os que o abandonam.”",
   "termos_originais": [
     {
@@ -169,6 +169,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Tínhamos dito ao rei: → Isso porque tínhamos dito ao rei:",
+      "justificativa": "o hebraico marca explicitamente a relação causal com um segundo כִּי (\"porque\"), ligando a vergonha de pedir tropas ao que haviam dito ao rei sobre o poder de Deus. Ao virar frase nova sem conectivo, a BV perdeu esse elo lógico, deixando as duas frases apenas justapostas. Restaurado o conectivo causal (\"Isso porque\"), mantendo a quebra de frase já feita. — revisão de forma sem alteração de sentido (ER-0022). Restaurado o conectivo causal que o hebraico marca entre as duas orações (vergonha de pedir tropas / o que haviam dito ao rei); sentido inalterado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -185,11 +192,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
