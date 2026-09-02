@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "2Chr.13.1-23"
   },
-  "texto_bv": "Homens vazios, filhos de Belial, reuniram-se ao redor dele e se mostraram fortes contra Roboão, filho de Salomão. Roboão era jovem e de coração brando e não se fortaleceu diante deles.",
+  "texto_bv": "Homens vazios, filhos de Belial, se reuniram ao redor dele e se mostraram fortes contra Roboão, filho de Salomão. Roboão era jovem e de coração brando e não se fortaleceu diante deles.",
   "traducao_literal": "E reuniram-se sobre ele homens vazios, filhos de Belial, e fortaleceram-se contra Roboão, filho de Salomão; e Roboão era jovem e brando de coração, e não se fortaleceu diante deles.",
   "termos_originais": [
     {
@@ -150,6 +150,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "reuniram-se ao redor dele → se reuniram ao redor dele",
+      "justificativa": "Uniformizar a colocação pronominal com o segundo verbo coordenado do mesmo sujeito ('se mostraram'), evitando misturar ênclise e próclise na mesma oração; não altera sentido nem regência. — revisão de forma sem alteração de sentido (ER-0022). Após a correção de colocação, pronomes 'dele' (=Jeroboão, sujeito da oração anterior) e 'deles' (=homens vazios) permanecem com antecedentes recuperáveis.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -164,11 +171,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
