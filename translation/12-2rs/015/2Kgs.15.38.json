@@ -7,7 +7,7 @@
     "versiculo": 38,
     "pericope": "2Kgs.15.1-38"
   },
-  "texto_bv": "Jotão deitou-se com seus pais e foi sepultado com seu antepassado na Cidade de Davi. Acaz, seu filho, reinou em seu lugar.",
+  "texto_bv": "Jotão deitou-se com seus pais e foi sepultado com seus pais na Cidade de Davi, seu pai. Acaz, seu filho, reinou em seu lugar.",
   "traducao_literal": "E deitou-se Jotão com seus pais, e foi sepultado com seus pais na Cidade de Davi, seu pai; e reinou Acaz, seu filho, em seu lugar.",
   "termos_originais": [
     {
@@ -121,6 +121,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "foi sepultado com seu antepassado na Cidade de Davi. → foi sepultado com seus pais na Cidade de Davi, seu pai.",
+      "justificativa": "O hebraico repete עִם אֲבֹתָיו ('com seus pais') nas duas orações (deitar-se / ser sepultado) e ainda acrescenta o aposto אָבִיו ('seu pai') a 'Davi' — ambos preservados na tradução literal. O texto_bv contraiu as duas informações em 'seu antepassado', perdendo a fórmula paralela 'deitou-se com seus pais / foi sepultado com seus pais' (mantida no v.7 deste mesmo capítulo) e o aposto que identifica Davi como o pai da linhagem, sem antecedente claro para 'antepassado'. Restaura-se a fórmula e o aposto, sem acrescentar sentido novo, apenas o que termos_originais e traducao_literal já trazem. — revisão de forma sem alteração de sentido (ER-0022). Perda de informação e de paralelismo formular em relação ao hebraico e ao v.7 do mesmo capítulo; restaurada a fórmula 'com seus pais... seu pai' conforme termos_originais e traducao_literal.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -134,11 +141,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
