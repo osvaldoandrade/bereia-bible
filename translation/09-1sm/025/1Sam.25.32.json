@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "1Sam.25.1-44"
   },
-  "texto_bv": "Davi disse a Abigail: “Bendito seja o SENHOR, o Deus de Israel, que hoje o enviou ao meu encontro!",
+  "texto_bv": "Davi disse a Abigail: “Bendito seja o SENHOR, o Deus de Israel, que hoje a enviou ao meu encontro!",
   "traducao_literal": "E disse Davi a Abigail: “Bendito o SENHOR, Deus de Israel, que te enviou neste dia ao meu encontro.”",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que hoje o enviou ao meu encontro → que hoje a enviou ao meu encontro",
+      "justificativa": "O clítico 'o' (masculino) não concorda em gênero com o referente, Abigail (feminino); o hebraico traz sufixo de 2fs ('שְׁלָחֵךְ', enviou-te, a ti, mulher) e a KJV confirma 'which sent thee'. Corrigido para o clítico feminino 'a', mantendo o registro de 3ª pessoa (você) já em curso na fala de Davi. — revisão de forma sem alteração de sentido (ER-0022). Corrigido erro de concordância de gênero: o pronome objeto se referia a Abigail (interlocutora feminina) e não podia ser 'o' (masculino).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -124,11 +131,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
