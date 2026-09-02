@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "1Kgs.6.1-38"
   },
-  "texto_bv": "A entrada da câmara intermediária ficava no lado direito da casa. Por escadas em espiral, eles subiam ao andar intermediário e, do intermediário, ao terceiro.",
+  "texto_bv": "A entrada da câmara intermediária ficava no lado direito da casa. Por escadas em espiral, subia-se ao andar intermediário e, do intermediário, ao terceiro.",
   "traducao_literal": "A entrada da câmara intermediária, para o lado da casa, o direito; e por escadas em espiral subiam ao intermediário, e do intermediário ao terceiro.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Por escadas em espiral, eles subiam ao andar intermediário e, do intermediário, ao terceiro. → Por escadas em espiral, subia-se ao andar intermediário e, do intermediário, ao terceiro.",
+      "justificativa": "\"eles\" não tem antecedente recuperável no verso ou nos vizinhos (nenhuma pessoa foi mencionada); o hebraico usa 3ª pl. sem sujeito expresso (יַעֲלוּ), valor impessoal — corrigido com índice de indeterminação do sujeito (\"subia-se\"), que preserva o sentido sem introduzir um referente inexistente. — revisão de forma sem alteração de sentido (ER-0022). Corrigido pronome sem antecedente recuperável (regra §4).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -136,10 +143,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
