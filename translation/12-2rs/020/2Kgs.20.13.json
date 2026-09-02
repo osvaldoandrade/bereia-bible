@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "2Kgs.20.1-21"
   },
-  "texto_bv": "Ezequias ouviu falar deles e lhes mostrou toda a casa de seus tesouros: a prata, o ouro, os perfumes, o óleo de boa qualidade, seu arsenal e tudo o que se encontrava em seus depósitos. Não houve coisa alguma em seu palácio e em todo o seu domínio que Ezequias não lhes mostrasse.",
+  "texto_bv": "Ezequias ouviu falar deles e lhes mostrou toda a casa de seus tesouros: a prata, o ouro, os perfumes, o óleo de boa qualidade, seu arsenal e tudo o que se encontrava em seus depósitos. Não houve coisa alguma em seu palácio e em todo o seu domínio que ele não lhes mostrasse.",
   "traducao_literal": "E ouviu acerca deles Ezequias, e lhes mostrou toda a casa de seus tesouros, a prata, e o ouro, e os perfumes, e o óleo bom, e a casa de suas armas, e tudo o que se encontrava em seus depósitos; não houve coisa que não lhes mostrou Ezequias em sua casa e em todo o seu domínio.",
   "termos_originais": [
     {
@@ -231,6 +231,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não houve coisa alguma em seu palácio e em todo o seu domínio que Ezequias não lhes mostrasse. → Não houve coisa alguma em seu palácio e em todo o seu domínio que ele não lhes mostrasse.",
+      "justificativa": "Repetição do nome próprio 'Ezequias' na frase seguinte à sua primeira menção, sem outro referente possível (os enviados são 'deles/lhes'); retomada por pronome 'ele', conforme a norma de coesão. — revisão de forma sem alteração de sentido (ER-0022). Substituído o sintagma nominal repetido por pronome; a lista de tesouros e a subjuntiva 'não... mostrasse' já estavam corretas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -244,11 +251,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
