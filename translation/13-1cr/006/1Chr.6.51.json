@@ -120,14 +120,16 @@
   "confianca": 0.6,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0022): texto_bv não corresponde ao hebraico pinado nem à traducao_literal deste verso. O termo pinado do v.51 é 'מִשְׁפְּחוֹת בְּנֵי קְהָת' (famílias dos filhos de Coate) ... 'עָרֵי גְבוּלָם מִמַּטֵּה אֶפְרָיִם' (as cidades de seu território, da tribo de Efraim) — sem numeral e sem menção a Manassés. O texto_bv atual, porém, fala em 'metade da tribo de Manassés' e 'dez cidades por sorte', que é exatamente o conteúdo do v.46 (traducao_literal: '...da metade da tribo da meia Manassés... dez cidades'), sugerindo duplicação/erro de encaixe entre os dois versículos. O v.52 seguinte já lista cidades de Efraim (Siquém, Gezer), confirmando que o cabeçalho do v.51 deveria introduzir Efraim, não Manassés. — evidência: termos_originais v.51: קְהָ֑ת (lemma 6955, Coate) e אֶפְרָֽיִם (lemma 669, Efraim), sem numeral e sem lemma de Manassés (4519); traducao_literal v.51: 'E das famílias dos filhos de Coate; e foram as cidades do território deles da tribo de Efraim.'; cf. traducao_literal v.46: '...da metade da tribo da meia Manassés... pela sorte: dez cidades' — conteúdo idêntico ao texto_bv aqui presente no v.51."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
