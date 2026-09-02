@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "2Kgs.12.1-22"
   },
-  "texto_bv": "Não se exigia prestação de contas dos homens em cujas mãos entregavam o dinheiro para pagar os trabalhadores, pois eles agiam com fidelidade.",
+  "texto_bv": "Não se exigia prestação de contas dos homens em cujas mãos entregavam o dinheiro para pagar os trabalhadores, pois esses homens agiam com fidelidade.",
   "traducao_literal": "E não faziam conta com os homens em cuja mão davam o dinheiro para dar aos que faziam a obra, porque em fidelidade eles faziam.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para pagar os trabalhadores, pois eles agiam com fidelidade. → para pagar os trabalhadores, pois esses homens agiam com fidelidade.",
+      "justificativa": "O pronome “eles” fica ambíguo entre “os homens” (que recebiam e repassavam o dinheiro) e “os trabalhadores” (sintagma mais próximo); o hebraico (בֶאֱמֻנָה הֵם עֹשִים) e a tradução literal (“porque em fidelidade eles faziam”, após “...para dar aos que faziam a obra”) confirmam que o referente é “os homens” de confiança — é a fidelidade DELES, não dos trabalhadores, que justifica a dispensa de prestação de contas. Repor o sintagma nominal remove a ambiguidade. — revisão de forma sem alteração de sentido (ER-0022). Fora o pronome ambíguo corrigido, a sentença já estava bem formada (“em cujas mãos” é boa relativa pelo português).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -139,10 +146,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

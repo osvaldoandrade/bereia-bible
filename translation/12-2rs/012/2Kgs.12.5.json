@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "2Kgs.12.1-22"
   },
-  "texto_bv": "Jeoás disse aos sacerdotes: “Todo o dinheiro das coisas consagradas que for levado ao templo do SENHOR. O dinheiro corrente, o dinheiro da avaliação de cada pessoa e todo o dinheiro que alguém decidir de coração levar ao templo do SENHOR.”",
+  "texto_bv": "Jeoás disse aos sacerdotes: “Todo o dinheiro das coisas consagradas que for levado ao templo do SENHOR, o dinheiro corrente, o dinheiro da avaliação de cada pessoa e todo o dinheiro que alguém decidir de coração levar ao templo do SENHOR,",
   "traducao_literal": "E Jeoás disse aos sacerdotes: “Todo dinheiro das coisas santas que for trazido ao templo do SENHOR, dinheiro corrente, cada homem o dinheiro das pessoas de sua avaliação, todo dinheiro que subir sobre o coração de um homem para trazer ao templo do SENHOR,",
   "termos_originais": [
     {
@@ -216,6 +216,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que for levado ao templo do SENHOR. O dinheiro corrente, → que for levado ao templo do SENHOR, o dinheiro corrente, | levar ao templo do SENHOR.” → levar ao templo do SENHOR,",
+      "justificativa": "A passagem é uma enumeração de tipos de dinheiro sob um único predicado que só aparece no v.6 (“os sacerdotes o receberão”); a tradução literal mantém vírgulas neste ponto (“...ao templo do SENHOR, dinheiro corrente,...”). O ponto final criava uma sentença sem verbo próprio (“Todo o dinheiro... que for levado ao templo do SENHOR.”), fragmento agramatical; a vírgula restaura a lista contínua. | A fala de Jeoás não termina neste ponto — o verbo principal da instrução só surge no v.6 (“os sacerdotes o receberão... e reparaão”), que já traz a aspa de fechamento correspondente. Fechar aqui as aspas e o período rompe a coesão sintática de uma única sentença que atravessa o v.5–v.6, deixando a lista do v.5 sem predicado. Remove-se o fechamento prematuro; a aspa de abertura permanece. — revisão de forma sem alteração de sentido (ER-0022). Nenhuma palavra foi alterada ou removida; apenas a pontuação foi ajustada para restaurar a unidade sintática entre o v.5 e o v.6, que no hebraico e na tradução literal formam uma só sentença (lista de tipos de dinheiro + verbo de recepção).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -234,11 +241,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

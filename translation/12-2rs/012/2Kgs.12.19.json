@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "2Kgs.12.1-22"
   },
-  "texto_bv": "Jeoás, rei de Judá, tomou todas as coisas consagradas por seus antepassados Josafá, Jeorão e Acazias, reis de Judá. Também as suas próprias coisas consagradas e todo o ouro encontrado nos tesouros do templo do SENHOR e do palácio do rei. Enviou tudo a Hazael, rei da Síria, e ele se retirou de Jerusalém.",
+  "texto_bv": "Jeoás, rei de Judá, tomou todas as coisas consagradas por seus antepassados Josafá, Jeorão e Acazias, reis de Judá, e também as suas próprias coisas consagradas. Tomou ainda todo o ouro encontrado nos tesouros do templo do SENHOR e do palácio do rei. Enviou tudo a Hazael, rei da Síria, e ele se retirou de Jerusalém.",
   "traducao_literal": "E Jeoás, rei de Judá, tomou todas as coisas santas que santificaram Josafá, Jeorão e Acazias, seus pais, reis de Judá, e suas coisas santas, e todo o ouro encontrado nos tesouros do templo do SENHOR e da casa do rei; e enviou a Hazael, rei da Síria, e ele subiu de sobre Jerusalém.",
   "termos_originais": [
     {
@@ -224,6 +224,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Jeoás, rei de Judá, tomou todas as coisas consagradas por seus antepassados Josafá, Jeorão e Acazias, reis de Judá. Também as suas próprias coisas consagradas e todo o ouro encontrado nos tesouros do templo do SENHOR e do palácio do rei. → Jeoás, rei de Judá, tomou todas as coisas consagradas por seus antepassados Josafá, Jeorão e Acazias, reis de Judá, e também as suas próprias coisas consagradas. Tomou ainda todo o ouro encontrado nos tesouros do templo do SENHOR e do palácio do rei.",
+      "justificativa": "“Também as suas próprias coisas consagradas e todo o ouro encontrado...” era um fragmento sem verbo próprio: no hebraico (וְאֶתְ־קֳדָשָיו וְאֵת כָּל־הַזָּהָב) esses itens são objetos diretos coordenados do mesmo verbo “tomou” (וַיִּקַּח) que rege “todas as coisas consagradas”. Uniu-se a primeira parte ao período anterior com “e também” e repôs-se o verbo “Tomou” para o segundo objeto, restaurando duas orações completas sem alterar o conteúdo nem inventar relação lógica nova. — revisão de forma sem alteração de sentido (ER-0022). “Ele” no fecho retoma corretamente “Hazael” (antecedente mais próximo e historicamente correto: foi o agressor que se retirou após receber o tributo), não o sujeito elíptico “Jeoás” de “Enviou”.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -240,11 +247,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
