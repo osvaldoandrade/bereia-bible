@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "1Kgs.16.1-34"
   },
-  "texto_bv": "Quando Zinri viu que a cidade havia sido tomada, entrou na fortaleza do palácio do rei, incendiou o palácio real sobre si e morreu,",
+  "texto_bv": "Quando Zinri viu que a cidade havia sido tomada, entrou na fortaleza do palácio do rei, incendiou o palácio do rei sobre si e morreu,",
   "traducao_literal": "E aconteceu, ao ver Zinri que foi capturada a cidade, que entrou na fortaleza da casa do rei, e queimou sobre si a casa do rei com fogo, e morreu,",
   "termos_originais": [
     {
@@ -116,6 +116,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "o palácio real → o palácio do rei",
+      "justificativa": "Consistência lexical intra-versículo (§1.4 EDITORIAL.md): a mesma expressão hebraica (בֵּית־הַמֶּלֶךְ, 'casa/palácio do rei') ocorre duas vezes neste mesmo verso e já foi vertida como 'palácio do rei' na primeira ocorrência; normalizado o segundo emprego para o mesmo lexema, eliminando variação sem motivo dentro da mesma frase, sem qualquer alteração de sentido. — revisão de forma sem alteração de sentido (ER-0022). Ver mudança registrada: normalização lexical de \"palácio real\" para \"palácio do rei\", já usado na primeira metade do mesmo verso para o mesmo referente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -127,10 +134,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "705c82d74d0a9c6904dffb924ec387ec434d35e6d9ef3a114b756a06eda5a7f4",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
