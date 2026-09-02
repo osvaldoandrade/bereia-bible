@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "2Sam.18.1-32"
   },
-  "texto_bv": "Absalão encontrou-se diante dos servos de Davi. Ele montava uma mula, e a mula passou sob a ramagem de um grande carvalho. A cabeça de Absalão ficou presa no carvalho; ele ficou suspenso, vivo, entre o céu e a terra, enquanto a mula que estava debaixo dele seguiu adiante.",
+  "texto_bv": "Absalão encontrou-se diante dos servos de Davi. Ele montava uma mula, e ela passou sob a ramagem de um grande carvalho. A cabeça de Absalão ficou presa no carvalho; ele ficou suspenso, vivo, entre o céu e a terra, enquanto a mula que estava debaixo dele seguiu adiante.",
   "traducao_literal": "E encontrou-se Absalão diante dos servos de Davi; e Absalão montando sobre a mula, e veio a mula sob o emaranhado do grande carvalho, e prendeu-se sua cabeça no carvalho, e foi posto entre os céus e entre a terra, e a mula que debaixo dele passou.",
   "termos_originais": [
     {
@@ -172,6 +172,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Ele montava uma mula, e a mula passou sob a ramagem de um grande carvalho. → Ele montava uma mula, e ela passou sob a ramagem de um grande carvalho.",
+      "justificativa": "Repetição imediata do SN 'mula' na oração seguinte, sem função de paralelismo ou fórmula; o português retomaria por pronome (§1.4/regra 4). A terceira menção ('a mula que estava debaixo dele'), mais adiante e após mudança de foco para a cabeça de Absalão, foi mantida explícita por clareza. — revisão de forma sem alteração de sentido (ER-0022). Corrigida apenas a retomada pronominal apontada; o restante do verso está correto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -192,10 +199,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
