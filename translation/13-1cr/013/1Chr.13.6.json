@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "1Chr.13.1-14"
   },
-  "texto_bv": "Davi e todo Israel subiram a Baalá, a Quiriate-Jearim, que pertence a Judá, para fazer subir dali a arca de Deus, do SENHOR que se assenta entre os querubins, sobre a qual o Nome é invocado.",
+  "texto_bv": "Davi e todo Israel subiram a Baalá, a Quiriate-Jearim, que pertence a Judá, para fazer subir dali a arca de Deus, do SENHOR, que se assenta entre os querubins, sobre a qual o Nome é invocado.",
   "traducao_literal": "E subiu Davi e todo Israel a Baalá, a Quiriate-Jearim, que é de Judá, para fazer subir dali a arca de Deus, SENHOR, sentado dos querubins, sobre a qual é chamado Nome.",
   "termos_originais": [
     {
@@ -168,6 +168,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a arca de Deus, do SENHOR que se assenta entre os querubins, sobre a qual → a arca de Deus, do SENHOR, que se assenta entre os querubins, sobre a qual",
+      "justificativa": "A oração relativa 'que se assenta entre os querubins' é não restritiva (o referente 'SENHOR' já é único, não precisa de restrição), por isso exige vírgulas simétricas dos dois lados; o texto já trazia a vírgula de fechamento antes de 'sobre a qual', faltando a de abertura depois de 'SENHOR'. Correção de pontuação pura, sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0022). Sujeito composto 'Davi e todo Israel' com verbo plural 'subiram', concordância correta; pronome relativo feminino 'a qual' desambigua corretamente o referente como 'a arca' (não 'os querubins' nem 'o SENHOR'), o que já resolve, pela concordância de gênero em português, uma ambiguidade que existe em hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -188,10 +195,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

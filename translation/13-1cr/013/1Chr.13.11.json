@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "1Chr.13.1-14"
   },
-  "texto_bv": "Davi se irou porque o SENHOR abriu uma brecha contra Uzá; chamou aquele lugar de Perez-Uzá, como é chamado até hoje.",
+  "texto_bv": "Davi se irou porque o SENHOR abriu uma brecha contra Uzá; Davi chamou aquele lugar de Perez-Uzá, como é chamado até hoje.",
   "traducao_literal": "E ardeu para Davi, porque rompeu o SENHOR uma brecha contra Uzá; e chamou aquele lugar Perez-Uzá até este dia.",
   "termos_originais": [
     {
@@ -131,6 +131,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "; chamou aquele lugar de Perez-Uzá, como é chamado até hoje. → ; Davi chamou aquele lugar de Perez-Uzá, como é chamado até hoje.",
+      "justificativa": "O sujeito elíptico de 'chamou' ficaria, por proximidade, mais associado a 'o SENHOR' (sujeito da oração causal imediatamente anterior) do que a 'Davi' (sujeito da oração principal, mais distante). Quem nomeia o lugar, porém, é Davi (cf. paralelo de 2Sm 6.8 e o próprio fio narrativo do capítulo). A elipse não se sustenta em português aqui; explicitar 'Davi' resolve a ambiguidade referencial sem tocar no sentido. — revisão de forma sem alteração de sentido (ER-0022). Fora o sujeito elíptico corrigido, concordância e regência do restante da frase estão corretas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -144,11 +151,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
