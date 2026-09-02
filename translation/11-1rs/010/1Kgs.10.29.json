@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "1Kgs.10.1-29"
   },
-  "texto_bv": "Um carro subia e saía do Egito por seiscentos siclos de prata, e um cavalo por cento e cinquenta. Da mesma forma, por intermédio deles, os mercadores os exportavam para todos os reis dos hititas e para os reis de Arã.",
+  "texto_bv": "Um carro subia e saía do Egito por seiscentos siclos de prata, e um cavalo por cento e cinquenta. Da mesma forma, os mercadores os exportavam para todos os reis dos hititas e para os reis de Arã.",
   "traducao_literal": "E subia e saía um carro do Egito por seiscentos de prata, e um cavalo por cento e cinquenta; e assim, para todos os reis dos hititas e para os reis de Arã, pela mão deles faziam sair.",
   "termos_originais": [
     {
@@ -141,6 +141,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Da mesma forma, por intermédio deles, os mercadores os exportavam para todos os reis dos hititas e para os reis de Arã. → Da mesma forma, os mercadores os exportavam para todos os reis dos hititas e para os reis de Arã.",
+      "justificativa": "O pronome 'deles' duplicava, na mesma oração, o mesmo referente do sujeito explícito 'os mercadores' que vem logo em seguida, criando remissão redundante e de leitura confusa; a mediação dos mercadores (בְּיָדָם) já é plenamente expressa pelo sujeito da frase, sem perda de conteúdo. — revisão de forma sem alteração de sentido (ER-0022). Removida remissão pronominal redundante que duplicava o sujeito explícito na mesma oração; sentido e conteúdo do hebraico integralmente preservados.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -156,10 +163,10 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.3.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
