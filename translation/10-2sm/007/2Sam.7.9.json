@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "2Sam.7.1-29"
   },
-  "texto_bv": "Estive com você por onde quer que andasse e eliminei todos os seus inimigos diante de você. Farei para você um grande nome, como o nome dos grandes da terra.",
+  "texto_bv": "Estive com você por onde quer que andasse e eliminei todos os seus inimigos de diante de você. Farei para você um grande nome, como o nome dos grandes da terra.",
   "traducao_literal": "E estive com você em tudo por onde andou, e cortei todos os seus inimigos de diante de você; e farei para você nome grande, como o nome dos grandes que estão na terra.",
   "termos_originais": [
     {
@@ -131,6 +131,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "eliminei todos os seus inimigos diante de você → eliminei todos os seus inimigos de diante de você",
+      "justificativa": "O verbo de remoção exige a locução prepositiva 'de diante de' (procedência/fonte), não apenas 'diante de' (localização estática). O hebraico מִפָּנֶיךָ e o controle KJV ('out of thy sight') confirmam o sentido de afastamento — os inimigos foram removidos do caminho de Davi, não apenas destruídos em sua presença. Sem o 'de', a frase pode ser lida como mera testemunha do fato, invertendo a relação de fonte. Corrige também a inconsistência com a mesma locução usada corretamente no v.15 ('de diante de você'). — revisão de forma sem alteração de sentido (ER-0022). Correção pontual de regência (ver mudancas); restante do verso correto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -144,10 +151,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "178a7add36dc1cbb0aeb1adb9a94c341cb3dddd1a460884493230a81b37ca6fd",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
