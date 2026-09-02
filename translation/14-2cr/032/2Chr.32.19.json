@@ -94,13 +94,32 @@
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0022): texto_bv usa 'Falaram do Deus de Jerusalém como se falassem dos deuses...' (preposição 'de/dos', sentido neutro de 'falar sobre'), enquanto a traducao_literal ('E falaram CONTRA o Deus de Jerusalém como CONTRA os deuses...') e a KJV ('spake AGAINST the God of Jerusalem, as AGAINST the gods...') marcam claramente fala hostil/blasfema, coerente com o contexto imediato (v.17 'para insultar', v.18 'para aterrorizá-lo'). Corrigir a preposição para 'contra' mudaria o sentido da frase de um relato neutro para um ato de blasfêmia explícita — por isso não a alterei por conta própria; registro a divergência para avaliação de fidelidade. — evidência: traducao_literal: \"E falaram contra o Deus de Jerusalém como contra os deuses dos povos da terra, obra das mãos do ser humano.\" | KJV: \"And they spake against the God of Jerusalem, as against the gods of the people of the earth, which were the work of the hands of man.\" | termos_originais: אֶל (413, R, 'a/para/contra' em sentido hostil) ... כְּעַל (k/5921 a, R/R, 'como contra')."
+  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
