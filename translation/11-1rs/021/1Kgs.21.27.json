@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "1Kgs.21.1-29"
   },
-  "texto_bv": "Quando Acabe ouviu essas palavras, rasgou suas roupas, pôs pano de saco sobre o corpo, jejuou, deitou-se com o pano de saco e andava lentamente.",
+  "texto_bv": "Quando Acabe ouviu essas palavras, rasgou suas roupas, pôs pano de saco sobre o corpo, jejuou, deitou-se com o pano de saco e andou lentamente.",
   "traducao_literal": "E aconteceu, ao ouvir Acabe estas palavras, que rasgou suas roupas, e pôs saco sobre sua carne, e jejuou, e deitou no saco, e andou devagar.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e andava lentamente → e andou lentamente",
+      "justificativa": "Quebra de cadeia temporal sem motivo: a sequência de ações pontuais no pretérito perfeito ('rasgou', 'pôs', 'jejuou', 'deitou-se') é interrompida por 'andava' no imperfeito. Corrigido para 'andou', mantendo o mesmo aspecto perfectivo, conforme a sequência wayyiqtol do hebraico (וַיְהַלֵּךְ). — revisão de forma sem alteração de sentido (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -131,11 +138,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
