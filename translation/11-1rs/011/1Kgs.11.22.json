@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "1Kgs.11.1-43"
   },
-  "texto_bv": "Faraó lhe perguntou: “O que falta a você comigo, para que procure ir para sua terra?” Ele respondeu: “Nada me falta; mas deixa-me ir.”",
+  "texto_bv": "Faraó lhe perguntou: “O que falta a você comigo, para que procure ir para sua terra?” Ele respondeu: “Nada me falta; mas deixe-me ir.”",
   "traducao_literal": "E disse-lhe Faraó: “Pois o que você está tendo falta comigo, e eis que procura ir para sua terra?” E ele disse: “Não, porque despedir, você me despedirá.”",
   "termos_originais": [
     {
@@ -134,6 +134,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas deixa-me ir.” → mas deixe-me ir.”",
+      "justificativa": "Descontinuidade de tratamento na mesma fala: o diálogo usa \"você\" (\"a você\", \"procure\"), e o capítulo consolida o imperativo nesse registro (cf. v.31 \"Tome para você\"); \"deixa\" é imperativo de \"tu\", quebrando a cadeia. Corrigido para \"deixe\", imperativo de \"você\", sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção de concordância de tratamento pronominal; conteúdo inalterado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -149,11 +156,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
