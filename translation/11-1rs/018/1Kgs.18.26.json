@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "1Kgs.18.1-46"
   },
-  "texto_bv": "Eles tomaram o touro que ele lhes tinha dado, prepararam-no e invocaram o nome de Baal desde a manhã até o meio-dia: “Baal, responda-nos!” Mas não houve voz, nem quem respondesse. E eles mancavam ao redor do altar que havia sido feito.",
+  "texto_bv": "Eles tomaram o touro que ele lhes tinha dado, prepararam-no e invocaram o nome de Baal desde a manhã até o meio-dia: “Baal, responda-nos!” Mas não houve voz, nem quem respondesse. Eles mancavam ao redor do altar que havia sido feito.",
   "traducao_literal": "E tomaram o touro que deu a eles, e fizeram, e chamaram no nome de Baal desde a manhã e até o meio-dia, dizendo: “Baal, responda-nos!” E não havia voz, e não havia quem respondesse; e mancaram sobre o altar que fez.",
   "termos_originais": [
     {
@@ -169,6 +169,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E eles mancavam ao redor do altar que havia sido feito. → Eles mancavam ao redor do altar que havia sido feito.",
+      "justificativa": "Calque sintático: o 'E' inicial calca o waw hebraico (וַֽיְפַסְּח֔וּ) de forma desnecessária, pois a oração já é sintaticamente autônoma e segue duas orações independentes ('Mas não houve voz...'); o português narrativo dispensa o conectivo aditivo nessa posição sem perda de coesão ou de sentido. — revisão de forma sem alteração de sentido (ER-0022). Revisado apenas o calque de conectivo inicial; lexema 'mancar' mantido, consistente com o v.21 no mesmo capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -184,11 +191,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
