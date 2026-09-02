@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "2Kgs.25.1-30"
   },
-  "texto_bv": "Da cidade, tomou um oficial que supervisionava os homens de guerra, cinco homens dos que viam a face do rei e que foram encontrados na cidade, o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
+  "texto_bv": "Da cidade, tomou um oficial que supervisionava os homens de guerra e cinco homens dos que viam a face do rei, que foram encontrados na cidade. Tomou também o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
   "traducao_literal": "E da cidade tomou um oficial, um, que era encarregado sobre os homens da guerra, e cinco homens dos que viam a face do rei, que foram encontrados na cidade, e o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
   "termos_originais": [
     {
@@ -205,6 +205,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Da cidade, tomou um oficial que supervisionava os homens de guerra, cinco homens dos que viam a face do rei e que foram encontrados na cidade, o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade. → Da cidade, tomou um oficial que supervisionava os homens de guerra e cinco homens dos que viam a face do rei, que foram encontrados na cidade. Tomou também o escriba, comandante do exército, que alistava o povo da terra, e sessenta homens do povo da terra encontrados na cidade.",
+      "justificativa": "Sentença de 47 palavras (regra: quebrar acima de ~40); a sequência de itens ligados só por vírgulas deixava 'comandante do exército' lido como possível item avulso da lista, em vez de aposto de 'o escriba'. A divisão em duas orações, repetindo o verbo elidido ('Tomou também'), preserva a mesma enumeração de objetos de 'tomou' do hebraico, sem inventar relação lógica nova. — revisão de forma sem alteração de sentido (ER-0022). Quebra de sentença longa (§ extensão) com pequeno ajuste de pontuação para evitar leitura ambígua da apositiva 'comandante do exército'; conteúdo e ordem dos itens preservados integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -218,11 +225,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

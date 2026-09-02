@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "2Kgs.25.1-30"
   },
-  "texto_bv": "Falou coisas boas com Joaquim e colocou o trono dele acima do trono dos reis que estavam com ele na Babilônia.",
+  "texto_bv": "Falou coisas boas com Joaquim e colocou o trono dele acima do trono dos reis que estavam com Evil-Merodaque na Babilônia.",
   "traducao_literal": "E falou com ele coisas boas, e colocou seu trono acima do trono dos reis que estavam com ele na Babilônia.",
   "termos_originais": [
     {
@@ -86,6 +86,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Falou coisas boas com Joaquim e colocou o trono dele acima do trono dos reis que estavam com ele na Babilônia. → Falou coisas boas com Joaquim e colocou o trono dele acima do trono dos reis que estavam com Evil-Merodaque na Babilônia.",
+      "justificativa": "O pronome 'ele' ficava ambíguo entre dois referentes masculinos singulares próximos: 'dele' (Joaquim, no mesmo verso) e o sujeito da oração, Evil-Merodaque (v.27), que é quem tinha outros reis 'com ele' em sua corte na Babilônia. Substituir o segundo pronome pelo nome próprio recupera o referente correto (mesma leitura do hebraico אֲשֶׁר אִתּוֹ) sem alterar o sentido; o verso seguinte (v.29) já usa a mesma estratégia ('diante do rei' em vez de 'diante dele') para evitar a mesma ambiguidade. — revisão de forma sem alteração de sentido (ER-0022). Ambiguidade pronominal entre dois referentes masculinos singulares próximos ('dele'=Joaquim vs. sujeito Evil-Merodaque) corrigida por nome próprio, sem tocar no sentido; alinhado ao padrão já usado pelo próprio texto no v.29.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -100,10 +107,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "8d0dc0ec80ed154b1c0e38c995a9c71fa56451ab8b6fe14787e7357b8444ec44",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
