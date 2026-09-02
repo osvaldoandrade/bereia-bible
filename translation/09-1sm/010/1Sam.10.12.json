@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "1Sam.10.1-27"
   },
-  "texto_bv": "Um homem daquele lugar respondeu: “E quem é o pai deles?” Por isso se tornou provérbio: “Saul também está entre os profetas?”",
+  "texto_bv": "Um homem daquele lugar respondeu: “E quem é o pai deles?” Por isso se tornou provérbio: “Está Saul também no meio dos profetas?”",
   "traducao_literal": "E respondeu um homem dali e disse: “E quem é o pai deles?” Por isso veio a ser por provérbio: “Também Saul entre os profetas?”",
   "termos_originais": [
     {
@@ -106,6 +106,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Saul também está entre os profetas? → Está Saul também no meio dos profetas?",
+      "justificativa": "O hebraico repete literalmente a mesma pergunta de 1Sam.10.11 (בַּנְּבִיאִים/בַּנְּבִאִים, mesmo lemma, mesma frase) precisamente porque ela vira provérbio fixo — é uma repetição formular intencional, não uma paráfrase. A BV usava fraseado diferente do de 10.11, dissolvendo a fórmula que o próprio texto está marcando como ditado consagrado. Alinhado ao fraseado já usado em 10.11 para preservar a repetição verbatim (§1.4, consistência lexical intra-capítulo / repetição formular). — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão: alinhamento da citação repetida (provérbio) ao fraseado exato já fixado no verso anterior, que é o mesmo no hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -119,10 +126,27 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "5bb2f9b7ac9edbcf0da44b7de5fa2599fd42115660b1a22346155515833ced5f",
-    "prompts_versao": "1.0.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "gpt-5.6-sol"
+    "modelo": "claude-sonnet-5",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
