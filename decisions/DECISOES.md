@@ -455,6 +455,22 @@ Ver `docs/domain/governanca/glossary.md`.
   [[revisao-er0019-usar-sonnet]]. Confirmado por leitura do journal
   (`agent-*.jsonl`, campo `message.model`) antes de cada persist a partir
   daqui, não só do `meta.json` do driver.
+- Defeito de schema pré-existente encontrado em 2Sm 9 (bloqueou o `bvcheck`
+  ao aplicar a revisão do capítulo): `2Sam.9.11.json` tinha
+  `decisoes[].alternativas_rejeitadas` como string solta em vez de
+  `{opcao, motivo}` (schema exige objeto). Não é defeito do ER-0022 — a
+  entrada vem de uma adjudicação ER-0020 anterior a esta sessão. Reparado
+  neste registro (string dividida nas duas alternativas que ela já
+  enumerava como "(1)"/"(2)", conteúdo preservado verbatim, só a forma
+  virou objeto) e commitado junto com a revisão gramatical do capítulo.
+  Varredura de todo `translation/` mostrou que **não é caso isolado: 160
+  registros** em livros de AT e NT (Esdras, Neemias, Lamentações, Jeremias,
+  Oseias, 1Co, 1Tm, Tiago, Efésios, entre outros) têm o mesmo defeito,
+  todos originados do mesmo padrão de escrita em ER-0020. Fora do escopo
+  do ER-0022 (que só toca capítulo por capítulo conforme avança); vira
+  F-0023 no backlog abaixo — reparo requer leitura humana ou agente por
+  entrada para dividir a string em opção/motivo sem perder conteúdo, não é
+  mecânico como os fixes de proveniência acima.
 
 ---
 
@@ -505,3 +521,14 @@ Ver `docs/domain/governanca/glossary.md`.
 - F-0013: higiene de código apontada pela revisão: `sort.Strings` em vez de insertion
   sort manual (oshb.go), unificar idioma das chaves JSON do wire-struct de oshb,
   remover `Capitulo` não usado em qa. Dono: mantenedor.
+- F-0023: **160 registros** em `translation/` (AT e NT — Esdras, Neemias, Lamentações,
+  Jeremias, Oseias, 1Co, 1Tm, Tiago, Efésios e outros) têm
+  `decisoes[].alternativas_rejeitadas` como string solta em vez de `{opcao, motivo}`
+  exigido pelo schema (`api/verse-record.schema.json`) — todos originados de
+  adjudicações ER-0020 anteriores a esta sessão, não do ER-0022. Achado ao shipar
+  2Sm 9 (ER-0022): `bvcheck` rejeitou `2Sam.9.11.json` por essa causa; reparado
+  isoladamente (string dividida nas duas alternativas que já enumerava, conteúdo
+  preservado). Os outros 159 seguem malformados — bloqueiam qualquer `bvcheck` futuro
+  sobre esses capítulos até reparados. Reparo não é mecânico (a string mistura
+  prosa argumentativa de 1+ alternativas; separar opção/motivo por entrada exige
+  leitura humana ou agente dedicado, não regex). Dono: mantenedor.
