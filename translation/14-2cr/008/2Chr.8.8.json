@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "2Chr.8.1-18"
   },
-  "texto_bv": "Dos filhos deles que permaneceram depois deles na terra, os quais os filhos de Israel não exterminaram, Salomão impôs trabalho forçado até o dia de hoje.",
+  "texto_bv": "Dos filhos deles que permaneceram depois deles na terra, os quais os filhos de Israel não exterminaram, Salomão lhes impôs trabalho forçado até o dia de hoje.",
   "traducao_literal": "Dos filhos deles que restaram depois deles na terra, os quais não terminaram os filhos de Israel, Salomão os fez subir para trabalho forçado até este dia.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Salomão impôs trabalho forçado até o dia de hoje. → Salomão lhes impôs trabalho forçado até o dia de hoje.",
+      "justificativa": "O sintagma partitivo fronteado 'Dos filhos deles...' precisa de um pronome retomador no predicado principal — o hebraico traz exatamente isso, o sufixo pronominal de 3mp em וַיַּעֲלֵם ('fez subir-os'). Sem 'lhes', 'impôs trabalho forçado' fica sem o complemento que a regência de 'impor a alguém' exige, e o SP inicial perde a função sintática que deveria ter na oração. Acréscimo de 'lhes' corrige regência/coesão sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Ordem SVO na oração relativa ('os quais os filhos de Israel não exterminaram') corrigida em relação à ordem VSO do literal, o que já era desejável e está mantido. Após o acréscimo do pronome retomador, a frase fica coesa.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -142,11 +149,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
