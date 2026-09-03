@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Neh.9.1-37"
   },
-  "texto_bv": "Agora, nosso Deus, Deus grande, poderoso e temível, que guardas a aliança e o amor leal. Não te seja pequena toda a aflição que nos sobreveio, a nossos reis, líderes, sacerdotes, profetas, pais e a todo o teu povo, desde os dias dos reis da Assíria até este dia.",
+  "texto_bv": "Agora, tu és nosso Deus, Deus grande, poderoso e temível, que guardas a aliança e o amor leal. Não te seja pequena toda a aflição que nos sobreveio, a nossos reis, líderes, sacerdotes, profetas, pais e a todo o teu povo, desde os dias dos reis da Assíria até este dia.",
   "traducao_literal": "E agora, nosso Deus, o Deus grande, poderoso e temível, guardador da aliança e do amor leal, não seja pequena diante de ti toda a fadiga que nos encontrou, nossos reis, nossos líderes, nossos sacerdotes, nossos profetas, nossos pais e todo o teu povo, desde os dias dos reis da Assíria até este dia.",
   "termos_originais": [
     {
@@ -194,6 +194,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Agora, nosso Deus, Deus grande, poderoso e temível, que guardas a aliança e o amor leal. → Agora, tu és nosso Deus, Deus grande, poderoso e temível, que guardas a aliança e o amor leal.",
+      "justificativa": "O trecho era um vocativo sem verbo principal (mera aposição nominal, refletindo a oração nominal do hebraico), pontuado como período independente — um fragmento de frase em português. O acréscimo de 'tu és' completa a oração com verbo finito, no mesmo padrão já usado em Neh.9.6-7 ('Tu... és o SENHOR'), sem alterar o sentido e sem fundir os dois períodos numa frase excessivamente longa. — revisão de forma sem alteração de sentido (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -211,11 +218,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
