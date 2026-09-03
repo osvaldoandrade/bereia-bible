@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Esth.7.1-10"
   },
-  "texto_bv": "O rei disse a Ester, também no segundo dia, no banquete do vinho: \"Qual é o seu pedido, Ester, a rainha? Isso lhe será dado. E qual é a sua petição? Até a metade do reino, e ela será atendida.\"",
+  "texto_bv": "O rei disse a Ester, também no segundo dia, no banquete do vinho: \"Qual é o seu pedido, Ester, a rainha? Isso lhe será dado. E qual é a sua petição? Ela será atendida, até a metade do reino.\"",
   "traducao_literal": "E disse o rei a Ester também no dia, o segundo, no banquete do vinho: Que é seu pedido, Ester a rainha, e será dado a você? E que é sua petição, até metade do reino, e será feita?",
   "termos_originais": [
     {
@@ -155,6 +155,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E qual é a sua petição? Até a metade do reino, e ela será atendida. → E qual é a sua petição? Ela será atendida, até a metade do reino.",
+      "justificativa": "O conectivo \"e\" entre \"até a metade do reino\" e \"ela será atendida\" invertia a relação lógica presente no hebraico e na KJV (\"it shall be performed, even to the half of the kingdom\"), em que \"até a metade do reino\" qualifica a extensão da concessão, não é uma resposta autônoma à pergunta. Reordenar aproxima também o pronome \"ela\" do antecedente \"sua petição\", eliminando a ambiguidade de leitura, sem alterar nenhum conteúdo do original. — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão interna ao verso; o par pedido/petição e a promessa de concessão até metade do reino são preservados integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -167,11 +174,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

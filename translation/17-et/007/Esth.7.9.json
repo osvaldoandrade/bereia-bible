@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Esth.7.1-10"
   },
-  "texto_bv": "Harbona, um dos eunucos, disse na presença do rei: \"Além disso, a forca que Hamã preparou para Mardoqueu, que falou em favor do rei, está de pé na casa de Hamã, com cinquenta côvados de altura.\" E o rei disse: \"Enforquem-no nela.\"",
+  "texto_bv": "Harbona, um dos eunucos, disse na presença do rei: \"Além disso, a forca de cinquenta côvados de altura que Hamã preparou para Mardoqueu, que falou em favor do rei, está de pé na casa de Hamã.\" E o rei disse: \"Enforquem-no nela.\"",
   "traducao_literal": "E disse Harbona, um dos eunucos, diante do rei: Também eis a árvore/madeiro que fez Hamã para Mardoqueu, que falou bem sobre o rei, está de pé na casa de Hamã, alta cinquenta côvados. E disse o rei: Enforcai-o sobre ele.",
   "termos_originais": [
     {
@@ -200,6 +200,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a forca que Hamã preparou para Mardoqueu, que falou em favor do rei, está de pé na casa de Hamã, com cinquenta côvados de altura. → a forca de cinquenta côvados de altura que Hamã preparou para Mardoqueu, que falou em favor do rei, está de pé na casa de Hamã.",
+      "justificativa": "\"Com cinquenta côvados de altura\" ficava adjacente a \"casa de Hamã\" ao final do período, atraindo o modificador para o substantivo errado (sugerindo que a casa, não a forca, teria cinquenta côvados). Reposicionar o modificador logo após \"a forca\" restaura a leitura correta do hebraico e da KJV (\"the gallows fifty cubits high\"), sem remover ou acrescentar palavras. — revisão de forma sem alteração de sentido (ER-0022). Correção de ambiguidade de escopo do modificador de altura; \"Enforquem-no\" mantém a ênclise obrigatória de início de oração imperativa, e \"nela\" concorda corretamente em gênero com \"a forca\".",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -214,11 +221,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
