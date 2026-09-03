@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Job.14.1-22"
   },
-  "texto_bv": "assim o homem se deita e não se levanta; até que não haja mais céus, não despertarão, nem serão acordados do seu sono.",
+  "texto_bv": "Assim o homem se deita e não se levanta; até que não haja mais céus, não despertarão, nem serão acordados do seu sono.",
   "traducao_literal": "E o homem se deita e não se levanta; até que não [haja mais] céus, não despertarão, e não serão acordados do seu sono.",
   "termos_originais": [
     {
@@ -97,6 +97,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "assim o homem se deita e não se levanta; até que não haja mais céus, não despertarão, nem serão acordados do seu sono. → Assim o homem se deita e não se levanta; até que não haja mais céus, não despertarão, nem serão acordados do seu sono.",
+      "justificativa": "O v.14.11 termina em ponto final (não alterado); iniciar o v.14.12 com minúscula contraria essa pontuação. Maiúscula inicial corrige a forma sem tocar no verso vizinho. — revisão de forma sem alteração de sentido (ER-0022). Alteração apenas de maiúscula. A alternância número singular ('o homem')/plural ('despertarão', 'serão acordados') é o coletivo singular→plural do hebraico (3mp em יָקִיצוּ/יֵעֹרוּ), presente também na KJV ('man'... 'they'); mantida por ser marca do original, não erro de concordância.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -109,11 +116,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
