@@ -7,6 +7,7 @@
       "texto_bv_revisto": "Mardoqueu soube de tudo o que havia acontecido, rasgou as vestes, vestiu-se de saco e cinza, saiu para o meio da cidade e soltou um grito grande e amargo.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "A cadeia de waw consecutivo do hebraico já foi convertida em oração com verbos coordenados e variados (soube, rasgou, vestiu-se, saiu, soltou), sem calque 'e...e...e...'. Regência de 'vestir-se de' correta; sujeito elidido recuperável (Mardoqueu). Sentido confere com a KJV.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -14,29 +15,23 @@
       "texto_bv_revisto": "Chegou até bem diante da porta do rei, pois não era permitido entrar na porta do rei vestido de saco.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Sujeito elidido (Mardoqueu) recuperável pelo verso anterior. Construção impessoal 'não era permitido entrar... vestido de saco' corresponde fielmente a 'כִּי אֵין לָבוֹא'. Sem calque, regência e concordância corretas.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Esth.4.3",
       "texto_bv_revisto": "Em toda província, no lugar aonde chegava a ordem do rei e o seu decreto, havia grande luto entre os judeus, com jejum, choro e lamento; muitos se deitavam em saco e cinza.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "saco e cinza eram estendidos para muitos",
-          "depois": "muitos se deitavam em saco e cinza",
-          "motivo": "Passiva calque do hebraico (יֻצַּע) soa artificial em pt-BR e obscurece o agente; NTLH/ARA/NVIPT convergem na voz ativa (“se deitavam em saco e cinza” / “vestiram roupas de pano grosseiro e se deitaram sobre cinzas”). Normalização para ativa conforme §6 (passivas desnecessárias) e §1.4 (piso de naturalidade)."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "NTLH/ARA/NVIPT usam voz ativa (“muitos se deitavam em saco e cinza” ou equivalente); a passiva da BV é calque que soa pouco natural em pt-BR contemporâneo.",
-      "veredito": "REVISADO"
+      "justificativa": "Uso de 'aonde' correto (verbo de movimento 'chegar'). A oração nominal hebraica foi verbalizada com 'havia' e a lista de substantivos condensada com 'com'; forma de superfície, sentido preservado. Sentença com ~38 palavras, abaixo do limiar de quebra.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Esth.4.4",
       "texto_bv_revisto": "As jovens de Ester e os eunucos dela vieram e lhe contaram, e a rainha ficou profundamente perturbada. Ela mandou roupas para vestir Mardoqueu e tirar dele o saco, mas ele não aceitou.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "PRO-1 com 5 pronomes de 3ª pessoa é falso-positivo: todos os antecedentes são inequívocos (“dela” = Ester, “lhe” = Ester, “ele” = Mardoqueu). Texto fluido e referências alinhadas.",
+      "justificativa": "Cadeia de waw já quebrada em duas orações coesas com conectivo 'mas' marcando a relação adversativa final (וְלֹא קִבֵּל). Pronomes 'dela', 'lhe', 'dele', 'ele' com antecedentes recuperáveis e não ambíguos.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -44,6 +39,7 @@
       "texto_bv_revisto": "Ester chamou Hataque, um dos eunucos do rei que ele havia designado para atendê-la, e lhe deu instruções a respeito de Mardoqueu, para saber o que era aquilo e por que motivo.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'ele' só pode remeter a 'rei' (sujeito de 'designado'; Hataque é o objeto da relativa 'que'), sem ambiguidade real. 'por que motivo' evita repetir 'o que era aquilo', variação legítima de forma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -51,6 +47,7 @@
       "texto_bv_revisto": "Hataque foi ao encontro de Mardoqueu, na praça da cidade, diante da porta do rei.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Relativa hebraica 'que estava diante da porta do rei' reduzida a aposto preposicional, forma mais natural em português sem perda de sentido.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -58,21 +55,30 @@
       "texto_bv_revisto": "Mardoqueu contou a ele tudo o que lhe havia acontecido, e também o valor exato da prata que Hamã havia prometido pesar nos tesouros do rei por causa dos judeus, a fim de exterminá-los.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'a ele' remete a Hataque (verso anterior); '-los' remete a 'judeus', antecedente presente na própria oração. Sentença com ~34 palavras, dentro do limite. Sem calque nem erro de regência.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Esth.4.8",
-      "texto_bv_revisto": "Deu-lhe também a cópia do texto do decreto emitido em Susã para exterminá-los, para que a mostrasse a Ester, contasse tudo e a instruísse a ir ao rei suplicar-lhe e, na presença dele, interceder por seu povo.",
-      "mudancas": [],
+      "texto_bv_revisto": "Deu-lhe também a cópia do texto do decreto emitido em Susã para exterminá-los, para que a mostrasse a Ester, contasse tudo e a instruísse a ir ao rei suplicar-lhe e, na presença dele, interceder por seu próprio povo.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "interceder por seu povo.",
+          "depois": "interceder por seu próprio povo.",
+          "motivo": "'seu' vinha logo após 'dele' (referente ao rei), criando ambiguidade de leitura entre 'povo do rei' e 'povo de Ester'; o sufixo pronominal hebraico עַמָּהּ (3fs) e a KJV ('for her people') confirmam que o povo é de Ester. 'próprio' desambigua sem alterar o sentido, retomando o controlador correto (Ester, sujeito dos infinitivos ir/suplicar/interceder)."
+        }
+      ],
       "objecoes": [],
-      "justificativa": "PRO-1 com 4 pronomes: antecedentes claros (“lhe” = Hataque, “a” = cópia/Ester, “lhe” = rei, “dele” = rei, “seu” = Ester contextual). Leitura confortável; referências com estrutura pronominal similar.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Único ajuste de coesão pronominal do capítulo; demais pronomes ('-los', 'lhe', 'a', 'dele') têm antecedente único e recuperável na própria oração.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Esth.4.9",
       "texto_bv_revisto": "Hataque voltou e contou a Ester as palavras de Mardoqueu.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Sentença simples, coesa, sem calque; sujeito e objetos explícitos, sem ambiguidade.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -80,28 +86,23 @@
       "texto_bv_revisto": "Ester falou com Hataque e o instruiu a respeito de Mardoqueu:",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Regência de 'instruir alguém a respeito de' correta. Dois-pontos introduz corretamente a fala relatada nos versos seguintes.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Esth.4.11",
       "texto_bv_revisto": "“Todos os servos do rei e o povo das províncias do rei sabem que há uma só lei para qualquer homem ou mulher que entrar na presença do rei, no pátio interior, sem ter sido chamado: a morte. Salvo aquele a quem o rei estender o cetro de ouro, para que viva. E eu não fui chamada à presença do rei há trinta dias.”",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "E eu não fui chamada para entrar na presença do rei há trinta dias.",
-          "depois": "E eu não fui chamada à presença do rei há trinta dias.",
-          "motivo": "RED-1: “entrar na presença do rei” repetido dentro do mesmo verso. ARA varia para “entrar a ter com o rei”; NVIPT usa “chamada à presença do rei”. Remoção de “para entrar” elimina redundância sem perda de sentido."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "RED-1 válido: BV repetia “entrar na presença do rei” duas vezes no mesmo verso; NTLH/ARA/NVIPT variam a expressão na segunda ocorrência. Correção alinha com as referências.",
-      "veredito": "REVISADO"
+      "justificativa": "Construção casus pendens do hebraico ('todo homem ou mulher que... uma é a sua lei') reorganizada em português idiomático sem calque. 'para que viva' corresponde à própria KJV ('that he may live'), não é divergência a corrigir. Primeira sentença tem ~38 palavras, abaixo do limiar de quebra. Registro de primeira pessoa consistente (fala relatada de Ester).",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Esth.4.12",
       "texto_bv_revisto": "Contaram a Mardoqueu as palavras de Ester.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Sentença simples e correta, sem calque.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -109,6 +110,7 @@
       "texto_bv_revisto": "Mardoqueu mandou responder a Ester: “Não pense que, por estar no palácio do rei, você vai escapar mais do que todos os outros judeus.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Tratamento 'você' consistente (fala entre humanos, conforme EDITORIAL). Pontuação e regência corretas; abertura de aspas curvas de discurso direto correta (fala continua no verso seguinte).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -116,6 +118,7 @@
       "texto_bv_revisto": "Porque, se você permanecer calada agora, o alívio e a libertação surgirão para os judeus de outro lugar, mas você e a casa do seu pai perecerão. E quem sabe se não foi justamente para um momento como este que você chegou à realeza?”",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Sujeitos compostos ('o alívio e a libertação', 'você e a casa do seu pai') corretamente com verbo no plural. Registro 'você'/'seu' mantido, coerente com o verso anterior. 'quem sabe se não foi... que' é construção retórica idiomática do português para afirmação tentativa, não calque nem negação real; corresponde à pergunta retórica da KJV.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -123,6 +126,7 @@
       "texto_bv_revisto": "Ester mandou responder a Mardoqueu:",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Sentença simples, paralela ao verso 13 ('Mardoqueu mandou responder a Ester'), consistência lexical mantida.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -130,6 +134,7 @@
       "texto_bv_revisto": "“Vá, reúna todos os judeus que se encontram em Susã, e jejuem por mim; não comam nem bebam durante três dias, nem de dia nem de noite. Eu também, com as minhas jovens, jejuarei da mesma forma. Depois disso, entrarei à presença do rei, ainda que isso vá contra a lei — e, se eu perecer, pereço.”",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Distinção singular ('vá', 'reúna', dirigidos a Mardoqueu) / plural ('jejuem', 'comam', 'bebam', dirigidos aos judeus reunidos) preservada exatamente como na morfologia hebraica (2ms depois 2mp). 'Eu também, com as minhas jovens, jejuarei' reformula o sujeito composto hebraico com verbo no singular (אָצוּם, 1cs) como oração principal + adjunto de companhia, resolvendo em português o que seria concordância problemática se mantido como sujeito composto com verbo singular.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -137,6 +142,7 @@
       "texto_bv_revisto": "Mardoqueu partiu e fez tudo conforme Ester lhe havia ordenado.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Sentença simples e coesa; pronome 'lhe' com antecedente único (Mardoqueu) e sujeito 'Ester' explícitos, sem ambiguidade.",
       "veredito": "SEM_ALTERACAO"
     }
   ]
