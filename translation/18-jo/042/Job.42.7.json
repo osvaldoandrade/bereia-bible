@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Job.42.1-17"
   },
-  "texto_bv": "Depois que o SENHOR falou essas palavras a Jó, disse a Elifaz, o temanita: “A minha ira se acendeu contra você e contra os seus dois amigos, porque vocês não falaram de mim o que é correto, como o meu servo Jó.”",
+  "texto_bv": "Depois que o SENHOR falou essas palavras a Jó, disse a Elifaz, o temanita: “A minha ira se acendeu contra você e contra os seus dois amigos, porque vocês não falaram de mim o que é correto, como o meu servo Jó.",
   "traducao_literal": "E foi, depois falou o SENHOR as palavras estas a Jó, e disse o SENHOR a Elifaz o temanita: Acendeu-se a minha ira contra ti e contra os teus dois amigos, porque não falastes a mim reto, como o meu servo Jó.",
   "termos_originais": [
     {
@@ -192,6 +192,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "...porque vocês não falaram de mim o que é correto, como o meu servo Jó.” → ...porque vocês não falaram de mim o que é correto, como o meu servo Jó.",
+      "justificativa": "A fala do SENHOR a Elifaz prossegue sem novo verbo de elocução até o final do v.8 (v.8 não reabre aspas e já fecha com ”); fechar as aspas ao final deste verso partiria indevidamente uma única fala em dois blocos e deixaria o fechamento do v.8 órfão. Retirando o fechamento aqui, a fala permanece aberta e se fecha uma única vez, ao final do v.8 — mesmo padrão de abertura única/fechamento único já usado na fala de Jó nos v.2–6. — revisão de forma sem alteração de sentido (ER-0022). Sujeito elíptico de 'disse' (o SENHOR, retomado do início do verso) é recuperável sem ambiguidade; alternância 'você' (singular, v.7) / 'vocês' (plural, mesmo v.7–8) reproduz fielmente a morfologia do hebraico (בְךָ֙ Sp2ms 'contra ti' vs. דִבַּרְתֶּ֥ם Vpp2mp 'vós falastes') — não é descontinuidade de tratamento a corrigir, é o próprio original que muda de número.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -202,11 +209,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
