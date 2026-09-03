@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Job.17.1-16"
   },
-  "texto_bv": "À cova eu clamo: \"Tu és meu pai\"; ao verme: \"minha mãe\" e \"minha irmã\".",
+  "texto_bv": "À cova eu clamei: “Tu és meu pai”; ao verme: “minha mãe” e “minha irmã”.",
   "traducao_literal": "À cova clamei: pai meu és tu; mãe minha e irmã minha, ao verme.",
   "termos_originais": [
     {
@@ -72,6 +72,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "À cova eu clamo: → À cova eu clamei: | \"Tu és meu pai\"; ao verme: \"minha mãe\" e \"minha irmã\". → “Tu és meu pai”; ao verme: “minha mãe” e “minha irmã”.",
+      "justificativa": "קָרָאתִי (Qal perfeito 1cs) é aspecto concluído — \"eu clamei\", como traducao_literal e a KJV (\"I have said\") trazem. O presente \"clamo\" rompe sem motivo a cadeia temporal com o perfeito do v.13 (\"estendi\"); corrigido para o pretérito perfeito, mesmo sentido, apenas a forma verbal. | Discurso direto deve usar aspas duplas curvas (EDITORIAL.md v1.2.0); o digest trazia aspas retas nesta única ocorrência do capítulo. — revisão de forma sem alteração de sentido (ER-0022). Corrigidos tempo verbal (perfeito hebraico) e o estilo de aspas do discurso direto; sentido inteiramente preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -82,11 +89,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
