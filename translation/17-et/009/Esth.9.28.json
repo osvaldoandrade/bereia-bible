@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "Esth.9.1-32"
   },
-  "texto_bv": "Esses dias são lembrados e guardados em cada geração, em cada família, em cada província e em cada cidade. Estes dias de Purim não deixarão de ser observados entre os judeus, e a memória deles não desaparecerá entre os seus descendentes.",
+  "texto_bv": "Esses dias são lembrados e guardados em cada geração, em cada família, em cada província e em cada cidade. Estes dias de Purim não deixarão de ser observados entre os judeus, e a memória desses dias não desaparecerá entre os seus descendentes.",
   "traducao_literal": "E os dias, os estes, são lembrados e são feitos em cada geração e geração, família e família, província e província, e cidade e cidade; e os dias do Purim, os estes, não passarão do meio dos judeus, e a memória deles não cessará da sua semente.",
   "termos_originais": [
     {
@@ -153,6 +153,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e a memória deles não desaparecerá entre os seus descendentes. → e a memória desses dias não desaparecerá entre os seus descendentes.",
+      "justificativa": "O pronome \"deles\" ficava adjacente a \"os judeus\", abrindo leitura ambígua (\"memória dos judeus\"), quando o hebraico (זִכְרָם) e o KJV (\"the memorial of them\") referem-se à memória destes dias de Purim, não ao povo. A substituição do pronome pelo sintagma \"desses dias\" resolve a ambiguidade sem alterar o sentido do original. — revisão de forma sem alteração de sentido (ER-0022). Corrigida ambiguidade referencial do pronome \"deles\" (ficava adjacente a \"os judeus\"), substituído por \"desses dias\" para amarrar a memória aos dias de Purim, conforme o hebraico (זִכְרָם) e o KJV (\"the memorial of them\").",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -163,11 +170,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.2.2",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
-    "texto_fonte": "oshb@3d15126f"
+    "modelo": "claude-sonnet-5",
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
