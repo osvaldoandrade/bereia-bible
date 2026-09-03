@@ -7,7 +7,7 @@
     "versiculo": 7,
     "pericope": "Esth.2.1-23"
   },
-  "texto_bv": "Ele era tutor de Hadassa — esta é Ester —, filha do seu tio, pois ela não tinha pai nem mãe. A moça era formosa e bonita de aparência, e, quando seu pai e sua mãe morreram, Mardoqueu a tomou para si como filha.",
+  "texto_bv": "Ele era tutor de Hadassa — esta é Ester —, filha do tio dele, pois ela não tinha pai nem mãe. A moça era formosa e bonita de aparência, e, quando seu pai e sua mãe morreram, Mardoqueu a tomou para si como filha.",
   "traducao_literal": "E foi tutor de Hadassa, esta é Ester, filha do seu tio, pois não havia para ela pai nem mãe; e a moça, bonita de forma e boa de aparência; e, ao morrerem seu pai e sua mãe, tomou-a Mardoqueu para si, por filha.",
   "termos_originais": [
     {
@@ -169,6 +169,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "filha do seu tio → filha do tio dele",
+      "justificativa": "\"Seu\" era ambíguo entre Ester (referente mais próximo, imediatamente antes do travessão) e Mardoqueu (sujeito \"Ele\" da oração); \"dele\" desambigua para o referente masculino correto — o tio de Mardoqueu (בַּת־דֹּדוֹ) — preservando o sentido. — revisão de forma sem alteração de sentido (ER-0022). Corrigida referência pronominal ambígua: \"seu tio\" podia ser lido como o tio da própria Ester (referente mais próximo, antes do travessão) em vez do tio de Mardoqueu (sujeito \"Ele\"), que é o sentido correto do hebraico בַּת־דֹּדוֹ (\"filha do tio DELE [de Mardoqueu]\") e da KJV (\"his uncle's daughter\"). \"Dele\" desambigua para o referente masculino correto sem alterar o sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -179,11 +186,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
