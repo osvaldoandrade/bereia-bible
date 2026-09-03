@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Job.12.1-25"
   },
-  "texto_bv": "Para quem vive tranquilo, a desgraça é como um archote desprezado, pronto para quem vacila o passo.",
+  "texto_bv": "Para quem vive tranquilo, a desgraça é como um archote desprezado, pronto para quem vacila no passo.",
   "traducao_literal": "Archote de desprezo, para o pensamento de quem está tranquilo; pronto para os que vacilam de pé.",
   "termos_originais": [
     {
@@ -79,6 +79,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pronto para quem vacila o passo. → pronto para quem vacila no passo.",
+      "justificativa": "‘Vacilar’ é intransitivo e pede a preposição ‘em’ diante do complemento (‘vacilar no passo’); sem a preposição, o verbo lê-se como transitivo direto, o que é regência incorreta em português — correção de forma, sem alterar o sentido (‘cujo passo vacila’). — revisão de forma sem alteração de sentido (ER-0022). Regência corrigida; o restante da imagem (archote desprezado para quem vive tranquilo) permanece intacto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -91,11 +98,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
