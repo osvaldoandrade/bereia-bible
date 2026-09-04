@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Ps.14.1-7"
   },
-  "texto_bv": "Ao mestre de música. De Davi. Diz o insensato em seu coração: \"Não há Deus.\" Corromperam-se, praticam obras abomináveis; não há quem faça o bem.",
+  "texto_bv": "Ao mestre de música. De Davi. Diz o insensato em seu coração: “Não há Deus.” Corrompem-se, praticam obras abomináveis; não há quem faça o bem.",
   "traducao_literal": "Ao regente. De Davi. Disse o insensato em seu coração: não há Deus. Corromperam, fizeram obra abominável; não há fazedor de bem.",
   "termos_originais": [
     {
@@ -150,6 +150,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"Não há Deus.\" → “Não há Deus.” | Corromperam-se, praticam obras abomináveis → Corrompem-se, praticam obras abomináveis",
+      "justificativa": "Discurso direto exige dois-pontos + aspas duplas curvas (EDITORIAL.md v1.2.0); as aspas retas destoam do padrão já usado nos versos vizinhos (cf. Sl 13.5, que usa “ ”). | Os dois verbos hebraicos (הִשְׁחִיתוּ, הִתְעִיבוּ) estão no mesmo aspecto perfectivo e descrevem a mesma caracterização atemporal já aberta por 'Diz' (presente gnômico); alternar para pretérito perfeito sem motivo quebra a cadeia temporal do verso — uniformizado para o presente que já rege 'praticam', sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Duas correções de forma, sem mudança de sentido: aspas retas normalizadas para curvas (norma do discurso direto) e tempo verbal uniformizado para o presente gnômico já estabelecido por 'diz' e 'praticam'.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -164,11 +171,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
