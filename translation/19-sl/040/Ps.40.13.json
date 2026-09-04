@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Ps.40.1-18"
   },
-  "texto_bv": "Porque males sem número me cercaram; as minhas iniquidades me alcançaram, e não consigo ver; são mais numerosas do que os cabelos da minha cabeça, e o meu coração me abandonou.",
+  "texto_bv": "Porque males sem número me cercaram; as minhas iniquidades me alcançaram, e não consegui ver; são mais numerosas do que os cabelos da minha cabeça, e o meu coração me abandonou.",
   "traducao_literal": "Porque males até não haver número me cercaram; alcançaram-me as minhas iniquidades, e não pude ver; são mais numerosas do que os cabelos da minha cabeça, e o meu coração me abandonou.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "as minhas iniquidades me alcançaram, e não consigo ver → as minhas iniquidades me alcançaram, e não consegui ver",
+      "justificativa": "Quebra de cadeia temporal sem motivo: o hebraico traz perfeito em toda a sequência (cercaram, alcançaram, יָכֹלְתִּי 'pude/consegui', abandonou), confirmado pela camada literal ('não pude ver'). O presente 'consigo' isolado no meio de verbos no passado não tem motivação no original; corrigido para o pretérito, sentido inalterado. — revisão de forma sem alteração de sentido (ER-0022). Único ponto de forma no verso; 'são mais numerosas' no presente permanece correto por descrever estado resultante (עָצְמוּ), não ação pontual.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -139,11 +146,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
