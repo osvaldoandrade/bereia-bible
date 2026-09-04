@@ -7,7 +7,7 @@
     "versiculo": 98,
     "pericope": "Ps.119.1-176"
   },
-  "texto_bv": "Os teus mandamentos me fazem mais sábio que os meus inimigos, pois estão sempre comigo.",
+  "texto_bv": "Os teus mandamentos, que estão sempre comigo, me fazem mais sábio que os meus inimigos.",
   "traducao_literal": "De-inimigos-meus fazem-sábio-me mandamento-teu, porque para-sempre ele para-mim.",
   "termos_originais": [
     {
@@ -68,6 +68,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Os teus mandamentos me fazem mais sábio que os meus inimigos, pois estão sempre comigo. → Os teus mandamentos, que estão sempre comigo, me fazem mais sábio que os meus inimigos.",
+      "justificativa": "O sujeito implícito de \"estão sempre comigo\" é \"os teus mandamentos\" (confirmado pelo hebraico הִיא, retomando מִצְוֺתֶךָ, e pela KJV \"for they are ever with me\"), mas na ordem original do verso em português esse sujeito ficava distante, logo após \"os meus inimigos\" — outro plural masculino adjacente — criando ambiguidade de referente. A cláusula foi movida para junto do seu antecedente correto, como oração relativa; nenhum termo foi acrescentado ou removido, só reordenado. — revisão de forma sem alteração de sentido (ER-0022). Corrigida ambiguidade pronominal entre \"os teus mandamentos\" e \"os meus inimigos\" como possíveis antecedentes de \"estão sempre comigo\"; reordenação sem alteração de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -78,7 +85,7 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
