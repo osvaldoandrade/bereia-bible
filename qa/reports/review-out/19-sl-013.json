@@ -1,60 +1,62 @@
 {
- "book_dir": "19-sl",
- "chapter": 13,
- "versos": [
-  {
-   "osis": "Ps.13.1",
-   "texto_bv_revisto": "Ao regente. Salmo de Davi.",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "Superscription é fórmula fixa do saltério; RAT-1 é falso positivo (ratio de palavras não se aplica a cabeçalhos litúrgicos curtos). Referências tratam o superscription como título ou o incorporam ao v.1 — a BV o isola como verso OSIS, convenção correta.",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Ps.13.2",
-   "texto_bv_revisto": "Até quando, SENHOR, esquecerás de mim para sempre? Até quando esconderás de mim o teu rosto?",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Ps.13.3",
-   "texto_bv_revisto": "Até quando terei aflições em minha alma, tristeza no coração o dia todo? Até quando o meu inimigo se exaltará sobre mim?",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "RAT-1 é falso positivo — ratio elevado é natural em poesia hebraica com paralelismo expandido. 'Aflições' diverge de ARA ('cuidados') e NVIPT ('inquietações') para o heb. עֵצוֹת, mas é escolha léxica legítima do tradutor; alteração para outro lexema mudaria matiz semântico, configurando objeção MATERIAL.",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Ps.13.4",
-   "texto_bv_revisto": "Olha, responde-me, SENHOR meu Deus; ilumina os meus olhos, para que eu não durma o sono da morte.",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "RAT-1 é falso positivo (expansão legítima em poesia). BV muito próxima de ARA; 'ilumina' é preferível a 'alumia' (ARA, arcaísmo §1.2). Texto fluido e correto.",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Ps.13.5",
-   "texto_bv_revisto": "Para que o meu inimigo não diga: “Eu o venci”, nem os meus adversários se alegrem quando eu vacilar.",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "RAT-1 é falso positivo (expansão legítima em poesia). Aspas curvas duplas corretas (ER-0004). Texto alinhado com ARA/NVIPT em forma e estrutura.",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Ps.13.6",
-   "texto_bv_revisto": "Mas eu confio no teu amor leal; meu coração exultará na tua salvação. Cantarei ao SENHOR, porque ele me fez bem.",
-   "mudancas": [
+  "book_dir": "19-sl",
+  "chapter": 13,
+  "versos": [
     {
-     "tipo": "EDITORIAL",
-     "antes": "confiei",
-     "depois": "confio",
-     "motivo": "Adequação aspectual: perfeito hebraico (בָּטַחְתִּי) com valor de estado presente em declaração de fé; 'confiei' em pt-BR cria ambiguidade (ação concluída). NTLH/ARA/NVIPT convergem em 'confio' (EDITORIAL §1.1 piso de naturalidade + §1.4 convergência com referências)."
+      "osis": "Ps.13.1",
+      "texto_bv_revisto": "Ao regente. Salmo de Davi.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "Cabeçalho litúrgico correto e conciso: 'Ao regente' e 'Salmo de Davi' vertem adequadamente לַמְנַצֵּחַ ... מִזְמוֹר ... לְדָוִד, sem calque ou problema de regência.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Ps.13.2",
+      "texto_bv_revisto": "Até quando, SENHOR, te esquecerás de mim para sempre? Até quando esconderás de mim o teu rosto?",
+      "mudancas": [
+        {
+          "tipo": "regencia",
+          "antes": "esquecerás de mim",
+          "depois": "te esquecerás de mim",
+          "motivo": "'Esquecer' com complemento preposicionado ('de mim') é construção pronominal ('esquecer-se de'), que exige o clítico reflexivo; sem ele a regência fica incompleta na norma culta. A tradição de tradução do versículo confirma a forma pronominal (cf. 'esquecer-te-ás'), aqui modernizada em próclise, já que EDITORIAL.md proíbe mesóclise. Não altera o sentido: o hebraico תִּשְׁכָּחֵנִי já expressa 'tu me esquecerás'."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Corrigida a regência do primeiro verbo; a segunda pergunta ('esconderás de mim o teu rosto') já está correta, pois 'esconder algo de alguém' é regência direta e não pronominal.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Ps.13.3",
+      "texto_bv_revisto": "Até quando terei aflições em minha alma, tristeza no coração o dia todo? Até quando o meu inimigo se exaltará sobre mim?",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "A elipse do verbo no segundo membro ('tristeza no coração o dia todo') reproduz o paralelismo poético do hebraico (יָגוֹן בִּלְבָבִי יוֹמָם) e é natural em português, não configurando erro. 'Aflições' é a camada interpretativa de texto_bv para o idiomatismo 'pôr conselhos na alma' (עֵצוֹת), distinta da camada literal — divergência esperada entre as duas camadas, não fidelidade quebrada. Concordância e regência do segundo período estão corretas."
+    ,
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Ps.13.4",
+      "texto_bv_revisto": "Olha, responde-me, SENHOR meu Deus; ilumina os meus olhos, para que eu não durma o sono da morte.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "Imperativos com ênclise correta ('responde-me', início absoluto de oração); vocativo 'SENHOR meu Deus' aplica corretamente a política de nomes divinos (YHWH→SENHOR, Elohim→Deus). 'O sono da morte' é glosa consolidada de אִישַׁן הַמָּוֶת, coerente com o controle da KJV ('sleep of death').",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Ps.13.5",
+      "texto_bv_revisto": "Para que o meu inimigo não diga: “Eu o venci”, nem os meus adversários se alegrem quando eu vacilar.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "A leitura de פֶּן com escopo duplo (regendo também יָגִילוּ) é atestada em versões formais (cf. ESV, que repete 'lest' nas duas orações); 'nem...se alegrem' no subjuntivo mantém corretamente o paralelismo negativo, e 'quando eu vacilar' está no futuro do subjuntivo, forma correta. Citação em aspas curvas com dois-pontos, conforme norma editorial.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Ps.13.6",
+      "texto_bv_revisto": "Mas eu confio no teu amor leal; meu coração exultará na tua salvação. Cantarei ao SENHOR, porque ele me fez bem.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "'Mas eu' traduz bem o vav adversativo enfático (וַאֲנִי) que contrasta com o lamento anterior. A sequência de tempos presente/futuro/futuro ('confio'/'exultará'/'cantarei') corresponde ao original (perfeito de estado presente seguido de imperfeito e coortativo). 'Porque ele me fez bem' glosa adequadamente o idiomatismo גָמַל עָלָי, com antecedente claro de 'ele' referindo-se ao SENHOR citado na oração anterior.",
+      "veredito": "SEM_ALTERACAO"
     }
-   ],
-   "objecoes": [],
-   "justificativa": "As três referências convergem em presente ('confio'); a BV usava pretérito que soa como confiança cessada em pt-BR contemporâneo. 'Exultará' mantido como futuro declarativo (NTLH também usa futuro 'ficará alegre'; legítimo em poesia). 'Amor leal' é tradução legítima de חֶסֶד.",
-   "veredito": "REVISADO"
-  }
- ]
+  ]
 }
