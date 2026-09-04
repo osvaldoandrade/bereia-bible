@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Ps.32.1-11"
   },
-  "texto_bv": "Não sejam como o cavalo ou como a mula, que não têm entendimento, cujos arreios precisam de freio e cabresto para os refrear; do contrário, não se aproximarão de você.",
+  "texto_bv": "Não sejam como o cavalo ou como a mula, que não têm entendimento, cujos arreios precisam de freio e cabresto para refrear esses animais; do contrário, não se aproximarão de você.",
   "traducao_literal": "Não sejais como-cavalo, como-mula, sem entender; com-freio-e-cabresto ornamento-dele para-refrear; não aproximar-se a-ti.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "cujos arreios precisam de freio e cabresto para os refrear → cujos arreios precisam de freio e cabresto para refrear esses animais",
+      "justificativa": "O clítico 'os' tinha dois antecedentes plausíveis em concordância de gênero e número — 'arreios' (mais próximo) e 'cavalo/mula' (referente pretendido, pois é o animal que os arreios refreiam, não o inverso). Substituído por sintagma nominal explícito ('esses animais') para eliminar a ambiguidade referencial sem alterar o sentido nem tocar na escolha lexical de 'arreios'. — revisão de forma sem alteração de sentido (ER-0022). Corrigida ambiguidade referencial do pronome 'os', que podia ser lido como retomando 'arreios' em vez do cavalo/mula, que de fato precisa ser refreado; o restante do verso foi mantido integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -138,11 +145,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
