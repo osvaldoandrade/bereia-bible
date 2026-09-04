@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Ps.104.1-35"
   },
-  "texto_bv": "Tu escondes o teu rosto, e eles se perturbam; tu lhes tiras o fôlego, e expiram, e voltam ao seu pó.",
+  "texto_bv": "Tu escondes o teu rosto, eles se perturbam; tu lhes tiras o fôlego, expiram, e voltam ao seu pó.",
   "traducao_literal": "Escondes teu rosto, perturbam-se; retiras seu fôlego, expiram, e a seu pó voltam.",
   "termos_originais": [
     {
@@ -89,6 +89,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Tu escondes o teu rosto, e eles se perturbam; tu lhes tiras o fôlego, e expiram, e voltam ao seu pó. → Tu escondes o teu rosto, eles se perturbam; tu lhes tiras o fôlego, expiram, e voltam ao seu pó.",
+      "justificativa": "O hebraico liga esta sequência de quatro orações com um único conectivo, apenas antes da última ('ve'el afaram yeshuvun'); a KJV também mantém só um 'and', antes de 'return to their dust'. A cadeia 'e...e...e...' do texto_bv é acréscimo sem correspondência no original. Removidos os dois primeiros 'e', preservado o final, que traduz o waw existente. — revisão de forma sem alteração de sentido (ER-0022). Cadeia de conectivos reduzida para corresponder ao único waw do hebraico, confirmado pela KJV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -99,11 +106,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
