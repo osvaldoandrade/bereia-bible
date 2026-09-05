@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Isa.23.1-18"
   },
-  "texto_bv": "Eis a terra dos caldeus! Este é o povo que não existia; a Assíria a destinou aos habitantes do deserto: levantaram suas torres de cerco, derrubaram os seus palácios; ele a tornou uma ruína.",
+  "texto_bv": "Eis a terra dos caldeus! Este é o povo que não existia; a Assíria a destinou aos habitantes do deserto: levantaram suas torres de cerco, derrubaram os seus palácios; ela a tornou uma ruína.",
   "traducao_literal": "Eis a terra dos caldeus — este povo não era; a Assíria a fundou para os habitantes do deserto; levantaram as suas torres de cerco, arrasaram os seus palácios, ele a tornou em ruína.",
   "termos_originais": [
     {
@@ -123,6 +123,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele a tornou uma ruína → ela a tornou uma ruína",
+      "justificativa": "“Assíria” é substantivo próprio de gênero feminino em português; o pronome “ele” quebrava a concordância de gênero e ainda puxava falsamente o leitor para “o povo” (masculino, referente errado) como antecedente. O agente do hebraico (sujeito de יְסָדָהּ e שָׂמָהּ) é o mesmo ao longo do verso — a Assíria —, preservado com “ela”, só corrigindo o gênero gramatical em português. — revisão de forma sem alteração de sentido (ER-0022). Correção de concordância de gênero e coesão pronominal; sentido inalterado (mesmo agente, a Assíria).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -136,11 +143,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
