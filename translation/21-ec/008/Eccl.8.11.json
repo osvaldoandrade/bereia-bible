@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Eccl.8.1-17"
   },
-  "texto_bv": "Porque a sentença contra o mau feito não se executa depressa, por isso o coração dos filhos dos homens está cheio neles para fazer o mal.",
+  "texto_bv": "Porque a sentença contra o mau feito não se executa depressa, por isso o coração dos filhos dos homens está cheio para fazer o mal.",
   "traducao_literal": "Porque não se faz sentença de obra má depressa; por isso está cheio o coração dos filhos do homem neles para fazer mal.",
   "termos_originais": [
     {
@@ -124,6 +124,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "está cheio neles para fazer o mal → está cheio para fazer o mal",
+      "justificativa": "'neles' é resíduo pleonástico do hebraico (מָלֵא ... בָּהֶם, lit. 'coração ... neles'), redundante em português já que 'dos filhos dos homens' já expressa o possuidor. Sua supressão elimina o calque sintático sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Remoção de pronome pleonástico calcado no hebraico (ver mudancas); vocabulário e sentido preservados.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -134,11 +141,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
