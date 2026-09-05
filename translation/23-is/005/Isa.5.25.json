@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Isa.5.1-30"
   },
-  "texto_bv": "Por isso a ira do SENHOR se acendeu contra o seu povo; ele estendeu a mão contra ele e o feriu, e os montes tremeram, e os cadáveres ficaram como lixo no meio das ruas. Com tudo isso a sua ira não se desviou, e a sua mão ainda está estendida.",
+  "texto_bv": "Por isso a ira do SENHOR se acendeu contra o seu povo; ele estendeu a mão contra o povo e o feriu, e os montes tremeram, e os cadáveres ficaram como lixo no meio das ruas. Com tudo isso a sua ira não se desviou, e a sua mão ainda está estendida.",
   "traducao_literal": "Por isso se acendeu a ira do SENHOR contra o seu povo, e estendeu a sua mão sobre ele, e o feriu; e tremeram os montes, e foi o cadáver deles como lixo no meio das ruas; com tudo isto não se desviou a sua ira, e ainda a sua mão está estendida.",
   "termos_originais": [
     {
@@ -180,6 +180,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ele estendeu a mão contra ele e o feriu → ele estendeu a mão contra o povo e o feriu",
+      "justificativa": "'ele' (sujeito, o SENHOR) e 'ele' (objeto de 'contra', o povo) na mesma oração formam pronome ambíguo entre dois referentes; retomada pelo sintagma nominal 'o povo' (já citado na oração anterior) desfaz a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção pontual de ambiguidade pronominal intra-oracional; restante do verso mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -190,11 +197,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
