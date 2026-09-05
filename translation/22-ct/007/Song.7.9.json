@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Song.7.1-14"
   },
-  "texto_bv": "Eu disse: Subirei à palmeira, tomarei os seus ramos. Sejam agora os teus seios como os cachos da videira, e o aroma do teu hálito, como o de maçãs.",
+  "texto_bv": "Eu disse: “Subirei à palmeira, tomarei os seus ramos. Sejam agora os teus seios como os cachos da videira, e o aroma do teu hálito, como o de maçãs.”",
   "traducao_literal": "Eu disse: subirei na palmeira, segurarei em seus ramos; e sejam, agora, teus seios como os cachos da videira, e o cheiro de teu nariz, como as maçãs.",
   "termos_originais": [
     {
@@ -125,6 +125,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Eu disse: Subirei à palmeira, tomarei os seus ramos. Sejam agora os teus seios como os cachos da videira, e o aroma do teu hálito, como o de maçãs. → Eu disse: “Subirei à palmeira, tomarei os seus ramos. Sejam agora os teus seios como os cachos da videira, e o aroma do teu hálito, como o de maçãs.”",
+      "justificativa": "Discurso direto introduzido por verbo dicendi ('Eu disse') + dois-pontos exige aspas duplas curvas (EDITORIAL.md v1.2.0); a fala relatada (אָמַרְתִּי) ficava sem marcação gráfica. Correção contida neste verso — a fala termina na própria oração de v.9, sem depender de v.10. — revisão de forma sem alteração de sentido (ER-0022). Ajuste de pontuação apenas; sentido, léxico e ordem das palavras preservados integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -137,10 +144,10 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
