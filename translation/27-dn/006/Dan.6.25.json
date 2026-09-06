@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Dan.6.1-29"
   },
-  "texto_bv": "E o rei ordenou, e trouxeram aqueles homens que tinham acusado Daniel, e os lançaram na cova dos leões — a eles, aos seus filhos e às suas mulheres; e, antes que chegassem ao fundo da cova, os leões os dominaram e esmigalharam todos os seus ossos.",
+  "texto_bv": "O rei ordenou, e trouxeram aqueles homens que tinham acusado Daniel, e os lançaram na cova dos leões — a eles, aos seus filhos e às suas mulheres. Antes que chegassem ao fundo da cova, os leões os dominaram e esmigalharam todos os seus ossos.",
   "traducao_literal": "E disse o rei, e trouxeram os homens, esses, que comeram os pedaços dele, de Daniel, e para a cova dos leões lançaram-nos, eles, os filhos deles e as mulheres deles; e não chegaram ao fundo da cova, até que dominaram sobre eles os leões, e todos os ossos deles esmigalharam.",
   "termos_originais": [
     {
@@ -183,6 +183,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E o rei ordenou, e trouxeram aqueles homens que tinham acusado Daniel, e os lançaram na cova dos leões → O rei ordenou, e trouxeram aqueles homens que tinham acusado Daniel, e os lançaram na cova dos leões | à cova dos leões — a eles, aos seus filhos e às suas mulheres; e, antes que chegassem ao fundo da cova, os leões os dominaram e esmigalharam todos os seus ossos. → à cova dos leões — a eles, aos seus filhos e às suas mulheres. Antes que chegassem ao fundo da cova, os leões os dominaram e esmigalharam todos os seus ossos.",
+      "justificativa": "'E' de abertura reproduz o waw consecutivo aramaico de início de versículo; o narrativo em português não exige o conectivo inicial nesta posição, que aqui é mero calque sintático. | Período de 46 palavras; quebra no ponto e vírgula em duas orações, sem inventar relação lógica nova (a sequência temporal permanece marcada por 'antes que'); como efeito colateral, o travessão aberto antes de 'a eles' passa a ser fechado pelo ponto final, em vez de ficar sem par. — revisão de forma sem alteração de sentido (ER-0022). Ver mudanças registradas; sentido integralmente preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -193,11 +200,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
