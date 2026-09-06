@@ -7,86 +7,93 @@
       "texto_bv_revisto": "A palavra do SENHOR veio a mim, dizendo:",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Fórmula introdutória padrão, idêntica à traducao_literal e à KJV; sem calque, regência ou concordância a corrigir.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.2",
       "texto_bv_revisto": "Filho do homem, proponha um enigma e narre uma parábola à casa de Israel.",
-      "mudancas": [
-        { "tipo": "EDITORIAL", "antes": "propõe", "depois": "proponha", "motivo": "§3/D-0003: normalização tu→você no imperativo (discurso Deus→humano)" },
-        { "tipo": "EDITORIAL", "antes": "narra", "depois": "narre", "motivo": "§3/D-0003: normalização tu→você no imperativo (discurso Deus→humano)" }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Imperativos de tratamento (você) corretos e concordantes; ordem e regência batem com termos_originais e KJV.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.3",
       "texto_bv_revisto": "Diga: Assim diz o Senhor DEUS: A grande águia, de grandes asas e longas penas, cheia de plumagem, de coloração variegada, veio ao Líbano e tomou o topo do cedro.",
-      "mudancas": [
-        { "tipo": "EDITORIAL", "antes": "Dize", "depois": "Diga", "motivo": "§3/D-0003: normalização tu→você no imperativo (discurso Deus→humano)" }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "A dupla ocorrência de 'grande/grandes' reflete a repetição enfática do hebraico (הַגָּדוֹל...גְּדוֹל), preservada como na KJV ('great eagle with great wings'); 'penas'/'asas' distinguem corretamente אֵבֶר de כָּנָף. Concordância de gênero (cheia, variegada) correta.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.4",
       "texto_bv_revisto": "Colheu o topo dos seus renovos e o levou à terra de Canaã; numa cidade de mercadores o colocou.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Próclise após sintagma adverbial ('numa cidade de mercadores o colocou') é norma culta correta; sujeito elíptico (a águia) recuperável sem ambiguidade.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.5",
-      "texto_bv_revisto": "Tomou também da semente do país e a pôs em campo de semeadura; levou-a para junto de águas abundantes e a plantou como salgueiro.",
-      "mudancas": [],
+      "texto_bv_revisto": "Tomou também da semente da terra e a pôs em campo de semeadura; levou-a para junto de águas abundantes e a plantou como salgueiro.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "da semente do país",
+          "depois": "da semente da terra",
+          "motivo": "Mesmo lemma hebraico אֶרֶץ (776) que em Ez.17.4 e Ez.17.13 é vertido 'terra' (também na traducao_literal deste verso: 'da semente da terra'); 'país' é variação sem razão contextual dentro do capítulo — normalizado para o lexema majoritário, §1.4 da consistência lexical intra-capítulo."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Corrigida a consistência lexical; restante do verso já correto.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Ezek.17.6",
-      "texto_bv_revisto": "Brotou e se tornou uma videira rasteira, de pouca altura, para que os seus ramos se voltassem para ela e as suas raízes ficassem debaixo dela; tornou-se uma videira, produziu sarmentos e lançou ramagens.",
+      "texto_bv_revisto": "Brotou e se tornou uma videira rasteira, de pouca altura, para que os seus ramos se voltassem para a águia e as suas raízes ficassem debaixo dela; tornou-se uma videira, produziu sarmentos e lançou ramagens.",
       "mudancas": [
-        { "tipo": "EDITORIAL", "antes": "para ele", "depois": "para ela", "motivo": "Concordância de gênero: \"águia\" é substantivo feminino em português; pronome deve ser \"ela\" (cf. v.7 que já usa \"ela\" e ARA/NVIPT com referência feminina)" },
-        { "tipo": "EDITORIAL", "antes": "debaixo dele", "depois": "debaixo dela", "motivo": "Concordância de gênero: \"águia\" é substantivo feminino em português; pronome deve ser \"dela\"" }
+        {
+          "tipo": "coesao",
+          "antes": "para que os seus ramos se voltassem para ela e as suas raízes ficassem debaixo dela",
+          "depois": "para que os seus ramos se voltassem para a águia e as suas raízes ficassem debaixo dela",
+          "motivo": "Pronome 'ela' ficava ambíguo entre dois referentes possíveis na janela portuguesa (a própria 'videira', sujeito imediato da oração, ou 'salgueiro', substantivo masculino mais próximo em Ez.17.5) quando o referente pretendido — confirmado pelos sufixos masculinos do TM (עָלָיו, תַּחְתָּיו, Sp3ms) e por Ez.17.7, onde a mesma construção usa 'águia' explícita — é a águia de Ez.17.3. Explicitação do sintagma nominal resolve a ambiguidade sem alterar o sentido (águia é substantivo feminino em português, mantendo 'dela' na sequência)."
+        }
       ],
       "objecoes": [],
-      "justificativa": "RED-1 (repetição de \"tornou-se uma videira\") é falso-positivo: o original repete \"foi para videira\" duas vezes, e a ARA também mantém a repetição (\"tornou-se numa videira\" ... \"Tornou-se numa videira\"). PRO-1 resolvido com a correção de concordância pronominal.",
+      "justificativa": "Ambiguidade pronominal corrigida por retomada nominal; repetição 'videira...videira' mantida por ser dobra formular do hebraico (וַיְהִי לְגֶפֶן...וַתְּהִי לְגֶפֶן).",
       "veredito": "REVISADO"
     },
     {
       "osis": "Ezek.17.7",
       "texto_bv_revisto": "Houve outra águia, grande, de grandes asas e de muita plumagem. Eis que esta videira voltou as suas raízes para ela e estendeu para ela os seus ramos, para que a regasse, longe dos canteiros onde havia sido plantada.",
-      "mudancas": [
-        { "tipo": "EDITORIAL", "antes": "onde fora plantada", "depois": "onde havia sido plantada", "motivo": "§1.2-tabela/ARC-1: mais-que-perfeito sintético \"fora\" substituído pelo composto \"havia sido\" (arcaísmo funcionalmente morto)" }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "CAL-2 (\"Eis que\") mantido: o הִנֵּה do original carrega força dêitica, marcando a virada dramática da videira para a segunda águia; não é calque paratático vazio.",
-      "veredito": "REVISADO"
+      "justificativa": "Aqui 'ela' tem antecedente imediato e inequívoco ('outra águia', na oração anterior); sem ambiguidade a corrigir.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.8",
       "texto_bv_revisto": "Em bom campo, junto a águas abundantes, ela estava plantada, para produzir ramos e dar fruto, para se tornar uma videira excelente.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Pronome 'ela' recupera 'videira', referente único e próximo; sem calque ou erro de regência.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.9",
       "texto_bv_revisto": "Diga: Assim diz o Senhor DEUS: Ela prosperará? Não arrancará ela as suas raízes, cortará o seu fruto e ele secará? Todas as folhas do seu broto secarão. E não será com braço forte nem com muito povo que a arrancarão pelas raízes.",
-      "mudancas": [
-        { "tipo": "EDITORIAL", "antes": "Dize", "depois": "Diga", "motivo": "§3/D-0003: normalização tu→você no imperativo (discurso Deus→humano)" },
-        { "tipo": "EDITORIAL", "antes": "arrancará ele", "depois": "arrancará ela", "motivo": "Concordância de gênero: o agente é a águia (substantivo feminino em português); \"ele\" seguiria o gênero do hebraico נשׁר (masculino), mas em português o pronome deve concordar com \"águia\" (feminino). NTLH/ARA tornam o sujeito explícito como \"a águia\"." }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "PRO-1 parcialmente resolvido com a correção de concordância. \"ele secará\" (segunda ocorrência) mantém-se: \"ele\" refere-se a \"fruto\" (masculino), concordância correta.",
-      "veredito": "REVISADO"
+      "justificativa": "Cadeia de waw consecutivo do hebraico já foi convertida em pontuação variada (vírgulas e frases curtas) em vez de 'e...e...e'; 'braço forte' é a colocação bíblica consagrada para בִזְרוֹעַ גְּדוֹלָה (cf. fórmula 'com mão forte e braço estendido'), não uma inconsistência lexical.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.10",
       "texto_bv_revisto": "Eis que, plantada como está, prosperará? Não secará totalmente ao ser tocada pelo vento oriental? No canteiro onde brotou, secará.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "CAL-2 (\"Eis que\") mantido: o הִנֵּה carrega força dêitica nesta pergunta retórica, marcando o desafio dramático à videira. NTLH usa \"Sim!\" e ARA omite, mas a BV preserva a marca dêitica do original, que é funcional (não calque vazio).",
+      "justificativa": "Infinitivo absoluto enfático do hebraico (תִּיבַשׁ יָבֹשׁ) corretamente vertido pelo advérbio 'totalmente'; voz passiva natural em português.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -94,24 +101,23 @@
       "texto_bv_revisto": "A palavra do SENHOR veio a mim, dizendo:",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Fórmula idêntica a Ez.17.1, já correta.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.12",
       "texto_bv_revisto": "Diga agora à casa rebelde: Vocês não sabem o que significam estas coisas? Diga: Eis que o rei da Babilônia veio a Jerusalém, tomou o seu rei e os seus príncipes, e os levou consigo para a Babilônia.",
-      "mudancas": [
-        { "tipo": "EDITORIAL", "antes": "Dize (2 ocorrências)", "depois": "Diga", "motivo": "§3/D-0003: normalização tu→você no imperativo (discurso Deus→humano); aplicado nas duas ocorrências do verso" },
-        { "tipo": "EDITORIAL", "antes": "Não sabeis", "depois": "Vocês não sabem", "motivo": "§3/D-0003: normalização vós→vocês no discurso Deus→humano; original emprega 2ª pessoa plural, mantida a distinção de número com \"vocês\"" }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "\"Eis que\" mantido: introduz evento histórico concreto (a vinda do rei da Babilônia) com força dêitica no original.",
-      "veredito": "REVISADO"
+      "justificativa": "'Consigo' resolve corretamente a reflexividade do sufixo hebraico (אֵלָיו referindo-se ao próprio rei da Babilônia), evitando ambiguidade com 'o seu rei/príncipes' recém-mencionados; tratamento 'vocês' consistente com Deus falando a Ezequiel/casa de Israel.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.13",
       "texto_bv_revisto": "Tomou um da descendência real e fez com ele uma aliança, pondo-o sob juramento; e levou consigo os poderosos da terra,",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Verso é continuação sintática de v.14 (oração final 'para que fosse...'), preservada como no hebraico e na KJV. Sem erro de forma.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -119,21 +125,30 @@
       "texto_bv_revisto": "para que fosse um reino humilde, sem se exaltar, para que guardasse a sua aliança e ela permanecesse firme.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Pronome 'ela' recupera 'aliança', referente único e imediato; continuidade correta com v.13.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.15",
-      "texto_bv_revisto": "Mas ele se rebelou contra ele, enviando seus mensageiros ao Egito para que lhe dessem cavalos e muito povo. Prosperará? Escapará quem faz tais coisas? Quebrará a aliança e ainda assim escapará?",
-      "mudancas": [],
+      "texto_bv_revisto": "Mas ele se rebelou contra o rei da Babilônia, enviando seus mensageiros ao Egito para que lhe dessem cavalos e muito povo. Prosperará? Escapará quem faz tais coisas? Quebrará a aliança e ainda assim escapará?",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "Mas ele se rebelou contra ele, enviando",
+          "depois": "Mas ele se rebelou contra o rei da Babilônia, enviando",
+          "motivo": "'Ele...contra ele' repetia o mesmo pronome para dois referentes distintos (o rei vassalo, sujeito, e o rei da Babilônia, objeto de 'contra'), ambíguo e de leitura confusa em voz alta. Explicitado o segundo referente (já nomeado em Ez.17.12) sem alterar o sentido; 'lhe' na sequência permanece corretamente ligado ao sujeito 'ele' (o vassalo), agora sem concorrência."
+        }
+      ],
       "objecoes": [],
-      "justificativa": "PRO-1: a ambiguidade de \"ele se rebelou contra ele\" (dois \"ele\" com referentes distintos — o rei vassalo e o suserano) segue a estrutura do original, que não repete o substantivo. O contexto imediato (v.13-14, que identifica os agentes) torna os referentes identificáveis. Clarificação exigiria adicionar \"o rei da Babilônia\" (como faz a ARA), o que ultrapassa o escopo de forma.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Ambiguidade pronominal entre dois referentes corrigida por retomada nominal do antecedente já estabelecido no capítulo.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Ezek.17.16",
       "texto_bv_revisto": "Vivo eu, diz o Senhor DEUS: certamente no lugar do rei que o fez reinar, cujo juramento desprezou e cuja aliança quebrou, com ele, no meio da Babilônia, morrerá.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Concordância de 'cujo/cuja' com 'juramento'(m)/'aliança'(f) está correta. A ambiguidade referencial de 'cujo juramento' (do próprio rei da Babilônia ou jurado a ele) replica estrutura genitiva do TM e da KJV ('whose oath he despised'); não é defeito de forma introduzido pela BV.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -141,23 +156,23 @@
       "texto_bv_revisto": "E não será com grande exército nem com grande multidão que Faraó o ajudará na guerra, ao levantar rampas de cerco e construir torres de assédio, para exterminar muitas vidas.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Estrutura clivada ('não será X que Y') é norma culta correta; sem calque ou erro de regência.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.18",
       "texto_bv_revisto": "Desprezou o juramento, quebrando a aliança; eis que havia dado a mão em penhor e, tendo feito todas estas coisas, não escapará.",
-      "mudancas": [
-        { "tipo": "EDITORIAL", "antes": "dera", "depois": "havia dado", "motivo": "§1.2-tabela/ARC-1: mais-que-perfeito sintético \"dera\" substituído pelo composto \"havia dado\" (arcaísmo funcionalmente morto)" }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "CAL-2 (\"Eis que\") mantido: marca a solenidade da declaração acusatória, com força dêitica no original.",
-      "veredito": "REVISADO"
+      "justificativa": "'Tendo feito' (composto) evita corretamente o mais-que-perfeito sintético proibido pela norma editorial; gerúndio 'quebrando' verte adequadamente a oração final do hebraico.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.19",
       "texto_bv_revisto": "Portanto, assim diz o Senhor DEUS: Vivo eu: certamente o meu juramento, que ele desprezou, e a minha aliança, que ele quebrou, eu farei recair sobre a sua cabeça.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Orações relativas com antecedentes claros ('juramento'/'aliança'); regência e concordância corretas.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -165,22 +180,23 @@
       "texto_bv_revisto": "Estenderei sobre ele a minha rede, e ele será apanhado no meu laço; eu o levarei à Babilônia, e ali entrarei em juízo com ele por causa da infidelidade com que me traiu.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Infidelidade...traiu' verte de modo natural o acusativo cognato hebraico (מַעֲלוֹ אֲשֶׁר מָעַל) sem redundância estranha ao português; pronomes 'ele/o' todos com antecedente único (o rei vassalo).",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.21",
       "texto_bv_revisto": "E todos os seus fugitivos, em todas as suas tropas, cairão à espada; os que restarem serão espalhados a todos os ventos; e vocês saberão que eu sou o SENHOR que falei.",
-      "mudancas": [
-        { "tipo": "EDITORIAL", "antes": "sabereis", "depois": "vocês saberão", "motivo": "§3/D-0003: normalização vós→vocês no discurso Deus→humano; VOS-1 resolvido; mantém a distinção de número (plural) do original" }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "'Eu sou o SENHOR que falei' segue a concordância consagrada em português bíblico quando 'eu' é o antecedente lógico da oração relativa via predicativo (cf. 'Eu sou o SENHOR teu Deus, que te tirei da terra do Egito'), não erro de concordância. Fórmula de reconhecimento profético preservada.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.17.22",
       "texto_bv_revisto": "Assim diz o Senhor DEUS: Eu mesmo tomarei um broto do topo do cedro elevado e o porei; do cimo dos seus renovos colherei um broto tenro, e eu mesmo o plantarei sobre um monte alto e elevado.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Eu mesmo' reproduz corretamente as duas ocorrências do pronome enfático אָנִי (na 1ª e 3ª ações, ausente na 2ª), preservando o padrão do TM. Uso de 'cimo' (e não 'topo') para diferenciar רֹאשׁ יֹנְקוֹתָיו de צַמֶּרֶת הָאֶרֶז na mesma frase é registro distinto exigido pelo contexto (evita repetir 'topo...topo' no mesmo verso), não inconsistência lexical.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -188,6 +204,7 @@
       "texto_bv_revisto": "No monte alto de Israel o plantarei, e ele produzirá ramos e dará fruto, e se tornará um cedro majestoso; debaixo dele habitarão todas as aves, toda espécie de ave habitará à sombra dos seus ramos.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Dobra 'todas as aves/toda espécie de ave...habitarão/habitará' reflete o paralelismo formular do hebraico (מְרִיז verbo repetido em inclusão, כֹּל צִפּוֹר כָּל כָּנָף); concordância singular-singular ('toda espécie...habitará') e plural-plural ('todas as aves...habitarão') corretas — não é defeito, é figura do original preservada.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -195,6 +212,7 @@
       "texto_bv_revisto": "E todas as árvores do campo saberão que eu, o SENHOR, abati a árvore alta e levantei a árvore baixa, sequei a árvore verde e fiz florescer a árvore seca. Eu, o SENHOR, falei, e cumprirei.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "'Cumprirei' para עָשִׂיתִי (perfeito profético de certeza) segue convenção tradutória padrão (cf. KJV 'I will do it'); repetição 'árvore alta/baixa/verde/seca' é paralelismo formular do hebraico, não vício de estilo.",
       "veredito": "SEM_ALTERACAO"
     }
   ]
