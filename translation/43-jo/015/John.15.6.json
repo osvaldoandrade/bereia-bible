@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "John.15.1-27"
   },
-  "texto_bv": "Se alguém não permanecer em mim, será lançado fora, como o ramo, e secará; são ajuntados e lançados ao fogo, e queimarão.",
+  "texto_bv": "Se alguém não permanecer em mim, será lançado fora, como o ramo, e secará; são ajuntados e lançados ao fogo, e queimam.",
   "traducao_literal": "Se alguém não permanecer em mim, foi lançado fora como o ramo e secou, e ajuntam-nos e ao fogo lançam, e queima.",
   "termos_originais": [
     {
@@ -159,6 +159,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "são ajuntados e lançados ao fogo, e queimarão. → são ajuntados e lançados ao fogo, e queimam.",
+      "justificativa": "Quebra de cadeia temporal sem motivo: 'queimarão' (futuro) interrompia a sequência em presente histórico iniciada em 'são ajuntados e lançados', que descreve a mesma ação sobre o mesmo sujeito plural (os ramos secos recolhidos); uniformizado para o presente, que também é o tempo do grego nesse trecho (καίεται, presente). O sentido — destino de arder no fogo — não muda. — revisão de forma sem alteração de sentido (ER-0024). Correção de forma (tempo verbal), sem alteração de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -169,11 +176,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
