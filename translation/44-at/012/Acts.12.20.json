@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Acts.12.1-25"
   },
-  "texto_bv": "Herodes estava muito irritado com os habitantes de Tiro e de Sidom; mas eles vieram a ele de comum acordo e, tendo persuadido Blasto, camareiro do rei, pediram paz. Porque a região deles dependia do território do rei para se abastecer.",
+  "texto_bv": "Herodes estava muito irritado com os habitantes de Tiro e de Sidom; mas eles vieram a ele de comum acordo e, tendo persuadido Blasto, camareiro do rei, pediram paz. Pois a região deles dependia do território do rei para se abastecer.",
   "traducao_literal": "E estava em conflito irado com os tírios e sidônios; e vieram a ele de comum acordo, e tendo persuadido Blasto, o [que estava] sobre o quarto de dormir do rei, pediam paz, porque a terra deles era sustentada pela [terra] do rei.",
   "termos_originais": [
     {
@@ -205,6 +205,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pediram paz. Porque a região deles dependia do território do rei para se abastecer. → pediram paz. Pois a região deles dependia do território do rei para se abastecer.",
+      "justificativa": "'Porque' é conjunção subordinativa causal e não deve iniciar período independente, pois depende sintaticamente de uma oração-núcleo. 'Pois' (coordenativa explicativa) pode abrir sentença de forma autônoma, preservando a divisão em duas frases que evita um período único acima de 40 palavras e mantendo a relação causal presente em διὰ τὸ τρέφεσθαι... — revisão de forma sem alteração de sentido (ER-0024). Conectivo corrigido sem alterar o sentido nem a divisão de frases já adotada para controlar a extensão da sentença.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -217,11 +224,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
