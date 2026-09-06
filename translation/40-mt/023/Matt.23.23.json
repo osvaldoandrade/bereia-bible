@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Matt.23.1-39"
   },
-  "texto_bv": "Ai de vocês, escribas e fariseus, hipócritas! Porque vocês dão o dízimo da hortelã, do endro e do cominho, mas negligenciaram o que é mais importante na lei: a justiça, a misericórdia e a fé; estas era necessário praticar, sem omitir aquelas.",
+  "texto_bv": "Ai de vocês, escribas e fariseus, hipócritas! Porque vocês dão o dízimo da hortelã, do endro e do cominho, mas negligenciaram o que é mais importante na lei: a justiça, a misericórdia e a fé; estas, era necessário praticar, sem omitir aquelas.",
   "traducao_literal": "Ai de vós, escribas e fariseus hipócritas, porque dais o dízimo da hortelã e do endro e do cominho, e deixastes o mais pesado da lei: o juízo e a misericórdia e a fé; estas, porém, era necessário fazer, e aquelas não deixar.",
   "termos_originais": [
     {
@@ -228,6 +228,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a justiça, a misericórdia e a fé; estas era necessário praticar, sem omitir aquelas. → a justiça, a misericórdia e a fé; estas, era necessário praticar, sem omitir aquelas.",
+      "justificativa": "\"estas\" é objeto direto topicalizado antes da oração impessoal \"era necessário praticar\"; sem vírgula, a sequência \"estas era\" (plural/singular) convida à leitura momentânea de \"estas\" como sujeito de \"era\", gerando choque de concordância. A vírgula marca o deslocamento sintático e evita o tropeço de leitura, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0024). ὅτι e o δέ inicial de \"ἀποδεκατοῦτε\" corretamente vertidos; segundo δέ (ταῦτα δὲ ἔδει) absorvido pelo já presente \"mas\" da oração anterior, evitando redundância de adversativas — mantido. Vírgula acrescentada após \"estas\" para a clareza da topicalização (ver mudança).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a justiça, a misericórdia e a fé; estas era necessário praticar, sem omitir aquelas. → a justiça, a misericórdia e a fé; estas, era necessário praticar, sem omitir aquelas.",
+      "justificativa": "\"estas\" é objeto direto topicalizado antes da oração impessoal \"era necessário praticar\"; sem vírgula, a sequência \"estas era\" (plural/singular) convida à leitura momentânea de \"estas\" como sujeito de \"era\", gerando choque de concordância. A vírgula marca o deslocamento sintático e evita o tropeço de leitura, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0024). ὅτι e o δέ inicial de \"ἀποδεκατοῦτε\" corretamente vertidos; segundo δέ (ταῦτα δὲ ἔδει) absorvido pelo já presente \"mas\" da oração anterior, evitando redundância de adversativas — mantido. Vírgula acrescentada após \"estas\" para a clareza da topicalização (ver mudança).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -238,11 +252,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
