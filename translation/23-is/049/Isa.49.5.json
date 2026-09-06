@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Isa.49.1-26"
   },
-  "texto_bv": "E agora, diz o SENHOR — que me formou desde o ventre para ser seu servo, para trazer Jacó de volta a ele, e Israel não será reunido — serei honrado aos olhos do SENHOR, e meu Deus se tornou minha força.",
+  "texto_bv": "E agora, diz o SENHOR — que me formou desde o ventre para ser seu servo, para trazer Jacó de volta a ele, ainda que Israel não seja reunido — serei honrado aos olhos do SENHOR, e meu Deus se tornou minha força.",
   "traducao_literal": "E agora diz o SENHOR, o que me formou desde o ventre para servo a ele, para fazer voltar Jacó a ele, e Israel não é reunido — e serei honrado aos olhos do SENHOR, e o meu Deus tornou-se a minha força.",
   "termos_originais": [
     {
@@ -144,6 +144,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para trazer Jacó de volta a ele, e Israel não será reunido — → para trazer Jacó de volta a ele, ainda que Israel não seja reunido —",
+      "justificativa": "O conectivo aditivo 'e' mascarava a relação concessiva marcada no hebraico e explicitada na KJV ('Though Israel be not gathered, yet shall I be glorious'); trocado por 'ainda que', com o subjuntivo que a concessiva exige, sem alterar o conteúdo proposicional (Israel não reunido / servo honrado). — revisão de forma sem alteração de sentido (ER-0022). Cláusula reorganizada para restaurar a relação concessiva do original dentro do parêntese que descreve o SENHOR; conteúdo preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -157,10 +164,10 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

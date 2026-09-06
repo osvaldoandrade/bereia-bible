@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Isa.49.1-26"
   },
-  "texto_bv": "Reis serão seus tutores, e suas princesas, suas amas. Com o rosto em terra, eles se prostrarão diante de você e lamberão o pó dos seus pés. Então você saberá que eu sou o SENHOR e que os que esperam em mim não serão envergonhados.",
+  "texto_bv": "Reis serão seus tutores, e as princesas deles, suas amas. Com o rosto em terra, eles se prostrarão diante de você e lamberão o pó dos seus pés. Então você saberá que eu sou o SENHOR e que os que esperam em mim não serão envergonhados.",
   "traducao_literal": "E serão reis os teus tutores, e as suas princesas, as tuas amas; com rosto em terra a ti se prostrarão, e o pó dos teus pés lamberão; e saberás que eu sou o SENHOR, que não se envergonharão os que esperam em mim.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Reis serão seus tutores, e suas princesas, suas amas. → Reis serão seus tutores, e as princesas deles, suas amas.",
+      "justificativa": "'Suas princesas' ficou ambíguo entre 'as princesas de você' e 'as princesas dos reis' (sentido correto: hebraico שָׂרוֹתֵיהֶם tem sufixo de 3ª pessoa plural, retomando 'reis'; TL traz 'as suas princesas' com o mesmo referente). A conversão tu→você apagou a distinção que o literal preservava ('teus tutores' vs. 'as suas princesas' vs. 'as tuas amas'); acrescentado 'deles' para restaurar a referência inequívoca aos reis, mantendo 'suas amas' como referência a você. — revisão de forma sem alteração de sentido (ER-0022). Ambiguidade referencial real, criada pela uniformização tu→você, corrigida com o mínimo de alteração possível.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -143,11 +150,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
