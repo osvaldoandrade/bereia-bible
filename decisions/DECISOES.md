@@ -390,7 +390,13 @@ Ver `docs/domain/governanca/glossary.md`.
 ## ER-0022 — Revisão gramatical e de coesão do Antigo Testamento
 
 - Data: 2026-08-31 · Escopo: AT (livros 1–39) · Origem: determinação do
-  mantenedor · Status: EM EXECUÇÃO
+  mantenedor · Status: **CONCLUÍDO em 2026-09-06** — 929/929 capítulos,
+  23213/23213 versículos revisados, cobertura OSIS exata confirmada digest a
+  digest em cada lote. `bvcheck` limpo (0 falhas) numa varredura final
+  capítulo a capítulo do AT inteiro após o encerramento. 36 objeções MATERIAIS
+  abertas (`objecoes_nao_resolvidas`, tag ER-0022) aguardam adjudicação do
+  mantenedor — mesmo mecanismo do ER-0020 para o ER-0019; nenhum passo
+  automático drena essa fila hoje.
 - Regra que governa a etapa: **fidelidade às Escrituras é o teto; norma culta e
   coesão são o piso.** Colidindo, a fidelidade vence e vira objeção MATERIAL —
   nunca o contrário. Na maioria dos casos não há colisão: o defeito é calque
@@ -521,14 +527,19 @@ Ver `docs/domain/governanca/glossary.md`.
 - F-0013: higiene de código apontada pela revisão: `sort.Strings` em vez de insertion
   sort manual (oshb.go), unificar idioma das chaves JSON do wire-struct de oshb,
   remover `Capitulo` não usado em qa. Dono: mantenedor.
-- F-0023: **160 registros** em `translation/` (AT e NT — Esdras, Neemias, Lamentações,
-  Jeremias, Oseias, 1Co, 1Tm, Tiago, Efésios e outros) têm
-  `decisoes[].alternativas_rejeitadas` como string solta em vez de `{opcao, motivo}`
-  exigido pelo schema (`api/verse-record.schema.json`) — todos originados de
-  adjudicações ER-0020 anteriores a esta sessão, não do ER-0022. Achado ao shipar
-  2Sm 9 (ER-0022): `bvcheck` rejeitou `2Sam.9.11.json` por essa causa; reparado
-  isoladamente (string dividida nas duas alternativas que já enumerava, conteúdo
-  preservado). Os outros 159 seguem malformados — bloqueiam qualquer `bvcheck` futuro
-  sobre esses capítulos até reparados. Reparo não é mecânico (a string mistura
-  prosa argumentativa de 1+ alternativas; separar opção/motivo por entrada exige
-  leitura humana ou agente dedicado, não regex). Dono: mantenedor.
+- F-0023: **RESOLVIDO no AT em 2026-09-06** (achado durante o ER-0022, causa
+  anterior a essa etapa). `decisoes[].alternativas_rejeitadas` gravado como
+  string solta em vez de `{opcao, motivo}` exigido pelo schema
+  (`api/verse-record.schema.json`) — todos originados de adjudicações ER-0020
+  anteriores ao ER-0022, não da revisão gramatical em si. Achado inicial ao
+  shipar 2Sm 9: `bvcheck` rejeitou `2Sam.9.11.json`; a varredura completa do
+  corpus então mostrou 160 registros afetados em AT e NT. Cada um foi reparado
+  manualmente ao longo do ER-0022 conforme o capítulo era alcançado (string
+  dividida em opção/motivo pela junção "perde porque"/"perde pelo(s)" que o
+  próprio texto argumentativo já demarcava; conteúdo preservado verbatim,
+  nenhuma palavra substantiva alterada). **AT: 100% reparado** — varredura
+  final capítulo a capítulo com `bvcheck` fecha em 0 falhas nos 929 capítulos.
+  **NT: 37 registros permanecem malformados** (Mt, Mc, Lc, Jo, At, Rm, 1Co,
+  Gl, Ef, Cl, 1Tm, Hb, Tg, 1Pe, 1Jo, 2Jo, Jd, Ap) — fora do escopo do ER-0022
+  (AT apenas); reparo é o mesmo procedimento, só não foi feito por não haver
+  driver de revisão rodando sobre o NT nesta rodada. Dono: mantenedor.
