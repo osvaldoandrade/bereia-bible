@@ -204,9 +204,11 @@
   "confianca": 0.73,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0024): Possível dessintonia entre texto_bv e o grego pinado na 2ª metade do verso: texto_bv traz 'o cetro do teu reino' (2ª pessoa), mas termos_originais registram, para o último termo do verso, 'αὐτοῦ' (lemma αὐτός, P-GSM, 3ª pessoa 'dele/seu'), não 'σου' (2ª pessoa, 'teu'). Se o termo pinado estiver correto, o grego diz 'o cetro do reino DELE', quebrando a 2ª pessoa que rege 'o teu trono' no início do mesmo verso. — evidência: termos_originais: ...\"βασιλείας\" (N-GSF) seguido de \"αὐτοῦ\" (lemma \"αὐτός\", P-GSM) — pronome de 3ª pessoa, não de 2ª. texto_bv: 'o cetro do teu reino'; traducao_literal também traz 'reino teu'; controles.kjv traz 'thy kingdom' (2ª pessoa) — as três camadas de tradução convergem em 2ª pessoa contra o termo pinado de 3ª pessoa."
+  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
