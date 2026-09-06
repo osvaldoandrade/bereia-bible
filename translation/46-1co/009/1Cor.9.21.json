@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "1Cor.9.1-27"
   },
-  "texto_bv": "para os que não têm lei, como se eu não tivesse lei — não estando eu sem lei diante de Deus, mas sob a lei de Cristo —, para ganhar os que não têm lei;",
+  "texto_bv": "para os que não têm lei, como se eu não tivesse lei — embora eu não esteja sem lei diante de Deus, mas sob a lei de Cristo —, para ganhar os que não têm lei;",
   "traducao_literal": "aos sem lei, como sem lei, não sendo sem lei de Deus, mas com lei de Cristo, para que eu ganhasse os sem lei;",
   "termos_originais": [
     {
@@ -112,6 +112,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "não estando eu sem lei diante de Deus, mas sob a lei de Cristo → embora eu não esteja sem lei diante de Deus, mas sob a lei de Cristo",
+      "justificativa": "A construção participial μὴ ὢν (\"não estando eu\") calca a sintaxe do particípio grego; naturalizada para oração concessiva finita, paralela à restruturação já aplicada à mesma construção sintática (μὴ ὢν) um verso antes, em 1Co 9.20 (\"embora eu mesmo não esteja sob a lei\"). Ambos os versos fazem parte da mesma lista paralela de Paulo (\"para os judeus... para os que estão sob a lei... para os que não têm lei...\"); a forma participial isolada em 9.21 quebrava a coesão e a paridade estrutural com 9.20. — revisão de forma sem alteração de sentido (ER-0024). Sentido integralmente preservado: \"não estando\" e \"embora... não esteja\" são equivalentes semânticos; a mudança é de forma (particípio → concessiva finita), corrigindo calque sintático e restaurando paralelismo com o verso anterior.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -122,11 +129,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
