@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Ezek.1.1-28"
   },
-  "texto_bv": "Cada um andava reto para a frente; para onde o espírito quisesse ir, iam, sem se virarem ao andar.",
+  "texto_bv": "Cada um andava reto para a frente; para onde o espírito quisesse ir, ia, sem se virar ao andar.",
   "traducao_literal": "E cada um, para a frente de seu rosto, iam; para onde estivesse ali o espírito, para ir, iam; não se viravam ao andarem.",
   "termos_originais": [
     {
@@ -101,6 +101,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "para onde o espírito quisesse ir, iam, sem se virarem ao andar. → para onde o espírito quisesse ir, ia, sem se virar ao andar.",
+      "justificativa": "concordância com o sujeito distributivo singular 'cada um', já estabelecido na oração anterior deste mesmo versículo; alinha com o padrão de Ez 1.9 para a mesma construção hebraica. — revisão de forma sem alteração de sentido (ER-0022). Concordância de número: a oração já normalizou o sujeito distributivo 'cada um' com o singular 'andava', mas a oração seguinte, no mesmo período, mantinha o plural 'iam'/'virarem' sem reintroduzir sujeito plural — quebra de concordância dentro do próprio versículo. O mesmo padrão hebraico (אִישׁ...יֵלֵכוּ) já foi normalizado para o singular em Ez 1.9 ('cada um ia reto para a frente'); este versículo foi alinhado ao mesmo padrão por consistência intracapítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -113,11 +120,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
