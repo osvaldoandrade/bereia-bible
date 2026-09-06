@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "1Cor.12.1-31"
   },
-  "texto_bv": "Busquem, pois, com zelo os dons maiores. E eu lhes mostro um caminho ainda mais excelente.",
+  "texto_bv": "Busquem, porém, com zelo os dons maiores. E eu lhes mostro um caminho ainda mais excelente.",
   "traducao_literal": "Procurai com zelo, porém, os dons maiores. E ainda, segundo excelência, caminho a vós mostro.",
   "termos_originais": [
     {
@@ -109,6 +109,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Busquem, pois, com zelo os dons maiores. → Busquem, porém, com zelo os dons maiores.",
+      "justificativa": "δὲ é adversativo aqui (KJV: \"But covet earnestly...\"), não consecutivo; \"pois\" sugere inferência causal que o grego não marca. O capítulo usa \"pois\" para γάρ (v.8) e \"mas/porém\" para δέ (vv.4,5,6,7,11,18,21) — \"pois\" em δέ quebra a consistência lexical intra-capítulo (§1.4) e distorce a relação lógica com o trecho anterior. — revisão de forma sem alteração de sentido (ER-0024). δέ corrigido para \"porém\" a fim de preservar o sentido adversativo confirmado pela KJV (\"But\") e a consistência do capítulo (δέ = mas/porém; γάρ = pois).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -121,11 +128,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {

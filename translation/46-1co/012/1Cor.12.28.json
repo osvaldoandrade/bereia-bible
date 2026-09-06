@@ -7,7 +7,7 @@
     "versiculo": 28,
     "pericope": "1Cor.12.1-31"
   },
-  "texto_bv": "E Deus estabeleceu na igreja, em primeiro lugar apóstolos, em segundo lugar profetas, em terceiro lugar mestres; depois, milagres; depois, dons de cura, auxílios, administrações, variedades de línguas.",
+  "texto_bv": "E Deus estabeleceu na igreja, em primeiro lugar, apóstolos; em segundo lugar, profetas; em terceiro lugar, mestres; depois, milagres; depois, dons de cura, auxílios, administrações, variedades de línguas.",
   "traducao_literal": "E aos quais colocou Deus na igreja: primeiro apóstolos, segundo profetas, terceiro mestres, depois milagres, depois dons de curas, socorros, direções, gêneros de línguas.",
   "termos_originais": [
     {
@@ -168,6 +168,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "em primeiro lugar apóstolos, em segundo lugar profetas, em terceiro lugar mestres; → em primeiro lugar, apóstolos; em segundo lugar, profetas; em terceiro lugar, mestres;",
+      "justificativa": "Vírgula após o advérbio de ordem (\"em primeiro lugar,\") e uso de ponto e vírgula entre os itens, alinhando com o padrão já usado adiante na mesma frase (\"depois, milagres; depois, ...\") — consistência interna de pontuação em lista paralela. — revisão de forma sem alteração de sentido (ER-0024). Corrigida a pontuação da enumeração para uniformizar com o padrão \"depois, X\" já presente na mesma frase; conteúdo e ordem dos dons preservados.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -178,11 +185,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
