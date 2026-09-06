@@ -187,13 +187,15 @@
   "confianca": 0.74,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0024): O texto_bv do verso omite integralmente a oração inicial do grego pinado (καὶ εὑρὼν ἤγαγεν εἰς Ἀντιόχειαν — “e, tendo-o encontrado, trouxe-o a Antioquia”), presente na traducao_literal (“E, tendo achado, trouxe a Antioquia.”) mas ausente do texto_bv aprovado, que salta direto para “Durante um ano inteiro...”. Falta o elo narrativo entre a ida de Barnabé a Tarso (v.25) e a atuação conjunta com Saulo em Antioquia (v.26b em diante). — evidência: termos_originais de Acts.11.26 começam com καὶ εὑρὼν (εὑρίσκω, V-2AAP-NSM) ἤγαγεν (ἄγω, V-2AAI-3S) εἰς Ἀντιόχειαν; traducao_literal: “E, tendo achado, trouxe a Antioquia.”; KJV confirma: “And when he had found him, he brought him unto Antioch.”; texto_bv não contém equivalente algum dessa oração."
+  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {

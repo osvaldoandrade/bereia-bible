@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Acts.11.1-30"
   },
-  "texto_bv": "A notícia a respeito deles chegou aos ouvidos da igreja que estava em Jerusalém, e enviaram Barnabé até Antioquia.",
+  "texto_bv": "A notícia a respeito deles chegou aos ouvidos da igreja que estava em Jerusalém, e ela enviou Barnabé até Antioquia.",
   "traducao_literal": "Foi ouvida, porém, a palavra aos ouvidos da igreja que estava em Jerusalém a respeito deles, e enviaram Barnabé até Antioquia;",
   "termos_originais": [
     {
@@ -144,6 +144,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e enviaram Barnabé até Antioquia. → e ela enviou Barnabé até Antioquia.",
+      "justificativa": "O único sujeito disponível na frase é “a igreja”, substantivo coletivo singular; o verbo no plural (“enviaram”) fica sem antecedente plural recuperável, quebrando a concordância e a coesão (o grego ἐξαπέστειλαν é plural por concordância ad sensum com os membros da igreja, recurso que o português não replica sem sujeito plural explícito). Uso do pronome “ela” retomando “igreja” restaura a concordância normativa sem alterar o sentido (a igreja enviou Barnabé). — revisão de forma sem alteração de sentido (ER-0024).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -154,11 +161,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
