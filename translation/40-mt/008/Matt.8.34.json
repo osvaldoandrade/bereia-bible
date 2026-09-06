@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Matt.8.1-34"
   },
-  "texto_bv": "E eis que toda a cidade saiu ao encontro de Jesus; e, vendo-o, rogaram que ele se retirasse do seu território.",
+  "texto_bv": "E eis que toda a cidade saiu ao encontro de Jesus; e, vendo-o, rogaram que ele se retirasse do território deles.",
   "traducao_literal": "E eis toda a cidade saiu ao encontro de Jesus, e tendo o visto, rogaram para que ele passasse dali dos limites deles.",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "do seu território → do território deles",
+      "justificativa": "Pronome possessivo \"seu\" ambíguo: o antecedente mais próximo na oração é \"ele\" (Jesus, sujeito de \"se retirasse\"), mas o grego (ὁρίων αὐτῶν, genitivo plural) indica o território dos moradores da região, não de Jesus. \"Seu\" seria lido como referindo-se a Jesus, invertendo a relação; substituído por \"deles\" para eliminar a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0024). Correção pontual de coesão referencial; conteúdo do pedido dos moradores (que Jesus deixe a região deles) preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -143,7 +150,7 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
