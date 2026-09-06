@@ -197,10 +197,10 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
@@ -219,5 +219,8 @@
         "uso": "editorial-reference-only"
       }
     }
-  }
+  },
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0022): A cláusula final 'nem os perdoarei de maneira alguma' inverte a polaridade do hebraico pinado. O termos_originais traz apenas כִּי נָשֹׂא אֶשָּׂא לָהֶם — infinitivo absoluto + 1cs de נשא ('levantar/tomar/carregar'), SEM nenhum token de negação (לא) nessa oração — e a própria traducao_literal da BV (camada nunca reescrita) registra 'porque levantando levantarei para eles', afirmativo. A KJV controle confirma a leitura afirmativa: 'but I will utterly take them away' (não 'I will not forgive them'). Corrigir a forma para compatibilizar com hebraico pinado e traducao_literal exigiria trocar 'não perdoarei... de maneira alguma' por algo afirmativo como 'certamente os arrebatarei/tomarei', o que muda o sentido da frase — não é correção de forma. Fidelidade vence: objeção registrada, verso mantido idêntico. — evidência: termos_originais: כִּי(3588 a)/נָשֹׂא(5375,HVqa)/אֶשָּׂא(5375,HVqi1cs)/לָהֶם — sem token de negação; traducao_literal: 'porque levantando levantarei para eles'; controles.kjv v.6: 'but I will utterly take them away'."
+  ]
 }
