@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Acts.25.1-27"
   },
-  "texto_bv": "E Festo disse: \"Rei Agripa e todos os homens aqui presentes conosco, vocês vejam este homem a respeito de quem toda a multidão dos judeus me procurou, tanto em Jerusalém como aqui, clamando que ele não deveria viver mais.\"",
+  "texto_bv": "E Festo disse: “Rei Agripa e todos os homens aqui presentes conosco, vocês vejam este homem a respeito de quem toda a multidão dos judeus me procurou, tanto em Jerusalém como aqui, clamando que ele não deveria viver mais.”",
   "traducao_literal": "E diz Festo: Rei Agripa e todos os homens presentes conosco, vedes este a respeito de quem toda a multidão dos judeus me abordou, tanto em Jerusalém como aqui, clamando não convir a ele viver ainda mais.",
   "termos_originais": [
     {
@@ -220,6 +220,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"Rei Agripa e todos os homens aqui presentes conosco, vocês vejam este homem a respeito de quem toda a multidão dos judeus me procurou, tanto em Jerusalém como aqui, clamando que ele não deveria viver mais.\" → “Rei Agripa e todos os homens aqui presentes conosco, vocês vejam este homem a respeito de quem toda a multidão dos judeus me procurou, tanto em Jerusalém como aqui, clamando que ele não deveria viver mais.”",
+      "justificativa": "Aspas retas substituídas por aspas duplas curvas, conforme norma editorial para discurso direto. — revisão de forma sem alteração de sentido (ER-0024). Discurso direto padronizado com aspas curvas; ver objeção editorial sobre o escopo da citação, que se estende (sem marcação) pelos versos seguintes.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Mesmo padrão do v.14: a citação da fala de Festo ao rei Agripa abre em 25.24 e fecha ao final do verso, mas o discurso em 1ª pessoa continua sem aspas até 25.27 ('verifiquei', 'decidi', 'não tenho', 'trouxe', 'me parece'). — evidência: termos_originais de 25.25–25.27 mantêm a 1ª pessoa (κατελαβόμην, ἔκρινα, ἔχω, προήγαγον, δοκεῖ μοι), mesma fala iniciada em 25.24; reabrir e prolongar a citação por três versos seguintes excede o escopo de edição do verso corrente (regra 7). (ER-0024).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -230,11 +244,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {

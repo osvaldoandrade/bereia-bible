@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Acts.25.1-27"
   },
-  "texto_bv": "Como ficassem ali muitos dias, Festo expôs ao rei o caso de Paulo, dizendo: \"Há um homem que Félix deixou preso,\"",
+  "texto_bv": "Como ficassem ali muitos dias, Festo expôs ao rei o caso de Paulo, dizendo: “Há um homem que Félix deixou preso,”",
   "traducao_literal": "Como muitos dias ficassem ali, Festo ao rei expôs as coisas relativas a Paulo, dizendo: Um homem certo há, deixado por Félix como prisioneiro,",
   "termos_originais": [
     {
@@ -152,6 +152,20 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "\"Há um homem que Félix deixou preso,\" → “Há um homem que Félix deixou preso,”",
+      "justificativa": "Aspas retas substituídas por aspas duplas curvas, conforme norma editorial para discurso direto. — revisão de forma sem alteração de sentido (ER-0024). Discurso direto padronizado com aspas curvas; ver objeção editorial sobre o escopo da citação, que se estende (sem marcação) pelos versos seguintes.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "As aspas de discurso direto abrem no início da fala de Festo ('dizendo: “Há um homem que Félix deixou preso,”') mas fecham já ao fim do v.14, embora o discurso em 1ª pessoa de Festo ao rei continue ininterrupto até 25.21 ('estando eu em Jerusalém', 'respondi', 'sentei-me', 'ordenei') sem qualquer marcação de aspas nos versos seguintes. — evidência: termos_originais de 25.15–25.21 mantêm a 1ª pessoa (ex.: γενομένου μου, ἀπεκρίθην, ἐκέλευσα), mesma fala iniciada em 25.14 (dizendo); reabrir e prolongar a citação por sete versos seguintes excede o escopo de edição do verso corrente (regra 7). (ER-0024).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -162,11 +176,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
