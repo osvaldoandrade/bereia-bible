@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Dan.11.1-45"
   },
-  "texto_bv": "Ele voltará o rosto para vir com a força de todo o seu reino, trazendo propostas de acordo, e fará o que planeja; e lhe entregará a filha das mulheres, para arruiná-lo, mas ela não prevalecerá, nem será dele.",
+  "texto_bv": "Ele voltará o rosto para vir com a força de todo o seu reino, trazendo propostas de acordo, e fará o que planeja; e lhe entregará a filha das mulheres, para arruiná-la, mas ela não prevalecerá, nem será dele.",
   "traducao_literal": "E porá o seu rosto para vir com força de todo o seu reino, e retos com ele, e fará; e a filha das mulheres lhe dará, para a destruir; e não ficará de pé, e não dele será.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e lhe entregará a filha das mulheres, para arruiná-lo, mas ela não prevalecerá, nem será dele. → e lhe entregará a filha das mulheres, para arruiná-la, mas ela não prevalecerá, nem será dele.",
+      "justificativa": "Erro de concordância de gênero no clítico: o hebraico לְהַשְׁחִיתָהּ traz sufixo feminino (3fs), confirmado por traducao_literal ('para a destruir') e pela KJV ('corrupting her') — o objeto de 'destruir/arruinar' é 'a filha' (ela), não o rei do sul (masculino). 'arruiná-lo' trocava o referente; 'arruiná-la' restaura a concordância e a fidelidade ao original. — revisão de forma sem alteração de sentido (ER-0022). Corrigido clítico de gênero incorreto (lo→la) para concordar com o referente feminino confirmado por termos_originais, traducao_literal e KJV.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -176,11 +183,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
