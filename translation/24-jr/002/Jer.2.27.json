@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Jer.2.1-37"
   },
-  "texto_bv": "Eles dizem a um pedaço de madeira: “Você é meu pai”, e a uma pedra: “Você me gerou.” Pois viraram para mim as costas, e não o rosto; mas no tempo da sua desgraça dirão: “Levanta-te e salva-nos!”",
+  "texto_bv": "Eles dizem a um pedaço de madeira: “Você é meu pai”, e a uma pedra: “Você me gerou.” Pois viraram para mim as costas, e não o rosto; mas no tempo da sua desgraça dirão: “Levante-se e salve-nos!”",
   "traducao_literal": "Dizendo ao pau: Meu pai és tu, e à pedra: Tu me geraste. Porque viraram para mim a nuca, e não a face; e no tempo do mal deles dirão: Levanta-te e salva-nos!",
   "termos_originais": [
     {
@@ -133,6 +133,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Levanta-te e salva-nos! → Levante-se e salve-nos!",
+      "justificativa": "Descontinuidade de tratamento na mesma fala: a mesma citação direta usa 'você' nas frases anteriores ('Você é meu pai', 'Você me gerou') e muda para a forma 'tu' no imperativo final ('Levanta-te'). Uniformizado para a forma correspondente a 'você' ('Levante-se e salve-nos'), consistente com o resto da fala; o interlocutor é o ídolo de pau/pedra, não o SENHOR em oração, logo não se aplica a regra do 'tu' litúrgico. — revisão de forma sem alteração de sentido (ER-0022). Progressão verbal particípio(presente/habitual)→perfeito(passado)→imperfeito(futuro) reflete exatamente a sequência de aspectos do hebraico; mantida.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -143,11 +150,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
