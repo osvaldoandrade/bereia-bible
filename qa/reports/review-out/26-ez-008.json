@@ -7,6 +7,7 @@
       "texto_bv_revisto": "E sucedeu, no sexto ano, no sexto mês, no quinto dia do mês, estando eu sentado em minha casa e os anciãos de Judá sentados diante de mim, que a mão do Senhor DEUS caiu ali sobre mim.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Construção 'E sucedeu... que' reproduz o padrão narrativo hebraico (וַיְהִי...וַתִּפֹּל) com orações circunstanciais intercaladas ('estando eu sentado... e os anciãos... sentados'); estrutura formulaica de abertura de visão, coerente com a KJV ('And it came to pass... that'). 'Senhor DEUS' aplica corretamente a política para אֲדֹנָי יְהֹוִה (Adonai YHWH).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -14,210 +15,181 @@
       "texto_bv_revisto": "E eu olhei, e eis uma figura semelhante a fogo: da aparência da sua cintura para baixo, fogo; e da sua cintura para cima, como o brilho, como o aspecto do âmbar.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Texto correto e coeso; 'sua' retoma 'uma figura' sem ambiguidade, e a alternância aparência/brilho/aspecto reflete os três termos hebraicos distintos (מַרְאֶה, זֹהַר, עַיִן).",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.3",
-      "texto_bv_revisto": "E ele estendeu a forma de uma mão e me pegou por uma mecha de cabelo da minha cabeça. O espírito me ergueu entre a terra e o céu, e me levou a Jerusalém, em visões de Deus, à entrada da porta do pátio interior que dá para o norte, onde estava o assento da imagem do ciúme, que provoca ciúme.",
+      "texto_bv_revisto": "E ele estendeu a forma de uma mão e me pegou por uma mecha de cabelo da minha cabeça. O espírito me ergueu entre a terra e o céu, e me levou a Jerusalém, em visões de Deus, à entrada da porta norte do pátio interior. Ali estava o assento da imagem do ciúme, que provoca ciúme.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "da minha cabeça; e o espírito",
-          "depois": "da minha cabeça. O espírito",
-          "motivo": "LEN-1 (62 palavras): divisão em duas sentenças no ponto natural de ruptura, eliminando o calque paratático 'e' (§6.2/ER-0013); primeira sentença narra a apreensão, segunda o transporte visionário."
+          "tipo": "extensao",
+          "antes": "O espírito me ergueu entre a terra e o céu, e me levou a Jerusalém, em visões de Deus, à entrada da porta do pátio interior que dá para o norte, onde estava o assento da imagem do ciúme, que provoca ciúme.",
+          "depois": "O espírito me ergueu entre a terra e o céu, e me levou a Jerusalém, em visões de Deus, à entrada da porta do pátio interior que dá para o norte. Ali estava o assento da imagem do ciúme, que provoca ciúme.",
+          "motivo": "Sentença de 42 palavras, acima do limite de ~40; quebrada em duas orações substituindo o relativo 'onde' por 'Ali', sem alterar a relação lógica marcada no hebraico (אֲשֶׁר שָׁם)."
+        },
+        {
+          "tipo": "coesao",
+          "antes": "à entrada da porta do pátio interior que dá para o norte",
+          "depois": "à entrada da porta norte do pátio interior",
+          "motivo": "Ambiguidade de antecedente: 'que dá para o norte' ficava adjacente a 'pátio interior', quando o hebraico (הַפּוֹנֶה, masculino) atribui a orientação à porta (שַׁעַר, masculino), não ao pátio (פְּנִימִית, feminino); reformulado como 'porta norte' para eliminar a ambiguidade sem acrescentar informação."
         }
       ],
       "objecoes": [],
-      "justificativa": "LEN-1 resolvido com divisão de sentença. O calque paratático 'e' entre as duas ações distintas (apreensão e transporte) soa artificial em pt-BR; a pontuação por ponto final é mais natural (NTLH igualmente divide em múltiplas sentenças).",
+      "justificativa": "",
       "veredito": "REVISADO"
     },
     {
       "osis": "Ezek.8.4",
       "texto_bv_revisto": "E eis que ali estava a glória do Deus de Israel, semelhante à visão que eu tinha visto na planície.",
       "mudancas": [],
-      "objecoes": [],
-      "justificativa": "CAL-2 ('eis que'): fórmula deictica visionária recorrente em Ezequiel (8.2, 8.4, 8.5, 8.7, 8.8, 8.10, 8.14, 8.16, 8.17); ARA mantém 'eis que' consistentemente. Marcador preservado por ser fórmula intencional do gênero visionário (§6.2).",
-      "veredito": "SEM_ALTERACAO"
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "Possível inconsistência lexical intra-capítulo: מַרְאֶה (mesmo lemma de v.2, onde é vertido 'aparência') aparece aqui como 'visão' ('semelhante à visão que eu tinha visto na planície').",
+          "evidencia": "v.2: 'da aparência da sua cintura' traduz מִמַּרְאֵה; v.4: 'à visão que eu tinha visto' traduz כַּמַּרְאֶה — mesmo lemma Strong 4758, lexemas diferentes no mesmo capítulo. Pode ser variação de registro intencional (retomada da visão inaugural de Ez 1, quase termo técnico) ou lacuna de consistência; decisão depende do léxico/DECISOES.md, não alterada por conta própria (EDITORIAL.md §1.4)."
+        }
+      ],
+      "justificativa": "Verso mantido idêntico; ver objeção editorial sobre consistência lexical de מַרְאֶה.",
+      "veredito": "OBJECAO_EDITORIAL"
     },
     {
       "osis": "Ezek.8.5",
       "texto_bv_revisto": "E ele me disse: \"Filho do homem, levante os seus olhos para o norte.\" E eu levantei os meus olhos para o norte, e eis que, ao norte, junto à porta do altar, estava essa imagem do ciúme.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "levanta os teus olhos",
-          "depois": "levante os seus olhos",
-          "motivo": "VOS-1/§3/D-0003: normalização do paradigma vós→você — imperativo 'levanta' (tu) → 'levante' (você); possessivo 'teus' → 'seus'. Discurso de Deus→humano exige você."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "estava essa imagem do ciúme, na entrada.",
-          "depois": "estava essa imagem do ciúme.",
-          "motivo": "RED-1: remoção de 'na entrada', redundante com 'junto à porta do altar' (mesma informação locativa expressa duas vezes em português sem ganho semântico)."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "VOS-1 normalizado (capítulo inteiro em você, §3). RED-1: a redundância 'junto à porta...na entrada' é defeito de forma em pt-BR; ARA mantém ambas, mas NVIPT condensa — a BV segue o piso de naturalidade (§1.4). CAL-2 mantido como fórmula visionária.",
-      "veredito": "REVISADO"
+      "justificativa": "Coeso; 'essa imagem do ciúme' retoma anaforicamente a mesma imagem já mencionada em v.3, uso correto do demonstrativo anafórico em português (essa), ainda que o hebraico tenha demonstrativo proximal (הַזֶּה).",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.6",
       "texto_bv_revisto": "E ele me disse: \"Filho do homem, você vê o que alguns deles estão fazendo — as grandes abominações que a casa de Israel está fazendo aqui, para me afastar do meu santuário? Mas você ainda verá abominações ainda maiores.\"",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "vês tu o que",
-          "depois": "você vê o que",
-          "motivo": "VOS-1/§3/D-0003: 'vês tu' (2ª pessoa tu) → 'você vê' (3ª pessoa com valor de você); discurso de Deus→humano."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Mas tu ainda voltarás a ver",
-          "depois": "Mas você ainda verá",
-          "motivo": "VOS-1/§3/D-0003: 'tu voltarás' → 'você verá'; normalização coordenada do capítulo."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "'Ainda... verá abominações ainda maiores' é fórmula intencional repetida em vv.6, 13 e 15 (עוֹד תָּשׁוּב תִּרְאֶה תּוֹעֵבוֹת גְּדֹלוֹת), marcando a escalada da visão; preservada como refrão do original, não como redundância a corrigir.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.7",
       "texto_bv_revisto": "E ele me trouxe à entrada do pátio; e eu olhei, e eis um buraco na parede.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto e coeso, sem calques ou ambiguidades.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.8",
       "texto_bv_revisto": "E ele me disse: \"Filho do homem, cave agora na parede.\" E eu cavei na parede, e eis uma porta.",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "cava agora",
-          "depois": "cave agora",
-          "motivo": "VOS-1/§3/D-0003: imperativo 'cava' (tu) → 'cave' (você); normalização coordenada do capítulo."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Correto; imperativo 'cave' (você) consistente com o tratamento usado no restante da fala do guia.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.9",
-      "texto_bv_revisto": "E ele me disse: \"Entra e vê as más abominações que eles estão fazendo aqui.\"",
-      "mudancas": [],
+      "texto_bv_revisto": "E ele me disse: \"Entre e veja as más abominações que eles estão fazendo aqui.\"",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "E ele me disse: \"Entra e vê as más abominações que eles estão fazendo aqui.\"",
+          "depois": "E ele me disse: \"Entre e veja as más abominações que eles estão fazendo aqui.\"",
+          "motivo": "Descontinuidade de tratamento: o mesmo interlocutor usa 'você' no restante da fala ('levante' v.5, 'cave' v.8); os imperativos de tu ('entra', 'vê') quebravam a consistência dentro da mesma sequência de discurso direto — normalizados para 'entre'/'veja'."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Ezek.8.10",
       "texto_bv_revisto": "E eu entrei e olhei, e eis toda forma de réptil e animal repugnante, e todos os ídolos da casa de Israel, gravados na parede, tudo ao redor.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto; 'repugnante' concorda com 'animal' (mais próximo), espelhando a mesma estrutura da KJV ('abominable beasts'); a repetição סָבִיב סָבִיב do hebraico foi condensada em 'tudo ao redor', preservando o sentido enfático sem soar redundante em português.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.11",
-      "texto_bv_revisto": "E setenta homens dentre os anciãos da casa de Israel — com Jazanias, filho de Safã, em pé no meio deles — estavam em pé diante deles, cada um com o seu incensário na mão; e subia uma espessa nuvem de incenso.",
-      "mudancas": [],
+      "texto_bv_revisto": "E setenta homens dentre os anciãos da casa de Israel estavam em pé diante deles — com Jazanias, filho de Safã, em pé no meio deles —, cada um com o seu incensário na mão; e subia uma espessa nuvem de incenso.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "E setenta homens dentre os anciãos da casa de Israel — com Jazanias, filho de Safã, em pé no meio deles — estavam em pé diante deles, cada um com o seu incensário na mão; e subia uma espessa nuvem de incenso.",
+          "depois": "E setenta homens dentre os anciãos da casa de Israel estavam em pé diante deles — com Jazanias, filho de Safã, em pé no meio deles —, cada um com o seu incensário na mão; e subia uma espessa nuvem de incenso.",
+          "motivo": "Colisão de pronomes: a ordem original colocava 'no meio deles' (referente = os setenta) logo antes de 'diante deles' (referente = as imagens de v.10), dando a impressão de que os setenta estariam diante de si mesmos; reordenado para separar as duas ocorrências, mantendo intacta a ambiguidade de referente já presente no hebraico entre v.10 e v.11 quanto a 'diante deles'."
+        }
+      ],
       "objecoes": [],
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Ezek.8.12",
       "texto_bv_revisto": "E ele me disse: \"Você viu, filho do homem, o que os anciãos da casa de Israel estão fazendo nas trevas, cada um nos aposentos das suas imagens? Pois eles dizem: 'O SENHOR não nos vê; o SENHOR abandonou a terra.'\"",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Viste, filho do homem, o que",
-          "depois": "Você viu, filho do homem, o que",
-          "motivo": "VOS-1/§3/D-0003: 'Viste' (2ª pessoa tu, pretérito) → 'Você viu' (3ª pessoa com valor de você); normalização coordenada do capítulo."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "Correto; aspas simples na citação interna conforme a norma, nomes divinos corretos (SENHOR para יהוה), concordância verbal (particípios presentes) consistente com o restante do capítulo.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.13",
       "texto_bv_revisto": "E ele me disse: \"Você ainda verá abominações ainda maiores, que eles estão fazendo.\"",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Ainda voltarás a ver",
-          "depois": "Você ainda verá",
-          "motivo": "VOS-1/§3/D-0003: 'voltarás' (2ª pessoa tu, futuro) → 'você verá' (3ª pessoa com valor de você); normalização coordenada do capítulo."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "'Ainda... abominações ainda maiores' repete o refrão de v.6 (mesma fórmula hebraica), preservado intencionalmente.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.14",
-      "texto_bv_revisto": "E ele me trouxe à entrada da porta da casa do SENHOR que está ao norte; e eis que ali estavam sentadas as mulheres, chorando por Tamuz.",
-      "mudancas": [],
+      "texto_bv_revisto": "E ele me trouxe à entrada da porta norte da casa do SENHOR; e eis que ali estavam sentadas as mulheres, chorando por Tamuz.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "E ele me trouxe à entrada da porta da casa do SENHOR que está ao norte; e eis que ali estavam sentadas as mulheres, chorando por Tamuz.",
+          "depois": "E ele me trouxe à entrada da porta norte da casa do SENHOR; e eis que ali estavam sentadas as mulheres, chorando por Tamuz.",
+          "motivo": "Ambiguidade de antecedente: 'que está ao norte' ficava sintaticamente mais próximo de 'casa do SENHOR' (sugerindo, sem sentido, um templo situado 'ao norte'), quando o hebraico atribui a orientação à porta (אֶל הַצָּפוֹנָה); reformulado como 'porta norte' para eliminar a ambiguidade sem acrescentar informação."
+        }
+      ],
       "objecoes": [],
-      "justificativa": "CAL-2 ('eis que'): fórmula deictica visionária preservada como fórmula intencional do gênero (consistente em todo Ez 8). ARA igualmente mantém. Referências convergem com a BV na estrutura geral.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Ezek.8.15",
       "texto_bv_revisto": "E ele me disse: \"Você viu, filho do homem? Ainda verá abominações maiores do que estas.\"",
-      "mudancas": [
-        {
-          "tipo": "EDITORIAL",
-          "antes": "Viste, filho do homem? Ainda voltarás a ver",
-          "depois": "Você viu, filho do homem? Ainda verá",
-          "motivo": "VOS-1/§3/D-0003: 'Viste' → 'Você viu'; 'voltarás' → 'verá'; normalização coordenada do capítulo."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "veredito": "REVISADO"
+      "justificativa": "'Abominações maiores do que estas' traduz explicitamente מֵאֵלֶּה, consistente com o refrão de vv.6 e 13 (aqui com comparação explícita, como no hebraico).",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Ezek.8.16",
-      "texto_bv_revisto": "E ele me trouxe ao pátio interior da casa do SENHOR. À entrada do templo do SENHOR, entre o pórtico e o altar, estavam cerca de vinte e cinco homens com as costas voltadas para o templo do SENHOR e o rosto voltado para o oriente. Eles se prostravam para o oriente, diante do sol.",
+      "texto_bv_revisto": "E ele me trouxe ao pátio interior da casa do SENHOR. À entrada do templo do SENHOR, entre o pórtico e o altar, estavam cerca de vinte e cinco homens com as costas voltadas para o templo do SENHOR e os rostos voltados para o oriente. Eles se prostravam para o oriente, diante do sol.",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "do SENHOR; e eis que, à entrada",
-          "depois": "do SENHOR. À entrada",
-          "motivo": "LEN-1 (59 palavras): primeira divisão — separação da chegada ao pátio da descrição da cena; remoção do calque paratático 'e eis que' (§6.2/ER-0013)."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "havia cerca de",
-          "depois": "estavam cerca de",
-          "motivo": "LEN-1: ajuste verbal para concordar com a segunda sentença; 'estavam' mais natural com sujeito humano posposto em pt-BR."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "para o oriente; e eles se prostravam",
-          "depois": "para o oriente. Eles se prostravam",
-          "motivo": "LEN-1: segunda divisão — sentença 3 descreve a ação (prostração); eliminação do calque paratático 'e' (§6.2/ER-0013)."
+          "tipo": "concordancia",
+          "antes": "estavam cerca de vinte e cinco homens com as costas voltadas para o templo do SENHOR e o rosto voltado para o oriente.",
+          "depois": "estavam cerca de vinte e cinco homens com as costas voltadas para o templo do SENHOR e os rostos voltados para o oriente.",
+          "motivo": "Concordância de número: 'vinte e cinco homens' pede plural também para 'rosto' (cada um com o seu), paralelo a 'as costas' (já plural); 'o rosto voltado' no singular sugeria um rosto coletivo único, o que o hebraico (פְּנֵיהֶם, plural) não indica."
         }
       ],
       "objecoes": [],
-      "justificativa": "LEN-1 (59 palavras) resolvido com divisão em três sentenças nos pontos naturais de ruptura. RED-1 ('templo do SENHOR' 3×): repetição preservada — reflete o hebraico e é mantida por ARA e NVIPT (§1.4, fórmulas intencionais). NTLH reduz a 2×, mas a BV segue ARA/NVIPT por serem mais formais.",
+      "justificativa": "",
       "veredito": "REVISADO"
     },
     {
       "osis": "Ezek.8.17",
-      "texto_bv_revisto": "E ele me disse: \"Você viu, filho do homem? Acaso é pouca coisa para a casa de Judá cometer as abominações que comete aqui, que ainda encheram a terra de violência e voltaram a provocar-me à ira? E eis que eles põem o ramo ao seu nariz.\"",
+      "texto_bv_revisto": "E ele me disse: \"Você viu, filho do homem? Acaso é pouca coisa para a casa de Judá cometer as abominações que cometem aqui, que ainda encheram a terra de violência e voltaram a provocar-me à ira? E eis que eles põem o ramo ao seu nariz.\"",
       "mudancas": [
         {
-          "tipo": "EDITORIAL",
-          "antes": "Viste, filho do homem?",
-          "depois": "Você viu, filho do homem?",
-          "motivo": "VOS-1/§3/D-0003: 'Viste' (2ª pessoa tu) → 'Você viu'; normalização coordenada do capítulo."
-        },
-        {
-          "tipo": "EDITORIAL",
-          "antes": "que cometem aqui",
-          "depois": "que comete aqui",
-          "motivo": "VOS-1/§3/D-0003: 'cometem' (3ª pessoa plural tu-form) → 'comete' (3ª pessoa singular/você-form) para concordar com 'casa de Judá' (sujeito singular coletivo); forma 'cometem' era vestígio do paradigma tu."
+          "tipo": "concordancia",
+          "antes": "Acaso é pouca coisa para a casa de Judá cometer as abominações que comete aqui, que ainda encheram a terra de violência e voltaram a provocar-me à ira?",
+          "depois": "Acaso é pouca coisa para a casa de Judá cometer as abominações que cometem aqui, que ainda encheram a terra de violência e voltaram a provocar-me à ira?",
+          "motivo": "Concordância de número: 'casa de Judá' segue como sujeito coletivo plural nas orações seguintes ('encheram', 'voltaram'); 'que comete aqui' (singular) quebrava essa cadeia sem motivo — normalizado para 'cometem', concordando com o restante do período e com o plural hebraico עָשׂוּ."
         }
       ],
       "objecoes": [],
-      "justificativa": "CAL-2 ('eis que'): fórmula visionária preservada como intencional; ARA/NVIPT igualmente mantêm. VOS-1 normalizado em duas ocorrências.",
+      "justificativa": "",
       "veredito": "REVISADO"
     },
     {
@@ -225,6 +197,7 @@
       "texto_bv_revisto": "Por isso, eu também agirei com furor: o meu olho não poupará, e eu não terei compaixão; e eles clamarão aos meus ouvidos em alta voz, mas eu não os ouvirei.",
       "mudancas": [],
       "objecoes": [],
+      "justificativa": "Correto e coeso; regências e pronomes corretos ('clamarão aos meus ouvidos', 'não os ouvirei').",
       "veredito": "SEM_ALTERACAO"
     }
   ]

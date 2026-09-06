@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Ezek.8.1-18"
   },
-  "texto_bv": "E ele estendeu a forma de uma mão e me pegou por uma mecha de cabelo da minha cabeça. O espírito me ergueu entre a terra e o céu, e me levou a Jerusalém, em visões de Deus, à entrada da porta do pátio interior que dá para o norte, onde estava o assento da imagem do ciúme, que provoca ciúme.",
+  "texto_bv": "E ele estendeu a forma de uma mão e me pegou por uma mecha de cabelo da minha cabeça. O espírito me ergueu entre a terra e o céu, e me levou a Jerusalém, em visões de Deus, à entrada da porta norte do pátio interior. Ali estava o assento da imagem do ciúme, que provoca ciúme.",
   "traducao_literal": "E enviou a forma de uma mão e me tomou pela franja da minha cabeça; e levantou-me um espírito entre a terra e entre os céus, e trouxe-me a Jerusalém, em visões de Deus, à entrada da porta da interior, a que volta-se para o norte, onde ali o assento da imagem do ciúme, a que provoca ciúme.",
   "termos_originais": [
     {
@@ -220,6 +220,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "O espírito me ergueu entre a terra e o céu, e me levou a Jerusalém, em visões de Deus, à entrada da porta do pátio interior que dá para o norte, onde estava o assento da imagem do ciúme, que provoca ciúme. → O espírito me ergueu entre a terra e o céu, e me levou a Jerusalém, em visões de Deus, à entrada da porta do pátio interior que dá para o norte. Ali estava o assento da imagem do ciúme, que provoca ciúme. | à entrada da porta do pátio interior que dá para o norte → à entrada da porta norte do pátio interior",
+      "justificativa": "Sentença de 42 palavras, acima do limite de ~40; quebrada em duas orações substituindo o relativo 'onde' por 'Ali', sem alterar a relação lógica marcada no hebraico (אֲשֶׁר שָׁם). | Ambiguidade de antecedente: 'que dá para o norte' ficava adjacente a 'pátio interior', quando o hebraico (הַפּוֹנֶה, masculino) atribui a orientação à porta (שַׁעַר, masculino), não ao pátio (פְּנִימִית, feminino); reformulado como 'porta norte' para eliminar a ambiguidade sem acrescentar informação. — revisão de forma sem alteração de sentido (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -234,11 +241,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
