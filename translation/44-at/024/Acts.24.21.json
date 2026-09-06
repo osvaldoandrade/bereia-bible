@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Acts.24.1-27"
   },
-  "texto_bv": "a não ser esta única declaração que bradei, estando no meio deles: 'É por causa da ressurreição dos mortos que hoje sou julgado diante de vocês.'",
+  "texto_bv": "a não ser esta única declaração que bradei, estando no meio deles: 'É por causa da ressurreição dos mortos que hoje sou julgado diante de vocês.'\"",
   "traducao_literal": "a não ser a respeito desta única voz que clamei, estando de pé entre eles: A respeito da ressurreição dos mortos eu sou julgado hoje diante de vós.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a não ser esta única declaração que bradei, estando no meio deles: 'É por causa da ressurreição dos mortos que hoje sou julgado diante de vocês.' → a não ser esta única declaração que bradei, estando no meio deles: 'É por causa da ressurreição dos mortos que hoje sou julgado diante de vocês.'\"",
+      "justificativa": "Faltava o fechamento das aspas duplas externas que abrem a fala de Paulo no v.10 ('Sabendo que há muitos anos...'). Esse discurso se estende até este verso, onde termina; a aspa simples interna (citação dentro de citação) já fecha corretamente, mas a aspa dupla externa não estava fechada, deixando a fala de Paulo tecnicamente aberta quando a narração retoma em 'Félix, porém' no v.22. Acrescentado o fechamento duplo (aspa simples + aspa dupla) ao final do verso, conforme a regra de discurso direto (EDITORIAL.md) já aplicada corretamente na abertura/fechamento da fala de Tértulo (vv.2-8). — revisão de forma sem alteração de sentido (ER-0024). Único ajuste de pontuação: fechamento de aspas ausente (ver mudancas). 2ª pessoa 'vocês' mantida corretamente para o sinédrio (interlocutor plural), distinta do 'tu' singular usado para Félix — distinção de número do original preservada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -153,11 +160,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
