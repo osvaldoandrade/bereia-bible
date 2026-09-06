@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Ezek.37.1-28"
   },
-  "texto_bv": "\"Habitarão na terra que dei a Jacó, meu servo, onde os seus pais habitaram; nela habitarão eles, seus filhos e os filhos de seus filhos, para sempre; e Davi, meu servo, será príncipe deles para sempre.\"",
+  "texto_bv": "\"Habitarão na terra que dei a Jacó, meu servo, onde os pais deles habitaram; nela habitarão eles, seus filhos e os filhos de seus filhos, para sempre; e Davi, meu servo, será príncipe deles para sempre.\"",
   "traducao_literal": "E habitarão sobre a terra que dei ao meu servo, a Jacó, que habitaram nela os seus pais; e habitarão sobre ela, eles e os filhos deles e os filhos dos filhos deles, até sempre; e Davi, meu servo, príncipe para eles para sempre.",
   "termos_originais": [
     {
@@ -153,6 +153,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "onde os seus pais habitaram → onde os pais deles habitaram",
+      "justificativa": "“Seus” é ambíguo entre “Jacó” (antecedente mais próximo) e “eles” (os filhos de Israel, tópico do parágrafo e referente pretendido, conforme o sufixo de 2ª pl. do hebraico convertido por norma a 3ª). “Deles”, exclusivamente plural, elimina a leitura indevida sem alterar o conteúdo. — revisão de forma sem alteração de sentido (ER-0022). Pronome “seus” em “onde os seus pais habitaram” é ambíguo entre “Jacó” (antecedente mais próximo, sintaticamente plausível) e “eles”/os filhos de Israel (tópico do parágrafo, sujeito elíptico de “Habitarão”) — o hebraico marca 2ª pessoa plural (אֲבוֹתֵיכֶם, “vossos pais”, já convertido a “seus” pela norma vosso→seu), referindo-se aos pais dos que retornam, não aos pais de Jacó. Substituído por “os pais deles”, que desambigua sem alterar o sentido (deles só pode ser plural, excluindo a leitura ‘pais de Jacó’).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -163,11 +170,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
