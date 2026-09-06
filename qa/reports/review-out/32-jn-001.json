@@ -1,128 +1,213 @@
 {
- "book_dir": "32-jn",
- "chapter": 1,
- "versos": [
-  {
-   "osis": "Jonah.1.1",
-   "texto_bv_revisto": "A palavra do SENHOR veio a Jonas, filho de Amitai, dizendo:",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "O achado VOS-1 aponta a palavra “Amitai”, mas trata-se de falso positivo: o marcador reconheceu a terminação “-ai” (padrão de imperativo de vós, como em “guardai”), porém “Amitai” é o patronímico de Jonas, não uma forma verbal — não há paradigma de vós no verso. As referências confirmam o texto atual: a ARA é quase idêntica (“veio a palavra do Senhor a Jonas, filho de Amitai, dizendo”) e NTLH/NVIPT preservam o mesmo nome próprio, apenas parafraseando a introdução do discurso — nenhuma delas revela arcaísmo ou inconsistência na BV.",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.2",
-   "texto_bv_revisto": "Levante-se, vá a Nínive, a grande cidade, e clame contra ela, pois a maldade deles subiu diante de mim.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.3",
-   "texto_bv_revisto": "E Jonas levantou-se para fugir a Társis, de diante do SENHOR. Desceu a Jope, encontrou um navio que ia para Társis, pagou sua passagem e desceu para dentro dele, para ir com eles a Társis, de diante do SENHOR.",
-   "mudancas": [],
-   "objecoes": [],
-   "justificativa": "O achado RED-1 flagra a repetição de “Társis” (3x) e “de diante do SENHOR” (2x), mas essa redundância reproduz uma fórmula intencional do hebraico de Jn 1.3 — a repetição martelada de “Társis” e a moldura (inclusio) “de diante do SENHOR” no início e no fim do verso, recurso retórico reconhecido que enfatiza a fuga de Jonas. A traducao_literal preserva a mesma estrutura, e a ARA — a referência mais formal — mantém a repetição de forma equivalente (“Társis” 3x, “da presença do Senhor” 2x), confirmando que não é defeito de forma, mas fidelidade a uma marca estilística do original (regra 4 do prompt canônico / EDITORIAL §6.2).",
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.4",
-   "texto_bv_revisto": "Mas o SENHOR lançou um grande vento sobre o mar, e houve uma grande tempestade no mar, e o navio estava prestes a se despedaçar.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.5",
-   "texto_bv_revisto": "E os marinheiros temeram, e cada um clamou ao seu deus, e lançaram ao mar a carga que havia no navio, para se aliviarem dela. Mas Jonas tinha descido ao porão do navio; deitou-se e caiu em sono profundo.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.6",
-   "texto_bv_revisto": "O capitão do navio aproximou-se dele e lhe disse: \"Como você pode estar dormindo? Levante-se, clame ao seu deus! Talvez aquele deus tenha consideração por nós, e não pereçamos.\"",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.7",
-   "texto_bv_revisto": "E disseram uns aos outros: \"Vamos, lancemos sortes, para sabermos por causa de quem esta calamidade veio sobre nós.\" Lançaram as sortes, e a sorte caiu sobre Jonas.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.8",
-   "texto_bv_revisto": "Então lhe disseram: \"Diga-nos, por favor, por causa de quem nos sobreveio esta calamidade. Qual é a sua ocupação? De onde você vem? Qual é a sua terra? De que povo você é?\"",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.9",
-   "texto_bv_revisto": "Ele lhes disse: \"Sou hebreu, e temo ao SENHOR, o Deus dos céus, que fez o mar e a terra seca.\"",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.10",
-   "texto_bv_revisto": "Então os homens ficaram tomados de grande temor, e lhe disseram: “O que foi isso que você fez?!” — pois os homens sabiam que Jonas estava fugindo de diante do SENHOR, porque ele lhes tinha contado.",
-   "mudancas": [
+  "book_dir": "32-jn",
+  "chapter": 1,
+  "versos": [
     {
-     "tipo": "EDITORIAL",
-     "antes": "pois os homens sabiam que ele estava fugindo de diante do SENHOR, porque ele lhes tinha contado",
-     "depois": "pois os homens sabiam que Jonas estava fugindo de diante do SENHOR, porque ele lhes tinha contado",
-     "motivo": "PRO-1: o verso concentrava 4 pronomes de 3ª pessoa (lhe/ele/lhes/ele); embora o antecedente fosse recuperável pelo contexto, a densidade prejudicava a fluidez. Explicitando “Jonas” na primeira ocorrência (mantendo o segundo “ele”, já ancorado) reduz a carga pronominal sem alterar o sentido, seguindo o mesmo recurso de nomeação explícita que a NVIPT usa neste ponto (“Jonas estava fugindo do Senhor”)."
+      "osis": "Jonah.1.1",
+      "texto_bv_revisto": "A palavra do SENHOR veio a Jonas, filho de Amitai, dizendo:",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "Texto já em conformidade: a ausência do 'E' inicial (calque de וַיְהִי, 'e aconteceu que') já está resolvida, com o verbo 'veio' assumindo diretamente a oração. Regência de 'veio a Jonas' correta; os dois-pontos introduzem adequadamente o discurso direto que se abre em 1.2.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Jonah.1.2",
+      "texto_bv_revisto": "“Levante-se, vá a Nínive, a grande cidade, e clame contra ela, pois a maldade deles subiu diante de mim.”",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "Levante-se, vá a Nínive, a grande cidade, e clame contra ela, pois a maldade deles subiu diante de mim.",
+          "depois": "“Levante-se, vá a Nínive, a grande cidade, e clame contra ela, pois a maldade deles subiu diante de mim.”",
+          "motivo": "O verso é a fala direta do SENHOR a Jonas, introduzida pelo 'dizendo:' de 1.1 (primeira pessoa 'diante de mim' confirma que é discurso direto); a norma editorial exige aspas duplas curvas para marcar o discurso direto, ausentes no texto de origem, tal como aplicado em todas as demais falas do capítulo (1.6, 1.7, 1.8, 1.9, 1.10, 1.11, 1.12, 1.14)."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Correção pontual de pontuação para marcar o discurso direto iniciado em 1.1; nenhuma alteração de sentido, ordem de palavras ou léxico.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.3",
+      "texto_bv_revisto": "E Jonas levantou-se para fugir a Társis, de diante do SENHOR. Desceu a Jope, encontrou um navio que ia para Társis, pagou sua passagem e desceu para dentro dele, para ir com eles a Társis, de diante do SENHOR.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "A repetição de 'a Társis... de diante do SENHOR' no início e no fim do verso reproduz a moldura (inclusão) do hebraico, que enquadra literariamente a fuga de Jonas entre as duas ocorrências de 'mi-lifnê YHWH'; é repetição formular do original, não falha de coesão, e foi mantida. Regência e concordância corretas; a quebra em duas frases já elimina a cadeia de waw consecutivo do literal, variando os conectivos por vírgulas (assíndeto)."
+      ,
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Jonah.1.4",
+      "texto_bv_revisto": "Mas o SENHOR lançou um grande vento sobre o mar, e houve uma grande tempestade no mar. O navio estava prestes a se despedaçar.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "Mas o SENHOR lançou um grande vento sobre o mar, e houve uma grande tempestade no mar, e o navio estava prestes a se despedaçar.",
+          "depois": "Mas o SENHOR lançou um grande vento sobre o mar, e houve uma grande tempestade no mar. O navio estava prestes a se despedaçar.",
+          "motivo": "Cadeia de waw consecutivo hebraico (וַיְהִי ... וְהָאֳנִיָּה) calcada em 'e...e...e' dentro do mesmo período; a terceira oração coordenada foi convertida em período independente, variando a coesão aditiva sem acrescentar relação lógica (causal/consecutiva) que o hebraico não marca explicitamente — mantém-se a simples justaposição dos três eventos (vento, tempestade, navio prestes a se despedaçar)."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Quebra da cadeia de 'e' repetidos; sequência dos eventos preservada integralmente.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.5",
+      "texto_bv_revisto": "Os marinheiros temeram e cada um clamou ao seu deus; lançaram ao mar a carga que havia no navio, para se aliviarem dela. Mas Jonas tinha descido ao porão do navio; deitou-se e caiu em sono profundo.",
+      "mudancas": [
+        {
+          "tipo": "calque",
+          "antes": "E os marinheiros temeram, e cada um clamou ao seu deus, e lançaram ao mar a carga que havia no navio, para se aliviarem dela.",
+          "depois": "Os marinheiros temeram e cada um clamou ao seu deus; lançaram ao mar a carga que havia no navio, para se aliviarem dela.",
+          "motivo": "Cadeia de waw consecutivo (וַיִּֽירְאוּ...וַֽיִּזְעֲקוּ...וַיָּטִלוּ) calcada em três conectivos 'e' consecutivos; removido o 'E' inicial (mesmo tratamento já dado a 1.1) e substituído o terceiro 'e' por ponto e vírgula, variando a coesão sem alterar a sequência causal (temor → clamor a cada deus → lançamento da carga)."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Corrigida a cadeia aditiva de calque na primeira oração. Mantida a segunda oração com mais-que-perfeito composto ('tinha descido'), decisão já vigente do texto aprovado que marca o retrocesso temporal da narrativa (Jonas já estava no porão antes da tempestade se instalar) — cadeia perfeito/mais-que-perfeito coerente, sem quebra motivada."
+      ,
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.6",
+      "texto_bv_revisto": "O capitão do navio aproximou-se dele e lhe disse: “Como você pode estar dormindo? Levante-se, clame ao seu deus! Talvez aquele deus tenha consideração por nós, e não pereçamos.”",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "O capitão do navio aproximou-se dele e lhe disse: \"Como você pode estar dormindo? Levante-se, clame ao seu deus! Talvez aquele deus tenha consideração por nós, e não pereçamos.\"",
+          "depois": "O capitão do navio aproximou-se dele e lhe disse: “Como você pode estar dormindo? Levante-se, clame ao seu deus! Talvez aquele deus tenha consideração por nós, e não pereçamos.”",
+          "motivo": "Norma editorial exige aspas duplas curvas para discurso direto; o texto trazia aspas retas."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas normalização das aspas de discurso direto para o padrão curvo; sentido, regência e colocação pronominal ('Levante-se', ênclise correta) já estavam corretos.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.7",
+      "texto_bv_revisto": "E disseram uns aos outros: “Vamos, lancemos sortes, para sabermos por causa de quem esta calamidade veio sobre nós.” Lançaram as sortes, e a sorte caiu sobre Jonas.",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "E disseram uns aos outros: \"Vamos, lancemos sortes, para sabermos por causa de quem esta calamidade veio sobre nós.\" Lançaram as sortes, e a sorte caiu sobre Jonas.",
+          "depois": "E disseram uns aos outros: “Vamos, lancemos sortes, para sabermos por causa de quem esta calamidade veio sobre nós.” Lançaram as sortes, e a sorte caiu sobre Jonas.",
+          "motivo": "Norma editorial exige aspas duplas curvas para discurso direto; o texto trazia aspas retas."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas normalização das aspas; a cadeia de waw consecutivo do literal ('e lancemos... e saibamos') já havia sido corrigida com subordinação ('para sabermos'), forma preferível mantida.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.8",
+      "texto_bv_revisto": "Então lhe disseram: “Diga-nos, por favor, por causa de quem nos sobreveio esta calamidade. Qual é a sua ocupação? De onde você vem? Qual é a sua terra? De que povo você é?”",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "Então lhe disseram: \"Diga-nos, por favor, por causa de quem nos sobreveio esta calamidade. Qual é a sua ocupação? De onde você vem? Qual é a sua terra? De que povo você é?\"",
+          "depois": "Então lhe disseram: “Diga-nos, por favor, por causa de quem nos sobreveio esta calamidade. Qual é a sua ocupação? De onde você vem? Qual é a sua terra? De que povo você é?”",
+          "motivo": "Norma editorial exige aspas duplas curvas para discurso direto; o texto trazia aspas retas."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas normalização das aspas; concordância ('nos sobreveio esta calamidade') e tratamento consistente ('você') já corretos.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.9",
+      "texto_bv_revisto": "Ele lhes disse: “Sou hebreu, e temo ao SENHOR, o Deus dos céus, que fez o mar e a terra seca.”",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "Ele lhes disse: \"Sou hebreu, e temo ao SENHOR, o Deus dos céus, que fez o mar e a terra seca.\"",
+          "depois": "Ele lhes disse: “Sou hebreu, e temo ao SENHOR, o Deus dos céus, que fez o mar e a terra seca.”",
+          "motivo": "Norma editorial exige aspas duplas curvas para discurso direto; o texto trazia aspas retas."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas normalização das aspas. 'Temo ao SENHOR' com acusativo preposicionado é registro bíblico consagrado para objeto pessoal/divino (paralelo a 1.16), não constitui erro de regência.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.10",
+      "texto_bv_revisto": "Então os homens ficaram tomados de grande temor, e lhe disseram: “O que foi isso que você fez?!” — pois os homens sabiam que Jonas estava fugindo de diante do SENHOR, porque ele lhes tinha contado.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "Aspas duplas curvas já corretas. A repetição de 'os homens' após a fala citada entre travessões foi mantida: retoma com clareza o sujeito depois do inciso, evitando sobrecarregar o trecho com pronomes quando já há dois referentes masculinos em jogo (o grupo 'os homens' e 'ele/lhes' referindo-se a Jonas); concordância e regência corretas.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Jonah.1.11",
+      "texto_bv_revisto": "E lhe disseram: “O que faremos com você, para que o mar se acalme para nós?” — pois o mar se agitava cada vez mais.",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "E lhe disseram: \"O que faremos com você, para que o mar se acalme para nós?\" — pois o mar se agitava cada vez mais.",
+          "depois": "E lhe disseram: “O que faremos com você, para que o mar se acalme para nós?” — pois o mar se agitava cada vez mais.",
+          "motivo": "Norma editorial exige aspas duplas curvas para discurso direto; o texto trazia aspas retas."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas normalização das aspas.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.12",
+      "texto_bv_revisto": "Ele lhes disse: “Peguem-me e lancem-me ao mar, e o mar se acalmará para vocês; pois eu sei que é por minha causa que esta grande tempestade está sobre vocês.”",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "Ele lhes disse: \"Peguem-me e lancem-me ao mar, e o mar se acalmará para vocês; pois eu sei que é por minha causa que esta grande tempestade está sobre vocês.\"",
+          "depois": "Ele lhes disse: “Peguem-me e lancem-me ao mar, e o mar se acalmará para vocês; pois eu sei que é por minha causa que esta grande tempestade está sobre vocês.”",
+          "motivo": "Norma editorial exige aspas duplas curvas para discurso direto; o texto trazia aspas retas."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas normalização das aspas; colocação pronominal ('Peguem-me', 'lancem-me' com ênclise no imperativo afirmativo) já correta.",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.13",
+      "texto_bv_revisto": "Mas os homens remavam com força para voltar à terra seca; e não conseguiam, porque o mar se agitava cada vez mais contra eles.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "A repetição de 'o mar ... se agitava cada vez mais' retoma o mesmo refrão de 1.11 (הוֹלֵךְ וְסֹעֵר), repetição formular do hebraico que marca a intensificação progressiva da tempestade; mantida sem alteração. Tempo verbal imperfeito ('remavam'/'conseguiam') consistente e motivado pelo esforço contínuo e malsucedido dos marinheiros; crase e regência corretas.",
+      "veredito": "SEM_ALTERACAO"
+    },
+    {
+      "osis": "Jonah.1.14",
+      "texto_bv_revisto": "Então clamaram ao SENHOR e disseram: “Ah, SENHOR, não nos deixes perecer por causa da vida deste homem, e não ponhas sobre nós sangue inocente; pois tu, SENHOR, como quiseste, fizeste.”",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "Então clamaram ao SENHOR e disseram: \"Ah, SENHOR, não nos deixes perecer por causa da vida deste homem, e não ponhas sobre nós sangue inocente; pois tu, SENHOR, como quiseste, fizeste.\"",
+          "depois": "Então clamaram ao SENHOR e disseram: “Ah, SENHOR, não nos deixes perecer por causa da vida deste homem, e não ponhas sobre nós sangue inocente; pois tu, SENHOR, como quiseste, fizeste.”",
+          "motivo": "Norma editorial exige aspas duplas curvas para discurso direto; o texto trazia aspas retas."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Apenas normalização das aspas. Uso de 'tu' está correto: é oração dirigida diretamente ao SENHOR, com concordância verbal consistente ('quiseste', 'fizeste').",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.15",
+      "texto_bv_revisto": "Então pegaram Jonas e o lançaram ao mar, e o mar cessou a sua fúria.",
+      "mudancas": [
+        {
+          "tipo": "regencia",
+          "antes": "Então pegaram Jonas e o lançaram ao mar, e o mar cessou de sua fúria.",
+          "depois": "Então pegaram Jonas e o lançaram ao mar, e o mar cessou a sua fúria.",
+          "motivo": "'Cessar' no sentido de 'parar, deixar de manifestar-se' pede objeto direto ('cessar algo'); a construção 'cessar de' com complemento nominal (não infinitivo) é regência não padrão, calco da partícula hebraica מִן ('a partir de/de') aplicada a 'fúria' — 'cessar de' só é regular seguido de infinitivo (ex. 'cessou de chover')."
+        }
+      ],
+      "objecoes": [],
+      "justificativa": "Correção pontual de regência verbal; sentido inalterado (o mar deixou de estar em fúria).",
+      "veredito": "REVISADO"
+    },
+    {
+      "osis": "Jonah.1.16",
+      "texto_bv_revisto": "Então os homens temeram grandemente ao SENHOR; ofereceram um sacrifício ao SENHOR e fizeram votos.",
+      "mudancas": [],
+      "objecoes": [],
+      "justificativa": "A redução das figuras etimológicas hebraicas ('temeram um grande temor', 'sacrificaram um sacrifício', 'votaram votos') para formas idiomáticas em português é decisão já vigente do texto aprovado. Regência 'temeram... ao SENHOR' segue o mesmo registro bíblico consagrado de 1.9 (objeto pessoal/divino preposicionado). Sem discurso direto a pontuar; sem cadeia de 'e' a corrigir.",
+      "veredito": "SEM_ALTERACAO"
     }
-   ],
-   "objecoes": [],
-   "justificativa": "Achado PRO-1 (4 pronomes de 3ª pessoa) adjudicado: o antecedente já era gramaticalmente inequívoco (único referente masculino singular é Jonas; “lhes” só pode remeter aos homens, plural), mas a densidade pronominal foi reduzida por clareza, nomeando Jonas uma vez — solução também adotada pela NVIPT neste verso.",
-   "veredito": "REVISADO"
-  },
-  {
-   "osis": "Jonah.1.11",
-   "texto_bv_revisto": "E lhe disseram: \"O que faremos com você, para que o mar se acalme para nós?\" — pois o mar se agitava cada vez mais.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.12",
-   "texto_bv_revisto": "Ele lhes disse: \"Peguem-me e lancem-me ao mar, e o mar se acalmará para vocês; pois eu sei que é por minha causa que esta grande tempestade está sobre vocês.\"",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.13",
-   "texto_bv_revisto": "Mas os homens remavam com força para voltar à terra seca; e não conseguiam, porque o mar se agitava cada vez mais contra eles.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.14",
-   "texto_bv_revisto": "Então clamaram ao SENHOR e disseram: \"Ah, SENHOR, não nos deixes perecer por causa da vida deste homem, e não ponhas sobre nós sangue inocente; pois tu, SENHOR, como quiseste, fizeste.\"",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.15",
-   "texto_bv_revisto": "Então pegaram Jonas e o lançaram ao mar, e o mar cessou de sua fúria.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  },
-  {
-   "osis": "Jonah.1.16",
-   "texto_bv_revisto": "Então os homens temeram grandemente ao SENHOR; ofereceram um sacrifício ao SENHOR e fizeram votos.",
-   "mudancas": [],
-   "objecoes": [],
-   "veredito": "SEM_ALTERACAO"
-  }
- ]
+  ]
 }
