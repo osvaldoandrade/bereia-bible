@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Dan.7.1-28"
   },
-  "texto_bv": "Assim ele disse: \"O quarto animal será um quarto reino na terra, que será diferente de todos os outros reinos, e devorará toda a terra, e a pisará e a triturará.\"",
+  "texto_bv": "Assim ele disse: “O quarto animal será um quarto reino na terra, que será diferente de todos os outros reinos, devorará toda a terra, a pisará e a triturará.”",
   "traducao_literal": "Assim disse: o animal quarto, reino quarto será na terra, que será diferente de todos os reinos, e devorará toda a terra, e a pisará, e a triturará.",
   "termos_originais": [
     {
@@ -116,6 +116,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Assim ele disse: \"O quarto animal será um quarto reino na terra, que será diferente de todos os outros reinos, e devorará toda a terra, e a pisará e a triturará.\" → Assim ele disse: “O quarto animal será um quarto reino na terra, que será diferente de todos os outros reinos, devorará toda a terra, a pisará e a triturará.” | que será diferente de todos os outros reinos, e devorará toda a terra, e a pisará e a triturará → que será diferente de todos os outros reinos, devorará toda a terra, a pisará e a triturará",
+      "justificativa": "Discurso direto exige aspas duplas curvas (EDITORIAL.md); as aspas retas do original foram substituídas pelas curvas. | Cadeia 'e...e...e' calcada no encadeamento com waw do aramaico (וְתֵאכֻל...וּתְדוּשִׁנַּהּ...וְתַדְּקִנַּהּ); normalizada para a enumeração do português, sem alterar as três ações descritas. — revisão de forma sem alteração de sentido (ER-0022). Correções de forma (pontuação e conectivos); as três ações do quarto reino (devorar, pisar, triturar) permanecem intactas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -126,11 +133,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
