@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Jer.27.1-22"
   },
-  "texto_bv": "Por que morrerão, você e o seu povo, à espada, de fome e de peste, como o SENHOR falou a respeito da nação que não servir ao rei da Babilônia?",
+  "texto_bv": "Por que morrerão, você e o seu povo, com espada, com fome e com peste, como o SENHOR falou a respeito da nação que não servir ao rei da Babilônia?",
   "traducao_literal": "Por que morrereis, tu e teu povo, pela espada, pela fome e pela peste, como falou o SENHOR sobre a nação que não servir o rei da Babilônia?",
   "termos_originais": [
     {
@@ -122,6 +122,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Por que morrerão, você e o seu povo, à espada, de fome e de peste, como o SENHOR falou a respeito da nação que não servir ao rei da Babilônia? → Por que morrerão, você e o seu povo, com espada, com fome e com peste, como o SENHOR falou a respeito da nação que não servir ao rei da Babilônia?",
+      "justificativa": "Paralelismo quebrado: a tríade espada/fome/peste usa preposições distintas ('à'...'de'...'de') dentro do mesmo período, enquanto o hebraico repete a mesma preposição (בַּחֶרֶב בָּרָעָב וּבַדָּבֶר) e o v.8 do mesmo capítulo já fixa o padrão 'com espada, com fome e com peste' para a mesma fórmula; normalizado para restaurar o paralelismo e a consistência intra-capítulo. — revisão de forma sem alteração de sentido (ER-0022). Uniformização da preposição na tríade formular espada/fome/peste, sem alteração de sentido, alinhando com o v.8 e com o paralelismo hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -132,11 +139,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
