@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Jer.52.1-34"
   },
-  "texto_bv": "Da cidade tomou um oficial que era comandante dos soldados, sete homens dos conselheiros pessoais do rei que se encontravam na cidade, o escrivão do comandante do exército, encarregado de recrutar o povo da terra, e sessenta homens do povo da terra que se encontravam no meio da cidade.",
+  "texto_bv": "Da cidade tomou um oficial que era comandante dos soldados; sete homens dos conselheiros pessoais do rei que se encontravam na cidade; o escrivão do comandante do exército, encarregado de recrutar o povo da terra; e sessenta homens do povo da terra que se encontravam no meio da cidade.",
   "traducao_literal": "E da cidade tomou um eunuco que era encarregado sobre os homens de guerra; e sete homens dos que viam a face do rei, que se acharam na cidade; e o escrivão do chefe do exército, o que alistava o povo da terra; e sessenta homens do povo da terra, que se acharam no meio da cidade.",
   "termos_originais": [
     {
@@ -213,6 +213,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "um oficial que era comandante dos soldados, sete homens dos conselheiros pessoais do rei que se encontravam na cidade, o escrivão do comandante do exército, encarregado de recrutar o povo da terra, e sessenta homens do povo da terra que se encontravam no meio da cidade → um oficial que era comandante dos soldados; sete homens dos conselheiros pessoais do rei que se encontravam na cidade; o escrivão do comandante do exército, encarregado de recrutar o povo da terra; e sessenta homens do povo da terra que se encontravam no meio da cidade",
+      "justificativa": "a lista de quatro itens, todos objeto de \"tomou\", estava separada só por vírgulas, e um dos itens já tinha um aposto interno com vírgula (\"o escrivão..., encarregado de...\"), dificultando ver onde cada item começa e termina; trocadas as vírgulas por ponto e vírgula entre os itens principais, como a própria KJV já faz, sem mudar o sentido nem o número de itens. — revisão de forma sem alteração de sentido (ER-0022). Pontuação da enumeração ajustada (ver mudanças) para deixar claros os limites dos quatro itens tomados por Nebuzaradã.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -223,11 +230,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
