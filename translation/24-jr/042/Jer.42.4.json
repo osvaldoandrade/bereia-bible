@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Jer.42.1-22"
   },
-  "texto_bv": "Jeremias, o profeta, disse a eles: “Ouvi. Orarei ao SENHOR, seu Deus, conforme as palavras de vocês; tudo o que o SENHOR responder, eu lhes contarei; não lhes ocultarei nenhuma palavra.”",
+  "texto_bv": "Jeremias, o profeta, disse a eles: “Eu ouvi. Orarei ao SENHOR, seu Deus, conforme as palavras de vocês; tudo o que o SENHOR responder, eu lhes contarei; não lhes ocultarei nenhuma palavra.”",
   "traducao_literal": "E disse a eles Jeremias, o profeta: 'Ouvi; eis-me orando a YHWH vosso Deus conforme vossas palavras; e será, toda a palavra que responder YHWH a vós, contarei a vós; não reterei de vós palavra.'",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "“Ouvi. → “Eu ouvi.",
+      "justificativa": "שָׁמַעְתִּי é perfeito de 1ª pessoa (\"eu ouvi/ouvi vocês\", cf. KJV \"I have heard you\"); isolado no início de uma fala, \"Ouvi.\" colide graficamente com o imperativo de 2ª pessoa do plural (vós) — \"escutai!\" —, sentido que o hebraico não tem aqui. O restante do versículo já está todo em 1ª pessoa (\"Orarei\", \"contarei\", \"ocultarei\"); o pronome sujeito explícito desfaz a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Corrigida apenas a ambiguidade de pessoa verbal; restante do versículo (uso de \"lhes\", futuro do subjuntivo \"responder\") está correto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -174,11 +181,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

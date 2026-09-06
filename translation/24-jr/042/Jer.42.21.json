@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Jer.42.1-22"
   },
-  "texto_bv": "Eu contei a vocês hoje, mas vocês não obedeceram à voz do SENHOR, seu Deus, em nada daquilo para que ele me enviou a vocês.",
+  "texto_bv": "Eu contei a vocês hoje, mas vocês não obedeceram à voz do SENHOR, seu Deus, em nada daquilo com que ele me enviou a vocês.",
   "traducao_literal": "E declarei a vocês hoje, e não ouvistes na voz de YHWH vosso Deus, e em tudo o que me enviou a vocês.",
   "termos_originais": [
     {
@@ -86,6 +86,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "em nada daquilo para que ele me enviou a vocês → em nada daquilo com que ele me enviou a vocês",
+      "justificativa": "\"para que\" é lido em português como conjunção final (\"a fim de que\"), abrindo uma oração incompleta e mal formada depois de \"enviou a vocês\". O sentido é \"aquilo com que ele me enviou\" (a mensagem/incumbência), regência já fixada no próprio capítulo para o mesmo verbo (v.5: \"a palavra COM QUE o SENHOR, seu Deus, ... enviar a nós\"). Corrige a regência sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). A negação \"não obedeceram\" do texto_bv já explicita corretamente, com \"em nada\", a elipse de negação do hebraico (que na oração coordenada seguinte não repete a partícula negativa, mas a KJV também explicita com \"nor\"); tradução já aprovada, não alterada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -96,11 +103,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Jer.42.1-22"
   },
-  "texto_bv": "Eu mostrarei compaixão a vocês, e ele terá compaixão de vocês, e os fará voltar à sua própria terra.",
+  "texto_bv": "Eu mostrarei compaixão a vocês, e ele terá compaixão de vocês, e os fará voltar à terra de vocês.",
   "traducao_literal": "E darei a vocês misericórdias, e terá compaixão de vocês, e fará voltar a vocês à vossa terra.",
   "termos_originais": [
     {
@@ -89,6 +89,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "à sua própria terra → à terra de vocês",
+      "justificativa": "אַדְמַתְכֶם traz sufixo de 2ª pessoa do plural (\"a terra DE VOCÊS\", cf. traducao_literal \"à vossa terra\"), mas o possessivo \"sua\" fica ambíguo, podendo ser lido como referindo-se ao sujeito mais próximo, \"ele\" (o rei da Babilônia, retomado do v.11), e não a \"vocês\". Substituído por sintagma explícito para eliminar a ambiguidade referencial, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Mantida a mudança de sujeito de 1ª para 3ª pessoa (\"eu mostrarei... e ele terá compaixão\"): reflete o próprio hebraico e a KJV (\"that HE may have mercy\"), entendido como o rei da Babilônia do v.11 — não é vício de tradução, por isso não alterado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -101,11 +108,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
