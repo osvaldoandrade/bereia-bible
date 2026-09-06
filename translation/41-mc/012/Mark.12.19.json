@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Mark.12.1-44"
   },
-  "texto_bv": "“Mestre, Moisés nos escreveu que, se morrer o irmão de alguém e deixar mulher, mas não deixar filho, seu irmão tome a mulher e suscite descendência para o irmão.",
+  "texto_bv": "“Mestre, Moisés nos escreveu que, se morrer o irmão de alguém e deixar mulher, mas não deixar filho, seu irmão tome a mulher e suscite descendência para o irmão dele.",
   "traducao_literal": "Mestre, Moisés escreveu a nós que se de alguém o irmão morrer e deixar mulher e não deixar filho, que tome o irmão dele a mulher e suscite semente ao irmão dele.",
   "termos_originais": [
     {
@@ -189,6 +189,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "seu irmão tome a mulher e suscite descendência para o irmão. → seu irmão tome a mulher e suscite descendência para o irmão dele.",
+      "justificativa": "O grego repete o possessivo nas duas ocorrências de 'irmão' (ὁ ἀδελφὸς αὐτοῦ ... τῷ ἀδελφῷ αὐτοῦ) e a tradução literal preserva ambas ('tome o irmão dele' ... 'suscite semente ao irmão dele'); a BV manteve o possessivo só na primeira ocorrência ('seu irmão', sujeito) e omitiu na segunda, deixando o 'irmão' final sem antecedente marcado — o leitor tende a reatá-lo ao 'seu irmão' que acabou de ser sujeito (o cunhado sobrevivente), invertendo o sentido da lei do levirato, em que a descendência é suscitada para o irmão falecido. Restaurar o possessivo recompõe a mesma ambiguidade referencial do original, sem acrescentar interpretação que o grego não marca. — revisão de forma sem alteração de sentido (ER-0024). O grego repete o possessivo nas duas ocorrências de 'irmão' (ὁ ἀδελφὸς αὐτοῦ ... τῷ ἀδελφῷ αὐτοῦ), e a tradução literal preserva ambas ('o irmão dele' ... 'ao irmão dele'); a BV manteve o possessivo apenas na primeira ('seu irmão') e o omitiu na segunda, deixando o 'irmão' final sem antecedente marcado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -199,7 +206,7 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
