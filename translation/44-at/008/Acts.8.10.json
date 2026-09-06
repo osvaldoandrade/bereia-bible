@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Acts.8.1-40"
   },
-  "texto_bv": "todos, do menor ao maior, davam atenção a ele, dizendo: \"Este é o poder de Deus chamado Grande Poder.\"",
+  "texto_bv": "Todos, do menor ao maior, davam atenção a ele, dizendo: \"Este é o poder de Deus chamado Grande Poder.\"",
   "traducao_literal": "a quem todos davam atenção, do pequeno até o grande, dizendo: \"Este é o poder de Deus, o chamado Grande.\"",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "todos, do menor ao maior, davam atenção a ele, dizendo: → Todos, do menor ao maior, davam atenção a ele, dizendo:",
+      "justificativa": "O verso anterior (Atos 8.9) foi fechado com ponto final no texto_bv aprovado, tornando este verso o início de uma nova oração independente (sujeito novo 'todos', verbo novo 'davam'). Norma culta de capitalização exige maiúscula em início de período; a minúscula ficou como resíduo da estrutura relativa do grego (ᾧ), que o texto_bv já não preserva como frase única. — revisão de forma sem alteração de sentido (ER-0024). Além da capitalização corrigida, a repetição 'poder de Deus chamado Grande Poder' é escolha legítima para verter ἡ καλουμένη Μεγάλη como epíteto ('Grande Poder'), evitando elipse ambígua; não é repetição sem razão.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -139,11 +146,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
