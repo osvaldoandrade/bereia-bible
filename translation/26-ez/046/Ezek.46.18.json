@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Ezek.46.1-24"
   },
-  "texto_bv": "O príncipe não tomará nada da herança do povo, oprimindo-os e tirando-os da sua propriedade; ele dará aos seus filhos herança da sua própria propriedade, para que o meu povo não seja disperso, cada um da sua propriedade.",
+  "texto_bv": "O príncipe não tomará nada da herança do povo, oprimindo-os e tirando-os da propriedade deles; ele dará aos seus filhos herança da sua própria propriedade, para que o meu povo não seja disperso, cada um da sua propriedade.",
   "traducao_literal": "E não tomará o príncipe da herança do povo, para os oprimir, da sua propriedade; da sua própria propriedade dará herança aos seus filhos, para que não seja disperso o meu povo, cada um da sua propriedade.",
   "termos_originais": [
     {
@@ -134,6 +134,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "oprimindo-os e tirando-os da sua propriedade → oprimindo-os e tirando-os da propriedade deles",
+      "justificativa": "\"Sua propriedade\" é ambíguo entre \"o povo\" (retomado por \"-os\", plural, e correto segundo o hebraico מֵאֲחֻזָּתָם, sufixo 3mp — \"a propriedade deles\") e \"o príncipe\", sujeito gramatical da oração e mais saliente. A leitura errada inverteria o sentido do preceito (o príncipe não pode expulsar o povo da propriedade DO POVO, não da propriedade dele mesmo). \"Deles\", plural, só pode remeter ao povo, eliminando a ambiguidade sem alterar o sentido; a KJV já distingue com \"their possession\". — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão: pronome possessivo ambíguo, com risco de inverter o sentido legal do preceito, substituído por forma que fixa o referente correto (o povo). As demais ocorrências de \"sua/sua própria\" no verso (referentes a \"ele\"/príncipe e a \"cada um\") já são desambiguadas pela proximidade imediata e foram mantidas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -144,11 +151,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

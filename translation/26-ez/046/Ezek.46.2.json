@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Ezek.46.1-24"
   },
-  "texto_bv": "O príncipe entrará por fora, pelo caminho do vestíbulo do portão, e ficará em pé junto ao umbral do portão. Os sacerdotes prepararão o seu holocausto e as suas ofertas pacíficas, e ele se prostrará junto à soleira do portão; depois sairá, e o portão não se fechará até a tarde.",
+  "texto_bv": "O príncipe entrará por fora, pelo caminho do vestíbulo do portão, e ficará em pé junto ao umbral do portão. Os sacerdotes prepararão o holocausto e as ofertas pacíficas dele, e ele se prostrará junto à soleira do portão; depois sairá, e o portão não se fechará até a tarde.",
   "traducao_literal": "E entrará o príncipe pelo caminho do vestíbulo do portão, por fora, e ficará em pé sobre o umbral do portão; e farão os sacerdotes o seu holocausto e as suas ofertas pacíficas; e ele se prostrará sobre a soleira do portão; e sairá; e o portão não se fechará até a tarde.",
   "termos_originais": [
     {
@@ -181,6 +181,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Os sacerdotes prepararão o seu holocausto e as suas ofertas pacíficas → Os sacerdotes prepararão o holocausto e as ofertas pacíficas dele",
+      "justificativa": "\"Seu/suas\" é ambíguo entre o sujeito gramatical da oração (\"os sacerdotes\", plural) e o príncipe (singular), a quem de fato pertencem a oferta e o holocausto (עוֹלָתוֹ/שְׁלָמָיו trazem sufixo pronominal 3ms; KJV \"his burnt offering and his peace offerings\", singular, que em inglês já exclui \"the priests\" por concordância de número — recurso que \"seu\" não reproduz em português, pois não varia com o número do possuidor). \"Dele\", por ser singular, só pode remeter ao príncipe, eliminando a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão: pronome possessivo ambíguo substituído por forma que fixa o referente correto (o príncipe), preservando integralmente o conteúdo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -191,11 +198,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
