@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Matt.18.1-35"
   },
-  "texto_bv": "Mas ele não quis; antes foi e o lançou na prisão, até que pagasse o que devia.",
+  "texto_bv": "Mas o servo não quis; antes foi e o lançou na prisão, até que pagasse o que devia.",
   "traducao_literal": "Mas ele não queria; mas, tendo ido, lançou-o na prisão, até que pagasse o devido.",
   "termos_originais": [
     {
@@ -96,6 +96,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Mas ele não quis → Mas o servo não quis",
+      "justificativa": "\"ele\" tem antecedente ambíguo: a oração anterior (v.29) tem \"o seu conservo\" como sujeito gramatical mais próximo, mas quem recusa perdoar é o primeiro servo (a quem se suplicava). O grego marca a troca de sujeito com ὁ δέ (artigo + partícula adversativa), recurso que o pronome sozinho não recupera em português; retomar pelo substantivo \"o servo\" — já usado no capítulo para distinguir o protagonista (\"servo\") do antagonista (\"conservo\") — desfaz a ambiguidade sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0024). Pronome \"ele\" ambíguo entre \"o seu conservo\" (sujeito da oração imediatamente anterior) e o primeiro servo; corrigido para \"o servo\", nome já consagrado no capítulo para o protagonista, restaurando a marcação de troca de sujeito que ὁ δέ sinaliza no grego.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -106,11 +113,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
