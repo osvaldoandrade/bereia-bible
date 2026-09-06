@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Lam.4.1-22"
   },
-  "texto_bv": "O SENHOR consumou a sua fúria, derramou o furor da sua ira; e ele acendeu fogo em Sião, que consumiu os seus alicerces.",
+  "texto_bv": "O SENHOR consumou a sua fúria, derramou o furor da sua ira; e ele acendeu em Sião um fogo que consumiu os seus alicerces.",
   "traducao_literal": "Consumou o SENHOR a sua fúria, derramou o furor da sua ira; e acendeu fogo em Sião, e comeu os seus fundamentos.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e ele acendeu fogo em Sião, que consumiu os seus alicerces. → e ele acendeu em Sião um fogo que consumiu os seus alicerces.",
+      "justificativa": "O antecedente do relativo \"que\" ficava ambíguo entre \"Sião\" (substantivo mais próximo) e \"fogo\" (referente lógico correto — no hebraico וַתֹּאכַל concorda no feminino com אֵשׁ, \"fogo\", não é Sião quem consome os próprios alicerces). A reordenação aproxima \"fogo\" do relativo, eliminando a ambiguidade sem alterar o sentido; \"seus alicerces\" continua recuperável como os alicerces de Sião. — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão: antecedente do relativo esclarecido (fogo, não Sião); sentido idêntico ao literal e à KJV (\"kindled a fire in Zion, and it hath devoured the foundations thereof\").",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -105,11 +112,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
