@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "2Cor.10.1-18"
   },
-  "texto_bv": "Pois não é aprovado aquele que se recomenda a si mesmo, mas aquele a quem o Senhor recomenda.",
+  "texto_bv": "Pois não é aprovado aquele que se recomenda a si mesmo, mas aquele que o Senhor recomenda.",
   "traducao_literal": "Pois não o que a si mesmo recomenda, esse é aprovado, mas a quem o Senhor recomenda.",
   "termos_originais": [
     {
@@ -102,6 +102,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas aquele a quem o Senhor recomenda. → mas aquele que o Senhor recomenda.",
+      "justificativa": "ὃν ... συνίστησιν é objeto direto ('a quem o Senhor comenda/aprova'); 'recomendar' no sentido de comendar/aprovar alguém é transitivo direto em português ('o Senhor o recomenda'), logo o relativo correto é 'que', não 'a quem' (que sugeriria objeto indireto, como em 'recomendar algo a alguém'). Corrige regência sem alterar o sentido: o Senhor aprova/comenda a pessoa, não recomenda algo a ela. — revisão de forma sem alteração de sentido (ER-0024). Primeira metade ('se recomenda a si mesmo') está correta, pois é reflexiva com pronome enfático 'a si mesmo'; a segunda metade não é reflexiva e por isso exige objeto direto 'que', corrigido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -112,11 +119,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
