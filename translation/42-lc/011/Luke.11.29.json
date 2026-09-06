@@ -153,6 +153,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Objeção editorial não aplicada",
+      "escolha": "texto mantido",
+      "justificativa": "Inconsistência lexical intracapítulo: πονηρός é vertido \"perversa\" aqui (\"geração perversa\"), mas pela família \"mau\" nos demais versos do capítulo (v.13 \"sendo maus\", v.26 \"piores\", v.34 \"quando é mau\"), sem paralelismo sinonímico ou registro distinto evidente que justifique a variação (§1.4). — evidência: πονηρά(πονηρός,A-NSF) neste verso vs πονηροὶ(v.13), πονηρότερα(v.26), πονηρὸς(v.34), todos vertidos com a família lexical \"mau\" no restante do capítulo. (ER-0024).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -161,9 +168,11 @@
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0024): O texto_bv omite por completo a oração \"Τῶν δὲ ὄχλων ἐπαθροιζομένων\" (genitivo absoluto: \"ajuntando-se as multidões\"), presente no grego pinado e na traducao_literal; o verso aprovado começa direto em \"Ele começou a dizer\", sem qualquer menção às multidões se aglomerando. — evidência: termos_originais inclui Τῶν(T-GPM) ὄχλων(N-GPM) ἐπαθροιζομένων(V-PEP-GPM) sem correspondente em texto_bv; traducao_literal: \"e ajuntando-se as multidões, começou a dizer\". Restaurar a oração exigiria acrescentar conteúdo novo à frase aprovada, alterando o sentido do trecho — por isso fica em objeção em vez de correção direta."
+  ],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
