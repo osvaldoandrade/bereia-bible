@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Dan.3.1-33"
   },
-  "texto_bv": "Por mim, portanto, é decretado que todo povo, nação e língua que disser algo indevido contra o Deus de Sadraque, Mesaque e Abede-Nego seja despedaçado, e a sua casa se torne um montão de escombros. Porque não há nenhum outro deus que possa livrar dessa maneira.\"",
+  "texto_bv": "Por mim, portanto, é decretado que todo povo, nação e língua que disser algo indevido contra o Deus de Sadraque, Mesaque e Abede-Nego seja despedaçado, e a sua casa se torne um montão de escombros, porque não há nenhum outro deus que possa livrar dessa maneira.\"",
   "traducao_literal": "E por mim é posto decreto: que todo povo, nação e língua que disser erro contra o Deus deles, de Sadraque, Mesaque e Abede-Nego, seja feito em pedaços, e a sua casa se torne monturo; porque não há deus outro que possa livrar como este.",
   "termos_originais": [
     {
@@ -221,6 +221,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e a sua casa se torne um montão de escombros. Porque não há nenhum outro deus que possa livrar dessa maneira. → e a sua casa se torne um montão de escombros, porque não há nenhum outro deus que possa livrar dessa maneira.",
+      "justificativa": "\"Porque\" inicia oração subordinada causal; pontuá-la como sentença independente (após ponto final) cria um fragmento que a norma culta não sustenta. O original e a tradução_literal trazem a mesma relação causal ligada por ponto e vírgula ao decreto (\"...monturo; porque não há deus outro...\"); troquei o ponto final por vírgula, unindo a oração causal à principal sem alterar nenhuma palavra nem a relação lógica. — revisão de forma sem alteração de sentido (ER-0022). Correção de pontuação: oração causal introduzida por \"porque\" foi unida à sentença anterior para eliminar fragmento de frase; sentido e palavras preservados integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -233,11 +240,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
