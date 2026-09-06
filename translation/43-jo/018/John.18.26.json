@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "John.18.1-40"
   },
-  "texto_bv": "Um dos servos do sumo sacerdote, parente daquele a quem Pedro tinha cortado a orelha, disse: “Não vi eu você no jardim com ele?”",
+  "texto_bv": "Um dos servos do sumo sacerdote, parente daquele a quem Pedro tinha cortado a orelha, disse: “Não fui eu que vi você no jardim com ele?”",
   "traducao_literal": "Diz um dentre os servos do sumo sacerdote, sendo parente daquele cuja orelha cortou Pedro: Não te vi eu no jardim com ele?",
   "termos_originais": [
     {
@@ -148,6 +148,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Não vi eu você no jardim com ele? → Não fui eu que vi você no jardim com ele?",
+      "justificativa": "Ordem enfática do grego (οὐκ ἐγὼ εἶδον σε, pronome pós-verbal em posição de ênfase) vertida literalmente produz inversão sujeito-verbo estranha ao português culto; a clivada ‘Não fui eu que...’ preserva a ênfase no sujeito sem calcar a sintaxe grega. — revisão de forma sem alteração de sentido (ER-0024). Ordem sujeito-verbo invertida (‘vi eu’) calca a ênfase grega em ἐγώ (οὐκ ἐγὼ εἶδον σε); corrigido para a clivada ‘Não fui eu que vi’, natural em português e que preserva a mesma ênfase no sujeito.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -158,11 +165,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
