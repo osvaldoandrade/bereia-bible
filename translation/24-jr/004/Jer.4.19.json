@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Jer.4.1-31"
   },
-  "texto_bv": "As minhas entranhas, as minhas entranhas! Eu me contorço de dor! Ó paredes do meu coração! O meu coração ruge dentro de mim; não posso ficar calado, pois ouvi o som da trombeta — ó minha alma! — o alarido de guerra.",
+  "texto_bv": "As minhas entranhas, as minhas entranhas! Eu me contorço de dor! Ó paredes do meu coração! O meu coração ruge dentro de mim; não posso ficar calado, pois ouvi o som da trombeta — ó minha alma! —, o alarido de guerra.",
   "traducao_literal": "As minhas entranhas, as minhas entranhas! Em angústia me contorço! As paredes do meu coração! Ruge para mim o meu coração, não me calarei; porque voz de trombeta ouvi, minha alma, o alarido de guerra.",
   "termos_originais": [
     {
@@ -129,6 +129,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pois ouvi o som da trombeta — ó minha alma! — o alarido de guerra. → pois ouvi o som da trombeta — ó minha alma! —, o alarido de guerra.",
+      "justificativa": "O vocativo intercalado por travessões pede vírgula ao fechar quando a oração prossegue, como já ocorre no v.1 ('— diz o SENHOR —,'). Sem ela, 'o alarido de guerra' parece um item avulso, e não o aposto que retoma 'o som da trombeta' — o paralelismo do hebraico (קוֹל שׁוֹפָר ... תְּרוּעַת מִלְחָמָה, a mesma coisa ouvida, dita duas vezes). — revisão de forma sem alteração de sentido (ER-0022). Acrescentada a vírgula de fechamento do vocativo intercalado, no mesmo padrão já usado no v.1, para marcar que 'o alarido de guerra' retoma em aposto 'o som da trombeta'.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -141,11 +148,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
