@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Zech.3.1-10"
   },
-  "texto_bv": "Pois eis a pedra que pus diante de Josué — sobre uma única pedra, sete olhos — eis que eu gravarei a sua inscrição, diz o SENHOR dos Exércitos, e removerei a iniquidade desta terra num só dia.",
+  "texto_bv": "Pois eis a pedra que pus diante de Josué — sobre uma única pedra, sete olhos — eis que eu gravarei a sua inscrição, diz o SENHOR dos Exércitos, e removerei a iniquidade daquela terra num só dia.",
   "traducao_literal": "Porque eis a pedra que dei diante de Josué; sobre uma pedra, uma, sete olhos; eis que eu gravo a sua gravura, oráculo do SENHOR dos Exércitos; e removerei a iniquidade da terra, essa, em dia um.",
   "termos_originais": [
     {
@@ -191,6 +191,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "removerei a iniquidade desta terra num só dia. → removerei a iniquidade daquela terra num só dia.",
+      "justificativa": "O hebraico traz demonstrativo distal (הָאָרֶץ הַהִיא, \"aquela terra\"), confirmado pela morfologia pinada (Td/Pp3fs), pela camada literal (\"a terra, essa\") e pela KJV (\"that land\"); \"esta terra\" introduzia dêixis proximal sem antecedente estabelecido na janela, quebrando a coesão referencial e destoando do paralelo distal usado no verso seguinte (\"Naquele dia\", Zc 3.10, mesma construção הַהוּא). Corrigido o dêitico para \"daquela\"; o referente (a terra de Israel/Judá) permanece o mesmo, sem alteração de sentido. — revisão de forma sem alteração de sentido (ER-0022). Correção pontual de dêixis, forma apenas; nenhuma mudança de sentido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -203,7 +210,7 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
