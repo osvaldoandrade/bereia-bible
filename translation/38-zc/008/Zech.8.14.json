@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Zech.8.1-23"
   },
-  "texto_bv": "Porque assim diz o SENHOR dos Exércitos: “Assim como planejei trazer mal sobre vocês, quando os seus antepassados me provocaram à ira” — diz o SENHOR dos Exércitos — “e não me arrependi,”",
+  "texto_bv": "Porque assim diz o SENHOR dos Exércitos: “Assim como planejei trazer mal sobre vocês, quando os seus antepassados me provocaram à ira” — diz o SENHOR dos Exércitos — “e não me arrependi,",
   "traducao_literal": "Porque assim disse SENHOR de exércitos: como planejei fazer-mal a-vocês, quando-provocaram-a-ira vossos-pais a-mim, disse SENHOR de exércitos, e não me-arrependi,",
   "termos_originais": [
     {
@@ -122,6 +122,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Porque assim diz o SENHOR dos Exércitos: “Assim como planejei trazer mal sobre vocês, quando os seus antepassados me provocaram à ira” — diz o SENHOR dos Exércitos — “e não me arrependi,” → Porque assim diz o SENHOR dos Exércitos: “Assim como planejei trazer mal sobre vocês, quando os seus antepassados me provocaram à ira” — diz o SENHOR dos Exércitos — “e não me arrependi,",
+      "justificativa": "A fala continua sem interrupção lógica até o final do v.15 (\"...e não me arrependi, assim...tornei a planejar...Não temam\"); fechar as aspas aqui, antes do fim da fala, quebra a citação ao meio. Removida a aspa de fechamento indevida; a citação passa a fechar corretamente no v.15. — revisão de forma sem alteração de sentido (ER-0022). Ajuste de pontuação de coesão (janela cruza para o v.15); nenhuma palavra do texto foi alterada, apenas o balanceamento das aspas da fala contínua do SENHOR.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -132,11 +139,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
