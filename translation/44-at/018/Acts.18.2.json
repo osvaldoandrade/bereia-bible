@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Acts.18.1-28"
   },
-  "texto_bv": "Ali encontrou um judeu chamado Áquila, natural do Ponto, que havia chegado pouco antes da Itália com sua mulher Priscila, pois Cláudio tinha ordenado que todos os judeus deixassem Roma; e Paulo se aproximou deles.",
+  "texto_bv": "Ali encontrou um judeu chamado Áquila, natural do Ponto, que havia chegado recentemente da Itália com sua mulher Priscila, pois Cláudio tinha ordenado que todos os judeus deixassem Roma; e Paulo se aproximou deles.",
   "traducao_literal": "E tendo encontrado certo judeu de nome Áquila, do Ponto quanto à origem, recém-vindo da Itália, e Priscila sua mulher, por Cláudio ter ordenado que todos os judeus se separassem de Roma, aproximou-se deles,",
   "termos_originais": [
     {
@@ -205,6 +205,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que havia chegado pouco antes da Itália com sua mulher Priscila → que havia chegado recentemente da Itália com sua mulher Priscila",
+      "justificativa": "\"chegado pouco antes da Itália\" cria ambiguidade de leitura momentânea (parece situar \"a Itália\" como referência temporal, não como origem do deslocamento). Troca de \"pouco antes\" por \"recentemente\" preserva o sentido de προσφάτως (recém-chegado) e remove a ambiguidade de encadeamento, sem alterar o conteúdo. — revisão de forma sem alteração de sentido (ER-0024). Particípio εὑρών e a cadeia διὰ τὸ διατεταχέναι corretamente reestruturados em oração relativa e causal com \"pois\"; verbo principal προσῆλθεν retomado ao final com sujeito explícito \"Paulo\" (não pronome) por estar muito distante do último antecedente claro — reforça a coesão em vez de prejudicá-la.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -215,11 +222,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
