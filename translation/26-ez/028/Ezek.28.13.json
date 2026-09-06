@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Ezek.28.1-26"
   },
-  "texto_bv": "Você estava no Éden, o jardim de Deus; toda pedra preciosa era a sua cobertura: cornalina, topázio, diamante, berilo, ônix, jaspe, safira, turquesa, esmeralda e ouro. A obra dos seus tamborins e flautas estava em você; no dia em que você foi criado, foram preparados.",
+  "texto_bv": "Você estava no Éden, o jardim de Deus; toda pedra preciosa era a sua cobertura: cornalina, topázio, diamante, berilo, ônix, jaspe, safira, turquesa, esmeralda e ouro. A obra dos seus tamborins e flautas estava em você; no dia em que você foi criado, eles foram preparados.",
   "traducao_literal": "No Éden, jardim de Deus, você estava; toda pedra preciosa a sua cobertura: cornalina, topázio, e diamante, berilo, ônix, e jaspe, safira, turquesa, e esmeralda, e ouro; obra dos seus tamborins e dos seus orifícios em você; no dia do seu ser-criado, foram preparados.",
   "termos_originais": [
     {
@@ -186,6 +186,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "no dia em que você foi criado, foram preparados. → no dia em que você foi criado, eles foram preparados.",
+      "justificativa": "Zero-anáfora sem antecedente recuperável: o verbo plural 'foram preparados' não concordava com o sujeito mais próximo, 'a obra' (feminino singular), ficando sem sujeito explícito reconhecível. O pronome 'eles' resgata o referente plural correto (os seus tamborins e flautas), confirmado pelo verbo hebraico כּוֹנָנוּ (3ª pessoa plural), que concorda com esses substantivos, não com 'obra'. — revisão de forma sem alteração de sentido (ER-0022). Lista de pedras preciosas convertida em enumeração natural do português (só 'e' antes do último item), evitando o encadeamento irregular de conjunções do hebraico. Corrigida zero-anáfora sem antecedente claro ao final do versículo (ver mudanças); sentido preservado, apenas explicitado o referente plural já presente no hebraico.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -200,7 +207,7 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
