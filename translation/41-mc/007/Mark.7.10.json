@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Mark.7.1-37"
   },
-  "texto_bv": "Pois Moisés disse: 'Honra a teu pai e a tua mãe', e: 'Quem amaldiçoar a seu pai ou a sua mãe, que morra sem falta.'",
+  "texto_bv": "Pois Moisés disse: 'Honra a seu pai e a sua mãe', e: 'Quem amaldiçoar a seu pai ou a sua mãe, que morra sem falta.'",
   "traducao_literal": "Pois Moisés disse: Honra o pai de ti e a mãe de ti; e: O que falar mal do pai ou da mãe, de morte morra.",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "'Honra a teu pai e a tua mãe' → 'Honra a seu pai e a sua mãe'",
+      "justificativa": "Descontinuidade de tratamento (tu/você) dentro da mesma fala: a segunda metade do mesmo verso já usa 'seu/sua' ('amaldiçoar a seu pai ou a sua mãe'), e todo o discurso de Jesus no capítulo usa 'vocês/seus' (v.5, v.6, v.8, v.9, v.11-13). Normalizado para 'seu/sua', alinhando as duas citações mosaicas do mesmo verso sem alterar o sentido do mandamento. — revisão de forma sem alteração de sentido (ER-0024). Correção de forma (concordância de tratamento) dentro do próprio verso; conteúdo do mandamento preservado integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -159,11 +166,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
