@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Guardem, pois, isto por estatuto para vocês e para seus filhos, para sempre.",
+  "texto_bv": "Guardem, pois, isto por estatuto para você e para seus filhos, para sempre.",
   "traducao_literal": "E guardareis a coisa esta por estatuto para ti e para os teus filhos até a eternidade.",
   "termos_originais": [
     {
@@ -85,24 +85,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "para vocês e para seus filhos → para você e para seus filhos",
+      "justificativa": "Objeção procedente. Evidência do original: לְךָ֥ (lema l, HR/Sp2ms) e וּלְבָנֶ֖יךָ (lema c/l/1121 a, HC/R/Ncmpc/Sp2ms) são singulares, contra וּשְׁמַרְתֶּ֖ם (lema c/8104, HC/Vqq2mp), que é plural. A própria traducao_literal da BV já registra a alternância: 'E guardareis [pl.] a coisa esta por estatuto para ti [sing.] e para os teus filhos [sing.] até a eternidade.' A KJV confirma exatamente o mesmo contraste com o par arcaico ye/thee-thy: 'And ye [pl.] shall observe this thing for an ordinance to thee [sing.] and to thy sons [sing.] for ever.' A WEB usa 'you' indiferenciado em ambas as posições e não contradiz a leitura. A objeção procede: o hebraico marca deliberadamente dois números gramaticais diferentes no mesmo verso — o mandamento de guardar é dado à comunidade (plural, já correto em 'Guardem'), mas o estatuto se aplica distributivamente a cada um e a seus próprios filhos (singular). A BV publicada apagou essa segunda marca ao usar 'vocês e seus filhos'. Corrige-se apenas o segundo trecho, preservando 'Guardem' (que já está correto). Não há divergência textual entre KJV e WEB aqui — ambas seguem o mesmo texto, a diferença é apenas que o inglês moderno da WEB perdeu a distinção thee/you que o inglês arcaico da KJV ainda preserva. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O hebraico muda aqui para a 2.ª pessoa do singular (לְךָ וּלְבָנֶיךָ) e a BV mantém o plural “para vocês e para seus filhos”. A norma editorial exige preservar sempre a distinção singular/plural do original, mas corrigir alteraria o número gramatical do destinatário — mudança de sentido, não de forma. Texto mantido. — evidência: Morfologia pinada: לְךָ (HR/Sp2ms) e וּלְבָנֶיךָ (HC/R/Ncmpc/Sp2ms); traducao_literal “para ti e para os teus filhos”; KJV “to thee and to thy sons”; contraste com o plural de vv. 21-23. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'vocês e seus filhos' (plural em ambas as posições), tratando a alternância hebraica como recurso retórico sem exigência de tradução",
+          "motivo": "perde porque a morfologia é inequívoca (Sp2ms nas duas ocorrências, contra Vqq2mp do verbo), a KJV preserva o contraste com thee/thy versus ye, e a própria traducao_literal da BV já registrava a distinção antes de o texto publicado apagá-la."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Manter 'vocês e seus filhos' (plural em ambas as posições), tratando a alternância hebraica como recurso retórico sem exigência de tradução — perde porque a morfologia é inequívoca (Sp2ms nas duas ocorrências, contra Vqq2mp do verbo), a KJV preserva o contraste com thee/thy versus ye, e a própria traducao_literal da BV já registrava a distinção antes de o texto publicado apagá-la."
+  ],
   "justificativa": "A instituição da Páscoa e o êxodo (DRAFT, ADR-0002).",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O hebraico muda aqui para a 2.ª pessoa do singular (לְךָ וּלְבָנֶיךָ) e a BV mantém o plural “para vocês e para seus filhos”. A norma editorial exige preservar sempre a distinção singular/plural do original, mas corrigir alteraria o número gramatical do destinatário — mudança de sentido, não de forma. Texto mantido. — evidência: Morfologia pinada: לְךָ (HR/Sp2ms) e וּלְבָנֶיךָ (HC/R/Ncmpc/Sp2ms); traducao_literal “para ti e para os teus filhos”; KJV “to thee and to thy sons”; contraste com o plural de vv. 21-23."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Exod.27.1-21"
   },
-  "texto_bv": "Farás o altar oco, com tábuas; conforme lhe foi mostrado no monte, assim vocês o farão.",
+  "texto_bv": "Farás o altar oco, com tábuas; conforme lhe foi mostrado no monte, assim o farão.",
   "traducao_literal": "Oco de tábuas farás a ele; conforme mostrou a ti no monte, assim farão.",
   "termos_originais": [
     {
@@ -105,29 +105,38 @@
       "justificativa": "\"Farás\" (tu) destoa do tratamento você da mesma fala (Exod.26.36 \"Fará\"; Exod.27.20 \"Você ordenará\") e do próprio verso, que já usa formas de você (\"lhe foi mostrado\"); a normalização \"Farás\" → \"Fará\", aplicada nos vv. 1-6 e 9, foi retida aqui porque verso com objeção MATERIAL fica idêntico à entrada. Aplicar quando a objeção for resolvida. — evidência: Mistura interna do verso: \"Farás\" (tu) + \"lhe\" (você) + \"vocês\"; janela em você: Exod.26.36-37, Exod.27.20, Exod.28.1-2. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "assim vocês o farão → assim o farão",
+      "justificativa": "Objeção procedente. Evidência do original: יַעֲשֽׂוּ (H6213a, HVqi3mp) — imperfeito qal, 3ª pessoa masculino plural, \"eles farão\"; contraste morfológico direto com תַּעֲשֽׂוּ (HVqi2mp) em Exod.25.9, que é de fato 2ª pessoa plural. O restante do verso confirma a 2ª pessoa singular dirigida a Moisés (הֶרְאָ֥ה אֹתְךָ֛, HVhp3ms + HTo/Sp2ms, \"mostrou a ti\"), preservada em \"lhe foi mostrado\" — só o sujeito de \"יַעֲשֽׂוּ\" muda, de quem recebe a instrução (Moisés, 2ms) para quem a executa (3mp, não identificado neste verso). KJV \"so shall they make it\" e WEB \"They shall make it\" sustentam a mesma leitura de 3ª pessoa, sem divergência entre os controles. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): \"assim vocês o farão\" fixa em 2ª pessoa do plural o que a morfologia pinada dá como 3ª do plural (יַעֲשׂוּ, Vqi3mp: \"assim farão\", eles — os artífices/israelitas); corrigir a pessoa mudaria o sentido, então o texto permanece intacto. — evidência: termos_originais: יַעֲשֽׂוּ HVqi3mp; traducao_literal: \"assim farão\"; KJV: \"so shall they make it\" — o conteúdo dos vizinhos confirma o mesmo versículo. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"assim vocês o farão\" (2ª pessoa plural, texto anterior) — defensável como leitura estilística que unifica o discurso de Deus a Moisés com um público mais amplo (\"vocês\", os israelitas/artífices), e reforçada pelo paralelo formal com Exod.25.9",
+          "motivo": "Perde porque ali a forma verbal hebraica é genuinamente תַּעֲשֽׂוּ (2mp), enquanto aqui é יַעֲשֽׂוּ (3mp) — os dois versos não são morfologicamente paralelos, e a morfologia pinada é autoridade superior à analogia estrutural entre versos."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [
-    "o altar",
-    "eles"
+    "o altar"
   ],
   "ambiguidades_preservadas": [
-    "O referente de יַעֲשׂוּ, “eles farão”, não é nomeado no verso."
+    "O referente de יַעֲשׂוּ, “eles farão”, não é nomeado no verso.",
+    "Leitura descartada na adjudicação ER-0023: \"assim vocês o farão\" (2ª pessoa plural, texto anterior) — defensável como leitura estilística que unifica o discurso de Deus a Moisés com um público mais amplo (\"vocês\", os israelitas/artífices), e reforçada pelo paralelo formal com Exod.25.9. Perde porque ali a forma verbal hebraica é genuinamente תַּעֲשֽׂוּ (2mp), enquanto aqui é יַעֲשֽׂוּ (3mp) — os dois versos não são morfologicamente paralelos, e a morfologia pinada é autoridade superior à analogia estrutural entre versos."
   ],
   "justificativa": "A construção será oca e feita de tábuas segundo o padrão revelado no monte; a literal conserva o predicativo inicial “oco de tábuas” e deixa implícito o sujeito de “mostrou”.",
   "confianca": 0.74,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): \"assim vocês o farão\" fixa em 2ª pessoa do plural o que a morfologia pinada dá como 3ª do plural (יַעֲשׂוּ, Vqi3mp: \"assim farão\", eles — os artífices/israelitas); corrigir a pessoa mudaria o sentido, então o texto permanece intacto. — evidência: termos_originais: יַעֲשֽׂוּ HVqi3mp; traducao_literal: \"assim farão\"; KJV: \"so shall they make it\" — o conteúdo dos vizinhos confirma o mesmo versículo."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

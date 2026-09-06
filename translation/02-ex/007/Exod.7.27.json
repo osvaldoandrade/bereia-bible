@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Exod.7.1-29"
   },
-  "texto_bv": "E se você recusar deixá-lo ir, eis que ferirei com rãs todos os seus territórios.",
+  "texto_bv": "E se você recusar deixá-lo ir, eis que ferirei com rãs todo o seu território.",
   "traducao_literal": "E se recusas tu deixar ir, eis que eu ferindo todo o teu território com as rãs.",
   "termos_originais": [
     {
@@ -95,6 +95,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "todos os seus territórios → todo o seu território",
+      "justificativa": "Objeção procedente. Evidência do original: גְּבוּלְךָ֖ — lemma 1366, morfologia HNcmsc/Sp2ms (substantivo comum masculino singular construto + sufixo pronominal 2ms): 'teu/seu território' no singular, não 'territórios'. כָּל (lemma 3605, HNcmsc) antes dele significa 'todo/a totalidade de', reforçando um único território, não uma pluralidade deles. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): 'Todos os seus territórios' pluraliza o que no hebraico é singular: 'todo o teu território'. — evidência: גְּבוּלְךָ (1366, morfologia HNcmsc/Sp2ms — substantivo comum masculino singular construto); a camada literal traz 'todo o teu território'. Corrigir o número é mexer na tradução, não na forma do português — texto mantido intacto e problema registrado. Nota textual: Controles KJV e WEB não estão disponíveis neste pacote (campo texto: null em ambos), portanto a decisão se apoia exclusivamente na morfologia pinada de termos_originais e na traducao_literal do próprio registro, que já traz 'todo o teu território' no singular — consistente com a correção aplicada. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
@@ -103,16 +110,13 @@
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): 'Todos os seus territórios' pluraliza o que no hebraico é singular: 'todo o teu território'. — evidência: גְּבוּלְךָ (1366, morfologia HNcmsc/Sp2ms — substantivo comum masculino singular construto); a camada literal traz 'todo o teu território'. Corrigir o número é mexer na tradução, não na forma do português — texto mantido intacto e problema registrado."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

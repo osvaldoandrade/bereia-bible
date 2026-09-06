@@ -168,24 +168,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "texto mantido — objeção improcedente",
+      "justificativa": "A objeção descreve corretamente a tensão gramatical, mas sua própria evidência já aponta para IMPROCEDE: o original tem 'seu sonho' no singular (חֲלֹמוֹ) e 'os/them' no plural (אוֹתָם) no mesmo fôlego, porque Faraó teve dois sonhos (grãos e vacas) tratados em 41.25-26 como uma só mensagem ('o sonho de Faraó é um só') mas que exigiam interpretação em separado. A KJV preserva exatamente essa mesma tensão — 'told them his dream... none that could interpret them' — confirmando que não é erro de tradução, é feição do texto-fonte. A WEB diverge ao suavizar para o plural 'his dreams', mas isso é escolha de idiomatização do inglês, não variante de manuscrito: o hebraico pinado (חֲלֹמוֹ) é singular e sustenta a KJV e a BV, não a WEB. Corrigir 'os' para 'o' em português apagaria a marca textual do desencontro numérico que o hebraico exibe de propósito, substituindo fidelidade por suavidade gramatical. A BV está correta como está. Evidência do original: חֲלֹמוֹ (2472, HNcmsc/Sp3ms — singular, 'o seu sonho') e אוֹתָם (853, HTo/Sp3mp — plural, 'os/them') coexistem no mesmo verso do TM: 'contou Faraó a eles o seu sonho... não havia quem os interpretasse'. O desencontro número singular/plural é do próprio hebraico, não um lapso de tradução. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): Coesão pronominal: em ‘contou-lhes o seu sonho, mas não havia quem os interpretasse’, o pronome plural ‘os’ não tem antecedente plural expresso em português (o antecedente é ‘o seu sonho’, singular). A correção gramatical exigiria ‘o interpretasse’, o que mudaria o sentido do original. — evidência: O hebraico pinado tem אוֹתָם (853, HTo/Sp3mp — ‘os’, plural, os dois sonhos) contra חֲלֹמוֹ (2472, singular — ‘o seu sonho’) no mesmo verso; a KJV preserva a mesma tensão: told them his dream... none that could interpret them. O desencontro singular/plural é do original e é significativo (dois sonhos, uma só mensagem, cf. 41.25-26); o texto fica intacto. Nota textual: KJV mantém 'his dream' (singular) e WEB muda para 'his dreams' (plural) no mesmo verso — não é variante de base textual (TR vs. crítica), pois ambas traduzem o mesmo TM hebraico aqui; é suavização de tradução da WEB. O hebraico pinado (חֲלֹמוֹ, singular) desempata a favor da leitura da KJV/BV. Vizinhos conferidos pelo conteúdo (v.7 sonho dos grãos/vacas, v.9 copeiro-mor) confirmam alinhamento correto de versículo, sem deslocamento de versificação. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Corrigir a concordância para 'não havia quem o interpretasse' (singular, concordando com 'o seu sonho')",
+          "motivo": "Perde porque apagaria o אוֹתָם plural do TM, que reflete os dois sonhos de Faraó (grãos e vacas) tratados individualmente na interpretação (41.25-26), mesmo sendo anunciados como 'seu sonho' no singular em 41.8 e retomados como um só sonho em 41.25. A suavização gramatical sacrificaria uma feição semântica genuína do original em nome do conforto sintático do português."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Corrigir a concordância para 'não havia quem o interpretasse' (singular, concordando com 'o seu sonho'). Perde porque apagaria o אוֹתָם plural do TM, que reflete os dois sonhos de Faraó (grãos e vacas) tratados individualmente na interpretação (41.25-26), mesmo sendo anunciados como 'seu sonho' no singular em 41.8 e retomados como um só sonho em 41.25. A suavização gramatical sacrificaria uma feição semântica genuína do original em nome do conforto sintático do português."
+  ],
   "justificativa": "חַרְטֻמִּים 'magos/escribas sagrados' do Egito — falham onde José (por Deus) terá êxito; contraste teológico.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): Coesão pronominal: em ‘contou-lhes o seu sonho, mas não havia quem os interpretasse’, o pronome plural ‘os’ não tem antecedente plural expresso em português (o antecedente é ‘o seu sonho’, singular). A correção gramatical exigiria ‘o interpretasse’, o que mudaria o sentido do original. — evidência: O hebraico pinado tem אוֹתָם (853, HTo/Sp3mp — ‘os’, plural, os dois sonhos) contra חֲלֹמוֹ (2472, singular — ‘o seu sonho’) no mesmo verso; a KJV preserva a mesma tensão: told them his dream... none that could interpret them. O desencontro singular/plural é do original e é significativo (dois sonhos, uma só mensagem, cf. 41.25-26); o texto fica intacto."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

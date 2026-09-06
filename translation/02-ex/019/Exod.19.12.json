@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "E você marcará limites ao povo em redor, dizendo: Guardem-se, não subam ao monte, nem toquem o seu limite; todo aquele que tocar o monte, certamente morrerá.",
+  "texto_bv": "E você marcará limites ao povo em redor, dizendo: Guardem-se, não subam ao monte, nem toquem o seu limite; todo aquele que tocar o monte, certamente será morto.",
   "traducao_literal": "E porás limite ao povo ao redor, dizendo: Guardai-vos de subir ao monte e de tocar na sua extremidade; todo o que tocar no monte, morrer morrerá.",
   "termos_originais": [
     {
@@ -120,24 +120,35 @@
       "justificativa": "Vírgula única entre o sujeito oracional e o predicado (“todo aquele que tocar o monte, certamente morrerá”), proscrita pela norma culta. — evidência: A supressão da vírgula seria correção trivial de pontuação, mas o verso está congelado pela objeção MATERIAL acima; aplicar quando a questão do hofal for resolvida. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "certamente morrerá → certamente será morto",
+      "justificativa": "Objeção procedente. Evidência do original: יוּמָֽת — morfologia HVHi3ms: Verbo, Hofal (stem H maiúsculo = voz passiva causativa), imperfeito, 3ª pessoa masculino singular. Precedido por מ֥וֹת (HVqa, infinitivo absoluto Qal), a construção de ênfase 'infinitivo absoluto + finito' recebe o reforço ('certamente') do infinitivo, mas a voz vem do finito — que é Hofal, portanto passivo: 'certamente será morto', não 'certamente morrerá'. KJV e WEB, sem divergência entre si, traduzem ambas como passiva ('shall be surely put to death'). Objeções fechadas: Objeção MATERIAL (revisão ER-0019): “certamente morrerá” verte o hofal יוּמָת como intransitivo ativo (“morrer”), mas a forma é passiva: “certamente será morto” — fórmula jurídica de execução, não morte espontânea. — evidência: מוֹת יוּמָת — יוּמָת com morfologia HVHi3ms (hofal); a KJV confere a leitura passiva (“shall be surely put to death”), e o v.13 detalha a execução (apedrejado ou flechado). A camada literal (“morrer morrerá”) tampouco marca a passiva; a correção mudaria o sentido e excede a alçada gramatical. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'certamente morrerá' (lendo מוֹת יוּמָת como mera intensificação de um fato de mortalidade, no padrão ativo-intransitivo que a BV já usa em construções paralelas como Êx 21.12,15-17)",
+          "motivo": "perde porque o stem do verbo finito יוּמָת é Hofal, marcador morfológico específico de voz passiva causativa; o infinitivo absoluto Qal מוֹת fornece apenas o reforço ('certamente'), não a voz. A fórmula é de execução judicial ('será morto/posto à morte'), não de morte natural, e é isso que o v.13 detalha (apedrejado ou flechado)."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: 'certamente morrerá' (lendo מוֹת יוּמָת como mera intensificação de um fato de mortalidade, no padrão ativo-intransitivo que a BV já usa em construções paralelas como Êx 21.12,15-17) — perde porque o stem do verbo finito יוּמָת é Hofal, marcador morfológico específico de voz passiva causativa; o infinitivo absoluto Qal מוֹת fornece apenas o reforço ('certamente'), não a voz. A fórmula é de execução judicial ('será morto/posto à morte'), não de morte natural, e é isso que o v.13 detalha (apedrejado ou flechado)."
+  ],
   "justificativa": "A santidade do monte impõe limite (הִגְבַּלְתָּ): a proximidade de Deus é mortal ao pecador sem mediação (cf. Hb 12:18-21). YHWH implícito.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): “certamente morrerá” verte o hofal יוּמָת como intransitivo ativo (“morrer”), mas a forma é passiva: “certamente será morto” — fórmula jurídica de execução, não morte espontânea. — evidência: מוֹת יוּמָת — יוּמָת com morfologia HVHi3ms (hofal); a KJV confere a leitura passiva (“shall be surely put to death”), e o v.13 detalha a execução (apedrejado ou flechado). A camada literal (“morrer morrerá”) tampouco marca a passiva; a correção mudaria o sentido e excede a alçada gramatical."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

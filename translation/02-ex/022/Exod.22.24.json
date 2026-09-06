@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Exod.22.1-30"
   },
-  "texto_bv": "Se você emprestar dinheiro ao meu povo, ao pobre que está com você, não aja com ele como usurário; não lhe imponha juros.",
+  "texto_bv": "Se você emprestar dinheiro ao meu povo, ao pobre que está com você, não aja com ele como usurário; não lhe imponham juros.",
   "traducao_literal": "Se prata emprestares ao meu povo, ao pobre contigo, não serás para ele como credor; não poreis sobre ele juros.",
   "termos_originais": [
     {
@@ -119,24 +119,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Se você emprestar dinheiro ao meu povo, ao pobre que está com você, não aja com ele como usurário; não lhe imponha juros. → Se você emprestar dinheiro ao meu povo, ao pobre que está com você, não aja com ele como usurário; não lhe imponham juros.",
+      "justificativa": "Objeção procedente. Evidência do original: תַּלְוֶה (H3867 b, HVhi2ms) e תִהְיֶה (H1961, HVqi2ms) são 2ª pessoa masculino singular; תְשִׂימוּן (H7760 a, HVqi2mp/Sn — imperfeito 2mp com nun paragógico) é inequivocamente plural. As três formas estão no mesmo verso, então a mudança de número é do próprio TM, não de leitura alternativa. KJV ('thou... thou... shalt not... lay') e WEB ('you... you shall not... shall you charge') uniformizam a pessoa ao longo de todo o verso — as duas concordam entre si em suavizar, o que é escolha estilística do inglês, não divergência textual, e não têm prioridade sobre a morfologia pinada. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): A última ordem do verso está no plural no hebraico — «não poreis sobre ele juros» (2mp) —, mas a BV a mantém no singular («não lhe imponha»), nivelando a passagem de «tu» a «vós» interna ao próprio verso; corrigir a concordância com a morfologia pinada exigiria alterar o número do destinatário, decisão de tradução e não de forma. — evidência: תְשִׂימוּן (HVqi2mp/Sn) contra תַּלְוֶה (HVhi2ms) no mesmo verso: o hebraico muda de número e a BV apaga essa mudança. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter o singular ('imponha') do início ao fim do verso, como fazem KJV e WEB e como a BV trazia — defensável pela coesão interna do verso (mesmo interlocutor do começo ao fim) e pelo precedente dos dois controles ingleses",
+          "motivo": "Perde porque תְשִׂימוּן traz nun paragógico e desinência 2mp inconfundível: o TM efetivamente muda de 'tu' para 'vós' nesta cláusula (crux reconhecido de Êx 22:24), e EDITORIAL §3 exige refletir a mudança, não alisá-la."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Manter o singular ('imponha') do início ao fim do verso, como fazem KJV e WEB e como a BV trazia — defensável pela coesão interna do verso (mesmo interlocutor do começo ao fim) e pelo precedente dos dois controles ingleses. Perde porque תְשִׂימוּן traz nun paragógico e desinência 2mp inconfundível: o TM efetivamente muda de 'tu' para 'vós' nesta cláusula (crux reconhecido de Êx 22:24), e EDITORIAL §3 exige refletir a mudança, não alisá-la."
+  ],
   "justificativa": "נֶשֶׁךְ 'juros/usura' (lit. 'mordida') — proibido cobrar juros do pobre irmão; o crédito é misericórdia, não exploração (cf. Lv 25:36-37; Dt 23:19-20). YHWH implícito.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): A última ordem do verso está no plural no hebraico — «não poreis sobre ele juros» (2mp) —, mas a BV a mantém no singular («não lhe imponha»), nivelando a passagem de «tu» a «vós» interna ao próprio verso; corrigir a concordância com a morfologia pinada exigiria alterar o número do destinatário, decisão de tradução e não de forma. — evidência: תְשִׂימוּן (HVqi2mp/Sn) contra תַּלְוֶה (HVhi2ms) no mesmo verso: o hebraico muda de número e a BV apaga essa mudança."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

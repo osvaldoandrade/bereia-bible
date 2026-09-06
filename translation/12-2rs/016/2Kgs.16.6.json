@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "2Kgs.16.1-20"
   },
-  "texto_bv": "Naquele tempo, Rezim, rei da Síria, restituiu Elate à Síria e expulsou os judeus de Elate. Os edomitas entraram em Elate e vivem ali até o dia de hoje.",
+  "texto_bv": "Naquele tempo, Rezim, rei da Síria, restituiu Elate à Síria e expulsou os judeus de Elate. Os sírios entraram em Elate e vivem ali até o dia de hoje.",
   "traducao_literal": "Naquele tempo, Rezim, rei da Síria, fez Elate voltar à Síria e desalojou os judeus de Elate; e os arameus entraram em Elate e habitaram ali até este dia.",
   "termos_originais": [
     {
@@ -173,24 +173,34 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Os edomitas entraram em Elate → Os sírios entraram em Elate",
+      "justificativa": "Objeção procedente. Evidência do original: וארמים (lemma c/726, morfologia HC/Ngmpa) — Ketiv consonantal 'e os arameus', o único termo pinado no verso sem pontuação (todos os demais termos_originais trazem niqqud completo); a vocalização do Qere וַאֲדוֹמִים ('e os edomitas') não está pinada em termos_originais. A hierarquia de autoridade desta etapa (termos_originais > traducao_literal > KJV > WEB) converge integralmente em 'arameus/sírios': traducao_literal 'e os arameus entraram em Elate'; KJV 'and the Syrians came to Elath, and dwelt there'; WEB 'and the Syrians came to Elath, and lived there' — sem divergência entre os dois controles. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): texto_bv identifica o povo que ocupou Elate como 'edomitas', mas o hebraico pinado e a traducao_literal apontam 'arameus/sírios' — divergência de conteúdo, não de forma, que a revisão gramatical não pode corrigir sem alterar o sentido. — evidência: termos_originais: palavra 'וארמים' (lemma c/726, morfologia HC/Ngmpa) aparece sem pontuação, ao contrário de todos os demais termos pinados do verso, compatível com a forma consonantal (Ketiv) 'arameus'; traducao_literal: 'e os arameus entraram em Elate e habitaram ali'; controles.kjv: 'and the Syrians came to Elath, and dwelt there' — as três fontes de maior autoridade convergem em 'arameus/sírios', não 'edomitas'. Nota textual: Crux Ketiv/Qere interno ao TM (não é variante TR-vs-crítica): Ketiv ארמים ('arameus') vs. Qere אֲדוֹמִים ('edomitas'), grafias que diferem por uma única consoante (ר/ד). termos_originais pina o Ketiv (sem pontuação); o Qere é a tradição sinagogal de leitura em voz alta, não a forma extraída no packet. KJV e WEB não divergem entre si — ambos seguem a leitura 'Syrians', alinhada ao Ketiv. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Qere וַאֲדוֹמִים, 'e os edomitas' — a leitura tradicional de sinagoga, seguida por NVIPT e NTLH e com plausibilidade geográfica (Elate fica no golfo de Ácaba, em território historicamente edomita, não arameu), foi a escolha original da BV (decisão registrada em 2Kgs.16.6.json, ER-0021, 2026-08-31). Perde nesta adjudicação",
+          "motivo": "porque não é o que está pinado em termos_originais (que registra o Ketiv consonantal ארמים, lemma 726, sem pontuação), diverge da traducao_literal da própria BV ('arameus') e diverge de ambos os controles ingleses desta etapa (KJV e WEB, que traduzem 'Syrians'), sem que estes dois divirjam entre si. Pela hierarquia desta etapa, morfologia pinada + controles convergentes prevalecem sobre a tradição de leitura Qere."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
     "O ketiv atribui a ocupação a arameus, enquanto o qere a atribui a edomitas; a diferença muda o povo que se estabelece em Elate.",
-    "A BV preserva a tensão entre Elate restituída à Síria e os edomitas do qere que passam a ocupá-la."
+    "A BV preserva a tensão entre Elate restituída à Síria e os edomitas do qere que passam a ocupá-la.",
+    "Leitura descartada na adjudicação ER-0023: Qere וַאֲדוֹמִים, 'e os edomitas' — a leitura tradicional de sinagoga, seguida por NVIPT e NTLH e com plausibilidade geográfica (Elate fica no golfo de Ácaba, em território historicamente edomita, não arameu), foi a escolha original da BV (decisão registrada em 2Kgs.16.6.json, ER-0021, 2026-08-31). Perde nesta adjudicação porque não é o que está pinado em termos_originais (que registra o Ketiv consonantal ארמים, lemma 726, sem pontuação), diverge da traducao_literal da própria BV ('arameus') e diverge de ambos os controles ingleses desta etapa (KJV e WEB, que traduzem 'Syrians'), sem que estes dois divirjam entre si. Pela hierarquia desta etapa, morfologia pinada + controles convergentes prevalecem sobre a tradição de leitura Qere."
   ],
   "justificativa": "Rezim, Síria, Elate repetida, os judeus expulsos, os novos habitantes e sua permanência até hoje foram preservados; BV e literal expõem qere e ketiv.",
   "confianca": 0.56,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): texto_bv identifica o povo que ocupou Elate como 'edomitas', mas o hebraico pinado e a traducao_literal apontam 'arameus/sírios' — divergência de conteúdo, não de forma, que a revisão gramatical não pode corrigir sem alterar o sentido. — evidência: termos_originais: palavra 'וארמים' (lemma c/726, morfologia HC/Ngmpa) aparece sem pontuação, ao contrário de todos os demais termos pinados do verso, compatível com a forma consonantal (Ketiv) 'arameus'; traducao_literal: 'e os arameus entraram em Elate e habitaram ali'; controles.kjv: 'and the Syrians came to Elath, and dwelt there' — as três fontes de maior autoridade convergem em 'arameus/sírios', não 'edomitas'."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

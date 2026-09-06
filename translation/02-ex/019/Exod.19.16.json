@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "No terceiro dia, ao amanhecer, houve trovões e relâmpagos sobre o monte, e uma espessa nuvem, e um sonido de trombeta muito forte, de maneira que estremeceu todo o povo que estava no arraial.",
+  "texto_bv": "No terceiro dia, ao amanhecer, houve trovões e relâmpagos, e uma espessa nuvem sobre o monte, e um sonido de trombeta muito forte, de maneira que estremeceu todo o povo que estava no arraial.",
   "traducao_literal": "E aconteceu no dia terceiro, ao ser a manhã, e houve trovões e relâmpagos, e nuvem pesada sobre o monte, e voz de chifre forte muito; e estremeceu todo o povo que no acampamento.",
   "termos_originais": [
     {
@@ -145,24 +145,35 @@
       "justificativa": "“sonido” é registro datado; o contemporâneo seria “som (de trombeta)”. — evidência: A norma pede português contemporâneo; a troca teria de alcançar também “o sonido da trombeta” no v.19 para manter a consistência intra-capítulo, além de o verso estar congelado pela objeção MATERIAL — melhoria em cadeia, não aplicada. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "trovões e relâmpagos sobre o monte, e uma espessa nuvem, → trovões e relâmpagos, e uma espessa nuvem sobre o monte,",
+      "justificativa": "Objeção procedente. Evidência do original: וְעָנָ֤ן כָּבֵד֙ עַל הָהָ֔ר — עָנָן (H6051, 'nuvem') + כָּבֵד (H3515, 'pesada/densa', HAamsa) + עַל (H5921, 'sobre') + הָר (H2022, 'monte'). A sequência hebraica é קֹלֹת וּבְרָקִים / וְעָנָן כָּבֵד עַל־הָהָר / וְקֹל שֹׁפָר: 'trovões e relâmpagos' / 'e nuvem pesada sobre o monte' / 'e som de trombeta'. KJV: '...thunders and lightnings, and a thick cloud upon the mount, and the voice of the trumpet...'; WEB: '...thunders and lightnings, and a thick cloud on the mountain, and the sound of an exceedingly loud trumpet...' — ambas prendem o adjunto de lugar à nuvem, confirmando a ordem do original. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O adjunto “sobre o monte” ficou preso a “trovões e relâmpagos”, mas no hebraico עַל־הָהָר segue “nuvem pesada”: é a nuvem espessa que está sobre o monte; na frase atual a nuvem fica sem localização e a atribuição do adjunto muda. — evidência: וְעָנָן כָּבֵד עַל־הָהָר — a camada literal dá “nuvem pesada sobre o monte”, e a KJV confere: “a thick cloud upon the mount”. Reposicionar o adjunto altera o que se afirma estar sobre o monte, o que excede a revisão de forma. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'trovões e relâmpagos sobre o monte, e uma espessa nuvem' (lendo 'sobre o monte' como modificador do conjunto do fenômeno meteorológico — trovão, relâmpago e nuvem juntos localizados sobre o monte, uma leitura estilística de agrupamento)",
+          "motivo": "perde porque a sintaxe hebraica prende a preposição עַל־הָהָר especificamente a עָנָן כָּבֵד, e KJV e WEB, sem divergência entre si, replicam esse vínculo específico à nuvem, não ao conjunto trovão+relâmpago."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: 'trovões e relâmpagos sobre o monte, e uma espessa nuvem' (lendo 'sobre o monte' como modificador do conjunto do fenômeno meteorológico — trovão, relâmpago e nuvem juntos localizados sobre o monte, uma leitura estilística de agrupamento) — perde porque a sintaxe hebraica prende a preposição עַל־הָהָר especificamente a עָנָן כָּבֵד, e KJV e WEB, sem divergência entre si, replicam esse vínculo específico à nuvem, não ao conjunto trovão+relâmpago."
+  ],
   "justificativa": "קֹלֹת וּבְרָקִים 'trovões e relâmpagos', קֹל שֹׁפָר 'som de shofar' — a teofania como tempestade e trombeta (cf. Hb 12:18-19; Ap 4:5). O temor sagrado. YHWH implícito.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O adjunto “sobre o monte” ficou preso a “trovões e relâmpagos”, mas no hebraico עַל־הָהָר segue “nuvem pesada”: é a nuvem espessa que está sobre o monte; na frase atual a nuvem fica sem localização e a atribuição do adjunto muda. — evidência: וְעָנָן כָּבֵד עַל־הָהָר — a camada literal dá “nuvem pesada sobre o monte”, e a KJV confere: “a thick cloud upon the mount”. Reposicionar o adjunto altera o que se afirma estar sobre o monte, o que excede a revisão de forma."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

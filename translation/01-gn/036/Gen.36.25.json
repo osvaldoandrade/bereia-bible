@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Gen.36.1-43"
   },
-  "texto_bv": "E estes são os filhos de Aná: Disã; e Oolibama era filha de Aná.",
+  "texto_bv": "E estes são os filhos de Aná: Disom; e Oolibama era filha de Aná.",
   "traducao_literal": "E estes os filhos de Aná: Disã; e Oolibama, filha de Aná.",
   "termos_originais": [
     {
@@ -61,6 +61,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Disã → Disom",
+      "justificativa": "Objeção procedente. Evidência do original: דִּשֹׁ֑ן, lemma 1787 (HNp, nome próprio) — forma pinada do TM neste versículo é Dishon/Disom, não Dishan/Disã (lemma 1789, דִּישָׁן). KJV ('Dishon, and Aholibamah') e WEB ('Dishon and Oholibamah') concordam entre si e com a morfologia — nenhuma divergência textual entre os controles. traducao_literal da própria BV já registra 'Disã' herdando o mesmo erro, mas a camada literal não é reescrita por esta adjudicação. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O publicado grafa 'Disã', mas o hebraico pinado traz דִּשֹׁן (lemma 1787), que o próprio capítulo verte 'Disom' (36.21, 36.30); 'Disã' é a glosa de דִּישָׁן (lemma 1789: 36.21, 26, 28, 30). Como está, o verso nomeia o irmão errado — o filho de Aná é o homônimo do tio Disom, não Disã. Corrigir o nome próprio muda o referente, ou seja, o conteúdo — fora do alcance da revisão de forma. — evidência: termos_originais de 36.25: דִּשֹׁ֑ן, lemma 1787; convenção intra-capítulo: 1787 → 'Disom' (36.21, 36.30) e 1789 → 'Disã' (36.26, 36.28, 36.30); KJV 36.25 'Dishon' confirma o referente. EDITORIAL §1.4 (consistência intra-capítulo) aponta o defeito, mas a correção é de sentido, não de forma. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
@@ -69,16 +76,13 @@
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O publicado grafa 'Disã', mas o hebraico pinado traz דִּשֹׁן (lemma 1787), que o próprio capítulo verte 'Disom' (36.21, 36.30); 'Disã' é a glosa de דִּישָׁן (lemma 1789: 36.21, 26, 28, 30). Como está, o verso nomeia o irmão errado — o filho de Aná é o homônimo do tio Disom, não Disã. Corrigir o nome próprio muda o referente, ou seja, o conteúdo — fora do alcance da revisão de forma. — evidência: termos_originais de 36.25: דִּשֹׁ֑ן, lemma 1787; convenção intra-capítulo: 1787 → 'Disom' (36.21, 36.30) e 1789 → 'Disã' (36.26, 36.28, 36.30); KJV 36.25 'Dishon' confirma o referente. EDITORIAL §1.4 (consistência intra-capítulo) aponta o defeito, mas a correção é de sentido, não de forma."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

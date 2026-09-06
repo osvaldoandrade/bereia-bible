@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Num.31.1-54"
   },
-  "texto_bv": "O sacerdote Eleazar disse aos combatentes que haviam voltado da guerra: “Este é o estatuto da instrução que o SENHOR ordenou a Moisés:",
+  "texto_bv": "O sacerdote Eleazar disse aos combatentes que foram à guerra: “Este é o estatuto da instrução que o SENHOR ordenou a Moisés:",
   "traducao_literal": "E disse Eleazar, o sacerdote, aos homens do exército que vieram para a guerra: Esta, estatuto da instrução que ordenou YHWH a Moisés.",
   "termos_originais": [
     {
@@ -139,26 +139,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "que haviam voltado da guerra → que foram à guerra",
+      "justificativa": "Objeção procedente. Evidência do original: הַבָּאִ֖ים לַמִּלְחָמָ֑ה — particípio Qal ativo de בוא (H935, 'vir/ir', HTd/Vqrmpa) + לְ direcional + מִלְחָמָה (H4421, 'guerra'/'batalha'): 'os que foram/vieram à guerra'. Nenhum morfema de origem/retorno (מִן, שׁוב) está presente. Compare אַנְשֵׁי הַצָּבָא הַבָּאִים לַמִּלְחָמָה no mesmo verso: 'os homens do exército que foram à guerra' — identifica o grupo por terem ido combater, não por terem voltado. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): texto_bv descreve os combatentes como 'que haviam voltado da guerra' (movimento de retorno), enquanto o hebraico e a KJV marcam direção oposta. — evidência: הַבָּאִ֣ים לַמִּלְחָמָ֑ה (particípio Qal בוא + prep. לְ, HTd/Vqrmpa) descreve os homens como 'os que foram/iam à guerra', e a KJV confirma: 'the men of war which went to the battle'. Trocar 'voltado da guerra' por 'foram à guerra' mudaria o sentido do verso, então mantenho o texto tal como está e registro a divergência. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'que haviam voltado da guerra' (direção de retorno) — leitura defensável pelo contexto narrativo imediato, já que em Num 31:13-14 o exército de fato já havia retornado ao acampamento antes de Eleazar falar",
+          "motivo": "Perde porque o particípio בוא + לְ não carrega sentido de procedência/retorno (isso exigiria מִן ou שׁוב), porque KJV e WEB concordam em 'went to the battle' sem divergência textual entre si, e porque a própria traducao_literal do registro já preservava 'que vieram para a guerra' — a leitura de retorno era um deslize do texto publicado, não uma alternativa de tradução com apoio morfológico."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [
-    "combatentes",
-    "haviam voltado"
+    "combatentes"
   ],
   "ambiguidades_preservadas": [
-    "הַבָּאִים לַמִּלְחָמָה literalmente pode ser “os que vieram à guerra”; o contexto mostra seu retorno."
+    "הַבָּאִים לַמִּלְחָמָה literalmente pode ser “os que vieram à guerra”; o contexto mostra seu retorno.",
+    "Leitura descartada na adjudicação ER-0023: 'que haviam voltado da guerra' (direção de retorno) — leitura defensável pelo contexto narrativo imediato, já que em Num 31:13-14 o exército de fato já havia retornado ao acampamento antes de Eleazar falar. Perde porque o particípio בוא + לְ não carrega sentido de procedência/retorno (isso exigiria מִן ou שׁוב), porque KJV e WEB concordam em 'went to the battle' sem divergência textual entre si, e porque a própria traducao_literal do registro já preservava 'que vieram para a guerra' — a leitura de retorno era um deslize do texto publicado, não uma alternativa de tradução com apoio morfológico."
   ],
   "justificativa": "Falante, destinatários e cadeia de autoridade são preservados.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): texto_bv descreve os combatentes como 'que haviam voltado da guerra' (movimento de retorno), enquanto o hebraico e a KJV marcam direção oposta. — evidência: הַבָּאִ֣ים לַמִּלְחָמָ֑ה (particípio Qal בוא + prep. לְ, HTd/Vqrmpa) descreve os homens como 'os que foram/iam à guerra', e a KJV confirma: 'the men of war which went to the battle'. Trocar 'voltado da guerra' por 'foram à guerra' mudaria o sentido do verso, então mantenho o texto tal como está e registro a divergência."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

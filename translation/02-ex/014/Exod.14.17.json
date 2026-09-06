@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Exod.14.1-31"
   },
-  "texto_bv": "E endurecerei o coração dos egípcios, para que entrem atrás deles; e serei glorificado em Faraó e em todo o seu exército, nos seus carros e nos seus cavaleiros.",
+  "texto_bv": "E eis que eu endurecerei o coração dos egípcios, para que entrem atrás deles; e serei glorificado em Faraó e em todo o seu exército, nos seus carros e nos seus cavaleiros.",
   "traducao_literal": "E eu, eis-me endurecendo o coração do Egito, e virão atrás deles; e serei glorificado em Faraó e em todo o seu exército, no seu carro e nos seus cavaleiros.",
   "termos_originais": [
     {
@@ -110,24 +110,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "E endurecerei o coração dos egípcios, → E eis que eu endurecerei o coração dos egípcios,",
+      "justificativa": "Objeção procedente. Evidência do original: וַאֲנִי (lemma c/589, HC/Pp1cs, \"e eu\") + הִנְנִי (lemma 2005, HTm/Sp1cs, \"eis-me/eis que eu\") precedem o particípio מְחַזֵּק (lemma 2388, HVprmsa, \"endurecendo\"). É construção de ênfase dupla — pronome independente redundante ao sujeito já embutido no particípio, reforçado pela partícula presentativa הִנֵּה — o mesmo padrão morfológico de Gen.6.17 (וַאֲנִי הִנְנִי מֵבִיא) e Gen.9.9 (וַאֲנִי הִנְנִי מֵקִים), ambos já vertidos na BV como \"E eis que eu [verbo]\". KJV: \"And I, behold, I will harden\"; WEB: \"Behold, I myself will harden\" — os dois controles, sem divergir entre si, marcam a ênfase pronominal que o texto_bv omitia por completo. A objeção está correta e a hierarquia de autoridade a sustenta: a revisão editorial ER-0019 removeu \"eis que\" invocando a doutrina do calque (ER-0013, normalização de calque estrutural), mas aplicou-a a um caso de ênfase semântica, não de redundância sintática — erro de escopo daquela etapa (que não podia alterar sentido). A remoção total inverteu o padrão de ênfase entre o v.4 (hebraico sem pronome explícito, mas a BV traz \"E eu endurecerei\") e o v.17 (hebraico com pronome duplo, mas a BV trazia \"E endurecerei\" sem nenhum marcador de 1ª pessoa além do sufixo verbal). Restaurar \"eis que eu\" alinha o verso ao padrão lexical já fixado no corpus (Gn 6:17, Gn 9:9) para a mesma construção, e aos dois controles, que concordam entre si sem qualquer variante textual em jogo. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): A ênfase pronominal do hebraico foi omitida: וַאֲנִי הִנְנִי מְחַזֵּק (“e eu, eis que eu endureço”) marca contraste enfático com o “e você” do v. 16, mas a BV traz apenas “E endurecerei”. Restaurar a ênfase (“E eu, eis que endurecerei”) exigiria acrescentar conteúdo, o que ultrapassa a revisão de forma. — evidência: termos_originais: וַאֲנִי (HC/Pp1cs) + הִנְנִי (HTm/Sp1cs); traducao_literal: “E eu, eis-me endurecendo”; KJV: “And I, behold, I will harden”. O v. 4 traz “E eu endurecerei” justamente onde o hebraico NÃO tem o pronome — a ênfase ficou invertida entre os dois versos. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "A forma sugerida pela própria objeção, \"E eu, eis que endurecerei\" (dobrando o pronome antes e depois de \"eis que\", espelhando literalmente וַאֲנִי e הִנְנִי em separado), foi preterida em favor de \"E eis que eu endurecerei\" — o idioma já consolidado no corpus da BV (Gen.6.17, Gen.9.9) para essa mesma construção hebraica, que verte a ênfase dupla com um só pronome pós-\"eis que\", evitando a repetição pouco natural de \"eu\" em português sem perder a marca enfática atestada pelos dois controles.",
+          "motivo": "Leitura descartada — motivo não isolável automaticamente do texto acima; ver o parágrafo completo em ambiguidades_preservadas."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: A forma sugerida pela própria objeção, \"E eu, eis que endurecerei\" (dobrando o pronome antes e depois de \"eis que\", espelhando literalmente וַאֲנִי e הִנְנִי em separado), foi preterida em favor de \"E eis que eu endurecerei\" — o idioma já consolidado no corpus da BV (Gen.6.17, Gen.9.9) para essa mesma construção hebraica, que verte a ênfase dupla com um só pronome pós-\"eis que\", evitando a repetição pouco natural de \"eu\" em português sem perder a marca enfática atestada pelos dois controles."
+  ],
   "justificativa": "A travessia do mar (DRAFT, ADR-0002).",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): A ênfase pronominal do hebraico foi omitida: וַאֲנִי הִנְנִי מְחַזֵּק (“e eu, eis que eu endureço”) marca contraste enfático com o “e você” do v. 16, mas a BV traz apenas “E endurecerei”. Restaurar a ênfase (“E eu, eis que endurecerei”) exigiria acrescentar conteúdo, o que ultrapassa a revisão de forma. — evidência: termos_originais: וַאֲנִי (HC/Pp1cs) + הִנְנִי (HTm/Sp1cs); traducao_literal: “E eu, eis-me endurecendo”; KJV: “And I, behold, I will harden”. O v. 4 traz “E eu endurecerei” justamente onde o hebraico NÃO tem o pronome — a ênfase ficou invertida entre os dois versos."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

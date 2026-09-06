@@ -232,7 +232,9 @@ class PersistAdjudicationTests(unittest.TestCase):
             osis, "PROCEDE", "das gorduras",
             mudancas=[{"antes": "nas", "depois": "das", "motivo": "partitivo"}],
             evidencia="min- partitivo em H4924")
-        v["leitura_rejeitada"] = "leitura privativa 'longe das gorduras'"
+        v["leitura_rejeitada"] = ("leitura privativa 'longe das gorduras' "
+                                  "perde porque min- é partitivo, não "
+                                  "privativo, neste contexto")
         out = {"book_dir": "99-tt", "chapter": 1, "versos": [v]}
         self.assertEqual([], adj.validate_chapter(
             out, packet(osis, "nas gorduras"), recs, final=True))
@@ -241,8 +243,36 @@ class PersistAdjudicationTests(unittest.TestCase):
             saved = json.load(f)
         self.assertTrue(any("privativa" in a for a in
                             saved["ambiguidades_preservadas"]))
-        self.assertEqual(["leitura privativa 'longe das gorduras'"],
-                         saved["decisoes"][-1]["alternativas_rejeitadas"])
+        # F-0023: alternativas_rejeitadas is {opcao, motivo} per schema, not
+        # a bare string (the ER-0020-era bug) — split on the "perde porque"
+        # marker the adjudicador-objecoes.md prompt convention produces.
+        rejeitadas = saved["decisoes"][-1]["alternativas_rejeitadas"]
+        self.assertEqual(1, len(rejeitadas))
+        self.assertEqual("leitura privativa 'longe das gorduras'",
+                         rejeitadas[0]["opcao"])
+        self.assertTrue(rejeitadas[0]["motivo"].lower()
+                        .startswith("perde porque"))
+
+    def test_rejected_reading_without_marker_falls_back_intact(self):
+        osis = "Tst.1.1"
+        recs = self.records(osis, make_record(osis, "nas gorduras"))
+        v = out_verse(
+            osis, "PROCEDE", "das gorduras",
+            mudancas=[{"antes": "nas", "depois": "das", "motivo": "partitivo"}],
+            evidencia="min- partitivo em H4924")
+        v["leitura_rejeitada"] = "leitura privativa 'longe das gorduras'"
+        out = {"book_dir": "99-tt", "chapter": 1, "versos": [v]}
+        adj.apply_chapter(out, recs, "claude-fable-5")
+        with open(recs[osis][0], encoding="utf-8") as f:
+            saved = json.load(f)
+        rejeitadas = saved["decisoes"][-1]["alternativas_rejeitadas"]
+        self.assertEqual(1, len(rejeitadas))
+        # No marker found: opcao keeps the full text verbatim (no content
+        # loss), motivo is an explicit, honest placeholder — never fabricated
+        # reasoning.
+        self.assertEqual("leitura privativa 'longe das gorduras'",
+                         rejeitadas[0]["opcao"])
+        self.assertIn("não isolável automaticamente", rejeitadas[0]["motivo"])
 
     # ---- status / precondition guards ---------------------------------
     def test_non_draft_is_refused(self):

@@ -7,7 +7,7 @@
     "versiculo": 46,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "Numa casa se comerá; não levarão daquela carne fora da casa, nem quebrarão osso dela.",
+  "texto_bv": "Numa casa se comerá; você não levará daquela carne fora da casa, nem vocês quebrarão osso dela.",
   "traducao_literal": "Numa casa se comerá; não farás sair da casa da carne para fora, e osso não quebrareis nela.",
   "termos_originais": [
     {
@@ -116,24 +116,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "não levarão daquela carne fora da casa, nem quebrarão osso dela. → você não levará daquela carne fora da casa, nem vocês quebrarão osso dela.",
+      "justificativa": "Objeção procedente. Evidência do original: תוֹצִ֧יא (lema 3318, HVhi2ms) é 2ª pessoa masculina SINGULAR ('não tirarás/levarás'), enquanto תִשְׁבְּרוּ (lema 7665, HVqi2mp) é 2ª pessoa masculina PLURAL ('não quebrareis'). A traducao_literal da BV já registra a alternância: 'não farás [sing.] sair da casa da carne para fora, e osso não quebrareis [pl.] nela.' A KJV confirma com o par arcaico thou/ye: 'thou [sing.] shalt not carry forth ought of the flesh abroad out of the house; neither shall ye [pl.] break a bone thereof.' A WEB usa 'you' indiferenciado nas duas posições e não contradiz. A objeção procede pelo mesmo fundamento do v.24: o hebraico marca deliberadamente uma mudança de número gramatical dentro do verso, e tanto a traducao_literal da BV quanto a KJV preservam essa alternância. O texto publicado nivelava os dois verbos em plural ('levarão... quebrarão'), apagando a distinção. A correção reintroduz o singular no primeiro verbo (proibição de retirar a carne, aplicada individualmente a cada participante da refeição pascal) mantendo o plural no segundo (proibição de quebrar osso, aplicada coletivamente), com sujeitos explícitos ('você'/'vocês') para que a alternância fique inequívoca em português. Não há divergência textual entre KJV e WEB neste verso. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O hebraico alterna as pessoas: תוֹצִיא é 2.ª masculina singular (“não tirarás”) e תִשְׁבְּרוּ é 2.ª plural; a BV nivelou tudo no plural (“não levarão... nem quebrarão”), contra a norma de preservar a alternância singular/plural do original. Corrigir mudaria a pessoa gramatical do mandamento — sentido, não forma. Texto mantido. — evidência: Morfologia pinada: תוֹצִיא (HVhi2ms) vs תִשְׁבְּרוּ (HVqi2mp); traducao_literal “não farás sair... e osso não quebrareis”; KJV “thou shalt not carry forth... neither shall ye break”. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter ambos os verbos no plural ('vocês'), tratando a alternância como estilo retórico hebraico sem correspondente natural em português",
+          "motivo": "perde porque a morfologia é inequívoca (2ms × 2mp), a KJV preserva o contraste com thou/ye, a própria traducao_literal da BV já registrava a alternância, e o mesmo padrão já foi corrigido no v.24 deste capítulo, o que pede tratamento consistente dentro do capítulo."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Manter ambos os verbos no plural ('vocês'), tratando a alternância como estilo retórico hebraico sem correspondente natural em português — perde porque a morfologia é inequívoca (2ms × 2mp), a KJV preserva o contraste com thou/ye, a própria traducao_literal da BV já registrava a alternância, e o mesmo padrão já foi corrigido no v.24 deste capítulo, o que pede tratamento consistente dentro do capítulo."
+  ],
   "justificativa": "וְעֶצֶם לֹא תִשְׁבְּרוּ־בוֹ 'osso não quebrareis nele' — o cordeiro pascal íntegro; João aplica a Cristo na cruz (Jo 19:36, 'osso nenhum lhe será quebrado'; cf. Sl 34:20) — registrado como cumprimento canônico, não embutido.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O hebraico alterna as pessoas: תוֹצִיא é 2.ª masculina singular (“não tirarás”) e תִשְׁבְּרוּ é 2.ª plural; a BV nivelou tudo no plural (“não levarão... nem quebrarão”), contra a norma de preservar a alternância singular/plural do original. Corrigir mudaria a pessoa gramatical do mandamento — sentido, não forma. Texto mantido. — evidência: Morfologia pinada: תוֹצִיא (HVhi2ms) vs תִשְׁבְּרוּ (HVqi2mp); traducao_literal “não farás sair... e osso não quebrareis”; KJV “thou shalt not carry forth... neither shall ye break”."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

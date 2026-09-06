@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "2Sam.24.1-25"
   },
-  "texto_bv": "“Vá e diga a Davi: ‘Assim diz o SENHOR: Estou colocando três opções diante de você. Escolha uma delas, e eu a executarei contra você.’”",
+  "texto_bv": "“Vá e diga a Davi: ‘Assim diz o SENHOR: Estou colocando três opções diante de você. Escolha uma delas, e eu a executarei para você.’”",
   "traducao_literal": "“Vá e fale a Davi: ‘Assim disse o SENHOR: Três eu estou levantando sobre você; escolha para você uma delas, e farei para você.’”",
   "termos_originais": [
     {
@@ -133,28 +133,37 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "e eu a executarei contra você → e eu a executarei para você",
+      "justificativa": "Objeção procedente. Evidência do original: וְאֶֽעֱשֶׂה־לָּֽךְ — עשה (H6213 a, Vqi1cs) + לְ (lemma 'l', HR/Sp2fs) = ‘e farei a/para você’. לְ é preposição dativa (destinatário/benefactivo), nunca adversativa; não há marcador de oposição (עַל/נֶגֶד/בְּ) no TM deste trecho. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): Em “Escolha uma delas, e eu a executarei contra você”, a preposição “contra” diverge do sentido dativo do hebraico. O prefixo לָּךְ (lemma 'l', morfologia HR/Sp2fs) é preposição de destinatário (“a/para você”), não de oposição. Corrigir para “a você”/“para você” alinharia melhor com o hebraico, mas mudaria o sentido do verso conforme está aprovado (de neutro-dativo para explicitamente adversativo); por isso fica registrada como objeção, sem alteração do texto. — evidência: termos_originais: וְאֶֽעֱשֶׂה ... לָּֽךְ, lemma 'l' = preposição “a/para”; traducao_literal: “e farei para você”; controles.kjv: “that I may do it unto thee” (não “against thee”). (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "‘Contra você’ (adversativo) — leitura defensável pelo conteúdo geral da perícope (Davi está sendo punido pelo censo, e as três opções do v.13 são de fato calamidades), mas",
+          "motivo": "perde porque não tem apoio morfológico: לְ nunca é preposição de oposição no hebraico bíblico, e os dois controles (KJV ‘unto thee’, WEB ‘to you’) mais a própria traducao_literal da BV (‘farei para você’) convergem, sem exceção, na leitura dativa/benefactiva."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [
     "opções",
     "diante de",
-    "a",
-    "contra"
+    "a"
   ],
   "ambiguidades_preservadas": [
-    "נוֹטֵל עָלֶיךָ é literalmente “levanto/tomo sobre você” e pode sugerir apresentar ou impor; a BV mantém o caráter adverso em “contra você”."
+    "נוֹטֵל עָלֶיךָ é literalmente “levanto/tomo sobre você” e pode sugerir apresentar ou impor; a BV mantém o caráter adverso em “contra você”.",
+    "Leitura descartada na adjudicação ER-0023: ‘Contra você’ (adversativo) — leitura defensável pelo conteúdo geral da perícope (Davi está sendo punido pelo censo, e as três opções do v.13 são de fato calamidades), mas perde porque não tem apoio morfológico: לְ nunca é preposição de oposição no hebraico bíblico, e os dois controles (KJV ‘unto thee’, WEB ‘to you’) mais a própria traducao_literal da BV (‘farei para você’) convergem, sem exceção, na leitura dativa/benefactiva."
   ],
   "justificativa": "Fórmula profética, três alternativas, escolha única e execução pelo SENHOR foram mantidas.",
   "confianca": 0.71,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): Em “Escolha uma delas, e eu a executarei contra você”, a preposição “contra” diverge do sentido dativo do hebraico. O prefixo לָּךְ (lemma 'l', morfologia HR/Sp2fs) é preposição de destinatário (“a/para você”), não de oposição. Corrigir para “a você”/“para você” alinharia melhor com o hebraico, mas mudaria o sentido do verso conforme está aprovado (de neutro-dativo para explicitamente adversativo); por isso fica registrada como objeção, sem alteração do texto. — evidência: termos_originais: וְאֶֽעֱשֶׂה ... לָּֽךְ, lemma 'l' = preposição “a/para”; traducao_literal: “e farei para você”; controles.kjv: “that I may do it unto thee” (não “against thee”)."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

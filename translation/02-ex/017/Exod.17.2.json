@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Exod.17.1-16"
   },
-  "texto_bv": "Então contendeu o povo com Moisés, e disseram: Dê-nos água para beber. E Moisés lhes disse: Por que contendem comigo? Por que tentam ao SENHOR?",
+  "texto_bv": "Então contendeu o povo com Moisés, e disseram: Deem-nos água para beber. E Moisés lhes disse: Por que contendem comigo? Por que tentam ao SENHOR?",
   "traducao_literal": "E contendeu o povo com Moisés, e disseram: Dai-nos água e beberemos. E disse a eles Moisés: Por que contendeis comigo? Por que tentais a YHWH?",
   "termos_originais": [
     {
@@ -135,24 +135,35 @@
       "justificativa": "EDITORIAL.md prescreve discurso direto com dois-pontos + aspas duplas curvas; este capítulo (vv. 2-7, 9, 14-16), como toda a janela e os capítulos vizinhos, grafa o discurso direto só com dois-pontos, sem aspas. Aplicar aspas apenas neste capítulo quebraria a consistência do corpus — exige mudança em cadeia de capítulos e decisão do mantenedor. — evidência: texto_bv de Exod.17.2 ('e disseram: Dê-nos água...') e todos os versos da janela (Exod.16.35 a Exod.18.2) uniformemente sem aspas no discurso direto. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Dê-nos água para beber. → Deem-nos água para beber.",
+      "justificativa": "Objeção procedente. Evidência do original: תְּנוּ, lemma 5414 (נתן), morfologia HVqv2mp — Qal imperativo 2ª pessoa masculino plural ('dai'/'deem', dirigido a Moisés pelo povo coletivamente). traducao_literal confirma: 'Dai-nos água e beberemos'. Mesmo padrão morfológico 2mp recorre em תְּרִיבוּן (H7378, HVqi2mp) e תְּנַסּוּן (H5254, HVpi2mp), ambos já traduzidos como plural no texto_bv ('contendem', 'tentam'), o que isola 'Dê-nos' como a única forma fora de concordância no verso. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): 'Dê-nos água' está no singular (você), mas o imperativo hebraico é 2ª pessoa do PLURAL; a norma exige preservar sempre a distinção singular/plural do original. Corrigir para 'Deem-nos' alteraria a estrutura de interlocução (quem é destinatário do pedido), o que ultrapassa a revisão de forma; o texto permanece inalterado. — evidência: termos_originais: תְּנוּ, lemma 5414, morfologia HVqv2mp; traducao_literal: 'Dai-nos água e beberemos'. Contraste: as falas de Moisés no mesmo verso vertem corretamente os plurais תְּרִיבוּן/תְּנַסּוּן (2mp) como 'contendem'/'tentam'. Nota textual: KJV ('Give us water that we may drink') e WEB ('Give us water to drink') não divergem entre si — mesmo conteúdo, mesmo verso (vizinhos 1/3 batem por conteúdo com Êx 17.1/17.3 em ambas). O inglês 'give' não distingue número gramatical, por isso os controles são neutros nesta objeção; quem decide é a morfologia pinada do hebraico (HVqv2mp), não os controles. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'Dê-nos' tratando הָעָם ('o povo') como sujeito coletivo singular que controla a concordância em português",
+          "motivo": "Perde porque o próprio hebraico não trata o pedido como voz coletiva singular: o imperativo תְּנוּ e os dois verbos seguintes no mesmo discurso são todos 2mp, e a BV já opta por vertê-los como plural ('contendem', 'tentam') no mesmo verso — singularizar só o pedido inicial quebra a coerência interna sem apoio morfológico ou de controle."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Manter 'Dê-nos' tratando הָעָם ('o povo') como sujeito coletivo singular que controla a concordância em português. Perde porque o próprio hebraico não trata o pedido como voz coletiva singular: o imperativo תְּנוּ e os dois verbos seguintes no mesmo discurso são todos 2mp, e a BV já opta por vertê-los como plural ('contendem', 'tentam') no mesmo verso — singularizar só o pedido inicial quebra a coerência interna sem apoio morfológico ou de controle."
+  ],
   "justificativa": "רִיב 'contenda' (dá nome a Meribá, v.7); נַסָּה 'tentar/provar' (dá nome a Massá). Contender com Moisés = tentar a Deus. YHWH→SENHOR.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): 'Dê-nos água' está no singular (você), mas o imperativo hebraico é 2ª pessoa do PLURAL; a norma exige preservar sempre a distinção singular/plural do original. Corrigir para 'Deem-nos' alteraria a estrutura de interlocução (quem é destinatário do pedido), o que ultrapassa a revisão de forma; o texto permanece inalterado. — evidência: termos_originais: תְּנוּ, lemma 5414, morfologia HVqv2mp; traducao_literal: 'Dai-nos água e beberemos'. Contraste: as falas de Moisés no mesmo verso vertem corretamente os plurais תְּרִיבוּן/תְּנַסּוּן (2mp) como 'contendem'/'tentam'."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

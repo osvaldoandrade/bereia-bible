@@ -7,7 +7,7 @@
     "versiculo": 36,
     "pericope": "Gen.37.1-36"
   },
-  "texto_bv": "E os midianitas venderam-no no Egito a Potifar, oficial de Faraó, capitão da guarda.",
+  "texto_bv": "E os medanitas venderam-no no Egito a Potifar, oficial de Faraó, capitão da guarda.",
   "traducao_literal": "E os medanitas venderam-no ao Egito a Potifar, eunuco de Faraó, chefe dos degoladores.",
   "termos_originais": [
     {
@@ -87,24 +87,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "E os midianitas venderam-no no Egito a Potifar, oficial de Faraó, capitão da guarda. → E os medanitas venderam-no no Egito a Potifar, oficial de Faraó, capitão da guarda.",
+      "justificativa": "Objeção procedente. Evidência do original: וְהַ֨מְּדָנִ֔ים (lemma c/d/4092, HC/Td/Ngmpa, 'os medanitas') é lexicalmente distinto de מִדְיָנִ֜ים (lemma 4084, HNgmpa, 'midianitas') que aparece em Gen.37.28 para o mesmo episódio. Não há nota de variante textual em `variantes_textuais` para este verso — é diferença lexical no TM, não erro de cópia. KJV ('the Midianites') e WEB ('The Midianites') concordam entre si, mas ambas harmonizam o gentílico em opção tradutória inglesa — não refletem uma variante do texto pinado (não há controles_divergem aqui; KJV e WEB coincidem, só que as duas se afastam igualmente da morfologia). Pela hierarquia desta etapa, morfologia pinada supera controle de sentido quando não há empate: aqui a morfologia é inequívoca (4092 ≠ 4084) e decide sozinha, sem precisar do desempate KJV+WEB. A correção também resolve uma inconsistência interna do próprio corpus: o registro de Gen.37.28 já documenta em `ambiguidades_preservadas`/`justificativa` a intenção editorial de preservar 'midianitas/ismaelitas/medanitas' como crux não harmonizado ('e medanitas em 37:36... Preservado, não harmonizado'), mas o texto_bv publicado em 37:36 contradizia essa própria decisão ao dizer 'midianitas'. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O texto publicado grafa 'midianitas', mas o hebraico pinado traz וְהַמְּדָנִים (medanitas, lemma 4092 — descendentes de Medã, Gn 25.2), lexema distinto de מִדְיָנִים (midianitas, lemma 4084) do v. 28. A harmonização apaga uma variação onomástica que o original codifica e que a própria traducao_literal preserva ('os medanitas'); restaurar 'medanitas' é mudança de conteúdo (gentílico), fora da alçada do revisor de forma. A KJV também harmoniza ('Midianites'), mas repousa em opção tradutória, não no texto pinado — a morfologia vence (hierarquia de autoridade desta etapa). — evidência: termos_originais de Gen.37.36: וְהַמְּדָנִים com lemma c/d/4092 (Ngmpa), contra מִדְיָנִים lemma 4084 em Gen.37.28; traducao_literal: 'E os medanitas venderam-no ao Egito'; nenhuma decisão em DECISOES.md nem adjudicação ER-0020 documenta a harmonização. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura harmonizada 'midianitas' (igual ao v.28, seguindo KJV/WEB)",
+          "motivo": "perde porque a morfologia pinada distingue os dois gentílicos (4092 medanitas ≠ 4084 midianitas), a traducao_literal do próprio registro já trazia 'medanitas', e o registro-irmão (Gen.37.28) já adjudicara preservar a variação onomástica como crux das fontes, não apagá-la; harmonizar é opção de tradução (KJV/WEB), não leitura do texto hebraico pinado."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Leitura harmonizada 'midianitas' (igual ao v.28, seguindo KJV/WEB) — perde porque a morfologia pinada distingue os dois gentílicos (4092 medanitas ≠ 4084 midianitas), a traducao_literal do próprio registro já trazia 'medanitas', e o registro-irmão (Gen.37.28) já adjudicara preservar a variação onomástica como crux das fontes, não apagá-la; harmonizar é opção de tradução (KJV/WEB), não leitura do texto hebraico pinado."
+  ],
   "justificativa": "מְדָנִים (medanitas) — terceira designação dos mercadores. סְרִיס 'oficial' (lit. 'eunuco', aqui título de corte). שַׂר הַטַּבָּחִים 'chefe dos guardas/carrascos'.",
   "confianca": 0.73,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O texto publicado grafa 'midianitas', mas o hebraico pinado traz וְהַמְּדָנִים (medanitas, lemma 4092 — descendentes de Medã, Gn 25.2), lexema distinto de מִדְיָנִים (midianitas, lemma 4084) do v. 28. A harmonização apaga uma variação onomástica que o original codifica e que a própria traducao_literal preserva ('os medanitas'); restaurar 'medanitas' é mudança de conteúdo (gentílico), fora da alçada do revisor de forma. A KJV também harmoniza ('Midianites'), mas repousa em opção tradutória, não no texto pinado — a morfologia vence (hierarquia de autoridade desta etapa). — evidência: termos_originais de Gen.37.36: וְהַמְּדָנִים com lemma c/d/4092 (Ngmpa), contra מִדְיָנִים lemma 4084 em Gen.37.28; traducao_literal: 'E os medanitas venderam-no ao Egito'; nenhuma decisão em DECISOES.md nem adjudicação ER-0020 documenta a harmonização."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

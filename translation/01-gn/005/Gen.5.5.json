@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Gen.5.1-32"
   },
-  "texto_bv": "E foram todos os dias de Adão novecentos e trinta anos; e morreu.",
+  "texto_bv": "E foram todos os dias que Adão viveu novecentos e trinta anos; e morreu.",
   "traducao_literal": "E foram todos os dias de Adão novecentos e trinta anos; e morreu.",
   "termos_originais": [
     {
@@ -86,24 +86,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "E foram todos os dias de Adão novecentos e trinta anos; e morreu. → E foram todos os dias que Adão viveu novecentos e trinta anos; e morreu.",
+      "justificativa": "Objeção procedente. Evidência do original: אֲשֶׁר (H834, HTr, partícula relativa) + חַ֔י (H2425, HVqp3ms, qal perfeito 'viveu'), entre אָדָם֙ e תְּשַׁ֤ע מֵאוֹת֙ שָׁנָ֔ה. Construção idêntica à de Gn 25:7 e 47:28 (יְמֵי... אֲשֶׁר חַי), onde a relativa fecha o cômputo dos 'dias' de vida, não é apositiva solta sobre o nome. PROCEDE: a objeção estava certa quanto ao fato (a relativa está no hebraico e falta na BV); o que a impedia de ser corrigida em ER-0019 era o escopo da etapa, não a evidência. Em modo adjudicação a mudança de sentido é permitida, e KJV e WEB confirmam juntas a leitura, sem divergência textual entre si. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): A oração relativa אֲשֶׁר חַי (\"que viveu\") do hebraico pinado não está vertida no texto publicado — nem na camada literal, o que indica omissão do ciclo de draft, não escolha. Supri-la (\"todos os dias que Adão viveu\") acrescentaria conteúdo ao texto, o que excede o escopo de forma desta etapa; por isso o texto permanece idêntico. — evidência: termos_originais trazem אֲשֶׁר (H834, HTr) e חַ֔י (H2425, HVqp3ms) entre אָדָם e תְּשַׁע מֵאוֹת שָׁנָה; a KJV verte a relativa (\"all the days that Adam lived\"). A fórmula dos vv. 8, 11, 14, 17, 20, 27, 31 não traz essa relativa — só o v. 5 a tem, traço exclusivo do registro de Adão que a omissão apaga. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Preservar 'de Adão' e anexar 'que viveu' como oração apositiva sobre a pessoa ('E foram todos os dias de Adão, que viveu, novecentos e trinta anos'), mais próxima da superfície da cadeia construta יְמֵי אָדָם",
+          "motivo": "Perde porque deixa 'que viveu' sem complemento de duração, soa como parêntese solto em português e diverge da leitura que KJV e WEB dão à relativa — presa a 'os dias' ('the days that Adam lived'), não a 'Adão' isoladamente; vencem os dois controles em conjunto, morfologia empatada entre as duas construções."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Preservar 'de Adão' e anexar 'que viveu' como oração apositiva sobre a pessoa ('E foram todos os dias de Adão, que viveu, novecentos e trinta anos'), mais próxima da superfície da cadeia construta יְמֵי אָדָם. Perde porque deixa 'que viveu' sem complemento de duração, soa como parêntese solto em português e diverge da leitura que KJV e WEB dão à relativa — presa a 'os dias' ('the days that Adam lived'), não a 'Adão' isoladamente; vencem os dois controles em conjunto, morfologia empatada entre as duas construções."
+  ],
   "justificativa": "Fórmula genealógica: refrão 'e morreu'.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): A oração relativa אֲשֶׁר חַי (\"que viveu\") do hebraico pinado não está vertida no texto publicado — nem na camada literal, o que indica omissão do ciclo de draft, não escolha. Supri-la (\"todos os dias que Adão viveu\") acrescentaria conteúdo ao texto, o que excede o escopo de forma desta etapa; por isso o texto permanece idêntico. — evidência: termos_originais trazem אֲשֶׁר (H834, HTr) e חַ֔י (H2425, HVqp3ms) entre אָדָם e תְּשַׁע מֵאוֹת שָׁנָה; a KJV verte a relativa (\"all the days that Adam lived\"). A fórmula dos vv. 8, 11, 14, 17, 20, 27, 31 não traz essa relativa — só o v. 5 a tem, traço exclusivo do registro de Adão que a omissão apaga."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

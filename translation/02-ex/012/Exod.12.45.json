@@ -7,7 +7,7 @@
     "versiculo": 45,
     "pericope": "Exod.12.1-51"
   },
-  "texto_bv": "O estrangeiro e o assalariado não comerão dela.",
+  "texto_bv": "O residente e o assalariado não comerão dela.",
   "traducao_literal": "O residente e o assalariado não comerá nela.",
   "termos_originais": [
     {
@@ -51,24 +51,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "O estrangeiro e o assalariado não comerão dela. → O residente e o assalariado não comerão dela.",
+      "justificativa": "Objeção procedente. Evidência do original: תּוֹשָׁ֥ב (lema 8453 a, HNcmsa) é substantivo de raiz ישב ('habitar/assentar-se') — o morador/hóspede temporário sem vínculo de aliança —, lema diferente de גֵּר (lema 1616), o estrangeiro que pode se tornar apto à Páscoa mediante circuncisão (v.48). A traducao_literal da BV já traz 'O residente e o assalariado não comerá nela', preservando a distinção. A KJV também emprega palavras diferentes para os dois grupos: 'A foreigner' (v.45, תּוֹשָׁב) versus 'a stranger' (v.48, גֵּר). A WEB segue o mesmo padrão de distinção lexical da KJV neste par de versos e não contradiz. A objeção procede: o hebraico não usa a mesma palavra para o תּוֹשָׁב do v.45 e o גֵּר do v.48 — são categorias jurídico-sociais diferentes (o residente sem aliança nunca come; o estrangeiro convertido pela circuncisão pode comer). O texto publicado da BV colapsava as duas em 'estrangeiro', criando para o leitor uma contradição que o original não tem. A correção usa 'residente', exatamente o termo que a própria camada literal da BV já atestava, resolvendo a colisão sem inventar vocabulário novo. Não há divergência textual entre KJV e WEB neste verso. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): תּוֹשָׁב (lemma 8453, residente/hóspede) vertido como “estrangeiro” colide com v48, onde o גֵּר (“estrangeiro”) circuncidado PODE comer — o leitor vê contradição aparente entre v45 e v48. Desfazê-la exigiria retraduzir תּוֹשָׁב (por exemplo, “o hóspede”), decisão de sentido/léxico acima da alçada gramatical. Texto mantido. — evidência: traducao_literal: “O residente e o assalariado”; lemmata distintos 8453 a (v45) vs 1616 (v19, v48); KJV distingue “A foreigner” (v45) de “a stranger” (v48). (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'estrangeiro' para תּוֹשָׁב, alinhado ao uso corrente de versões pt-BR de referência (ARA/NVI também tendem a não distinguir aqui)",
+          "motivo": "perde porque preserva uma contradição aparente entre v.45 e v.48 que o hebraico não tem (lemas distintos, 8453 a × 1616), e porque a própria traducao_literal da BV já reconhecia a distinção com 'residente' antes de o texto publicado apagá-la."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Manter 'estrangeiro' para תּוֹשָׁב, alinhado ao uso corrente de versões pt-BR de referência (ARA/NVI também tendem a não distinguir aqui) — perde porque preserva uma contradição aparente entre v.45 e v.48 que o hebraico não tem (lemas distintos, 8453 a × 1616), e porque a própria traducao_literal da BV já reconhecia a distinção com 'residente' antes de o texto publicado apagá-la."
+  ],
   "justificativa": "A instituição da Páscoa e o êxodo (DRAFT, ADR-0002).",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): תּוֹשָׁב (lemma 8453, residente/hóspede) vertido como “estrangeiro” colide com v48, onde o גֵּר (“estrangeiro”) circuncidado PODE comer — o leitor vê contradição aparente entre v45 e v48. Desfazê-la exigiria retraduzir תּוֹשָׁב (por exemplo, “o hóspede”), decisão de sentido/léxico acima da alçada gramatical. Texto mantido. — evidência: traducao_literal: “O residente e o assalariado”; lemmata distintos 8453 a (v45) vs 1616 (v19, v48); KJV distingue “A foreigner” (v45) de “a stranger” (v48)."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

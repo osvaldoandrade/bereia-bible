@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Exod.11.1-10"
   },
-  "texto_bv": "E o SENHOR disse a Moisés: Faraó não os ouvirá, para que as minhas maravilhas se multipliquem na terra do Egito.",
+  "texto_bv": "E o SENHOR disse a Moisés: Faraó não ouvirá vocês, para que as minhas maravilhas se multipliquem na terra do Egito.",
   "traducao_literal": "E disse YHWH a Moisés: Não vos ouvirá Faraó, para multiplicarem-se os meus prodígios na terra do Egito.",
   "termos_originais": [
     {
@@ -98,24 +98,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Faraó não os ouvirá → Faraó não ouvirá vocês",
+      "justificativa": "Objeção procedente. Evidência do original: אֲלֵיכֶ֖ם, lemma 413, morfologia HR/Sp2mp; traducao_literal: 'Não vos ouvirá Faraó'; KJV: 'Pharaoh shall not hearken unto you'; WEB: 'Pharaoh won't listen to you'. Os dois controles concordam entre si em 2ª pessoa — sem divergência textual. Mesmo padrão do v.1 no mesmo capítulo: o hebraico marca 2ª pessoa do plural no único pronome do verso, e a BV a substituía por 3ª pessoa ('os') sem antecedente disponível — 'Faraó' e 'as minhas maravilhas' são os únicos substantivos do período, nenhum plural masculino que sustente 'os' como retomada. Não é questão de registro (você/vocês já é o paradigma vigente por D-0003), é referência pronominal incorreta. Corrigido para 'vocês', único pronome do verso, sem necessidade de estabelecer antecedente para clítico subsequente. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O hebraico traz אֲלֵיכֶם (2ª pessoa do plural: 'Faraó não ouvirá VOCÊS', Moisés e Arão), mas a BV verte 'não os ouvirá' (3ª pessoa), deslocando o referente para um 'eles' ambíguo (os filhos de Israel?) que não é o destinatário da fala. Corrigir a coesão exigiria restaurar a 2ª pessoa, o que muda o sentido do texto atual — o texto não foi alterado. Mesmo padrão da objeção MATERIAL do v. 1. — evidência: termos_originais: אֲלֵיכֶם, lemma 413, morfologia HR/Sp2mp; traducao_literal: 'Não vos ouvirá Faraó'; KJV: 'Pharaoh shall not hearken unto you'. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'os', lendo-o como retomada elíptica de 'os filhos de Israel' (tópico da narrativa desde Êxodo 5, não mencionado neste verso)",
+          "motivo": "perde pelo mesmo motivo do v.1 — sem antecedente textual, e contra a morfologia (Sp2mp) e os dois controles (KJV e WEB, ambos 'you'), que convergem para a 2ª pessoa explícita."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Manter 'os', lendo-o como retomada elíptica de 'os filhos de Israel' (tópico da narrativa desde Êxodo 5, não mencionado neste verso); perde pelo mesmo motivo do v.1 — sem antecedente textual, e contra a morfologia (Sp2mp) e os dois controles (KJV e WEB, ambos 'you'), que convergem para a 2ª pessoa explícita."
+  ],
   "justificativa": "לְמַעַן רְבוֹת מוֹפְתַי 'para que se multipliquem os meus prodígios' — a recusa de Faraó serve ao propósito de exibir o poder de Deus (cf. 9:16; Rm 9:17). YHWH→SENHOR.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O hebraico traz אֲלֵיכֶם (2ª pessoa do plural: 'Faraó não ouvirá VOCÊS', Moisés e Arão), mas a BV verte 'não os ouvirá' (3ª pessoa), deslocando o referente para um 'eles' ambíguo (os filhos de Israel?) que não é o destinatário da fala. Corrigir a coesão exigiria restaurar a 2ª pessoa, o que muda o sentido do texto atual — o texto não foi alterado. Mesmo padrão da objeção MATERIAL do v. 1. — evidência: termos_originais: אֲלֵיכֶם, lemma 413, morfologia HR/Sp2mp; traducao_literal: 'Não vos ouvirá Faraó'; KJV: 'Pharaoh shall not hearken unto you'."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

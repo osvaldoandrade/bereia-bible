@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "2Kgs.19.1-37"
   },
-  "texto_bv": "Pois de Jerusalém sairá um remanescente,\ne do monte Sião, sobreviventes.\nO zelo do SENHOR dos Exércitos fará isso.",
+  "texto_bv": "Pois de Jerusalém sairá um remanescente,\ne do monte Sião, sobreviventes.\nO zelo do SENHOR fará isso.",
   "traducao_literal": "Pois de Jerusalém sairá remanescente,\ne sobreviventes do monte Sião;\no zelo do SENHOR fará isto.",
   "termos_originais": [
     {
@@ -119,23 +119,33 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "O zelo do SENHOR dos Exércitos fará isso. → O zelo do SENHOR fará isso.",
+      "justificativa": "Objeção procedente. Evidência do original: קִנְאַת יְהוָה — קִנְאַת (lemma 7068, HNcfsc) em construto direto com יְהוָה (lemma 3068, HNp); termos_originais não traz nenhum termo com lemma 6635 (צְבָאוֹת) após יְהוָה. O paralelo de Isaías 37:32 tem צְבָאוֹת nesse mesmo trecho, mas o WLC/OSHB pinado de 2Rs 19:31 não repete o título aqui — são passagens paralelas com atestação textual distinta na própria tradição massorética. 'Dos Exércitos' só aparece na KJV ('the LORD of hosts'), que neste ponto harmoniza com o paralelo de Isaías 37:32 (tradição também presente no Textus Receptus/Bomberg). A WEB, seguindo texto crítico, traz apenas 'Yahweh', sem o título — batendo com a morfologia pinada. Como KJV e WEB divergem entre si e é a base pinada (não a KJV) que decide, o texto_bv precisa acompanhar a morfologia: mantê-lo com 'dos Exércitos' perpetuaria dentro do texto aprovado uma leitura de tradição textual diferente da WLC/OSHB — exatamente o que a regra de nunca importar leitura do TR para o texto_bv veda. A correção não introduz um TR na BV; remove um que já lá estava. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): O SENHOR dos Exércitos acrescenta um título (Tsevaot) ausente da morfologia hebraica pinada para este versículo. — evidência: Os termos_originais registram apenas קִנְאַת יְהוָה (lemma 3068, sem lemma 6635/צבאות), exatamente como a camada literal (o zelo do SENHOR fará isto). Dos Exércitos só aparece na KJV (\"the LORD of hosts\"), que aqui segue tradição textual distinta da WLC/OSHB pinada; pela hierarquia de autoridade a morfologia vence a KJV. Remover dos Exércitos mudaria o conteúdo do texto aprovado, por isso não corrijo e registro a divergência. Nota textual: KJV: 'the zeal of the Lord of hosts shall do this' — inclui o título 'of hosts', alinhado à harmonização com Isaías 37:32/tradição TR. WEB: 'The zeal of Yahweh will perform this' — sem o título, alinhado à base crítica. O WLC/OSHB pinado de 2Rs 19:31 confirma a leitura enxuta (sem H6635). A BV segue a leitura pinada e a WEB, não a harmonização refletida na KJV. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'O zelo do SENHOR dos Exércitos fará isso' (com o título, seguindo a KJV e a harmonização com Isaías 37:32)",
+          "motivo": "perde porque termos_originais para 2Rs 19:31 não traz H6635 (צְבָאוֹת), e a WEB (texto crítico) confirma a omissão; manter o título significaria importar para o texto_bv uma leitura de tradição textual distinta da base pinada."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
-    "A linha consonantal traz apenas ‘o zelo do SENHOR’, enquanto o qere lê o título expandido ‘SENHOR dos Exércitos’."
+    "A linha consonantal traz apenas ‘o zelo do SENHOR’, enquanto o qere lê o título expandido ‘SENHOR dos Exércitos’.",
+    "Leitura descartada na adjudicação ER-0023: 'O zelo do SENHOR dos Exércitos fará isso' (com o título, seguindo a KJV e a harmonização com Isaías 37:32) — perde porque termos_originais para 2Rs 19:31 não traz H6635 (צְבָאוֹת), e a WEB (texto crítico) confirma a omissão; manter o título significaria importar para o texto_bv uma leitura de tradição textual distinta da base pinada."
   ],
   "justificativa": "Jerusalém e monte Sião preservam suas origens paralelas, remanescente e sobreviventes saem, e o zelo do SENHOR permanece agente explícito da realização.",
   "confianca": 0.58,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): O SENHOR dos Exércitos acrescenta um título (Tsevaot) ausente da morfologia hebraica pinada para este versículo. — evidência: Os termos_originais registram apenas קִנְאַת יְהוָה (lemma 3068, sem lemma 6635/צבאות), exatamente como a camada literal (o zelo do SENHOR fará isto). Dos Exércitos só aparece na KJV (\"the LORD of hosts\"), que aqui segue tradição textual distinta da WLC/OSHB pinada; pela hierarquia de autoridade a morfologia vence a KJV. Remover dos Exércitos mudaria o conteúdo do texto aprovado, por isso não corrijo e registro a divergência."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

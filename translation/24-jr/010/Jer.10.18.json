@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Jer.10.1-25"
   },
-  "texto_bv": "Porque assim disse o SENHOR: “Eis que, desta vez, arremessarei para longe os habitantes desta terra, e lhes trarei angústia, para que sejam encontrados.”",
+  "texto_bv": "Porque assim disse o SENHOR: “Eis que, desta vez, arremessarei para longe os habitantes desta terra, e lhes trarei angústia, para que a encontrem.”",
   "traducao_literal": "Porque assim disse o SENHOR: Eis que eu, lançando com funda, os habitantes da terra, nesta vez, e causarei aflição a eles, para que encontrem.",
   "termos_originais": [
     {
@@ -130,9 +130,18 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "para que sejam encontrados → para que a encontrem",
+      "justificativa": "Objeção procedente. Evidência do original: יִמְצָאוּ — lemma 4672, morfologia HVqi3mp (Qal imperfeito 3ª pl., voz ativa: 'encontrarão/experimentarão'). O objeto do verbo é elíptico no hebraico (retoma a aflição mencionada em וַהֲצֵרוֹתִי לָהֶם, 'e lhes causarei aflição'); suprido em português pelo clítico 'a', referente a 'angústia'. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): 'para que sejam encontrados' está na voz passiva, invertendo sujeito e ação em relação ao hebraico e à KJV: o texto original diz que o povo ENCONTRARÁ/RECONHECERÁ algo (ação ativa), não que será ACHADO/CAPTURADO por outrem (ação passiva sofrida). Corrigir a voz verbal mudaria o sentido do verso, o que extrapola o escopo desta revisão gramatical. — evidência: termos_originais: יִמְצָאוּ, lemma 4672, morfologia HVqi3mp (Qal imperfeito 3ª pl., voz ATIVA, 'encontrarão/acharão'); traducao_literal: 'para que encontrem'; controles.kjv: 'that they may find it so' (voz ativa, sujeito = o povo que encontra). (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
-  "palavras_supridas": [],
+  "palavras_supridas": [
+    "a"
+  ],
   "ambiguidades_preservadas": [
     "sujeito exato de יִמְצָאוּ permanece indeterminado no hebraico"
   ],
@@ -140,12 +149,9 @@
   "confianca": 0.7,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): 'para que sejam encontrados' está na voz passiva, invertendo sujeito e ação em relação ao hebraico e à KJV: o texto original diz que o povo ENCONTRARÁ/RECONHECERÁ algo (ação ativa), não que será ACHADO/CAPTURADO por outrem (ação passiva sofrida). Corrigir a voz verbal mudaria o sentido do verso, o que extrapola o escopo desta revisão gramatical. — evidência: termos_originais: יִמְצָאוּ, lemma 4672, morfologia HVqi3mp (Qal imperfeito 3ª pl., voz ATIVA, 'encontrarão/acharão'); traducao_literal: 'para que encontrem'; controles.kjv: 'that they may find it so' (voz ativa, sujeito = o povo que encontra)."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

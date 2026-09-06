@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Exod.23.1-33"
   },
-  "texto_bv": "E em tudo o que lhes tenho dito, guardem-se; e do nome de outros deuses nem se lembrem, nem se ouça da sua boca.",
+  "texto_bv": "E em tudo o que lhes tenho dito, guardem-se; e do nome de outros deuses não façam menção, nem se ouça da sua boca.",
   "traducao_literal": "E em tudo o que disse a vós guardai-vos; e o nome de outros deuses não mencionareis, não se ouça sobre a tua boca.",
   "termos_originais": [
     {
@@ -110,24 +110,35 @@
       "justificativa": "'da sua boca': o hebraico tem פִּיךָ (2ms, 'tua boca'), mudanca de plural para singular que a norma manda preservar; alem disso, 'sua' tem como antecedente mais proximo 'outros deuses', gerando ambiguidade evitavel. — evidência: morfologia HNcmsc/Sp2ms; a explicitacao ('da tua boca') depende da politica vigente para alternancia de numero (DECISOES.md) — nao aplicada. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "nem se lembrem → não façam menção",
+      "justificativa": "Objeção procedente. Evidência do original: תַזְכִּירוּ — lemma 2142 (זכר), morfologia HVhi2mp: hifil (causativo) imperfeito 2ª pl. 'Hifil de זכר' é o idiomatismo hebraico regular para 'mencionar/invocar (nome)', não 'lembrar-se'. traducao_literal do próprio registro: 'não mencionareis'. KJV: 'make no mention of the name of other gods'. WEB: 'don't invoke the name of other gods'. Os dois controles convergem entre si e com a morfologia — não há divergência textual, apenas um erro de forma verbal na BV vigente (reflexivo em vez de causativo). Objeções fechadas: Objeção MATERIAL (revisão ER-0019): 'nem se lembrem' traduz תַזְכִּירוּ (hifil, causativo: 'fazer lembrar', isto e, mencionar/invocar) como lembranca interna; a correcao de forma ('nem mencionem') mudaria o sentido do texto aprovado, portanto o texto nao e alterado. — evidência: morfologia HVhi2mp (hifil de זכר); traducao_literal 'nao mencionareis'; KJV 'make no mention of the name of other gods'. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'nem se lembrem' (ação reflexiva/interna de memória)",
+          "motivo": "perde porque o hifil de זכר é causativo-declarativo por regência gramatical regular (fazer-lembrar = mencionar/invocar), confirmado por traducao_literal, KJV e WEB juntos; não há leitura textual alternativa que sustente o reflexivo."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: 'nem se lembrem' (ação reflexiva/interna de memória) — perde porque o hifil de זכר é causativo-declarativo por regência gramatical regular (fazer-lembrar = mencionar/invocar), confirmado por traducao_literal, KJV e WEB juntos; não há leitura textual alternativa que sustente o reflexivo."
+  ],
   "justificativa": "שֵׁם אֱלֹהִים אֲחֵרִים לֹא תַזְכִּירוּ 'não mencioneis o nome de outros deuses' — a lealdade exclusiva a YHWH abrange até o falar (cf. Js 23:7; Sl 16:4). אֱלֹהִים אֲחֵרִים→outros deuses (minúsculo). YHWH implícito.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): 'nem se lembrem' traduz תַזְכִּירוּ (hifil, causativo: 'fazer lembrar', isto e, mencionar/invocar) como lembranca interna; a correcao de forma ('nem mencionem') mudaria o sentido do texto aprovado, portanto o texto nao e alterado. — evidência: morfologia HVhi2mp (hifil de זכר); traducao_literal 'nao mencionareis'; KJV 'make no mention of the name of other gods'."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

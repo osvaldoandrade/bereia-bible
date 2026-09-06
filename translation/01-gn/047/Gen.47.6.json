@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Gen.47.1-31"
   },
-  "texto_bv": "A terra do Egito está diante de você; no melhor da terra faça habitar seu pai e seus irmãos. Habitem na terra de Gósen. Se você sabe que entre eles há homens capazes, ponha-nos por chefes do gado, sobre o que é meu.",
+  "texto_bv": "A terra do Egito está diante de você; no melhor da terra faça habitar seu pai e seus irmãos. Habitem na terra de Gósen. Se você sabe que entre eles há homens capazes, ponha-os por chefes do gado, sobre o que é meu.",
   "traducao_literal": "A terra do Egito diante de ti ela; no melhor da terra faze habitar o teu pai e os teus irmãos; habitem na terra de Gósen; e se sabes, e há entre eles homens de capacidade, põe-nos príncipes de gado sobre o que é meu.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "ponha-nos → ponha-os",
+      "justificativa": "Objeção procedente. Evidência do original: וְשַׂמְתָּם — lemma 7760 (שׂים, 'pôr/colocar'), morfologia HC/Vqq2ms/Sp3mp: perfeito consecutivo 2ª masc. sing. com sufixo pronominal objeto de 3ª pessoa masc. plural. O sufixo retoma אַנְשֵׁי חַיִל ('homens capazes'), não o falante (José). KJV confirma: 'then make THEM rulers over my cattle'; WEB confirma: 'then put THEM in charge of my livestock' — ambos os controles leem 'eles', nunca 'nós'. Não há divergência entre KJV e WEB neste ponto. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): 'Ponha-nos por chefes do gado' lê-se em português como 'ponha A NÓS' (clítico de 1ª pessoa do plural), mas o sufixo pinado de וְשַׂמְתָּם é 3ª masc. plural — 'põe A ELES', os homens capazes. O alomorfe '-nos' do clítico o(s) só existe após ditongo nasal (põe-nos, dão-nos); após 'ponha', a 3ª pessoa seria 'ponha-os'. Corrigir o clítico muda o referente que o português publicado afirma (nós → eles), e alteração de sentido excede a revisão de forma — cabe à adjudicação. — evidência: termos_originais: וְשַׂמְתָּם, lemma c/7760 a, morfologia HC/Vqq2ms/Sp3mp (sufixo 3mp); traducao_literal: 'põe-nos príncipes de gado' — ali 'põe-nos' é põe + os, alomorfe legítimo pós-nasal, o que indica que o defeito nasceu na transposição tu→você ('põe'→'ponha') com o clítico copiado sem ajuste; KJV: 'make them rulers over my cattle'. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
@@ -171,16 +178,13 @@
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): 'Ponha-nos por chefes do gado' lê-se em português como 'ponha A NÓS' (clítico de 1ª pessoa do plural), mas o sufixo pinado de וְשַׂמְתָּם é 3ª masc. plural — 'põe A ELES', os homens capazes. O alomorfe '-nos' do clítico o(s) só existe após ditongo nasal (põe-nos, dão-nos); após 'ponha', a 3ª pessoa seria 'ponha-os'. Corrigir o clítico muda o referente que o português publicado afirma (nós → eles), e alteração de sentido excede a revisão de forma — cabe à adjudicação. — evidência: termos_originais: וְשַׂמְתָּם, lemma c/7760 a, morfologia HC/Vqq2ms/Sp3mp (sufixo 3mp); traducao_literal: 'põe-nos príncipes de gado' — ali 'põe-nos' é põe + os, alomorfe legítimo pós-nasal, o que indica que o defeito nasceu na transposição tu→você ('põe'→'ponha') com o clítico copiado sem ajuste; KJV: 'make them rulers over my cattle'."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

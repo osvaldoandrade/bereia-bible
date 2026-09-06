@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "1Chr.5.1-41"
   },
-  "texto_bv": "Pois Judá prevaleceu sobre seus irmãos, e dele veio um governante; porém a primogenitura pertenceu a José.",
+  "texto_bv": "Pois Judá prevaleceu sobre seus irmãos, e de nós veio um governante; porém a primogenitura pertenceu a José.",
   "traducao_literal": "Pois Judá prevaleceu entre seus irmãos, e para governante, de nós; e a primogenitura, para José.",
   "termos_originais": [
     {
@@ -81,6 +81,18 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "e dele veio um governante → e de nós veio um governante",
+      "justificativa": "Objeção procedente. Evidência do original: מִמֶּ֑נּוּ (lemma 4480 a, morfologia HR/Sp1cp — 1ª pessoa comum plural, não HR/Sp3ms). traducao_literal confirma: '...e para governante, de nós.' Objeções fechadas: Objeção MATERIAL (revisão ER-0022): ‘e dele veio um governante’ verte a preposição com sufixo מִמֶּנּוּ como 3ª pessoa (‘dele’ = de Judá), mas a morfologia pinada marca Sp1cp (1ª pessoa do plural, ‘de nós’) — leitura que a própria traducao_literal da BV confirma (‘e para governante, de nós’). Ajustar o texto_bv para ‘de nós’ mudaria o sentido (quem gera o governante: Judá sozinho vs. o coletivo ‘nós’/Israel), o que excede correção de forma. — evidência: termos_originais: מִמֶּנּוּ (lemma 4480 a, morfologia HR/Sp1cp); traducao_literal: ‘...e para governante, de nós’; controles.kjv concorda com o texto_bv (‘of him came the chief ruler’), mas pela ordem de autoridade a morfologia pinada supera a KJV quando divergem — caso clássico de homografia hebraica (מִן + sufixo 3ms e מִן + sufixo 1cp coincidem em מִמֶּנּוּ). (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura 'dele' (3ª pessoa, referindo-se a Judá), sustentada por KJV ('of him came the chief ruler') e WEB ('of him came the prince'), que reflete a leitura tradicional de que o governante (Davi) descende da linhagem de Judá",
+          "motivo": "Perde porque a morfologia pinada marca מִמֶּנּוּ como HR/Sp1cp, não Sp3ms, e a própria traducao_literal da BV já registrava 'de nós' — a homografia hebraica entre os sufixos 3ms e 1cp de מִן se resolve aqui pela morfologia pinada, não pela convergência das duas traduções inglesas, que fizeram a leitura mais tradicional sem marcar a ambiguidade."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [
@@ -88,19 +100,17 @@
     "pertenceu — fornece a cópula possessiva da frase nominal sobre a primogenitura"
   ],
   "ambiguidades_preservadas": [
-    "מִמֶּנּוּ é formalmente compatível com “de nós” e “dele”; as duas camadas conservam a tensão entre morfologia anotada e contexto."
+    "מִמֶּנּוּ é formalmente compatível com “de nós” e “dele”; as duas camadas conservam a tensão entre morfologia anotada e contexto.",
+    "Leitura descartada na adjudicação ER-0023: Leitura 'dele' (3ª pessoa, referindo-se a Judá), sustentada por KJV ('of him came the chief ruler') e WEB ('of him came the prince'), que reflete a leitura tradicional de que o governante (Davi) descende da linhagem de Judá. Perde porque a morfologia pinada marca מִמֶּנּוּ como HR/Sp1cp, não Sp3ms, e a própria traducao_literal da BV já registrava 'de nós' — a homografia hebraica entre os sufixos 3ms e 1cp de מִן se resolve aqui pela morfologia pinada, não pela convergência das duas traduções inglesas, que fizeram a leitura mais tradicional sem marcar a ambiguidade."
   ],
   "justificativa": "A superioridade de Judá, a origem do governante e a atribuição da primogenitura a José permanecem distintas, sem apagar a ambiguidade pronominal.",
   "confianca": 0.58,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): ‘e dele veio um governante’ verte a preposição com sufixo מִמֶּנּוּ como 3ª pessoa (‘dele’ = de Judá), mas a morfologia pinada marca Sp1cp (1ª pessoa do plural, ‘de nós’) — leitura que a própria traducao_literal da BV confirma (‘e para governante, de nós’). Ajustar o texto_bv para ‘de nós’ mudaria o sentido (quem gera o governante: Judá sozinho vs. o coletivo ‘nós’/Israel), o que excede correção de forma. — evidência: termos_originais: מִמֶּנּוּ (lemma 4480 a, morfologia HR/Sp1cp); traducao_literal: ‘...e para governante, de nós’; controles.kjv concorda com o texto_bv (‘of him came the chief ruler’), mas pela ordem de autoridade a morfologia pinada supera a KJV quando divergem — caso clássico de homografia hebraica (מִן + sufixo 3ms e מִן + sufixo 1cp coincidem em מִמֶּנּוּ)."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

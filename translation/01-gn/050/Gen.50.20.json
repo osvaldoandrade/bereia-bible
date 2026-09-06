@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Gen.50.1-26"
   },
-  "texto_bv": "Vocês, na verdade, intentaram o mal contra mim; porém Deus o tornou em bem, para fazer como se vê neste dia, para conservar em vida um povo numeroso.",
+  "texto_bv": "Vocês, na verdade, intentaram o mal contra mim; porém Deus o intentou para o bem, para fazer como se vê neste dia, para conservar em vida um povo numeroso.",
   "traducao_literal": "E vós, planejastes contra mim mal; Deus planejou-o para bem, a fim de fazer como o dia este, para dar vida a um povo numeroso.",
   "termos_originais": [
     {
@@ -109,6 +109,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "porém Deus o tornou em bem, → porém Deus o intentou para o bem,",
+      "justificativa": "Objeção procedente. Evidência do original: חֲשַׁבְתֶּם (H2803, HVqp2mp, 'vocês planejaram/pensaram') e חֲשָׁבָהּ (H2803, HVqp3ms/Sp3fs, 'ele planejou-o/pensou-o') — mesmo lema, mesmo binyan Qal, mesma raiz do verbo de intenção/plano, não de transformação de resultado. A traducao_literal da própria BV confirma o paralelo intacto: 'E vós, planejastes contra mim mal; Deus planejou-o para bem'. A WEB reproduz o mesmo paralelismo lexical em inglês, repetindo o verbo de intenção: 'you meant evil against me, but God meant it for good'. A KJV usa 'thought'/'meant', ambos verbos de intenção, nunca de devir. Não há divergência textual entre KJV e WEB neste verso — a questão é puramente de escolha lexical em português, não de base textual. A objeção já constava do ER-0019 como quebra do paralelismo verbal hebraico e regência arcaizante ('tornar em'), mas foi mantida sem correção porque o ER-0019 não permite mudança de sentido. Em ER-0020 a correção de forma é permitida: a morfologia pinada sustenta um único verbo de intenção repetido, KJV e WEB sustentam a mesma leitura juntas, e EDITORIAL.md já classifica a construção 'tornar em' como calque a evitar. A objeção procede. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): \"porém Deus o tornou em bem\" verte חֲשָׁבָהּ (\"planejou-a/intentou-a\") como transformação de resultado (\"tornou em\"), não como intenção, e apaga o paralelo deliberado do hebraico, que usa o mesmo verbo חשׁב nas duas metades (\"vocês planejaram o mal... Deus o planejou para o bem\"). Corrigir a forma (por exemplo, \"porém Deus o intentou para o bem\") mudaria o sentido do texto atual, portanto o texto não foi alterado. De passagem, a correção material também eliminaria a regência arcaizante \"tornar em\". — evidência: termos_originais: חֲשַׁבְתֶּם (HVqp2mp) e חֲשָׁבָהּ (HVqp3ms/Sp3fs), ambos lemma 2803; traducao_literal: \"Deus planejou-o para bem\"; KJV: \"ye thought evil against me; but God meant it unto good\". (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
@@ -119,16 +126,13 @@
   "confianca": 0.77,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): \"porém Deus o tornou em bem\" verte חֲשָׁבָהּ (\"planejou-a/intentou-a\") como transformação de resultado (\"tornou em\"), não como intenção, e apaga o paralelo deliberado do hebraico, que usa o mesmo verbo חשׁב nas duas metades (\"vocês planejaram o mal... Deus o planejou para o bem\"). Corrigir a forma (por exemplo, \"porém Deus o intentou para o bem\") mudaria o sentido do texto atual, portanto o texto não foi alterado. De passagem, a correção material também eliminaria a regência arcaizante \"tornar em\". — evidência: termos_originais: חֲשַׁבְתֶּם (HVqp2mp) e חֲשָׁבָהּ (HVqp3ms/Sp3fs), ambos lemma 2803; traducao_literal: \"Deus planejou-o para bem\"; KJV: \"ye thought evil against me; but God meant it unto good\"."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

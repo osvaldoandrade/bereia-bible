@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "Gen.9.1-29"
   },
-  "texto_bv": "E disse: “Bendito seja o SENHOR, o Deus de Sem; e seja-lhe Canaã por servo.",
+  "texto_bv": "E disse: “Bendito seja o SENHOR, o Deus de Sem; e seja-lhes Canaã por servo.",
   "traducao_literal": "E disse: “Bendito o SENHOR, Deus de Sem; e seja Canaã servo para eles.",
   "termos_originais": [
     {
@@ -71,24 +71,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "seja-lhe Canaã por servo → seja-lhes Canaã por servo",
+      "justificativa": "Objeção procedente. Evidência do original: לָמֹו (translit. lamo; lemma \"l\", morfologia HR/Sp3mp) — preposição ל mais sufixo pronominal de 3ª pessoa masculino PLURAL (\"a eles\"/\"para eles\"), forma idêntica nos vv.26 e 27. A própria traducao_literal da BV já verte a forma como plural nos dois versos (\"servo para eles\"), de modo que o parser morfológico e a camada literal da própria BV concordam entre si. O antecedente do plural está no capítulo, não é importado de fora: o vizinho KJV do v.25, dado no pacote de controle do v.26, traz \"Cursed be Canaan; a servant of servants shall he be unto his brethren\" — \"a seus IRMÃOS\" (plural, hebraico אֶחָיו) — estabelecendo já no v.25 que o grupo a quem Canaã servirá é plural. Os pronomes לָמוֹ dos vv.26-27 retomam esse mesmo grupo plural (os irmãos de Canaã, isto é, Sem e Jafé e suas linhagens), não restringem o referente ao nome bendito em cada versículo isoladamente. KJV e WEB traduzem לָמוֹ por singular (\"his servant\") nos dois versos, mas essa concordância entre os dois controles não é divergência textual (Textus Receptus x base crítica): as duas seguem a mesma pontuação massorética aqui, apenas herdam a mesma convenção de tradução, que iguala a forma poética לָמוֹ a לוֹ singular. Essa convenção é uma leitura de tradução, não o texto pinado: a hierarquia desta etapa determina que nenhuma versão supera a morfologia do original, e aqui morfologia (HR/Sp3mp), traducao_literal (\"para eles\") e o antecedente discursivo explícito do v.25 (\"seus irmãos\", plural) apontam juntos para o plural. Não há divergência textual entre KJV e WEB neste ponto — ambas concordam entre si, e ambas perdem para a morfologia pinada somada ao antecedente do próprio capítulo. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): “seja-lhe Canaã por servo” usa dativo singular (“lhe”, referente: Sem), mas o hebraico pinado traz לָמוֹ com morfologia HR/Sp3mp — 3ª pessoa masculina PLURAL (“para eles”), como a própria traducao_literal registra (“servo para eles”). Corrigir para “lhes”/“deles” mudaria o referente (de Sem para os irmãos/sua descendência), o que excede o escopo de forma desta etapa. — evidência: termos_originais: לָֽמוֹ lemma l, morfologia HR/Sp3mp; traducao_literal: “e seja Canaã servo para eles.”; KJV: “and Canaan shall be his servant” (leitura singular da tradição TR/Ben Chayyim). Nota textual: KJV e WEB concordam entre si em \"his servant\" (singular) nos vv.26 e 27 — não há variante textual entre elas aqui (não é caso Textus Receptus x base crítica); a divergência é entre a convenção tradicional de tradução de לָמוֹ como לוֹ arcaico e a morfologia pinada (HR/Sp3mp). Vizinhos conferidos pelo conteúdo: no controle do v.26, o vizinho \"25\" corresponde ao conteúdo de Gen.9.25 (maldição de Canaã, \"servo de servos... a seus irmãos\") e o \"27\" ao conteúdo de Gen.9.27; no controle do v.27, o vizinho \"26\" corresponde a Gen.9.26 e o \"28\" a Gen.9.28 — alinhamento de versículo confirmado, sem deslocamento de versificação neste trecho de Gênesis. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter o singular \"lhe\" (referente Sem no v.26, Jafé no v.27), seguindo KJV/WEB e a leitura tradicional que trata לָמוֹ como forma poética arcaica equivalente a לוֹ (\"para ele\")",
+          "motivo": "Perde porque: (1) a morfologia pinada marca o sufixo como 3mp, não 3ms; (2) a própria traducao_literal da BV já registra \"para eles\" nos dois versos; (3) o antecedente mais próximo e explícito no discurso é \"seus irmãos\" (plural, v.25), não o nome próprio de cada versículo isoladamente — a fórmula se repete idêntica em ambos os versos porque retoma o mesmo grupo, e não porque o texto trocasse de referente singular a cada versículo. KJV e WEB concordam entre si nesse ponto, mas essa concordância reflete convenção compartilhada de tradução, não autoridade sobre a morfologia do original — e a hierarquia desta etapa não permite que nenhuma versão supere a morfologia."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Manter o singular \"lhe\" (referente Sem no v.26, Jafé no v.27), seguindo KJV/WEB e a leitura tradicional que trata לָמוֹ como forma poética arcaica equivalente a לוֹ (\"para ele\"). Perde porque: (1) a morfologia pinada marca o sufixo como 3mp, não 3ms; (2) a própria traducao_literal da BV já registra \"para eles\" nos dois versos; (3) o antecedente mais próximo e explícito no discurso é \"seus irmãos\" (plural, v.25), não o nome próprio de cada versículo isoladamente — a fórmula se repete idêntica em ambos os versos porque retoma o mesmo grupo, e não porque o texto trocasse de referente singular a cada versículo. KJV e WEB concordam entre si nesse ponto, mas essa concordância reflete convenção compartilhada de tradução, não autoridade sobre a morfologia do original — e a hierarquia desta etapa não permite que nenhuma versão supere a morfologia."
+  ],
   "justificativa": "A bênção recai sobre o SENHOR (Deus de Sem) — linhagem eleita.",
   "confianca": 0.74,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): “seja-lhe Canaã por servo” usa dativo singular (“lhe”, referente: Sem), mas o hebraico pinado traz לָמוֹ com morfologia HR/Sp3mp — 3ª pessoa masculina PLURAL (“para eles”), como a própria traducao_literal registra (“servo para eles”). Corrigir para “lhes”/“deles” mudaria o referente (de Sem para os irmãos/sua descendência), o que excede o escopo de forma desta etapa. — evidência: termos_originais: לָֽמוֹ lemma l, morfologia HR/Sp3mp; traducao_literal: “e seja Canaã servo para eles.”; KJV: “and Canaan shall be his servant” (leitura singular da tradição TR/Ben Chayyim)."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

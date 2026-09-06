@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Gen.2.1-25"
   },
-  "texto_bv": "E o homem deu nomes a todo animal, e às aves dos céus, e a todo animal do campo; mas para o homem não se achou auxiliadora que lhe correspondesse.",
+  "texto_bv": "E o homem deu nomes a todo o gado, e às aves dos céus, e a todo animal do campo; mas para o homem não se achou auxiliadora que lhe correspondesse.",
   "traducao_literal": "E chamou o homem nomes a todo o gado, e à ave dos céus, e a todo animal do campo; mas para o homem não achou auxiliadora como o seu correspondente.",
   "termos_originais": [
     {
@@ -101,24 +101,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "a todo animal, e às aves dos céus, e a todo animal do campo → a todo o gado, e às aves dos céus, e a todo animal do campo",
+      "justificativa": "Objeção procedente. Evidência do original: הַבְּהֵמָה֙ (d/929, HTd/Ncfsa, 'o gado/animal doméstico') é lexema distinto de חַיַּ֣ת הַשָּׂדֶ֑ה (2416c/d7704b, HNcfsc+HTd/Ncmsa, 'animal/ser vivo do campo') no mesmo verso — duas raízes hebraicas diferentes para duas categorias de animal. KJV mantém a distinção: 'all cattle' vs 'every beast of the field'; WEB também: 'all livestock' vs 'every animal of the field'. Nenhum dos dois controles colapsa os termos, e nenhum diverge entre si nesse ponto — confirmam juntos que o original distingue gado de animal selvagem. A objeção é procedente: 'todo animal' para הַבְּהֵמָה colide com 'todo animal do campo' logo em seguida no mesmo verso, produzindo redundância lógica ausente do hebraico e do inglês (KJV/WEB), e contradizendo a traducao_literal e o uso da própria BV em Gen.1.24-25 para o mesmo lemma H929. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): A BV verte הַבְּהֵמָה (H929, 'gado/animais domésticos') como 'todo animal', colidindo com 'todo animal do campo' (חַיַּת הַשָּׂדֶה, H2416c) no mesmo verso: a enumeração fica redundante e ilógica em português ('todo animal' já conteria 'todo animal do campo') e a distinção lexical do hebraico desaparece. A cura gramatical da redundância exigiria restaurar 'gado' (ou equivalente) na primeira posição — mudança de sentido lexical, fora do escopo desta revisão. — evidência: traducao_literal: 'a todo o gado, e à ave dos céus, e a todo animal do campo'; KJV: 'all cattle, and to the fowl of the air, and to every beast of the field'; morfologia pinada distingue הַבְּהֵמָה (H929) de חַיַּת (H2416c) — dois lexemas, uma só glosa no publicado. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'a todo animal doméstico', rendering também usado pela BV para H929 em Gen.1.26, foi considerado e descartado em favor de 'gado'",
+          "motivo": "porque replica exatamente a traducao_literal do próprio registro ('a todo o gado') e o padrão lexical já fixado em Gen.1.24 e Gen.1.25 — evita introduzir um terceiro sinônimo para o mesmo lemma dentro do capítulo 1-2."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: 'a todo animal doméstico', rendering também usado pela BV para H929 em Gen.1.26, foi considerado e descartado em favor de 'gado' porque replica exatamente a traducao_literal do próprio registro ('a todo o gado') e o padrão lexical já fixado em Gen.1.24 e Gen.1.25 — evita introduzir um terceiro sinônimo para o mesmo lemma dentro do capítulo 1-2."
+  ],
   "justificativa": "בְּהֵמָה (gado/animais domésticos) distinto de חַיַּת הַשָּׂדֶה (animal do campo/selvagem).",
   "confianca": 0.73,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): A BV verte הַבְּהֵמָה (H929, 'gado/animais domésticos') como 'todo animal', colidindo com 'todo animal do campo' (חַיַּת הַשָּׂדֶה, H2416c) no mesmo verso: a enumeração fica redundante e ilógica em português ('todo animal' já conteria 'todo animal do campo') e a distinção lexical do hebraico desaparece. A cura gramatical da redundância exigiria restaurar 'gado' (ou equivalente) na primeira posição — mudança de sentido lexical, fora do escopo desta revisão. — evidência: traducao_literal: 'a todo o gado, e à ave dos céus, e a todo animal do campo'; KJV: 'all cattle, and to the fowl of the air, and to every beast of the field'; morfologia pinada distingue הַבְּהֵמָה (H929) de חַיַּת (H2416c) — dois lexemas, uma só glosa no publicado."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

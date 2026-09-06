@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Exod.14.1-31"
   },
-  "texto_bv": "E os filhos de Israel entraram pelo meio do mar em seco; e as águas foram-lhes como muro à sua direita e à sua esquerda.",
+  "texto_bv": "E os filhos de Israel entraram pelo meio do mar em seco; e as águas foram-lhes um muro à sua direita e à sua esquerda.",
   "traducao_literal": "E vieram os filhos de Israel no meio do mar na terra seca, e as águas para eles muro, da sua direita e da sua esquerda.",
   "termos_originais": [
     {
@@ -87,24 +87,37 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "e as águas foram-lhes como muro à sua direita e à sua esquerda. → e as águas foram-lhes um muro à sua direita e à sua esquerda.",
+      "justificativa": "Objeção procedente. Evidência do original: חֹמָה (lemma 2346, HNcfsa, \"muro\") funciona como predicativo nominal de וְהַמַּיִם לָהֶם, sem qualquer preposição comparativa (כְּ) que marcasse símile. traducao_literal: \"as águas para eles muro\" (sem \"como\"). KJV: \"the waters were a wall unto them\"; WEB: \"the waters were a wall to them\" — os dois controles concordam entre si (nenhuma variante textual em jogo) e ambos vertem cópula + predicativo direto, sem partícula equivalente a \"like/as\". A objeção está correta. \"Como muro\" converte em símile o que o hebraico e os dois controles ingleses tratam como metáfora predicativa direta. A tradição de Almeida (ARA) e versões pt-BR contemporâneas de referência (NTLH, NVIPT) usam \"como muro/muralha\" por preferência estilística de fluência, mas a hierarquia desta etapa (morfologia > controles > naturalidade de referência) não deixa margem: sem כְּ no hebraico e sem divergência entre KJV/WEB, o predicativo direto \"um muro\" é a leitura sustentada pelo original. O artigo indefinido \"um\" é exigido pelo português diante de predicativo nominal contável singular (mesmo critério do precedente Gen.1.6, \"Haja um firmamento\", onde רָקִיעַ também é anartro) e não introduz sentido ausente do hebraico. Mesma correção aplicada ao refrão idêntico do v.29. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): “Como muro” converte em símile a metáfora nominal do hebraico: וְהַמַּיִם לָהֶם חֹמָה diz que as águas ERAM para eles muro, sem partícula comparativa. Corrigir (“foram-lhes um muro”) alteraria o sentido figurado do texto aprovado, portanto o texto não muda. — evidência: termos_originais: חֹמָה (HNcfsa) sem כְּ comparativo; traducao_literal: “as águas para eles muro”; KJV: “the waters were a wall unto them”. O mesmo ocorre no v. 29. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"como muro\" (símile), seguindo a convenção estilística de ARA/NTLH/NVIPT para suavizar o predicativo nominal em português,",
+          "motivo": "foi preterida: não há כְּ comparativo no hebraico (חֹמָה é predicativo nu) e os dois controles ingleses, sem divergir entre si, mantêm cópula + predicativo direto (\"were a wall\"), não símile — a hierarquia de autoridade desta etapa prioriza morfologia e controles sobre a praxe estilística das versões pt de referência."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
-  "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "palavras_supridas": [
+    "um — artigo indefinido exigido pelo português diante de predicativo nominal contável singular (\"foram-lhes um muro\"); חֹמָה é anartro no hebraico, sem artigo nem numeral. Mesmo critério do precedente Gen.1.6 (\"Haja um firmamento\")."
+  ],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: \"como muro\" (símile), seguindo a convenção estilística de ARA/NTLH/NVIPT para suavizar o predicativo nominal em português, foi preterida: não há כְּ comparativo no hebraico (חֹמָה é predicativo nu) e os dois controles ingleses, sem divergir entre si, mantêm cópula + predicativo direto (\"were a wall\"), não símile — a hierarquia de autoridade desta etapa prioriza morfologia e controles sobre a praxe estilística das versões pt de referência."
+  ],
   "justificativa": "הַמַּיִם לָהֶם חֹמָה 'as águas lhes eram muro' — proteção e passagem; Paulo lê o mar como batismo (1Co 10:1-2, registrado). YHWH implícito.",
   "confianca": 0.77,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): “Como muro” converte em símile a metáfora nominal do hebraico: וְהַמַּיִם לָהֶם חֹמָה diz que as águas ERAM para eles muro, sem partícula comparativa. Corrigir (“foram-lhes um muro”) alteraria o sentido figurado do texto aprovado, portanto o texto não muda. — evidência: termos_originais: חֹמָה (HNcfsa) sem כְּ comparativo; traducao_literal: “as águas para eles muro”; KJV: “the waters were a wall unto them”. O mesmo ocorre no v. 29."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

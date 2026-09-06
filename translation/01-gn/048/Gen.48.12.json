@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Gen.48.1-22"
   },
-  "texto_bv": "Então José os tirou de junto dos joelhos dele, e inclinou-se à terra diante da sua face.",
+  "texto_bv": "Então José os tirou de junto dos joelhos dele, e inclinou-se com o rosto em terra.",
   "traducao_literal": "E fez sair José a eles de com os seus joelhos, e prostrou-se às suas faces por terra.",
   "termos_originais": [
     {
@@ -66,6 +66,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "à terra diante da sua face → com o rosto em terra",
+      "justificativa": "Objeção procedente. Evidência do original: לְאַפָּ֖יו (l/639, HR/Ncmdc/Sp3ms) — preposição ל + substantivo dual construto 'narinas/rosto' + sufixo 3ms, funcionando como adjunto adverbial de modo do verbo de prostração; o sufixo retoma o sujeito do próprio verbo, não um terceiro. וַיִּשְׁתַּ֥חוּ (c/7812, HC/Vtw3ms) — 'e ele se inclinou/prostrou', 3ms, mesmo sujeito de וַיּוֹצֵא יוֹסֵף no início do verso (José). אָֽרְצָה (776, HNcbsa/Sd) — 'para a terra' (he direcional locativo). Não há לִפְנֵי ('diante de') em nenhum ponto do verso. Mesmo idiotismo (X אַפַּיִם/אַפָּיו אָרְצָה + שׁחה) recorre em Gen.19.1 e Gen.42.6, ambos vertidos pela BV como '...com o rosto em terra' — o texto corrigido apenas alinha Gen.48.12 à própria convenção de tradução já fixada pela BV para esta locução. KJV (baseline) traz 'he bowed himself with his face to the earth' e WEB concorda literalmente — nenhuma divergência entre os controles neste verso, e ambos confirmam a leitura reflexiva ('seu próprio rosto'), não 'diante da face de' outrem. A objeção está correta: o pronome em 'diante da sua face' carecia de antecedente coeso porque a construção de origem não introduz referente externo algum — é erro de regência da preposição לְ, tratada como se fosse לִפְנֵי. A correção resolve a ambiguidade sem introduzir sentido novo, apenas alinhando o verso ao próprio precedente interno da BV para a mesma locução idiomática. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): \"inclinou-se à terra diante da sua face\" tem pronome sem antecedente coeso (face de quem — de Israel? dos meninos?) e não corresponde ao hebraico pinado: לְאַפָּיו traz sufixo 3ms referido ao próprio José — ele prostrou-se \"com o seu rosto em terra\", e não \"diante da face\" de outrem. Sanar a coesão pronominal exigiria retraduzir a locução, o que muda o sentido; fora do escopo do revisor gramatical. — evidência: termos_originais: וַיִּשְׁתַּחוּ (7812, HC/Vtw3ms) + לְאַפָּיו (l/639, HR/Ncmdc/Sp3ms — \"narinas/rosto\" dele) + אָרְצָה (776 + he direcional, \"por terra\"); traducao_literal \"prostrou-se às suas faces por terra\"; KJV \"he bowed himself with his face to the earth\". Não há preposição \"diante de\" no verso. Nota textual: Alinhamento por conteúdo confirmado: vizinho v.11 (Israel diz a José que não esperava ver seu rosto) e v.13 (José toma Efraim e Manassés) batem entre KJV e WEB e com a BV — sem deslocamento de versificação. KJV e WEB trazem o mesmo texto para o v.12, sem variante textual. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
@@ -74,16 +81,13 @@
   "confianca": 0.74,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): \"inclinou-se à terra diante da sua face\" tem pronome sem antecedente coeso (face de quem — de Israel? dos meninos?) e não corresponde ao hebraico pinado: לְאַפָּיו traz sufixo 3ms referido ao próprio José — ele prostrou-se \"com o seu rosto em terra\", e não \"diante da face\" de outrem. Sanar a coesão pronominal exigiria retraduzir a locução, o que muda o sentido; fora do escopo do revisor gramatical. — evidência: termos_originais: וַיִּשְׁתַּחוּ (7812, HC/Vtw3ms) + לְאַפָּיו (l/639, HR/Ncmdc/Sp3ms — \"narinas/rosto\" dele) + אָרְצָה (776 + he direcional, \"por terra\"); traducao_literal \"prostrou-se às suas faces por terra\"; KJV \"he bowed himself with his face to the earth\". Não há preposição \"diante de\" no verso."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

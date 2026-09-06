@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Exod.19.1-25"
   },
-  "texto_bv": "E disse o SENHOR a Moisés: Eis que eu virei a você numa nuvem espessa, para que o povo ouça, quando eu falar com você, e para que também creiam em você eternamente. Porque Moisés tinha anunciado as palavras do seu povo ao SENHOR.",
+  "texto_bv": "E disse o SENHOR a Moisés: Eis que eu virei a você numa nuvem espessa, para que o povo ouça, quando eu falar com você, e para que também creiam em você eternamente. Porque Moisés tinha anunciado as palavras do povo ao SENHOR.",
   "traducao_literal": "E disse YHWH a Moisés: Eis que eu vindo a ti na densidade da nuvem, para que ouça o povo no meu falar contigo, e também em ti creiam para sempre. E anunciou Moisés as palavras do povo a YHWH.",
   "termos_originais": [
     {
@@ -170,24 +170,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "as palavras do seu povo ao SENHOR → as palavras do povo ao SENHOR",
+      "justificativa": "Objeção procedente. Evidência do original: דִּבְרֵ֥י הָעָ֖ם — דָּבָר (H1697, 'palavra', construto plural Ncmpc) + הָעָם (H5971 com artigo, HTd/Ncmsa: Td = artigo definido, Ncmsa = substantivo comum masculino singular absoluto). Não há Sp (sufixo pronominal) preso a הָעָם. KJV: 'Moses told the words of the people unto the Lord'; WEB: 'Moses told the words of the people to Yahweh' — nenhuma das duas insere posse. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O texto traz “as palavras do seu povo”, mas o hebraico tem apenas “as palavras do povo”, sem sufixo possessivo; o possessivo acrescenta um vínculo (“seu povo”) que o original não afirma. — evidência: דִּבְרֵי הָעָם — הָעָם com morfologia HTd/Ncmsa (artigo + substantivo, sem sufixo); a camada literal dá “as palavras do povo”, e a KJV confere: “the words of the people”. Corrigir exigiria suprimir “seu”, o que altera o sentido e excede a revisão de forma. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'as palavras do seu povo' (supondo que o artigo definido hebraico precisaria, em português, de um possessivo explícito para não soar ambíguo quanto a que povo se refere)",
+          "motivo": "perde porque o cotexto imediato (v.8-9 tratam do mesmo 'o povo' reunido ao pé do monte) já desambigua 'o povo' em português sem posse, exatamente como o artigo הָ faz no hebraico; nem KJV nem WEB, testemunhas concordantes, sentem necessidade de possessivo."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: 'as palavras do seu povo' (supondo que o artigo definido hebraico precisaria, em português, de um possessivo explícito para não soar ambíguo quanto a que povo se refere) — perde porque o cotexto imediato (v.8-9 tratam do mesmo 'o povo' reunido ao pé do monte) já desambigua 'o povo' em português sem posse, exatamente como o artigo הָ faz no hebraico; nem KJV nem WEB, testemunhas concordantes, sentem necessidade de possessivo."
+  ],
   "justificativa": "בְּעַב הֶעָנָן 'na espessura da nuvem' — Deus se revela velado; o povo ouve para crer em Moisés como mediador. YHWH→SENHOR.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O texto traz “as palavras do seu povo”, mas o hebraico tem apenas “as palavras do povo”, sem sufixo possessivo; o possessivo acrescenta um vínculo (“seu povo”) que o original não afirma. — evidência: דִּבְרֵי הָעָם — הָעָם com morfologia HTd/Ncmsa (artigo + substantivo, sem sufixo); a camada literal dá “as palavras do povo”, e a KJV confere: “the words of the people”. Corrigir exigiria suprimir “seu”, o que altera o sentido e excede a revisão de forma."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 29,
     "pericope": "Exod.14.1-31"
   },
-  "texto_bv": "Mas os filhos de Israel caminharam em seco pelo meio do mar; e as águas foram-lhes como muro à sua direita e à sua esquerda.",
+  "texto_bv": "Mas os filhos de Israel caminharam em seco pelo meio do mar; e as águas foram-lhes um muro à sua direita e à sua esquerda.",
   "traducao_literal": "E os filhos de Israel andaram na terra seca no meio do mar, e as águas para eles muro, da sua direita e da sua esquerda.",
   "termos_originais": [
     {
@@ -81,24 +81,37 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "e as águas foram-lhes como muro à sua direita e à sua esquerda. → e as águas foram-lhes um muro à sua direita e à sua esquerda.",
+      "justificativa": "Objeção procedente. Evidência do original: חֹמָה (lemma 2346, HNcfsa, \"muro\") — predicativo nominal de וְהַמַּיִם לָהֶם, idêntico ao v.22, sem preposição comparativa כְּ. traducao_literal: \"as águas para eles muro\" (sem \"como\"). KJV: \"the waters were a wall unto them\"; WEB: \"the waters were a wall to them\" — controles concordam entre si, sem variante textual, e ambos vertem metáfora direta. Mesma fundamentação do v.22: \"como muro\" converte em símile a metáfora predicativa direta do original; a hierarquia desta etapa (morfologia > controles > praxe estilística de ARA/NTLH/NVIPT) sustenta a correção. Como o v.29 repete integralmente a cláusula hebraica do v.22 (refrão consciente do próprio texto, já observado pela objeção e pela revisão anterior), manter a correção nos dois versos preserva a consistência lexical intracapítulo exigida por EDITORIAL.md §1.4 — corrigir um e não o outro criaria variação onde o hebraico não varia. O artigo indefinido \"um\" segue o mesmo critério gramatical do v.22 (precedente Gen.1.6). Objeções fechadas: Objeção MATERIAL (revisão ER-0019): “Como muro” converte em símile a metáfora nominal do hebraico (וְהַמַּיִם לָהֶם חֹמָה, “as águas eram para eles muro”), como no v. 22; a correção alteraria o sentido figurado, portanto o texto não muda. — evidência: termos_originais: חֹמָה sem כְּ comparativo; traducao_literal: “as águas para eles muro”; KJV: “the waters were a wall unto them”. A repetição integral da cláusula em relação ao v. 22 é refrão do próprio original e foi corretamente preservada. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "\"como muro\" (símile) foi preterida pelo mesmo motivo do v.22: não há כְּ comparativo no hebraico e os dois controles ingleses, sem divergir entre si, mantêm cópula + predicativo direto (\"were a wall\"), não símile.",
+          "motivo": "Leitura descartada — motivo não isolável automaticamente do texto acima; ver o parágrafo completo em ambiguidades_preservadas."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
-  "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "palavras_supridas": [
+    "um — artigo indefinido exigido pelo português diante de predicativo nominal contável singular (\"foram-lhes um muro\"); חֹמָה é anartro no hebraico, sem artigo nem numeral. Mesmo critério do precedente Gen.1.6 (\"Haja um firmamento\") e do v.22 deste capítulo."
+  ],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: \"como muro\" (símile) foi preterida pelo mesmo motivo do v.22: não há כְּ comparativo no hebraico e os dois controles ingleses, sem divergir entre si, mantêm cópula + predicativo direto (\"were a wall\"), não símile."
+  ],
   "justificativa": "Contraste final: Israel a salvo em terra seca, o Egito submerso — os dois destinos das mesmas águas (a distinção de 8:18; 11:7 consumada).",
   "confianca": 0.77,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): “Como muro” converte em símile a metáfora nominal do hebraico (וְהַמַּיִם לָהֶם חֹמָה, “as águas eram para eles muro”), como no v. 22; a correção alteraria o sentido figurado, portanto o texto não muda. — evidência: termos_originais: חֹמָה sem כְּ comparativo; traducao_literal: “as águas para eles muro”; KJV: “the waters were a wall unto them”. A repetição integral da cláusula em relação ao v. 22 é refrão do próprio original e foi corretamente preservada."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

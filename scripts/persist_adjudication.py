@@ -10,7 +10,8 @@ inalterado`) stays untouched — see docs/adr/ADR-0005.
 Guards enforced mechanically, all chapters validated BEFORE any write:
 
   * exact coverage — one output verse per packet verse, no invention;
-  * records must be DRAFT, and must still carry an open objection;
+  * records must be at the expected pre-adjudication status (`-status`,
+    default DRAFT), and must still carry an open objection;
   * PROCEDE is the only verdict that may change texto_bv, and the new text
     must be reconstructible from `mudancas` (antes -> depois applied to the
     stored text must yield texto_bv_final) — an unlogged edit is refused,
@@ -30,15 +31,28 @@ Guards enforced mechanically, all chapters validated BEFORE any write:
   * PROCEDE and IMPROCEDE close the objection; INCONCLUSIVA keeps it open;
   * `-final` (maintainer's call, 2026-08-30) refuses INCONCLUSIVA outright:
     every objection must come back decided. A rejected-but-defensible reading
-    declared in `leitura_rejeitada` is appended to `ambiguidades_preservadas`,
-    so forcing a decision narrows the text without erasing the crux from the
-    record;
-  * every outcome is logged in `decisoes` with diretriz_ref ER-0020;
+    declared in `leitura_rejeitada` is appended to `ambiguidades_preservadas`
+    verbatim AND split (`split_rejeitada`) into the schema's
+    `{opcao, motivo}` for `decisoes[].alternativas_rejeitadas` — the original
+    ER-0020 code stored it as a bare string there (schema wants an object),
+    the root cause of F-0023 (DECISOES.md); forcing a decision narrows the
+    text without erasing the crux from the record, and without corrupting
+    the schema either;
+  * every outcome is logged in `decisoes` with diretriz_ref set to `-er`
+    (default ER-0020);
   * `fontes` re-pinned for the cycle (ER-0010).
 
 Usage:
   python3 scripts/persist_adjudication.py <adjudication-out/chapter.json> ... \
-      [-modelo claude-fable-5]
+      [-modelo claude-fable-5] [-status DRAFT] [-er ER-0020]
+
+`-status` is the precondition gate (default DRAFT, matching ER-0020's
+original cycle); pass the record's actual pre-adjudication status when
+adjudicating an already-APPROVED canon (e.g. `-status APPROVED` for
+ER-0023, which reopens objections left by ER-0022 after ER-0021 promoted
+the whole canon). `-er` is the provenance tag stamped into diretriz_ref,
+questao, justificativa and the leitura_rejeitada marker (default ER-0020);
+pass the adjudicating cycle's own ER number for any cycle after the first.
 
 Zero third-party deps.
 """
@@ -46,6 +60,7 @@ import argparse
 import importlib.util
 import json
 import os
+import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -93,7 +108,7 @@ def apply_mudancas(text, mudancas):
     return text
 
 
-def validate_chapter(out, packet, records, final=False):
+def validate_chapter(out, packet, records, status="DRAFT", final=False):
     """Return list of error strings for one adjudication-out chapter."""
     errors = []
     want = [v["osis"] for v in packet["versos"]]
@@ -109,9 +124,9 @@ def validate_chapter(out, packet, records, final=False):
             errors.append("%s: registro inexistente" % osis)
             continue
         rec = records[osis][1]
-        if rec.get("status") != "DRAFT":
-            errors.append("%s: status %s não é DRAFT (recusado)"
-                          % (osis, rec.get("status")))
+        if rec.get("status") != status:
+            errors.append("%s: status %s não é %s (recusado)"
+                          % (osis, rec.get("status"), status))
             continue
         if not (rec.get("objecoes_nao_resolvidas") or []):
             errors.append("%s: registro não tem objeção aberta" % osis)
@@ -195,7 +210,39 @@ def _close_objections(rec):
     rec.pop("objecoes_nao_resolvidas", None)
 
 
-def apply_chapter(out, records, modelo):
+# `leitura_rejeitada` is one free-text paragraph (option + why it lost, per
+# the adjudicador-objecoes.md instruction); the schema's
+# `alternativas_rejeitadas` wants `{opcao, motivo}`. Split on the marker the
+# agent's own prose almost always uses to pivot from describing the option
+# to arguing why it lost — same convention as the F-0023 manual repairs
+# (DECISOES.md) of the ER-0020-era records this exact gap first surfaced in.
+# A `rejeitada` string with no marker degrades to opcao=texto
+# integral/motivo=aviso explícito — never silently drops content, and the
+# full paragraph is always ALSO preserved verbatim in
+# `ambiguidades_preservadas`.
+_REJEITADA_MARKERS = re.compile(
+    "(" + "|".join([
+        r"perde porque", r"perde pel[oa]s?", r"perdeu porque",
+        r"foi preterid[oa]:?\s*porque", r"preterid[oa]:?\s*porque",
+        r"foi preterid[oa]:", r"preterid[oa]:",
+        r"descartad[oa]:?\s*porque", r"rejeitad[oa]:?\s*porque",
+        r"considerad[oa] e (?:descartad[oa]|rejeitad[oa]):",
+        r"considerad[oa] e (?:descartad[oa]|rejeitad[oa]) porque",
+    ]) + ")", re.IGNORECASE)
+_REJEITADA_FALLBACK = re.compile(r"\bporque\b", re.IGNORECASE)
+
+
+def split_rejeitada(texto):
+    """`leitura_rejeitada` free text -> {opcao, motivo}, content-preserving."""
+    m = _REJEITADA_MARKERS.search(texto) or _REJEITADA_FALLBACK.search(texto)
+    if m:
+        return texto[:m.start()].strip(" .;—-"), texto[m.start():].strip()
+    return texto, ("Leitura descartada — motivo não isolável automaticamente "
+                   "do texto acima; ver o parágrafo completo em "
+                   "ambiguidades_preservadas.")
+
+
+def apply_chapter(out, records, modelo, er="ER-0020"):
     """Mutate + rewrite records. Return (procede, improcede, inconclusiva)."""
     procede = improcede = inconclusiva = 0
     for v in out["versos"]:
@@ -210,7 +257,7 @@ def apply_chapter(out, records, modelo):
         sufixo = (" Nota textual: " + nota) if nota else ""
         if rejeitada:
             ambig = rec.setdefault("ambiguidades_preservadas", [])
-            marcada = "Leitura descartada na adjudicação ER-0020: " + rejeitada
+            marcada = "Leitura descartada na adjudicação " + er + ": " + rejeitada
             if marcada not in ambig:
                 ambig.append(marcada)
 
@@ -228,42 +275,51 @@ def apply_chapter(out, records, modelo):
                                               m.get("depois", ""))
                                  for m in v["mudancas"])
             rec.setdefault("decisoes", []).append({
-                "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+                "questao": "Adjudicação de objeção MATERIAL (%s)" % er,
                 "escolha": escolha,
                 "justificativa": "Objeção procedente. Evidência do original: "
                                  + evid + (" " + fund if fund else "")
                                  + " Objeções fechadas: "
                                  + " || ".join(abertas) + sufixo
-                                 + " (ER-0020, controles KJV/WEB).",
-                "alternativas_rejeitadas": ([rejeitada] if rejeitada else []),
-                "diretriz_ref": "ER-0020",
+                                 + " (%s, controles KJV/WEB)." % er,
+                "alternativas_rejeitadas": ([{"opcao": o, "motivo": m}
+                                            for o, m in
+                                            [split_rejeitada(rejeitada)]]
+                                           if rejeitada else []),
+                "diretriz_ref": er,
             })
             _close_objections(rec)
             procede += 1
         elif verdict == "IMPROCEDE":
             rec.setdefault("decisoes", []).append({
-                "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+                "questao": "Adjudicação de objeção MATERIAL (%s)" % er,
                 "escolha": "texto mantido — objeção improcedente",
                 "justificativa": fund + (" Evidência do original: " + evid
                                          if evid else "")
                                  + " Objeções fechadas: "
                                  + " || ".join(abertas) + sufixo
-                                 + " (ER-0020, controles KJV/WEB).",
-                "alternativas_rejeitadas": ([rejeitada] if rejeitada else []),
-                "diretriz_ref": "ER-0020",
+                                 + " (%s, controles KJV/WEB)." % er,
+                "alternativas_rejeitadas": ([{"opcao": o, "motivo": m}
+                                            for o, m in
+                                            [split_rejeitada(rejeitada)]]
+                                           if rejeitada else []),
+                "diretriz_ref": er,
             })
             _close_objections(rec)
             improcede += 1
         else:  # INCONCLUSIVA — objeção segue bloqueando APPROVED
             rec.setdefault("decisoes", []).append({
-                "questao": "Adjudicação de objeção MATERIAL (ER-0020)",
+                "questao": "Adjudicação de objeção MATERIAL (%s)" % er,
                 "escolha": "inconclusiva — escalada ao mantenedor",
                 "justificativa": (fund or "Evidência disponível não decide.")
                                  + (" Evidência do original: " + evid
                                     if evid else "") + sufixo
-                                 + " Objeção mantida aberta (ER-0020).",
-                "alternativas_rejeitadas": ([rejeitada] if rejeitada else []),
-                "diretriz_ref": "ER-0020",
+                                 + " Objeção mantida aberta (%s)." % er,
+                "alternativas_rejeitadas": ([{"opcao": o, "motivo": m}
+                                            for o, m in
+                                            [split_rejeitada(rejeitada)]]
+                                           if rejeitada else []),
+                "diretriz_ref": er,
             })
             inconclusiva += 1
 
@@ -280,6 +336,13 @@ def main(argv=None):
     ap.add_argument("out_files", nargs="+")
     ap.add_argument("-modelo", default=os.environ.get("BV_MODEL",
                                                       "claude-fable-5"))
+    ap.add_argument("-status", default="DRAFT",
+                    help="status exigido dos registros antes da adjudicação "
+                         "(default DRAFT; use APPROVED quando o cânone já "
+                         "foi promovido antes do ciclo de adjudicação)")
+    ap.add_argument("-er", default="ER-0020",
+                    help="diretriz de proveniência gravada em decisoes[] "
+                         "(default ER-0020)")
     ap.add_argument("-final", action="store_true",
                     help="recusa INCONCLUSIVA: toda objeção sai decidida")
     args = ap.parse_args(argv)
@@ -294,7 +357,8 @@ def main(argv=None):
         chap_dir = os.path.join(ROOT, "translation", out["book_dir"],
                                 "%03d" % int(out["chapter"]))
         records, _ = review.load_chapter_records(chap_dir)
-        errors = validate_chapter(out, packet, records, final=args.final)
+        errors = validate_chapter(out, packet, records, status=args.status,
+                                  final=args.final)
         if errors:
             print("ERROS em %s:" % path)
             for e in errors:
@@ -304,7 +368,7 @@ def main(argv=None):
 
     tp = ti = tn = 0
     for out, records in staged:
-        p, i, n = apply_chapter(out, records, args.modelo)
+        p, i, n = apply_chapter(out, records, args.modelo, er=args.er)
         tp += p
         ti += i
         tn += n

@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "1Chr.5.1-41"
   },
-  "texto_bv": "Estes foram os chefes das casas de seus pais: Efer, Isi, Eliel, Azriel, Jeremias, Hodavias e Jadiel — homens valentes e de renome.",
+  "texto_bv": "Estes foram os chefes das casas de seus pais: Efer, Isi, Eliel, Azriel, Jeremias, Hodavias e Jadiel — homens valentes e de renome, chefes das casas de seus pais.",
   "traducao_literal": "E estes, chefes da casa de seus pais: e Efer, e Isi, e Eliel, e Azriel, e Jeremias, e Hodavias, e Jadiel; homens, valentes de força, homens de nomes, chefes para a casa de seus pais.",
   "termos_originais": [
     {
@@ -142,23 +142,34 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "homens valentes e de renome. → homens valentes e de renome, chefes das casas de seus pais.",
+      "justificativa": "Objeção procedente. Evidência do original: Sequência final do versículo: אַנְשֵׁי (376) שֵׁמוֹת (8034) רָאשִׁים (7218 a) לְבֵית (l/1004 b) אֲבוֹתָם (1) — repete os mesmos três lemas (7218 a / 1004 b / 1) de רָאשֵׁי בֵית אֲבוֹתָם na abertura do versículo. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): O texto_bv registra ‘chefes das casas de seus pais’ apenas uma vez, no início do versículo; a morfologia pinada mostra רָאשִים לְבֵית אֲבוֹתָם repetido ao final do versículo, depois de ‘homens valentes... homens de nomes’, formando um inclusio que a KJV e a própria traducao_literal preservam duas vezes. Restaurar a segunda ocorrência excede correção de forma — acrescentaria conteúdo ao verso. — evidência: termos_originais: sequência final ...אַנְשֵׁי שֵׁמוֹת רָאשִית (lemma 7218 a) לְבֵית (l/1004 b) אֲבוֹתָֽם (1) — mesma tríade de lemas da abertura; traducao_literal repete no fim: ‘...homens de nomes, chefes para a casa de seus pais’; KJV repete: ‘...famous men, and heads of the house of their fathers’. texto_bv fecha só com ‘homens valentes e de renome’, sem a repetição final. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura enxuta, sem a repetição final ('chefes da casa de seus pais' dito uma única vez), defensável como economia estilística contra redundância em português contemporâneo",
+          "motivo": "Perde porque a repetição não é redundância editorial: é inclusio deliberado do TM, preservado por KJV, WEB e pela própria traducao_literal da BV. Suprimi-la remove conteúdo presente no original, o que excede simplificação de forma e passa a ser perda de conteúdo."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [
     "foram — fornece a cópula da identificação nominal"
   ],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Leitura enxuta, sem a repetição final ('chefes da casa de seus pais' dito uma única vez), defensável como economia estilística contra redundância em português contemporâneo. Perde porque a repetição não é redundância editorial: é inclusio deliberado do TM, preservado por KJV, WEB e pela própria traducao_literal da BV. Suprimi-la remove conteúdo presente no original, o que excede simplificação de forma e passa a ser perda de conteúdo."
+  ],
   "justificativa": "Os sete chefes, sua valentia, renome e função ancestral permanecem na ordem e com a repetição final da fonte.",
   "confianca": 0.78,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): O texto_bv registra ‘chefes das casas de seus pais’ apenas uma vez, no início do versículo; a morfologia pinada mostra רָאשִים לְבֵית אֲבוֹתָם repetido ao final do versículo, depois de ‘homens valentes... homens de nomes’, formando um inclusio que a KJV e a própria traducao_literal preservam duas vezes. Restaurar a segunda ocorrência excede correção de forma — acrescentaria conteúdo ao verso. — evidência: termos_originais: sequência final ...אַנְשֵׁי שֵׁמוֹת רָאשִית (lemma 7218 a) לְבֵית (l/1004 b) אֲבוֹתָֽם (1) — mesma tríade de lemas da abertura; traducao_literal repete no fim: ‘...homens de nomes, chefes para a casa de seus pais’; KJV repete: ‘...famous men, and heads of the house of their fathers’. texto_bv fecha só com ‘homens valentes e de renome’, sem a repetição final."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

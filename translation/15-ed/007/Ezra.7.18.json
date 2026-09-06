@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "Ezra.7.1-28"
   },
-  "texto_bv": "Quanto ao restante da prata e do ouro, o que parecer bom a você e a seu irmão fazer, façam segundo a vontade de seu Deus.",
+  "texto_bv": "Quanto ao restante da prata e do ouro, o que parecer bom a você e a seus irmãos fazer, façam segundo a vontade de seu Deus.",
   "traducao_literal": "E o que parecer bom a você e a seu irmão fazer com o restante da prata e do ouro, conforme a vontade de seu Deus façam.",
   "termos_originais": [
     {
@@ -155,6 +155,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "a seu irmão → a seus irmãos",
+      "justificativa": "Objeção procedente. Evidência do original: אחיך — lemma 252, morfologia ANcmpc/Sp2ms (Ncmpc = substantivo comum masculino plural construto; Sp2ms = sufixo pronominal 2ms) = 'teus/seus irmãos'. Contraste com עליך (AR/Sp2ms, 'a ti/você', singular, mantido) confirma que só o irmão é plural, não o destinatário principal. KJV: 'to thee, and to thy brethren' — WEB: 'to you and to your brothers' — os dois controles concordam entre si em plural, sem divergência textual. A objeção procede: o texto_bv trazia 'seu irmão' no singular, mas a morfologia pinada do aramaico marca אחיך como plural construto, e KJV/WEB confirmam o plural sem divergir entre si (não é caso de variante textual). A traducao_literal registrada ('a seu irmão') preserva o entendimento original do tradutor e não é reescrita; a correção afeta apenas o texto_bv, que passa a refletir a morfologia: Artaxerxes autoriza Esdras e 'seus irmãos' (o grupo que o acompanha) a decidir o destino do restante da prata e do ouro. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): texto_bv traz 'seu irmão' no singular (um único irmão) onde o aramaico e a KJV indicam plural ('seus irmãos'/'thy brethren'), alterando quantas pessoas são referidas ao lado de Esdras. — evidência: termos_originais: אחיך, lemma 252, morfologia ANcmpc/Sp2ms (substantivo comum masculino PLURAL construto + sufixo 2ms) = 'teus/seus irmãos'; controles.kjv.texto: 'to thee, and to thy brethren' (plural). A própria traducao_literal já traz 'a seu irmão' no singular, então a correção exigiria mudar o sentido herdado da camada literal, não apenas a forma. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
@@ -165,12 +172,9 @@
   "confianca": 0.69,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): texto_bv traz 'seu irmão' no singular (um único irmão) onde o aramaico e a KJV indicam plural ('seus irmãos'/'thy brethren'), alterando quantas pessoas são referidas ao lado de Esdras. — evidência: termos_originais: אחיך, lemma 252, morfologia ANcmpc/Sp2ms (substantivo comum masculino PLURAL construto + sufixo 2ms) = 'teus/seus irmãos'; controles.kjv.texto: 'to thee, and to thy brethren' (plural). A própria traducao_literal já traz 'a seu irmão' no singular, então a correção exigiria mudar o sentido herdado da camada literal, não apenas a forma."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

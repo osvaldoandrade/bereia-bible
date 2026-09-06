@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Exod.8.1-28"
   },
-  "texto_bv": "Deixe-nos ir caminho de três dias ao deserto, para que sacrifiquemos ao SENHOR nosso Deus, como ele nos dirá.",
+  "texto_bv": "Iremos caminho de três dias ao deserto, e sacrificaremos ao SENHOR nosso Deus, como ele nos dirá.",
   "traducao_literal": "Caminho de três dias iremos no deserto, e sacrificaremos a YHWH, nosso Deus, conforme dirá a nós.",
   "termos_originais": [
     {
@@ -95,24 +95,35 @@
       "justificativa": "Melhoria de forma retida porque o verso porta objeção MATERIAL e o texto deve permanecer idêntico: “como ele nos dirá” pede futuro do subjuntivo — “como ele nos disser” —, pois a instrução ainda não foi dada (כַּאֲשֶׁר יֹאמַר אֵלֵינוּ, referência futura condicional). — evidência: Norma culta: oração conformativa de referência futura exige futuro do subjuntivo; cf. KJV “as he shall command us”. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Deixe-nos ir → Iremos | para que sacrifiquemos → e sacrificaremos",
+      "justificativa": "Objeção procedente. Evidência do original: נֵלֵךְ (H1980, HVqi1cp, 'nós iremos') e וְזָבַ֨חְנוּ֙ (H2076, HC/Vqq1cp, 'e sacrificaremos') — ambos imperfeito/perfeito consecutivo de 1ª pessoa comum plural, tempo declarativo-futuro; nenhum dos dois é forma volitiva, cohortativa ou subordinada de finalidade. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): נֵלֵךְ é 1ª pessoa do plural do imperfeito (“iremos”), declaração de Moisés; “Deixe-nos ir” converte a declaração em pedido de permissão dirigido a Faraó, alterando o ato de fala do verso. Corrigir exigiria reescrever a abertura com mudança de sentido, vedada a esta revisão. — evidência: Morfologia pinada HVqi1cp; traducao_literal: “Caminho de três dias iremos no deserto”; KJV correspondente (8.27): “We will go three days’ journey into the wilderness”. Nota textual: O bloco `controles` do pacote está desalinhado pelo mesmo deslocamento de versificação (TM 8:23 = inglês 8:27): o texto e os vizinhos mostrados (KJV/WEB v.23, 22, 24) tratam da praga de moscas ('divisão entre meu povo e o teu povo'), não da fala de Moisés sobre a jornada de três dias — o conteúdo não bate. Não foi usado como evidência. A citação corretamente alinhada, já embutida na própria objeção ('We will go three days' journey into the wilderness, and sacrifice unto the LORD our God, as he shall command us', KJV Êx 8:27 inglês), foi conferida por conteúdo e confirma o ato de fala declarativo. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'Deixe-nos ir... para que sacrifiquemos' (pedido de permissão) — ecoa o refrão consagrado 'deixa ir o meu povo' (שַׁלַּח, imperativo, Êx 5:1, 7:16 etc.), mas nesse refrão o verbo é שלח ('enviar/soltar') dirigido a Faraó sobre o povo; aqui o verbo é הלך ('ir') na 1ª pessoa do plural, sem marca volitiva. A leitura de pedido",
+          "motivo": "perde porque não há base morfológica para ela neste verso especificamente, e KJV/WEB alinhadas corretamente sustentam a declarativa."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: 'Deixe-nos ir... para que sacrifiquemos' (pedido de permissão) — ecoa o refrão consagrado 'deixa ir o meu povo' (שַׁלַּח, imperativo, Êx 5:1, 7:16 etc.), mas nesse refrão o verbo é שלח ('enviar/soltar') dirigido a Faraó sobre o povo; aqui o verbo é הלך ('ir') na 1ª pessoa do plural, sem marca volitiva. A leitura de pedido perde porque não há base morfológica para ela neste verso especificamente, e KJV/WEB alinhadas corretamente sustentam a declarativa."
+  ],
   "justificativa": "Pragas: rãs, piolhos e moscas (DRAFT, ADR-0002).",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): נֵלֵךְ é 1ª pessoa do plural do imperfeito (“iremos”), declaração de Moisés; “Deixe-nos ir” converte a declaração em pedido de permissão dirigido a Faraó, alterando o ato de fala do verso. Corrigir exigiria reescrever a abertura com mudança de sentido, vedada a esta revisão. — evidência: Morfologia pinada HVqi1cp; traducao_literal: “Caminho de três dias iremos no deserto”; KJV correspondente (8.27): “We will go three days’ journey into the wilderness”."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

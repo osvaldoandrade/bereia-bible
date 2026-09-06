@@ -478,6 +478,76 @@ Ver `docs/domain/governanca/glossary.md`.
   entrada para dividir a string em opção/motivo sem perder conteúdo, não é
   mecânico como os fixes de proveniência acima.
 
+## ER-0023 — Adjudicação das objeções MATERIAIS remanescentes (ADR-0005)
+
+- Data: 2026-09-06 · Escopo: programa · Origem: determinação do mantenedor
+  ("atue como mantenedor e resolva as adjudicações pendentes. EU APROVO") ·
+  Status: **CONCLUÍDA**
+- Problema: `build_adjudication_input.py` é agnóstico de diretriz — ao rodar,
+  achou não as 36 objeções do ER-0022 esperadas, mas **82 objeções abertas em
+  65 capítulos**: as 36 do ER-0022 mais **46 objeções tag ER-0019** órfãs, de
+  capítulos de Gênesis cuja revisão editorial (Gn 9, 36, 37, 41, 45-48 etc.)
+  terminou de commitar **depois** que o ER-0020 original já havia fechado seus
+  241/241 — nunca tiveram ciclo de adjudicação. Sinalizado ao mantenedor e,
+  como o pedido foi "resolva as adjudicações pendentes" sem qualificar a
+  origem, as duas filas foram drenadas juntas neste ciclo.
+- Mecanismo idêntico ao ER-0020 (mesmo driver
+  `adjudicate-objections-driver.workflow.js`, mesmo prompt
+  `adjudicador-objecoes.md` v2.0.0, KJV baseline de sentido + WEB segundo
+  controle, `termos_originais` como autoridade textual, modo `final` —
+  INCONCLUSIVA proibida, decisão do mantenedor de 2026-08-30 mantida).
+- Correção de proveniência exigida antes de rodar (mesmo padrão dos fixes do
+  ER-0022 em `persist_review.py`/`ship_review_batch.py`): `persist_adjudication.py`
+  fixava no código `status != "DRAFT"` e a string `"ER-0020"` em
+  `diretriz_ref`/`questao`/`justificativa`/marcador de `leitura_rejeitada`.
+  Como o cânone já é APPROVED (ER-0021) e a diretriz correta é ER-0023, ambos
+  viraram parâmetro (`-status`, default `DRAFT`; `-er`, default `ER-0020` —
+  preserva o comportamento histórico default a default). Este ciclo rodou com
+  `-status APPROVED -er ER-0023`.
+- **Achado mais profundo, na validação pré-persist**: `apply_chapter` sempre
+  gravou `decisoes[].alternativas_rejeitadas` como `[rejeitada]` — uma string
+  solta, não o objeto `{opcao, motivo}` que o schema exige. Essa linha, nunca
+  corrigida na fonte, é a **causa raiz do F-0023** (os 160 registros achados
+  durante o ER-0022 vieram todos "do mesmo padrão de escrita em ER-0020" — é
+  este). Rodar o persistidor sem corrigi-lo teria reintroduzido o defeito nos
+  65 capítulos deste ciclo (confirmado: 66 registros teriam saído malformados
+  — `bvcheck` pegou no primeiro lote antes de qualquer commit). Corrigido na
+  fonte: `split_rejeitada()` parte o parágrafo livre do adjudicador em
+  `{opcao, motivo}` pelo marcador que a própria prosa do prompt convenciona
+  ("perde porque" e variantes — "preterida:", "foi considerada e rejeitada:"
+  etc.); sem marcador, `opcao` guarda o texto integral e `motivo` é um aviso
+  explícito, nunca um resumo inventado. O texto completo também continua
+  preservado verbatim em `ambiguidades_preservadas`, como sempre. Teste que
+  fixava o contrato antigo (string solta) corrigido para o novo formato mais
+  um teste do caminho sem marcador.
+- **Resultado: 82/82 objeções resolvidas — zero abertas.** 74 procedentes
+  (sentido corrigido), 8 improcedentes (texto mantido), 0 inconclusivas.
+  Cobertura exata pacote↔saída confirmada nos 65 capítulos antes do persist.
+- 6 registros exigiram reconciliação de `palavras_supridas` (guarda F-0019):
+  a correção reescreveu a própria frase que carregava a entrada suprida de um
+  ciclo anterior, órfã na saída (Exod.27.8 'eles', Exod.29.38 'todos os
+  dias', Num.31.21 'haviam voltado', 1Sam.22.9 'que estava entre',
+  2Sam.24.12 'contra', 1Chr.15.13 'estavam presentes'). Declaradas em
+  `palavras_supridas_removidas` — bookkeeping mecânico, `texto_bv_final` não
+  mudou por causa disso.
+- Achado de peso análogo ao TR-barrier do ER-0020 (aqui não há TR — AT usa
+  WLC/OSHB —, mas a mesma disciplina de não deixar controle inglês ditar
+  texto): 2Rs 19.31 tem a KJV incluindo "of hosts" (harmonização com Is 37.32,
+  tradição TR do NT que ecoa aqui) contra a WEB sem o título; o adjudicador
+  reconheceu a diferença como tradição de tradução, não variante do TM, e não
+  a seguiu. Mais 8 vereditos com `controles_divergem: true`, todos
+  classificados como estilo/regência de tradução e não variante manuscrita
+  (Gn 41.8, Êx 9.15, Êx 9.16, 2Cr 32.19, Jó 13.16, Sl 72.16, Ec 4.14, Os 1.6).
+- Modelo: `claude-sonnet-5` em todos os 65 capítulos (verificado no journal —
+  `agent-*.jsonl`, campo `message.model` — de cada um dos 5 lotes, não só no
+  `meta.json` do driver), mesmo par de [[revisao-er0019-usar-sonnet]].
+- `bvcheck`: 65/65 capítulos tocados limpos; varredura full-canon (1189
+  capítulos) fecha em 37 falhas, todas o remanescente NT do F-0023
+  (inalterado por este ciclo — confirmado via `git status` nos livros
+  afetados antes e depois do persist).
+- Status permanece **APPROVED** em todo o registro tocado: adjudicar objeção
+  não regride a FSM: fecha `objecoes_nao_resolvidas`, não reabre DRAFT/REVIEW.
+
 ---
 
 ## Follow-ups abertos
@@ -542,4 +612,14 @@ Ver `docs/domain/governanca/glossary.md`.
   **NT: 37 registros permanecem malformados** (Mt, Mc, Lc, Jo, At, Rm, 1Co,
   Gl, Ef, Cl, 1Tm, Hb, Tg, 1Pe, 1Jo, 2Jo, Jd, Ap) — fora do escopo do ER-0022
   (AT apenas); reparo é o mesmo procedimento, só não foi feito por não haver
-  driver de revisão rodando sobre o NT nesta rodada. Dono: mantenedor.
+  driver de revisão rodando sobre o NT nesta rodada.
+  **Causa raiz corrigida em 2026-09-06 (ER-0023)**: os 160 registros nunca
+  foram um acidente de digitação — `persist_adjudication.py:apply_chapter`
+  sempre gravou `[rejeitada]` (string solta) em vez do objeto exigido; a
+  linha nunca tinha sido tocada desde o ER-0020 original. Substituída por
+  `split_rejeitada()` (marcador "perde porque"/variantes; sem marcador,
+  preserva o texto integral em `opcao` com aviso explícito em `motivo` — nunca
+  reescreve conteúdo). Todo ciclo de adjudicação futuro sai correto por
+  construção; os 37 registros NT remanescentes continuam existindo apenas
+  porque ninguém rodou o driver sobre eles ainda, não porque o persistidor
+  ainda quebre o formato. Dono: mantenedor.

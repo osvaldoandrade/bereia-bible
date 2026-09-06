@@ -183,23 +183,33 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "texto mantido — objeção improcedente",
+      "justificativa": "A objeção aponta corretamente que 'lhes' não concorda em número com 'o porteiro da cidade' (singular) se lido isoladamente em português — mas a própria evidência que ela cita derruba o pedido de correção: o hebraico pinado traz לָהֶם֙ com sufixo 3mp mesmo tendo שֹׂעֵר הָעִיר no singular construto, e a KJV reproduz o mesmíssimo descompasso ('called unto the porter... and they told them'), o que descarta leitura de erro de cópia isolado da BV. O vizinho do controle no v.11 confirma que o TM entende o posto como plural ('he called the porters' / הַשֹּׁעֲרִים), de modo que o 'lhes' do v.10 antecipa esse referente coletivo do cargo de guarda, não um erro de concordância com 'porteiro'. Corrigir para 'lhe' apagaria uma marca de pluralidade explícita do texto-fonte para satisfazer uma concordância gramatical que o próprio TM não faz; a BV está correta em manter 'lhes'. Evidência do original: לָהֶם֙ (lemma 'l', morfologia HR/Sp3mp) — sufixo pronominal de 3ª pessoa masculino plural preso à preposição ל, regendo וַיַּגִּ֤ידוּ, mesmo com שֹׁעֵ֣ר הָעִיר֒ (H7778, HNcmsc) no singular construto como objeto de אֶל...קרא no mesmo versículo. O TM marca a pluralidade no pronome de destinatário, não no substantivo 'porteiro'. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): O pronome ‘lhes’ (plural) não concorda em número com ‘o porteiro da cidade’ (singular), o antecedente sintático mais próximo — lido isoladamente, soa como erro de concordância em português. — evidência: O hebraico pinado traz de fato לָהֶם֙ com sufixo de 3ª pessoa masculino plural (lemma ‘l’, morfologia HR/Sp3mp) mesmo com שֹׂעֵ֣ר הָעִיר֒ no singular construto (HNcmsc); a KJV reproduz o mesmo descompasso (‘called unto the porter... and they told them’). O v.11 confirma a pluralidade com הַשֹּׁעֲרִים (‘os porteiros’). Corrigir ‘lhes’ para ‘lhe’ apagaria essa marca de pluralidade explícita do TM; por isso o texto não é alterado. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'lhe' (singular, concordando com 'o porteiro da cidade')",
+          "motivo": "perde porque לָהֶם֙ traz sufixo pronominal explicitamente plural (HR/Sp3mp) no TM, replicado pela KJV ('they told them'), e o posto é confirmado plural pelo vizinho do controle no v.11 (הַשֹּׁעֲרִים / 'the porters'); singularizar o pronome apagaria essa marca textual do original."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
-    "שֹׁעֵר aparece singular no chamado, seguido por לָהֶם plural no relato; a BV preserva ambos sem harmonizá-los."
+    "שֹׁעֵר aparece singular no chamado, seguido por לָהֶם plural no relato; a BV preserva ambos sem harmonizá-los.",
+    "Leitura descartada na adjudicação ER-0023: 'lhe' (singular, concordando com 'o porteiro da cidade') — perde porque לָהֶם֙ traz sufixo pronominal explicitamente plural (HR/Sp3mp) no TM, replicado pela KJV ('they told them'), e o posto é confirmado plural pelo vizinho do controle no v.11 (הַשֹּׁעֲרִים / 'the porters'); singularizar o pronome apagaria essa marca textual do original."
   ],
   "justificativa": "A ida, o porteiro, o acampamento vazio, ausência de voz, cavalos, jumentos, sua condição de presos e tendas intactas foram mantidos.",
   "confianca": 0.72,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): O pronome ‘lhes’ (plural) não concorda em número com ‘o porteiro da cidade’ (singular), o antecedente sintático mais próximo — lido isoladamente, soa como erro de concordância em português. — evidência: O hebraico pinado traz de fato לָהֶם֙ com sufixo de 3ª pessoa masculino plural (lemma ‘l’, morfologia HR/Sp3mp) mesmo com שֹׂעֵ֣ר הָעִיר֒ no singular construto (HNcmsc); a KJV reproduz o mesmo descompasso (‘called unto the porter... and they told them’). O v.11 confirma a pluralidade com הַשֹּׁעֲרִים (‘os porteiros’). Corrigir ‘lhes’ para ‘lhe’ apagaria essa marca de pluralidade explícita do TM; por isso o texto não é alterado."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

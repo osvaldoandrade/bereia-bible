@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Job.21.1-34"
   },
-  "texto_bv": "Quem é o Todo-Poderoso, para que o sirvamos? E que proveito temos em suplicar a ele?",
+  "texto_bv": "Que é o Todo-Poderoso, para que o sirvamos? E que proveito temos em suplicar a ele?",
   "traducao_literal": "Que é o Todo-Poderoso, para que o sirvamos? E que proveito há, que o encontremos?",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Quem é o Todo-Poderoso, para que o sirvamos? → Que é o Todo-Poderoso, para que o sirvamos?",
+      "justificativa": "Objeção procedente. Evidência do original: מַה (mah, Strong H4100, morfologia HTi) — partícula interrogativa 'que/o quê', distinta de מִי ('quem', H4310). A própria traducao_literal do registro já traz 'Que é o Todo-Poderoso'; KJV ('What is the Almighty, that we should serve him?') e WEB ('What is the Almighty, that we should serve him?') convergem em 'what/que'. As três camadas de controle (original, tradução literal, KJV, WEB) apontam na mesma direção contra o 'Quem' do texto_bv. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): 'Quem é o Todo-Poderoso' traduz uma pergunta de identidade, mas o hebraico traz a partícula interrogativa מַה ('que/o quê', não מִי 'quem'), pergunta sobre natureza/valor — o desdém de 'para que serviria isso' —, não sobre identidade. Corrigir para 'Que é o Todo-Poderoso' alteraria o texto aprovado, por isso fica registrado como objeção em vez de correção própria. — evidência: termos_originais: מַה, lemma 4100, morfologia HTi (partícula interrogativa 'que/o quê'), não מִי ('quem'); traducao_literal: 'Que é o Todo-Poderoso, para que o sirvamos?'; controles.kjv: 'What is the Almighty, that we should serve him?' — as três camadas de controle convergem em 'que/what', divergindo do 'Quem' do texto_bv. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
@@ -101,12 +108,9 @@
   "confianca": 0.72,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): 'Quem é o Todo-Poderoso' traduz uma pergunta de identidade, mas o hebraico traz a partícula interrogativa מַה ('que/o quê', não מִי 'quem'), pergunta sobre natureza/valor — o desdém de 'para que serviria isso' —, não sobre identidade. Corrigir para 'Que é o Todo-Poderoso' alteraria o texto aprovado, por isso fica registrado como objeção em vez de correção própria. — evidência: termos_originais: מַה, lemma 4100, morfologia HTi (partícula interrogativa 'que/o quê'), não מִי ('quem'); traducao_literal: 'Que é o Todo-Poderoso, para que o sirvamos?'; controles.kjv: 'What is the Almighty, that we should serve him?' — as três camadas de controle convergem em 'que/what', divergindo do 'Quem' do texto_bv."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

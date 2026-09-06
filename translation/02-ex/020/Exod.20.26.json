@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "Exod.20.1-26"
   },
-  "texto_bv": "Não subam por degraus ao meu altar, para que a sua nudez não seja descoberta diante dele.",
+  "texto_bv": "Não suba por degraus ao meu altar, para que a sua nudez não seja descoberta diante dele.",
   "traducao_literal": "E não subirás por degraus sobre o meu altar, para que não se descubra a tua nudez sobre ele.",
   "termos_originais": [
     {
@@ -83,24 +83,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Não subam → Não suba",
+      "justificativa": "Objeção procedente. Evidência do original: תַעֲלֶה (H5927, HVqi2ms) e o sufixo 2ms em עֶרְוָתְךָ (H6172, Sp2ms) marcam destinatário gramatical singular, continuando a série 2ms dos vv.24-25. KJV preserva o singular ('Neither shalt thou go up... that thy nakedness be not discovered'); WEB concorda em pessoa ('Neither shall you go up... that your nakedness may not be exposed'). A BV verte no plural ('Não subam... a sua nudez'), quebrando a mesma distinção que o EDITORIAL §3/D-0003 exige preservar. Mesma base do v.24/v.25: destinatário gramatical é singular (2ms) em todo o trecho vv.24-26; corrige-se o número mantendo o restante da frase. 'sua nudez' não precisa de alteração — em português 'seu/sua' não flexiona conforme o número do possuidor, e a leitura singular já fica inequívoca pela conjugação verbal corrigida. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O hebraico é 2ms ('e não subirás... a tua nudez') e a BV verte no plural ('Não subam... a sua nudez'); preservar a distinção de número exigiria reescrever o destinatário — mudança de sentido, fora do alcance desta revisão. Texto mantido idêntico. — evidência: תַעֲלֶה (HVqi2ms), עֶרְוָתְךָ (Sp2ms); tradução literal: 'E não subirás por degraus... para que não se descubra a tua nudez sobre ele'; KJV: 'Neither shalt thou go up... that thy nakedness be not discovered'. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura plural coletiva, pelas mesmas razões e com a mesma base rejeitadas no v.24 (EDITORIAL §3/D-0003 exige preservar o número do original; morfologia 2ms de תַעֲלֶה e do sufixo de עֶרְוָתְךָ, somada à KJV 'thy nakedness' e à WEB 'your nakedness' em concordância de pessoa, sustentam o singular).",
+          "motivo": "Leitura descartada — motivo não isolável automaticamente do texto acima; ver o parágrafo completo em ambiguidades_preservadas."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Leitura plural coletiva, pelas mesmas razões e com a mesma base rejeitadas no v.24 (EDITORIAL §3/D-0003 exige preservar o número do original; morfologia 2ms de תַעֲלֶה e do sufixo de עֶרְוָתְךָ, somada à KJV 'thy nakedness' e à WEB 'your nakedness' em concordância de pessoa, sustentam o singular)."
+  ],
   "justificativa": "Proibição de degraus (para preservar a decência/pudor no culto) — a reverência abrange também o corpo; contraste com ritos pagãos. Depois, o sacerdócio usará vestes de linho (28:42). YHWH implícito.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O hebraico é 2ms ('e não subirás... a tua nudez') e a BV verte no plural ('Não subam... a sua nudez'); preservar a distinção de número exigiria reescrever o destinatário — mudança de sentido, fora do alcance desta revisão. Texto mantido idêntico. — evidência: תַעֲלֶה (HVqi2ms), עֶרְוָתְךָ (Sp2ms); tradução literal: 'E não subirás por degraus... para que não se descubra a tua nudez sobre ele'; KJV: 'Neither shalt thou go up... that thy nakedness be not discovered'."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

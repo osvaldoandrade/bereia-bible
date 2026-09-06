@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Exod.3.1-22"
   },
-  "texto_bv": "E disse: Não se aproxime; tire os sapatos dos seus pés, porque o lugar em que você está é terra santa.",
+  "texto_bv": "E disse: Não se aproxime para cá; tire os sapatos dos seus pés, porque o lugar em que você está é terra santa.",
   "traducao_literal": "E disse: Não te aproximes para cá; solta as tuas sandálias de sobre os teus pés, porque o lugar sobre o qual tu estás de pé, terra de santidade ele.",
   "termos_originais": [
     {
@@ -118,24 +118,35 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "Não se aproxime; → Não se aproxime para cá;",
+      "justificativa": "Objeção procedente. Evidência do original: הֲלֹ֑ם (lemma 1988, HD) é advérbio de lugar pleno — não partícula enclítica vazia — atestado em outros textos com o mesmo valor direcional (ex.: Rt 2.14 בֹּ֣אִי הֲלֹ֗ם, 'vem para cá'). A própria traducao_literal da BV já o registra ('Não te aproximes para cá'), e a KJV, baseline de sentido desta etapa, o traduz explicitamente ('Draw not nigh hither'). A WEB ('Don't come close') omite o advérbio, mas essa omissão não é variante textual — o hebraico subjacente é o mesmo TM em ambas as versões inglesas, sem controvérsia manuscrita nesse ponto de Êxodo; é escolha estilística do WEB de suprimir um elemento tido por redundante em inglês contemporâneo. A morfologia, autoridade máxima, já decide o caso sozinha: o advérbio existe e carrega conteúdo semântico (o local específico — a terra santa junto à sarça — para onde Moisés não deve avançar), por isso deve constar do texto. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): O advérbio הֲלֹם (para cá, Strong 1988, HD) não está traduzido: Não se aproxime omite a direção presente no hebraico pinado. — evidência: WLC: אַל־תִּקְרַב הֲלֹם; traducao_literal: Não te aproximes para cá; KJV: Draw not nigh hither. Restaurar o advérbio acrescentaria conteúdo ao texto aprovado — correção de sentido, fora do mandato de forma; o texto permanece idêntico. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'Não se aproxime' sem o advérbio, seguindo o estilo dinâmico do WEB ('Don't come close') e convergente com NTLH/NVIPT ('Não chegue mais perto'), que tratam הֲלֹם como redundante em português — essa foi, aliás, a leitura do ER-0019, que a considerou correção de sentido fora do mandato de forma. Perde aqui",
+          "motivo": "porque o mandato ER-0020 explicitamente autoriza a correção semântica que o ER-0019 não podia realizar, e porque a morfologia confirma o advérbio como elemento lexical pleno (não mera ênfase), com a traducao_literal da própria BV e a KJV (baseline) sustentando sua inclusão; a ARA, entre as referências de piso, também o mantém ('para cá')."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: Manter 'Não se aproxime' sem o advérbio, seguindo o estilo dinâmico do WEB ('Don't come close') e convergente com NTLH/NVIPT ('Não chegue mais perto'), que tratam הֲלֹם como redundante em português — essa foi, aliás, a leitura do ER-0019, que a considerou correção de sentido fora do mandato de forma. Perde aqui porque o mandato ER-0020 explicitamente autoriza a correção semântica que o ER-0019 não podia realizar, e porque a morfologia confirma o advérbio como elemento lexical pleno (não mera ênfase), com a traducao_literal da própria BV e a KJV (baseline) sustentando sua inclusão; a ARA, entre as referências de piso, também o mantém ('para cá')."
+  ],
   "justificativa": "אַדְמַת־קֹדֶשׁ 'terra de santidade/solo santo' — a presença de Deus consagra o lugar; descalçar = reverência.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): O advérbio הֲלֹם (para cá, Strong 1988, HD) não está traduzido: Não se aproxime omite a direção presente no hebraico pinado. — evidência: WLC: אַל־תִּקְרַב הֲלֹם; traducao_literal: Não te aproximes para cá; KJV: Draw not nigh hither. Restaurar o advérbio acrescentaria conteúdo ao texto aprovado — correção de sentido, fora do mandato de forma; o texto permanece idêntico."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

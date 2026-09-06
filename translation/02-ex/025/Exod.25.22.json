@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Exod.25.1-40"
   },
-  "texto_bv": "E ali virei a você, e falarei com você de cima do propiciatório, do meio dos dois querubins que estão sobre a arca do testemunho, tudo o que eu lhe ordenar para os filhos de Israel.",
+  "texto_bv": "E ali me encontrarei com você, e falarei com você de cima do propiciatório, do meio dos dois querubins que estão sobre a arca do testemunho, tudo o que eu lhe ordenar para os filhos de Israel.",
   "traducao_literal": "E ali me encontrarei contigo, e falarei contigo de cima do propiciatório, do meio dos dois querubins que sobre a arca do Testemunho, tudo o que ordenar a ti para os filhos de Israel.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "E ali virei a você → E ali me encontrarei com você",
+      "justificativa": "Objeção procedente. Evidência do original: וְנוֹעַדְתִּי֙ (lemma c/3259, morfologia HC/VNq1cs) — nifal perfeito 1cs de יָעַד (H3259), \"encontrar-se por designação\", não \"vir\". A traducao_literal já registrava \"me encontrarei contigo\"; KJV \"I will meet with thee\" e WEB \"I will meet with you\" sustentam a mesma leitura sem divergência entre si. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): “E ali virei a você” verte וְנוֹעַדְתִּי (nifal de יָעַד, “encontrar-se por designação”) como simples “vir”, perdendo o traço de encontro marcado que a própria camada literal (“E ali me encontrarei contigo”) e a KJV (“And there I will meet with thee”) registram. A correção (“ali me encontrarei com você”) só seria possível mudando o sentido da camada aprovada — fora do mandato gramatical; o texto permanece intacto. — evidência: termos_originais: וְנוֹעַדְתִּי (HC/VNq1cs, raiz יעד); traducao_literal: “E ali me encontrarei contigo”; controles.kjv: “And there I will meet with thee” (mesmo versículo, conferido pelos vizinhos 21 e 23). (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
@@ -171,16 +178,13 @@
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): “E ali virei a você” verte וְנוֹעַדְתִּי (nifal de יָעַד, “encontrar-se por designação”) como simples “vir”, perdendo o traço de encontro marcado que a própria camada literal (“E ali me encontrarei contigo”) e a KJV (“And there I will meet with thee”) registram. A correção (“ali me encontrarei com você”) só seria possível mudando o sentido da camada aprovada — fora do mandato gramatical; o texto permanece intacto. — evidência: termos_originais: וְנוֹעַדְתִּי (HC/VNq1cs, raiz יעד); traducao_literal: “E ali me encontrarei contigo”; controles.kjv: “And there I will meet with thee” (mesmo versículo, conferido pelos vizinhos 21 e 23)."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

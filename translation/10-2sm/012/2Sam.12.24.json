@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "2Sam.12.1-31"
   },
-  "texto_bv": "Davi consolou Bate-Seba, sua mulher. Depois foi até ela e se deitou com ela; ela deu à luz um filho e lhe deu o nome Salomão. O SENHOR o amou.",
+  "texto_bv": "Davi consolou Bate-Seba, sua mulher. Depois foi até ela e se deitou com ela; ela deu à luz um filho, e ele lhe deu o nome Salomão. O SENHOR o amou.",
   "traducao_literal": "E consolou Davi Bate-Seba, sua mulher, e veio a ela e deitou-se com ela; e deu à luz um filho, e ela chamou seu nome Salomão; e o SENHOR o amou.",
   "termos_originais": [
     {
@@ -161,6 +161,18 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "ela deu à luz um filho e lhe deu o nome Salomão. → ela deu à luz um filho, e ele lhe deu o nome Salomão.",
+      "justificativa": "Objeção procedente. Evidência do original: ויקרא, lemma c/7121, morfologia HC/Vqw3ms (Qal wayyiqtol 3ª masc. sing., 'e ele chamou') — contrasta com o verbo imediatamente anterior, וַתֵּ֣לֶד, lemma c/3205, morfologia HC/Vqw3fs (Qal wayyiqtol 3ª fem. sing., 'e ela deu à luz'), cujo sujeito é בַּת־שֶׁבַע. A troca de gênero entre os dois wayyiqtol consecutivos marca troca de sujeito: quem dá à luz é Bate-Seba (3fs), quem chama o nome é Davi (3ms, único referente masculino disponível no contexto imediato). KJV e WEB seguem essa leitura ('he called'), sem divergir entre si. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): O trecho 'ela deu à luz um filho e lhe deu o nome Salomão' atribui a Bate-Seba (sujeito elíptico 'ela', mantido da oração anterior) a ação de nomear o filho. Porém a morfologia hebraica pinada do verbo de nomear é 3ª pessoa masculino singular ('e ele chamou'), o que exclui gramaticalmente Bate-Seba como sujeito; o referente masculino coerente com o contexto é Davi, confirmado pela KJV ('and he called his name Solomon'). Corrigir o sujeito de 'ela' para 'ele/Davi' mudaria o que o versículo afirma (quem deu o nome), não apenas a forma — por isso o texto não foi alterado. — evidência: termos_originais: palavra \"ויקרא\", lemma c/7121, morfologia HC/Vqw3ms (Qal wayyiqtol 3ª masc. sing., 'e ele chamou'); controles.kjv.texto: \"and he called his name Solomon\" (sujeito masculino singular); a traducao_literal traz 'ela chamou seu nome Salomão', divergindo da morfologia pinada. Nota textual: A forma consonantal ויקרא aparece no XML pinado (WLC/OSHB) sem pontuação vocálica nem cantilação, ao contrário de todas as demais palavras do versículo — traço associado a uma nota massorética conhecida em que parte da tradição manuscrita/versional atesta a leitura alternativa ותקרא ('e ela chamou'). Essa é uma sutileza do nível do Texto Massorético (não uma divergência KJV×WEB: as duas convergem em 'he called'), por isso controles_divergem permanece false. A morfologia efetivamente tagueada no pacote (Vqw3ms) e a convergência KJV/WEB decidem a favor do sujeito masculino. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'ela chamou seu nome Salomão' (Bate-Seba como sujeito da nomeação, mantendo o sujeito elíptico da oração anterior) — é a leitura da própria traducao_literal da BV e segue o padrão narrativo comum do AT em que a mãe nomeia o filho (cf. Gn 4.1,25; 29.32-35; 30.6-24; 1Sm 1.20), com algum apoio em variante manuscrita/versional (ותקרא) apontada no aparato crítico",
+          "motivo": "Perde porque a morfologia efetivamente pinada no pacote para ויקרא é Vqw3ms (masculino), e KJV e WEB sustentam essa leitura juntas e sem divergência entre si — pelo critério de desempate, morfologia pinada + controles convergentes vencem o texto anterior da BV."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [
@@ -169,19 +181,17 @@
     "“lhe deu o nome”, naturalização de “chamou seu nome”"
   ],
   "ambiguidades_preservadas": [
-    "“Foi até ela” e “deitou-se com ela” são mantidos como ações distintas, sem eufemizar nem ampliar."
+    "“Foi até ela” e “deitou-se com ela” são mantidos como ações distintas, sem eufemizar nem ampliar.",
+    "Leitura descartada na adjudicação ER-0023: 'ela chamou seu nome Salomão' (Bate-Seba como sujeito da nomeação, mantendo o sujeito elíptico da oração anterior) — é a leitura da própria traducao_literal da BV e segue o padrão narrativo comum do AT em que a mãe nomeia o filho (cf. Gn 4.1,25; 29.32-35; 30.6-24; 1Sm 1.20), com algum apoio em variante manuscrita/versional (ותקרא) apontada no aparato crítico. Perde porque a morfologia efetivamente pinada no pacote para ויקרא é Vqw3ms (masculino), e KJV e WEB sustentam essa leitura juntas e sem divergência entre si — pelo critério de desempate, morfologia pinada + controles convergentes vencem o texto anterior da BV."
   ],
   "justificativa": "Consolo, Bate-Seba como mulher de Davi, relação, parto, nomeação feminina e amor do SENHOR foram preservados.",
   "confianca": 0.73,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): O trecho 'ela deu à luz um filho e lhe deu o nome Salomão' atribui a Bate-Seba (sujeito elíptico 'ela', mantido da oração anterior) a ação de nomear o filho. Porém a morfologia hebraica pinada do verbo de nomear é 3ª pessoa masculino singular ('e ele chamou'), o que exclui gramaticalmente Bate-Seba como sujeito; o referente masculino coerente com o contexto é Davi, confirmado pela KJV ('and he called his name Solomon'). Corrigir o sujeito de 'ela' para 'ele/Davi' mudaria o que o versículo afirma (quem deu o nome), não apenas a forma — por isso o texto não foi alterado. — evidência: termos_originais: palavra \"ויקרא\", lemma c/7121, morfologia HC/Vqw3ms (Qal wayyiqtol 3ª masc. sing., 'e ele chamou'); controles.kjv.texto: \"and he called his name Solomon\" (sujeito masculino singular); a traducao_literal traz 'ela chamou seu nome Salomão', divergindo da morfologia pinada."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

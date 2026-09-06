@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "Exod.23.1-33"
   },
-  "texto_bv": "E porei os teus limites desde o mar Vermelho até o mar dos filisteus, e desde o deserto até o rio; porque darei nas tuas mãos os moradores da terra, para que os lances de diante de ti.",
+  "texto_bv": "E porei os teus limites desde o mar Vermelho até o mar dos filisteus, e desde o deserto até o rio; porque darei nas tuas mãos os moradores da terra, e os lançarás de diante de ti.",
   "traducao_literal": "E porei o teu limite desde o mar de Juncos e até o mar dos filisteus, e desde o deserto até o Rio; porque darei na vossa mão os habitantes da terra, e os expulsarás de diante de ti.",
   "termos_originais": [
     {
@@ -135,24 +135,35 @@
       "justificativa": "'nas tuas maos' apaga a mudanca de numero do hebraico בְּיֶדְכֶם ('na mao de voces', 2mp) — distincao singular/plural que a norma manda preservar. — evidência: morfologia HR/Ncbsc/Sp2mp; traducao_literal 'na vossa mao'; ajuste depende da politica vigente para alternancia de numero (DECISOES.md) — nao aplicado. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "para que os lances de diante de ti. → e os lançarás de diante de ti.",
+      "justificativa": "Objeção procedente. Evidência do original: וְגֵרַשְׁתָּמוֹ — lemma c/1644, morfologia HC/Vpq2ms/Sp3mp: waw consecutivo + qal perfeito 2ms ('weqatal') de גרש (H1644, 'expulsar/lançar fora') + sufixo 3mp ('-os'). O weqatal em sequência a um yiqtol/perfeito de primeira pessoa (אֶתֵּן, 'eu darei') é a forma padrão hebraica para continuar uma promessa em sequência ('darei... e [tu] expulsarás'), não para marcar finalidade. traducao_literal: 'e os expulsarás de diante de ti'. KJV: '...into your hand; and thou shalt drive them out before thee'. WEB: '...into your hand, and you shall drive them out before you'. Os dois controles convergem entre si (coordenação, não propósito) e com a morfologia. Objeções fechadas: Objeção MATERIAL (revisão ER-0019): 'para que os lances' apresenta como finalidade o que o hebraico marca como coordenacao consecutiva: וְגֵרַשְׁתָּמוֹ e weqatal 2ms ('e tu os expulsaras'). Corrigir o conectivo mudaria a estrutura logica do periodo, portanto o texto nao e alterado. — evidência: morfologia HC/Vpq2ms/Sp3mp; traducao_literal 'e os expulsaras de diante de ti'; KJV 'and thou shalt drive them out before thee'. (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "'para que os lances de diante de ti' (oração final/subordinada, propósito)",
+          "motivo": "perde porque o weqatal (waw + qatal 2ms) é marcador padrão de coordenação sequencial na cadeia de promessas divinas, não de subordinação final; KJV e WEB, juntas, sustentam a coordenação, e a morfologia pinada (HC/Vpq2ms) não admite leitura de propósito."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0023: 'para que os lances de diante de ti' (oração final/subordinada, propósito) — perde porque o weqatal (waw + qatal 2ms) é marcador padrão de coordenação sequencial na cadeia de promessas divinas, não de subordinação final; KJV e WEB, juntas, sustentam a coordenação, e a morfologia pinada (HC/Vpq2ms) não admite leitura de propósito."
+  ],
   "justificativa": "As fronteiras ideais (do mar Vermelho ao Mediterrâneo, do deserto ao Eufrates) — a extensão da promessa a Abraão (Gn 15:18), realizada em parte sob Salomão. יַם־סוּף→mar Vermelho; הַנָּהָר→o Rio (Eufrates). YHWH→eu.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0019): 'para que os lances' apresenta como finalidade o que o hebraico marca como coordenacao consecutiva: וְגֵרַשְׁתָּמוֹ e weqatal 2ms ('e tu os expulsaras'). Corrigir o conectivo mudaria a estrutura logica do periodo, portanto o texto nao e alterado. — evidência: morfologia HC/Vpq2ms/Sp3mp; traducao_literal 'e os expulsaras de diante de ti'; KJV 'and thou shalt drive them out before thee'."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Josh.13.1-33"
   },
-  "texto_bv": "ao sul; inclui-se ainda toda a extensão cananeia, com Meará dos sidônios, até Afeque e o limite dos amorreus;",
+  "texto_bv": "desde o sul; inclui-se ainda toda a extensão cananeia, com Meará dos sidônios, até Afeque e o limite dos amorreus;",
   "traducao_literal": "Desde o sul, toda a terra do cananeu, e Meará, que é dos sidônios, até Afeque, até a fronteira do amorreu;",
   "termos_originais": [
     {
@@ -116,6 +116,18 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0023)",
+      "escolha": "ao sul → desde o sul",
+      "justificativa": "Objeção procedente. Evidência do original: מִתֵּימָ֞ן — lemma m/8486, morfologia HR/Ncfsa: preposição הR = מִן ('desde/de', separação/procedência) sobre o substantivo תֵּימָן ('sul'). A traducao_literal da própria BV traz 'Desde o sul' para o mesmo termo, e a KJV (baseline de sentido desta etapa) traduz 'From the south, all the land of the Canaanites...' com o mesmo valor de ponto de partida. Não há variante manuscrita conhecida aqui (WLC/OSHB, TR e base crítica convergem no consonantal מתימן); a Torá massorética é a mesma por trás de KJV e WEB neste ponto. A objeção procede: 'ao sul' lê מִן como se fosse בְּ ('em/no') ou direção, mas a morfologia pinada marca preposição de procedência, e o próprio registro literal da BV e a KJV confirmam 'desde/from'. A WEB traduz 'on the south', divergindo da KJV, mas essa diferença é escolha estilística de tradução (como abrir uma nova unidade geográfica em Js 13:4 após a lista do v.3), não variante textual — o consonantal hebraico e a versificação são os mesmos nos dois controles (conteúdo de Meará/sidônios/Afeque/amorreus bate em ambos, sem deslocamento de vizinhos). Por isso a divergência KJV×WEB aqui não aciona o detector textual: decide a morfologia, reforçada pela KJV. Objeções fechadas: Objeção MATERIAL (revisão ER-0022): A preposição 'ao sul' inverte o sentido direcional do hebraico: מִתֵּימָן (lemma m/8486) é 'מִן' ('desde/de') prefixado a 'sul', isto é, 'desde o sul' como ponto de partida de uma nova descrição de fronteira — não 'em direção ao/no sul'. Restaurar o sentido exigiria trocar 'ao' por 'desde', o que altera o que a oração afirma e ultrapassa correção de forma. — evidência: traducao_literal: 'Desde o sul, toda a terra do cananeu...'; controles.kjv: 'From the south, all the land of the Canaanites...'; termos_originais: 'מִתֵּימָ֞ן' lemma 'm/8486', morfologia 'HR/Ncfsa' (מִן = 'desde/de'). (ER-0023, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura locativa 'ao sul' / 'on the south' (seguida pela WEB e pelo texto anterior da BV), tratando o ponto cardeal como destino/localização da descrição",
+          "motivo": "Perde porque מִן não carrega sentido locativo 'em/no' — seu valor é procedência ('desde/de'), confirmado pela morfologia HR e pela KJV ('From the south'); a leitura da WEB é opção estilística de tradução para abrir a nova unidade de fronteira, não uma variante do texto hebraico."
+        }
+      ],
+      "diretriz_ref": "ER-0023"
     }
   ],
   "palavras_supridas": [
@@ -125,19 +137,17 @@
   ],
   "ambiguidades_preservadas": [
     "מִתֵּימָן pode completar a localização dos aveus ou introduzir a região cananeia meridional; a posição inicial e a pontuação mantêm visível essa junção.",
-    "“Meará dos sidônios” expressa pertencimento, sem definir se era cidade, caverna ou distrito."
+    "“Meará dos sidônios” expressa pertencimento, sem definir se era cidade, caverna ou distrito.",
+    "Leitura descartada na adjudicação ER-0023: Leitura locativa 'ao sul' / 'on the south' (seguida pela WEB e pelo texto anterior da BV), tratando o ponto cardeal como destino/localização da descrição. Perde porque מִן não carrega sentido locativo 'em/no' — seu valor é procedência ('desde/de'), confirmado pela morfologia HR e pela KJV ('From the south'); a leitura da WEB é opção estilística de tradução para abrir a nova unidade de fronteira, não uma variante do texto hebraico."
   ],
   "justificativa": "A sintaxe foi reconstruída como continuação da enumeração territorial: direção sul preservada na junção dos versos, totalidade cananeia, pertença sidônia de Meará e os limites Afeque–amorreus mantidos.",
   "confianca": 0.64,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0022): A preposição 'ao sul' inverte o sentido direcional do hebraico: מִתֵּימָן (lemma m/8486) é 'מִן' ('desde/de') prefixado a 'sul', isto é, 'desde o sul' como ponto de partida de uma nova descrição de fronteira — não 'em direção ao/no sul'. Restaurar o sentido exigiria trocar 'ao' por 'desde', o que altera o que a oração afirma e ultrapassa correção de forma. — evidência: traducao_literal: 'Desde o sul, toda a terra do cananeu...'; controles.kjv: 'From the south, all the land of the Canaanites...'; termos_originais: 'מִתֵּימָ֞ן' lemma 'm/8486', morfologia 'HR/Ncfsa' (מִן = 'desde/de')."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
