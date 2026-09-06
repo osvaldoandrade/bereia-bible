@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Jer.20.1-18"
   },
-  "texto_bv": "Quanto a você, Pasur, e a todos os moradores da sua casa, vocês irão para o cativeiro; você chegará à Babilônia, ali morrerá e ali será sepultado — você e todos os seus amigos, a quem profetizou mentiras.",
+  "texto_bv": "Quanto a você, Pasur, e a todos os moradores da sua casa, vocês irão para o cativeiro; você chegará à Babilônia, ali morrerá e ali serão sepultados — você e todos os seus amigos, a quem profetizou mentiras.",
   "traducao_literal": "E você, Pasur, e todos os moradores da tua casa, irão em cativeiro; e à Babilônia virás, e ali morrerás, e ali serás sepultado, você e todos os teus amigos, aos quais profetizaste com mentira.",
   "termos_originais": [
     {
@@ -137,6 +137,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ali morrerá e ali será sepultado — você e todos os seus amigos, a quem profetizou mentiras. → ali morrerá e ali serão sepultados — você e todos os seus amigos, a quem profetizou mentiras.",
+      "justificativa": "Sujeito composto pós-posto (\"você e todos os seus amigos\") exige verbo no plural na norma culta; o singular reproduz a concordância hebraica por proximidade com o sujeito mais próximo (תִּקָּבֵר, 2ms), não sustentada em português. — revisão de forma sem alteração de sentido (ER-0022). Alternância vocês (plural, cativeiro coletivo) / você (singular, chegada e morte apenas de Pasur) reproduz fielmente a alternância 2mp/2ms do hebraico (תֵּלְכוּ vs. תָּבוֹא/תָּמוּת) — não é inconsistência, é dado do original.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -147,11 +154,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
