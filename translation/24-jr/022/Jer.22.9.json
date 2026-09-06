@@ -7,7 +7,7 @@
     "versiculo": 9,
     "pericope": "Jer.22.1-30"
   },
-  "texto_bv": "E dirão: 'Porque abandonaram a aliança do SENHOR, seu Deus, e se prostraram diante de outros deuses e os serviram.'”",
+  "texto_bv": "Dirão: 'Porque abandonaram a aliança do SENHOR, seu Deus, e se prostraram diante de outros deuses e os serviram.'",
   "traducao_literal": "E dirão: Porque abandonaram a aliança do SENHOR seu Deus, e se prostraram a deuses outros e os serviram.",
   "termos_originais": [
     {
@@ -86,6 +86,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E dirão: ' → Dirão: ' | os serviram.'” → os serviram.'",
+      "justificativa": "O 'E' inicial reproduz o conectivo waw do hebraico (וְאָמְרוּ), mas destoa do padrao ja adotado no restante do capitulo, em que a mesma construcao (verbo com waw consecutivo abrindo oracao) perdeu o conectivo em portugues (cf. v.7 'Consagrarei...', v.8 'Muitas nacoes...', v.19 'Com sepultamento...'); removido para uniformizar a conexao entre as oracoes do capitulo. | Havia uma aspa dupla curva de fechamento (”) sobrando ao final do verso, sem abertura correspondente em nenhum ponto anterior do capitulo -- a citacao em curso e a de aspas simples '...', corretamente aberta e fechada dentro do proprio verso. Aspa orfa removida. — revisão de forma sem alteração de sentido (ER-0022).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -96,11 +103,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
