@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Jer.26.1-24"
   },
-  "texto_bv": "Assim disse o SENHOR: Fica em pé no átrio da casa do SENHOR e fala a todas as cidades de Judá que vêm adorar na casa do SENHOR todas as palavras que te ordenei falar a elas; não tires nenhuma palavra.",
+  "texto_bv": "Assim disse o SENHOR: Fica em pé no átrio da casa do SENHOR e fala a todas as cidades de Judá que vêm adorar na casa do SENHOR todas as palavras que te ordenei falar a elas. Não tires nenhuma palavra.",
   "traducao_literal": "Assim disse o SENHOR: Fica em pé no átrio da casa do SENHOR, e falarás sobre todas as cidades de Judá, as que vêm para se prostrarem [na] casa do SENHOR, todas as palavras que te ordenei para falar a elas; não diminuas palavra.",
   "termos_originais": [
     {
@@ -185,6 +185,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "que te ordenei falar a elas; não tires nenhuma palavra. → que te ordenei falar a elas. Não tires nenhuma palavra.",
+      "justificativa": "Período com cerca de 41 palavras, acima do limite de legibilidade recomendado; o ponto e vírgula já demarcava um comando independente. Convertido em ponto final, criando duas orações sem alterar a relação lógica entre as instruções do SENHOR a Jeremias. — revisão de forma sem alteração de sentido (ER-0022). Corrigida apenas a pontuação para quebrar período longo (regra de extensão); as demais construções (regência de 'fala a', concordância) já estavam corretas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -197,11 +204,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
