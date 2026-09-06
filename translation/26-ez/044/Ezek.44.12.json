@@ -7,7 +7,7 @@
     "versiculo": 12,
     "pericope": "Ezek.44.1-31"
   },
-  "texto_bv": "Porque os serviram diante dos seus ídolos e se tornaram, para a casa de Israel, uma pedra de tropeço de iniquidade, por isso levantei a minha mão contra eles — declara o Senhor DEUS — e eles levarão a sua culpa.",
+  "texto_bv": "Porque serviram a casa de Israel diante dos seus ídolos e se tornaram para ela uma pedra de tropeço de iniquidade, por isso levantei a minha mão contra eles — declara o Senhor DEUS — e eles levarão a sua culpa.",
   "traducao_literal": "Porque serviram-nos diante dos seus ídolos, e foram para a casa de Israel por tropeço de iniquidade; por isso levantei a minha mão sobre eles, oráculo do Senhor DEUS; e levarão a sua iniquidade.",
   "termos_originais": [
     {
@@ -149,6 +149,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Porque os serviram diante dos seus ídolos e se tornaram, para a casa de Israel, uma pedra de tropeço de iniquidade → Porque serviram a casa de Israel diante dos seus ídolos e se tornaram para ela uma pedra de tropeço de iniquidade",
+      "justificativa": "O pronome 'os' antecipava o referente 'a casa de Israel', que só aparecia mais adiante na mesma oração; não havia antecedente plural recuperável antes dele (o mais próximo no verso anterior, 'povo', é singular). Substituído pelo sintagma explícito 'a casa de Israel' como objeto de 'serviram', com retomada anafórica por 'ela'; mesmo referente do hebraico (אוֹתָם / לְבֵית יִשְׂרָאֵל) e da KJV ('them'/'the house of Israel'), sentido preservado. — revisão de forma sem alteração de sentido (ER-0022). Correção de coesão (pronome sem antecedente recuperável no verso); o restante do período — parênteses do oráculo com travessões, retomada 'eles levarão' — permanece correto.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -159,10 +166,10 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
