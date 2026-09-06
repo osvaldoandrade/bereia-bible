@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Hos.7.1-16"
   },
-  "texto_bv": "Pois o coração deles se torna como um forno enquanto ficam à espreita; a noite toda o seu padeiro dorme; pela manhã, arde como labareda de fogo.",
+  "texto_bv": "Pois o coração deles se torna como um forno enquanto ficam à espreita; a noite toda o seu padeiro dorme; pela manhã, o forno arde como labareda de fogo.",
   "traducao_literal": "Porque se aproximaram como o forno o seu coração em sua espreita; toda a noite dorme o padeiro deles; de manhã, ele arde como fogo de labareda.",
   "termos_originais": [
     {
@@ -130,6 +130,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "pela manhã, arde como labareda de fogo. → pela manhã, o forno arde como labareda de fogo.",
+      "justificativa": "O sujeito oculto de 'arde' seria naturalmente atraído para o antecedente mais próximo ('o seu padeiro'), produzindo leitura absurda (o padeiro que arde). O hebraico insere pronome explícito (הוּא) precisamente para apontar de volta ao forno/coração, e não ao padeiro recém-mencionado. Repor o sintagma 'o forno' elimina a ambiguidade referencial sem alterar o sentido (coesão, §1.4/§4). — revisão de forma sem alteração de sentido (ER-0022). Corrigida a ambiguidade pronominal do sujeito oculto de 'arde' (ver mudança). Demais elementos corretos: 'o coração deles' mantém o número plural coerente com o restante do capítulo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -143,10 +150,10 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
