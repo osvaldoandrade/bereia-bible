@@ -7,7 +7,7 @@
     "versiculo": 25,
     "pericope": "Jer.32.1-44"
   },
-  "texto_bv": "E, no entanto, tu me disseste, Senhor DEUS: \"Compre para si o campo com dinheiro, e tome testemunhas\" — sendo que a cidade está entregue nas mãos dos caldeus.'",
+  "texto_bv": "E, no entanto, tu me disseste, Senhor DEUS: \"Compre para si o campo com dinheiro, e tome testemunhas\" — embora a cidade esteja entregue nas mãos dos caldeus.'",
   "traducao_literal": "E tu disseste a mim, Senhor DEUS: compra para ti o campo com a prata, e faze testemunhar testemunhas — e a cidade [está] dada na mão dos caldeus.",
   "termos_originais": [
     {
@@ -101,6 +101,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "sendo que a cidade está entregue nas mãos dos caldeus. → embora a cidade esteja entregue nas mãos dos caldeus.",
+      "justificativa": "O hebraico marca oração circunstancial/concessiva pelo sujeito antes do verbo (וְהָעִיר נִתְּנָה, waw disjuntivo), não uma explicação causal; 'sendo que' (conector vago, sem valor lógico preciso) enfraquece o contraste irônico entre a ordem de comprar terra e a cidade já entregue aos caldeus. 'Embora' explicita a concessão e exige o subjuntivo 'esteja', corrigido junto. — revisão de forma sem alteração de sentido (ER-0022). Conectivo 'sendo que' substituído por 'embora' (com ajuste de modo verbal) para expressar corretamente a relação concessiva marcada no hebraico pela oração de sujeito antecipado; sentido preservado integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -111,11 +118,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
