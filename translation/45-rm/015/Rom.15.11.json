@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Rom.15.1-33"
   },
-  "texto_bv": "Louvem o SENHOR, todas as nações; todos os povos o aclamem.",
+  "texto_bv": "E outra vez: “Louvem o SENHOR, todas as nações; todos os povos o aclamem.”",
   "traducao_literal": "E outra vez: Louvem, todas as nações, o Senhor; e louvem-no todos os povos.",
   "termos_originais": [
     {
@@ -125,6 +125,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Louvem o SENHOR, todas as nações; todos os povos o aclamem. → E outra vez: “Louvem o SENHOR, todas as nações; todos os povos o aclamem.” | Louvem o SENHOR, todas as nações; todos os povos o aclamem. → “Louvem o SENHOR, todas as nações; todos os povos o aclamem.”",
+      "justificativa": "καὶ πάλιν ('e outra vez') está pinado nos termos_originais mas não foi vertido, ao contrário do que ocorre nos vv.9 ('como está escrito'), 10 ('E, outra vez, diz') e 12 ('E outra vez Isaías diz'), que marcam a mesma cadeia de quatro citações do Antigo Testamento (Rm 15.9-12). Sem o marcador, o verso lia-se como continuação da voz de Paulo, quebrando a cadeia catenária sinalizada pelo próprio grego; a reposição não altera o sentido das palavras citadas, apenas restaura o conectivo estrutural já presente no original e na traducao_literal ('E outra vez: Louvem...'). | Verso é citação direta (Salmo 117.1 LXX), como os vizinhos vv.9, 10 e 12; faltavam as aspas curvas de discurso direto exigidas por EDITORIAL.md, hoje presentes nas demais citações da mesma cadeia. — revisão de forma sem alteração de sentido (ER-0024). Correção de coesão e pontuação: restaurado o marcador 'outra vez' (πάλιν, presente nos termos_originais) e as aspas de discurso direto, alinhando o verso ao padrão dos vv.9-10 e 12 na mesma cadeia de citações do AT. Léxico 'SENHOR' em versalete mantido como já vigente no texto_bv aprovado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -135,11 +142,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
