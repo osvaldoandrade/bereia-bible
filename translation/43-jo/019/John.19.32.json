@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "John.19.1-42"
   },
-  "texto_bv": "Os soldados foram, então, e quebraram as pernas do primeiro, e do outro que fora crucificado com ele;",
+  "texto_bv": "Os soldados foram, então, e quebraram as pernas do primeiro, e do outro que tinha sido crucificado com ele;",
   "traducao_literal": "Vieram, pois, os soldados, e do primeiro, de fato, quebraram as pernas, e do outro, do crucificado com ele;",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e do outro que fora crucificado com ele; → e do outro que tinha sido crucificado com ele;",
+      "justificativa": "Mais-que-perfeito sintético (\"fora\") é arcaísmo proibido pela norma editorial; substituído pela forma composta (\"tinha sido\"), mantendo o mesmo valor temporal/aspectual (ação anterior à quebra das pernas, correspondente ao particípio aoristo συνσταυρωθέντος). — revisão de forma sem alteração de sentido (ER-0024). Corrigida a forma verbal arcaica; sentido preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -121,11 +128,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
