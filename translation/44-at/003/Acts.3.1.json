@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Acts.3.1-26"
   },
-  "texto_bv": "Pedro e João subiam ao templo à hora da oração, a hora nona.",
+  "texto_bv": "Pedro e João subiam ao templo à hora da oração, a nona.",
   "traducao_literal": "Pedro e João subiam para o templo na hora da oração, a nona.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "a hora nona → a nona",
+      "justificativa": "o grego não repete ὥρα na aposição (τὴν ὥραν τῆς προσευχῆς τὴν ἐνάτην, só um substantivo 'hora'), e a própria traducao_literal já elide o núcleo ('a nona'); repetir 'hora' em português é redundância que a elipse resolve sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0024).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -118,11 +125,11 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
