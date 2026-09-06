@@ -7,7 +7,7 @@
     "versiculo": 11,
     "pericope": "Zech.5.1-11"
   },
-  "texto_bv": "Ele me disse: “É para lhe construir uma casa na terra de Sinar. Quando estiver pronta, ela será colocada ali, sobre a sua base.”",
+  "texto_bv": "Ele me disse: “É para lhe construir uma casa na terra de Sinar. Quando estiver pronta, a efa será colocada ali, sobre a sua base.”",
   "traducao_literal": "E disse a mim: Para construir para ela casa na terra de Sinar; e será preparada, e será posta ali sobre a sua base.",
   "termos_originais": [
     {
@@ -115,6 +115,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ela será colocada ali → a efa será colocada ali",
+      "justificativa": "Os dois verbos hebraicos têm sujeitos gramaticais diferentes: וְהוּכַן (masculino, concorda com 'casa') e וְהֻנִּיחָה (feminino, concorda com 'efa'), indicando troca de sujeito entre as duas orações. Em português, o pronome 'ela' retomaria por proximidade 'casa' (também feminino), obscurecendo essa troca sinalizada pela morfologia; explicitar 'a efa' resolve a ambiguidade sem alterar o sentido do hebraico, apenas tornando visível o que a mudança de gênero verbal já indica. — revisão de forma sem alteração de sentido (ER-0022). Sujeito do segundo verbo explicitado como 'a efa' para refletir a troca de gênero gramatical do hebraico entre os dois verbos (casa/efa); primeira oração manteve elipse do sujeito 'casa', recuperável do período anterior.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -125,7 +132,7 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
