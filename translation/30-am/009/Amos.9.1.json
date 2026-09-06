@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Amos.9.1-15"
   },
-  "texto_bv": "Vi o Senhor em pé junto ao altar, e disse: “Fere o capitel, e estremeçam os umbrais; e despedaça-os sobre a cabeça de todos eles, e o restante deles matarei à espada. Nenhum fugitivo deles fugirá, e nenhum sobrevivente deles escapará.",
+  "texto_bv": "Vi o Senhor em pé junto ao altar, e disse: “Fere o capitel, e estremeçam os umbrais; despedaça-os sobre a cabeça de todos eles, e o restante deles matarei à espada. Nenhum fugitivo deles fugirá, e nenhum sobrevivente deles escapará.",
   "traducao_literal": "Vi o Senhor, em pé sobre o altar, e disse: Fere o capitel, e estremeçam os umbrais, e corta-os na cabeça de todos eles, e o restante deles à espada matarei; não fugirá para eles fugitivo, e não escapará para eles sobrevivente.",
   "termos_originais": [
     {
@@ -200,6 +200,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e estremeçam os umbrais; e despedaça-os sobre a cabeça de todos eles, e o restante deles matarei à espada. → e estremeçam os umbrais; despedaça-os sobre a cabeça de todos eles, e o restante deles matarei à espada.",
+      "justificativa": "Cadeia de waw consecutivo virada em 'e...e...e' (calque sintático, §1). O ponto e vírgula já articula a transição entre 'estremeçam os umbrais' e 'despedaça-os'; a conjunção 'e' era redundante ali. Sentido e correspondência com o hebraico (וּבְצַעַם) integralmente preservados; a última cláusula mantém o 'e' que liga a ação de terceira pessoa à retomada em primeira pessoa (אֶהֱרֹג). — revisão de forma sem alteração de sentido (ER-0022). Corrigida a cadeia de conectivos 'e...e...e' calcada no waw consecutivo hebraico, sem alterar o sentido. Mantida a variação de pessoa (imperativo/jussivo → 1ª pessoa 'matarei'), que já reflete corretamente a estrutura do TM; mantida também a citação direta que atravessa os vv. 1–4 (aspas abertas aqui, fechadas apenas em 9.4), pois é o desenho editorial já vigente para o oráculo contínuo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -213,10 +220,10 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
