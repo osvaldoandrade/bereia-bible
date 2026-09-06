@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Ezek.24.1-27"
   },
-  "texto_bv": "Portanto, assim diz o Senhor DEUS: Ai da cidade sanguinária, panela em que há ferrugem, e cuja ferrugem não saiu dela! Tira-a pedaço a pedaço; não caiu sorte sobre ela.",
+  "texto_bv": "Portanto, assim diz o Senhor DEUS: Ai da cidade sanguinária, panela em que há ferrugem, e cuja ferrugem não saiu! Tira-a pedaço a pedaço; não caiu sorte sobre ela.",
   "traducao_literal": "Portanto, assim disse o Senhor DEUS: ai da cidade dos sangues, panela que sua ferrugem está nela, e sua ferrugem não saiu dela; para os pedaços dela, para os pedaços dela, tira-a; não caiu sobre ela sorte.",
   "termos_originais": [
     {
@@ -163,6 +163,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e cuja ferrugem não saiu dela → e cuja ferrugem não saiu",
+      "justificativa": "O pronome relativo “cuja” já introduz a posse (“a ferrugem da qual”); manter “dela” em seguida duplica a referência — pleonasmo do pronome resumptivo típico do hebraico (חֶלְאָתָהּ...מִמֶּנָּה, que exige retomada pronominal na sintaxe hebraica, mas em português com “cuja” torna-se redundante). A correção remove só a redundância; o sentido — a ferrugem da panela não saiu dela — permanece intacto. — revisão de forma sem alteração de sentido (ER-0022). Fora a redundância pronominal corrigida, o verso preserva a dupla menção da ferrugem (חֶלְאָתָה...וְחֶלְאָתָה) e a repetição “pedaço a pedaço”, que verte לִנְתָחֶיהָ לִנְתָחֶיהָ — formulações intencionais do original, mantidas. “Cidade sanguinária” repete o lexema de עִיר הַדָּמִים também usado no v.9, consistência lexical intracapítulo preservada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [],
@@ -173,11 +180,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
