@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Jer.25.1-38"
   },
-  "texto_bv": "A palavra que veio a Jeremias acerca de todo o povo de Judá, no quarto ano de Jeoaquim, filho de Josias, rei de Judá — esse foi o primeiro ano de Nabucodonosor, rei da Babilônia.",
+  "texto_bv": "A palavra que veio a Jeremias acerca de todo o povo de Judá, no quarto ano de Jeoaquim, filho de Josias, rei de Judá — esse foi o primeiro ano de Nabucodonosor, rei da Babilônia,",
   "traducao_literal": "A palavra que foi sobre Jeremias, sobre todo o povo de Judá, no ano, o quarto, de Jeoaquim filho de Josias rei de Judá; ela, o ano, o primeiro, de Nabucodonosor rei de Babilônia.",
   "termos_originais": [
     {
@@ -153,6 +153,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "A palavra que veio a Jeremias acerca de todo o povo de Judá, no quarto ano de Jeoaquim, filho de Josias, rei de Judá — esse foi o primeiro ano de Nabucodonosor, rei da Babilônia. → A palavra que veio a Jeremias acerca de todo o povo de Judá, no quarto ano de Jeoaquim, filho de Josias, rei de Judá — esse foi o primeiro ano de Nabucodonosor, rei da Babilônia,",
+      "justificativa": "O ponto final rompia a oração relativa iniciada em \"a palavra que veio\", que só se completa no v.2 (\"...que Jeremias, o profeta, falou...\"); trocado por vírgula para manter a continuidade sintática entre os dois versos, sem alterar nenhuma palavra do conteúdo. — revisão de forma sem alteração de sentido (ER-0022). Ponto final trocado por vírgula: a oração relativa que abre o capítulo (\"a palavra que veio a Jeremias...\") só se completa no v.2 (\"...que Jeremias, o profeta, falou...\"); um ponto final fecharia a sentença em \"esse foi o primeiro ano de Nabucodonosor, rei da Babilônia\" e deixaria o \"que\" do v.2 sem oração para se ligar, com sujeito duplicado (Jeremias já nomeado) soando como início de frase truncada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0022"
     }
   ],
   "palavras_supridas": [
@@ -168,11 +175,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "oshb@3d15126f"
+    "texto_fonte": "oshb@3d15126f",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
