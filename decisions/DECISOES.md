@@ -548,6 +548,74 @@ Ver `docs/domain/governanca/glossary.md`.
 - Status permanece **APPROVED** em todo o registro tocado: adjudicar objeção
   não regride a FSM: fecha `objecoes_nao_resolvidas`, não reabre DRAFT/REVIEW.
 
+## ER-0024 — Revisão gramatical e de coesão do Novo Testamento
+
+- Data: 2026-09-06 · Escopo: NT (livros 40–66) · Origem: determinação do
+  mantenedor ("avancemos para o NT até fecharmos") · Status: **CONCLUÍDO** —
+  260/260 capítulos, 7942/7942 versículos revisados, cobertura OSIS exata
+  confirmada digest a digest em cada lote. `bvcheck` limpo (0 falhas) numa
+  varredura final de todo o cânone (1189 capítulos, AT+NT) após o
+  encerramento.
+- Mesmo mecanismo do ER-0022 (AT), driver fork
+  (`grammar-review-driver-nt.workflow.js`, prompt
+  `revisor-gramatical-nt.md` v1.0.0), com a autoridade original trocada de
+  hebraico (WLC/OSHB) para **grego pinado (Nestle 1904)** e a base da KJV
+  trocada de Ben Chayyim para **Textus Receptus**. Diferença de fundo: no NT
+  a divergência KJV×Nestle 1904 não é ocasional, é ESTRUTURAL — o TR contém
+  versículos/orações inteiras que o texto crítico não tem (Mt 6.13 doxologia,
+  Mc 16.9-20, Jo 5.4, Jo 7.53-8.11, At 8.37, 1Jo 5.7-8 Comma Johanneum). O
+  prompt ganhou um parágrafo "DETECTOR TEXTUAL" explícito listando esses loci
+  — e ele disparou pesado: **315 versos em 160 capítulos** trazem nota
+  textual explícita de variante TR×Nestle 1904 na `justificativa`, nenhum
+  virando objeção MATERIAL falsa de "faltou traduzir". Confirmados por nome
+  os quatro loci clássicos citados no prompt: Mt 6.13 (doxologia final do
+  Pai-Nosso — SEM_ALTERACAO, nota textual explícita), Jo 5.4 (anjo agitando
+  a água — idem), 1Jo 5.7-8 (Comma Johanneum — idem); At 8.37 nem aparece no
+  digest porque o Nestle 1904 pinado não numera esse versículo ali — a BV já
+  nasceu sem o TR nesse ponto, então não havia o que revisar. A barreira
+  segurou em toda a amostra, incluindo o caso mais sensível — Lc 11.2-4, o
+  Pai-Nosso lucano, onde a KJV harmoniza com Mt 6.9-13 (acrescenta "que
+  estás nos céus", "seja feita a tua vontade, assim na terra como no céu",
+  "mas livra-nos do mal") e o texto_bv, correto, segue o Nestle 1904 mais
+  curto sem importar a harmonização.
+- **Resultado: 361 versos revisados** (forma corrigida), **8 objeções
+  MATERIAIS abertas** (`objecoes_nao_resolvidas`, tag ER-0024) aguardando
+  adjudicação do mantenedor — mesmo mecanismo do ER-0020/ER-0023: Tt 1.5
+  (pessoa gramatical, 2ª→3ª no discurso a Tito), 1Pe 2.9 (ἀρετάς — "virtudes"
+  vs. "grandes feitos"), Lc 11.27 (pessoa na citação direta), Lc 11.29
+  (oração genitivo-absoluto omitida), Jo 20.25 (negação inserida sem base no
+  grego), At 9.12 (sintagma "em visão" sem termo correspondente pinado),
+  At 11.26 (oração inicial omitida), Hb 1.8 (αὐτοῦ 3ª pessoa vs. "teu" 2ª no
+  texto_bv). Nenhum passo automático drena essa fila hoje.
+- Achado incidental resolvido durante o ciclo (não é defeito do ER-0024,
+  mesma causa raiz do F-0023): 37 registros do NT com
+  `decisoes[].alternativas_rejeitadas` como string solta seguiam pendentes
+  desde o ER-0022 (documentado ali como "fora do escopo"). Em vez de deixar
+  o `ship_review_batch.py` tropeçar neles um a um ao longo dos 17 lotes deste
+  ciclo (o primeiro caso, Mt 23.15/33, foi reparado assim e confirmou o
+  padrão), os 35 remanescentes foram varridos e reparados de uma vez com
+  `split_rejeitada()` (mesma função corrigida na fonte durante o ER-0023) —
+  0 fallbacks, todos os 35 tinham marcador "perde porque" limpo. **F-0023
+  está agora 100% resolvido em todo o cânone (AT desde o ER-0022/ER-0023, NT
+  neste ciclo)** — ver follow-up F-0023 atualizado abaixo.
+- Modelo: `claude-sonnet-5` em todos os 260 capítulos, verificado via journal
+  (`agent-*.jsonl`, campo `message.model`) de cada um dos 17 lotes.
+- Incidente operacional: o lançamento do lote 1 com 5 workflows simultâneos
+  (80 agentes concorrentes) esgotou o rate limit do provedor — 68/80 chamadas
+  falharam com "Server is temporarily limiting requests". Recuperado
+  reduzindo a concorrência: 1 workflow por vez confirmou-se limpo, 2 workflows
+  simultâneos (32 agentes) confirmou-se limpo em 6 pares consecutivos —
+  ritmo usado do lote 2 ao 17. Distinto de um segundo incidente nos lotes
+  14-15: "You've hit your session limit · resets 8:30pm" — limite de sessão
+  real, não throttle transitório. 6 dos 32 capítulos desses dois lotes
+  reportaram erro, mas a inspeção mostrou que o agente já tinha escrito o
+  arquivo de saída completo (Write bem-sucedido) antes de esgotar a sessão no
+  turno final de retorno do resumo — coberura exata e `model` confirmados
+  nos 6, shipados junto com o resto sem precisar re-rodar. Lotes 16-17
+  confirmaram o limite já resetado (horário local 21:40, após as 20:30
+  anunciadas).
+- Status permanece **APPROVED** em todo o registro tocado.
+
 ---
 
 ## Follow-ups abertos
