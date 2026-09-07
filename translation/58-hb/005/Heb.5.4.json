@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Heb.5.1-14"
   },
-  "texto_bv": "E ninguém toma para si essa honra, mas é chamado por Deus, assim como também Arão foi.",
+  "texto_bv": "E ninguém toma para si essa honra, mas o que é chamado por Deus, assim como também Arão foi.",
   "traducao_literal": "E não a-si-mesmo alguém toma a honra, mas sendo-chamado por o Deus, assim-como também Arão.",
   "termos_originais": [
     {
@@ -101,6 +101,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas é chamado por Deus → mas o que é chamado por Deus",
+      "justificativa": "O sujeito elíptico após \"mas\" era ambíguo: pela regra de retomada do português, herdaria \"ninguém\" como sujeito de \"é chamado\", invertendo o sentido do grego (τις...καλούμενος designam o MESMO sujeito que É chamado por Deus, não uma negação de que alguém seja chamado). \"O que\" explicita o referente elidido sem acrescentar sentido novo, e harmoniza com a elipse final \"assim como também Arão foi [chamado]\". — revisão de forma sem alteração de sentido (ER-0024). Correção de forma (retomada de sujeito), sentido preservado integralmente.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [
@@ -113,11 +120,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
