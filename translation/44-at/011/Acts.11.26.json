@@ -7,7 +7,7 @@
     "versiculo": 26,
     "pericope": "Acts.11.1-30"
   },
-  "texto_bv": "Durante um ano inteiro, eles se reuniram com a igreja e ensinaram uma multidão considerável. Foi em Antioquia que os discípulos foram chamados cristãos pela primeira vez.",
+  "texto_bv": "Tendo-o encontrado, levou-o a Antioquia. Durante um ano inteiro, eles se reuniram com a igreja e ensinaram uma multidão considerável. Foi em Antioquia que os discípulos foram chamados cristãos pela primeira vez.",
   "traducao_literal": "E, tendo achado, trouxe a Antioquia. Aconteceu-lhes, porém, também um ano inteiro reunirem-se na igreja e ensinarem multidão considerável, e serem chamados pela primeira vez em Antioquia os discípulos cristãos.",
   "termos_originais": [
     {
@@ -179,20 +179,34 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0025)",
+      "escolha": "Durante um ano inteiro, eles se reuniram com a igreja e ensinaram uma multidão considerável. Foi em Antioquia que os discípulos foram chamados cristãos pela primeira vez. → Tendo-o encontrado, levou-o a Antioquia. Durante um ano inteiro, eles se reuniram com a igreja e ensinaram uma multidão considerável. Foi em Antioquia que os discípulos foram chamados cristãos pela primeira vez.",
+      "justificativa": "Objeção procedente. Evidência do original: εὑρὼν (εὑρίσκω, V-2AAP-NSM, particípio aoristo ativo 'tendo encontrado') + ἤγαγεν (ἄγω, V-2AAI-3S, aoristo ativo indicativo 'levou/trouxe') + εἰς Ἀντιόχειαν (Ἀντιόχεια, N-ASF, 'a Antioquia'). A oração completa καὶ εὑρὼν ἤγαγεν εἰς Ἀντιόχειαν está presente no texto pinado (Nestle 1904) e listada integralmente em termos_originais; não há variante textual que a omita. traducao_literal já a registrava ('E, tendo achado, trouxe a Antioquia.'), confirmando que a omissão era exclusiva do texto_bv publicado, não do original. Objeções fechadas: Objeção MATERIAL (revisão ER-0024): O texto_bv do verso omite integralmente a oração inicial do grego pinado (καὶ εὑρὼν ἤγαγεν εἰς Ἀντιόχειαν — “e, tendo-o encontrado, trouxe-o a Antioquia”), presente na traducao_literal (“E, tendo achado, trouxe a Antioquia.”) mas ausente do texto_bv aprovado, que salta direto para “Durante um ano inteiro...”. Falta o elo narrativo entre a ida de Barnabé a Tarso (v.25) e a atuação conjunta com Saulo em Antioquia (v.26b em diante). — evidência: termos_originais de Acts.11.26 começam com καὶ εὑρὼν (εὑρίσκω, V-2AAP-NSM) ἤγαγεν (ἄγω, V-2AAI-3S) εἰς Ἀντιόχειαν; traducao_literal: “E, tendo achado, trouxe a Antioquia.”; KJV confirma: “And when he had found him, he brought him unto Antioch.”; texto_bv não contém equivalente algum dessa oração. Nota textual: KJV ('And when he had found him, he brought him unto Antioch.') e WEB ('When he had found him, he brought him to Antioch.') concordam integralmente na presença e no sentido desta oração — não há divergência textual entre TR e base crítica aqui, apenas uma lacuna de tradução no texto_bv. Ambos os controles foram conferidos pelo conteúdo contra os vizinhos (v.25/v.27) e alinham corretamente ao verso. (ER-0025, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter a construção sem pronome objetivo expresso, no molde da traducao_literal ('Tendo encontrado, levou a Antioquia'), reproduzindo a elipse grega tal qual",
+          "motivo": "Perde porque EDITORIAL §4 só dispensa o suprimento quando o português permanece gramatical sem ele, e 'encontrado'/'levou' sem objeto deixam a frase incompleta e o referente (Saulo) ambíguo para o leitor; a traducao_literal preserva o calque por definição (ER-0013), mas o texto publicado não é obrigado a repeti-lo."
+        }
+      ],
+      "diretriz_ref": "ER-0025"
     }
   ],
-  "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "palavras_supridas": [
+    "-o (em “Tendo-o”, objeto elíptico no grego — εὑρὼν não leva pronome expresso — suprido para atender à regência transitiva do português; referente: Saulo, antecedente em Acts.11.25)",
+    "-o (em “levou-o”, mesmo suprimento, mesmo referente; ἤγαγεν no grego também não repete o objeto)"
+  ],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0025: Manter a construção sem pronome objetivo expresso, no molde da traducao_literal ('Tendo encontrado, levou a Antioquia'), reproduzindo a elipse grega tal qual. Perde porque EDITORIAL §4 só dispensa o suprimento quando o português permanece gramatical sem ele, e 'encontrado'/'levou' sem objeto deixam a frase incompleta e o referente (Saulo) ambíguo para o leitor; a traducao_literal preserva o calque por definição (ER-0013), mas o texto publicado não é obrigado a repeti-lo."
+  ],
   "justificativa": "πρώτως ('pela primeira vez') preservado como marcador histórico, sem expansão explicativa sobre a origem do termo.",
   "confianca": 0.74,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0024): O texto_bv do verso omite integralmente a oração inicial do grego pinado (καὶ εὑρὼν ἤγαγεν εἰς Ἀντιόχειαν — “e, tendo-o encontrado, trouxe-o a Antioquia”), presente na traducao_literal (“E, tendo achado, trouxe a Antioquia.”) mas ausente do texto_bv aprovado, que salta direto para “Durante um ano inteiro...”. Falta o elo narrativo entre a ida de Barnabé a Tarso (v.25) e a atuação conjunta com Saulo em Antioquia (v.26b em diante). — evidência: termos_originais de Acts.11.26 começam com καὶ εὑρὼν (εὑρίσκω, V-2AAP-NSM) ἤγαγεν (ἄγω, V-2AAI-3S) εἰς Ἀντιόχειαν; traducao_literal: “E, tendo achado, trouxe a Antioquia.”; KJV confirma: “And when he had found him, he brought him unto Antioch.”; texto_bv não contém equivalente algum dessa oração."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

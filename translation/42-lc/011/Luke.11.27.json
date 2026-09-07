@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Luke.11.1-54"
   },
-  "texto_bv": "Enquanto ele dizia isso, uma mulher no meio da multidão levantou a voz e lhe disse: \"Bem-aventurado o ventre que o carregou e os seios que o amamentaram!\"",
+  "texto_bv": "Enquanto ele dizia isso, uma mulher no meio da multidão levantou a voz e lhe disse: \"Bem-aventurado o ventre que te carregou e os seios que te amamentaram!\"",
   "traducao_literal": "Aconteceu, no dizer ele estas coisas, levantando a voz uma mulher da multidão, disse-lhe: Bendito o ventre que te carregou e os seios que mamaste.",
   "termos_originais": [
     {
@@ -181,20 +181,31 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0025)",
+      "escolha": "o ventre que o carregou → o ventre que te carregou | os seios que o amamentaram → os seios que te amamentaram",
+      "justificativa": "Objeção procedente. Evidência do original: σε (σύ, G4771, P-2AS) em 'βαστάσασά σε' e ἐθήλασας (θηλάζω, G2337, V-AAI-2S) marcam 2ª pessoa do singular nos dois membros da frase — a bênção da mulher é discurso direto endereçado a Jesus ('tu'/'te'), não uma referência em 3ª pessoa. KJV ('that bare THEE'... 'which THOU hast sucked') e WEB ('that bore YOU'... 'which nursed YOU') confirmam sem divergência entre si; a traducao_literal já registrava 'te carregou' e 'mamaste'. Objeções fechadas: Objeção MATERIAL (revisão ER-0024): A citação direta da mulher usa 3ª pessoa (\"o carregou\", \"que o amamentaram\") onde o grego pinado, a KJV e a própria traducao_literal têm 2ª pessoa de discurso direto dirigido a Jesus. — evidência: termos_originais: βαστάσασά(βαστάζω) σε(σύ,P-2AS) ... ἐθήλασας(θηλάζω,V-AAI-2S) [2ª pessoa do singular]; traducao_literal: \"Bendito o ventre que TE carregou e os seios que MAMASTE\"; KJV: \"the womb that bare THEE, and the paps which THOU hast sucked\". Corrigir exigiria trocar a pessoa gramatical e a voz do segundo verbo dentro das aspas, alterando o sentido do enunciado aprovado — por isso fica em objeção, sem alteração direta do texto_bv. (ER-0025, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "A traducao_literal sustenta a forma plenamente literal 'os seios que mamaste' (voz ativa, sujeito 'tu', igual à KJV). Optou-se por manter a estrutura da BV com 'os seios' como sujeito ('te amamentaram', voz que a WEB também usa: 'breasts which nursed you'), por ser a construção já empregada no texto aprovado e soar mais natural em português corrido; a diferença é de voz sintática, não de sentido — em ambas o referente da 2ª pessoa é Jesus.",
+          "motivo": "Leitura descartada — motivo não isolável automaticamente do texto acima; ver o parágrafo completo em ambiguidades_preservadas."
+        }
+      ],
+      "diretriz_ref": "ER-0025"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0025: A traducao_literal sustenta a forma plenamente literal 'os seios que mamaste' (voz ativa, sujeito 'tu', igual à KJV). Optou-se por manter a estrutura da BV com 'os seios' como sujeito ('te amamentaram', voz que a WEB também usa: 'breasts which nursed you'), por ser a construção já empregada no texto aprovado e soar mais natural em português corrido; a diferença é de voz sintática, não de sentido — em ambas o referente da 2ª pessoa é Jesus."
+  ],
   "justificativa": "Bem-aventurança popular a Maria, indiretamente; inicia uma unidade curta e autocontida (v.27-28).",
   "confianca": 0.72,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0024): A citação direta da mulher usa 3ª pessoa (\"o carregou\", \"que o amamentaram\") onde o grego pinado, a KJV e a própria traducao_literal têm 2ª pessoa de discurso direto dirigido a Jesus. — evidência: termos_originais: βαστάσασά(βαστάζω) σε(σύ,P-2AS) ... ἐθήλασας(θηλάζω,V-AAI-2S) [2ª pessoa do singular]; traducao_literal: \"Bendito o ventre que TE carregou e os seios que MAMASTE\"; KJV: \"the womb that bare THEE, and the paps which THOU hast sucked\". Corrigir exigiria trocar a pessoa gramatical e a voz do segundo verbo dentro das aspas, alterando o sentido do enunciado aprovado — por isso fica em objeção, sem alteração direta do texto_bv."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
