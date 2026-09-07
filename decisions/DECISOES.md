@@ -616,6 +616,46 @@ Ver `docs/domain/governanca/glossary.md`.
   anunciadas).
 - Status permanece **APPROVED** em todo o registro tocado.
 
+## ER-0025 — Adjudicação das objeções MATERIAIS do NT (ADR-0005)
+
+- Data: 2026-09-07 · Escopo: NT (as 8 objeções do ER-0024) · Origem:
+  determinação do mantenedor ("atue como mantenedor e resolva as
+  adjudicações pendentes. EU APROVO") · Status: **CONCLUÍDA**
+- Mesmo mecanismo do ER-0020/ER-0023: driver
+  `adjudicate-objections-driver.workflow.js`, prompt
+  `adjudicador-objecoes.md` v2.0.0, modo `final` (INCONCLUSIVA proibida),
+  KJV baseline de sentido / WEB segundo controle, `termos_originais`
+  (Nestle 1904 no NT) como autoridade textual.
+- **Resultado: 8/8 objeções resolvidas — zero abertas.** 6 procedentes
+  (sentido corrigido), 2 improcedentes (texto mantido): Lc 11.27 e 11.29
+  (pessoa na citação direta; oração genitivo-absoluto restaurada), Jo 20.25
+  (negação espúria removida), At 9.12 (ver achado abaixo), At 11.26 (oração
+  inicial restaurada), Hb 1.8 (pessoa gramatical corrigida) procedentes;
+  Tt 1.5 e 1Pe 2.9 improcedentes — texto_bv já correto, objeção não vencia
+  o ônus da prova contra a morfologia pinada.
+- Achado de peso, análogo aos casos do ER-0020 (At 7.46, At 13.20, Jo
+  17.20): At 9.12 tinha o sintagma "em visão" no `texto_bv` sem base no
+  grego pinado — Nestle 1904 não traz ἐν ὁράματι/ὅραμα neste verso (a lista
+  é καὶ εἶδεν ἄνδρα..., verbo regendo objeto direto sem sintagma
+  preposicional), e a própria `traducao_literal` do registro já não trazia
+  "em visão", confirmando por segunda via que era acréscimo. Provável
+  harmonização escribal com ὅραμα genuinamente pinado no v.10 (a visão de
+  Ananias) — leitura do Textus Receptus (cf. KJV "in a vision"). Removido
+  pela barreira ao TR do ADR-0005.
+- 1 registro exigiu reconciliação de `palavras_supridas` (guarda F-0019):
+  a correção de At 9.12 reescreveu a própria frase que carregava a entrada
+  suprida de um ciclo anterior ("em visão"), órfã na saída. Declarada em
+  `palavras_supridas_removidas` — bookkeeping mecânico, `texto_bv_final`
+  não mudou por causa disso.
+- Modelo: `claude-sonnet-5` em todos os 7 capítulos (verificado no journal).
+- `bvcheck`: 7/7 capítulos tocados limpos; varredura full-canon (1189
+  capítulos, AT+NT) fecha em **0 falhas** — F-0023 permanece encerrado em
+  todo o corpus.
+- Status permanece **APPROVED** em todo o registro tocado. Com isso, **o
+  cânone inteiro está com zero objeção MATERIAL aberta** — ER-0022+ER-0024
+  (revisão gramatical) e ER-0023+ER-0025 (adjudicação) fecham juntos a
+  Bíblia inteira sob os dois eixos.
+
 ---
 
 ## Follow-ups abertos
