@@ -688,6 +688,13 @@ Ver `docs/domain/governanca/glossary.md`.
   `split_rejeitada()` (marcador "perde porque"/variantes; sem marcador,
   preserva o texto integral em `opcao` com aviso explícito em `motivo` — nunca
   reescreve conteúdo). Todo ciclo de adjudicação futuro sai correto por
-  construção; os 37 registros NT remanescentes continuam existindo apenas
-  porque ninguém rodou o driver sobre eles ainda, não porque o persistidor
-  ainda quebre o formato. Dono: mantenedor.
+  construção.
+  **RESOLVIDO por completo em 2026-09-06 (ER-0024)**: os 35 registros NT
+  restantes (2 dos 37 já tinham sido reparados ao acaso, Mt 23.15/33, ao
+  shipar o lote 1) foram varridos de uma vez com `split_rejeitada()` — 0
+  fallbacks, todos com marcador "perde porque" limpo — em vez de deixar o
+  `ship_review_batch.py` tropeçar neles um por um ao longo dos 17 lotes do
+  ER-0024. `bvcheck` confirmado limpo nos 30 capítulos afetados e na
+  varredura final do cânone inteiro (1189 capítulos, 0 falhas). **F-0023
+  está encerrado — AT e NT, 0 registros malformados em todo o corpus.**
+  Dono: mantenedor.
