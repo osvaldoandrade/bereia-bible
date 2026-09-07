@@ -7,7 +7,7 @@
     "versiculo": 27,
     "pericope": "Jas.1.1-27"
   },
-  "texto_bv": "Religião pura e imaculada diante de Deus, o Pai, é esta: visitar os órfãos e as viúvas na sua aflição, e guardar-se sem mancha do mundo.",
+  "texto_bv": "Religião pura e imaculada diante de Deus, o Pai, é esta: visitar os órfãos e as viúvas na sua aflição, e guardar-se do mundo sem mancha.",
   "traducao_literal": "Religião pura e imaculada junto a Deus e Pai é esta: visitar órfãos e viúvas na aflição deles, guardar-se imaculado do mundo.",
   "termos_originais": [
     {
@@ -162,6 +162,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "guardar-se sem mancha do mundo → guardar-se do mundo sem mancha",
+      "justificativa": "A sequência 'sem mancha do mundo' cria leitura ambígua, pois 'mancha do mundo' tende a ser lida como sintagma único ('a mancha que o mundo produz'), quando o grego (ἄσπιλον ἑαυτὸν τηρεῖν ἀπὸ τοῦ κόσμου) rege 'guardar-se ... do mundo' com 'imaculado/sem mancha' como predicativo de modo. Reordenar aproxima 'guardar-se' de 'do mundo' (colocação natural 'guardar-se de algo') e isola 'sem mancha' como adjunto, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0024). Reordenação elimina a ambiguidade estrutural entre 'guardar-se ... do mundo' (regência do verbo) e a leitura indevida 'mancha do mundo' como unidade; sentido idêntico ao original preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0024"
     }
   ],
   "palavras_supridas": [],
@@ -172,11 +179,28 @@
   "ciclos_consenso": 1,
   "objecoes_nao_resolvidas": [],
   "fontes": {
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
-    "prompts_versao": "1.1.0",
-    "regras_versao": "1.1.0",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
+    "prompts_versao": "1.2.3",
+    "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
-    "texto_fonte": "nestle1904@713f28a3"
+    "texto_fonte": "nestle1904@713f28a3",
+    "refs_pt_bolls": {
+      "NTLH": {
+        "fonte": "bolls.life",
+        "sha256": "150e793f42dc2f1796f83512aa5bea9abf0e74b7fe458f4c1ef9965285115d97",
+        "uso": "editorial-reference-only"
+      },
+      "ARA": {
+        "fonte": "bolls.life",
+        "sha256": "135057d182cbc4037940024a0002775d105647bd7d154854d102187e95461c6b",
+        "uso": "editorial-reference-only"
+      },
+      "NVIPT": {
+        "fonte": "bolls.life",
+        "sha256": "a038a04306bcf49569efe57c827b152fb07ccaf0b250b8d571e5b20d4a39a16b",
+        "uso": "editorial-reference-only"
+      }
+    }
   }
 }
