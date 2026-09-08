@@ -656,6 +656,64 @@ Ver `docs/domain/governanca/glossary.md`.
   (revisão gramatical) e ER-0023+ER-0025 (adjudicação) fecham juntos a
   Bíblia inteira sob os dois eixos.
 
+## ER-0026 — Re-revisão gramatical e de coesão do NT (fecha falso negativo do ER-0024)
+
+- Data: 2026-09-08 · Escopo: NT (livros 40-66, os mesmos 260 capítulos do
+  ER-0024) · Origem: determinação do mantenedor, achado concreto — Jo 1.3
+  publicado como "...e sem ele nada foi feito do que foi feito" (repetição
+  do particípio sem função retórica audível), excusado pelo ER-0024 como
+  "traço estilístico joanino" e mantido. Não era. Mantenedor pediu
+  re-revisão do NT inteiro sob padrão mais rigoroso, não só do verso.
+  Status: **CONCLUÍDO** — 260/260 capítulos, 7942/7942 versículos
+  re-revisados a partir do texto JÁ revisado pelo ER-0024 (não do estado
+  pré-ER-0024). `bvcheck` limpo (0 falhas) na varredura final do cânone
+  inteiro.
+- Driver/prompt atualizados no lugar para v1.1.0
+  (`revisor-gramatical-nt.md`, `grammar-review-driver-nt.workflow.js`),
+  três seções novas: **CETICISMO CONTRA "TRAÇO ESTILÍSTICO"** — antes de
+  justificar uma repetição como estilo/ênfase do original, ela precisa
+  passar em pelo menos um de três testes (figura NOMEÁVEL e reconhecível —
+  anáfora/quiasmo/inclusio/paralelismo/refrão, não "o grego repete a raiz";
+  remover apagaria distinção real de tempo/aspecto que o grego marca —
+  motivo para VARIAR a segunda ocorrência, não repetir; ou soa como ênfase
+  real em português lido em voz alta). Nenhum teste passa → é calque
+  morfológico, corrige-se; **COSTURA DE VERSÍCULO** — conectivo minúsculo
+  que retoma oração de mais de um verso atrás (não o imediatamente
+  anterior) exige confirmação pelo conteúdo do antecedente pretendido;
+  **COESÃO DE PARÁGRAFO** — julgar o verso dentro da perícope, não só
+  contra o vizinho imediato.
+- **Resultado: 201 versos revisados** (forma corrigida — a maior parte
+  aspas retas remanescentes convertidas para curvas, calque morfológico
+  tipo Jo 1.3, e reestruturações de fronteira de citação como Jo 1.32-34);
+  **5 objeções MATERIAIS abertas** (tag ER-0026) aguardando adjudicação do
+  mantenedor: Mt 14.36 (διασῴζω, intensidade "completamente curados" vs.
+  "curados"), Mc 5.24 (oração inteira omitida — "e uma grande multidão o
+  seguia e o apertava"), Rm 5.1 (ἔχωμεν subjuntivo presente pinado vs.
+  indicativo "temos" do texto_bv — "tenhamos" vs. "temos"), Ap 17.11
+  (artigo indefinido "é um oitavo" pode inverter a ênfase do predicativo
+  anártrico grego), 1Jo 5.18 (duas formas distintas do particípio de
+  γεννάω na mesma frase, distinção possivelmente apagada).
+- Achado de peso — o caso que abriu o ciclo: Jo 1.3 corrigido para "e sem
+  ele nada se fez do que foi feito" (verbo diferente na oração principal,
+  precedente estabelecido em ARA e ACF para este verso exato, zero mudança
+  de sentido, preserva a estrutura dobrada ἐγένετο/γέγονεν do original).
+  Achado colateral do mesmo capítulo, não antecipado: Jo 1.32-34 tinha a
+  aspa de fechamento da fala de João mal posicionada no fim do v.32 quando
+  o discurso em primeira pessoa ("eu vi e testemunhei") se estende até o
+  fim do v.34 — corrigido pela guarda COSTURA DE VERSÍCULO.
+- Modelo: `claude-sonnet-5` em todos os 260 capítulos (verificado no
+  journal de cada um dos 17 lotes — incluindo confirmação de que a
+  ferramenta de resumo estruturado, não só o Write do arquivo, também
+  rodou no modelo correto).
+- Amostragem de qualidade feita durante o próprio ciclo (não só ao final):
+  Mt 18 (8 revisões) e At 21 (9 revisões) inspecionados verso a verso antes
+  de shipar — 100% mudanças mecânicas de aspas retas→curvas, sem nenhuma
+  correção espúria; confirma que o padrão mais rigoroso não está
+  super-corrigindo.
+- `bvcheck`: 0 falhas nos 260 capítulos tocados e na varredura full-canon
+  final (1189 capítulos, AT+NT).
+- Status permanece **APPROVED** em todo o registro tocado.
+
 ---
 
 ## Follow-ups abertos
