@@ -1,29 +1,36 @@
-// Lean grammar/cohesion review driver for the NT (ER-0024).
+// Lean grammar/cohesion review driver for the NT (ER-0026, v1.1.0).
 //
-// Fork of grammar-review-driver-v2.workflow.js (ER-0022, AT) with the same
-// lean contract — ONE Read (digest) + ONE Write (review-out), inline
-// distilled rules, up to 16 parallel threads — but the original-language
-// framing swapped: `termos_originais` here is Greek (Nestle 1904), not
-// Hebrew (WLC/OSHB), and the KJV control rests on the Textus Receptus,
-// which for the NT means STRUCTURAL divergence (interpolated verses/clauses
-// the critical text doesn't have), not just translation-style drift. The
-// RULES below add an explicit TR-barrier paragraph for that reason — same
-// discipline ADR-0005 already enforces at the adjudication layer (ER-0020),
-// pulled forward into the grammar pass so a reviewer never raises a false
-// "the BV is missing words" objection against a known TR-only clause.
+// Re-review of the whole NT after ER-0024 shipped a confirmed false
+// negative: João 1.3 ("...nada foi feito do que foi feito") — a repeated
+// participle with no audible rhetorical function in Portuguese, excused by
+// the ER-0024 reviewer as "traço estilístico joanino" and left unchanged.
+// Maintainer flagged it and asked for the whole NT to be redone under a
+// stricter standard, not just the one verse. RULES below add: (1) an
+// explicit skepticism test before any "it's stylistic" verdict is allowed
+// to stand — named figure, real tense/aspect distinction, or audible
+// emphasis, or it's calque and gets corrected; (2) a verse-seam check for
+// connectives that open on a lowercase word continuing a clause from
+// further back than the immediately preceding verse; (3) paragraph-level
+// (not just adjacent-verse) cohesion judgment.
 //
-// Distilled from pipeline/prompts/revisor-gramatical-nt.md v1.0.0 and
+// Same lean contract otherwise — ONE Read (digest) + ONE Write (review-out),
+// inline distilled rules, up to 16 parallel threads. Same original-language
+// framing as ER-0024: `termos_originais` is Greek (Nestle 1904), KJV control
+// rests on the Textus Receptus (structural divergence, not just style —
+// TR-barrier paragraph unchanged from ER-0024).
+//
+// Distilled from pipeline/prompts/revisor-gramatical-nt.md v1.1.0 and
 // pipeline/rules/EDITORIAL.md v1.2.0 (Bible-wide, unchanged) — re-distill
 // here if either changes.
 //
 // Persistence unchanged: scripts/ship_review_batch.py -status APPROVED
-// -er ER-0024 -modelo <model>, same guards (exact OSIS coverage, MATERIAL
+// -er ER-0026 -modelo <model>, same guards (exact OSIS coverage, MATERIAL
 // => text unchanged, every edit logged in mudancas).
 //
 // args = { chapters: [ { book_dir, chapter } ... up to 16 ], model }
 export const meta = {
   name: 'bv-grammar-review-driver-nt',
-  description: 'Lean grammar and cohesion review of the NT — inline rules, 2 tool calls per chapter (ER-0024)',
+  description: 'Stricter re-review of the NT for cohesion — closes the ER-0024 false-negative gap (ER-0026 v1.1.0)',
   phases: [{ title: 'Revisar', detail: 'até 16 threads; 1 Read + 1 Write por capítulo, regras inline' }],
 }
 const REPO = '/Users/ova/GolandProjects/bereia-bible'
@@ -43,11 +50,19 @@ const SUMMARY = {
   properties: { book_dir: S, chapter: I, revisados: I, sem_alteracao: I, objecoes_materiais: I },
 }
 
-const RULES = `Você é o revisor gramatical e de coesão da Bereia Version (BV), etapa ER-0024 (NT). Objetivo: português correto e coeso, SEM jamais comprar coesão com fidelidade.
+const RULES = `Você é o revisor gramatical e de coesão da Bereia Version (BV), etapa ER-0026 (NT, re-revisão). Objetivo: português correto e coeso, SEM jamais comprar coesão com fidelidade.
+
+POR QUE ESTE CICLO EXISTE: o ciclo anterior (ER-0024) deixou passar defeito real. Caso confirmado: João 1.3 publicado como "...e sem ele nada foi feito do que foi feito" — particípio repetido sem função retórica audível em português (calque morfológico do grego ἐγένετο...γέγονεν), e o revisor justificou como "traço estilístico joanino" e manteve. Não era. Leia a seção CETICISMO abaixo com atenção redobrada antes de escrever SEM_ALTERACAO sobre qualquer repetição.
 
 REGRA QUE GOVERNA TUDO: fidelidade às Escrituras é o TETO; norma culta e coesão são o PISO. O texto tem de dizer exatamente o que o grego diz, num português que um leitor brasileiro culto leia sem tropeçar. Quando as duas exigências colidem, a FIDELIDADE VENCE e você registra objeção MATERIAL — nunca o contrário. Na esmagadora maioria dos casos não há colisão: o defeito é calque, regência, concordância ou pronome sem antecedente, que se corrige sem tocar no sentido.
 
-ORÇAMENTO DE FERRAMENTAS (rígido): (1) Read do digest indicado; (2) Write do arquivo de saída; opcionalmente (3) UMA validação do JSON escrito (python3 -m json.tool via Bash) com re-Write se inválido. Nada além disso. NÃO leia nenhum outro arquivo: as regras deste prompt são a versão destilada e vinculante de revisor-gramatical-nt.md v1.0.0, EDITORIAL.md v1.2.0, DECISOES.md (ER-0011..ER-0023) e do léxico. Dúvida que exigiria consultá-los vira objeção EDITORIAL — nunca decisão própria.
+CETICISMO CONTRA "TRAÇO ESTILÍSTICO": antes de escrever SEM_ALTERACAO justificando uma repetição como "estilo joanino", "ênfase do original" ou equivalente, ela precisa passar em PELO MENOS UM destes testes: (1) é uma figura NOMEÁVEL e reconhecível — anáfora, quiasmo, inclusio, paralelismo sinonímico, refrão litúrgico — não apenas "o grego usa a mesma raiz duas vezes"; se você não consegue nomear a figura, não é uma; (2) remover a repetição apagaria uma distinção real que o grego marca (ex.: aoristo/perfeito, como ἐγένετο vs γέγονεν) — mas isso é motivo para VARIAR a segunda ocorrência capturando a nuance, não para repetir a mesma palavra portuguesa duas vezes; (3) a repetição soa como ênfase real em português lida em voz alta, não só "existe no grego e é visível na página". Nenhum teste passa → é calque morfológico: corrija, variando o verbo/palavra (nunca inventando nuance teológica nova), preferindo precedente já estabelecido na tradição de tradução em português (ARA/ACF/NVI) quando houver. Exemplo do próprio Jo 1.3: "nada foi feito do que foi feito" → "nada se fez do que foi feito" (ARA e ACF resolvem este verso assim — verbo diferente na oração principal, mesma estrutura dobrada do original, zero mudança de sentido). Isto NÃO reabre o que já é estrutura atestada do relato — "Amém, amém" joanino, o testemunho duplo do Batista ("E eu não o conhecia", Jo 1.31 e 1.33), a fórmula de glosa de nome (vv.38/41/42 "que, traduzido, é/significa X"), a dupla confissão (Jo 1.20 "confessou e não negou; confessou") passam no teste 1 e continuam corretos como estão.
+
+COSTURA DE VERSÍCULO: quando um verso abre com conectivo minúsculo ("porque", "e", "mas") continuando a oração de um verso anterior que NÃO é o imediatamente precedente (verso anterior fecha citação direta ou parêntese, e a oração retomada vem de mais atrás), confirme pelo CONTEÚDO que o antecedente pretendido é mesmo esse. Não reescreva pontuação/divisão de versículo por conta própria (não é sua jurisdição); é para checar que a leitura não induz o leitor a conectar ao verso errado, e registrar em justificativa quando o caso for genuinamente ambíguo.
+
+COESÃO DE PARÁGRAFO: contexto.anteriores/posteriores existe para julgar o verso dentro da PERÍCOPE, não só contra o vizinho imediato. Um verso pode estar perfeito isolado e ainda quebrar o fluxo do parágrafo (retomada tardia, conectivo que faz mais sentido com um verso três posições atrás). Julgue nesse nível também.
+
+ORÇAMENTO DE FERRAMENTAS (rígido): (1) Read do digest indicado; (2) Write do arquivo de saída; opcionalmente (3) UMA validação do JSON escrito (python3 -m json.tool via Bash) com re-Write se inválido. Nada além disso. NÃO leia nenhum outro arquivo: as regras deste prompt são a versão destilada e vinculante de revisor-gramatical-nt.md v1.1.0, EDITORIAL.md v1.2.0, DECISOES.md (ER-0011..ER-0025) e do léxico. Dúvida que exigiria consultá-los vira objeção EDITORIAL — nunca decisão própria.
 
 AUTORIDADE (nesta ordem):
 1. termos_originais — grego pinado (Nestle 1904) com lemma e morfologia. Teto da fidelidade; nenhuma versão o supera.
@@ -77,7 +92,7 @@ NÃO TOQUE: fórmulas intencionais do original (o "Amém, amém" joanino, refrõ
 
 VEREDITOS:
 - REVISADO — você corrigiu a forma; toda alteração em mudancas.
-- SEM_ALTERACAO — correto e coeso; se havia algo aparente (divergência da KJV — inclusive textual —, repetição, sentença longa) que você optou por manter, justifique ("variante textual TR", "fórmula intencional", "paralelismo do original" são respostas legítimas e esperadas).
+- SEM_ALTERACAO — correto e coeso; se havia algo aparente (divergência da KJV — inclusive textual —, repetição, sentença longa) que você optou por manter, justifique passando pelo teste do CETICISMO acima quando for repetição — "variante textual TR" e "figura nomeada (anáfora/quiasmo/inclusio/paralelismo/refrão)" são respostas legítimas; "traço estilístico" sem nomear a figura não é.
 - Objeção MATERIAL — a correção só seria possível mudando o sentido; o texto NÃO muda; descreva problema e evidência. É o mecanismo de proteção da fidelidade: use sem hesitar.
 - Objeção EDITORIAL — melhoria real que você opta por não aplicar (colide com decisão vigente, exige mudança em vizinho ou em cadeia de capítulos).
 
