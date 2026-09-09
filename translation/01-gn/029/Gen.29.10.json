@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Gen.29.1-35"
   },
-  "texto_bv": "Quando Jacó viu Raquel, filha de Labão, irmão de sua mãe, e as ovelhas de Labão, irmão de sua mãe, se chegou e removeu a pedra de sobre a boca do poço. Deu de beber às ovelhas de Labão, irmão de sua mãe.",
+  "texto_bv": "Quando Jacó viu Raquel, filha de Labão, irmão de sua mãe, e as ovelhas de Labão, irmão de sua mãe, ele se chegou e removeu a pedra de sobre a boca do poço. Deu de beber às ovelhas de Labão, irmão de sua mãe.",
   "traducao_literal": "E aconteceu que, quando viu Jacó a Raquel, filha de Labão, irmão de sua mãe, e as ovelhas de Labão, irmão de sua mãe, e chegou-se Jacó e rolou a pedra de sobre a boca do poço, e deu de beber às ovelhas de Labão, irmão de sua mãe.",
   "termos_originais": [
     {
@@ -185,6 +185,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mãe, se chegou e removeu a pedra → mãe, ele se chegou e removeu a pedra",
+      "justificativa": "Depois de oração subordinada longa com dupla menção de 'Labão, irmão de sua mãe', o sujeito ficava implícito demais e sujeito a leitura equivocada (o substantivo mais próximo, 'ovelhas', não pode ser sujeito de 'chegou-se'). O próprio hebraico retoma o sujeito nesse ponto ('וַיִּגַּשׁ יַעֲקֹב', 'aproximou-se Jacó'); inserido o pronome 'ele' para restaurar a retomada sem repetir o nome próprio. — revisão de forma sem alteração de sentido (ER-0028). A tripla repetição de 'irmão de sua mãe' reflete fielmente o hebraico, que repete אֲחִי אִמּוֹ três vezes neste mesmo verso — fórmula genealógica de ênfase (identifica Labão precisamente no momento-chave em que Jacó reconhece a família), protegida por NÃO TOQUE; mantida sem alteração. Corrigida apenas a retomada de sujeito (ver mudança).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -196,11 +203,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
