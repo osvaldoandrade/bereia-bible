@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "1Sam.28.1-25"
   },
-  "texto_bv": "O SENHOR fez isso a ele conforme havia anunciado por meu intermédio: rasgou o reino de sua mão e o deu a Davi, seu próximo.",
+  "texto_bv": "O SENHOR fez isso a você conforme havia anunciado por meu intermédio: rasgou o reino de sua mão e o deu a Davi, seu próximo.",
   "traducao_literal": "E fez o SENHOR isso a ele conforme falou pela minha mão; e rasgou o SENHOR o reino de tua mão e o deu a teu próximo, a Davi.",
   "termos_originais": [
     {
@@ -134,6 +134,13 @@
         }
       ],
       "diretriz_ref": "ER-0023"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fez isso a ele conforme → fez isso a você conforme",
+      "justificativa": "O verso integra uma única fala contínua de Samuel a Saul (aspas abrem no v.16 e só fecham no fim do v.19), com tratamento 'você' nos vv.16, 18 e 19. 'A ele' quebra esse tratamento no meio da mesma fala (descontinuidade você/3ª pessoa vedada pela regra de coesão). O hebraico também oscila dentro do próprio v.17 — לוֹ (3ms, 'a ele') no início, mas מִיָּדֶךָ e לְרֵעֲךָ (2ms, 'tua mão'/'teu próximo') na sequência, morfologia confirmada nos termos originais — e a KJV resolve exatamente assim: 'to him... out of thine hand... to thy neighbour', retornando à 2ª pessoa. Ajustar 'a ele' para 'a você' mantém o mesmo referente (Saul) e o mesmo fato narrado, apenas restaura o registro de tratamento já estabelecido no capítulo, sem alterar o sentido. — revisão de forma sem alteração de sentido (ER-0028). Correção de forma (coesão de tratamento), sem alteração de sentido: o referente e os fatos permanecem os mesmos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [
@@ -152,7 +159,7 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
