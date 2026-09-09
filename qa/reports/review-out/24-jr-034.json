@@ -7,7 +7,7 @@
       "texto_bv_revisto": "A palavra que veio a Jeremias da parte do SENHOR. Isso aconteceu quando Nabucodonosor, rei da Babilônia, com todo o seu exército, e todos os reinos da terra sob o domínio de sua mão, e todos os povos, guerreavam contra Jerusalém e contra todas as suas cidades, dizendo:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sentença já reestruturada (sem calque de \"e aconteceu que\"), sujeito composto (Nabucodonosor + reinos + povos) concorda corretamente com \"guerreavam\" no plural; extensão dentro do limite e pontuação adequada.",
+      "justificativa": "Frase já reestruturada com subordinação ('quando') em vez de cadeia de 'e's; sujeito composto concorda corretamente com o verbo no plural ('guerreavam'); sem calque sintático remanescente.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -15,7 +15,7 @@
       "texto_bv_revisto": "“Assim diz o SENHOR, Deus de Israel: Vá e fale com Zedequias, rei de Judá, e diga-lhe: Assim diz o SENHOR: Eis que entrego esta cidade nas mãos do rei da Babilônia, e ele a queimará a fogo.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Imperativos e pronome enclítico (\"diga-lhe\") corretos; \"queimará a fogo\" é colocação recorrente no capítulo (repete-se no v.22) e fiel ao original (שׂרף באש), mantida por consistência lexical.",
+      "justificativa": "'e ele a queimará a fogo' reproduz fórmula consolidada da tradição de tradução em português ('queimar a fogo'), não é calque isolado a corrigir; regência e colocação pronominal ('diga-lhe') corretas.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -23,7 +23,7 @@
       "texto_bv_revisto": "E você não escapará da mão dele; será certamente capturado e entregue nas mãos dele; os seus olhos verão os olhos do rei da Babilônia, e a boca dele falará com a sua boca, e você irá para a Babilônia.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Referentes bem distribuídos ao longo do verso: \"dele\" sempre remete ao rei da Babilônia e \"seu/sua\" sempre a você (Zedequias), sem ambiguidade; concordância verbal correta.",
+      "justificativa": "Segunda pessoa 'você' usada consistentemente (Deus se dirigindo a um humano, Zedequias); o par 'seus' / 'dele' distingue corretamente os dois referentes (os olhos e a boca de Zedequias vs. os olhos e a boca do rei da Babilônia), sem ambiguidade pronominal.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -31,39 +31,59 @@
       "texto_bv_revisto": "Contudo, ouça a palavra do SENHOR, Zedequias, rei de Judá: assim diz o SENHOR a seu respeito: Você não morrerá à espada.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Correto e coeso; nenhum calque ou problema de regência.",
+      "justificativa": "'à espada' com crase correta (morrer a + a espada); 'Contudo' capta o valor adversativo de אַךְ/'Yet' após o anúncio de captura do versículo anterior.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.5",
-      "texto_bv_revisto": "Em paz você morrerá; e, como queimaram incenso para os seus pais, os reis anteriores que foram antes de você, assim queimarão para você, e o prantearão, dizendo: 'Ai, senhor!'; pois eu pronunciei esta palavra, diz o SENHOR.\"",
-      "mudancas": [],
+      "texto_bv_revisto": "Em paz você morrerá; e, como queimaram incenso para os seus pais, os reis anteriores que foram antes de você, assim queimarão para você, e o prantearão, dizendo: ‘Ai, senhor!’; pois eu pronunciei esta palavra, diz o SENHOR.”",
+      "mudancas": [
+        {
+          "tipo": "pontuacao",
+          "antes": "'Ai, senhor!'",
+          "depois": "‘Ai, senhor!’",
+          "motivo": "Citação dentro de citação deve usar aspas simples curvas (‘ ’), não retas, por consistência com a convenção de aspas curvas do texto (EDITORIAL.md v1.2.0)."
+        },
+        {
+          "tipo": "pontuacao",
+          "antes": "diz o SENHOR.\"",
+          "depois": "diz o SENHOR.”",
+          "motivo": "A aspa dupla que fecha aqui a fala do SENHOR aberta com “ em Jer.34.2 estava reta; trocada para curva (”) para casar com a de abertura — a fala termina neste versículo, e a narração retoma em Jer.34.6."
+        }
+      ],
       "objecoes": [],
-      "justificativa": "Citação dentro de citação corretamente em aspas simples (\"'Ai, senhor!'\"); paralelismo \"queimaram/queimarão\" é do original, mantido.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Corrigida a pontuação do discurso direto (aspas retas trocadas por curvas). Mantida a repetição 'reis anteriores... antes de você', que reflete pleonasmo já presente no hebraico (הָרִאשֹׁנִים ... לְפָנֶיךָ) e na KJV ('the former kings ... before thee'), especificando os reis predecessores — não é estilo evitável, é conteúdo do verso.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Jer.34.6",
       "texto_bv_revisto": "E Jeremias, o profeta, falou a Zedequias, rei de Judá, todas essas palavras, em Jerusalém.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Ordem SVO já corrigida em relação à camada literal (invertida do hebraico); sem problemas.",
+      "justificativa": "Sem calque, regência ou concordância a corrigir.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.7",
-      "texto_bv_revisto": "E o exército do rei da Babilônia guerreava contra Jerusalém e contra todas as cidades restantes de Judá: contra Laquis e contra Azeca, pois estas eram as que restavam entre as cidades fortificadas de Judá.",
-      "mudancas": [],
+      "texto_bv_revisto": "E o exército do rei da Babilônia guerreava contra Jerusalém e contra todas as cidades restantes de Judá: contra Laquis e contra Azeca, pois estas eram as que subsistiam entre as cidades fortificadas de Judá.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "restavam",
+          "depois": "subsistiam",
+          "motivo": "Evitar repetição da mesma raiz ('cidades restantes'... 'que restavam') a curta distância no mesmo período; o hebraico varia as raízes (נותרות / נשארו) e a KJV varia as palavras ('left' / 'remained'), então variar o léxico em português melhora a coesão sem alterar o sentido."
+        }
+      ],
       "objecoes": [],
-      "justificativa": "\"restantes\"/\"restavam\" refletem dois verbos hebraicos distintos (נותר/שאר) de sentido próximo; concordância de \"estas\" com \"cidades\" correta.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Substituído 'restavam' por 'subsistiam' na segunda ocorrência para não repetir a raiz de 'restantes' poucas palavras antes.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Jer.34.8",
       "texto_bv_revisto": "A palavra que veio a Jeremias da parte do SENHOR, depois que o rei Zedequias fez aliança com todo o povo que estava em Jerusalém, para lhes proclamar liberdade,",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Fórmula \"A palavra que veio a Jeremias da parte do SENHOR\" repete a abertura do v.1: é a fórmula introdutória padrão de oráculo em Jeremias, não vício de repetição.",
+      "justificativa": "'que' no início de Jer.34.9 retoma o conteúdo de 'liberdade' anunciada neste versículo, o imediatamente anterior; a leitura permanece clara, não há antecedente distante em jogo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -71,7 +91,7 @@
       "texto_bv_revisto": "que cada um despedisse livre o seu escravo hebreu e a sua escrava hebreia, para que ninguém mais escravizasse o seu irmão judeu.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sequência de subjuntivo imperfeito (\"despedisse\"/\"escravizasse\") correta após \"fez aliança ... para lhes proclamar liberdade\" do v.8; concordância de gênero em \"hebreu/hebreia\" correta.",
+      "justificativa": "'cada um' evita repetir 'homem... homem' do hebraico (אִישׁ ... וְאִישׁ) sem perder o sentido distributivo; sem calque remanescente.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -79,7 +99,7 @@
       "texto_bv_revisto": "E todos os oficiais e todo o povo que haviam entrado na aliança ouviram que cada um deveria despedir livre o seu escravo e a sua escrava, para não mais os escravizar; e obedeceram, e os despediram.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sujeito composto (\"todos os oficiais e todo o povo\") concorda corretamente no plural com \"ouviram\"/\"haviam entrado\"; pronomes \"os\" recuperam \"escravo/escrava\" sem ambiguidade.",
+      "justificativa": "A segunda ocorrência de שמע é traduzida como 'obedeceram' (não 'ouviram' outra vez), evitando repetição e acompanhando a distinção que a KJV também marca ('heard'... 'obeyed').",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -87,7 +107,7 @@
       "texto_bv_revisto": "Mas depois voltaram atrás e fizeram voltar os escravos e as escravas que haviam despedido livres, e os sujeitaram como escravos e escravas.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "\"voltaram atrás\" é tradução idiomática adequada do hebraico שוב (não é calque); repetição de \"escravos e escravas\" é do vocabulário legal do original, mantida.",
+      "justificativa": "Sem calque, regência ou concordância a corrigir.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -95,7 +115,7 @@
       "texto_bv_revisto": "E a palavra do SENHOR veio a Jeremias, da parte do SENHOR, dizendo:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A dupla menção a \"SENHOR\" (\"a palavra do SENHOR ... da parte do SENHOR\") reflete literalmente o hebraico, que traz יְהוָה duas vezes (דְבַר יְהוָה ... מֵאֵת יְהוָה), confirmado pelos termos originais e pela KJV (\"the word of the Lord ... from the Lord\"); não é redundância de tradução, é o texto-fonte.",
+      "justificativa": "'do SENHOR... da parte do SENHOR' repete o nome divino porque o hebraico mesmo o repete (דְּבַר יְהוָה ... מֵאֵת יְהוָה, conferido em termos_originais) — marca de ênfase real na abertura de um novo oráculo após a denúncia da quebra da aliança, não calque de sintaxe a suavizar.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -103,84 +123,70 @@
       "texto_bv_revisto": "“Assim diz o SENHOR, Deus de Israel: Eu fiz aliança com os pais de vocês, no dia em que os tirei da terra do Egito, da casa da escravidão, dizendo:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Abertura de aspas curvas corretamente iniciada para o novo oráculo; sem problemas de regência ou coesão.",
+      "justificativa": "Sem calque, regência ou concordância a corrigir; nomes divinos conforme política pinada.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.14",
-      "texto_bv_revisto": "Ao fim de sete anos, cada um de vocês libertará o seu irmão hebreu que se vender a você: ele o servirá seis anos, e depois você o libertará, livre, de sua casa. Mas os pais de vocês não me deram ouvidos, nem inclinaram o ouvido.",
-      "mudancas": [],
+      "texto_bv_revisto": "Ao fim de sete anos, cada um de vocês libertará o seu irmão hebreu que se vender a você: ele servirá a você seis anos, e depois você o libertará, livre, de sua casa. Mas os pais de vocês não me deram ouvidos, nem inclinaram o ouvido.",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "ele o servirá seis anos",
+          "depois": "ele servirá a você seis anos",
+          "motivo": "O clítico 'o' ficava ambíguo entre dois referentes masculinos no mesmo período: em 'ele o servirá... e depois você o libertará', o primeiro 'o' precisa valer por 'você' (o senhor a quem a lei se dirige) e o segundo 'o' vale pelo irmão-escravo — mesma forma para dois antecedentes diferentes em sequência. Explicitar 'a você' (equivalente a 'servirá a ti' da tradução literal) resolve a ambiguidade sem mudar o sentido."
+        }
+      ],
       "objecoes": [],
-      "justificativa": "Uso do pronome oblíquo \"o\" para retomar \"você\" (\"ele o servirá\"/\"você o libertará\") é a forma padrão culta de pronominalizar você em posição de objeto; distribuição \"cada um de vocês ... a você\" reflete o mesmo salto de pessoa (3ª para 2ª) do hebraico (אִישׁ ... לְךָ).",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Trocado o clítico ambíguo 'o' por 'a você' na primeira oração, para não competir com o 'o' da oração seguinte, que se refere ao irmão-escravo.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Jer.34.15",
       "texto_bv_revisto": "E hoje vocês se voltaram e fizeram o que era reto aos meus olhos, proclamando liberdade cada um ao seu próximo; e fizeram aliança diante de mim, na casa sobre a qual é invocado o meu nome.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "\"sobre a qual é invocado o meu nome\" recupera \"casa\" sem ambiguidade; tempos verbais (perfeito) coerentes com a sequência narrativa.",
+      "justificativa": "Sem calque, regência ou concordância a corrigir; 'na casa sobre a qual é invocado o meu nome' segue fórmula consolidada da tradição de tradução em português.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.16",
       "texto_bv_revisto": "Mas vocês voltaram atrás e profanaram o meu nome; fizeram voltar cada um o seu escravo e cada um a sua escrava que haviam despedido livres, para eles mesmos, e os sujeitaram, para que fossem escravos e escravas para vocês.",
-      "mudancas": [
-        {
-          "tipo": "coesao",
-          "antes": "que haviam despedido livres, para si mesmos",
-          "depois": "que haviam despedido livres, para eles mesmos",
-          "motivo": "O reflexivo \"si mesmos\" remete gramaticalmente ao sujeito da oração (vocês, quem despediu), invertendo o sentido do hebraico לְנַפְשָׁם (\"para eles mesmos\", sufixo de 3ª pl. referente aos escravos libertados, não a quem os libertou). \"Eles mesmos\" corrige o antecedente para o escravo/escrava sem alterar o sentido."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "",
-      "veredito": "REVISADO"
+      "justificativa": "'para eles mesmos' verte a expressão idiomática לְנַפְשָׁם ('à vontade/ao próprio critério deles', cf. KJV 'at their pleasure'); escolha lexical já estabelecida, não calque sintático a corrigir aqui.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.17",
       "texto_bv_revisto": "Portanto, assim diz o SENHOR: Vocês não me obedeceram, para proclamar liberdade cada um ao seu irmão e cada um ao seu próximo. Por isso, eis que eu proclamo para vocês liberdade, diz o SENHOR, para a espada, para a peste e para a fome; e farei de vocês um motivo de terror para todos os reinos da terra.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Jogo de palavras irônico do original mantido (\"liberdade ... para a espada, para a peste e para a fome\", retomando דְּרוֹר do v.9/15 em sentido invertido) — não é incoerência, é o texto. \"Motivo de terror\" segue o lema pinado 2113 (זְוָעָה, terror/tremor); a KJV (\"removed\") diverge por tradição textual distinta, e a morfologia pinada prevalece.",
+      "justificativa": "'proclamo... liberdade... para a espada, para a peste e para a fome' preserva o jogo retórico irônico do hebraico e da KJV (proclamar 'liberdade' que na verdade entrega o povo à espada, à peste e à fome) — figura intencional do texto (paronomásia sobre 'liberdade'), não deve ser suavizada.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.18",
       "texto_bv_revisto": "E entregarei os homens que transgrediram a minha aliança, que não cumpriram as palavras da aliança que fizeram diante de mim ao cortar o bezerro em dois e passar entre as suas partes:",
-      "mudancas": [
-        {
-          "tipo": "coesao",
-          "antes": "que firmaram diante de mim",
-          "depois": "que fizeram diante de mim",
-          "motivo": "Mesmo lema hebraico כרת (cortar aliança) é vertido no capítulo sempre por \"fazer aliança\" (v.8 \"fez aliança\", v.13 \"fiz aliança\", v.15 \"fizeram aliança\"); \"firmaram\" era variação sem motivo contextual. Normalizado para o lexema majoritário do capítulo (EDITORIAL.md §1.4), sem alterar o sentido."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "",
-      "veredito": "REVISADO"
+      "justificativa": "'as suas partes' referindo-se ao bezerro fica clara pelo contexto imediato (partes do que acabou de ser cortado); sem calque ou regência a corrigir.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.19",
       "texto_bv_revisto": "os oficiais de Judá e os oficiais de Jerusalém, os eunucos e os sacerdotes, e todo o povo da terra, que passaram entre as partes do bezerro,",
-      "mudancas": [
-        {
-          "tipo": "concordancia",
-          "antes": "e todo o povo da terra que passou entre as partes do bezerro,",
-          "depois": "e todo o povo da terra, que passaram entre as partes do bezerro,",
-          "motivo": "O verbo no singular (\"que passou\") concorda apenas com \"povo\", excluindo oficiais, eunucos e sacerdotes do grupo que passou entre as partes do bezerro. O hebraico (הָעֹבְרִים, particípio plural) e a própria camada literal (\"os que passaram\") mostram que a oração relativa abrange toda a lista enumerada desde o v.18 (\"os homens\"). Corrigido para o plural, com vírgula que sinaliza o escopo da relativa sobre todo o grupo, sem alterar o sentido."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "",
-      "veredito": "REVISADO"
+      "justificativa": "A lista de Jer.34.19 é apositiva a 'os homens' de Jer.34.18 (o versículo imediatamente anterior, ligado por dois-pontos); o verbo principal é retomado em Jer.34.20 ('eu os entregarei'), repetição resumptiva que reflete a mesma estrutura do hebraico (retomada do verbo após o parêntese longo com a lista) e ajuda a coesão em português.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.20",
       "texto_bv_revisto": "eu os entregarei nas mãos dos seus inimigos e nas mãos dos que lhes buscam a morte; e os seus cadáveres servirão de alimento para as aves do céu e para os animais da terra.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "\"Os que lhes buscam a morte\" é escolha lexical consistente no capítulo (repete-se no v.21) para נַפְשָׁם, mantida por consistência interna; concordância e regência corretas.",
+      "justificativa": "'os que lhes buscam a morte' é escolha lexical já consistente com Jer.34.21 (mesma expressão), não há variação intracapítulo sem razão a normalizar.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -188,23 +194,16 @@
       "texto_bv_revisto": "E entregarei Zedequias, rei de Judá, e os seus oficiais, nas mãos dos seus inimigos, nas mãos dos que lhes buscam a morte, e nas mãos do exército do rei da Babilônia, que se retirou de vocês.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "\"Que se retirou\" concorda no singular com \"exército\" (antecedente correto); sem problemas de coesão ou regência.",
+      "justificativa": "'exército... que se retirou' (singular) seguido de 'os'/'eles' no plural em Jer.34.22 é concordância ad sensum comum em português para coletivos que designam um grupo de pessoas, e casa com o particípio plural do hebraico (הָעֹלִים); não é erro de concordância a corrigir.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.22",
       "texto_bv_revisto": "Eis que eu ordeno, diz o SENHOR, e os farei voltar a esta cidade; eles guerrearão contra ela, a tomarão e a queimarão a fogo; e farei das cidades de Judá uma desolação, sem habitante.”",
-      "mudancas": [
-        {
-          "tipo": "calque",
-          "antes": "e eles guerrearão contra ela, e a tomarão, e a queimarão a fogo;",
-          "depois": "eles guerrearão contra ela, a tomarão e a queimarão a fogo;",
-          "motivo": "Cadeia de waw consecutivo do hebraico (וְנִלְחֲמוּ...וּלְכָדוּהָ...וּשְׂרָפֻהָ) virada em \"e...e...e...\" repetitivo. O português narrativo varia o conectivo: mantido o \"e\" apenas antes do último verbo da série (padrão de enumeração), preservando as três ações e sua ordem sem inventar relação lógica nova."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "",
-      "veredito": "REVISADO"
+      "justificativa": "Aspa dupla de fechamento já está curva (”), consistente com a abertura em Jer.34.13; sem calque, regência ou concordância a corrigir.",
+      "veredito": "SEM_ALTERACAO"
     }
   ]
 }
