@@ -714,6 +714,36 @@ Ver `docs/domain/governanca/glossary.md`.
   final (1189 capítulos, AT+NT).
 - Status permanece **APPROVED** em todo o registro tocado.
 
+## ER-0027 — Adjudicação das objeções MATERIAIS do ER-0026 (ADR-0005)
+
+- Data: 2026-09-08 · Escopo: NT (as 5 objeções do ER-0026) · Origem:
+  determinação do mantenedor ("sim, resolva") · Status: **CONCLUÍDA**
+- Mesmo mecanismo do ER-0020/ER-0023/ER-0025: driver
+  `adjudicate-objections-driver.workflow.js`, prompt
+  `adjudicador-objecoes.md` v2.0.0, modo `final`, KJV baseline de sentido /
+  WEB segundo controle, `termos_originais` (Nestle 1904) como autoridade
+  textual.
+- **Resultado: 5/5 objeções resolvidas — zero abertas.** 3 procedentes
+  (sentido corrigido): Mt 14.36 (διασῴζω, prefixo intensivo δια- — "ficar
+  completamente/perfeitamente são", restaurado o grau de intensidade que
+  "foram curados" tinha apagado); Mc 5.24 (oração completa "e uma grande
+  multidão o seguia e o apertava" restaurada — estava integralmente
+  omitida no texto_bv, só a primeira oração do verso tinha sido vertida);
+  Rm 5.1 (ἔχωμεν pinado é subjuntivo presente — "tenhamos paz", não o
+  indicativo "temos paz" que o texto_bv trazia — divergência de modo
+  verbal com peso teológico real, exortação vs. afirmação de fato). 2
+  improcedentes: 1Jo 5.18 e Ap 17.11 — texto_bv já correto, objeção não
+  venceu o ônus da prova contra a morfologia pinada.
+- Nenhuma reconciliação de `palavras_supridas` exigida neste ciclo (0 de
+  5, primeira vez desde o ER-0023 que nenhum caso apareceu).
+- Modelo: `claude-sonnet-5` em todos os 5 capítulos (verificado no journal).
+- `bvcheck`: 5/5 capítulos tocados limpos; varredura full-canon (1189
+  capítulos, AT+NT) fecha em **0 falhas**.
+- Status permanece **APPROVED** em todo o registro tocado. Com isso, **o
+  cânone inteiro volta a zero objeção MATERIAL aberta** após o ciclo de
+  re-revisão do ER-0026 — os dois eixos (revisão + adjudicação) seguem
+  fechados juntos.
+
 ---
 
 ## Follow-ups abertos
