@@ -123,14 +123,16 @@
   "confianca": 0.7,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0028): texto_bv verte para o plural dois substantivos que o hebraico traz no singular, alterando o conteúdo factual do verso: 'mataram homens' (deveria refletir אִישׁ, singular, 'um homem') e 'jarretaram bois' (deveria refletir שׁוֹר, singular, 'um touro/boi'). Corrigir para o singular mudaria o que o verso afirma sobre a ação, o que ultrapassa correção de forma. — evidência: termos_originais: אִ֔ישׁ lemma 376, morfologia HNcmsa (substantivo comum masculino SINGULAR); שֽׁוֹר lemma 7794, morfologia HNcmsa (singular). traducao_literal confirma singular em ambos: 'mataram um homem' e 'jarretaram um touro'. controles.kjv confirma singular no primeiro caso — 'they slew a man' — e diverge no segundo por variante textual distinta ('digged down a wall'), não sustentando o plural 'bois'."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
