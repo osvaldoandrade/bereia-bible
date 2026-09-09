@@ -822,6 +822,49 @@ Ver `docs/domain/governanca/glossary.md`.
 - Status permanece **APPROVED** em todo o registro tocado (objeção
   MATERIAL não muda o `texto_bv`, só registra a ressalva).
 
+## ER-0029 — Adjudicação das objeções MATERIAIS do ER-0028 (ADR-0005)
+
+- Data: 2026-09-09 · Escopo: AT (as 46 objeções do ER-0028, em 43
+  capítulos de 21 livros) · Origem: determinação do mantenedor
+  ("seguimos com sua revisão, ao final, resolva todas objeções e faça
+  push para main. Eu autorizo") · Status: **CONCLUÍDA**
+- Mesmo mecanismo do ER-0020/ER-0023/ER-0025/ER-0027:
+  `adjudicate-objections-driver.workflow.js`, prompt
+  `adjudicador-objecoes.md` v2.0.0, modo `final` (INCONCLUSIVA proibida),
+  KJV baseline de sentido / WEB segundo controle, `termos_originais`
+  (WLC/OSHB) como autoridade textual.
+- **Resultado: 46/46 objeções resolvidas — zero abertas.** 38 PROCEDE
+  (sentido corrigido por evidência do original): Gn 12.3, Êx 25.40,
+  Lv 25.9, Nm 30.4/35.30, Dt 31.6, Js 10.10/24.13, 1Sm 22.17/30.20,
+  2Rs 3.25/6.1/6.32, 2Cr 13.19/24.22, Ne 4.6, Jó 5.5/22.17/22.29,
+  Sl 7.14/73.10, Pv 23.23, Ct 8.5, Is 16.4, Jr 2.36/6.30/11.2/11.13/37.7/
+  38.22, Ez 13.10/28.8/43.13, Os 8.5, Mq 4.3, Na 1.8, Zc 6.13, Ml 2.16.
+  8 IMPROCEDE (texto_bv mantido, objeção não venceu o ônus da prova):
+  Gn 48.12/49.6, Js 4.14, 1Rs 6.20, Ed 10.15, Sl 55.19/87.4, Pv 15.14.
+- Achado de peso — Ed 10.15 (עָמְדוּ עַל, "estar encarregado de" vs.
+  "levantar-se contra"): o texto_bv trazia "se opuseram a isso", mas a
+  KJV pinada corretamente ("were employed about this matter") e o v.16
+  seguinte (Mesulão e Sabetai "os ajudaram") sustentam o sentido oposto —
+  corrigido para leitura de encargo/apoio, não oposição.
+- Reconciliação de `palavras_supridas`: **8 entradas órfãs** encontradas
+  em 6 versos após as correções PROCEDE (Nm 30.4 "ou assumir" — a leitura
+  disjuntiva "ou" que a correção removeu era ela mesma a palavra suprida
+  indevidamente; Nm 35.30 "pelo menos duas" — quantificador harmonizador
+  sem base morfológica, removido junto com a correção; 1Sm 22.17
+  "Ataquem"/"tirem-lhes a vida"; Ne 4.6 "devem"/"junto de"; Ez 28.8 glosa
+  de חָלָל). `persist_adjudication.py` recusou a escrita de cada uma antes
+  de qualquer gravação (guarda funcionou); reconciliadas com
+  `palavras_supridas_removidas` declarando a entrada obsoleta, nunca
+  editando a correção em si.
+- Modelo: `claude-sonnet-5` em todos os 43 capítulos (verificado por
+  amostragem de journal).
+- `bvcheck`: 43/43 capítulos tocados limpos; varredura full-canon (1189
+  capítulos, AT+NT) fecha em **0 falhas**.
+- Status permanece **APPROVED** em todo o registro tocado. Com isso, **o
+  cânone inteiro volta a zero objeção MATERIAL aberta** após o ciclo de
+  re-revisão do ER-0028 — os dois eixos (revisão + adjudicação) seguem
+  fechados juntos, replicando o padrão do ER-0026/ER-0027 no NT.
+
 ---
 
 ## Follow-ups abertos
