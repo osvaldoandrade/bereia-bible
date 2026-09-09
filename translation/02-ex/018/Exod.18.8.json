@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Exod.18.1-27"
   },
-  "texto_bv": "E contou Moisés a seu sogro tudo o que o SENHOR tinha feito a Faraó e aos egípcios por amor de Israel, e todo o trabalho que lhes tinha sobrevindo no caminho, e como o SENHOR os tinha livrado.",
+  "texto_bv": "E contou Moisés a seu sogro tudo o que o SENHOR tinha feito a Faraó e aos egípcios por amor de Israel, todo o trabalho que lhes tinha sobrevindo no caminho, e como o SENHOR os tinha livrado.",
   "traducao_literal": "E contou Moisés ao seu sogro tudo o que fez YHWH a Faraó e ao Egito por causa de Israel, toda a fadiga que os encontrou no caminho, e livrou-os YHWH.",
   "termos_originais": [
     {
@@ -145,6 +145,13 @@
       "justificativa": "'por amor de Israel' ('al 'ôdōt) soa arcaizante; o português contemporâneo pede 'por causa de Israel', como traz a própria camada literal. — evidência: A locução não consta da lista de arcaísmos proibidos e pode estar consolidada no léxico da BV em outras ocorrências; normalizar exigiria verificação inter-capítulos. (ER-0019).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0019"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "por amor de Israel, e todo o trabalho que lhes tinha sobrevindo no caminho, e como o SENHOR os tinha livrado. → por amor de Israel, todo o trabalho que lhes tinha sobrevindo no caminho, e como o SENHOR os tinha livrado.",
+      "justificativa": "O hebraico e a tradução literal listam os dois primeiros itens de forma assindética (sem conectivo entre eles), com \"e\" só antes do último; a BV tinha inserido um \"e\" extra antes de \"todo o trabalho\", criando uma cadeia \"e...e...e\" que o original não tem. Removido o conectivo redundante, mantendo vírgula, para restaurar a estrutura de lista em três itens com \"e\" apenas no fechamento. — revisão de forma sem alteração de sentido (ER-0028).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -160,7 +167,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
