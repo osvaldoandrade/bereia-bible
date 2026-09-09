@@ -7,7 +7,7 @@
     "versiculo": 19,
     "pericope": "Ezek.12.1-28"
   },
-  "texto_bv": "Diga ao povo da terra: Assim diz o Senhor DEUS aos habitantes de Jerusalém e à terra de Israel: Comerão o seu pão com ansiedade e beberão a sua água com pavor, porque a sua terra será assolada, privada de tudo o que a enche, por causa da violência de todos os que nela habitam.",
+  "texto_bv": "Diga ao povo da terra: Assim diz o Senhor DEUS aos habitantes de Jerusalém e à terra de Israel: Comerão o seu pão com ansiedade e beberão a sua água com pavor, para que a sua terra seja assolada, privada de tudo o que a enche, por causa da violência de todos os que nela habitam.",
   "traducao_literal": "E dirás ao povo da terra: Assim disse Senhor DEUS aos habitantes de Jerusalém, à terra de Israel: seu pão com ansiedade comerão e suas águas com pavor beberão, para que se assole sua terra de sua plenitude, da violência de todos os habitantes nela.",
   "termos_originais": [
     {
@@ -191,6 +191,13 @@
         }
       ],
       "diretriz_ref": "ER-0023"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "porque a sua terra será assolada → para que a sua terra seja assolada",
+      "justificativa": "לְמַעַן é partícula de finalidade ('para que'), não de causa; o mesmo lema é corretamente vertido 'para que' em v. 16 deste mesmo capítulo, mas em v. 19 havia sido vertido 'porque' (causal), duplicando indevidamente a causa já expressa mais adiante por מֵחֲמַס ('por causa da violência'). A KJV confirma a leitura de finalidade: 'that her land may be desolate... because of the violence'. Corrigido o conectivo (porque→para que) e o modo verbal regido por ele (indicativo 'será'→subjuntivo 'seja'), sem alterar o conteúdo teológico do versículo. — revisão de forma sem alteração de sentido (ER-0028). Sentença longa (~55 palavras) organizada por dois-pontos que demarcam a fórmula de mensageiro ('diga...', 'assim diz o Senhor DEUS...') e o conteúdo do oráculo; a quebra em novas frases desfaria essa estrutura formular sem ganho de clareza, por isso mantida como período único, apenas com a correção do conectivo indicada em mudancas.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -204,7 +211,7 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
