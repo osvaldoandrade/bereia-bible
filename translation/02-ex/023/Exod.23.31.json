@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "Exod.23.1-33"
   },
-  "texto_bv": "E porei os teus limites desde o mar Vermelho até o mar dos filisteus, e desde o deserto até o rio; porque darei nas tuas mãos os moradores da terra, e os lançarás de diante de ti.",
+  "texto_bv": "E porei os teus limites desde o mar Vermelho até o mar dos filisteus, e desde o deserto até o rio; porque darei nas mãos de vocês os moradores da terra, e os lançarás de diante de ti.",
   "traducao_literal": "E porei o teu limite desde o mar de Juncos e até o mar dos filisteus, e desde o deserto até o Rio; porque darei na vossa mão os habitantes da terra, e os expulsarás de diante de ti.",
   "termos_originais": [
     {
@@ -147,6 +147,13 @@
         }
       ],
       "diretriz_ref": "ER-0023"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "porque darei nas tuas mãos os moradores da terra → porque darei nas mãos de vocês os moradores da terra",
+      "justificativa": "O hebraico marca aqui 2ª pessoa do plural (בְּיֶדְכֶם, Sp2mp — 'na mão de vocês'), distinto do singular que rege o restante do versículo (גְּבֻלְךָ, וְגֵרַשְׁתָּמוֹ, ambos 2ms); a tradução havia nivelado para o singular ('tuas'), apagando a distinção de número que o hebraico marca deliberadamente — o mesmo padrão de alternância 2ms/2mp já preservado corretamente em 23.9, 23.13, 23.21 e 23.25. — revisão de forma sem alteração de sentido (ER-0028). Correção pontual da distinção singular/plural do hebraico (בְּיֶדְכֶם, 2mp), nivelada por engano para o singular; o restante do versículo, corretamente em 2ms, foi mantido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -160,7 +167,7 @@
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
