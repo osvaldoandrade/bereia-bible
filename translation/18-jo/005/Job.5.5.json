@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Job.5.1-27"
   },
-  "texto_bv": "cuja colheita o faminto devora, tirando-a até dentre os espinhos; e os sedentos anseiam pelos bens dele.",
+  "texto_bv": "cuja colheita o faminto devora, tirando-a até dentre os espinhos; e os sedentos anseiam pelos bens deles.",
   "traducao_literal": "cuja colheita o faminto come, e até dentre os espinhos a toma; e os sedentos ofegam pela riqueza deles.",
   "termos_originais": [
     {
@@ -101,22 +101,32 @@
       "justificativa": "'dele' (singular) mantém a cadeia referencial coesa com 'o tolo' dos vv.3-4, mesmo o hebraico trazendo sufixo plural em חֵילָם; não é ambiguidade pronominal, é escolha coerente de retomada já estabelecida na tradução aprovada. Regência 'ansiar por' correta. (ER-0022 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0022"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0029)",
+      "escolha": "pelos bens dele. → pelos bens deles.",
+      "justificativa": "Objeção procedente. Evidência do original: חֵילָ֫ם — lemma 2428, morfologia HNcmsc/Sp3mp: substantivo com sufixo pronominal de 3ª pessoa masculino PLURAL ('a força/riqueza deles'), não singular. Confirmado por traducao_literal ('...e os sedentos ofegam pela riqueza deles.') e pelos dois controles: KJV 'the robber swalloweth up their substance', WEB 'The snare gapes for their substance' — ambos plural, sem divergência entre si. A objeção identificou corretamente a discrepância gramatical, mas hesitou em corrigi-la por temer mudança de referente (de 'o tolo' para um antecedente plural). Sob o modo final, a hierarquia de autoridade decide: a morfologia é inequívoca, os dois controles convergem no plural e a própria camada literal da BV já traz 'deles'. Não há aqui divergência KJV×WEB que sinalize variante textual — os dois seguem o mesmo TM e concordam no número. Manter o singular 'dele' era erro de forma que a BV carregava, não uma leitura textual alternativa legítima. Objeções fechadas: Objeção MATERIAL (revisão ER-0028): O possessivo 'dele' (singular) do texto_bv não corresponde ao sufixo pronominal hebraico de חֵילָם, que é 3ª pessoa masculina PLURAL ('deles'), confirmado pela traducao_literal ('riqueza deles'). Corrigir a forma para 'deles' mudaria o referente do sufixo (de 'o tolo', singular, para um antecedente plural — provavelmente os filhos citados no v.4), o que ultrapassa correção de forma e entra em conteúdo/sentido. — evidência: termos_originais: חֵילָֽם lemma 2428, morfologia HNcmsc/Sp3mp (sufixo pronominal 3ª pl.); traducao_literal: '...e os sedentos ofegam pela riqueza deles.'; texto_bv: '...e os sedentos anseiam pelos bens dele.' (ER-0029, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'dele' (singular), lendo o sufixo plural de חֵילָם como referência estilística ao 'tolo' (sujeito singular da passagem, v.2-3) ou como uso do plural sem impacto no referente",
+          "motivo": "perde porque HNcmsc/Sp3mp é sufixo pronominal plural comum nesse contexto, sem marca de plural de majestade/abstração, e tanto KJV ('their substance') quanto WEB ('their substance') o vertem no plural, sem divergência entre os dois controles; manter o singular também contradiria a própria traducao_literal da BV ('riqueza deles')."
+        }
+      ],
+      "diretriz_ref": "ER-0029"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
-    "צַמִּים (v.5) é lexema raro e disputado — pode designar 'os sedentos' (pessoas) ou aludir a armadilha/rede; a BV adota 'sedentos' sem excluir a alternativa."
+    "צַמִּים (v.5) é lexema raro e disputado — pode designar 'os sedentos' (pessoas) ou aludir a armadilha/rede; a BV adota 'sedentos' sem excluir a alternativa.",
+    "Leitura descartada na adjudicação ER-0029: Manter 'dele' (singular), lendo o sufixo plural de חֵילָם como referência estilística ao 'tolo' (sujeito singular da passagem, v.2-3) ou como uso do plural sem impacto no referente — perde porque HNcmsc/Sp3mp é sufixo pronominal plural comum nesse contexto, sem marca de plural de majestade/abstração, e tanto KJV ('their substance') quanto WEB ('their substance') o vertem no plural, sem divergência entre os dois controles; manter o singular também contradiria a própria traducao_literal da BV ('riqueza deles')."
   ],
   "justificativa": "Imagem de espoliação total da prosperidade do tolo, devorada por famintos e sedentos.",
   "confianca": 0.62,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0028): O possessivo 'dele' (singular) do texto_bv não corresponde ao sufixo pronominal hebraico de חֵילָם, que é 3ª pessoa masculina PLURAL ('deles'), confirmado pela traducao_literal ('riqueza deles'). Corrigir a forma para 'deles' mudaria o referente do sufixo (de 'o tolo', singular, para um antecedente plural — provavelmente os filhos citados no v.4), o que ultrapassa correção de forma e entra em conteúdo/sentido. — evidência: termos_originais: חֵילָֽם lemma 2428, morfologia HNcmsc/Sp3mp (sufixo pronominal 3ª pl.); traducao_literal: '...e os sedentos ofegam pela riqueza deles.'; texto_bv: '...e os sedentos anseiam pelos bens dele.'"
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

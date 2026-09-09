@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "2Kgs.6.1-33"
   },
-  "texto_bv": "Os filhos dos profetas disseram a Eliseu: “Veja, por favor: o lugar onde moramos é estreito demais para nós.”",
+  "texto_bv": "Os filhos dos profetas disseram a Eliseu: “Veja, por favor: o lugar onde moramos diante de você é estreito demais para nós.”",
   "traducao_literal": "E disseram os filhos dos profetas a Eliseu: “Eis, por favor, o lugar onde nós estamos habitando ali diante de você é estreito para nós.”",
   "termos_originais": [
     {
@@ -130,6 +130,13 @@
       "justificativa": "Calque de 'הִנֵּה' já resolvido para 'Veja, por favor'; regência, concordância e colocação pronominal corretas; sem ambiguidade referencial na janela. (ER-0022 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0022"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0029)",
+      "escolha": "o lugar onde moramos é estreito demais para nós → o lugar onde moramos diante de você é estreito demais para nós",
+      "justificativa": "Objeção procedente. Evidência do original: לְפָנֶיךָ (lemma l/6440, morfologia HR/Ncbpc/Sp2ms) = 'diante de você'/'na tua presença'; presente na traducao_literal do próprio registro e confirmado por KJV ('with thee') e WEB ('before you') — ambos os controles concordam entre si em preservar o termo, então não há divergência textual, só omissão do texto_bv. Objeções fechadas: Objeção MATERIAL (revisão ER-0028): texto_bv omite por completo o equivalente de לְפָנֶיךָ (\"diante de você\"/\"em sua presença\"), presente no hebraico pinado, na traducao_literal (\"...nós estamos habitando ali diante de você é estreito para nós\") e refletido na KJV (\"the place where we dwell with thee\"). A frase não é ornamento: liga o local de moradia dos filhos dos profetas à presença/autoridade de Eliseu, sentido que a NVI, ARA e ESV também preservam (\"onde nos reunimos contigo\"/\"sob tua supervisão\"). — evidência: Hebraico: הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּנּוּ (לְפָנֶיךָ, lemma l/6440); traducao_literal: \"...habitando ali diante de você é estreito para nós\"; KJV: \"the place where we dwell with thee is too strait for us\"; texto_bv: \"o lugar onde moramos é estreito demais para nós\" — sem qualquer referência a Eliseu. (ER-0029, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0029"
     }
   ],
   "palavras_supridas": [
@@ -140,13 +147,10 @@
   "confianca": 0.72,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0028): texto_bv omite por completo o equivalente de לְפָנֶיךָ (\"diante de você\"/\"em sua presença\"), presente no hebraico pinado, na traducao_literal (\"...nós estamos habitando ali diante de você é estreito para nós\") e refletido na KJV (\"the place where we dwell with thee\"). A frase não é ornamento: liga o local de moradia dos filhos dos profetas à presença/autoridade de Eliseu, sentido que a NVI, ARA e ESV também preservam (\"onde nos reunimos contigo\"/\"sob tua supervisão\"). — evidência: Hebraico: הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּנּוּ (לְפָנֶיךָ, lemma l/6440); traducao_literal: \"...habitando ali diante de você é estreito para nós\"; KJV: \"the place where we dwell with thee is too strait for us\"; texto_bv: \"o lugar onde moramos é estreito demais para nós\" — sem qualquer referência a Eliseu."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

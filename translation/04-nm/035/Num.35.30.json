@@ -7,7 +7,7 @@
     "versiculo": 30,
     "pericope": "Num.35.1-34"
   },
-  "texto_bv": "Em todo caso de alguém que mate uma pessoa, o homicida só será morto com base no depoimento de pelo menos duas testemunhas. Uma só testemunha não poderá depor contra alguém para que seja morto.",
+  "texto_bv": "Em todo caso de alguém que mate uma pessoa, o homicida só será morto com base no depoimento de testemunhas. Uma só testemunha não poderá depor contra alguém para que seja morto.",
   "traducao_literal": "Todo aquele que golpeia uma pessoa: segundo a boca de testemunhas matará o homicida; e uma testemunha, uma, não responderá contra uma pessoa para morrer.",
   "termos_originais": [
     {
@@ -133,6 +133,18 @@
       "justificativa": "Coeso; 'para que seja morto' retoma 'alguém' sem ambiguidade. (ER-0022 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0022"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0029)",
+      "escolha": "com base no depoimento de pelo menos duas testemunhas → com base no depoimento de testemunhas",
+      "justificativa": "Objeção procedente. Evidência do original: לְפִ֣י עֵדִ֔ים (H6310 construto + H5707, HNcmpa — plural absoluto de עֵד, sem numeral) יִרְצַ֖ח אֶת־הָרֹצֵ֑חַ: 'conforme a boca de testemunhas matará o homicida'. A morfologia não contém nenhum numeral cardinal (שְׁנַיִם/שְׁתַּיִם não ocorre neste verso); o texto exige pluralidade de testemunhas (mínimo estrutural de duas, por ser plural e não singular), mas não fixa o número em 'duas' especificamente — essa quantificação exata é regra geral do Pentateuco (Dt 17:6; 19:15), não afirmação lexical deste verso. Objeções fechadas: Objeção MATERIAL (revisão ER-0028): O texto especifica “pelo menos duas testemunhas”, mas nenhuma das três camadas de autoridade contém esse numeral: o hebraico traz apenas עֵדִים (testemunhas, plural, sem número), a tradução literal traz apenas “testemunhas” (sem número) e a KJV traz apenas “witnesses” (sem número). Corrigir para remover “duas” mudaria o texto já aprovado; registrada objeção material em vez de alteração própria. — evidência: termos_originais: לְפִי עֵדִים (lemma 5707, HNcmpa, plural sem numeral) יִרְצַח אֶת־הָרֹצֵחַ; traducao_literal: “segundo a boca de testemunhas matará o homicida”; controles.kjv: “the murderer shall be put to death by the mouth of witnesses” — as três fontes carecem do numeral “duas” presente em texto_bv: “com base no depoimento de pelo menos duas testemunhas”. (ER-0029, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura harmonizadora 'pelo menos duas testemunhas', alinhando Nm 35:30 ao princípio geral de Dt 17:6 e 19:15 (exigência de duas ou três testemunhas para pena capital)",
+          "motivo": "perde porque עֵדִים aqui é plural absoluto sem numeral, e nem KJV nem WEB — que concordam entre si — especificam quantidade. O texto de Nm 35:30 apenas exige pluralidade ('testemunhas', não 'uma testemunha'); fixar o número em 'duas' é importação de outro texto legal, não leitura deste verso."
+        }
+      ],
+      "diretriz_ref": "ER-0029"
     }
   ],
   "palavras_supridas": [
@@ -140,26 +152,23 @@
     "alguém que",
     "só",
     "com base no depoimento de",
-    "pelo menos duas",
     "Uma só",
     "poderá depor",
     "alguém",
     "seja"
   ],
   "ambiguidades_preservadas": [
-    "O plural exige mais de uma testemunha; a formulação mínima de duas é inferida pela oposição explícita a “uma”."
+    "O plural exige mais de uma testemunha; a formulação mínima de duas é inferida pela oposição explícita a “uma”.",
+    "Leitura descartada na adjudicação ER-0029: Leitura harmonizadora 'pelo menos duas testemunhas', alinhando Nm 35:30 ao princípio geral de Dt 17:6 e 19:15 (exigência de duas ou três testemunhas para pena capital); perde porque עֵדִים aqui é plural absoluto sem numeral, e nem KJV nem WEB — que concordam entre si — especificam quantidade. O texto de Nm 35:30 apenas exige pluralidade ('testemunhas', não 'uma testemunha'); fixar o número em 'duas' é importação de outro texto legal, não leitura deste verso."
   ],
   "justificativa": "Morte causada, classificação, pluralidade probatória e insuficiência de uma testemunha são mantidos.",
   "confianca": 0.7,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0028): O texto especifica “pelo menos duas testemunhas”, mas nenhuma das três camadas de autoridade contém esse numeral: o hebraico traz apenas עֵדִים (testemunhas, plural, sem número), a tradução literal traz apenas “testemunhas” (sem número) e a KJV traz apenas “witnesses” (sem número). Corrigir para remover “duas” mudaria o texto já aprovado; registrada objeção material em vez de alteração própria. — evidência: termos_originais: לְפִי עֵדִים (lemma 5707, HNcmpa, plural sem numeral) יִרְצַח אֶת־הָרֹצֵחַ; traducao_literal: “segundo a boca de testemunhas matará o homicida”; controles.kjv: “the murderer shall be put to death by the mouth of witnesses” — as três fontes carecem do numeral “duas” presente em texto_bv: “com base no depoimento de pelo menos duas testemunhas”."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
