@@ -7,7 +7,7 @@
     "versiculo": 32,
     "pericope": "Gen.32.1-33"
   },
-  "texto_bv": "O sol lhe nasceu quando passou por Peniel; e coxeava de uma coxa.",
+  "texto_bv": "O sol lhe nasceu quando passou por Peniel; e coxeava da coxa.",
   "traducao_literal": "E raiou-lhe o sol, quando passou por Penuel; e ele coxeando sobre a sua coxa.",
   "termos_originais": [
     {
@@ -88,6 +88,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e coxeava de uma coxa. → e coxeava da coxa.",
+      "justificativa": "O hebraico traz sufixo possessivo em יְרֵכוֹ ('a sua coxa'); o artigo indefinido 'uma' perdia essa referência específica ao quadril de Jacó já lesionado nos vv.25-26, soando como uma coxa genérica e não identificada. Substituído por artigo definido, retomando o referente já estabelecido no capítulo, sem acrescentar informação nova. — revisão de forma sem alteração de sentido (ER-0028).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -99,11 +106,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

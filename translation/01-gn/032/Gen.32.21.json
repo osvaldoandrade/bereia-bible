@@ -7,7 +7,7 @@
     "versiculo": 21,
     "pericope": "Gen.32.1-33"
   },
-  "texto_bv": "E digam também: ‘O seu servo Jacó vem atrás de nós.’” Porque dizia: “Eu o aplacarei com o presente que vai adiante de mim, e depois verei a sua face; talvez ele me aceitará.”",
+  "texto_bv": "E digam também: ‘O seu servo Jacó vem atrás de nós.’” Porque dizia: “Eu o aplacarei com o presente que vai adiante de mim, e depois verei a sua face; talvez ele me aceite.”",
   "traducao_literal": "E direis: ‘Também eis o teu servo Jacó atrás de nós.’” Porque disse: “Aplacarei a sua face com o presente que vai diante de mim, e depois disso verei a sua face; talvez levante a minha face.”",
   "termos_originais": [
     {
@@ -151,6 +151,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "talvez ele me aceitará. → talvez ele me aceite.",
+      "justificativa": "'Talvez' anteposto ao verbo exige modo subjuntivo em norma culta ('talvez ele me aceite'), não o futuro do indicativo; corrigido apenas o modo verbal, sem alterar o sentido modal de incerteza já presente no hebraico (אוּלַי יִשָּׂא). — revisão de forma sem alteração de sentido (ER-0028). 'Porque dizia', no imperfeito, foi mantido: expressa o raciocínio de fundo que motivou a série de instruções repetidas dadas aos servos nos vv.18-20 (uso aspectual válido em português para explicar um estado de espírito por trás de uma sequência de atos), não uma quebra de cadeia temporal sem motivo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -162,11 +169,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
