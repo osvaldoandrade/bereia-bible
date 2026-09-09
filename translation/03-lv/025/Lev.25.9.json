@@ -127,14 +127,16 @@
   "confianca": 0.71,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0028): A BV traduz as duas orações do verso com o mesmo sujeito plural (\"façam soar\" ... \"façam soar\"), nivelando uma alternância de pessoa/número marcada no hebraico: וְהַֽעֲבַרְתָּ֞ (2ª pessoa masculino SINGULAR, perfeito — \"farás soar\", dirigido a um indivíduo) seguido de תַּעֲבִ֥ירוּ (2ª pessoa masculino PLURAL, imperfeito — \"fareis soar\", dirigido à comunidade). A própria traducao_literal preserva essa alternância (\"farás passar... fareis passar\"), e a KJV de controle também a preserva (\"shalt thou cause\"... \"shall ye make\"). Corrigir a primeira oração para singular (\"faça soar\") mudaria o sentido (de mandado coletivo para mandado a um indivíduo específico) — está fora do escopo de uma correção de forma. — evidência: termos_originais: וְהַֽעֲבַרְתָּ֞ lemma c/5674 a morfologia HC/Vhq2ms (2ms); תַּעֲבִ֥ירוּ lemma 5674 a morfologia HVhi2mp (2mp). traducao_literal: \"E farás passar trombeta de aclamação no mês o sétimo, no décimo do mês; no Dia das Expiações fareis passar trombeta em toda a terra de vocês.\" controles.kjv.texto: \"Then shalt thou cause the trumpet of the jubile to sound on the tenth day of the seventh month, in the day of atonement shall ye make the trumpet sound throughout all your land.\""
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
