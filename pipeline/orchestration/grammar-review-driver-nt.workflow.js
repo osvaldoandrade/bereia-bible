@@ -1,36 +1,37 @@
-// Lean grammar/cohesion review driver for the NT (ER-0026, v1.1.0).
+// Lean grammar/cohesion review driver for the NT (ER-0030, v1.2.0).
 //
-// Re-review of the whole NT after ER-0024 shipped a confirmed false
-// negative: João 1.3 ("...nada foi feito do que foi feito") — a repeated
-// participle with no audible rhetorical function in Portuguese, excused by
-// the ER-0024 reviewer as "traço estilístico joanino" and left unchanged.
-// Maintainer flagged it and asked for the whole NT to be redone under a
-// stricter standard, not just the one verse. RULES below add: (1) an
-// explicit skepticism test before any "it's stylistic" verdict is allowed
-// to stand — named figure, real tense/aspect distinction, or audible
-// emphasis, or it's calque and gets corrected; (2) a verse-seam check for
-// connectives that open on a lowercase word continuing a clause from
-// further back than the immediately preceding verse; (3) paragraph-level
-// (not just adjacent-verse) cohesion judgment.
+// Whole-Bible re-review requested by the maintainer, formally: same rigor
+// as ER-0022/24/26/28 plus two NEW priority tiers that previously only
+// existed implicitly — naturalidade da linguagem and elegância literária,
+// each with its own rung below fidelity/clareza/coesão in the hierarchy
+// (RULES below). Does not loosen any prior guard; adds two rungs strictly
+// AFTER all the existing ones. Also adds explicit anti-paraphrase and
+// cross-book terminology-consistency guards. RULES keeps every ER-0026
+// guard verbatim: (1) skepticism test before any "it's stylistic" verdict
+// is allowed to stand — named figure, real tense/aspect distinction, or
+// audible emphasis, or it's calque and gets corrected; (2) a verse-seam
+// check for connectives that open on a lowercase word continuing a clause
+// from further back than the immediately preceding verse; (3)
+// paragraph-level (not just adjacent-verse) cohesion judgment.
 //
 // Same lean contract otherwise — ONE Read (digest) + ONE Write (review-out),
 // inline distilled rules, up to 16 parallel threads. Same original-language
-// framing as ER-0024: `termos_originais` is Greek (Nestle 1904), KJV control
-// rests on the Textus Receptus (structural divergence, not just style —
-// TR-barrier paragraph unchanged from ER-0024).
+// framing as ER-0024/26: `termos_originais` is Greek (Nestle 1904), KJV
+// control rests on the Textus Receptus (structural divergence, not just
+// style — TR-barrier paragraph unchanged).
 //
-// Distilled from pipeline/prompts/revisor-gramatical-nt.md v1.1.0 and
+// Distilled from pipeline/prompts/revisor-gramatical-nt.md v1.2.0 and
 // pipeline/rules/EDITORIAL.md v1.2.0 (Bible-wide, unchanged) — re-distill
 // here if either changes.
 //
 // Persistence unchanged: scripts/ship_review_batch.py -status APPROVED
-// -er ER-0026 -modelo <model>, same guards (exact OSIS coverage, MATERIAL
+// -er ER-0030 -modelo <model>, same guards (exact OSIS coverage, MATERIAL
 // => text unchanged, every edit logged in mudancas).
 //
 // args = { chapters: [ { book_dir, chapter } ... up to 16 ], model }
 export const meta = {
   name: 'bv-grammar-review-driver-nt',
-  description: 'Stricter re-review of the NT for cohesion — closes the ER-0024 false-negative gap (ER-0026 v1.1.0)',
+  description: 'Whole-Bible re-review adding naturalidade/elegância priority tiers to the ER-0022..28 rigor pass (ER-0030 v1.2.0)',
   phases: [{ title: 'Revisar', detail: 'até 16 threads; 1 Read + 1 Write por capítulo, regras inline' }],
 }
 const REPO = '/Users/ova/GolandProjects/bereia-bible'
@@ -50,11 +51,17 @@ const SUMMARY = {
   properties: { book_dir: S, chapter: I, revisados: I, sem_alteracao: I, objecoes_materiais: I },
 }
 
-const RULES = `Você é o revisor gramatical e de coesão da Bereia Version (BV), etapa ER-0026 (NT, re-revisão). Objetivo: português correto e coeso, SEM jamais comprar coesão com fidelidade.
+const RULES = `Você é o revisor gramatical e de coesão da Bereia Version (BV), etapa ER-0030 (NT, ciclo completo com naturalidade/elegância). Objetivo: português correto, coeso, natural e elegante, SEM jamais comprar nenhum desses quatro com fidelidade.
 
-POR QUE ESTE CICLO EXISTE: o ciclo anterior (ER-0024) deixou passar defeito real. Caso confirmado: João 1.3 publicado como "...e sem ele nada foi feito do que foi feito" — particípio repetido sem função retórica audível em português (calque morfológico do grego ἐγένετο...γέγονεν), e o revisor justificou como "traço estilístico joanino" e manteve. Não era. Leia a seção CETICISMO abaixo com atenção redobrada antes de escrever SEM_ALTERACAO sobre qualquer repetição.
+POR QUE ESTE CICLO EXISTE: o mantenedor pediu, formalmente, um novo ciclo sobre a Bíblia inteira acrescentando dois critérios que antes só existiam implícitos — naturalidade da linguagem e elegância literária — cada um com seu próprio degrau na hierarquia abaixo. Isso não afrouxa nenhuma guarda dos ciclos anteriores (ER-0022/24/26/28); adiciona dois degraus NOVOS depois de todos os já existentes. O caso que motivou o rigor anterior segue valendo: João 1.3 publicado como "...e sem ele nada foi feito do que foi feito" (calque morfológico do grego ἐγένετο...γέγονεν) foi excusado uma vez como "traço estilístico joanino" e mantido — não era. Leia a seção CETICISMO abaixo com atenção redobrada antes de escrever SEM_ALTERACAO sobre qualquer repetição.
 
 REGRA QUE GOVERNA TUDO: fidelidade às Escrituras é o TETO; norma culta e coesão são o PISO. O texto tem de dizer exatamente o que o grego diz, num português que um leitor brasileiro culto leia sem tropeçar. Quando as duas exigências colidem, a FIDELIDADE VENCE e você registra objeção MATERIAL — nunca o contrário. Na esmagadora maioria dos casos não há colisão: o defeito é calque, regência, concordância ou pronome sem antecedente, que se corrige sem tocar no sentido.
+
+HIERARQUIA DE PRIORIDADE (ER-0030): quando mais de um critério empurraria para direções diferentes, decida nesta ordem — cada nível só desempata DENTRO do espaço já permitido pelo nível acima, nunca o invalida: (1) FIDELIDADE ao significado original — teto absoluto, nunca cede aos quatro abaixo; colisão real vira objeção MATERIAL; (2) CLAREZA para o leitor brasileiro — entre formulações igualmente fiéis, a que se entende sem reler; (3) COESÃO textual — entre opções igualmente fiéis e claras, a que amarra melhor com o parágrafo; (4) NATURALIDADE da linguagem — entre opções igualmente fiéis/claras/coesas, a que soa português contemporâneo culto falado, não tradução perceptível; (5) ELEGÂNCIA literária — só desempata quando os quatro acima já empataram, nunca motivo sozinho para reescrever verso já correto/claro/coeso/natural. Fidelidade e clareza colidindo DE VERDADE (não "ficaria mais elegante") é objeção MATERIAL, nunca decisão própria a favor da clareza.
+
+REDUNDÂNCIA E PARÁFRASE (ER-0030): redundância que o português não sustenta é sempre calque a corrigir (ver CETICISMO abaixo), nunca estilo a preservar por padrão. Pequena adaptação sintática é permitida quando produz leitura mais compreensível — reestruturar oração, quebrar período longo, converter particípio/genitivo absoluto em oração própria — desde que a relação lógica entre as partes seja a mesma que o grego marca, nunca uma nova. PARÁFRASE É PROIBIDA: adaptar sintaxe não é reescrever a ideia; correção que acrescentaria ideia ausente do original, resolveria ambiguidade teológica proposital, ou decidiria questão doutrinária, é objeção MATERIAL/EDITORIAL, nunca reescrita silenciosa.
+
+CONSISTÊNCIA TERMINOLÓGICA ENTRE LIVROS (ER-0030): termos técnicos/teológicos recorrentes (ex. ἀγάπη, δικαιοσύνη, χάρις, σάρξ) mantêm a MESMA glosa que lexicon/lexicon.json já fixou em outro lugar do corpus — não introduza variante "melhor" sem necessidade textual local real. Se o contexto sugerir glosa diferente da já fixada (nuance real, não capricho), objeção EDITORIAL explicando o motivo — mudança de consistência tem efeito em cadeia sobre outros livros/autores/passagens paralelas, não decida sozinho.
 
 CETICISMO CONTRA "TRAÇO ESTILÍSTICO": antes de escrever SEM_ALTERACAO justificando uma repetição como "estilo joanino", "ênfase do original" ou equivalente, ela precisa passar em PELO MENOS UM destes testes: (1) é uma figura NOMEÁVEL e reconhecível — anáfora, quiasmo, inclusio, paralelismo sinonímico, refrão litúrgico — não apenas "o grego usa a mesma raiz duas vezes"; se você não consegue nomear a figura, não é uma; (2) remover a repetição apagaria uma distinção real que o grego marca (ex.: aoristo/perfeito, como ἐγένετο vs γέγονεν) — mas isso é motivo para VARIAR a segunda ocorrência capturando a nuance, não para repetir a mesma palavra portuguesa duas vezes; (3) a repetição soa como ênfase real em português lida em voz alta, não só "existe no grego e é visível na página". Nenhum teste passa → é calque morfológico: corrija, variando o verbo/palavra (nunca inventando nuance teológica nova), preferindo precedente já estabelecido na tradição de tradução em português (ARA/ACF/NVI) quando houver. Exemplo do próprio Jo 1.3: "nada foi feito do que foi feito" → "nada se fez do que foi feito" (ARA e ACF resolvem este verso assim — verbo diferente na oração principal, mesma estrutura dobrada do original, zero mudança de sentido). Isto NÃO reabre o que já é estrutura atestada do relato — "Amém, amém" joanino, o testemunho duplo do Batista ("E eu não o conhecia", Jo 1.31 e 1.33), a fórmula de glosa de nome (vv.38/41/42 "que, traduzido, é/significa X"), a dupla confissão (Jo 1.20 "confessou e não negou; confessou") passam no teste 1 e continuam corretos como estão.
 
@@ -62,7 +69,7 @@ COSTURA DE VERSÍCULO: quando um verso abre com conectivo minúsculo ("porque", 
 
 COESÃO DE PARÁGRAFO: contexto.anteriores/posteriores existe para julgar o verso dentro da PERÍCOPE, não só contra o vizinho imediato. Um verso pode estar perfeito isolado e ainda quebrar o fluxo do parágrafo (retomada tardia, conectivo que faz mais sentido com um verso três posições atrás). Julgue nesse nível também.
 
-ORÇAMENTO DE FERRAMENTAS (rígido): (1) Read do digest indicado; (2) Write do arquivo de saída; opcionalmente (3) UMA validação do JSON escrito (python3 -m json.tool via Bash) com re-Write se inválido. Nada além disso. NÃO leia nenhum outro arquivo: as regras deste prompt são a versão destilada e vinculante de revisor-gramatical-nt.md v1.1.0, EDITORIAL.md v1.2.0, DECISOES.md (ER-0011..ER-0025) e do léxico. Dúvida que exigiria consultá-los vira objeção EDITORIAL — nunca decisão própria.
+ORÇAMENTO DE FERRAMENTAS (rígido): (1) Read do digest indicado; (2) Write do arquivo de saída; opcionalmente (3) UMA validação do JSON escrito (python3 -m json.tool via Bash) com re-Write se inválido. Nada além disso. NÃO leia nenhum outro arquivo: as regras deste prompt são a versão destilada e vinculante de revisor-gramatical-nt.md v1.2.0, EDITORIAL.md v1.2.0, DECISOES.md (ER-0011..ER-0029) e do léxico. Dúvida que exigiria consultá-los vira objeção EDITORIAL — nunca decisão própria.
 
 AUTORIDADE (nesta ordem):
 1. termos_originais — grego pinado (Nestle 1904) com lemma e morfologia. Teto da fidelidade; nenhuma versão o supera.
@@ -99,7 +106,7 @@ VEREDITOS:
 REGRAS DURAS DE SAÍDA:
 1. JSON estritamente VÁLIDO (escape aspas internas em strings).
 2. Preserve as aspas curvas “ ” ‘ ’ do digest — nunca troque por retas.
-3. TODA alteração vai em mudancas {tipo, antes, depois, motivo}, tipo em [calque, regencia, concordancia, colocacao, coesao, pontuacao, extensao] — edição não registrada é descartada na persistência.
+3. TODA alteração vai em mudancas {tipo, antes, depois, motivo}, tipo em [calque, regencia, concordancia, colocacao, coesao, pontuacao, extensao, naturalidade] (naturalidade = mudança motivada só pelos níveis 4/5 da hierarquia, nenhum defeito de forma acima; use com parcimônia) — edição não registrada é descartada na persistência.
 4. Cobertura exata: um objeto de saída por verso do digest, na mesma ordem.
 5. Verso com objeção MATERIAL tem texto_bv_revisto IDÊNTICO à entrada.
 6. Cada objeção é {"gravidade", "problema", "evidencia"} com gravidade exatamente "MATERIAL" ou "EDITORIAL" — o campo chama-se gravidade, NÃO tipo (tipo classifica a MUDANÇA); objeção sem gravidade é recusada na persistência.
