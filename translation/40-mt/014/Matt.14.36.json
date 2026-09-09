@@ -7,7 +7,7 @@
     "versiculo": 36,
     "pericope": "Matt.14.1-36"
   },
-  "texto_bv": "e lhe suplicavam que apenas pudessem tocar a borda do seu manto; e todos os que tocaram foram curados.",
+  "texto_bv": "e lhe suplicavam que apenas pudessem tocar a borda do seu manto; e todos os que tocaram foram completamente curados.",
   "traducao_literal": "e suplicavam-lhe que somente tocassem a borda do manto dele; e quantos tocaram foram completamente curados.",
   "termos_originais": [
     {
@@ -130,22 +130,32 @@
       "justificativa": "Correto e coeso, sem calque, regência ou concordância a corrigir. (ER-0024 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0024"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0027)",
+      "escolha": "e todos os que tocaram foram curados. → e todos os que tocaram foram completamente curados.",
+      "justificativa": "Objeção procedente. Evidência do original: διεσώθησαν — lemma διασῴζω (não σῴζω), V-API-3P, aoristo passivo. O prefixo διά- é intensivo/perfectivo no grego neotestamentário (cf. At 27.44, 28.1,4, onde o mesmo verbo marca travessia/salvamento levado a completo termo, não ação parcial); aplicado a cura, produz o sentido de 'sarar por completo/perfeitamente', reproduzido pela traducao_literal ('completamente curados') e pela KJV ('made perfectly whole'). Objeções fechadas: Objeção MATERIAL (revisão ER-0026): O verbo grego διασῴζω (aoristo passivo, prefixo intensivo δια-) marca 'ficar completamente/perfeitamente são/salvo', reproduzido pela tradução_literal ('completamente curados') e pela KJV ('made perfectly whole'). O texto_bv atual, 'foram curados', omite esse grau de intensidade. — evidência: lemma διασῴζω/V-API-3P (não o simples σῴζω); tradução_literal: 'foram completamente curados'; KJV: 'were made perfectly whole'. Nota textual: KJV traz 'were made perfectly whole' e WEB traz apenas 'were made whole', sem o advérbio de intensidade — mas isso não é variante textual: as duas se apoiam no mesmo verbo grego διεσώθησαν, sem crux manuscrito conhecido neste ponto. É escolha de tradução da WEB, que optou por uma equivalência mais enxuta e não reproduziu o prefixo δια-; não pesa contra a correção, que se apoia no lemma, na traducao_literal e na KJV. (ER-0027, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Manter 'foram curados', sem o advérbio de grau — leitura sustentada apenas pela WEB, que abrevia a força do prefixo δια- em sua própria escolha de equivalência",
+          "motivo": "Perde porque o lemma pinado (διασῴζω, e não o simples σῴζω) é o termo mais específico disponível na morfologia, a traducao_literal da própria BV já traduz o grau de intensidade, e a KJV — baseline de sentido desta etapa — confirma o mesmo grau ('perfectly whole'); a WEB isolada, sem apoio da morfologia nem da KJV, não basta para vencer o desempate."
+        }
+      ],
+      "diretriz_ref": "ER-0027"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
-    "κράσπεδον pode remeter à franja ritual de Nm 15:38 (tzitzit) e não apenas a uma borda genérica de tecido"
+    "κράσπεδον pode remeter à franja ritual de Nm 15:38 (tzitzit) e não apenas a uma borda genérica de tecido",
+    "Leitura descartada na adjudicação ER-0027: Manter 'foram curados', sem o advérbio de grau — leitura sustentada apenas pela WEB, que abrevia a força do prefixo δια- em sua própria escolha de equivalência. Perde porque o lemma pinado (διασῴζω, e não o simples σῴζω) é o termo mais específico disponível na morfologia, a traducao_literal da própria BV já traduz o grau de intensidade, e a KJV — baseline de sentido desta etapa — confirma o mesmo grau ('perfectly whole'); a WEB isolada, sem apoio da morfologia nem da KJV, não basta para vencer o desempate."
   ],
   "justificativa": "Fecho do capítulo com sumário de curas; decisões concentradas em duas glosas lexicais.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0026): O verbo grego διασῴζω (aoristo passivo, prefixo intensivo δια-) marca 'ficar completamente/perfeitamente são/salvo', reproduzido pela tradução_literal ('completamente curados') e pela KJV ('made perfectly whole'). O texto_bv atual, 'foram curados', omite esse grau de intensidade. — evidência: lemma διασῴζω/V-API-3P (não o simples σῴζω); tradução_literal: 'foram completamente curados'; KJV: 'were made perfectly whole'."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",

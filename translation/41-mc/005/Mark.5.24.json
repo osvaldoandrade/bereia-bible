@@ -7,7 +7,7 @@
     "versiculo": 24,
     "pericope": "Mark.5.1-43"
   },
-  "texto_bv": "E Jesus foi com ele.",
+  "texto_bv": "E Jesus foi com ele; e uma grande multidão o seguia, e o apertava.",
   "traducao_literal": "E foi com ele. E seguia a ele multidão grande, e apertavam a ele.",
   "termos_originais": [
     {
@@ -93,6 +93,13 @@
       "justificativa": "Dois pronomes \"ele\" no mesmo período curto, referindo-se a pessoas diferentes (Jesus e Jairo), geram ambiguidade real de referente logo após um trecho em que o último sujeito ativo era Jairo. Sujeito explicitado como \"Jesus\" resolve a ambiguidade sem alterar o sentido; o \"ele\" final permanece com o mesmo referente (Jairo). — revisão de forma sem alteração de sentido (ER-0024). Pronome duplicado (“ele... ele”) no mesmo período curto criava ambiguidade de referente entre Jesus e Jairo; sujeito explicitado (“Jesus”) para desfazer a ambiguidade sem alterar o sentido — o “ele” final continua a se referir a Jairo, como no original.",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0024"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0027)",
+      "escolha": "E Jesus foi com ele. → E Jesus foi com ele; e uma grande multidão o seguia, e o apertava.",
+      "justificativa": "Objeção procedente. Evidência do original: ἠκολούθει (G190 ἀκολουθέω, V-IAI-3S, imperfeito durativo, regendo αὐτῷ) e συνέθλιβον (G4918 συνθλίβω, V-IAI-3P, sujeito ὄχλος πολύς — G3793+G4183) são duas orações completas do texto grego pinado, coordenadas por καί a ἀπῆλθεν μετ’ αὐτοῦ, e nenhuma delas aparece no texto_bv. A própria traducao_literal do registro já as trazia (\"E seguia a ele multidão grande, e apertavam a ele\"), e a justificativa arquivada do verso já descrevia o valor durativo esperado (\"ἠκολούθει/συνέθλιβον no imperfeito, preservando o valor durativo ('o seguia', 'o apertava')\") sem que a tradução tivesse chegado a entrar no texto publicado. KJV (\"and much people followed him, and thronged him\") e WEB (\"and a great multitude followed him, and they pressed upon him on all sides\") confirmam juntas, sem divergência entre si, as duas orações e o mesmo conteúdo. Objeções fechadas: Objeção MATERIAL (revisão ER-0026): O texto_bv verte apenas a primeira oração do versículo (ἀπῆλθεν μετ' αὐτοῦ, \"E foi com ele\") e omite inteiramente a segunda e a terceira orações do grego pinado: καὶ ἠκολούθει αὐτῷ ὄχλος πολύς, καὶ συνέθλιβον αὐτόν (\"e uma grande multidão o seguia, e o apertava/comprimia\"). Não se trata de calque ou colocação — é conteúdo ausente do texto aprovado; supri-lo exigiria acrescentar oração inteira, o que está fora do escopo de correção de forma. — evidência: traducao_literal do próprio verso: “E foi com ele. E seguia a ele multidão grande, e apertavam a ele.” KJV (controle de equivalência formal): “And Jesus went with him; and much people followed him, and thronged him.” Os dois testemunhos confirmam as duas orações finais presentes no grego (ἠκολούθει, συνέθλιβον) e ausentes do texto_bv. Nota textual: Vizinhos conferidos pelo conteúdo: v.23 (súplica de Jairo pela filha) e v.25 (mulher com fluxo de sangue) coincidem em KJV e WEB com os vizinhos do texto_bv — alinhamento de versículo correto, sem deslocamento de versificação. KJV e WEB não divergem entre si neste verso; a omissão é do texto_bv, não variante textual. (ER-0027, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0027"
     }
   ],
   "palavras_supridas": [],
@@ -101,12 +108,9 @@
   "confianca": 0.79,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0026): O texto_bv verte apenas a primeira oração do versículo (ἀπῆλθεν μετ' αὐτοῦ, \"E foi com ele\") e omite inteiramente a segunda e a terceira orações do grego pinado: καὶ ἠκολούθει αὐτῷ ὄχλος πολύς, καὶ συνέθλιβον αὐτόν (\"e uma grande multidão o seguia, e o apertava/comprimia\"). Não se trata de calque ou colocação — é conteúdo ausente do texto aprovado; supri-lo exigiria acrescentar oração inteira, o que está fora do escopo de correção de forma. — evidência: traducao_literal do próprio verso: “E foi com ele. E seguia a ele multidão grande, e apertavam a ele.” KJV (controle de equivalência formal): “And Jesus went with him; and much people followed him, and thronged him.” Os dois testemunhos confirmam as duas orações finais presentes no grego (ἠκολούθει, συνέθλιβον) e ausentes do texto_bv."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "claude-sonnet-5",
