@@ -744,6 +744,84 @@ Ver `docs/domain/governanca/glossary.md`.
   re-revisão do ER-0026 — os dois eixos (revisão + adjudicação) seguem
   fechados juntos.
 
+## ER-0028 — Re-revisão gramatical e de coesão do AT (mesmo rigor do ER-0026)
+
+- Data: 2026-09-09 · Escopo: AT (livros 01-39, 929 capítulos, 23213
+  versículos) · Origem: determinação do mantenedor ("o que falta agora?
+  AT?" → maiúscula clareza de que a auditoria heurística prévia não
+  bastava; "seguimos com sua revisão, ao final, resolva todas objeções e
+  faça push para main. Eu autorizo"). Uma varredura heurística prévia do
+  AT inteiro (repetição de palavra em janela curta, sem citação de figura
+  nomeada na justificativa do ER-0022) não achou caso sistêmico equivalente
+  ao falso negativo do NT (Jo 1.3/ER-0024) — os dois casos mais suspeitos,
+  Is 10.16 e Is 38.8, se confirmaram como figura etymologica/acusativo
+  cognato e repetição referencial legítimas, respectivamente. O mantenedor
+  determinou a re-revisão completa mesmo assim; o ciclo de fato achou
+  defeitos reais (852 versos corrigidos, 46 objeções MATERIAIS), validando
+  a decisão contra a recomendação inicial. Status: **CONCLUÍDO** —
+  929/929 capítulos, 23213/23213 versículos re-revisados a partir do texto
+  JÁ revisado pelo ER-0022 (não do estado pré-ER-0022). `bvcheck` limpo (0
+  falhas) na varredura final do cânone inteiro.
+- Driver/prompt atualizados no lugar para v1.1.0 (`revisor-gramatical.md`,
+  `grammar-review-driver-v2.workflow.js`), as mesmas três seções novas do
+  ER-0026 adaptadas ao hebraico: **CETICISMO CONTRA "TRAÇO ESTILÍSTICO"**
+  — antes de justificar uma repetição como estilo/ênfase do original, ela
+  precisa passar em pelo menos um de quatro testes (figura NOMEÁVEL e
+  reconhecível — paralelismo sinonímico/antitético, quiasmo, inclusio,
+  anáfora, refrão, acusativo cognato/figura etymologica, fórmula
+  genealógica, dobra enfática de imperativo/vocativo; a palavra repetida É
+  o conteúdo do verso — ex. contagem de degraus em Is 38.8; remover
+  apagaria distinção real de aspecto verbal que o hebraico marca; ou soa
+  como ênfase real em português lido em voz alta); **COSTURA DE
+  VERSÍCULO**; **COESÃO DE PARÁGRAFO/ESTROFE**.
+- **Resultado: 852 versos revisados** (forma corrigida — calque sintático
+  do waw consecutivo, regência, concordância, colocação pronominal,
+  pontuação, sentenças longas demais, coesão de contexto); **46 objeções
+  MATERIAIS abertas** (tag ER-0028) aguardando adjudicação do mantenedor,
+  espalhadas por 21 livros: Gn 12.3/48.12/49.6, Êx 25.40, Lv 25.9,
+  Nm 30.4/35.30, Dt 31.6, Js 4.14/10.10/24.13, 1Sm 22.17/30.20, 1Rs 6.20,
+  2Rs 3.25/6.1/6.32, 2Cr 13.19/24.22, Ed 10.15, Ne 4.6, Jó 5.5/22.17/22.29,
+  Sl 7.14/55.19/73.10/87.4, Pv 15.14/23.23, Ct 8.5, Is 16.4,
+  Jr 2.36/6.30/11.2/11.13/37.7/38.22, Ez 13.10/28.8/43.13, Os 8.5,
+  Mq 4.3, Na 1.8, Zc 6.13, Ml 2.16.
+- Achado de peso — três dos 46 são divergências de sentido real contra o
+  controle KJV descobertas nesta rodada e não no ER-0022 original: Ed
+  10.15 (עָמְדוּ עַל — "opuseram-se" no texto_bv vs. "were employed about
+  this matter" na KJV, sentido oposto), Jr 38.22 e 2Rs 6.1 (candidatos a
+  divergência de referente/tempo verbal); os demais são majoritariamente
+  ambiguidade morfológica legítima onde a correção mudaria o sentido.
+- Dois incidentes operacionais durante o ciclo, ambos sanados sem perda de
+  trabalho: (1) `grammar-review-driver-v2.workflow.js` hardcoda
+  `.slice(0, 16)` nos capítulos recebidos — um lote combinado de 17
+  capítulos (Zc 1-14 + Ml 1-3) descartou Ml 3 silenciosamente; achado ao
+  conferir o `agentCount` da notificação (16, não 17) e reconfirmado no
+  `resumeFromRunId` do diagnóstico, que ecoa os args realmente executados;
+  Ml 3 relançado sozinho e shipado normalmente. Lição: nunca passar mais
+  de 16 capítulos para este driver numa única chamada — o cap de
+  concorrência da ferramenta Workflow (16 agentes simultâneos, excesso
+  enfileira) não se aplica aqui, porque o próprio script trunca antes
+  disso. (2) `28-os-005.json` (Os 5.11) teve um `mudanca` sem o campo
+  `motivo` obrigatório — o agente tinha posto a justificativa em
+  `justificativa` (nível do verso) em vez de dentro do objeto da mudança;
+  `ship_review_batch.py` recusou o arquivo antes de qualquer escrita
+  (guarda funcionou); reparado extraindo/reafirmando o conteúdo já
+  presente na justificativa para dentro de `mudancas[0].motivo` (sem
+  inventar razão nova) e reshipado com sucesso.
+- Vários lotes tocaram objeções de sessão (limite de uso da conta, não
+  rate-limit do provedor) — em todos os casos a maioria dos capítulos
+  "com erro" já tinha completado o trabalho real antes de a chamada de
+  resumo final falhar; verificado por mtime do arquivo + busca textual do
+  marcador `CAPÍTULO:` no journal do agente, e só os capítulos
+  genuinamente incompletos foram re-executados (nunca o lote inteiro).
+- Modelo: `claude-sonnet-5` em todos os 929 capítulos (verificado por
+  amostragem de journal em cada lote, incluindo confirmação de que a
+  ferramenta de resumo estruturado, não só o `Write` do arquivo, também
+  rodou no modelo correto).
+- `bvcheck`: 0 falhas em cada lote shipado e na varredura full-canon final
+  (1189 capítulos, AT+NT, incluindo os 929 do AT).
+- Status permanece **APPROVED** em todo o registro tocado (objeção
+  MATERIAL não muda o `texto_bv`, só registra a ressalva).
+
 ---
 
 ## Follow-ups abertos
