@@ -97,14 +97,16 @@
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [],
+  "objecoes_nao_resolvidas": [
+    "Objeção MATERIAL (revisão ER-0028): O pronome objeto 'o' e o possessivo 'seu' em 'você o faça conforme o seu modelo' estão no singular, restringindo o referente (provavelmente lido como 'candelabro', item imediatamente anterior). Mas o sufixo pronominal hebraico em בְּתַבְנִיתָ֔ם é 3ª pessoa masculino PLURAL ('o modelo deles'), e a KJV traduz explicitamente no plural: 'make THEM after THEIR pattern'. O referente plural são o candelabro e 'todos estes utensílios' enumerados no v.39, não um item isolado. O contraste com o v.9 — que usa corretamente o singular ('seus utensílios', sufixo hebraico Sp3ms referente ao tabernáculo) — confirma que a divergência do v.40 é pontual, não um padrão estilístico do capítulo. Corrigir exigiria mudar o número do pronome e do possessivo, o que altera o escopo do que está sendo comandado (de um único objeto para o conjunto de utensílios) — mudança de sentido, não de forma. — evidência: בְּתַ֨בְנִיתָ֔ם lemma b/8403, morfologia HR/Ncfsc/Sp3mp (sufixo pronominal 3ª pl.); KJV: 'that thou make them after their pattern, which was shewed thee in the mount'; cf. v.39 'com todos estes utensílios' (plural, antecedente natural de 'them') e v.9, que usa sufixo singular Sp3ms corretamente vertido como 'seus utensílios' (tabernáculo)."
+  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-fable-5",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
