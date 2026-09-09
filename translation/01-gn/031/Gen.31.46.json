@@ -7,7 +7,7 @@
     "versiculo": 46,
     "pericope": "Gen.31.1-54"
   },
-  "texto_bv": "E Jacó disse a seus irmãos: “Ajuntem pedras.” E tomaram pedras, e fizeram um montão, e comeram ali sobre aquele montão.",
+  "texto_bv": "E Jacó disse a seus irmãos: “Ajuntem pedras.” E tomaram pedras, fizeram um montão e comeram ali sobre aquele montão.",
   "traducao_literal": "E disse Jacó a seus irmãos: “Ajuntai pedras.” E tomaram pedras, e fizeram um montão, e comeram ali sobre o montão.",
   "termos_originais": [
     {
@@ -105,6 +105,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E tomaram pedras, e fizeram um montão, e comeram ali sobre aquele montão → E tomaram pedras, fizeram um montão e comeram ali sobre aquele montão",
+      "justificativa": "Cadeia de waw consecutivo do hebraico (וַיִּקְחוּ...וַיַּעֲשׂוּ...וַיֹּאכְלוּ) com 'e' repetido a cada oração; mantém-se apenas o 'e' inicial da frase e o 'e' antes do último item da sequência de ações. — revisão de forma sem alteração de sentido (ER-0028). Correção de forma; a ordem das três ações (tomaram, fizeram, comeram) permanece intacta.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -116,11 +123,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

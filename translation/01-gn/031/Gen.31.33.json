@@ -7,7 +7,7 @@
     "versiculo": 33,
     "pericope": "Gen.31.1-54"
   },
-  "texto_bv": "Então Labão entrou na tenda de Jacó, e na tenda de Lia, e na tenda das duas servas, e não os achou; e saindo da tenda de Lia, entrou na tenda de Raquel.",
+  "texto_bv": "Então Labão entrou na tenda de Jacó, na tenda de Lia e na tenda das duas servas, e não os achou; e saindo da tenda de Lia, entrou na tenda de Raquel.",
   "traducao_literal": "E veio Labão à tenda de Jacó, e à tenda de Lia, e à tenda das duas servas, e não achou; e saiu da tenda de Lia, e veio à tenda de Raquel.",
   "termos_originais": [
     {
@@ -118,6 +118,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Então Labão entrou na tenda de Jacó, e na tenda de Lia, e na tenda das duas servas, e não os achou → Então Labão entrou na tenda de Jacó, na tenda de Lia e na tenda das duas servas, e não os achou",
+      "justificativa": "Lista de três locais unida por 'e' repetido a cada item (calco do hebraico וּבְאֹהֶל...וּבְאֹהֶל...וּבְאֹהֶל); a enumeração em português usa vírgula entre os dois primeiros itens e 'e' apenas antes do último, mantendo intacta a ordem sistemática da busca (Jacó, Lia, servas) e o desfecho na tenda de Raquel. — revisão de forma sem alteração de sentido (ER-0028). Correção de forma na enumeração; a ordem das tendas visitadas, relevante para a tensão narrativa, foi preservada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -129,11 +136,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

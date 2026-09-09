@@ -7,7 +7,7 @@
     "versiculo": 34,
     "pericope": "Gen.31.1-54"
   },
-  "texto_bv": "Ora, Raquel tinha tomado os ídolos, e os tinha metido na sela do camelo, e se assentou sobre eles; e Labão apalpou toda a tenda, e não os achou.",
+  "texto_bv": "Ora, Raquel tinha tomado os ídolos, os tinha metido na sela do camelo e se assentou sobre eles; e Labão apalpou toda a tenda, e não os achou.",
   "traducao_literal": "E Raquel tomou os terafim, e os pôs no albarde do camelo, e assentou-se sobre eles; e apalpou Labão toda a tenda, e não achou.",
   "termos_originais": [
     {
@@ -120,6 +120,13 @@
       "justificativa": "Autoridade: Ratificação humana do mantenedor (Osvaldo Andrade), 2026-08-31 — PIPELINE.md REVIEW→APPROVED",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0021"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Raquel tinha tomado os ídolos, e os tinha metido na sela do camelo, e se assentou sobre eles → Raquel tinha tomado os ídolos, os tinha metido na sela do camelo e se assentou sobre eles",
+      "justificativa": "Cadeia de waw consecutivo do hebraico (לָקְחָה...וַתְּשִׂמֵם...וַתֵּשֶׁב) com 'e' repetido a cada oração; mantém-se o 'e' apenas antes do último item da série de ações de Raquel, sem alterar a distinção de tempo verbal já presente (mais-que-perfeito nas duas primeiras, pretérito na última). — revisão de forma sem alteração de sentido (ER-0028). Correção de forma; a segunda oração ('Labão apalpou... e não os achou') já estava corretamente ligada por um único 'e' e não foi tocada.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0028"
     }
   ],
   "palavras_supridas": [],
@@ -131,11 +138,11 @@
   "objecoes_nao_resolvidas": [],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
-    "manifest_sha256": "00ce8bf811984cca787256fb147567f9e487219db0a3175344fc33deb34fb1e6",
+    "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "qwen3.7-max",
+    "modelo": "claude-sonnet-5",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
