@@ -4,40 +4,73 @@
   "versos": [
     {
       "osis": "Exod.11.1",
-      "texto_bv_revisto": "E disse o SENHOR a Moisés: Ainda uma praga trarei sobre Faraó e sobre o Egito; depois deixará vocês irem daqui; e, quando os deixar ir totalmente, a toda a pressa os expulsará daqui.",
-      "mudancas": [],
-      "objecoes": [
+      "texto_bv_revisto": "E disse o SENHOR a Moisés: Ainda uma praga trarei sobre Faraó e sobre o Egito; depois disso, ele deixará vocês sair daqui; e, quando os deixar ir por completo, a toda pressa os expulsará daqui.",
+      "mudancas": [
         {
-          "gravidade": "MATERIAL",
-          "problema": "A dobra do infinitivo absoluto גָּרֵשׁ יְגָרֵשׁ (\"expulsar expulsará\") é a construção hebraica clássica de ênfase/certeza (\"certamente/decerto expulsará\"), não um advérbio de modo indicando pressa. \"a toda a pressa\" desloca o sentido de certeza/totalidade para velocidade, algo que o hebraico não marca nesse ponto da frase.",
-          "evidencia": "termos_originais: גָּרֵשׁ (lemma 1644, HVpa = infinitivo absoluto) + יְגָרֵשׁ (lemma 1644, HVpi3ms) — mesma raiz repetida, padrão de ênfase; traducao_literal já registra \"expulsar expulsará a vós daqui\", sem noção de pressa; controles.kjv confirma com \"he shall surely thrust you out hence altogether\" (surely = certeza; altogether = totalidade), sem menção a rapidez."
+          "tipo": "naturalidade",
+          "antes": "depois deixará vocês irem daqui",
+          "depois": "depois disso, ele deixará vocês sair daqui",
+          "motivo": "construção 'depois deixará vocês irem' é morosa e 'irem' após 'deixará vocês' é redundância do infinitivo pessoal; forma verbal hebraica 3ms sem sujeito explícito; banda de concessão ER-0031"
+        },
+        {
+          "tipo": "naturalidade",
+          "antes": "quando os deixar ir totalmente",
+          "depois": "quando os deixar ir por completo",
+          "motivo": "'Ir totalmente' é calque do infinitivo absoluto hebraico com כָּלָה; 'por completo' preserva o valor de totalidade em português natural, sem deslocá-lo para sentido temporal; banda de concessão ER-0031."
+        },
+        {
+          "tipo": "naturalidade",
+          "antes": "a toda a pressa",
+          "depois": "a toda pressa",
+          "motivo": "artigo definido desnecessário na locução adverbial; uso culto padrão dispensa o artigo; banda de concessão ER-0031"
         }
       ],
-      "justificativa": "Verso preservado por objeção MATERIAL: a única correção possível (substituir \"a toda a pressa\" por algo como \"certamente\"/\"decerto\", refletindo a ênfase de certeza do infinitivo absoluto hebraico) alteraria o conteúdo semântico da frase, saindo do escopo de revisão de forma. O restante do verso está correto (concordância, regência, colocação pronominal em \"deixará vocês irem\", pontuação).",
-      "veredito": "MATERIAL"
+      "objecoes": [],
+      "justificativa": "Período com calques da forma hebraica (infinitivo pessoal redundante, calque do infinitivo absoluto, artigo em locução adverbial) reformulado dentro da banda de concessão; o valor de totalidade de כָּלָה preservado em 'por completo'; conteúdo (atores, ações, ordem temporal, 2mp de אֶתְכֶם) preservado.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.11.2",
-      "texto_bv_revisto": "Fale agora aos ouvidos do povo, que cada homem peça ao seu vizinho, e cada mulher à sua vizinha, objetos de prata e objetos de ouro.",
-      "mudancas": [],
+      "texto_bv_revisto": "Fale agora aos ouvidos do povo, que cada homem peça ao seu vizinho, e cada mulher à sua vizinha, objetos de prata e de ouro.",
+      "mudancas": [
+        {
+          "tipo": "naturalidade",
+          "antes": "objetos de prata e objetos de ouro",
+          "depois": "objetos de prata e de ouro",
+          "motivo": "repetição de 'objetos' duplica o hebraico כְּלֵי...וּכְלֵי mas em português o paralelismo já é carregado pelos dois metais e pela estrutura 'cada homem... cada mulher'; a duplicação sem função audível é calque morfológico; banda de concessão ER-0031"
+        }
+      ],
       "objecoes": [],
-      "justificativa": "A construção 'que cada homem peça...' resolve o jussivo com waw (וְיִשְׁאֲלוּ) por subordinação com 'que + subjuntivo', evitando o calque 'e peça'; é a mesma solução já consagrada pela tradição de tradução em português (cf. ARA). Elipse verbal correta entre as duas orações coordenadas ('cada homem peça... e cada mulher [peça]...'); concordância 'cada homem/cada mulher' (singular) com 'peça' (singular) corretas. 'aos ouvidos de' é fórmula bíblica idiomática consagrada (בְּאָזְנֵי), não calque morfológico sem função — mantida.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Simplificação da lista mantendo todos os participantes (homem/visinho, mulher/vizinha, prata, ouro) e a regência de 'pedir a'; a fórmula 'aos ouvidos do povo' é semitismo consagrado com função em português (pedido solene dirigido aos ouvidos, não apenas ao grupo).",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.11.3",
-      "texto_bv_revisto": "E o SENHOR deu graça ao povo aos olhos dos egípcios; também o homem Moisés era muito grande na terra do Egito, aos olhos dos servos de Faraó e aos olhos do povo.",
-      "mudancas": [],
+      "texto_bv_revisto": "E o SENHOR deu graça ao povo aos olhos dos egípcios; também o homem Moisés era muito grande na terra do Egito, aos olhos dos servos de Faraó e do povo.",
+      "mudancas": [
+        {
+          "tipo": "naturalidade",
+          "antes": "aos olhos dos servos de Faraó e aos olhos do povo",
+          "depois": "aos olhos dos servos de Faraó e do povo",
+          "motivo": "repetição de 'aos olhos' replica o hebraico בְּעֵינֵי...וּבְעֵינֵי mas em português a preposição compartilhada basta para reger os dois grupos; elipse sem perda de referente; banda de concessão ER-0031"
+        }
+      ],
       "objecoes": [],
-      "justificativa": "A repetição de 'aos olhos de' (3x no verso) reflete o hebraico בְּעֵינֵי repetido no mesmo padrão idiomático já consagrado em português bíblico (equivalente a 'à vista de/na opinião de'); não é calque morfológico sem função, é fórmula reconhecível e mantida em toda a tradição de tradução. Regência ('deu graça ao povo') e concordância ('era muito grande') corretas; 'também' amarra bem com a oração anterior.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Conteúdo preservado (graça dada ao povo diante dos egípcios; grandeza de Moisés diante dos servos de Faraó e do povo); apenas compressão da repetição preposicional.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Exod.11.4",
       "texto_bv_revisto": "E disse Moisés: Assim diz o SENHOR: À meia-noite eu sairei pelo meio do Egito.",
       "mudancas": [],
-      "objecoes": [],
-      "justificativa": "Fórmula 'Assim diz o SENHOR' é o padrão fixo de introdução profética (כֹּה אָמַר יְהוָה), consolidado em todo o corpus — não é calque a variar. O particípio יוֹצֵא traduzido como futuro ('sairei') coincide com a KJV ('will I go out'). Sem defeitos de forma.",
+      "objecoes": [
+        {
+          "gravidade": "EDITORIAL",
+          "problema": "BV 'À meia-noite' (definitivo) pode comprimir o valor de כַּחֲצֹת הַלַּיְלָה, que tem matiz aproximativo ('por volta da meia-noite'); dúvida se o aproximativo é vício de forma ou nuance de conteúdo (tradicionalmente lido como Moisés falando em termos humanos para evitar qualquer margem de erro contra a precisão divina de Gn 1.31).",
+          "evidencia": "Hebraico: כַּחֲצֹת (כ + חֲצֹת, 'como a metade/meio de'); morfologia HR/Ncfsc com prefixo comparativo; BV atual 'À meia-noite' sem marcador de aproximação."
+        }
+      ],
+      "justificativa": "Sem alteração de texto: dúvida entre forma e conteúdo (aproximação temporal como marca de discurso humano vs. precisão divina) exige decisão canônica uniforme; a forma 'À meia-noite' é leitura legítima do texto e está aprovada; objeção registrada para deliberação editorial.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -45,7 +78,7 @@
       "texto_bv_revisto": "E todo o primogênito na terra do Egito morrerá, desde o primogênito de Faraó, que se assenta no seu trono, até o primogênito da serva que está detrás da mó, e todo o primogênito dos animais.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'todo o primogênito... morrerá' mantém concordância singular coletiva correta ('todo o X' + verbo no singular). Cadeia 'desde... até...' é clara, sem ambiguidade de antecedente: 'que se assenta' liga-se a Faraó e 'que está' liga-se à serva, ambos recuperáveis sem reler.",
+      "justificativa": "Período já coeso e natural: estrutura 'desde... até...' mapeia fielmente o hebraico מִבְּכֹר פַּרְעֹה...עַד בְּכוֹר הַשִּׁפְחָה; repetição de 'primogênito' (בְּכוֹר 3×) passa no teste do CETICISMO — é o conteúdo do verso (escala da praga, cada instância nomeada); concordância singular 'morrerá' com 'todo o primogênito' correta; 'detrás da mó' (אַחַר הָרֵחָיִם) idiomático.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -53,7 +86,7 @@
       "texto_bv_revisto": "E haverá grande clamor em toda a terra do Egito, como nunca houve semelhante nem jamais haverá.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A comparação dupla negativa do hebraico (אֲשֶׁר כָּמֹהוּ לֹא נִהְיָתָה... וְכָמֹהוּ לֹא תֹסִף) foi bem resolvida como 'como nunca houve semelhante nem jamais haverá', com os tempos corretos (perfeito → passado 'houve'; imperfeito de continuidade → futuro 'haverá'), evitando a repetição do pronome 'como ele' presente no literal. Casa com a KJV ('such as there was none like it, nor shall be like it any more').",
+      "justificativa": "Estrutura comparativa já natural em português; 'como nunca houve semelhante' vertendo אֲשֶׁר כָּמֹהוּ לֹא נִהְיָתָה é idiomático e legível em voz alta; 'nem jamais haverá' para וְכָמֹהוּ לֹא תֹסִף mantém paralelismo temporal passado/futuro do original; sem calque moroso.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -61,7 +94,7 @@
       "texto_bv_revisto": "Mas entre todos os filhos de Israel nem um cão moverá a sua língua, desde os homens até os animais; para que vocês saibam que o SENHOR faz diferença entre os egípcios e os israelitas.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'mover a língua' (יֶחֱרַץ...לְשֹׁנוֹ) é idiom bíblico já consagrado na tradição de tradução em português (mesma solução em ARA/ACF), não um calque isolado a substituir por outro verbo. Concordância e regência corretas; 'para que vocês saibam' preserva o plural do original (תֵּדְעוּן).",
+      "justificativa": "Idioma 'moverá a sua língua' para יֶחֱרַץ כֶּלֶב לְשֹׁנוֹ é padrão em português bíblico (ARA/ACF) e soa natural; estrutura 'desde... até' mapeia לְמֵאִישׁ וְעַד בְּהֵמָה; 'faz diferença' para יַפְלֶה é lexema consistente; 'Mas' inicial traduz waw contrastivo com v.6 (grande clamor no Egito MAS silêncio em Israel), coesão correta com o contexto.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -69,7 +102,7 @@
       "texto_bv_revisto": "Então todos estes seus servos descerão a mim e se inclinarão diante de mim, dizendo: Saia você e todo o povo que segue as suas pisadas; e depois eu sairei. E saiu da presença de Faraó ardendo em ira.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Tratamento consistente: a fala de Moisés a Faraó usa 'você'/'seus' do início ao fim, sem mistura com 'tu'. A mesóclise do literal ('prostrar-se-ão') foi convertida em próclise natural ('se inclinarão'), conforme a norma culta brasileira. A transição da citação direta para a narração ('E saiu da presença de Faraó...') resolve o sujeito sem ambiguidade.",
+      "justificativa": "Inserção de aspas revertida: a fala de Moisés abre em v.4 sem aspas na entrada, e aspá-la apenas no fechamento (v.8) criaria citação desbalanceada; a política de aspas do discurso direto exige decisão editorial canônica uniforme (ver objeção em Exod.15.1) e fase mecânica própria (F-0024). A delimitação substancial (a fala termina em 'eu sairei', retomando a narrativa em 'E saiu') está correta na entrada e não requer edição. Texto de entrada mantido.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -77,7 +110,7 @@
       "texto_bv_revisto": "E o SENHOR disse a Moisés: Faraó não ouvirá vocês, para que as minhas maravilhas se multipliquem na terra do Egito.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'ouvirá vocês' é objeto direto regular do verbo transitivo direto 'ouvir', coerente com o sistema você/vocês adotado no restante do corpus (não exige preposição). 'se multipliquem' (reflexivo) traduz corretamente o sentido intransitivo de רְבוֹת ('tornarem-se muitas'). Sem defeitos de forma.",
+      "justificativa": "Período já coeso e natural; 'ouvirá vocês' preserva o 2mp de אֲלֵיכֶם conforme tratamento da BV; 'para que as minhas maravilhas se multipliquem' mapeia לְמַעַן רְבוֹת מוֹפְתַי (infinitivo construto + sujeito sufixado) como finalidade explícita, coesão correta com v.8-10.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -85,7 +118,7 @@
       "texto_bv_revisto": "E Moisés e Arão fizeram todas estas maravilhas diante de Faraó; mas o SENHOR endureceu o coração de Faraó, e este não deixou ir os filhos de Israel da sua terra.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'este' retoma corretamente 'Faraó' (e não 'o SENHOR', o outro antecedente disponível na oração anterior), evitando ambiguidade pronominal entre os dois referentes. 'mas' explicita a relação adversativa que o conteúdo já marca (milagres realizados x coração endurecido) — variação legítima do conectivo, não invenção de relação lógica nova.",
+      "justificativa": "'mas o SENHOR endureceu' é escolha de coesão legítima: o waw consecutivo hebraico (וַיְחַזֵּק) é formalmente aditivo, mas a relação lógica com a cláusula anterior (maravilhas realizadas / coração endurecido) é de tensão/resumo, e o português narrativo marca essa tensão com 'mas' — coesão de parágrafo (pergunta ER-0031: o parágrafo soa como texto brasileiro contínuo). 'este' retoma Faraó sem ambiguidade; 'da sua terra' mantém a ambigüidade deliberada de מֵאַרְצוֹ (Egito/Faraó).",
       "veredito": "SEM_ALTERACAO"
     }
   ]
