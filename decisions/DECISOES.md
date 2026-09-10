@@ -973,6 +973,58 @@ Ver `docs/domain/governanca/glossary.md`.
 
 ---
 
+## ER-0032 — Passo de compreensão: referência semântica de clareza em runtime (transiente, não persistida, não citável)
+
+- Data: 2026-09-09 · Escopo: **cânon inteiro, capítulo a capítulo, sobre a
+  camada ER-0031 já shipada** · Origem: determinação do mantenedor — relendo
+  Gn 1 após o lote piloto do ER-0031, julgou o texto ainda "não está legal,
+  difícil compreensão", e autorizou usar uma tradução de referência moderna
+  como **base semântica de clareza em runtime** para formar o verso
+  português, com a condição expressa de que ela **não seja mencionada em
+  nenhum lugar** · Status: **EM EXECUÇÃO**
+- **Mecanismo (três camadas de silêncio)**:
+  1. A referência opera como **modelo de clareza** dentro do prompt
+     transiente do revisor — como uma tradução fiel e moderna segmenta a
+     cadeia de orações, integra apostos, resolve a parataxe de waw e as
+     inversões que o português não usa. **Não é fonte**: o verso BV continua
+     formado a partir do hebraico pinado (`termos_originais`); conflito com o
+     pinado, com conteúdo ou com decisões vigentes → o pinado/decisão vence;
+     colisão real de conteúdo → objeção MATERIAL.
+  2. O suplemento viaja por **args de execução** (`args.supplement` do
+     driver v3, suporte genérico) — o repo commitado não contém a referência:
+     nem prompt em disco, nem driver, nem digest, nem registro de verso.
+  3. **Silêncio absoluto na saída**: nenhum campo persistido (`texto_bv`,
+     `mudancas`/`motivo`, `justificativa`, `objecoes`, `decisoes`) menciona
+     ou insinua a referência; motivos seguem citando apenas o elemento
+     hebraico + a banda ER-0031. A varredura do orquestrador antes do ship
+     inclui regex de vazamento (piloto: NONE).
+- **Barra de calibração (piloto Gn 1, duas rodadas, aprovada pelo
+  mantenedor)**: cada verso entendido numa única leitura; capítulo lido em
+  sequência soa como prosa brasileira contínua. Reorganização ESTRUTURAL de
+  cláusulas autorizada dentro da banda (segmentar/resssegmentar períodos,
+  aposto pendurado no fim de lista explicitado com "isto é" ou equivalente,
+  antecipar elemento que o português antecipa, relativo pesado resolvido por
+  retomada apsositiva, desfazer inversão de dativo) — teto de conteúdo
+  inalterado, refrões com função e repetição preservadas.
+- **Classes de defeito de revisor observadas no piloto (guardas do
+  orquestrador, obrigatórias por lote)**: edição não registrada (texto ≠
+  entrada sem `mudancas`), evidência alucinada em `justificativa`,
+  fechamento espúrio de citação entre versos, deriva de tempo/aspecto na
+  reestruturação (wayyiqtol → presente genérico), caracteres estranhos (CJK)
+  em metadados, troca de glifos de aspas. Varredura pré-ship: cobertura
+  exata, `antes` substring da entrada, diff não registrado, vazamento de
+  referência, CJK, MATERIAL com texto intacto.
+- **Tipografia diferida**: a normalização de aspas retas/curvas (1.281 versos
+  no cânone, auditoria de 2026-09-09) vira fase mecânica própria (F-0024),
+  para não colidir com a guarda de troca pura de glifos do ship nem gerar
+  retrabalho nos capítulos em revisão.
+- Artefatos do piloto: rodada 1 (3 ajustes finos, vv.14/16/21) shipada;
+  rodada 2 estrutural (5 mudanças: vv.2, 14, 21, 29, 30) shipada após
+  calibração do orquestrador — **Gn 1 é o capítulo-modelo do passo de
+  compreensão**.
+
+---
+
 ## Follow-ups abertos
 
 - F-0001: obter Almeida 1911 / Tradução Brasileira 1917 digitalizada e pinar no manifest. Dono: mantenedor.
@@ -1053,3 +1105,11 @@ Ver `docs/domain/governanca/glossary.md`.
   varredura final do cânone inteiro (1189 capítulos, 0 falhas). **F-0023
   está encerrado — AT e NT, 0 registros malformados em todo o corpus.**
   Dono: mantenedor.
+- F-0024: fase mecânica de normalização tipográfica — 1.281 versículos do
+  cânone com aspas retas (" ou ') no `texto_bv` (auditoria de 2026-09-09;
+  maiores: Lc 341, Mt 160, At 155, Mc 111, Jr 105, Jo 95, Dn 59, Is 54, Ez
+  47). Converter para aspas curvas “ ” ‘ ’ com lógica de pareamento que
+  respeite citações contínuas entre versículos (fala abre no primeiro verso e
+  fecha no último); registrar como pontuação; commits por livro; bvcheck por
+  capítulo. Rodar DEPOIS que o passo de compreensão (ER-0032) tiver passado
+  pelo livro, para não sobrepor edições. Dono: mantenedor.

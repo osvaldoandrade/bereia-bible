@@ -59,6 +59,12 @@ if (typeof A === 'string') { try { A = JSON.parse(A) } catch (e) { A = {} } }
 // scripts/ship_review_batch.py (ER-0010 re-pin of `fontes`).
 const MODEL = A.model || 'sonnet'
 const CHAPTERS = (A.chapters || []).slice(0, 16)
+// Optional runtime supplement supplied by the orchestrator per run (ER-0032):
+// transient instructions appended verbatim to every reviewer prompt. Deliberate
+// design: whatever the supplement says lives ONLY in run args — nothing about it
+// is committed to the repo, and reviewers are bound to absolute silence about it
+// in every persisted output field. Leave unset for a plain ER-0031 round.
+const SUPPLEMENT = typeof A.supplement === 'string' ? A.supplement : ''
 
 const S = { type: 'string' }
 const I = { type: 'integer' }
@@ -144,6 +150,7 @@ async function reviewChapter(ch) {
   const digest = REPO + '/qa/reports/grammar-input/' + ch.book_dir + '-' + pad + '.json'
   const out = REPO + '/qa/reports/review-out/' + ch.book_dir + '-' + pad + '.json'
   const summary = await agent(RULES +
+    (SUPPLEMENT ? SUPPLEMENT + '\n\n' : '') +
     'CAPÍTULO: ' + ch.book_dir + '/' + pad + '.\n' +
     '1) Read do digest ' + digest + ' (osis, texto_bv, traducao_literal, termos_originais, contexto, controles.kjv por verso).\n' +
     '2) Write do JSON de saída COMPLETO em ' + out + ': { "book_dir": "' + ch.book_dir + '", "chapter": ' + ch.chapter + ', "versos": [ { osis, texto_bv_revisto, mudancas, objecoes, justificativa, veredito } ... ] } — TODOS os versos do digest, na mesma ordem.\n' +
