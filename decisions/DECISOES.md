@@ -867,6 +867,112 @@ Ver `docs/domain/governanca/glossary.md`.
 
 ---
 
+## ER-0030 — Ciclo completo Bíblia inteira com naturalidade/elegância (INTERROMPIDO; SUPERSEDIDO pelo ER-0031)
+
+- Data: 2026-09-09 · Escopo: Bíblia inteira (executado: AT até Josué 5) ·
+  Origem: determinação do mantenedor ("um novo ciclo completo sobre a
+  Bíblia inteira acrescentando dois critérios que antes só existiam
+  implícitos: naturalidade da linguagem e elegância literária") ·
+  Status: **SUPERSEDIDO pelo ER-0031 antes de concluir**
+- Mecânica: `revisor-gramatical.md` v1.2.0 (+ variante NT), driver
+  `grammar-review-driver-v2.workflow.js` (≤16 capítulos/rodada, 1 Read +
+  1 Write por agente, regras destiladas inline), modelo `claude-sonnet-5`,
+  ship via `ship_review_batch.py -status APPROVED -er ER-0030 -modelo
+  claude-sonnet-5`. Hierarquia v1.2.0: fidelidade (teto absoluto) →
+  clareza → coesão → naturalidade → elegância; guardas novas:
+  antiparáfrase e consistência terminológica entre livros.
+- **Shipado (5.930 versos com decisão ER-0030)**: Gn 1532/1533, Ex
+  1208/1213, Lv 855/859, Nm 1288/1289, Dt 949/959, Js 1–5 (98) — commits
+  `fix(translation): editorial review of <Livro> <cap> hot-spots
+  (ER-0030)`, pushados até Js 5 em 2026-09-09 20:40 -03.
+- **Interrupção**: exaustão de créditos em 2026-09-09 ~20:50 -03, no meio
+  de uma rodada de revisores Josué/Juízes. 17 review-outs regenerados e
+  NÃO shipados (js 6,7,9,10,11,12,14,16,17,18,19,20,23; jz 4,5,8,10)
+  ficaram na árvore de trabalho — **descartados no ER-0031** (git
+  checkout): foram produzidos sob doutrina revogada e serão regenerados.
+- **Por que supersedido**: o mantenedor, revisando o resultado, julgou o
+  texto ainda preso à forma do original — a hierarquia v1.2.0 mantinha a
+  fidelidade FORMAL como teto absoluto e a naturalidade só como
+  desempate tardio. ER-0031 muda a doutrina e reinicia o cânon. As
+  decisões ER-0030 já shipadas permanecem nos registros como histórico
+  (camada `decisoes` é cumulativa); o novo ciclo re-revisa tudo,
+  empilhando decisões ER-0031.
+
+## ER-0031 — Doutrina de concessão formal: coesão e naturalidade acima da literalidade de forma; reinício do cânon desde Gênesis
+
+- Data: 2026-09-09 · Escopo: **cânon inteiro (AT+NT), livro a livro,
+  reiniciando de Gênesis** · Origem: determinação do mantenedor, verbatim:
+  "há muitos erros de portugues (concordância e coesão) que não quero
+  sacrificar. Por favor, vamos iniciar novamente do início, desde Genesis,
+  quero uma revisão e buscar conexão, coesão, naturalidade para o
+  português brasileiro... Gramáticamente estruturado; Aceito perder um
+  pouco de fidelidade devido a vicios do hebraico e/ou grego";
+  "priorizemos coesão e naturalidade do portugues, sem perder a
+  consistencia e rigor teologico"; "comece novamente desde Genesis, e
+  vamos por toda Bíblia novamente, livro a livro, buscando nossa coesão" ·
+  Status: **EM EXECUÇÃO**
+- **Doutrina — duas fidelidades, dois tratamentos**:
+  - *Fidelidade de conteúdo* (atores, ações, objetos, números, nomes
+    divinos, atos de fala, afirmações teológicas, relação lógica marcada
+    pelo original) — **teto absoluto, nunca cede**. Colisão real →
+    objeção MATERIAL. Nada de acrescentar ideia, remover conteúdo
+    teológico, resolver ambiguidade proposital, decidir doutrina ou
+    suavizar crux.
+  - *Fidelidade de forma* (sintaxe literal, parataxe de waw consecutivo,
+    marcadores discursivos, molduras formulaicos, cadeias de aposição com
+    conectivo repetido, repetições sem função audível em português) —
+    **cede** à coesão/clareza/naturalidade dentro da banda de concessão,
+    com toda concessão registrada em `mudancas` (tipo `naturalidade`,
+    motivo nomeando o elemento do original + "banda de concessão
+    ER-0031").
+  - A fidelidade formal não sai do projeto: permanece íntegra em
+    `traducao_literal` (nunca reescrita) e `termos_originais`. A
+    distância entre as camadas É a concessão, auditável verso a verso —
+    o requisito "auditável até WLC" do PLAN.md segue atendido.
+- **Hierarquia v1.3.0**: (1) fidelidade de conteúdo; (2) correção
+  gramatical norma culta (piso absoluto — "erros de português não quero
+  sacrificar"); (3) coesão e clareza; (4) naturalidade (autoriza
+  concessão de forma); (5) literalidade formal (cede dentro da banda;
+  mantê-la exige justificação de conteúdo/figura, nunca só "está no
+  hebraico"); (6) elegância (último desempate).
+- **Exemplos canônicos do mantenedor (calibração vinculante)**:
+  - Gn 1.31: "E houve tarde e houve manhã: o sexto dia." → "algo como: E
+    esse foi o sexto dia" — refrão mantém função e repetição; moldura
+    literal comprime; perda do elemento "tarde e manhã" ACEITA pelo
+    mantenedor.
+  - Gn 1.30: cadeia "E a todo animal da terra, e a toda ave dos céus, e a
+    tudo o que rasteja..." (מorosa) → verbo antecipado + lista agrupada,
+    nenhum participante removido.
+- **Refrões/fórmulas (regra c da banda)**: função e padrão de repetição
+  se preservam (resposta litúrgica dos Salmos continua repetida; "santo,
+  santo, santo" é o texto); a moldura literal de cada instância pode ser
+  naturalizada. Ceticismo contra "traço estilístico" (ER-0028) segue para
+  o que se MANTÉM, lido invertido: passar no teste autoriza manter a
+  figura, não congelar a moldura.
+- **Artefatos**: `revisor-gramatical.md` v1.3.0; driver
+  `grammar-review-driver-v3.workflow.js` (mesma economia do v2 — 1 Read +
+  1 Write, ≤16 threads — regras re-destiladas). **NT**:
+  `revisor-gramatical-nt.md` permanece v1.2.0 com aviso STOP no cabeçalho
+  e driver NT interditado — a revisão v1.3.0 do par NT (vícios do grego:
+  parataxe de καί, ἰδού, cadeias de genitivo) deve pousar ANTES do ciclo
+  alcançar o livro 40, já refinada pelas adjudicações do AT.
+- **Execução**: por livro — rebuild dos digests
+  (`build_grammar_review_input.py -livros N`), rodadas de ≤16 capítulos
+  (driver v3, modelo `sonnet` = `claude-sonnet-5` de proveniência), ship
+  por rodada (`ship_review_batch.py ... -status APPROVED -er ER-0031
+  -modelo claude-sonnet-5`), commit por capítulo, push por rodada.
+  Objeções MATERIAIS acumulam para ciclo de adjudicação ao final
+  (padrão ER-0029). Gate de calibração: lote piloto Gn 1–16 conferido
+  contra os exemplos canônicos antes do push.
+- **Ressalva registrada (uma vez, como manda o padrão do mantenedor)**:
+  a concessão de forma toca o requisito fundador "o texto tem de dizer
+  exatamente o que o hebraico diz" na sua leitura FORMAL; a leitura de
+  CONTEÚDO permanece intacta e a camada literal preserva a forma para
+  auditoria. Decisão do mantenedor é soberana (FSM: pré-condição de
+  processo é caminho ordinário, não veto) — registrado e executado.
+
+---
+
 ## Follow-ups abertos
 
 - F-0001: obter Almeida 1911 / Tradução Brasileira 1917 digitalizada e pinar no manifest. Dono: mantenedor.

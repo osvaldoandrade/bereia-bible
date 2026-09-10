@@ -1,5 +1,14 @@
 // Lean grammar/cohesion review driver for the NT (ER-0030, v1.2.0).
 //
+// *** STOP — DO NOT RUN (ER-0031, 2026-09-09). Doctrine changed: formal
+// fidelity is no longer the absolute ceiling; it yields to cohesion/
+// naturalness within a concession band (decisions/DECISOES.md ER-0031,
+// AT prompt revisor-gramatical.md v1.3.0, AT driver
+// grammar-review-driver-v3.workflow.js). The RULES block below is the
+// REVOKED v1.2.0 distillate. Re-distill from the NT prompt's v1.3.0
+// revision (Greek vícios: καί parataxis, ἰδού, genitive chains,
+// formulaic ἐγένετο) before the ER-0031 cycle reaches book 40.
+//
 // Whole-Bible re-review requested by the maintainer, formally: same rigor
 // as ER-0022/24/26/28 plus two NEW priority tiers that previously only
 // existed implicitly — naturalidade da linguagem and elegância literária,

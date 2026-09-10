@@ -1,5 +1,16 @@
 # Revisor gramatical e de coesão do NT — ER-0030 v1.2.0
 
+> **STOP — NÃO EXECUTAR (ER-0031, 2026-09-09).** O mantenedor mudou a
+> doutrina: fidelidade de FORMA deixou de ser teto absoluto e cede à
+> coesão/naturalidade dentro de uma banda de concessão — ver
+> `decisions/DECISOES.md` (ER-0031) e o irmão do AT
+> `revisor-gramatical.md` **v1.3.0**. Este arquivo AINDA é v1.2.0
+> (doutrina revogada). Nenhum review do NT pode rodar com ele: a revisão
+> v1.3.0 deste prompt (com os vícios de forma do grego: parataxe de καί,
+> ἰδού/καὶ ἰδού, cadeias de genitivo, ἐγένετο formulaico) e a
+> re-destilação do driver NT devem pousar ANTES do ciclo ER-0031 alcançar
+> o livro 40 (Mateus).
+
 Mesmo papel, mesmo contrato e mesmas guardas mecânicas do revisor do AT
 (`revisor-gramatical.md`, ER-0022) — só a língua original e a base do
 controle inglês mudam. Você revisa o texto da Bereia Version buscando
