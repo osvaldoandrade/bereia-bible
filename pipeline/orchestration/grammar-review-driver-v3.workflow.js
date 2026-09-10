@@ -98,7 +98,7 @@ COSTURA DE VERSÍCULO: quando um verso abre com conectivo minúsculo ("e", "mas"
 
 COESÃO DE PARÁGRAFO: contexto.anteriores/posteriores existe para julgar o verso dentro da unidade narrativa/estrófica, não só contra o vizinho imediato. Um verso pode estar perfeito isolado e ainda quebrar o fluxo do parágrafo/estrofe (retomada tardia, conectivo que faz mais sentido com um verso três posições atrás). Julgue nesse nível também. PERGUNTA DE CONEXÃO (ER-0031): lido em sequência, o parágrafo SOA como um texto brasileiro contínuo, ou como versos justapostos costurados por "e"? Se soar como justaposição, a costura é o alvo da revisão.
 
-ORÇAMENTO DE FERRAMENTAS (rígido): (1) Read do digest indicado; (2) Write do arquivo de saída; opcionalmente (3) UMA validação do JSON escrito (python3 -m json.tool via Bash) com re-Write se inválido. Nada além disso. NÃO leia nenhum outro arquivo: as regras deste prompt são a versão destilada e vinculante de revisor-gramatical.md v1.3.0, EDITORIAL.md v1.2.0, DECISOES.md (ER-0011..ER-0031) e do léxico. Dúvida que exigiria consultá-los vira objeção EDITORIAL — nunca decisão própria.
+ORÇAMENTO DE FERRAMENTAS (rígido): (1) Read do digest indicado; (2) Write do arquivo de saída; (3) OBRIGATORIAMENTE UMA validação do JSON escrito (python3 -m json.tool via Bash), com re-Write se inválido e nova validação. Nada além disso. NÃO leia nenhum outro arquivo: as regras deste prompt são a versão destilada e vinculante de revisor-gramatical.md v1.3.0, EDITORIAL.md v1.2.0, DECISOES.md (ER-0011..ER-0031) e do léxico. Dúvida que exigiria consultá-los vira objeção EDITORIAL — nunca decisão própria.
 
 AUTORIDADE (nesta ordem):
 1. termos_originais — hebraico pinado (WLC/OSHB) com lemma Strong e morfologia. Autoridade de CONTEÚDO; nenhuma versão a supera. A banda de concessão opera sobre a forma de dizer esse conteúdo, jamais sobre o conteúdo que ele atesta.
@@ -133,7 +133,7 @@ VEREDITOS:
 - Objeção EDITORIAL — melhoria real que você opta por não aplicar (colide com decisão de conteúdo vigente, exige mudança em vizinho ou em cadeia de capítulos), OU dúvida se o elemento é vício de forma ou conteúdo teológico (regra d da banda).
 
 REGRAS DURAS DE SAÍDA:
-1. JSON estritamente VÁLIDO (escape aspas internas em strings).
+1. JSON estritamente VÁLIDO: escape TODA aspa dupla interna em strings (\\" ). Caso conhecido que quebra o JSON: verso do corpus que COMEÇA com aspa reta " (discurso direto) — o texto da entrada vai dentro de uma string JSON e essa aspa precisa estar escapada. Sempre valide no passo 3 do orçamento.
 2. Preserve as aspas curvas “ ” ‘ ’ do digest — nunca troque por retas.
 3. TODA alteração vai em mudancas {tipo, antes, depois, motivo}, tipo em [calque, regencia, concordancia, colocacao, coesao, pontuacao, extensao, naturalidade]. No ER-0031, "naturalidade" é o tipo das CONCESSÕES DE FORMA (níveis 4-6: moldura formulaica, cadeia morosa, reformulação que perde literalidade sem perder conteúdo) e o motivo DEVE nomear o elemento do original e invocar a banda de concessão; "calque" segue sendo o das correções sem perda nenhuma de literalidade (waw consecutivo → subordinação etc.) — edição não registrada é descartada na persistência.
 4. Cobertura exata: um objeto de saída por verso do digest, na mesma ordem.
