@@ -98,7 +98,7 @@ COSTURA DE VERSÍCULO: quando um verso abre com conectivo minúsculo ("e", "mas"
 
 COESÃO DE PARÁGRAFO: contexto.anteriores/posteriores existe para julgar o verso dentro da unidade narrativa/estrófica, não só contra o vizinho imediato. Um verso pode estar perfeito isolado e ainda quebrar o fluxo do parágrafo/estrofe (retomada tardia, conectivo que faz mais sentido com um verso três posições atrás). Julgue nesse nível também. PERGUNTA DE CONEXÃO (ER-0031): lido em sequência, o parágrafo SOA como um texto brasileiro contínuo, ou como versos justapostos costurados por "e"? Se soar como justaposição, a costura é o alvo da revisão.
 
-ORÇAMENTO DE FERRAMENTAS (rígido): (1) Read do digest indicado; (2) Write do arquivo de saída; (3) OBRIGATORIAMENTE UMA validação do JSON escrito (python3 -m json.tool via Bash), com re-Write se inválido e nova validação. Nada além disso. NÃO leia nenhum outro arquivo: as regras deste prompt são a versão destilada e vinculante de revisor-gramatical.md v1.3.0, EDITORIAL.md v1.2.0, DECISOES.md (ER-0011..ER-0031) e do léxico. Dúvida que exigiria consultá-los vira objeção EDITORIAL — nunca decisão própria.
+ORÇAMENTO DE FERRAMENTAS (rígido): (1) Read do digest indicado; (2) Write do arquivo de saída; (3) OBRIGATORIAMENTE validação do arquivo escrito via Bash com scripts/validate_review_out.py (caminhos no passo 3 das instruções) — confere JSON, cobertura exata e CONTEÚDO: cada 'antes' de mudança tem de ser substring única da entrada, texto_bv_revisto tem de ser exatamente entrada + mudancas, e verso sem mudança tem de ter texto idêntico à entrada. Se houver FAIL, corrija o arquivo com re-Write (mudança real e aplicável, ou veredito SEM_ALTERACAO com texto copiado da entrada) e valide de novo — repita até sair OK. Nunca declare revisão que o texto não materializa: alegar mudança sem substring aplicável é defeito grave. Nada além desses passos. NÃO leia nenhum outro arquivo: as regras deste prompt são a versão destilada e vinculante de revisor-gramatical.md v1.3.0, EDITORIAL.md v1.2.0, DECISOES.md (ER-0011..ER-0031) e do léxico. Dúvida que exigiria consultá-los vira objeção EDITORIAL — nunca decisão própria.
 
 AUTORIDADE (nesta ordem):
 1. termos_originais — hebraico pinado (WLC/OSHB) com lemma Strong e morfologia. Autoridade de CONTEÚDO; nenhuma versão a supera. A banda de concessão opera sobre a forma de dizer esse conteúdo, jamais sobre o conteúdo que ele atesta.
@@ -154,7 +154,8 @@ async function reviewChapter(ch) {
     'CAPÍTULO: ' + ch.book_dir + '/' + pad + '.\n' +
     '1) Read do digest ' + digest + ' (osis, texto_bv, traducao_literal, termos_originais, contexto, controles.kjv por verso).\n' +
     '2) Write do JSON de saída COMPLETO em ' + out + ': { "book_dir": "' + ch.book_dir + '", "chapter": ' + ch.chapter + ', "versos": [ { osis, texto_bv_revisto, mudancas, objecoes, justificativa, veredito } ... ] } — TODOS os versos do digest, na mesma ordem.\n' +
-    '3) Retorne APENAS o resumo: { book_dir: "' + ch.book_dir + '", chapter: ' + ch.chapter + ', revisados: <versos com mudancas>, sem_alteracao: <mantidos>, objecoes_materiais: <nº MATERIAL> }.',
+    '3) OBRIGATÓRIO via Bash: python3 ' + REPO + '/scripts/validate_review_out.py ' + digest + ' ' + out + ' — se imprimir FAIL, corrija o arquivo com novo Write e rode de novo; só prossiga quando imprimir OK.\n' +
+    '4) Retorne APENAS o resumo: { book_dir: "' + ch.book_dir + '", chapter: ' + ch.chapter + ', revisados: <versos com mudancas>, sem_alteracao: <mantidos>, objecoes_materiais: <nº MATERIAL> }.',
     { label: 'gram:' + ch.book_dir + '/' + pad, phase: 'Revisar', schema: SUMMARY, model: MODEL })
   return summary || { book_dir: ch.book_dir, chapter: ch.chapter, revisados: 0, sem_alteracao: 0, objecoes_materiais: 0 }
 }
