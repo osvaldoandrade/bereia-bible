@@ -1055,12 +1055,15 @@ Ver `docs/domain/governanca/glossary.md`.
   alegavam 11 vv "revisados" no lote, mas os review-out não traziam nenhuma
   `mudancas` — auto-report inflado, sem efeito no ship (as guardas aplicam
   o que está no arquivo, não o que o resumo alega).
-- **Pista preservada do material descartado (2Cr 13.19)**: o review-out
-  malformado (MATERIAL com texto alterado — violação de guarda) continha um
-  achado de conteúdo REAL: o texto_bv traz "Efraim" onde o hebraico pinado é
-  עֶפְרוֹן (lemma 6085, distinto de אֶפְרַיִם lemma 669 do v.4; KJV
-  "Ephrain"). Ao re-revisar 2Cr 13, esperar objeção MATERIAL aqui → rota de
-  adjudicação (não correção de revisor).
+- **Pista preservada do material descartado (2Cr 13.19) — RESOLVIDA em
+  2026-09-14**: o review-out malformado (MATERIAL com texto alterado —
+  violação de guarda) alegava "Efraim" onde o hebraico pinado é עֶפְרוֹן
+  (lemma 6085, distinto de אֶפְרַיִם lemma 669 do v.4; KJV "Ephrain").
+  Verificação na re-revisão genuína de 2Cr 13 (ER-0031/32, qwen3.7-plus):
+  o texto commitado JÁ traz "Efrom", conforme o léxico pinado — a alegação
+  pertencia à camada descartada, não ao cânone. Veredito SEM_ALTERACAO com
+  justificativa citando explicitamente עפרון/6085. Nenhuma objeção MATERIAL
+  necessária; pista encerrada.
 - **Guarda nova (lição)**: camada de proveniência sem review-out é
   falsificável por apply direto. Varredura do orquestrador antes de
   commit/ship agora inclui: (a) entrada ER-nova com justificativa idêntica
