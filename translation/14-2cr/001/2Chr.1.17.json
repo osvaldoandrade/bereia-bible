@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "2Chr.1.1-18"
   },
-  "texto_bv": "Os mercadores fizeram subir e trouxeram do Egito um carro por seiscentas unidades de prata e um cavalo por cento e cinquenta. Do mesmo modo, por intermédio deles, traziam para todos os reis dos hititas e para os reis de Arã.",
+  "texto_bv": "Os mercadores trouxeram do Egito um carro por seiscentas unidades de prata e um cavalo por cento e cinquenta. Do mesmo modo, por intermédio deles, traziam para todos os reis dos hititas e para os reis de Arã.",
   "traducao_literal": "E fizeram subir e fizeram sair do Egito um carro por seiscentos de prata e um cavalo por cinquenta e cem; e assim, para todos os reis dos hititas e para os reis de Arã, pela mão deles faziam sair.",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
       "justificativa": "'traziam' funciona como sujeito indeterminado (construção corrente em português), e 'deles' recupera 'os mercadores' da sentença anterior como agentes/intermediários — reproduz a ambiguidade proposital de בְּיָדָם יוֹצִיאוּ do hebraico (agente instrumental + sujeito indeterminado), já refletida também na KJV ('by their means'). Objeto direto de 'traziam' (carros e cavalos) é recuperável do contexto imediato por elipse anafórica legítima. Sem extensão acima do limite. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Os mercadores fizeram subir e trouxeram do Egito → Os mercadores trouxeram do Egito",
+      "justificativa": "Parataxe de wayyiqtol dobrados (וַיַּעֲלוּ וַיּוֹצִיאוּ, \"fizeram subir e fizeram sair\") é vício de forma do hebraico narrativo; em português, \"fizeram subir e trouxeram\" soa redundante, pois o segundo verbo já engloba o movimento de elevação geográfica do Egito para Israel. Banda de concessão ER-0031: compressão da parataxe em um único verbo, sem perda de conteúdo. — revisão de forma sem alteração de sentido (ER-0031). Compressão de parataxe hebraica dobrada em um só verbo português; conteúdo (atores, ação, origem, preços, destinos) preservado. Numerais por extenso conforme norma.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -185,7 +192,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
