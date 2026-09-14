@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Eccl.6.1-12"
   },
-  "texto_bv": "Se um homem gerar cem filhos e viver muitos anos — por mais numerosos que sejam os dias dos seus anos —, mas sua alma não se sacia de bens, e ele nem sequer tem sepultura. Eu disse: o natimorto é melhor do que ele.",
+  "texto_bv": "Se um homem gerar cem filhos e viver muitos anos — por mais numerosos que sejam os dias dos seus anos —, e sua alma não se sacia de bens, e ele nem sequer tem sepultura, eu disse: o natimorto é melhor do que ele.",
   "traducao_literal": "Se gerar um homem cem, e anos muitos viver, e muitos, que sejam os dias dos seus anos, e sua alma não se sacia do bem, e também sepultura não houve para ele — eu disse: bom mais do que ele o abortivo.",
   "termos_originais": [
     {
@@ -205,6 +205,13 @@
       "justificativa": "Sujeito elidido após 'sua alma não se sacia de bens' fazia 'tem sepultura' soar como predicado de 'alma' (uma alma não tem sepultura, quem tem é a pessoa). O hebraico troca de sujeito nesse ponto (נַפְשׁוֹ → קְבוּרָה...לוֹ, 'a ele'), confirmado pela KJV ('his soul be not filled... and also that he have no burial'). Reinserido o pronome 'ele' para recuperar o referente correto (o homem), sem alterar sentido. — revisão de forma sem alteração de sentido (ER-0028).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas sua alma não se sacia de bens, e ele nem sequer tem sepultura. Eu disse: → e sua alma não se sacia de bens, e ele nem sequer tem sepultura, eu disse:",
+      "justificativa": "A estrutura condicional 'Se...' exige sequência de prótase aditiva, não contraste; o 'mas' quebrava a cadeia condicional. Banda de concessão ER-0031: a parataxe 'e... e...' reflete waw consecutivo do hebraico, aqui mantida por ser legível em português como enumeração de condições. — revisão de forma sem alteração de sentido (ER-0031). Corrigida a ruptura sintática 'Se... mas...': toda a sequência anterior à apódose é prótase e deve ser aditiva. O período único com a apódose 'eu disse' reforça a unidade lógica.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -221,7 +228,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
