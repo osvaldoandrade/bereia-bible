@@ -7,7 +7,7 @@
     "versiculo": 1,
     "pericope": "Isa.39.1-8"
   },
-  "texto_bv": "Naquele tempo, Merodaque-Baladã, filho de Baladã, rei da Babilônia, enviou cartas e um presente a Ezequias, porque ouviu que ele tinha estado doente e se recuperado.",
+  "texto_bv": "Naquele tempo, Merodaque-Baladã, filho de Baladã, rei da Babilônia, enviou cartas e um presente a Ezequias, porque ouviu que ele tinha estado doente e havia se recuperado.",
   "traducao_literal": "Naquele tempo enviou Merodaque-Baladã, filho de Baladã, rei da Babilônia, cartas e oferta a Ezequias; e ouviu que adoeceu e se fortaleceu.",
   "termos_originais": [
     {
@@ -143,6 +143,13 @@
       "justificativa": "Português correto e coeso. A subordinação com 'porque ouviu' já evita o calque do waw hebraico ('וַיִּשְׁמַע', 'e ouviu'), forma preferível à cadeia 'e...e...'. A elipse do auxiliar em 'tinha estado doente e se recuperado' (= 'e se tinha recuperado') é regular em coordenação de particípios com sujeito e auxiliar compartilhados, não erro. Pronome 'ele' recupera 'Ezequias' sem ambiguidade. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "tinha estado doente e se recuperado → tinha estado doente e havia se recuperado",
+      "justificativa": "Elipse do auxiliar composto (\"tinha estado... e [tinha] se recuperado\") produz ambiguidade de parsing em português; o hebraico (וַיִּשְׁמַע כִּי חָלָה וַֽיֶּחֱזָק) encadeia dois perfetivos coordenados, não exige zeugma do auxiliar. Reexposição do auxiliar por \"havia\" restaura clareza sem alterar conteúdo; banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0031). Cadeia narrativa de wayyiqtol convertida em período coeso em português; nomes próprios, relação causal e conteúdo teológico (envio de cartas e presente por causa da enfermidade e recuperação) preservados.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -159,7 +166,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
