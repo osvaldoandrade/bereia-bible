@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "2Chr.36.1-23"
   },
-  "texto_bv": "O rei do Egito fez Eliaquim, irmão de Jeoacaz, rei sobre Judá e Jerusalém e mudou seu nome para Jeoaquim. Neco tomou Jeoacaz, irmão de Jeoaquim, e o levou para o Egito.",
+  "texto_bv": "O rei do Egito fez Eliaquim, irmão de Jeoacaz, rei sobre Judá e Jerusalém, e mudou seu nome para Jeoaquim. Neco tomou Jeoacaz, irmão de Jeoaquim, e o levou para o Egito.",
   "traducao_literal": "E fez reinar o rei do Egito Eliaquim, irmão dele, sobre Judá e Jerusalém, e mudou seu nome para Jeoaquim; e Jeoacaz, irmão dele, Neco tomou, e o fez vir ao Egito.",
   "termos_originais": [
     {
@@ -158,6 +158,13 @@
       "justificativa": "Os pronomes possessivos ambíguos do literal ('irmão dele' ocorrendo duas vezes) já estão resolvidos com os nomes próprios explícitos, coesão correta e sem introduzir sentido novo — o hebraico também introduz o nome 'Neco' neste mesmo verso, coincidindo com 'o rei do Egito' já mencionado. Bate com KJV. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Judá e Jerusalém e mudou → Judá e Jerusalém, e mudou",
+      "justificativa": "Dois 'e' coordenativos próximos ('Judá e Jerusalém e mudou') geram ambiguidade de grupo; vírgula antes do 'e' coordenativo de orações longas com sujeito partilhado melhora a leitura, banda de concessão ER-0031 (coesão). — revisão de forma sem alteração de sentido (ER-0031). Conteúdo preservado: Eliaquim é irmão de Jeoacaz, recebe novo nome (Jeoaquim); Neco leva Jeoacaz ao Egito. Única alteração: vírgula antes do segundo 'e' coordenativo para evitar ambiguidade sintática com a enumeração 'Judá e Jerusalém'.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -177,7 +184,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
