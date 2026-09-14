@@ -7,7 +7,7 @@
     "versiculo": 4,
     "pericope": "Jer.38.1-28"
   },
-  "texto_bv": "Os oficiais disseram ao rei: “Que este homem seja morto, pois ele enfraquece as mãos dos soldados que restam nesta cidade, e as mãos de todo o povo, ao falar a eles conforme estas palavras; pois este homem não busca a paz deste povo, mas o mal.”",
+  "texto_bv": "Os oficiais disseram ao rei: “Que este homem seja morto, pois ele enfraquece as mãos dos soldados que restam nesta cidade, e as mãos de todo o povo, ao falar-lhes nestes termos; pois este homem não busca a paz deste povo, mas o mal.”",
   "traducao_literal": "E disseram os oficiais ao rei: seja morto, por favor, este homem, porque, portanto, ele enfraquece as mãos dos homens de guerra que restam nesta cidade, e as mãos de todo o povo, ao falar a eles conforme estas palavras; porque este homem não busca paz para este povo, mas sim mal.",
   "termos_originais": [
     {
@@ -262,6 +262,13 @@
       "justificativa": "As duas orações introduzidas por “pois” são causais distintas e paralelas (enfraquecimento das mãos das tropas / busca do mal e não da paz do povo), não repetição vazia. Sentença de cerca de 42 palavras já segmentada em duas unidades de sentido por ponto e vírgula, dispensando nova quebra. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "ao falar a eles conforme estas palavras → ao falar-lhes nestes termos",
+      "justificativa": "'a eles' é objeto indireto redundante com o particípio; 'conforme estas palavras' é calque de כדברים האלה (vício de forma do hebraico); banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0031). A correção remove redundância de objeto indireto e o calque preposicional, mantendo integralmente o conteúdo (os oficiais acusam Jeremias de enfraquecer as mãos dos soldados e do povo com suas palavras).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -278,7 +285,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
