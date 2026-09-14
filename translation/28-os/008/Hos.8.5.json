@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Hos.8.1-14"
   },
-  "texto_bv": "O teu bezerro te rejeitou, Samaria! Minha ira se acendeu contra eles. Até quando serão incapazes de inocência?",
+  "texto_bv": "O teu bezerro te rejeitou, Samaria! Minha ira se acendeu contra eles. Até quando não poderão alcançar a inocência?",
   "traducao_literal": "Rejeitou o teu bezerro, Samaria; acendeu-se minha ira contra eles. Até quando não poderão inocência?",
   "termos_originais": [
     {
@@ -122,6 +122,13 @@
         }
       ],
       "diretriz_ref": "ER-0029"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Até quando serão incapazes de inocência? → Até quando não poderão alcançar a inocência?",
+      "justificativa": "A construção 'serão incapazes de inocência' soa morosa em português; o verbo יכל + acusativo (נקיון) é idiomático no hebraico com sentido de 'alcançar/atingir', e tornar o verbo explícito produz leitura mais natural sem alterar o conteúdo. Banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0031). A mudança torna a pergunta mais fluida em português brasileiro, explicitando o sentido do idiomático hebraico יוכל + substantivo. Conteúdo preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -137,10 +144,10 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
