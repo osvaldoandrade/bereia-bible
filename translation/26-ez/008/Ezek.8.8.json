@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Ezek.8.1-18"
   },
-  "texto_bv": "E ele me disse: \"Filho do homem, cave agora na parede.\" E eu cavei na parede, e eis uma porta.",
+  "texto_bv": "E ele me disse: \"Filho do homem, cave agora na parede.\" E eu cavei, e eis uma porta.",
   "traducao_literal": "E disse a mim: filho do homem, cava agora na parede. E cavei na parede, e eis uma porta, uma.",
   "termos_originais": [
     {
@@ -107,6 +107,13 @@
       "justificativa": "Imperativo \"cave\" na forma de você, correto. Sem defeito de forma. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E eu cavei na parede, e eis uma porta → E eu cavei, e eis uma porta",
+      "justificativa": "repetição de 'na parede' na mesma perícope (já dito no imperativo) é eco moroso do hebraico; elipse natural em português mantém o referente recuperável; banda de concessão ER-0031 — revisão de forma sem alteração de sentido (ER-0031). Removida repetição de 'na parede' já dito no imperativo precedente; conteúdo preservado.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [],
@@ -121,7 +128,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
