@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Jer.34.1-22"
   },
-  "texto_bv": "Em paz você morrerá; e, como queimaram incenso para os seus pais, os reis anteriores que foram antes de você, assim queimarão para você, e o prantearão, dizendo: ‘Ai, senhor!’; pois eu pronunciei esta palavra, diz o SENHOR.”",
+  "texto_bv": "Em paz você morrerá; e, como queimaram incenso para os seus pais, os reis que foram antes de você, assim queimarão para você, e o prantearão, dizendo: ‘Ai, senhor!’; pois eu pronunciei esta palavra, diz o SENHOR.”",
   "traducao_literal": "Em paz morrerás, e como as queimas de teus pais, os reis os primeiros que foram diante de ti, assim queimarão para ti; e ai, senhor, prantearão para ti; porque palavra eu falei, diz o SENHOR.",
   "termos_originais": [
     {
@@ -174,6 +174,13 @@
       "justificativa": "Citação dentro de citação deve usar aspas simples curvas (‘ ’), não retas, por consistência com a convenção de aspas curvas do texto (EDITORIAL.md v1.2.0). | A aspa dupla que fecha aqui a fala do SENHOR aberta com “ em Jer.34.2 estava reta; trocada para curva (”) para casar com a de abertura — a fala termina neste versículo, e a narração retoma em Jer.34.6. — revisão de forma sem alteração de sentido (ER-0028). Corrigida a pontuação do discurso direto (aspas retas trocadas por curvas). Mantida a repetição 'reis anteriores... antes de você', que reflete pleonasmo já presente no hebraico (הָרִאשֹׁנִים ... לְפָנֶיךָ) e na KJV ('the former kings ... before thee'), especificando os reis predecessores — não é estilo evitável, é conteúdo do verso.",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "os reis anteriores que foram antes de você → os reis que foram antes de você",
+      "justificativa": "Redundância: 'anteriores' e 'que foram antes de você' exprimem a mesma ideia; o português culto não duplica o qualificador; vício de adaptação literal de הָרִאשֹׁנִים אֲשֶׁר הָיוּ לְפָנֶיךָ em que o relativo hebraico é explicativo, não aditivo; banda de concessão ER-0031 — revisão de forma sem alteração de sentido (ER-0031). Remoção de 'anteriores' redundante com o relativo restritivo 'que foram antes de você'. Aspas de fechamento coerentes com abertura em Jer.34.2. Paralelismo 'como queimaram... assim queimarão' preserva a figura comparativa do hebraico (כְּמוֹ... כֵּן).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -190,7 +197,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

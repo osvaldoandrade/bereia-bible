@@ -4,18 +4,25 @@
   "versos": [
     {
       "osis": "Jer.34.1",
-      "texto_bv_revisto": "A palavra que veio a Jeremias da parte do SENHOR. Isso aconteceu quando Nabucodonosor, rei da Babilônia, com todo o seu exército, e todos os reinos da terra sob o domínio de sua mão, e todos os povos, guerreavam contra Jerusalém e contra todas as suas cidades, dizendo:",
-      "mudancas": [],
+      "texto_bv_revisto": "A palavra que veio a Jeremias da parte do SENHOR. Isso aconteceu quando Nabucodonosor, rei da Babilônia, com todo o seu exército, todos os reinos da terra sob o domínio de sua mão e todos os povos, guerreavam contra Jerusalém e contra todas as suas cidades, dizendo:",
+      "mudancas": [
+        {
+          "tipo": "coesao",
+          "antes": "com todo o seu exército, e todos os reinos da terra sob o domínio de sua mão, e todos os povos, guerreavam",
+          "depois": "com todo o seu exército, todos os reinos da terra sob o domínio de sua mão e todos os povos, guerreavam",
+          "motivo": "Cadeia paratática com conectivo 'e' repetido antes de cada elemento da lista de sujeitos; o português natural usa vírgula entre itens e 'e' apenas antes do último; vício de forma do hebraico; banda de concessão ER-0031"
+        }
+      ],
       "objecoes": [],
-      "justificativa": "Frase já reestruturada com subordinação ('quando') em vez de cadeia de 'e's; sujeito composto concorda corretamente com o verbo no plural ('guerreavam'); sem calque sintático remanescente.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Remoção dos conectivos 'e' repetidos antes de cada elemento da lista de sujeitos (Nabucodonosor/exército, reinos, povos), mantendo apenas o 'e' final, conforme a norma de lista em português. Período longo mas dentro do aceitável por ser um único bloco narrativo de contextualização.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Jer.34.2",
       "texto_bv_revisto": "“Assim diz o SENHOR, Deus de Israel: Vá e fale com Zedequias, rei de Judá, e diga-lhe: Assim diz o SENHOR: Eis que entrego esta cidade nas mãos do rei da Babilônia, e ele a queimará a fogo.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'e ele a queimará a fogo' reproduz fórmula consolidada da tradição de tradução em português ('queimar a fogo'), não é calque isolado a corrigir; regência e colocação pronominal ('diga-lhe') corretas.",
+      "justificativa": "Verso já correto, coeso e natural. Discurso direto com aninhamento de fórmulas proféticas bem estruturado. 'Eis que entrego' reflete הִנְנִי נֹתֵן sem calque. Aspas de abertura coerentes com o fechamento em Jer.34.5.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -23,7 +30,7 @@
       "texto_bv_revisto": "E você não escapará da mão dele; será certamente capturado e entregue nas mãos dele; os seus olhos verão os olhos do rei da Babilônia, e a boca dele falará com a sua boca, e você irá para a Babilônia.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Segunda pessoa 'você' usada consistentemente (Deus se dirigindo a um humano, Zedequias); o par 'seus' / 'dele' distingue corretamente os dois referentes (os olhos e a boca de Zedequias vs. os olhos e a boca do rei da Babilônia), sem ambiguidade pronominal.",
+      "justificativa": "Verso já correto, coeso e natural. A estrutura com três cláusulas separadas por ponto e vírgula reflete a sequência de oráculos do hebraico. 'Certamente capturado' verte o infinitivo absoluto (תָּפֹשׂ תִּתָּפֵשׂ) sem calque. 'Com a sua boca' naturaliza a aposição hebraica 'a boca dele, a tua boca'.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -31,28 +38,22 @@
       "texto_bv_revisto": "Contudo, ouça a palavra do SENHOR, Zedequias, rei de Judá: assim diz o SENHOR a seu respeito: Você não morrerá à espada.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'à espada' com crase correta (morrer a + a espada); 'Contudo' capta o valor adversativo de אַךְ/'Yet' após o anúncio de captura do versículo anterior.",
+      "justificativa": "Verso já correto, coeso e natural. 'Contudo' verte אַךְ com valor contrastivo adequado. Tratamento por 'você' consistente com o registro do capítulo. 'À espada' é expressão consagrada no corpus.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.5",
-      "texto_bv_revisto": "Em paz você morrerá; e, como queimaram incenso para os seus pais, os reis anteriores que foram antes de você, assim queimarão para você, e o prantearão, dizendo: ‘Ai, senhor!’; pois eu pronunciei esta palavra, diz o SENHOR.”",
+      "texto_bv_revisto": "Em paz você morrerá; e, como queimaram incenso para os seus pais, os reis que foram antes de você, assim queimarão para você, e o prantearão, dizendo: ‘Ai, senhor!’; pois eu pronunciei esta palavra, diz o SENHOR.”",
       "mudancas": [
         {
-          "tipo": "pontuacao",
-          "antes": "'Ai, senhor!'",
-          "depois": "‘Ai, senhor!’",
-          "motivo": "Citação dentro de citação deve usar aspas simples curvas (‘ ’), não retas, por consistência com a convenção de aspas curvas do texto (EDITORIAL.md v1.2.0)."
-        },
-        {
-          "tipo": "pontuacao",
-          "antes": "diz o SENHOR.\"",
-          "depois": "diz o SENHOR.”",
-          "motivo": "A aspa dupla que fecha aqui a fala do SENHOR aberta com “ em Jer.34.2 estava reta; trocada para curva (”) para casar com a de abertura — a fala termina neste versículo, e a narração retoma em Jer.34.6."
+          "tipo": "coesao",
+          "antes": "os reis anteriores que foram antes de você",
+          "depois": "os reis que foram antes de você",
+          "motivo": "Redundância: 'anteriores' e 'que foram antes de você' exprimem a mesma ideia; o português culto não duplica o qualificador; vício de adaptação literal de הָרִאשֹׁנִים אֲשֶׁר הָיוּ לְפָנֶיךָ em que o relativo hebraico é explicativo, não aditivo; banda de concessão ER-0031"
         }
       ],
       "objecoes": [],
-      "justificativa": "Corrigida a pontuação do discurso direto (aspas retas trocadas por curvas). Mantida a repetição 'reis anteriores... antes de você', que reflete pleonasmo já presente no hebraico (הָרִאשֹׁנִים ... לְפָנֶיךָ) e na KJV ('the former kings ... before thee'), especificando os reis predecessores — não é estilo evitável, é conteúdo do verso.",
+      "justificativa": "Remoção de 'anteriores' redundante com o relativo restritivo 'que foram antes de você'. Aspas de fechamento coerentes com abertura em Jer.34.2. Paralelismo 'como queimaram... assim queimarão' preserva a figura comparativa do hebraico (כְּמוֹ... כֵּן).",
       "veredito": "REVISADO"
     },
     {
@@ -60,22 +61,22 @@
       "texto_bv_revisto": "E Jeremias, o profeta, falou a Zedequias, rei de Judá, todas essas palavras, em Jerusalém.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sem calque, regência ou concordância a corrigir.",
+      "justificativa": "Verso já correto, coeso e natural. Fórmula narrativa de encerramento de discurso clara e concisa. O 'E' inicial mantém a sequência narrativa do waw consecutivo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.7",
-      "texto_bv_revisto": "E o exército do rei da Babilônia guerreava contra Jerusalém e contra todas as cidades restantes de Judá: contra Laquis e contra Azeca, pois estas eram as que subsistiam entre as cidades fortificadas de Judá.",
+      "texto_bv_revisto": "E o exército do rei da Babilônia guerreava contra Jerusalém e contra todas as cidades restantes de Judá: contra Laquis e contra Azeca, pois estas restaram entre as cidades fortificadas de Judá.",
       "mudancas": [
         {
           "tipo": "coesao",
-          "antes": "restavam",
-          "depois": "subsistiam",
-          "motivo": "Evitar repetição da mesma raiz ('cidades restantes'... 'que restavam') a curta distância no mesmo período; o hebraico varia as raízes (נותרות / נשארו) e a KJV varia as palavras ('left' / 'remained'), então variar o léxico em português melhora a coesão sem alterar o sentido."
+          "antes": "pois estas eram as que subsistiam",
+          "depois": "pois estas restaram",
+          "motivo": "Perífrase 'eram as que subsistiam' é morosa; o verbo 'restar' verte diretamente נִשְׁאֲרוּ sem o envoltório relativo; vício de forma; banda de concessão ER-0031"
         }
       ],
       "objecoes": [],
-      "justificativa": "Substituído 'restavam' por 'subsistiam' na segunda ocorrência para não repetir a raiz de 'restantes' poucas palavras antes.",
+      "justificativa": "Simplificação da perífrase relativa 'eram as que subsistiam' pelo verbo direto 'restaram', mais conciso e natural. A especificação 'contra Laquis e contra Azeca' antecipa a explicação, e a cláusula causal mantém o nexo lógico.",
       "veredito": "REVISADO"
     },
     {
@@ -83,7 +84,7 @@
       "texto_bv_revisto": "A palavra que veio a Jeremias da parte do SENHOR, depois que o rei Zedequias fez aliança com todo o povo que estava em Jerusalém, para lhes proclamar liberdade,",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'que' no início de Jer.34.9 retoma o conteúdo de 'liberdade' anunciada neste versículo, o imediatamente anterior; a leitura permanece clara, não há antecedente distante em jogo.",
+      "justificativa": "Verso já correto, coeso e natural. Período que se estende ao v.9 por ser uma frase relativa prolongada explicando o conteúdo da palavra divina. 'Depois que' com indicativo é norma para ação completiva em português.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -91,7 +92,7 @@
       "texto_bv_revisto": "que cada um despedisse livre o seu escravo hebreu e a sua escrava hebreia, para que ninguém mais escravizasse o seu irmão judeu.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'cada um' evita repetir 'homem... homem' do hebraico (אִישׁ ... וְאִישׁ) sem perder o sentido distributivo; sem calque remanescente.",
+      "justificativa": "Verso já correto, coeso e natural. Subjuntivo 'despedisse' adequado após 'para lhes proclamar liberdade'. 'Hebreu/hebreia' como adjetivos integrados é mais natural que a aposição do hebraico. 'Seu irmão judeu' verte em bloco 'judeu, irmão dele'.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -99,7 +100,7 @@
       "texto_bv_revisto": "E todos os oficiais e todo o povo que haviam entrado na aliança ouviram que cada um deveria despedir livre o seu escravo e a sua escrava, para não mais os escravizar; e obedeceram, e os despediram.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A segunda ocorrência de שמע é traduzida como 'obedeceram' (não 'ouviram' outra vez), evitando repetição e acompanhando a distinção que a KJV também marca ('heard'... 'obeyed').",
+      "justificativa": "Verso já correto, coeso e natural. O duplo 'e obedeceram, e os despediram' reflete a parataxe de וַיִּשְׁמְעוּ וַיְשַׁלֵּחוּ e tem função de ênfase narrativa — figura nomeável (anáfora de conjunção com valor sequencial). 'Deveria despedir' verte adequadamente o infinitivo construtivo.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -107,7 +108,7 @@
       "texto_bv_revisto": "Mas depois voltaram atrás e fizeram voltar os escravos e as escravas que haviam despedido livres, e os sujeitaram como escravos e escravas.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sem calque, regência ou concordância a corrigir.",
+      "justificativa": "Verso já correto, coeso e natural. 'Mas depois' marca a reversão (וַיָּשׁוּבוּ אַחֲרֵי כֵן). 'Voltaram atrás... fizeram voltar' é repetição de raiz (שׁוּב) com função semântica: o primeiro é arrependimento/retorno moral, o segundo é ato concreto — distinção real que o hebraico marca pelo uso causativo (Hif'il).",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -115,7 +116,7 @@
       "texto_bv_revisto": "E a palavra do SENHOR veio a Jeremias, da parte do SENHOR, dizendo:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'do SENHOR... da parte do SENHOR' repete o nome divino porque o hebraico mesmo o repete (דְּבַר יְהוָה ... מֵאֵת יְהוָה, conferido em termos_originais) — marca de ênfase real na abertura de um novo oráculo após a denúncia da quebra da aliança, não calque de sintaxe a suavizar.",
+      "justificativa": "Verso já correto, coeso e natural. A menção dupla do SENHOR reflete o hebraico (דְּבַר יְהוָה... מֵאֵת יְהוָה) e não é redundância — marca a fonte e o canal da revelação. Fórmula de introdução de palavra profética padrão no corpus.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -123,30 +124,23 @@
       "texto_bv_revisto": "“Assim diz o SENHOR, Deus de Israel: Eu fiz aliança com os pais de vocês, no dia em que os tirei da terra do Egito, da casa da escravidão, dizendo:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sem calque, regência ou concordância a corrigir; nomes divinos conforme política pinada.",
+      "justificativa": "Verso já correto, coeso e natural. 'No dia em que os tirei' naturaliza o infinitivo hebraico. 'Da casa da escravidão' é glosa consagrada de בֵּית עֲבָדִים. 'Dizendo:' introduz o conteúdo legal do v.14.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.14",
       "texto_bv_revisto": "Ao fim de sete anos, cada um de vocês libertará o seu irmão hebreu que se vender a você: ele servirá a você seis anos, e depois você o libertará, livre, de sua casa. Mas os pais de vocês não me deram ouvidos, nem inclinaram o ouvido.",
-      "mudancas": [
-        {
-          "tipo": "coesao",
-          "antes": "ele o servirá seis anos",
-          "depois": "ele servirá a você seis anos",
-          "motivo": "O clítico 'o' ficava ambíguo entre dois referentes masculinos no mesmo período: em 'ele o servirá... e depois você o libertará', o primeiro 'o' precisa valer por 'você' (o senhor a quem a lei se dirige) e o segundo 'o' vale pelo irmão-escravo — mesma forma para dois antecedentes diferentes em sequência. Explicitar 'a você' (equivalente a 'servirá a ti' da tradução literal) resolve a ambiguidade sem mudar o sentido."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "Trocado o clítico ambíguo 'o' por 'a você' na primeira oração, para não competir com o 'o' da oração seguinte, que se refere ao irmão-escravo.",
-      "veredito": "REVISADO"
+      "justificativa": "Verso já correto, coeso e natural. Dividido em dois períodos: o primeiro (lei do sábado dos escravos) e o segundo (contraste com os pais). 'De sua casa' verte מֵעִמָּךְ com naturalização aceitável. O contraste com os pais muda o tratamento de 2mp para 3mp — isso reflete o hebraico (vocês vs. pais de vocês), não é descontinuidade.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.34.15",
       "texto_bv_revisto": "E hoje vocês se voltaram e fizeram o que era reto aos meus olhos, proclamando liberdade cada um ao seu próximo; e fizeram aliança diante de mim, na casa sobre a qual é invocado o meu nome.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sem calque, regência ou concordância a corrigir; 'na casa sobre a qual é invocado o meu nome' segue fórmula consolidada da tradição de tradução em português.",
+      "justificativa": "Verso já correto, coeso e natural. 'Sobre a qual é invocado o meu nome' naturaliza o idiomático hebraico (name called upon = possessão/reivindicação divina). 'Hoje' marca o contraste temporal com os pais.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -154,7 +148,7 @@
       "texto_bv_revisto": "Mas vocês voltaram atrás e profanaram o meu nome; fizeram voltar cada um o seu escravo e cada um a sua escrava que haviam despedido livres, para eles mesmos, e os sujeitaram, para que fossem escravos e escravas para vocês.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'para eles mesmos' verte a expressão idiomática לְנַפְשָׁם ('à vontade/ao próprio critério deles', cf. KJV 'at their pleasure'); escolha lexical já estabelecida, não calque sintático a corrigir aqui.",
+      "justificativa": "Verso já correto em gramática e coesão. 'Para eles mesmos' (לְנַפְשָׁם) é ambíguo — pode referir-se aos senhores (para seu proveito) ou aos escravos (livres por vontade própria) — mas o sentido geral é recuperável pelo contexto, e a cláusula final 'para que fossem escravos e escravas para vocês' reforça o sentido. 'Profanaram o meu nome' verte corretamente תְּחַלְּלוּ אֶת שְׁמִי.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -162,7 +156,7 @@
       "texto_bv_revisto": "Portanto, assim diz o SENHOR: Vocês não me obedeceram, para proclamar liberdade cada um ao seu irmão e cada um ao seu próximo. Por isso, eis que eu proclamo para vocês liberdade, diz o SENHOR, para a espada, para a peste e para a fome; e farei de vocês um motivo de terror para todos os reinos da terra.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'proclamo... liberdade... para a espada, para a peste e para a fome' preserva o jogo retórico irônico do hebraico e da KJV (proclamar 'liberdade' que na verdade entrega o povo à espada, à peste e à fome) — figura intencional do texto (paronomásia sobre 'liberdade'), não deve ser suavizada.",
+      "justificativa": "Verso já correto. A construção 'não me obedeceram, para proclamar liberdade' espelha o infinitivo construtivo hebraico (לִקְרֹא דְרוֹר) e é ambígua em português (pode ser lida como finalidade ou como especificação), mas o contexto anterior (v.15-16) torna o sentido recuperável. O jogo de palavras 'proclamo liberdade... para a espada, peste e fome' (ironia divina) é preservado. 'Motivo de terror' verte זועה adequadamente.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -170,7 +164,7 @@
       "texto_bv_revisto": "E entregarei os homens que transgrediram a minha aliança, que não cumpriram as palavras da aliança que fizeram diante de mim ao cortar o bezerro em dois e passar entre as suas partes:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'as suas partes' referindo-se ao bezerro fica clara pelo contexto imediato (partes do que acabou de ser cortado); sem calque ou regência a corrigir.",
+      "justificativa": "Verso já correto, coeso e natural. A cadeia de relativos 'que transgrediram... que não cumpriram... que fizeram' reflete o hebraico e funciona em português como caracterização progressiva dos transgressores. A terminação com ':' introduz a aposição do v.19.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -178,7 +172,7 @@
       "texto_bv_revisto": "os oficiais de Judá e os oficiais de Jerusalém, os eunucos e os sacerdotes, e todo o povo da terra, que passaram entre as partes do bezerro,",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A lista de Jer.34.19 é apositiva a 'os homens' de Jer.34.18 (o versículo imediatamente anterior, ligado por dois-pontos); o verbo principal é retomado em Jer.34.20 ('eu os entregarei'), repetição resumptiva que reflete a mesma estrutura do hebraico (retomada do verbo após o parêntese longo com a lista) e ajuda a coesão em português.",
+      "justificativa": "Verso já correto, coeso e natural. Lista em aposição a 'os homens' do v.18. A enumeração com 'e' final segue a norma do português para listas. Terminação com ',' conectando ao v.20.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -186,7 +180,7 @@
       "texto_bv_revisto": "eu os entregarei nas mãos dos seus inimigos e nas mãos dos que lhes buscam a morte; e os seus cadáveres servirão de alimento para as aves do céu e para os animais da terra.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'os que lhes buscam a morte' é escolha lexical já consistente com Jer.34.21 (mesma expressão), não há variação intracapítulo sem razão a normalizar.",
+      "justificativa": "Verso já correto, coeso e natural. 'Buscam a morte' verte מְבַקְשֵׁי נַפְשָׁם (buscam a vida/alma deles) com naturalização idiomática — em português, 'buscar a morte de alguém' é o inverso idiomático de 'buscar a alma/vida'. 'Servirão de alimento' é construção natural.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -194,7 +188,7 @@
       "texto_bv_revisto": "E entregarei Zedequias, rei de Judá, e os seus oficiais, nas mãos dos seus inimigos, nas mãos dos que lhes buscam a morte, e nas mãos do exército do rei da Babilônia, que se retirou de vocês.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'exército... que se retirou' (singular) seguido de 'os'/'eles' no plural em Jer.34.22 é concordância ad sensum comum em português para coletivos que designam um grupo de pessoas, e casa com o particípio plural do hebraico (הָעֹלִים); não é erro de concordância a corrigir.",
+      "justificativa": "Verso já correto, coeso e natural. 'Que se retirou de vocês' verte העלים מעליכם com naturalização adequada — o particípio hebraico indica movimento de partida/ascensão. As três repetições de 'nas mãos de' seguem o padrão hebraico e funcionam como ênfase deliberada.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -202,7 +196,7 @@
       "texto_bv_revisto": "Eis que eu ordeno, diz o SENHOR, e os farei voltar a esta cidade; eles guerrearão contra ela, a tomarão e a queimarão a fogo; e farei das cidades de Judá uma desolação, sem habitante.”",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Aspa dupla de fechamento já está curva (”), consistente com a abertura em Jer.34.13; sem calque, regência ou concordância a corrigir.",
+      "justificativa": "Verso já correto, coeso e natural. 'Eis que eu ordeno' verte הִנְנִי מְצַוֶּה. 'Os farei voltar' refere-se ao exército babilônico. Aspas de fechamento coerentes com abertura em Jer.34.13. 'Sem habitante' é naturalização concisa de מֵאֵין יֹשֵׁב.",
       "veredito": "SEM_ALTERACAO"
     }
   ]
