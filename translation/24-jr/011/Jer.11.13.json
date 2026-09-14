@@ -7,7 +7,7 @@
     "versiculo": 13,
     "pericope": "Jer.11.1-23"
   },
-  "texto_bv": "Pois os deuses de você são tantos quanto as cidades de você, ó Judá; e, conforme o número das ruas de Jerusalém, vocês puseram altares para a Vergonha, altares para queimar incenso a Baal.",
+  "texto_bv": "Pois os seus deuses são tantos quanto as suas cidades, ó Judá; e, conforme o número das ruas de Jerusalém, vocês puseram altares para a Vergonha, altares para queimar incenso a Baal.",
   "traducao_literal": "Porque o número das cidades de você foram os deuses de você, Judá; e o número das ruas de Jerusalém, vocês puseram altares para a vergonha, altares para queimar incenso a Baal.",
   "termos_originais": [
     {
@@ -137,6 +137,13 @@
         }
       ],
       "diretriz_ref": "ER-0029"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Pois os deuses de você são tantos quanto as cidades de você, ó Judá → Pois os seus deuses são tantos quanto as suas cidades, ó Judá",
+      "justificativa": "repetição de 'de você' duas vezes na mesma oração, calque da construção possessiva hebraica com sufixo pronominal (עָרֶיךָ/אֱלֹהֶיךָ); o português natural emprega possessivo átono (seus/suas) em vez de sintagma preposicionado repetido; banda de concessão ER-0031 — revisão de forma sem alteração de sentido (ER-0031). A mudança de 'de você' para possessivo átono elimina a repetição calcada sem alterar conteúdo; a mudança de número (singular → plural) no segundo período ('vocês puseram') reflete a troca de sujeito do hebraico (2fs Judá → 2mp povo).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [],
@@ -149,10 +156,10 @@
   "ciclos_consenso": 1,
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.4.0",
+    "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

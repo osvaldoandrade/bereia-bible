@@ -7,29 +7,30 @@
       "texto_bv_revisto": "A palavra que veio a Jeremias da parte do SENHOR, dizendo:",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Fórmula introdutória 'a palavra que veio a Jeremias..., dizendo:' é construção idiomática consolidada na tradição de tradução bíblica em português (equivalente a ARA/ACF), não um calque a corrigir; conecta-se corretamente ao discurso relatado no v.2, confirmado pelo conteúdo e pela KJV. Sem problemas de regência, concordância ou coesão.",
+      "justificativa": "Fórmula de introdução profética padrão, português correto e natural. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.11.2",
-      "texto_bv_revisto": "Ouça as palavras desta aliança e fale-as aos homens de Judá e aos moradores de Jerusalém.",
-      "mudancas": [],
-      "objecoes": [
+      "texto_bv_revisto": "Ouçam as palavras desta aliança; você as falará aos homens de Judá e aos moradores de Jerusalém.",
+      "mudancas": [
         {
-          "gravidade": "MATERIAL",
-          "problema": "A BV traduz שִׁמְעוּ (Qal imperativo 2ª pessoa masculino PLURAL, lemma 8085, 'ouvi/ouçam') como imperativo singular 'Ouça', perdendo a distinção de número marcada no hebraico pinado e confirmada pela KJV ('Hear YE the words of this covenant'). A própria camada traducao_literal deste mesmo versículo usa 'Ouvi' (2ª pl.), evidenciando que a superfície (texto_bv) divergiu tanto da fonte hebraica quanto da camada literal da própria BV. Corrigir 'Ouça' para 'Ouçam' mudaria a quem a ordem se dirige (um leitor vs. uma coletividade), por isso não foi alterado aqui e é registrado como objeção.",
-          "evidencia": "Hebraico: שִׁמְע֕וּ (HVqv2mp, lemma 8085) = imperativo 2mp; KJV: \"Hear YE the words of this covenant, and speak unto the men of Judah...\"; traducao_literal: \"Ouvi as palavras desta aliança, e as falarás...\"; texto_bv: \"Ouça as palavras desta aliança...\" (singular)."
+          "tipo": "concordancia",
+          "antes": "Ouçam as palavras desta aliança e fale-as aos homens de Judá e aos moradores de Jerusalém.",
+          "depois": "Ouçam as palavras desta aliança; você as falará aos homens de Judá e aos moradores de Jerusalém.",
+          "motivo": "imperativos coordenados com números diferentes (3pl 'Ouçam' e 3sg 'fale') sem sujeito explícito produzem discordância perceptível; o hebraico marca a troca de sujeito (2mp שִׁמְעוּ → 2ms וְדִבַּרְתָּם), que o português precisa tornar explícita por meio de ponto e vírgula e sujeito pronominal; banda de concessão ER-0031"
         }
       ],
-      "justificativa": "Verbo 'fale-as' (2ms, וְדִבַּרְתָּם) está corretamente no singular, condizente com o hebraico. O problema está isolado no primeiro imperativo 'Ouça', tratado na objeção acima; o texto não foi alterado por envolver mudança de sentido.",
-      "veredito": "OBJECAO_MATERIAL"
+      "objecoes": [],
+      "justificativa": "Correção de concordância: a troca de sujeito (povo → Jeremias) que o hebraico marca morfologicamente precisa ser explícita em português para evitar a leitura de dois imperativos coordenados com números incompatíveis.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Jer.11.3",
       "texto_bv_revisto": "E você lhes dirá: \"Assim diz o SENHOR, Deus de Israel: Maldito o homem que não ouvir as palavras desta aliança,",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Concordância e regência corretas; 'que não ouvir' emprega o futuro do subjuntivo apropriadamente para oração relativa indefinida/condicional. A vírgula final costura corretamente com o v.4 (a oração relativa 'que ordenei...' retoma 'aliança', confirmado pelo conteúdo e pela KJV, que mantém a mesma estrutura sintática através dos versículos).",
+      "justificativa": "Introdução de discurso direto com fórmula 'Assim diz o SENHOR' bem estruturada; a vírgula final conecta corretamente ao verso seguinte que desenvolve a aliança. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -37,39 +38,53 @@
       "texto_bv_revisto": "que ordenei aos pais de vocês no dia em que os tirei da terra do Egito, da fornalha de ferro. 'Ouçam a minha voz e cumpram tudo o que eu lhes ordenar; e vocês serão o meu povo, e eu serei o Deus de vocês.'",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Já evita os calques da traducao_literal ('no dia de eu tirar a eles' → 'no dia em que os tirei'; infinitivo 'para dizer' → pontuação com aspas simples aninhadas, sem 'dizendo' redundante). Futuro do subjuntivo 'ordenar' correto. Aspas simples usadas corretamente para citação dentro da citação dupla aberta em v.3, conforme a norma.",
+      "justificativa": "A relativa 'que ordenei' liga-se corretamente a 'aliança' do v.3; a fórmula 'vocês serão o meu povo, e eu serei o Deus de vocês' é padrão canônico; aspas simples internas corretas. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.11.5",
-      "texto_bv_revisto": "para confirmar o juramento que fiz aos pais de vocês, de lhes dar uma terra que mana leite e mel, como é hoje.\" E eu respondi e disse: \"Amém, SENHOR!\"",
-      "mudancas": [],
+      "texto_bv_revisto": "para confirmar o juramento que fiz aos pais de vocês, de lhes dar uma terra que mana leite e mel, como é hoje.\" Então respondi: \"Amém, SENHOR!\"",
+      "mudancas": [
+        {
+          "tipo": "naturalidade",
+          "antes": "E eu respondi e disse:",
+          "depois": "Então respondi:",
+          "motivo": "hendiadys verbal hebraico (וָאַעַן וָאֹמַר) vertido como par sinonímico moroso em português ('respondi e disse'); a sequência narrativa se preserva em 'Então respondeu'; banda de concessão ER-0031"
+        }
+      ],
       "objecoes": [],
-      "justificativa": "'Para confirmar o juramento...' retoma, através da citação fechada ao final do v.4, a oração 'que ordenei... para confirmar' (não o enunciado imediatamente anterior) — conferido pelo conteúdo e pela KJV, que preserva a mesma estrutura de propósito atravessando os versículos. Sem calque, regência e concordância corretas.",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Naturalização do par verbal hebraico; 'Então respondi' conserva a sequência narrativa e elimina a redundância que o português não sustenta como ênfase.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Jer.11.6",
       "texto_bv_revisto": "E o SENHOR me disse: \"Proclame todas estas palavras nas cidades de Judá e nas ruas de Jerusalém, dizendo: 'Ouçam as palavras desta aliança e cumpram-nas.'\"",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Uso do imperativo singular 'Proclame' (2ms, dirigido a Jeremias) e do imperativo plural 'Ouçam' (2mp, conteúdo da proclamação ao povo) reflete corretamente a distinção de número do hebraico pinado nos dois verbos. Aspas simples aninhadas corretas para a citação dentro da citação.",
+      "justificativa": "Estrutura de discurso direto em cascata (SENHOR → Jeremias → povo) bem articulada com dois níveis de aspas; 'cumpram-nas' com próclise correta. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.11.7",
-      "texto_bv_revisto": "Porque eu solenemente adverti os pais de vocês, desde o dia em que os fiz subir da terra do Egito até este dia, advertindo-os insistentemente, dizendo: \"Ouçam a minha voz.\"",
-      "mudancas": [],
+      "texto_bv_revisto": "Porque solenemente adverti os pais de vocês, desde o dia em que os fiz subir da terra do Egito até este dia, advertindo-os sem cessar: \"Ouçam a minha voz.\"",
+      "mudancas": [
+        {
+          "tipo": "naturalidade",
+          "antes": "Porque eu solenemente adverti os pais de vocês, desde o dia em que os fiz subir da terra do Egito até este dia, advertindo-os insistentemente, dizendo:",
+          "depois": "Porque solenemente adverti os pais de vocês, desde o dia em que os fiz subir da terra do Egito até este dia, advertindo-os sem cessar:",
+          "motivo": "reduplicação enfática do hebraico (infinito absoluto + finito הָעֵד הַעִדֹתִי + particípio משכים והעד) vertida em três camadas de ênfase sobrepostas ('eu', 'solenemente', 'insistentemente, dizendo'); o português sustenta uma camada de ênfase ('solenemente') + gerúndio intensivo ('sem cessar') sem perda de conteúdo; 'dizendo' dispensado porque a citação segue diretamente após dois-pontos; banda de concessão ER-0031"
+        }
+      ],
       "objecoes": [],
-      "justificativa": "'Eu solenemente adverti' e 'advertindo-os insistentemente' traduzem bem os infinitivos absolutos enfáticos do hebraico (הָעֵד הַעִדֹתִי; הַשְׁכֵּם וְהָעֵד), evitando os calques 'testificando testifiquei' / 'madrugando e advertindo' presentes na traducao_literal. 'Porque' no início conecta corretamente ao v.6 (motivo da ordem de proclamar).",
-      "veredito": "SEM_ALTERACAO"
+      "justificativa": "Simplificação da tripla ênfase morosa em dupla, mantendo o rigor da advertência profética sem a sobrecarga calcada do hebraico.",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Jer.11.8",
       "texto_bv_revisto": "Mas eles não ouviram, nem inclinaram o ouvido; cada um andou segundo a teimosia do seu coração mau. Por isso, eu trouxe sobre eles todas as palavras desta aliança, que ordenei que cumprissem, e eles não cumpriram.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A repetição 'que ordenei que cumprissem, e eles não cumpriram' reflete o eco antitético do hebraico (אֲשֶׁר צִוִּיתִי לַעֲשׂוֹת ... וְלֹא עָשׂוּ) — contraste entre ordem e desobediência que soa como ênfase real em português lido em voz alta, não calque vazio de repetição. Concordância do sujeito 'cada um' com 'seu coração' preservada corretamente.",
+      "justificativa": "A oposição 'Mas' conecta bem ao v.7; a relação causal 'Por isso' articula corretamente as duas orações; 'segundo a teimosia do seu coração mau' é expressão natural. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -77,7 +92,7 @@
       "texto_bv_revisto": "E o SENHOR me disse: \"Há uma conspiração entre os homens de Judá e os moradores de Jerusalém.\"",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Tradução idiomática ('há uma conspiração') evita o calque 'achou-se conspiração' presente na traducao_literal. Sem problemas de forma.",
+      "justificativa": "Fórmula de oráculo curta e direta; 'Há uma conspiração' traduz bem נִמְצָא קֶשֶׁר (achou-se conspiração) em português natural. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -85,7 +100,7 @@
       "texto_bv_revisto": "Eles voltaram às iniquidades dos seus antepassados, que se recusaram a ouvir as minhas palavras; foram atrás de outros deuses para os servir. A casa de Israel e a casa de Judá quebraram a minha aliança, que fiz com os pais deles.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'Antepassados' (traduzindo אֲבוֹתָם הָרִאשֹׁנִים, 'os pais, os primeiros/antigos') e 'pais deles' (traduzindo אֲבוֹתָם, referente à geração do êxodo já nomeada nos vv.4,5,7) são lexemas diferentes para o mesmo lemma hebraico (1/אב) dentro do capítulo, mas com registro distinto exigido pelo contexto — duas gerações de ancestrais diferentes —, o que justifica a variação por §1.4 em vez de normalizar. Concordância do sujeito composto ('a casa de Israel e a casa de Judá quebraram') está correta no plural.",
+      "justificativa": "Estrutura em dois períodos bem articulada: apostasia (v.10a) e quebra da aliança (v.10b); 'foram atrás de' é expressão natural para הלכו אחרי. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -93,7 +108,7 @@
       "texto_bv_revisto": "Portanto, assim diz o SENHOR: \"Eis que trago sobre eles uma desgraça da qual não poderão escapar; e clamarão a mim, mas eu não os ouvirei.\"",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'Mas' no lugar do 'e' hebraico (וְלֹא) é escolha de tradução legítima para explicitar a relação adversativa, já presente na KJV ('though... I will not'); não é calque de waw. 'Da qual não poderão escapar' evita o calque 'que não poderão sair dele' da traducao_literal.",
+      "justificativa": "Fórmula de julgamento com 'Eis que' (הִנְנִי מֵבִיא) bem vertida; 'da qual não poderão escapar' resolve o relativo hebraico com naturalidade; o contraste 'mas eu não os ouvirei' articula bem a recusa divina. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -101,29 +116,30 @@
       "texto_bv_revisto": "Então as cidades de Judá e os moradores de Jerusalém irão e clamarão aos deuses aos quais queimam incenso, mas esses de modo nenhum os salvarão no tempo da desgraça deles.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'De modo nenhum os salvarão' traduz bem o infinitivo absoluto enfático (וְהוֹשֵׁעַ לֹא יוֹשִׁיעוּ), evitando o calque 'salvando não salvarão' presente na traducao_literal. Regência 'clamarão aos deuses aos quais queimam incenso' está correta.",
+      "justificativa": "'de modo nenhum' captura bem o enfático hebraico (הושע לא יושיעו, infinito absoluto + finito); 'aos quais queimam incenso' é relativo natural. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.11.13",
-      "texto_bv_revisto": "Pois os deuses de vocês são tantos quanto as suas cidades, ó Judá; e, conforme o número das ruas de Jerusalém, vocês puseram altares para a Vergonha, altares para queimar incenso a Baal.",
-      "mudancas": [],
-      "objecoes": [
+      "texto_bv_revisto": "Pois os seus deuses são tantos quanto as suas cidades, ó Judá; e, conforme o número das ruas de Jerusalém, vocês puseram altares para a Vergonha, altares para queimar incenso a Baal.",
+      "mudancas": [
         {
-          "gravidade": "MATERIAL",
-          "problema": "Na primeira oração, o hebraico pinado usa sufixos de 2ª pessoa masculino SINGULAR ('tuas cidades', 'teus deuses' — Judá endereçada como entidade única, mesmo padrão do 'você' singular usado no resto do capítulo, ex. v.17 'que plantou você'), mas a BV traduz 'os deuses de vocês... as suas cidades' no plural, perdendo essa distinção e destoando do próprio uso do capítulo. Na segunda oração, o hebraico muda para 2ª pessoa plural (שַׂמְתֶּם, 'vocês puseram'), corretamente vertida como 'vocês puseram' — isto é, o hebraico marca deliberadamente uma mudança de número dentro do mesmo versículo (a nação como um só endereçada, depois o povo como muitos) que a BV não preserva na primeira oração. Igualar a primeira oração ao singular do hebraico mudaria a quem o texto se dirige ali, por isso não foi alterado e é registrado como objeção.",
-          "evidencia": "Hebraico: עָרֶ֔יךָ (Ncfpc/Sp2ms, 'tuas cidades') e אֱלֹהֶ֖יךָ (Ncmpc/Sp2ms, 'teus deuses') — sufixo 2ms singular; depois שַׂמְתֶּ֤ם (Vqp2mp, 'vocês puseram') — 2mp plural. texto_bv: \"os deuses de vocês são tantos quanto as suas cidades, ó Judá\" (plural) ... \"vocês puseram altares\" (plural, correto). traducao_literal preserva a distinção: \"os deuses de você\" (singular) ... \"vocês puseram\" (plural)."
+          "tipo": "naturalidade",
+          "antes": "Pois os deuses de você são tantos quanto as cidades de você, ó Judá",
+          "depois": "Pois os seus deuses são tantos quanto as suas cidades, ó Judá",
+          "motivo": "repetição de 'de você' duas vezes na mesma oração, calque da construção possessiva hebraica com sufixo pronominal (עָרֶיךָ/אֱלֹהֶיךָ); o português natural emprega possessivo átono (seus/suas) em vez de sintagma preposicionado repetido; banda de concessão ER-0031"
         }
       ],
-      "justificativa": "Fora do ponto sinalizado na objeção, o versículo está gramaticalmente correto (regência, pontuação e nome próprio 'Vergonha' mantidos conforme decisão lexical vigente).",
-      "veredito": "OBJECAO_MATERIAL"
+      "objecoes": [],
+      "justificativa": "A mudança de 'de você' para possessivo átono elimina a repetição calcada sem alterar conteúdo; a mudança de número (singular → plural) no segundo período ('vocês puseram') reflete a troca de sujeito do hebraico (2fs Judá → 2mp povo).",
+      "veredito": "REVISADO"
     },
     {
       "osis": "Jer.11.14",
       "texto_bv_revisto": "E você, não ore por este povo, nem levante por eles clamor e oração, porque eu não os ouvirei no tempo em que clamarem a mim por causa da desgraça deles.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'Você' (2ms, dirigido a Jeremias) mantém a pessoa correta e é consistente com o restante da seção (vv. 17, 21). Estrutura 'não ore... nem levante' com negativa paralela está correta; 'clamarem' no futuro do subjuntivo concorda com o sujeito plural implícito.",
+      "justificativa": "Proibição profética bem articulada; o tratamento 'você' (singular, Jeremias) contrasta com 'este povo' (terceira pessoa); 'no tempo em que clamarem' é temporal natural. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -131,7 +147,7 @@
       "texto_bv_revisto": "Que direito tem a minha amada em minha casa, depois de praticar tantas maldades? Poderá a carne sagrada dos sacrifícios desviar de você o mal? Quando você pratica o mal, é então que você se alegra?",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A mudança de 3ª pessoa ('a minha amada... praticar') para 2ª pessoa ('de você... você pratica... você se alegra') reflete fielmente a mudança de pessoa (enálage) do próprio hebraico (עֲשׂוֹתָהּ, 3fs → מֵעָלָיִךְ / רָעָתֵכִי / תַּעֲלֹזִי, 2fs), um recurso retórico real de intensificação característico da invectiva profética, não uma inconsistência a corrigir. Regência 'desviar de você' está correta.",
+      "justificativa": "Verso crux interpretativa do hebraico (מֶה לִידִידִי בְּבֵיתִי); a BV já fez leitura interpretiva consolidada; qualquer alteração de conteúdo decidirá questão exegética em aberto. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -139,7 +155,7 @@
       "texto_bv_revisto": "Oliveira verdejante, formosa em fruto e forma, assim o SENHOR chamou o seu nome; ao som de um grande tumulto, ele ateou fogo sobre ela, e os seus ramos se quebraram.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "'Seu' (forma comum a 2ª e 3ª pessoa em português) resolve com elegância a alternância do hebraico entre sufixo 2fs ('teu nome') e 3fs/3ms ('sobre ela' / 'os ramos dele'), sem introduzir incoerência de tratamento perceptível em português. Sem problemas de forma.",
+      "justificativa": "Metáfora da oliveira bem vertida; 'formosa em fruto e forma' conserva o paralelismo hebraico (יְפֵה־פְרִי תֹאַר) com elegância em português; a sequência narrativa do julgamento é clara. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -147,7 +163,7 @@
       "texto_bv_revisto": "E o SENHOR dos Exércitos, que plantou você, falou contra você uma desgraça, por causa da maldade da casa de Israel e da casa de Judá, que fizeram para si mesmas, para me provocar à ira, queimando incenso a Baal.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Pessoa e número consistentes com o hebraico (2fs 'você', mantido do v.15-16). Concordância do sujeito composto 'a casa de Israel e a casa de Judá... fizeram... para si mesmas' está correta no plural feminino. Sem problemas de forma.",
+      "justificativa": "O período longo articula bem causa e efeito; 'para me provocar à ira' traduz לְהַכְעִיסֵנִ com naturalidade; o gerúndio 'queimando incenso a Baal' especifica a provocação. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -155,30 +171,23 @@
       "texto_bv_revisto": "E o SENHOR me revelou, e eu soube; então tu me mostraste os feitos deles.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A mudança de 3ª pessoa ('o SENHOR... revelou') para 'tu' ('tu me mostraste') reflete o mesmo câmbio de pessoa do hebraico (הוֹדִיעַנִי, 3ms → הִרְאִיתַנִי, 2ms) e é consistente com o tratamento 'tu' dirigido a Deus mantido no v.20, dentro da mesma unidade (a 'confissão' de Jeremias, vv.18-20).",
+      "justificativa": "Verso curto e coeso; a transição 'então' (אָז) articula bem a sequência; o tratamento 'tu' (Jeremias dirigindo-se a Deus em oração) segue a norma editorial. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.11.19",
       "texto_bv_revisto": "Mas eu era como um cordeiro manso levado ao matadouro; eu não sabia que planejavam maquinações contra mim, dizendo: \"Destruamos a árvore com o seu fruto, e cortemo-la da terra dos viventes, e que o seu nome não seja mais lembrado.\"",
-      "mudancas": [
-        {
-          "tipo": "concordancia",
-          "antes": "cortemo-lo",
-          "depois": "cortemo-la",
-          "motivo": "O pronome oblíquo átono precisa concordar em gênero com o antecedente em português 'a árvore' (feminino); '-lo' é masculino e não concorda, ainda que o substantivo hebraico עֵץ ('árvore') seja gramaticalmente masculino — a concordância do clítico segue o gênero do substantivo em português, não do hebraico."
-        }
-      ],
+      "mudancas": [],
       "objecoes": [],
-      "justificativa": "Correção pontual de concordância de gênero do pronome oblíquo ('cortemo-lo'→'cortemo-la'), para concordar com 'a árvore' (feminino) em português. 'Planejavam maquinações' preserva bem o acusativo cognato do hebraico (חָשְׁבוּ מַחֲשָׁבוֹת, 'pensaram pensamentos/planos'), figura nomeável que passa no teste do ceticismo (1); mantido sem alteração.",
-      "veredito": "REVISADO"
+      "justificativa": "A metáfora do cordeiro é natural em português; o discurso direto dos conspiradores articula bem os três desejos (destruir, cortar, apagar); 'cortemo-la' concorda com 'árvore' (feminino em português). SEM_ALTERACAO.",
+      "veredito": "SEM_ALTERACAO"
     },
     {
       "osis": "Jer.11.20",
       "texto_bv_revisto": "Mas o SENHOR dos Exércitos, que julgas com justiça, que provas os rins e o coração, eu verei a tua vingança sobre eles, porque a ti revelei a minha causa.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Tratamento 'tu' dirigido a Deus mantido de forma consistente ('julgas', 'provas', 'tua', 'a ti'), alinhado ao v.18 e à norma de 'tu' em oração dirigida a Deus. O vocativo intercalado ('que julgas..., que provas...') antes da oração principal é estrutura válida em português, refletindo a mesma ordem do hebraico e da KJV.",
+      "justificativa": "Oração de Jeremias com vocativos bem articulados; o tratamento 'tu/julgas/provas' dirige-se a Deus conforme norma editorial; 'revelei a minha causa' traduz גִּלִּיתִי אֶת־רִיבִי com naturalidade. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -186,7 +195,7 @@
       "texto_bv_revisto": "Portanto, assim diz o SENHOR a respeito dos homens de Anatote, que buscam a vida de você, dizendo: \"Não profetize em nome do SENHOR, para que você não morra pela nossa mão.\"",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Pessoa e número (2ms 'você', dirigido a Jeremias) preservados corretamente em 'a vida de você', 'profetize' e 'você não morra'. Sem problemas de forma.",
+      "justificativa": "Oração de ameaça bem estruturada; o discurso direto dos homens de Anatote conserva a ameaça com clareza; 'pela nossa mão' é semitismo com carga teológica consagrada (agência humana como instrumento). SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -194,7 +203,7 @@
       "texto_bv_revisto": "Portanto, assim diz o SENHOR dos Exércitos: \"Eis que os punirei; os jovens morrerão pela espada, os filhos e as filhas deles morrerão de fome.\"",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "A repetição de 'morrerão' nas duas orações reflete o paralelismo sinonímico do hebraico (יָמֻתוּ בַחֶרֶב ... יָמֻתוּ בָּרָעָב), recurso retórico nomeável que soa como ênfase real em português lido em voz alta, mantido intencionalmente em vez de elidido por pronome.",
+      "justificativa": "Fórmula de julgamento com 'Eis que' (הִנְנִי פֹקֵד) bem vertida; a enumeração dos modos de morte (espada, fome) é clara; os dois períodos curtos articulam bem. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     },
     {
@@ -202,7 +211,7 @@
       "texto_bv_revisto": "E não haverá remanescente para eles, porque trarei uma desgraça sobre os homens de Anatote, no ano do castigo deles.",
       "mudancas": [],
       "objecoes": [],
-      "justificativa": "Sem calques; regência e concordância corretas. Fecha a unidade retomando 'os homens de Anatote' do v.21-22 sem ambiguidade de referência.",
+      "justificativa": "Conclusão do oráculo contra Anatote; 'no ano do castigo deles' traduz שְׁנַת פְּקֻדָּתָם com naturalidade; a causalidade 'porque' articula bem. SEM_ALTERACAO.",
       "veredito": "SEM_ALTERACAO"
     }
   ]
