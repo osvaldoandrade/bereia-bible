@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "Zech.9.1-17"
   },
-  "texto_bv": "Tiro construiu para si uma fortaleza, e amontoou prata como pó, e ouro como lama das ruas.",
+  "texto_bv": "Tiro construiu para si uma fortaleza e amontoou prata como pó e ouro como lama das ruas.",
   "traducao_literal": "E construiu Tiro fortaleza para si, e amontoou prata como pó, e ouro como lama de ruas.",
   "termos_originais": [
     {
@@ -101,6 +101,13 @@
       "justificativa": "Apenas duas conjunções 'e' coordenando três elementos curtos (verbo + dois objetos em paralelo 'como pó'/'como lama das ruas') — não configura cadeia calcada de waw consecutivo, é enumeração natural em português. Compatível com KJV. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "fortaleza, e amontoou → fortaleza e amontoou | pó, e ouro → pó e ouro",
+      "justificativa": "cadeia de waw consecutivo pontuada por vírgulas antes de 'e' (calque de pausa massorética); em português, predicado composto com dois verbos compartilhando sujeito não pede vírgula antes do 'e'. Banda de concessão ER-0031. | segunda vírgula+e da mesma cadeia paratática; em português, objetos diretos pareados (prata... e ouro) ligam-se sem vírgula. Banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0031). Cadeia de três waws pontuada como três orações independentes é vício de forma do hebraico; unificada em período único com predicado composto, leitura soa como prosa brasileira contínua.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [],
@@ -115,7 +122,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {

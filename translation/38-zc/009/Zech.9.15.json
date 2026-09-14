@@ -7,7 +7,7 @@
     "versiculo": 15,
     "pericope": "Zech.9.1-17"
   },
-  "texto_bv": "O SENHOR dos Exércitos os protegerá, e eles devorarão e pisarão as pedras de funda; beberão e rugirão como que embriagados de vinho; e se encherão como a bacia de aspersão, como os cantos do altar.",
+  "texto_bv": "O SENHOR dos Exércitos os protegerá; eles devorarão e pisarão as pedras de funda; beberão e rugirão como que embriagados de vinho e se encherão como a bacia de aspersão, como os cantos do altar.",
   "traducao_literal": "SENHOR dos Exércitos protegerá sobre eles; e comerão e pisarão pedras-de funda; e beberão, rugirão como vinho; e se encherão como bacia, como cantos-de altar.",
   "termos_originais": [
     {
@@ -142,6 +142,13 @@
       "justificativa": "Cadeia de ações já segmentada por ponto e vírgula em três blocos, com queda do 'e' antes de 'beberão' variando o conectivo — não é calque monótono de waw consecutivo. Duas comparações com 'como' no fecho formam paralelismo, não repetição vazia. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "protegerá, e eles devorarão → protegerá; eles devorarão | vinho; e se encherão → vinho e se encherão",
+      "justificativa": "vírgula+'e' iniciando oração com sujeito distinto (SENHOR → eles) é parataxe de waw; português usa ponto-e-vírgula para mudança de sujeito entre orações coordenadas. Banda de concessão ER-0031. | ponto-e-vírgula antes de 'e' é incomum em português quando o sujeito é o mesmo (eles); a sequência beberão/rugirão/encherão é predicado composto de uma mesma cadeia de ações — unificada por vírgula implícita e 'e' final. Banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0031). Cadeia original de 4 waws (protegerá+e+devorarão+e+pisarão...+e+beberão...+e+encherão) reorganizada em estrutura de três períodos: ação divina (protegerá); ações bélicas (devorarão/pisarão); ações de banquete ritual (beberão/rugirão/encherão). Paralelismos comparativos ('como a bacia', 'como os cantos') mantidos.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [],
@@ -158,7 +165,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
