@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Exod.18.1-27"
   },
-  "texto_bv": "E disse Jetro: Bendito seja o SENHOR, que os livrou da mão dos egípcios e da mão de Faraó; que livrou este povo de debaixo da mão dos egípcios.",
+  "texto_bv": "E disse Jetro: Bendito seja o SENHOR, que livrou vocês da mão dos egípcios e da mão de Faraó; que livrou este povo de debaixo da mão dos egípcios.",
   "traducao_literal": "E disse Jetro: Bendito YHWH, que vos livrou da mão do Egito e da mão de Faraó, que livrou o povo de debaixo da mão do Egito.",
   "termos_originais": [
     {
@@ -144,24 +144,35 @@
       "justificativa": "Doxologia com dois relativos paralelos. O conteúdo duplicado (dupla menção do livramento da mão dos egípcios) é paralelismo intencional do hebraico, figura nomeável (paralelismo sinonímico com variação 'vos'→'este povo' e 'da mão'→'de debaixo da mão'); preservá-lo é correto. SENHOR para YHWH em ambos os casos. (ER-0031 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0031"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "que os livrou → que livrou vocês",
+      "justificativa": "Objeção procedente. Evidência do original: אֶתְכֶ֛ם (lemma 853, morfologia HTo/Sp2mp — sufixo pronominal 2ª pessoa masculino plural); KJV 'who hath delivered you'; WEB 'who has delivered you'. Objeções fechadas: Objeção MATERIAL (revisão ER-0030): O hebraico marca 2ª pessoa do plural em 'הִצִּיל אֶתְכֶם' (אֶתְכֶם, lemma 853, morfologia HTo/Sp2mp = sufixo pronominal 'vós/a vós'), preservada em traducao_literal ('que vos livrou') e na KJV ('who hath delivered you'). O texto_bv usa 3ª pessoa ('que os livrou'), apagando a mudança de pessoa gramatical que o hebraico faz dentro do mesmo versículo (endereçamento direto em 2ª pessoa, seguido de narração em 3ª pessoa para 'o povo'). Corrigir para 'vos' restauraria essa distinção, mas mudaria o sentido do texto atualmente publicado (quem é o interlocutor direto da bênção de Jetro) — por isso fica registrado como objeção, e o texto não é alterado. — evidência: אֶתְכֶ֛ם (853, HTo/Sp2mp); traducao_literal: 'que vos livrou'; controles.kjv: 'who hath delivered you'; texto_bv: 'que os livrou' (3ª pessoa). (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura 'que os livrou' (3ª pessoa, uniformizando o endereçamento como narração)",
+          "motivo": "perde porque o sufixo pronominal de אֶתְכֶם é inequivocamente de 2ª pessoa do plural na morfologia pinada (HTo/Sp2mp) e porque KJV e WEB sustentam juntas o endereçamento direto ('delivered you')."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0033: Leitura 'que os livrou' (3ª pessoa, uniformizando o endereçamento como narração); perde porque o sufixo pronominal de אֶתְכֶם é inequivocamente de 2ª pessoa do plural na morfologia pinada (HTo/Sp2mp) e porque KJV e WEB sustentam juntas o endereçamento direto ('delivered you')."
+  ],
   "justificativa": "בָּרוּךְ יְהוָה 'bendito seja o SENHOR' — o sacerdote gentio bendiz a YHWH; o êxodo tem alcance sobre as nações. YHWH→SENHOR.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0030): O hebraico marca 2ª pessoa do plural em 'הִצִּיל אֶתְכֶם' (אֶתְכֶם, lemma 853, morfologia HTo/Sp2mp = sufixo pronominal 'vós/a vós'), preservada em traducao_literal ('que vos livrou') e na KJV ('who hath delivered you'). O texto_bv usa 3ª pessoa ('que os livrou'), apagando a mudança de pessoa gramatical que o hebraico faz dentro do mesmo versículo (endereçamento direto em 2ª pessoa, seguido de narração em 3ª pessoa para 'o povo'). Corrigir para 'vos' restauraria essa distinção, mas mudaria o sentido do texto atualmente publicado (quem é o interlocutor direto da bênção de Jetro) — por isso fica registrado como objeção, e o texto não é alterado. — evidência: אֶתְכֶ֛ם (853, HTo/Sp2mp); traducao_literal: 'que vos livrou'; controles.kjv: 'who hath delivered you'; texto_bv: 'que os livrou' (3ª pessoa)."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

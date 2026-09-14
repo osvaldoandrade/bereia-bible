@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "2Kgs.18.1-37"
   },
-  "texto_bv": "Agora, faça uma aposta, por favor, com meu senhor, o rei da Assíria: eu lhe darei dois mil cavalos, se você puder fornecer cavaleiros para eles.",
+  "texto_bv": "Agora, dê penhores, por favor, a meu senhor, o rei da Assíria: eu lhe darei dois mil cavalos, se você puder fornecer cavaleiros para eles.",
   "traducao_literal": "E agora, comprometa-se, por favor, com meu senhor, o rei da Assíria, e darei a você dois mil cavalos, se puder dar para você cavaleiros sobre eles.",
   "termos_originais": [
     {
@@ -130,29 +130,38 @@
       "justificativa": "Texto correto, coeso e fiel ao hebraico e à tradução literal; nenhuma alteração necessária. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "faça uma aposta → dê penhores | com meu senhor → a meu senhor",
+      "justificativa": "Objeção procedente. Evidência do original: הִתְעָרֶב (H6148, עָרַב, Hithpael imperativo 2ms) — 'tornar-se fiador, dar penhores'; KJV: 'give pledges to my lord the king of Assyria'; WEB: 'give pledges to my master the king of Assyria'. A morfologia pinada sustenta a correção: o Hithpael de ערב em contexto diplomático-militar designa dar garantia/penhor (cf. Gn 43:9; Is 38:14), nunca 'apostar'. Objeções fechadas: Objeção MATERIAL (revisão ER-0031): A expressão \"faça uma aposta\" não corresponde ao hebraico התערב (hit’arev), que significa \"dar refém/penhor, tornar-se fiador\"; o contexto é um desafio irônico de Rabsaqué, não uma aposta literal. A KJV verte \"give pledges\". A glosa \"aposta\" desloca o sentido de \"dar garantia/refém\" para \"fazer uma aposta\", o que muda a ação descrita. — evidência: Hebraico: התערב נא אדני את מלך אשור (hit’arev na adoni et-melekh Ashshur); KJV: \"give pledges to my lord the king of Assyria\"; A BV atual emprega \"aposta\", criando leitura anacrônica. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura 'faça uma aposta' (aposta, wager) — defendida talvez por associação com o sentido moderno de ערב em hebraico israelense (onde pode significar 'misturar'), mas sem base no Hithpael clássico nem no contexto (Rabsaqué oferece cavalos como desafio irônico mediante penhor, não como aposta)",
+          "motivo": "Perde porque a morfologia (Hithpael de עָרַב + אֶת objeto direto) e os dois controles ingleses convergem em 'give pledges'."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [
-    "faça uma aposta",
     "fornecer"
   ],
   "ambiguidades_preservadas": [
-    "הִתְעָרֶב pode indicar comprometer-se, apostar ou dar penhor; a BV usa ‘faça uma aposta’ no desafio retórico, e a literal conserva ‘comprometa-se’."
+    "הִתְעָרֶב pode indicar comprometer-se, apostar ou dar penhor; a BV usa ‘faça uma aposta’ no desafio retórico, e a literal conserva ‘comprometa-se’.",
+    "Leitura descartada na adjudicação ER-0033: Leitura 'faça uma aposta' (aposta, wager) — defendida talvez por associação com o sentido moderno de ערב em hebraico israelense (onde pode significar 'misturar'), mas sem base no Hithpael clássico nem no contexto (Rabsaqué oferece cavalos como desafio irônico mediante penhor, não como aposta). Perde porque a morfologia (Hithpael de עָרַב + אֶת objeto direto) e os dois controles ingleses convergem em 'give pledges'."
   ],
   "justificativa": "O convite, o senhor assírio, dois mil cavalos, a condição e os cavaleiros foram preservados.",
   "confianca": 0.64,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0031): A expressão \"faça uma aposta\" não corresponde ao hebraico התערב (hit’arev), que significa \"dar refém/penhor, tornar-se fiador\"; o contexto é um desafio irônico de Rabsaqué, não uma aposta literal. A KJV verte \"give pledges\". A glosa \"aposta\" desloca o sentido de \"dar garantia/refém\" para \"fazer uma aposta\", o que muda a ação descrita. — evidência: Hebraico: התערב נא אדני את מלך אשור (hit’arev na adoni et-melekh Ashshur); KJV: \"give pledges to my lord the king of Assyria\"; A BV atual emprega \"aposta\", criando leitura anacrônica."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

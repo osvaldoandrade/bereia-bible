@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Gen.9.1-29"
   },
-  "texto_bv": "E Noé começou a cultivar a terra, e plantou uma vinha.",
+  "texto_bv": "E Noé, homem do solo, começou a cultivar a terra, e plantou uma vinha.",
   "traducao_literal": "E começou Noé, homem do solo, e plantou uma vinha.",
   "termos_originais": [
     {
@@ -84,24 +84,35 @@
       "justificativa": "'começou a cultivar a terra' interpreta אִישׁ הָאֲדָמָה como aposto descritivo com valor de complemento verbal — leitura legítima (cf. KJV 'began to be an husbandman'); conteúdo preservado. (ER-0031 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0031"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "E Noé começou a cultivar a terra, e plantou uma vinha. → E Noé, homem do solo, começou a cultivar a terra, e plantou uma vinha.",
+      "justificativa": "Objeção procedente. Evidência do original: אִישׁ (H376, HNcmsc — 'homem' em estado construto) + הָאֲדָמָה (d/127, HTd/Ncfsa — 'o solo') formam a frase construta 'homem do solo', em aposição a Noé, caracterizando sua identidade antes da ação de plantar a vinha. A objeção procede: a frase אִישׁ הָאֲדָמָה está presente no TM e descreve Noé como 'homem do solo' antes do plantio da vinha. A tradução literal da própria BV preserva o descritor ('E começou Noé, homem do solo, e plantou uma vinha'), mas o texto publicado da BV o omitiu, vertendo o sentido como ação ('começou a cultivar a terra') sem a caracterização. A KJV ('began to be an husbandman') e a WEB ('began to be a farmer') ambas capturam o descritor. Não há divergência textual entre os controles: ambos refletem a leitura do TM. A correção insere a aposição 'homem do solo' após 'Noé', restaurando a caracterização original sem alterar a sintaxe nem o sentido subsequente. Objeções fechadas: Objeção MATERIAL (revisão ER-0031): Omissão de conteúdo: אִישׁ הָֽאֲדָמָה ('homem do solo/adamah') não foi traduzido. O hebraico descreve Noé como 'אִישׁ הָֽאֲדָמָה' (homem do solo) antes de dizer que plantou a vinha. KJV 'began to be an husbandman' captura esse descritivo. — evidência: termos_originais: אִישׁ (376, HNcmsc) + הָֽאֲדָמָ֑ה (d/127, HTd/Ncfsa) = 'homem do solo'. BV atual omite essa caracterização de Noé. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura dinâmica que converte o descritor 'homem do solo' em ação verbal 'começou a cultivar a terra' (BV anterior)",
+          "motivo": "perde porque apaga a caracterização identitária de Noé presente no original (אִישׁ הָאֲדָמָה em aposição) e que a KJV/WEB ambas preservam sob a forma 'began to be a husbandman/farmer'."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0033: Leitura dinâmica que converte o descritor 'homem do solo' em ação verbal 'começou a cultivar a terra' (BV anterior); perde porque apaga a caracterização identitária de Noé presente no original (אִישׁ הָאֲדָמָה em aposição) e que a KJV/WEB ambas preservam sob a forma 'began to be a husbandman/farmer'."
+  ],
   "justificativa": "אִישׁ הָאֲדָמָה 'homem do solo/lavrador'.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0031): Omissão de conteúdo: אִישׁ הָֽאֲדָמָה ('homem do solo/adamah') não foi traduzido. O hebraico descreve Noé como 'אִישׁ הָֽאֲדָמָה' (homem do solo) antes de dizer que plantou a vinha. KJV 'began to be an husbandman' captura esse descritivo. — evidência: termos_originais: אִישׁ (376, HNcmsc) + הָֽאֲדָמָ֑ה (d/127, HTd/Ncfsa) = 'homem do solo'. BV atual omite essa caracterização de Noé."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

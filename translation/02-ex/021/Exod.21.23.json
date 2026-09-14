@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Exod.21.1-37"
   },
-  "texto_bv": "Mas se houver morte, então você dará vida por vida,",
+  "texto_bv": "Mas se houver dano, então você dará vida por vida,",
   "traducao_literal": "E se houver dano, e darás alma por alma,",
   "termos_originais": [
     {
@@ -89,24 +89,35 @@
       "justificativa": "Abertura da fórmula talional. 'Vida por vida' = נפש תחת נפש. Frase curta, clara, abre a lista que continua nos vv.24-25. SEM_ALTERACAO. (ER-0031 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0031"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "Mas se houver morte → Mas se houver dano",
+      "justificativa": "Objeção procedente. Evidência do original: וְאִם אָסוֹן יִהְיֶה — אָסוֹן (H611, ‘dano/calamidade/desgraça’), o mesmo termo do v.22. A sequência vv.24-25 (olho, dente, mão, pé, queimadura, ferida, golpe) confirma espectro de danos não exclusivamente fatais. Objeções fechadas: Objeção MATERIAL (revisão ER-0030): \"Mas se houver morte\" traduz novamente אָסוֹן (mesma palavra do v.22, lemma 611, \"dano/calamidade\" genérico) como \"morte\" especificamente. Isso gera também uma incoerência interna: se a condição do v.23 fosse estritamente \"houver morte\", a lista graduada que se segue nos vv.24-25 (olho por olho, dente por dente, mão por mão, pé por pé, queimadura, ferida, golpe) não teria correspondência lógica — essas são penas proporcionais a ferimentos não fatais, o que só faz sentido se אָסוֹן cobrir uma gama de danos (da morte ao ferimento leve), não somente a morte. — evidência: termos_originais: אָסוֹן lemma 611 (mesmo termo do v.22, genérico); a lista de vv.24-25 (olho, dente, mão, pé, queimadura, ferida, golpe) pressupõe um espectro de danos não fatais sob o mesmo \"אסון\"; KJV mantém o termo genérico \"mischief\", não \"death\", nos dois versos. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura ‘Mas se houver morte’ (אָסוֹן restrito à morte da mãe) — defendida por parte da exegese cristã que lê o v.22 como aborto obrigatório e o v.23 como lex talionis aplicada só à mãe",
+          "motivo": "perde porque (a) o termo hebraico é genericamente ‘dano’, não ‘morte’; (b) a cascata de vv.24-25 pressupõe que o mesmo ‘אָסוֹן’ cobre lesões não letais, o que torna incoerente ler ‘morte’ no v.23; (c) KJV e WEB mantêm ‘mischief/harm’ genérico em ambos os versos."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0033: Leitura ‘Mas se houver morte’ (אָסוֹן restrito à morte da mãe) — defendida por parte da exegese cristã que lê o v.22 como aborto obrigatório e o v.23 como lex talionis aplicada só à mãe; perde porque (a) o termo hebraico é genericamente ‘dano’, não ‘morte’; (b) a cascata de vv.24-25 pressupõe que o mesmo ‘אָסוֹן’ cobre lesões não letais, o que torna incoerente ler ‘morte’ no v.23; (c) KJV e WEB mantêm ‘mischief/harm’ genérico em ambos os versos."
+  ],
   "justificativa": "נֶפֶשׁ תַּחַת נָפֶשׁ 'vida por vida' — abre a lei do talião (v.23-25): princípio de proporcionalidade que LIMITA a vingança (não a incita), administrado pela corte.",
   "confianca": 0.75,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0030): \"Mas se houver morte\" traduz novamente אָסוֹן (mesma palavra do v.22, lemma 611, \"dano/calamidade\" genérico) como \"morte\" especificamente. Isso gera também uma incoerência interna: se a condição do v.23 fosse estritamente \"houver morte\", a lista graduada que se segue nos vv.24-25 (olho por olho, dente por dente, mão por mão, pé por pé, queimadura, ferida, golpe) não teria correspondência lógica — essas são penas proporcionais a ferimentos não fatais, o que só faz sentido se אָסוֹן cobrir uma gama de danos (da morte ao ferimento leve), não somente a morte. — evidência: termos_originais: אָסוֹן lemma 611 (mesmo termo do v.22, genérico); a lista de vv.24-25 (olho, dente, mão, pé, queimadura, ferida, golpe) pressupõe um espectro de danos não fatais sob o mesmo \"אסון\"; KJV mantém o termo genérico \"mischief\", não \"death\", nos dois versos."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

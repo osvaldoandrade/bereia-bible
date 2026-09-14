@@ -7,7 +7,7 @@
     "versiculo": 10,
     "pericope": "Prov.25.1-28"
   },
-  "texto_bv": "para que quem ouvir não o envergonhe, e a sua má fama não se apague.",
+  "texto_bv": "para que quem ouvir não o envergonhe, e a sua má fama se afaste.",
   "traducao_literal": "Para que não te envergonhe quem ouve, e tua má fama não volte.",
   "termos_originais": [
     {
@@ -88,20 +88,31 @@
       "justificativa": "Verso abre com \"para que\" retomando o v.9, que é o verso imediatamente anterior — sem quebra de costura. \"O\" e \"sua\" seguem o mesmo padrão de clítico formal para \"você\" já usado no v.8 (\"o envergonhar\"), não são anafóricos a \"próximo\" ou \"outra pessoa\"; leitura consistente com o hebraico (יְחַסֶדְךָ, דִבָּתְךָ, ambos sufixo 2ms \"você/te\") e com a KJV. Nada a corrigir. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "para que quem ouvir não o envergonhe, e a sua má fama não se apague. → para que quem ouvir não o envergonhe, e a sua má fama se afaste.",
+      "justificativa": "Objeção procedente. Evidência do original: פֶּן (H6435, partícula negativa de temor, 'para que não') rege as duas cláusulas coordenadas; תָּשׁוּב (H7725, Qal imperfect 3fs de שׁוּב 'voltar/retornar/afastar-se') com לֹא (H3808) forma 'não se afastará' — a infâmia que persiste é o segundo mal. וְדִבָּתְךָ (H1681 c, 'e tua má fama/infâmia', Ncfsc com sufixo 2ms). KJV e WEB alinham conteúdo e sentido à morfologia pinada. Objeções fechadas: Objeção MATERIAL (revisão ER-0031): A negação da segunda cláusula está invertida. O hebraico (פֶּן... וְדִבָּתְךָ לֹא תָשׁוּב) apresenta dois males a evitar: (1) a vergonha vinda de quem ouve, (2) a má fama que NÃO se vai (= persiste). O desejo, portanto, é que a má fama SE APAGUE / SE AFASTE. A BV 'para que... a sua má fama não se apague' expressa o sentido oposto: deseja-se que a má fama NÃO seja apagada (= persista), que é exatamente o mal a evitar. — evidência: Hebraico: לֹא תָשׁוּב ('não voltará/não se afastará'); KJV: 'thine infamy turn not away' (a má fama que não se afasta é o mal a evitar). A construção portuguesa 'para que X não Y' expressa desejo de que X não-Y ocorra; aplicada aqui, resulta em desejar que a má fama persista — sentido invertido. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura privativa 'a sua má fama não se volte/retorne', defendida por tradução literalista de לֹא תָשׁוּב como 'não voltará'",
+          "motivo": "perde porque, na construção פֶּן + dois males coordenados, a segunda cláusula descreve o mal a evitar (a infâmia que se agarra), não um bem — a KJV e a WEB, que traduzem o mesmo hebraico por 'infamy turn not away' / 'bad reputation never depart' como o mal sob 'lest', confirmam que o português deve desejar que a má fama se afaste, não que persista."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [],
-  "ambiguidades_preservadas": [],
+  "ambiguidades_preservadas": [
+    "Leitura descartada na adjudicação ER-0033: Leitura privativa 'a sua má fama não se volte/retorne', defendida por tradução literalista de לֹא תָשׁוּב como 'não voltará'; perde porque, na construção פֶּן + dois males coordenados, a segunda cláusula descreve o mal a evitar (a infâmia que se agarra), não um bem — a KJV e a WEB, que traduzem o mesmo hebraico por 'infamy turn not away' / 'bad reputation never depart' como o mal sob 'lest', confirmam que o português deve desejar que a má fama se afaste, não que persista."
+  ],
   "justificativa": "Continuação de 25:9: expor segredos alheios traz reputação manchada permanentemente.",
   "confianca": 0.68,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0031): A negação da segunda cláusula está invertida. O hebraico (פֶּן... וְדִבָּתְךָ לֹא תָשׁוּב) apresenta dois males a evitar: (1) a vergonha vinda de quem ouve, (2) a má fama que NÃO se vai (= persiste). O desejo, portanto, é que a má fama SE APAGUE / SE AFASTE. A BV 'para que... a sua má fama não se apague' expressa o sentido oposto: deseja-se que a má fama NÃO seja apagada (= persista), que é exatamente o mal a evitar. — evidência: Hebraico: לֹא תָשׁוּב ('não voltará/não se afastará'); KJV: 'thine infamy turn not away' (a má fama que não se afasta é o mal a evitar). A construção portuguesa 'para que X não Y' expressa desejo de que X não-Y ocorra; aplicada aqui, resulta em desejar que a má fama persista — sentido invertido."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "qwen3.7-plus",

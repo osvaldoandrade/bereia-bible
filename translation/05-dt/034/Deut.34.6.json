@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "Deut.34.1-12"
   },
-  "texto_bv": "O SENHOR o sepultou no vale, na terra de Moabe, diante de Bete-Peor; até hoje ninguém sabe onde fica sua sepultura.",
+  "texto_bv": "Ele o sepultou no vale, na terra de Moabe, diante de Bete-Peor; até hoje ninguém sabe onde fica sua sepultura.",
   "traducao_literal": "E ele o sepultou no vale, na terra de Moabe, diante de Bete-Peor, e não conheceu homem a sepultura dele até este dia.",
   "termos_originais": [
     {
@@ -153,29 +153,38 @@
       "justificativa": "'Até hoje ninguém sabe onde fica sua sepultura' resolve naturalmente 'não conheceu homem a sepultura dele até este dia'; pronominais e nomes divinos corretos; pontuação sintática adequada. (ER-0031 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0031"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "O SENHOR o sepultou → Ele o sepultou",
+      "justificativa": "Objeção procedente. Evidência do original: וַיִּקְבֹּר (c/6912, HC/Vqw3ms) — verbo wayyiqtol 3ms sem sujeito lexical no TM; אֹתוֹ (853, HTo/Sp3ms) é apenas o objeto direto 'a ele'. Nenhum termo no verso nomeia YHWH como sujeito de 'sepultou'. Objeções fechadas: Objeção MATERIAL (revisão ER-0030): O verbo וַיִּקְבֹּר אֹתוֹ ('e sepultou-o') tem sujeito apenas morfológico (3ms), sem substantivo nem pronome explícito no hebraico — é um dos pontos clássicos de indeterminação proposital do texto (ninguém sabe quem sepultou Moisés, tanto quanto ninguém sabe onde). A própria traducao_literal registra isso fielmente como pronome ambíguo ('E ele o sepultou'). O texto_bv resolve essa indeterminação nomeando explicitamente 'O SENHOR' como sujeito, afirmando textualmente algo que o hebraico não nomeia — ultrapassa a camada literal e decide uma questão tradicionalmente debatida (quem sepultou Moisés), o que a regra de paráfrase proibida veda fazer por conta própria. — evidência: traducao_literal: 'E ele o sepultou...' — sujeito não nomeado, só a flexão verbal 3ms; nenhum termo do hebraico em termos_originais (v6) corresponde a 'SENHOR' como sujeito de וַיִּקְבֹּר; a KJV, controle de equivalência formal, também preserva a ambiguidade: 'And he buried him...', sem nomear o sujeito. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura 'O SENHOR o sepultou', que identifica YHWH como sujeito explícito de וַיִּקְבֹּר — defendida por parte da tradição judaica (Targum, alguns midrashim) e por algumas versões antigas",
+          "motivo": "perde porque o TM não lexicaliza o sujeito, e tanto a morfologia (3ms sem nome) quanto o paralelo temático do verso seguinte ('ninguém sabe...') apontam para indeterminação proposital: assim como ninguém sabe onde fica a sepultura, ninguém sabe quem a fez."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [
-    "O SENHOR",
     "onde fica"
   ],
   "ambiguidades_preservadas": [
-    "O sujeito de וַיִּקְבֹּר é implícito; a BV o identifica com o SENHOR pela continuidade, enquanto a ausência do nome é preservada na literal."
+    "O sujeito de וַיִּקְבֹּר é implícito; a BV o identifica com o SENHOR pela continuidade, enquanto a ausência do nome é preservada na literal.",
+    "Leitura descartada na adjudicação ER-0033: Leitura 'O SENHOR o sepultou', que identifica YHWH como sujeito explícito de וַיִּקְבֹּר — defendida por parte da tradição judaica (Targum, alguns midrashim) e por algumas versões antigas; perde porque o TM não lexicaliza o sujeito, e tanto a morfologia (3ms sem nome) quanto o paralelo temático do verso seguinte ('ninguém sabe...') apontam para indeterminação proposital: assim como ninguém sabe onde fica a sepultura, ninguém sabe quem a fez."
   ],
   "justificativa": "Sepultamento divino, vale, Moabe, Bete-Peor e desconhecimento do local exato foram mantidos.",
   "confianca": 0.76,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0030): O verbo וַיִּקְבֹּר אֹתוֹ ('e sepultou-o') tem sujeito apenas morfológico (3ms), sem substantivo nem pronome explícito no hebraico — é um dos pontos clássicos de indeterminação proposital do texto (ninguém sabe quem sepultou Moisés, tanto quanto ninguém sabe onde). A própria traducao_literal registra isso fielmente como pronome ambíguo ('E ele o sepultou'). O texto_bv resolve essa indeterminação nomeando explicitamente 'O SENHOR' como sujeito, afirmando textualmente algo que o hebraico não nomeia — ultrapassa a camada literal e decide uma questão tradicionalmente debatida (quem sepultou Moisés), o que a regra de paráfrase proibida veda fazer por conta própria. — evidência: traducao_literal: 'E ele o sepultou...' — sujeito não nomeado, só a flexão verbal 3ms; nenhum termo do hebraico em termos_originais (v6) corresponde a 'SENHOR' como sujeito de וַיִּקְבֹּר; a KJV, controle de equivalência formal, também preserva a ambiguidade: 'And he buried him...', sem nomear o sujeito."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

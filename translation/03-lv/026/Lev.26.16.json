@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Lev.26.1-46"
   },
-  "texto_bv": "então eu farei isto com vocês: trarei sobre vocês pânico, doença consumidora e febre, que farão os olhos definhar e consumirão a vida. Vocês semearão em vão, pois seus inimigos comerão a colheita.",
+  "texto_bv": "então eu farei isto com vocês: trarei sobre vocês pânico, doença consumidora e febre, que consumirão os olhos e farão definhar a vida. Vocês semearão em vão, pois seus inimigos comerão a colheita.",
   "traducao_literal": "Também eu farei isto a vocês, e designarei sobre vocês terror, a doença consumidora e a febre, que consomem olhos e fazem definhar a vida; e semeareis para o vazio sua semente, e a comerão seus inimigos.",
   "termos_originais": [
     {
@@ -164,6 +164,13 @@
       "justificativa": "Apódose clara; dois-pontos introduz enumeração; participios 'consumidora' e adjetivos fluem bem; a troca recíproca de verbos entre 'olhos' e 'vida' (definhar/consumir) mantém o campo semântico sem perda de conteúdo; 'pois' marca relação causal. (ER-0031 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0031"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "que farão os olhos definhar e consumirão a vida → que consumirão os olhos e farão definhar a vida",
+      "justificativa": "Objeção procedente. Evidência do original: מְכַלּוֹת (lemma 3615, HVprfpa, 'consumindo') rege עֵינַיִם (lemma 5869a, 'olhos'); וּמְדִיבֹת (lemma c/1727, HC/Vhrfpa, 'fazendo definhar') rege נָפֶשׁ (lemma 5315, 'vida/alma'). A tradução literal confirma: 'que consomem olhos e fazem definhar a vida'. A objeção é procedente: o texto BV original havia invertido o pareamento verbo-objeto do hebraico, atribuindo 'definhar' aos olhos e 'consumir' à vida, quando a morfologia hebraica faz exatamente o contrário. Ambos os controles (KJV e WEB) confirmam o pareamento hebraico: consume→eyes, make pine away→soul. A correção restaura a regência original sem alterar o sentido geral do versículo. Objeções fechadas: Objeção MATERIAL (revisão ER-0030): Pareamento verbo–objeto invertido em relação ao hebraico: o texto diz que a doença fará 'os olhos definhar' e 'consumirá a vida', mas o hebraico atribui 'consumir' aos olhos e 'fazer definhar' à vida/alma. — evidência: termos_originais: מְכַלּוֹת (lemma 3615, HVprfpa, 'consumindo') rege עֵינַיִם (lemma 5869a, 'olhos'); וּמְדִיבֹת (lemma c/1727, HC/Vhrfpa, 'fazendo definhar') rege נָפֶשׁ (lemma 5315, 'vida/alma'). traducao_literal: '...que consomem olhos e fazem definhar a vida...'. KJV (controle): 'that shall consume the eyes, and cause sorrow of heart' (consume→eyes). texto_bv atual: 'que farão os olhos definhar e consumirão a vida' — pareamento invertido. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [
@@ -179,16 +186,13 @@
   "confianca": 0.64,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0030): Pareamento verbo–objeto invertido em relação ao hebraico: o texto diz que a doença fará 'os olhos definhar' e 'consumirá a vida', mas o hebraico atribui 'consumir' aos olhos e 'fazer definhar' à vida/alma. — evidência: termos_originais: מְכַלּוֹת (lemma 3615, HVprfpa, 'consumindo') rege עֵינַיִם (lemma 5869a, 'olhos'); וּמְדִיבֹת (lemma c/1727, HC/Vhrfpa, 'fazendo definhar') rege נָפֶשׁ (lemma 5315, 'vida/alma'). traducao_literal: '...que consomem olhos e fazem definhar a vida...'. KJV (controle): 'that shall consume the eyes, and cause sorrow of heart' (consume→eyes). texto_bv atual: 'que farão os olhos definhar e consumirão a vida' — pareamento invertido."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

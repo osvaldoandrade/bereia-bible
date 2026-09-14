@@ -7,7 +7,7 @@
     "versiculo": 35,
     "pericope": "Lev.19.1-37"
   },
-  "texto_bv": "Não cometam injustiça nas medições — de comprimento, de peso ou de volume.",
+  "texto_bv": "Não cometam injustiça no julgamento, nem nas medições — de comprimento, de peso ou de volume.",
   "traducao_literal": "Não fareis injustiça no julgamento, na medida, no peso e na medida de líquido.",
   "termos_originais": [
     {
@@ -108,6 +108,13 @@
       "justificativa": "'Nas medições' verte 'בַּמִּשְׁפָּט' no sentido de 'regulamento normativo'. Apóse explicativa enumera as três dimensões (מִדָּה / מִשְׁקָל / מְשׂוּרָה). (ER-0031 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0031"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "Não cometam injustiça nas medições — de comprimento, de peso ou de volume. → Não cometam injustiça no julgamento, nem nas medições — de comprimento, de peso ou de volume.",
+      "justificativa": "Objeção procedente. Evidência do original: בַּמִּשְׁפָּט (b/4941, מִשְׁפָּט, Strong H4941) — 'julgamento'; primeiro de quatro domínios preposicionados com בְּ no original (בַּמִּשְׁפָּט, בַּמִּדָּה, בַּמִּשְׁקָל, וּבַמְּשׂוּרָה). Objeções fechadas: Objeção MATERIAL (revisão ER-0030): Omissão do âmbito 'julgamento' (מִשְׁפָּט, lemma 4941): o hebraico proíbe injustiça em quatro domínios distintos — julgamento, medida linear, peso e medida de líquido —, mas o texto_bv menciona apenas os três domínios de medição, sem qualquer referência a julgamento ou processo judicial. — evidência: termos_originais traz 'בַּמִּשְׁפָּ֑ט' (lemma 4941 — o mesmo lemma vertido por 'nos julgamentos' no v. 19.15); traducao_literal: 'Não fareis injustiça no julgamento, na medida, no peso e na medida de líquido'; KJV: 'Ye shall do no unrighteousness in judgment, in meteyard, in weight, or in measure.' O texto_bv atual — 'Não cometam injustiça nas medições — de comprimento, de peso ou de volume' — não contém nenhuma menção a julgamento. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [],
@@ -116,16 +123,13 @@
   "confianca": 0.7,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0030): Omissão do âmbito 'julgamento' (מִשְׁפָּט, lemma 4941): o hebraico proíbe injustiça em quatro domínios distintos — julgamento, medida linear, peso e medida de líquido —, mas o texto_bv menciona apenas os três domínios de medição, sem qualquer referência a julgamento ou processo judicial. — evidência: termos_originais traz 'בַּמִּשְׁפָּ֑ט' (lemma 4941 — o mesmo lemma vertido por 'nos julgamentos' no v. 19.15); traducao_literal: 'Não fareis injustiça no julgamento, na medida, no peso e na medida de líquido'; KJV: 'Ye shall do no unrighteousness in judgment, in meteyard, in weight, or in measure.' O texto_bv atual — 'Não cometam injustiça nas medições — de comprimento, de peso ou de volume' — não contém nenhuma menção a julgamento."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

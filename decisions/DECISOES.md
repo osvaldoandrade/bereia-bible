@@ -1078,6 +1078,86 @@ Ver `docs/domain/governanca/glossary.md`.
 
 ---
 
+## ER-0033 — Adjudicação das objeções MATERIAIS acumuladas do ER-0031 (ADR-0005)
+
+- Data: 2026-09-14 · Escopo: AT (as 37 objeções MATERIAIS acumuladas pela
+  re-revisão ER-0031 do cânon reiniciado, em 35 versos de 32 capítulos,
+  Gn → Hc) · Origem: autorização do mantenedor ao ciclo de revisão
+  ("sim, avance."), com adjudicação ao final no padrão ER-0029 ·
+  Status: **CONCLUÍDA**
+- Mesmo mecanismo do ER-0020/ER-0023/ER-0025/ER-0027/ER-0029:
+  `adjudicate-objections-driver.workflow.js`, prompt
+  `adjudicador-objecoes.md` v2.0.0, modo `final` (INCONCLUSIVA proibida),
+  KJV baseline de sentido / WEB segundo controle, `termos_originais`
+  (WLC/OSHB) como autoridade textual. Duas rodadas de 16 capítulos;
+  modelo `qwen3.7-plus` em todos os 32 capítulos (proveniência verificada
+  no journal dos agentes: 419/419 chamadas).
+- **Resultado: 37/37 objeções resolvidas — zero abertas.** 29 PROCEDE /
+  6 IMPROCEDE em 35 versos (Êx 21.22 e Dt 26.13 traziam duas objeções
+  cada, fechadas por veredito único).
+  PROCEDE: Gn 9.20/10.11, Êx 11.1/18.10/19.15/21.22-23, Lv
+  5.24/9.22/19.35/26.16, Nm 17.5/30.16, Dt 16.20/26.13/34.6, Rt 3.8,
+  2Rs 18.23, Jó 14.16/19.17, Sl 34.13, Pv 25.10, Jr 41.9/50.45, Os
+  4.19/10.11-14/13.9, Hc 2.15.
+  IMPROCEDE: 1Rs 6.20, Sl 75.7/90.5, Is 9.2/16.8, Os 10.7.
+- Achados de peso:
+  - Nm 17.5 — o pino KJV do pacote exibia o v.5 da numeração INGLESA, mas
+    o conteúdo hebraico do v.5 da BV corresponde a Nm 16:40 inglês; o
+    adjudicador detectou o desalinhamento pelos vizinhos e corrigiu
+    "a vocês" → "a ele" pelo sufixo de לוֹ (lamed + Sp3ms).
+  - Os 4.19 — a superfície מִזִּבְחוֹתָם sugere "altares" (מִזְבֵּחַ,
+    H4196), mas o lemma pinado é זֶבַח (H2077, "sacrifício"): corrigido
+    para "sacrifícios" apesar de a camada literal ter herdado "altares".
+    O lemma do pin vence a aparência da superfície.
+  - Hc 2.15 — o sufixo 3mp de מְעוֹרֵיהֶם ("a nudez deles") é conteúdo,
+    não forma: corrigido "dele" → "deles", confirmando em adjudicação o
+    MATERIAL apontado no lote 7 da revisão.
+  - Is 9.2 / Sl 90.5 / Os 10.7 / 1Rs 6.20 — detector de divergência de
+    controles aplicado corretamente (variante textual, não semântica;
+    nenhuma leitura TR importada para a BV).
+- **Verificação do orquestrador antes do persist (2 overrides + reparos de
+  disciplina)**: todo output foi conferido contra os pins antes da escrita.
+  - Is 16.8 PROCEDE→IMPROCEDE (override): o agente alegou sentido primário
+    de abandono para נִטְּשׁוּ, mas o pin (lemma único 5203) não discrimina
+    os homônimos נטשׁ I "abandonar" e נטשׁ II "espalhar" — superfície
+    Niphal idêntica —, e KJV ("stretched out") + WEB ("spread abroad")
+    sustentam juntas a base da BV ("se espalharam"): desempate do modo
+    final no segundo critério. A leitura da camada literal ("foram
+    abandonados") fica preservada como leitura rejeitada documentada em
+    `ambiguidades_preservadas`.
+  - Sl 75.7 PROCEDE→IMPROCEDE (override): a objeção (e o agente) liam
+    הָרִים como "montanhas", mas a morfologia pinada (lemma 7311 רוּם,
+    HVhc — infinitivo construto Hifil) é verbal e a BV já a verte
+    ("a exaltação"). A correção proposta traduziria הָרִים duas vezes e
+    contradiria o próprio pin que a objeção citava como evidência.
+  - Reparos: Êx 18.10 "que vos livrou" → "que livrou vocês" (registro
+    canônico da BV; "vos" só ocorre em arcaísmos poéticos de Jr 46);
+    finais de Nm 30.16 / Dt 26.13 / Jó 14.16 reconstruídos por
+    `apply(pin, mudancas)` — edições não registradas (aspas curvas,
+    pontuação) descartadas conforme protocolo; Lv 5.24 e Os 13.9
+    saneados (nomes de versões modernas removidos de prosa nova —
+    permanecem só KJV/WEB como controles pinados e versões antigas);
+    `leitura_rejeitada` de Is 9.2 convertida de dict para string com
+    pivô "perde porque" (compatível com `split_rejeitada()`).
+- Reconciliação de `palavras_supridas`: **6 entradas órfãs** declaradas em
+  ciclos anteriores e apagadas pelas correções PROCEDE (Lv 5.24 "em que
+  reconhecer"; Nm 30.16 "confirmá-los por seu silêncio"; Dt 16.20 "com
+  toda determinação"; Dt 34.6 "O SENHOR"; 2Rs 18.23 "faça uma aposta";
+  Sl 34.13 "muitos") — reconciliadas via `palavras_supridas_removidas`,
+  nunca editando a correção; 1 suprimento novo declarado (Dt 16.20
+  "plena", explicativo da epizeuxis צֶדֶק צֶדֶק, cf. "altogether just"
+  dos controles) — disciplina F-0019.
+- `bvcheck`: 32/32 capítulos tocados limpos; varredura full-canon (1189
+  capítulos, AT+NT) fecha em **0 falhas**.
+- Status permanece **APPROVED** em todo registro tocado. Com o término do
+  ER-0031 (929/929 capítulos do AT, até Malaquias) e esta adjudicação,
+  **o cânone inteiro volta a zero objeção MATERIAL aberta**. As 73
+  objeções EDITORIAIS acumuladas nos review-outs do ER-0031 não bloqueiam
+  o cânone e não residem nos registros — aguardam decisão de política
+  canônica em nível de mantenedor; F-0024 (tipografia) segue enfileirado.
+
+---
+
 ## Follow-ups abertos
 
 - F-0001: obter Almeida 1911 / Tradução Brasileira 1917 digitalizada e pinar no manifest. Dono: mantenedor.

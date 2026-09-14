@@ -7,7 +7,7 @@
     "versiculo": 22,
     "pericope": "Lev.9.1-24"
   },
-  "texto_bv": "Arão levantou as mãos em direção ao povo e o abençoou. Depois desceu, após apresentar a oferta pelo pecado, o holocausto e a oferta pacífica.",
+  "texto_bv": "Arão levantou a mão em direção ao povo e o abençoou. Depois desceu, após apresentar a oferta pelo pecado, o holocausto e a oferta pacífica.",
   "traducao_literal": "E levantou Arão suas mãos para o povo, e os abençoou; e desceu de fazer a oferta pelo pecado, e o holocausto, e as ofertas de paz.",
   "termos_originais": [
     {
@@ -152,6 +152,18 @@
       "justificativa": "SEM_ALTERACAO — \"Levantou as mãos\" (ידו singular no hebraico) é a naturalização idiomática correta em português: o gesto de bênção usa plural. \"O abençoou\" (singular) concorda com \"o povo\" (coletivo singular), preservando o conteúdo (abençoou o povo). \"Depois desceu, após apresentar\" encadeia temporalmente a conclusão dos rituais. (ER-0031 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0031"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "as mãos → a mão",
+      "justificativa": "Objeção procedente. Evidência do original: יָדוֹ (ketiv ידו), lemma Strong 3027, morfologia HNcbsc/Sp3ms — substantivo singular com sufixo pronominal de 3ª pessoa masc. singular ('sua mão'). Objeções fechadas: Objeção MATERIAL (revisão ER-0030): O texto_bv traz 'as mãos' (plural), mas o hebraico pinado registra יָדוֹ (ketiv ידו), lemma Strong 3027, morfologia HNcbsc/Sp3ms — substantivo singular com sufixo pronominal de 3ª pessoa masc. singular, isto é, 'sua mão' (singular). A KJV confirma a leitura singular: 'And Aaron lifted up his hand toward the people'. O erro de número já está na traducao_literal ('suas mãos'), herdado pelo texto_bv. Corrigir para o singular mudaria o conteúdo factual do verso (quantas mãos Arão ergueu na bênção), o que excede o mandato de forma desta revisão — fica registrado como objeção MATERIAL, e o texto permanece inalterado. — evidência: Lev.9.22, termos_originais: {\"palavra\":\"ידו\",\"lemma\":\"3027\",\"morfologia\":\"HNcbsc/Sp3ms\"} (singular); controles.kjv.texto: \"And Aaron lifted up his hand toward the people, and blessed them...\" (singular 'his hand'); texto_bv/traducao_literal: 'as mãos'/'suas mãos' (plural). Nota textual: KJV e WEB divergem: KJV traz 'his hand' (singular, alinhado ao hebraico pinado), WEB traz 'his hands' (plural). A divergência é de escolha tradutória, não variante textual — o TM é unânime em יָדוֹ (singular). A BV segue a morfologia pinada, não a WEB. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "Leitura plural 'as mãos' (suas mãos), como na WEB e em versões que seguem οἱ χεῖρες (LXX, plural)",
+          "motivo": "perde porque o TM pinado traz יָדוֹ singular, e a morfologia (HNcbsc/Sp3ms) não sustenta plural."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [
@@ -160,22 +172,20 @@
   ],
   "ambiguidades_preservadas": [
     "O ponto elevado do qual Arão desceu não é nomeado explicitamente; o altar é o referente contextual provável.",
-    "As palavras exatas da bênção não são informadas."
+    "As palavras exatas da bênção não são informadas.",
+    "Leitura descartada na adjudicação ER-0033: Leitura plural 'as mãos' (suas mãos), como na WEB e em versões que seguem οἱ χεῖρες (LXX, plural); perde porque o TM pinado traz יָדוֹ singular, e a morfologia (HNcbsc/Sp3ms) não sustenta plural."
   ],
   "justificativa": "A sequência mantém a bênção anterior à descida e relaciona a descida à conclusão dos três tipos de oferta.",
   "confianca": 0.74,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0030): O texto_bv traz 'as mãos' (plural), mas o hebraico pinado registra יָדוֹ (ketiv ידו), lemma Strong 3027, morfologia HNcbsc/Sp3ms — substantivo singular com sufixo pronominal de 3ª pessoa masc. singular, isto é, 'sua mão' (singular). A KJV confirma a leitura singular: 'And Aaron lifted up his hand toward the people'. O erro de número já está na traducao_literal ('suas mãos'), herdado pelo texto_bv. Corrigir para o singular mudaria o conteúdo factual do verso (quantas mãos Arão ergueu na bênção), o que excede o mandato de forma desta revisão — fica registrado como objeção MATERIAL, e o texto permanece inalterado. — evidência: Lev.9.22, termos_originais: {\"palavra\":\"ידו\",\"lemma\":\"3027\",\"morfologia\":\"HNcbsc/Sp3ms\"} (singular); controles.kjv.texto: \"And Aaron lifted up his hand toward the people, and blessed them...\" (singular 'his hand'); texto_bv/traducao_literal: 'as mãos'/'suas mãos' (plural)."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",

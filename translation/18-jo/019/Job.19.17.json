@@ -7,7 +7,7 @@
     "versiculo": 17,
     "pericope": "Job.19.1-29"
   },
-  "texto_bv": "O meu hálito é repugnante à minha mulher, e sou repulsivo aos filhos do ventre que me gerou.",
+  "texto_bv": "O meu hálito é repugnante à minha mulher, e sou repulsivo aos filhos do meu próprio corpo.",
   "traducao_literal": "Meu hálito é estranho à minha mulher, e sou repugnante aos filhos do meu ventre.",
   "termos_originais": [
     {
@@ -92,22 +92,32 @@
       "justificativa": "'que me gerou' concorda com o antecedente mais próximo, 'ventre', preservando o sentido de 'filhos do mesmo ventre'; sem ambiguidade. Correto. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "aos filhos do ventre que me gerou → aos filhos do meu próprio corpo",
+      "justificativa": "Objeção procedente. Evidência do original: בִטְנִֽי (Strong 990, HNcfsc/Sp1cs) — 'meu ventre/meu corpo'; o sufixo 1cs aponta para o ventre de Jó como fonte de sua própria descendência; paralelos idiomáticos: Gn 15.4; 2Sm 7.12 ('fruit of his body' = descendência própria). A objeção procede: o hebraico בִטְנִֽי designa o ventre/corpo do próprio Jó, e o paralelismo com 'minha mulher' confirma que se trata da família nuclear (esposa e filhos próprios), não do ventre materno (irmãos). KJV e WEB divergem (texto: 'children of mine own body' vs. 'children of my own mother'), mas a morfologia pinada (my womb/body, sufixo 1cs) e o paralelo com a esposa sustentam a leitura da KJV. Objeções fechadas: Objeção MATERIAL (revisão ER-0031): A expressão 'aos filhos do ventre que me gerou' desloca o referente: o hebraico בִטְנִֽי ('meu ventre/minha entranha') designa a prole de Jó (sentido figurado masculino), não o ventre materno que o gerou (irmãos). A BV verte como se fosse o ventre da mãe de Jó, produzindo 'irmãos' — mas os irmãos já foram tratados em v.13, e o paralelo com 'minha mulher' aponta para a família nuclear de Jó (esposa e filhos próprios). — evidência: termos_originais: בִטְנִֽי (HNcfsc/Sp1cs) = 'meu ventre'; KJV: 'children of mine own body'; parallels em Gn 15.4, 2Sm 7.12, onde 'fruit of his body' = descendência própria. A correção alteraria conteúdo já aprovado, portanto objeção MATERIAL. Nota textual: KJV (TR) lê 'children of mine own body'; WEB (base crítica) lê 'children of my own mother' — divergência textual. A morfologia hebraica (בִטְנִֽי, meu ventre) e o paralelismo com 'minha mulher' favorecem a leitura da KJV (descendência própria de Jó). (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "WEB: 'children of my own mother' (filhos da própria mãe de Jó = irmãos)",
+          "motivo": "rejeitada porque a morfologia (sufixo 1cs em בִטְנִֽי) e o paralelismo com 'minha mulher' indicam a prole do próprio Jó, não seus irmãos."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [],
   "ambiguidades_preservadas": [
-    "Referente de 'filhos do meu ventre': irmãos uterinos de Jó (leitura preferida, cf. Jó 3:10) ou, menos provavelmente, filhos nascidos após a tragédia do capítulo 1 — não indicado na narrativa."
+    "Referente de 'filhos do meu ventre': irmãos uterinos de Jó (leitura preferida, cf. Jó 3:10) ou, menos provavelmente, filhos nascidos após a tragédia do capítulo 1 — não indicado na narrativa.",
+    "Leitura descartada na adjudicação ER-0033: WEB: 'children of my own mother' (filhos da própria mãe de Jó = irmãos) — rejeitada porque a morfologia (sufixo 1cs em בִטְנִֽי) e o paralelismo com 'minha mulher' indicam a prole do próprio Jó, não seus irmãos."
   ],
   "justificativa": "Verso de leitura lexicalmente incerta (homógrafo raro חַנֹּתִי) e referencialmente ambígua (filhos vs. irmãos); ambiguidade documentada.",
   "confianca": 0.52,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0031): A expressão 'aos filhos do ventre que me gerou' desloca o referente: o hebraico בִטְנִֽי ('meu ventre/minha entranha') designa a prole de Jó (sentido figurado masculino), não o ventre materno que o gerou (irmãos). A BV verte como se fosse o ventre da mãe de Jó, produzindo 'irmãos' — mas os irmãos já foram tratados em v.13, e o paralelo com 'minha mulher' aponta para a família nuclear de Jó (esposa e filhos próprios). — evidência: termos_originais: בִטְנִֽי (HNcfsc/Sp1cs) = 'meu ventre'; KJV: 'children of mine own body'; parallels em Gn 15.4, 2Sm 7.12, onde 'fruit of his body' = descendência própria. A correção alteraria conteúdo já aprovado, portanto objeção MATERIAL."
-  ],
   "fontes": {
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
     "modelo": "qwen3.7-plus",

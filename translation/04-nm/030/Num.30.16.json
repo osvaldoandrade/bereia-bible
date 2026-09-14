@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Num.30.1-17"
   },
-  "texto_bv": "Se, porém, depois de ouvi-los e confirmá-los por seu silêncio, o marido os invalidar, ele assumirá a culpa dela.”",
+  "texto_bv": "Se, porém, depois de ouvi-los, o marido os invalidar, ele assumirá a culpa dela.”",
   "traducao_literal": "E se invalidar, invalidar a eles depois de seu ouvir, então levará a culpa dela.",
   "termos_originais": [
     {
@@ -133,30 +133,39 @@
       "justificativa": "Período condicional claro; fechamento de aspas curvas do discurso direto iniciado no v.2, coerente com a norma editorial. (ER-0030 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0030"
+    },
+    {
+      "questao": "Adjudicação de objeção MATERIAL (ER-0033)",
+      "escolha": "Se, porém, depois de ouvi-los e confirmá-los por seu silêncio, o marido os invalidar, ele assumirá a culpa dela. → Se, porém, depois de ouvi-los, o marido os invalidar, ele assumirá a culpa dela.",
+      "justificativa": "Objeção procedente. Evidência do original: אַחֲרֵי שָׁמְעוֹ (H310 + H8085) — a expressão temporal limita-se a 'depois de seu ouvir', sem qualquer referência a confirmação tácita nem a silêncio. O infinitivo absoluto הָפֵר + o imperfeito יָפֵר (H6565) com o objeto אֹתָם forma a prótase condicional 'se ele os invalidar', e a apódose וְנָשָׂא אֶת עֲוֺנָהּ (H5375 + H5771) é 'e levará a culpa dela'. Objeções fechadas: Objeção MATERIAL (revisão ER-0031): O sintagma “e confirmá-los por seu silêncio” acrescenta conteúdo não expresso no hebraico do versículo, que diz apenas “אַחֲרֵי שָׁמְעוֹ” (depois de seu ouvir). A expansão é coesiva com o v.15 (que trata da confirmação tácita pelo silêncio), mas formalmente constitui paráfrase com conteúdo inferido, não vertido. Remoção unilateral, contudo, também seria decisão de conteúdo fora do escopo desta revisão gramatical. — evidência: Hebraico pinado em termos_originais: אַחֲרֵי שָׁמְעוֹ = ‘depois de seu ouvir’ (sem menção a confirmação nem a silêncio neste versículo). KJV: ‘after that he hath heard them’. A expansão já constava da versão aprovada; o mantenedor deve decidir se a mantém por coesão canônica ou se a remove por fidelidade formal estrita. Nota textual: KJV e WEB, em seu alinhamento pelo conteúdo (KJV/WEB v.15 = WLC/OSHB v.16, devido ao deslocamento de versificação pela sobrescrição), concordam: 'after that he hath heard them' / 'after that he has heard them'. Ambos os controles sustentam a leitura simples, sem expansão de silêncio. (ER-0033, controles KJV/WEB).",
+      "alternativas_rejeitadas": [
+        {
+          "opcao": "A leitura expandida 'e confirmá-los por seu silêncio', que projeta no v.16 o mecanismo de confirmação tácita do v.15",
+          "motivo": "perde porque o texto hebraico do v.16 menciona apenas 'depois de seu ouvir' (אַחֲרֵי שָׁמְעוֹ), sem referência a silêncio nem a confirmação, e ambos os controles ingleses (KJV, WEB) acompanham a leitura simples."
+        }
+      ],
+      "diretriz_ref": "ER-0033"
     }
   ],
   "palavras_supridas": [
     "porém",
-    "confirmá-los por seu silêncio",
     "assumirá"
   ],
   "ambiguidades_preservadas": [
-    "עָוֹן pode abranger culpa, iniquidade e consequência; o verso transfere ao marido a responsabilidade decorrente da invalidação tardia sem detalhar a sanção."
+    "עָוֹן pode abranger culpa, iniquidade e consequência; o verso transfere ao marido a responsabilidade decorrente da invalidação tardia sem detalhar a sanção.",
+    "Leitura descartada na adjudicação ER-0033: A leitura expandida 'e confirmá-los por seu silêncio', que projeta no v.16 o mecanismo de confirmação tácita do v.15; perde porque o texto hebraico do v.16 menciona apenas 'depois de seu ouvir' (אַחֲרֵי שָׁמְעוֹ), sem referência a silêncio nem a confirmação, e ambos os controles ingleses (KJV, WEB) acompanham a leitura simples."
   ],
   "justificativa": "A invalidação tardia e a transferência da culpa para o marido encerram o caso com temporalidade e responsabilidade explícitas.",
   "confianca": 0.7,
   "status": "APPROVED",
   "ciclos_consenso": 1,
-  "objecoes_nao_resolvidas": [
-    "Objeção MATERIAL (revisão ER-0031): O sintagma “e confirmá-los por seu silêncio” acrescenta conteúdo não expresso no hebraico do versículo, que diz apenas “אַחֲרֵי שָׁמְעוֹ” (depois de seu ouvir). A expansão é coesiva com o v.15 (que trata da confirmação tácita pelo silêncio), mas formalmente constitui paráfrase com conteúdo inferido, não vertido. Remoção unilateral, contudo, também seria decisão de conteúdo fora do escopo desta revisão gramatical. — evidência: Hebraico pinado em termos_originais: אַחֲרֵי שָׁמְעוֹ = ‘depois de seu ouvir’ (sem menção a confirmação nem a silêncio neste versículo). KJV: ‘after that he hath heard them’. A expansão já constava da versão aprovada; o mantenedor deve decidir se a mantém por coesão canônica ou se a remove por fidelidade formal estrita."
-  ],
   "fontes": {
     "texto_fonte": "oshb@3d15126f",
     "manifest_sha256": "66c257edeb0fe28b08c1157a745b4413287b5f264ce8000ecd6bc85bb6dc4100",
-    "prompts_versao": "1.2.3",
+    "prompts_versao": "1.4.0",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
