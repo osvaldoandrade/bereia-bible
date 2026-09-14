@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "Neh.2.1-20"
   },
-  "texto_bv": "e uma carta para Asafe, guarda da floresta do rei, para que ele me forneça madeira para as vigas dos portões da fortaleza junto à casa de Deus, da muralha da cidade e da casa que irei ocupar.” O rei me concedeu o pedido, porque a boa mão de meu Deus estava sobre mim.",
+  "texto_bv": "e uma carta para Asafe, guarda da floresta do rei, para que ele me forneça madeira para as vigas dos portões da fortaleza junto à casa de Deus, para a muralha da cidade e para a casa que irei ocupar.” O rei me concedeu o pedido, porque a boa mão de meu Deus estava sobre mim.",
   "traducao_literal": "e uma carta a Asafe, guarda do parque que pertence ao rei, para que ele me dê madeiras para pôr vigas nos portões da fortaleza que pertence à casa, e para a muralha da cidade, e para a casa à qual eu irei.” E deu-me o rei, conforme a boa mão de meu Deus sobre mim.",
   "termos_originais": [
     {
@@ -208,6 +208,13 @@
       "justificativa": "Frase com cerca de 38 palavras, dentro do limite de ~40; a lista de destinos (fortaleza, muralha, casa) é enumerativa e não se beneficiaria de quebra. Subjuntivo \"para que ele me forneça\" correto para oração de propósito. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "da muralha da cidade e da casa que irei ocupar → para a muralha da cidade e para a casa que irei ocupar",
+      "justificativa": "A série 'da muralha... e da casa' criava relação genitiva ambígua com 'vigas' (vigas da muralha?), quando o hebraico marca três destinos coordenados por לְ separados: לְקָרוֹת אֶת שַׁעֲרֵי הַבִּירָה, וּלְחוֹמַת הָעִיר, וְלַבַּיִת. A repetição de 'para' restaura a coordenação e elimina a ambiguidade. — revisão de forma sem alteração de sentido (ER-0031). Revisão de coesão: a lista de destinos da madeira ficou clara com a repetição de 'para', espelhando as três preposições לְ do hebraico. 'Fortaleza junto à casa de Deus' para הַבִּירָה אֲשֶׁר לַבַּיִת é naturalização adequada. 'O rei me concedeu o pedido' verte וַיִּתֶּן לִי הַמֶּלֶךְ com naturalidade.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -230,7 +237,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
