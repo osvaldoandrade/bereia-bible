@@ -7,7 +7,7 @@
     "versiculo": 5,
     "pericope": "Esth.5.1-14"
   },
-  "texto_bv": "O rei disse: “Tragam Hamã depressa, para que se cumpra a palavra de Ester.” E o rei e Hamã foram ao banquete que Ester tinha preparado.",
+  "texto_bv": "O rei disse: “Tragam Hamã depressa, para que se cumpra a palavra de Ester.” O rei e Hamã foram ao banquete que Ester tinha preparado.",
   "traducao_literal": "E disse o rei: \"Apressai a Hamã, para fazer a palavra de Ester.\" E veio o rei e Hamã ao banquete que fez Ester.",
   "termos_originais": [
     {
@@ -151,6 +151,13 @@
       "justificativa": "Aspas retas substituídas por aspas duplas curvas (discurso direto, EDITORIAL.md v1.2.0). — revisão de forma sem alteração de sentido (ER-0028). Fora a pontuação, verso correto; mais-que-perfeito composto \"tinha preparado\" já segue a norma (não sintético).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E o rei e Hamã foram → O rei e Hamã foram",
+      "justificativa": "וַיָּבֹא הַמֶּלֶךְ וְהָמָן — o waw consecutivo inicial antes de sujeito composto já ligado por 'e' produz a cadeia 'E…e…', calque da parataxe hebraica; em português narrativo, a sequencialidade se depreende da ordem dos versos. Banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0031). A única alteração remove o conectivo duplicado 'E o rei e Hamã' → 'O rei e Hamã', eliminando o calque do waw consecutivo antes de coordenado explícito. O discurso direto já está natural.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [],
@@ -165,7 +172,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
