@@ -7,7 +7,7 @@
     "versiculo": 18,
     "pericope": "2Chr.11.1-23"
   },
-  "texto_bv": "Roboão tomou para si como mulher Maalate, filha de Jerimote, filho de Davi, e de Abiail, filha de Eliabe, filho de Jessé.",
+  "texto_bv": "Roboão tomou para si como mulheres Maalate, filha de Jerimote, filho de Davi, e Abiail, filha de Eliabe, filho de Jessé.",
   "traducao_literal": "E tomou para si Roboão uma mulher, Maalate, filha de Jerimote, filho de Davi, Abiail, filha de Eliabe, filho de Jessé.",
   "termos_originais": [
     {
@@ -142,6 +142,13 @@
       "justificativa": "Correto e coeso; leitura de Abiail como mãe de Maalate (não segunda mulher) já fixada na tradução literal e no texto BV, decisão de tradução preexistente, não tocada. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "como mulher Maalate, filha de Jerimote, filho de Davi, e de Abiail, filha de Eliabe, filho de Jessé. → como mulheres Maalate, filha de Jerimote, filho de Davi, e Abiail, filha de Eliabe, filho de Jessé.",
+      "justificativa": "\"e de Abiail\" rompe a coordenação de objetos diretos — a preposição \"de\" não tem regente sintático e induz leitura de Abiail como segunda filiação de Maalate; o plural \"mulheres\" explicita que são duas esposas (אִשָּׁה distributivo no hebraico), evitando ambiguidade de referente. — revisão de forma sem alteração de sentido (ER-0031). Correção de coesão: a cadeia \"como mulher X... e de Y\" quebrava a paralelismo dos dois objetos diretos; a preposição espúria \"de\" e o singular \"mulher\" induziam leitura em que Abiail parecia segunda filiação de Maalate, não segunda esposa de Roboão.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -162,7 +169,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
