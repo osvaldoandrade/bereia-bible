@@ -7,7 +7,7 @@
     "versiculo": 3,
     "pericope": "1Chr.20.1-8"
   },
-  "texto_bv": "Davi retirou o povo que estava nela e o serrou com uma serra, com instrumentos cortantes de ferro e com serras. Davi fazia o mesmo com todas as cidades dos amonitas. Depois Davi e todo o povo voltaram para Jerusalém.",
+  "texto_bv": "Davi retirou o povo que estava nela e o serrou com serras e instrumentos cortantes de ferro. Davi fazia o mesmo com todas as cidades dos amonitas. Depois Davi e todo o povo voltaram para Jerusalém.",
   "traducao_literal": "E o povo que nela, fez sair, e serrou com a serra, e com os cortantes do ferro, e com as serras; e assim fazia Davi a todas as cidades dos filhos de Amom. E voltou Davi e todo o povo a Jerusalém.",
   "termos_originais": [
     {
@@ -183,6 +183,13 @@
       "justificativa": "A repetição do lexema 'serra' (singular no início, plural no fim da lista) reflete o hebraico pinado, que usa a mesma raiz (מְגֵרָה) no primeiro e no terceiro item da enumeração de instrumentos, com 'חֲרִיצֵי הַבַּרְזֶל' (instrumentos cortantes de ferro) entre eles — passa no teste do ceticismo por ser o próprio conteúdo do verso (lista concreta de ferramentas), não um traço estilístico presumido; reduzir a repetição apagaria informação presente no texto-fonte. 'Davi fazia' preserva o aspecto durativo/habitual do imperfeito hebraico (יַעֲשֶׂה). (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "com uma serra, com instrumentos cortantes de ferro e com serras → com serras e instrumentos cortantes de ferro",
+      "justificativa": "Lista de três ferramentas hebraicas (מִגְעָרָה, חֲרִיצֵי הַבַּרְזֶל, מְגֵרוֹת) vertida em duas ocorrências da mesma palavra ('uma serra... e com serras'), redundância que o português não sustenta — compressão legítima dentro da banda de concessão ER-0031; nenhuma ferramenta funcionalmente distinta se perde, pois 'serra' e 'serras' cobrem o mesmo campo semântico em português. — revisão de forma sem alteração de sentido (ER-0031). Compressão da lista de ferramentas eliminando a redundância 'serra/serras'; o restante do verso permanece natural e coeso.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -204,7 +211,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
