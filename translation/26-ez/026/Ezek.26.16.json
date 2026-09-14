@@ -7,7 +7,7 @@
     "versiculo": 16,
     "pericope": "Ezek.26.1-21"
   },
-  "texto_bv": "Todos os príncipes do mar descerão dos seus tronos, tirarão os seus mantos e despirão as suas vestes bordadas; se vestirão de tremor, se sentarão no chão, tremerão a cada instante e ficarão espantados por causa de você.",
+  "texto_bv": "Todos os príncipes do mar descerão dos seus tronos, tirarão os seus mantos e despirão as suas vestes bordadas e se vestirão de tremor, se sentarão no chão, tremerão a cada instante e ficarão espantados por causa de você.",
   "traducao_literal": "E descerão de-sobre tronos-seus todos príncipes-de o-mar, e tirarão mantos-seus, e vestes-de bordado-seu despirão; tremores vestirão, sobre a-terra sentar-se-ão, e tremerão a-momentos, e ficarão-pasmados por-causa-de-ti.",
   "termos_originais": [
     {
@@ -175,6 +175,13 @@
       "justificativa": "Sentença com cerca de 38 palavras, abaixo do limiar de quebra, já segmentada por ponto e vírgula; próclise em início de oração ('se vestirão', 'se sentarão') segue a norma da casa (evitar mesóclise/ênclise inicial). (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "bordadas; se vestirão → bordadas e se vestirão",
+      "justificativa": "Pronome átono \"se\" em início de oração após ponto e vírgula viola a norma culta brasileira (próclise em início de oração é erro); a conjunção \"e\" atrai a próclise e corrige a colocação — revisão de forma sem alteração de sentido (ER-0031). Correção de colocação pronominal: o ponto e vírgula antes de \"se vestirão\" deixava o pronome átono em posição inicial de oração, o que a norma culta veda; a conjunção \"e\" resolve o problema sem perda de conteúdo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [],
@@ -189,7 +196,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
