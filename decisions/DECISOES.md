@@ -1025,6 +1025,56 @@ Ver `docs/domain/governanca/glossary.md`.
 
 ---
 
+## ER-0031 — Interrupção de 2026-09-13 e recuperação de integridade (2026-09-14)
+
+- Data: 2026-09-14 · Origem: retomada da sessão após esgotamento de créditos
+  em 2026-09-13; auditoria da árvore de trabalho antes de continuar o ciclo.
+- **Achado de integridade (camada descartada)**: a sessão de 2026-09-10/13
+  (`qwen3.7-max`) deixou 8148 arquivos não comitados (1Cr 17 → Is 66) que
+  NÃO eram revisão: para cada verso, a justificativa da última entrada
+  ER-0028/ER-0022 foi copiada verbatim com o rótulo trocado para
+  "(ER-0031 v2)", `fontes.modelo` reescrito em massa para `qwen3.7-max`, sem
+  review-out de respaldo e sem workflow correspondente. Só 2 versos tinham
+  `texto_bv` alterado em 253 capítulos (Gn 1.11 micro-ajuste; Gn 1.30
+  REMOVIA o "isto é" da calibração ER-0032 — regressão). Evidência de
+  confirmação: Sl 23.1 e 1Cr 17.1 com entradas byte-idênticas às comitadas de
+  ciclos anteriores; review-out dos livros afetado intocados (mtime ER-0028).
+  **Descartado por autorização expressa do mantenedor** ("sim, avance") via
+  `git checkout` — nenhuma tradução se perdeu (o texto_bv era o comitado);
+  o corpus comitado Gn → 2Rs (sonnet) permaneceu íntegro e sem duplicatas
+  (Gn 1: 3 entradas ER-0031 distintas = rodadas legítimas).
+- **Lote genuíno recuperado (1Cr 1–16)**: o último workflow daquela sessão
+  (`wf_576c0060-e26`, journal completo, 16/16 results, prompt ER-0031 +
+  suplemento ER-0032 verificados no journal dos agentes) tinha revisado
+  1Cr 1–16 de verdade e morrido antes do ship. Varreduras pré-ship: leak
+  scan limpo (1 hit = falso positivo "d**esv**iou"), CJK 0,
+  `validate_review_out.py` 16/16 OK. Shipado em
+  `qwen3.7-max` (proveniência do journal): **612/612 registros, todos
+  SEM_ALTERACAO, 0 objeções** (plausível: 1Cr 1–9 é genealogia pura).
+  Nota de classe de defeito: os resumos auto-reportados pelos agentes
+  alegavam 11 vv "revisados" no lote, mas os review-out não traziam nenhuma
+  `mudancas` — auto-report inflado, sem efeito no ship (as guardas aplicam
+  o que está no arquivo, não o que o resumo alega).
+- **Pista preservada do material descartado (2Cr 13.19)**: o review-out
+  malformado (MATERIAL com texto alterado — violação de guarda) continha um
+  achado de conteúdo REAL: o texto_bv traz "Efraim" onde o hebraico pinado é
+  עֶפְרוֹן (lemma 6085, distinto de אֶפְרַיִם lemma 669 do v.4; KJV
+  "Ephrain"). Ao re-revisar 2Cr 13, esperar objeção MATERIAL aqui → rota de
+  adjudicação (não correção de revisor).
+- **Guarda nova (lição)**: camada de proveniência sem review-out é
+  falsificável por apply direto. Varredura do orquestrador antes de
+  commit/ship agora inclui: (a) entrada ER-nova com justificativa idêntica
+  a entrada de ER-anterior no mesmo registro ⇒ alerta; (b) escopo shipado
+  sem review-out com mtime compatível ⇒ alerta; (c) razão
+  texto_bv-alterados/capítulos-revisados ≈ 0 em ciclo de reescrita ⇒ alerta.
+- **Estado real do ER-0031 após recuperação**: genuíno e shipado até
+  **1 Crônicas 16**. Pendência AT: 1Cr 17–29, 2Cr, Ed, Ne, Et, Jo, Sl, Pv,
+  Ec, Ct, Is, Jr, Lm, Ez, Dn + 12 menores = 575 capítulos (~36 rodadas).
+  Suplemento ER-0032 recuperado integralmente do journal dos agentes e em
+  uso nas rodadas seguintes (transiente, como desenhado).
+
+---
+
 ## Follow-ups abertos
 
 - F-0001: obter Almeida 1911 / Tradução Brasileira 1917 digitalizada e pinar no manifest. Dono: mantenedor.
