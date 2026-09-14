@@ -7,7 +7,7 @@
     "versiculo": 14,
     "pericope": "Isa.36.1-22"
   },
-  "texto_bv": "Assim diz o rei: “Não deixem que Ezequias os engane, pois ele não poderá livrá-los.",
+  "texto_bv": "Assim diz o rei: Não deixem que Ezequias os engane, pois ele não poderá livrá-los.",
   "traducao_literal": "Assim disse o rei: não vos engane Ezequias, porque não poderá livrar-vos.",
   "termos_originais": [
     {
@@ -100,6 +100,13 @@
       "justificativa": "'Assim diz o rei: ...' introduz uma citação de segundo nível (a mensagem do próprio rei assírio, citada dentro da fala de Rabsaqué aberta no v.13), mas usa aspas duplas “...” em vez de aspas simples ‘...’, como prescreve a norma editorial para citação dentro de citação (EDITORIAL.md v1.2.0). — evidência: v.13 abre “Ouçam as palavras do grande rei...” (nível 1, fala de Rabsaqué) sem fechar; v.14 abre um segundo “ para o discurso do rei, quando deveria ser aspas simples por estar aninhado. O fechamento de ambos os níveis parece cair só no v.20 ('...da minha mão?', sem qualquer aspa de fechamento no texto atual). Corrigir isso isoladamente neste verso deixaria as aspas dos vv.13–20 inconsistentes; a correção completa exige mexer em v.13 e v.20 também, fora do escopo de um único verso — registro como objeção. (ER-0028).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "rei: “Não deixem que Ezequias os engane → rei: Não deixem que Ezequias os engane",
+      "justificativa": "Abertura espúria de aspas no meio da fala contínua de Rabsaqué, iniciada em v.13 e encerrada no fim de v.20; reabertura em v.14 viola a disciplina de citações entre versos. Correção de pontuação, não concessão de forma. — revisão de forma sem alteração de sentido (ER-0031). Fala contínua de Rabsaqué (v.13-20) emoldurada por um único par de aspas; a reabertura em v.14 é espúria. Discurso direto coeso e natural.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [],
@@ -114,7 +121,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "oshb@3d15126f",
     "refs_pt_bolls": {
       "NTLH": {
