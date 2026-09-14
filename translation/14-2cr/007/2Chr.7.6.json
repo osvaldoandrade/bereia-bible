@@ -7,7 +7,7 @@
     "versiculo": 6,
     "pericope": "2Chr.7.1-22"
   },
-  "texto_bv": "Os sacerdotes permaneciam em seus postos. Os levitas estavam com os instrumentos de música do SENHOR, que o rei Davi havia feito para dar graças ao SENHOR — “Pois seu amor leal dura para sempre” — quando Davi louvava por meio deles. Os sacerdotes tocavam trombetas diante deles, e todo Israel permanecia em pé.",
+  "texto_bv": "Os sacerdotes permaneciam em seus postos. Os levitas estavam com os instrumentos de música do SENHOR, que o rei Davi havia feito para dar graças ao SENHOR — “Pois seu amor leal dura para sempre” —, e por meio deles Davi louvava. Os sacerdotes tocavam trombetas diante deles, e todo Israel permanecia em pé.",
   "traducao_literal": "E os sacerdotes, sobre seus postos, estavam de pé; e os levitas, com instrumentos de canto do SENHOR que fez Davi, o rei, para dar graças ao SENHOR — “Pois para sempre seu amor leal” — no louvar Davi pela mão deles; e os sacerdotes faziam soar trombetas diante deles, e todo Israel estava de pé.",
   "termos_originais": [
     {
@@ -215,6 +215,13 @@
       "justificativa": "Variação lexical evita repetir 'estava de pé' dobrado do hebraico ('permaneciam'/'tocavam' em vez de repetição literal); o travessão isola a fórmula litúrgica 'Pois seu amor leal dura para sempre' (refrão, NÃO TOQUE) como inserção parentética dentro da oração, não introdução de nova fala — não viola a regra de discurso direto (dois-pontos + aspas), que rege abertura de fala, não citação embutida. (ER-0028 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": " quando Davi louvava por meio deles. → , e por meio deles Davi louvava.",
+      "justificativa": "Oração temporal subordinada ('quando...') convertida em coordenada sindética para evitar ambiguidade de escopo: a cláusula descreve o modo contínuo do louvor davídico por meio dos levitas (בְּתַהֲלֹת דָּוִיד בְּיָדָם), não um evento pontual; a reestruturação elimina a leitura espúria de que a cláusula modificaría 'havia feito'. Banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0031). Reestruturação de coesão: a cláusula 'quando Davi louvava por meio deles', na posição pós-interrupção do aposto com o refrão, gerava ambiguidade de escopo. A coordenação com 'e' restaura a leitura correta de modo/padrão contínuo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -236,7 +243,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
