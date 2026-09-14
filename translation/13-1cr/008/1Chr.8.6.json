@@ -122,6 +122,13 @@
       "justificativa": "texto_bv (e a própria traducao_literal) traz \"Gibeá\", mas o termo hebraico pinado e a KJV de controle apontam para uma cidade distinta (\"Geba\"), não Gibeah/Gibeá; possível confusão entre dois topônimos hebraicos parecidos. Não corrijo por conta própria porque envolve decisão de léxico/DECISOES.md sobre transliteração de topônimos, não forma gramatical, e a própria camada literal (autoridade 2) já traz a mesma grafia. — evidência: Hebraico pinado גֶ֔בַע, lemma Strong 1387 = Geba (cidade distinta de גִּבְעָה/Gibeah, lemma 1390); KJV de controle: \"the inhabitants of Geba\" (não \"Gibeah\"); traducao_literal e texto_bv: \"habitantes de Gibeá\". (ER-0028).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0028"
+    },
+    {
+      "questao": "Manutenção do texto_bv (revisão ER-0031 v2)",
+      "escolha": "texto mantido",
+      "justificativa": "Frase nominal hebraica (\"estes, filhos de Eúde\") transformada em oração copular (\"Estes foram os filhos de Eúde\"). \"Chefes de casas paternas\" é fórmula consolidada no corpus. \"Os deportaram\" resolve corretamente o sufixo 3mp de וַיַּגְל֖וּם. Coesão com janela preservada (os filhos listados em vv.3-5). (ER-0031 v2).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0031"
     }
   ],
   "palavras_supridas": [
@@ -143,7 +150,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-max",
     "refs_pt_bolls": {
       "NTLH": {
         "fonte": "bolls.life",
