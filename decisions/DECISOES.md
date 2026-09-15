@@ -1163,7 +1163,8 @@ Ver `docs/domain/governanca/glossary.md`.
 - Data: 2026-09-15 · Escopo: NT, 260 capítulos (Mt → Ap) · Origem:
   ratificação do mantenedor ("ok") do pacote v1.3.0 (prompt + driver +
   suplemento transiente adaptado ao grego) · Status: **EM ANDAMENTO**
-  (piloto Mt 1–16 concluído e calibrado)
+  (140/260 capítulos shipados — Mt, Mc, Lc, Jo, At e Rm completos +
+  1Co 1–7; 0 objeções MATERIAIS acumuladas; dossiê EDITORIAL estável em 79)
 - Doutrina: extensão da banda de concessão formal do ER-0031 ao NT. As
   duas fidelidades valem como no AT: conteúdo (atores, ações, objetos,
   números, nomes divinos, atos de fala, afirmações teológicas, relações
@@ -1206,12 +1207,50 @@ Ver `docs/domain/governanca/glossary.md`.
   antes do ship (Mt 4.6 "§", Mt 13.4 nomes de versões modernas); "norma
   editorial" confirmada como vocabulário legítimo (1.378 registros shipados
   a usam; EDITORIAL.md é público) e removida dos tokens banidos do scanner.
+- Rodadas pareadas 1–4 (32 agentes por rodada; modelo `qwen3.7-plus` com
+  proveniência verificada por grep nos transcripts `agent-*.jsonl` de cada
+  run): rodada 1 Mt 17–28 + Mc 1–16 (167 revisados — parataxe de καί e
+  cascata εὐθὺς de Mc dominam); rodada 2 Lc 1–24 + Jo 1–8 (75 revisados,
+  +4 EDITORIAIS no dossiê, tip `56936a922`); rodada 3 Jo 9–21 + At 1–19
+  (48 revisados, tip `04569240c`); rodada 4 At 20–28 + Rm 1–16 + 1Co 1–7
+  (12 revisados, tip `0804f6638`). **0 objeções MATERIAIS nas quatro
+  rodadas**; marcos: Evangelhos completos (89 caps), Atos completo (28),
+  Romanos completo (16). Malha por rodada: scan pré-ship → validate →
+  calibração de CADA mudança com checagem NFC do grego citado contra o pin
+  → proveniência → ship único → bvcheck independente → árvore.
+- Jurisprudência de calibração do orquestrador (rodadas 2–4): registro
+  "você" é a norma do corpus — mudança a favor aceita, contra revertida +
+  EDITORIAL (Jo 8.11 clíticos); presente histórico → passado narrativo
+  aceito como norma (Jo 9.12-13); conversão de discurso indireto em direto
+  REJEITADA — ato de fala é conteúdo (Lc 20.37, duplo acusativo no pin:
+  λέγει Κύριον τὸν Θεόν Ἀβραὰμ); costura de citação entre versos — abre no
+  primeiro verso, fecha só no último, nesting interno com aspas simples
+  (At 10.30-33 reconstruído pelo orquestrador; Jo 7.24; At 15.7-11);
+  **pessoa/modo de imperativo em imprecação é conteúdo**: σύνκαμψον é
+  2ª sg. dirigida a Deus (Rm 11.10) — "curve" do agente revertido, "curva"
+  da entrada mantido; evidência alucinada barrada pela checagem NFC do pin
+  (Rm 4.5 citava "δέ + ἀλλά"; o pin traz δέ...δέ); demonstrativo catafórico
+  τοῦτο → "isso" aceito com motivo corrigido (Rm 2.3); duplicatas
+  recuperáveis no próprio verso cedem (Rm 7.10 "para mim" com μοι suprido
+  por "eu morri"; Rm 7.23 inclusio "em meus membros"); genitivo absoluto
+  com anacoluto resolvido nomeando o ator do contexto (At 23.7 τοῦτο δὲ
+  αὐτοῦ λαλοῦντος → "Quando Paulo terminou de falar", + dissensão
+  harmonizado com v.10, mesmo lemma στάσις); verso só-TR (Rm 16.24) e
+  doxologia (Rm 16.25-27) intocados; pin de 1Co 6.20 confirmado SEM a
+  cláusula πνεύματι (leitura TR mais longa) — entrada casa com o Nestle
+  1904; saudação epistolar preservada (1Co 1–4 e 7: zero revisados).
+  Saneamentos pré-ship recorrentes: artefatos CJK de raciocínio (术语),
+  motivos em inglês (nominal clause, producing), citação "§" (Rm 9.4),
+  "regra N" do suplemento — todos convertidos a vocabulário público.
 - Plano: rodadas pareadas (2 workflows concorrentes × ≤16 capítulos = 32
-  agentes, taxa comprovada segura) para os 244 capítulos restantes; por
+  agentes, taxa comprovada segura) para os 120 capítulos restantes; por
   rodada: scan pré-ship, `validate_review_out`, ship
   `-status APPROVED -er ER-0034 -modelo qwen3.7-plus`, bvcheck, push.
-  Objeções MATERIAIS acumuladas vão para adjudicação final **ER-0035**
-  (mecanismo do ER-0033).
+  Rodada 5: 1Co 8–16 + 2Co 1–7 / 2Co 8–13 + Gl 1–6 + Ef 1–4. Sensibilidades
+  à frente: períodos longos de Ef 1.3–14 e Hb, refrões/hinos/"Aleluia" do
+  Apocalipse (protegidos), 1Jo 5.7 sem Comma (locus clausalis), livros
+  unicapitulares (Fm, 2Jo, 3Jo, Jd). Objeções MATERIAIS acumuladas vão
+  para adjudicação final **ER-0035** (mecanismo do ER-0033).
 - Arquivos: `pipeline/prompts/revisor-gramatical-nt.md` v1.3.0 (banner STOP
   removido — AT concluído 929/929, ER-0033 adjudicado) e
   `pipeline/orchestration/grammar-review-driver-nt.workflow.js` (ER-0034;
