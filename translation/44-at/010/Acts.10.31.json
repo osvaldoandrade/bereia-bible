@@ -7,7 +7,7 @@
     "versiculo": 31,
     "pericope": "Acts.10.1-48"
   },
-  "texto_bv": "e disse: \"Cornélio, sua oração foi ouvida, e suas esmolas foram lembradas diante de Deus.\"",
+  "texto_bv": "e disse: 'Cornélio, sua oração foi ouvida, e suas esmolas foram lembradas diante de Deus.",
   "traducao_literal": "e diz: Cornélio, foi ouvida a tua oração e as esmolas tuas foram lembradas diante de Deus.",
   "termos_originais": [
     {
@@ -115,6 +115,13 @@
       "justificativa": "Desbalanceamento das aspas de discurso direto em Atos 10.30-33: o discurso de Cornélio a Pedro abre em v.30 (sem fechar) e só deveria se fechar ao final de v.33; a fala do anjo, citada dentro dele (v.31-32, conforme o paralelo da KJV), deveria vir entre aspas simples de citação aninhada (EDITORIAL.md, \"citação dentro de citação em aspas simples\"), mas está com o mesmo tipo de aspas duplas do discurso externo e fecha neste verso, quando o conteúdo do anjo continua até \"à beira-mar\" em v.32. — evidência: Contagem de aspas em vv.30-33: v.30 abre (\"Há quatro dias...) sem fechar; v.31 abre E fecha (\"Cornélio, sua oração...diante de Deus.\"); v.32 fecha (...à beira-mar.\") sem ter aberto; v.33 fecha (...ordenou.\") legitimamente a abertura de v.30. Resultado: 2 aberturas para 3 fechamentos — desbalanceado. A correção exigiria reescrever v.31 (abrir com aspas simples, sem fechar) e v.32 (fechar com aspas simples) em conjunto, fora da jurisdição de um único verso. (ER-0026).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0026"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e disse: \"Cornélio, sua oração foi ouvida, e suas esmolas foram lembradas diante de Deus.\" → e disse: 'Cornélio, sua oração foi ouvida, e suas esmolas foram lembradas diante de Deus.",
+      "justificativa": "Fala do anjo aninhada dentro da fala de Cornélio (aberta no v.30): citação dentro de citação usa aspas simples conforme a norma editorial; e a fala angélica continua no v.32 ('Envie, pois...'), portanto não fecha neste verso — convenção de costura de citação entre versos — revisão de forma sem alteração de sentido (ER-0034). Aninhamento corrigido: aspas simples para a fala do anjo dentro do discurso de Cornélio; fechamento espúrio no meio da fala angélica removido (ela prossegue no v.32).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0034"
     }
   ],
   "palavras_supridas": [],
@@ -129,7 +136,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
