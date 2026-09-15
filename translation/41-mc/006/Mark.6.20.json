@@ -7,7 +7,7 @@
     "versiculo": 20,
     "pericope": "Mark.6.1-56"
   },
-  "texto_bv": "Pois Herodes temia João, sabendo que era um homem justo e santo, e o protegia; e, ao ouvi-lo, ficava muito perplexo, mas o ouvia de boa vontade.",
+  "texto_bv": "pois Herodes temia João, sabendo que era um homem justo e santo, e o protegia; e, ao ouvi-lo, ficava muito perplexo, mas o ouvia de boa vontade.",
   "traducao_literal": "Pois Herodes temia João, sabendo que ele [era] homem justo e santo, e o protegia, e, tendo-o ouvido muitas vezes, ficava perplexo, e de boa vontade o ouvia.",
   "termos_originais": [
     {
@@ -171,6 +171,13 @@
       "justificativa": "Correto e coeso. A KJV traz \"he did many things\" (πολλὰ ἐποίει, leitura do TR); os termos_originais pinados trazem ἠπόρει (\"ficava perplexo\"), que é o que a BV traduz — variante textual, a BV segue corretamente o Nestle 1904, não a KJV. (ER-0026 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0026"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "Pois Herodes temia João → pois Herodes temia João",
+      "justificativa": "o v.19 termina com vírgula (\"porém não conseguia,\"); o v.20 continua com γάρ explicativo; minúscula preserva a costura do período — revisão de forma sem alteração de sentido (ER-0034). Os vv.19-20 formam um período contínuo: Herodíade queria matar mas não conseguia, pois Herodes protegia João. A minúscula mantém a continuidade sintática. Todo o conteúdo (temor de Herodes, reconhecimento da justiça e santidade de João, proteção, perplexidade ao ouvi-lo, audição de boa vontade) permanece integral.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0034"
     }
   ],
   "palavras_supridas": [],
@@ -187,7 +194,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {

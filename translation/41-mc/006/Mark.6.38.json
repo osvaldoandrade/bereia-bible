@@ -7,7 +7,7 @@
     "versiculo": 38,
     "pericope": "Mark.6.1-56"
   },
-  "texto_bv": "Ele lhes perguntou: \"Quantos pães vocês têm? Vão ver.\" E, tendo verificado, disseram: \"Cinco, e dois peixes.\"",
+  "texto_bv": "Ele lhes perguntou: \"Quantos pães vocês têm? Vão ver.\" Tendo verificado, disseram: \"Cinco, e dois peixes.\"",
   "traducao_literal": "Mas ele diz-lhes: Quantos pães tendes? Ide, vede. E, tendo sabido, dizem: Cinco, e dois peixes.",
   "termos_originais": [
     {
@@ -126,6 +126,13 @@
       "justificativa": "Correto e coeso. (ER-0026 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0026"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "E, tendo verificado, disseram: → Tendo verificado, disseram:",
+      "justificativa": "καί + participial (γνόντες); remoção do \"E\" inicial antes de participial temporal; banda de concessão ER-0031 — revisão de forma sem alteração de sentido (ER-0034). O participial \"tendo verificado\" (γνόντες) já está bem resolvido. Remover o \"E\" inicial evita a abertura paratética. Conteúdo integral (pergunta sobre os pães, verificação, resposta: cinco pães e dois peixes).",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0034"
     }
   ],
   "palavras_supridas": [],
@@ -140,7 +147,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
