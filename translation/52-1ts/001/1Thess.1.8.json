@@ -7,7 +7,7 @@
     "versiculo": 8,
     "pericope": "1Thess.1.1-10"
   },
-  "texto_bv": "Pois de vocês ressoou a palavra do Senhor, não somente na Macedônia e na Acaia, mas em todo lugar a fé de vocês diante de Deus se espalhou, de modo que não temos necessidade de dizer coisa alguma;",
+  "texto_bv": "Pois de vocês ressoou a palavra do Senhor, não somente na Macedônia e na Acaia, mas em todo lugar se espalhou a fé de vocês diante de Deus, de modo que não temos necessidade de dizer coisa alguma;",
   "traducao_literal": "Pois de vós ressoou a palavra do Senhor, não somente em Macedônia e Acaia, mas em todo lugar a fé de vós, a para com Deus, saiu, de modo a não ter nós necessidade de falar algo;",
   "termos_originais": [
     {
@@ -234,6 +234,13 @@
       "justificativa": "Sentença com ~38 palavras, abaixo do limiar de quebra, com conectivos claros (pois/mas/de modo que) que preservam a relação lógica. Ordem 'a fé de vocês diante de Deus se espalhou' mantém sujeito completo antes do verbo, sem ambiguidade de leitura. (ER-0026 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0026"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "mas em todo lugar a fé de vocês diante de Deus se espalhou → mas em todo lugar se espalhou a fé de vocês diante de Deus",
+      "justificativa": "A ordem da entrada separava o sujeito 'a fé de vocês' do verbo por 'diante de Deus'; a antecipação do verbo restaura o fluxo natural do português após o locativo. O par correlato permanece 'não somente... mas', como no pin: οὐ μόνον...ἀλλ' elidido — a elisão antes de ἐν mostra que não há καί subsequente, portanto sem 'também' a completar. Banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0034). Período longo com duas orações coordenadas (ressoou / espalhou); reestruturação pontual melhora coesão sem alterar conteúdo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0034"
     }
   ],
   "palavras_supridas": [],
@@ -248,7 +255,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
