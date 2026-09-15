@@ -1162,10 +1162,11 @@ Ver `docs/domain/governanca/glossary.md`.
 
 - Data: 2026-09-15 · Escopo: NT, 260 capítulos (Mt → Ap) · Origem:
   ratificação do mantenedor ("ok") do pacote v1.3.0 (prompt + driver +
-  suplemento transiente adaptado ao grego) · Status: **EM ANDAMENTO**
-  (203/260 capítulos shipados — Mt, Mc, Lc, Jo, At, Rm, 1Co, 2Co, Gl, Ef,
-  Fp, Cl, 1Ts, 2Ts, 1Tm, 2Tm e Tt completos: corpus paulino inteiro exceto
-  Fm; 0 objeções MATERIAIS acumuladas; dossiê EDITORIAL estável em 79)
+  suplemento transiente adaptado ao grego) · Status: **CONCLUÍDO**
+  (260/260 capítulos shipados — NT inteiro, Mt → Ap; 417 versos revisados
+  no total: piloto 27 + rodadas 1–8 com 167/75/48/12/11/16/13/48;
+  **0 objeções MATERIAIS acumuladas**; dossiê EDITORIAL estável em 79;
+  tip `9d12b5075`; acumulação zero encerrada no ER-0035)
 - Doutrina: extensão da banda de concessão formal do ER-0031 ao NT. As
   duas fidelidades valem como no AT: conteúdo (atores, ações, objetos,
   números, nomes divinos, atos de fala, afirmações teológicas, relações
@@ -1272,21 +1273,137 @@ Ver `docs/domain/governanca/glossary.md`.
   — scan NONLATIN exclui grego por desenho, inspeção de codepoint quando o
   motivo é suspeito; citações da KJV em justificativas de variante textual
   são notas de auditoria legítimas (controle pinado).
-- Plano: rodadas pareadas (2 workflows concorrentes × ≤16 capítulos = 32
-  agentes, taxa comprovada segura) para os 57 capítulos restantes; por
-  rodada: scan pré-ship, `validate_review_out`, ship
-  `-status APPROVED -er ER-0034 -modelo qwen3.7-plus`, bvcheck, push.
-  Rodada 7: Fm 1 + Hb 1–13 + Tg 1–2 / Tg 3–5 + 1Pe 1–5 + 2Pe 1–3 + 1Jo 1–5.
-  Rodada 8 (final): 2Jo 1 + 3Jo 1 + Jd 1 + Ap 1–13 / Ap 14–22.
-  Sensibilidades à frente: períodos longos de Hb e doxologia de Hb 1,
-  imperativos de Tg, código doméstico de 1Pe, 1Jo 5.7 sem Comma (locus
-  clausalis), livros unicapitulares (Fm, 2Jo, 3Jo, Jd), refrões/hinos/
-  "Aleluia" do Apocalipse (protegidos). Objeções MATERIAIS acumuladas vão
-  para adjudicação final **ER-0035** (mecanismo do ER-0033).
+- Rodadas pareadas 7–8 (57 capítulos finais; mesh idêntica às anteriores):
+  rodada 7 Fm 1 + Hb 1–13 + Tg 1–2 (run `wf_bd7f0be5-836`, 16 agentes,
+  195 chamadas qwen3.7-plus) / Tg 3–5 + 1Pe 1–5 + 2Pe 1–3 + 1Jo 1–5 (run
+  `wf_53fd6569-aed`, 16 agentes, 195 chamadas) — ship único das duas
+  metades: **13 revisados** (Hb 4/9/11/13 — doxologia de Hb 1 e períodos
+  longos intocados; Tg 5; 1Pe 3; 2Pe 2; 1Jo 4/5), tip `87d8066cf`.
+  Rodada 8 (final) 2Jo 1 + 3Jo 1 + Jd 1 + Ap 1–13 (run `wf_28e7b3db-31a`,
+  16 agentes, 212 chamadas) / Ap 14–22 (run `wf_fb489913-23f`, 9 agentes,
+  104 chamadas) — **48 revisados / 55 mudanças** (Ap 9 com 16, Ap 19 com
+  10, Ap 4 com 6; 2Jo, 3Jo, Jd, Ap 2 (pós-reversão), Ap 3/5/6/8/10/12/15/
+  17/18/22 intocados), tip `9d12b5075`. **0 objeções MATERIAIS nas oito
+  rodadas + piloto.** 1Jo 5.7 sem Comma confirmado no pin ("Porque três
+  são os que testemunham:", 5 termos). Ap 17: agente falhou o
+  StructuredOutput mas gravou o review-out no disco (padrão F-0014) —
+  validado independentemente, scans limpos, shipado. Proveniência dos
+  quatro runs verificada por grep direto nos `agent-*.jsonl`: 195/195/212/
+  104 chamadas, 100% qwen3.7-plus, zero modelo estranho.
+- Jurisprudência de calibração do orquestrador (rodada 7): ὡς καὶ αὐτοὶ
+  ὄντες ἐν σώματι (Hb 13.3) é FATIVO — o "como se... estivessem" do agente
+  introduzia contrafactualidade ausente do pin (ὄνtes presente = ser real:
+  vocês ESTÃO no corpo); revertido — estranheza formal não licencia
+  mudança de modalidade (precedente Rm 11.10); particípio futuro λόγον
+  ἀποδώσοντες (Hb 13.17) é aspecto marcado = conteúdo — "terá de prestar
+  contas" mantido, citação do motivo corrigida (ἀποδώσοντας → forma real
+  do pin), e o condicional "não seria" da entrada cedeu à afirmação direta
+  do pin (cláusula sem verbo de valor presente); κἂν (Tg 5.15) é crase de
+  καί + ἐάν — o "e" da entrada explicitava o καί crásico, dispensável após
+  ponto e vírgula: remoção aceita com motivo citando a crase; citação
+  οὓς→ὧν corrigida (Hb 13.7); travessão apositivo de 1Jo 5.16 removido no
+  ship — τοῖς ἁμαρτάνουσιν é dativo-objeto indireto de "dará vida", não
+  aposto (proibição da norma editorial; entrada `decisoes` ER-0034);
+  leaks saneados pré-ship: "§"/número de regra do suplemento e CJK 自然
+  (1Pe 3.13, artefato de raciocínio).
+- Jurisprudência de calibração do orquestrador (rodada 8):
+  **ἀποκτενῶ ἐν θανάτῳ (Ap 2.23) REVERTIDO** — infinitivo absoluto
+  hebraico (môt yûmat) dentro de fala citada de Cristo a Tiatira:
+  "matarei de morte" é figura nomeável com força de oráculo; suprimir
+  "de morte" apagaria ênfase que é conteúdo (a citação do agente omitia
+  ἐν e rotulava mal a figura). **Hino de Ap 19.7 REVERTIDO** — o verso
+  está DENTRO do hino citado (aspas abrem no v.6 após "dizendo:", fecham
+  no v.8): refrões/hinos do Apocalipse são norma do corpus (mesma
+  proteção de 1Co 13 na rodada 5); χαίρωμεν καὶ ἀγαλλιῶμεν καὶ δώσομεν
+  τὴν δόξαν αὐτῷ — o futuro δώσομεν com força coortativa na cadeia de
+  subjuntivos é traço do original, já vertido pela entrada. **Presente
+  dramático φεύγει (Ap 9.6) restaurado** entre futuros (ζητήσουσιν, οὐ μὴ
+  εὑρήσουσιν, ἐπιθυμήσουσιν) — distinção de tempo marcada no pin é
+  conteúdo; só a parataxe inicial cedeu. **εἰς direcional (Ap 9.3)**:
+  ἐξῆλθον ἀκρίδες εἰς τὴν γῆν com verbo de movimento pede "para a terra"
+  — "sobre" deslocaria para leitura locativa; contraste com 9.1
+  πεπτωκότα εἰς τὴν γῆν (particípio estativo de resultado), onde "sobre
+  a terra" foi aceito. **Fórmula dominante do corpus (Ap 9.20)**:
+  "obras das suas mãos" (τὰ ἔργα τῶν χειρῶν αὐτῶν) — grep: "das suas
+  mãos" 65×/33 arquivos vs. 4×/1 da simplificação possessiva isolada;
+  jurisprudência Eph.6.24 (grep do corpus decide substituição em verso
+  isolado). **Motivo falso barrado (Ap 9.11)**: agente alegou "parataxe
+  de καί implícita" — o pin inicia ἔχουσιν ἐπ' αὐτῶν βασιλέα sem
+  conectivo; texto aceito (elipse de sujeito espelha ἔχουσιν... ἔχουσιν
+  dos vv.10-11), motivo reescrito. **Reparo de aspas Ap 14.10↔14.11**: a
+  fala do terceiro anjo abre no v.9 e corre contínua pelos vv.10–11 (pin:
+  καὶ ὁ καπνὸς... οἱ προσκυνοῦντες τὸ θηρίον καὶ εἴ τις λαμβάνει τὸ
+  χάραγμα); o v.12 volta à voz narrativa (Ὧδε ἡ ὑπομονὴ τῶν ἁγίων). O
+  agente fechava aspas no v.10 com glifo RETO (U+0022) — lugar errado
+  (meio de fala contínua) + glifo errado; 14.10 revertido, fechamento
+  U+201D acrescentado ao fim de 14.11 (capítulo fecha 6 aberturas / 6
+  fechamentos — a entrada tinha 6/5, queixa herdada reparada). Rótulos
+  gramaticais corrigidos contra o pin: ὡς σάλπιγγος λαλούσης (Ap 4.1) é
+  sintagma genitivo dependente de ὡς, não genitivo absoluto; σειομένη
+  (Ap 6.13) é V-PEP-NSF — particípio circunstancial nominativo em
+  concordância com συκῆ, não genitivo absoluto; "foi-lhe dada"/"Foi-lhes
+  dito" (Ap 9.1/9.4) são ênclise, não próclise; contagens de "e"
+  emendadas (Ap 20.4: três no primeiro período, não quatro; Ap 20.9:
+  cinco, não quatro); citação completada (Ap 16.10: αὐτῶν omitido pelo
+  agente; "morder as línguas de dor" aceito — possessivo inalienável
+  recuperável). **Cirílico #2** (3Jo 1.3 "паралело", após o ômicron de
+  1Tm 6.21) — scan NONLATIN pegou. Batelada de jargão não-português
+  saneada em duas varreduras (grep ampliado pós-fix ainda achou
+  residuais): semicolon/semicolónios→ponto e vírgula, asyndeton→
+  assíndeto, makarismo→macarismo, triplet→tríade, τρία consecutive→três
+  ações consecutivas, relations lógicas→relações lógicas, fourfold
+  formula→fórmula quádrupla, switching→alternância, apóse (não-palavra)→
+  aposto/expressão, participéio/participio→particípio. Citações de agente
+  confirmadas exatas contra o pin (sem correção): Ap 7.11 ἐπὶ τὰ πρόσωπα
+  αὐτῶν; Ap 13.14 ἔχει presente (Nestle 1904 — suspeita do orquestrador
+  errada) e ἃ ἐδόθη singular sustentando "foi dado fazer"; Ap 1.12 duplo
+  ἐπιστρέφω real (ἐπέστρεψα... ἐπιστρέψας); Ap 4.8 Sanctus + ὁ ἦν καὶ ὁ
+  ὢν καὶ ὁ ἐρχόμενος; Ap 13.5 cinco versos abrindo em "E" (vv.4–8).
+- Fecho: **NT 260/260 capítulos shipados sob o ER-0034** — piloto Mt
+  1–16 + 8 rodadas pareadas, 417 versos revisados, 0 objeções MATERIAIS
+  em toda a campanha, dossiê EDITORIAL +4 (79 no total, estável desde a
+  rodada 2). Malha mantida até o último lote: scan pré-ship →
+  `validate_review_out` → calibração de CADA mudança com dump do pin →
+  proveniência → ship único → bvcheck independente (25/25 dirs, 0
+  falhas) → árvore de trabalho (só audio-workstream pendente).
 - Arquivos: `pipeline/prompts/revisor-gramatical-nt.md` v1.3.0 (banner STOP
   removido — AT concluído 929/929, ER-0033 adjudicado) e
   `pipeline/orchestration/grammar-review-driver-nt.workflow.js` (ER-0034;
   passo 3 obrigatório `validate_review_out.py`).
+
+---
+
+## ER-0035 — Adjudicação final das objeções MATERIAIS acumuladas no NT (ER-0034)
+
+- Data: 2026-09-15 · Escopo: objeções MATERIAIS acumuladas no piloto + 8
+  rodadas pareadas do ER-0034 (NT, 260 capítulos) · Mecanismo: herança do
+  ER-0033 (adjudicação independente, vereditos PROCEDE/IMPROCEDE,
+  `persist_adjudication.py`, disciplina F-0019) · Status: **ENCERRADO —
+  ACUMULAÇÃO ZERO**
+- Resultado: a campanha ER-0034 inteira (417 versos revisados; runs e
+  proveniência registrados na entrada do ER-0034) terminou com **0
+  objeções MATERIAIS acumuladas** — não houve matéria a adjudicar.
+  Nenhuma colisão de conteúdo (atores, ações, objetos, números, nomes
+  divinos, atos de fala, afirmações teológicas, relações lógicas e
+  temporais) entre o corpus NT e o pin Nestle 1904 foi levantada pelos
+  agentes de revisão (um por capítulo), e a calibração do orquestrador —
+  que reverteu toda mudança proposta que tocasse conteúdo marcado (Hb
+  13.3 ὄντες factivo, Hb 13.17 particípio futuro, Ap 2.23 hebraísmo, Ap
+  19.7 hino, Ap 9.6 presente dramático) — não converteu nenhuma em
+  objeção: em todos os casos a ENTRADA já respeitava o pin e o desvio
+  pertencia à proposta do agente, nunca ao corpus shipado.
+- Efeito: somado ao ER-0033 (AT: 29 PROCEDE / 6 IMPROCEDE em 35 versos,
+  commit `1aae5de5a`), **o cânone inteiro (1189 capítulos, AT + NT)
+  permanece com zero objeção MATERIAL aberta** — estado atingido em
+  2026-09-14 e reconfirmado em 2026-09-15 com o NT completo.
+- Pendências que NÃO bloqueiam o cânone: dossiê EDITORIAL de 79 objeções
+  (não residentes nos registros) aguarda política canônica do
+  mantenedor; F-0024 (tipografia: 1.281 versos com aspas retas + Fase G
+  travessão) desbloqueado — a pré-condição "depois do passo de
+  compreensão" está satisfeita para todo o cânone (AT 2026-09-14, NT
+  2026-09-15).
+- `bvcheck`: 25/25 diretórios da rodada 8 limpos no ship final; tip
+  `9d12b5075` (pushed).
 
 ---
 
@@ -1377,4 +1494,6 @@ Ver `docs/domain/governanca/glossary.md`.
   respeite citações contínuas entre versículos (fala abre no primeiro verso e
   fecha no último); registrar como pontuação; commits por livro; bvcheck por
   capítulo. Rodar DEPOIS que o passo de compreensão (ER-0032) tiver passado
-  pelo livro, para não sobrepor edições. Dono: mantenedor.
+  pelo livro, para não sobrepor edições. **Pré-condição satisfeita em
+  2026-09-15**: AT completo (ER-0031/ER-0032/ER-0033) e NT completo
+  (ER-0034/ER-0035) — desbloqueado para todo o cânone. Dono: mantenedor.
