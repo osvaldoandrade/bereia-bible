@@ -1163,8 +1163,9 @@ Ver `docs/domain/governanca/glossary.md`.
 - Data: 2026-09-15 · Escopo: NT, 260 capítulos (Mt → Ap) · Origem:
   ratificação do mantenedor ("ok") do pacote v1.3.0 (prompt + driver +
   suplemento transiente adaptado ao grego) · Status: **EM ANDAMENTO**
-  (140/260 capítulos shipados — Mt, Mc, Lc, Jo, At e Rm completos +
-  1Co 1–7; 0 objeções MATERIAIS acumuladas; dossiê EDITORIAL estável em 79)
+  (203/260 capítulos shipados — Mt, Mc, Lc, Jo, At, Rm, 1Co, 2Co, Gl, Ef,
+  Fp, Cl, 1Ts, 2Ts, 1Tm, 2Tm e Tt completos: corpus paulino inteiro exceto
+  Fm; 0 objeções MATERIAIS acumuladas; dossiê EDITORIAL estável em 79)
 - Doutrina: extensão da banda de concessão formal do ER-0031 ao NT. As
   duas fidelidades valem como no AT: conteúdo (atores, ações, objetos,
   números, nomes divinos, atos de fala, afirmações teológicas, relações
@@ -1207,15 +1208,21 @@ Ver `docs/domain/governanca/glossary.md`.
   antes do ship (Mt 4.6 "§", Mt 13.4 nomes de versões modernas); "norma
   editorial" confirmada como vocabulário legítimo (1.378 registros shipados
   a usam; EDITORIAL.md é público) e removida dos tokens banidos do scanner.
-- Rodadas pareadas 1–4 (32 agentes por rodada; modelo `qwen3.7-plus` com
-  proveniência verificada por grep nos transcripts `agent-*.jsonl` de cada
+- Rodadas pareadas 1–6 (32 agentes por rodada; modelo `qwen3.7-plus` com
+  proveniência verificada por grep no transcripts `agent-*.jsonl` de cada
   run): rodada 1 Mt 17–28 + Mc 1–16 (167 revisados — parataxe de καί e
   cascata εὐθὺς de Mc dominam); rodada 2 Lc 1–24 + Jo 1–8 (75 revisados,
   +4 EDITORIAIS no dossiê, tip `56936a922`); rodada 3 Jo 9–21 + At 1–19
   (48 revisados, tip `04569240c`); rodada 4 At 20–28 + Rm 1–16 + 1Co 1–7
-  (12 revisados, tip `0804f6638`). **0 objeções MATERIAIS nas quatro
-  rodadas**; marcos: Evangelhos completos (89 caps), Atos completo (28),
-  Romanos completo (16). Malha por rodada: scan pré-ship → validate →
+  (12 revisados, tip `0804f6638`); rodada 5 1Co 8–16 + 2Co 1–7 / 2Co 8–13 +
+  Gl 1–6 + Ef 1–4 (11 revisados — 1Co 8–16 inteiramente intocado: Ceia
+  11.23-26, hino de 1Co 13 e ressurreição de 1Co 15 protegidos; 2Co 11.26
+  anáfora κινδύνοις×8 preservada; tip `6ae213775`); rodada 6 Ef 5–6 +
+  Fp 1–4 + Cl 1–4 + 1Ts 1–5 / 2Ts 1–3 + 1Tm 1–6 + 2Tm 1–4 + Tt 1–3
+  (16 revisados — hino cristológico Fp 2.6-11 intocado; tip `757445719`).
+  **0 objeções MATERIAIS nas seis rodadas**; marcos: Evangelhos completos
+  (89 caps), Atos completo (28), Romanos completo (16), corpus paulino
+  completo exceto Fm. Malha por rodada: scan pré-ship → validate →
   calibração de CADA mudança com checagem NFC do grego citado contra o pin
   → proveniência → ship único → bvcheck independente → árvore.
 - Jurisprudência de calibração do orquestrador (rodadas 2–4): registro
@@ -1242,14 +1249,39 @@ Ver `docs/domain/governanca/glossary.md`.
   Saneamentos pré-ship recorrentes: artefatos CJK de raciocínio (术语),
   motivos em inglês (nominal clause, producing), citação "§" (Rm 9.4),
   "regra N" do suplemento — todos convertidos a vocabulário público.
+- Jurisprudência de calibração do orquestrador (rodadas 5–6): αὐτὴν =
+  "a mesma/igual", nunca "justa" — 2Co 6.13 revertido ("justa retribuição"
+  acrescentava avaliação de equidade ausente de τὴν αὐτὴν ἀντιμισθίαν);
+  reorganização EM DIREÇÃO à sintaxe do pin aceita como correção real
+  (Gl 5.10 πέποιθα εἰς ὑμᾶς = confiança dirigida aos gálatas, ἐν Κυρίῳ =
+  esfera; Gl 5.5 ἐλπίδα δικαιοσύνης restaurado como objeto); objeto direto
+  preposicionado com objeto pessoal É norma do corpus — Eph 6.24 revertido
+  ("amam a nosso Senhor"; grep do corpus: "amaram ao SENHOR" ×35, "amar a
+  Deus" ×25; alegação de "erro de regência" falsa, substituição de norma em
+  verso isolado barrada); ὅτι interpretativamente aberto após εἰς καύχημα
+  (Fp 2.16) — fixar "pois" escolheria relação lógica, teto de conteúdo:
+  revertido; ἐξαυτῆς é advérbio distinto de ὡς ἂν (Fp 2.23) — "logo"
+  reanexado a "enviar", não removido; ἀλλ' elidido antes de ἐν (1Ts 1.8)
+  prova ausência de καί subsequente — "também" acrescentado pelo agente
+  removido (a elisão é detector); ἀγαπητοὶ simples no pin (1Ts 2.8) —
+  intensificador "muito" confessado sem base removido, "queridos" mantido;
+  pois×2 no mesmo verso barrado (1Tm 4.8: verso abre com "Pois" para γὰρ —
+  conectivo emendado para "porque"); 'suplemento' como palavra lexical
+  portuguesa inocente segue sendo token banido (2Co 8.3, 2Co 11.11);
+  ômicron grego U+03BF disfarçado de artigo português em motivo (1Tm 6.21)
+  — scan NONLATIN exclui grego por desenho, inspeção de codepoint quando o
+  motivo é suspeito; citações da KJV em justificativas de variante textual
+  são notas de auditoria legítimas (controle pinado).
 - Plano: rodadas pareadas (2 workflows concorrentes × ≤16 capítulos = 32
-  agentes, taxa comprovada segura) para os 120 capítulos restantes; por
+  agentes, taxa comprovada segura) para os 57 capítulos restantes; por
   rodada: scan pré-ship, `validate_review_out`, ship
   `-status APPROVED -er ER-0034 -modelo qwen3.7-plus`, bvcheck, push.
-  Rodada 5: 1Co 8–16 + 2Co 1–7 / 2Co 8–13 + Gl 1–6 + Ef 1–4. Sensibilidades
-  à frente: períodos longos de Ef 1.3–14 e Hb, refrões/hinos/"Aleluia" do
-  Apocalipse (protegidos), 1Jo 5.7 sem Comma (locus clausalis), livros
-  unicapitulares (Fm, 2Jo, 3Jo, Jd). Objeções MATERIAIS acumuladas vão
+  Rodada 7: Fm 1 + Hb 1–13 + Tg 1–2 / Tg 3–5 + 1Pe 1–5 + 2Pe 1–3 + 1Jo 1–5.
+  Rodada 8 (final): 2Jo 1 + 3Jo 1 + Jd 1 + Ap 1–13 / Ap 14–22.
+  Sensibilidades à frente: períodos longos de Hb e doxologia de Hb 1,
+  imperativos de Tg, código doméstico de 1Pe, 1Jo 5.7 sem Comma (locus
+  clausalis), livros unicapitulares (Fm, 2Jo, 3Jo, Jd), refrões/hinos/
+  "Aleluia" do Apocalipse (protegidos). Objeções MATERIAIS acumuladas vão
   para adjudicação final **ER-0035** (mecanismo do ER-0033).
 - Arquivos: `pipeline/prompts/revisor-gramatical-nt.md` v1.3.0 (banner STOP
   removido — AT concluído 929/929, ER-0033 adjudicado) e
