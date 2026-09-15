@@ -7,7 +7,7 @@
     "versiculo": 2,
     "pericope": "Luke.7.1-50"
   },
-  "texto_bv": "Um centurião tinha um servo que lhe era muito estimado; e esse servo, estando doente, estava prestes a morrer.",
+  "texto_bv": "Um centurião tinha um servo que lhe era muito estimado; e esse servo, gravemente enfermo, estava prestes a morrer.",
   "traducao_literal": "De-um-centurião, um servo, mal tendo(-se), estava-para morrer, o qual lhe era precioso.",
   "termos_originais": [
     {
@@ -111,6 +111,13 @@
       "justificativa": "Sintaxe já reestruturada de forma natural a partir do literal grego; regência e concordância corretas. (ER-0026 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0026"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "estando doente, estava → gravemente enfermo, estava",
+      "justificativa": "κακῶς ἔχων indica enfermidade grave, não apenas 'doente'; a eco de 'estando/estava' é pesado em português; banda de concessão ER-0031 — revisão de forma sem alteração de sentido (ER-0034). κακῶς ἔχων (literalmente 'tendo-se mal') é expressão grega para doença grave. 'gravemente enfermo' captura a intensidade e elimina a repetição sonora de 'estando/estava'.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0034"
     }
   ],
   "palavras_supridas": [
@@ -127,7 +134,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
