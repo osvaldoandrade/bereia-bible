@@ -1158,6 +1158,67 @@ Ver `docs/domain/governanca/glossary.md`.
 
 ---
 
+## ER-0034 — Re-revisão gramatical do NT sob a doutrina de concessão do ER-0031 (pin grego Nestle 1904)
+
+- Data: 2026-09-15 · Escopo: NT, 260 capítulos (Mt → Ap) · Origem:
+  ratificação do mantenedor ("ok") do pacote v1.3.0 (prompt + driver +
+  suplemento transiente adaptado ao grego) · Status: **EM ANDAMENTO**
+  (piloto Mt 1–16 concluído e calibrado)
+- Doutrina: extensão da banda de concessão formal do ER-0031 ao NT. As
+  duas fidelidades valem como no AT: conteúdo (atores, ações, objetos,
+  números, nomes divinos, atos de fala, afirmações teológicas, relações
+  lógicas e temporais) é teto absoluto — colisão ⇒ objeção MATERIAL, texto
+  intocado; forma (sintaxe literal, parataxe de καί, marcadores discursivos,
+  molduras formulaicas, cadeias de genitivo, genitivo absoluto) cede dentro
+  da banda. Hierarquia v1.3.0 idêntica à do AT (conteúdo > gramática >
+  coesão > naturalidade > literalidade formal > elegância); os cânones do
+  mantenedor (Gn 1.31, Gn 1.30) vinculam a largura da banda. As classes de
+  vício gregas (parataxe καί extrema em Mc/At, cascata εὐθὺς "e logo" em
+  Mc 1 — formulação variável, semântica de imediatismo preservada; ἰδού
+  "eis que" existente = norma congelada do corpus; molduras ἐγένετο;
+  ἀποκριθεὶς εἶπεν; relativos pesados; períodos epistolares de 60–90
+  palavras, Ef 1.3–14) são calibração operativa da MESMA banda, não novas
+  calibrações do mantenedor.
+- Suplemento de compreensão do ER-0032 adaptado ao grego, injetado apenas
+  nos args do workflow: nunca no repositório, nunca mencionado em campo
+  persistido (três camadas de silêncio).
+- Autoridade textual: pin Nestle 1904 (`termos_originais`) >
+  `traducao_literal` > controles kjv-read-against-TR. Detector textual
+  corrigido: palavra/cláusula/verso na KJV (TR) que o pin não sustenta ⇒
+  variante textual — nunca MATERIAL "BV omitiu", nunca importar leitura TR
+  (ADR-0005). O Nestle 1904 IMPRIME Mc 16.9-20, Jo 7.53–8.11 e Jo 5.4 —
+  estão pinados, ali não há divergência. Versos só-TR ausentes do corpus:
+  Mt 17.21, 18.11, 23.14; Mc 7.16, 9.44/46, 11.26, 15.28; Lc 17.36, 23.17;
+  At 8.37, 15.34, 24.7, 28.29; Rm 16.24. Loci clausais: Mt 6.13 (sem
+  doxologia), 1Jo 5.7 (sem Comma), At 8.37.
+- Piloto Mt 1–16 (run `wf_7b443ea6-674`, 16 agentes, 0 erros, 5m35s):
+  modelo `qwen3.7-plus` (proveniência verificada no journal: 322/322
+  chamadas). Resultado: 27 REVISADO / 551 SEM_ALTERACAO, 33 mudanças,
+  **0 objeções MATERIAIS, 0 EDITORIAIS**. Calibração do orquestrador contra
+  a banda antes do ship: 33/33 aprovadas (calques de ἀποκριθεὶς εἶπεν,
+  parataxe de καί, genitivo absoluto Ὀψίας δὲ γενομένης → "Ao anoitecer"
+  Mt 8.16, δὲ → "porém", relação de γάρ corrigida Mt 15.27, alinhamento de
+  tratamento em Mt 4.6-7/10 coerente com os paralelos de Lc 4.8/12, fecho de
+  citação entre versos Mt 11.15/11.27 — aberturas sem fecho confirmadas nos
+  digests, glifo curvo preservado). Spot-check dos pins citados nas
+  justificativas: 6/6 presentes (2 falsos negativos = artefato de
+  normalização NFC/NFD, não evidência alucinada). Dois leaks reais sanados
+  antes do ship (Mt 4.6 "§", Mt 13.4 nomes de versões modernas); "norma
+  editorial" confirmada como vocabulário legítimo (1.378 registros shipados
+  a usam; EDITORIAL.md é público) e removida dos tokens banidos do scanner.
+- Plano: rodadas pareadas (2 workflows concorrentes × ≤16 capítulos = 32
+  agentes, taxa comprovada segura) para os 244 capítulos restantes; por
+  rodada: scan pré-ship, `validate_review_out`, ship
+  `-status APPROVED -er ER-0034 -modelo qwen3.7-plus`, bvcheck, push.
+  Objeções MATERIAIS acumuladas vão para adjudicação final **ER-0035**
+  (mecanismo do ER-0033).
+- Arquivos: `pipeline/prompts/revisor-gramatical-nt.md` v1.3.0 (banner STOP
+  removido — AT concluído 929/929, ER-0033 adjudicado) e
+  `pipeline/orchestration/grammar-review-driver-nt.workflow.js` (ER-0034;
+  passo 3 obrigatório `validate_review_out.py`).
+
+---
+
 ## Follow-ups abertos
 
 - F-0001: obter Almeida 1911 / Tradução Brasileira 1917 digitalizada e pinar no manifest. Dono: mantenedor.
