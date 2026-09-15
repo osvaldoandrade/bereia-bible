@@ -7,7 +7,7 @@
     "versiculo": 23,
     "pericope": "Luke.8.1-56"
   },
-  "texto_bv": "Enquanto navegavam, ele adormeceu. E desceu sobre o lago uma tempestade de vento, e o barco ia se enchendo de água, e eles corriam perigo.",
+  "texto_bv": "Enquanto navegavam, ele adormeceu. Desceu sobre o lago uma tempestade de vento; o barco ia se enchendo de água, e eles corriam perigo.",
   "traducao_literal": "Navegando eles, ele adormeceu. E desceu tempestade de vento sobre o lago, e enchiam-se e corriam-perigo.",
   "termos_originais": [
     {
@@ -126,6 +126,13 @@
       "justificativa": "\"corriam\" (verbo plural) ficava sem sujeito plural recuperável na oração corrente, cuja outra oração coordenada tem sujeito singular (\"o barco\"); o antecedente plural mais próximo (implícito em \"navegavam\", v. inicial) ficava duas orações atrás. Inserido \"eles\" para restaurar a cadeia referencial, sem alterar o sentido — o grego já usa verbos no plural aqui (συνεπληροῦντο, ἐκινδύνευον). — revisão de forma sem alteração de sentido (ER-0026). Correção de coesão: \"corriam perigo\" (verbo plural) ficava sem sujeito plural recuperável na própria oração, pois a oração anterior tinha sujeito singular (\"o barco ia se enchendo\"); o antecedente plural mais próximo (implícito em \"navegavam\") ficava duas orações atrás. Inserido o pronome \"eles\" para restaurar a cadeia referencial, sem alterar o sentido — o grego já traz verbos no plural aqui (συνεπληροῦντο, ἐκινδύνευον).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0026"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "adormeceu. E desceu → adormeceu. Desceu | vento, e o barco → vento; o barco",
+      "justificativa": "Parataxe de καί após ponto — o καί inicial de novo período é forma grega; o português narrativo abre a oração sem conectivo aditivo; banda de concessão ER-0031. | Parataxe de καί em cascata (três cláusulas ligadas por καί); o ponto e vírgula marca a progressão sem repetir conectivo; banda de concessão ER-0031. — revisão de forma sem alteração de sentido (ER-0034). A cena da tempestade tem três eventos em cadeia no grego (κατέβη... καὶ συνεπληροῦντο καὶ ἐκινδύνευον); a redução dos καί a pausas (ponto, ponto e vírgula) preserva a progressão narrativa e produz português mais fluido.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0034"
     }
   ],
   "palavras_supridas": [
@@ -145,7 +152,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
