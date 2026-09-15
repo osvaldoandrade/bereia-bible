@@ -7,7 +7,7 @@
     "versiculo": 42,
     "pericope": "Luke.1.1-80"
   },
-  "texto_bv": "e exclamou em alta voz: \"Bendita é você entre as mulheres, e bendito o fruto do seu ventre!",
+  "texto_bv": "Exclamou em alta voz: \"Bendita é você entre as mulheres, e bendito o fruto do seu ventre!",
   "traducao_literal": "e exclamou com grande clamor e disse: Bendita tu entre as mulheres, e bendito o fruto do teu ventre.",
   "termos_originais": [
     {
@@ -132,6 +132,13 @@
       "justificativa": "Texto correto, coeso e fiel ao grego pinado; nenhuma alteração necessária. (ER-0026 v2).",
       "alternativas_rejeitadas": [],
       "diretriz_ref": "ER-0026"
+    },
+    {
+      "questao": "Revisão editorial do texto_bv",
+      "escolha": "e exclamou → Exclamou",
+      "justificativa": "conectivo 'e' após ponto final do verso anterior; verso anterior encerra sequência com período, e o 'e' inicial produz justaposição em vez de continuidade natural; banda de concessão ER-0031 — revisão de forma sem alteração de sentido (ER-0034). Removido 'e' inicial após ponto final do v.41; o sujeito (Isabel) é recuperável pelo contexto, e o verbo em primeira posição é natural em português narrativo.",
+      "alternativas_rejeitadas": [],
+      "diretriz_ref": "ER-0034"
     }
   ],
   "palavras_supridas": [],
@@ -146,7 +153,7 @@
     "prompts_versao": "1.2.3",
     "regras_versao": "1.2.0",
     "lexico_versao": "0.6.1",
-    "modelo": "claude-sonnet-5",
+    "modelo": "qwen3.7-plus",
     "texto_fonte": "nestle1904@713f28a3",
     "refs_pt_bolls": {
       "NTLH": {
