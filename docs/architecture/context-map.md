@@ -25,6 +25,13 @@ flowchart LR
       BVQA[cmd/bvqa]
       CHK[internal/schemavalidate + cmd/bvcheck]
     end
+    subgraph AUD[Audio Production — local]
+      BADAPT[Bereia read-only adapter]
+      NDIR[Codex narration director]
+      INTEG[Text integrity gate]
+      CTTS[Chatterbox MLX]
+      MAST[FFmpeg masters]
+    end
     SRC --> OSHB --> BVSRC -->|file handoff| PKT
     SRC --> N1904 --> BVSRC
     PKT --> PIPE -->|registros| TR
@@ -34,6 +41,8 @@ flowchart LR
     SIM --> BVQA
     TR --> CHK
     ER -->|ratificação REVIEW→APPROVED| TR
+    TR -->|read-only verse projection| BADAPT
+    BADAPT --> NDIR --> INTEG --> CTTS --> MAST
 ```
 
 ## Contextos e integração
@@ -44,9 +53,15 @@ flowchart LR
 | **Editorial** | `pipeline/`, `lexicon/`, `translation/` | perícope (agregado), versículo (entidade), proposta, consolidação, refutação, adjudicação, LexiconEntry | ← packets; → registros; lê diretrizes ER |
 | **Governança** | `decisions/`, `docs/adr/` | Diretriz Editorial (ER-*), ADR, ratificação | vincula Editorial; registra ratificações |
 | **QA** | `internal/similarity`, `internal/schemavalidate`, `cmd/bvqa`, `cmd/bvcheck` | similaridade, n-gram, LCS, contaminação, conformidade de schema | ← registros/controles via arquivo |
+| **Audio Production** | `src/bereia_audio`, `character_registry.json`, `voices/`, `output/` | source unit, narration plan, character, voice profile, generation fingerprint, chapter master | ← Editorial by read-only file projection; → Codex, pinned Hugging Face snapshots, and FFmpeg through adapters |
 
 Todas as integrações são **file handoff** (sem rede, sem RPC). Owner de todos os
 contextos: Osvaldo Andrade (mantenedor). Glossários: `docs/domain/<contexto>/glossary.md`.
+
+Audio Production is the sole exception to the original no-network statement:
+its local adapters invoke the authenticated Codex CLI and download two pinned
+model snapshots. It never exposes a server or writes back to Editorial. The
+network-boundary decision and rollback live in ADR-0006.
 
 ## Decisões estruturais (registradas em ADR-0001)
 

@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bereia.dev/schemas/narration-artifact.schema.json",
+  "title": "Narration Artifact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "book",
+    "chapter",
+    "source_commit",
+    "source_dirty",
+    "source_sha256",
+    "source_verses",
+    "narration_model",
+    "narration_prompt_version",
+    "analyzed_at",
+    "literary_type",
+    "character_registry_sha256_at_analysis",
+    "character_bindings",
+    "segments"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "book": { "type": "string" },
+    "chapter": { "type": "integer", "minimum": 1 },
+    "source_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+    "source_dirty": { "type": "boolean" },
+    "source_sha256": { "$ref": "#/$defs/sha256" },
+    "source_verses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["osis", "verse", "sha256"],
+        "properties": {
+          "osis": { "type": "string" },
+          "verse": { "type": "integer", "minimum": 1 },
+          "sha256": { "$ref": "#/$defs/sha256" }
+        }
+      }
+    },
+    "narration_model": { "type": "string" },
+    "narration_prompt_version": { "type": "string" },
+    "analyzed_at": { "type": "string", "format": "date-time" },
+    "literary_type": { "type": "string" },
+    "character_registry_sha256_at_analysis": { "$ref": "#/$defs/sha256" },
+    "character_bindings": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/segment" }
+    }
+  },
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "segment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "segment_id",
+        "unit_ids",
+        "verse_start",
+        "verse_end",
+        "source_start",
+        "source_end",
+        "text",
+        "speaker",
+        "character",
+        "voice_id",
+        "tone",
+        "emotion",
+        "intensity",
+        "pace",
+        "exaggeration",
+        "cfg_weight",
+        "temperature",
+        "repetition_penalty",
+        "min_p",
+        "top_p",
+        "pause_before_ms",
+        "pause_after_ms",
+        "prosody"
+      ],
+      "properties": {
+        "segment_id": { "type": "string", "pattern": "^s[0-9]{4}$" },
+        "unit_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "verse_start": { "type": "integer", "minimum": 1 },
+        "verse_end": { "type": "integer", "minimum": 1 },
+        "source_start": { "type": "integer", "minimum": 0 },
+        "source_end": { "type": "integer", "minimum": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "speaker": { "type": "string" },
+        "character": { "type": ["string", "null"] },
+        "voice_id": { "type": "string" },
+        "tone": { "type": "string" },
+        "emotion": { "type": "string" },
+        "intensity": { "type": "number" },
+        "pace": { "type": "number" },
+        "exaggeration": { "type": "number" },
+        "cfg_weight": { "type": "number" },
+        "temperature": { "type": "number" },
+        "repetition_penalty": { "type": "number" },
+        "min_p": { "type": "number" },
+        "top_p": { "type": "number" },
+        "pause_before_ms": { "type": "integer" },
+        "pause_after_ms": { "type": "integer" },
+        "prosody": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["pitch", "energy", "cadence"],
+          "properties": {
+            "pitch": { "type": "string" },
+            "energy": { "type": "number" },
+            "cadence": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

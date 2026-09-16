@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bereia.dev/schemas/narration-director.schema.json",
+  "title": "Narration Director Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["literary_type", "segments"],
+  "properties": {
+    "literary_type": {
+      "type": "string",
+      "enum": [
+        "narrative",
+        "law",
+        "poetry",
+        "wisdom",
+        "prophecy",
+        "gospel",
+        "epistle",
+        "apocalyptic",
+        "genealogy"
+      ]
+    },
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/segment" }
+    }
+  },
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]{0,63}$"
+    },
+    "segment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unit_ids",
+        "speaker",
+        "character",
+        "voice_id",
+        "character_description",
+        "tone",
+        "emotion",
+        "intensity",
+        "pace",
+        "exaggeration",
+        "cfg_weight",
+        "temperature",
+        "repetition_penalty",
+        "min_p",
+        "top_p",
+        "pause_before_ms",
+        "pause_after_ms",
+        "prosody"
+      ],
+      "properties": {
+        "unit_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^u[0-9]{4}$" }
+        },
+        "speaker": { "$ref": "#/$defs/identifier" },
+        "character": {
+          "anyOf": [
+            { "$ref": "#/$defs/identifier" },
+            { "type": "null" }
+          ]
+        },
+        "voice_id": { "$ref": "#/$defs/identifier" },
+        "character_description": {
+          "anyOf": [
+            { "type": "string" },
+            { "type": "null" }
+          ]
+        },
+        "tone": {
+          "type": "string",
+          "enum": [
+            "narrative",
+            "solemn",
+            "commanding",
+            "dialogue",
+            "lament",
+            "joy",
+            "warning",
+            "prophetic",
+            "contemplative"
+          ]
+        },
+        "emotion": {
+          "type": "string",
+          "enum": [
+            "neutral",
+            "awe",
+            "tenderness",
+            "grief",
+            "joy",
+            "urgency",
+            "warning",
+            "resolve"
+          ]
+        },
+        "intensity": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "pace": { "type": "number", "minimum": 0.75, "maximum": 1.15 },
+        "exaggeration": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "cfg_weight": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "temperature": { "type": "number", "minimum": 0.5, "maximum": 1.2 },
+        "repetition_penalty": { "type": "number", "minimum": 1.0, "maximum": 2.0 },
+        "min_p": { "type": "number", "minimum": 0.0, "maximum": 0.2 },
+        "top_p": { "type": "number", "minimum": 0.5, "maximum": 1.0 },
+        "pause_before_ms": { "type": "integer", "minimum": 0, "maximum": 3000 },
+        "pause_after_ms": { "type": "integer", "minimum": 0, "maximum": 3000 },
+        "prosody": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["pitch", "energy", "cadence"],
+          "properties": {
+            "pitch": { "type": "string", "enum": ["low", "neutral", "high"] },
+            "energy": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+            "cadence": {
+              "type": "string",
+              "enum": ["flowing", "measured", "deliberate", "firm", "gentle"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

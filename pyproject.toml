@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bereia-bible-audio"
+version = "0.1.0"
+description = "Local Bereia Bible audiobook production with Chatterbox and MLX"
+readme = "docs/bereia-audio.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+dependencies = [
+  "mlx-audio==0.5.3",
+]
+
+[project.scripts]
+bereia-audio = "bereia_audio.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["translation", "pipeline", "qa_reports", "output", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]

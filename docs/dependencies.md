@@ -11,6 +11,27 @@
   + bastion, licença na allowlist de código (não confundir com a allowlist de
   fontes de dados).
 
+## Audio Production Python runtime
+
+Audio Production keeps its Python 3.12 runtime separate from the zero-dependency
+Go code. `requirements.lock` pins every resolved package and hash for the local
+macOS arm64 environment; ADR-0006 records the adoption decision.
+
+| Direct dependency | Version | License | Owner | Reason | Last reviewed | Removal condition |
+|---|---:|---|---|---|---|---|
+| `mlx-audio` | 0.5.3 | MIT | Osvaldo Andrade | Run Chatterbox Multilingual through Apple MLX/Metal without CUDA or CPU inference. | 2026-09-09 | Remove with the local audio-production context. |
+
+The runtime downloads but does not redistribute
+`mlx-community/chatterbox-fp16@4923fcca09086356aeab5191a2348c5a17a23694`
+(Apache-2.0) and
+`mlx-community/S3TokenizerV2@e0c9886f0e1c35ae85b1f27277416fb19fc72bec`.
+The tokenizer conversion omits a license field; its declared base model,
+`FunAudioLLM/CosyVoice2-0.5B`, declares Apache-2.0. Publishing either weight set
+requires a new license review.
+
+System tools `codex` and FFmpeg remain operator-installed executables rather
+than Python dependencies. The CLI verifies their presence and versions.
+
 ## Fontes de dados (dependências de conteúdo)
 
 Registradas em `sources/manifest.json` (contrato: `api/manifest.schema.json`),

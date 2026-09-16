@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bereia.dev/schemas/character-registry.schema.json",
+  "title": "Character Registry",
+  "type": "object",
+  "minProperties": 1,
+  "required": ["narrator"],
+  "propertyNames": { "pattern": "^[a-z][a-z0-9_-]{0,63}$" },
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["voice_id", "description"],
+    "properties": {
+      "voice_id": { "type": "string", "pattern": "^[a-z][a-z0-9_-]{0,63}$" },
+      "description": { "type": "string", "minLength": 1 }
+    }
+  }
+}
